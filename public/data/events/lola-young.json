@@ -1,0 +1,1009 @@
+[
+  {
+    "id": "tm-lola-young-2027-nashville-z7r9jz1aaebv0",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "Lola Young",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Pinnacle - TN",
+    "datetime_iso": "2027-04-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAebv0",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebv0",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/nashville-tennessee-the-pinnacle-nashville-2027-04-06-8-pm/concert/18649730",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebv0",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAebv0",
+        "discovery_event_id": "Z7r9jZ1AAebv0",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebv0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAebv0",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-atlanta-vvg1zz_f7qhai6",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "LOLA YOUNG - Everything Begins",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Roxy",
+    "datetime_iso": "2027-04-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0065411A6C9B07",
+    "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-atlanta-georgia-04-07-2027/event/0E0065411A6C9B07",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-04-07-8-pm/concert/18649708",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-atlanta-georgia-04-07-2027/event/0E0065411A6C9B07",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0065411A6C9B07",
+        "discovery_event_id": "vvG1zZ_f7Qhai6",
+        "url": "https://www.ticketmaster.com/lola-young-everything-begins-atlanta-georgia-04-07-2027/event/0E0065411A6C9B07",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_f7Qhai6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-washington-1a4zk4egkeystl8",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "LOLA YOUNG - Everything Begins",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2027-04-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006542B9C7FAD0",
+    "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-washington-district-of-columbia-04-09-2027/event/15006542B9C7FAD0",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/washington-district-of-columbia-the-anthem-dc-2027-04-09-8-pm/concert/18649706",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-washington-district-of-columbia-04-09-2027/event/15006542B9C7FAD0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006542B9C7FAD0",
+        "discovery_event_id": "1A4Zk4eGkeysTl8",
+        "url": "https://www.ticketmaster.com/lola-young-everything-begins-washington-district-of-columbia-04-09-2027/event/15006542B9C7FAD0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zk4eGkeysTl8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-philadelphia-vv17fz_kgkmkg0sm",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "LOLA YOUNG - Everything Begins",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Met Presented by Highmark",
+    "datetime_iso": "2027-04-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200653DC6324CEE",
+    "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-philadelphia-pennsylvania-04-10-2027/event/0200653DC6324CEE",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-04-10-8-pm/concert/18649707",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-philadelphia-pennsylvania-04-10-2027/event/0200653DC6324CEE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200653DC6324CEE",
+        "discovery_event_id": "vv17FZ_KGkMkG0Sm",
+        "url": "https://www.ticketmaster.com/lola-young-everything-begins-philadelphia-pennsylvania-04-10-2027/event/0200653DC6324CEE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_KGkMkG0Sm",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-new-york-g5dyz_fkt1eua",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "LOLA YOUNG - Everything Begins",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Radio City Music Hall",
+    "datetime_iso": "2027-04-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3C006541A9282349",
+    "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-new-york-new-york-04-12-2027/event/3C006541A9282349",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/new-york-new-york-radio-city-music-hall-2027-04-12-8-pm/concert/18649709",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-new-york-new-york-04-12-2027/event/3C006541A9282349",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3C006541A9282349",
+        "discovery_event_id": "G5dYZ_fkt1eua",
+        "url": "https://www.ticketmaster.com/lola-young-everything-begins-new-york-new-york-04-12-2027/event/3C006541A9282349",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dYZ_fkt1eua",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-boston-z7r9jz1aaebvp",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "Lola Young",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Roadrunner-Boston",
+    "datetime_iso": "2027-04-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAebvP",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebvP",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/boston-massachusetts-roadrunner-boston-2027-04-13-8-pm/concert/18649732",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebvP",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAebvP",
+        "discovery_event_id": "Z7r9jZ1AAebvP",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebvP",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAebvP",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-toronto-z7r9jz1aaebvx",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "Lola Young",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Massey Hall",
+    "datetime_iso": "2027-04-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAebvx",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAebvx",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/toronto-canada-massey-hall-2027-04-15-8-pm/concert/18649734",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAebvx",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAebvx",
+        "discovery_event_id": "Z7r9jZ1AAebvx",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAebvx",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAebvx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-toronto-z7r9jz1aaebvn",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "Lola Young",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Massey Hall",
+    "datetime_iso": "2027-04-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAebvN",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAebvN",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/toronto-canada-massey-hall-2027-04-16-8-pm/concert/18649736",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAebvN",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAebvN",
+        "discovery_event_id": "Z7r9jZ1AAebvN",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAebvN",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAebvN",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-detroit-vv1afzk4vgkdwfh0c",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "LOLA YOUNG - Everything Begins",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2027-04-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006541F251B92D",
+    "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-detroit-michigan-04-18-2027/event/08006541F251B92D",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/detroit-michigan-the-fillmore-detroit-2027-04-18-8-pm/concert/18649711",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-detroit-michigan-04-18-2027/event/08006541F251B92D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006541F251B92D",
+        "discovery_event_id": "vv1AFZk4vGkdwfh0c",
+        "url": "https://www.ticketmaster.com/lola-young-everything-begins-detroit-michigan-04-18-2027/event/08006541F251B92D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk4vGkdwfh0c",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-chicago-vv118z_f13zkq9",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "LOLA YOUNG - Everything Begins",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Salt Shed Indoors (Shed)",
+    "datetime_iso": "2027-04-21T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400654292006697",
+    "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-chicago-illinois-04-20-2027/event/0400654292006697",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/chicago-illinois-the-salt-shed-indoors-2027-04-20-7-30-pm/concert/18649710",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-chicago-illinois-04-20-2027/event/0400654292006697",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400654292006697",
+        "discovery_event_id": "vv118Z_f13ZkQ9",
+        "url": "https://www.ticketmaster.com/lola-young-everything-begins-chicago-illinois-04-20-2027/event/0400654292006697",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv118Z_f13ZkQ9",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-chicago-vv1kvzvpoega5wbhb",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "LOLA YOUNG - Everything Begins",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Salt Shed Indoors (Shed)",
+    "datetime_iso": "2027-04-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040065442BCBA6D8",
+    "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-chicago-illinois-04-21-2027/event/040065442BCBA6D8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-chicago-illinois-04-21-2027/event/040065442BCBA6D8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040065442BCBA6D8",
+        "discovery_event_id": "vv1kvZvPoeGA5wBhb",
+        "url": "https://www.ticketmaster.com/lola-young-everything-begins-chicago-illinois-04-21-2027/event/040065442BCBA6D8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvZvPoeGA5wBhb",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-st-paul-z7r9jz1aaebve",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "Lola Young",
+    "city": "St. Paul",
+    "country": "United States Of America",
+    "venue": "Palace Theatre-MN",
+    "datetime_iso": "2027-04-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAebvE",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebvE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebvE",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAebvE",
+        "discovery_event_id": "Z7r9jZ1AAebvE",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebvE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAebvE",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-denver-g5vzz_f11k7mj",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "LOLA YOUNG - Everything Begins",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Fillmore Auditorium (Denver)",
+    "datetime_iso": "2027-04-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0065428A184B9C",
+    "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-denver-colorado-04-25-2027/event/1E0065428A184B9C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-denver-colorado-04-25-2027/event/1E0065428A184B9C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0065428A184B9C",
+        "discovery_event_id": "G5vzZ_f11k7mj",
+        "url": "https://www.ticketmaster.com/lola-young-everything-begins-denver-colorado-04-25-2027/event/1E0065428A184B9C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_f11k7mj",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-salt-lake-city-g5vzz_fk8daho",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "LOLA YOUNG - Everything Begins",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Union",
+    "datetime_iso": "2027-04-27T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00654190EC5F11",
+    "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-salt-lake-city-utah-04-26-2027/event/1E00654190EC5F11",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-salt-lake-city-utah-04-26-2027/event/1E00654190EC5F11",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00654190EC5F11",
+        "discovery_event_id": "G5vzZ_fk8DAHo",
+        "url": "https://www.ticketmaster.com/lola-young-everything-begins-salt-lake-city-utah-04-26-2027/event/1E00654190EC5F11",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_fk8DAHo",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-seattle-vvg1hz_falrsfg",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "LOLA YOUNG - Everything Begins",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "WAMU Theater",
+    "datetime_iso": "2027-04-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0065425FBF120C",
+    "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-seattle-washington-04-28-2027/event/0F0065425FBF120C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-seattle-washington-04-28-2027/event/0F0065425FBF120C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0065425FBF120C",
+        "discovery_event_id": "vvG1HZ_faLRsFG",
+        "url": "https://www.ticketmaster.com/lola-young-everything-begins-seattle-washington-04-28-2027/event/0F0065425FBF120C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_faLRsFG",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-vancouver-16ozk4vpyzau66a6",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "LOLA YOUNG - Everything Begins",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "UBC - Doug Mitchell Thunderbird Sports Centre",
+    "datetime_iso": "2027-04-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006541970C6686",
+    "ticketmaster_url": "https://www.ticketmaster.ca/lola-young-everything-begins-vancouver-british-columbia-04-29-2027/event/11006541970C6686",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/lola-young-everything-begins-vancouver-british-columbia-04-29-2027/event/11006541970C6686",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006541970C6686",
+        "discovery_event_id": "16oZk4vPYZAu66a6",
+        "url": "https://www.ticketmaster.ca/lola-young-everything-begins-vancouver-british-columbia-04-29-2027/event/11006541970C6686",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16oZk4vPYZAu66a6",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-san-francisco-g5vyz_f6gluub",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "LOLA YOUNG - Everything Begins",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2027-05-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006541CC7F6358",
+    "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-san-francisco-california-05-01-2027/event/1C006541CC7F6358",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-san-francisco-california-05-01-2027/event/1C006541CC7F6358",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006541CC7F6358",
+        "discovery_event_id": "G5vYZ_f6GLUub",
+        "url": "https://www.ticketmaster.com/lola-young-everything-begins-san-francisco-california-05-01-2027/event/1C006541CC7F6358",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_f6GLUub",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-los-angeles-vv16azk4e0kza8aeaf",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "LOLA YOUNG - Everything Begins",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Greek Theatre",
+    "datetime_iso": "2027-05-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006542913F8147",
+    "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-los-angeles-california-05-04-2027/event/09006542913F8147",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-los-angeles-california-05-04-2027/event/09006542913F8147",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006542913F8147",
+        "discovery_event_id": "vv16aZk4e0KZA8aeAF",
+        "url": "https://www.ticketmaster.com/lola-young-everything-begins-los-angeles-california-05-04-2027/event/09006542913F8147",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16aZk4e0KZA8aeAF",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lola-young-2027-dublin-1avoz_ogknk-ukb",
+    "artist_slug": "lola-young",
+    "artist_name": "Lola Young",
+    "event_name": "Lola Young",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Fairview Park",
+    "datetime_iso": "2027-06-22T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800651A8684D4D8",
+    "ticketmaster_url": "https://www.ticketmaster.ie/lola-young-dublin-22-06-2027/event/1800651A8684D4D8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/lola-young-dublin-22-06-2027/event/1800651A8684D4D8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800651A8684D4D8",
+        "discovery_event_id": "1AvOZ_oGknk-uKb",
+        "url": "https://www.ticketmaster.ie/lola-young-dublin-22-06-2027/event/1800651A8684D4D8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_oGknk-uKb",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

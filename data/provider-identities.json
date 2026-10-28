@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -2273,6 +2273,94 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-27 (sanctioned path D): SeatGeek performer 267482 and Ticketmaster attraction K8vZ9173ujV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "usher",
+      "ticketmaster_attraction_id": "K8vZ9171bMV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/usher-tickets/artist/766722",
+      "seatgeek_performer_id": 1969,
+      "seatgeek_artist_url": "https://seatgeek.com/usher-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-28 (sanctioned path D): SeatGeek performer 1969 and Ticketmaster attraction K8vZ9171bMV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "illenium",
+      "ticketmaster_attraction_id": "K8vZ9173V70",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/illenium-tickets/artist/2035639",
+      "seatgeek_performer_id": 297734,
+      "seatgeek_artist_url": "https://seatgeek.com/illenium-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-28 (sanctioned path D): SeatGeek performer 297734 and Ticketmaster attraction K8vZ9173V70 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "lola-young",
+      "ticketmaster_attraction_id": "K8vZ917_Njf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/lola-young-tickets/artist/2813510",
+      "seatgeek_performer_id": 808778,
+      "seatgeek_artist_url": "https://seatgeek.com/lola-young-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-28 (sanctioned path D): SeatGeek performer 808778 and Ticketmaster attraction K8vZ917_Njf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "james-blunt",
+      "ticketmaster_attraction_id": "K8vZ9175nQf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/james-blunt-tickets/artist/980710",
+      "seatgeek_performer_id": 905,
+      "seatgeek_artist_url": "https://seatgeek.com/james-blunt-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-28 (sanctioned path D): SeatGeek performer 905 and Ticketmaster attraction K8vZ9175nQf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "bryan-adams",
+      "ticketmaster_attraction_id": "K8vZ9171ugV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/bryan-adams-tickets/artist/734390",
+      "seatgeek_performer_id": 383,
+      "seatgeek_artist_url": "https://seatgeek.com/bryan-adams-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-28 (sanctioned path D): SeatGeek performer 383 and Ticketmaster attraction K8vZ9171ugV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "megadeth",
+      "ticketmaster_attraction_id": "K8vZ9171G97",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/megadeth-tickets/artist/735627",
+      "seatgeek_performer_id": 1224,
+      "seatgeek_artist_url": "https://seatgeek.com/megadeth-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-28 (sanctioned path D): SeatGeek performer 1224 and Ticketmaster attraction K8vZ9171G97 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "simple-plan",
+      "ticketmaster_attraction_id": "K8vZ9175egf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/simple-plan-tickets/artist/840419",
+      "seatgeek_performer_id": 9746,
+      "seatgeek_artist_url": "https://seatgeek.com/simple-plan-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-28 (sanctioned path D): SeatGeek performer 9746 and Ticketmaster attraction K8vZ9175egf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "simply-red",
+      "ticketmaster_attraction_id": "K8vZ91718b7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/simply-red-tickets/artist/736121",
+      "seatgeek_performer_id": 1630,
+      "seatgeek_artist_url": "https://seatgeek.com/simply-red-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-28 (sanctioned path D): SeatGeek performer 1630 and Ticketmaster attraction K8vZ91718b7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

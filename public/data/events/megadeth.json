@@ -1,0 +1,585 @@
+[
+  {
+    "id": "tm-megadeth-2027-belfast-17czv0g62pvlvd8",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth - Breakout: Hibernation Of The Nations Europe Tour 2027",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "The O2 Belfast",
+    "datetime_iso": "2027-03-09T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "380064F5B47C10D0",
+    "ticketmaster_url": "https://www.ticketmaster.ie/megadeth-breakout-hibernation-of-the-nations-belfast-09-03-2027/event/380064F5B47C10D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/megadeth-breakout-hibernation-of-the-nations-belfast-09-03-2027/event/380064F5B47C10D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "380064F5B47C10D0",
+        "discovery_event_id": "17CZv0G62pVLvd8",
+        "url": "https://www.ticketmaster.ie/megadeth-breakout-hibernation-of-the-nations-belfast-09-03-2027/event/380064F5B47C10D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17CZv0G62pVLvd8",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-london-17uyv0g62ffnale",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth - Breakout: Hibernation Of The Nations Europe Tour 2027",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "OVO Arena Wembley",
+    "datetime_iso": "2027-03-11T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064F508A857C2",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-london-11-03-2027/event/370064F508A857C2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-london-11-03-2027/event/370064F508A857C2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064F508A857C2",
+        "discovery_event_id": "17uYv0G62fFnALe",
+        "url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-london-11-03-2027/event/370064F508A857C2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G62fFnALe",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-nottingham-17u8v0g62r_1dp-",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth - Breakout: Hibernation Of The Nations Europe Tour 2027",
+    "city": "Nottingham",
+    "country": "Great Britain",
+    "venue": "Motorpoint Arena Nottingham",
+    "datetime_iso": "2027-03-12T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064F799283961",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-nottingham-12-03-2027/event/350064F799283961",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-nottingham-12-03-2027/event/350064F799283961",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064F799283961",
+        "discovery_event_id": "17u8v0G62r_1dP-",
+        "url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-nottingham-12-03-2027/event/350064F799283961",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G62r_1dP-",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-manchester-17uyv0g62wxq-cs",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth - Breakout: Hibernation Of The Nations Europe Tour 2027",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-03-13T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064FCBE761B71",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-manchester-13-03-2027/event/370064FCBE761B71",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-manchester-13-03-2027/event/370064FCBE761B71",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064FCBE761B71",
+        "discovery_event_id": "17uYv0G62wXq-cs",
+        "url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-manchester-13-03-2027/event/370064FCBE761B71",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G62wXq-cs",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-cardiff-17uov0g62hgl_w2",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth - Breakout: Hibernation Of The Nations Europe Tour 2027",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Cardiff",
+    "datetime_iso": "2027-03-15T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064F6CCAD9F4F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-cardiff-15-03-2027/event/360064F6CCAD9F4F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-cardiff-15-03-2027/event/360064F6CCAD9F4F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064F6CCAD9F4F",
+        "discovery_event_id": "17uOv0G62hGl_W2",
+        "url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-cardiff-15-03-2027/event/360064F6CCAD9F4F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G62hGl_W2",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-glasgow-17uov0g62mgifrs",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth - Breakout: Hibernation Of The Nations Europe Tour 2027",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-03-16T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064FDCCA08BF3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-glasgow-16-03-2027/event/360064FDCCA08BF3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-glasgow-16-03-2027/event/360064FDCCA08BF3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064FDCCA08BF3",
+        "discovery_event_id": "17uOv0G62MGIFRS",
+        "url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-glasgow-16-03-2027/event/360064FDCCA08BF3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G62MGIFRS",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-birmingham-17fyv0g62qpke7_",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth - Breakout: Hibernation Of The Nations Europe Tour 2027",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "bp pulse LIVE",
+    "datetime_iso": "2027-03-18T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "230064F6A51A7119",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-birmingham-18-03-2027/event/230064F6A51A7119",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-birmingham-18-03-2027/event/230064F6A51A7119",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "230064F6A51A7119",
+        "discovery_event_id": "17FYv0G62QPkE7_",
+        "url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-birmingham-18-03-2027/event/230064F6A51A7119",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FYv0G62QPkE7_",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-leeds-g5vhz_2hqzflr",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth - Breakout: Hibernation Of The Nations Europe Tour 2027",
+    "city": "Leeds",
+    "country": "Great Britain",
+    "venue": "Leeds First Direct Bank Arena",
+    "datetime_iso": "2027-03-19T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064F6DA0147EF",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-leeds-19-03-2027/event/1F0064F6DA0147EF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-leeds-19-03-2027/event/1F0064F6DA0147EF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064F6DA0147EF",
+        "discovery_event_id": "G5vHZ_2hQZfLR",
+        "url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-leeds-19-03-2027/event/1F0064F6DA0147EF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_2hQZfLR",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-forest-brussels-z698xzg2z1k1kjboj",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth - Breakout: Hibernation Of The Nations Europe Tour 2027",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-03-23T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "286998826",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/megadeth-breakout-hibernation-of-the-nations-europe-tour-2027-tickets/286998826",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/megadeth-breakout-hibernation-of-the-nations-europe-tour-2027-tickets/286998826",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "286998826",
+        "discovery_event_id": "Z698xZG2Z1k1kJbOJ",
+        "url": "https://www.ticketmaster.be/event/megadeth-breakout-hibernation-of-the-nations-europe-tour-2027-tickets/286998826",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1k1kJbOJ",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-dusseldorf-z698xzc2z1a-7kfe",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth - Breakout: Hibernation Of The Nations Europe Tour 2027",
+    "city": "Düsseldorf",
+    "country": "Germany",
+    "venue": "Mitsubishi Electric HALLE",
+    "datetime_iso": "2027-03-25T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "21113202",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/megadeth-breakout-hibernation-of-the-nations-europe-tour-2027-tickets/21113202?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/megadeth-breakout-hibernation-of-the-nations-europe-tour-2027-tickets/21113202?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21113202",
+        "discovery_event_id": "Z698xZC2Z1A-7KFe",
+        "url": "https://www.ticketmaster.de/event/megadeth-breakout-hibernation-of-the-nations-europe-tour-2027-tickets/21113202?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1A-7KFe",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-oslo-z698xzb_z16vo9vpvy",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth - Breakout: Hibernation Of The Nations Europe Tour 2027",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Oslo Spektrum",
+    "datetime_iso": "2027-03-28T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1457065070",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/megadeth-breakout-hibernation-of-the-nations-europe-tour-2027-tickets/1457065070?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/megadeth-breakout-hibernation-of-the-nations-europe-tour-2027-tickets/1457065070?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1457065070",
+        "discovery_event_id": "Z698xZb_Z16vo9vPvY",
+        "url": "https://www.ticketmaster.no/event/megadeth-breakout-hibernation-of-the-nations-europe-tour-2027-tickets/1457065070?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16vo9vPvY",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  }
+]

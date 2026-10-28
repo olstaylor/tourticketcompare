@@ -662,6 +662,10 @@ prove that an order predates tracking. If the click lookup fails after Impact
 was read, order states and payouts remain available, attribution is **unknown**,
 and `attribution_unavailable` replaces a misleading zero-match result. These
 amber findings stay in the rolling report; only new red flags trigger comments.
+The workflow passes both current `CAMPAIGN_ID` and legacy `PROGRAM_ID` secrets
+for SeatGeek and Vivid Seats, matching the resolver's current-first precedence.
+These reporting settings must identify the same campaigns as the live redirects;
+a successful redirect alone does not establish that the reporting job is mapped.
 
 ## What cannot be measured
 

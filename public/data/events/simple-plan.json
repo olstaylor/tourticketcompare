@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "10006498AC42541D",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-niagara-falls-ontario-12-19-2026/event/10006498AC42541D",
     "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2026-12-19-8-pm/concert/18207565",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-niagara-falls-olg-stage-at-fallsview-casino-12-19-2026/production/6956832",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-niagara-falls-ontario-12-19-2026/event/10006498AC42541D",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6956832,
+        "url": "https://www.vividseats.com/simple-plan-tickets-niagara-falls-olg-stage-at-fallsview-casino-12-19-2026/production/6956832",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "1100654298F770A2",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-vancouver-british-columbia-01-27-2027/event/1100654298F770A2",
     "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/vancouver-canada-rogers-arena-2027-01-27-6-pm/concert/18655536",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-vancouver-rogers-arena-1-27-2027/production/7658722",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-vancouver-british-columbia-01-27-2027/event/1100654298F770A2",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658722,
+        "url": "https://www.vividseats.com/simple-plan-tickets-vancouver-rogers-arena-1-27-2027/production/7658722",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "1100653DD6A6D925",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-edmonton-alberta-01-29-2027/event/1100653DD6A6D925",
     "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/edmonton-canada-rogers-place-2027-01-29-6-pm/concert/18656777",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-edmonton-rogers-place-1-29-2027/production/7658547",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-edmonton-alberta-01-29-2027/event/1100653DD6A6D925",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658547,
+        "url": "https://www.vividseats.com/simple-plan-tickets-edmonton-rogers-place-1-29-2027/production/7658547",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "1100653ECF5AC2E3",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-calgary-alberta-01-31-2027/event/1100653ECF5AC2E3",
     "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/calgary-canada-scotiabank-saddledome-2027-01-31-6-pm/concert/18655725",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-calgary-scotiabank-saddledome-1-31-2027/production/7658543",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-calgary-alberta-01-31-2027/event/1100653ECF5AC2E3",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658543,
+        "url": "https://www.vividseats.com/simple-plan-tickets-calgary-scotiabank-saddledome-1-31-2027/production/7658543",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "1100653DD302D2A1",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-saskatoon-saskatchewan-02-01-2027/event/1100653DD302D2A1",
     "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/saskatoon-canada-sasktel-centre-2027-02-01-7-pm/concert/18655541",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-saskatoon-sasktel-centre-2-1-2027/production/7658273",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-saskatoon-saskatchewan-02-01-2027/event/1100653DD302D2A1",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658273,
+        "url": "https://www.vividseats.com/simple-plan-tickets-saskatoon-sasktel-centre-2-1-2027/production/7658273",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "11006542800E35EF",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-winnipeg-manitoba-02-02-2027/event/11006542800E35EF",
     "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/winnipeg-canada-canada-life-centre-2027-02-02-7-pm/concert/18655545",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-winnipeg-canada-life-centre-2-2-2027/production/7658692",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-winnipeg-manitoba-02-02-2027/event/11006542800E35EF",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658692,
+        "url": "https://www.vividseats.com/simple-plan-tickets-winnipeg-canada-life-centre-2-2-2027/production/7658692",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "10006542927768CB",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-toronto-ontario-02-05-2027/event/10006542927768CB",
     "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/toronto-canada-scotiabank-arena-2027-02-05-7-pm/concert/18655543",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-toronto-scotiabank-arena-2-5-2027/production/7658702",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-toronto-ontario-02-05-2027/event/10006542927768CB",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658702,
+        "url": "https://www.vividseats.com/simple-plan-tickets-toronto-scotiabank-arena-2-5-2027/production/7658702",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "10006545A9698FDC",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kitchener-ontario-02-06-2027/event/10006545A9698FDC",
     "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/kitchener-canada-kitchener-memorial-auditorium-complex-2027-02-06-7-pm/concert/18655730",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-kitchener-kitchener-memorial-auditorium-complex-2-6-2027/production/7658577",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kitchener-ontario-02-06-2027/event/10006545A9698FDC",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658577,
+        "url": "https://www.vividseats.com/simple-plan-tickets-kitchener-kitchener-memorial-auditorium-complex-2-6-2027/production/7658577",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "100065432680C706",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-london-ontario-02-07-2027/event/100065432680C706",
     "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/london-canada-canada-life-place-2027-02-07-7-pm/concert/18655528",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-london-canada-life-place-2-7-2027/production/7658718",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-london-ontario-02-07-2027/event/100065432680C706",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658718,
+        "url": "https://www.vividseats.com/simple-plan-tickets-london-canada-life-place-2-7-2027/production/7658718",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "10006541D8773739",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kingston-ontario-02-09-2027/event/10006541D8773739",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-kingston-slush-puppie-place-2-9-2027/production/7658700",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kingston-ontario-02-09-2027/event/10006541D8773739",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658700,
+        "url": "https://www.vividseats.com/simple-plan-tickets-kingston-slush-puppie-place-2-9-2027/production/7658700",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "3100653EE19F95B9",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-montreal-quebec-02-12-2027/event/3100653EE19F95B9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-montreal-bell-centre-2-12-2027/production/7658696",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-montreal-quebec-02-12-2027/event/3100653EE19F95B9",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658696,
+        "url": "https://www.vividseats.com/simple-plan-tickets-montreal-bell-centre-2-12-2027/production/7658696",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "31006539CEFE907F",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-moncton-new-brunswick-02-14-2027/event/31006539CEFE907F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-moncton-avenir-centre-2-14-2027/production/7658583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-moncton-new-brunswick-02-14-2027/event/31006539CEFE907F",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658583,
+        "url": "https://www.vividseats.com/simple-plan-tickets-moncton-avenir-centre-2-14-2027/production/7658583",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "31006545BE3C6548",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-the-bigger-than-you-sydney-nova-scotia-02-15-2027/event/31006545BE3C6548",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-sydney-centre-200-2-15-2027/production/7658581",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-the-bigger-than-you-sydney-nova-scotia-02-15-2027/event/31006545BE3C6548",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658581,
+        "url": "https://www.vividseats.com/simple-plan-tickets-sydney-centre-200-2-15-2027/production/7658581",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "3100653DE09B9102",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-halifax-nova-scotia-02-16-2027/event/3100653DE09B9102",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-halifax-scotiabank-centre-2-16-2027/production/7658579",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-halifax-nova-scotia-02-16-2027/event/3100653DE09B9102",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658579,
+        "url": "https://www.vividseats.com/simple-plan-tickets-halifax-scotiabank-centre-2-16-2027/production/7658579",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

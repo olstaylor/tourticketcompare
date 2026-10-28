@@ -354,7 +354,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P6r4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6r4",
     "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2026-10-29-8-pm/concert/18266705",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-10-29-2026/production/7080417",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6r4",
     "last_verified_at": null,
@@ -376,11 +376,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7080417,
+        "url": "https://www.vividseats.com/tom-jones-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-10-29-2026/production/7080417",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

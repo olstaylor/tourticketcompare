@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "1C006537247E9E87",
     "ticketmaster_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-12-30-2026/event/1C006537247E9E87",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/illenium-tickets-san-francisco-bill-graham-civic-auditorium-12-30-2026/production/7609174",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-12-30-2026/event/1C006537247E9E87",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7609174,
+        "url": "https://www.vividseats.com/illenium-tickets-san-francisco-bill-graham-civic-auditorium-12-30-2026/production/7609174",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "1C0065372525A08F",
     "ticketmaster_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-12-31-2026/event/1C0065372525A08F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/illenium-tickets-san-francisco-bill-graham-civic-auditorium-12-31-2026/production/7609172",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-12-31-2026/event/1C0065372525A08F",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7609172,
+        "url": "https://www.vividseats.com/illenium-tickets-san-francisco-bill-graham-civic-auditorium-12-31-2026/production/7609172",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "1C00653D9D023EF4",
     "ticketmaster_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-01-01-2027/event/1C00653D9D023EF4",
     "seatgeek_url": "https://seatgeek.com/illenium-tickets/san-francisco-california-bill-graham-civic-auditorium-2027-01-01-8-pm/concert/18723868",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/illenium-tickets-san-francisco-bill-graham-civic-auditorium-1-1-2027/production/7757695",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-01-01-2027/event/1C00653D9D023EF4",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7757695,
+        "url": "https://www.vividseats.com/illenium-tickets-san-francisco-bill-graham-civic-auditorium-1-1-2027/production/7757695",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

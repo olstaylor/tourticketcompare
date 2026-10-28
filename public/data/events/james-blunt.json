@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "1F00650BF57F73D4",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-leeds-26-03-2027/event/1F00650BF57F73D4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-leeds-first-direct-arena---leeds-3-26-2027--concerts-pop/production/7534516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-leeds-26-03-2027/event/1F00650BF57F73D4",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7534516,
+        "url": "https://www.vividseats.com/james-blunt-tickets-leeds-first-direct-arena---leeds-3-26-2027--concerts-pop/production/7534516",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "23006511912B301D",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-birmingham-27-03-2027/event/23006511912B301D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-3-27-2027/production/7528674",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-birmingham-27-03-2027/event/23006511912B301D",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7528674,
+        "url": "https://www.vividseats.com/james-blunt-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-3-27-2027/production/7528674",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "1F006507386CBDF6",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-newcastle-upon-tyne-28-03-2027/event/1F006507386CBDF6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-newcastle-upon-tyne-utilita-arena-newcastle-3-28-2027/production/7530268",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-newcastle-upon-tyne-28-03-2027/event/1F006507386CBDF6",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7530268,
+        "url": "https://www.vividseats.com/james-blunt-tickets-newcastle-upon-tyne-utilita-arena-newcastle-3-28-2027/production/7530268",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "3800651891D21203",
     "ticketmaster_url": "https://www.ticketmaster.ie/james-blunt-belfast-31-03-2027/event/3800651891D21203",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-belfast-the-o2---belfast-3-31-2027--concerts-pop/production/7534518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/james-blunt-belfast-31-03-2027/event/3800651891D21203",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7534518,
+        "url": "https://www.vividseats.com/james-blunt-tickets-belfast-the-o2---belfast-3-31-2027--concerts-pop/production/7534518",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "36006513DCD8B1BD",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-glasgow-02-04-2027/event/36006513DCD8B1BD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-glasgow-ovo-hydro-4-2-2027/production/7530133",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-glasgow-02-04-2027/event/36006513DCD8B1BD",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7530133,
+        "url": "https://www.vividseats.com/james-blunt-tickets-glasgow-ovo-hydro-4-2-2027/production/7530133",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "37006506C13F1BD3",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-manchester-03-04-2027/event/37006506C13F1BD3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-manchester-co-op-live-4-3-2027--concerts-pop/production/7514723",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-manchester-03-04-2027/event/37006506C13F1BD3",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7514723,
+        "url": "https://www.vividseats.com/james-blunt-tickets-manchester-co-op-live-4-3-2027--concerts-pop/production/7514723",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "35006507E545875A",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-london-04-04-2027/event/35006507E545875A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-london-the-o2---london-4-4-2027/production/7528612",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-london-04-04-2027/event/35006507E545875A",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7528612,
+        "url": "https://www.vividseats.com/james-blunt-tickets-london-the-o2---london-4-4-2027/production/7528612",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "3600650593B21739",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-cardiff-06-04-2027/event/3600650593B21739",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-cardiff-utilita-arena-cardiff-4-6-2027/production/7530135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-cardiff-06-04-2027/event/3600650593B21739",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7530135,
+        "url": "https://www.vividseats.com/james-blunt-tickets-cardiff-utilita-arena-cardiff-4-6-2027/production/7530135",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "36006507449A8CC8",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-bournemouth-07-04-2027/event/36006507449A8CC8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-bournemouth-bournemouth-international-centre-4-7-2027/production/7530270",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-bournemouth-07-04-2027/event/36006507449A8CC8",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7530270,
+        "url": "https://www.vividseats.com/james-blunt-tickets-bournemouth-bournemouth-international-centre-4-7-2027/production/7530270",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -560,7 +560,7 @@
     "tour_name": "My House Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7PxQ8",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxQ8",
-    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/chicago-illinois-riviera-theatre-chicago-2026-10-27-7-30-pm/concert/18297291",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-chicago-riviera-theatre---il-10-27-2026--concerts-pop/production/7139288",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxQ8",
@@ -576,11 +576,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18297291,
-        "url": "https://seatgeek.com/sienna-spiro-tickets/chicago-illinois-riviera-theatre-chicago-2026-10-27-7-30-pm/concert/18297291",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7139288,
@@ -3364,7 +3364,7 @@
         "event_id": 18702034,
         "url": "https://seatgeek.com/sienna-spiro-tickets/morrison-colorado-red-rocks-amphitheatre-2027-08-30-7-pm/concert/18702034",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {

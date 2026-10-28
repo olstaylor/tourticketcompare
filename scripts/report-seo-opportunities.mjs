@@ -290,6 +290,10 @@ async function selfTest() {
     checks += 1;
   }
   check(renderKeywordBaseline(baseline).includes("not commercial scores"), "baseline labels its evidence limits");
+  const trailingSlashRows = keywordRows('Keyword,Rank,Volume,URL\ncomparison,10,100,https://tourticketcompare.com/guides/vivid-seats-vs-seatgeek/');
+  const trailingSlashPath = "/guides/vivid-seats-vs-seatgeek/";
+  check(trailingSlashRows[0].path === trailingSlashPath, "keyword parsing preserves the exported trailing slash for the actual crawl");
+  check(buildKeywordBaseline(trailingSlashRows, new Map([[trailingSlashPath, { status: 301, indexable: false, location: trailingSlashPath.slice(0, -1) }]]))[0].bucket === "HOLD", "exported redirect is held rather than classified using its canonical destination");
   for (const page of [
     { status: 200, indexable: false, canonical: "https://tourticketcompare.com/" },
     { status: 200, indexable: true, canonical: "https://tourticketcompare.com/artists" },

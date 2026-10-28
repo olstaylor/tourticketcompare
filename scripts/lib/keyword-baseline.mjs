@@ -15,7 +15,9 @@ export function keywordRows(csv) {
     if (url.origin !== "https://tourticketcompare.com" || url.search || url.hash || !keyword || !rankText || !volumeText || !Number.isFinite(rank) || rank < 1 || !Number.isFinite(volume) || volume < 0) {
       throw new Error(`Invalid keyword evidence at row ${i + 2}`);
     }
-    const path = url.pathname.replace(/\/+$/, "") || "/";
+    // Crawl the exported path verbatim. A trailing slash can redirect; using
+    // its canonical destination here would hide the reconciliation work.
+    const path = url.pathname;
     const key = `${path}\n${keyword.toLowerCase()}`;
     if (seen.has(key)) throw new Error(`Duplicate keyword/page at row ${i + 2}`);
     seen.add(key);

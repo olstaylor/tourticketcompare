@@ -309530,5 +309530,59 @@
     "public_onsale_at": "2026-10-30T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343679",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343679/Rod-Stewart-tickets-Sat-Aug-14-2027-The-Venue-At-Thunder-Valley-Casino-Resort"
+  },
+  {
+    "id": "tm-weezer-2027-auckland-1fazvp4sz3z7g15d",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "Weezer - The Gathering Worldwide",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2027-03-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240065573012B9A2",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/weezer-the-gathering-worldwide-auckland-07-03-2027/event/240065573012B9A2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/weezer-the-gathering-worldwide-auckland-07-03-2027/event/240065573012B9A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240065573012B9A2",
+        "discovery_event_id": "1FaZvP4SZ3Z7G15d",
+        "url": "https://www.ticketmaster.co.nz/weezer-the-gathering-worldwide-auckland-07-03-2027/event/240065573012B9A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FaZvP4SZ3Z7G15d",
+    "timezone": "Pacific/Auckland",
+    "status": "announced",
+    "public_onsale_at": "2026-11-05T22:00:00Z"
   }
 ]

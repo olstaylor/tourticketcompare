@@ -38,7 +38,7 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     comparisonProviders: ["seatgeek","vivid-seats"],
     datePublished: "2026-06-11",
-    lastmod: "2026-10-27"
+    lastmod: "2026-10-28"
   },
   "/guides/seatgeek-vs-ticketmaster": {
     title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",

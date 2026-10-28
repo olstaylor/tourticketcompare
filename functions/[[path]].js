@@ -7599,7 +7599,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "/guides/seatgeek-vs-ticketmaster",
       "button button-secondary"
     )}${anchor(
-      "SeatGeek vs Vivid Seats",
+      "Vivid Seats and SeatGeek buying guide",
       "/guides/vivid-seats-vs-seatgeek",
       "button button-secondary"
     )}${anchor(

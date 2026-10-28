@@ -82,7 +82,7 @@ Treat these as differences in the shopping experience. The exact event, ticket, 
 
 ## What TourTicketCompare compares
 
-Choosing between two sites? Read the focused comparisons of [SeatGeek vs Vivid Seats](/guides/vivid-seats-vs-seatgeek), [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) or [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster) for their fees, delivery and buyer protections. To start with a show, [choose an artist and concert date](/artists).
+Choosing between two sites? Read the focused comparisons of [Vivid Seats and SeatGeek buying guide](/guides/vivid-seats-vs-seatgeek), [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) or [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster) for their fees, delivery and buyer protections. To start with a show, [choose an artist and concert date](/artists).
 
 Don't expect a three-way price table: two of these three never carry a price here.
 

@@ -275,11 +275,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8252672",
-        "url": "https://www.ticketnetwork.com/en/p/8252672",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vCpOFak",
@@ -290,7 +290,7 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252672"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-stevie-wonder-2026-dublin-1avoz_ogkmfynew",

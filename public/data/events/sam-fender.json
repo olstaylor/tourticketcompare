@@ -534,6 +534,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8345901",
+        "url": "https://www.ticketnetwork.com/en/p/8345901",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_42lyJlW",
@@ -555,7 +562,8 @@
         "start": "2026-10-28T09:30:00Z",
         "end": "2026-10-30T08:30:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345901"
   },
   {
     "id": "tm-sam-fender-2027-manchester-g5dzz_4k4turs",

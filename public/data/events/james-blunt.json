@@ -417,11 +417,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326044",
+        "url": "https://www.ticketnetwork.com/en/p/8326044",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dOZ_oxoG7V-Fd",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326044"
   },
   {
     "id": "tm-james-blunt-2027-glasgow-1auzkfkgkdju5kw",
@@ -470,11 +478,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272590",
+        "url": "https://www.ticketnetwork.com/en/p/8272590",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfKGkdjU5kW",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272590"
   },
   {
     "id": "tm-james-blunt-2027-manchester-1amzkfkgkdv2srk",
@@ -523,11 +539,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8247670",
+        "url": "https://www.ticketnetwork.com/en/p/8247670",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfkGkdv2sRK",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8247670"
   },
   {
     "id": "tm-james-blunt-2027-london-1agzkf6gkdpobqq",

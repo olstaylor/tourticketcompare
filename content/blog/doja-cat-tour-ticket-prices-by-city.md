@@ -2,9 +2,9 @@
 title: "Doja Cat tour tickets: listed prices city by city"
 seo_title: "Doja Cat tour ticket prices by city"
 description: "Doja Cat tour: the next date in 15 cities, $51.75 in Miami at the low end, $196.65 in New York at the high end."
-summary: "TicketNetwork's lowest listed price for the next Doja Cat date in each of 15 cities, each figure with the time it was captured. Snapshots 28 October 2026."
+summary: "TicketNetwork's lowest listed price for the next Doja Cat date in each of 15 cities, each figure with the time it was captured. Snapshots 29 October 2026."
 date: 2026-10-24
-updated: 2026-10-28
+updated: 2026-10-29
 status: published
 tags:
   - tour-data
@@ -14,27 +14,27 @@ related_guides:
   - primary-vs-resale-concert-tickets
 ---
 
-Doja Cat's Tour Ma Vie World Tour has 17 dates that TourTicketCompare tracks. In the United States, 15 cities had a recent listed price on TicketNetwork. The next date in Miami was listed at $51.75 at the low end, and the next date in New York at $196.65 at the high end, 3.8 times as much. The median city was listed at $78.20.
+Doja Cat's Tour Ma Vie World Tour has 17 dates that TourTicketCompare tracks. In the United States, 15 cities had a recent listed price on TicketNetwork. The next date in Miami was listed at $51.75 at the low end, and the next date in New York at $196.65 at the high end, 3.8 times as much. The median city was listed at $69.
 
 ## Doja Cat ticket prices by city
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Miami](/artists/doja-cat/tickets/miami-united-states) | 11 November 2026 | Kaseya Center | $51.75 | TicketNetwork | 28 October, 08:38 UTC |
-| [Tampa](/artists/doja-cat/tickets/tampa-united-states) | 13 November 2026 | Benchmark International Arena | $54.05 | TicketNetwork | 28 October, 08:38 UTC |
-| [Orlando](/artists/doja-cat/tickets/orlando-united-states) | 14 November 2026 | Kia Center | $56.35 | TicketNetwork | 28 October, 08:38 UTC |
-| [Dallas](/artists/doja-cat/tickets/dallas-united-states) | 4 November 2026 | American Airlines Center | $59.80 | TicketNetwork | 28 October, 08:38 UTC |
-| [San Antonio](/artists/doja-cat/tickets/san-antonio-united-states) | 6 November 2026 | Frost Bank Center | $59.80 | TicketNetwork | 28 October, 08:38 UTC |
-| [Philadelphia](/artists/doja-cat/tickets/philadelphia-united-states) | 29 November 2026 | Xfinity Mobile Arena | $62.10 | TicketNetwork | 28 October, 08:38 UTC |
-| [Austin](/artists/doja-cat/tickets/austin-united-states) | 3 November 2026 | Moody Center ATX | $66.70 | TicketNetwork | 28 October, 08:38 UTC |
-| [Phoenix](/artists/doja-cat/tickets/phoenix-united-states) | 29 October 2026 | Mortgage Matchup Center | $78.20 | TicketNetwork | 28 October, 13:35 UTC |
-| [Washington](/artists/doja-cat/tickets/washington-united-states) | 21 November 2026 | Capital One Arena | $78.20 | TicketNetwork | 28 October, 08:38 UTC |
-| [Charlotte](/artists/doja-cat/tickets/charlotte-united-states) | 18 November 2026 | Spectrum Center | $81.65 | TicketNetwork | 28 October, 08:38 UTC |
-| [Boston](/artists/doja-cat/tickets/boston-united-states) | 23 November 2026 | TD Garden | $85.10 | TicketNetwork | 28 October, 08:38 UTC |
-| [Houston](/artists/doja-cat/tickets/houston-united-states) | 7 November 2026 | Toyota Center - TX | $88.55 | TicketNetwork | 28 October, 08:38 UTC |
-| [Atlanta](/artists/doja-cat/tickets/atlanta-united-states) | 17 November 2026 | State Farm Arena | $98.90 | TicketNetwork | 28 October, 08:38 UTC |
-| [Baltimore](/artists/doja-cat/tickets/baltimore-united-states) | 20 November 2026 | CFG Bank Arena | $116.15 | TicketNetwork | 28 October, 08:38 UTC |
-| [New York](/artists/doja-cat/tickets/new-york-united-states) | 1 December 2026 | Madison Square Garden | $196.65 | TicketNetwork | 28 October, 08:38 UTC |
+| [Miami](/artists/doja-cat/tickets/miami-united-states) | 11 November 2026 | Kaseya Center | $51.75 | TicketNetwork | 29 October, 14:24 UTC |
+| [Tampa](/artists/doja-cat/tickets/tampa-united-states) | 13 November 2026 | Benchmark International Arena | $54.05 | TicketNetwork | 29 October, 14:24 UTC |
+| [Orlando](/artists/doja-cat/tickets/orlando-united-states) | 14 November 2026 | Kia Center | $56.35 | TicketNetwork | 29 October, 14:24 UTC |
+| [Philadelphia](/artists/doja-cat/tickets/philadelphia-united-states) | 29 November 2026 | Xfinity Mobile Arena | $58.65 | TicketNetwork | 29 October, 14:24 UTC |
+| [Charlotte](/artists/doja-cat/tickets/charlotte-united-states) | 18 November 2026 | Spectrum Center | $64.40 | TicketNetwork | 29 October, 14:24 UTC |
+| [Dallas](/artists/doja-cat/tickets/dallas-united-states) | 4 November 2026 | American Airlines Center | $65.55 | TicketNetwork | 29 October, 14:24 UTC |
+| [Austin](/artists/doja-cat/tickets/austin-united-states) | 3 November 2026 | Moody Center ATX | $69 | TicketNetwork | 29 October, 14:24 UTC |
+| [Baltimore](/artists/doja-cat/tickets/baltimore-united-states) | 20 November 2026 | CFG Bank Arena | $69 | TicketNetwork | 29 October, 14:24 UTC |
+| [Washington](/artists/doja-cat/tickets/washington-united-states) | 21 November 2026 | Capital One Arena | $79.35 | TicketNetwork | 29 October, 14:24 UTC |
+| [San Antonio](/artists/doja-cat/tickets/san-antonio-united-states) | 6 November 2026 | Frost Bank Center | $81.65 | TicketNetwork | 29 October, 14:24 UTC |
+| [Boston](/artists/doja-cat/tickets/boston-united-states) | 23 November 2026 | TD Garden | $85.10 | TicketNetwork | 29 October, 14:24 UTC |
+| [Houston](/artists/doja-cat/tickets/houston-united-states) | 7 November 2026 | Toyota Center - TX | $88.55 | TicketNetwork | 29 October, 14:24 UTC |
+| [Atlanta](/artists/doja-cat/tickets/atlanta-united-states) | 17 November 2026 | State Farm Arena | $97.75 | TicketNetwork | 29 October, 14:24 UTC |
+| [Phoenix](/artists/doja-cat/tickets/phoenix-united-states) | 29 October 2026 | Mortgage Matchup Center | $100.05 | TicketNetwork | 29 October, 17:06 UTC |
+| [New York](/artists/doja-cat/tickets/new-york-united-states) | 1 December 2026 | Madison Square Garden | $196.65 | TicketNetwork | 29 October, 14:24 UTC |
 
 Each figure is the lowest listed price on TicketNetwork for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 

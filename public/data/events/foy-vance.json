@@ -1891,5 +1891,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746908",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746908/Foy-Vance-tickets-Fri-Apr-30-2027-Sony-Hall"
+  },
+  {
+    "id": "tm-foy-vance-2027-ardmore-z7r9jz1aa7_fo",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance - Ages 21+",
+    "city": "Ardmore",
+    "country": "United States Of America",
+    "venue": "Ardmore Music Hall",
+    "datetime_iso": "2027-04-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7_Fo",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_Fo",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_Fo",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7_Fo",
+        "discovery_event_id": "Z7r9jZ1AA7_Fo",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_Fo",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_Fo",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

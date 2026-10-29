@@ -1,0 +1,638 @@
+[
+  {
+    "id": "tm-marc-anthony-2026-las-vegas-1a9zk3vgkdfccwq",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony - Vegas... My Way!",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2026-11-21T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006481D438EC9D",
+    "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-20-2026/event/17006481D438EC9D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-20-2026/event/17006481D438EC9D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006481D438EC9D",
+        "discovery_event_id": "1A9Zk3vGkdfCCwq",
+        "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-20-2026/event/17006481D438EC9D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3vGkdfCCwq",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-marc-anthony-2026-las-vegas-1a9zk3vgkdf2mwm",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony - Vegas... My Way!",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2026-11-22T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006481D43EECAE",
+    "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-21-2026/event/17006481D43EECAE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-21-2026/event/17006481D43EECAE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006481D43EECAE",
+        "discovery_event_id": "1A9Zk3vGkdf2mwm",
+        "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-21-2026/event/17006481D43EECAE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3vGkdf2mwm",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcrlvv",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony - Vegas... My Way!",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-02-13T05:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652DEDBDFD01",
+    "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-12-2027/event/1700652DEDBDFD01",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-12-2027/event/1700652DEDBDFD01",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652DEDBDFD01",
+        "discovery_event_id": "1AvjZ_3GkMcRLVv",
+        "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-12-2027/event/1700652DEDBDFD01",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_3GkMcRLVv",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcslva",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony - Vegas... My Way!",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-02-14T05:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652DEDC5FD09",
+    "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-13-2027/event/1700652DEDC5FD09",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-13-2027/event/1700652DEDC5FD09",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652DEDC5FD09",
+        "discovery_event_id": "1AvjZ_3GkMcsLVa",
+        "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-13-2027/event/1700652DEDC5FD09",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_3GkMcsLVa",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcslvq",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony - Vegas... My Way!",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-02-18T05:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652DEDCDFD1A",
+    "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-17-2027/event/1700652DEDCDFD1A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-17-2027/event/1700652DEDCDFD1A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652DEDCDFD1A",
+        "discovery_event_id": "1AvjZ_3GkMcSLVQ",
+        "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-17-2027/event/1700652DEDCDFD1A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_3GkMcSLVQ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcglvg",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony - Vegas... My Way!",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-02-20T05:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652DEDD5FD35",
+    "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-19-2027/event/1700652DEDD5FD35",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-19-2027/event/1700652DEDD5FD35",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652DEDD5FD35",
+        "discovery_event_id": "1AvjZ_3GkMcgLVg",
+        "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-19-2027/event/1700652DEDD5FD35",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_3GkMcgLVg",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcmlvw",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony - Vegas... My Way!",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-02-21T05:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652DEDDDFD3D",
+    "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-20-2027/event/1700652DEDDDFD3D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-20-2027/event/1700652DEDDDFD3D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652DEDDDFD3D",
+        "discovery_event_id": "1AvjZ_3GkMcMLVW",
+        "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-20-2027/event/1700652DEDDDFD3D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_3GkMcMLVW",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcylvt",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony - Vegas... My Way!",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-09-11T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652DEDE5FD3F",
+    "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-10-2027/event/1700652DEDE5FD3F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-10-2027/event/1700652DEDE5FD3F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652DEDE5FD3F",
+        "discovery_event_id": "1AvjZ_3GkMcyLVT",
+        "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-10-2027/event/1700652DEDE5FD3F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_3GkMcyLVT",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcdlga",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony - Vegas... My Way!",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-09-12T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652DEDEDFD45",
+    "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-11-2027/event/1700652DEDEDFD45",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-11-2027/event/1700652DEDEDFD45",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652DEDEDFD45",
+        "discovery_event_id": "1AvjZ_3GkMcDLgA",
+        "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-11-2027/event/1700652DEDEDFD45",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_3GkMcDLgA",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcwlg2",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony - Vegas... My Way!",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-09-18T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652DEDF5FD4F",
+    "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-17-2027/event/1700652DEDF5FD4F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-17-2027/event/1700652DEDF5FD4F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652DEDF5FD4F",
+        "discovery_event_id": "1AvjZ_3GkMcWLg2",
+        "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-17-2027/event/1700652DEDF5FD4F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_3GkMcWLg2",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmctlgh",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony - Vegas... My Way!",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-09-19T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652DEDFDFD5B",
+    "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-18-2027/event/1700652DEDFDFD5B",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-09-18-9-pm/concert/18608830",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-18-2027/event/1700652DEDFDFD5B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652DEDFDFD5B",
+        "discovery_event_id": "1AvjZ_3GkMcTLgh",
+        "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-18-2027/event/1700652DEDFDFD5B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_3GkMcTLgh",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmmv2gl",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony - Vegas... My Way!",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-09-20T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700652DEE04FD6B",
+    "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-19-2027/event/1700652DEE04FD6B",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-09-19-9-pm/concert/18608836",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-19-2027/event/1700652DEE04FD6B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700652DEE04FD6B",
+        "discovery_event_id": "1AvjZ_3GkMmv2gl",
+        "url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-19-2027/event/1700652DEE04FD6B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_3GkMmv2gl",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

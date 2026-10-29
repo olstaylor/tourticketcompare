@@ -1,0 +1,1539 @@
+[
+  {
+    "id": "tm-dropkick-murphys-2027-albuquerque-z7r9jz1aae80p",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Albuquerque",
+    "country": "United States Of America",
+    "venue": "Revel Entertainment Center",
+    "datetime_iso": "2027-02-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe80P",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe80P",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe80P",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe80P",
+        "discovery_event_id": "Z7r9jZ1AAe80P",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe80P",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe80P",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-tempe-1kk8vpu_gacx0xn",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Tempe",
+    "country": "United States Of America",
+    "venue": "Marquee Theatre",
+    "datetime_iso": "2027-02-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190065359E8A4FAA",
+    "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-tempe-arizona-02-06-2027/event/190065359E8A4FAA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dropkick-murphys-tempe-arizona-02-06-2027/event/190065359E8A4FAA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190065359E8A4FAA",
+        "discovery_event_id": "1kk8vPu_GACx0Xn",
+        "url": "https://www.ticketmaster.com/dropkick-murphys-tempe-arizona-02-06-2027/event/190065359E8A4FAA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kk8vPu_GACx0Xn",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-del-mar-rz7hnez1afgypv",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys - St. Patrick’s Day 2027 Tour w/ Spiritual Cramp & Home Front",
+    "city": "Del Mar",
+    "country": "United States Of America",
+    "venue": "The Sound",
+    "datetime_iso": "2027-02-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14339974",
+    "ticketmaster_url": "https://www.ticketweb.com/event/dropkick-murphys-st-the-sound-tickets/14339974",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/dropkick-murphys-st-the-sound-tickets/14339974",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14339974",
+        "discovery_event_id": "rZ7HnEZ1AfGyPV",
+        "url": "https://www.ticketweb.com/event/dropkick-murphys-st-the-sound-tickets/14339974",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGyPV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-anaheim-vv1aazkfugkdym2qo",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys - St. Patrick's Day 2027 Tour",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "House of Blues Anaheim",
+    "datetime_iso": "2027-02-10T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006536F0B8F691",
+    "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-anaheim-california-02-09-2027/event/09006536F0B8F691",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-anaheim-california-02-09-2027/event/09006536F0B8F691",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006536F0B8F691",
+        "discovery_event_id": "vv1AaZkfUGkdYm2Qo",
+        "url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-anaheim-california-02-09-2027/event/09006536F0B8F691",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZkfUGkdYm2Qo",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-sacramento-g5vyz_k9fojar",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys: St. Patrick's Day 2027 Tour",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Channel 24",
+    "datetime_iso": "2027-02-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006535D446625E",
+    "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-sacramento-california-02-10-2027/event/1C006535D446625E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-sacramento-california-02-10-2027/event/1C006535D446625E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006535D446625E",
+        "discovery_event_id": "G5vYZ_K9foJar",
+        "url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-sacramento-california-02-10-2027/event/1C006535D446625E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_K9foJar",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-vancouver-z7r9jz1aaeopk",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "PNE Forum",
+    "datetime_iso": "2027-02-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeoPK",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeoPK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeoPK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeoPK",
+        "discovery_event_id": "Z7r9jZ1AAeoPK",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeoPK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeoPK",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-penticton-z7r9jz1aae8_9",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Penticton",
+    "country": "Canada",
+    "venue": "Penticton Trade and Convention Centre",
+    "datetime_iso": "2027-02-14T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe8_9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAe8_9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAe8_9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe8_9",
+        "discovery_event_id": "Z7r9jZ1AAe8_9",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAe8_9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8_9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-calgary-1k78vpuzga1a49u",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Grey Eagle Event Centre",
+    "datetime_iso": "2027-02-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110065378A2555F6",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-calgary-alberta-02-14-2027/event/110065378A2555F6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dropkick-murphys-calgary-alberta-02-14-2027/event/110065378A2555F6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110065378A2555F6",
+        "discovery_event_id": "1k78vPuzGA1a49U",
+        "url": "https://www.ticketmaster.ca/dropkick-murphys-calgary-alberta-02-14-2027/event/110065378A2555F6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vPuzGA1a49U",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-edmonton-1aozkfygkesdhkn",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Edmonton Convention Centre",
+    "datetime_iso": "2027-02-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006539B3EFC4E3",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-edmonton-alberta-02-16-2027/event/11006539B3EFC4E3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dropkick-murphys-edmonton-alberta-02-16-2027/event/11006539B3EFC4E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006539B3EFC4E3",
+        "discovery_event_id": "1AoZkfyGkeSDHKN",
+        "url": "https://www.ticketmaster.ca/dropkick-murphys-edmonton-alberta-02-16-2027/event/11006539B3EFC4E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkfyGkeSDHKN",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-saskatoon-1aozkfmgke0_iup",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Saskatoon",
+    "country": "Canada",
+    "venue": "SaskTel Centre",
+    "datetime_iso": "2027-02-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006537A4668D96",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-saskatoon-saskatchewan-02-17-2027/event/11006537A4668D96",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dropkick-murphys-saskatoon-saskatchewan-02-17-2027/event/11006537A4668D96",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006537A4668D96",
+        "discovery_event_id": "1AoZkfMGke0_IUp",
+        "url": "https://www.ticketmaster.ca/dropkick-murphys-saskatoon-saskatchewan-02-17-2027/event/11006537A4668D96",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkfMGke0_IUp",
+    "timezone": "America/Swift_Current",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-winnipeg-1aozkfugkew6n6r",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Burton Cummings Theatre",
+    "datetime_iso": "2027-02-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006536BD1EA1DE",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-winnipeg-manitoba-02-18-2027/event/11006536BD1EA1DE",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/winnipeg-canada-burton-cummings-theatre-2027-02-18-7-pm/concert/18633542",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dropkick-murphys-winnipeg-manitoba-02-18-2027/event/11006536BD1EA1DE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006536BD1EA1DE",
+        "discovery_event_id": "1AoZkfUGkeW6n6r",
+        "url": "https://www.ticketmaster.ca/dropkick-murphys-winnipeg-manitoba-02-18-2027/event/11006536BD1EA1DE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkfUGkeW6n6r",
+    "timezone": "America/Winnipeg",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-winnipeg-1aozkfugkewfq6x",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Burton Cummings Theatre",
+    "datetime_iso": "2027-02-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006536BD21A1E2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-winnipeg-manitoba-02-19-2027/event/11006536BD21A1E2",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/winnipeg-canada-burton-cummings-theatre-2027-02-19-7-pm/concert/18633545",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dropkick-murphys-winnipeg-manitoba-02-19-2027/event/11006536BD21A1E2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006536BD21A1E2",
+        "discovery_event_id": "1AoZkfUGkeWFQ6x",
+        "url": "https://www.ticketmaster.ca/dropkick-murphys-winnipeg-manitoba-02-19-2027/event/11006536BD21A1E2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkfUGkeWFQ6x",
+    "timezone": "America/Winnipeg",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-green-bay-z7r9jz1aaeopf",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Green Bay",
+    "country": "United States Of America",
+    "venue": "EPIC Event Center",
+    "datetime_iso": "2027-02-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeoPf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoPf",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/green-bay-wisconsin-epic-event-center-green-bay-2027-02-21-7-pm/concert/18633547",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoPf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeoPf",
+        "discovery_event_id": "Z7r9jZ1AAeoPf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoPf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeoPf",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-fort-wayne-z7r9jz1aaeop4",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Fort Wayne",
+    "country": "United States Of America",
+    "venue": "The Clyde Theatre-IN",
+    "datetime_iso": "2027-02-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeoP4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoP4",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/fort-wayne-indiana-the-clyde-theatre-fort-wayne-in-2027-02-22-7-pm/concert/18633548",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoP4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeoP4",
+        "discovery_event_id": "Z7r9jZ1AAeoP4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoP4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeoP4",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-grand-rapids-vv1afzkfggketsgvf",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "GLC Live at 20 Monroe",
+    "datetime_iso": "2027-02-24T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006535BFC75054",
+    "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-grand-rapids-michigan-02-24-2027/event/08006535BFC75054",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2027-02-24-7-pm/concert/18633551",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dropkick-murphys-grand-rapids-michigan-02-24-2027/event/08006535BFC75054",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006535BFC75054",
+        "discovery_event_id": "vv1AFZkfgGkeTsgvf",
+        "url": "https://www.ticketmaster.com/dropkick-murphys-grand-rapids-michigan-02-24-2027/event/08006535BFC75054",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfgGkeTsgvf",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-detroit-vv1afzkfggkemn0a8",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2027-02-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006535AEAA4250",
+    "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-detroit-michigan-02-26-2027/event/08006535AEAA4250",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/detroit-michigan-the-fillmore-detroit-2027-02-26-7-pm/concert/18633552",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dropkick-murphys-detroit-michigan-02-26-2027/event/08006535AEAA4250",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006535AEAA4250",
+        "discovery_event_id": "vv1AFZkfgGkemn0a8",
+        "url": "https://www.ticketmaster.com/dropkick-murphys-detroit-michigan-02-26-2027/event/08006535AEAA4250",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfgGkemn0a8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-london-1a8zkfugkeybnv7",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "London",
+    "country": "Canada",
+    "venue": "LONDON MUSIC HALL",
+    "datetime_iso": "2027-02-27T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006536B062A044",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-london-ontario-02-27-2027/event/10006536B062A044",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/london-canada-london-music-hall-2027-02-27-7-pm/concert/18633555",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dropkick-murphys-london-ontario-02-27-2027/event/10006536B062A044",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006536B062A044",
+        "discovery_event_id": "1A8ZkfUGkeYbnv7",
+        "url": "https://www.ticketmaster.ca/dropkick-murphys-london-ontario-02-27-2027/event/10006536B062A044",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkfUGkeYbnv7",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-toronto-1a8zkfygkdujro2",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "REBEL",
+    "datetime_iso": "2027-03-01T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006539CD99E80F",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-toronto-ontario-03-01-2027/event/10006539CD99E80F",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/toronto-canada-rebel-4-2027-03-01-7-pm/concert/18633557",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dropkick-murphys-toronto-ontario-03-01-2027/event/10006539CD99E80F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006539CD99E80F",
+        "discovery_event_id": "1A8ZkfyGkduJrO2",
+        "url": "https://www.ticketmaster.ca/dropkick-murphys-toronto-ontario-03-01-2027/event/10006539CD99E80F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkfyGkduJrO2",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-ottawa-16d7z_kj6g7s2ev",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "History Ottawa",
+    "datetime_iso": "2027-03-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100653707C4F081",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-ottawa-ontario-03-02-2027/event/3100653707C4F081",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/ottawa-canada-history-ottawa-2027-03-02-7-pm/concert/18633558",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dropkick-murphys-ottawa-ontario-03-02-2027/event/3100653707C4F081",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100653707C4F081",
+        "discovery_event_id": "16d7Z_Kj6G7s2ev",
+        "url": "https://www.ticketmaster.ca/dropkick-murphys-ottawa-ontario-03-02-2027/event/3100653707C4F081",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16d7Z_Kj6G7s2ev",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-quebec-1aszkfzbgfozegk",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys - St. Patrick's Day 2027 Tour",
+    "city": "Quebec",
+    "country": "Canada",
+    "venue": "Théâtre Capitole",
+    "datetime_iso": "2027-03-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006538635511B5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-st-patricks-day-2027-quebec-quebec-03-03-2027/event/31006538635511B5",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/quebec-city-canada-theatre-capitole-2027-03-03-7-pm/concert/18633560",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dropkick-murphys-st-patricks-day-2027-quebec-quebec-03-03-2027/event/31006538635511B5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006538635511B5",
+        "discovery_event_id": "1asZkfzbgfoZeGk",
+        "url": "https://www.ticketmaster.ca/dropkick-murphys-st-patricks-day-2027-quebec-quebec-03-03-2027/event/31006538635511B5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1asZkfzbgfoZeGk",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-quebec-1aszkfzbgoozeg5",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys - St. Patrick's Day 2027 Tour",
+    "city": "Quebec",
+    "country": "Canada",
+    "venue": "Théâtre Capitole",
+    "datetime_iso": "2027-03-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006538635811BA",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-st-patricks-day-2027-quebec-quebec-03-04-2027/event/31006538635811BA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dropkick-murphys-st-patricks-day-2027-quebec-quebec-03-04-2027/event/31006538635811BA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006538635811BA",
+        "discovery_event_id": "1asZkfzbgOoZeG5",
+        "url": "https://www.ticketmaster.ca/dropkick-murphys-st-patricks-day-2027-quebec-quebec-03-04-2027/event/31006538635811BA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1asZkfzbgOoZeG5",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-montreal-1aszkfugkdv84mc",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "L'Olympia",
+    "datetime_iso": "2027-03-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006536C1415DCE",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-montreal-quebec-03-05-2027/event/31006536C1415DCE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dropkick-murphys-montreal-quebec-03-05-2027/event/31006536C1415DCE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006536C1415DCE",
+        "discovery_event_id": "1AsZkfUGkdv84MC",
+        "url": "https://www.ticketmaster.ca/dropkick-murphys-montreal-quebec-03-05-2027/event/31006536C1415DCE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZkfUGkdv84MC",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-brooklyn-k7vgf_kictnjm",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-03-07T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000653B0EA63737",
+    "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-brooklyn-new-york-03-07-2027/event/0000653B0EA63737",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dropkick-murphys-brooklyn-new-york-03-07-2027/event/0000653B0EA63737",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000653B0EA63737",
+        "discovery_event_id": "k7vGF_KiCtNjM",
+        "url": "https://www.ticketmaster.com/dropkick-murphys-brooklyn-new-york-03-07-2027/event/0000653B0EA63737",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_KiCtNjM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-wilmington-vv1aezkfmgkexqysz",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Wilmington",
+    "country": "United States Of America",
+    "venue": "The Queen",
+    "datetime_iso": "2027-03-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006537A2779C78",
+    "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-wilmington-delaware-03-08-2027/event/02006537A2779C78",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dropkick-murphys-wilmington-delaware-03-08-2027/event/02006537A2779C78",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006537A2779C78",
+        "discovery_event_id": "vv1AeZkfMGkexqysz",
+        "url": "https://www.ticketmaster.com/dropkick-murphys-wilmington-delaware-03-08-2027/event/02006537A2779C78",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfMGkexqysz",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-portland-vv177z_kgksaw-ns",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "State Theatre",
+    "datetime_iso": "2027-03-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100653CC5CA1AB3",
+    "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-portland-maine-03-11-2027/event/0100653CC5CA1AB3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dropkick-murphys-portland-maine-03-11-2027/event/0100653CC5CA1AB3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100653CC5CA1AB3",
+        "discovery_event_id": "vv177Z_KGkSAw-nS",
+        "url": "https://www.ticketmaster.com/dropkick-murphys-portland-maine-03-11-2027/event/0100653CC5CA1AB3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_KGkSAw-nS",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-boston-vv1avzkfsgkdttsc_",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-03-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006533FFA73B59",
+    "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-12-2027/event/01006533FFA73B59",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-12-2027/event/01006533FFA73B59",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006533FFA73B59",
+        "discovery_event_id": "vv1AvZkfSGkdTtSc_",
+        "url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-12-2027/event/01006533FFA73B59",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfSGkdTtSc_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-boston-vv1avzkfsgkdtcsmb",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Mini Concert with Dropkick Murphys",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-03-13T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006533FFB73BBA",
+    "ticketmaster_url": "https://www.ticketmaster.com/mini-concert-with-dropkick-murphys-boston-massachusetts-03-13-2027/event/01006533FFB73BBA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mini-concert-with-dropkick-murphys-boston-massachusetts-03-13-2027/event/01006533FFB73BBA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006533FFB73BBA",
+        "discovery_event_id": "vv1AvZkfSGkdTcSmB",
+        "url": "https://www.ticketmaster.com/mini-concert-with-dropkick-murphys-boston-massachusetts-03-13-2027/event/01006533FFB73BBA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfSGkdTcSmB",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-boston-vv1avzkfmgketdy2c",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-03-14T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006537BF0F93CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-14-2027/event/01006537BF0F93CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-14-2027/event/01006537BF0F93CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006537BF0F93CE",
+        "discovery_event_id": "vv1AvZkfMGkeTdy2C",
+        "url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-14-2027/event/01006537BF0F93CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfMGkeTdy2C",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-boston-vv1avzkfygkdomyjz",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Citizens House of Blues Boston",
+    "datetime_iso": "2027-03-17T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006539E0BB9980",
+    "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-17-2027/event/01006539E0BB9980",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-17-2027/event/01006539E0BB9980",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006539E0BB9980",
+        "discovery_event_id": "vv1AvZkfyGkdOmyJZ",
+        "url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-17-2027/event/01006539E0BB9980",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfyGkdOmyJZ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

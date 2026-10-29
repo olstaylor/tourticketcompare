@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-29",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -2361,6 +2361,94 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-28 (sanctioned path D): SeatGeek performer 1630 and Ticketmaster attraction K8vZ91718b7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "dropkick-murphys",
+      "ticketmaster_attraction_id": "K8vZ9171h_V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/dropkick-murphys-tickets/artist/798903",
+      "seatgeek_performer_id": 650,
+      "seatgeek_artist_url": "https://seatgeek.com/dropkick-murphys-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-29 (sanctioned path D): SeatGeek performer 650 and Ticketmaster attraction K8vZ9171h_V captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "kaleo",
+      "ticketmaster_attraction_id": "K8vZ917KuW0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/kaleo-tickets/artist/2091102",
+      "seatgeek_performer_id": 304621,
+      "seatgeek_artist_url": "https://seatgeek.com/kaleo-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-29 (sanctioned path D): SeatGeek performer 304621 and Ticketmaster attraction K8vZ917KuW0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "alex-warren",
+      "ticketmaster_attraction_id": "K8vZ917hel0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/alex-warren-tickets/artist/2965178",
+      "seatgeek_performer_id": 805174,
+      "seatgeek_artist_url": "https://seatgeek.com/alex-warren-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-29 (sanctioned path D): SeatGeek performer 805174 and Ticketmaster attraction K8vZ917hel0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "marc-anthony",
+      "ticketmaster_attraction_id": "K8vZ9171h9V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/marc-anthony-tickets/artist/759949",
+      "seatgeek_performer_id": 1185,
+      "seatgeek_artist_url": "https://seatgeek.com/marc-anthony-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-29 (sanctioned path D): SeatGeek performer 1185 and Ticketmaster attraction K8vZ9171h9V captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "calvin-harris",
+      "ticketmaster_attraction_id": "K8vZ9175TJ0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/calvin-harris-tickets/artist/1149552",
+      "seatgeek_performer_id": 11466,
+      "seatgeek_artist_url": "https://seatgeek.com/calvin-harris-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-29 (sanctioned path D): SeatGeek performer 11466 and Ticketmaster attraction K8vZ9175TJ0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "aespa",
+      "ticketmaster_attraction_id": "K8vZ917QQn7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/aespa-tickets/artist/2887549",
+      "seatgeek_performer_id": 798431,
+      "seatgeek_artist_url": "https://seatgeek.com/aespa-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-29 (sanctioned path D): SeatGeek performer 798431 and Ticketmaster attraction K8vZ917QQn7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "cage-the-elephant",
+      "ticketmaster_attraction_id": "K8vZ917G1zf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/cage-the-elephant-tickets/artist/1105603",
+      "seatgeek_performer_id": 4276,
+      "seatgeek_artist_url": "https://seatgeek.com/cage-the-elephant-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-29 (sanctioned path D): SeatGeek performer 4276 and Ticketmaster attraction K8vZ917G1zf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "two-door-cinema-club",
+      "ticketmaster_attraction_id": "K8vZ917GL50",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/two-door-cinema-club-tickets/artist/1407642",
+      "seatgeek_performer_id": 4412,
+      "seatgeek_artist_url": "https://seatgeek.com/two-door-cinema-club-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-29 (sanctioned path D): SeatGeek performer 4412 and Ticketmaster attraction K8vZ917GL50 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

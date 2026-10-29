@@ -359,11 +359,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7919155",
-        "url": "https://www.ticketliquidator.com/tickets/7919155/Kacey-Musgraves-tickets-Tue-Oct-27-2026-Climate-Pledge-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107165503",
@@ -383,7 +383,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_awRTnMb",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919155/Kacey-Musgraves-tickets-Tue-Oct-27-2026-Climate-Pledge-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-seattle-tickets-10-27-2026/event/107165503",
     "ticketnetwork_url": "",
     "organizer_names": [

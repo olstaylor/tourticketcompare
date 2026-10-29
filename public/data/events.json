@@ -36503,18 +36503,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457630",
-        "url": "https://www.ticketliquidator.com/tickets/7457630/Doja-Cat-tickets-Tue-Oct-27-2026-Viejas-Arena-At-Aztec-Bowl",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbSi8_kno",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457630/Doja-Cat-tickets-Tue-Oct-27-2026-Viejas-Arena-At-Aztec-Bowl",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -153837,18 +153837,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7936748",
-        "url": "https://www.ticketliquidator.com/tickets/7936748/Amble-tickets-Tue-Oct-27-2026-Orpheum-Theatre-Vancouver",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_aGkmSrF76",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7936748/Amble-tickets-Tue-Oct-27-2026-Orpheum-Theatre-Vancouver",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -233282,18 +233282,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8247043",
-        "url": "https://www.ticketliquidator.com/tickets/8247043/Fuerza-Regida-tickets-Tue-Oct-27-2026-Save-Mart-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_89-ysvr",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8247043/Fuerza-Regida-tickets-Tue-Oct-27-2026-Save-Mart-Center",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -239779,11 +239779,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7956777",
-        "url": "https://www.ticketliquidator.com/tickets/7956777/Journey-tickets-Wed-Oct-28-2026-Xfinity-Mobile-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107169150",
@@ -239810,7 +239810,7 @@
         "end": "2026-10-28T20:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956777/Journey-tickets-Wed-Oct-28-2026-Xfinity-Mobile-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/journey-philadelphia-tickets-10-28-2026/event/107169150",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956777",
     "organizer_names": [
@@ -266731,11 +266731,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7919155",
-        "url": "https://www.ticketliquidator.com/tickets/7919155/Kacey-Musgraves-tickets-Tue-Oct-27-2026-Climate-Pledge-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107165503",
@@ -266755,7 +266755,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_awRTnMb",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919155/Kacey-Musgraves-tickets-Tue-Oct-27-2026-Climate-Pledge-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/kacey-musgraves-seattle-tickets-10-27-2026/event/107165503",
     "ticketnetwork_url": "",
     "organizer_names": [
@@ -267225,11 +267225,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8023375",
-        "url": "https://www.ticketliquidator.com/tickets/8023375/Knocked-Loose-tickets-Tue-Oct-27-2026-Mesa-Amphitheatre",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -267242,7 +267242,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70yjO",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8023375/Knocked-Loose-tickets-Tue-Oct-27-2026-Mesa-Amphitheatre",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": ""
   },
   {
@@ -268107,11 +268107,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8028491",
-        "url": "https://www.ticketliquidator.com/tickets/8028491/Phoebe-Bridgers-tickets-Tue-Oct-27-2026-Chase-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107360078",
@@ -268131,7 +268131,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_5EhIC8T",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8028491/Phoebe-Bridgers-tickets-Tue-Oct-27-2026-Chase-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-san-francisco-tickets-10-27-2026/event/107360078",
     "organizer_names": [
       "CONCERTS WEST (AEG)"
@@ -269451,11 +269451,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8011579",
-        "url": "https://www.ticketliquidator.com/tickets/8011579/Bryson-Tiller-tickets-Tue-Oct-27-2026-Toyota-Pavilion-At-Concord",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107258873",
@@ -269475,7 +269475,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_5IX0y73",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011579/Bryson-Tiller-tickets-Tue-Oct-27-2026-Toyota-Pavilion-At-Concord",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-concord-tickets-10-27-2026/event/107258873",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -273257,11 +273257,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8252672",
-        "url": "https://www.ticketliquidator.com/tickets/8252672/Stevie-Wonder-tickets-Wed-Oct-28-2026-Ziggo-Dome",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107667149",
@@ -273281,7 +273281,7 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vCpOFak",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252672/Stevie-Wonder-tickets-Wed-Oct-28-2026-Ziggo-Dome",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-amsterdam-ziggo-dome-28-10-2026/event/107667149",
     "organizer_names": [
       "Mojo Concerts"
@@ -294020,6 +294020,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345901",
+        "url": "https://www.ticketliquidator.com/tickets/8345901/Sam-Fender-tickets-Thu-Jul-15-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_42lyJlW",
@@ -294042,7 +294049,8 @@
         "end": "2026-10-30T08:30:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345901"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345901",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345901/Sam-Fender-tickets-Thu-Jul-15-2027-Etihad-Stadium"
   },
   {
     "id": "tm-sam-fender-2027-manchester-g5dzz_4k4turs",
@@ -308534,11 +308542,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7919007",
-        "url": "https://www.ticketliquidator.com/tickets/7919007/Shaboozey-tickets-Tue-Oct-27-2026-Greek-Theatre-Los-Angeles-CA",
-        "verified": true,
-        "last_verified_at": "2026-10-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107165652",
@@ -308552,7 +308560,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7919007/Shaboozey-tickets-Tue-Oct-27-2026-Greek-Theatre-Los-Angeles-CA",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/shaboozey-los-angeles-tickets-10-27-2026/event/107165652"
   },
   {
@@ -309753,12 +309761,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294523",
+        "url": "https://www.ticketliquidator.com/tickets/8294523/Illenium-tickets-Wed-Dec-30-2026-Bill-Graham-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_Kj0LtB6",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294523"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294523",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294523/Illenium-tickets-Wed-Dec-30-2026-Bill-Graham-Civic-Auditorium"
   },
   {
     "id": "tm-illenium-2027-san-francisco-g5vyz_kjpaqe2",
@@ -309814,12 +309830,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294522",
+        "url": "https://www.ticketliquidator.com/tickets/8294522/Illenium-tickets-Thu-Dec-31-2026-Bill-Graham-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KjPaQe2",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294522"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294522",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294522/Illenium-tickets-Thu-Dec-31-2026-Bill-Graham-Civic-Auditorium"
   },
   {
     "id": "tm-illenium-2027-san-francisco-g5vyz_kuqzndv",
@@ -309875,13 +309899,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342892",
+        "url": "https://www.ticketliquidator.com/tickets/8342892/Illenium-tickets-Fri-Jan-1-2027-Bill-Graham-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KUqZNDV",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-29T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342892"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342892",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342892/Illenium-tickets-Fri-Jan-1-2027-Bill-Graham-Civic-Auditorium"
   },
   {
     "id": "tm-lola-young-2027-nashville-z7r9jz1aaebv0",
@@ -309990,12 +310022,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307249",
+        "url": "https://www.ticketliquidator.com/tickets/8307249/Lola-Young-tickets-Wed-Apr-7-2027-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_f7Qhai6",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307249"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307249",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307249/Lola-Young-tickets-Wed-Apr-7-2027-Coca-Cola-Roxy"
   },
   {
     "id": "tm-lola-young-2027-washington-1a4zk4egkeystl8",
@@ -310051,12 +310091,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307251",
+        "url": "https://www.ticketliquidator.com/tickets/8307251/Lola-Young-tickets-Fri-Apr-9-2027-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk4eGkeysTl8",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307251"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307251",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307251/Lola-Young-tickets-Fri-Apr-9-2027-The-Anthem-DC"
   },
   {
     "id": "tm-lola-young-2027-philadelphia-vv17fz_kgkmkg0sm",
@@ -310112,12 +310160,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307252",
+        "url": "https://www.ticketliquidator.com/tickets/8307252/Lola-Young-tickets-Sat-Apr-10-2027-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkMkG0Sm",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307252"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307252",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307252/Lola-Young-tickets-Sat-Apr-10-2027-The-Met-Presented-by-Highmark"
   },
   {
     "id": "tm-lola-young-2027-new-york-g5dyz_fkt1eua",
@@ -310173,12 +310229,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307254",
+        "url": "https://www.ticketliquidator.com/tickets/8307254/Lola-Young-tickets-Mon-Apr-12-2027-Radio-City-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_fkt1eua",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307254"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307254",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307254/Lola-Young-tickets-Mon-Apr-12-2027-Radio-City-Music-Hall"
   },
   {
     "id": "tm-lola-young-2027-boston-z7r9jz1aaebvp",
@@ -310393,12 +310457,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307255",
+        "url": "https://www.ticketliquidator.com/tickets/8307255/Lola-Young-tickets-Sun-Apr-18-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4vGkdwfh0c",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307255"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307255",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307255/Lola-Young-tickets-Sun-Apr-18-2027-The-Fillmore-Detroit"
   },
   {
     "id": "tm-lola-young-2027-chicago-vv118z_f13zkq9",
@@ -310666,12 +310738,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307259",
+        "url": "https://www.ticketliquidator.com/tickets/8307259/Lola-Young-tickets-Mon-Apr-26-2027-The-Union-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fk8DAHo",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307259"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307259",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307259/Lola-Young-tickets-Mon-Apr-26-2027-The-Union-Event-Center"
   },
   {
     "id": "tm-lola-young-2027-seattle-vvg1hz_falrsfg",
@@ -310727,12 +310807,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307260",
+        "url": "https://www.ticketliquidator.com/tickets/8307260/Lola-Young-tickets-Wed-Apr-28-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_faLRsFG",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307260"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307260",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307260/Lola-Young-tickets-Wed-Apr-28-2027-Wamu-Theater-At-Lumen-Field-Event-Center"
   },
   {
     "id": "tm-lola-young-2027-vancouver-16ozk4vpyzau66a6",
@@ -310788,12 +310876,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307265",
+        "url": "https://www.ticketliquidator.com/tickets/8307265/Lola-Young-tickets-Thu-Apr-29-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16oZk4vPYZAu66a6",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307265"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307265",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307265/Lola-Young-tickets-Thu-Apr-29-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
   {
     "id": "tm-lola-young-2027-san-francisco-g5vyz_f6gluub",
@@ -310849,12 +310945,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307261",
+        "url": "https://www.ticketliquidator.com/tickets/8307261/Lola-Young-tickets-Sat-May-1-2027-Bill-Graham-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f6GLUub",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307261"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307261",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307261/Lola-Young-tickets-Sat-May-1-2027-Bill-Graham-Civic-Auditorium"
   },
   {
     "id": "tm-lola-young-2027-los-angeles-vv16azk4e0kza8aeaf",
@@ -310910,12 +311014,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307263",
+        "url": "https://www.ticketliquidator.com/tickets/8307263/Lola-Young-tickets-Tue-May-4-2027-Greek-Theatre-Los-Angeles-CA",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZk4e0KZA8aeAF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307263"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307263",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307263/Lola-Young-tickets-Tue-May-4-2027-Greek-Theatre-Los-Angeles-CA"
   },
   {
     "id": "tm-lola-young-2027-dublin-1avoz_ogknk-ukb",
@@ -311395,12 +311507,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326044",
+        "url": "https://www.ticketliquidator.com/tickets/8326044/James-Blunt-tickets-Wed-Mar-31-2027-The-O2-Belfast",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dOZ_oxoG7V-Fd",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326044"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326044",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326044/James-Blunt-tickets-Wed-Mar-31-2027-The-O2-Belfast"
   },
   {
     "id": "tm-james-blunt-2027-glasgow-1auzkfkgkdju5kw",
@@ -311456,12 +311576,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272590",
+        "url": "https://www.ticketliquidator.com/tickets/8272590/James-Blunt-tickets-Fri-Apr-2-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfKGkdjU5kW",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272590"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272590",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272590/James-Blunt-tickets-Fri-Apr-2-2027-OVO-Hydro"
   },
   {
     "id": "tm-james-blunt-2027-manchester-1amzkfkgkdv2srk",
@@ -311517,12 +311645,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8247670",
+        "url": "https://www.ticketliquidator.com/tickets/8247670/James-Blunt-tickets-Sat-Apr-3-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfkGkdv2sRK",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8247670"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8247670",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8247670/James-Blunt-tickets-Sat-Apr-3-2027-Co-Op-Live"
   },
   {
     "id": "tm-james-blunt-2027-london-1agzkf6gkdpobqq",
@@ -312254,12 +312390,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8173258",
+        "url": "https://www.ticketliquidator.com/tickets/8173258/Bryan-Adams-tickets-Wed-Mar-10-2027-Spark-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17aZv0G6CJvBo_i",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173258"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173258",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173258/Bryan-Adams-tickets-Wed-Mar-10-2027-Spark-Arena"
   },
   {
     "id": "tm-bryan-adams-2027-christchurch-17azv0g6cuuuvxf",
@@ -312315,12 +312459,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180247",
+        "url": "https://www.ticketliquidator.com/tickets/8180247/Bryan-Adams-tickets-Fri-Mar-12-2027-Wolfbrook-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17aZv0G6CUUUvXF",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180247"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180247",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180247/Bryan-Adams-tickets-Fri-Mar-12-2027-Wolfbrook-Arena"
   },
   {
     "id": "tm-bryan-adams-2027-wellington-central-1ae8z_fgkxwzsx6",
@@ -313118,12 +313270,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326042",
+        "url": "https://www.ticketliquidator.com/tickets/8326042/Megadeth-tickets-Tue-Mar-9-2027-The-O2-Belfast",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17CZv0G62pVLvd8",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326042"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326042",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326042/Megadeth-tickets-Tue-Mar-9-2027-The-O2-Belfast"
   },
   {
     "id": "tm-megadeth-2027-london-17uyv0g62ffnale",
@@ -313179,12 +313339,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8179322",
+        "url": "https://www.ticketliquidator.com/tickets/8179322/Megadeth-tickets-Thu-Mar-11-2027-OVO-Arena-Wembley",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G62fFnALe",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8179322"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8179322",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8179322/Megadeth-tickets-Thu-Mar-11-2027-OVO-Arena-Wembley"
   },
   {
     "id": "tm-megadeth-2027-nottingham-17u8v0g62r_1dp-",
@@ -313240,12 +313408,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8179324",
+        "url": "https://www.ticketliquidator.com/tickets/8179324/Megadeth-tickets-Fri-Mar-12-2027-Motorpoint-Arena-Nottingham",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G62r_1dP-",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8179324"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8179324",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8179324/Megadeth-tickets-Fri-Mar-12-2027-Motorpoint-Arena-Nottingham"
   },
   {
     "id": "tm-megadeth-2027-manchester-17uyv0g62wxq-cs",
@@ -313301,12 +313477,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8179325",
+        "url": "https://www.ticketliquidator.com/tickets/8179325/Megadeth-tickets-Sat-Mar-13-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G62wXq-cs",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8179325"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8179325",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8179325/Megadeth-tickets-Sat-Mar-13-2027-Co-Op-Live"
   },
   {
     "id": "tm-megadeth-2027-cardiff-17uov0g62hgl_w2",
@@ -313794,12 +313978,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308712",
+        "url": "https://www.ticketliquidator.com/tickets/8308712/Simple-Plan-tickets-Wed-Jan-27-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v7Z_f1bG7WMex",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308712"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308712",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308712/Simple-Plan-tickets-Wed-Jan-27-2027-Rogers-Arena"
   },
   {
     "id": "tm-simple-plan-2027-victoria-z7r9jz1aae__3",
@@ -313855,12 +314047,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308713",
+        "url": "https://www.ticketliquidator.com/tickets/8308713/Simple-Plan-tickets-Wed-Jan-27-2027-Save-On-Foods-Memorial-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe__3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308713"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308713",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308713/Simple-Plan-tickets-Wed-Jan-27-2027-Save-On-Foods-Memorial-Centre"
   },
   {
     "id": "tm-simple-plan-2027-edmonton-1av7z_kgkmptc0p",
@@ -313916,12 +314116,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308714",
+        "url": "https://www.ticketliquidator.com/tickets/8308714/Simple-Plan-tickets-Fri-Jan-29-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkMptc0P",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308714"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308714",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308714/Simple-Plan-tickets-Fri-Jan-29-2027-Rogers-Place"
   },
   {
     "id": "tm-simple-plan-2027-calgary-1av7z_kgkd2pi5n",
@@ -313977,12 +314185,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308715",
+        "url": "https://www.ticketliquidator.com/tickets/8308715/Simple-Plan-tickets-Sun-Jan-31-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkD2pi5N",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308715"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308715",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308715/Simple-Plan-tickets-Sun-Jan-31-2027-Scotiabank-Saddledome"
   },
   {
     "id": "tm-simple-plan-2027-saskatoon-1av7z_kgkmkzc1-",
@@ -314038,12 +314254,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308716",
+        "url": "https://www.ticketliquidator.com/tickets/8308716/Simple-Plan-tickets-Mon-Feb-1-2027-SaskTel-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkMKZc1-",
     "timezone": "America/Swift_Current",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308716"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308716",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308716/Simple-Plan-tickets-Mon-Feb-1-2027-SaskTel-Centre"
   },
   {
     "id": "tm-simple-plan-2027-winnipeg-16ozk4eozza27k28",
@@ -314099,12 +314323,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308717",
+        "url": "https://www.ticketliquidator.com/tickets/8308717/Simple-Plan-tickets-Tue-Feb-2-2027-Canada-Life-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16oZk4eOZZA27k28",
     "timezone": "America/Winnipeg",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308717"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308717",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308717/Simple-Plan-tickets-Tue-Feb-2-2027-Canada-Life-Centre"
   },
   {
     "id": "tm-simple-plan-2027-toronto-1a8zk4e0eqizeug",
@@ -314425,12 +314657,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308723",
+        "url": "https://www.ticketliquidator.com/tickets/8308723/Simple-Plan-tickets-Fri-Feb-12-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_KGkD-Eypy",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308723"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308723",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308723/Simple-Plan-tickets-Fri-Feb-12-2027-Centre-Bell"
   },
   {
     "id": "tm-simple-plan-2027-moncton-1aszkfygkdcttvt",
@@ -314486,12 +314726,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308724",
+        "url": "https://www.ticketliquidator.com/tickets/8308724/Simple-Plan-tickets-Sun-Feb-14-2027-Avenir-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkfyGkdCTtvT",
     "timezone": "America/Halifax",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308724"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308724",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308724/Simple-Plan-tickets-Sun-Feb-14-2027-Avenir-Centre"
   },
   {
     "id": "tm-simple-plan-2027-sydney-1aszk4agkex2k4f",
@@ -314547,12 +314795,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308725",
+        "url": "https://www.ticketliquidator.com/tickets/8308725/Simple-Plan-tickets-Mon-Feb-15-2027-Centre-200",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4AGkeX2k4F",
     "timezone": "America/Halifax",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308725"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308725",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308725/Simple-Plan-tickets-Mon-Feb-15-2027-Centre-200"
   },
   {
     "id": "tm-simple-plan-2027-halifax-1ad7z_kgkmojy7e",
@@ -314608,12 +314864,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308726",
+        "url": "https://www.ticketliquidator.com/tickets/8308726/Simple-Plan-tickets-Tue-Feb-16-2027-Scotiabank-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_KGkMOJy7e",
     "timezone": "America/Halifax",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308726"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308726",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308726/Simple-Plan-tickets-Tue-Feb-16-2027-Scotiabank-Centre"
   },
   {
     "id": "tm-simple-plan-2027-sesto-san-giovanni-zg9rmiynyzff6k",
@@ -314775,12 +315039,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315155",
+        "url": "https://www.ticketliquidator.com/tickets/8315155/Simply-Red-tickets-Sun-Jun-20-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vCeoV_9",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315155"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315155",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315155/Simply-Red-tickets-Sun-Jun-20-2027-Ziggo-Dome"
   },
   {
     "id": "tm-simply-red-2027-merksem-antwerpen-z698xzg2z1kbk_apn",
@@ -315578,12 +315850,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294111",
+        "url": "https://www.ticketliquidator.com/tickets/8294111/Simply-Red-tickets-Wed-Aug-18-2027-Colchester-Castle-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_3Gkmn5KEU",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294111"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294111",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294111/Simply-Red-tickets-Wed-Aug-18-2027-Colchester-Castle-Park"
   },
   {
     "id": "tm-simply-red-2027-swansea-g5vhz_3rbtf3u",
@@ -315745,13 +316025,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8346190",
+        "url": "https://www.ticketliquidator.com/tickets/8346190/The-Red-Clay-Strays-tickets-Sun-Sep-12-2027-The-Orion-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7svN",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8346190"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8346190",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8346190/The-Red-Clay-Strays-tickets-Sun-Sep-12-2027-The-Orion-Amphitheater"
   },
   {
     "id": "tm-the-neighbourhood-2027-denver-g5vzz_4qmz4qp",
@@ -315807,13 +316095,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345902",
+        "url": "https://www.ticketliquidator.com/tickets/8345902/The-Neighbourhood-tickets-Tue-Mar-2-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_4QmZ4qp",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-10-30T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345902"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345902",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345902/The-Neighbourhood-tickets-Tue-Mar-2-2027-Ball-Arena"
   },
   {
     "id": "tm-the-neighbourhood-2027-saint-louis-vv1kvovppfga13fre",
@@ -315923,13 +316219,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345905",
+        "url": "https://www.ticketliquidator.com/tickets/8345905/The-Neighbourhood-tickets-Sun-Mar-7-2027-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4nO500H",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345905"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345905",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345905/The-Neighbourhood-tickets-Sun-Mar-7-2027-American-Airlines-Center"
   },
   {
     "id": "tm-the-neighbourhood-2027-philadelphia-1adzz_4gkl39a_b",
@@ -315985,13 +316289,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345906",
+        "url": "https://www.ticketliquidator.com/tickets/8345906/The-Neighbourhood-tickets-Fri-Apr-23-2027-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_4Gkl39a_b",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345906"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345906",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345906/The-Neighbourhood-tickets-Fri-Apr-23-2027-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-the-neighbourhood-2027-boston-vv1avzk4_gkdekcqu",
@@ -316047,13 +316359,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345907",
+        "url": "https://www.ticketliquidator.com/tickets/8345907/The-Neighbourhood-tickets-Sat-Apr-24-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4_GkdekcQu",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345907"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345907",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345907/The-Neighbourhood-tickets-Sat-Apr-24-2027-TD-Garden"
   },
   {
     "id": "tm-the-neighbourhood-2027-montreal-1ad7z_4gknbo3lq",
@@ -316109,13 +316429,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345908",
+        "url": "https://www.ticketliquidator.com/tickets/8345908/The-Neighbourhood-tickets-Tue-Apr-27-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_4GknbO3lQ",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345908"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345908",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345908/The-Neighbourhood-tickets-Tue-Apr-27-2027-Centre-Bell"
   },
   {
     "id": "tm-the-neighbourhood-2027-kanata-16szk49oizau7kga",
@@ -316225,13 +316553,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345910",
+        "url": "https://www.ticketliquidator.com/tickets/8345910/The-Neighbourhood-tickets-Fri-Apr-30-2027-Value-City-Arena-at-The-Schottenstein-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_4GkmEtfbq",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345910"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345910",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345910/The-Neighbourhood-tickets-Fri-Apr-30-2027-Value-City-Arena-at-The-Schottenstein-Center"
   },
   {
     "id": "tm-the-neighbourhood-2027-pittsburgh-16vbz_4jkg7tdr9",
@@ -316287,13 +316623,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345911",
+        "url": "https://www.ticketliquidator.com/tickets/8345911/The-Neighbourhood-tickets-Sat-May-1-2027-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vbZ_4jKG7TDR9",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345911"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345911",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345911/The-Neighbourhood-tickets-Sat-May-1-2027-PPG-Paints-Arena"
   },
   {
     "id": "tm-the-neighbourhood-2027-raleigh-g5evz_4l74bcy",
@@ -316349,13 +316693,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345912",
+        "url": "https://www.ticketliquidator.com/tickets/8345912/The-Neighbourhood-tickets-Tue-May-4-2027-Lenovo-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_4l74BCY",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345912"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345912",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345912/The-Neighbourhood-tickets-Tue-May-4-2027-Lenovo-Center"
   },
   {
     "id": "tm-the-neighbourhood-2027-indianapolis-vv1aazk49gkeyee1s",
@@ -316411,13 +316763,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345913",
+        "url": "https://www.ticketliquidator.com/tickets/8345913/The-Neighbourhood-tickets-Fri-May-7-2027-Gainbridge-Fieldhouse",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk49GkeYeE1s",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345913"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345913",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345913/The-Neighbourhood-tickets-Fri-May-7-2027-Gainbridge-Fieldhouse"
   },
   {
     "id": "tm-the-neighbourhood-2027-chicago-vv178z_4gknyh4c0",
@@ -316473,13 +316833,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345914",
+        "url": "https://www.ticketliquidator.com/tickets/8345914/The-Neighbourhood-tickets-Sat-May-8-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_4GknyH4c0",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345914"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345914",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345914/The-Neighbourhood-tickets-Sat-May-8-2027-United-Center"
   },
   {
     "id": "tm-the-neighbourhood-2027-winnipeg-1av7z_4gknbr6nb",
@@ -316535,13 +316903,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345915",
+        "url": "https://www.ticketliquidator.com/tickets/8345915/The-Neighbourhood-tickets-Tue-May-11-2027-Canada-Life-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_4GknBR6nb",
     "timezone": "America/Winnipeg",
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345915"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345915",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345915/The-Neighbourhood-tickets-Tue-May-11-2027-Canada-Life-Centre"
   },
   {
     "id": "tm-the-neighbourhood-2027-calgary-1av7z_4gknld4le",
@@ -316597,13 +316973,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345916",
+        "url": "https://www.ticketliquidator.com/tickets/8345916/The-Neighbourhood-tickets-Fri-May-14-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_4GknLD4lE",
     "timezone": "America/Edmonton",
     "status": "announced",
     "public_onsale_at": "2026-10-30T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345916"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345916",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345916/The-Neighbourhood-tickets-Fri-May-14-2027-Scotiabank-Saddledome"
   },
   {
     "id": "tm-the-neighbourhood-2027-edmonton-1av7z_4gkl6qbrx",
@@ -316659,13 +317043,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345917",
+        "url": "https://www.ticketliquidator.com/tickets/8345917/The-Neighbourhood-tickets-Sat-May-15-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_4Gkl6qbrx",
     "timezone": "America/Edmonton",
     "status": "announced",
     "public_onsale_at": "2026-10-30T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345917"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345917",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345917/The-Neighbourhood-tickets-Sat-May-15-2027-Rogers-Place"
   },
   {
     "id": "tm-the-neighbourhood-2027-firenze-zg9rmiynyzfavv",
@@ -316883,12 +317275,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8338176",
+        "url": "https://www.ticketliquidator.com/tickets/8338176/Interpol-tickets-Sat-Mar-20-2027-The-Bomb-Factory",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7sCe",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338176"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338176",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338176/Interpol-tickets-Sat-Mar-20-2027-The-Bomb-Factory"
   },
   {
     "id": "tm-bryan-adams-2027-wellington-central-1ae8z_fgktxpjky",

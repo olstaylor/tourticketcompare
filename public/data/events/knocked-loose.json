@@ -218,11 +218,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8023375",
-        "url": "https://www.ticketliquidator.com/tickets/8023375/Knocked-Loose-tickets-Tue-Oct-27-2026-Mesa-Amphitheatre",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -235,7 +235,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70yjO",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8023375/Knocked-Loose-tickets-Tue-Oct-27-2026-Mesa-Amphitheatre",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": ""
   },
   {

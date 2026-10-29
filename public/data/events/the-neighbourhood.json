@@ -1213,13 +1213,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345902",
+        "url": "https://www.ticketliquidator.com/tickets/8345902/The-Neighbourhood-tickets-Tue-Mar-2-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_4QmZ4qp",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-10-30T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345902"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345902",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345902/The-Neighbourhood-tickets-Tue-Mar-2-2027-Ball-Arena"
   },
   {
     "id": "tm-the-neighbourhood-2027-saint-louis-vv1kvovppfga13fre",
@@ -1329,13 +1337,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345905",
+        "url": "https://www.ticketliquidator.com/tickets/8345905/The-Neighbourhood-tickets-Sun-Mar-7-2027-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4nO500H",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345905"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345905",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345905/The-Neighbourhood-tickets-Sun-Mar-7-2027-American-Airlines-Center"
   },
   {
     "id": "tm-the-neighbourhood-2027-philadelphia-1adzz_4gkl39a_b",
@@ -1391,13 +1407,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345906",
+        "url": "https://www.ticketliquidator.com/tickets/8345906/The-Neighbourhood-tickets-Fri-Apr-23-2027-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_4Gkl39a_b",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345906"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345906",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345906/The-Neighbourhood-tickets-Fri-Apr-23-2027-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-the-neighbourhood-2027-boston-vv1avzk4_gkdekcqu",
@@ -1453,13 +1477,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345907",
+        "url": "https://www.ticketliquidator.com/tickets/8345907/The-Neighbourhood-tickets-Sat-Apr-24-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4_GkdekcQu",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345907"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345907",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345907/The-Neighbourhood-tickets-Sat-Apr-24-2027-TD-Garden"
   },
   {
     "id": "tm-the-neighbourhood-2027-montreal-1ad7z_4gknbo3lq",
@@ -1515,13 +1547,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345908",
+        "url": "https://www.ticketliquidator.com/tickets/8345908/The-Neighbourhood-tickets-Tue-Apr-27-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_4GknbO3lQ",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345908"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345908",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345908/The-Neighbourhood-tickets-Tue-Apr-27-2027-Centre-Bell"
   },
   {
     "id": "tm-the-neighbourhood-2027-kanata-16szk49oizau7kga",
@@ -1631,13 +1671,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345910",
+        "url": "https://www.ticketliquidator.com/tickets/8345910/The-Neighbourhood-tickets-Fri-Apr-30-2027-Value-City-Arena-at-The-Schottenstein-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_4GkmEtfbq",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345910"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345910",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345910/The-Neighbourhood-tickets-Fri-Apr-30-2027-Value-City-Arena-at-The-Schottenstein-Center"
   },
   {
     "id": "tm-the-neighbourhood-2027-pittsburgh-16vbz_4jkg7tdr9",
@@ -1693,13 +1741,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345911",
+        "url": "https://www.ticketliquidator.com/tickets/8345911/The-Neighbourhood-tickets-Sat-May-1-2027-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vbZ_4jKG7TDR9",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345911"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345911",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345911/The-Neighbourhood-tickets-Sat-May-1-2027-PPG-Paints-Arena"
   },
   {
     "id": "tm-the-neighbourhood-2027-raleigh-g5evz_4l74bcy",
@@ -1755,13 +1811,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345912",
+        "url": "https://www.ticketliquidator.com/tickets/8345912/The-Neighbourhood-tickets-Tue-May-4-2027-Lenovo-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_4l74BCY",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345912"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345912",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345912/The-Neighbourhood-tickets-Tue-May-4-2027-Lenovo-Center"
   },
   {
     "id": "tm-the-neighbourhood-2027-indianapolis-vv1aazk49gkeyee1s",
@@ -1817,13 +1881,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345913",
+        "url": "https://www.ticketliquidator.com/tickets/8345913/The-Neighbourhood-tickets-Fri-May-7-2027-Gainbridge-Fieldhouse",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk49GkeYeE1s",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345913"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345913",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345913/The-Neighbourhood-tickets-Fri-May-7-2027-Gainbridge-Fieldhouse"
   },
   {
     "id": "tm-the-neighbourhood-2027-chicago-vv178z_4gknyh4c0",
@@ -1879,13 +1951,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345914",
+        "url": "https://www.ticketliquidator.com/tickets/8345914/The-Neighbourhood-tickets-Sat-May-8-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_4GknyH4c0",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345914"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345914",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345914/The-Neighbourhood-tickets-Sat-May-8-2027-United-Center"
   },
   {
     "id": "tm-the-neighbourhood-2027-winnipeg-1av7z_4gknbr6nb",
@@ -1941,13 +2021,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345915",
+        "url": "https://www.ticketliquidator.com/tickets/8345915/The-Neighbourhood-tickets-Tue-May-11-2027-Canada-Life-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_4GknBR6nb",
     "timezone": "America/Winnipeg",
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345915"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345915",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345915/The-Neighbourhood-tickets-Tue-May-11-2027-Canada-Life-Centre"
   },
   {
     "id": "tm-the-neighbourhood-2027-calgary-1av7z_4gknld4le",
@@ -2003,13 +2091,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345916",
+        "url": "https://www.ticketliquidator.com/tickets/8345916/The-Neighbourhood-tickets-Fri-May-14-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_4GknLD4lE",
     "timezone": "America/Edmonton",
     "status": "announced",
     "public_onsale_at": "2026-10-30T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345916"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345916",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345916/The-Neighbourhood-tickets-Fri-May-14-2027-Scotiabank-Saddledome"
   },
   {
     "id": "tm-the-neighbourhood-2027-edmonton-1av7z_4gkl6qbrx",
@@ -2065,13 +2161,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345917",
+        "url": "https://www.ticketliquidator.com/tickets/8345917/The-Neighbourhood-tickets-Sat-May-15-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_4Gkl6qbrx",
     "timezone": "America/Edmonton",
     "status": "announced",
     "public_onsale_at": "2026-10-30T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345917"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345917",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345917/The-Neighbourhood-tickets-Sat-May-15-2027-Rogers-Place"
   },
   {
     "id": "tm-the-neighbourhood-2027-firenze-zg9rmiynyzfavv",

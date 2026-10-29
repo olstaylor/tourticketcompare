@@ -517,12 +517,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8173258",
+        "url": "https://www.ticketliquidator.com/tickets/8173258/Bryan-Adams-tickets-Wed-Mar-10-2027-Spark-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17aZv0G6CJvBo_i",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173258"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173258",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173258/Bryan-Adams-tickets-Wed-Mar-10-2027-Spark-Arena"
   },
   {
     "id": "tm-bryan-adams-2027-christchurch-17azv0g6cuuuvxf",
@@ -578,12 +586,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180247",
+        "url": "https://www.ticketliquidator.com/tickets/8180247/Bryan-Adams-tickets-Fri-Mar-12-2027-Wolfbrook-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17aZv0G6CUUUvXF",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180247"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180247",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180247/Bryan-Adams-tickets-Fri-Mar-12-2027-Wolfbrook-Arena"
   },
   {
     "id": "tm-bryan-adams-2027-wellington-central-1ae8z_fgkxwzsx6",

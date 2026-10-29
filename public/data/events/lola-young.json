@@ -106,12 +106,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307249",
+        "url": "https://www.ticketliquidator.com/tickets/8307249/Lola-Young-tickets-Wed-Apr-7-2027-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_f7Qhai6",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307249"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307249",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307249/Lola-Young-tickets-Wed-Apr-7-2027-Coca-Cola-Roxy"
   },
   {
     "id": "tm-lola-young-2027-washington-1a4zk4egkeystl8",
@@ -167,12 +175,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307251",
+        "url": "https://www.ticketliquidator.com/tickets/8307251/Lola-Young-tickets-Fri-Apr-9-2027-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk4eGkeysTl8",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307251"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307251",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307251/Lola-Young-tickets-Fri-Apr-9-2027-The-Anthem-DC"
   },
   {
     "id": "tm-lola-young-2027-philadelphia-vv17fz_kgkmkg0sm",
@@ -228,12 +244,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307252",
+        "url": "https://www.ticketliquidator.com/tickets/8307252/Lola-Young-tickets-Sat-Apr-10-2027-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkMkG0Sm",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307252"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307252",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307252/Lola-Young-tickets-Sat-Apr-10-2027-The-Met-Presented-by-Highmark"
   },
   {
     "id": "tm-lola-young-2027-new-york-g5dyz_fkt1eua",
@@ -289,12 +313,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307254",
+        "url": "https://www.ticketliquidator.com/tickets/8307254/Lola-Young-tickets-Mon-Apr-12-2027-Radio-City-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_fkt1eua",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307254"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307254",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307254/Lola-Young-tickets-Mon-Apr-12-2027-Radio-City-Music-Hall"
   },
   {
     "id": "tm-lola-young-2027-boston-z7r9jz1aaebvp",
@@ -509,12 +541,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307255",
+        "url": "https://www.ticketliquidator.com/tickets/8307255/Lola-Young-tickets-Sun-Apr-18-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4vGkdwfh0c",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307255"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307255",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307255/Lola-Young-tickets-Sun-Apr-18-2027-The-Fillmore-Detroit"
   },
   {
     "id": "tm-lola-young-2027-chicago-vv118z_f13zkq9",
@@ -782,12 +822,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307259",
+        "url": "https://www.ticketliquidator.com/tickets/8307259/Lola-Young-tickets-Mon-Apr-26-2027-The-Union-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fk8DAHo",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307259"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307259",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307259/Lola-Young-tickets-Mon-Apr-26-2027-The-Union-Event-Center"
   },
   {
     "id": "tm-lola-young-2027-seattle-vvg1hz_falrsfg",
@@ -843,12 +891,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307260",
+        "url": "https://www.ticketliquidator.com/tickets/8307260/Lola-Young-tickets-Wed-Apr-28-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_faLRsFG",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307260"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307260",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307260/Lola-Young-tickets-Wed-Apr-28-2027-Wamu-Theater-At-Lumen-Field-Event-Center"
   },
   {
     "id": "tm-lola-young-2027-vancouver-16ozk4vpyzau66a6",
@@ -904,12 +960,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307265",
+        "url": "https://www.ticketliquidator.com/tickets/8307265/Lola-Young-tickets-Thu-Apr-29-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16oZk4vPYZAu66a6",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307265"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307265",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307265/Lola-Young-tickets-Thu-Apr-29-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
   {
     "id": "tm-lola-young-2027-san-francisco-g5vyz_f6gluub",
@@ -965,12 +1029,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307261",
+        "url": "https://www.ticketliquidator.com/tickets/8307261/Lola-Young-tickets-Sat-May-1-2027-Bill-Graham-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f6GLUub",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307261"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307261",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307261/Lola-Young-tickets-Sat-May-1-2027-Bill-Graham-Civic-Auditorium"
   },
   {
     "id": "tm-lola-young-2027-los-angeles-vv16azk4e0kza8aeaf",
@@ -1026,12 +1098,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307263",
+        "url": "https://www.ticketliquidator.com/tickets/8307263/Lola-Young-tickets-Tue-May-4-2027-Greek-Theatre-Los-Angeles-CA",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZk4e0KZA8aeAF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307263"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307263",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307263/Lola-Young-tickets-Tue-May-4-2027-Greek-Theatre-Los-Angeles-CA"
   },
   {
     "id": "tm-lola-young-2027-dublin-1avoz_ogknk-ukb",

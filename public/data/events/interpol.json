@@ -724,11 +724,19 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8338176",
+        "url": "https://www.ticketliquidator.com/tickets/8338176/Interpol-tickets-Sat-Mar-20-2027-The-Bomb-Factory",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7sCe",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338176"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338176",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338176/Interpol-tickets-Sat-Mar-20-2027-The-Bomb-Factory"
   }
 ]

@@ -4082,12 +4082,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8346190",
+        "url": "https://www.ticketliquidator.com/tickets/8346190/The-Red-Clay-Strays-tickets-Sun-Sep-12-2027-The-Orion-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7svN",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8346190"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8346190",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8346190/The-Red-Clay-Strays-tickets-Sun-Sep-12-2027-The-Orion-Amphitheater"
   }
 ]

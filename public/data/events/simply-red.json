@@ -106,12 +106,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315155",
+        "url": "https://www.ticketliquidator.com/tickets/8315155/Simply-Red-tickets-Sun-Jun-20-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vCeoV_9",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315155"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315155",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315155/Simply-Red-tickets-Sun-Jun-20-2027-Ziggo-Dome"
   },
   {
     "id": "tm-simply-red-2027-merksem-antwerpen-z698xzg2z1kbk_apn",
@@ -909,12 +917,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294111",
+        "url": "https://www.ticketliquidator.com/tickets/8294111/Simply-Red-tickets-Wed-Aug-18-2027-Colchester-Castle-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_3Gkmn5KEU",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294111"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294111",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294111/Simply-Red-tickets-Wed-Aug-18-2027-Colchester-Castle-Park"
   },
   {
     "id": "tm-simply-red-2027-swansea-g5vhz_3rbtf3u",

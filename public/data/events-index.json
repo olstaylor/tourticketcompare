@@ -53034,5 +53034,29 @@
     "timezone": "Pacific/Auckland",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-foy-vance-2027-ardmore-z7r9jz1aa7_fo",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "country": "United States Of America",
+    "city": "Ardmore",
+    "venue": "Ardmore Music Hall",
+    "datetime_iso": "2027-04-24T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2027-auckland-1ae8z_4gkre277q",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "country": "New Zealand",
+    "city": "Auckland",
+    "venue": "Spark Arena",
+    "datetime_iso": "2027-03-05T06:00:00Z",
+    "timezone": "Pacific/Auckland",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

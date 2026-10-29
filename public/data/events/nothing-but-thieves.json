@@ -1606,6 +1606,13 @@
         "verified": true,
         "last_verified_at": "2026-08-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107257084",
+        "url": "https://www.stubhub.ie/nothing-but-thieves-philadelphia-tickets-4-16-2027/event/107257084",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_5Qfmzvi",
@@ -1622,7 +1629,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-philadelphia-tickets-4-16-2027/event/107257084"
   },
   {
     "id": "tm-nothing-but-thieves-2027-brooklyn-k7vgf_5qzhcl7",

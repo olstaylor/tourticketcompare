@@ -922,6 +922,7 @@ export const OG_CARDS = {
   "/venues/old-national-centre-indianapolis": {"url":"/og/venues-old-national-centre-indianapolis.png","alt":"Concerts at: Old National Centre"},
   "/venues/olympiahalle-munich": {"url":"/og/venues-olympiahalle-munich.png","alt":"Concerts at: Olympiahalle"},
   "/venues/orion-amphitheater-huntsville": {"url":"/og/venues-orion-amphitheater-huntsville.png","alt":"Concerts at: Orion Amphitheater"},
+  "/venues/oslo-spektrum-oslo": {"url":"/og/venues-oslo-spektrum-oslo.png","alt":"Concerts at: Oslo Spektrum"},
   "/venues/ovo-arena-wembley-london": {"url":"/og/venues-ovo-arena-wembley-london.png","alt":"Concerts at: OVO Arena Wembley"},
   "/venues/ovo-hydro-glasgow": {"url":"/og/venues-ovo-hydro-glasgow.png","alt":"Concerts at: OVO Hydro"},
   "/venues/palacio-de-los-deportes-ciudad-de-m-xico": {"url":"/og/venues-palacio-de-los-deportes-ciudad-de-m-xico.png","alt":"Concerts at: Palacio de los Deportes"},

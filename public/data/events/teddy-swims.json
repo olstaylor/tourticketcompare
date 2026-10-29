@@ -1524,11 +1524,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107154940",
-        "url": "https://www.stubhub.ie/teddy-swims-austin-tickets-10-28-2026/event/107154940",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_FXgRQAF",
@@ -1536,7 +1536,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883110",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883110/Teddy-Swims-tickets-Wed-Oct-28-2026-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-austin-tickets-10-28-2026/event/107154940",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "T-Mobile® Reserved Tickets",

@@ -3942,7 +3942,7 @@
     "ticketmaster_event_id": "0F00653CB439A3AB",
     "ticketmaster_url": "https://www.ticketmaster.com/the-red-clay-strays-bend-oregon-08-20-2027/event/0F00653CB439A3AB",
     "seatgeek_url": "https://seatgeek.com/the-red-clay-strays-tickets/bend-oregon-hayden-homes-amphitheater-2027-08-20-6-30-pm/concert/18723980",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-bend-hayden-homes-amphitheater-8-20-2027/production/7755768",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-bend-oregon-08-20-2027/event/0F00653CB439A3AB",
     "last_verified_at": "2026-10-27",
@@ -3964,11 +3964,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7755768,
+        "url": "https://www.vividseats.com/the-red-clay-strays-tickets-bend-hayden-homes-amphitheater-8-20-2027/production/7755768",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -4041,7 +4041,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7svN",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7svN",
     "seatgeek_url": "https://seatgeek.com/the-red-clay-strays-tickets/huntsville-alabama-orion-amphitheater-2027-09-12-7-pm/concert/18727012",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-huntsville-orion-amphitheater-9-12-2027--concerts-country-and-folk/production/7757283",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7svN",
     "last_verified_at": null,
@@ -4063,11 +4063,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7757283,
+        "url": "https://www.vividseats.com/the-red-clay-strays-tickets-huntsville-orion-amphitheater-9-12-2027--concerts-country-and-folk/production/7757283",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

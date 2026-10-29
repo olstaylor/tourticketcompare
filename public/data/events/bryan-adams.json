@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "170064FDDE214442",
     "ticketmaster_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-28-2026/event/170064FDDE214442",
     "seatgeek_url": "https://seatgeek.com/bryan-adams-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-28-8-pm/concert/18424321",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-28-2026/production/7383750",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-28-2026/event/170064FDDE214442",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7383750,
+        "url": "https://www.vividseats.com/bryan-adams-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-28-2026/production/7383750",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "170064FDDE254490",
     "ticketmaster_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-29-2026/event/170064FDDE254490",
     "seatgeek_url": "https://seatgeek.com/bryan-adams-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-29-8-pm/concert/18424320",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-29-2026/production/7383770",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-29-2026/event/170064FDDE254490",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7383770,
+        "url": "https://www.vividseats.com/bryan-adams-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-29-2026/production/7383770",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "170064FDDE2844A1",
     "ticketmaster_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-30-2026/event/170064FDDE2844A1",
     "seatgeek_url": "https://seatgeek.com/bryan-adams-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-30-8-pm/concert/18424322",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-30-2026/production/7383780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-30-2026/event/170064FDDE2844A1",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7383780,
+        "url": "https://www.vividseats.com/bryan-adams-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-30-2026/production/7383780",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "170064FDDE2B44B7",
     "ticketmaster_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-31-2026/event/170064FDDE2B44B7",
     "seatgeek_url": "https://seatgeek.com/bryan-adams-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-10-31-8-pm/concert/18424324",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-31-2026/production/7383754",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-10-31-2026/event/170064FDDE2B44B7",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7383754,
+        "url": "https://www.vividseats.com/bryan-adams-tickets-las-vegas-encore-theater-at-wynn-las-vegas-10-31-2026/production/7383754",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "170064FDDE2D44C1",
     "ticketmaster_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-11-01-2026/event/170064FDDE2D44C1",
     "seatgeek_url": "https://seatgeek.com/bryan-adams-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-01-8-pm/concert/18424326",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-1-2026/production/7383758",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-11-01-2026/event/170064FDDE2D44C1",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7383758,
+        "url": "https://www.vividseats.com/bryan-adams-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-1-2026/production/7383758",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "407321678",
     "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/407321678?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-fulda-domplatz-fulda-6-29-2027/production/7664696",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/407321678?language=en-us",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7664696,
+        "url": "https://www.vividseats.com/bryan-adams-tickets-fulda-domplatz-fulda-6-29-2027/production/7664696",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "658370063",
     "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/658370063?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-hemer-sauerlandpark-hemer-7-4-2027/production/7661320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/658370063?language=en-us",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7661320,
+        "url": "https://www.vividseats.com/bryan-adams-tickets-hemer-sauerlandpark-hemer-7-4-2027/production/7661320",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1178,7 +1178,7 @@
     "ticketmaster_event_id": "1610784975",
     "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1610784975?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-magdeburg-domplatz-magdeburg-8-13-2027/production/7661286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1610784975?language=en-us",
     "last_verified_at": null,
@@ -1200,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7661286,
+        "url": "https://www.vividseats.com/bryan-adams-tickets-magdeburg-domplatz-magdeburg-8-13-2027/production/7661286",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

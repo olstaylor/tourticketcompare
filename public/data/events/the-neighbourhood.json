@@ -1172,7 +1172,7 @@
     "ticketmaster_event_id": "1E006556AE015756",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-denver-colorado-03-02-2027/event/1E006556AE015756",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/denver-colorado-ball-arena-2027-03-02-7-pm/concert/18726902",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-denver-ball-arena-3-2-2027--concerts-rock/production/7767705",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-denver-colorado-03-02-2027/event/1E006556AE015756",
     "last_verified_at": null,
@@ -1194,11 +1194,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7767705,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-denver-ball-arena-3-2-2027--concerts-rock/production/7767705",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1280,7 +1280,7 @@
     "ticketmaster_event_id": "0C00655AA02E493C",
     "ticketmaster_url": "https://www.ticketmaster.com/alt-1037-presents-the-neighbourhood-wourld-dallas-texas-03-07-2027/event/0C00655AA02E493C",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/dallas-texas-american-airlines-center-2027-03-07-7-pm/concert/18726900",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-dallas-american-airlines-center---tx-3-7-2027--concerts-rock/production/7767707",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alt-1037-presents-the-neighbourhood-wourld-dallas-texas-03-07-2027/event/0C00655AA02E493C",
     "last_verified_at": null,
@@ -1302,11 +1302,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7767707,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-dallas-american-airlines-center---tx-3-7-2027--concerts-rock/production/7767707",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1334,7 +1334,7 @@
     "ticketmaster_event_id": "3000655AD25C9658",
     "ticketmaster_url": "https://www.ticketmaster.com/wrff-presents-the-neighbourhood-wourld-tour-philadelphia-pennsylvania-04-23-2027/event/3000655AD25C9658",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-04-23-7-pm/concert/18726905",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-philadelphia-xfinity-mobile-arena-4-23-2027--concerts-rock/production/7767709",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wrff-presents-the-neighbourhood-wourld-tour-philadelphia-pennsylvania-04-23-2027/event/3000655AD25C9658",
     "last_verified_at": null,
@@ -1356,11 +1356,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7767709,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-philadelphia-xfinity-mobile-arena-4-23-2027--concerts-rock/production/7767709",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1388,7 +1388,7 @@
     "ticketmaster_event_id": "01006559C21AD68D",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-boston-massachusetts-04-24-2027/event/01006559C21AD68D",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/boston-massachusetts-td-garden-2027-04-24-7-pm/concert/18726904",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-boston-td-garden-4-24-2027--concerts-rock/production/7767716",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-boston-massachusetts-04-24-2027/event/01006559C21AD68D",
     "last_verified_at": null,
@@ -1410,11 +1410,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7767716,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-boston-td-garden-4-24-2027--concerts-rock/production/7767716",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1442,7 +1442,7 @@
     "ticketmaster_event_id": "3100655A98812ADA",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-montreal-quebec-04-27-2027/event/3100655A98812ADA",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/montreal-canada-centre-bell-2027-04-27-7-pm/concert/18726919",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-montreal-bell-centre-4-27-2027--concerts-rock/production/7767734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-montreal-quebec-04-27-2027/event/3100655A98812ADA",
     "last_verified_at": null,
@@ -1464,11 +1464,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7767734,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-montreal-bell-centre-4-27-2027--concerts-rock/production/7767734",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1550,7 +1550,7 @@
     "ticketmaster_event_id": "0500655BA7A5461D",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-columbus-ohio-04-30-2027/event/0500655BA7A5461D",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2027-04-30-7-pm/concert/18726908",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-columbus-value-city-arena-at-schottenstein-center-4-30-2027--concerts-rock/production/7767718",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-columbus-ohio-04-30-2027/event/0500655BA7A5461D",
     "last_verified_at": null,
@@ -1572,11 +1572,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7767718,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-columbus-value-city-arena-at-schottenstein-center-4-30-2027--concerts-rock/production/7767718",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1604,7 +1604,7 @@
     "ticketmaster_event_id": "1600655713FFBBD7",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-pittsburgh-pennsylvania-05-01-2027/event/1600655713FFBBD7",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2027-05-01-7-pm/concert/18726910",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-pittsburgh-ppg-paints-arena-5-1-2027--concerts-rock/production/7767720",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-pittsburgh-pennsylvania-05-01-2027/event/1600655713FFBBD7",
     "last_verified_at": null,
@@ -1626,11 +1626,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7767720,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-pittsburgh-ppg-paints-arena-5-1-2027--concerts-rock/production/7767720",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1658,7 +1658,7 @@
     "ticketmaster_event_id": "2D00655AC457A3B0",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-raleigh-north-carolina-05-04-2027/event/2D00655AC457A3B0",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/raleigh-north-carolina-lenovo-center-2027-05-04-7-pm/concert/18726915",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-raleigh-lenovo-center-5-4-2027--concerts-rock/production/7767726",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-raleigh-north-carolina-05-04-2027/event/2D00655AC457A3B0",
     "last_verified_at": null,
@@ -1680,11 +1680,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7767726,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-raleigh-lenovo-center-5-4-2027--concerts-rock/production/7767726",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1712,7 +1712,7 @@
     "ticketmaster_event_id": "05006557B00A72B1",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-indianapolis-indiana-05-07-2027/event/05006557B00A72B1",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-05-07-7-pm/concert/18726916",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-indianapolis-gainbridge-fieldhouse-5-7-2027--concerts-rock/production/7767728",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-indianapolis-indiana-05-07-2027/event/05006557B00A72B1",
     "last_verified_at": null,
@@ -1734,11 +1734,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7767728,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-indianapolis-gainbridge-fieldhouse-5-7-2027--concerts-rock/production/7767728",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1766,7 +1766,7 @@
     "ticketmaster_event_id": "0400655AB9F15B64",
     "ticketmaster_url": "https://www.ticketmaster.com/q101-presents-the-neighbourhood-wourld-tour-chicago-illinois-05-08-2027/event/0400655AB9F15B64",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/chicago-illinois-united-center-2027-05-08-7-pm/concert/18726918",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-chicago-united-center-5-8-2027--concerts-rock/production/7767730",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/q101-presents-the-neighbourhood-wourld-tour-chicago-illinois-05-08-2027/event/0400655AB9F15B64",
     "last_verified_at": null,
@@ -1788,11 +1788,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7767730,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-chicago-united-center-5-8-2027--concerts-rock/production/7767730",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1820,7 +1820,7 @@
     "ticketmaster_event_id": "1100655ABABC7A98",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-winnipeg-manitoba-05-11-2027/event/1100655ABABC7A98",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/winnipeg-canada-canada-life-centre-2027-05-11-7-pm/concert/18726926",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-winnipeg-canada-life-centre-5-11-2027--concerts-rock/production/7767742",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-winnipeg-manitoba-05-11-2027/event/1100655ABABC7A98",
     "last_verified_at": null,
@@ -1842,11 +1842,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7767742,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-winnipeg-canada-life-centre-5-11-2027--concerts-rock/production/7767742",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1874,7 +1874,7 @@
     "ticketmaster_event_id": "1100655A9FED5AE7",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-calgary-alberta-05-14-2027/event/1100655A9FED5AE7",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/calgary-canada-scotiabank-saddledome-2027-05-14-7-pm/concert/18726927",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-calgary-scotiabank-saddledome-5-14-2027--concerts-rock/production/7767748",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-calgary-alberta-05-14-2027/event/1100655A9FED5AE7",
     "last_verified_at": null,
@@ -1896,11 +1896,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7767748,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-calgary-scotiabank-saddledome-5-14-2027--concerts-rock/production/7767748",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1928,7 +1928,7 @@
     "ticketmaster_event_id": "1100655AC77587A2",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-edmonton-alberta-05-15-2027/event/1100655AC77587A2",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/edmonton-canada-rogers-place-2027-05-15-7-pm/concert/18726928",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-edmonton-rogers-place-5-15-2027--concerts-rock/production/7767750",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-edmonton-alberta-05-15-2027/event/1100655AC77587A2",
     "last_verified_at": null,
@@ -1950,11 +1950,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7767750,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-edmonton-rogers-place-5-15-2027--concerts-rock/production/7767750",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -274,11 +274,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18393602,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/chicago-illinois-the-salt-shed-indoors-2026-11-21-8-pm/concert/18393602",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1471,7 +1471,7 @@
         "event_id": 18604670,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/atlanta-georgia-the-eastern-atlanta-2027-03-14-8-pm/concert/18604670",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1540,7 +1540,7 @@
         "event_id": 18604671,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/atlanta-georgia-the-eastern-atlanta-2027-03-15-8-pm/concert/18604671",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1609,7 +1609,7 @@
         "event_id": 18604673,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-03-17-7-pm/concert/18604673",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1662,7 +1662,7 @@
         "event_id": 18604674,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/new-orleans-louisiana-saenger-theatre-new-orleans-2027-03-26-7-30-pm/concert/18604674",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1731,7 +1731,7 @@
         "event_id": 18604682,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2027-04-01-8-pm/concert/18604682",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1784,7 +1784,7 @@
         "event_id": 18604675,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/huntsville-alabama-orion-amphitheater-2027-03-27-8-pm/concert/18604675",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1853,7 +1853,7 @@
         "event_id": 18604672,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/dallas-texas-the-bomb-factory-dallas-2027-03-24-8-pm/concert/18604672",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1903,7 +1903,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "05006554D792BA56",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-columbus-ohio-03-29-2027/event/05006554D792BA56",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/columbus-ohio-wexner-center-mershon-auditorium-2027-03-29-7-30-pm/concert/18715562",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-columbus-wexner-center-for-the-arts---mershon-auditorium-3-29-2027/production/7747803",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-columbus-ohio-03-29-2027/event/05006554D792BA56",
@@ -1919,11 +1919,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18715562,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/columbus-ohio-wexner-center-mershon-auditorium-2027-03-29-7-30-pm/concert/18715562",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7747803,
@@ -1993,7 +1993,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010065547F0F3592",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-charlottesville-virginia-04-14-2027/event/010065547F0F3592",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/charlottesville-virginia-ting-pavilion-2027-04-14-7-30-pm/concert/18715564",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-charlottesville-ting-pavilion-4-14-2027/production/7747820",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-charlottesville-virginia-04-14-2027/event/010065547F0F3592",
@@ -2009,11 +2009,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18715564,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/charlottesville-virginia-ting-pavilion-2027-04-14-7-30-pm/concert/18715564",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7747820,
@@ -2083,7 +2083,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7K3A",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7K3A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/calgary-canada-spruce-meadows-2027-07-02-7-pm/concert/18715569",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-calgary-spruce-meadows-7-2-2027--concerts-alternative/production/7706688",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7K3A",
@@ -2099,11 +2099,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18715569,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/calgary-canada-spruce-meadows-2027-07-02-7-pm/concert/18715569",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706688,

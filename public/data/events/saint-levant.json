@@ -2586,7 +2586,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "090064E9AC787E1C",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-03-2027/event/090064E9AC787E1C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/los-angeles-california-the-wiltern-2027-05-03-7-pm/concert/18386205",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-03-2027/event/090064E9AC787E1C",
@@ -2602,11 +2602,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386205,
+        "url": "https://seatgeek.com/saint-levant-tickets/los-angeles-california-the-wiltern-2027-05-03-7-pm/concert/18386205",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2671,7 +2671,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "090064E9AC7C7E34",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-04-2027/event/090064E9AC7C7E34",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/los-angeles-california-the-wiltern-2027-05-04-7-pm/concert/18386207",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-04-2027/event/090064E9AC7C7E34",
@@ -2687,11 +2687,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386207,
+        "url": "https://seatgeek.com/saint-levant-tickets/los-angeles-california-the-wiltern-2027-05-04-7-pm/concert/18386207",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2756,7 +2756,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C0064E98B5C7CBF",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-san-francisco-california-05-07-2027/event/1C0064E98B5C7CBF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/san-francisco-california-the-masonic-san-francisco-2027-05-07-8-pm/concert/18386214",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-san-francisco-california-05-07-2027/event/1C0064E98B5C7CBF",
@@ -2772,11 +2772,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18386214,
+        "url": "https://seatgeek.com/saint-levant-tickets/san-francisco-california-the-masonic-san-francisco-2027-05-07-8-pm/concert/18386214",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

@@ -194,7 +194,7 @@
         "event_id": 18579808,
         "url": "https://seatgeek.com/victoria-monet-tickets/atlanta-georgia-fox-theatre-atlanta-2026-11-04-8-pm/concert/18579808",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -247,7 +247,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006528D30D8AA8",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monetmoved-to-ovens-auditorium-charlotte-north-carolina-11-05-2026/event/2D006528D30D8AA8",
-    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/charlotte-north-carolina-ovens-auditorium-2026-11-05-8-pm/concert/18579758",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monetmoved-to-ovens-auditorium-charlotte-north-carolina-11-05-2026/event/2D006528D30D8AA8",
@@ -267,7 +267,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -323,7 +323,7 @@
         "event_id": 18556120,
         "url": "https://seatgeek.com/victoria-monet-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-11-07-8-pm/concert/18556120",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1335,7 +1335,7 @@
         "event_id": 18579809,
         "url": "https://seatgeek.com/victoria-monet-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2026-12-02-8-pm/concert/18579809",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {

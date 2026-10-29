@@ -675,11 +675,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18404273,
+        "url": "https://seatgeek.com/tyla-tickets/oakland-california-fox-theater-oakland-2026-11-13-8-pm/concert/18404273",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

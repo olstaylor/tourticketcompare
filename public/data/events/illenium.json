@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18643550,
+        "url": "https://seatgeek.com/illenium-tickets/las-vegas-nevada-omnia-las-vegas-2026-12-19-10-30-pm/concert/18643550",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -287,11 +287,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18723868,
+        "url": "https://seatgeek.com/illenium-tickets/san-francisco-california-bill-graham-civic-auditorium-2027-01-01-8-pm/concert/18723868",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7757695,

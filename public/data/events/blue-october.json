@@ -1178,11 +1178,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18141441,
+        "url": "https://seatgeek.com/blue-october-tickets/wilkes-barre-pennsylvania-f-m-kirby-center-2026-11-14-8-pm/concert/18141441",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1598,11 +1598,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18140880,
+        "url": "https://seatgeek.com/blue-october-tickets/atlanta-georgia-the-tabernacle-atlanta-2026-11-22-8-pm/concert/18140880",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2066,7 +2066,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7-V0b",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0b",
-    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/oklahoma-city-oklahoma-the-criterion-okc-2026-12-06-8-pm/concert/18143446",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-V0b",
@@ -2086,7 +2086,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3925,7 +3925,7 @@
         "event_id": 18704137,
         "url": "https://seatgeek.com/blue-october-tickets/portland-oregon-roseland-theater-2027-02-27-8-pm/concert/18704137",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3994,7 +3994,7 @@
         "event_id": 18716616,
         "url": "https://seatgeek.com/blue-october-tickets/portland-oregon-roseland-theater-2027-02-28-8-pm/concert/18716616",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4116,7 +4116,7 @@
         "event_id": 18717561,
         "url": "https://seatgeek.com/blue-october-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-05-8-pm/concert/18717561",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4169,7 +4169,7 @@
         "event_id": 18262264,
         "url": "https://seatgeek.com/blue-october-tickets/denver-colorado-mission-ballroom-2027-03-06-8-pm/concert/18262264",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4238,7 +4238,7 @@
         "event_id": 18306113,
         "url": "https://seatgeek.com/blue-october-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-07-8-pm/concert/18306113",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4307,7 +4307,7 @@
         "event_id": 18343763,
         "url": "https://seatgeek.com/blue-october-tickets/chicago-illinois-riviera-theatre-chicago-2027-03-11-8-pm/concert/18343763",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {

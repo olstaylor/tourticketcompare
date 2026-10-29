@@ -278,7 +278,7 @@
         "event_id": 18591364,
         "url": "https://seatgeek.com/rod-stewart-tickets/hollywood-florida-hard-rock-live-hollywood-2027-03-12-8-pm/concert/18591364",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -355,7 +355,7 @@
         "event_id": 18603490,
         "url": "https://seatgeek.com/rod-stewart-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-03-16-7-30-pm/concert/18603490",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1556,7 +1556,7 @@
         "event_id": 17890592,
         "url": "https://seatgeek.com/rod-stewart-tickets/morrison-colorado-red-rocks-amphitheatre-2027-09-02-7-30-pm/concert/17890592",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1637,7 +1637,7 @@
         "event_id": 17914318,
         "url": "https://seatgeek.com/rod-stewart-tickets/morrison-colorado-red-rocks-amphitheatre-2027-09-03-7-30-pm/concert/17914318",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1926,7 +1926,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "02006557FBD16BDC",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-atlantic-city-new-jersey-03-06-2027/event/02006557FBD16BDC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-stewart-tickets/atlantic-city-new-jersey-hard-rock-live-at-etess-arena-2027-03-06-8-pm/concert/18725794",
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-3-6-2027/production/7761495",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-atlantic-city-new-jersey-03-06-2027/event/02006557FBD16BDC",
@@ -1942,11 +1942,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18725794,
+        "url": "https://seatgeek.com/rod-stewart-tickets/atlantic-city-new-jersey-hard-rock-live-at-etess-arena-2027-03-06-8-pm/concert/18725794",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761495,
@@ -1996,7 +1996,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006556D157AD72",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-lincoln-california-08-14-2027/event/1C006556D157AD72",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-stewart-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2027-08-14-8-pm/concert/18726699",
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-lincoln-the-venue-at-thunder-valley-casino-resort-8-14-2027/production/7763286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-lincoln-california-08-14-2027/event/1C006556D157AD72",

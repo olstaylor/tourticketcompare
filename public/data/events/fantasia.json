@@ -596,7 +596,7 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "0C0065363F7FDF12",
     "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-fort-worth-texas-03-13-2027/event/0C0065363F7FDF12",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/fort-worth-texas-dickies-arena-2027-03-13-8-pm/concert/18645847",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-fort-worth-texas-03-13-2027/event/0C0065363F7FDF12",
@@ -612,11 +612,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 18645847,
+        "url": "https://seatgeek.com/fantasia-tickets/fort-worth-texas-dickies-arena-2027-03-13-8-pm/concert/18645847",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1663,7 +1663,7 @@
         "event_id": 18632945,
         "url": "https://seatgeek.com/fantasia-tickets/las-vegas-nevada-mgm-grand-garden-arena-2027-04-24-8-pm/concert/18632945",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1732,7 +1732,7 @@
         "event_id": 18643133,
         "url": "https://seatgeek.com/fantasia-tickets/houston-texas-toyota-center-2027-03-12-8-pm/concert/18643133",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -931,7 +931,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C006530BA53A76E",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-05-2027/event/0C006530BA53A76E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/josiah-queen-tickets/fort-worth-texas-dickies-arena-2027-05-05-7-pm/concert/18606512",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-fort-worth-texas-05-05-2027/event/0C006530BA53A76E",
@@ -947,11 +947,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606512,
+        "url": "https://seatgeek.com/josiah-queen-tickets/fort-worth-texas-dickies-arena-2027-05-05-7-pm/concert/18606512",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

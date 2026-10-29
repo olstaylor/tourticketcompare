@@ -1,0 +1,320 @@
+[
+  {
+    "id": "tm-aespa-2027-manchester-g5vhz_gm82p9j",
+    "artist_slug": "aespa",
+    "artist_name": "aespa",
+    "event_name": "aespa LIVE TOUR - SYNK : COMPLæXITY - in MANCHESTER",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2027-01-14T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064CB903D65DC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/aespa-live-tour-synk-complxity-in-manchester-14-01-2027/event/1F0064CB903D65DC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/aespa-live-tour-synk-complxity-in-manchester-14-01-2027/event/1F0064CB903D65DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064CB903D65DC",
+        "discovery_event_id": "G5vHZ_Gm82p9j",
+        "url": "https://www.ticketmaster.co.uk/aespa-live-tour-synk-complxity-in-manchester-14-01-2027/event/1F0064CB903D65DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_Gm82p9j",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-aespa-2027-london-1agzk3pgkeok319",
+    "artist_slug": "aespa",
+    "artist_name": "aespa",
+    "event_name": "aespa LIVE TOUR - SYNK : COMPLæXITY - in LONDON",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-01-16T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006496A04D2297",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/aespa-live-tour-synk-complxity-in-london-16-01-2027/event/35006496A04D2297",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/aespa-live-tour-synk-complxity-in-london-16-01-2027/event/35006496A04D2297",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006496A04D2297",
+        "discovery_event_id": "1AgZk3pGkeOK319",
+        "url": "https://www.ticketmaster.co.uk/aespa-live-tour-synk-complxity-in-london-16-01-2027/event/35006496A04D2297",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk3pGkeOK319",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-aespa-2027-amsterdam-z698xzbpz16voeqaa6",
+    "artist_slug": "aespa",
+    "artist_name": "aespa",
+    "event_name": "aespa LIVE TOUR – SYNK : COMPLæXITY – in AMSTERDAM",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-01-19T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1442749147",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/aespa-live-tour--synk--complaexity--in-amsterdam-tickets/1442749147?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/aespa-live-tour--synk--complaexity--in-amsterdam-tickets/1442749147?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1442749147",
+        "discovery_event_id": "Z698xZbpZ16voeqaA6",
+        "url": "https://www.ticketmaster.nl/event/aespa-live-tour--synk--complaexity--in-amsterdam-tickets/1442749147?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16voeqaA6",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-aespa-2027-berlin-z698xzc2z1k_y_voe",
+    "artist_slug": "aespa",
+    "artist_name": "aespa",
+    "event_name": "aespa LIVE TOUR – SYNK : COMPLæXITY – in BERLIN",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Arena",
+    "datetime_iso": "2027-01-26T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "679674442",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/aespa-live-tour--synk--complaexity--in-berlin-tickets/679674442?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/aespa-live-tour--synk--complaexity--in-berlin-tickets/679674442?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "679674442",
+        "discovery_event_id": "Z698xZC2Z1k_y_Voe",
+        "url": "https://www.ticketmaster.de/event/aespa-live-tour--synk--complaexity--in-berlin-tickets/679674442?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1k_y_Voe",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-aespa-2027-milano-zg9rmiynyzekk1",
+    "artist_slug": "aespa",
+    "artist_name": "aespa",
+    "event_name": "aespa LIVE TOUR – SYNK : COMPLæXITY – in MILAN",
+    "city": "Milano",
+    "country": "Italy",
+    "venue": "Unipol Dome",
+    "datetime_iso": "2027-01-29T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "9yz6easuzpd2",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/aespa-live-tour-synk-complxity-milano-29-01-2027/event/9yz6easuzpd2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/aespa-live-tour-synk-complxity-milano-29-01-2027/event/9yz6easuzpd2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "9yz6easuzpd2",
+        "discovery_event_id": "ZG9rmIYnyZekk1",
+        "url": "https://www.ticketmaster.it/biglietti/aespa-live-tour-synk-complxity-milano-29-01-2027/event/9yz6easuzpd2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZekk1",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-aespa-2027-barcelona-z698xz2qz16v0vckob",
+    "artist_slug": "aespa",
+    "artist_name": "aespa",
+    "event_name": "aespa LIVE TOUR – SYNK : COMPLæXITY – in BARCELONA",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Palau Sant Jordi",
+    "datetime_iso": "2027-01-31T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1901386458",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/aespa-live-tour--synk--complaexity--in-barcelona-tickets/1901386458?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/aespa-live-tour--synk--complaexity--in-barcelona-tickets/1901386458?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1901386458",
+        "discovery_event_id": "Z698xZ2qZ16v0vCkob",
+        "url": "https://www.ticketmaster.es/event/aespa-live-tour--synk--complaexity--in-barcelona-tickets/1901386458?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v0vCkob",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  }
+]

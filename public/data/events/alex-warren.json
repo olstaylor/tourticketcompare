@@ -1,0 +1,587 @@
+[
+  {
+    "id": "tm-alex-warren-2026-las-vegas-1ayzkftgkdvnpgb",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren: Live in Las Vegas for New Year's Eve",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Colosseum at Caesars Palace",
+    "datetime_iso": "2026-12-31T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "39006529C1AA5D7A",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-30-2026/event/39006529C1AA5D7A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-30-2026/event/39006529C1AA5D7A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "39006529C1AA5D7A",
+        "discovery_event_id": "1AyZkftGkdvnPgB",
+        "url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-30-2026/event/39006529C1AA5D7A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AyZkftGkdvnPgB",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-las-vegas-1ayzkftgkdvipgh",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren: Live in Las Vegas for New Year's Eve",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Colosseum at Caesars Palace",
+    "datetime_iso": "2027-01-01T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "39006529C1B25D7C",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-31-2026/event/39006529C1B25D7C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-31-2026/event/39006529C1B25D7C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "39006529C1B25D7C",
+        "discovery_event_id": "1AyZkftGkdviPgH",
+        "url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-31-2026/event/39006529C1B25D7C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AyZkftGkdviPgH",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-cardiff-g5vhz_3c3nozb",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Blackweir Fields, Cardiff",
+    "datetime_iso": "2027-06-20T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006523928D1E3A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/alex-warren-cardiff-20-06-2027/event/1F006523928D1E3A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/alex-warren-cardiff-20-06-2027/event/1F006523928D1E3A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006523928D1E3A",
+        "discovery_event_id": "G5vHZ_3C3NozB",
+        "url": "https://www.ticketmaster.co.uk/alex-warren-cardiff-20-06-2027/event/1F006523928D1E3A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_3C3NozB",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-belfast-16doz_3cdg7z8me",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - (Finding (More) Family On the Road)",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "Ormeau Park",
+    "datetime_iso": "2027-06-21T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800652383E10B82",
+    "ticketmaster_url": "https://www.ticketmaster.ie/alex-warren-finding-more-family-on-belfast-21-06-2027/event/3800652383E10B82",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/alex-warren-finding-more-family-on-belfast-21-06-2027/event/3800652383E10B82",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800652383E10B82",
+        "discovery_event_id": "16dOZ_3CdG7z8me",
+        "url": "https://www.ticketmaster.ie/alex-warren-finding-more-family-on-belfast-21-06-2027/event/3800652383E10B82",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dOZ_3CdG7z8me",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-co-dublin-1abzkf-gkebtuoa",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family on the Road",
+    "city": "Co. Dublin",
+    "country": "Ireland",
+    "venue": "Malahide Castle",
+    "datetime_iso": "2027-06-22T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006521BAA76805",
+    "ticketmaster_url": "https://www.ticketmaster.ie/alex-warren-finding-more-family-on-co-dublin-22-06-2027/event/18006521BAA76805",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/alex-warren-finding-more-family-on-co-dublin-22-06-2027/event/18006521BAA76805",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006521BAA76805",
+        "discovery_event_id": "1AbZkf-GkeBtUOA",
+        "url": "https://www.ticketmaster.ie/alex-warren-finding-more-family-on-co-dublin-22-06-2027/event/18006521BAA76805",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkf-GkeBtUOA",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-glasgow-1auzkf_gkemjhov",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family on the Road",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Glasgow Green",
+    "datetime_iso": "2027-06-25T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006519B79BC441",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/alex-warren-finding-more-family-on-glasgow-25-06-2027/event/36006519B79BC441",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/alex-warren-finding-more-family-on-glasgow-25-06-2027/event/36006519B79BC441",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006519B79BC441",
+        "discovery_event_id": "1AUZkf_GkeMJHov",
+        "url": "https://www.ticketmaster.co.uk/alex-warren-finding-more-family-on-glasgow-25-06-2027/event/36006519B79BC441",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkf_GkeMJHov",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-exeter-g5vhz_3je-wlb",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Transport",
+    "city": "Exeter",
+    "country": "Great Britain",
+    "venue": "Powderham Castle",
+    "datetime_iso": "2027-06-26T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006529A7872AFA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/alex-warren-transport-exeter-26-06-2027/event/1F006529A7872AFA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/alex-warren-transport-exeter-26-06-2027/event/1F006529A7872AFA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006529A7872AFA",
+        "discovery_event_id": "G5vHZ_3JE-wlB",
+        "url": "https://www.ticketmaster.co.uk/alex-warren-transport-exeter-26-06-2027/event/1F006529A7872AFA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_3JE-wlB",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-woodstock-16djz_4q3g7mfnf",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren",
+    "city": "Woodstock",
+    "country": "Great Britain",
+    "venue": "Blenheim Palace",
+    "datetime_iso": "2027-06-27T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700655692DD48C8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/alex-warren-woodstock-27-06-2027/event/3700655692DD48C8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/alex-warren-woodstock-27-06-2027/event/3700655692DD48C8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700655692DD48C8",
+        "discovery_event_id": "16djZ_4Q3G7MfNF",
+        "url": "https://www.ticketmaster.co.uk/alex-warren-woodstock-27-06-2027/event/3700655692DD48C8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16djZ_4Q3G7MfNF",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-scarborough-1agzkf0gkdh1nyj",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Open Air Theatre",
+    "datetime_iso": "2027-06-30T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006524DB2AAC26",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/alex-warren-scarborough-30-06-2027/event/35006524DB2AAC26",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/alex-warren-scarborough-30-06-2027/event/35006524DB2AAC26",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006524DB2AAC26",
+        "discovery_event_id": "1AgZkf0Gkdh1nYJ",
+        "url": "https://www.ticketmaster.co.uk/alex-warren-scarborough-30-06-2027/event/35006524DB2AAC26",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkf0Gkdh1nYJ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-manchester-g5dzz_fblbfue",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Heaton Park",
+    "datetime_iso": "2027-07-02T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00654EABE94342",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/alex-warren-manchester-02-07-2027/event/3E00654EABE94342",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/alex-warren-manchester-02-07-2027/event/3E00654EABE94342",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00654EABE94342",
+        "discovery_event_id": "G5dzZ_fBlBfue",
+        "url": "https://www.ticketmaster.co.uk/alex-warren-manchester-02-07-2027/event/3E00654EABE94342",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_fBlBfue",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-london-1amzkfngkdb5am5",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Crystal Palace Park",
+    "datetime_iso": "2027-07-03T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006523D82C9DCB",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/alex-warren-london-03-07-2027/event/37006523D82C9DCB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/alex-warren-london-03-07-2027/event/37006523D82C9DCB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006523D82C9DCB",
+        "discovery_event_id": "1AMZkfNGkdb5aM5",
+        "url": "https://www.ticketmaster.co.uk/alex-warren-london-03-07-2027/event/37006523D82C9DCB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkfNGkdb5aM5",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

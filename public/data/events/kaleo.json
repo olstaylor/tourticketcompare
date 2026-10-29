@@ -1,0 +1,1062 @@
+[
+  {
+    "id": "tm-kaleo-2027-fremantle-1akzkffgkdlimm3",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO Way Down Under We Go Tour",
+    "city": "Fremantle",
+    "country": "Australia",
+    "venue": "Fremantle Prison",
+    "datetime_iso": "2027-02-10T09:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006514DFB37DD2",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/kaleo-way-down-under-we-go-fremantle-10-02-2027/event/13006514DFB37DD2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/kaleo-way-down-under-we-go-fremantle-10-02-2027/event/13006514DFB37DD2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006514DFB37DD2",
+        "discovery_event_id": "1AKZkffGkdLiMM3",
+        "url": "https://www.ticketmaster.com.au/kaleo-way-down-under-we-go-fremantle-10-02-2027/event/13006514DFB37DD2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkffGkdLiMM3",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-brisbane-1akzkffgkemx7vu",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO | Way Down Under We Go Tour",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Fortitude Music Hall",
+    "datetime_iso": "2027-02-15T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006514AE884D36",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/kaleo-way-down-under-we-go-brisbane-15-02-2027/event/13006514AE884D36",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/kaleo-way-down-under-we-go-brisbane-15-02-2027/event/13006514AE884D36",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006514AE884D36",
+        "discovery_event_id": "1AKZkffGkemx7VU",
+        "url": "https://www.ticketmaster.com.au/kaleo-way-down-under-we-go-brisbane-15-02-2027/event/13006514AE884D36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkffGkemx7VU",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-auckland-1a0zkfkgkeyf3yh",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down Under We Go Tour",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "The Civic, Auckland",
+    "datetime_iso": "2027-02-18T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "24006513B9212C1B",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/kaleo-way-down-under-we-go-auckland-18-02-2027/event/24006513B9212C1B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/kaleo-way-down-under-we-go-auckland-18-02-2027/event/24006513B9212C1B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "24006513B9212C1B",
+        "discovery_event_id": "1A0ZkfKGkeyF3Yh",
+        "url": "https://www.ticketmaster.co.nz/kaleo-way-down-under-we-go-auckland-18-02-2027/event/24006513B9212C1B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A0ZkfKGkeyF3Yh",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-oslo-z698xzb_z1kaejyfv",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Sentrum Scene",
+    "datetime_iso": "2027-03-01T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "267730534",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/kaleo-way-down-we-go-tour-tickets/267730534?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/kaleo-way-down-we-go-tour-tickets/267730534?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "267730534",
+        "discovery_event_id": "Z698xZb_Z1kaEjYfV",
+        "url": "https://www.ticketmaster.no/event/kaleo-way-down-we-go-tour-tickets/267730534?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z1kaEjYfV",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-oslo-z698xzb_z16v0wbofv",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Sentrum Scene",
+    "datetime_iso": "2027-03-02T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1932620501",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/kaleo-way-down-we-go-tour-tickets/1932620501?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/kaleo-way-down-we-go-tour-tickets/1932620501?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1932620501",
+        "discovery_event_id": "Z698xZb_Z16v0wbOfv",
+        "url": "https://www.ticketmaster.no/event/kaleo-way-down-we-go-tour-tickets/1932620501?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16v0wbOfv",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-brussels-z698xzg2z16vjkuafp",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "Cirque Royal - Koninklijk Circus",
+    "datetime_iso": "2027-03-08T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1986345216",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/kaleo-way-down-we-go-tour-tickets/1986345216",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/kaleo-way-down-we-go-tour-tickets/1986345216",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1986345216",
+        "discovery_event_id": "Z698xZG2Z16vJkuAFp",
+        "url": "https://www.ticketmaster.be/event/kaleo-way-down-we-go-tour-tickets/1986345216",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16vJkuAFp",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-brussels-z698xzg2z16v_0_u-k",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "Cirque Royal - Koninklijk Circus",
+    "datetime_iso": "2027-03-09T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1664676853",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/kaleo-way-down-we-go-tour-tickets/1664676853",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/kaleo-way-down-we-go-tour-tickets/1664676853",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1664676853",
+        "discovery_event_id": "Z698xZG2Z16v_0_U-K",
+        "url": "https://www.ticketmaster.be/event/kaleo-way-down-we-go-tour-tickets/1664676853",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16v_0_U-K",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-madrid-z698xz2qz1kuvp4rv",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Live Las Ventas",
+    "datetime_iso": "2027-03-14T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "341955781",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/kaleo-way-down-we-go-tour-tickets/341955781?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/kaleo-way-down-we-go-tour-tickets/341955781?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "341955781",
+        "discovery_event_id": "Z698xZ2qZ1kuvP4rv",
+        "url": "https://www.ticketmaster.es/event/kaleo-way-down-we-go-tour-tickets/341955781?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kuvP4rv",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-barcelona-z698xz2qz1koa3fud",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Sala Razzmatazz 1",
+    "datetime_iso": "2027-03-15T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "449488343",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/kaleo-way-down-we-go-tour-tickets/449488343?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/kaleo-way-down-we-go-tour-tickets/449488343?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "449488343",
+        "discovery_event_id": "Z698xZ2qZ1koa3Fud",
+        "url": "https://www.ticketmaster.es/event/kaleo-way-down-we-go-tour-tickets/449488343?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1koa3Fud",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-milano-zg9rmiynyzdeke",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Milano",
+    "country": "Italy",
+    "venue": "Fabrique",
+    "datetime_iso": "2027-03-17T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "x0aqcxh9xh9f",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/kaleo-way-down-we-go-tour-milano-17-03-2027/event/x0aqcxh9xh9f",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/kaleo-way-down-we-go-tour-milano-17-03-2027/event/x0aqcxh9xh9f",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "x0aqcxh9xh9f",
+        "discovery_event_id": "ZG9rmIYnyZdeke",
+        "url": "https://www.ticketmaster.it/biglietti/kaleo-way-down-we-go-tour-milano-17-03-2027/event/x0aqcxh9xh9f",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZdeke",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-warsaw-z698xzqpz1kbba-jk",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Warsaw",
+    "country": "Poland",
+    "venue": "COS Torwar",
+    "datetime_iso": "2027-03-19T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "618161993",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/kaleo-way-down-we-go-tour-tickets/618161993?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/kaleo-way-down-we-go-tour-tickets/618161993?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "618161993",
+        "discovery_event_id": "Z698xZQpZ1kbbA-JK",
+        "url": "https://www.ticketmaster.pl/event/kaleo-way-down-we-go-tour-tickets/618161993?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ1kbbA-JK",
+    "timezone": "Europe/Warsaw",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-praha-8-z698xzu0z1kauc3vb",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO – Way Down We Go Tour",
+    "city": "Praha 8",
+    "country": "Czech Republic",
+    "venue": "Forum Karlín",
+    "datetime_iso": "2027-03-20T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "276392058",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/kaleo--way-down-we-go-tour-tickets/276392058?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/kaleo--way-down-we-go-tour-tickets/276392058?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "276392058",
+        "discovery_event_id": "Z698xZu0Z1kaUC3vb",
+        "url": "https://www.ticketmaster.cz/event/kaleo--way-down-we-go-tour-tickets/276392058?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z1kaUC3vb",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-zurich-z698xzu3z16vqkfsq4",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Halle 622",
+    "datetime_iso": "2027-03-23T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1686531695",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/kaleo-way-down-we-go-tour-tickets/1686531695?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/kaleo-way-down-we-go-tour-tickets/1686531695?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1686531695",
+        "discovery_event_id": "Z698xZu3Z16vQkfsQ4",
+        "url": "https://www.ticketmaster.ch/event/kaleo-way-down-we-go-tour-tickets/1686531695?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z16vQkfsQ4",
+    "timezone": "Europe/Zurich",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-vienna-z698xz5rz16vr81eow",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Vienna",
+    "country": "Austria",
+    "venue": "Raiffeisen Halle im Gasometer",
+    "datetime_iso": "2027-03-26T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1790282472",
+    "ticketmaster_url": "https://www.ticketmaster.at/event/kaleo-way-down-we-go-tour-tickets/1790282472?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.at/event/kaleo-way-down-we-go-tour-tickets/1790282472?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1790282472",
+        "discovery_event_id": "Z698xZ5rZ16vr81eow",
+        "url": "https://www.ticketmaster.at/event/kaleo-way-down-we-go-tour-tickets/1790282472?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ5rZ16vr81eow",
+    "timezone": "Europe/Vienna",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-berlin-z698xzc2z1ku0c686",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Eats Music Hall",
+    "datetime_iso": "2027-03-29T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "364387407",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/kaleo-way-down-we-go-tour-tickets/364387407?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/kaleo-way-down-we-go-tour-tickets/364387407?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "364387407",
+        "discovery_event_id": "Z698xZC2Z1ku0C686",
+        "url": "https://www.ticketmaster.de/event/kaleo-way-down-we-go-tour-tickets/364387407?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1ku0C686",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-amsterdam-z698xzbpz16v8--tpb",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-03-30T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1421869958",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/kaleo-way-down-we-go-tour-tickets/1421869958?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/kaleo-way-down-we-go-tour-tickets/1421869958?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1421869958",
+        "discovery_event_id": "Z698xZbpZ16v8--tPb",
+        "url": "https://www.ticketmaster.nl/event/kaleo-way-down-we-go-tour-tickets/1421869958?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v8--tPb",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-london-g5dzz_uxmo7c5",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-04-03T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064D8AE444B4B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-london-03-04-2027/event/3E0064D8AE444B4B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-london-03-04-2027/event/3E0064D8AE444B4B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064D8AE444B4B",
+        "discovery_event_id": "G5dzZ_uxmo7c5",
+        "url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-london-03-04-2027/event/3E0064D8AE444B4B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_uxmo7c5",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-manchester-17uov0g6ulnuuct",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Apollo Manchester",
+    "datetime_iso": "2027-04-06T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064D7E334D3A9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-manchester-06-04-2027/event/360064D7E334D3A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-manchester-06-04-2027/event/360064D7E334D3A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064D7E334D3A9",
+        "discovery_event_id": "17uOv0G6uLNuuCt",
+        "url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-manchester-06-04-2027/event/360064D7E334D3A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G6uLNuuCt",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-glasgow-g5dzz_ujz8jhw",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2027-04-08T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064D9B8426F3D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-glasgow-08-04-2027/event/3E0064D9B8426F3D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-glasgow-08-04-2027/event/3E0064D9B8426F3D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064D9B8426F3D",
+        "discovery_event_id": "G5dzZ_uJz8JHW",
+        "url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-glasgow-08-04-2027/event/3E0064D9B8426F3D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_uJz8JHW",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kaleo-2027-birmingham-g5dzz_u5ehmmb",
+    "artist_slug": "kaleo",
+    "artist_name": "KALEO",
+    "event_name": "KALEO - Way Down We Go Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-04-09T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064D2C2F37DD8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-birmingham-09-04-2027/event/3E0064D2C2F37DD8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-birmingham-09-04-2027/event/3E0064D2C2F37DD8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064D2C2F37DD8",
+        "discovery_event_id": "G5dzZ_u5eHMMb",
+        "url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-birmingham-09-04-2027/event/3E0064D2C2F37DD8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_u5eHMMb",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

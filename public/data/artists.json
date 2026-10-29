@@ -2922,5 +2922,117 @@
     "last_verified_at": "2026-10-28",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-28"
+  },
+  {
+    "slug": "dropkick-murphys",
+    "name": "Dropkick Murphys",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-29",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-29"
+  },
+  {
+    "slug": "kaleo",
+    "name": "KALEO",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-29",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-29"
+  },
+  {
+    "slug": "alex-warren",
+    "name": "Alex Warren",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-29",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-29"
+  },
+  {
+    "slug": "marc-anthony",
+    "name": "Marc Anthony",
+    "short_description": "World act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-29",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-29"
+  },
+  {
+    "slug": "calvin-harris",
+    "name": "Calvin Harris",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-29",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-29"
+  },
+  {
+    "slug": "aespa",
+    "name": "aespa",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-29",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-29"
+  },
+  {
+    "slug": "cage-the-elephant",
+    "name": "Cage The Elephant",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-29",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-29"
+  },
+  {
+    "slug": "two-door-cinema-club",
+    "name": "Two Door Cinema Club",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-29",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-29"
   }
 ]

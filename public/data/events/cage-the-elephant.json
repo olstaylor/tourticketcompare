@@ -1,0 +1,426 @@
+[
+  {
+    "id": "tm-cage-the-elephant-2027-krakow-z698xzqpz16vup4eqe",
+    "artist_slug": "cage-the-elephant",
+    "artist_name": "Cage The Elephant",
+    "event_name": "Cage The Elephant: DYING IN REVERSE TOUR",
+    "city": "Krakow",
+    "country": "Poland",
+    "venue": "Klub Studio",
+    "datetime_iso": "2027-02-09T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1356567682",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/cage-the-elephant-dying-in-reverse-tour-tickets/1356567682?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/cage-the-elephant-dying-in-reverse-tour-tickets/1356567682?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1356567682",
+        "discovery_event_id": "Z698xZQpZ16vup4EQe",
+        "url": "https://www.ticketmaster.pl/event/cage-the-elephant-dying-in-reverse-tour-tickets/1356567682?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ16vup4EQe",
+    "timezone": "Europe/Warsaw",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cage-the-elephant-2027-milano-zg9rmiynyzdfvd",
+    "artist_slug": "cage-the-elephant",
+    "artist_name": "Cage The Elephant",
+    "event_name": "CAGE THE ELEPHANT",
+    "city": "Milano",
+    "country": "Italy",
+    "venue": "Fabrique",
+    "datetime_iso": "2027-02-17T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "m448dcu1e9pk",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/cage-the-elephant-milano-17-02-2027/event/m448dcu1e9pk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/cage-the-elephant-milano-17-02-2027/event/m448dcu1e9pk",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "m448dcu1e9pk",
+        "discovery_event_id": "ZG9rmIYnyZdFvd",
+        "url": "https://www.ticketmaster.it/biglietti/cage-the-elephant-milano-17-02-2027/event/m448dcu1e9pk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZdFvd",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cage-the-elephant-2027-cardiff-16dbz_3rfg7rxe8",
+    "artist_slug": "cage-the-elephant",
+    "artist_name": "Cage The Elephant",
+    "event_name": "Cage The Elephant",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Depot Cardiff",
+    "datetime_iso": "2027-02-22T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600652788BE2090",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/cage-the-elephant-cardiff-22-02-2027/event/3600652788BE2090",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-cardiff-22-02-2027/event/3600652788BE2090",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600652788BE2090",
+        "discovery_event_id": "16dbZ_3rFG7Rxe8",
+        "url": "https://www.ticketmaster.co.uk/cage-the-elephant-cardiff-22-02-2027/event/3600652788BE2090",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dbZ_3rFG7Rxe8",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cage-the-elephant-2027-leeds-g5dzz_350zpr-",
+    "artist_slug": "cage-the-elephant",
+    "artist_name": "Cage The Elephant",
+    "event_name": "Cage The Elephant",
+    "city": "Leeds",
+    "country": "Great Britain",
+    "venue": "O2 Academy Leeds",
+    "datetime_iso": "2027-02-23T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006522E4E16BE1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/cage-the-elephant-leeds-23-02-2027/event/3E006522E4E16BE1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-leeds-23-02-2027/event/3E006522E4E16BE1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006522E4E16BE1",
+        "discovery_event_id": "G5dzZ_350zpR-",
+        "url": "https://www.ticketmaster.co.uk/cage-the-elephant-leeds-23-02-2027/event/3E006522E4E16BE1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_350zpR-",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cage-the-elephant-2027-glasgow-g5dzz_3kn7sp1",
+    "artist_slug": "cage-the-elephant",
+    "artist_name": "Cage The Elephant",
+    "event_name": "Cage The Elephant",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2027-02-25T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006521AA13394A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/cage-the-elephant-glasgow-25-02-2027/event/3E006521AA13394A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-glasgow-25-02-2027/event/3E006521AA13394A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006521AA13394A",
+        "discovery_event_id": "G5dzZ_3kn7SP1",
+        "url": "https://www.ticketmaster.co.uk/cage-the-elephant-glasgow-25-02-2027/event/3E006521AA13394A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3kn7SP1",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cage-the-elephant-2027-birmingham-g5dzz_3k0lkkh",
+    "artist_slug": "cage-the-elephant",
+    "artist_name": "Cage The Elephant",
+    "event_name": "Cage The Elephant",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-02-26T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006521A47D34DB",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/cage-the-elephant-birmingham-26-02-2027/event/3E006521A47D34DB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-birmingham-26-02-2027/event/3E006521A47D34DB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006521A47D34DB",
+        "discovery_event_id": "G5dzZ_3k0LKKh",
+        "url": "https://www.ticketmaster.co.uk/cage-the-elephant-birmingham-26-02-2027/event/3E006521A47D34DB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3k0LKKh",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cage-the-elephant-2027-manchester-g5dzz_3374s3o",
+    "artist_slug": "cage-the-elephant",
+    "artist_name": "Cage The Elephant",
+    "event_name": "Cage The Elephant",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Victoria Warehouse Manchester",
+    "datetime_iso": "2027-02-28T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00652484571491",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/cage-the-elephant-manchester-28-02-2027/event/3E00652484571491",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-manchester-28-02-2027/event/3E00652484571491",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00652484571491",
+        "discovery_event_id": "G5dzZ_3374s3o",
+        "url": "https://www.ticketmaster.co.uk/cage-the-elephant-manchester-28-02-2027/event/3E00652484571491",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3374s3o",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cage-the-elephant-2027-london-g5vhz_3r6zval",
+    "artist_slug": "cage-the-elephant",
+    "artist_name": "Cage The Elephant",
+    "event_name": "Cage The Elephant",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Alexandra Palace",
+    "datetime_iso": "2027-03-01T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00652787E0116B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/cage-the-elephant-london-01-03-2027/event/1F00652787E0116B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-london-01-03-2027/event/1F00652787E0116B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00652787E0116B",
+        "discovery_event_id": "G5vHZ_3r6zvAl",
+        "url": "https://www.ticketmaster.co.uk/cage-the-elephant-london-01-03-2027/event/1F00652787E0116B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_3r6zvAl",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

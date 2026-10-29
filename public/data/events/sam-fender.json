@@ -541,6 +541,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345901",
+        "url": "https://www.ticketliquidator.com/tickets/8345901/Sam-Fender-tickets-Thu-Jul-15-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_42lyJlW",
@@ -563,7 +570,8 @@
         "end": "2026-10-30T08:30:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345901"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345901",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345901/Sam-Fender-tickets-Thu-Jul-15-2027-Etihad-Stadium"
   },
   {
     "id": "tm-sam-fender-2027-manchester-g5dzz_4k4turs",

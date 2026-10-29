@@ -106,12 +106,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308712",
+        "url": "https://www.ticketliquidator.com/tickets/8308712/Simple-Plan-tickets-Wed-Jan-27-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v7Z_f1bG7WMex",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308712"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308712",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308712/Simple-Plan-tickets-Wed-Jan-27-2027-Rogers-Arena"
   },
   {
     "id": "tm-simple-plan-2027-victoria-z7r9jz1aae__3",
@@ -167,12 +175,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308713",
+        "url": "https://www.ticketliquidator.com/tickets/8308713/Simple-Plan-tickets-Wed-Jan-27-2027-Save-On-Foods-Memorial-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe__3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308713"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308713",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308713/Simple-Plan-tickets-Wed-Jan-27-2027-Save-On-Foods-Memorial-Centre"
   },
   {
     "id": "tm-simple-plan-2027-edmonton-1av7z_kgkmptc0p",
@@ -228,12 +244,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308714",
+        "url": "https://www.ticketliquidator.com/tickets/8308714/Simple-Plan-tickets-Fri-Jan-29-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkMptc0P",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308714"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308714",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308714/Simple-Plan-tickets-Fri-Jan-29-2027-Rogers-Place"
   },
   {
     "id": "tm-simple-plan-2027-calgary-1av7z_kgkd2pi5n",
@@ -289,12 +313,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308715",
+        "url": "https://www.ticketliquidator.com/tickets/8308715/Simple-Plan-tickets-Sun-Jan-31-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkD2pi5N",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308715"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308715",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308715/Simple-Plan-tickets-Sun-Jan-31-2027-Scotiabank-Saddledome"
   },
   {
     "id": "tm-simple-plan-2027-saskatoon-1av7z_kgkmkzc1-",
@@ -350,12 +382,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308716",
+        "url": "https://www.ticketliquidator.com/tickets/8308716/Simple-Plan-tickets-Mon-Feb-1-2027-SaskTel-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkMKZc1-",
     "timezone": "America/Swift_Current",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308716"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308716",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308716/Simple-Plan-tickets-Mon-Feb-1-2027-SaskTel-Centre"
   },
   {
     "id": "tm-simple-plan-2027-winnipeg-16ozk4eozza27k28",
@@ -411,12 +451,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308717",
+        "url": "https://www.ticketliquidator.com/tickets/8308717/Simple-Plan-tickets-Tue-Feb-2-2027-Canada-Life-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16oZk4eOZZA27k28",
     "timezone": "America/Winnipeg",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308717"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308717",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308717/Simple-Plan-tickets-Tue-Feb-2-2027-Canada-Life-Centre"
   },
   {
     "id": "tm-simple-plan-2027-toronto-1a8zk4e0eqizeug",
@@ -737,12 +785,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308723",
+        "url": "https://www.ticketliquidator.com/tickets/8308723/Simple-Plan-tickets-Fri-Feb-12-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_KGkD-Eypy",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308723"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308723",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308723/Simple-Plan-tickets-Fri-Feb-12-2027-Centre-Bell"
   },
   {
     "id": "tm-simple-plan-2027-moncton-1aszkfygkdcttvt",
@@ -798,12 +854,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308724",
+        "url": "https://www.ticketliquidator.com/tickets/8308724/Simple-Plan-tickets-Sun-Feb-14-2027-Avenir-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkfyGkdCTtvT",
     "timezone": "America/Halifax",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308724"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308724",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308724/Simple-Plan-tickets-Sun-Feb-14-2027-Avenir-Centre"
   },
   {
     "id": "tm-simple-plan-2027-sydney-1aszk4agkex2k4f",
@@ -859,12 +923,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308725",
+        "url": "https://www.ticketliquidator.com/tickets/8308725/Simple-Plan-tickets-Mon-Feb-15-2027-Centre-200",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4AGkeX2k4F",
     "timezone": "America/Halifax",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308725"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308725",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308725/Simple-Plan-tickets-Mon-Feb-15-2027-Centre-200"
   },
   {
     "id": "tm-simple-plan-2027-halifax-1ad7z_kgkmojy7e",
@@ -920,12 +992,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308726",
+        "url": "https://www.ticketliquidator.com/tickets/8308726/Simple-Plan-tickets-Tue-Feb-16-2027-Scotiabank-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_KGkMOJy7e",
     "timezone": "America/Halifax",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308726"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308726",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308726/Simple-Plan-tickets-Tue-Feb-16-2027-Scotiabank-Centre"
   },
   {
     "id": "tm-simple-plan-2027-sesto-san-giovanni-zg9rmiynyzff6k",

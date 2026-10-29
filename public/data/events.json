@@ -299357,11 +299357,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637163,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-11-8-pm/concert/17637163",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -299417,11 +299417,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637164,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-12-7-pm/concert/17637164",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -299477,11 +299477,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637167,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-17-7-pm/concert/17637167",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -299537,11 +299537,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637169,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-18-8-pm/concert/17637169",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -299597,11 +299597,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637171,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-19-7-pm/concert/17637171",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -299719,7 +299719,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D00632F271D385A",
     "ticketmaster_url": "https://www.ticketmaster.com/manilow-the-last-estero-concerts-estero-florida-01-16-2027/event/0D00632F271D385A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/estero-florida-hertz-arena-2027-01-16-7-pm/concert/17748832",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/manilow-the-last-estero-concerts-estero-florida-01-16-2027/event/0D00632F271D385A",
@@ -299735,11 +299735,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17748832,
+        "url": "https://seatgeek.com/barry-manilow-tickets/estero-florida-hertz-arena-2027-01-16-7-pm/concert/17748832",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -299789,7 +299789,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D00632F271E385C",
     "ticketmaster_url": "https://www.ticketmaster.com/manilow-the-last-estero-concerts-estero-florida-01-17-2027/event/0D00632F271E385C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/estero-florida-hertz-arena-2027-01-17-7-pm/concert/17748833",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/manilow-the-last-estero-concerts-estero-florida-01-17-2027/event/0D00632F271E385C",
@@ -299805,11 +299805,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17748833,
+        "url": "https://seatgeek.com/barry-manilow-tickets/estero-florida-hertz-arena-2027-01-17-7-pm/concert/17748833",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -299940,7 +299940,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2200632CCE031F54",
     "ticketmaster_url": "https://www.ticketmaster.com/manilow-the-last-orlando-concert-orlando-florida-01-21-2027/event/2200632CCE031F54",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/orlando-florida-kia-center-2027-01-21-7-pm/concert/17748830",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/manilow-the-last-orlando-concert-orlando-florida-01-21-2027/event/2200632CCE031F54",
@@ -299956,11 +299956,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17748830,
+        "url": "https://seatgeek.com/barry-manilow-tickets/orlando-florida-kia-center-2027-01-21-7-pm/concert/17748830",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -300021,7 +300021,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "170062F0FD2C631D",
     "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-18-2027/event/170062F0FD2C631D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-02-18-7-pm/concert/17637107",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-18-2027/event/170062F0FD2C631D",
@@ -300037,11 +300037,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637107,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-02-18-7-pm/concert/17637107",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -300075,7 +300075,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "170062F0FD2F632A",
     "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-19-2027/event/170062F0FD2F632A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-02-19-8-pm/concert/17637109",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-19-2027/event/170062F0FD2F632A",
@@ -300091,11 +300091,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637109,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-02-19-8-pm/concert/17637109",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -300129,7 +300129,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "170062F0FD35632C",
     "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-20-2027/event/170062F0FD35632C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-02-20-7-pm/concert/17637108",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-20-2027/event/170062F0FD35632C",
@@ -300145,11 +300145,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637108,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-02-20-7-pm/concert/17637108",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -300183,7 +300183,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "170062F0FD376334",
     "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-25-2027/event/170062F0FD376334",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-02-25-7-pm/concert/17637120",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-25-2027/event/170062F0FD376334",
@@ -300199,11 +300199,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637120,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-02-25-7-pm/concert/17637120",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -300237,7 +300237,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "170062F0FD3A6339",
     "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-26-2027/event/170062F0FD3A6339",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-02-26-8-pm/concert/17637121",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-26-2027/event/170062F0FD3A6339",
@@ -300253,11 +300253,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637121,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-02-26-8-pm/concert/17637121",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -300291,7 +300291,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "170062F0FD3C633B",
     "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-27-2027/event/170062F0FD3C633B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-02-27-7-pm/concert/17637122",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-02-27-2027/event/170062F0FD3C633B",
@@ -300307,11 +300307,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637122,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-02-27-7-pm/concert/17637122",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -300345,7 +300345,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "170062F0FD3F633D",
     "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-25-2027/event/170062F0FD3F633D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-03-25-7-pm/concert/17637123",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-25-2027/event/170062F0FD3F633D",
@@ -300361,11 +300361,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637123,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-03-25-7-pm/concert/17637123",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -300399,7 +300399,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "170062F0FD41633F",
     "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-26-2027/event/170062F0FD41633F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-03-26-8-pm/concert/17637124",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-26-2027/event/170062F0FD41633F",
@@ -300415,11 +300415,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637124,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-03-26-8-pm/concert/17637124",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -300453,7 +300453,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "170062F0FD446341",
     "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-27-2027/event/170062F0FD446341",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-03-27-7-pm/concert/17637125",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-03-27-2027/event/170062F0FD446341",
@@ -300469,11 +300469,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17637125,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-03-27-7-pm/concert/17637125",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -300507,7 +300507,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700652BD1B07571",
     "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-01-2027/event/1700652BD1B07571",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-01-7-pm/concert/18590289",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-01-2027/event/1700652BD1B07571",
@@ -300523,11 +300523,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590289,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-01-7-pm/concert/18590289",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -300560,7 +300560,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700652BD1B77585",
     "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-02-2027/event/1700652BD1B77585",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-02-8-pm/concert/18590288",
     "vividseats_url": "https://www.vividseats.com/barry-manilow-tickets-las-vegas-westgate-las-vegas-casino-and-resort-4-2-2027/production/7551989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-02-2027/event/1700652BD1B77585",
@@ -300576,11 +300576,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590288,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-02-8-pm/concert/18590288",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7551989,
@@ -300613,7 +300613,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700652BD1BE75BF",
     "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-03-2027/event/1700652BD1BE75BF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-03-7-pm/concert/18590286",
     "vividseats_url": "https://www.vividseats.com/barry-manilow-tickets-las-vegas-westgate-las-vegas-casino-and-resort-4-3-2027/production/7551993",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-03-2027/event/1700652BD1BE75BF",
@@ -300629,11 +300629,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590286,
+        "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-03-7-pm/concert/18590286",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7551993,

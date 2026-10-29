@@ -431,11 +431,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8011579",
-        "url": "https://www.ticketnetwork.com/en/p/8011579",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5IX0y73",
@@ -446,7 +446,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011579"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-bryson-tiller-2026-portland-vvg1hz_5po9bdo",

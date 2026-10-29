@@ -345,11 +345,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8028491",
-        "url": "https://www.ticketnetwork.com/en/p/8028491",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5EhIC8T",
@@ -360,7 +360,7 @@
     "organizer_names": [
       "CONCERTS WEST (AEG)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8028491"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-phoebe-bridgers-2026-san-francisco-g5vyz_gpqjtlc",

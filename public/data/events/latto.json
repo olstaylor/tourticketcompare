@@ -133,7 +133,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe_7z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_7z",
-    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/boston-massachusetts-td-garden-2026-11-23-7-30-pm/concert/17769352",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_7z",
@@ -153,7 +153,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

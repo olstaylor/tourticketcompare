@@ -30,7 +30,7 @@
         "event_id": 18319963,
         "url": "https://seatgeek.com/hazlett-tickets/eugene-oregon-wow-hall-2027-05-29-7-pm/concert/18319963",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -349,7 +349,7 @@
         "event_id": 18319949,
         "url": "https://seatgeek.com/hazlett-tickets/washington-district-of-columbia-the-howard-theatre-2027-04-23-8-pm/concert/18319949",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -599,7 +599,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010064CBE3E934EF",
     "ticketmaster_url": "https://www.ticketmaster.com/hazlett-boston-massachusetts-05-02-2027/event/010064CBE3E934EF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hazlett-tickets/boston-massachusetts-paradise-rock-club-2027-05-02-7-pm/concert/18311626",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-boston-massachusetts-05-02-2027/event/010064CBE3E934EF",
@@ -615,11 +615,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18311626,
+        "url": "https://seatgeek.com/hazlett-tickets/boston-massachusetts-paradise-rock-club-2027-05-02-7-pm/concert/18311626",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -672,7 +672,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "310064F1A280535A",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-preshow-speakeasy-with-hazlett-addon-montreal-quebec-05-04-2027/event/310064F1A280535A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hazlett-tickets/montreal-canada-beanfield-theatre-2027-05-04-8-pm/concert/18649787",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-preshow-speakeasy-with-hazlett-addon-montreal-quebec-05-04-2027/event/310064F1A280535A",
@@ -688,11 +688,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18649787,
+        "url": "https://seatgeek.com/hazlett-tickets/montreal-canada-beanfield-theatre-2027-05-04-8-pm/concert/18649787",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -857,7 +857,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "040064CADD7D1593",
     "ticketmaster_url": "https://www.ticketmaster.com/hazlett-chicago-illinois-05-13-2027/event/040064CADD7D1593",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hazlett-tickets/chicago-illinois-house-of-blues-chicago-2027-05-13-7-pm/concert/18311797",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-chicago-illinois-05-13-2027/event/040064CADD7D1593",
@@ -873,11 +873,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18311797,
+        "url": "https://seatgeek.com/hazlett-tickets/chicago-illinois-house-of-blues-chicago-2027-05-13-7-pm/concert/18311797",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -957,7 +957,7 @@
         "event_id": 18319957,
         "url": "https://seatgeek.com/hazlett-tickets/minneapolis-minnesota-first-avenue-minneapolis-2027-05-14-7-30-pm/concert/18319957",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1008,7 +1008,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "060064E2B071908E",
     "ticketmaster_url": "https://www.ticketmaster.com/hazlett-kansas-city-missouri-05-17-2027/event/060064E2B071908E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hazlett-tickets/kansas-city-missouri-madrid-theatre-1-2027-05-17-8-pm/concert/18649797",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-kansas-city-missouri-05-17-2027/event/060064E2B071908E",
@@ -1024,11 +1024,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18649797,
+        "url": "https://seatgeek.com/hazlett-tickets/kansas-city-missouri-madrid-theatre-1-2027-05-17-8-pm/concert/18649797",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1081,7 +1081,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F0064CBB520A0BF",
     "ticketmaster_url": "https://www.ticketmaster.com/hazlett-seattle-washington-05-25-2027/event/0F0064CBB520A0BF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hazlett-tickets/seattle-washington-neptune-theatre-wa-2027-05-25-8-pm/concert/18311990",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-seattle-washington-05-25-2027/event/0F0064CBB520A0BF",
@@ -1097,11 +1097,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18311990,
+        "url": "https://seatgeek.com/hazlett-tickets/seattle-washington-neptune-theatre-wa-2027-05-25-8-pm/concert/18311990",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1151,7 +1151,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "110064EFDCF0B40A",
     "ticketmaster_url": "https://www.ticketmaster.ca/hazlett-vancouver-british-columbia-05-26-2027/event/110064EFDCF0B40A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hazlett-tickets/vancouver-canada-commodore-ballroom-2027-05-26-7-pm/concert/18388253",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hazlett-vancouver-british-columbia-05-26-2027/event/110064EFDCF0B40A",
@@ -1167,11 +1167,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18388253,
+        "url": "https://seatgeek.com/hazlett-tickets/vancouver-canada-commodore-ballroom-2027-05-26-7-pm/concert/18388253",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1244,7 +1244,7 @@
         "event_id": 18311898,
         "url": "https://seatgeek.com/hazlett-tickets/san-francisco-california-august-hall-2027-06-01-8-pm/concert/18311898",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1317,7 +1317,7 @@
         "event_id": 18319968,
         "url": "https://seatgeek.com/hazlett-tickets/los-angeles-california-el-rey-theatre-los-angeles-2027-06-02-8-pm/concert/18319968",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1387,7 +1387,7 @@
         "event_id": 18319972,
         "url": "https://seatgeek.com/hazlett-tickets/san-diego-california-music-box-san-diego-2027-06-04-9-pm/concert/18319972",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1456,7 +1456,7 @@
         "event_id": 18312174,
         "url": "https://seatgeek.com/hazlett-tickets/phoenix-arizona-the-van-buren-2027-06-05-8-pm/concert/18312174",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1529,7 +1529,7 @@
         "event_id": 18319973,
         "url": "https://seatgeek.com/hazlett-tickets/dallas-texas-the-kessler-theater-2027-06-08-8-pm/concert/18319973",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {

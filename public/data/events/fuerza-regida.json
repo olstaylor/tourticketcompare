@@ -581,11 +581,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18470200,
+        "url": "https://seatgeek.com/fuerza-regida-tickets/west-valley-city-utah-maverik-center-2026-10-31-8-30-pm/concert/18470200",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

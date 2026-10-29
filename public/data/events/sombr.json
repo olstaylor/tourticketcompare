@@ -1374,11 +1374,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18175587,
+        "url": "https://seatgeek.com/sombr-tickets/saint-louis-missouri-enterprise-center-2026-10-30-7-pm/concert/18175587",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

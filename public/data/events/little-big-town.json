@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7P8A_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8A_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/little-big-town-tickets/san-antonio-texas-majestic-theatre-san-antonio-2026-10-29-7-30-pm/concert/18292618",
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-san-antonio-majestic-theatre-san-antonio-10-29-2026--concerts-country-and-folk/production/7132479",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8A_",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18292618,
+        "url": "https://seatgeek.com/little-big-town-tickets/san-antonio-texas-majestic-theatre-san-antonio-2026-10-29-7-30-pm/concert/18292618",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7132479,
@@ -80,7 +80,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064C3EDDC20C9",
     "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-houston-texas-10-30-2026/event/3A0064C3EDDC20C9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/little-big-town-tickets/houston-texas-sarofim-hall-at-the-hobby-center-2026-10-30-7-30-pm/concert/18292620",
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-houston-sarofim-hall---hobby-center-10-30-2026--concerts-country-and-folk/production/7132495",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-houston-texas-10-30-2026/event/3A0064C3EDDC20C9",
@@ -96,11 +96,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18292620,
+        "url": "https://seatgeek.com/little-big-town-tickets/houston-texas-sarofim-hall-at-the-hobby-center-2026-10-30-7-30-pm/concert/18292620",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7132495,
@@ -149,7 +149,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C0064C2A3FC7232",
     "ticketmaster_url": "https://www.ticketmaster.com/little-big-town-for-the-art-dallas-texas-10-31-2026/event/0C0064C2A3FC7232",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/little-big-town-tickets/dallas-texas-music-hall-at-fair-park-2026-10-31-7-30-pm/concert/18292622",
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-dallas-music-hall-at-fair-park-10-31-2026--concerts-country-and-folk/production/7132501",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-dallas-texas-10-31-2026/event/0C0064C2A3FC7232",
@@ -165,11 +165,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18292622,
+        "url": "https://seatgeek.com/little-big-town-tickets/dallas-texas-music-hall-at-fair-park-2026-10-31-7-30-pm/concert/18292622",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7132501,
@@ -303,11 +303,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18292628,
+        "url": "https://seatgeek.com/little-big-town-tickets/durham-north-carolina-dpac-durham-performing-arts-center-2026-11-06-7-30-pm/concert/18292628",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -701,11 +701,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18292640,
+        "url": "https://seatgeek.com/little-big-town-tickets/detroit-michigan-fox-theatre-detroit-2026-11-20-7-30-pm/concert/18292640",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7132557,
@@ -770,11 +770,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18292641,
+        "url": "https://seatgeek.com/little-big-town-tickets/toronto-canada-massey-hall-2026-11-22-8-pm/concert/18292641",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7132573,
@@ -823,11 +823,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18385970,
+        "url": "https://seatgeek.com/little-big-town-tickets/nashville-tennessee-ryman-auditorium-2026-12-08-7-30-pm/concert/18385970",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7282997,
@@ -892,11 +892,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18385972,
+        "url": "https://seatgeek.com/little-big-town-tickets/nashville-tennessee-ryman-auditorium-2026-12-09-7-30-pm/concert/18385972",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7283003,
@@ -961,11 +961,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18385974,
+        "url": "https://seatgeek.com/little-big-town-tickets/nashville-tennessee-ryman-auditorium-2026-12-10-7-30-pm/concert/18385974",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7283005,

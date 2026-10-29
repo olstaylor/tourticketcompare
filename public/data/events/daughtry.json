@@ -864,11 +864,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18316795,
+        "url": "https://seatgeek.com/daughtry-tickets/la-vista-nebraska-the-astro-theater-la-vista-2026-10-31-8-pm/concert/18316795",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1069,7 +1069,7 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7Px8p",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Px8p",
-    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/oklahoma-city-oklahoma-the-criterion-okc-2026-11-04-7-pm/concert/18316804",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Px8p",
@@ -1089,7 +1089,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3276,7 +3276,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3344,7 +3344,7 @@
         "event_id": 18632936,
         "url": "https://seatgeek.com/daughtry-tickets/charlottesville-virginia-paramount-theater-charlottesville-2027-03-03-7-pm/concert/18632936",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {

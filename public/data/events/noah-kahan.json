@@ -1168,5 +1168,761 @@
       "COMMUNION ONE LTD",
       "UNIVERSAL MUSIC ON BEHALF OF NOAH KAHAN"
     ]
+  },
+  {
+    "id": "tm-noah-kahan-2027-birmingham-1aezz_4gkwloexg",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Protective Stadium",
+    "datetime_iso": "2027-04-27T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000655CAB442FB5",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-birmingham-alabama-04-27-2027/event/2000655CAB442FB5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-birmingham-alabama-04-27-2027/event/2000655CAB442FB5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000655CAB442FB5",
+        "discovery_event_id": "1AeZZ_4GkwloeXg",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-birmingham-alabama-04-27-2027/event/2000655CAB442FB5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_4GkwloeXg",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T18:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-tampa-vvg1vz_4rlk1ty",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Raymond James Stadium",
+    "datetime_iso": "2027-04-29T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00655BEB4CAA79",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-tampa-florida-04-29-2027/event/0D00655BEB4CAA79",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-tampa-florida-04-29-2027/event/0D00655BEB4CAA79",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00655BEB4CAA79",
+        "discovery_event_id": "vvG1VZ_4RlK1ty",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-tampa-florida-04-29-2027/event/0D00655BEB4CAA79",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_4RlK1ty",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-charlotte-g5evz_4r3uqrt",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Bank of America Stadium",
+    "datetime_iso": "2027-05-06T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00655BD235D7A9",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-charlotte-north-carolina-05-06-2027/event/2D00655BD235D7A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-charlotte-north-carolina-05-06-2027/event/2D00655BD235D7A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00655BD235D7A9",
+        "discovery_event_id": "G5eVZ_4R3uqrt",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-charlotte-north-carolina-05-06-2027/event/2D00655BD235D7A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_4R3uqrt",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-houston-g5diz_4wkxf3f",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Reliant Stadium",
+    "datetime_iso": "2027-05-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00655C86F94494",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-houston-texas-05-12-2027/event/3A00655C86F94494",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-houston-texas-05-12-2027/event/3A00655C86F94494",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00655C86F94494",
+        "discovery_event_id": "G5dIZ_4wkXf3f",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-houston-texas-05-12-2027/event/3A00655C86F94494",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_4wkXf3f",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T18:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-santa-clara-g5vyz_4rfk6c7",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "Santa Clara",
+    "country": "United States Of America",
+    "venue": "Levi's® Stadium",
+    "datetime_iso": "2027-05-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00655BC8187B44",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-santa-clara-california-05-19-2027/event/1C00655BC8187B44",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-santa-clara-california-05-19-2027/event/1C00655BC8187B44",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00655BC8187B44",
+        "discovery_event_id": "G5vYZ_4RFk6c7",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-santa-clara-california-05-19-2027/event/1C00655BC8187B44",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_4RFk6c7",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T20:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-las-vegas-1avjz_4gkrmeou0",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Allegiant Stadium",
+    "datetime_iso": "2027-05-22T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700655BEE9D1DA4",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-las-vegas-nevada-05-21-2027/event/1700655BEE9D1DA4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-las-vegas-nevada-05-21-2027/event/1700655BEE9D1DA4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700655BEE9D1DA4",
+        "discovery_event_id": "1AvjZ_4GkRmEoU0",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-las-vegas-nevada-05-21-2027/event/1700655BEE9D1DA4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_4GkRmEoU0",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T20:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-columbus-vv17fz_4gkshkqmo",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Ohio Stadium",
+    "datetime_iso": "2027-06-05T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500655CFC19DBA0",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-columbus-ohio-06-05-2027/event/0500655CFC19DBA0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-columbus-ohio-06-05-2027/event/0500655CFC19DBA0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500655CFC19DBA0",
+        "discovery_event_id": "vv17fZ_4GkSHkqmO",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-columbus-ohio-06-05-2027/event/0500655CFC19DBA0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_4GkSHkqmO",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-detroit-vv1koz_kr3g7cdve",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Ford Field",
+    "datetime_iso": "2027-06-10T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800653792B43D27",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-10-2027/event/0800653792B43D27",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-10-2027/event/0800653792B43D27",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800653792B43D27",
+        "discovery_event_id": "vv1kOZ_Kr3G7cdVE",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-10-2027/event/0800653792B43D27",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kOZ_Kr3G7cdVE",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-orchard-park-vv17gz_4gksqg3zl",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "Orchard Park",
+    "country": "United States Of America",
+    "venue": "Highmark Stadium",
+    "datetime_iso": "2027-06-12T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0300655CDD312E2B",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-orchard-park-new-york-06-12-2027/event/0300655CDD312E2B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-orchard-park-new-york-06-12-2027/event/0300655CDD312E2B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0300655CDD312E2B",
+        "discovery_event_id": "vv17GZ_4GkSqG3zl",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-orchard-park-new-york-06-12-2027/event/0300655CDD312E2B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17GZ_4GkSqG3zl",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-montreal-1aszk4pgkdjhrvf",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Parc Jean Drapeau",
+    "datetime_iso": "2027-06-15T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006556E6F1ED08",
+    "ticketmaster_url": "https://www.ticketmaster.ca/noah-kahan-the-last-of-the-montreal-quebec-06-15-2027/event/31006556E6F1ED08",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/noah-kahan-the-last-of-the-montreal-quebec-06-15-2027/event/31006556E6F1ED08",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006556E6F1ED08",
+        "discovery_event_id": "1AsZk4pGkdJHrVF",
+        "url": "https://www.ticketmaster.ca/noah-kahan-the-last-of-the-montreal-quebec-06-15-2027/event/31006556E6F1ED08",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4pGkdJHrVF",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-east-rutherford-k7vgf_4me3p--",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2027-06-18T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000655BA74A5861",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-18-2027/event/0000655BA74A5861",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-18-2027/event/0000655BA74A5861",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000655BA74A5861",
+        "discovery_event_id": "k7vGF_4mE3P--",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-18-2027/event/0000655BA74A5861",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_4mE3P--",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-berlin-z698xzc2z16vgkoop-",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Waldbühne",
+    "datetime_iso": "2027-07-02T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1306451961",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/noah-kahan-the-last-of-the-bugs-world-tour-tickets/1306451961?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/noah-kahan-the-last-of-the-bugs-world-tour-tickets/1306451961?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1306451961",
+        "discovery_event_id": "Z698xZC2Z16vGkooP-",
+        "url": "https://www.ticketmaster.de/event/noah-kahan-the-last-of-the-bugs-world-tour-tickets/1306451961?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vGkooP-",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T11:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-milano-zg9rmiynyzfa6d",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "NOAH KAHAN - Noah Kahan: The Last Of The Bugs World Tour | I-Days Milano 2027",
+    "city": "Milano",
+    "country": "Italy",
+    "venue": "Ippodromo SNAI San Siro",
+    "datetime_iso": "2027-07-04T14:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "be8ty4t1yux2",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/noah-kahan-i-days-milano-2027-milano-04-07-2027/event/be8ty4t1yux2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/noah-kahan-i-days-milano-2027-milano-04-07-2027/event/be8ty4t1yux2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "be8ty4t1yux2",
+        "discovery_event_id": "ZG9rmIYnyZFa6d",
+        "url": "https://www.ticketmaster.it/biglietti/noah-kahan-i-days-milano-2027-milano-04-07-2027/event/be8ty4t1yux2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZFa6d",
+    "timezone": "Europe/Rome",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T11:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-sevilla-z698xz2qz16v3duzrf",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: Icónica Santalucia Sevilla Fest",
+    "city": "Sevilla",
+    "country": "Spain",
+    "venue": "Plaza de España",
+    "datetime_iso": "2027-07-07T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1483340788",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/noah-kahan-iconica-santalucia-sevilla-fest-tickets/1483340788?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/noah-kahan-iconica-santalucia-sevilla-fest-tickets/1483340788?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1483340788",
+        "discovery_event_id": "Z698xZ2qZ16v3duZrF",
+        "url": "https://www.ticketmaster.es/event/noah-kahan-iconica-santalucia-sevilla-fest-tickets/1483340788?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v3duZrF",
+    "timezone": "Europe/Madrid",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T11:00:00Z"
   }
 ]

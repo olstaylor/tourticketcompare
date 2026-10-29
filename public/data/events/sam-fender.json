@@ -698,5 +698,167 @@
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-manchester-etihad-stadium-17-7-2027/event/107676047"
+  },
+  {
+    "id": "tm-sam-fender-2027-cardiff-1adfz_4gklat6o4",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Principality Stadium",
+    "datetime_iso": "2027-06-12T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500655AC5FC7455",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-12-06-2027/event/3500655AC5FC7455",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-12-06-2027/event/3500655AC5FC7455",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500655AC5FC7455",
+        "discovery_event_id": "1AdfZ_4GklAT6o4",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-12-06-2027/event/3500655AC5FC7455",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_4GklAT6o4",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-edinburgh-1adbz_4gkm8ikcj",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Scottish Gas Murrayfield",
+    "datetime_iso": "2027-07-10T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600655B90A133A6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-10-07-2027/event/3600655B90A133A6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-10-07-2027/event/3600655B90A133A6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600655B90A133A6",
+        "discovery_event_id": "1AdbZ_4Gkm8IKCJ",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-10-07-2027/event/3600655B90A133A6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_4Gkm8IKCJ",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-sam-fender-2027-london-1aegz_4gklv3o2e",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender - Proper Massive Stadium Tour '27",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-09-02T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300655AF44913E7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-02-09-2027/event/2300655AF44913E7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-02-09-2027/event/2300655AF44913E7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300655AF44913E7",
+        "discovery_event_id": "1AeGZ_4GklV3o2E",
+        "url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-02-09-2027/event/2300655AF44913E7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_4GklV3o2E",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T09:30:00Z"
   }
 ]

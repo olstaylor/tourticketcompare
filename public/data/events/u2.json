@@ -357,5 +357,221 @@
     "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-2-3-2027/event/107678105",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344350",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344350/U2-tickets-Tue-Mar-2-2027-Estadio-GNP-Seguros-Mexico-City"
+  },
+  {
+    "id": "tm-u2-2027-stockholm-z698xzq2z16v-3vzat",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "venue": "Strawberry Arena",
+    "datetime_iso": "2027-04-26T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1852040169",
+    "ticketmaster_url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1852040169?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1852040169?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1852040169",
+        "discovery_event_id": "Z698xZq2Z16v-3vZAt",
+        "url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1852040169?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZq2Z16v-3vZAt",
+    "timezone": "Europe/Stockholm",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-stockholm-z698xzq2z16v_p7i1a",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "venue": "Strawberry Arena",
+    "datetime_iso": "2027-04-28T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1656128289",
+    "ticketmaster_url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1656128289?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1656128289?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1656128289",
+        "discovery_event_id": "Z698xZq2Z16v_p7I1a",
+        "url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1656128289?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZq2Z16v_p7I1a",
+    "timezone": "Europe/Stockholm",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-amsterdam-z698xzbpz16v0jupoj",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2027-06-05T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1926365826",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1926365826?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1926365826?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1926365826",
+        "discovery_event_id": "Z698xZbpZ16v0JuPOJ",
+        "url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1926365826?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v0JuPOJ",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-amsterdam-z698xzbpz16v7bpzfv",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2027-06-06T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1118978501",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1118978501?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1118978501?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1118978501",
+        "discovery_event_id": "Z698xZbpZ16v7bPzfv",
+        "url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1118978501?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v7bPzfv",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
   }
 ]

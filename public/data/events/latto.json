@@ -173,5 +173,59 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_7z",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-latto-2026-philadelphia-vv17fz_4gkux4p4m",
+    "artist_slug": "latto",
+    "artist_name": "Latto",
+    "event_name": "Tour Ma Vie World Tour Concert Afterparty Hosted By Latto",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "NOTO",
+    "datetime_iso": "2026-11-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200655DA255656E",
+    "ticketmaster_url": "https://www.ticketmaster.com/tour-ma-vie-world-tour-concert-philadelphia-pennsylvania-11-29-2026/event/0200655DA255656E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tour-ma-vie-world-tour-concert-philadelphia-pennsylvania-11-29-2026/event/0200655DA255656E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200655DA255656E",
+        "discovery_event_id": "vv17FZ_4GkUx4p4m",
+        "url": "https://www.ticketmaster.com/tour-ma-vie-world-tour-concert-philadelphia-pennsylvania-11-29-2026/event/0200655DA255656E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_4GkUx4p4m",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T21:00:00Z"
   }
 ]

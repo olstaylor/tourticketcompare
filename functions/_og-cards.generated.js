@@ -644,6 +644,8 @@ export const OG_CARDS = {
   "/artists/tyla/tickets/brooklyn-united-states": {"url":"/og/artists-tyla-tickets-brooklyn-united-states.png","alt":"Tickets: Tyla in Brooklyn"},
   "/artists/u2": {"url":"/og/artists-u2.png","alt":"Tickets & tour dates: U2"},
   "/artists/u2/presale": {"url":"/og/artists-u2-presale.png","alt":"Presale: U2"},
+  "/artists/u2/ticket-prices": {"url":"/og/artists-u2-ticket-prices.png","alt":"Ticket prices: U2"},
+  "/artists/u2/tickets/ciudad-de-m-xico-mexico": {"url":"/og/artists-u2-tickets-ciudad-de-m-xico-mexico.png","alt":"Tickets: U2 in Ciudad de México"},
   "/artists/uicideboy": {"url":"/og/artists-uicideboy.png","alt":"Tickets & tour dates: $uicideboy$"},
   "/artists/usher": {"url":"/og/artists-usher.png","alt":"Tickets & tour dates: Usher"},
   "/artists/valley": {"url":"/og/artists-valley.png","alt":"Tickets & tour dates: Valley"},

@@ -754,11 +754,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670969",
+        "url": "https://www.stubhub.ie/bryan-adams-tickets-oslo-oslo-spektrum-3-5-2027/event/107670969",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16vQ6qw4Z",
     "timezone": "Europe/Oslo",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/bryan-adams-tickets-oslo-oslo-spektrum-3-5-2027/event/107670969"
   },
   {
     "id": "tm-bryan-adams-2027-helsinki-z698xz8kz1kuaq6jf",
@@ -807,11 +815,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671837",
+        "url": "https://www.stubhub.ie/bryan-adams-tickets-helsinki-veikkaus-arena-7-5-2027/event/107671837",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ1kuAQ6jF",
     "timezone": "Europe/Helsinki",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/bryan-adams-tickets-helsinki-veikkaus-arena-7-5-2027/event/107671837"
   },
   {
     "id": "tm-bryan-adams-2027-nurnberg-z698xzc2z16vv6jt_f",
@@ -913,11 +929,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671713",
+        "url": "https://www.stubhub.ie/bryan-adams-tickets-fulda-domplatz-fulda-29-6-2027/event/107671713",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k86G-_z",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/bryan-adams-tickets-fulda-domplatz-fulda-29-6-2027/event/107671713"
   },
   {
     "id": "tm-bryan-adams-2027-halle-westfalen-z698xzc2z16voo4puj",

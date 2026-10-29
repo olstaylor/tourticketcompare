@@ -268,11 +268,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107667149",
-        "url": "https://www.stubhub.ie/stevie-wonder-tickets-amsterdam-ziggo-dome-28-10-2026/event/107667149",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -286,7 +286,7 @@
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-amsterdam-ziggo-dome-28-10-2026/event/107667149",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Mojo Concerts"
     ],

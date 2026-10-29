@@ -3969,6 +3969,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672935",
+        "url": "https://www.stubhub.ie/nickelback-liput-helsinki-veikkaus-arena-7-7-2027/event/107672935",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ16vqs7sfI",
@@ -3985,7 +3992,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314993/Nickelback-tickets-Wed-Jul-7-2027-Veikkaus-Arena",
     "organizer_names": [
       "Live Nation Finland Oy"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-liput-helsinki-veikkaus-arena-7-7-2027/event/107672935"
   },
   {
     "id": "tm-nickelback-2027-fornebu-z698xzb_z1an7vpy",

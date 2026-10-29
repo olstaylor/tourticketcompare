@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668942",
+        "url": "https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-19-6-2027/event/107668942",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vaJaMPP",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-19-6-2027/event/107668942"
   },
   {
     "id": "tm-simply-red-2027-amsterdam-z698xzbpz16vceov_9",
@@ -113,13 +121,21 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668943",
+        "url": "https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-20-6-2027/event/107668943",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vCeoV_9",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315155",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315155/Simply-Red-tickets-Sun-Jun-20-2027-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315155/Simply-Red-tickets-Sun-Jun-20-2027-Ziggo-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-20-6-2027/event/107668943"
   },
   {
     "id": "tm-simply-red-2027-merksem-antwerpen-z698xzg2z1kbk_apn",
@@ -274,11 +290,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669559",
+        "url": "https://www.stubhub.ie/simply-red-tickets-fulda-domplatz-fulda-30-6-2027/event/107669559",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vQ7paF0",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-fulda-domplatz-fulda-30-6-2027/event/107669559"
   },
   {
     "id": "tm-simply-red-2027-aurich-z698xzc2z16v4ab8-i",
@@ -327,11 +351,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669549",
+        "url": "https://www.stubhub.ie/simply-red-tickets-aurich-mehrzweckgelande-tannenhausen-2-7-2027/event/107669549",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v4Ab8-I",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-aurich-mehrzweckgelande-tannenhausen-2-7-2027/event/107669549"
   },
   {
     "id": "tm-simply-red-2027-hemer-z698xzc2z16v_nfy_4",
@@ -751,11 +783,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669495",
+        "url": "https://www.stubhub.ie/simply-red-tickets-london-gunnersbury-park-13-8-2027/event/107669495",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GkByUNs4",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-london-gunnersbury-park-13-8-2027/event/107669495"
   },
   {
     "id": "tm-simply-red-2027-margate-1agzkfegkemyogi",
@@ -804,11 +844,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668676",
+        "url": "https://www.stubhub.ie/simply-red-tickets-margate-dreamland-margate-14-8-2027/event/107668676",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfEGkemYogI",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-margate-dreamland-margate-14-8-2027/event/107668676"
   },
   {
     "id": "tm-simply-red-2027-scarborough-1agzkf0gkdqpn-m",
@@ -857,11 +905,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669496",
+        "url": "https://www.stubhub.ie/simply-red-tickets-scarborough-scarborough-open-air-theatre-17-8-2027/event/107669496",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkf0GkdQpn-m",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-scarborough-scarborough-open-air-theatre-17-8-2027/event/107669496"
   },
   {
     "id": "tm-simply-red-2027-colchester-1adfz_3gkmn5keu",

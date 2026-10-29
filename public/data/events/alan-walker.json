@@ -635,6 +635,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668178",
+        "url": "https://www.stubhub.ie/alan-walker-philadelphia-tickets-2-9-2027/event/107668178",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfxGkdmHFsX",
@@ -656,7 +663,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-philadelphia-tickets-2-9-2027/event/107668178"
   },
   {
     "id": "tm-alan-walker-2027-boston-vv1a8vpfzgauaajv",

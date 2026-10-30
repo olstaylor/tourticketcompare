@@ -242,6 +242,8 @@ export const CTA_LOCATIONS = Object.freeze([
   // The next-date price tables under the homepage hero (owner-approved
   // 2026-10-23, revenue-per-visitor test 2).
   "home_answer",
+  // The priced dates opening the /on-sale calendar (2026-10-30).
+  "onsale_answer",
   // The "Check prices" button on a show card that has no matched resale link,
   // going to the artist's verified SeatGeek page (owner-approved 2026-10-25).
   "event_card_check"

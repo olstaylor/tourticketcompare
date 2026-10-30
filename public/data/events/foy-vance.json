@@ -1626,7 +1626,7 @@
     "ticketmaster_event_id": "14117694",
     "ticketmaster_url": "https://www.ticketweb.com/event/foy-vance-world-tour-the-basement-east-tickets/14117694",
     "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/nashville-tennessee-the-basement-east-2027-04-09-8-pm/concert/18367917",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-nashville-the-basement-east-4-9-2027/production/6683044",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/foy-vance-world-tour-the-basement-east-tickets/14117694",
     "last_verified_at": "2026-10-15",
@@ -1648,11 +1648,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6683044,
+        "url": "https://www.vividseats.com/foy-vance-tickets-nashville-the-basement-east-4-9-2027/production/6683044",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1905,7 +1905,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7_Fo",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_Fo",
     "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/ardmore-pennsylvania-the-ardmore-music-hall-2027-04-23-8-pm/concert/18370696",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-ardmore-ardmore-music-hall-4-23-2027/production/6687157",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_Fo",
     "last_verified_at": null,
@@ -1927,11 +1927,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6687157,
+        "url": "https://www.vividseats.com/foy-vance-tickets-ardmore-ardmore-music-hall-4-23-2027/production/6687157",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

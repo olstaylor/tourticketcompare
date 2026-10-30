@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "3E0064D8AE444B4B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-london-03-04-2027/event/3E0064D8AE444B4B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kaleo-tickets-london-o2-academy-brixton-4-3-2027/production/7256394",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-london-03-04-2027/event/3E0064D8AE444B4B",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7256394,
+        "url": "https://www.vividseats.com/kaleo-tickets-london-o2-academy-brixton-4-3-2027/production/7256394",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "360064D7E334D3A9",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-manchester-06-04-2027/event/360064D7E334D3A9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kaleo-tickets-manchester-o2-apollo-manchester-4-6-2027/production/7256336",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-manchester-06-04-2027/event/360064D7E334D3A9",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7256336,
+        "url": "https://www.vividseats.com/kaleo-tickets-manchester-o2-apollo-manchester-4-6-2027/production/7256336",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +966,7 @@
     "ticketmaster_event_id": "3E0064D9B8426F3D",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-glasgow-08-04-2027/event/3E0064D9B8426F3D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kaleo-tickets-glasgow-o2-academy-glasgow-4-8-2027/production/7256348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-glasgow-08-04-2027/event/3E0064D9B8426F3D",
     "last_verified_at": null,
@@ -988,11 +988,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7256348,
+        "url": "https://www.vividseats.com/kaleo-tickets-glasgow-o2-academy-glasgow-4-8-2027/production/7256348",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

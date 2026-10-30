@@ -738,5 +738,111 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338176",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338176/Interpol-tickets-Sat-Mar-20-2027-The-Bomb-Factory"
+  },
+  {
+    "id": "tm-interpol-2027-san-antonio-z7r9jz1aa70ja",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol w/ Deafheaven",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "The Espee",
+    "datetime_iso": "2027-03-19T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA70jA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70jA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70jA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA70jA",
+        "discovery_event_id": "Z7r9jZ1AA70jA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70jA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA70jA",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-interpol-2027-sayreville-z7r9jz1aa70_y",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol w/ Deafheaven",
+    "city": "Sayreville",
+    "country": "United States Of America",
+    "venue": "Starland Ballroom",
+    "datetime_iso": "2027-03-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA70_y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70_y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70_y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA70_y",
+        "discovery_event_id": "Z7r9jZ1AA70_y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70_y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA70_y",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

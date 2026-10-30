@@ -310,5 +310,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7715501",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7715501/Post-Malone-tickets-Tue-Jul-28-2026-Rice-Eccles-Stadium"
+  },
+  {
+    "id": "tm-post-malone-2027-salt-lake-city-z7r9jz1aa7skb",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "event_name": "Post Malone w/ Alesso",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Delta Center",
+    "datetime_iso": "2027-01-01T05:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7Skb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Skb",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Skb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7Skb",
+        "discovery_event_id": "Z7r9jZ1AA7Skb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Skb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Skb",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

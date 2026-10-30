@@ -2230,5 +2230,58 @@
     "timezone": "Europe/Rome",
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:00:00Z"
+  },
+  {
+    "id": "tm-the-neighbourhood-2027-houston-z7r9jz1aa7ypb",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood WOURLD TOUR II",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2027-03-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7Ypb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Ypb",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Ypb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7Ypb",
+        "discovery_event_id": "Z7r9jZ1AA7Ypb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Ypb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Ypb",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

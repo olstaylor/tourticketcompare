@@ -11,8 +11,8 @@
   "siteLabel": "Vivid Seats",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-10-30T09:03:14.452Z",
-  "capturedTo": "2026-10-30T09:03:14.454Z",
+  "capturedFrom": "2026-10-30T16:16:33.450Z",
+  "capturedTo": "2026-10-30T16:16:33.453Z",
   "tourDates": 62,
   "coverage": {
     "marketCities": 12,
@@ -55,7 +55,7 @@
     "localDate": "2026-11-19",
     "price": 256,
     "currency": "USD",
-    "capturedAt": "2026-10-30T09:03:14.453Z"
+    "capturedAt": "2026-10-30T16:16:33.451Z"
   },
   "high": {
     "city": "Philadelphia",
@@ -65,9 +65,9 @@
     "localDate": "2026-11-07",
     "price": 621,
     "currency": "USD",
-    "capturedAt": "2026-10-30T09:03:14.452Z"
+    "capturedAt": "2026-10-30T16:16:33.450Z"
   },
-  "median": 371.5,
+  "median": 409,
   "ratio": 2.4,
   "cities": [
     {
@@ -78,7 +78,7 @@
       "localDate": "2026-11-19",
       "price": 256,
       "currency": "USD",
-      "capturedAt": "2026-10-30T09:03:14.453Z",
+      "capturedAt": "2026-10-30T16:16:33.451Z",
       "path": "/artists/olivia-rodrigo/tickets/sunrise-united-states"
     },
     {
@@ -89,7 +89,7 @@
       "localDate": "2026-12-07",
       "price": 323,
       "currency": "USD",
-      "capturedAt": "2026-10-30T09:03:14.453Z",
+      "capturedAt": "2026-10-30T16:16:33.450Z",
       "path": "/artists/olivia-rodrigo/tickets/seattle-united-states"
     },
     {
@@ -100,19 +100,8 @@
       "localDate": "2026-12-15",
       "price": 334,
       "currency": "USD",
-      "capturedAt": "2026-10-30T09:03:14.453Z",
+      "capturedAt": "2026-10-30T16:16:33.452Z",
       "path": "/artists/olivia-rodrigo/tickets/sacramento-united-states"
-    },
-    {
-      "city": "Columbus",
-      "country": "United States",
-      "venue": "Schottenstein Center",
-      "eventId": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtnri-",
-      "localDate": "2026-10-30",
-      "price": 353,
-      "currency": "USD",
-      "capturedAt": "2026-10-30T09:03:14.452Z",
-      "path": "/artists/olivia-rodrigo/tickets/columbus-united-states"
     },
     {
       "city": "Oakland",
@@ -122,7 +111,7 @@
       "localDate": "2026-12-11",
       "price": 356,
       "currency": "USD",
-      "capturedAt": "2026-10-30T09:03:14.453Z",
+      "capturedAt": "2026-10-30T16:16:33.452Z",
       "path": "/artists/olivia-rodrigo/tickets/oakland-united-states"
     },
     {
@@ -133,7 +122,7 @@
       "localDate": "2026-12-19",
       "price": 364,
       "currency": "USD",
-      "capturedAt": "2026-10-30T09:03:14.453Z",
+      "capturedAt": "2026-10-30T16:16:33.452Z",
       "path": "/artists/olivia-rodrigo/tickets/las-vegas-united-states"
     },
     {
@@ -142,9 +131,9 @@
       "venue": "State Farm Arena",
       "eventId": "tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw2ij5",
       "localDate": "2026-11-11",
-      "price": 379,
+      "price": 396,
       "currency": "USD",
-      "capturedAt": "2026-10-30T09:03:14.453Z",
+      "capturedAt": "2026-10-30T16:16:33.450Z",
       "path": "/artists/olivia-rodrigo/tickets/atlanta-united-states"
     },
     {
@@ -155,8 +144,19 @@
       "localDate": "2027-02-11",
       "price": 422,
       "currency": "USD",
-      "capturedAt": "2026-10-30T09:03:14.454Z",
+      "capturedAt": "2026-10-30T16:16:33.453Z",
       "path": "/artists/olivia-rodrigo/tickets/brooklyn-united-states"
+    },
+    {
+      "city": "Columbus",
+      "country": "United States",
+      "venue": "Schottenstein Center",
+      "eventId": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtnri-",
+      "localDate": "2026-10-30",
+      "price": 423,
+      "currency": "USD",
+      "capturedAt": "2026-10-30T16:16:33.450Z",
+      "path": "/artists/olivia-rodrigo/tickets/columbus-united-states"
     },
     {
       "city": "Nashville",
@@ -166,7 +166,7 @@
       "localDate": "2026-11-23",
       "price": 433,
       "currency": "USD",
-      "capturedAt": "2026-10-30T09:03:14.453Z",
+      "capturedAt": "2026-10-30T16:16:33.450Z",
       "path": "/artists/olivia-rodrigo/tickets/nashville-united-states"
     },
     {
@@ -175,9 +175,9 @@
       "venue": "Kia Center",
       "eventId": "tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj",
       "localDate": "2026-11-15",
-      "price": 478,
+      "price": 477,
       "currency": "USD",
-      "capturedAt": "2026-10-30T09:03:14.452Z",
+      "capturedAt": "2026-10-30T16:16:33.450Z",
       "path": "/artists/olivia-rodrigo/tickets/orlando-united-states"
     },
     {
@@ -188,7 +188,7 @@
       "localDate": "2027-01-12",
       "price": 487,
       "currency": "USD",
-      "capturedAt": "2026-10-30T09:03:14.453Z",
+      "capturedAt": "2026-10-30T16:16:33.452Z",
       "path": "/artists/olivia-rodrigo/tickets/inglewood-united-states"
     },
     {
@@ -199,7 +199,7 @@
       "localDate": "2026-11-07",
       "price": 621,
       "currency": "USD",
-      "capturedAt": "2026-10-30T09:03:14.452Z",
+      "capturedAt": "2026-10-30T16:16:33.450Z",
       "path": "/artists/olivia-rodrigo/tickets/philadelphia-united-states"
     }
   ]

@@ -3237,3 +3237,8 @@ code {
 @media (max-width: 440px) {
   .reading-contents ol, .reading-body .guide-grid { grid-template-columns: minmax(0, 1fr); }
 }
+
+/* Buttons that open an artist page or a site search, not the selected date:
+   dashed and quieter than the exact-date buttons so the two read as different. */
+.show-card .provider-cta-general { border-style: dashed; background: transparent; }
+.show-card .provider-cta-general .provider-cta-role { font-weight: 650; }

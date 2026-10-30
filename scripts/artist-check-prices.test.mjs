@@ -116,6 +116,7 @@ assert(!url.searchParams.has("showId"), "it carries no showId, so it can never p
 assert(url.searchParams.get("ctaLocation") === "event_card_check", "it reports its own cta_location");
 assert(/Check prices/.test(unmatchedCard) && /SeatGeek/.test(unmatchedCard), "it reads Check prices on SeatGeek");
 assert(/not this date/.test(unmatchedCard), "it says it is not this date");
+assert(/provider-cta-general/.test(unmatchedCard) && /Artist page · not this date/.test(unmatchedCard), "the button itself says it opens the artist page, not this date");
 assert(!/\$\s?\d|From \d|lowest|cheapest/i.test(unmatchedCard.replace(/data-[a-z-]+="[^"]*"/g, "")), "it makes no price claim");
 assert(unmatchedCard.includes("data-cta-provider=\"seatgeek\"") && unmatchedCard.includes(`data-cta-artist="${withSg.slug}"`), "analytics attributes name the provider and artist");
 

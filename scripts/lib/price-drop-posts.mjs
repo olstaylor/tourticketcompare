@@ -40,6 +40,10 @@ export const DROP_RULES = Object.freeze({
   maxDrafts: 10
 });
 
+// Owner focus artists (2026-10-30): their drops are drafted ahead of the rest.
+export const FOCUS_ARTISTS = Object.freeze(["olivia-rodrigo", "metallica", "lizzy-mcalpine", "zach-bryan", "nickelback"]);
+const focusRank = (slug) => (FOCUS_ARTISTS.includes(slug) ? 0 : 1);
+
 const trimmed = (v) => String(v ?? "").trim();
 const isoDay = (ms) => new Date(ms).toISOString().slice(0, 10);
 const dayMs = (d) => Date.parse(`${d}T00:00:00Z`);
@@ -167,9 +171,9 @@ export function detectPriceDrops(rows, events, artists, { now, rules = {} }) {
     });
   }
 
-  // Best first: stored show priority, then the size of the fall. One draft per
-  // artist, so a feed is never one tour's every city.
-  found.sort((a, b) => a.priorityRank - b.priorityRank || b.dropShare - a.dropShare || a.key.localeCompare(b.key));
+  // Best first: focus artists, then stored show priority, then the size of the
+  // fall. One draft per artist, so a feed is never one tour's every city.
+  found.sort((a, b) => focusRank(a.artistSlug) - focusRank(b.artistSlug) || a.priorityRank - b.priorityRank || b.dropShare - a.dropShare || a.key.localeCompare(b.key));
   const perArtist = new Map();
   const out = [];
   for (const item of found) {

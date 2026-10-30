@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import { detectPriceDrops, renderDraftText, renderDraftFile, priceDropSql } from "./lib/price-drop-posts.mjs";
+import { FOCUS_ARTISTS, detectPriceDrops, renderDraftText, renderDraftFile, priceDropSql } from "./lib/price-drop-posts.mjs";
 
 const NOW = Date.parse("2026-10-26T09:00:00Z");
 const artists = JSON.parse(fs.readFileSync(new URL("../public/data/artists.json", import.meta.url), "utf8"));
@@ -63,6 +63,9 @@ assert.doesNotMatch(renderDraftText(out[0]), /\bever\b/);
 const two = run([...drop, ...series("e2", [200, 200, 200, 200, 200, 200, 200, 150, 140], { rank: 1 })], [ev, event("e2", 30)]);
 assert.equal(two.length, 1);
 assert.equal(two[0].eventId, "e2");
+
+// Focus artists must be real artist slugs, or the priority silently does nothing.
+for (const f of FOCUS_ARTISTS) assert.ok(artistList.some((a) => a.slug === f), `focus artist ${f} exists`);
 
 // File output.
 assert.match(renderDraftFile(out, { now: NOW }), /Nothing is posted/);

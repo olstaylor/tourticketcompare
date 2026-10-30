@@ -2020,7 +2020,8 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
   const cta = document.createElement("a");
   const ctaLocation = analytics.ctaLocation || "event_card";
   const trackedHref = withCtaLocation(href, ctaLocation);
-  cta.className = `provider-cta${amount ? " provider-cta-priced" : ""}${analytics.provider === "ticketmaster" ? " provider-cta-primary" : ""}`;
+  const general = analytics.checkKind === "page" || analytics.checkKind === "search";
+  cta.className = `provider-cta${amount ? " provider-cta-priced" : ""}${analytics.provider === "ticketmaster" ? " provider-cta-primary" : ""}${general ? " provider-cta-general" : ""}`;
   cta.href = trackedHref;
   cta.target = "_blank";
   cta.rel = outboundCtaRel(trackedHref) || "noopener";
@@ -2032,7 +2033,7 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
   cta.dataset.ctaPriceSnapshot = amount ? "present" : "absent";
   cta.dataset.ctaLocation = ctaLocation;
   text(cta, "span", name, "provider-cta-name");
-  text(cta, "span", analytics.provider === "ticketmaster" ? "Primary seller · may include resale" : analytics.provider === "seatgeek" ? "Marketplace · check ticket type" : "Resale marketplace", "provider-cta-role");
+  text(cta, "span", general ? `${analytics.checkKind === "page" ? "Artist page" : "Site search"} · not this date` : analytics.provider === "ticketmaster" ? "Primary seller · may include resale" : analytics.provider === "seatgeek" ? "Marketplace · check ticket type" : "Resale marketplace", "provider-cta-role");
   text(cta, "span", (amount ? ["From", amount].join(" ") : "") || (analytics.provider === "ticketmaster" ? "See tickets" : "Check prices"), `provider-cta-value${amount ? " provider-cta-price" : " provider-cta-check"}`);
   return cta;
 }
@@ -2481,7 +2482,7 @@ function renderShowCard(show, options = {}) {
       // artist page or search as a generic "Check prices" button. Keep in sync
       // with checkButtonHtml in renderShowCardServerHtml (functions/[[path]].js).
       const checks = artistChecksFor(show, ctaSpecs, options);
-      for (const check of checks) ctaGroup.append(renderProviderCtaButton(check.name, check.href, "", { ...analyticsBase, provider: check.provider, ctaLocation: "event_card_check" }));
+      for (const check of checks) ctaGroup.append(renderProviderCtaButton(check.name, check.href, "", { ...analyticsBase, provider: check.provider, ctaLocation: "event_card_check", checkKind: check.kind }));
       body.append(ctaGroup);
 
       const notes = renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show), show);
@@ -2515,7 +2516,8 @@ function renderShowCard(show, options = {}) {
             artistSlug: String(options.artistSlug || show.artist_slug || "").trim(),
             showId: String(show.id || "").trim(),
             provider: check.provider,
-            ctaLocation: "event_card_check"
+            ctaLocation: "event_card_check",
+            checkKind: check.kind
           }));
         }
         body.append(checkGroup, artistCheckNote(options, onlyChecks));

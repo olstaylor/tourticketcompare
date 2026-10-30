@@ -6337,8 +6337,13 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   const trackedHref = withCtaLocation(href, ctaLocation);
   const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(ctaLocation)}"`;
   const primary = analytics.provider === "ticketmaster";
-  const role = primary ? "Primary seller · may include resale" : analytics.provider === "seatgeek" ? "Marketplace · check ticket type" : "Resale marketplace";
-  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}${primary ? " provider-cta-primary" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="provider-cta-role">${escapeHtml(role)}</span><span class="${valueClass}">${amount ? "From " : ""}${escapeHtml(value)}</span></a>`;
+  // A button that opens the artist's page or a site search, not this date, says
+  // so on the button itself: on a phone the note under the card is off screen.
+  const general = analytics.checkKind === "page" || analytics.checkKind === "search";
+  const role = general
+    ? `${analytics.checkKind === "page" ? "Artist page" : "Site search"} · not this date`
+    : primary ? "Primary seller · may include resale" : analytics.provider === "seatgeek" ? "Marketplace · check ticket type" : "Resale marketplace";
+  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}${primary ? " provider-cta-primary" : ""}${general ? " provider-cta-general" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="provider-cta-role">${escapeHtml(role)}</span><span class="${valueClass}">${amount ? "From " : ""}${escapeHtml(value)}</span></a>`;
 }
 
 // Copy for a card whose lanes were checked and none had an eligible snapshot.
@@ -6631,7 +6636,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     // is made and a matched button is never replaced.
     const checks = (Array.isArray(presentation.artistChecks) ? presentation.artistChecks : []).filter((check) => !ctaSpecs.some((spec) => spec.provider === check.provider));
     const checkButtonHtml = checks
-      .map((check) => renderProviderCtaButtonHtml(check.name, check.href, "", { provider: check.provider, artistSlug, showId: String(show.id || ""), ctaLocation: "event_card_check" }))
+      .map((check) => renderProviderCtaButtonHtml(check.name, check.href, "", { provider: check.provider, artistSlug, showId: String(show.id || ""), ctaLocation: "event_card_check", checkKind: check.kind }))
       .join("");
     const checkNoteHtml = checks.length
       ? `<p class="disclosure-note" data-artist-check-note>${escapeHtml(artistCheckNoteText(artistName, checks))}</p>`

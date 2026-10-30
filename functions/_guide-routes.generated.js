@@ -64,7 +64,7 @@ export const GUIDE_ROUTES = {
     description: "Compare ticket sites side by side to find cheap concert tickets, then check final fees, seat location, seller terms and delivery timing before you buy.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-10-26"
+    lastmod: "2026-10-30"
   },
   "/guides/when-is-the-best-time-to-buy-concert-tickets": {
     title: "When to Buy Concert Tickets | TourTicketCompare",

@@ -1,0 +1,1221 @@
+[
+  {
+    "id": "tm-lord-huron-2026-nashville-z7r9jz1aazbfy",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Ryman Auditorium",
+    "datetime_iso": "2026-12-02T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZbfY",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfY",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfY",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZbfY",
+        "discovery_event_id": "Z7r9jZ1AAZbfY",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfY",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZbfY",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2026-cincinnati-17aov0g62ysdsyk",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "The Andrew J Brady Music Center",
+    "datetime_iso": "2026-12-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160064FE73EF3C06",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-cincinnati-ohio-12-02-2026/event/160064FE73EF3C06",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-cincinnati-ohio-12-02-2026/event/160064FE73EF3C06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160064FE73EF3C06",
+        "discovery_event_id": "17AOv0G62ySDSYk",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-cincinnati-ohio-12-02-2026/event/160064FE73EF3C06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AOv0G62ySDSYk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2026-detroit-z7r9jz1aazpf4",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "Lord Huron",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Masonic Temple - Detroit",
+    "datetime_iso": "2026-12-05T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZPF4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPF4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPF4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZPF4",
+        "discovery_event_id": "Z7r9jZ1AAZPF4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPF4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZPF4",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2026-grand-rapids-vvg1oz_2sbbhp3",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "GLC Live at 20 Monroe",
+    "datetime_iso": "2026-12-06T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080064FCD861B592",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-grand-rapids-michigan-12-06-2026/event/080064FCD861B592",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-grand-rapids-michigan-12-06-2026/event/080064FCD861B592",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080064FCD861B592",
+        "discovery_event_id": "vvG1OZ_2Sbbhp3",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-grand-rapids-michigan-12-06-2026/event/080064FCD861B592",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1OZ_2Sbbhp3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2026-chicago-vvg1jz_2u-es7s",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Chicago Theatre",
+    "datetime_iso": "2026-12-09T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "070064FDA19F3131",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-chicago-illinois-12-08-2026/event/070064FDA19F3131",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-chicago-illinois-12-08-2026/event/070064FDA19F3131",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "070064FDA19F3131",
+        "discovery_event_id": "vvG1jZ_2U-ES7s",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-chicago-illinois-12-08-2026/event/070064FDA19F3131",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1jZ_2U-ES7s",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2026-chicago-vvg1jz_2u-jk7l",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Chicago Theatre",
+    "datetime_iso": "2026-12-10T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "070064FDA199312B",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-chicago-illinois-12-09-2026/event/070064FDA199312B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-chicago-illinois-12-09-2026/event/070064FDA199312B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "070064FDA199312B",
+        "discovery_event_id": "vvG1jZ_2U-JK7l",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-chicago-illinois-12-09-2026/event/070064FDA199312B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1jZ_2U-JK7l",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2026-albany-k7vgf_2d6r7wd",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Albany",
+    "country": "United States Of America",
+    "venue": "The Palace Theatre Albany",
+    "datetime_iso": "2026-12-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064FEC7BC4C83",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-albany-new-york-12-11-2026/event/000064FEC7BC4C83",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-albany-new-york-12-11-2026/event/000064FEC7BC4C83",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064FEC7BC4C83",
+        "discovery_event_id": "k7vGF_2D6R7wd",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-albany-new-york-12-11-2026/event/000064FEC7BC4C83",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_2D6R7wd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2026-philadelphia-vvg1fz_2mgblql",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Met Presented by Highmark",
+    "datetime_iso": "2026-12-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064FBB561F75F",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-philadelphia-pennsylvania-12-12-2026/event/020064FBB561F75F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-philadelphia-pennsylvania-12-12-2026/event/020064FBB561F75F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064FBB561F75F",
+        "discovery_event_id": "vvG1FZ_2mgbLqL",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-philadelphia-pennsylvania-12-12-2026/event/020064FBB561F75F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_2mgbLqL",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2026-boston-vvg17z_2wsvfp-",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2026-12-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064FCB3D08961",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-boston-massachusetts-12-13-2026/event/010064FCB3D08961",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-boston-massachusetts-12-13-2026/event/010064FCB3D08961",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064FCB3D08961",
+        "discovery_event_id": "vvG17Z_2wSVFP-",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-boston-massachusetts-12-13-2026/event/010064FCB3D08961",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_2wSVFP-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2026-montreal-17g8v0g62wrdz3v",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "MTELUS",
+    "datetime_iso": "2026-12-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310064FCAF0F8481",
+    "ticketmaster_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-montreal-quebec-12-15-2026/event/310064FCAF0F8481",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-montreal-quebec-12-15-2026/event/310064FCAF0F8481",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310064FCAF0F8481",
+        "discovery_event_id": "17G8v0G62wRdz3v",
+        "url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-montreal-quebec-12-15-2026/event/310064FCAF0F8481",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17G8v0G62wRdz3v",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2026-montreal-17g8v0g62wr7i3a",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "MTELUS",
+    "datetime_iso": "2026-12-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310064FCAF128489",
+    "ticketmaster_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-montreal-quebec-12-16-2026/event/310064FCAF128489",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-montreal-quebec-12-16-2026/event/310064FCAF128489",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310064FCAF128489",
+        "discovery_event_id": "17G8v0G62wR7I3a",
+        "url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-montreal-quebec-12-16-2026/event/310064FCAF128489",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17G8v0G62wR7I3a",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2026-brooklyn-z7r9jz1aazpf3",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "Lord Huron",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Kings Theatre",
+    "datetime_iso": "2026-12-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZPF3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPF3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPF3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZPF3",
+        "discovery_event_id": "Z7r9jZ1AAZPF3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPF3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZPF3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2026-brooklyn-z7r9jz1aazbbi",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "Lord Huron",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Kings Theatre",
+    "datetime_iso": "2026-12-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZbbI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbbI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbbI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZbbI",
+        "discovery_event_id": "Z7r9jZ1AAZbbI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbbI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZbbI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2027-sacramento-g5vyz_2wpd5xx",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Channel 24",
+    "datetime_iso": "2027-01-02T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064FCA5ECBFBE",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-sacramento-california-01-01-2027/event/1C0064FCA5ECBFBE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-sacramento-california-01-01-2027/event/1C0064FCA5ECBFBE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064FCA5ECBFBE",
+        "discovery_event_id": "G5vYZ_2wPD5XX",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-sacramento-california-01-01-2027/event/1C0064FCA5ECBFBE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_2wPD5XX",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2027-las-vegas-z7r9jz1aazbo8",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "Lord Huron",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Theater at Virgin Hotels Las Vegas",
+    "datetime_iso": "2027-01-03T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZbo8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbo8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbo8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZbo8",
+        "discovery_event_id": "Z7r9jZ1AAZbo8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbo8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZbo8",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2027-oakland-g5vyz_2mrsp3q",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Fox Theater - Oakland",
+    "datetime_iso": "2027-01-04T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064FDDECE549A",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-oakland-california-01-03-2027/event/1C0064FDDECE549A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-oakland-california-01-03-2027/event/1C0064FDDECE549A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064FDDECE549A",
+        "discovery_event_id": "G5vYZ_2MrSP3Q",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-oakland-california-01-03-2027/event/1C0064FDDECE549A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_2MrSP3Q",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2027-vancouver-1778v0g62bp9vz3",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Orpheum Theatre",
+    "datetime_iso": "2027-01-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064FE965F4E12",
+    "ticketmaster_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-vancouver-british-columbia-01-05-2027/event/110064FE965F4E12",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-vancouver-british-columbia-01-05-2027/event/110064FE965F4E12",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064FE965F4E12",
+        "discovery_event_id": "1778v0G62Bp9Vz3",
+        "url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-vancouver-british-columbia-01-05-2027/event/110064FE965F4E12",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1778v0G62Bp9Vz3",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2027-vancouver-1778v0g62bpn7yz",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Orpheum Theatre",
+    "datetime_iso": "2027-01-07T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064FE968C4E40",
+    "ticketmaster_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-vancouver-british-columbia-01-06-2027/event/110064FE968C4E40",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-vancouver-british-columbia-01-06-2027/event/110064FE968C4E40",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064FE968C4E40",
+        "discovery_event_id": "1778v0G62BpN7yZ",
+        "url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-vancouver-british-columbia-01-06-2027/event/110064FE968C4E40",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1778v0G62BpN7yZ",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2027-seattle-vvg1hz_2t-gnc5",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2027-01-08T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064FFE1D63B4B",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-seattle-washington-01-07-2027/event/0F0064FFE1D63B4B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-seattle-washington-01-07-2027/event/0F0064FFE1D63B4B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064FFE1D63B4B",
+        "discovery_event_id": "vvG1HZ_2T-gNc5",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-seattle-washington-01-07-2027/event/0F0064FFE1D63B4B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_2T-gNc5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2027-seattle-vvg1hz_2t-uscj",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2027-01-09T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064FFE1DB3B5C",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-seattle-washington-01-08-2027/event/0F0064FFE1DB3B5C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-seattle-washington-01-08-2027/event/0F0064FFE1DB3B5C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064FFE1DB3B5C",
+        "discovery_event_id": "vvG1HZ_2T-UScj",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-seattle-washington-01-08-2027/event/0F0064FFE1DB3B5C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_2T-UScj",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2027-los-angeles-vvg10z_2ug7bzu",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Wiltern",
+    "datetime_iso": "2027-01-11T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064FDB5118E0D",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-los-angeles-california-01-10-2027/event/090064FDB5118E0D",
+    "seatgeek_url": "https://seatgeek.com/lord-huron-tickets/los-angeles-california-the-wiltern-2027-01-10-8-pm/concert/18421996",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-los-angeles-california-01-10-2027/event/090064FDB5118E0D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064FDB5118E0D",
+        "discovery_event_id": "vvG10Z_2Ug7bzu",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-los-angeles-california-01-10-2027/event/090064FDB5118E0D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_2Ug7bzu",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2027-los-angeles-vvg10z_2ugkfzf",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Wiltern",
+    "datetime_iso": "2027-01-12T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064FDB5188E14",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-los-angeles-california-01-11-2027/event/090064FDB5188E14",
+    "seatgeek_url": "https://seatgeek.com/lord-huron-tickets/los-angeles-california-the-wiltern-2027-01-11-8-pm/concert/18421997",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-los-angeles-california-01-11-2027/event/090064FDB5188E14",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064FDB5188E14",
+        "discovery_event_id": "vvG10Z_2UgkFzf",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-los-angeles-california-01-11-2027/event/090064FDB5188E14",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_2UgkFzf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lord-huron-2027-los-angeles-vvg10z_2d_gilx",
+    "artist_slug": "lord-huron",
+    "artist_name": "Lord Huron",
+    "event_name": "An Evening with Lord Huron",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Wiltern",
+    "datetime_iso": "2027-01-13T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064FED932CAE2",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-los-angeles-california-01-12-2027/event/090064FED932CAE2",
+    "seatgeek_url": "https://seatgeek.com/lord-huron-tickets/los-angeles-california-the-wiltern-2027-01-12-6-30-pm/concert/18484690",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-los-angeles-california-01-12-2027/event/090064FED932CAE2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064FED932CAE2",
+        "discovery_event_id": "vvG10Z_2D_Gilx",
+        "url": "https://www.ticketmaster.com/an-evening-with-lord-huron-los-angeles-california-01-12-2027/event/090064FED932CAE2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_2D_Gilx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

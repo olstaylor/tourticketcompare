@@ -1,0 +1,1539 @@
+[
+  {
+    "id": "tm-air-supply-2026-medford-vv177z_6gkl3s3mj",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter of Time Tour",
+    "city": "Medford",
+    "country": "United States Of America",
+    "venue": "Chevalier Theatre",
+    "datetime_iso": "2026-11-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100647AD2C52B9C",
+    "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-medford-massachusetts-11-05-2026/event/0100647AD2C52B9C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-medford-massachusetts-11-05-2026/event/0100647AD2C52B9C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100647AD2C52B9C",
+        "discovery_event_id": "vv177Z_6Gkl3s3mj",
+        "url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-medford-massachusetts-11-05-2026/event/0100647AD2C52B9C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_6Gkl3s3mj",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2026-easton-z7r9jz1a70afy",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply",
+    "city": "Easton",
+    "country": "United States Of America",
+    "venue": "State Theatre- Easton",
+    "datetime_iso": "2026-11-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70AFY",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AFY",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AFY",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70AFY",
+        "discovery_event_id": "Z7r9jZ1A70AFY",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AFY",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70AFY",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2026-stamford-g5vvz_axiecx-",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter of Time Tour",
+    "city": "Stamford",
+    "country": "United States Of America",
+    "venue": "Palace Theatre Stamford",
+    "datetime_iso": "2026-11-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D006458A80AD8A1",
+    "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-stamford-connecticut-11-07-2026/event/1D006458A80AD8A1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-stamford-connecticut-11-07-2026/event/1D006458A80AD8A1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006458A80AD8A1",
+        "discovery_event_id": "G5vVZ_AxIecx-",
+        "url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-stamford-connecticut-11-07-2026/event/1D006458A80AD8A1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_AxIecx-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2026-national-harbor-17a8v0g6gpn4b8s",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter of Time Tour",
+    "city": "National Harbor",
+    "country": "United States Of America",
+    "venue": "The Theater at MGM National Harbor",
+    "datetime_iso": "2026-11-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064C5AA57A431",
+    "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-national-harbor-maryland-11-13-2026/event/150064C5AA57A431",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-national-harbor-maryland-11-13-2026/event/150064C5AA57A431",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064C5AA57A431",
+        "discovery_event_id": "17A8v0G6Gpn4B8s",
+        "url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-national-harbor-maryland-11-13-2026/event/150064C5AA57A431",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G6Gpn4B8s",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2026-westbury-k7vgf_fkzchcp",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply: A Matter of Time Tour",
+    "city": "Westbury",
+    "country": "United States Of America",
+    "venue": "Flagstar at Westbury Music Fair",
+    "datetime_iso": "2026-11-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006484C03BC3A5",
+    "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-westbury-new-york-11-14-2026/event/00006484C03BC3A5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-westbury-new-york-11-14-2026/event/00006484C03BC3A5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006484C03BC3A5",
+        "discovery_event_id": "k7vGF_FKZCHCP",
+        "url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-westbury-new-york-11-14-2026/event/00006484C03BC3A5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_FKZCHCP",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2026-red-bank-g5vvz_1bj0ggl",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter of Time Tour",
+    "city": "Red Bank",
+    "country": "United States Of America",
+    "venue": "Hackensack Meridian Health Theatre at the Count Basie Center",
+    "datetime_iso": "2026-11-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D0064AEA693531F",
+    "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-red-bank-new-jersey-11-15-2026/event/1D0064AEA693531F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-red-bank-new-jersey-11-15-2026/event/1D0064AEA693531F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D0064AEA693531F",
+        "discovery_event_id": "G5vVZ_1BJ0gGL",
+        "url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-red-bank-new-jersey-11-15-2026/event/1D0064AEA693531F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_1BJ0gGL",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2026-orlando-z7r9jz1aazdae",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Dr. Phillips Performing Arts Center",
+    "datetime_iso": "2026-11-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZdaE",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdaE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdaE",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZdaE",
+        "discovery_event_id": "Z7r9jZ1AAZdaE",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdaE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdaE",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2026-clearwater-z7r9jz1a7paou",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply",
+    "city": "Clearwater",
+    "country": "United States Of America",
+    "venue": "Ruth Eckerd Hall",
+    "datetime_iso": "2026-11-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PaoU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PaoU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PaoU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PaoU",
+        "discovery_event_id": "Z7r9jZ1A7PaoU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PaoU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PaoU",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2026-jacksonville-z7r9jz1a70eoz",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "Florida Theatre Jacksonville",
+    "datetime_iso": "2026-11-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70Eoz",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Eoz",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Eoz",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70Eoz",
+        "discovery_event_id": "Z7r9jZ1A70Eoz",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Eoz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70Eoz",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2026-auckland-17azv0g65rxws3q",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "AIR SUPPLY THE 50TH ANNIVERSARY CELEBRATION",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "The Civic, Auckland",
+    "datetime_iso": "2026-12-15T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064BBE2CB349A",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/air-supply-the-50th-anniversary-celebration-auckland-15-12-2026/event/240064BBE2CB349A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/air-supply-the-50th-anniversary-celebration-auckland-15-12-2026/event/240064BBE2CB349A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064BBE2CB349A",
+        "discovery_event_id": "17aZv0G65RxwS3Q",
+        "url": "https://www.ticketmaster.co.nz/air-supply-the-50th-anniversary-celebration-auckland-15-12-2026/event/240064BBE2CB349A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G65RxwS3Q",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-fort-pierce-vvg1vz_8hv66ia",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply",
+    "city": "Fort Pierce",
+    "country": "United States Of America",
+    "venue": "Sunrise Theatre",
+    "datetime_iso": "2027-01-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006506C11C7A09",
+    "ticketmaster_url": "https://www.ticketmaster.com/air-supply-fort-pierce-florida-01-21-2027/event/0D006506C11C7A09",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/air-supply-fort-pierce-florida-01-21-2027/event/0D006506C11C7A09",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006506C11C7A09",
+        "discovery_event_id": "vvG1VZ_8hv66Ia",
+        "url": "https://www.ticketmaster.com/air-supply-fort-pierce-florida-01-21-2027/event/0D006506C11C7A09",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_8hv66Ia",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-daytona-beach-z7r9jz1a7pozg",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply",
+    "city": "Daytona Beach",
+    "country": "United States Of America",
+    "venue": "The Peabody Daytona Beach",
+    "datetime_iso": "2027-01-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7POZg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POZg",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POZg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7POZg",
+        "discovery_event_id": "Z7r9jZ1A7POZg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POZg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7POZg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-sarasota-z7r9jz1a7p_4p",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply",
+    "city": "Sarasota",
+    "country": "United States Of America",
+    "venue": "Van Wezel Performing Arts Hall",
+    "datetime_iso": "2027-01-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P_4P",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_4P",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_4P",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P_4P",
+        "discovery_event_id": "Z7r9jZ1A7P_4P",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_4P",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P_4P",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-hollywood-vvg1vz_3t_jrbe",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter of Time Tour",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live",
+    "datetime_iso": "2027-01-30T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00652FD999E602",
+    "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-hollywood-florida-01-29-2027/event/0D00652FD999E602",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-hollywood-florida-01-29-2027/event/0D00652FD999E602",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00652FD999E602",
+        "discovery_event_id": "vvG1VZ_3T_Jrbe",
+        "url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-hollywood-florida-01-29-2027/event/0D00652FD999E602",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_3T_Jrbe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-immokalee-vvg1vz_2x6gs2d",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply- A Matter of Time Tour",
+    "city": "Immokalee",
+    "country": "United States Of America",
+    "venue": "Seminole Center",
+    "datetime_iso": "2027-01-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064F8873333FB",
+    "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-immokalee-florida-01-30-2027/event/0D0064F8873333FB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-immokalee-florida-01-30-2027/event/0D0064F8873333FB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064F8873333FB",
+        "discovery_event_id": "vvG1VZ_2x6GS2D",
+        "url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-immokalee-florida-01-30-2027/event/0D0064F8873333FB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_2x6GS2D",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-rockford-17f8v0g62es30d4",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter of Time Tour",
+    "city": "Rockford",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Rockford",
+    "datetime_iso": "2027-02-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "210064F0B34A4ED5",
+    "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-rockford-illinois-02-05-2027/event/210064F0B34A4ED5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-rockford-illinois-02-05-2027/event/210064F0B34A4ED5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "210064F0B34A4ED5",
+        "discovery_event_id": "17F8v0G62eS30D4",
+        "url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-rockford-illinois-02-05-2027/event/210064F0B34A4ED5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17F8v0G62eS30D4",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-wisconsin-dells-z7r9jz1a7x_ez",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply (Ages 6 and Over)",
+    "city": "Wisconsin Dells",
+    "country": "United States Of America",
+    "venue": "Crystal Grand Music Theatre",
+    "datetime_iso": "2027-02-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7x_eZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x_eZ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x_eZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7x_eZ",
+        "discovery_event_id": "Z7r9jZ1A7x_eZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x_eZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7x_eZ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-waukegan-vvg1jz_ce-oddx",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter of Time Tour",
+    "city": "Waukegan",
+    "country": "United States Of America",
+    "venue": "Genesee Theatre",
+    "datetime_iso": "2027-02-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "070064E9E1443EE2",
+    "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-waukegan-illinois-02-07-2027/event/070064E9E1443EE2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-waukegan-illinois-02-07-2027/event/070064E9E1443EE2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "070064E9E1443EE2",
+        "discovery_event_id": "vvG1jZ_CE-odDx",
+        "url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-waukegan-illinois-02-07-2027/event/070064E9E1443EE2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1jZ_CE-odDx",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-rancho-mirage-vv1aazkffgkd9xjwx",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply- A Matter of Time Tour",
+    "city": "Rancho Mirage",
+    "country": "United States Of America",
+    "venue": "The Show at Agua Caliente Casino Rancho Mirage",
+    "datetime_iso": "2027-02-14T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006514D7F9CCA2",
+    "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-rancho-mirage-california-02-13-2027/event/09006514D7F9CCA2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-rancho-mirage-california-02-13-2027/event/09006514D7F9CCA2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006514D7F9CCA2",
+        "discovery_event_id": "vv1AaZkffGkd9Xjwx",
+        "url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-rancho-mirage-california-02-13-2027/event/09006514D7F9CCA2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZkffGkd9Xjwx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-abbotsford-1k78vp18gau9wma",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter Of Time Canada Tour",
+    "city": "Abbotsford",
+    "country": "Canada",
+    "venue": "Rogers Forum",
+    "datetime_iso": "2027-02-19T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110065290D5FDDC5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-abbotsford-british-columbia-02-18-2027/event/110065290D5FDDC5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-abbotsford-british-columbia-02-18-2027/event/110065290D5FDDC5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110065290D5FDDC5",
+        "discovery_event_id": "1k78vP18GAu9WMA",
+        "url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-abbotsford-british-columbia-02-18-2027/event/110065290D5FDDC5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vP18GAu9WMA",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-dawson-creek-z7r9jz1aavmfk",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply w/ Glass Tiger",
+    "city": "Dawson Creek",
+    "country": "Canada",
+    "venue": "Ovintiv Events Centre",
+    "datetime_iso": "2027-02-23T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvMfK",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvMfK",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/dawson-creek-canada-ovintiv-events-centre-2027-02-22-7-30-pm/concert/18646928",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvMfK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvMfK",
+        "discovery_event_id": "Z7r9jZ1AAvMfK",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvMfK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvMfK",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-calgary-1aozkf0gkev7qvg",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter Of Time Canada Tour",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Grey Eagle Event Centre",
+    "datetime_iso": "2027-02-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006524B411A075",
+    "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-calgary-alberta-02-24-2027/event/11006524B411A075",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/calgary-canada-grey-eagle-event-centre-2027-02-24-7-pm/concert/18594382",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-calgary-alberta-02-24-2027/event/11006524B411A075",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006524B411A075",
+        "discovery_event_id": "1AoZkf0GkeV7Qvg",
+        "url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-calgary-alberta-02-24-2027/event/11006524B411A075",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkf0GkeV7Qvg",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-moose-jaw-z7r9jz1aavsx4",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply w/ Glass Tiger",
+    "city": "Moose Jaw",
+    "country": "Canada",
+    "venue": "Temple Gardens Centre",
+    "datetime_iso": "2027-02-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvSx4",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvSx4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvSx4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvSx4",
+        "discovery_event_id": "Z7r9jZ1AAvSx4",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvSx4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSx4",
+    "timezone": "America/Regina",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-winnipeg-1aozkftgkdfjy5c",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter Of Time Canada Tour",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Canada Life Centre",
+    "datetime_iso": "2027-03-01T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006529C87392ED",
+    "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-winnipeg-manitoba-02-28-2027/event/11006529C87392ED",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/winnipeg-canada-canada-life-centre-2027-02-28-7-30-pm/concert/18593527",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-winnipeg-manitoba-02-28-2027/event/11006529C87392ED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006529C87392ED",
+        "discovery_event_id": "1AoZkftGkdFjy5c",
+        "url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-winnipeg-manitoba-02-28-2027/event/11006529C87392ED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkftGkdFjy5c",
+    "timezone": "America/Winnipeg",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-ottawa-1ad7z_3gksa1dub",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter Of Time Canada Tour",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "Hard Rock Hotel & Casino Ottawa",
+    "datetime_iso": "2027-03-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100652CC92BB37A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-ottawa-ontario-03-03-2027/event/3100652CC92BB37A",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/ottawa-canada-hard-rock-hotel-and-casino-ottawa-2027-03-03-7-pm/concert/18594799",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-ottawa-ontario-03-03-2027/event/3100652CC92BB37A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100652CC92BB37A",
+        "discovery_event_id": "1Ad7Z_3GkSa1DuB",
+        "url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-ottawa-ontario-03-03-2027/event/3100652CC92BB37A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_3GkSa1DuB",
+    "timezone": "America/Montreal",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-rama-1avzz_3gkn3a6sv",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply With Special Guest Glass Tiger",
+    "city": "Rama",
+    "country": "Canada",
+    "venue": "Casino Rama Resort",
+    "datetime_iso": "2027-03-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000652A92247C74",
+    "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-with-special-guest-glass-rama-ontario-03-05-2027/event/1000652A92247C74",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/rama-canada-casino-rama-resort-2027-03-05-9-pm/concert/18618284",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/air-supply-with-special-guest-glass-rama-ontario-03-05-2027/event/1000652A92247C74",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000652A92247C74",
+        "discovery_event_id": "1AvZZ_3Gkn3a6sV",
+        "url": "https://www.ticketmaster.ca/air-supply-with-special-guest-glass-rama-ontario-03-05-2027/event/1000652A92247C74",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_3Gkn3a6sV",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-toronto-1avzz_3gkws1scj",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter Of Time Canada Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Theatre at Great Canadian Toronto",
+    "datetime_iso": "2027-03-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000652CB32B13A6",
+    "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-toronto-ontario-03-06-2027/event/1000652CB32B13A6",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/toronto-canada-the-theatre-at-great-canadian-casino-resort-toronto-2027-03-06-8-pm/concert/18594770",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-toronto-ontario-03-06-2027/event/1000652CB32B13A6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000652CB32B13A6",
+        "discovery_event_id": "1AvZZ_3GkwS1sCJ",
+        "url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-toronto-ontario-03-06-2027/event/1000652CB32B13A6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_3GkwS1sCJ",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-windsor-1avzz_3gki_rnez",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter Of Time Canada Tour",
+    "city": "Windsor",
+    "country": "Canada",
+    "venue": "The Colosseum at Caesars Windsor",
+    "datetime_iso": "2027-03-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000652A197A3080",
+    "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-windsor-ontario-03-07-2027/event/1000652A197A3080",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/windsor-canada-the-colosseum-at-caesars-windsor-2027-03-07-7-pm/concert/18593816",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-windsor-ontario-03-07-2027/event/1000652A197A3080",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000652A197A3080",
+        "discovery_event_id": "1AvZZ_3GkI_rNeZ",
+        "url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-windsor-ontario-03-07-2027/event/1000652A197A3080",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_3GkI_rNeZ",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-saint-louis-vv1akzkftgkdvwrkv",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply: A Matter of Time Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "River City Casino & Hotel",
+    "datetime_iso": "2027-05-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006529C1F5E4F4",
+    "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-saint-louis-missouri-05-23-2027/event/06006529C1F5E4F4",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/saint-louis-missouri-river-city-casino-2027-05-23-7-pm/concert/18653998",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-saint-louis-missouri-05-23-2027/event/06006529C1F5E4F4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006529C1F5E4F4",
+        "discovery_event_id": "vv1AkZkftGkdvWrKV",
+        "url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-saint-louis-missouri-05-23-2027/event/06006529C1F5E4F4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkftGkdvWrKV",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

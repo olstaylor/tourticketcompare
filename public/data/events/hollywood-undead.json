@@ -1,0 +1,532 @@
+[
+  {
+    "id": "tm-hollywood-undead-2027-praha-9-z698xzu0z16vcf4gue",
+    "artist_slug": "hollywood-undead",
+    "artist_name": "Hollywood Undead",
+    "event_name": "Hollywood Undead",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 universum",
+    "datetime_iso": "2027-02-05T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1394575367",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/hollywood-undead-tickets/1394575367?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/hollywood-undead-tickets/1394575367?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1394575367",
+        "discovery_event_id": "Z698xZu0Z16vCf4guE",
+        "url": "https://www.ticketmaster.cz/event/hollywood-undead-tickets/1394575367?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z16vCf4guE",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hollywood-undead-2027-warsaw-z698xzqpz1kf0av8y",
+    "artist_slug": "hollywood-undead",
+    "artist_name": "Hollywood Undead",
+    "event_name": "Hollywood Undead: EU/UK 2027",
+    "city": "Warsaw",
+    "country": "Poland",
+    "venue": "COS Torwar",
+    "datetime_iso": "2027-02-08T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "224274430",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/hollywood-undead-eu-uk-2027-tickets/224274430?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/hollywood-undead-eu-uk-2027-tickets/224274430?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "224274430",
+        "discovery_event_id": "Z698xZQpZ1kF0aV8Y",
+        "url": "https://www.ticketmaster.pl/event/hollywood-undead-eu-uk-2027-tickets/224274430?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ1kF0aV8Y",
+    "timezone": "Europe/Warsaw",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hollywood-undead-2027-johanneshov-z698xzq2z1kgnffx_",
+    "artist_slug": "hollywood-undead",
+    "artist_name": "Hollywood Undead",
+    "event_name": "Hollywood Undead: EU/UK 2027",
+    "city": "Johanneshov",
+    "country": "Sweden",
+    "venue": "Fållan",
+    "datetime_iso": "2027-02-13T17:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "323208899",
+    "ticketmaster_url": "https://www.ticketmaster.se/event/hollywood-undead-eu-uk-2027-tickets/323208899?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.se/event/hollywood-undead-eu-uk-2027-tickets/323208899?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "323208899",
+        "discovery_event_id": "Z698xZq2Z1kGNFFx_",
+        "url": "https://www.ticketmaster.se/event/hollywood-undead-eu-uk-2027-tickets/323208899?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZq2Z1kGNFFx_",
+    "timezone": "Europe/Stockholm",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hollywood-undead-2027-goteborg-z698xzq2z1k_fbiog",
+    "artist_slug": "hollywood-undead",
+    "artist_name": "Hollywood Undead",
+    "event_name": "Hollywood Undead: EU/UK 2027",
+    "city": "Göteborg",
+    "country": "Sweden",
+    "venue": "Filmstudion",
+    "datetime_iso": "2027-02-14T17:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "654628475",
+    "ticketmaster_url": "https://www.ticketmaster.se/event/hollywood-undead-eu-uk-2027-tickets/654628475?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.se/event/hollywood-undead-eu-uk-2027-tickets/654628475?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "654628475",
+        "discovery_event_id": "Z698xZq2Z1k_fbIog",
+        "url": "https://www.ticketmaster.se/event/hollywood-undead-eu-uk-2027-tickets/654628475?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZq2Z1k_fbIog",
+    "timezone": "Europe/Stockholm",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hollywood-undead-2027-k-benhavn-v-z698xzc4z1k_44ijf",
+    "artist_slug": "hollywood-undead",
+    "artist_name": "Hollywood Undead",
+    "event_name": "Hollywood Undead: EU/UK 2027",
+    "city": "København V",
+    "country": "Denmark",
+    "venue": "VEGA - Musikkens Hus, Store VEGA",
+    "datetime_iso": "2027-02-17T17:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "655568994",
+    "ticketmaster_url": "https://www.ticketmaster.dk/event/hollywood-undead-eu-uk-2027-tickets/655568994?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.dk/event/hollywood-undead-eu-uk-2027-tickets/655568994?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "655568994",
+        "discovery_event_id": "Z698xZC4Z1k_44IJf",
+        "url": "https://www.ticketmaster.dk/event/hollywood-undead-eu-uk-2027-tickets/655568994?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC4Z1k_44IJf",
+    "timezone": "Europe/Copenhagen",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hollywood-undead-2027-birmingham-g5dzz_k9em7do",
+    "artist_slug": "hollywood-undead",
+    "artist_name": "Hollywood Undead",
+    "event_name": "Hollywood Undead: EU/UK 2027",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-02-23T18:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006535C2B84ED1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-birmingham-23-02-2027/event/3E006535C2B84ED1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-birmingham-23-02-2027/event/3E006535C2B84ED1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006535C2B84ED1",
+        "discovery_event_id": "G5dzZ_K9em7Do",
+        "url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-birmingham-23-02-2027/event/3E006535C2B84ED1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_K9em7Do",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hollywood-undead-2027-london-g5dzz_kxga-ng",
+    "artist_slug": "hollywood-undead",
+    "artist_name": "Hollywood Undead",
+    "event_name": "Hollywood Undead",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Forum Kentish Town",
+    "datetime_iso": "2027-02-24T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0065388C2618CC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hollywood-undead-london-24-02-2027/event/3E0065388C2618CC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hollywood-undead-london-24-02-2027/event/3E0065388C2618CC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0065388C2618CC",
+        "discovery_event_id": "G5dzZ_KxGa-NG",
+        "url": "https://www.ticketmaster.co.uk/hollywood-undead-london-24-02-2027/event/3E0065388C2618CC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KxGa-NG",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hollywood-undead-2027-manchester-g5vhz_kjdvnwu",
+    "artist_slug": "hollywood-undead",
+    "artist_name": "Hollywood Undead",
+    "event_name": "Hollywood Undead: EU/UK 2027",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Manchester Academy",
+    "datetime_iso": "2027-02-26T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0065373B06AC8D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-manchester-26-02-2027/event/1F0065373B06AC8D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-manchester-26-02-2027/event/1F0065373B06AC8D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0065373B06AC8D",
+        "discovery_event_id": "G5vHZ_KjDvnwu",
+        "url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-manchester-26-02-2027/event/1F0065373B06AC8D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_KjDvnwu",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hollywood-undead-2027-glasgow-g5dzz_kpssdt2",
+    "artist_slug": "hollywood-undead",
+    "artist_name": "Hollywood Undead",
+    "event_name": "Hollywood Undead: EU/UK 2027",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2027-02-27T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006535B1C43FCF",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-glasgow-27-02-2027/event/3E006535B1C43FCF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-glasgow-27-02-2027/event/3E006535B1C43FCF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006535B1C43FCF",
+        "discovery_event_id": "G5dzZ_KpssdT2",
+        "url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-glasgow-27-02-2027/event/3E006535B1C43FCF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KpssdT2",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hollywood-undead-2027-leeds-g5dzz_krmlxyq",
+    "artist_slug": "hollywood-undead",
+    "artist_name": "Hollywood Undead",
+    "event_name": "Hollywood Undead: EU/UK 2027",
+    "city": "Leeds",
+    "country": "Great Britain",
+    "venue": "O2 Academy Leeds",
+    "datetime_iso": "2027-02-28T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006537AE7E2E5A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-leeds-28-02-2027/event/3E006537AE7E2E5A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-leeds-28-02-2027/event/3E006537AE7E2E5A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006537AE7E2E5A",
+        "discovery_event_id": "G5dzZ_KrmLxyQ",
+        "url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-leeds-28-02-2027/event/3E006537AE7E2E5A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KrmLxyQ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

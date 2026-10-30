@@ -1,0 +1,1380 @@
+[
+  {
+    "id": "tm-remi-wolf-2027-washington-1a4zk46gketspla",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2027-02-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006547A9CD67C5",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-23-2027/event/15006547A9CD67C5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-23-2027/event/15006547A9CD67C5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006547A9CD67C5",
+        "discovery_event_id": "1A4Zk46GketSpLA",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-23-2027/event/15006547A9CD67C5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zk46GketSpLA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-philadelphia-vv1aovpotga2njys",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Met Presented by Highmark",
+    "datetime_iso": "2027-02-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020065469FAA6E71",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-philadelphia-pennsylvania-02-26-2027/event/020065469FAA6E71",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-philadelphia-pennsylvania-02-26-2027/event/020065469FAA6E71",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020065469FAA6E71",
+        "discovery_event_id": "vv1AOvPotGA2nJys",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-philadelphia-pennsylvania-02-26-2027/event/020065469FAA6E71",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AOvPotGA2nJys",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-new-york-g5dyz_fqhrymh",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Radio City Music Hall",
+    "datetime_iso": "2027-02-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3C0065477C7B0DDB",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-new-york-new-york-02-27-2027/event/3C0065477C7B0DDB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-new-york-new-york-02-27-2027/event/3C0065477C7B0DDB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3C0065477C7B0DDB",
+        "discovery_event_id": "G5dYZ_fqHrYMh",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-new-york-new-york-02-27-2027/event/3C0065477C7B0DDB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dYZ_fqHrYMh",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-boston-vv1avzk4kgkdrztka",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-03-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006546DEE3F4C9",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-02-2027/event/01006546DEE3F4C9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-02-2027/event/01006546DEE3F4C9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006546DEE3F4C9",
+        "discovery_event_id": "vv1AvZk4kGkdrzTKa",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-02-2027/event/01006546DEE3F4C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4kGkdrzTKa",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-boston-vv1avzk4kgkdrwrfa",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-03-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006546DEF6F505",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-03-2027/event/01006546DEF6F505",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-03-2027/event/01006546DEF6F505",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006546DEF6F505",
+        "discovery_event_id": "vv1AvZk4kGkdrWRfA",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-03-2027/event/01006546DEF6F505",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4kGkdrWRfA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-toronto-1a8zk46gkdlbbff",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Massey Hall",
+    "datetime_iso": "2027-03-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006547EB618514",
+    "ticketmaster_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-05-2027/event/10006547EB618514",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-05-2027/event/10006547EB618514",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006547EB618514",
+        "discovery_event_id": "1A8Zk46Gkdlbbff",
+        "url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-05-2027/event/10006547EB618514",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk46Gkdlbbff",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-toronto-1a8zk46gkdlbzfe",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Massey Hall",
+    "datetime_iso": "2027-03-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006547EB638527",
+    "ticketmaster_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-06-2027/event/10006547EB638527",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-06-2027/event/10006547EB638527",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006547EB638527",
+        "discovery_event_id": "1A8Zk46GkdlbzfE",
+        "url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-06-2027/event/10006547EB638527",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk46GkdlbzfE",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-detroit-z7r9jz1aa7k0m",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf w/ Emma Ogier",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Masonic Temple - Detroit",
+    "datetime_iso": "2027-03-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7K0M",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7K0M",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7K0M",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7K0M",
+        "discovery_event_id": "Z7r9jZ1AA7K0M",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7K0M",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7K0M",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-chicago-vv1a7zk4fgkdb7-a0",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Salt Shed Indoors (Shed)",
+    "datetime_iso": "2027-03-10T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006548D8121164",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-09-2027/event/04006548D8121164",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-09-2027/event/04006548D8121164",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006548D8121164",
+        "discovery_event_id": "vv1A7Zk4FGkdb7-A0",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-09-2027/event/04006548D8121164",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7Zk4FGkdb7-A0",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-chicago-vv1a7zk4fgkdbs-1k",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf - The Mud Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Salt Shed Indoors (Shed)",
+    "datetime_iso": "2027-03-11T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006548D8C61293",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-10-2027/event/04006548D8C61293",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-10-2027/event/04006548D8C61293",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006548D8C61293",
+        "discovery_event_id": "vv1A7Zk4FGkdbs-1K",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-10-2027/event/04006548D8C61293",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7Zk4FGkdbs-1K",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-minneapolis-vv1akzk46gkdn_2lp",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Armory",
+    "datetime_iso": "2027-03-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006547E364FAD6",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-minneapolis-minnesota-03-12-2027/event/06006547E364FAD6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-minneapolis-minnesota-03-12-2027/event/06006547E364FAD6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006547E364FAD6",
+        "discovery_event_id": "vv1AkZk46GkdN_2lp",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-minneapolis-minnesota-03-12-2027/event/06006547E364FAD6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk46GkdN_2lp",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-milwaukee-vv1a6zk4kgkei14ha",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Landmark Credit Union Live",
+    "datetime_iso": "2027-03-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006546AC2956C5",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-milwaukee-wisconsin-03-13-2027/event/07006546AC2956C5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-milwaukee-wisconsin-03-13-2027/event/07006546AC2956C5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006546AC2956C5",
+        "discovery_event_id": "vv1A6Zk4kGkei14hA",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-milwaukee-wisconsin-03-13-2027/event/07006546AC2956C5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6Zk4kGkei14hA",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-saint-louis-16-zk46uyzag1a76",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Factory",
+    "datetime_iso": "2027-03-17T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "21006547370B9836",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-saint-louis-missouri-03-16-2027/event/21006547370B9836",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-saint-louis-missouri-03-16-2027/event/21006547370B9836",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21006547370B9836",
+        "discovery_event_id": "16-Zk46uYZAG1a76",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-saint-louis-missouri-03-16-2027/event/21006547370B9836",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16-Zk46uYZAG1a76",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-cincinnati-1kaovpo_gagbfxb",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "The Andrew J Brady Music Center",
+    "datetime_iso": "2027-03-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160065459C6148BA",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-cincinnati-ohio-03-17-2027/event/160065459C6148BA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-cincinnati-ohio-03-17-2027/event/160065459C6148BA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160065459C6148BA",
+        "discovery_event_id": "1kAOvPo_GAGbfxB",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-cincinnati-ohio-03-17-2027/event/160065459C6148BA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAOvPo_GAGbfxB",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-nashville-g5viz_fni20_x",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2027-03-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006548E83E4662",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-nashville-tennessee-03-19-2027/event/1B006548E83E4662",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-nashville-tennessee-03-19-2027/event/1B006548E83E4662",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006548E83E4662",
+        "discovery_event_id": "G5viZ_fNI20_x",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-nashville-tennessee-03-19-2027/event/1B006548E83E4662",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_fNI20_x",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-atlanta-vvg1zz_fj5-2nn",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Roxy",
+    "datetime_iso": "2027-03-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0065470B84F8EA",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-atlanta-georgia-03-20-2027/event/0E0065470B84F8EA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-atlanta-georgia-03-20-2027/event/0E0065470B84F8EA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0065470B84F8EA",
+        "discovery_event_id": "vvG1zZ_fj5-2Nn",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-atlanta-georgia-03-20-2027/event/0E0065470B84F8EA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_fj5-2Nn",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-austin-g5diz_fncgjpo",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Amphitheater",
+    "datetime_iso": "2027-05-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006548ED31C5A0",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-austin-texas-05-06-2027/event/3A006548ED31C5A0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-austin-texas-05-06-2027/event/3A006548ED31C5A0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006548ED31C5A0",
+        "discovery_event_id": "G5dIZ_fNcGjpO",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-austin-texas-05-06-2027/event/3A006548ED31C5A0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_fNcGjpO",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-houston-g5diz_f9ubux3",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2027-05-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006545CDEB6F92",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-houston-texas-05-07-2027/event/3A006545CDEB6F92",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-houston-texas-05-07-2027/event/3A006545CDEB6F92",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006545CDEB6F92",
+        "discovery_event_id": "G5dIZ_f9uBUX3",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-houston-texas-05-07-2027/event/3A006545CDEB6F92",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_f9uBUX3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-irving-vvg1yz_frdgzb6",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2027-05-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006547BBD78E87",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-irving-texas-05-08-2027/event/0C006547BBD78E87",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-irving-texas-05-08-2027/event/0C006547BBD78E87",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006547BBD78E87",
+        "discovery_event_id": "vvG1YZ_frDgzB6",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-irving-texas-05-08-2027/event/0C006547BBD78E87",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_frDgzB6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-tulsa-z7r9jz1aa7ar_",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf w/ Annabelle Dinda",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "Cain's Ballroom",
+    "datetime_iso": "2027-05-11T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7ar_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ar_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ar_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7ar_",
+        "discovery_event_id": "Z7r9jZ1AA7ar_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ar_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7ar_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-kansas-city-z7r9jz1aa7kjk",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf w/ Annabelle Dinda",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "The Midland Theatre - MO",
+    "datetime_iso": "2027-05-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7KJk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7KJk",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-05-11-8-pm/concert/18664787",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7KJk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7KJk",
+        "discovery_event_id": "Z7r9jZ1AA7KJk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7KJk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7KJk",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-west-des-moines-z7r9jz1aa7aj7",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf w/ Annabelle Dinda",
+    "city": "West Des Moines",
+    "country": "United States Of America",
+    "venue": "Val Air Ballroom",
+    "datetime_iso": "2027-05-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7AJ7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7AJ7",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/west-des-moines-iowa-val-air-ballroom-2027-05-12-8-pm/concert/18664791",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7AJ7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7AJ7",
+        "discovery_event_id": "Z7r9jZ1AA7AJ7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7AJ7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7AJ7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-morrison-z7r9jz1aa7kap",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf w/ Annabelle Dinda",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7Kap",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Kap",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-16-7-pm/concert/18664789",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Kap",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7Kap",
+        "discovery_event_id": "Z7r9jZ1AA7Kap",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Kap",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Kap",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-bonner-g5vzz_flaijvz",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Bonner",
+    "country": "United States Of America",
+    "venue": "Kettlehouse Amphitheater",
+    "datetime_iso": "2027-05-20T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006547C9A1CD00",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-bonner-montana-05-19-2027/event/1E006547C9A1CD00",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/bonner-montana-kettlehouse-amphitheater-2027-05-19-8-pm/concert/18664792",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-bonner-montana-05-19-2027/event/1E006547C9A1CD00",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006547C9A1CD00",
+        "discovery_event_id": "G5vzZ_fLaIjVZ",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-bonner-montana-05-19-2027/event/1E006547C9A1CD00",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_fLaIjVZ",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-vancouver-z7r9jz1aa7kaf",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf w/ Annabelle Dinda",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "PNE Forum",
+    "datetime_iso": "2027-05-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7kAf",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7kAf",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/vancouver-canada-pne-forum-vancouver-2027-05-21-8-pm/concert/18664793",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7kAf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7kAf",
+        "discovery_event_id": "Z7r9jZ1AA7kAf",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7kAf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7kAf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-seattle-vvg1hz_fqhwypl",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "WAMU Theater",
+    "datetime_iso": "2027-05-23T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006546BCCB95AB",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-seattle-washington-05-22-2027/event/0F006546BCCB95AB",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/seattle-washington-wamu-theater-2027-05-22-8-pm/concert/18664798",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-seattle-washington-05-22-2027/event/0F006546BCCB95AB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006546BCCB95AB",
+        "discovery_event_id": "vvG1HZ_fQHwypl",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-seattle-washington-05-22-2027/event/0F006546BCCB95AB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_fQHwypl",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

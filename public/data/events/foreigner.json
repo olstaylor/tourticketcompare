@@ -1,0 +1,1062 @@
+[
+  {
+    "id": "tm-foreigner-2026-lincoln-g5vyz_66kfcgc",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner: Celebrating Fifty Years with 38 Special",
+    "city": "Lincoln",
+    "country": "United States Of America",
+    "venue": "The Venue at Thunder Valley Casino Resort",
+    "datetime_iso": "2026-10-31T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006471C652D30E",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-with-38-lincoln-california-10-30-2026/event/1C006471C652D30E",
+    "seatgeek_url": "https://seatgeek.com/foreigner-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2026-10-30-7-pm/concert/18166570",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-with-38-lincoln-california-10-30-2026/event/1C006471C652D30E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006471C652D30E",
+        "discovery_event_id": "G5vYZ_66kfcGC",
+        "url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-with-38-lincoln-california-10-30-2026/event/1C006471C652D30E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_66kfcGC",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2026-reno-1kc8v0otgacbkaa",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner: Celebrating Fifty Years",
+    "city": "Reno",
+    "country": "United States Of America",
+    "venue": "The Reno Ballroom",
+    "datetime_iso": "2026-11-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "390064829EE93249",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-reno-nevada-11-01-2026/event/390064829EE93249",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-reno-nevada-11-01-2026/event/390064829EE93249",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "390064829EE93249",
+        "discovery_event_id": "1kC8v0OtGACBKaa",
+        "url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-reno-nevada-11-01-2026/event/390064829EE93249",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kC8v0OtGACBKaa",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-daytona-beach-z7r9jz1aaedca",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner",
+    "city": "Daytona Beach",
+    "country": "United States Of America",
+    "venue": "The Peabody Daytona Beach",
+    "datetime_iso": "2027-02-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAedCa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAedCa",
+    "seatgeek_url": "https://seatgeek.com/foreigner-tickets/daytona-beach-florida-peabody-auditorium-2027-02-15-8-pm/concert/18617000",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAedCa",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAedCa",
+        "discovery_event_id": "Z7r9jZ1AAedCa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAedCa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAedCa",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-pompano-beach-z7r9jz1aav6fn",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner",
+    "city": "Pompano Beach",
+    "country": "United States Of America",
+    "venue": "Pompano Beach Amphitheatre",
+    "datetime_iso": "2027-02-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv6fN",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv6fN",
+    "seatgeek_url": "https://seatgeek.com/foreigner-tickets/pompano-beach-florida-pompano-beach-amphitheater-2027-02-19-8-pm/concert/18570609",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv6fN",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv6fN",
+        "discovery_event_id": "Z7r9jZ1AAv6fN",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv6fN",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv6fN",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-monterrey-1av8zbygkudzz0k",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner",
+    "city": "Monterrey",
+    "country": "Mexico",
+    "venue": "Escenario GNP Seguros",
+    "datetime_iso": "2027-02-28T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400630D83000913",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/foreigner-monterrey-27-02-2027/event/1400630D83000913",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/foreigner-monterrey-27-02-2027/event/1400630D83000913",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400630D83000913",
+        "discovery_event_id": "1Av8ZbYGkUdZZ0K",
+        "url": "https://www.ticketmaster.com.mx/foreigner-monterrey-27-02-2027/event/1400630D83000913",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8ZbYGkUdZZ0K",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-zapopan-1afzk3ogkd3htid",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner",
+    "city": "Zapopan",
+    "country": "Mexico",
+    "venue": "Auditorio Telmex",
+    "datetime_iso": "2027-03-01T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006491D26FFA03",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/foreigner-zapopan-28-02-2027/event/14006491D26FFA03",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/foreigner-zapopan-28-02-2027/event/14006491D26FFA03",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006491D26FFA03",
+        "discovery_event_id": "1AfZk3oGkd3hTId",
+        "url": "https://www.ticketmaster.com.mx/foreigner-zapopan-28-02-2027/event/14006491D26FFA03",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk3oGkd3hTId",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-ciudad-de-mexico-g5dvz_8xzavz-",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Auditorio Nacional",
+    "datetime_iso": "2027-03-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D00650F80241E21",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/foreigner-ciudad-de-mexico-03-03-2027/event/3D00650F80241E21",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/foreigner-ciudad-de-mexico-03-03-2027/event/3D00650F80241E21",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D00650F80241E21",
+        "discovery_event_id": "G5dVZ_8XZavz-",
+        "url": "https://www.ticketmaster.com.mx/foreigner-ciudad-de-mexico-03-03-2027/event/3D00650F80241E21",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_8XZavz-",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurynka",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "FOREIGNER: 50 YEARS OF HITS - LIVE IN VEGAS",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2027-03-11T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653D9EC2A4C9",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-10-2027/event/1700653D9EC2A4C9",
+    "seatgeek_url": "https://seatgeek.com/foreigner-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2027-03-10-8-pm/concert/18723998",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-10-2027/event/1700653D9EC2A4C9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653D9EC2A4C9",
+        "discovery_event_id": "1AvjZ_KGkUrYnKa",
+        "url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-10-2027/event/1700653D9EC2A4C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_KGkUrYnKa",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-las-vegas-1avjz_kgkursnk8",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "FOREIGNER: 50 YEARS OF HITS - LIVE IN VEGAS",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2027-03-13T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653D9EC6A4D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-12-2027/event/1700653D9EC6A4D0",
+    "seatgeek_url": "https://seatgeek.com/foreigner-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2027-03-12-8-pm/concert/18723999",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-12-2027/event/1700653D9EC6A4D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653D9EC6A4D0",
+        "discovery_event_id": "1AvjZ_KGkUrsnK8",
+        "url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-12-2027/event/1700653D9EC6A4D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_KGkUrsnK8",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurwnkf",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "FOREIGNER: 50 YEARS OF HITS - LIVE IN VEGAS",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2027-03-14T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653D9ECAA4D4",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-13-2027/event/1700653D9ECAA4D4",
+    "seatgeek_url": "https://seatgeek.com/foreigner-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2027-03-13-8-pm/concert/18724000",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-13-2027/event/1700653D9ECAA4D4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653D9ECAA4D4",
+        "discovery_event_id": "1AvjZ_KGkUrwnKf",
+        "url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-13-2027/event/1700653D9ECAA4D4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_KGkUrwnKf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-las-vegas-1avjz_kgkursnk_",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "FOREIGNER: 50 YEARS OF HITS - LIVE IN VEGAS",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2027-03-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653D9ECEA4D9",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-17-2027/event/1700653D9ECEA4D9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-17-2027/event/1700653D9ECEA4D9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653D9ECEA4D9",
+        "discovery_event_id": "1AvjZ_KGkUrSnK_",
+        "url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-17-2027/event/1700653D9ECEA4D9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_KGkUrSnK_",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurvnkq",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "FOREIGNER: 50 YEARS OF HITS - LIVE IN VEGAS",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2027-03-20T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653D9ED2A4DD",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-19-2027/event/1700653D9ED2A4DD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-19-2027/event/1700653D9ED2A4DD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653D9ED2A4DD",
+        "discovery_event_id": "1AvjZ_KGkUrVnKq",
+        "url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-19-2027/event/1700653D9ED2A4DD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_KGkUrVnKq",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurgbki",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "FOREIGNER: 50 YEARS OF HITS - LIVE IN VEGAS",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Venetian Theatre at The Venetian Resort",
+    "datetime_iso": "2027-03-21T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653D9ED7A4E8",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-20-2027/event/1700653D9ED7A4E8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-20-2027/event/1700653D9ED7A4E8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653D9ED7A4E8",
+        "discovery_event_id": "1AvjZ_KGkUrgBKI",
+        "url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-20-2027/event/1700653D9ED7A4E8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_KGkUrgBKI",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-dublin-1kkzvpv9gacwy1_",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner - Unplugged",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Olympia Theatre",
+    "datetime_iso": "2027-04-12T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180065057EF79299",
+    "ticketmaster_url": "https://www.ticketmaster.ie/foreigner-unplugged-dublin-12-04-2027/event/180065057EF79299",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/foreigner-unplugged-dublin-12-04-2027/event/180065057EF79299",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180065057EF79299",
+        "discovery_event_id": "1kkZvPv9GACWy1_",
+        "url": "https://www.ticketmaster.ie/foreigner-unplugged-dublin-12-04-2027/event/180065057EF79299",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kkZvPv9GACWy1_",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-london-16djz_37gg7hhxi",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The London Palladium",
+    "datetime_iso": "2027-04-14T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700652135F3CFAC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foreigner-london-14-04-2027/event/3700652135F3CFAC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foreigner-london-14-04-2027/event/3700652135F3CFAC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700652135F3CFAC",
+        "discovery_event_id": "16djZ_37gG7HHXi",
+        "url": "https://www.ticketmaster.co.uk/foreigner-london-14-04-2027/event/3700652135F3CFAC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16djZ_37gG7HHXi",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-new-york-g5diz_oohwwkw",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner: Celebrating Fifty Years",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Beacon Theatre",
+    "datetime_iso": "2027-04-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B0065147CCB21BD",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-new-york-new-york-04-27-2027/event/3B0065147CCB21BD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-new-york-new-york-04-27-2027/event/3B0065147CCB21BD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B0065147CCB21BD",
+        "discovery_event_id": "G5diZ_ooHwwkW",
+        "url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-new-york-new-york-04-27-2027/event/3B0065147CCB21BD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_ooHwwkW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-montclair-vv1aezkf_gkded4lx",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner: Celebrating Fifty Years",
+    "city": "Montclair",
+    "country": "United States Of America",
+    "venue": "The Wellmont Theater",
+    "datetime_iso": "2027-04-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006519C20D5AE2",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-montclair-new-jersey-04-28-2027/event/02006519C20D5AE2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-montclair-new-jersey-04-28-2027/event/02006519C20D5AE2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006519C20D5AE2",
+        "discovery_event_id": "vv1AeZkf_Gkded4lx",
+        "url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-montclair-new-jersey-04-28-2027/event/02006519C20D5AE2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkf_Gkded4lx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-port-chester-g5vvz_ony3-go",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner: Celebrating Fifty Years",
+    "city": "Port Chester",
+    "country": "United States Of America",
+    "venue": "The Capitol Theatre",
+    "datetime_iso": "2027-05-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D006518F04A1D60",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-port-chester-new-york-04-30-2027/event/1D006518F04A1D60",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-port-chester-new-york-04-30-2027/event/1D006518F04A1D60",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006518F04A1D60",
+        "discovery_event_id": "G5vVZ_oNY3-gO",
+        "url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-port-chester-new-york-04-30-2027/event/1D006518F04A1D60",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_oNY3-gO",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-westbury-k7vgf_ocs3r5v",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner: Celebrating Fifty Years",
+    "city": "Westbury",
+    "country": "United States Of America",
+    "venue": "Flagstar at Westbury Music Fair",
+    "datetime_iso": "2027-05-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006513B14AF2C1",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-westbury-new-york-05-02-2027/event/00006513B14AF2C1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-westbury-new-york-05-02-2027/event/00006513B14AF2C1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006513B14AF2C1",
+        "discovery_event_id": "k7vGF_oCs3R5v",
+        "url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-westbury-new-york-05-02-2027/event/00006513B14AF2C1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_oCs3R5v",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-milwaukee-vv1a6zk4agkd5heh6",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "BMO Pavilion",
+    "datetime_iso": "2027-07-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006549CBF276C7",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-milwaukee-wisconsin-07-02-2027/event/07006549CBF276C7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-milwaukee-wisconsin-07-02-2027/event/07006549CBF276C7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006549CBF276C7",
+        "discovery_event_id": "vv1A6Zk4aGkd5HEh6",
+        "url": "https://www.ticketmaster.com/foreigner-milwaukee-wisconsin-07-02-2027/event/07006549CBF276C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6Zk4aGkd5HEh6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

@@ -14,6 +14,8 @@ import { pathToFileURL } from 'node:url';
 import { SNAPSHOT_ARTIFACT, SNAPSHOT_MAX_AGE_MS } from './lib/tm-event-snapshot.mjs';
 
 const AUDIT_JOB = 'audit';
+const SNAPSHOT_UPLOAD_STEP = 'Upload tracked TM response snapshot';
+const FETCH_ERROR_STEP = 'Fail on TM fetch errors';
 
 // Why a listed run cannot supply the snapshot, or null when it can. The
 // reason is printed for every candidate: on 2026-10-05 a completed, green
@@ -38,9 +40,24 @@ export function trustedAuditRun(run, repo, now = Date.now()) {
   return auditRunRejection(run, repo, now) === null;
 }
 
+// A job that failed only at its closing "Fail on TM fetch errors" step still
+// uploaded a snapshot. Its failed events are stored with exists=null and the
+// consumer re-fetches those itself, so the good entries are worth reusing: on
+// 2026-10-29 and 2026-10-30 the audit ran out of quota near the end of its
+// sweep, the whole snapshot was discarded, and the sync then spent nothing but
+// 429s re-fetching every event.
+function failedOnlyAtFetchErrorStep(job) {
+  const steps = job?.steps || [];
+  const step = (name) => steps.find((s) => s?.name === name);
+  if (step(SNAPSHOT_UPLOAD_STEP)?.conclusion !== 'success') return false;
+  const failed = steps.filter((s) => s?.conclusion === 'failure');
+  return failed.length === 1 && failed[0].name === FETCH_ERROR_STEP;
+}
+
 export function auditJobSucceeded(jobs) {
   const audit = (jobs?.jobs || []).filter((job) => job?.name === AUDIT_JOB);
-  return audit.length === 1 && audit[0].status === 'completed' && audit[0].conclusion === 'success';
+  if (audit.length !== 1 || audit[0].status !== 'completed') return false;
+  return audit[0].conclusion === 'success' || (audit[0].conclusion === 'failure' && failedOnlyAtFetchErrorStep(audit[0]));
 }
 
 function describeAuditJobs(jobs) {
@@ -120,6 +137,17 @@ async function selfTest() {
   assert.deepEqual(await findSnapshot({ request: scripted([run], okJobs, artifactList), repo, now }), { run_id: 42, artifact_id: 99 });
   // A later publishing job failing does not void the audit job's snapshot.
   assert.deepEqual(await findSnapshot({ request: scripted([{ ...run, conclusion: 'failure' }], okJobs, artifactList), repo, now }), { run_id: 42, artifact_id: 99 });
+  // Failing only at the closing fetch-error step keeps the snapshot usable.
+  const step = (name, conclusion) => ({ name, conclusion });
+  const fetchErrorJobs = (steps) => ({ jobs: [{ name: 'audit', status: 'completed', conclusion: 'failure', steps }] });
+  assert.deepEqual(await findSnapshot({ request: scripted([run], fetchErrorJobs([step('Upload tracked TM response snapshot', 'success'), step('Fail on TM fetch errors', 'failure')]), artifactList), repo, now }), { run_id: 42, artifact_id: 99 });
+  for (const steps of [
+    [step('Upload tracked TM response snapshot', 'success'), step('Fail on TM fetch errors', 'failure'), step('Check guide source links', 'failure')],
+    [step('Upload tracked TM response snapshot', 'skipped'), step('Fail on TM fetch errors', 'failure')],
+    [step('Upload tracked TM response snapshot', 'success'), step('URL liveness check', 'failure')],
+  ]) {
+    assert.equal(await findSnapshot({ request: scripted([run], fetchErrorJobs(steps), artifactList), repo, now }), null);
+  }
   for (const jobs of [
     { jobs: [{ name: 'audit', status: 'completed', conclusion: 'failure' }] },
     { jobs: [{ name: 'audit', status: 'completed', conclusion: 'cancelled' }] },

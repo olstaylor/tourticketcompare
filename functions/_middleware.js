@@ -25,6 +25,21 @@ function normalizePath(pathname) {
   return pathname || "/";
 }
 
+// Chrome 76+ always sends Sec-Fetch-Site. A request that claims such a Chrome,
+// sends none, and carries no same-site Referer is automation faking the
+// user-agent (about 150 forged redirects a day from one Chrome/151 Windows
+// identity, 2026-10-28 to 2026-10-30). Search crawlers, webviews, other
+// browsers and anything with a same-site Referer are never refused here.
+function headerlessDesktopChrome(request) {
+  const headers = request.headers;
+  if (headers.get("Sec-Fetch-Site")) return false;
+  const ua = headers.get("User-Agent") || "";
+  const major = Number((/\bChrome\/(\d+)\./.exec(ua) || [])[1]);
+  if (!(major >= 76)) return false;
+  if (/bot|crawl|spider|slurp|inspectiontool|lighthouse|facebookexternalhit|; wv\)|\bwv\b|FBAN|FBAV|Instagram|Line\/|MicroMessenger/i.test(ua)) return false;
+  return !/^https?:\/\/(www\.)?tourticketcompare\.com(\/|$)/i.test(headers.get("Referer") || "");
+}
+
 export async function onRequest(context) {
   const url = new URL(context.request.url);
   const pathname = normalizePath(url.pathname);
@@ -90,7 +105,7 @@ export async function onRequest(context) {
   // present and not same-origin is refused.
   if (pathname === "/api/out") {
     const fetchSite = context.request.headers.get("Sec-Fetch-Site");
-    if (fetchSite && fetchSite.trim().toLowerCase() !== "same-origin") {
+    if ((fetchSite && fetchSite.trim().toLowerCase() !== "same-origin") || headerlessDesktopChrome(context.request)) {
       return new Response("Forbidden.\n", {
         status: 403,
         headers: {

@@ -34,6 +34,7 @@ const policy = await load("functions/_route-indexability.js");
 const router = await load("functions/[[path]].js");
 const middlewareModule = await load("functions/_middleware.js");
 const { CTA_LOCATIONS, classifyPageType } = await load("functions/_funnel.js");
+const { UNSUPPORTED_CHEAPEST_CLAIM } = await load("functions/_price-wording.js");
 
 // ─── part 1: derivation and gate ────────────────────────────────────────────
 
@@ -372,6 +373,18 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   const lead = text(page.main.match(/<p class="lead">([\s\S]*?)<\/p>/)?.[1]);
   assert(lead.includes("Fri, Sep 11, 2026 in Manchester (Heaton Park)") && lead.includes("GBP 182 on Vivid Seats") && lead.includes("Aug 9, 2026"), "the first answer ties one chronological example to its venue, date, provider and check time");
   assert(lead.startsWith("2 of 6 dates show a listed resale price right now."), "the lead opens with the answer: how many dates have a price");
+  // Owner decision 2026-10-30: the cheapest across dates may be named, always
+  // with its date, place, site and check time, as that date's own button.
+  const cheapest = page.main.match(/<section class="nested-panel price-cheapest"[\s\S]*?<\/section>/)?.[0] || "";
+  assert(/<h2 id="priceGuideCheapestTitle">Cheapest Oasis tickets<\/h2>/.test(cheapest), "a guide with two priced dates names the cheapest under a search-wording heading");
+  assert(
+    text(cheapest).includes("Cheapest listed price of 2 priced dates: GBP 182 on Vivid Seats for Fri, Sep 11, 2026 in Manchester (Heaton Park).") && /datetime="2026-08-09T09:00/.test(cheapest),
+    `the cheapest names its figure, site, date, place and check time (got ${text(cheapest).slice(0, 240)})`
+  );
+  assert(/href="\/api\/out\?[^"]*showId=pg-man-1[^"]*"/.test(cheapest.replace(/&amp;/g, "&")) && !/GBP\s?395/.test(cheapest), "the cheapest is that date's own tracked button, not a range");
+  assert(/not every site/.test(cheapest) && !UNSUPPORTED_CHEAPEST_CLAIM.test(text(page.main)), "the panel says which sites it covers and makes no blanket promise");
+  assert(page.main.indexOf('id="priceGuideCheapestTitle"') < page.main.indexOf('id="priceGuideGlanceTitle"'), "the cheapest panel sits straight after the lead");
+  assert(/The cheapest listed price of the 2 priced dates is GBP\s182 on Vivid Seats, for Fri, Sep 11, 2026 in Manchester, checked/.test(text(page.main)), "the cheapest-tickets FAQ answers with the same pick");
   assert(/<div class="action-row"><a[^>]+href="\/artists\/oasis"[^>]*class="button button-primary"|<div class="action-row"><a[^>]+class="button button-primary"[^>]*href="\/artists\/oasis"/.test(page.main), "the lead's one primary action is comparing tickets on the artist page");
   // Owner review 2026-10-06: the summary comes straight after the lead, then
   // the per-date tables, then the supporting explanation.

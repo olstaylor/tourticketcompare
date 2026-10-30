@@ -48,7 +48,9 @@ export function lowestPriceLabel(pricedCount) {
   return pricedCount === 1 ? "Provider starting price" : "Separate provider starting prices";
 }
 
-// "Cheapest" (owner decision, 2026-10-17: the old blanket ban is lifted).
+// "Cheapest" (owner decision, 2026-10-17: the old blanket ban is lifted;
+// 2026-10-30: "lowest price", "best price" and "best deal" are allowed on the
+// same terms, and the cheapest across an artist's dates may be named).
 // The word is allowed wherever it describes what the page actually shows: the
 // lowest of the listed prices the site captured for one show, with each
 // site's name and capture time beside it. Two rules keep it true:
@@ -58,8 +60,9 @@ export function lowestPriceLabel(pricedCount) {
 //     lowest listing, never "the cheapest".
 //   - No blanket promise. The site never sees the whole market, so copy may
 //     not claim the cheapest tickets anywhere, guaranteed, or that the site
-//     always finds them. UNSUPPORTED_CHEAPEST_CLAIM is the build check for
-//     that, shared by the smoke suite and the blog and guide builders.
+//     always finds them, and no price guarantee. UNSUPPORTED_CHEAPEST_CLAIM is
+//     the build check for that, shared by the smoke suite, the blog and guide
+//     builders and the AI blog drafter.
 
 /** The label for the lowest of two or more sites' listed prices for one show. */
 export function cheapestListedPriceLabel(pricedSiteCount) {
@@ -67,15 +70,18 @@ export function cheapestListedPriceLabel(pricedSiteCount) {
   return `Cheapest listed price of the ${pricedSiteCount} ticket sites checked`;
 }
 
-/** Blanket "cheapest" promises the site's data can never support. */
+/** Blanket cheapest / lowest / best-price promises the site's data can never support. */
+const CHEAP_WORD = String.raw`(?:cheapest|lowest(?:\s+prices?)?|best\s+(?:prices?|deals?))`;
 export const UNSUPPORTED_CHEAPEST_CLAIM = new RegExp(
   [
-    // "guaranteed cheapest", "always the cheapest", "absolute cheapest"
-    String.raw`\b(?:guaranteed|guarantee|always|absolute(?:ly)?|truly)\s+(?:the\s+)?cheapest\b`,
-    // "cheapest tickets anywhere / online / on the market", "cheapest price guaranteed"
-    String.raw`\bcheapest\b(?:\s+[\w'-]+){0,3}?\s+(?:anywhere|online|guaranteed|on\s+the\s+(?:web|internet|market)|in\s+the\s+(?:market|world))\b`,
-    // "we find the cheapest", "TourTicketCompare finds you the cheapest"
-    String.raw`\b(?:we|tourticketcompare|this\s+site|the\s+site)\s+(?:always\s+|will\s+)?(?:finds?|gets?|shows?|has|have|offers?|sells?)\s+(?:you\s+)?(?:the\s+)?cheapest\b`
+    // "guaranteed cheapest", "always the cheapest", "guaranteed lowest price"
+    String.raw`\b(?:guaranteed|guarantee|always|absolute(?:ly)?|truly)\s+(?:the\s+)?${CHEAP_WORD}\b`,
+    // "cheapest tickets anywhere / online / on the market", "lowest price guaranteed"
+    String.raw`\b${CHEAP_WORD}\b(?:\s+[\w'-]+){0,3}?\s+(?:anywhere|online|guaranteed|on\s+the\s+(?:web|internet|market)|in\s+the\s+(?:market|world))\b`,
+    // "best price guarantee", "lowest price promise", "price match"
+    String.raw`\b(?:best|lowest)\s+price\s+(?:guarantee|promise)|\bprice[\s-]+match(?:ing|ed)?\b`,
+    // "we find the cheapest", "TourTicketCompare finds you the best price"
+    String.raw`\b(?:we|tourticketcompare|this\s+site|the\s+site)\s+(?:always\s+|will\s+)?(?:finds?|gets?|shows?|has|have|offers?|sells?)\s+(?:you\s+)?(?:the\s+)?${CHEAP_WORD}\b`
   ].join("|"),
   "i"
 );

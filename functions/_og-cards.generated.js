@@ -698,6 +698,7 @@ export const OG_CARDS = {
   "/blog/choosing-a-harry-styles-madison-square-garden-night": {"url":"/og/blog-choosing-a-harry-styles-madison-square-garden-night.png","alt":"Blog: Choosing a Harry Styles night at Madison Square Garden"},
   "/blog/choosing-a-metallica-sphere-night": {"url":"/og/blog-choosing-a-metallica-sphere-night.png","alt":"Blog: Choosing a Metallica night at Sphere"},
   "/blog/doja-cat-tour-ticket-prices-by-city": {"url":"/og/blog-doja-cat-tour-ticket-prices-by-city.png","alt":"Blog: Doja Cat tour tickets: listed prices city by city"},
+  "/blog/don-omar-tour-ticket-prices-by-city": {"url":"/og/blog-don-omar-tour-ticket-prices-by-city.png","alt":"Blog: Don Omar tour tickets: listed prices city by city"},
   "/blog/eagles-sphere-january-2027-presale-and-on-sale": {"url":"/og/blog-eagles-sphere-january-2027-presale-and-on-sale.png","alt":"Blog: Eagles at Sphere, January 2027: presale and on-sale times"},
   "/blog/floor-or-seats-at-a-stadium-concert": {"url":"/og/blog-floor-or-seats-at-a-stadium-concert.png","alt":"Blog: Floor or seats at a stadium concert: how to choose"},
   "/blog/gracie-abrams-tour-ticket-prices-by-city": {"url":"/og/blog-gracie-abrams-tour-ticket-prices-by-city.png","alt":"Blog: Gracie Abrams tour tickets: listed prices city by city"},

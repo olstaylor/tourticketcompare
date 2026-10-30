@@ -248,6 +248,17 @@ assert(
   "an artist with no authored FAQ still gets a usable FAQ"
 );
 
+// Tour question: built only from verified tour names on the board's own dates.
+const tourModel = buildArtistContentModel({ name: "Harry Styles" }, shows, options);
+const tourEntry = tourModel.faq.find(([question]) => question === "What tour is Harry Styles on?");
+assert(tourEntry, "a board with verified tour names answers which tour it is on");
+assert(tourEntry[1].includes("Tour A (4 dates") && tourEntry[1].includes("Tour B"), "the tour answer names each verified tour with its date count");
+assertCopySafe(`${tourEntry[0]} ${tourEntry[1]}`, "tour faq entry");
+assert(
+  !buildArtistContentModel({ name: "Solo" }, [{ city: "Rome", dateTimeISO: "2026-08-10T19:00:00Z", publishable: true }], options).faq.some(([question]) => /what tour is/i.test(question)),
+  "a board with no verified tour name asks nothing about a tour"
+);
+
 // --- Full model -------------------------------------------------------------
 const model = buildArtistContentModel({ name: "Harry Styles", faq: authoredFaq }, bigBoard, options);
 assert(model.intro === bigIntro, "model intro should match artistSearchIntro");

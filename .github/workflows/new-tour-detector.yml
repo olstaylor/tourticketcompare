@@ -1,0 +1,70 @@
+name: New tour detector
+
+# Report-only. After a Ticketmaster new-shows or auto-promote run, finds artists
+# whose first upcoming dates just landed (scripts/detect-new-tours.mjs), keeps
+# one rolling `automation:new-tour-digest` issue of every detection and opens an
+# `automation:new-tour` issue for each act the owner is watching (focus
+# artists, Beyoncé, rumoured watchlist acts). The issue lists what already runs
+# on its own and what still needs a human. Writes no repository file, publishes
+# nothing, spends no paid run and dispatches no workflow.
+# Detections are deduplicated by marker, so the 6-hour lookback is safe to overlap.
+
+on:
+  workflow_run:
+    workflows: ['Ticketmaster new shows PR', 'Auto-promote artists']
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      since:
+        description: 'Compare against the data as of this time (ISO, UTC). Blank = 6 hours ago.'
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: new-tour-detector
+  cancel-in-progress: false
+
+jobs:
+  detect:
+    # Run after a finished lane whatever its verdict: the new-shows lane ends red
+    # after publishing when a quarter of its lookups fail. Skip a cancelled run.
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion != 'cancelled'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 200
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Self-test
+        run: node scripts/detect-new-tours.mjs --self-test
+
+      - name: Work out the comparison time
+        id: since
+        env:
+          INPUT_SINCE: ${{ inputs.since }}
+          RUN_STARTED: ${{ github.event.workflow_run.run_started_at }}
+        run: |
+          base="${INPUT_SINCE:-${RUN_STARTED:-$(date -u +%Y-%m-%dT%H:%M:%SZ)}}"
+          if [ -n "$INPUT_SINCE" ]; then since="$base"; else since="$(date -u -d "$base - 6 hours" +%Y-%m-%dT%H:%M:%SZ)"; fi
+          echo "since=$since" >> "$GITHUB_OUTPUT"
+          echo "Comparing against the data as of $since"
+
+      - name: Report new tours
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/detect-new-tours.mjs --since "${{ steps.since.outputs.since }}" --issue
+
+      - name: Confirm no repository data changed
+        run: git diff --quiet || { echo 'a report-only run changed tracked files' >&2; git --no-pager diff --stat; exit 1; }

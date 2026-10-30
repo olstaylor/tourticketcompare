@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162341",
+        "url": "https://www.stubhub.ie/aespa-tickets-manchester-manchester-ao-arena-14-1-2027/event/107162341",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_Gm82p9j",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915776"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915776",
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-manchester-manchester-ao-arena-14-1-2027/event/107162341"
   },
   {
     "id": "tm-aespa-2027-london-1agzk3pgkeok319",
@@ -107,11 +115,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162340",
+        "url": "https://www.stubhub.ie/aespa-tickets-london-the-o2-arena-16-1-2027/event/107162340",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk3pGkeOK319",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-london-the-o2-arena-16-1-2027/event/107162340"
   },
   {
     "id": "tm-aespa-2027-amsterdam-z698xzbpz16voeqaa6",
@@ -167,12 +183,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165089",
+        "url": "https://www.stubhub.ie/aespa-tickets-amsterdam-ziggo-dome-19-1-2027/event/107165089",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16voeqaA6",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915781"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915781",
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-amsterdam-ziggo-dome-19-1-2027/event/107165089"
   },
   {
     "id": "tm-aespa-2027-berlin-z698xzc2z1k_y_voe",
@@ -228,12 +252,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165116",
+        "url": "https://www.stubhub.ie/aespa-tickets-berlin-uber-arena-26-1-2027/event/107165116",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k_y_Voe",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915779"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915779",
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-berlin-uber-arena-26-1-2027/event/107165116"
   },
   {
     "id": "tm-aespa-2027-milano-zg9rmiynyzekk1",
@@ -342,11 +374,19 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162333",
+        "url": "https://www.stubhub.ie/aespa-tickets-barcelona-palau-sant-jordi-31-1-2027/event/107162333",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v0vCkob",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915778"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915778",
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-barcelona-palau-sant-jordi-31-1-2027/event/107162333"
   }
 ]

@@ -1339,12 +1339,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671545",
+        "url": "https://www.stubhub.ie/dropkick-murphys-brooklyn-tickets-3-7-2027/event/107671545",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KiCtNjM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295214"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295214",
+    "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-brooklyn-tickets-3-7-2027/event/107671545"
   },
   {
     "id": "tm-dropkick-murphys-2027-wilmington-vv1aezkfmgkexqysz",
@@ -1522,12 +1530,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674838",
+        "url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-12-2027/event/107674838",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfSGkdTtSc_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319718"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319718",
+    "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-12-2027/event/107674838"
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfsgkdtcsmb",
@@ -1583,12 +1599,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674156",
+        "url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-13-2027/event/107674156",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfSGkdTcSmB",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319720"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319720",
+    "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-13-2027/event/107674156"
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfmgketdy2c",
@@ -1644,12 +1668,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674157",
+        "url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-14-2027/event/107674157",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfMGkeTdy2C",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319723"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319723",
+    "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-14-2027/event/107674157"
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfygkdomyjz",
@@ -1705,11 +1737,19 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674954",
+        "url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-17-2027/event/107674954",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfyGkdOmyJZ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319724"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319724",
+    "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-17-2027/event/107674954"
   }
 ]

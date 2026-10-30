@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669462",
+        "url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-30-2026/event/107669462",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZkftGkdvnPgB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264076"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264076",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-30-2026/event/107669462"
   },
   {
     "id": "tm-alex-warren-2027-las-vegas-1ayzkftgkdvipgh",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668643",
+        "url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-31-2026/event/107668643",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZkftGkdviPgH",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264077"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264077",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-31-2026/event/107668643"
   },
   {
     "id": "tm-alex-warren-2027-cardiff-g5vhz_3c3nozb",
@@ -221,11 +237,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670720",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-belfast-ormeau-park-21-6-2027/event/107670720",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dOZ_3CdG7z8me",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-belfast-ormeau-park-21-6-2027/event/107670720"
   },
   {
     "id": "tm-alex-warren-2027-co-dublin-1abzkf-gkebtuoa",
@@ -327,11 +351,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671364",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-glasgow-glasgow-green-25-6-2027/event/107671364",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkf_GkeMJHov",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-glasgow-glasgow-green-25-6-2027/event/107671364"
   },
   {
     "id": "tm-alex-warren-2027-exeter-g5vhz_3je-wlb",
@@ -380,11 +412,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671365",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-exeter-powderham-castle-26-6-2027/event/107671365",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_3JE-wlB",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-exeter-powderham-castle-26-6-2027/event/107671365"
   },
   {
     "id": "tm-alex-warren-2027-woodstock-16djz_4q3g7mfnf",
@@ -440,13 +480,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107676110",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-woodstock-blenheim-palace-27-6-2027/event/107676110",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16djZ_4Q3G7MfNF",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345707"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345707",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-woodstock-blenheim-palace-27-6-2027/event/107676110"
   },
   {
     "id": "tm-alex-warren-2027-scarborough-1agzkf0gkdh1nyj",
@@ -502,12 +550,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670721",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-scarborough-scarborough-open-air-theatre-30-6-2027/event/107670721",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkf0Gkdh1nYJ",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295164"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295164",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-scarborough-scarborough-open-air-theatre-30-6-2027/event/107670721"
   },
   {
     "id": "tm-alex-warren-2027-manchester-g5dzz_fblbfue",
@@ -563,13 +619,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678237",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-manchester-heaton-park-2-7-2027/event/107678237",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_fBlBfue",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345708"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345708",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-manchester-heaton-park-2-7-2027/event/107678237"
   },
   {
     "id": "tm-alex-warren-2027-london-1amzkfngkdb5am5",
@@ -625,11 +689,19 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671362",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-london-crystal-palace-park-3-7-2027/event/107671362",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfNGkdb5aM5",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294337"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294337",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-london-crystal-palace-park-3-7-2027/event/107671362"
   }
 ]

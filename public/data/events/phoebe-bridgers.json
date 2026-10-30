@@ -418,11 +418,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107259003",
-        "url": "https://www.stubhub.ie/phoebe-bridgers-san-francisco-tickets-10-28-2026/event/107259003",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034548/Phoebe-Bridgers-tickets-Wed-Oct-28-2026-Chase-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-san-francisco-tickets-10-28-2026/event/107259003",
+    "stubhub_international_url": "",
     "organizer_names": [
       "CONCERTS WEST (AEG)"
     ],

@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672455",
+        "url": "https://www.stubhub.ie/illenium-las-vegas-tickets-12-19-2026/event/107672455",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUPE",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/illenium-las-vegas-tickets-12-19-2026/event/107672455"
   },
   {
     "id": "tm-illenium-2026-san-francisco-g5vyz_kj0ltb6",

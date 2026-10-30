@@ -9554,11 +9554,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107165568",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-columbus-tickets-10-29-2026/event/107165568",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -9567,7 +9567,7 @@
     "ticketmaster_discovery_event_id": "vv17fZ_aGkMTN2Ij",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921659",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921659/Olivia-Rodrigo-tickets-Thu-Oct-29-2026-Value-City-Arena-at-The-Schottenstein-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-columbus-tickets-10-29-2026/event/107165568",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -21602,11 +21602,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106957104",
-        "url": "https://www.stubhub.ie/ed-sheeran-hollywood-tickets-10-29-2026/event/106957104",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbSkEUolT",
@@ -21615,7 +21615,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418599",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418599/Ed-Sheeran-tickets-Thu-Oct-29-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-hollywood-tickets-10-29-2026/event/106957104"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-hollywood-0d006331f45e4089",
@@ -41132,11 +41132,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107189133",
-        "url": "https://www.stubhub.ie/john-summit-boston-tickets-10-29-2026/event/107189133",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7982946",
@@ -41150,7 +41150,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982946",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-boston-tickets-10-29-2026/event/107189133",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982946/John-Summit-tickets-Thu-Oct-29-2026-TD-Garden",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -74399,6 +74399,13 @@
         "verified": true,
         "last_verified_at": "2026-09-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107676192",
+        "url": "https://www.stubhub.ie/polyphia-las-vegas-tickets-2-6-2027/event/107676192",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "169ZkfpPaZAu15vA",
@@ -74421,7 +74428,8 @@
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-las-vegas-tickets-2-6-2027/event/107676192"
   },
   {
     "id": "tm-polyphia-2027-san-diego-z7r9jz1aav67j",
@@ -129431,11 +129439,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107417991",
-        "url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-28-2026/event/107417991",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GCgtRwF",
@@ -129443,7 +129451,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034349/Malcolm-Todd-tickets-Wed-Oct-28-2026-Greek-Theatre-Los-Angeles-CA",
-    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-28-2026/event/107417991",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -217443,6 +217451,13 @@
         "verified": true,
         "last_verified_at": "2026-10-12",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107676279",
+        "url": "https://www.stubhub.ie/the-airborne-toxic-event-las-vegas-tickets-6-3-2027/event/107676279",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G61aVjbwz",
@@ -217453,7 +217468,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977703/The-Airborne-Toxic-Event-tickets-Thu-Jun-3-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/the-airborne-toxic-event-las-vegas-tickets-6-3-2027/event/107676279"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-san-diego-vvg1iz_a0ap_1u",
@@ -233959,11 +233975,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107671609",
+        "url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-1-2-2027/event/107671609",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk4vGkdN9bgH",
@@ -233972,7 +233988,7 @@
     "organizer_names": [
       "OCESA"
     ],
-    "stubhub_international_url": ""
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-1-2-2027/event/107671609"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacn3ld",
@@ -256960,11 +256976,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107486125",
-        "url": "https://www.stubhub.ie/ella-langley-des-moines-tickets-10-29-2026/event/107486125",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pwkk",
@@ -256972,7 +256988,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071952",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071952/Ella-Langley-tickets-Thu-Oct-29-2026-Caseys-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/ella-langley-des-moines-tickets-10-29-2026/event/107486125"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ella-langley-2026-lincoln-vvg1bz_u6bp0me",
@@ -268362,11 +268378,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107259003",
-        "url": "https://www.stubhub.ie/phoebe-bridgers-san-francisco-tickets-10-28-2026/event/107259003",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -268380,7 +268396,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034548/Phoebe-Bridgers-tickets-Wed-Oct-28-2026-Chase-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-san-francisco-tickets-10-28-2026/event/107259003",
+    "stubhub_international_url": "",
     "organizer_names": [
       "CONCERTS WEST (AEG)"
     ],
@@ -283686,11 +283702,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107154368",
-        "url": "https://www.stubhub.ie/young-miko-orlando-tickets-10-29-2026/event/107154368",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7860531",
@@ -283710,7 +283726,7 @@
     "ticketmaster_discovery_event_id": "1AxZk3dGkeHa7UV",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/young-miko-orlando-tickets-10-29-2026/event/107154368",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860531/Young-Miko-tickets-Thu-Oct-29-2026-Kia-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -306369,6 +306385,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107678203",
+        "url": "https://www.stubhub.ie/santana-tickets-london-the-o2-arena-30-6-2027/event/107678203",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4pGkemMURU",
@@ -306377,7 +306400,8 @@
     "public_onsale_at": "2026-10-30T09:30:00Z",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/santana-tickets-london-the-o2-arena-30-6-2027/event/107678203"
   },
   {
     "id": "tm-santana-2027-krakow-z698xzqpz16va4pvo4",
@@ -309981,11 +310005,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672455",
+        "url": "https://www.stubhub.ie/illenium-las-vegas-tickets-12-19-2026/event/107672455",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUPE",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/illenium-las-vegas-tickets-12-19-2026/event/107672455"
   },
   {
     "id": "tm-illenium-2026-san-francisco-g5vyz_kj0ltb6",
@@ -319319,12 +319351,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671545",
+        "url": "https://www.stubhub.ie/dropkick-murphys-brooklyn-tickets-3-7-2027/event/107671545",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KiCtNjM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295214"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295214",
+    "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-brooklyn-tickets-3-7-2027/event/107671545"
   },
   {
     "id": "tm-dropkick-murphys-2027-wilmington-vv1aezkfmgkexqysz",
@@ -319502,12 +319542,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674838",
+        "url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-12-2027/event/107674838",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfSGkdTtSc_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319718"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319718",
+    "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-12-2027/event/107674838"
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfsgkdtcsmb",
@@ -319563,12 +319611,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674156",
+        "url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-13-2027/event/107674156",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfSGkdTcSmB",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319720"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319720",
+    "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-13-2027/event/107674156"
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfmgketdy2c",
@@ -319624,12 +319680,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674157",
+        "url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-14-2027/event/107674157",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfMGkeTdy2C",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319723"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319723",
+    "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-14-2027/event/107674157"
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfygkdomyjz",
@@ -319685,12 +319749,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674954",
+        "url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-17-2027/event/107674954",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfyGkdOmyJZ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319724"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319724",
+    "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-17-2027/event/107674954"
   },
   {
     "id": "tm-kaleo-2027-fremantle-1akzkffgkdlimm3",
@@ -320110,11 +320182,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107447689",
+        "url": "https://www.stubhub.ie/kaleo-tickets-madrid-live-las-ventas-plaza-de-toros-de-las-ventas-14-3-2027/event/107447689",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kuvP4rv",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-madrid-live-las-ventas-plaza-de-toros-de-las-ventas-14-3-2027/event/107447689"
   },
   {
     "id": "tm-kaleo-2027-barcelona-z698xz2qz1koa3fud",
@@ -320541,12 +320621,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107418043",
+        "url": "https://www.stubhub.ie/kaleo-tickets-amsterdam-ziggo-dome-30-3-2027/event/107418043",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v8--tPb",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098853"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098853",
+    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-amsterdam-ziggo-dome-30-3-2027/event/107418043"
   },
   {
     "id": "tm-kaleo-2027-london-g5dzz_uxmo7c5",
@@ -320602,12 +320690,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417949",
+        "url": "https://www.stubhub.ie/kaleo-tickets-london-o2-academy-brixton-3-4-2027/event/107417949",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_uxmo7c5",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098553"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098553",
+    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-london-o2-academy-brixton-3-4-2027/event/107417949"
   },
   {
     "id": "tm-kaleo-2027-manchester-17uov0g6ulnuuct",
@@ -320663,12 +320759,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417929",
+        "url": "https://www.stubhub.ie/kaleo-tickets-manchester-o2-apollo-manchester-6-4-2027/event/107417929",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6uLNuuCt",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098554"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098554",
+    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-manchester-o2-apollo-manchester-6-4-2027/event/107417929"
   },
   {
     "id": "tm-kaleo-2027-glasgow-g5dzz_ujz8jhw",
@@ -320724,12 +320828,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447610",
+        "url": "https://www.stubhub.ie/kaleo-tickets-glasgow-o2-academy-glasgow-8-4-2027/event/107447610",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_uJz8JHW",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098555"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098555",
+    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-glasgow-o2-academy-glasgow-8-4-2027/event/107447610"
   },
   {
     "id": "tm-kaleo-2027-birmingham-g5dzz_u5ehmmb",
@@ -320785,12 +320897,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447611",
+        "url": "https://www.stubhub.ie/kaleo-tickets-birmingham-o2-academy-birmingham-9-4-2027/event/107447611",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_u5eHMMb",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098851"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098851",
+    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-birmingham-o2-academy-birmingham-9-4-2027/event/107447611"
   },
   {
     "id": "tm-alex-warren-2026-las-vegas-1ayzkftgkdvnpgb",
@@ -320846,12 +320966,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669462",
+        "url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-30-2026/event/107669462",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZkftGkdvnPgB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264076"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264076",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-30-2026/event/107669462"
   },
   {
     "id": "tm-alex-warren-2027-las-vegas-1ayzkftgkdvipgh",
@@ -320907,12 +321035,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668643",
+        "url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-31-2026/event/107668643",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZkftGkdviPgH",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264077"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264077",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-31-2026/event/107668643"
   },
   {
     "id": "tm-alex-warren-2027-cardiff-g5vhz_3c3nozb",
@@ -321014,11 +321150,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670720",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-belfast-ormeau-park-21-6-2027/event/107670720",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dOZ_3CdG7z8me",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-belfast-ormeau-park-21-6-2027/event/107670720"
   },
   {
     "id": "tm-alex-warren-2027-co-dublin-1abzkf-gkebtuoa",
@@ -321120,11 +321264,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671364",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-glasgow-glasgow-green-25-6-2027/event/107671364",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkf_GkeMJHov",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-glasgow-glasgow-green-25-6-2027/event/107671364"
   },
   {
     "id": "tm-alex-warren-2027-exeter-g5vhz_3je-wlb",
@@ -321173,11 +321325,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671365",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-exeter-powderham-castle-26-6-2027/event/107671365",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_3JE-wlB",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-exeter-powderham-castle-26-6-2027/event/107671365"
   },
   {
     "id": "tm-alex-warren-2027-woodstock-16djz_4q3g7mfnf",
@@ -321233,13 +321393,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107676110",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-woodstock-blenheim-palace-27-6-2027/event/107676110",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16djZ_4Q3G7MfNF",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345707"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345707",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-woodstock-blenheim-palace-27-6-2027/event/107676110"
   },
   {
     "id": "tm-alex-warren-2027-scarborough-1agzkf0gkdh1nyj",
@@ -321295,12 +321463,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670721",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-scarborough-scarborough-open-air-theatre-30-6-2027/event/107670721",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkf0Gkdh1nYJ",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295164"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295164",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-scarborough-scarborough-open-air-theatre-30-6-2027/event/107670721"
   },
   {
     "id": "tm-alex-warren-2027-manchester-g5dzz_fblbfue",
@@ -321356,13 +321532,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678237",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-manchester-heaton-park-2-7-2027/event/107678237",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_fBlBfue",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345708"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345708",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-manchester-heaton-park-2-7-2027/event/107678237"
   },
   {
     "id": "tm-alex-warren-2027-london-1amzkfngkdb5am5",
@@ -321418,12 +321602,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671362",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-london-crystal-palace-park-3-7-2027/event/107671362",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfNGkdb5aM5",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294337"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294337",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-london-crystal-palace-park-3-7-2027/event/107671362"
   },
   {
     "id": "tm-marc-anthony-2026-las-vegas-1a9zk3vgkdfccwq",
@@ -322977,12 +323169,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678077",
+        "url": "https://www.stubhub.ie/calvin-harris-boston-tickets-3-31-2027/event/107678077",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv117Z_47a1FA9",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332831"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332831",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-3-31-2027/event/107678077"
   },
   {
     "id": "tm-calvin-harris-2027-boston-vv1a8vp3aga2khl4",
@@ -323038,12 +323238,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673765",
+        "url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-1-2027/event/107673765",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vP3aGA2khL4",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319872"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319872",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-1-2027/event/107673765"
   },
   {
     "id": "tm-calvin-harris-2027-baltimore-1ka8vp3_ga2r9p0",
@@ -323099,12 +323307,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674374",
+        "url": "https://www.stubhub.ie/calvin-harris-baltimore-tickets-4-2-2027/event/107674374",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kA8vP3_GA2r9p0",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319873"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319873",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-baltimore-tickets-4-2-2027/event/107674374"
   },
   {
     "id": "tm-calvin-harris-2027-boston-vv1a8vp49ga5l0kw",
@@ -323160,12 +323376,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678078",
+        "url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-4-2027/event/107678078",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vP49GA5L0kW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336942"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336942",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-4-2027/event/107678078"
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-16yzk4k-yza5e8ka",
@@ -323221,12 +323445,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678079",
+        "url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-6-2027/event/107678079",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16YZk4K-yZA5e8kA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332603"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332603",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-6-2027/event/107678079"
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-16dzz_4c6g7nsw_",
@@ -323282,12 +323514,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675887",
+        "url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-7-2027/event/107675887",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dZZ_4C6G7nsW_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332913"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332913",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-7-2027/event/107675887"
   },
   {
     "id": "tm-calvin-harris-2027-philadelphia-1ayzk4agkew8jvi",
@@ -323343,12 +323583,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674366",
+        "url": "https://www.stubhub.ie/calvin-harris-philadelphia-tickets-4-8-2027/event/107674366",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4aGkeW8JvI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319874"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319874",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-philadelphia-tickets-4-8-2027/event/107674366"
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-1ayzk4fgkeyujwu",
@@ -323404,12 +323652,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674362",
+        "url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-9-2027/event/107674362",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4FGkeyUJwu",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319875"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319875",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-9-2027/event/107674362"
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-16yzk4ov9zau1f7g",
@@ -323465,12 +323721,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677355",
+        "url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-10-2027/event/107677355",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16YZk4ov9ZAu1F7G",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330028"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330028",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-10-2027/event/107677355"
   },
   {
     "id": "tm-calvin-harris-2027-toronto-1a8zk4fgkevlxcb",
@@ -323815,12 +324079,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673761",
+        "url": "https://www.stubhub.ie/calvin-harris-austin-tickets-4-25-2027/event/107673761",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fJHNAQG",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319880"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319880",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-austin-tickets-4-25-2027/event/107673761"
   },
   {
     "id": "tm-calvin-harris-2027-saint-paul-z7r9jz1aa76pf",
@@ -323876,12 +324148,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677510",
+        "url": "https://www.stubhub.ie/calvin-harris-saint-paul-tickets-4-29-2027/event/107677510",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76PF",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319881"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319881",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-saint-paul-tickets-4-29-2027/event/107677510"
   },
   {
     "id": "tm-calvin-harris-2027-chicago-vv1a7zk4fgkdzmu0d",
@@ -323937,12 +324217,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673764",
+        "url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-4-30-2027/event/107673764",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4FGkdZMu0D",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319882"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319882",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-4-30-2027/event/107673764"
   },
   {
     "id": "tm-calvin-harris-2027-chicago-vv167zk4319zac1ud5",
@@ -323998,12 +324286,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675891",
+        "url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-5-2-2027/event/107675891",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv167Zk4319ZAC1ud5",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333136"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333136",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-5-2-2027/event/107675891"
   },
   {
     "id": "tm-calvin-harris-2027-salt-lake-city-z7r9jz1aa76p8",
@@ -324059,12 +324355,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674370",
+        "url": "https://www.stubhub.ie/calvin-harris-salt-lake-city-tickets-5-5-2027/event/107674370",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76P8",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319883"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319883",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-salt-lake-city-tickets-5-5-2027/event/107674370"
   },
   {
     "id": "tm-calvin-harris-2027-oakland-g5vyz_fh6tm8u",
@@ -324120,12 +324424,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673758",
+        "url": "https://www.stubhub.ie/calvin-harris-oakland-tickets-5-7-2027/event/107673758",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_fh6tm8u",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319885"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319885",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-oakland-tickets-5-7-2027/event/107673758"
   },
   {
     "id": "tm-calvin-harris-2027-oakland-g5vyz_4drjlsj",
@@ -324303,12 +324615,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673763",
+        "url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-14-2027/event/107673763",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fJLgMb1",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319886"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319886",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-14-2027/event/107673763"
   },
   {
     "id": "tm-calvin-harris-2027-seattle-vvg1hz_48c3k9c",
@@ -324364,12 +324684,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675892",
+        "url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-15-2027/event/107675892",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_48C3K9C",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336941"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336941",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-15-2027/event/107675892"
   },
   {
     "id": "tm-calvin-harris-2027-vancouver-1aozk46gkdf4hov",
@@ -324547,12 +324875,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675893",
+        "url": "https://www.stubhub.ie/calvin-harris-anaheim-tickets-5-20-2027/event/107675893",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk44GkdGR8BI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337412"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337412",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-anaheim-tickets-5-20-2027/event/107675893"
   },
   {
     "id": "tm-calvin-harris-2027-san-diego-vvg1iz_fqlbaqn",
@@ -324791,12 +325127,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675896",
+        "url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-26-2027/event/107675896",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F0Z_48vCAZd8d1",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336943"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336943",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-26-2027/event/107675896"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk4fgkebghyq",
@@ -324852,12 +325196,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673759",
+        "url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-27-2027/event/107673759",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4FGkeBgHyq",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319888"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319888",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-27-2027/event/107673759"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd68xic",
@@ -324913,12 +325265,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677401",
+        "url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-28-2027/event/107677401",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk48Gkd68XiC",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330024"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330024",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-28-2027/event/107677401"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd6fcij",
@@ -324974,12 +325334,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675897",
+        "url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-29-2027/event/107675897",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk48Gkd6fCiJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333280"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333280",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-29-2027/event/107675897"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd69rc1",
@@ -325035,12 +325403,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675898",
+        "url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-30-2027/event/107675898",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk48Gkd69rc1",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333277"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333277",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-30-2027/event/107675898"
   },
   {
     "id": "tm-aespa-2027-manchester-g5vhz_gm82p9j",
@@ -325096,12 +325472,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162341",
+        "url": "https://www.stubhub.ie/aespa-tickets-manchester-manchester-ao-arena-14-1-2027/event/107162341",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_Gm82p9j",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915776"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915776",
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-manchester-manchester-ao-arena-14-1-2027/event/107162341"
   },
   {
     "id": "tm-aespa-2027-london-1agzk3pgkeok319",
@@ -325150,11 +325534,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162340",
+        "url": "https://www.stubhub.ie/aespa-tickets-london-the-o2-arena-16-1-2027/event/107162340",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk3pGkeOK319",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-london-the-o2-arena-16-1-2027/event/107162340"
   },
   {
     "id": "tm-aespa-2027-amsterdam-z698xzbpz16voeqaa6",
@@ -325210,12 +325602,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165089",
+        "url": "https://www.stubhub.ie/aespa-tickets-amsterdam-ziggo-dome-19-1-2027/event/107165089",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16voeqaA6",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915781"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915781",
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-amsterdam-ziggo-dome-19-1-2027/event/107165089"
   },
   {
     "id": "tm-aespa-2027-berlin-z698xzc2z1k_y_voe",
@@ -325271,12 +325671,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165116",
+        "url": "https://www.stubhub.ie/aespa-tickets-berlin-uber-arena-26-1-2027/event/107165116",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k_y_Voe",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915779"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915779",
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-berlin-uber-arena-26-1-2027/event/107165116"
   },
   {
     "id": "tm-aespa-2027-milano-zg9rmiynyzekk1",
@@ -325385,12 +325793,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162333",
+        "url": "https://www.stubhub.ie/aespa-tickets-barcelona-palau-sant-jordi-31-1-2027/event/107162333",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v0vCkob",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915778"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915778",
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-barcelona-palau-sant-jordi-31-1-2027/event/107162333"
   },
   {
     "id": "tm-cage-the-elephant-2027-krakow-z698xzqpz16vup4eqe",
@@ -325598,11 +326014,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667232",
+        "url": "https://www.stubhub.ie/cage-the-elephant-tickets-leeds-o2-academy-leeds-23-2-2027/event/107667232",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_350zpR-",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-leeds-o2-academy-leeds-23-2-2027/event/107667232"
   },
   {
     "id": "tm-cage-the-elephant-2027-glasgow-g5dzz_3kn7sp1",
@@ -325651,11 +326075,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667233",
+        "url": "https://www.stubhub.ie/cage-the-elephant-tickets-glasgow-o2-academy-glasgow-25-2-2027/event/107667233",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3kn7SP1",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-glasgow-o2-academy-glasgow-25-2-2027/event/107667233"
   },
   {
     "id": "tm-cage-the-elephant-2027-birmingham-g5dzz_3k0lkkh",
@@ -325711,12 +326143,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667235",
+        "url": "https://www.stubhub.ie/cage-the-elephant-tickets-birmingham-o2-academy-birmingham-26-2-2027/event/107667235",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3k0LKKh",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265885"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265885",
+    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-birmingham-o2-academy-birmingham-26-2-2027/event/107667235"
   },
   {
     "id": "tm-cage-the-elephant-2027-manchester-g5dzz_3374s3o",
@@ -325826,11 +326266,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667230",
+        "url": "https://www.stubhub.ie/cage-the-elephant-tickets-london-alexandra-palace-1-3-2027/event/107667230",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_3r6zvAl",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-london-alexandra-palace-1-3-2027/event/107667230"
   },
   {
     "id": "tm-two-door-cinema-club-2026-mt-claremont-1akzkosgkdk8pdq",
@@ -326167,12 +326615,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417982",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-tickets-glasgow-ovo-hydro-arena-glasgow-26-1-2027/event/107417982",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6uEeALfD",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127282"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127282",
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-tickets-glasgow-ovo-hydro-arena-glasgow-26-1-2027/event/107417982"
   },
   {
     "id": "tm-two-door-cinema-club-2027-manchester-g5vhz_ujflqde",
@@ -326228,12 +326684,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447639",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-tickets-manchester-manchester-ao-arena-27-1-2027/event/107447639",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_uJFLQDe",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127279"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127279",
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-tickets-manchester-manchester-ao-arena-27-1-2027/event/107447639"
   },
   {
     "id": "tm-two-door-cinema-club-2027-london-17u8v0g6ulnn4yb",
@@ -326282,11 +326746,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107417983",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-tickets-london-the-o2-arena-28-1-2027/event/107417983",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G6uLNn4Yb",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-tickets-london-the-o2-arena-28-1-2027/event/107417983"
   },
   {
     "id": "tm-two-door-cinema-club-2027-brussels-z698xzg2z16v4w_s4e",
@@ -326687,13 +327159,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678440",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-oakland-tickets-5-20-2027/event/107678440",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_48x4wje",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-30T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338715"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338715",
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-oakland-tickets-5-20-2027/event/107678440"
   },
   {
     "id": "tm-two-door-cinema-club-2027-hollywood-vv16azk4k-kza5aa16",
@@ -326749,13 +327229,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107676263",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-22-2027/event/107676263",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZk4K-KZA5AA16",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-30T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338716"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338716",
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-22-2027/event/107676263"
   },
   {
     "id": "tm-two-door-cinema-club-2027-hollywood-vv170z_4gknbp_nx",

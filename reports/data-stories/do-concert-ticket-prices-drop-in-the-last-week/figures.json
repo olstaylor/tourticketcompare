@@ -1,0 +1,55 @@
+{
+  "storyType": "final-week-moves",
+  "asOf": "2026-10-30",
+  "source": "provider_pricing_daily (D1), low_price_last per event x provider x UTC day, after the 2026-10-30 history rebuild",
+  "scope": "US shows held 2026-07-23 to 2026-10-29; one site compared with itself for the same show; show day = venue-local date (event_date hours 00-06 UTC read as the previous evening)",
+  "band": 0.02,
+  "finalWeek": {
+    "compare": "7 days before (±1 day) vs the day before the show",
+    "showsFrom": "2026-07-28",
+    "showsTo": "2026-10-29",
+    "shows": 421,
+    "artists": 68,
+    "largestArtistShows": 28,
+    "lower": 250,
+    "higher": 133,
+    "same": 38,
+    "artistClusteredShareLower95": [0.514, 0.656],
+    "medianChangePct": -0.067,
+    "medianChangeUsd": -6.45,
+    "fellQuarterOrMore": 0.228,
+    "roseQuarterOrMore": 0.14,
+    "sites": [
+      { "site": "vivid-seats", "shows": 367, "lower": 218, "higher": 114, "same": 35 },
+      { "site": "ticketnetwork", "shows": 365, "lower": 218, "higher": 133, "same": 14 },
+      { "site": "stubhub-international", "shows": 259, "lower": 155, "higher": 69, "same": 35 }
+    ]
+  },
+  "showDay": {
+    "compare": "the day before vs show day",
+    "showsFrom": "2026-07-23",
+    "showsTo": "2026-10-29",
+    "shows": 521,
+    "artists": 89,
+    "lower": 258,
+    "higher": 198,
+    "same": 65,
+    "artistClusteredShareLower95": [0.446, 0.545],
+    "medianChangePct": -0.016,
+    "medianChangeUsd": -1.5,
+    "sites": [
+      { "site": "vivid-seats", "shows": 461, "lower": 216, "higher": 167, "same": 78 },
+      { "site": "ticketnetwork", "shows": 446, "lower": 219, "higher": 188, "same": 39 },
+      { "site": "stubhub-international", "shows": 300, "lower": 153, "higher": 94, "same": 53 }
+    ]
+  },
+  "examples": [
+    { "event_id": "tm-katseye-2026-boston-vvg17z_1eilxli", "vivid-seats": { "2026-10-22": 220, "2026-10-27": 123, "2026-10-28": 58 }, "stubhub-international": { "2026-10-22": 211.57, "2026-10-27": 122.5, "2026-10-28": 94.66 } },
+    { "event_id": "tm-phoebe-bridgers-2026-san-francisco-g5vyz_5ehic8t", "vivid-seats": { "2026-10-20": 81, "2026-10-26": 76, "2026-10-27": 28 }, "stubhub-international": { "2026-10-20": 73.09, "2026-10-26": 59.73, "2026-10-27": 26 } },
+    { "event_id": "tm-ariana-grande-2026-montreal-31006319dedc2b4c", "vivid-seats": { "2026-07-24": 524.91, "2026-07-30": 148.83, "2026-07-31": 207.09 }, "ticketnetwork": { "2026-07-24": 456.5, "2026-07-30": 146.3, "2026-07-31": 227.7 } }
+  ],
+  "notClaimed": [
+    "30 days to 7 days before: share lower not distinguishable from half once weighted by artist",
+    "non-US shows: too few"
+  ]
+}

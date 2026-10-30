@@ -366,7 +366,8 @@ Ranking dates inside one city is not covered and needs its own decision.
 
 Out of scope by policy: prices outside the city-prices and artist-cities stories, cross-site comparisons
 ([PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md)), price-timing claims until
-the evidence thresholds are met, presale window counts (Ticketmaster's lists mix
+the evidence thresholds are met (the one met so far, final-week moves at US
+shows, is in PROVIDER_DATA_POLICY.md), presale window counts (Ticketmaster's lists mix
 VIP packages and card offers), and any claim about the whole concert market.
 
 ## Writing a post

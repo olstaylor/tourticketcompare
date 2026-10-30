@@ -1,0 +1,65 @@
+name: Price history weekly repair
+
+# Weekly safety net for the price history (owner approval 2026-10-30).
+#
+# The snapshot jobs roll each day into provider_pricing_daily, but that step is
+# continue-on-error and only looks back 7 days. When it failed for longer,
+# whole days were never summarised: before the 2026-10-30 rebuild, September
+# held about half the daily rows it should have. Raw rows are pruned after 90
+# days, so a day left unsummarised for that long is gone for good.
+#
+# Once a week this re-runs the two existing, idempotent scripts over everything
+# the raw table still holds:
+# 1. scripts/backfill-pricing-event-dates.mjs fills a missing show date (NULLs
+#    only; no other column is touched).
+# 2. scripts/rollup-provider-pricing-daily.mjs re-summarises the last 85 days. A
+#    day is only replaced by a summary built from at least as many
+#    observations, so a healthy week writes nothing.
+#
+# Neither script deletes anything. The job fails, and so shows red, if any day
+# fails to roll up.
+
+on:
+  schedule:
+    - cron: '23 5 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pricing-history-repair
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    if: github.repository == 'olstaylor/tourticketcompare'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Self-test
+        run: |
+          node scripts/backfill-pricing-event-dates.mjs --self-test
+          node scripts/rollup-provider-pricing-daily.mjs --self-test
+
+      - name: Fill missing show dates
+        run: node scripts/backfill-pricing-event-dates.mjs --apply
+
+      - name: Re-summarise the last 85 days
+        run: |
+          node scripts/rollup-provider-pricing-daily.mjs --days 85 --apply --json | tee "$RUNNER_TEMP/rollup.json"
+          node -e 'const s = JSON.parse(require("fs").readFileSync(process.argv[1], "utf8")); console.log(`rows written: ${s.written}`); if (s.failed > 0) { console.error(`days failed: ${s.days_failed.join(", ")}`); process.exit(1); }' "$RUNNER_TEMP/rollup.json"

@@ -841,11 +841,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8098853",
+        "url": "https://www.ticketnetwork.com/en/p/8098853",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v8--tPb",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098853"
   },
   {
     "id": "tm-kaleo-2027-london-g5dzz_uxmo7c5",
@@ -894,11 +902,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8098553",
+        "url": "https://www.ticketnetwork.com/en/p/8098553",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_uxmo7c5",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098553"
   },
   {
     "id": "tm-kaleo-2027-manchester-17uov0g6ulnuuct",
@@ -947,11 +963,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8098554",
+        "url": "https://www.ticketnetwork.com/en/p/8098554",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6uLNuuCt",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098554"
   },
   {
     "id": "tm-kaleo-2027-glasgow-g5dzz_ujz8jhw",
@@ -1000,11 +1024,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8098555",
+        "url": "https://www.ticketnetwork.com/en/p/8098555",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_uJz8JHW",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098555"
   },
   {
     "id": "tm-kaleo-2027-birmingham-g5dzz_u5ehmmb",
@@ -1053,10 +1085,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8098851",
+        "url": "https://www.ticketnetwork.com/en/p/8098851",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_u5eHMMb",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098851"
   }
 ]

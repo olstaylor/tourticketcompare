@@ -405,12 +405,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347795",
+        "url": "https://www.ticketnetwork.com/en/p/8347795",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z16v-3vZAt",
     "timezone": "Europe/Stockholm",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347795"
   },
   {
     "id": "tm-u2-2027-stockholm-z698xzq2z16v_p7i1a",
@@ -459,12 +467,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347796",
+        "url": "https://www.ticketnetwork.com/en/p/8347796",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z16v_p7I1a",
     "timezone": "Europe/Stockholm",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347796"
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz16v0jupoj",

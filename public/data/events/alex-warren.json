@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264076",
+        "url": "https://www.ticketnetwork.com/en/p/8264076",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZkftGkdvnPgB",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264076"
   },
   {
     "id": "tm-alex-warren-2027-las-vegas-1ayzkftgkdvipgh",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264077",
+        "url": "https://www.ticketnetwork.com/en/p/8264077",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZkftGkdviPgH",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264077"
   },
   {
     "id": "tm-alex-warren-2027-cardiff-g5vhz_3c3nozb",
@@ -417,12 +433,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8345707",
+        "url": "https://www.ticketnetwork.com/en/p/8345707",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16djZ_4Q3G7MfNF",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:00:00Z"
+    "public_onsale_at": "2026-10-30T09:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345707"
   },
   {
     "id": "tm-alex-warren-2027-scarborough-1agzkf0gkdh1nyj",
@@ -471,11 +495,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295164",
+        "url": "https://www.ticketnetwork.com/en/p/8295164",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkf0Gkdh1nYJ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295164"
   },
   {
     "id": "tm-alex-warren-2027-manchester-g5dzz_fblbfue",
@@ -524,12 +556,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8345708",
+        "url": "https://www.ticketnetwork.com/en/p/8345708",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_fBlBfue",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:00:00Z"
+    "public_onsale_at": "2026-10-30T09:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345708"
   },
   {
     "id": "tm-alex-warren-2027-london-1amzkfngkdb5am5",
@@ -578,10 +618,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294337",
+        "url": "https://www.ticketnetwork.com/en/p/8294337",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfNGkdb5aM5",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294337"
   }
 ]

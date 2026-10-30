@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297965",
+        "url": "https://www.ticketnetwork.com/en/p/8297965",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe80P",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297965"
   },
   {
     "id": "tm-dropkick-murphys-2027-tempe-1kk8vpu_gacx0xn",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295207",
+        "url": "https://www.ticketnetwork.com/en/p/8295207",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8vPu_GACx0Xn",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295207"
   },
   {
     "id": "tm-dropkick-murphys-2027-del-mar-rz7hnez1afgypv",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295209",
+        "url": "https://www.ticketnetwork.com/en/p/8295209",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGyPV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295209"
   },
   {
     "id": "tm-dropkick-murphys-2027-anaheim-vv1aazkfugkdym2qo",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295210",
+        "url": "https://www.ticketnetwork.com/en/p/8295210",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfUGkdYm2Qo",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295210"
   },
   {
     "id": "tm-dropkick-murphys-2027-sacramento-g5vyz_k9fojar",
@@ -258,11 +290,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295211",
+        "url": "https://www.ticketnetwork.com/en/p/8295211",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K9foJar",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295211"
   },
   {
     "id": "tm-dropkick-murphys-2027-vancouver-z7r9jz1aaeopk",
@@ -364,11 +404,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8313582",
+        "url": "https://www.ticketnetwork.com/en/p/8313582",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8_9",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313582"
   },
   {
     "id": "tm-dropkick-murphys-2027-calgary-1k78vpuzga1a49u",
@@ -470,11 +518,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295219",
+        "url": "https://www.ticketnetwork.com/en/p/8295219",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfyGkeSDHKN",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295219"
   },
   {
     "id": "tm-dropkick-murphys-2027-saskatoon-1aozkfmgke0_iup",
@@ -523,11 +579,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295220",
+        "url": "https://www.ticketnetwork.com/en/p/8295220",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfMGke0_IUp",
     "timezone": "America/Swift_Current",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295220"
   },
   {
     "id": "tm-dropkick-murphys-2027-winnipeg-1aozkfugkew6n6r",
@@ -576,11 +640,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295221",
+        "url": "https://www.ticketnetwork.com/en/p/8295221",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfUGkeW6n6r",
     "timezone": "America/Winnipeg",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295221"
   },
   {
     "id": "tm-dropkick-murphys-2027-winnipeg-1aozkfugkewfq6x",
@@ -629,11 +701,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295223",
+        "url": "https://www.ticketnetwork.com/en/p/8295223",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfUGkeWFQ6x",
     "timezone": "America/Winnipeg",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295223"
   },
   {
     "id": "tm-dropkick-murphys-2027-green-bay-z7r9jz1aaeopf",
@@ -682,11 +762,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8298937",
+        "url": "https://www.ticketnetwork.com/en/p/8298937",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeoPf",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8298937"
   },
   {
     "id": "tm-dropkick-murphys-2027-fort-wayne-z7r9jz1aaeop4",
@@ -788,11 +876,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295212",
+        "url": "https://www.ticketnetwork.com/en/p/8295212",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfgGkeTsgvf",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295212"
   },
   {
     "id": "tm-dropkick-murphys-2027-detroit-vv1afzkfggkemn0a8",
@@ -841,11 +937,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295213",
+        "url": "https://www.ticketnetwork.com/en/p/8295213",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfgGkemn0a8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295213"
   },
   {
     "id": "tm-dropkick-murphys-2027-london-1a8zkfugkeybnv7",
@@ -1053,11 +1157,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295227",
+        "url": "https://www.ticketnetwork.com/en/p/8295227",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1asZkfzbgfoZeGk",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295227"
   },
   {
     "id": "tm-dropkick-murphys-2027-quebec-1aszkfzbgoozeg5",
@@ -1106,11 +1218,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295228",
+        "url": "https://www.ticketnetwork.com/en/p/8295228",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1asZkfzbgOoZeG5",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295228"
   },
   {
     "id": "tm-dropkick-murphys-2027-montreal-1aszkfugkdv84mc",
@@ -1212,11 +1332,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295214",
+        "url": "https://www.ticketnetwork.com/en/p/8295214",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KiCtNjM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295214"
   },
   {
     "id": "tm-dropkick-murphys-2027-wilmington-vv1aezkfmgkexqysz",
@@ -1265,11 +1393,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295215",
+        "url": "https://www.ticketnetwork.com/en/p/8295215",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfMGkexqysz",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295215"
   },
   {
     "id": "tm-dropkick-murphys-2027-portland-vv177z_kgksaw-ns",
@@ -1318,11 +1454,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295216",
+        "url": "https://www.ticketnetwork.com/en/p/8295216",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGkSAw-nS",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295216"
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfsgkdttsc_",
@@ -1371,11 +1515,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319718",
+        "url": "https://www.ticketnetwork.com/en/p/8319718",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfSGkdTtSc_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319718"
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfsgkdtcsmb",
@@ -1424,11 +1576,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319720",
+        "url": "https://www.ticketnetwork.com/en/p/8319720",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfSGkdTcSmB",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319720"
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfmgketdy2c",
@@ -1477,11 +1637,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319723",
+        "url": "https://www.ticketnetwork.com/en/p/8319723",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfMGkeTdy2C",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319723"
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfygkdomyjz",
@@ -1530,10 +1698,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319724",
+        "url": "https://www.ticketnetwork.com/en/p/8319724",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfyGkdOmyJZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319724"
   }
 ]

@@ -276,11 +276,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8081057",
-        "url": "https://www.ticketnetwork.com/en/p/8081057",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G6u5Paqr-",
@@ -293,7 +293,7 @@
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8081057"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-beabadoobee-2026-seattle-vvg1hz_u_uadg3",

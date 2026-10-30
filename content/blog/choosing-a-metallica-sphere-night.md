@@ -5,6 +5,7 @@ description: Metallica's Sphere residency runs in Thursday and Saturday pairs wi
 summary: Metallica's Life Burns Faster residency at Sphere plays in Thursday and Saturday pairs, and the band bills each pair as a No Repeat Weekend with two different sets. That makes the night you pick, and whether a listing covers one night or two, worth more attention than usual.
 date: 2026-10-23
 status: published
+updated: 2026-10-30
 tags:
   - tour-buying
 related_artists:
@@ -40,7 +41,7 @@ These dates remain on the [residency schedule published by Metallica](https://ww
 
 | Weekend | Thursday | Saturday |
 |---|---|---|
-| October | 29 Oct | 31 Oct |
+| October | 29 Oct (has passed) | 31 Oct |
 | November | 5 Nov | 7 Nov |
 | January 2027 | 28 Jan | 30 Jan |
 | February | 4 Feb | 6 Feb |

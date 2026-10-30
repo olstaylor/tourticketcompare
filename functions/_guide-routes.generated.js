@@ -59,12 +59,12 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-10-26"
   },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {
-    title: "Avoid Overpaying for Concert Tickets | TourTicketCompare",
+    title: "How to Find Cheap Concert Tickets Without Overpaying",
     h1: "How do I avoid overpaying for concert tickets?",
-    description: "Compare ticket sites side by side on TourTicketCompare, then check final fees, seat location, seller terms and delivery timing before you buy.",
+    description: "Compare ticket sites side by side to find cheap concert tickets, then check final fees, seat location, seller terms and delivery timing before you buy.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-10-26"
+    lastmod: "2026-10-30"
   },
   "/guides/when-is-the-best-time-to-buy-concert-tickets": {
     title: "When to Buy Concert Tickets | TourTicketCompare",

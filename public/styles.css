@@ -3093,14 +3093,13 @@ code {
   white-space: normal;
 }
 .provider-cta .provider-cta-value { grid-column: 2; grid-row: 1; }
+/* Ticketmaster keeps its place first but looks like every other site (owner
+   decision 2026-10-30): it never shows a price, so a highlighted button there
+   drew the eye away from the priced sites. */
 .show-card .provider-cta-primary,
 .show-card .provider-cta-primary:last-child {
   grid-column: 1 / -1;
-  border-color: #b8ccbf;
-  background: var(--green-soft);
-  color: var(--green);
 }
-.show-card .provider-cta-primary .provider-cta-role { color: var(--green); }
 .show-card .provider-cta-group { grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0; gap: 8px; }
 .show-card .show-details-link { min-height: 44px; display: inline-flex; align-items: center; font-weight: 750; }
 .show-card .copy-show-link { font-size: .8rem; }

@@ -24,8 +24,10 @@
 export const PRICE_DISCLOSURE =
   "Starting prices are recorded separately from each ticket site, in its source currency. Seats, ticket quantities and included fees may differ, so these are not like-for-like totals. Check the full order total, delivery and terms on the ticket site.";
 
-/** Compact context above options; the full explanation remains expandable. */
-export const PRICE_SUMMARY = "Starting prices only. Seats, quantities and included fees may differ.";
+/** Compact context above options; the full explanation remains expandable.
+ *  "Set at checkout" added 2026-10-30 (owner-approved trust test from the
+ *  SeatPick audit: fee surprises are the top complaint about rival sites). */
+export const PRICE_SUMMARY = "Starting prices only. Seats and fees vary, and your final total is set at checkout on the ticket site.";
 
 /** The short tail on each priced card, after "Checked <age>". */
 export const CARD_PRICE_TAIL = "not the final total";

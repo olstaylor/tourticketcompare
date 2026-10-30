@@ -4,7 +4,7 @@ seo_title: "Harry Styles tour dates by city"
 description: "Harry Styles dates in Australia, North America and Europe, with the weekday for each city and a checklist for comparing listings for one exact show."
 summary: "Choose a Harry Styles city by region and weekday, then compare listings for that exact date on the artist board and price guide before paying."
 date: 2026-10-30
-status: draft
+status: published
 tags: [tour-buying]
 related_artists: [harry-styles]
 related_guides: [how-to-read-a-ticket-listing, primary-vs-resale-concert-tickets, ticket-delivery-and-transfer-timing]

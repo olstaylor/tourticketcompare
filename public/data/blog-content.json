@@ -11,7 +11,7 @@
       "summary": "Choose a Harry Styles city by region and weekday, then compare listings for that exact date on the artist board and price guide before paying.",
       "datePublished": "2026-10-30",
       "dateModified": "2026-10-30",
-      "status": "draft",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
@@ -2070,7 +2070,7 @@
     {
       "slug": "tour-buying",
       "label": "Tour Buying",
-      "postCount": 15
+      "postCount": 16
     },
     {
       "slug": "tour-data",

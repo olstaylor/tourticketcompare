@@ -360,15 +360,27 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(page.status === 200, "an approved guide renders");
   assert(page.robots.startsWith("index,follow"), "a guide passing its gate is indexable");
   assert(page.title.startsWith("Oasis Ticket Prices 2026"), "the title carries the year read off the upcoming dates");
-  assert(!/(?:[£$€]\s?|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(page.title), "no figure in the title");
+  // 2026-10-30 (owner OK): with two or more priced dates the title names the
+  // cheapest of their own lowest prices and its check date, the same pick the
+  // page's "Cheapest" panel prints.
+  assert(page.title === "Oasis Ticket Prices 2026: Cheapest GBP 182, Checked Aug 9", `the title names the cheapest priced date and its check date (got ${page.title})`);
+  assert(text(page.main).replace(/\s/g, " ").includes("Cheapest listed price of 2 priced dates: GBP 182 on Vivid Seats"), "the title's figure is the one the Cheapest panel prints");
+  assert(page.html.includes(`<meta property="og:title" content="${page.title}"`) && page.html.includes(`<meta name="twitter:title" content="${page.title}"`), "social titles carry the same title");
+  assert(!/"name":"Oasis Ticket Prices 2026: Cheapest/.test(page.html), "JSON-LD keeps the price-free route title");
+  // A check date more than two days old is never quoted in a title.
+  Date.now = () => NOW_MS + 3 * 86400000;
+  const staleTitle = (await render(GUIDE_PATH)).title;
+  Date.now = () => NOW_MS;
+  assert(!/cheapest/i.test(staleTitle), `a price checked three days ago is not put in the title (got ${staleTitle})`);
   // 2026-10-25 (owner OK): the HTML snippet may carry the lead's one chronological,
   // attributed example, in the same shape as the artist-city snippet.
   assert(
     /soonest Sep 11, 2026, Manchester, GBP\s182 on Vivid Seats, checked 2026-08-09 09:00 UTC\. Check fees\./.test(page.description) && page.description.length <= 160,
     `the snippet answers how much with one dated, attributed, timestamped example (got ${page.description})`
   );
-  assert(!/\b182\b/.test(page.title) && !/minimum|cheapest/i.test(page.description), "the snippet never claims a minimum across dates");
-  assert(text(page.title).includes("How Much Are Tickets?"), "the title answers the price question rather than describing a generic tour board");
+  assert(!/minimum|cheapest/i.test(page.description), "the snippet never claims a minimum across dates");
+  const unpricedTitle = (await render(GUIDE_PATH, { withDb: false })).title;
+  assert(text(unpricedTitle).includes("How Much Are Tickets?") && !/cheapest/i.test(unpricedTitle), "with no fresh price the title falls back to the price-question form");
   assert(page.description.startsWith("Oasis 2026 ticket prices:") && !page.description.includes("face value"), "metadata leads with the artist and year and describes the sourced listed prices");
   const lead = text(page.main.match(/<p class="lead">([\s\S]*?)<\/p>/)?.[1]);
   assert(lead.includes("Fri, Sep 11, 2026 in Manchester (Heaton Park)") && lead.includes("GBP 182 on Vivid Seats") && lead.includes("Aug 9, 2026"), "the first answer ties one chronological example to its venue, date, provider and check time");

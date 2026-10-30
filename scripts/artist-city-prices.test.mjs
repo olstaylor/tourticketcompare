@@ -36,7 +36,7 @@ Date.now = () => NOW_MS;
 const read = (relativePath) => fs.readFile(path.join(root, relativePath), "utf8");
 const load = (relativePath) => import(pathToFileURL(path.join(root, relativePath)));
 
-const { deriveCityDatePrices } = await load("functions/_artist-city-prices.js");
+const { cheapestAcrossDates, deriveCityDatePrices } = await load("functions/_artist-city-prices.js");
 const middlewareModule = await load("functions/_middleware.js");
 const { deriveIndexableArtistCities, deriveArtistCities } = await load("functions/_artist-cities.js");
 const { CTA_LOCATIONS } = await load("functions/_funnel.js");
@@ -87,6 +87,15 @@ function fixtureShow(id, iso) {
     !Object.keys(answer).some((key) => /lowest|cheapest|min/i.test(key)),
     "the derivation exposes no city-wide minimum for a caller to render as 'from <price>'"
   );
+
+  // The one cross-date figure (owner decision 2026-10-30) is a separate,
+  // explicit pick of one row's own lowest lane, never a new number.
+  const [pick, ...others] = cheapestAcrossDates(answer.rows);
+  assert(pick && !others.length && pick.row.showId === "e1" && pick.lane === answer.rows[0].lowest && pick.pricedDates === 2, "the cheapest across dates is the cheaper date's own lowest lane");
+  assert(cheapestAcrossDates([answer.rows[1]]).length === 0, "one priced date has no cheapest-across-dates pick");
+  assert(cheapestAcrossDates(answer.rows.map((row) => ({ ...row, checked: false }))).length === 0, "rows the server never checked are not compared");
+  const mixed = cheapestAcrossDates([...answer.rows, { ...answer.rows[0], showId: "e3", currency: "CAD", lowest: { ...answer.rows[0].lowest, price: 1, currency: "CAD" } }]);
+  assert(mixed.length === 1 && mixed[0].currency === "USD", "currencies are never compared, and a lone date in another currency gets no pick");
 }
 
 {
@@ -397,9 +406,15 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(/<time datetime="[^"]+" title="[^"]*UTC">Checked [^<]+<\/time>/.test(page.main), "each figure carries its capture time (relative, with the UTC time on the element)");
 
   assert(
-    !/tickets (?:in [^.!?]+ )?from (?:\$|USD\s+)\d/i.test(body) && !/cheapest date/i.test(body) && !/lowest in [A-Z]/.test(body),
-    "no cross-event 'from <price>' or cheapest-date claim is rendered"
+    !/tickets (?:in [^.!?]+ )?from (?:\$|USD\s+)\d/i.test(body) && !/lowest in [A-Z]/.test(body),
+    "no bare cross-event 'from <price>' claim is rendered"
   );
+  // Owner decision 2026-10-30: the cheapest date is named, with its site,
+  // date and check time, as that date's own tracked button.
+  const cheapest = page.main.match(/<section class="nested-panel price-cheapest"[\s\S]*?<\/section>/)?.[0] || "";
+  assert(cheapest.includes(`>Cheapest ${ARTIST.name} tickets in ${RUN_CITY}</h2>`), "the multi-date page names the cheapest under a search-wording heading");
+  assert(/Cheapest listed price of 2 priced dates: USD\s182 on Vivid Seats for /.test(text(cheapest)) && !/USD\s240/.test(cheapest) && /<time datetime=/.test(cheapest), "the cheapest names its figure, site, date and check time");
+  assert(page.main.indexOf("artistCityCheapestTitle") < page.main.indexOf("artistCityPriceTitle"), "the cheapest sits above the per-date table");
   assert(
     !body.includes("USD 145"),
     "a price from a different city never reaches this page"

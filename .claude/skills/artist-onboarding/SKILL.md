@@ -245,7 +245,7 @@ A ticket CTA button may only appear on the page if **all three** are true:
 
 **No-price rules:**
 - Do not display any ticket price, price range, or "from $X" copy for the new artist
-- Do not display "cheapest", "lowest price", "best deal", or savings language for the new artist (once its price lanes are approved, "cheapest" follows SAFE_PUBLISHING_RULES.md → Price Display)
+- Do not display "cheapest", "lowest price", "best deal", or savings language for the new artist until its price lanes are approved; after that, those words follow SAFE_PUBLISHING_RULES.md → Price Display (savings language stays out)
 - Do not display "sold out", "limited availability", or inventory claims
 - Do not display "price comparison" for the new artist unless an approved multi-provider feed is active and supplies that data
 - These rules apply even if price data is available in a provider API — approval to display is a separate step

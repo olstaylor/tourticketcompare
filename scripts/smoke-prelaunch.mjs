@@ -236,10 +236,10 @@ async function assertLineRulesAbsent(files, rules, label) {
 
 async function assertPublicCopySafe(files) {
   const rules = [
+    // "Cheapest", "lowest price", "best price" and "best deal" are allowed
+    // where they describe compared listed prices (owner decision 2026-10-30);
+    // only blanket promises and guarantees fail.
     { label: "unsupported cheapest claim", pattern: UNSUPPORTED_CHEAPEST_CLAIM },
-    { label: "best price claim", pattern: /\bbest\s+price\b/i },
-    { label: "best deal claim", pattern: /\bbest\s+deal\b/i },
-    { label: "lowest price claim", pattern: /\blowest\s+price\b/i },
     {
       label: "guaranteed claim",
       pattern: /\bguaranteed\b/i,
@@ -295,7 +295,6 @@ async function assertPublicCopyRegressionGuardrails(files) {
     { label: "unsupported realtime pricing claim", pattern: /\breal-time\s+prices\b/i, allowedContext: /\b(do\s+not|does\s+not|not\s+available|not\s+supported|without)\b/i },
     { label: "unsupported compare-live claim", pattern: /\bcompare\s+live\s+prices\b/i, allowedContext: /\b(do\s+not|does\s+not|cannot|can\'?t|not\s+available|not\s+supported|without)\b/i },
     { label: "unsupported cheapest claim", pattern: UNSUPPORTED_CHEAPEST_CLAIM },
-    { label: "best price claim", pattern: /\bbest\s+price\b/i },
     { label: "guaranteed lowest claim", pattern: /\bguaranteed\s+lowest\b/i },
     { label: "official partner claim", pattern: /\bofficial\s+partner\b/i },
 
@@ -360,10 +359,10 @@ async function assertGuideCopyGuardrails(files) {
     { label: "fixed percentage claim", pattern: /\b\d+(?:\.\d+)?\s*(?:%|percent)\b/i },
     { label: "fixed percentage range claim", pattern: /\b\d+(?:\.\d+)?\s*[-–]\s*\d+(?:\.\d+)?\s*%/i },
     { label: "rating threshold claim", pattern: /\b\d+(?:\.\d+)?\+?\s*stars?\b/i },
+    // "Cheapest", "lowest price", "best price" and "best deal" are allowed
+    // where they describe compared listed prices (owner decision 2026-10-30);
+    // only blanket promises and guarantees fail.
     { label: "unsupported cheapest claim", pattern: UNSUPPORTED_CHEAPEST_CLAIM },
-    { label: "best price claim", pattern: /\bbest\s+price\b/i },
-    { label: "best deal claim", pattern: /\bbest\s+deal\b/i },
-    { label: "lowest price claim", pattern: /\blowest\s+price\b/i },
     { label: "deep discount claim", pattern: /\b(?:deepest\s+discounts?|best\s+resale\s+deals?)\b/i },
     {
       label: "savings claim",
@@ -607,9 +606,6 @@ assertAbsent(
     "example.com",
     "preview mode",
     "debug",
-    "best price",
-    "best deal",
-    "lowest price",
     "from £",
     "from $",
     "from €",
@@ -3775,8 +3771,6 @@ for (const [label, page] of [
   const body = (page.match(/<main id="mainContent">[\s\S]*?<\/main>/) || [""])[0];
   for (const rule of [
     UNSUPPORTED_CHEAPEST_CLAIM,
-    /\blowest price\b/i,
-    /\bbest price\b/i,
     /\bevery ticket site\b/i,
     /\ball available tickets\b/i,
     /\bwhole market\b/i,

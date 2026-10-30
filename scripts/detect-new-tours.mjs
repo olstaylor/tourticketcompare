@@ -131,11 +131,16 @@ export function renderIssue(tour, { watch } = {}) {
     "- Price guide, once it passes its gate (daily 11:05 UTC candidates report). City report once 8 or more cities are priced (daily 13:10 UTC).",
     "- Blog ideas on Monday and Thursday 11:20 UTC; price-drop drafts daily. Nothing here publishes a thin page: each keeps its own data gate.",
     "",
+    "### Why this, and how we'll judge it",
+    `- Who benefits: fans looking for ${tour.name} dates, on-sale windows and where the tickets are listed.`,
+    "- What is distinctive: dates and on-sale times from Ticketmaster, verified links per date, and listed-price snapshots with provider and capture time. Nothing here adds a page that lacks that data; a page without it stays noindex.",
+    "- Success, checked 14 days after the dates landed: the artist page is indexed, and ticket clicks per visit on it are at or above the site average. If it is not, improve that page first. Do not add pages to chase the search.",
+    "",
     "### Needs a human",
-    `- [ ] Tour guide draft (a paid Claude run, so it waits for a click): [Run Blog article draft](${REPO_URL}/actions/workflows/blog-draft.yml) with mode \`live\` and artists \`${tour.slug}\`.`,
+    `- [ ] Tour guide draft, only if there is something to say that the artist page does not already (several nights in one venue, a multi-country route, an unusual on-sale or presale structure). It is a paid Claude run, so it waits for a click: [Run Blog article draft](${REPO_URL}/actions/workflows/blog-draft.yml) with mode \`live\` and artists \`${tour.slug}\`. Skip it if the answer is no.`,
     `- [ ] Date alerts: [Run Artist date alerts](${REPO_URL}/actions/workflows/date-alerts.yml), preview first, then send. Needs Resend set up.`,
     "- [ ] One factual announcement post for socials (dates, cities, on-sale time, link; never presale codes). Ask Claude to draft it; nothing posts without approval of the exact text.",
-    "- [ ] Event-page batch decision for this tour's first dates (a new staged batch in a reviewed PR; existing cohorts stay frozen).",
+    "- [ ] Event-page batch decision: only dates with real price history are worth widening to. A new staged batch in a reviewed PR; existing cohorts stay frozen.",
     "",
     "Close this issue when the list is done."
   ].join("\n");
@@ -265,7 +270,8 @@ function selfTest() {
     [reportedMarkers([{ body }, { body: "no marker" }]).has(marker(tours[0])), "a reported tour is recognised from an earlier issue"],
     [body.includes("It was on the rumoured list") && !plain.includes("rumoured list"), "rumoured context only when the act was on the watchlist"],
     [body.includes("blog-draft.yml") && body.includes("`brandnew`") && body.includes("[ ]"), "lists the paid blog run, with the slug, as a human step"],
-    [!/cheapest|lowest price|from \$|presale code:/i.test(body), "no price or ranking claims, no presale codes"]
+    [!/cheapest|lowest price|from \$|presale code:/i.test(body), "no price or ranking claims, no presale codes"],
+    [body.includes("Who benefits") && body.includes("Success, checked 14 days") && body.includes("Skip it if the answer is no"), "states who benefits, what is distinctive, the success measure, and makes the paid guide conditional"]
   );
   const digest = renderDigest(tours, "2026-10-30");
   const again = renderDigest([...tours, { ...tours[0], slug: "later", name: "Later Act" }], "2026-10-31", digest);

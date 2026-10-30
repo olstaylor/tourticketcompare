@@ -114,6 +114,15 @@ $0.50, and a draft that fails a check after the model call is saved in the run's
 spend can be inspected. A failed manual run may use a numbered branch
 (`-2` up to `-9`) for the next attempt.
 
+Tour guides are price-led. Where the artist has recent daily price snapshots
+(`provider_pricing_daily`, read through the same Cloudflare secrets as the show
+priority), the evidence carries each site's lowest listed price per city, the
+move over the last 30 days and any listing far below that site's other dates.
+The draft may quote only those exact strings, each attributed to its site and
+currency; sites are never ranked against each other, converted or predicted.
+Without price data the guide is drafted without prices. It says nothing about
+weekdays, time zones or country versions of ticket sites.
+
 ### Integration and budget
 
 The [official Claude Code Action v1](https://github.com/anthropics/claude-code-action)

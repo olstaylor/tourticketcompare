@@ -129,9 +129,7 @@ const INTERNAL_LINK_EXACT = new Set([
 // place for one of these to slip in; the check is a blunt substring match on
 // purpose. Rephrase rather than suppress.
 const BANNED_CLAIM_PATTERNS = [
-  [UNSUPPORTED_CHEAPEST_CLAIM, 'a blanket "cheapest" promise — the site never sees the whole market; name the sites and capture time instead'],
-  [/\blowest price\b/i, 'a "lowest price" claim — say "lower listed snapshot" and name the provider and time'],
-  [/\bbest price guarantee/i, "a price guarantee the site cannot make"],
+  [UNSUPPORTED_CHEAPEST_CLAIM, 'a blanket cheapest/lowest/best-price promise or price guarantee — the site never sees the whole market; name the sites and capture time instead'],
   [/\bguaranteed (?:availability|tickets|seats)\b/i, "an availability guarantee — inventory is provider-controlled"],
   [/\bselling fast\b/i, "manufactured urgency"],
   [/\blast chance\b/i, "manufactured urgency"],

@@ -4,7 +4,7 @@ seo_title: "Don Omar tour ticket prices by city"
 description: "Don Omar's tour in the United States: the lowest listed price for the next date in 15 cities, $86 in Denver at the low end, $150 in Inglewood at the high end."
 summary: "Vivid Seats' lowest listed price for the next Don Omar date in each of 15 cities, each figure with the time it was captured. Snapshots 30 October 2026."
 date: 2026-10-30
-status: draft
+status: published
 tags:
   - tour-data
 related_artists:

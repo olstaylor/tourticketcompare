@@ -15,9 +15,10 @@
 //      same local event and currency". Identifying the lower listed snapshot
 //      across providers *within one event* is explicitly approved; taking a
 //      minimum across different dates is not approved anywhere. So this module
-//      computes a lowest per row and never across rows, and deliberately
-//      exposes no city-wide minimum for a caller to print as "from <price>".
-//      If that grant is ever obtained it belongs in the policy documents first.
+//      computes a lowest per row. The one cross-date figure is
+//      `cheapestAcrossDates` below (owner decision 2026-10-30): the cheapest of
+//      the dates' own lowest listed prices, always named with its date, site
+//      and check time, never a bare "from <price>".
 //
 //   2. NO SECOND GATE. Eligibility is decided entirely by the caller-supplied
 //      `ctaSpecsFor`, which is `serverShowCtaSpecs` — the same function that
@@ -166,4 +167,38 @@ function eligibleLanes(specs) {
   // rather than by whatever order the CTA builder happened to emit.
   lanes.sort((a, b) => a.price - b.price || a.name.localeCompare(b.name));
   return lanes;
+}
+
+/**
+ * The cheapest listed price across a set of dates (owner decision 2026-10-30:
+ * "cheapest <artist> tickets" is what buyers search for). It picks one of the
+ * rows' own same-event lowest lanes, so the figure is always a price that row's
+ * button already prints, and the caller names its date, site and check time
+ * beside it. Never a bare "from <price>": that would imply tickets at that
+ * price on every date.
+ *
+ * Only checked rows count, and currencies are never compared: one pick per
+ * currency, most-priced currency first. Fewer than two priced dates in a
+ * currency gives no pick, because "cheapest" of one date is just its price.
+ *
+ * @param {CityPriceRow[]} rows
+ * @returns {{ currency: string, row: CityPriceRow, lane: CityPriceLane, pricedDates: number }[]}
+ */
+export function cheapestAcrossDates(rows) {
+  /** @type {Map<string, { currency: string, row: CityPriceRow, lane: CityPriceLane, pricedDates: number }>} */
+  const byCurrency = new Map();
+  for (const row of Array.isArray(rows) ? rows : []) {
+    if (!row?.lowest || !row.checked) continue;
+    const pick = byCurrency.get(row.currency);
+    if (!pick) {
+      byCurrency.set(row.currency, { currency: row.currency, row, lane: row.lowest, pricedDates: 1 });
+      continue;
+    }
+    pick.pricedDates += 1;
+    // Strictly lower wins, so a tie keeps the earlier date.
+    if (row.lowest.price < pick.lane.price) Object.assign(pick, { row, lane: row.lowest });
+  }
+  return [...byCurrency.values()]
+    .filter((pick) => pick.pricedDates >= 2)
+    .sort((a, b) => b.pricedDates - a.pricedDates || a.currency.localeCompare(b.currency));
 }

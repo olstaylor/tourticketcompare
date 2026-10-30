@@ -544,8 +544,9 @@ Since 2026-10-05 it also needs one date with ≥ 2 listed-price lanes
 The guide prints no figure the site cannot source. It explains face value and
 prints none (no approved source), and every price is one date's own lowest
 listed snapshot with its provider and capture time. There is no tour-wide range
-or lowest-date claim: a minimum across different events is not covered by any
-provider grant (`docs/PROVIDER_DATA_POLICY.md`). It carries no FAQ and emits no
+or bare "from <price>"; the one cross-date figure is the "Cheapest <artist>
+tickets" panel (owner decision 2026-10-30), which names the cheapest date's own
+price with its site, date and check time (`docs/PROVIDER_DATA_POLICY.md`). It carries no FAQ and emits no
 `MusicEvent`, `Offer` or `FAQPage` — the artist page owns the event nodes.
 
 ### Artist presale page — `/artists/<artist>/presale`

@@ -35,4 +35,28 @@ for (const phrase of ["Listed prices, not final totals", "Listed prices, not you
 }
 assert(!appJs.includes("Show price snapshot history") && !appJs.includes("Listed prices, not final totals"), "public/app.js no longer prints retired price wording");
 
+// Owner decision 2026-10-30: search wording such as "cheapest", "lowest price",
+// "best price" and "best deal" is allowed; blanket promises and guarantees are not.
+for (const fine of [
+  "Cheapest Metallica tickets",
+  "How to find the cheapest Olivia Rodrigo tickets",
+  "Lowest price found on the sites checked",
+  "How to get the best price on Zach Bryan tickets",
+  "Is this the best deal for that date? Compare the final total."
+]) {
+  assert(!wording.UNSUPPORTED_CHEAPEST_CLAIM.test(fine), `"${fine}" is allowed`);
+}
+for (const blanket of [
+  "Guaranteed cheapest tickets",
+  "Cheapest tickets anywhere",
+  "Lowest prices online",
+  "Best price guarantee",
+  "Guaranteed lowest price",
+  "We find the best deals",
+  "TourTicketCompare finds you the lowest price",
+  "We price match"
+]) {
+  assert(wording.UNSUPPORTED_CHEAPEST_CLAIM.test(blanket), `"${blanket}" is refused`);
+}
+
 console.log(`price-wording: ${passed} assertions passed`);

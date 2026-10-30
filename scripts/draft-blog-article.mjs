@@ -9,6 +9,7 @@ import { splitDocument } from './lib/content-markdown.mjs';
 import { MAX_RUN_USD, selectArticle, selectTourGuides, buildEvidence, researchEvidence, anthropicClient, generateArticle, listEditorialPrs, reserveTopic, prBody, spentUsd,
   MAX_DRAFTS_PER_RUN, MAX_OPEN_DRAFTS, PREFIX } from './lib/blog-drafting.mjs';
 import { readPriorityRows } from './lib/show-priority-store.mjs';
+import { readDraftPrices } from './lib/draft-prices.mjs';
 
 const ROOT = fileURLToPath(new URL('../', import.meta.url));
 // A draft has no route, so the content lane covers what it can change. The
@@ -45,19 +46,19 @@ export async function prepareContent(root, slug) {
 
 export async function draftOnce({ source, issue, gh, mode, snapshot, rules, apiKey, tmKey, now = Date.now(),
   repository = 'olstaylor/tourticketcompare', compile, publish, reset = async () => {}, fetchImpl = fetch, mockClient,
-  priority = new Map(), maxDrafts = MAX_DRAFTS_PER_RUN, artists = null }) {
+  priority = new Map(), maxDrafts = MAX_DRAFTS_PER_RUN, artists = null, readPrices = async () => [] }) {
   if (!['preview', 'mock', 'live'].includes(mode)) throw new Error('Invalid drafting mode');
   const prs = mode === 'live' ? await listEditorialPrs(gh) : [];
   const selection = artists?.length ? selectTourGuides(source, artists, { now, prs, priority }) : selectArticle(source, issue, { now, prs, priority });
   if (!selection.selected) return { mode, outcome: 'no-worthy-opportunity', ...selection };
   if (mode === 'preview') {
-    const evidence = await researchEvidence(buildEvidence(selection.selected, { now, snapshot }), { apiKey: tmKey, fetchImpl, now });
+    const evidence = await researchEvidence(buildEvidence(selection.selected, { now, snapshot, prices: await readPrices(selection.selected.artist) }), { apiKey: tmKey, fetchImpl, now });
     return { mode, outcome: 'selected-without-generation', ...selection, evidence };
   }
   if (mode === 'mock') {
     // One article, mocked model, no PR: proves orchestration only.
     if (!mockClient) throw new Error('Mock client required');
-    const evidence = await researchEvidence(buildEvidence(selection.selected, { now, snapshot }), { apiKey: null, fetchImpl, now });
+    const evidence = await researchEvidence(buildEvidence(selection.selected, { now, snapshot, prices: await readPrices(selection.selected.artist) }), { apiKey: null, fetchImpl, now });
     const article = await generateArticle({ selected: selection.selected, evidence, documents: source.documents, rules, client: mockClient, now });
     const tests = await compile({ selected: selection.selected, article });
     const body = prBody({ selected: selection.selected, issueNumber: issue?.number || issue?.issue_number, repository, evidence, article, tests, mocked: true });
@@ -78,7 +79,7 @@ export async function draftOnce({ source, issue, gh, mode, snapshot, rules, apiK
     // costs nothing and does not use a slot.
     let evidence;
     try {
-      evidence = await researchEvidence(buildEvidence(selected, { now, snapshot }), { apiKey: tmKey, fetchImpl, now });
+      evidence = await researchEvidence(buildEvidence(selected, { now, snapshot, prices: await readPrices(selected.artist) }), { apiKey: tmKey, fetchImpl, now });
     } catch (error) {
       if (!/too few dates survive/.test(error.message)) throw error;
       drafts.push({ topic: selected.topic, outcome: 'skipped-evidence', reason: error.message });
@@ -158,6 +159,7 @@ async function main() {
   let result;
   try {
     result = await draftOnce({ source, issue, gh, mode, snapshot, rules, now, repository, mockClient, priority, artists,
+      readPrices: mode === 'mock' ? undefined : readDraftPrices,
       apiKey: process.env.ANTHROPIC_API_KEY, tmKey: process.env.TICKETMASTER_API_KEY,
       // Each article starts again from the trusted snapshot.
       reset: async () => {

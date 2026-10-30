@@ -1,0 +1,61 @@
+name: Price history rebuild (one-off)
+
+# One-off rebuild of the price history (owner approval 2026-10-30, the "best
+# time to buy" follow-up waiting since 2 Oct). Runs once when this file lands on
+# main, and can be re-run by hand. Two existing, idempotent scripts, in order:
+#
+# 1. scripts/backfill-pricing-event-dates.mjs fills the show date on price rows
+#    written before migration 0012 (NULLs only; no other column is touched).
+# 2. scripts/rollup-provider-pricing-daily.mjs re-summarises every day from
+#    2026-07-22 into provider_pricing_daily. A day is only replaced by a summary
+#    built from at least as many observations, so days whose raw rows have
+#    already aged out keep their existing summary.
+#
+# Neither script deletes anything. Remove this workflow once the run is green.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/pricing-history-rebuild.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pricing-history-rebuild
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    if: github.repository == 'olstaylor/tourticketcompare'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Self-test
+        run: |
+          node scripts/backfill-pricing-event-dates.mjs --self-test
+          node scripts/rollup-provider-pricing-daily.mjs --self-test
+
+      - name: Fill show dates on older price rows
+        run: node scripts/backfill-pricing-event-dates.mjs --apply
+
+      - name: Rebuild the daily summary from 22 Jul
+        run: |
+          node scripts/rollup-provider-pricing-daily.mjs --since 2026-07-22 --apply --json | tee "$RUNNER_TEMP/rollup.json"
+          node -e 'const s = JSON.parse(require("fs").readFileSync(process.argv[1], "utf8")); if (s.failed > 0) { console.error(`days failed: ${s.days_failed.join(", ")}`); process.exit(1); }' "$RUNNER_TEMP/rollup.json"

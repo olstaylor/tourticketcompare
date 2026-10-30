@@ -114,6 +114,15 @@ $0.50, and a draft that fails a check after the model call is saved in the run's
 spend can be inspected. A failed manual run may use a numbered branch
 (`-2` up to `-9`) for the next attempt.
 
+Tour guides are price-led. Where the artist has recent daily price snapshots
+(`provider_pricing_daily`, read through the same Cloudflare secrets as the show
+priority), the evidence carries each site's lowest listed price per city, the
+move over the last 30 days and any listing far below that site's other dates.
+The draft may quote only those exact strings, each attributed to its site and
+currency; sites are never ranked against each other, converted or predicted.
+Without price data the guide is drafted without prices. It says nothing about
+weekdays, time zones or country versions of ticket sites.
+
 ### Integration and budget
 
 The [official Claude Code Action v1](https://github.com/anthropics/claude-code-action)
@@ -524,7 +533,7 @@ Create or edit a file under `content/blog/` or `content/guides/` in GitHub's web
 - Dates are valid ISO dates and `updated` is not before `date`.
 - Every `related_guides`, `related_artists`, and guide/artist/blog body link resolves to a real page, and no published post links to a draft. City and venue links are shape-checked only (see above).
 - No embedded images.
-- No claim the site cannot support — a blanket "cheapest" promise ("cheapest tickets anywhere", "we find the cheapest"; `UNSUPPORTED_CHEAPEST_CLAIM` in `functions/_price-wording.js`), `lowest price`, `guaranteed availability`, `sold out`, `selling fast`, and similar. "Cheapest" itself is allowed where it describes compared listed prices (SAFE_PUBLISHING_RULES.md → Price Display). This is a blunt check on purpose. If it fires on a sentence that was actually fine, rephrase rather than working around it.
+- No claim the site cannot support — a blanket cheapest/lowest/best-price promise or price guarantee ("cheapest tickets anywhere", "we find the cheapest", "best price guarantee"; `UNSUPPORTED_CHEAPEST_CLAIM` in `functions/_price-wording.js`), `guaranteed availability`, `sold out`, `selling fast`, and similar. "Cheapest", "lowest price", "best price" and "best deal" are allowed where they describe compared listed prices or what the reader is looking for (SAFE_PUBLISHING_RULES.md → Price Display, owner decision 2026-10-30). This is a blunt check on purpose. If it fires on a sentence that was actually fine, rephrase rather than working around it.
 
 `npm run blog:check` (wired into `npm run test:mvp` and PR validation) fails if `public/data/blog-content.json` does not match `content/blog/` — the same staleness guard the event data has.
 

@@ -591,3 +591,44 @@ test('replay: the real Metallica draft that run 17 rejected now passes every che
   // A date that is neither an event date nor a provenance day is still refused.
   assert.throws(() => checkArticle(markdown.replace('2026-10-15', '2026-09-30'), selected, evidence, fixture.documents, Date.parse('2026-10-26T14:23:40Z')), /unsupported event date \(2026-09-30\)/);
 });
+
+test('price facts: per-site cheapest, 30-day moves and an unusually low listing, in each site\'s own currency', async () => {
+  const { buildPriceFacts, allowedPriceStrings, draftPricesSql } = await import('./lib/draft-prices.mjs');
+  const events = ['London', 'Paris', 'Berlin', 'Madrid', 'Rome'].map((city, i) => ({ id: `e${i}`, city, date: `2027-05-0${i + 1}` }));
+  const row = (i, provider, latest, base = null, currency = 'USD') => ({ event_id: `e${i}`, provider, currency, latest_date: '2026-10-29', latest, base_date: base ? '2026-09-29' : null, base });
+  const rows = [row(0, 'vivid-seats', 300, 250), row(1, 'vivid-seats', 220, 220), row(2, 'vivid-seats', 20, 300), row(3, 'vivid-seats', 310, 400), row(4, 'vivid-seats', 280),
+    row(0, 'seatgeek', 100), { ...row(0, 'ticketnetwork', 200, null, 'GBP') }, row(9, 'vivid-seats', 1)];
+  const facts = buildPriceFacts(rows, events);
+  const vivid = facts.listings.filter((l) => l.site === 'Vivid Seats');
+  assert.equal(vivid.length, 5, 'unknown events are dropped');
+  assert(!facts.listings.some((l) => l.site === 'SeatGeek'), 'sites without an approved price lane never appear');
+  assert.equal(vivid.find((l) => l.city === 'London').movedOver30Days, 'up');
+  assert.equal(vivid.find((l) => l.city === 'Paris').movedOver30Days, 'about the same');
+  assert.equal(vivid.find((l) => l.city === 'Madrid').movedOver30Days, 'down');
+  assert.equal(vivid.find((l) => l.city === 'Rome').movedOver30Days, null);
+  assert.equal(vivid.find((l) => l.city === 'Berlin').unusuallyLow, true);
+  const summary = facts.siteSummaries.find((s) => s.site === 'Vivid Seats');
+  assert.equal(summary.lowestTypicalListed, 'USD 220 in Paris', 'the outlier is not offered as the cheapest city');
+  assert.equal(facts.siteSummaries.length, 1, 'a site with too few dates gets no summary');
+  assert(allowedPriceStrings(facts).has('USD 20'));
+  assert.equal(buildPriceFacts([], events), null);
+  assert.throws(() => draftPricesSql("x'; DROP"), /invalid artist slug/);
+});
+
+test('a priced tour guide may quote only the supplied prices, and still may not rank sites', async () => {
+  const markdown = await fs.readFile(path.join(root, 'scripts/fixtures/blog-draft-rejected-metallica.txt'), 'utf8');
+  const rows = [...markdown.matchAll(/^\| [^|]+ \| \[(\d{4}-\d{2}-\d{2})\]\(([^)]+)\) \| [^|]+ \| ([^|]+) \| ([^|]+) \|$/gm)];
+  const evidence = { version: 2, kind: 'tour', capturedAt: '2026-10-26T14:23:40.000Z', artist: 'Metallica', minimumEvents: 2,
+    events: rows.map((m, i) => ({ id: `m${i}`, date: m[1], sourceUrl: m[2], city: m[3].trim(), venue: m[4].trim(), repositoryVerified: '2026-10-15', external: { kind: 'current-ticketmaster-api' } })),
+    prices: { listings: [{ site: 'Vivid Seats', currency: 'USD', city: 'London', lowestListed: 'USD 203', capturedOn: '2026-10-25', thirtyDaysEarlier: 'USD 230', movedOver30Days: 'down', unusuallyLow: false }], siteSummaries: [] } };
+  const selected = { artist: 'metallica', artistName: 'Metallica', slug: 'metallica-tour-guide', kind: 'tour', links: ['/artists/metallica', '/artists/metallica/ticket-prices', '/guides/how-to-read-a-ticket-listing', '/guides/primary-vs-resale-concert-tickets', '/guides/ticket-delivery-and-transfer-timing'] };
+  const now = Date.parse('2026-10-26T14:23:40Z');
+  const withPrice = (line) => markdown.replace('\n## ', `\n${line}\n\n## `);
+  const ok = withPrice('Vivid Seats lists London from USD 203, down from USD 230 on 2026-10-25, and that is the cheapest listed price for that date.');
+  assert.equal(checkArticle(ok, selected, evidence, fixture.documents, now).status, 'draft');
+  assert.throws(() => checkArticle(withPrice('Vivid Seats lists London from USD 204.'), selected, evidence, fixture.documents, now), /price not in the evidence/);
+  assert.throws(() => checkArticle(withPrice('Vivid Seats is the cheapest site for London.'), selected, evidence, fixture.documents, now), /unsupported factual/);
+  assert.throws(() => checkArticle(withPrice('London is from $203.'), selected, evidence, fixture.documents, now), /unsupported factual/);
+  const { prices, ...unpriced } = evidence;
+  assert.throws(() => checkArticle(ok, selected, unpriced, fixture.documents, now), /price not in the evidence|unsupported factual/);
+});

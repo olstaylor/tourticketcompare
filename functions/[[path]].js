@@ -26,7 +26,7 @@ import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js"
 import { canonicalLocationPath, deriveVenues, findVenue, venueSlug } from "./_venues.js";
 import { citySlug, deriveCities, findCity, metroSlugRedirect, normalizeCountry, rawCitySlug } from "./_cities.js";
 import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
-import { deriveCityDatePrices } from "./_artist-city-prices.js";
+import { cheapestAcrossDates, deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import { relatedArtistsBySharedCity } from "./_related-artists.js";
@@ -3243,13 +3243,11 @@ function renderArtistExtraContentHtml(model, events, artist, lowestByShowId, rel
 // from serverShowCtaSpecs — the function that decides what the button prints —
 // so a price can never reach the table that the badge would withhold.
 //
-// Ranking stays same-event. Identifying the lower listed snapshot across
-// providers for one event is explicitly approved (docs/PROVIDER_DATA_POLICY.md
-// lines 71 and 165). A minimum across different dates is approved nowhere:
-// SAFE_PUBLISHING_RULES.md § Price Display and docs/CONTENT_RULES.md § Price
-// Data both scope a comparison to "the same local event and currency". So no
-// city-wide "from <price>" is composed here, and functions/_artist-city-prices.js
-// deliberately exposes no cross-row minimum for one to be built from.
+// Ranking: each row's figure is the lower listed snapshot across providers for
+// one event. The one cross-date figure is the "Cheapest <artist> tickets"
+// callout (owner decision 2026-10-30, renderCheapestAcrossDatesHtml), which
+// always names its date, site and check time. No bare city-wide
+// "from <price>" is composed: it would imply that price on every date.
 
 function artistCityVenueLabel(artistCity) {
   const venues = artistCity.venues || [];
@@ -3494,6 +3492,38 @@ function weeklyChangeSentence(change) {
 // `surface` lets the presale page reuse this table for its own dates: a
 // heading, an intro, a place label per row (the dates span several cities) and
 // its own cta_location. Omitted, the artist-city output is unchanged.
+// "Cheapest <artist> tickets" (owner decision 2026-10-30): the cheapest of the
+// dates' own lowest listed prices, one line per currency, as the same tracked
+// button that date's row prints, with its date, place and check time. It says
+// which sites it covers, because the site never sees the whole market.
+function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFor, ctaLocation }) {
+  const picks = cheapestAcrossDates(rows).slice(0, 2);
+  if (!picks.length) return "";
+  const items = picks
+    .map(({ row, lane, pricedDates }) => {
+      const amount = formatServerPrice(lane.price, lane.currency);
+      const date = formatShowDateServer(row.datetimeISO, row.timezone);
+      if (!amount || !date) return "";
+      const place = placeFor(row);
+      const button = renderProviderCtaButtonHtml(lane.name, lane.href, amount, {
+        provider: lane.provider,
+        artistSlug: artist.slug,
+        showId: row.showId,
+        ctaLocation
+      });
+      return `<p>${escapeHtml(
+        `Cheapest listed price of ${pricedDates} priced dates: ${amount} on ${lane.name} for ${date}${place ? ` in ${place}` : ""}.`
+      )} <span class="muted">${checkedTimeHtml(lane.fetchedAt, formatServerSnapshotTime(lane.fetchedAt))}</span></p><div class="action-row">${button}</div>`;
+    })
+    .join("");
+  if (!items) return "";
+  return `<section class="nested-panel price-cheapest" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
+    heading
+  )}</h2>${items}<p class="muted">${escapeHtml(
+    "Found on the ticket sites this page checks, not every site. Seats and fees differ, so compare the final total before you pay."
+  )}</p></section>`;
+}
+
 function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId = new Map(), weeklyChangeByShowId = new Map(), surface = null) {
   const rows = priceAnswer?.rows || [];
   // The artist's next-date preview also works without a price snapshot: a
@@ -3601,9 +3631,10 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
 //     function that decides what a ticket button prints. No second price gate.
 //   * Every figure is one date's own lowest listed snapshot, with its provider
 //     and capture time. Dates are listed in calendar order within each city and
-//     are never ranked against each other, so there is no "from <price>", no
-//     tour-wide range and no lowest-date claim — a minimum across different events
-//     is not covered by any provider grant.
+//     are never ranked against each other, so there is no bare "from <price>"
+//     and no tour-wide range. The one cross-date figure is the "Cheapest
+//     <artist> tickets" panel (owner decision 2026-10-30), which names the
+//     cheapest date's own price with its site, date and check time.
 //   * Face value is explained, never printed: there is no approved source.
 //
 // Metadata carries no figure, for the same reason artistCityTitle gives: it is
@@ -3820,9 +3851,18 @@ function derivePriceGuideView(route, events, env) {
       ? "No listed resale price is showing for these dates right now. That doesn't mean tickets are gone: check each date's ticket links."
       : "Prices couldn't be loaded just now. Each date's ticket links still open the ticket sites.";
 
+  // The cheapest of the dates' own lowest prices (owner decision 2026-10-30),
+  // in the most-priced currency, for the FAQ answer. Same pick as the
+  // "Cheapest <artist> tickets" panel.
+  const cheapestPick = cheapestAcrossDates(priceAnswer.rows)[0];
+  const cheapestShow = cheapestPick ? guideShowsById.get(cheapestPick.row.showId) : null;
+  const cheapestAnswer = cheapestPick && cheapestShow
+    ? `The cheapest listed price of the ${cheapestPick.pricedDates} priced dates is ${formatServerPrice(cheapestPick.lane.price, cheapestPick.lane.currency)} on ${cheapestPick.lane.name}, for ${formatShowDateServer(cheapestPick.row.datetimeISO, cheapestPick.row.timezone)} in ${cheapestShow.city}, checked ${formatServerSnapshotTime(cheapestPick.lane.fetchedAt)}.`
+    : "";
+
   const nextOnsale = guide.nextOnsaleAt ? formatServerSnapshotTime(guide.nextOnsaleAt) : "";
   return {
-    priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale,
+    cheapestAnswer, priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale,
     shows, availability: { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }
   };
 }
@@ -3842,7 +3882,7 @@ function priceGuideFaqEntries(route, view) {
   ]);
   entries.push([
     `Where can I find the cheapest ${name} tickets?`,
-    `Pick your date and city in the table on this page. For each date it shows the lowest listed price among the ticket sites that had one, which site lists it and when it was checked. Fees can change the order once you reach checkout, so open the date on each site and compare the final total and the seats before you pay.`
+    `${view.cheapestAnswer ? `${view.cheapestAnswer} ` : ""}Pick your date and city in the table on this page. For each date it shows the lowest listed price among the ticket sites that had one, which site lists it and when it was checked. Fees can change the order once you reach checkout, so open the date on each site and compare the final total and the seats before you pay.`
   ]);
   // Searchers ask whether the figures include fees and whether resale costs
   // more than face value (Search Console, 2026-10: "<artist> fee",
@@ -3959,6 +3999,15 @@ function renderPriceGuideBody(route, events, env) {
   // The summary sits straight after the lead (owner review, 2026-10-06): a
   // guide with dozens of dates used to make readers scroll every city table
   // before reaching it. No-price dates stay in the tables below.
+  const cheapestHtml = renderCheapestAcrossDatesHtml(artist, priceAnswer.rows, {
+    heading: `Cheapest ${artist.name} tickets`,
+    titleId: "priceGuideCheapestTitle",
+    placeFor: (row) => {
+      const show = guideShowsById.get(row.showId);
+      return show?.city ? `${show.city} (${row.venue || show.venue})` : row.venue;
+    },
+    ctaLocation: "price_guide"
+  });
   const glanceHtml = `<section class="nested-panel" aria-labelledby="priceGuideGlanceTitle"><h2 id="priceGuideGlanceTitle">At a glance</h2><div class="card-grid">${cards
     .map(([title, body]) => `<article class="info-card"><h3>${escapeHtml(title)}</h3><p>${escapeHtml(body)}</p></article>`)
     .join("")}</div></section>`;
@@ -4027,7 +4076,7 @@ function renderPriceGuideBody(route, events, env) {
 
   return `<main id="mainContent"><section class="content-page price-guide-page" aria-labelledby="priceGuideTitle">${renderBreadcrumbHtml(
     route
-  )}${leadHtml}${glanceHtml}${cityPickerHtml}${tablesHtml}${movesHtml}${missingPricesHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${citeHtml}${relatedHtml}${renderPriceGuideLinksHtml(route.relatedGuides, {
+  )}${leadHtml}${cheapestHtml}${glanceHtml}${cityPickerHtml}${tablesHtml}${movesHtml}${missingPricesHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${citeHtml}${relatedHtml}${renderPriceGuideLinksHtml(route.relatedGuides, {
     id: "priceGuideOthers",
     heading: "Ticket prices for other artists",
     intro: `More tours with a date-by-date price page, starting with those playing the same cities as ${artist.name}.`
@@ -7906,6 +7955,13 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       }
     }
     const priceAnswerHtml = renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId, weeklyChangeByShowId);
+    const venueCount = new Set(priceAnswer.rows.map((row) => row.venue).filter(Boolean)).size;
+    const cheapestHtml = renderCheapestAcrossDatesHtml(artist, priceAnswer.rows, {
+      heading: `Cheapest ${artist.name} tickets in ${artistCity.city}`,
+      titleId: "artistCityCheapestTitle",
+      placeFor: (row) => (venueCount > 1 ? row.venue : ""),
+      ctaLocation: "artist_city_answer"
+    });
     // What the table states, the lead and the at-a-glance panel stop restating.
     // Both fall back to their full form when the table renders nothing, so a
     // page with no eligible price is unchanged in body copy as well as layout.
@@ -7950,7 +8006,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="artistCityTitle">${escapeHtml(artist.name)} Tickets in ${escapeHtml(
       artistCity.label
-    )}</h1>${presaleLinkHtml}${priceAnswerHtml}${renderShowBoardServerHtml(
+    )}</h1>${presaleLinkHtml}${cheapestHtml}${priceAnswerHtml}${renderShowBoardServerHtml(
       shows,
       seatGeekAvailable,
       true,

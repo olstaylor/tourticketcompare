@@ -3240,6 +3240,118 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-two-door-cinema-club",
     redirectUrl: "https://seatgeek.com/two-door-cinema-club-tickets",
     verified: true
+  },
+  "bullet-for-my-valentine:ticketmaster": {
+    artistSlug: "bullet-for-my-valentine",
+    provider: "ticketmaster",
+    linkId: "tm-artist-bullet-for-my-valentine",
+    redirectUrl: "https://www.ticketmaster.com/bullet-for-my-valentine-tickets/artist/1009824",
+    verified: true
+  },
+  "bullet-for-my-valentine:seatgeek": {
+    artistSlug: "bullet-for-my-valentine",
+    provider: "seatgeek",
+    linkId: "sg-artist-bullet-for-my-valentine",
+    redirectUrl: "https://seatgeek.com/bullet-for-my-valentine-tickets",
+    verified: true
+  },
+  "jake-bugg:ticketmaster": {
+    artistSlug: "jake-bugg",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jake-bugg",
+    redirectUrl: "https://www.ticketmaster.com/jake-bugg-tickets/artist/1597196",
+    verified: true
+  },
+  "jake-bugg:seatgeek": {
+    artistSlug: "jake-bugg",
+    provider: "seatgeek",
+    linkId: "sg-artist-jake-bugg",
+    redirectUrl: "https://seatgeek.com/jake-bugg-tickets",
+    verified: true
+  },
+  "hollywood-undead:ticketmaster": {
+    artistSlug: "hollywood-undead",
+    provider: "ticketmaster",
+    linkId: "tm-artist-hollywood-undead",
+    redirectUrl: "https://www.ticketmaster.com/hollywood-undead-tickets/artist/1244694",
+    verified: true
+  },
+  "hollywood-undead:seatgeek": {
+    artistSlug: "hollywood-undead",
+    provider: "seatgeek",
+    linkId: "sg-artist-hollywood-undead",
+    redirectUrl: "https://seatgeek.com/hollywood-undead-tickets",
+    verified: true
+  },
+  "goo-goo-dolls:ticketmaster": {
+    artistSlug: "goo-goo-dolls",
+    provider: "ticketmaster",
+    linkId: "tm-artist-goo-goo-dolls",
+    redirectUrl: "https://www.ticketmaster.com/goo-goo-dolls-tickets/artist/735190",
+    verified: true
+  },
+  "goo-goo-dolls:seatgeek": {
+    artistSlug: "goo-goo-dolls",
+    provider: "seatgeek",
+    linkId: "sg-artist-goo-goo-dolls",
+    redirectUrl: "https://seatgeek.com/goo-goo-dolls-tickets",
+    verified: true
+  },
+  "lord-huron:ticketmaster": {
+    artistSlug: "lord-huron",
+    provider: "ticketmaster",
+    linkId: "tm-artist-lord-huron",
+    redirectUrl: "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841",
+    verified: true
+  },
+  "lord-huron:seatgeek": {
+    artistSlug: "lord-huron",
+    provider: "seatgeek",
+    linkId: "sg-artist-lord-huron",
+    redirectUrl: "https://seatgeek.com/lord-huron-tickets",
+    verified: true
+  },
+  "remi-wolf:ticketmaster": {
+    artistSlug: "remi-wolf",
+    provider: "ticketmaster",
+    linkId: "tm-artist-remi-wolf",
+    redirectUrl: "https://www.ticketmaster.com/remi-wolf-tickets/artist/2689199",
+    verified: true
+  },
+  "remi-wolf:seatgeek": {
+    artistSlug: "remi-wolf",
+    provider: "seatgeek",
+    linkId: "sg-artist-remi-wolf",
+    redirectUrl: "https://seatgeek.com/remi-wolf-tickets",
+    verified: true
+  },
+  "air-supply:ticketmaster": {
+    artistSlug: "air-supply",
+    provider: "ticketmaster",
+    linkId: "tm-artist-air-supply",
+    redirectUrl: "https://www.ticketmaster.com/air-supply-tickets/artist/734403",
+    verified: true
+  },
+  "air-supply:seatgeek": {
+    artistSlug: "air-supply",
+    provider: "seatgeek",
+    linkId: "sg-artist-air-supply",
+    redirectUrl: "https://seatgeek.com/air-supply-tickets",
+    verified: true
+  },
+  "foreigner:ticketmaster": {
+    artistSlug: "foreigner",
+    provider: "ticketmaster",
+    linkId: "tm-artist-foreigner",
+    redirectUrl: "https://www.ticketmaster.com/foreigner-tickets/artist/735109",
+    verified: true
+  },
+  "foreigner:seatgeek": {
+    artistSlug: "foreigner",
+    provider: "seatgeek",
+    linkId: "sg-artist-foreigner",
+    redirectUrl: "https://seatgeek.com/foreigner-tickets",
+    verified: true
   }
 };
 

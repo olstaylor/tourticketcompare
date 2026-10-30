@@ -1,0 +1,850 @@
+[
+  {
+    "id": "tm-jake-bugg-2027-manchester-g5vhz_owbzlwl",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Albert Hall",
+    "datetime_iso": "2027-02-06T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00651CBAE2BCAB",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-manchester-06-02-2027/event/1F00651CBAE2BCAB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-manchester-06-02-2027/event/1F00651CBAE2BCAB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00651CBAE2BCAB",
+        "discovery_event_id": "G5vHZ_owBzlwl",
+        "url": "https://www.ticketmaster.co.uk/jake-bugg-manchester-06-02-2027/event/1F00651CBAE2BCAB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_owBzlwl",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-dublin-1kkzvpk9ga1efx9",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg - Alamo - Uk & European Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Olympia Theatre",
+    "datetime_iso": "2027-02-09T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180065197A088F97",
+    "ticketmaster_url": "https://www.ticketmaster.ie/jake-bugg-alamo-uk-european-tour-dublin-09-02-2027/event/180065197A088F97",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/jake-bugg-alamo-uk-european-tour-dublin-09-02-2027/event/180065197A088F97",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180065197A088F97",
+        "discovery_event_id": "1kkZvPk9GA1eFX9",
+        "url": "https://www.ticketmaster.ie/jake-bugg-alamo-uk-european-tour-dublin-09-02-2027/event/180065197A088F97",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kkZvPk9GA1eFX9",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-edinburgh-1auzkf-gkd9gf1d",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "The Queen's Hall",
+    "datetime_iso": "2027-02-11T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006521D7308283",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-edinburgh-11-02-2027/event/36006521D7308283",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-edinburgh-11-02-2027/event/36006521D7308283",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006521D7308283",
+        "discovery_event_id": "1AUZkf-Gkd9GF1d",
+        "url": "https://www.ticketmaster.co.uk/jake-bugg-edinburgh-11-02-2027/event/36006521D7308283",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkf-Gkd9GF1d",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-glasgow-1auzkf-gkeivv0q",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "The Old Fruitmarket",
+    "datetime_iso": "2027-02-14T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006521A807491A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-glasgow-14-02-2027/event/36006521A807491A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-glasgow-14-02-2027/event/36006521A807491A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006521A807491A",
+        "discovery_event_id": "1AUZkf-GkeIvV0Q",
+        "url": "https://www.ticketmaster.co.uk/jake-bugg-glasgow-14-02-2027/event/36006521A807491A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkf-GkeIvV0Q",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-gateshead-11uyvpf_qopzvc",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg",
+    "city": "Gateshead",
+    "country": "Great Britain",
+    "venue": "The Glasshouse International Centre for Music",
+    "datetime_iso": "2027-02-17T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370065219691580D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-gateshead-17-02-2027/event/370065219691580D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-gateshead-17-02-2027/event/370065219691580D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370065219691580D",
+        "discovery_event_id": "11uYvPF_QopZvC",
+        "url": "https://www.ticketmaster.co.uk/jake-bugg-gateshead-17-02-2027/event/370065219691580D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "11uYvPF_QopZvC",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-sheffield-1adfz_ogkmhb1lb",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg: Arches Bar Experience",
+    "city": "Sheffield",
+    "country": "Great Britain",
+    "venue": "Sheffield City Hall Oval Hall",
+    "datetime_iso": "2027-02-18T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500651BBC60AAFA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-arches-bar-experience-sheffield-18-02-2027/event/3500651BBC60AAFA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-arches-bar-experience-sheffield-18-02-2027/event/3500651BBC60AAFA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500651BBC60AAFA",
+        "discovery_event_id": "1AdfZ_oGkmHb1lB",
+        "url": "https://www.ticketmaster.co.uk/jake-bugg-arches-bar-experience-sheffield-18-02-2027/event/3500651BBC60AAFA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_oGkmHb1lB",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-liverpool-g5vhz_owwx56n",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg",
+    "city": "Liverpool",
+    "country": "Great Britain",
+    "venue": "Liverpool Philharmonic Hall",
+    "datetime_iso": "2027-02-20T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00651CB2F8B1EA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-liverpool-20-02-2027/event/1F00651CB2F8B1EA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-liverpool-20-02-2027/event/1F00651CB2F8B1EA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00651CB2F8B1EA",
+        "discovery_event_id": "G5vHZ_owwX56n",
+        "url": "https://www.ticketmaster.co.uk/jake-bugg-liverpool-20-02-2027/event/1F00651CB2F8B1EA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_owwX56n",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-bristol-1adjz_ogkvkgljy",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg",
+    "city": "Bristol",
+    "country": "Great Britain",
+    "venue": "Bristol Beacon",
+    "datetime_iso": "2027-02-21T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700651D06D6B739",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-bristol-21-02-2027/event/3700651D06D6B739",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-bristol-21-02-2027/event/3700651D06D6B739",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700651D06D6B739",
+        "discovery_event_id": "1AdjZ_oGkVkgljy",
+        "url": "https://www.ticketmaster.co.uk/jake-bugg-bristol-21-02-2027/event/3700651D06D6B739",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_oGkVkgljy",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-nottingham-g5vhz_ohmndtt",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg",
+    "city": "Nottingham",
+    "country": "Great Britain",
+    "venue": "Royal Concert Hall Nottingham",
+    "datetime_iso": "2027-02-23T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00651F378C3FFF",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-nottingham-23-02-2027/event/1F00651F378C3FFF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-nottingham-23-02-2027/event/1F00651F378C3FFF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00651F378C3FFF",
+        "discovery_event_id": "G5vHZ_oHMNdTT",
+        "url": "https://www.ticketmaster.co.uk/jake-bugg-nottingham-23-02-2027/event/1F00651F378C3FFF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_oHMNdTT",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-london-g5vhz_olkluto",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Union Chapel",
+    "datetime_iso": "2027-02-25T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00651AD3AF6A60",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-london-25-02-2027/event/1F00651AD3AF6A60",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-london-25-02-2027/event/1F00651AD3AF6A60",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00651AD3AF6A60",
+        "discovery_event_id": "G5vHZ_olKlUtO",
+        "url": "https://www.ticketmaster.co.uk/jake-bugg-london-25-02-2027/event/1F00651AD3AF6A60",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_olKlUtO",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-london-g5vhz_olvuind",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Union Chapel",
+    "datetime_iso": "2027-02-26T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00651AF43688FB",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-london-26-02-2027/event/1F00651AF43688FB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-london-26-02-2027/event/1F00651AF43688FB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00651AF43688FB",
+        "discovery_event_id": "G5vHZ_olVuIND",
+        "url": "https://www.ticketmaster.co.uk/jake-bugg-london-26-02-2027/event/1F00651AF43688FB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_olVuIND",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-london-g5vhz_ol9xkmo",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Union Chapel",
+    "datetime_iso": "2027-02-27T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00651AD7886DD1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-london-27-02-2027/event/1F00651AD7886DD1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-london-27-02-2027/event/1F00651AD7886DD1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00651AD7886DD1",
+        "discovery_event_id": "G5vHZ_ol9xkMo",
+        "url": "https://www.ticketmaster.co.uk/jake-bugg-london-27-02-2027/event/1F00651AD7886DD1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_ol9xkMo",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-madrid-z698xz2qz1k_y8v-_",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "JAKE BUGG - Alamo – Solo Acoustic Tour",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Teatro Eslava",
+    "datetime_iso": "2027-04-06T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "679434859",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/jake-bugg-alamo--solo-acoustic-tour-tickets/679434859?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/jake-bugg-alamo--solo-acoustic-tour-tickets/679434859?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "679434859",
+        "discovery_event_id": "Z698xZ2qZ1k_y8V-_",
+        "url": "https://www.ticketmaster.es/event/jake-bugg-alamo--solo-acoustic-tour-tickets/679434859?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k_y8V-_",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-barcelona-z698xz2qz16vps_0bf",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "JAKE BUGG - Alamo – Solo Acoustic Tour",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "La Paloma",
+    "datetime_iso": "2027-04-07T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1973664608",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/jake-bugg-alamo--solo-acoustic-tour-tickets/1973664608?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/jake-bugg-alamo--solo-acoustic-tour-tickets/1973664608?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1973664608",
+        "discovery_event_id": "Z698xZ2qZ16vPS_0bF",
+        "url": "https://www.ticketmaster.es/event/jake-bugg-alamo--solo-acoustic-tour-tickets/1973664608?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vPS_0bF",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-milano-zg9rmiynyzd6ke",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "JAKE BUGG | Alamo - UK & European Tour",
+    "city": "Milano",
+    "country": "Italy",
+    "venue": "Santeria Toscana 31",
+    "datetime_iso": "2027-04-09T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "9bummdpz365t",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/jake-bugg-alamo-uk-european-tour-milano-09-04-2027/event/9bummdpz365t",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/jake-bugg-alamo-uk-european-tour-milano-09-04-2027/event/9bummdpz365t",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "9bummdpz365t",
+        "discovery_event_id": "ZG9rmIYnyZd6ke",
+        "url": "https://www.ticketmaster.it/biglietti/jake-bugg-alamo-uk-european-tour-milano-09-04-2027/event/9bummdpz365t",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZd6ke",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-amsterdam-z698xzbpz1k7936fe",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Melkweg",
+    "datetime_iso": "2027-04-16T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "117487527",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/jake-bugg-tickets/117487527?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/jake-bugg-tickets/117487527?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "117487527",
+        "discovery_event_id": "Z698xZbpZ1k7936fE",
+        "url": "https://www.ticketmaster.nl/event/jake-bugg-tickets/117487527?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1k7936fE",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  }
+]

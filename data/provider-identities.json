@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-10-30",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -2449,6 +2449,94 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-29 (sanctioned path D): SeatGeek performer 4412 and Ticketmaster attraction K8vZ917GL50 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "bullet-for-my-valentine",
+      "ticketmaster_attraction_id": "K8vZ9175mG0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/bullet-for-my-valentine-tickets/artist/1009824",
+      "seatgeek_performer_id": 389,
+      "seatgeek_artist_url": "https://seatgeek.com/bullet-for-my-valentine-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-30 (sanctioned path D): SeatGeek performer 389 and Ticketmaster attraction K8vZ9175mG0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "jake-bugg",
+      "ticketmaster_attraction_id": "K8vZ917COCV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/jake-bugg-tickets/artist/1597196",
+      "seatgeek_performer_id": 29853,
+      "seatgeek_artist_url": "https://seatgeek.com/jake-bugg-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-30 (sanctioned path D): SeatGeek performer 29853 and Ticketmaster attraction K8vZ917COCV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "hollywood-undead",
+      "ticketmaster_attraction_id": "K8vZ917GCPf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/hollywood-undead-tickets/artist/1244694",
+      "seatgeek_performer_id": 858,
+      "seatgeek_artist_url": "https://seatgeek.com/hollywood-undead-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-30 (sanctioned path D): SeatGeek performer 858 and Ticketmaster attraction K8vZ917GCPf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "goo-goo-dolls",
+      "ticketmaster_attraction_id": "K8vZ91716MV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/goo-goo-dolls-tickets/artist/735190",
+      "seatgeek_performer_id": 804,
+      "seatgeek_artist_url": "https://seatgeek.com/goo-goo-dolls-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-30 (sanctioned path D): SeatGeek performer 804 and Ticketmaster attraction K8vZ91716MV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "lord-huron",
+      "ticketmaster_attraction_id": "K8vZ917GDg7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841",
+      "seatgeek_performer_id": 8736,
+      "seatgeek_artist_url": "https://seatgeek.com/lord-huron-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-30 (sanctioned path D): SeatGeek performer 8736 and Ticketmaster attraction K8vZ917GDg7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "remi-wolf",
+      "ticketmaster_attraction_id": "K8vZ917b-ZV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/remi-wolf-tickets/artist/2689199",
+      "seatgeek_performer_id": 770603,
+      "seatgeek_artist_url": "https://seatgeek.com/remi-wolf-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-30 (sanctioned path D): SeatGeek performer 770603 and Ticketmaster attraction K8vZ917b-ZV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "air-supply",
+      "ticketmaster_attraction_id": "K8vZ9171u07",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/air-supply-tickets/artist/734403",
+      "seatgeek_performer_id": 149,
+      "seatgeek_artist_url": "https://seatgeek.com/air-supply-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-30 (sanctioned path D): SeatGeek performer 149 and Ticketmaster attraction K8vZ9171u07 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "foreigner",
+      "ticketmaster_attraction_id": "K8vZ9171CG7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/foreigner-tickets/artist/735109",
+      "seatgeek_performer_id": 8767,
+      "seatgeek_artist_url": "https://seatgeek.com/foreigner-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-30 (sanctioned path D): SeatGeek performer 8767 and Ticketmaster attraction K8vZ9171CG7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

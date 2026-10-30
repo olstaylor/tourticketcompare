@@ -3034,5 +3034,117 @@
     "last_verified_at": "2026-10-29",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-29"
+  },
+  {
+    "slug": "bullet-for-my-valentine",
+    "name": "Bullet For My Valentine",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-30",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-30"
+  },
+  {
+    "slug": "jake-bugg",
+    "name": "Jake Bugg",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-30",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-30"
+  },
+  {
+    "slug": "hollywood-undead",
+    "name": "Hollywood Undead",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-30",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-30"
+  },
+  {
+    "slug": "goo-goo-dolls",
+    "name": "Goo Goo Dolls",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-30",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-30"
+  },
+  {
+    "slug": "lord-huron",
+    "name": "Lord Huron",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-30",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-30"
+  },
+  {
+    "slug": "remi-wolf",
+    "name": "Remi Wolf",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-30",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-30"
+  },
+  {
+    "slug": "air-supply",
+    "name": "Air Supply",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-30",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-30"
+  },
+  {
+    "slug": "foreigner",
+    "name": "Foreigner",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-30",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-30"
   }
 ]

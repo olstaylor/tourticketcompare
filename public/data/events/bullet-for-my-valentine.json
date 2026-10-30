@@ -1,0 +1,320 @@
+[
+  {
+    "id": "tm-bullet-for-my-valentine-2027-praha-9-z698xzu0z1kbijs_f",
+    "artist_slug": "bullet-for-my-valentine",
+    "artist_name": "Bullet For My Valentine",
+    "event_name": "Bullet For My Valentine + Very Special Guests: Pendulum Live",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 universum",
+    "datetime_iso": "2027-02-16T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "628731648",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/bullet-for-my-valentine--very-special-guests-pendulum-live-tickets/628731648?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/bullet-for-my-valentine--very-special-guests-pendulum-live-tickets/628731648?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "628731648",
+        "discovery_event_id": "Z698xZu0Z1kbIjs_F",
+        "url": "https://www.ticketmaster.cz/event/bullet-for-my-valentine--very-special-guests-pendulum-live-tickets/628731648?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z1kbIjs_F",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bullet-for-my-valentine-2027-forest-brussels-z698xzg2z1ku8c37e",
+    "artist_slug": "bullet-for-my-valentine",
+    "artist_name": "Bullet For My Valentine",
+    "event_name": "Bullet For My Valentine: Social Apocalypse 2027",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-02-20T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350392127",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/bullet-for-my-valentine-social-apocalypse-2027-tickets/350392127",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/bullet-for-my-valentine-social-apocalypse-2027-tickets/350392127",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350392127",
+        "discovery_event_id": "Z698xZG2Z1ku8C37E",
+        "url": "https://www.ticketmaster.be/event/bullet-for-my-valentine-social-apocalypse-2027-tickets/350392127",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1ku8C37E",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bullet-for-my-valentine-2027-glasgow-1kuovpuoga5adth",
+    "artist_slug": "bullet-for-my-valentine",
+    "artist_name": "Bullet For My Valentine",
+    "event_name": "Bullet for My Valentine + Pendulum Live + Dark Divine",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-02-23T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360065360B17BFDB",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-glasgow-23-02-2027/event/360065360B17BFDB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-glasgow-23-02-2027/event/360065360B17BFDB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360065360B17BFDB",
+        "discovery_event_id": "1kuOvPuOGA5ADTh",
+        "url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-glasgow-23-02-2027/event/360065360B17BFDB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kuOvPuOGA5ADTh",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bullet-for-my-valentine-2027-birmingham-1anzkfggkel7zmz",
+    "artist_slug": "bullet-for-my-valentine",
+    "artist_name": "Bullet For My Valentine",
+    "event_name": "Bullet for My Valentine + Pendulum Live + Dark Divine",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "bp pulse LIVE",
+    "datetime_iso": "2027-02-25T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006535AB100BB8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-birmingham-25-02-2027/event/23006535AB100BB8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-birmingham-25-02-2027/event/23006535AB100BB8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006535AB100BB8",
+        "discovery_event_id": "1ANZkfgGkel7Zmz",
+        "url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-birmingham-25-02-2027/event/23006535AB100BB8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZkfgGkel7Zmz",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bullet-for-my-valentine-2027-london-16dfz_kqeg7loo3",
+    "artist_slug": "bullet-for-my-valentine",
+    "artist_name": "Bullet For My Valentine",
+    "event_name": "Bullet for My Valentine + Pendulum Live + Dark Divine",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-02-26T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500653682AD1452",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-london-26-02-2027/event/3500653682AD1452",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-london-26-02-2027/event/3500653682AD1452",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500653682AD1452",
+        "discovery_event_id": "16dfZ_KQeG7loo3",
+        "url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-london-26-02-2027/event/3500653682AD1452",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dfZ_KQeG7loo3",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bullet-for-my-valentine-2027-manchester-g5vhz_kd3nkoq",
+    "artist_slug": "bullet-for-my-valentine",
+    "artist_name": "Bullet For My Valentine",
+    "event_name": "Action! presents: Bullet for My Valentine + Pendulum Live",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2027-02-27T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006530D28D345A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/action-presents-bullet-for-my-valentine-manchester-27-02-2027/event/1F006530D28D345A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/action-presents-bullet-for-my-valentine-manchester-27-02-2027/event/1F006530D28D345A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006530D28D345A",
+        "discovery_event_id": "G5vHZ_Kd3NKoQ",
+        "url": "https://www.ticketmaster.co.uk/action-presents-bullet-for-my-valentine-manchester-27-02-2027/event/1F006530D28D345A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_Kd3NKoQ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

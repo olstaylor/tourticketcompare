@@ -2207,7 +2207,8 @@ summary {
 /* Inside a table cell the CTA is a block, not a pill in a row of pills: it
    fills its column, and its two halves wrap onto separate lines rather than
    forcing the column wider than the provider's name. */
-.price-answer-table .provider-cta {
+.price-answer-table .provider-cta,
+.price-cheapest .provider-cta {
   width: 100%;
   min-width: 0;
   flex-wrap: wrap;
@@ -3073,7 +3074,8 @@ code {
 .money-disclosure summary { cursor: pointer; padding: 8px 0; }
 .price-disclosure { max-width: 85ch; margin: 0; line-height: 1.5; }
 .show-card .provider-cta,
-.price-answer-table .provider-cta {
+.price-answer-table .provider-cta,
+.price-cheapest .provider-cta {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 3px 12px;

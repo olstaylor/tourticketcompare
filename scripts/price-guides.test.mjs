@@ -333,14 +333,23 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(lead.includes(answer), "the artist lead repeats exactly the guide's current attributed answer");
   assert(lead.includes("2 of 6 dates") && lead.includes("Fri, Sep 18, 2026 in London (Wembley Stadium)"), "unpriced early dates do not hide the first priced date");
   assert(lead.includes("GBP 395 on TicketNetwork, checked Aug 9, 2026, 9:00 AM UTC"), "the answer retains amount, currency, provider and capture time");
-  assert(!lead.includes("GBP 50"), "a cheaper later date does not become a tour-wide minimum");
+  const answerLine = text(artist.html.match(/<p class="price-guide-link">([\s\S]*?)<\/p>/)?.[1]);
+  assert(answerLine.includes("GBP 395") && !answerLine.includes("GBP 50"), "a cheaper later date does not become a tour-wide minimum");
+  // The first three dates (Manchester) are unpriced, so the next-dates table
+  // shows the next dates that have a price, each with its own figure, and says so.
+  const nextDates = artist.html.match(/<section[^>]*aria-labelledby="artistNextDatesTitle"[\s\S]*?<\/section>/)?.[0] || "";
+  assert(text(nextDates).includes("Next Lizzy McAlpine dates with a listed price"), "a table of unpriced dates gives way to the next priced dates, and its heading says so");
+  assert(text(nextDates).includes("GBP 395") && !/Sep 12, 2026/.test(text(nextDates)), "the priced dates replace the unpriced ones");
+  assert(artist.html.indexOf("GBP 395") < artist.html.indexOf('id="artistShowBoard"'), "the first price now sits above the date board");
+  const guideNext = guide.main.match(/<section[^>]*aria-labelledby="artistNextDatesTitle"[\s\S]*?<\/section>/)?.[0] || "";
+  assert(text(guideNext).includes("with a listed price") && text(guideNext).includes("GBP 395"), "the price guide's next dates do the same");
   assert(artist.html.indexOf(answer.split(" The soonest:")[0]) < artist.html.indexOf('id="artistShowBoard"'), "the answer appears before the date board");
   assert(artist.html.includes('href="/artists/lizzy-mcalpine/ticket-prices"'), "the existing guide remains the detailed price destination");
   assert(!/GBP|395|50/.test(artist.title + artist.description), "the pilot adds no live figure to title or description");
   const reportHref = 'href="/blog/lizzy-mcalpine-tour-ticket-prices-by-city"';
   assert(artist.html.includes(reportHref) && artist.html.indexOf(reportHref) < artist.html.indexOf('id="artistShowBoard"'), "the artist page links its city-by-city report before the date board");
   assert(guide.main.includes(reportHref) && guide.main.indexOf(reportHref) < guide.main.indexOf('id="priceGuideDatesTitle"'), "the price guide links the city report above the tables");
-  assert(!lead.includes("GBP 50") && !text(artist.html.match(/<p class="artist-city-report-link">([\s\S]*?)<\/p>/)?.[1]).match(/[$£]\s?\d/), "the city report link carries no price");
+  assert(!answerLine.includes("GBP 50") && !text(artist.html.match(/<p class="artist-city-report-link">([\s\S]*?)<\/p>/)?.[1]).match(/[$£]\s?\d/), "the city report link carries no price");
   for (const [withDb, dbOptions, expected] of [
     [true, { priceRows: [] }, "No listed resale price is showing"],
     [true, { priceRows: priceRows.map((row) => ({ ...row, expires_at: "2026-08-08T09:00:00Z" })) }, "No listed resale price is showing"],

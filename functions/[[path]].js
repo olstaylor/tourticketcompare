@@ -3609,7 +3609,10 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
   const intro = surface?.intro || "The lowest listed price for each date";
   const caption = surface?.caption || `Provider starting price by date for ${artist.name} in ${artistCity.city}`;
   const titleId = surface?.titleId || "artistCityPriceTitle";
-  const summary = ticketOptions
+  // A one-date panel (event page, home, on-sale) has no date to pick.
+  const summary = ticketOptions && rows.length === 1
+    ? `${showPrices ? "Prices are as of the time shown. " : ""}Compare seats, fees and delivery on each ticket site before you pay.`
+    : ticketOptions
     ? `Pick a date to see its checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}. ${showPrices ? 'Prices are as of the times shown, and "sites priced" is how many sites had a price for that date. ' : ""}Compare seats, fees and delivery on each ticket site before you pay.`
     : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. Seats, quantities and fees can differ between sites. "Sites priced" is how many ticket sites had a price for that date.${surface?.note ? ` ${surface.note}` : ""}`;
   return `<section class="nested-panel artist-city-price-answer" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
@@ -3944,14 +3947,15 @@ function renderPriceGuideBody(route, events, env) {
   const artist = route.artist;
   const guide = route.guide;
   const view = derivePriceGuideView(route, events, env);
-  const { priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale } = view;
+  const { priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, currentAnswer, guideShowsById, nextOnsale } = view;
   // The next few dates with their ticket buttons, straight after the answer.
   // Search visitors landed here and clicked through far less often than on
   // artist pages (D1, 9-22 Oct 2026, organic landings: 15% vs 29%), with the
   // first button about two and a half phone screens down.
   const nextDatesHtml = renderArtistNextDatesPriceAnswer(artist, view.shows, view.availability, {
     cardHrefFor: (cardAnchor) => `${artistHref}#${cardAnchor}`,
-    ctaLocation: "price_guide"
+    ctaLocation: "price_guide",
+    preferPriced: true
   });
 
   const leadHtml = `<h1 id="priceGuideTitle">${escapeHtml(artist.name)} ticket prices${
@@ -3968,19 +3972,10 @@ function renderPriceGuideBody(route, events, env) {
     "button button-secondary"
   )}</div>${renderMoneyDisclosureHtml()}`;
 
+  // Date and priced-date counts are not repeated here: the lead and the line
+  // under the next dates already state both, and on a phone each card is a
+  // full screen-width block (site structure review, 2026-10-30).
   const cards = [
-    [
-      "Dates",
-      `${guide.showCount} ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${guide.cityCount === 1 ? "city" : "cities"}${
-        range ? `, ${range}` : ""
-      }.`
-    ],
-    [
-      "Dates with a listed price",
-      checkedCount
-        ? `${priceAnswer.pricedRowCount} of ${guide.showCount} dates show a listed resale price right now.`
-        : "Shown for each date below where a ticket site supplies one."
-    ],
     [
       "Where to buy",
       linkCounts.size
@@ -5852,19 +5847,42 @@ export const ARTIST_NEXT_DATES_LIMIT = 3;
 
 // On another page, `surface.cardHrefFor` points "See all ticket sites" at the
 // artist page's cards and `surface.ctaLocation` keeps that page's location.
+//
+// `surface.preferPriced`: when none of the next few dates has a listed price
+// but later ones do, show the next dates that have one instead. Lizzy McAlpine
+// (30 Oct 2026) opened with three unpriced Australian dates, so her first price
+// sat ~4,900px down a phone screen while 31 of 40 dates had one. The heading
+// says the table is filtered, and the "Find your date" link above it still
+// leads to every date.
 export function renderArtistNextDatesPriceAnswer(artist, shows, availability, surface = {}) {
-  const hasMultipleCountries = new Set((Array.isArray(shows) ? shows : [])
+  const allShows = Array.isArray(shows) ? shows : [];
+  const hasMultipleCountries = new Set(allShows
     .map((show) => String(show.country || "").trim()).filter(Boolean)).size > 1;
-  const nextShows = (Array.isArray(shows) ? shows : []).slice(0, ARTIST_NEXT_DATES_LIMIT);
+  let nextShows = allShows.slice(0, ARTIST_NEXT_DATES_LIMIT);
   if (!nextShows.length) return "";
-  const specsByShowId = new Map(nextShows.map((show) => [String(show.id || ""), serverShowCtaSpecs(show, availability)]));
-  const priceAnswer = deriveCityDatePrices(nextShows, {
-    ctaSpecsFor: (show) => specsByShowId.get(String(show.id || "")) || [],
-    wasChecked: pricesWereChecked
-  });
+  const specsByShowId = new Map();
+  const specsFor = (show) => {
+    const id = String(show.id || "");
+    if (!specsByShowId.has(id)) specsByShowId.set(id, serverShowCtaSpecs(show, availability));
+    return specsByShowId.get(id);
+  };
+  const derive = (list) => deriveCityDatePrices(list, { ctaSpecsFor: specsFor, wasChecked: pricesWereChecked });
+  let priceAnswer = derive(nextShows);
+  let pricedOnly = false;
+  if (surface.preferPriced && !priceAnswer.pricedRowCount && allShows.length > nextShows.length) {
+    const pricedIds = new Set(derive(allShows).rows.filter((row) => row.lowest).map((row) => row.showId));
+    const pricedShows = allShows.filter((show) => pricedIds.has(String(show.id || ""))).slice(0, ARTIST_NEXT_DATES_LIMIT);
+    if (pricedShows.length) {
+      nextShows = pricedShows;
+      priceAnswer = derive(nextShows);
+      pricedOnly = true;
+    }
+  }
   const placeById = new Map(nextShows.map((show) => [String(show.id || ""), [show.city, show.venue].filter(Boolean).join(" · ")]));
   return renderArtistCityPriceAnswer(artist, { city: "" }, priceAnswer, new Map(), new Map(), {
-    heading: surface.heading || `Next ${artist.name} dates${hasMultipleCountries ? " (all listed countries)" : ""}`,
+    heading: surface.heading || (pricedOnly
+      ? `Next ${artist.name} dates with a listed price`
+      : `Next ${artist.name} dates${hasMultipleCountries ? " (all listed countries)" : ""}`),
     caption: surface.caption || `Ticket options for the next ${artist.name} dates`,
     titleId: surface.titleId || "artistNextDatesTitle",
     ticketOptionsByShowId: new Map(nextShows.map((show) => [String(show.id || ""), {
@@ -7851,7 +7869,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       seatGeekAvailable,
       vividSeatsAvailable,
       marketplaceAvailability
-    }) : "";
+    }, { preferPriced: true }) : "";
     const nextDatesHtml = `${shows.length ? `<p class="artist-dates-jump">${anchor(`Find your date · ${shows.length} listed`, "#artistShowBoard", "text-link")}</p>` : ""}${nextDatesTableHtml}`;
     const leadHtml = `<div data-artist-lead><h1 id="artistTitle">${escapeHtml(
       shows.length ? `${artist.name} tickets and tour dates` : `${artist.name} tickets`
@@ -8624,8 +8642,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20261023c" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261023c" />'
+      '<link rel="stylesheet" href="/styles.css?v=20261030a" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261030a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261023b" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20261025a" defer></script></body>');

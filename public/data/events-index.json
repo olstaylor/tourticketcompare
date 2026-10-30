@@ -55170,5 +55170,17 @@
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-nickelback-2027-pokolbin-1avgz_4c70szdc8v",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "country": "Australia",
+    "city": "Pokolbin",
+    "venue": "Roche Estate",
+    "datetime_iso": "2027-10-17T03:30:00Z",
+    "timezone": "Australia/Sydney",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

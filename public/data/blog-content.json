@@ -11,7 +11,7 @@
       "summary": "Vivid Seats' lowest listed price for the next Don Omar date in each of 15 cities, each figure with the time it was captured. Snapshots 30 October 2026.",
       "datePublished": "2026-10-30",
       "dateModified": "2026-10-30",
-      "status": "draft",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-data"
@@ -2161,7 +2161,7 @@
     {
       "slug": "tour-data",
       "label": "Tour Data",
-      "postCount": 15
+      "postCount": 16
     },
     {
       "slug": "how-we-work",

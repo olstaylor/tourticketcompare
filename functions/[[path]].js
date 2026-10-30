@@ -4,6 +4,7 @@ import {
   OLD_GUIDE_REDIRECTS,
   CANONICAL_HOST,
   META_DESCRIPTION_LENGTH_LIMIT,
+  TITLE_LENGTH_LIMIT,
   canonicalOrigin,
   isIndexableOrigin,
   fitTitleToBudget,
@@ -7191,6 +7192,40 @@ function priceGuideSnippet(route, events, env) {
   return candidates.find((candidate) => candidate.length <= META_DESCRIPTION_LENGTH_LIMIT) || "";
 }
 
+// A price guide's <title> names the cheapest of its dates' own lowest listed
+// prices (owner decision 2026-10-30) with the site's check date: the same pick
+// the page's "Cheapest <artist> tickets" panel prints, so title and page agree.
+// Metadata only: route.title stays price-free for JSON-LD. Composed after the
+// prices are fetched, and only for a pick passing cheapestAcrossDates (two or
+// more priced dates, one currency); otherwise, or if no candidate fits the
+// title budget, the route's own title stands.
+const PRICE_TITLE_MAX_AGE_HOURS = 48;
+
+function priceGuideCheapestTitle(route, events, env) {
+  if (route.type !== "price-guide") return "";
+  const pick = cheapestAcrossDates(derivePriceGuideView(route, events, env).priceAnswer.rows)[0];
+  if (!pick) return "";
+  const captured = new Date(pick.lane.fetchedAt);
+  const price = formatServerPrice(pick.lane.price, pick.lane.currency).replace(/\u00a0/g, " ");
+  if (!price || !Number.isFinite(captured.getTime())) return "";
+  // A title is read before the page is, so a stale check date would put
+  // searchers off. Only a price captured in the last two days is quoted.
+  const ageMs = Date.now() - captured.getTime();
+  if (ageMs > PRICE_TITLE_MAX_AGE_HOURS * 3600000 || ageMs < -300000) return "";
+  const checked = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", timeZone: "UTC" }).format(captured);
+  const name = route.artist.name;
+  const year = route.yearLabel ? ` ${route.yearLabel}` : "";
+  // The year and "Ticket Prices" stay where they fit: they are the phrasing the
+  // page already ranks on (Search Console, 2026-10).
+  return [
+    `${name} Ticket Prices${year}: Cheapest ${price}, Checked ${checked}`,
+    `${name} Ticket Prices: Cheapest Found ${price} (Checked ${checked})`,
+    `${name} Ticket Prices${year}: Cheapest ${price}`,
+    `${name} Ticket Prices: Cheapest ${price}, Checked ${checked}`,
+    `${name} Tickets: Cheapest ${price}, Checked ${checked}`
+  ].find((candidate) => candidate.length <= TITLE_LENGTH_LIMIT) || "";
+}
+
 function startingPriceMetaDescription(route, events, env) {
   if (route.type === "price-guide") return priceGuideSnippet(route, events, env);
   if (route.type !== "artist-city" && route.type !== "event") return "";
@@ -8458,10 +8493,11 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   origin = canonicalOrigin(origin);
   const canonicalUrl = `${origin}${route.path}`;
   const metaDescription = startingPriceMetaDescription(route, events, env) || route.description;
+  const metaTitle = priceGuideCheapestTitle(route, events, env) || route.title;
   const robots =
     route.indexable && hostIndexable ? "index,follow,max-image-preview:large" : "noindex,follow";
   let next = html;
-  next = next.replace(/<title>[^<]*<\/title>/i, () => `<title>${escapeAttr(route.title)}</title>`);
+  next = next.replace(/<title>[^<]*<\/title>/i, () => `<title>${escapeAttr(metaTitle)}</title>`);
   next = next.replace(
     /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i,
     () => `<meta name="description" content="${escapeAttr(metaDescription)}" />`
@@ -8472,7 +8508,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(
     /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/i,
-    () => `<meta property="og:title" content="${escapeAttr(route.title)}" />`
+    () => `<meta property="og:title" content="${escapeAttr(metaTitle)}" />`
   );
   next = next.replace(
     /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/i,
@@ -8517,7 +8553,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   }
   next = next.replace(
     /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/i,
-    () => `<meta name="twitter:title" content="${escapeAttr(route.title)}" />`
+    () => `<meta name="twitter:title" content="${escapeAttr(metaTitle)}" />`
   );
   next = next.replace(
     /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/i,

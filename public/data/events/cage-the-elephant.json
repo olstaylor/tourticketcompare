@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "3E006522E4E16BE1",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/cage-the-elephant-leeds-23-02-2027/event/3E006522E4E16BE1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cage-the-elephant-tickets-leeds-o2-academy---leeds-2-23-2027/production/7536887",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-leeds-23-02-2027/event/3E006522E4E16BE1",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536887,
+        "url": "https://www.vividseats.com/cage-the-elephant-tickets-leeds-o2-academy---leeds-2-23-2027/production/7536887",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "3E006521AA13394A",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/cage-the-elephant-glasgow-25-02-2027/event/3E006521AA13394A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cage-the-elephant-tickets-glasgow-o2-academy-glasgow-2-25-2027/production/7536881",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-glasgow-25-02-2027/event/3E006521AA13394A",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536881,
+        "url": "https://www.vividseats.com/cage-the-elephant-tickets-glasgow-o2-academy-glasgow-2-25-2027/production/7536881",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

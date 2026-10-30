@@ -1901,7 +1901,7 @@
     "ticketmaster_event_id": "1934930940",
     "ticketmaster_url": "https://www.ticketmaster.es/event/morat-tickets/1934930940?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/morat-tickets-madrid-movistar-arena---madrid-10-30-2026/production/6461623",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/morat-tickets/1934930940?language=en-us",
     "last_verified_at": "2026-10-18",
@@ -1923,11 +1923,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6461623,
-        "url": "https://www.vividseats.com/morat-tickets-madrid-movistar-arena---madrid-10-30-2026/production/6461623",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

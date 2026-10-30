@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "360065360B17BFDB",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-glasgow-23-02-2027/event/360065360B17BFDB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-glasgow-ovo-hydro-2-23-2027/production/7618049",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-glasgow-23-02-2027/event/360065360B17BFDB",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618049,
+        "url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-glasgow-ovo-hydro-2-23-2027/production/7618049",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "23006535AB100BB8",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-birmingham-25-02-2027/event/23006535AB100BB8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-2-25-2027/production/7618057",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-birmingham-25-02-2027/event/23006535AB100BB8",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618057,
+        "url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-2-25-2027/production/7618057",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "3500653682AD1452",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-london-26-02-2027/event/3500653682AD1452",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-london-the-o2---london-2-26-2027/production/7618055",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-london-26-02-2027/event/3500653682AD1452",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618055,
+        "url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-london-the-o2---london-2-26-2027/production/7618055",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "1F006530D28D345A",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/action-presents-bullet-for-my-valentine-manchester-27-02-2027/event/1F006530D28D345A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-manchester-ao-arena-2-27-2027/production/7618045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/action-presents-bullet-for-my-valentine-manchester-27-02-2027/event/1F006530D28D345A",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618045,
+        "url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-manchester-ao-arena-2-27-2027/production/7618045",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

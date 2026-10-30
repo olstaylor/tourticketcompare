@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "1C006471C652D30E",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-with-38-lincoln-california-10-30-2026/event/1C006471C652D30E",
     "seatgeek_url": "https://seatgeek.com/foreigner-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2026-10-30-7-pm/concert/18166570",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-lincoln-the-venue-at-thunder-valley-casino-resort-10-30-2026/production/6879089",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-with-38-lincoln-california-10-30-2026/event/1C006471C652D30E",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6879089,
+        "url": "https://www.vividseats.com/foreigner-tickets-lincoln-the-venue-at-thunder-valley-casino-resort-10-30-2026/production/6879089",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "390064829EE93249",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-reno-nevada-11-01-2026/event/390064829EE93249",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-reno-reno-ballroom-11-1-2026/production/6879087",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-reno-nevada-11-01-2026/event/390064829EE93249",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6879087,
+        "url": "https://www.vividseats.com/foreigner-tickets-reno-reno-ballroom-11-1-2026/production/6879087",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv6fN",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv6fN",
     "seatgeek_url": "https://seatgeek.com/foreigner-tickets/pompano-beach-florida-pompano-beach-amphitheater-2027-02-19-8-pm/concert/18570609",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-pompano-beach-pompano-beach-amphitheatre-2-19-2027--concerts-rock/production/7483597",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv6fN",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7483597,
+        "url": "https://www.vividseats.com/foreigner-tickets-pompano-beach-pompano-beach-amphitheatre-2-19-2027--concerts-rock/production/7483597",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "1700653D9EC2A4C9",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-10-2027/event/1700653D9EC2A4C9",
     "seatgeek_url": "https://seatgeek.com/foreigner-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2027-03-10-8-pm/concert/18723998",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-10-2027/production/7755456",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-10-2027/event/1700653D9EC2A4C9",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7755456,
+        "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-10-2027/production/7755456",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "1700653D9EC6A4D0",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-12-2027/event/1700653D9EC6A4D0",
     "seatgeek_url": "https://seatgeek.com/foreigner-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2027-03-12-8-pm/concert/18723999",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-12-2027/production/7755502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-12-2027/event/1700653D9EC6A4D0",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7755502,
+        "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-12-2027/production/7755502",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "1700653D9ECAA4D4",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-13-2027/event/1700653D9ECAA4D4",
     "seatgeek_url": "https://seatgeek.com/foreigner-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2027-03-13-8-pm/concert/18724000",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-13-2027/production/7755492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-13-2027/event/1700653D9ECAA4D4",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7755492,
+        "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-13-2027/production/7755492",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "1700653D9ECEA4D9",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-17-2027/event/1700653D9ECEA4D9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-17-2027/production/7755482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-17-2027/event/1700653D9ECEA4D9",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7755482,
+        "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-17-2027/production/7755482",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "1700653D9ED2A4DD",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-19-2027/event/1700653D9ED2A4DD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-19-2027/production/7755454",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-19-2027/event/1700653D9ED2A4DD",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7755454,
+        "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-19-2027/production/7755454",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "1700653D9ED7A4E8",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-20-2027/event/1700653D9ED7A4E8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-20-2027/production/7755538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-20-2027/event/1700653D9ED7A4E8",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7755538,
+        "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-20-2027/production/7755538",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "3700652135F3CFAC",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/foreigner-london-14-04-2027/event/3700652135F3CFAC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-london-london-palladium-4-14-2027/production/7527201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foreigner-london-14-04-2027/event/3700652135F3CFAC",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7527201,
+        "url": "https://www.vividseats.com/foreigner-tickets-london-london-palladium-4-14-2027/production/7527201",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "3B0065147CCB21BD",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-new-york-new-york-04-27-2027/event/3B0065147CCB21BD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-new-york-beacon-theatre-4-27-2027/production/7500863",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-new-york-new-york-04-27-2027/event/3B0065147CCB21BD",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7500863,
+        "url": "https://www.vividseats.com/foreigner-tickets-new-york-beacon-theatre-4-27-2027/production/7500863",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "02006519C20D5AE2",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-montclair-new-jersey-04-28-2027/event/02006519C20D5AE2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-montclair-wellmont-theater-4-28-2027/production/7501184",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-montclair-new-jersey-04-28-2027/event/02006519C20D5AE2",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7501184,
+        "url": "https://www.vividseats.com/foreigner-tickets-montclair-wellmont-theater-4-28-2027/production/7501184",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +966,7 @@
     "ticketmaster_event_id": "00006513B14AF2C1",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-westbury-new-york-05-02-2027/event/00006513B14AF2C1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-westbury-flagstar-at-westbury-music-fair-5-2-2027/production/7501061",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-westbury-new-york-05-02-2027/event/00006513B14AF2C1",
     "last_verified_at": null,
@@ -988,11 +988,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7501061,
+        "url": "https://www.vividseats.com/foreigner-tickets-westbury-flagstar-at-westbury-music-fair-5-2-2027/production/7501061",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

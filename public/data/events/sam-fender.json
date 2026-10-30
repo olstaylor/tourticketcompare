@@ -712,7 +712,7 @@
     "ticketmaster_event_id": "3500655AC5FC7455",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-12-06-2027/event/3500655AC5FC7455",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-cardiff-principality-stadium---cardiff-6-12-2027--concerts-alternative/production/7774971",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-12-06-2027/event/3500655AC5FC7455",
     "last_verified_at": null,
@@ -734,11 +734,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7774971,
+        "url": "https://www.vividseats.com/sam-fender-tickets-cardiff-principality-stadium---cardiff-6-12-2027--concerts-alternative/production/7774971",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -766,7 +766,7 @@
     "ticketmaster_event_id": "3600655B90A133A6",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-10-07-2027/event/3600655B90A133A6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-edinburgh-scottish-gas-murrayfield-stadium-7-10-2027--concerts-alternative/production/7774973",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-10-07-2027/event/3600655B90A133A6",
     "last_verified_at": null,
@@ -788,11 +788,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7774973,
+        "url": "https://www.vividseats.com/sam-fender-tickets-edinburgh-scottish-gas-murrayfield-stadium-7-10-2027--concerts-alternative/production/7774973",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -820,7 +820,7 @@
     "ticketmaster_event_id": "2300655AF44913E7",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-02-09-2027/event/2300655AF44913E7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-9-2-2027--concerts-alternative/production/7774975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-02-09-2027/event/2300655AF44913E7",
     "last_verified_at": null,
@@ -842,11 +842,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7774975,
+        "url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-9-2-2027--concerts-alternative/production/7774975",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

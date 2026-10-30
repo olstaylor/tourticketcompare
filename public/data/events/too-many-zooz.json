@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "000065159C471E82",
     "ticketmaster_url": "https://www.ticketmaster.com/too-many-zooz-brooklyn-new-york-10-30-2026/event/000065159C471E82",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-brooklyn-brooklyn-bowl---ny-10-30-2026/production/7479392",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-brooklyn-new-york-10-30-2026/event/000065159C471E82",
     "last_verified_at": "2026-10-24",
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7479392,
-        "url": "https://www.vividseats.com/too-many-zooz-tickets-brooklyn-brooklyn-bowl---ny-10-30-2026/production/7479392",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -177,7 +177,7 @@
         "event_id": 7594958,
         "url": "https://www.vividseats.com/too-many-zooz-tickets-denver-summit-music-hall-3-19-2027/production/7594958",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -256,7 +256,7 @@
         "event_id": 7594457,
         "url": "https://www.vividseats.com/too-many-zooz-tickets-houston-white-oak-music-hall---downstairs-4-30-2027/production/7594457",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -325,7 +325,7 @@
         "event_id": 7595210,
         "url": "https://www.vividseats.com/too-many-zooz-tickets-tucson-la-rosa-5-6-2027/production/7595210",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -397,7 +397,7 @@
         "event_id": 7595252,
         "url": "https://www.vividseats.com/too-many-zooz-tickets-seattle-the-neptune-theatre-5-14-2027--concerts-alternative/production/7595252",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -441,7 +441,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv60Y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-buffalo-asbury-hall-at-babeville-buffalo-11-13-2026/production/7485227",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
     "last_verified_at": null,
@@ -463,11 +463,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7485227,
-        "url": "https://www.vividseats.com/too-many-zooz-tickets-buffalo-asbury-hall-at-babeville-buffalo-11-13-2026/production/7485227",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -535,7 +535,7 @@
         "event_id": 7595300,
         "url": "https://www.vividseats.com/too-many-zooz-tickets-portland-revolution-hall-portland-5-13-2027--concerts-alternative/production/7595300",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -782,7 +782,7 @@
         "event_id": 7595204,
         "url": "https://www.vividseats.com/too-many-zooz-tickets-san-diego-music-box-san-diego-5-7-2027--concerts-alternative/production/7595204",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -851,7 +851,7 @@
         "event_id": 7595340,
         "url": "https://www.vividseats.com/too-many-zooz-tickets-san-francisco-the-independent-5-9-2027--concerts-alternative/production/7595340",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -964,7 +964,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAee-e",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAee-e",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-oklahoma-city-beer-city-music-hall-5-3-2027--concerts-alternative/production/7596666",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAee-e",
     "last_verified_at": null,
@@ -986,11 +986,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7596666,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-oklahoma-city-beer-city-music-hall-5-3-2027--concerts-alternative/production/7596666",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -1154,7 +1154,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7P88",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P88",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-chicago-riviera-theatre---il-5-6-2027--concerts-alternative/production/7748387",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P88",
     "last_verified_at": null,
@@ -1176,11 +1176,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7748387,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-chicago-riviera-theatre---il-5-6-2027--concerts-alternative/production/7748387",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1260,7 +1260,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7P83",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P83",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-morrison-red-rocks-amphitheatre-5-11-2027--concerts-alternative/production/7748252",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P83",
     "last_verified_at": null,
@@ -1282,11 +1282,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7748252,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-morrison-red-rocks-amphitheatre-5-11-2027--concerts-alternative/production/7748252",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1313,7 +1313,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7P8f",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P8f",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-central-east-austin-united-heritage-hall-5-27-2027--concerts-alternative/production/7748403",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P8f",
     "last_verified_at": null,
@@ -1335,11 +1335,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7748403,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-central-east-austin-united-heritage-hall-5-27-2027--concerts-alternative/production/7748403",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1366,7 +1366,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7P84",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P84",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-dallas-the-bomb-factory-5-29-2027--concerts-alternative/production/7748401",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P84",
     "last_verified_at": null,
@@ -1388,11 +1388,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7748401,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-dallas-the-bomb-factory-5-29-2027--concerts-alternative/production/7748401",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

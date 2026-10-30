@@ -37,7 +37,7 @@
         "event_id": 6274790,
         "url": "https://www.vividseats.com/interpol-tickets-cardiff-utilita-arena-cardiff-11-21-2026--concerts-rock/production/6274790",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -358,7 +358,7 @@
         "event_id": 7745164,
         "url": "https://www.vividseats.com/interpol-tickets-hidalgo-payne-arena-3-19-2027/production/7745164",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -436,7 +436,7 @@
         "event_id": 7745553,
         "url": "https://www.vividseats.com/interpol-tickets-memphis-satellite-music-hall-3-22-2027--concerts-rock/production/7745553",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -506,7 +506,7 @@
         "event_id": 7745555,
         "url": "https://www.vividseats.com/interpol-tickets-asheville-harrahs-cherokee-center-asheville-3-23-2027--concerts-rock/production/7745555",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -560,7 +560,7 @@
         "event_id": 7745557,
         "url": "https://www.vividseats.com/interpol-tickets-washington-dc-the-anthem-3-24-2027--concerts-rock/production/7745557",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -805,7 +805,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA70_y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70_y",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/interpol-tickets-sayreville-starland-ballroom-3-27-2027--concerts-rock/production/7745559",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70_y",
     "last_verified_at": null,
@@ -827,11 +827,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7745559,
+        "url": "https://www.vividseats.com/interpol-tickets-sayreville-starland-ballroom-3-27-2027--concerts-rock/production/7745559",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

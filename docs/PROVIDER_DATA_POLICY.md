@@ -164,6 +164,8 @@ SeatGeek was also asked and said yes, but it has no numeric price lane, so there
 
 This grant covers rights only. A claim about price behaviour, such as prices falling before a show, still needs evidence that meets its own bar, and every automated publish path stays under `SAFE_PUBLISHING_RULES.md`.
 
+**Final-week price moves (owner decision 2026-10-30).** One timing claim has met its bar and is published at `/blog/do-concert-ticket-prices-drop-in-the-last-week`: for US shows, the lowest listed price the day before a show was lower than seven days before at about 6 in 10 shows, and show day itself showed no clear direction. The bar was 50+ shows, 15+ artists, no artist over 20% of the sample, an artist-weighted share above half, two months of history and every site agreeing on its own (421 shows, 68 artists, largest artist 28 shows, weighted share 51% to 66%, each site 59% to 60%). The post compares each site only with itself, names the sites and dates, and makes no forecast. Figures are in `reports/data-stories/do-concert-ticket-prices-drop-in-the-last-week/figures.json`. This does not allow other timing claims (a month out, non-US shows, a single artist) without their own evidence.
+
 ---
 
 ## Impact Affiliate Network

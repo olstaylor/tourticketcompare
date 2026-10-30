@@ -3,6 +3,63 @@
   "source": "content/blog",
   "posts": [
     {
+      "slug": "do-concert-ticket-prices-drop-in-the-last-week",
+      "path": "/blog/do-concert-ticket-prices-drop-in-the-last-week",
+      "title": "Do resale concert ticket prices drop in the last week?",
+      "seoTitle": "Do ticket prices drop in the last week? | TourTicketCompare",
+      "description": "At 6 in 10 of 421 US concerts, the lowest resale listing fell in the final week. On show day itself, prices fell at half and rose at nearly 4 in 10.",
+      "summary": "Across 421 US concerts between late July and October 2026, the lowest listed resale price was lower the day before the show than a week earlier at about 6 in 10 of them. Waiting until show day itself was closer to a coin flip.",
+      "datePublished": "2026-10-30",
+      "dateModified": "2026-10-30",
+      "status": "published",
+      "author": "TourTicketCompare",
+      "tags": [
+        "ticket-prices",
+        "tour-data"
+      ],
+      "relatedGuides": [
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "why-ticket-prices-change"
+      ],
+      "relatedArtists": [
+        "katseye",
+        "phoebe-bridgers",
+        "ariana-grande"
+      ],
+      "wordCount": 663,
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Waiting until the final week paid off more often than not. TourTicketCompare keeps a daily record of the lowest listed price on Vivid Seats, TicketNetwork and StubHub International for the shows it tracks. For 421 US concerts by 68 artists, held between 28 July and 29 October 2026, the lowest listed price the day before the show was lower than seven days before at 250 of them (59%). It was higher at 133 (32%) and about the same at 38. The typical change was a fall of 6.7%, about $6.\n\nThat is a record of what happened at these shows, not a forecast. At almost a third of them, the price went the other way."
+        },
+        {
+          "type": "section",
+          "title": "Site by site",
+          "content": "Each row compares one site with itself, for the same show, seven days out and the day before. \"About the same\" means within 2% either way.\n\n| Site | Shows | Lower | Higher | About the same |\n|---|---|---|---|---|\n| Vivid Seats | 367 | 218 | 114 | 35 |\n| TicketNetwork | 365 | 218 | 133 | 14 |\n| StubHub International | 259 | 155 | 69 | 35 |\n\nThe three sites point the same way: on each, the lowest listing fell before about 6 in 10 shows. Sites list different seats with different fees, so this does not compare one site with another."
+        },
+        {
+          "type": "section",
+          "title": "How big the moves were",
+          "content": "Most changes were modest. At 23% of shows the lowest listing fell by a quarter or more in the final week, and at 14% it rose by a quarter or more. A big drop was more common than a big rise, but neither was the norm."
+        },
+        {
+          "type": "section",
+          "title": "Show day itself is a gamble",
+          "content": "From the day before the show to the day of it, the picture is much less clear. For 521 US shows by 89 artists, the lowest listed price on show day was lower at 258 (50%), higher at 198 (38%) and about the same at 65. The typical change was a fall of 1.6%, about $1.50.\n\n| Site | Shows | Lower | Higher | About the same |\n|---|---|---|---|---|\n| Vivid Seats | 461 | 216 | 167 | 78 |\n| TicketNetwork | 446 | 219 | 188 | 39 |\n| StubHub International | 300 | 153 | 94 | 53 |\n\nSo holding out for the day itself was close to a coin flip, and it leaves little time to sort out a transfer or a sign-in problem before the doors open."
+        },
+        {
+          "type": "section",
+          "title": "Three shows, day by day",
+          "content": "Each figure is the lowest listed price on that site at its last check of the day (days in UTC).\n\n- **Katseye, Boston, 28 October.** Vivid Seats: $220 on 22 October, $123 on 27 October, $58 on show day. StubHub International: $211.57, $122.50, then $94.66.\n- **Phoebe Bridgers, San Francisco, 27 October.** Vivid Seats: $81 on 20 October, $76 on 26 October, $28 on show day. StubHub International: $73.09, $59.73, then $26.\n- **Ariana Grande, Montreal, 31 July** (a Canadian show, so not in the US counts above). Vivid Seats: $524.91 on 24 July, $148.83 on 30 July, then back up to $207.09 on show day. TicketNetwork: $456.50, $146.30, then $227.70."
+        },
+        {
+          "type": "section",
+          "title": "What this does and doesn't say",
+          "content": "- **It is the lowest listed price, not every seat.** A lower starting price can mean a cheaper listing appeared further back, not that every ticket got cheaper.\n- **It is not a rule.** Prices rose in the final week at about a third of these shows, and the post covers summer and autumn 2026 only.\n- **It is US shows only.** TourTicketCompare tracks too few shows elsewhere to say anything yet.\n- **Earlier than a week out, there is no clear pattern.** Over the month before a show, the direction depended mostly on the artist, so this post makes no claim about buying a month ahead.\n- **A listed price is not a checkout total.** Fees, delivery and seat location differ between listings and between sites. Check the full total on the ticket site before you pay.\n\nFor the current listed price of any show, with the time it was checked, open the artist's page. The [guide to when to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets) covers the trade-offs beyond price: seat choice, group seating and delivery time."
+        }
+      ]
+    },
+    {
       "slug": "don-omar-tour-ticket-prices-by-city",
       "path": "/blog/don-omar-tour-ticket-prices-by-city",
       "title": "Don Omar tour tickets: listed prices city by city",
@@ -2154,13 +2211,13 @@
   ],
   "tags": [
     {
-      "slug": "tour-buying",
-      "label": "Tour Buying",
-      "postCount": 16
-    },
-    {
       "slug": "tour-data",
       "label": "Tour Data",
+      "postCount": 17
+    },
+    {
+      "slug": "tour-buying",
+      "label": "Tour Buying",
       "postCount": 16
     },
     {
@@ -2171,7 +2228,7 @@
     {
       "slug": "ticket-prices",
       "label": "Ticket Prices",
-      "postCount": 3
+      "postCount": 4
     },
     {
       "slug": "transparency",

@@ -2540,6 +2540,64 @@ async function homepagePickSlugs(catalog, events, env) {
     .map(({ artist }) => artist.slug);
 }
 
+// /on-sale price answers (2026-10-30): the calendar lists the moments people
+// search for ("<artist> tickets on sale") but carried no ticket button at all.
+// It now opens with the priced date for the first few artists, preferring dates
+// whose on-sale has already opened (resale is listed then) and falling back to
+// the next ones due. Each is the artist page's next-dates table for that one
+// date, so the figures and buttons are the existing cached snapshots.
+const ONSALE_PRICE_PICKS = 3;
+
+function onsalePricePicks(calendar, isIndexable) {
+  const picks = [];
+  const seen = new Set();
+  for (const group of [...(calendar?.recent || []), ...(calendar?.upcoming || [])]) {
+    for (const artist of group.artists) {
+      if (seen.has(artist.artistSlug)) continue;
+      seen.add(artist.artistSlug);
+      if (!isIndexable(artist.artistSlug)) continue;
+      picks.push({ slug: artist.artistSlug, showId: String(artist.shows[0]?.id || "") });
+      if (picks.length === ONSALE_PRICE_PICKS) return picks;
+    }
+  }
+  return picks;
+}
+
+async function onsalePickList(route, events, env) {
+  const metaBySlug = new Map((await loadArtistsMeta(env)).filter(Boolean).map((artist) => [slugify(artist.slug), artist]));
+  return onsalePricePicks(route.calendar, (slug) => artistPageIndexable(metaBySlug.get(slugify(slug)), events, slugify(slug)));
+}
+
+function onsalePickShows(picks, events) {
+  return picks
+    .map(({ slug, showId }) => ({ slug, show: futureShowsForArtist(events, slug).find((show) => String(show.id || "") === showId) }))
+    .filter(({ show }) => show);
+}
+
+function renderOnsalePriceAnswers(picks, catalog, events, env) {
+  const bySlug = new Map((catalog?.artists || []).map((artist) => [artist.slug, artist]));
+  const availability = {
+    seatGeekAvailable: isSeatGeekConfigured(env),
+    vividSeatsAvailable: isVividSeatsConfigured(env),
+    marketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]))
+  };
+  const panels = onsalePickShows(picks, events)
+    .map(({ slug, show }, index) => ({ artist: bySlug.get(slug), show, index }))
+    .filter(({ artist }) => artist)
+    .map(({ artist, show, index }) =>
+      renderArtistNextDatesPriceAnswer(artist, [show], availability, {
+        heading: `${artist.name} on sale`,
+        caption: `Ticket options for the ${artist.name} date going on sale`,
+        titleId: `onsaleDate${index}`,
+        ctaLocation: "onsale_answer",
+        cardHrefFor: (cardAnchor) => `/artists/${artist.slug}#${cardAnchor}`
+      })
+    )
+    .filter(Boolean);
+  if (!panels.length) return "";
+  return `<section class="section-grid home-next-dates" aria-label="Lowest listed prices for dates going on sale">${panels.join("")}${renderMoneyDisclosureHtml()}</section>`;
+}
+
 function renderHomepagePriceAnswers(route, catalog, events, env) {
   const bySlug = new Map((catalog?.artists || []).map((artist) => [artist.slug, artist]));
   const picks = (route.homePickSlugs || [])
@@ -5909,7 +5967,7 @@ export function renderOnsaleCalendarBody(route) {
     : "";
   return `<main id="mainContent"><section class="content-page" aria-labelledby="onsaleTitle">${renderBreadcrumbHtml(
     route
-  )}<h1 id="onsaleTitle">Concert tickets going on sale</h1><p class="lead">${escapeHtml(lead)}</p>${presaleHtml}<section aria-labelledby="onsaleUpcomingTitle"><h2 id="onsaleUpcomingTitle">Going on sale</h2><p>Before its on-sale time, a date's artist page shows the time and no Ticketmaster button. Resale sites can list tickets earlier, and those listings can sit above face value.</p>${upcomingHtml}</section>${recentHtml}${collapsedGroupHtml(
+  )}<h1 id="onsaleTitle">Concert tickets going on sale</h1><p class="lead">${escapeHtml(lead)}</p>${route.onsalePriceHtml || ""}${presaleHtml}<section aria-labelledby="onsaleUpcomingTitle"><h2 id="onsaleUpcomingTitle">Going on sale</h2><p>Before its on-sale time, a date's artist page shows the time and no Ticketmaster button. Resale sites can list tickets earlier, and those listings can sit above face value.</p>${upcomingHtml}</section>${recentHtml}${collapsedGroupHtml(
     "About this calendar",
     `<section class="nested-panel"><h2>Where these times come from</h2><div class="card-grid"><article class="info-card"><h3>Ticketmaster's public on-sale</h3><p>Each time is the public on-sale Ticketmaster lists for that exact date, carried on the same reviewed event record the artist page uses. Nothing is estimated.</p></article><article class="info-card"><h3>Presales from Ticketmaster</h3><p>Fan-club, card and venue presales are listed where Ticketmaster's record for a date names them, with their start and end times. Codes are never shown: they come from the artist, the card issuer or the venue.</p></article><article class="info-card"><h3>Times can change</h3><p>Promoters move on-sales. Confirm the time on Ticketmaster before the sale, and be signed in and ready a few minutes early.</p></article></div><div class="mini-link-grid">${anchor(
       "How to prepare for a ticket on-sale",
@@ -8930,7 +8988,7 @@ async function renderRequest(context) {
   const demotedSlugs = listsOnly ? await loadDemotedArtistSlugs(env) : new Set();
   const catalog = withoutDemotedArtists(route.catalog || await loadCatalog(env), demotedSlugs);
   const needsGuideEvents = route.type === "guide" && ((Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2) || GUIDE_UPCOMING_ARTIST_PATHS.has(route.path));
-  const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || THIS_WEEK_GUIDE_PATHS.has(route.path) || route.path === "/artists" || route.path === "/";
+  const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || THIS_WEEK_GUIDE_PATHS.has(route.path) || route.path === "/artists" || route.path === "/" || route.type === "onsale-calendar";
   const events = withoutDemotedEvents(route.events || (needsEvents ? await loadEvents(env) : []), demotedSlugs);
   timer.mark("data");
   let priceLowSeries = new Map();
@@ -8940,7 +8998,8 @@ async function renderRequest(context) {
   let eventPriceRange = new Map();
   let renderEvents = events;
   let homePickSlugs = null;
-  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "presale" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event" || route.path === "/") && events.length) {
+  let onsalePicks = null;
+  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "presale" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event" || route.path === "/" || route.type === "onsale-calendar") && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
     // of the board. A card the server never queried can neither show a snapshot
     // nor honestly report one as absent, so the old six-show slice left the rest
@@ -8978,6 +9037,9 @@ async function renderRequest(context) {
         .filter((event) => locationShowIds.has(String(event?.id || "")))
         .map((event) => futureShowsForArtist([event], event.artist_slug, 1)[0])
         .filter(Boolean);
+    } else if (route.type === "onsale-calendar") {
+      onsalePicks = await onsalePickList(route, events, env);
+      priceCandidates = onsalePickShows(onsalePicks, events).map(({ show }) => show);
     } else if (route.path === "/") {
       homePickSlugs = await homepagePickSlugs(catalog, events, env);
       priceCandidates = homePickSlugs.map((slug) => futureShowsForArtist(events, slug, 1)[0]).filter(Boolean);
@@ -9043,6 +9105,10 @@ async function renderRequest(context) {
     blogIndexIndexable(deriveBlogPosts(await loadBlogContent(env)));
   let renderRoute = promotesBlog ? { ...route, blogPromotable: true } : route;
   if (homePickSlugs) renderRoute = { ...renderRoute, homePickSlugs };
+  if (onsalePicks?.length) {
+    const onsalePriceHtml = renderOnsalePriceAnswers(onsalePicks, catalog, renderEvents, env);
+    if (onsalePriceHtml) renderRoute = { ...renderRoute, onsalePriceHtml };
+  }
   // Links to artists with an on-sale or presale in the next 7 days (home:
   // presales only, since the "Going on sale soon" strip already lists on-sales).
   if (events.length && (route.path === "/" || THIS_WEEK_GUIDE_PATHS.has(route.path))) {

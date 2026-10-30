@@ -868,4 +868,25 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(none.status === 200 && !none.main.includes("home-next-dates"), "no events, no block");
 }
 
+// ── the on-sale calendar opens with the priced date going on sale ──
+{
+  const onsaleAt = new Date(NOW_MS - 86400000).toISOString();
+  const listed = EVENTS.map((event) => (event.id === RUN_B.id ? { ...event, public_onsale_at: onsaleAt } : event));
+  const page = await render("/on-sale", { events: listed });
+  if (page.status === 200 && page.main.includes("onsaleDate0")) {
+    assert(page.main.indexOf("onsaleDate0") < page.main.indexOf("onsaleUpcomingTitle"), "the priced date sits above the calendar lists");
+    const outHrefs = [...page.main.matchAll(/href="(\/api\/out\?[^"]+)"/g)].map((m) => m[1]);
+    assert(outHrefs.length >= 1 && outHrefs.every((href) => href.includes("ctaLocation=onsale_answer")), "on-sale buttons report onsale_answer");
+    assert(page.main.split("About prices, seller order").length === 2, "one money disclosure for the block");
+    assert(!page.main.includes("onsaleDate3"), "at most three picks");
+    const unpriced = await render("/on-sale", { events: listed, withDb: false });
+    assert(!unpriced.main.includes("/api/out"), "with no price on record the calendar links to no ticket site");
+  } else {
+    assert(false, "the on-sale calendar renders a priced block for a date that just went on sale");
+  }
+  assert(CTA_LOCATIONS.includes("onsale_answer"), "onsale_answer is in the allowlist, or /api/out discards it");
+  const none = await render("/on-sale", { events: [] });
+  assert(!none.main.includes("onsaleDate0"), "no events, no priced block");
+}
+
 console.log(`artist-city-prices: ${passed} checks passed`);

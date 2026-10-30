@@ -299,7 +299,7 @@ function renderLog(summary, generatedAt = new Date().toISOString(), { previousLo
   const config = providerConfig(summary.provider);
   const newRows = summary.results.map((row) => ({
     id: String(row.event_id),
-    line: `| ${markdownCell(row.event_id)} | ${markdownCell(row.artist)} | ${markdownCell(row.action + (row.applied ? " (applied)" : ""))} | ${markdownCell(row.external_id)} | ${markdownCell(row.url)} | ${markdownCell(row.note)} |`
+    line: `| ${markdownCell(row.event_id)} | ${markdownCell(row.artist)} | ${markdownCell(row.action + (row.applied ? " (applied)" : ""))} | ${markdownCell(row.external_id)} | ${markdownCell(row.url)} | ${markdownCell(row.candidates ? `${row.note}; candidates: ${row.candidates.join(", ")}` : row.note)} |`
   }));
   const merged = previousLog == null ? { rows: newRows.map((row) => row.line), carried: 0 } : mergeOutcomeRows(previousLog, newRows, scopeShowIds);
   const lines = [
@@ -568,6 +568,7 @@ async function run(options, deps = {}) {
       // after a conflicting timed listing is rejected. Withhold the unresolved
       // ambiguity; it is not evidence that an existing verified link vanished.
       evaluation.unresolvedStart = timed.length === 0 && evaluation.passing.some((candidate) => candidate.localStartTimes?.length !== 1);
+      evaluation.untimedPassing = evaluation.passing;
       evaluation.passing = timed;
       if (evaluation.storedCandidate) {
         evaluation.storedStartUnresolved = evaluation.storedCandidate.ok && evaluation.storedCandidate.localStartTimes?.length !== 1;
@@ -577,7 +578,7 @@ async function run(options, deps = {}) {
       }
     }
     const ambiguous = listingsMatchingSeveralDates(evaluations);
-    for (const { event, link, storedUrl, storedId, passing, storedCandidate, exactIdComplete, exactIdStopReason, unresolvedStart, storedStartUnresolved } of evaluations) {
+    for (const { event, link, storedUrl, storedId, passing, untimedPassing, storedCandidate, exactIdComplete, exactIdStopReason, unresolvedStart, storedStartUnresolved } of evaluations) {
       let outcome = decideOutcome({ storedUrl, storedVerified: link?.verified === true, storedCandidate, passing, catalogComplete: catalog.complete, preserveAbsentStored: catalog.narrowed === true && !exactIdComplete });
       const unresolvedComplete = catalog.complete && unresolvedStart;
       const preserveUnresolved = unresolvedComplete && storedStartUnresolved && Boolean(storedUrl) && link?.verified === true;
@@ -596,7 +597,11 @@ async function run(options, deps = {}) {
         : unresolvedComplete && (outcome.action === "conflict" || preserveUnresolved)
         ? "ambiguous: missing or conflicting performance start evidence"
         : outcomeNote(outcome.action, { ambiguousListing, storedListed: Boolean(storedCandidate?.ok || preserveUnresolved), catalogComplete: catalog.complete, stopReason: catalog.stopReason });
-      results.push({ event_id: event.id, artist: artistName, action: outcome.action, applied, url: outcome.candidate?.url || storedUrl || "", external_id: outcome.candidate?.externalId || storedId || "", catalog_complete: catalog.complete, stop_reason: catalog.stopReason || "", note, ...(ambiguousListing ? { ambiguous_listing: true } : {}) });
+      // Name the listings an ambiguity is between, with the start times each
+      // one states, so the log shows what a tie-break would have to tell apart.
+      const tied = outcome.action === "conflict" ? (untimedPassing || passing) : [];
+      const candidates = tied.length ? tied.map((candidate) => `${candidate.externalId} @ ${candidate.localStartTimes?.length ? candidate.localStartTimes.join("/") : "no start time"}`) : null;
+      results.push({ event_id: event.id, artist: artistName, action: outcome.action, applied, url: outcome.candidate?.url || storedUrl || "", external_id: outcome.candidate?.externalId || storedId || "", catalog_complete: catalog.complete, stop_reason: catalog.stopReason || "", note, ...(ambiguousListing ? { ambiguous_listing: true } : {}), ...(candidates ? { candidates } : {}) });
     }
   }
   if (authFailure) {
@@ -913,6 +918,8 @@ async function selfTest() {
   const missingStartReport = await runWith("ticketnetwork", [matinee], [second, noTime]);
   assert.equal(missingStartReport.results[0].note, "ambiguous: missing or conflicting performance start evidence");
   assert.equal(missingStartReport.results[0].ambiguous_listing, undefined, "start evidence is distinct from cross-performance reuse");
+  assert.deepEqual(missingStartReport.results[0].candidates, [`${second.externalId} @ 2027-03-05T19:30`, `${noTime.externalId} @ no start time`], "a conflict names the listings it is between");
+  assert.match(renderLog(missingStartReport), /performance start evidence; candidates: 9000002 @ 2027-03-05T19:30, tn-1 @ no start time \|/);
   const incompleteTimes = await run({ provider: "ticketnetwork", apply: false, delayMs: 0 }, {
     now: new Date("2026-09-27T00:00:00Z"), data: nightData([matinee]),
     async fetchCatalog() { return { candidates: [second, noTime], complete: false, stopReason: "pagination_cap" }; }

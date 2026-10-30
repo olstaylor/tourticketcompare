@@ -2060,7 +2060,7 @@ function displayCountry(value) {
 // cannot import it). scripts/price-wording.test.mjs fails if they drift.
 const PRICE_DISCLOSURE =
   "Starting prices are recorded separately from each ticket site, in its source currency. Seats, ticket quantities and included fees may differ, so these are not like-for-like totals. Check the full order total, delivery and terms on the ticket site.";
-const PRICE_SUMMARY = "Starting prices only. Seats, quantities and included fees may differ.";
+const PRICE_SUMMARY = "Starting prices only. Seats and fees vary, and your final total is set at checkout on the ticket site.";
 const CARD_PRICE_TAIL = "not the final total";
 const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";
 const PRICE_HISTORY_LABEL = "Show price history";

@@ -935,6 +935,11 @@ async function main() {
       const applied = options.apply ? applyOutcomeToEvent(event, outcome, today) : false;
       if (applied) changedIds.add(event.id);
       if (outcome.action === "correct" && storedUrl) outcome.notes.push(`replaced ${storedUrl}`);
+      // Name the listings an ambiguity is between, so the log shows what a
+      // tie-break would have to tell apart. Nothing is written from this.
+      if (discovery && discovery.candidates.length > 1 && (outcome.action === "conflict" || outcome.action === "clear")) {
+        outcome.notes.push(`candidates: ${discovery.candidates.map((candidate) => candidate.url || candidate.sku).join(", ")}`);
+      }
       results.push({
         showId: event.id,
         artist: slug,

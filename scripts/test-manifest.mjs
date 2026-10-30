@@ -104,6 +104,7 @@ export const STEPS = [
   { id: "test:presales",                          lane: "quick",  run: "npm run test:presales" },
   { id: "test:price-guides",                      lane: "quick",  run: "npm run test:price-guides" },
   { id: "price-guides:propose:self-test",         lane: "units",  run: "node scripts/propose-price-guides.mjs --self-test" },
+  { id: "new-tours:detect:self-test",             lane: "units",  run: "node scripts/detect-new-tours.mjs --self-test" },
   { id: "test:route-indexability",                lane: "quick",  run: "npm run test:route-indexability" },
   { id: "test:route-metadata",                    lane: "quick",  run: "npm run test:route-metadata" },
   { id: "test:homepage-proposition",              lane: "quick",  run: "npm run test:homepage-proposition" },

@@ -259,20 +259,9 @@ AI model, and touches GitHub only to rewrite its issue when given `--issue`.
 - "Value" is extra ticket-clickers × £0.45 (inferred), a ranking aid only.
   Clicks are not sales.
 
-`.github/workflows/seo-opportunities.yml` runs it weekly (Monday 06:30 UTC)
-with `--gsc-api --remote --issue`: the last 28 complete days of page and query
-rows from the Search Console API (read-only scope) instead of a CSV, and the
-result rewrites the rolling `automation:seo-opportunities` issue. Until the
-`GSC_SERVICE_ACCOUNT_JSON` secret exists the job skips with a notice. Owner
-setup, once:
-
-1. In a Google Cloud project with the Google Search Console API enabled,
-   create a service account with no roles, and create a JSON key for it.
-2. In Search Console, open the `tourticketcompare.com` domain property,
-   Settings → Users and permissions → Add user: the service account's email,
-   permission **Restricted**.
-3. In GitHub, save the whole JSON file as the Actions secret
-   `GSC_SERVICE_ACCOUNT_JSON`, then run the workflow once by hand.
+There is no scheduled run: the weekly workflow was removed on 2026-10-30
+because it never had a Search Console key and only skipped. Run the report
+locally with a Search Console or rank export as above.
 
 Blog posts are recorded as page type `blog` (`/blog/<post>`) and `blog_index`
 (`/blog`, `/blog/tags/<tag>`) from 16 Oct 2026; earlier rows say `other`.

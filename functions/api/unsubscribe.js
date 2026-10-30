@@ -50,7 +50,7 @@ function page(kind, token = "") {
     kind === "confirm"
       ? `<form method="post" action="/api/unsubscribe?t=${token}"><button class="button button-primary" type="submit">Unsubscribe</button></form>`
       : `<div class="action-row"><a class="button button-secondary" href="/">Back to TourTicketCompare</a></div>`;
-  const body = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex" /><title>${heading} | TourTicketCompare</title><link rel="stylesheet" href="/styles.css?v=20261023c" /></head><body><main id="mainContent"><section class="content-page"><h1>${heading}</h1><p class="lead">${message}</p>${form}</section></main></body></html>`;
+  const body = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex" /><title>${heading} | TourTicketCompare</title><link rel="stylesheet" href="/styles.css?v=20261030b" /></head><body><main id="mainContent"><section class="content-page"><h1>${heading}</h1><p class="lead">${message}</p>${form}</section></main></body></html>`;
   return new Response(body, {
     status,
     headers: {

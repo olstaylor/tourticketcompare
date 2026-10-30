@@ -2218,6 +2218,16 @@ summary {
   border-radius: 14px;
 }
 
+/* The "Cheapest <artist> tickets" panel's button takes the same card shape:
+   as a pill it ran past the panel's edge on a phone (2026-10-30). */
+.price-cheapest .provider-cta {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  padding: 8px 14px;
+  border-radius: 14px;
+}
+
 /* Overrides the .muted clamp(), which sizes body copy and is far too large for
    a timestamp sitting under a button inside a table cell. */
 .price-answer-table .price-answer-asof,
@@ -3073,7 +3083,8 @@ code {
 .money-disclosure summary { cursor: pointer; padding: 8px 0; }
 .price-disclosure { max-width: 85ch; margin: 0; line-height: 1.5; }
 .show-card .provider-cta,
-.price-answer-table .provider-cta {
+.price-answer-table .provider-cta,
+.price-cheapest .provider-cta {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 3px 12px;
@@ -3091,14 +3102,13 @@ code {
   white-space: normal;
 }
 .provider-cta .provider-cta-value { grid-column: 2; grid-row: 1; }
+/* Ticketmaster keeps its place first but looks like every other site (owner
+   decision 2026-10-30): it never shows a price, so a highlighted button there
+   drew the eye away from the priced sites. */
 .show-card .provider-cta-primary,
 .show-card .provider-cta-primary:last-child {
   grid-column: 1 / -1;
-  border-color: #b8ccbf;
-  background: var(--green-soft);
-  color: var(--green);
 }
-.show-card .provider-cta-primary .provider-cta-role { color: var(--green); }
 .show-card .provider-cta-group { grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0; gap: 8px; }
 .show-card .show-details-link { min-height: 44px; display: inline-flex; align-items: center; font-weight: 750; }
 .show-card .copy-show-link { font-size: .8rem; }

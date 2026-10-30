@@ -1,10 +1,10 @@
 ---
 title: "Gracie Abrams tour tickets: listed prices city by city"
 seo_title: "Gracie Abrams tour ticket prices by city"
-description: "Gracie Abrams' tour in the United States: the lowest listed price for the next date in 14 cities, $31 in Seattle at the low end, $138 in Boston at the high end."
-summary: "Vivid Seats' lowest listed price for the next Gracie Abrams date in each of 14 cities, each figure with the time it was captured. Snapshots 29 October 2026."
+description: "Gracie Abrams tour: the next date in 14 cities, $32 in Glendale at the low end, $138 in Boston at the high end."
+summary: "Vivid Seats' lowest listed price for the next Gracie Abrams date in each of 14 cities, each figure with the time it was captured. Snapshots 30 October 2026."
 date: 2026-10-23
-updated: 2026-10-29
+updated: 2026-10-30
 status: published
 tags:
   - tour-data
@@ -14,26 +14,26 @@ related_guides:
   - primary-vs-resale-concert-tickets
 ---
 
-Gracie Abrams' The Look at My Life Tour has 57 dates that TourTicketCompare tracks. In the United States, 14 cities had a recent listed price on Vivid Seats. The next date in Seattle was listed at $31 at the low end, and the next date in Boston at $138 at the high end, 4.4 times as much. The median city was listed at $50.
+Gracie Abrams' The Look at My Life Tour has 57 dates that TourTicketCompare tracks. In the United States, 14 cities had a recent listed price on Vivid Seats. The next date in Glendale was listed at $32 at the low end, and the next date in Boston at $138 at the high end, 4.3 times as much. The median city was listed at $46.50.
 
 ## Gracie Abrams ticket prices by city
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Seattle](/artists/gracie-abrams/tickets/seattle-united-states) | 26 January 2027 | Climate Pledge Arena | $31 | Vivid Seats | 29 October, 17:06 UTC |
-| [Glendale](/artists/gracie-abrams/tickets/glendale-united-states) | 9 December 2026 | Desert Diamond Arena | $32 | Vivid Seats | 29 October, 17:06 UTC |
-| [Inglewood](/artists/gracie-abrams/tickets/inglewood-united-states) | 14 December 2026 | Kia Forum | $35 | Vivid Seats | 29 October, 17:06 UTC |
-| [Denver](/artists/gracie-abrams/tickets/denver-united-states) | 2 December 2026 | Ball Arena | $36 | Vivid Seats | 29 October, 17:06 UTC |
-| [Atlanta](/artists/gracie-abrams/tickets/atlanta-united-states) | 23 February 2027 | State Farm Arena | $37 | Vivid Seats | 29 October, 17:06 UTC |
-| [Oakland](/artists/gracie-abrams/tickets/oakland-united-states) | 6 December 2026 | Oakland Arena | $37 | Vivid Seats | 29 October, 17:06 UTC |
-| [Brooklyn](/artists/gracie-abrams/tickets/brooklyn-united-states) | 16 March 2027 | Barclays Center | $49 | Vivid Seats | 29 October, 17:06 UTC |
-| [Charlotte](/artists/gracie-abrams/tickets/charlotte-united-states) | 26 February 2027 | Spectrum Center | $51 | Vivid Seats | 29 October, 17:06 UTC |
-| [Nashville](/artists/gracie-abrams/tickets/nashville-united-states) | 14 February 2027 | Bridgestone Arena | $59 | Vivid Seats | 29 October, 17:06 UTC |
-| [Chicago](/artists/gracie-abrams/tickets/chicago-united-states) | 11 February 2027 | United Center | $61 | Vivid Seats | 29 October, 17:06 UTC |
-| [Portland](/artists/gracie-abrams/tickets/portland-united-states) | 31 January 2027 | Moda Center | $66 | Vivid Seats | 29 October, 17:06 UTC |
-| [Philadelphia](/artists/gracie-abrams/tickets/philadelphia-united-states) | 12 March 2027 | Xfinity Mobile Arena | $80 | Vivid Seats | 29 October, 17:06 UTC |
-| [Washington](/artists/gracie-abrams/tickets/washington-united-states) | 4 March 2027 | Capital One Arena | $82 | Vivid Seats | 29 October, 17:06 UTC |
-| [Boston](/artists/gracie-abrams/tickets/boston-united-states) | 1 March 2027 | TD Garden | $138 | Vivid Seats | 29 October, 17:06 UTC |
+| [Glendale](/artists/gracie-abrams/tickets/glendale-united-states) | 9 December 2026 | Desert Diamond Arena | $32 | Vivid Seats | 30 October, 16:16 UTC |
+| [Seattle](/artists/gracie-abrams/tickets/seattle-united-states) | 26 January 2027 | Climate Pledge Arena | $32 | Vivid Seats | 30 October, 16:16 UTC |
+| [Inglewood](/artists/gracie-abrams/tickets/inglewood-united-states) | 14 December 2026 | Kia Forum | $35 | Vivid Seats | 30 October, 16:16 UTC |
+| [Denver](/artists/gracie-abrams/tickets/denver-united-states) | 2 December 2026 | Ball Arena | $36 | Vivid Seats | 30 October, 16:16 UTC |
+| [Atlanta](/artists/gracie-abrams/tickets/atlanta-united-states) | 23 February 2027 | State Farm Arena | $37 | Vivid Seats | 30 October, 16:16 UTC |
+| [Oakland](/artists/gracie-abrams/tickets/oakland-united-states) | 6 December 2026 | Oakland Arena | $37 | Vivid Seats | 30 October, 16:16 UTC |
+| [Charlotte](/artists/gracie-abrams/tickets/charlotte-united-states) | 26 February 2027 | Spectrum Center | $44 | Vivid Seats | 30 October, 16:16 UTC |
+| [Brooklyn](/artists/gracie-abrams/tickets/brooklyn-united-states) | 16 March 2027 | Barclays Center | $49 | Vivid Seats | 30 October, 16:16 UTC |
+| [Nashville](/artists/gracie-abrams/tickets/nashville-united-states) | 14 February 2027 | Bridgestone Arena | $59 | Vivid Seats | 30 October, 16:16 UTC |
+| [Chicago](/artists/gracie-abrams/tickets/chicago-united-states) | 11 February 2027 | United Center | $62 | Vivid Seats | 30 October, 16:16 UTC |
+| [Portland](/artists/gracie-abrams/tickets/portland-united-states) | 31 January 2027 | Moda Center | $66 | Vivid Seats | 30 October, 16:16 UTC |
+| [Philadelphia](/artists/gracie-abrams/tickets/philadelphia-united-states) | 12 March 2027 | Xfinity Mobile Arena | $80 | Vivid Seats | 30 October, 16:16 UTC |
+| [Washington](/artists/gracie-abrams/tickets/washington-united-states) | 4 March 2027 | Capital One Arena | $82 | Vivid Seats | 30 October, 16:16 UTC |
+| [Boston](/artists/gracie-abrams/tickets/boston-united-states) | 1 March 2027 | TD Garden | $138 | Vivid Seats | 30 October, 16:16 UTC |
 
 Each figure is the lowest listed price on Vivid Seats for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 

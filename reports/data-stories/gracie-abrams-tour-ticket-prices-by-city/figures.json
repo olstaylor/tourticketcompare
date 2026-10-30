@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "artistSlug": "gracie-abrams",
   "artist": "Gracie Abrams",
   "artistPageIndexable": true,
@@ -11,8 +11,8 @@
   "siteLabel": "Vivid Seats",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-10-29T17:06:28.714Z",
-  "capturedTo": "2026-10-29T17:06:28.716Z",
+  "capturedFrom": "2026-10-30T16:16:43.749Z",
+  "capturedTo": "2026-10-30T16:16:43.750Z",
   "tourDates": 57,
   "coverage": {
     "marketCities": 14,
@@ -58,14 +58,14 @@
     ]
   },
   "low": {
-    "city": "Seattle",
+    "city": "Glendale",
     "country": "United States",
-    "venue": "Climate Pledge Arena",
-    "eventId": "tm-gracie-abrams-2027-seattle-vvg1hz_1bnjn8f",
-    "localDate": "2027-01-26",
-    "price": 31,
+    "venue": "Desert Diamond Arena",
+    "eventId": "tm-gracie-abrams-2026-glendale-17k8v0g652smnjw",
+    "localDate": "2026-12-09",
+    "price": 32,
     "currency": "USD",
-    "capturedAt": "2026-10-29T17:06:28.714Z"
+    "capturedAt": "2026-10-30T16:16:43.749Z"
   },
   "high": {
     "city": "Boston",
@@ -75,22 +75,11 @@
     "localDate": "2027-03-01",
     "price": 138,
     "currency": "USD",
-    "capturedAt": "2026-10-29T17:06:28.715Z"
+    "capturedAt": "2026-10-30T16:16:43.749Z"
   },
-  "median": 50,
-  "ratio": 4.4,
+  "median": 46.5,
+  "ratio": 4.3,
   "cities": [
-    {
-      "city": "Seattle",
-      "country": "United States",
-      "venue": "Climate Pledge Arena",
-      "eventId": "tm-gracie-abrams-2027-seattle-vvg1hz_1bnjn8f",
-      "localDate": "2027-01-26",
-      "price": 31,
-      "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.714Z",
-      "path": "/artists/gracie-abrams/tickets/seattle-united-states"
-    },
     {
       "city": "Glendale",
       "country": "United States",
@@ -99,8 +88,19 @@
       "localDate": "2026-12-09",
       "price": 32,
       "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.714Z",
+      "capturedAt": "2026-10-30T16:16:43.749Z",
       "path": "/artists/gracie-abrams/tickets/glendale-united-states"
+    },
+    {
+      "city": "Seattle",
+      "country": "United States",
+      "venue": "Climate Pledge Arena",
+      "eventId": "tm-gracie-abrams-2027-seattle-vvg1hz_1bnjn8f",
+      "localDate": "2027-01-26",
+      "price": 32,
+      "currency": "USD",
+      "capturedAt": "2026-10-30T16:16:43.749Z",
+      "path": "/artists/gracie-abrams/tickets/seattle-united-states"
     },
     {
       "city": "Inglewood",
@@ -110,7 +110,7 @@
       "localDate": "2026-12-14",
       "price": 35,
       "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.714Z",
+      "capturedAt": "2026-10-30T16:16:43.749Z",
       "path": "/artists/gracie-abrams/tickets/inglewood-united-states"
     },
     {
@@ -121,7 +121,7 @@
       "localDate": "2026-12-02",
       "price": 36,
       "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.714Z",
+      "capturedAt": "2026-10-30T16:16:43.749Z",
       "path": "/artists/gracie-abrams/tickets/denver-united-states"
     },
     {
@@ -132,7 +132,7 @@
       "localDate": "2027-02-23",
       "price": 37,
       "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.715Z",
+      "capturedAt": "2026-10-30T16:16:43.749Z",
       "path": "/artists/gracie-abrams/tickets/atlanta-united-states"
     },
     {
@@ -143,8 +143,19 @@
       "localDate": "2026-12-06",
       "price": 37,
       "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.714Z",
+      "capturedAt": "2026-10-30T16:16:43.749Z",
       "path": "/artists/gracie-abrams/tickets/oakland-united-states"
+    },
+    {
+      "city": "Charlotte",
+      "country": "United States",
+      "venue": "Spectrum Center",
+      "eventId": "tm-gracie-abrams-2027-charlotte-g5evz_am0wlwu",
+      "localDate": "2027-02-26",
+      "price": 44,
+      "currency": "USD",
+      "capturedAt": "2026-10-30T16:16:43.749Z",
+      "path": "/artists/gracie-abrams/tickets/charlotte-united-states"
     },
     {
       "city": "Brooklyn",
@@ -154,19 +165,8 @@
       "localDate": "2027-03-16",
       "price": 49,
       "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.716Z",
+      "capturedAt": "2026-10-30T16:16:43.750Z",
       "path": "/artists/gracie-abrams/tickets/brooklyn-united-states"
-    },
-    {
-      "city": "Charlotte",
-      "country": "United States",
-      "venue": "Spectrum Center",
-      "eventId": "tm-gracie-abrams-2027-charlotte-g5evz_am0wlwu",
-      "localDate": "2027-02-26",
-      "price": 51,
-      "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.715Z",
-      "path": "/artists/gracie-abrams/tickets/charlotte-united-states"
     },
     {
       "city": "Nashville",
@@ -176,7 +176,7 @@
       "localDate": "2027-02-14",
       "price": 59,
       "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.715Z",
+      "capturedAt": "2026-10-30T16:16:43.749Z",
       "path": "/artists/gracie-abrams/tickets/nashville-united-states"
     },
     {
@@ -185,9 +185,9 @@
       "venue": "United Center",
       "eventId": "tm-gracie-abrams-2027-chicago-vv1fvzv0pycdz72ag6",
       "localDate": "2027-02-11",
-      "price": 61,
+      "price": 62,
       "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.714Z",
+      "capturedAt": "2026-10-30T16:16:43.749Z",
       "path": "/artists/gracie-abrams/tickets/chicago-united-states"
     },
     {
@@ -198,7 +198,7 @@
       "localDate": "2027-01-31",
       "price": 66,
       "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.714Z",
+      "capturedAt": "2026-10-30T16:16:43.749Z",
       "path": "/artists/gracie-abrams/tickets/portland-united-states"
     },
     {
@@ -209,7 +209,7 @@
       "localDate": "2027-03-12",
       "price": 80,
       "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.716Z",
+      "capturedAt": "2026-10-30T16:16:43.750Z",
       "path": "/artists/gracie-abrams/tickets/philadelphia-united-states"
     },
     {
@@ -220,7 +220,7 @@
       "localDate": "2027-03-04",
       "price": 82,
       "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.716Z",
+      "capturedAt": "2026-10-30T16:16:43.749Z",
       "path": "/artists/gracie-abrams/tickets/washington-united-states"
     },
     {
@@ -231,7 +231,7 @@
       "localDate": "2027-03-01",
       "price": 138,
       "currency": "USD",
-      "capturedAt": "2026-10-29T17:06:28.715Z",
+      "capturedAt": "2026-10-30T16:16:43.749Z",
       "path": "/artists/gracie-abrams/tickets/boston-united-states"
     }
   ]

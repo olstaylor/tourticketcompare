@@ -159,7 +159,7 @@
         "event_id": 7199155,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-pittsburgh-citizens-live-at-the-wylie-10-30-2026--concerts-country-and-folk/production/7199155",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -231,7 +231,7 @@
         "event_id": 7199193,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-apopka-apopka-amphitheater-11-21-2026--concerts-country-and-folk/production/7199193",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -468,7 +468,7 @@
         "event_id": 7428684,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-london-o2-academy-brixton-2-18-2027/production/7428684",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -583,7 +583,7 @@
     "ticketmaster_event_id": "3E006504AB4116C0",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-birmingham-21-02-2027/event/3E006504AB4116C0",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-o2-academy---birmingham-2-21-2027/production/7428688",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-birmingham-21-02-2027/event/3E006504AB4116C0",
     "last_verified_at": "2026-10-15",
@@ -605,11 +605,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7428688,
-        "url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-o2-academy---birmingham-2-21-2027/production/7428688",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -690,7 +690,7 @@
         "event_id": 7455097,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-23-2027/production/7455097",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -730,7 +730,7 @@
     "ticketmaster_event_id": "3E006506B20D1765",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-24-2027/production/7428676",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
     "last_verified_at": "2026-10-15",
@@ -752,11 +752,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7428676,
-        "url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-24-2027/production/7428676",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -870,14 +870,14 @@
         "event_id": 18642081,
         "url": "https://seatgeek.com/dylan-gossett-tickets/charleston-south-carolina-charleston-music-hall-2027-03-25-7-pm/concert/18642081",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644164,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-charleston-charleston-music-hall-3-25-2027/production/7644164",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -934,14 +934,14 @@
         "event_id": 18642079,
         "url": "https://seatgeek.com/dylan-gossett-tickets/north-myrtle-beach-south-carolina-house-of-blues-myrtle-beach-2027-03-26-7-pm/concert/18642079",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644189,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-north-myrtle-beach-house-of-blues-myrtle-beach-3-26-2027/production/7644189",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1014,14 +1014,14 @@
         "event_id": 18642082,
         "url": "https://seatgeek.com/dylan-gossett-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-03-27-7-pm/concert/18642082",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7643781,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-charlotte-the-fillmore-charlotte-3-27-2027/production/7643781",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1093,14 +1093,14 @@
         "event_id": 18642078,
         "url": "https://seatgeek.com/dylan-gossett-tickets/chattanooga-tennessee-the-signal-2027-03-30-7-pm/concert/18642078",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7645645,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-chattanooga-the-signal-3-30-2027/production/7645645",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1225,14 +1225,14 @@
         "event_id": 18642083,
         "url": "https://seatgeek.com/dylan-gossett-tickets/fayetteville-arkansas-ozark-music-hall-2027-04-02-7-pm/concert/18642083",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7645605,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-fayetteville-ozark-music-hall-4-2-2027/production/7645605",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1294,14 +1294,14 @@
         "event_id": 18642090,
         "url": "https://seatgeek.com/dylan-gossett-tickets/memphis-tennessee-satellite-music-hall-2027-04-03-7-pm/concert/18642090",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644194,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-memphis-satellite-music-hall-4-3-2027/production/7644194",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1373,14 +1373,14 @@
         "event_id": 18642092,
         "url": "https://seatgeek.com/dylan-gossett-tickets/birmingham-alabama-avondale-brewing-company-2027-04-04-7-pm/concert/18642092",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644156,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-avondale-brewing-company-4-4-2027/production/7644156",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1437,7 +1437,7 @@
         "event_id": 18642093,
         "url": "https://seatgeek.com/dylan-gossett-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-04-06-7-pm/concert/18642093",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1516,14 +1516,14 @@
         "event_id": 18642094,
         "url": "https://seatgeek.com/dylan-gossett-tickets/baltimore-maryland-the-paramount-baltimore-2027-04-07-7-pm/concert/18642094",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644204,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-baltimore-the-paramount-baltimore-4-7-2027/production/7644204",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1595,14 +1595,14 @@
         "event_id": 18642098,
         "url": "https://seatgeek.com/dylan-gossett-tickets/columbus-ohio-kemba-live-2027-04-08-7-pm/concert/18642098",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644647,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-columbus-kemba-live-4-8-2027/production/7644647",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1664,14 +1664,14 @@
         "event_id": 18642099,
         "url": "https://seatgeek.com/dylan-gossett-tickets/detroit-michigan-the-fillmore-detroit-2027-04-10-7-pm/concert/18642099",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644126,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-detroit-the-fillmore-detroit-4-10-2027/production/7644126",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1743,14 +1743,14 @@
         "event_id": 18642102,
         "url": "https://seatgeek.com/dylan-gossett-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2027-04-11-7-pm/concert/18642102",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644661,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-grand-rapids-glc-live-at-20-monroe-4-11-2027/production/7644661",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1822,14 +1822,14 @@
         "event_id": 18642104,
         "url": "https://seatgeek.com/dylan-gossett-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-05-04-7-pm/concert/18642104",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644411,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-5-4-2027--concerts-country-and-folk/production/7644411",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1901,14 +1901,14 @@
         "event_id": 18642105,
         "url": "https://seatgeek.com/dylan-gossett-tickets/madison-wisconsin-the-sylvee-2027-05-06-7-pm/concert/18642105",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644178,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-madison-the-sylvee-5-6-2027/production/7644178",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1981,14 +1981,14 @@
         "event_id": 18642106,
         "url": "https://seatgeek.com/dylan-gossett-tickets/kansas-city-missouri-uptown-theater-kc-2027-05-07-7-pm/concert/18642106",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644413,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-kansas-city-uptown-theater-kansas-city-5-7-2027--concerts-country-and-folk/production/7644413",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2061,14 +2061,14 @@
         "event_id": 18642110,
         "url": "https://seatgeek.com/dylan-gossett-tickets/la-vista-nebraska-the-astro-theater-la-vista-2027-05-08-7-pm/concert/18642110",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644180,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-la-vista-astro-theater-5-8-2027/production/7644180",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2117,14 +2117,14 @@
         "event_id": 18642112,
         "url": "https://seatgeek.com/dylan-gossett-tickets/austin-texas-moody-amphitheater-2027-05-13-7-pm/concert/18642112",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644187,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-austin-moody-amphitheater-5-13-2027/production/7644187",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2196,14 +2196,14 @@
         "event_id": 18642115,
         "url": "https://seatgeek.com/dylan-gossett-tickets/houston-texas-bayou-music-center-2027-05-14-7-pm/concert/18642115",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644161,
         "url": "https://www.vividseats.com/dylan-gossett-tickets-houston-bayou-music-center-5-14-2027/production/7644161",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2275,7 +2275,7 @@
         "event_id": 18642114,
         "url": "https://seatgeek.com/dylan-gossett-tickets/fort-worth-texas-billy-bob-s-texas-2027-05-15-7-pm/concert/18642114",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2384,7 +2384,7 @@
         "event_id": 18642120,
         "url": "https://seatgeek.com/dylan-gossett-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-05-21-7-pm/concert/18642120",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {

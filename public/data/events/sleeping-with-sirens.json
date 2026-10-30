@@ -136,7 +136,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7P_Ae",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_Ae",
-    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/pittsburgh-pennsylvania-stage-ae-2026-10-27-7-pm/concert/18336796",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-pittsburgh-stage-ae-10-27-2026/production/7165469",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_Ae",
@@ -152,11 +152,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18336796,
-        "url": "https://seatgeek.com/sleeping-with-sirens-tickets/pittsburgh-pennsylvania-stage-ae-2026-10-27-7-pm/concert/18336796",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7165469,
@@ -231,7 +231,7 @@
         "event_id": 7164794,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-royal-oak-royal-oak-music-theatre-10-28-2026/production/7164794",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -300,7 +300,7 @@
         "event_id": 7163755,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-montreal-mtelus-10-30-2026/production/7163755",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -380,7 +380,7 @@
         "event_id": 7163682,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-ottawa-history-ottawa-10-31-2026/production/7163682",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -439,7 +439,7 @@
         "event_id": 7163857,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-toronto-history-toronto-11-1-2026/production/7163857",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -498,7 +498,7 @@
         "event_id": 7163678,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-boston-citizens-house-of-blues-boston-11-3-2026/production/7163678",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -560,7 +560,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P_A7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_A7",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/sayreville-new-jersey-starland-ballroom-2026-11-04-7-pm/concert/18327314",
-    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-sayreville-starland-ballroom-11-4-2026/production/7165453",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_A7",
     "last_verified_at": null,
@@ -582,11 +582,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7165453,
-        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-sayreville-starland-ballroom-11-4-2026/production/7165453",
-        "verified": true,
-        "last_verified_at": "2026-10-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -654,7 +654,7 @@
         "event_id": 7163761,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-philadelphia-the-fillmore-philadelphia-11-6-2026/production/7163761",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -733,7 +733,7 @@
         "event_id": 7163785,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-new-york-manhattan-center-hammerstein-ballroom-11-7-2026/production/7163785",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -796,7 +796,7 @@
         "event_id": 7163672,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-baltimore-nevermore-hall-11-8-2026/production/7163672",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -875,7 +875,7 @@
         "event_id": 7163534,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-charlotte-the-fillmore-charlotte-11-11-2026/production/7163534",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -954,7 +954,7 @@
         "event_id": 7165467,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-atlanta-the-eastern-11-12-2026/production/7165467",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1297,7 +1297,7 @@
         "event_id": 7131884,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-london-o2-academy-brixton-3-7-2027/production/7131884",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -1,0 +1,856 @@
+[
+  {
+    "id": "tm-james-blunt-2027-forest-brussels-z698xzg2z16vojf7u8",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-02-19T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1466204350",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/james-blunt-tickets/1466204350",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/james-blunt-tickets/1466204350",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1466204350",
+        "discovery_event_id": "Z698xZG2Z16voJF7u8",
+        "url": "https://www.ticketmaster.be/event/james-blunt-tickets/1466204350",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16voJF7u8",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-james-blunt-2027-praha-9-z698xzu0z1ague3f",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 universum",
+    "datetime_iso": "2027-03-05T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35342494",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/james-blunt-tickets/35342494?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/james-blunt-tickets/35342494?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35342494",
+        "discovery_event_id": "Z698xZu0Z1Ague3f",
+        "url": "https://www.ticketmaster.cz/event/james-blunt-tickets/35342494?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z1Ague3f",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-james-blunt-2027-oslo-z698xzb_z16vojuapy",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Oslo Spektrum",
+    "datetime_iso": "2027-03-16T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1466349979",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/james-blunt-tickets/1466349979?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/james-blunt-tickets/1466349979?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1466349979",
+        "discovery_event_id": "Z698xZb_Z16voJuaPy",
+        "url": "https://www.ticketmaster.no/event/james-blunt-tickets/1466349979?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107665757",
+        "url": "https://www.stubhub.ie/james-blunt-tickets-oslo-oslo-spektrum-16-3-2027/event/107665757",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16voJuaPy",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-oslo-oslo-spektrum-16-3-2027/event/107665757"
+  },
+  {
+    "id": "tm-james-blunt-2027-leeds-g5vhz_8rglm2f",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Leeds",
+    "country": "Great Britain",
+    "venue": "Leeds First Direct Bank Arena",
+    "datetime_iso": "2027-03-26T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00650BF57F73D4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-leeds-26-03-2027/event/1F00650BF57F73D4",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-leeds-first-direct-arena---leeds-3-26-2027--concerts-pop/production/7534516",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-leeds-26-03-2027/event/1F00650BF57F73D4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00650BF57F73D4",
+        "discovery_event_id": "G5vHZ_8RgLM2f",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-leeds-26-03-2027/event/1F00650BF57F73D4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7534516,
+        "url": "https://www.vividseats.com/james-blunt-tickets-leeds-first-direct-arena---leeds-3-26-2027--concerts-pop/production/7534516",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_8RgLM2f",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-james-blunt-2027-birmingham-16nzkfo03zag7vec",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "bp pulse LIVE",
+    "datetime_iso": "2027-03-27T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006511912B301D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-birmingham-27-03-2027/event/23006511912B301D",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-3-27-2027/production/7528674",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-birmingham-27-03-2027/event/23006511912B301D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006511912B301D",
+        "discovery_event_id": "16NZkfo03ZAG7veC",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-birmingham-27-03-2027/event/23006511912B301D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7528674,
+        "url": "https://www.vividseats.com/james-blunt-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-3-27-2027/production/7528674",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107665848",
+        "url": "https://www.stubhub.ie/james-blunt-tickets-birmingham-bp-pulse-live-27-3-2027/event/107665848",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16NZkfo03ZAG7veC",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-birmingham-bp-pulse-live-27-3-2027/event/107665848"
+  },
+  {
+    "id": "tm-james-blunt-2027-newcastle-upon-tyne-g5vhz_8jzh5mu",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Newcastle Upon Tyne",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Newcastle",
+    "datetime_iso": "2027-03-28T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006507386CBDF6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-newcastle-upon-tyne-28-03-2027/event/1F006507386CBDF6",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-newcastle-upon-tyne-utilita-arena-newcastle-3-28-2027/production/7530268",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-newcastle-upon-tyne-28-03-2027/event/1F006507386CBDF6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006507386CBDF6",
+        "discovery_event_id": "G5vHZ_8jzh5MU",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-newcastle-upon-tyne-28-03-2027/event/1F006507386CBDF6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7530268,
+        "url": "https://www.vividseats.com/james-blunt-tickets-newcastle-upon-tyne-utilita-arena-newcastle-3-28-2027/production/7530268",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_8jzh5MU",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-james-blunt-2027-dublin-16bzkf7x3zaufauu",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-03-30T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006504892C74CC",
+    "ticketmaster_url": "https://www.ticketmaster.ie/james-blunt-dublin-30-03-2027/event/18006504892C74CC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/james-blunt-dublin-30-03-2027/event/18006504892C74CC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006504892C74CC",
+        "discovery_event_id": "16bZkf7x3ZAuFAuu",
+        "url": "https://www.ticketmaster.ie/james-blunt-dublin-30-03-2027/event/18006504892C74CC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16bZkf7x3ZAuFAuu",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-james-blunt-2027-belfast-16doz_oxog7v-fd",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "The O2 Belfast",
+    "datetime_iso": "2027-03-31T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800651891D21203",
+    "ticketmaster_url": "https://www.ticketmaster.ie/james-blunt-belfast-31-03-2027/event/3800651891D21203",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-belfast-the-o2---belfast-3-31-2027--concerts-pop/production/7534518",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/james-blunt-belfast-31-03-2027/event/3800651891D21203",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800651891D21203",
+        "discovery_event_id": "16dOZ_oxoG7V-Fd",
+        "url": "https://www.ticketmaster.ie/james-blunt-belfast-31-03-2027/event/3800651891D21203",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7534518,
+        "url": "https://www.vividseats.com/james-blunt-tickets-belfast-the-o2---belfast-3-31-2027--concerts-pop/production/7534518",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326044",
+        "url": "https://www.ticketnetwork.com/en/p/8326044",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326044",
+        "url": "https://www.ticketliquidator.com/tickets/8326044/James-Blunt-tickets-Wed-Mar-31-2027-The-O2-Belfast",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dOZ_oxoG7V-Fd",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326044",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326044/James-Blunt-tickets-Wed-Mar-31-2027-The-O2-Belfast"
+  },
+  {
+    "id": "tm-james-blunt-2027-glasgow-1auzkfkgkdju5kw",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-04-02T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006513DCD8B1BD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-glasgow-02-04-2027/event/36006513DCD8B1BD",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-glasgow-ovo-hydro-4-2-2027/production/7530133",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-glasgow-02-04-2027/event/36006513DCD8B1BD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006513DCD8B1BD",
+        "discovery_event_id": "1AUZkfKGkdjU5kW",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-glasgow-02-04-2027/event/36006513DCD8B1BD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7530133,
+        "url": "https://www.vividseats.com/james-blunt-tickets-glasgow-ovo-hydro-4-2-2027/production/7530133",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272590",
+        "url": "https://www.ticketnetwork.com/en/p/8272590",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272590",
+        "url": "https://www.ticketliquidator.com/tickets/8272590/James-Blunt-tickets-Fri-Apr-2-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107665851",
+        "url": "https://www.stubhub.ie/james-blunt-tickets-glasgow-ovo-hydro-arena-glasgow-2-4-2027/event/107665851",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkfKGkdjU5kW",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272590",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272590/James-Blunt-tickets-Fri-Apr-2-2027-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-glasgow-ovo-hydro-arena-glasgow-2-4-2027/event/107665851"
+  },
+  {
+    "id": "tm-james-blunt-2027-manchester-1amzkfkgkdv2srk",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-04-03T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006506C13F1BD3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-manchester-03-04-2027/event/37006506C13F1BD3",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-manchester-co-op-live-4-3-2027--concerts-pop/production/7514723",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-manchester-03-04-2027/event/37006506C13F1BD3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006506C13F1BD3",
+        "discovery_event_id": "1AMZkfkGkdv2sRK",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-manchester-03-04-2027/event/37006506C13F1BD3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7514723,
+        "url": "https://www.vividseats.com/james-blunt-tickets-manchester-co-op-live-4-3-2027--concerts-pop/production/7514723",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8247670",
+        "url": "https://www.ticketnetwork.com/en/p/8247670",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8247670",
+        "url": "https://www.ticketliquidator.com/tickets/8247670/James-Blunt-tickets-Sat-Apr-3-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107665852",
+        "url": "https://www.stubhub.ie/james-blunt-tickets-manchester-co-op-live-3-4-2027/event/107665852",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkfkGkdv2sRK",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8247670",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8247670/James-Blunt-tickets-Sat-Apr-3-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-manchester-co-op-live-3-4-2027/event/107665852"
+  },
+  {
+    "id": "tm-james-blunt-2027-london-1agzkf6gkdpobqq",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-04-04T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006507E545875A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-london-04-04-2027/event/35006507E545875A",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-london-the-o2---london-4-4-2027/production/7528612",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-london-04-04-2027/event/35006507E545875A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006507E545875A",
+        "discovery_event_id": "1AgZkf6GkdPobqQ",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-london-04-04-2027/event/35006507E545875A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7528612,
+        "url": "https://www.vividseats.com/james-blunt-tickets-london-the-o2---london-4-4-2027/production/7528612",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107665853",
+        "url": "https://www.stubhub.ie/james-blunt-tickets-london-the-o2-arena-4-4-2027/event/107665853",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkf6GkdPobqQ",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-london-the-o2-arena-4-4-2027/event/107665853"
+  },
+  {
+    "id": "tm-james-blunt-2027-cardiff-16dbz_8pkg7i-jy",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Cardiff",
+    "datetime_iso": "2027-04-06T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600650593B21739",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-cardiff-06-04-2027/event/3600650593B21739",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-cardiff-utilita-arena-cardiff-4-6-2027/production/7530135",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-cardiff-06-04-2027/event/3600650593B21739",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600650593B21739",
+        "discovery_event_id": "16dbZ_8pKG7i-jy",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-cardiff-06-04-2027/event/3600650593B21739",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7530135,
+        "url": "https://www.vividseats.com/james-blunt-tickets-cardiff-utilita-arena-cardiff-4-6-2027/production/7530135",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107665854",
+        "url": "https://www.stubhub.ie/james-blunt-tickets-cardiff-utilita-arena-cardiff-6-4-2027/event/107665854",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dbZ_8pKG7i-jy",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-cardiff-utilita-arena-cardiff-6-4-2027/event/107665854"
+  },
+  {
+    "id": "tm-james-blunt-2027-bournemouth-16uzkf6oaza5auua",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Bournemouth",
+    "country": "Great Britain",
+    "venue": "Bournemouth International Centre",
+    "datetime_iso": "2027-04-07T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006507449A8CC8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-bournemouth-07-04-2027/event/36006507449A8CC8",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-bournemouth-bournemouth-international-centre-4-7-2027/production/7530270",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-bournemouth-07-04-2027/event/36006507449A8CC8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006507449A8CC8",
+        "discovery_event_id": "16UZkf6oaZA5auua",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-bournemouth-07-04-2027/event/36006507449A8CC8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7530270,
+        "url": "https://www.vividseats.com/james-blunt-tickets-bournemouth-bournemouth-international-centre-4-7-2027/production/7530270",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107665855",
+        "url": "https://www.stubhub.ie/james-blunt-tickets-bournemouth-bournemouth-international-centre-7-4-2027/event/107665855",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16UZkf6oaZA5auua",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-bournemouth-bournemouth-international-centre-7-4-2027/event/107665855"
+  },
+  {
+    "id": "tm-james-blunt-2027-brighton-g5dzz_8l-leuz",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Brighton",
+    "country": "Great Britain",
+    "venue": "The Brighton Centre",
+    "datetime_iso": "2027-04-08T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006507E1AC2378",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-brighton-08-04-2027/event/3E006507E1AC2378",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-brighton-08-04-2027/event/3E006507E1AC2378",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006507E1AC2378",
+        "discovery_event_id": "G5dzZ_8L-leuz",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-brighton-08-04-2027/event/3E006507E1AC2378",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107665856",
+        "url": "https://www.stubhub.ie/james-blunt-tickets-brighton-brighton-centre-8-4-2027/event/107665856",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_8L-leuz",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-brighton-brighton-centre-8-4-2027/event/107665856"
+  }
+]

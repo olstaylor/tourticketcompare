@@ -537,7 +537,7 @@
     "ticketmaster_event_id": "1C00645AEBF3C46B",
     "ticketmaster_url": "https://www.ticketmaster.com/live-105-presents-gorillaz-the-mountain-oakland-california-10-28-2026/event/1C00645AEBF3C46B",
     "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/oakland-california-oakland-arena-2026-10-28-7-pm/concert/18102850",
-    "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-oakland-oakland-arena-10-28-2026/production/6740703",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/live-105-presents-gorillaz-the-mountain-oakland-california-10-28-2026/event/1C00645AEBF3C46B",
     "last_verified_at": "2026-10-25",
@@ -559,11 +559,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6740703,
-        "url": "https://www.vividseats.com/gorillaz-tickets-oakland-oakland-arena-10-28-2026/production/6740703",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -573,11 +573,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7774765",
-        "url": "https://www.ticketnetwork.com/en/p/7774765",
-        "verified": true,
-        "last_verified_at": "2026-10-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7774765",
@@ -601,7 +601,7 @@
       "LIVE NATION MUSIC",
       "ANOTHER PLANET"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774765",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774765/Gorillaz-tickets-Wed-Oct-28-2026-Oakland-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/gorillaz-oakland-tickets-10-28-2026/event/107129383"
   },
@@ -643,7 +643,7 @@
         "event_id": 6740705,
         "url": "https://www.vividseats.com/gorillaz-tickets-portland-moda-center-10-30-2026/production/6740705",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -723,7 +723,7 @@
         "event_id": 6739888,
         "url": "https://www.vividseats.com/gorillaz-tickets-seattle-climate-pledge-arena-10-31-2026--concerts-alternative/production/6739888",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {

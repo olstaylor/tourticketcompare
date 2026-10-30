@@ -46,11 +46,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7496384",
+        "url": "https://www.ticketnetwork.com/en/p/7496384",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7496384",
+        "url": "https://www.ticketliquidator.com/tickets/7496384/Carin-Leon-tickets-Wed-Sep-15-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZbwGkRtXpef",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7496384",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7496384/Carin-Leon-tickets-Wed-Sep-15-2027-Sphere"
   },
   {
     "id": "tm-carin-leon-2027-las-vegas-1a9zkfpgkdqtn6j",
@@ -65,7 +81,7 @@
     "ticketmaster_event_id": "17006525DDFE31E6",
     "ticketmaster_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-16-2027/event/17006525DDFE31E6",
     "seatgeek_url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-16-8-pm/concert/18583758",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carin-leon-tickets-las-vegas-sphere-at-the-venetian-resort-9-16-2027/production/7541683",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-16-2027/event/17006525DDFE31E6",
     "last_verified_at": null,
@@ -87,11 +103,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7541683,
+        "url": "https://www.vividseats.com/carin-leon-tickets-las-vegas-sphere-at-the-venetian-resort-9-16-2027/production/7541683",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,11 +115,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8258206",
+        "url": "https://www.ticketnetwork.com/en/p/8258206",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258206",
+        "url": "https://www.ticketliquidator.com/tickets/8258206/Carin-Leon-tickets-Thu-Sep-16-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkfPGkdqTN6J",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258206",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258206/Carin-Leon-tickets-Thu-Sep-16-2027-Sphere"
   },
   {
     "id": "tm-carin-leon-2027-las-vegas-1a9zkfpgkdrskjz",
@@ -118,7 +150,7 @@
     "ticketmaster_event_id": "17006525DECD3700",
     "ticketmaster_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-17-2027/event/17006525DECD3700",
     "seatgeek_url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-17-8-pm/concert/18583757",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carin-leon-tickets-las-vegas-sphere-at-the-venetian-resort-9-17-2027/production/7541681",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-17-2027/event/17006525DECD3700",
     "last_verified_at": null,
@@ -140,11 +172,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7541681,
+        "url": "https://www.vividseats.com/carin-leon-tickets-las-vegas-sphere-at-the-venetian-resort-9-17-2027/production/7541681",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -152,11 +184,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8258208",
+        "url": "https://www.ticketnetwork.com/en/p/8258208",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258208",
+        "url": "https://www.ticketliquidator.com/tickets/8258208/Carin-Leon-tickets-Fri-Sep-17-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkfPGkdrSKjZ",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258208",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258208/Carin-Leon-tickets-Fri-Sep-17-2027-Sphere"
   },
   {
     "id": "tm-carin-leon-2027-las-vegas-1a9zkfpgkdrgsj0",
@@ -171,7 +219,7 @@
     "ticketmaster_event_id": "17006525DED73724",
     "ticketmaster_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-18-2027/event/17006525DED73724",
     "seatgeek_url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-18-8-pm/concert/18583756",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carin-leon-tickets-las-vegas-sphere-at-the-venetian-resort-9-18-2027/production/7541685",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-18-2027/event/17006525DED73724",
     "last_verified_at": null,
@@ -193,11 +241,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7541685,
+        "url": "https://www.vividseats.com/carin-leon-tickets-las-vegas-sphere-at-the-venetian-resort-9-18-2027/production/7541685",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -205,10 +253,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8258209",
+        "url": "https://www.ticketnetwork.com/en/p/8258209",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258209",
+        "url": "https://www.ticketliquidator.com/tickets/8258209/Carin-Leon-tickets-Sat-Sep-18-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkfPGkdrgSj0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258209",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258209/Carin-Leon-tickets-Sat-Sep-18-2027-Sphere"
   }
 ]

@@ -352,7 +352,7 @@
         "event_id": 7058770,
         "url": "https://www.vividseats.com/john-summit-tickets-boston-td-garden-10-29-2026--concerts-dance-electronica/production/7058770",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -370,11 +370,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107189133",
-        "url": "https://www.stubhub.ie/john-summit-boston-tickets-10-29-2026/event/107189133",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7982946",
@@ -388,7 +388,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982946",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-boston-tickets-10-29-2026/event/107189133",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982946/John-Summit-tickets-Thu-Oct-29-2026-TD-Garden",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -432,7 +432,7 @@
         "event_id": 7058772,
         "url": "https://www.vividseats.com/john-summit-tickets-university-park-bryce-jordan-center-10-30-2026--concerts-dance-electronica/production/7058772",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -504,7 +504,7 @@
         "event_id": 7058776,
         "url": "https://www.vividseats.com/john-summit-tickets-washington-capital-one-arena-10-31-2026--concerts-dance-electronica/production/7058776",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -584,7 +584,7 @@
         "event_id": 7058784,
         "url": "https://www.vividseats.com/john-summit-tickets-houston-toyota-center---tx-11-5-2026--concerts-dance-electronica/production/7058784",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -656,7 +656,7 @@
         "event_id": 7058788,
         "url": "https://www.vividseats.com/john-summit-tickets-austin-moody-center-atx-11-6-2026--concerts-dance-electronica/production/7058788",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -711,7 +711,7 @@
     "ticketmaster_event_id": "0C0064B3CF15B693",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-fort-worth-texas-11-07-2026/event/0C0064B3CF15B693",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-fort-worth-dickies-arena-11-7-2026--concerts-dance-electronica/production/7058790",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-fort-worth-texas-11-07-2026/event/0C0064B3CF15B693",
     "last_verified_at": "2026-10-27",
@@ -733,11 +733,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7058790,
-        "url": "https://www.vividseats.com/john-summit-tickets-fort-worth-dickies-arena-11-7-2026--concerts-dance-electronica/production/7058790",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -747,33 +747,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
-      },
-      "stubhub-international": {
-        "event_id": "107185233",
-        "url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-7-2026/event/107185233",
+        "event_id": "7982955",
+        "url": "https://www.ticketnetwork.com/en/p/7982955",
         "verified": true,
-        "last_verified_at": "2026-07-30",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
-      "ticket-liquidator": {
+      "stubhub-international": {
         "event_id": null,
         "url": null,
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7982955",
+        "url": "https://www.ticketliquidator.com/tickets/7982955/John-Summit-tickets-Sat-Nov-7-2026-Ariat-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_522AhQK",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-7-2026/event/107185233",
-    "ticketliquidator_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982955",
+    "stubhub_international_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982955/John-Summit-tickets-Sat-Nov-7-2026-Ariat-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -791,7 +791,7 @@
     "ticketmaster_event_id": "0C0064B49E2D86C5",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-fort-worth-texas-11-08-2026/event/0C0064B49E2D86C5",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-fort-worth-dickies-arena-11-8-2026/production/7096323",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-fort-worth-texas-11-08-2026/event/0C0064B49E2D86C5",
     "last_verified_at": "2026-10-27",
@@ -813,11 +813,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7096323,
-        "url": "https://www.vividseats.com/john-summit-tickets-fort-worth-dickies-arena-11-8-2026/production/7096323",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -827,33 +827,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
-      },
-      "stubhub-international": {
-        "event_id": "107289082",
-        "url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-8-2026/event/107289082",
+        "event_id": "8005641",
+        "url": "https://www.ticketnetwork.com/en/p/8005641",
         "verified": true,
-        "last_verified_at": "2026-07-30",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
-      "ticket-liquidator": {
+      "stubhub-international": {
         "event_id": null,
         "url": null,
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8005641",
+        "url": "https://www.ticketliquidator.com/tickets/8005641/John-Summit-tickets-Sun-Nov-8-2026-Ariat-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_53r5bhA",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-8-2026/event/107289082",
-    "ticketliquidator_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005641",
+    "stubhub_international_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8005641/John-Summit-tickets-Sun-Nov-8-2026-Ariat-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -896,7 +896,7 @@
         "event_id": 7058794,
         "url": "https://www.vividseats.com/john-summit-tickets-columbus-value-city-arena-at-schottenstein-center-11-13-2026--concerts-dance-electronica/production/7058794",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -968,7 +968,7 @@
         "event_id": 7058798,
         "url": "https://www.vividseats.com/john-summit-tickets-charlotte-spectrum-center-11-14-2026--concerts-dance-electronica/production/7058798",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1048,7 +1048,7 @@
         "event_id": 7058802,
         "url": "https://www.vividseats.com/john-summit-tickets-atlanta-state-farm-arena-11-15-2026--concerts-dance-electronica/production/7058802",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1128,7 +1128,7 @@
         "event_id": 7058806,
         "url": "https://www.vividseats.com/john-summit-tickets-miami-kaseya-center-11-20-2026--concerts-dance-electronica/production/7058806",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1208,7 +1208,7 @@
         "event_id": 7058812,
         "url": "https://www.vividseats.com/john-summit-tickets-miami-kaseya-center-11-21-2026--concerts-dance-electronica/production/7058812",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1288,7 +1288,7 @@
         "event_id": 7058753,
         "url": "https://www.vividseats.com/john-summit-tickets-chicago-united-center-11-24-2026--concerts-dance-electronica/production/7058753",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1368,7 +1368,7 @@
         "event_id": 7058757,
         "url": "https://www.vividseats.com/john-summit-tickets-chicago-united-center-11-25-2026--concerts-dance-electronica/production/7058757",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1422,7 +1422,7 @@
     "tour_name": "CTRL ESCAPE ARENA TOUR",
     "ticketmaster_event_id": "020064B3BF9DC462",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-philadelphia-pennsylvania-11-27-2026/event/020064B3BF9DC462",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/john-summit-tickets/philadelphia-pennsylvania-liacouras-center-2026-11-27-7-pm/concert/18257265",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-philadelphia-pennsylvania-11-27-2026/event/020064B3BF9DC462",
@@ -1438,11 +1438,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18257265,
+        "url": "https://seatgeek.com/john-summit-tickets/philadelphia-pennsylvania-liacouras-center-2026-11-27-7-pm/concert/18257265",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1505,7 +1505,7 @@
         "event_id": 7058818,
         "url": "https://www.vividseats.com/john-summit-tickets-brooklyn-barclays-center-11-28-2026--concerts-dance-electronica/production/7058818",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1585,7 +1585,7 @@
         "event_id": 7058822,
         "url": "https://www.vividseats.com/john-summit-tickets-oakland-oakland-arena-12-4-2026--concerts-dance-electronica/production/7058822",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1665,7 +1665,7 @@
         "event_id": 7096757,
         "url": "https://www.vividseats.com/john-summit-tickets-oakland-oakland-arena-12-5-2026/production/7096757",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1738,7 +1738,7 @@
         "event_id": 18494071,
         "url": "https://seatgeek.com/john-summit-tickets/los-angeles-california-los-angeles-memorial-coliseum-2026-12-12-7-pm/concert/18494071",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1870,7 +1870,7 @@
         "event_id": 7607459,
         "url": "https://www.vividseats.com/john-summit-tickets-brooklyn-barclays-center-11-29-2026/production/7607459",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2142,7 +2142,7 @@
         "event_id": 7663834,
         "url": "https://www.vividseats.com/john-summit-tickets-london-the-o2---london-2-27-2027/production/7663834",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -1,0 +1,1097 @@
+[
+  {
+    "id": "tm-simply-red-2027-amsterdam-z698xzbpz16vajampp",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk '27",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-06-19T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1266277965",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/simply-red-summer-funk-27-tickets/1266277965?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/simply-red-summer-funk-27-tickets/1266277965?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1266277965",
+        "discovery_event_id": "Z698xZbpZ16vaJaMPP",
+        "url": "https://www.ticketmaster.nl/event/simply-red-summer-funk-27-tickets/1266277965?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668942",
+        "url": "https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-19-6-2027/event/107668942",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vaJaMPP",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-19-6-2027/event/107668942"
+  },
+  {
+    "id": "tm-simply-red-2027-amsterdam-z698xzbpz16vceov_9",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk '27",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-06-20T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1382474657",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/simply-red-summer-funk-27-tickets/1382474657?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/simply-red-summer-funk-27-tickets/1382474657?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1382474657",
+        "discovery_event_id": "Z698xZbpZ16vCeoV_9",
+        "url": "https://www.ticketmaster.nl/event/simply-red-summer-funk-27-tickets/1382474657?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315155",
+        "url": "https://www.ticketnetwork.com/en/p/8315155",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315155",
+        "url": "https://www.ticketliquidator.com/tickets/8315155/Simply-Red-tickets-Sun-Jun-20-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668943",
+        "url": "https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-20-6-2027/event/107668943",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vCeoV_9",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315155",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315155/Simply-Red-tickets-Sun-Jun-20-2027-Ziggo-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-20-6-2027/event/107668943"
+  },
+  {
+    "id": "tm-simply-red-2027-merksem-antwerpen-z698xzg2z1kbk_apn",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red: Summer Funk ‘27",
+    "city": "Merksem (Antwerpen)",
+    "country": "Belgium",
+    "venue": "AFAS Dome",
+    "datetime_iso": "2027-06-22T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "613645963",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/simply-red-summer-funk-27-tickets/613645963",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/simply-red-summer-funk-27-tickets/613645963",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "613645963",
+        "discovery_event_id": "Z698xZG2Z1kbK_APN",
+        "url": "https://www.ticketmaster.be/event/simply-red-summer-funk-27-tickets/613645963",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kbK_APN",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simply-red-2027-nurnberg-z698xzc2z16v0aozkf",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk '27",
+    "city": "Nürnberg",
+    "country": "Germany",
+    "venue": "Stadionpark Nürnberg",
+    "datetime_iso": "2027-06-29T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1905478194",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/simply-red-summer-funk-27-tickets/1905478194?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk-27-tickets/1905478194?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1905478194",
+        "discovery_event_id": "Z698xZC2Z16v0Aozkf",
+        "url": "https://www.ticketmaster.de/event/simply-red-summer-funk-27-tickets/1905478194?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v0Aozkf",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simply-red-2027-fulda-z698xzc2z16vq7paf0",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk’27",
+    "city": "Fulda",
+    "country": "Germany",
+    "venue": "Domplatz Fulda",
+    "datetime_iso": "2027-06-30T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1684589224",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1684589224?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-fulda-domplatz-fulda-6-30-2027/production/7590767",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1684589224?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1684589224",
+        "discovery_event_id": "Z698xZC2Z16vQ7paF0",
+        "url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1684589224?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7590767,
+        "url": "https://www.vividseats.com/simply-red-tickets-fulda-domplatz-fulda-6-30-2027/production/7590767",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669559",
+        "url": "https://www.stubhub.ie/simply-red-tickets-fulda-domplatz-fulda-30-6-2027/event/107669559",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vQ7paF0",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-fulda-domplatz-fulda-30-6-2027/event/107669559"
+  },
+  {
+    "id": "tm-simply-red-2027-aurich-z698xzc2z16v4ab8-i",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk’27",
+    "city": "Aurich",
+    "country": "Germany",
+    "venue": "Mehrzweckgelände Tannenhausen",
+    "datetime_iso": "2027-07-02T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1545610868",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1545610868?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-aurich-mehrzweckgelande-tannenhausen-7-2-2027/production/7590805",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1545610868?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1545610868",
+        "discovery_event_id": "Z698xZC2Z16v4Ab8-I",
+        "url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1545610868?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7590805,
+        "url": "https://www.vividseats.com/simply-red-tickets-aurich-mehrzweckgelande-tannenhausen-7-2-2027/production/7590805",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669549",
+        "url": "https://www.stubhub.ie/simply-red-tickets-aurich-mehrzweckgelande-tannenhausen-2-7-2027/event/107669549",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v4Ab8-I",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-aurich-mehrzweckgelande-tannenhausen-2-7-2027/event/107669549"
+  },
+  {
+    "id": "tm-simply-red-2027-hemer-z698xzc2z16v_nfy_4",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk '27",
+    "city": "Hemer",
+    "country": "Germany",
+    "venue": "Sauerlandpark",
+    "datetime_iso": "2027-07-03T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1663239655",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/simply-red-summer-funk-27-tickets/1663239655?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-hemer-sauerlandpark-hemer-7-3-2027/production/7590791",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk-27-tickets/1663239655?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1663239655",
+        "discovery_event_id": "Z698xZC2Z16v_NFy_4",
+        "url": "https://www.ticketmaster.de/event/simply-red-summer-funk-27-tickets/1663239655?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7590791,
+        "url": "https://www.vividseats.com/simply-red-tickets-hemer-sauerlandpark-hemer-7-3-2027/production/7590791",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v_NFy_4",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simply-red-2027-bonn-z698xzc2z1kpoq9-n",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk '27",
+    "city": "Bonn",
+    "country": "Germany",
+    "venue": "Kunst!Rasen Bonn/Gronau",
+    "datetime_iso": "2027-07-07T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "591697863",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/simply-red-summer-funk-27-tickets/591697863?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk-27-tickets/591697863?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "591697863",
+        "discovery_event_id": "Z698xZC2Z1kpoQ9-N",
+        "url": "https://www.ticketmaster.de/event/simply-red-summer-funk-27-tickets/591697863?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kpoQ9-N",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simply-red-2027-halle-westfalen-z698xzc2z1kj7akbg",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk’27",
+    "city": "Halle (Westfalen)",
+    "country": "Germany",
+    "venue": "heristo-arena",
+    "datetime_iso": "2027-07-09T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "984246635",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/984246635?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/984246635?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "984246635",
+        "discovery_event_id": "Z698xZC2Z1kJ7akbg",
+        "url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/984246635?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kJ7akbg",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simply-red-2027-chester-1agzkfsgkduxpco",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red",
+    "city": "Chester",
+    "country": "Great Britain",
+    "venue": "CHESTER RACECOURSE",
+    "datetime_iso": "2027-08-07T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006531CDFA5391",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simply-red-chester-07-08-2027/event/35006531CDFA5391",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-chester-chester-racecourse-8-7-2027/production/7590783",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simply-red-chester-07-08-2027/event/35006531CDFA5391",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006531CDFA5391",
+        "discovery_event_id": "1AgZkfsGkduXPCo",
+        "url": "https://www.ticketmaster.co.uk/simply-red-chester-07-08-2027/event/35006531CDFA5391",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7590783,
+        "url": "https://www.vividseats.com/simply-red-tickets-chester-chester-racecourse-8-7-2027/production/7590783",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfsGkduXPCo",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simply-red-2027-halifax-15dfz_3r_jv8z",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk 27",
+    "city": "Halifax",
+    "country": "Great Britain",
+    "venue": "The Piece Hall",
+    "datetime_iso": "2027-08-09T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500652799981400",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-halifax-09-08-2027/event/3500652799981400",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-halifax-piece-hall-8-9-2027/production/7590761",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-halifax-09-08-2027/event/3500652799981400",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500652799981400",
+        "discovery_event_id": "15dfZ_3r_Jv8Z",
+        "url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-halifax-09-08-2027/event/3500652799981400",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7590761,
+        "url": "https://www.vividseats.com/simply-red-tickets-halifax-piece-hall-8-9-2027/production/7590761",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "15dfZ_3r_Jv8Z",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simply-red-2027-halifax-1adfz_3gkrvea3u",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk 27",
+    "city": "Halifax",
+    "country": "Great Britain",
+    "venue": "The Piece Hall",
+    "datetime_iso": "2027-08-10T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500652BC108548D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-halifax-10-08-2027/event/3500652BC108548D",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-halifax-piece-hall-8-10-2027/production/7590847",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-halifax-10-08-2027/event/3500652BC108548D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500652BC108548D",
+        "discovery_event_id": "1AdfZ_3GkRveA3u",
+        "url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-halifax-10-08-2027/event/3500652BC108548D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7590847,
+        "url": "https://www.vividseats.com/simply-red-tickets-halifax-piece-hall-8-10-2027/production/7590847",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_3GkRveA3u",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simply-red-2027-halifax-1agzkfigkey3exj",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk 27",
+    "city": "Halifax",
+    "country": "Great Britain",
+    "venue": "The Piece Hall",
+    "datetime_iso": "2027-08-11T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006528B9482F9C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-halifax-11-08-2027/event/35006528B9482F9C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-halifax-11-08-2027/event/35006528B9482F9C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006528B9482F9C",
+        "discovery_event_id": "1AgZkfIGkey3eXj",
+        "url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-halifax-11-08-2027/event/35006528B9482F9C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfIGkey3eXj",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simply-red-2027-london-1adjz_3gkbyuns4",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk 27",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Gunnersbury Park",
+    "datetime_iso": "2027-08-13T14:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700652EB9DA3C55",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-london-13-08-2027/event/3700652EB9DA3C55",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-london-gunnersbury-park-8-13-2027/production/7590795",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-london-13-08-2027/event/3700652EB9DA3C55",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700652EB9DA3C55",
+        "discovery_event_id": "1AdjZ_3GkByUNs4",
+        "url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-london-13-08-2027/event/3700652EB9DA3C55",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7590795,
+        "url": "https://www.vividseats.com/simply-red-tickets-london-gunnersbury-park-8-13-2027/production/7590795",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669495",
+        "url": "https://www.stubhub.ie/simply-red-tickets-london-gunnersbury-park-13-8-2027/event/107669495",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_3GkByUNs4",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-london-gunnersbury-park-13-8-2027/event/107669495"
+  },
+  {
+    "id": "tm-simply-red-2027-margate-1agzkfegkemyogi",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk 27",
+    "city": "Margate",
+    "country": "Great Britain",
+    "venue": "Dreamland",
+    "datetime_iso": "2027-08-14T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006527AEC11D68",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-margate-14-08-2027/event/35006527AEC11D68",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-margate-scenic-stage-at-dreamland-margate-8-14-2027/production/7594224",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-margate-14-08-2027/event/35006527AEC11D68",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006527AEC11D68",
+        "discovery_event_id": "1AgZkfEGkemYogI",
+        "url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-margate-14-08-2027/event/35006527AEC11D68",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7594224,
+        "url": "https://www.vividseats.com/simply-red-tickets-margate-scenic-stage-at-dreamland-margate-8-14-2027/production/7594224",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668676",
+        "url": "https://www.stubhub.ie/simply-red-tickets-margate-dreamland-margate-14-8-2027/event/107668676",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfEGkemYogI",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-margate-dreamland-margate-14-8-2027/event/107668676"
+  },
+  {
+    "id": "tm-simply-red-2027-scarborough-1agzkf0gkdqpn-m",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk 27",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Open Air Theatre",
+    "datetime_iso": "2027-08-17T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006524DA5AA86E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-scarborough-17-08-2027/event/35006524DA5AA86E",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-scarborough-scarborough-open-air-theatre-8-17-2027/production/7590785",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-scarborough-17-08-2027/event/35006524DA5AA86E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006524DA5AA86E",
+        "discovery_event_id": "1AgZkf0GkdQpn-m",
+        "url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-scarborough-17-08-2027/event/35006524DA5AA86E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7590785,
+        "url": "https://www.vividseats.com/simply-red-tickets-scarborough-scarborough-open-air-theatre-8-17-2027/production/7590785",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669496",
+        "url": "https://www.stubhub.ie/simply-red-tickets-scarborough-scarborough-open-air-theatre-17-8-2027/event/107669496",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkf0GkdQpn-m",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-scarborough-scarborough-open-air-theatre-17-8-2027/event/107669496"
+  },
+  {
+    "id": "tm-simply-red-2027-colchester-1adfz_3gkmn5keu",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk 27",
+    "city": "Colchester",
+    "country": "Great Britain",
+    "venue": "Colchester Castle Park",
+    "datetime_iso": "2027-08-18T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500652BAA2D39F6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-colchester-18-08-2027/event/3500652BAA2D39F6",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-colchester-colchester-castle-park-8-18-2027/production/7590789",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-colchester-18-08-2027/event/3500652BAA2D39F6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500652BAA2D39F6",
+        "discovery_event_id": "1AdfZ_3Gkmn5KEU",
+        "url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-colchester-18-08-2027/event/3500652BAA2D39F6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7590789,
+        "url": "https://www.vividseats.com/simply-red-tickets-colchester-colchester-castle-park-8-18-2027/production/7590789",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294111",
+        "url": "https://www.ticketnetwork.com/en/p/8294111",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294111",
+        "url": "https://www.ticketliquidator.com/tickets/8294111/Simply-Red-tickets-Wed-Aug-18-2027-Colchester-Castle-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_3Gkmn5KEU",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294111",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294111/Simply-Red-tickets-Wed-Aug-18-2027-Colchester-Castle-Park"
+  },
+  {
+    "id": "tm-simply-red-2027-swansea-g5vhz_3rbtf3u",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red - Summer Funk 27",
+    "city": "Swansea",
+    "country": "Great Britain",
+    "venue": "Singleton Park",
+    "datetime_iso": "2027-08-20T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00652BFAFC84B6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-swansea-20-08-2027/event/1F00652BFAFC84B6",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-swansea-singleton-park-8-20-2027/production/7590849",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-swansea-20-08-2027/event/1F00652BFAFC84B6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00652BFAFC84B6",
+        "discovery_event_id": "G5vHZ_3RBTF3U",
+        "url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-swansea-20-08-2027/event/1F00652BFAFC84B6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7590849,
+        "url": "https://www.vividseats.com/simply-red-tickets-swansea-singleton-park-8-20-2027/production/7590849",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_3RBTF3U",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simply-red-2027-newmarket-1amzkfygkdj2ef1",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red + Racing Grandstand & Paddock",
+    "city": "Newmarket",
+    "country": "Great Britain",
+    "venue": "Newmarket Racecourses",
+    "datetime_iso": "2027-08-21T10:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006530E63E750A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/simply-red-racing-grandstand-paddock-newmarket-21-08-2027/event/37006530E63E750A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/simply-red-racing-grandstand-paddock-newmarket-21-08-2027/event/37006530E63E750A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006530E63E750A",
+        "discovery_event_id": "1AMZkfYGkdJ2Ef1",
+        "url": "https://www.ticketmaster.co.uk/simply-red-racing-grandstand-paddock-newmarket-21-08-2027/event/37006530E63E750A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkfYGkdJ2Ef1",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

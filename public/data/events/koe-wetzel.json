@@ -11,8 +11,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-0GF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0GF",
-    "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/morrison-colorado-red-rocks-amphitheatre-2026-10-28-6-45-pm/concert/18095493",
-    "vividseats_url": "https://www.vividseats.com/koe-wetzel-tickets-morrison-red-rocks-amphitheatre-10-28-2026--concerts-country-and-folk/production/6715416",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0GF",
     "last_verified_at": null,
@@ -27,18 +27,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18095493,
-        "url": "https://seatgeek.com/koe-wetzel-tickets/morrison-colorado-red-rocks-amphitheatre-2026-10-28-6-45-pm/concert/18095493",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 6715416,
-        "url": "https://www.vividseats.com/koe-wetzel-tickets-morrison-red-rocks-amphitheatre-10-28-2026--concerts-country-and-folk/production/6715416",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -48,11 +48,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7764123",
-        "url": "https://www.ticketnetwork.com/en/p/7764123",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7764123",
@@ -72,7 +72,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-0GF",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7764123",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7764123/Koe-Wetzel-tickets-Wed-Oct-28-2026-Red-Rocks-Amphitheatre",
     "stubhub_international_url": "https://www.stubhub.ie/koe-wetzel-morrison-tickets-10-28-2026/event/107665233"
   },
@@ -107,7 +107,7 @@
         "event_id": 18095494,
         "url": "https://seatgeek.com/koe-wetzel-tickets/lubbock-texas-cook-s-garage-2026-10-30-6-45-pm/concert/18095494",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -160,7 +160,7 @@
         "event_id": 18649773,
         "url": "https://seatgeek.com/koe-wetzel-tickets/helotes-texas-john-t-floore-country-store-2026-12-02-7-pm/concert/18649773",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -229,14 +229,14 @@
         "event_id": 18649774,
         "url": "https://seatgeek.com/koe-wetzel-tickets/corpus-christi-texas-concrete-street-amphitheater-2026-12-04-7-pm/concert/18649774",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7654020,
         "url": "https://www.vividseats.com/koe-wetzel-tickets-corpus-christi-concrete-street-amphitheater-12-4-2026--concerts-country-and-folk/production/7654020",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -298,14 +298,14 @@
         "event_id": 18649776,
         "url": "https://seatgeek.com/koe-wetzel-tickets/round-rock-texas-round-rock-amp-2026-12-05-7-pm/concert/18649776",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7654036,
         "url": "https://www.vividseats.com/koe-wetzel-tickets-round-rock-round-rock-amp-12-5-2026--concerts-country-and-folk/production/7654036",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -367,7 +367,7 @@
         "event_id": 18665100,
         "url": "https://seatgeek.com/koe-wetzel-tickets/fort-worth-texas-billy-bob-s-texas-2026-12-09-9-pm/concert/18665100",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -420,7 +420,7 @@
         "event_id": 18649775,
         "url": "https://seatgeek.com/koe-wetzel-tickets/fort-worth-texas-billy-bob-s-texas-2026-12-10-9-pm/concert/18649775",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -480,7 +480,7 @@
         "event_id": 7410841,
         "url": "https://www.vividseats.com/koe-wetzel-tickets-las-vegas-ph-live-at-planet-hollywood-12-11-2026/production/7410841",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {

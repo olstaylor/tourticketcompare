@@ -197,14 +197,14 @@
         "event_id": 18662693,
         "url": "https://seatgeek.com/leon-bridges-tickets/las-vegas-nevada-the-cosmopolitan-of-las-vegas-2027-04-07-8-pm/concert/18662693",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673661,
         "url": "https://www.vividseats.com/leon-bridges-tickets-las-vegas-cosmopolitan-of-las-vegas-4-7-2027--concerts-pop/production/7673661",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -248,7 +248,7 @@
     "ticketmaster_event_id": "0C006545EE0EAECE",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-fort-worth-texas-04-23-2027/event/0C006545EE0EAECE",
     "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/fort-worth-texas-dickies-arena-2027-04-23-7-pm/concert/18662691",
-    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-fort-worth-dickies-arena-4-23-2027/production/7673588",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-fort-worth-texas-04-23-2027/event/0C006545EE0EAECE",
     "last_verified_at": "2026-10-27",
@@ -266,15 +266,15 @@
         "event_id": 18662691,
         "url": "https://seatgeek.com/leon-bridges-tickets/fort-worth-texas-dickies-arena-2027-04-23-7-pm/concert/18662691",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7673588,
-        "url": "https://www.vividseats.com/leon-bridges-tickets-fort-worth-dickies-arena-4-23-2027/production/7673588",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -284,25 +284,25 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8313660",
+        "url": "https://www.ticketliquidator.com/tickets/8313660/Leon-Bridges-tickets-Fri-Apr-23-2027-Ariat-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8313660",
+        "url": "https://www.ticketnetwork.com/en/p/8313660",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f9mdnDC",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "",
-    "ticketnetwork_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313660/Leon-Bridges-tickets-Fri-Apr-23-2027-Ariat-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313660",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -338,14 +338,14 @@
         "event_id": 18662696,
         "url": "https://seatgeek.com/leon-bridges-tickets/toronto-canada-scotiabank-arena-2027-04-27-7-pm/concert/18662696",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673720,
         "url": "https://www.vividseats.com/leon-bridges-tickets-toronto-scotiabank-arena-4-27-2027--concerts-pop/production/7673720",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -397,14 +397,14 @@
         "event_id": 18662692,
         "url": "https://seatgeek.com/leon-bridges-tickets/new-york-new-york-madison-square-garden-2027-05-01-7-pm/concert/18662692",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673638,
         "url": "https://www.vividseats.com/leon-bridges-tickets-new-york-madison-square-garden-5-1-2027/production/7673638",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -481,14 +481,14 @@
         "event_id": 18662695,
         "url": "https://seatgeek.com/leon-bridges-tickets/charlotte-north-carolina-skyla-credit-union-amphitheatre-2027-07-16-7-30-pm/concert/18662695",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673673,
         "url": "https://www.vividseats.com/leon-bridges-tickets-charlotte-skyla-credit-union-amphitheatre-7-16-2027--concerts-pop/production/7673673",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -560,14 +560,14 @@
         "event_id": 18662694,
         "url": "https://seatgeek.com/leon-bridges-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2027-07-17-8-pm/concert/18662694",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673667,
         "url": "https://www.vividseats.com/leon-bridges-tickets-alpharetta-ameris-bank-amphitheatre-7-17-2027/production/7673667",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -639,14 +639,14 @@
         "event_id": 18662705,
         "url": "https://seatgeek.com/leon-bridges-tickets/wilmington-north-carolina-live-oak-bank-pavilion-2027-07-21-7-pm/concert/18662705",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673675,
         "url": "https://www.vividseats.com/leon-bridges-tickets-wilmington-live-oak-bank-pavilion-7-21-2027/production/7673675",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -711,14 +711,14 @@
         "event_id": 18662706,
         "url": "https://seatgeek.com/leon-bridges-tickets/columbia-maryland-merriweather-post-pavilion-2027-07-23-7-pm/concert/18662706",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673671,
         "url": "https://www.vividseats.com/leon-bridges-tickets-columbia-merriweather-post-pavilion-7-23-2027/production/7673671",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -780,14 +780,14 @@
         "event_id": 18662708,
         "url": "https://seatgeek.com/leon-bridges-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-07-24-8-pm/concert/18662708",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673604,
         "url": "https://www.vividseats.com/leon-bridges-tickets-boston-mgm-music-hall-at-fenway-7-24-2027--concerts-pop/production/7673604",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -860,14 +860,14 @@
         "event_id": 18662710,
         "url": "https://seatgeek.com/leon-bridges-tickets/philadelphia-pennsylvania-td-pavilion-at-the-mann-center-2027-07-28-7-30-pm/concert/18662710",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673687,
         "url": "https://www.vividseats.com/leon-bridges-tickets-philadelphia-td-pavilion-at-the-mann-7-28-2027--concerts-pop/production/7673687",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -916,14 +916,14 @@
         "event_id": 18662714,
         "url": "https://seatgeek.com/leon-bridges-tickets/bend-oregon-hayden-homes-amphitheater-2027-08-12-7-pm/concert/18662714",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673616,
         "url": "https://www.vividseats.com/leon-bridges-tickets-bend-hayden-homes-amphitheater-8-12-2027--concerts-pop/production/7673616",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1002,7 +1002,7 @@
         "event_id": 7673679,
         "url": "https://www.vividseats.com/leon-bridges-tickets-seattle-climate-pledge-arena-8-13-2027/production/7673679",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1075,14 +1075,14 @@
         "event_id": 18662721,
         "url": "https://seatgeek.com/leon-bridges-tickets/edmonton-canada-northern-alberta-jubilee-auditorium-2027-08-17-7-30-pm/concert/18662721",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673730,
         "url": "https://www.vividseats.com/leon-bridges-tickets-edmonton-northern-alberta-jubilee-auditorium-8-17-2027--concerts-pop/production/7673730",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1148,7 +1148,7 @@
         "event_id": 18662723,
         "url": "https://seatgeek.com/leon-bridges-tickets/calgary-canada-grey-eagle-event-centre-2027-08-18-7-30-pm/concert/18662723",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1207,7 +1207,7 @@
         "event_id": 18662724,
         "url": "https://seatgeek.com/leon-bridges-tickets/calgary-canada-grey-eagle-event-centre-2027-08-19-7-30-pm/concert/18662724",
         "verified": true,
-        "last_verified_at": "2026-10-20",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1266,14 +1266,14 @@
         "event_id": 18662725,
         "url": "https://seatgeek.com/leon-bridges-tickets/bonner-montana-kettlehouse-amphitheater-2027-08-21-8-pm/concert/18662725",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673614,
         "url": "https://www.vividseats.com/leon-bridges-tickets-bonner-kettlehouse-amphitheater-8-21-2027--concerts-pop/production/7673614",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1338,14 +1338,14 @@
         "event_id": 18662729,
         "url": "https://seatgeek.com/leon-bridges-tickets/waukee-iowa-vibrant-music-hall-2027-08-25-7-30-pm/concert/18662729",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673610,
         "url": "https://www.vividseats.com/leon-bridges-tickets-waukee-vibrant-music-hall-8-25-2027--concerts-pop/production/7673610",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1422,14 +1422,14 @@
         "event_id": 18662730,
         "url": "https://seatgeek.com/leon-bridges-tickets/indianapolis-indiana-everwise-amphitheater-at-white-river-state-park-2027-08-26-7-30-pm/concert/18662730",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673691,
         "url": "https://www.vividseats.com/leon-bridges-tickets-indianapolis-everwise-amphitheater-at-white-river-state-park-8-26-2027/production/7673691",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1506,14 +1506,14 @@
         "event_id": 18662733,
         "url": "https://seatgeek.com/leon-bridges-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-09-15-7-30-pm/concert/18662733",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673622,
         "url": "https://www.vividseats.com/leon-bridges-tickets-milwaukee-landmark-credit-union-live-9-15-2027--concerts-pop/production/7673622",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1578,14 +1578,14 @@
         "event_id": 18662735,
         "url": "https://seatgeek.com/leon-bridges-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-09-17-7-30-pm/concert/18662735",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673608,
         "url": "https://www.vividseats.com/leon-bridges-tickets-minneapolis-armory---minneapolis-9-17-2027--concerts-pop/production/7673608",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1650,14 +1650,14 @@
         "event_id": 18662739,
         "url": "https://seatgeek.com/leon-bridges-tickets/rogers-arkansas-walmart-amp-2027-09-23-7-30-pm/concert/18662739",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673626,
         "url": "https://www.vividseats.com/leon-bridges-tickets-rogers-walmart-amp-9-23-2027--concerts-pop/production/7673626",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1703,7 +1703,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006547C6CE4717",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-austin-texas-09-24-2027/event/3A006547C6CE4717",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/austin-texas-moody-center-atx-2027-09-24-7-30-pm/concert/18662740",
     "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-austin-moody-center-atx-9-24-2027/production/7673695",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-austin-texas-09-24-2027/event/3A006547C6CE4717",
@@ -1729,7 +1729,7 @@
         "event_id": 7673695,
         "url": "https://www.vividseats.com/leon-bridges-tickets-austin-moody-center-atx-9-24-2027/production/7673695",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1783,7 +1783,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A00653EA429BF88",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-houston-texas-09-25-2027/event/3A00653EA429BF88",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/houston-texas-713-music-hall-2027-09-25-7-30-pm/concert/18662745",
     "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-houston-713-music-hall-9-25-2027--concerts-pop/production/7673606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-houston-texas-09-25-2027/event/3A00653EA429BF88",
@@ -1809,7 +1809,7 @@
         "event_id": 7673606,
         "url": "https://www.vividseats.com/leon-bridges-tickets-houston-713-music-hall-9-25-2027--concerts-pop/production/7673606",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1882,14 +1882,14 @@
         "event_id": 18662746,
         "url": "https://seatgeek.com/leon-bridges-tickets/phoenix-arizona-arizona-financial-theatre-2027-09-29-7-30-pm/concert/18662746",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673714,
         "url": "https://www.vividseats.com/leon-bridges-tickets-phoenix-arizona-financial-theatre-9-29-2027--concerts-pop/production/7673714",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1961,7 +1961,7 @@
         "event_id": 18662703,
         "url": "https://seatgeek.com/leon-bridges-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-07-18-7-pm/concert/18662703",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2014,14 +2014,14 @@
         "event_id": 18662713,
         "url": "https://seatgeek.com/leon-bridges-tickets/morrison-colorado-red-rocks-amphitheatre-2027-08-03-7-30-pm/concert/18662713",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673556,
         "url": "https://www.vividseats.com/leon-bridges-tickets-morrison-red-rocks-amphitheatre-8-3-2027--concerts-pop/production/7673556",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2083,14 +2083,14 @@
         "event_id": 18662715,
         "url": "https://seatgeek.com/leon-bridges-tickets/vancouver-canada-freedom-mobile-arch-2027-08-14-7-pm/concert/18662715",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673772,
         "url": "https://www.vividseats.com/leon-bridges-tickets-vancouver-freedom-mobile-arch-8-14-2027--concerts-pop/production/7673772",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2152,14 +2152,14 @@
         "event_id": 18662732,
         "url": "https://seatgeek.com/leon-bridges-tickets/columbus-ohio-kemba-live-2027-09-14-7-30-pm/concert/18662732",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673598,
         "url": "https://www.vividseats.com/leon-bridges-tickets-columbus-kemba-live-9-14-2027--concerts-pop/production/7673598",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2221,14 +2221,14 @@
         "event_id": 18662741,
         "url": "https://seatgeek.com/leon-bridges-tickets/nashville-tennessee-ascend-amphitheater-2027-09-21-7-30-pm/concert/18662741",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673784,
         "url": "https://www.vividseats.com/leon-bridges-tickets-nashville-ascend-amphitheater-9-21-2027--concerts-pop/production/7673784",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {

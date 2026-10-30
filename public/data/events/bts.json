@@ -1741,6 +1741,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107258450",
+        "url": "https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-12-2-2027/event/107258450",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17a8v0G659_gUMR",
@@ -1748,7 +1755,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-12-2-2027/event/107258450"
   },
   {
     "id": "tm-bts-2027-docklands-17a8v0g65r_ew8m",

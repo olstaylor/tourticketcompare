@@ -82,7 +82,7 @@ For example, two tickets advertised at the same per-ticket price need not cost t
 
 In the US, mandatory fees must be included in upfront ticket prices under the FTC's rule. Ticketmaster says its upfront price includes face value and required fees, generally before taxes. SeatGeek says its event-page price includes mandatory fees; taxes, shipping and optional extras may still be added at checkout. Rules and displays can differ outside the US. The [fees guide](/guides/concert-ticket-fees-explained) explains the details.
 
-On TTC, Ticketmaster is a plain, unmonetised link source. SeatGeek starting prices appear only where TTC has a checked price for that event. A missing figure means you need to check the seller's page; it does not establish ticket availability. TTC may earn a commission from SeatGeek links, at no extra cost to you.
+On TTC, Ticketmaster is a plain, unmonetised link source. SeatGeek is a checked ticket link without a listed-price snapshot, so open the seller's page to check its current prices and ticket details. A missing figure does not establish ticket availability. TTC may earn a commission from SeatGeek links, at no extra cost to you.
 
 ## Why does one site have tickets when the other does not?
 

@@ -345,14 +345,14 @@
         "event_id": 18126079,
         "url": "https://seatgeek.com/sabaton-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2026-12-03-7-pm/concert/18126079",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6789538,
         "url": "https://www.vividseats.com/sabaton-tickets-pittsburgh-citizens-live-at-the-wylie-12-3-2026--concerts-hard-rock/production/6789538",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -434,14 +434,14 @@
         "event_id": 18126050,
         "url": "https://seatgeek.com/sabaton-tickets/nashville-tennessee-the-truth-nashville-2026-12-09-7-pm/concert/18126050",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6789881,
         "url": "https://www.vividseats.com/sabaton-tickets-nashville-the-truth-12-9-2026/production/6789881",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -530,7 +530,7 @@
         "event_id": 6752109,
         "url": "https://www.vividseats.com/sabaton-tickets-orlando-hard-rock-live---orlando-12-11-2026/production/6752109",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -683,7 +683,7 @@
         "event_id": 7137164,
         "url": "https://www.vividseats.com/sabaton-tickets-glasgow-ovo-hydro-4-9-2027/production/7137164",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -765,7 +765,7 @@
         "event_id": 7137162,
         "url": "https://www.vividseats.com/sabaton-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-4-10-2027/production/7137162",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -953,7 +953,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1430,7 +1430,7 @@
         "event_id": 17732681,
         "url": "https://seatgeek.com/sabaton-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-17-7-pm/concert/17732681",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1510,7 +1510,7 @@
         "event_id": 17732683,
         "url": "https://seatgeek.com/sabaton-tickets/omaha-nebraska-steelhouse-omaha-2026-11-20-7-pm/concert/17732683",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1595,7 +1595,7 @@
         "event_id": 17857308,
         "url": "https://seatgeek.com/sabaton-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-21-7-pm/concert/17857308",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1685,7 +1685,7 @@
         "event_id": 17732691,
         "url": "https://seatgeek.com/sabaton-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-11-22-7-pm/concert/17732691",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1746,7 +1746,7 @@
     "tour_name": "Legends On Tour",
     "ticketmaster_event_id": "0400632AFF953C67",
     "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-chicago-illinois-11-24-2026/event/0400632AFF953C67",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sabaton-tickets/chicago-illinois-the-salt-shed-indoors-2026-11-24-7-pm/concert/17732693",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-chicago-illinois-11-24-2026/event/0400632AFF953C67",
@@ -1762,11 +1762,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17732693,
+        "url": "https://seatgeek.com/sabaton-tickets/chicago-illinois-the-salt-shed-indoors-2026-11-24-7-pm/concert/17732693",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1839,7 +1839,7 @@
         "event_id": 17732688,
         "url": "https://seatgeek.com/sabaton-tickets/waukee-iowa-vibrant-music-hall-2026-11-25-7-pm/concert/17732688",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1974,7 +1974,7 @@
     "tour_name": "Legends On Tour",
     "ticketmaster_event_id": "1600632AA4D318FA",
     "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-cincinnati-ohio-11-28-2026/event/1600632AA4D318FA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sabaton-tickets/cincinnati-ohio-andrew-j-brady-music-center-2026-11-28-7-pm/concert/17732695",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-cincinnati-ohio-11-28-2026/event/1600632AA4D318FA",
@@ -1990,11 +1990,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17732695,
+        "url": "https://seatgeek.com/sabaton-tickets/cincinnati-ohio-andrew-j-brady-music-center-2026-11-28-7-pm/concert/17732695",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2057,7 +2057,7 @@
         "event_id": 17732696,
         "url": "https://seatgeek.com/sabaton-tickets/detroit-michigan-the-fillmore-detroit-2026-11-29-7-pm/concert/17732696",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2137,7 +2137,7 @@
         "event_id": 17732703,
         "url": "https://seatgeek.com/sabaton-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-12-01-7-pm/concert/17732703",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2210,7 +2210,7 @@
         "event_id": 17732700,
         "url": "https://seatgeek.com/sabaton-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-12-02-7-pm/concert/17732700",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2290,7 +2290,7 @@
         "event_id": 17732702,
         "url": "https://seatgeek.com/sabaton-tickets/virginia-beach-virginia-the-dome-13-2026-12-05-7-pm/concert/17732702",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2370,7 +2370,7 @@
         "event_id": 17732707,
         "url": "https://seatgeek.com/sabaton-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-12-06-7-pm/concert/17732707",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2455,7 +2455,7 @@
         "event_id": 17732711,
         "url": "https://seatgeek.com/sabaton-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-12-08-7-pm/concert/17732711",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {

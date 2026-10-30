@@ -162,7 +162,7 @@
         "event_id": 6872922,
         "url": "https://www.vividseats.com/young-miko-tickets-miami-kaseya-center-10-28-2026--concerts-latin-music/production/6872922",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -173,11 +173,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107155210",
-        "url": "https://www.stubhub.ie/young-miko-miami-tickets-10-28-2026/event/107155210",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7860530",
@@ -197,7 +197,7 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_FCHiqhv",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/young-miko-miami-tickets-10-28-2026/event/107155210",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860530/Young-Miko-tickets-Wed-Oct-28-2026-Kaseya-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -242,7 +242,7 @@
         "event_id": 6872924,
         "url": "https://www.vividseats.com/young-miko-tickets-orlando-kia-center-10-29-2026--concerts-latin-music/production/6872924",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -253,11 +253,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107154368",
-        "url": "https://www.stubhub.ie/young-miko-orlando-tickets-10-29-2026/event/107154368",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7860531",
@@ -277,7 +277,7 @@
     "ticketmaster_discovery_event_id": "1AxZk3dGkeHa7UV",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/young-miko-orlando-tickets-10-29-2026/event/107154368",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860531/Young-Miko-tickets-Thu-Oct-29-2026-Kia-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -322,7 +322,7 @@
         "event_id": 6872926,
         "url": "https://www.vividseats.com/young-miko-tickets-atlanta-state-farm-arena-10-31-2026--concerts-latin-music/production/6872926",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -409,7 +409,7 @@
         "event_id": 6872928,
         "url": "https://www.vividseats.com/young-miko-tickets-charlotte-spectrum-center-11-1-2026--concerts-latin-music/production/6872928",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -488,7 +488,7 @@
         "event_id": 6872930,
         "url": "https://www.vividseats.com/young-miko-tickets-philadelphia-xfinity-mobile-arena-11-4-2026--concerts-latin-music/production/6872930",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -575,7 +575,7 @@
         "event_id": 6872936,
         "url": "https://www.vividseats.com/young-miko-tickets-brooklyn-barclays-center-11-5-2026--concerts-latin-music/production/6872936",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {

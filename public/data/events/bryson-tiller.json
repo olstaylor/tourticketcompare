@@ -381,7 +381,7 @@
     "ticketmaster_event_id": "1C0064BA3E939112",
     "ticketmaster_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-concord-california-10-27-2026/event/1C0064BA3E939112",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-concord-toyota-pavilion-at-concord-10-27-2026--concerts-rb/production/7104569",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-concord-california-10-27-2026/event/1C0064BA3E939112",
     "last_verified_at": "2026-10-24",
@@ -403,11 +403,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7104569,
-        "url": "https://www.vividseats.com/bryson-tiller-tickets-concord-toyota-pavilion-at-concord-10-27-2026--concerts-rb/production/7104569",
-        "verified": true,
-        "last_verified_at": "2026-10-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -417,36 +417,36 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8011579",
-        "url": "https://www.ticketliquidator.com/tickets/8011579/Bryson-Tiller-tickets-Tue-Oct-27-2026-Toyota-Pavilion-At-Concord",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107258873",
-        "url": "https://www.stubhub.ie/bryson-tiller-concord-tickets-10-27-2026/event/107258873",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8011579",
-        "url": "https://www.ticketnetwork.com/en/p/8011579",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5IX0y73",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8011579/Bryson-Tiller-tickets-Tue-Oct-27-2026-Toyota-Pavilion-At-Concord",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-concord-tickets-10-27-2026/event/107258873",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011579"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-bryson-tiller-2026-portland-vvg1hz_5po9bdo",
@@ -486,7 +486,7 @@
         "event_id": 7104571,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-portland-veterans-memorial-coliseum---portland-10-29-2026--concerts-rb/production/7104571",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -558,7 +558,7 @@
         "event_id": 7104577,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-vancouver-rogers-arena-10-30-2026--concerts-rb/production/7104577",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -641,7 +641,7 @@
         "event_id": 7104573,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-seattle-climate-pledge-arena-11-1-2026--concerts-rb/production/7104573",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1030,7 +1030,7 @@
         "event_id": 7104592,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-manchester-co-op-live-12-3-2026--concerts-rb/production/7104592",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1110,7 +1110,7 @@
         "event_id": 7104598,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-leeds-first-direct-arena---leeds-12-4-2026--concerts-rb/production/7104598",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1166,7 +1166,7 @@
         "event_id": 7104602,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-cardiff-utilita-arena-cardiff-12-5-2026--concerts-rb/production/7104602",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1232,7 +1232,7 @@
         "event_id": 7104604,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-london-the-o2---london-12-7-2026--concerts-rb/production/7104604",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1296,7 +1296,7 @@
         "event_id": 7104606,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-12-9-2026--concerts-rb/production/7104606",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {

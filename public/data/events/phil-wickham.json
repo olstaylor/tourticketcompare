@@ -30,14 +30,14 @@
         "event_id": 18694094,
         "url": "https://seatgeek.com/phil-wickham-tickets/fontana-california-water-of-life-community-church-2026-11-30-7-pm/concert/18694094",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7699420,
         "url": "https://www.vividseats.com/phil-wickham-tickets-fontana-water-of-life-community-church-11-30-2026/production/7699420",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -83,14 +83,14 @@
         "event_id": 18694095,
         "url": "https://seatgeek.com/phil-wickham-tickets/fontana-california-water-of-life-community-church-2026-12-01-7-pm/concert/18694095",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7699426,
         "url": "https://www.vividseats.com/phil-wickham-tickets-fontana-water-of-life-community-church-12-1-2026/production/7699426",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "14344834",
     "ticketmaster_url": "https://www.ticketweb.com/event/southern-california-christmas-tour-with-maranatha-chapel-tickets/14344834",
     "seatgeek_url": "https://seatgeek.com/phil-wickham-tickets/san-diego-california-maranatha-chapel-2026-12-03-7-pm/concert/18694097",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phil-wickham-tickets-san-diego-maranatha-chapel-san-diego-12-3-2026--concerts-adult-contemporary/production/7745000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/southern-california-christmas-tour-with-maranatha-chapel-tickets/14344834",
     "last_verified_at": null,
@@ -136,15 +136,15 @@
         "event_id": 18694097,
         "url": "https://seatgeek.com/phil-wickham-tickets/san-diego-california-maranatha-chapel-2026-12-03-7-pm/concert/18694097",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7745000,
+        "url": "https://www.vividseats.com/phil-wickham-tickets-san-diego-maranatha-chapel-san-diego-12-3-2026--concerts-adult-contemporary/production/7745000",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -205,7 +205,7 @@
         "event_id": 18694096,
         "url": "https://seatgeek.com/phil-wickham-tickets/san-diego-california-maranatha-chapel-2026-12-04-7-pm/concert/18694096",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -274,14 +274,14 @@
         "event_id": 18694098,
         "url": "https://seatgeek.com/phil-wickham-tickets/downey-california-calvary-chapel-of-downey-2026-12-06-6-pm/concert/18694098",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7700067,
         "url": "https://www.vividseats.com/phil-wickham-tickets-downey-calvary-chapel---downey-12-6-2026--concerts-adult-contemporary/production/7700067",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {

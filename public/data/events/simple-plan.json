@@ -1,0 +1,1063 @@
+[
+  {
+    "id": "tm-simple-plan-2026-niagara-falls-1a8zk3bgkei8p8q",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "Simple Plan",
+    "city": "Niagara Falls",
+    "country": "Canada",
+    "venue": "OLG Stage at Fallsview Casino",
+    "datetime_iso": "2026-12-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006498AC42541D",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-niagara-falls-ontario-12-19-2026/event/10006498AC42541D",
+    "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2026-12-19-8-pm/concert/18207565",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-niagara-falls-olg-stage-at-fallsview-casino-12-19-2026/production/6956832",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-niagara-falls-ontario-12-19-2026/event/10006498AC42541D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006498AC42541D",
+        "discovery_event_id": "1A8Zk3bGkei8P8q",
+        "url": "https://www.ticketmaster.ca/simple-plan-niagara-falls-ontario-12-19-2026/event/10006498AC42541D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18207565,
+        "url": "https://seatgeek.com/simple-plan-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2026-12-19-8-pm/concert/18207565",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 6956832,
+        "url": "https://www.vividseats.com/simple-plan-tickets-niagara-falls-olg-stage-at-fallsview-casino-12-19-2026/production/6956832",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk3bGkei8P8q",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-plan-2027-vancouver-16v7z_f1bg7wmex",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SIMPLE PLAN: BIGGER THAN YOU THINK! Canada Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-01-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100654298F770A2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-vancouver-british-columbia-01-27-2027/event/1100654298F770A2",
+    "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/vancouver-canada-rogers-arena-2027-01-27-6-pm/concert/18655536",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-vancouver-rogers-arena-1-27-2027/production/7658722",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-vancouver-british-columbia-01-27-2027/event/1100654298F770A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100654298F770A2",
+        "discovery_event_id": "16v7Z_f1bG7WMex",
+        "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-vancouver-british-columbia-01-27-2027/event/1100654298F770A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18655536,
+        "url": "https://seatgeek.com/simple-plan-tickets/vancouver-canada-rogers-arena-2027-01-27-6-pm/concert/18655536",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7658722,
+        "url": "https://www.vividseats.com/simple-plan-tickets-vancouver-rogers-arena-1-27-2027/production/7658722",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308712",
+        "url": "https://www.ticketnetwork.com/en/p/8308712",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308712",
+        "url": "https://www.ticketliquidator.com/tickets/8308712/Simple-Plan-tickets-Wed-Jan-27-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16v7Z_f1bG7WMex",
+    "timezone": "America/Vancouver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308712",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308712/Simple-Plan-tickets-Wed-Jan-27-2027-Rogers-Arena"
+  },
+  {
+    "id": "tm-simple-plan-2027-victoria-z7r9jz1aae__3",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "Simple Plan w/ Marianas Trench",
+    "city": "Victoria",
+    "country": "Canada",
+    "venue": "Save-On-Foods Memorial Centre",
+    "datetime_iso": "2027-01-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe__3",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAe__3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAe__3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe__3",
+        "discovery_event_id": "Z7r9jZ1AAe__3",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAe__3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308713",
+        "url": "https://www.ticketnetwork.com/en/p/8308713",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308713",
+        "url": "https://www.ticketliquidator.com/tickets/8308713/Simple-Plan-tickets-Wed-Jan-27-2027-Save-On-Foods-Memorial-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe__3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308713",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308713/Simple-Plan-tickets-Wed-Jan-27-2027-Save-On-Foods-Memorial-Centre"
+  },
+  {
+    "id": "tm-simple-plan-2027-edmonton-1av7z_kgkmptc0p",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SIMPLE PLAN: BIGGER THAN YOU THINK! Canada Tour",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2027-01-30T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100653DD6A6D925",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-edmonton-alberta-01-29-2027/event/1100653DD6A6D925",
+    "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/edmonton-canada-rogers-place-2027-01-29-6-pm/concert/18656777",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-edmonton-rogers-place-1-29-2027/production/7658547",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-edmonton-alberta-01-29-2027/event/1100653DD6A6D925",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100653DD6A6D925",
+        "discovery_event_id": "1Av7Z_KGkMptc0P",
+        "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-edmonton-alberta-01-29-2027/event/1100653DD6A6D925",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18656777,
+        "url": "https://seatgeek.com/simple-plan-tickets/edmonton-canada-rogers-place-2027-01-29-6-pm/concert/18656777",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7658547,
+        "url": "https://www.vividseats.com/simple-plan-tickets-edmonton-rogers-place-1-29-2027/production/7658547",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308714",
+        "url": "https://www.ticketnetwork.com/en/p/8308714",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308714",
+        "url": "https://www.ticketliquidator.com/tickets/8308714/Simple-Plan-tickets-Fri-Jan-29-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_KGkMptc0P",
+    "timezone": "America/Edmonton",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308714",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308714/Simple-Plan-tickets-Fri-Jan-29-2027-Rogers-Place"
+  },
+  {
+    "id": "tm-simple-plan-2027-calgary-1av7z_kgkd2pi5n",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SIMPLE PLAN:  BIGGER THAN YOU THINK! Canada Tour",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Scotiabank Saddledome",
+    "datetime_iso": "2027-02-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100653ECF5AC2E3",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-calgary-alberta-01-31-2027/event/1100653ECF5AC2E3",
+    "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/calgary-canada-scotiabank-saddledome-2027-01-31-6-pm/concert/18655725",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-calgary-scotiabank-saddledome-1-31-2027/production/7658543",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-calgary-alberta-01-31-2027/event/1100653ECF5AC2E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100653ECF5AC2E3",
+        "discovery_event_id": "1Av7Z_KGkD2pi5N",
+        "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-calgary-alberta-01-31-2027/event/1100653ECF5AC2E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18655725,
+        "url": "https://seatgeek.com/simple-plan-tickets/calgary-canada-scotiabank-saddledome-2027-01-31-6-pm/concert/18655725",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7658543,
+        "url": "https://www.vividseats.com/simple-plan-tickets-calgary-scotiabank-saddledome-1-31-2027/production/7658543",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308715",
+        "url": "https://www.ticketnetwork.com/en/p/8308715",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308715",
+        "url": "https://www.ticketliquidator.com/tickets/8308715/Simple-Plan-tickets-Sun-Jan-31-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_KGkD2pi5N",
+    "timezone": "America/Edmonton",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308715",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308715/Simple-Plan-tickets-Sun-Jan-31-2027-Scotiabank-Saddledome"
+  },
+  {
+    "id": "tm-simple-plan-2027-saskatoon-1av7z_kgkmkzc1-",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SIMPLE PLAN: BIGGER THAN YOU THINK! Canada Tour",
+    "city": "Saskatoon",
+    "country": "Canada",
+    "venue": "SaskTel Centre",
+    "datetime_iso": "2027-02-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100653DD302D2A1",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-saskatoon-saskatchewan-02-01-2027/event/1100653DD302D2A1",
+    "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/saskatoon-canada-sasktel-centre-2027-02-01-7-pm/concert/18655541",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-saskatoon-sasktel-centre-2-1-2027/production/7658273",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-saskatoon-saskatchewan-02-01-2027/event/1100653DD302D2A1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100653DD302D2A1",
+        "discovery_event_id": "1Av7Z_KGkMKZc1-",
+        "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-saskatoon-saskatchewan-02-01-2027/event/1100653DD302D2A1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18655541,
+        "url": "https://seatgeek.com/simple-plan-tickets/saskatoon-canada-sasktel-centre-2027-02-01-7-pm/concert/18655541",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7658273,
+        "url": "https://www.vividseats.com/simple-plan-tickets-saskatoon-sasktel-centre-2-1-2027/production/7658273",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308716",
+        "url": "https://www.ticketnetwork.com/en/p/8308716",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308716",
+        "url": "https://www.ticketliquidator.com/tickets/8308716/Simple-Plan-tickets-Mon-Feb-1-2027-SaskTel-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_KGkMKZc1-",
+    "timezone": "America/Swift_Current",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308716",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308716/Simple-Plan-tickets-Mon-Feb-1-2027-SaskTel-Centre"
+  },
+  {
+    "id": "tm-simple-plan-2027-winnipeg-16ozk4eozza27k28",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SIMPLE PLAN: BIGGER THAN YOU THINK! Canada Tour",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Canada Life Centre",
+    "datetime_iso": "2027-02-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006542800E35EF",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-winnipeg-manitoba-02-02-2027/event/11006542800E35EF",
+    "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/winnipeg-canada-canada-life-centre-2027-02-02-7-pm/concert/18655545",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-winnipeg-canada-life-centre-2-2-2027/production/7658692",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-winnipeg-manitoba-02-02-2027/event/11006542800E35EF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006542800E35EF",
+        "discovery_event_id": "16oZk4eOZZA27k28",
+        "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-winnipeg-manitoba-02-02-2027/event/11006542800E35EF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18655545,
+        "url": "https://seatgeek.com/simple-plan-tickets/winnipeg-canada-canada-life-centre-2027-02-02-7-pm/concert/18655545",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7658692,
+        "url": "https://www.vividseats.com/simple-plan-tickets-winnipeg-canada-life-centre-2-2-2027/production/7658692",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308717",
+        "url": "https://www.ticketnetwork.com/en/p/8308717",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308717",
+        "url": "https://www.ticketliquidator.com/tickets/8308717/Simple-Plan-tickets-Tue-Feb-2-2027-Canada-Life-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16oZk4eOZZA27k28",
+    "timezone": "America/Winnipeg",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308717",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308717/Simple-Plan-tickets-Tue-Feb-2-2027-Canada-Life-Centre"
+  },
+  {
+    "id": "tm-simple-plan-2027-toronto-1a8zk4e0eqizeug",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SIMPLE PLAN: BIGGER THAN YOU THINK! Canada Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2027-02-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006542927768CB",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-toronto-ontario-02-05-2027/event/10006542927768CB",
+    "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/toronto-canada-scotiabank-arena-2027-02-05-7-pm/concert/18655543",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-toronto-scotiabank-arena-2-5-2027/production/7658702",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-toronto-ontario-02-05-2027/event/10006542927768CB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006542927768CB",
+        "discovery_event_id": "1a8Zk4e0EqIZeuG",
+        "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-toronto-ontario-02-05-2027/event/10006542927768CB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18655543,
+        "url": "https://seatgeek.com/simple-plan-tickets/toronto-canada-scotiabank-arena-2027-02-05-7-pm/concert/18655543",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7658702,
+        "url": "https://www.vividseats.com/simple-plan-tickets-toronto-scotiabank-arena-2-5-2027/production/7658702",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1a8Zk4e0EqIZeuG",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-plan-2027-kitchener-1a8zk4agketqbtj",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SIMPLE PLAN: BIGGER THAN YOU THINK! Canada Tour",
+    "city": "Kitchener",
+    "country": "Canada",
+    "venue": "Kitchener Memorial Auditorium Complex",
+    "datetime_iso": "2027-02-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006545A9698FDC",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kitchener-ontario-02-06-2027/event/10006545A9698FDC",
+    "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/kitchener-canada-kitchener-memorial-auditorium-complex-2027-02-06-7-pm/concert/18655730",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-kitchener-kitchener-memorial-auditorium-complex-2-6-2027/production/7658577",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kitchener-ontario-02-06-2027/event/10006545A9698FDC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006545A9698FDC",
+        "discovery_event_id": "1A8Zk4AGketQbTj",
+        "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kitchener-ontario-02-06-2027/event/10006545A9698FDC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18655730,
+        "url": "https://seatgeek.com/simple-plan-tickets/kitchener-canada-kitchener-memorial-auditorium-complex-2027-02-06-7-pm/concert/18655730",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7658577,
+        "url": "https://www.vividseats.com/simple-plan-tickets-kitchener-kitchener-memorial-auditorium-complex-2-6-2027/production/7658577",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4AGketQbTj",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-plan-2027-london-1f7zvp8wqzz7ufv6",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SIMPLE PLAN: BIGGER THAN YOU THINK! Canada Tour",
+    "city": "London",
+    "country": "Canada",
+    "venue": "Canada Life Place",
+    "datetime_iso": "2027-02-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100065432680C706",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-london-ontario-02-07-2027/event/100065432680C706",
+    "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/london-canada-canada-life-place-2027-02-07-7-pm/concert/18655528",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-london-canada-life-place-2-7-2027/production/7658718",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-london-ontario-02-07-2027/event/100065432680C706",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100065432680C706",
+        "discovery_event_id": "1F7ZvP8wQZZ7uFv6",
+        "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-london-ontario-02-07-2027/event/100065432680C706",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18655528,
+        "url": "https://seatgeek.com/simple-plan-tickets/london-canada-canada-life-place-2027-02-07-7-pm/concert/18655528",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7658718,
+        "url": "https://www.vividseats.com/simple-plan-tickets-london-canada-life-place-2-7-2027/production/7658718",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1F7ZvP8wQZZ7uFv6",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-plan-2027-kingston-1a8zk4vgkdbqsjy",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SIMPLE PLAN: BIGGER THAN YOU THINK! Canada Tour",
+    "city": "Kingston",
+    "country": "Canada",
+    "venue": "Slush Puppie Place",
+    "datetime_iso": "2027-02-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006541D8773739",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kingston-ontario-02-09-2027/event/10006541D8773739",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-kingston-slush-puppie-place-2-9-2027/production/7658700",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kingston-ontario-02-09-2027/event/10006541D8773739",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006541D8773739",
+        "discovery_event_id": "1A8Zk4vGkdbqSjy",
+        "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kingston-ontario-02-09-2027/event/10006541D8773739",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7658700,
+        "url": "https://www.vividseats.com/simple-plan-tickets-kingston-slush-puppie-place-2-9-2027/production/7658700",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4vGkdbqSjy",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-plan-2027-kanata-1ad7z_kgkb3adut",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SIMPLE PLAN: BIGGER THAN YOU THINK! Canada Tour",
+    "city": "Kanata",
+    "country": "Canada",
+    "venue": "Canadian Tire Centre",
+    "datetime_iso": "2027-02-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100653E92243369",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kanata-ontario-02-11-2027/event/3100653E92243369",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kanata-ontario-02-11-2027/event/3100653E92243369",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100653E92243369",
+        "discovery_event_id": "1Ad7Z_KGkB3adut",
+        "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kanata-ontario-02-11-2027/event/3100653E92243369",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_KGkB3adut",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-simple-plan-2027-montreal-1ad7z_kgkd-eypy",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SIMPLE PLAN: BIGGER THAN YOU THINK! Canada Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Centre Bell",
+    "datetime_iso": "2027-02-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100653EE19F95B9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-montreal-quebec-02-12-2027/event/3100653EE19F95B9",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-montreal-bell-centre-2-12-2027/production/7658696",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-montreal-quebec-02-12-2027/event/3100653EE19F95B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100653EE19F95B9",
+        "discovery_event_id": "1Ad7Z_KGkD-Eypy",
+        "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-montreal-quebec-02-12-2027/event/3100653EE19F95B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7658696,
+        "url": "https://www.vividseats.com/simple-plan-tickets-montreal-bell-centre-2-12-2027/production/7658696",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308723",
+        "url": "https://www.ticketnetwork.com/en/p/8308723",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308723",
+        "url": "https://www.ticketliquidator.com/tickets/8308723/Simple-Plan-tickets-Fri-Feb-12-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_KGkD-Eypy",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308723",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308723/Simple-Plan-tickets-Fri-Feb-12-2027-Centre-Bell"
+  },
+  {
+    "id": "tm-simple-plan-2027-moncton-1aszkfygkdcttvt",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SIMPLE PLAN:  BIGGER THAN YOU THINK! Canada Tour",
+    "city": "Moncton",
+    "country": "Canada",
+    "venue": "Avenir Centre",
+    "datetime_iso": "2027-02-14T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006539CEFE907F",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-moncton-new-brunswick-02-14-2027/event/31006539CEFE907F",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-moncton-avenir-centre-2-14-2027/production/7658583",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-moncton-new-brunswick-02-14-2027/event/31006539CEFE907F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006539CEFE907F",
+        "discovery_event_id": "1AsZkfyGkdCTtvT",
+        "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-moncton-new-brunswick-02-14-2027/event/31006539CEFE907F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7658583,
+        "url": "https://www.vividseats.com/simple-plan-tickets-moncton-avenir-centre-2-14-2027/production/7658583",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308724",
+        "url": "https://www.ticketnetwork.com/en/p/8308724",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308724",
+        "url": "https://www.ticketliquidator.com/tickets/8308724/Simple-Plan-tickets-Sun-Feb-14-2027-Avenir-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZkfyGkdCTtvT",
+    "timezone": "America/Halifax",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308724",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308724/Simple-Plan-tickets-Sun-Feb-14-2027-Avenir-Centre"
+  },
+  {
+    "id": "tm-simple-plan-2027-sydney-1aszk4agkex2k4f",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "Simple Plan The Bigger Than You Think! Canada Tour",
+    "city": "Sydney",
+    "country": "Canada",
+    "venue": "Centre 200",
+    "datetime_iso": "2027-02-15T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006545BE3C6548",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-the-bigger-than-you-sydney-nova-scotia-02-15-2027/event/31006545BE3C6548",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-sydney-centre-200-2-15-2027/production/7658581",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-the-bigger-than-you-sydney-nova-scotia-02-15-2027/event/31006545BE3C6548",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006545BE3C6548",
+        "discovery_event_id": "1AsZk4AGkeX2k4F",
+        "url": "https://www.ticketmaster.ca/simple-plan-the-bigger-than-you-sydney-nova-scotia-02-15-2027/event/31006545BE3C6548",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7658581,
+        "url": "https://www.vividseats.com/simple-plan-tickets-sydney-centre-200-2-15-2027/production/7658581",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308725",
+        "url": "https://www.ticketnetwork.com/en/p/8308725",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308725",
+        "url": "https://www.ticketliquidator.com/tickets/8308725/Simple-Plan-tickets-Mon-Feb-15-2027-Centre-200",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4AGkeX2k4F",
+    "timezone": "America/Halifax",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308725",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308725/Simple-Plan-tickets-Mon-Feb-15-2027-Centre-200"
+  },
+  {
+    "id": "tm-simple-plan-2027-halifax-1ad7z_kgkmojy7e",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SIMPLE PLAN: BIGGER THAN YOU THINK! Canada Tour",
+    "city": "Halifax",
+    "country": "Canada",
+    "venue": "Scotiabank Centre",
+    "datetime_iso": "2027-02-16T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100653DE09B9102",
+    "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-halifax-nova-scotia-02-16-2027/event/3100653DE09B9102",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-halifax-scotiabank-centre-2-16-2027/production/7658579",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-halifax-nova-scotia-02-16-2027/event/3100653DE09B9102",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100653DE09B9102",
+        "discovery_event_id": "1Ad7Z_KGkMOJy7e",
+        "url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-halifax-nova-scotia-02-16-2027/event/3100653DE09B9102",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7658579,
+        "url": "https://www.vividseats.com/simple-plan-tickets-halifax-scotiabank-centre-2-16-2027/production/7658579",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308726",
+        "url": "https://www.ticketnetwork.com/en/p/8308726",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308726",
+        "url": "https://www.ticketliquidator.com/tickets/8308726/Simple-Plan-tickets-Tue-Feb-16-2027-Scotiabank-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_KGkMOJy7e",
+    "timezone": "America/Halifax",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308726",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308726/Simple-Plan-tickets-Tue-Feb-16-2027-Scotiabank-Centre"
+  },
+  {
+    "id": "tm-simple-plan-2027-sesto-san-giovanni-zg9rmiynyzff6k",
+    "artist_slug": "simple-plan",
+    "artist_name": "Simple Plan",
+    "event_name": "SLAM DUNK ITALY 2027 con SIMPLE PLAN, THE INTERRUPTERS, BILLY TALENT, The Suicide Machines and more",
+    "city": "Sesto San Giovanni",
+    "country": "Italy",
+    "venue": "Kozel Carroponte",
+    "datetime_iso": "2027-06-11T13:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "tnk6onleyhtk",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/slam-dunk-italy-2027-con-simple-plan-the-interrupters-billy-talent-the-suicide-machines-and-more-sesto-san-giovanni-11-06-2027/event/tnk6onleyhtk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/slam-dunk-italy-2027-con-simple-plan-the-interrupters-billy-talent-the-suicide-machines-and-more-sesto-san-giovanni-11-06-2027/event/tnk6onleyhtk",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "tnk6onleyhtk",
+        "discovery_event_id": "ZG9rmIYnyZFF6k",
+        "url": "https://www.ticketmaster.it/biglietti/slam-dunk-italy-2027-con-simple-plan-the-interrupters-billy-talent-the-suicide-machines-and-more-sesto-san-giovanni-11-06-2027/event/tnk6onleyhtk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZFF6k",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  }
+]

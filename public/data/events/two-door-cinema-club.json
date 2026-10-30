@@ -1,0 +1,1144 @@
+[
+  {
+    "id": "tm-two-door-cinema-club-2026-mt-claremont-1akzkosgkdk8pdq",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club - Tourist History 15th Anniversary Tour",
+    "city": "Mt Claremont",
+    "country": "Australia",
+    "venue": "Perth HPC",
+    "datetime_iso": "2026-11-15T11:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006471C64160DD",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/two-door-cinema-club-tourist-history-mt-claremont-15-11-2026/event/13006471C64160DD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/two-door-cinema-club-tourist-history-mt-claremont-15-11-2026/event/13006471C64160DD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006471C64160DD",
+        "discovery_event_id": "1AKZkosGkdk8pdq",
+        "url": "https://www.ticketmaster.com.au/two-door-cinema-club-tourist-history-mt-claremont-15-11-2026/event/13006471C64160DD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkosGkdk8pdq",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2026-brisbane-1avgz_kgkwwsauv",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "Riverstage",
+    "datetime_iso": "2026-11-25T08:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300646CB2C45374",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/two-door-cinema-club-brisbane-25-11-2026/event/1300646CB2C45374",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/two-door-cinema-club-brisbane-25-11-2026/event/1300646CB2C45374",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300646CB2C45374",
+        "discovery_event_id": "1AvGZ_kGkwwsAuV",
+        "url": "https://www.ticketmaster.com.au/two-door-cinema-club-brisbane-25-11-2026/event/1300646CB2C45374",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_kGkwwsAuV",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2026-auckland-1a0zkoygkd-_sqy",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2026-11-27T05:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "24006470E16736B0",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/two-door-cinema-club-auckland-27-11-2026/event/24006470E16736B0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/two-door-cinema-club-auckland-27-11-2026/event/24006470E16736B0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "24006470E16736B0",
+        "discovery_event_id": "1A0ZkoYGkd-_SQY",
+        "url": "https://www.ticketmaster.co.nz/two-door-cinema-club-auckland-27-11-2026/event/24006470E16736B0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A0ZkoYGkd-_SQY",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-dublin-17kzv0g6gmgxxtc",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-01-23T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064CBB58BEA4E",
+    "ticketmaster_url": "https://www.ticketmaster.ie/two-door-cinema-club-dublin-23-01-2027/event/180064CBB58BEA4E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/two-door-cinema-club-dublin-23-01-2027/event/180064CBB58BEA4E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064CBB58BEA4E",
+        "discovery_event_id": "17kZv0G6GmgxXtC",
+        "url": "https://www.ticketmaster.ie/two-door-cinema-club-dublin-23-01-2027/event/180064CBB58BEA4E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8127281",
+        "url": "https://www.ticketnetwork.com/en/p/8127281",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G6GmgxXtC",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127281"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-belfast-17czv0g659j0-z4",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "The O2 Belfast",
+    "datetime_iso": "2027-01-24T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "380064B5E6921E15",
+    "ticketmaster_url": "https://www.ticketmaster.ie/two-door-cinema-club-belfast-24-01-2027/event/380064B5E6921E15",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/two-door-cinema-club-belfast-24-01-2027/event/380064B5E6921E15",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "380064B5E6921E15",
+        "discovery_event_id": "17CZv0G659J0-z4",
+        "url": "https://www.ticketmaster.ie/two-door-cinema-club-belfast-24-01-2027/event/380064B5E6921E15",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8127280",
+        "url": "https://www.ticketnetwork.com/en/p/8127280",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17CZv0G659J0-z4",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127280"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-glasgow-17uov0g6ueealfd",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-01-26T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064D9C215F53B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-glasgow-26-01-2027/event/360064D9C215F53B",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-glasgow-ovo-hydro-1-26-2027--concerts-alternative/production/7232055",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-glasgow-26-01-2027/event/360064D9C215F53B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064D9C215F53B",
+        "discovery_event_id": "17uOv0G6uEeALfD",
+        "url": "https://www.ticketmaster.co.uk/two-door-cinema-club-glasgow-26-01-2027/event/360064D9C215F53B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7232055,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-glasgow-ovo-hydro-1-26-2027--concerts-alternative/production/7232055",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8127282",
+        "url": "https://www.ticketnetwork.com/en/p/8127282",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417982",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-tickets-glasgow-ovo-hydro-arena-glasgow-26-1-2027/event/107417982",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G6uEeALfD",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127282",
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-tickets-glasgow-ovo-hydro-arena-glasgow-26-1-2027/event/107417982"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-manchester-g5vhz_ujflqde",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2027-01-27T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064D9887DAEC2",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-manchester-27-01-2027/event/1F0064D9887DAEC2",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-manchester-ao-arena-1-27-2027--concerts-alternative/production/7232057",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-manchester-27-01-2027/event/1F0064D9887DAEC2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064D9887DAEC2",
+        "discovery_event_id": "G5vHZ_uJFLQDe",
+        "url": "https://www.ticketmaster.co.uk/two-door-cinema-club-manchester-27-01-2027/event/1F0064D9887DAEC2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7232057,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-manchester-ao-arena-1-27-2027--concerts-alternative/production/7232057",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8127279",
+        "url": "https://www.ticketnetwork.com/en/p/8127279",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447639",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-tickets-manchester-manchester-ao-arena-27-1-2027/event/107447639",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_uJFLQDe",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127279",
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-tickets-manchester-manchester-ao-arena-27-1-2027/event/107447639"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-london-17u8v0g6ulnn4yb",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-01-28T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064D7E3A95C18",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-london-28-01-2027/event/350064D7E3A95C18",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-london-the-o2---london-1-28-2027--concerts-alternative/production/7232059",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-london-28-01-2027/event/350064D7E3A95C18",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064D7E3A95C18",
+        "discovery_event_id": "17u8v0G6uLNn4Yb",
+        "url": "https://www.ticketmaster.co.uk/two-door-cinema-club-london-28-01-2027/event/350064D7E3A95C18",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7232059,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-london-the-o2---london-1-28-2027--concerts-alternative/production/7232059",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107417983",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-tickets-london-the-o2-arena-28-1-2027/event/107417983",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G6uLNn4Yb",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-tickets-london-the-o2-arena-28-1-2027/event/107417983"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-brussels-z698xzg2z16v4w_s4e",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club – Tourist History 15th Anniversary",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "Cirque Royal - Koninklijk Circus",
+    "datetime_iso": "2027-02-01T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1572671542",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/two-door-cinema-club--tourist-history-15th-anniversary-tickets/1572671542",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/two-door-cinema-club--tourist-history-15th-anniversary-tickets/1572671542",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1572671542",
+        "discovery_event_id": "Z698xZG2Z16v4w_s4e",
+        "url": "https://www.ticketmaster.be/event/two-door-cinema-club--tourist-history-15th-anniversary-tickets/1572671542",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16v4w_s4e",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-oslo-z698xzb_z1k8pbuqa",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Sentrum Scene",
+    "datetime_iso": "2027-02-05T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "425636745",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/two-door-cinema-club-tickets/425636745?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/two-door-cinema-club-tickets/425636745?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "425636745",
+        "discovery_event_id": "Z698xZb_Z1k8PbUqA",
+        "url": "https://www.ticketmaster.no/event/two-door-cinema-club-tickets/425636745?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z1k8PbUqA",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-hamburg-z698xzc2z16v1k_wvn",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club - 15th Anniversary Tour",
+    "city": "Hamburg",
+    "country": "Germany",
+    "venue": "Inselpark Arena",
+    "datetime_iso": "2027-02-07T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1286672063",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/two-door-cinema-club-15th-anniversary-tour-tickets/1286672063?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/two-door-cinema-club-15th-anniversary-tour-tickets/1286672063?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1286672063",
+        "discovery_event_id": "Z698xZC2Z16v1k_wvN",
+        "url": "https://www.ticketmaster.de/event/two-door-cinema-club-15th-anniversary-tour-tickets/1286672063?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v1k_wvN",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-milwaukee-vv1a6zk47gkemmn1x",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club - Tourist History 15th Anniversary Tour",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Landmark Credit Union Live",
+    "datetime_iso": "2027-05-09T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006544B7BA32BE",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-milwaukee-wisconsin-05-08-2027/event/07006544B7BA32BE",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-milwaukee-landmark-credit-union-live-5-8-2027--concerts-alternative/production/7748031",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-milwaukee-wisconsin-05-08-2027/event/07006544B7BA32BE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006544B7BA32BE",
+        "discovery_event_id": "vv1A6Zk47GkeMmN1X",
+        "url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-milwaukee-wisconsin-05-08-2027/event/07006544B7BA32BE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7748031,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-milwaukee-landmark-credit-union-live-5-8-2027--concerts-alternative/production/7748031",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8338712",
+        "url": "https://www.ticketnetwork.com/en/p/8338712",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6Zk47GkeMmN1X",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338712"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-seattle-vvg1hz_4ppr1wj",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club - Tourist History 15th Anniversary Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2027-05-18T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006555A5BCAC9C",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-seattle-washington-05-17-2027/event/0F006555A5BCAC9C",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-seattle-paramount-theatre-seattle-5-17-2027--concerts-alternative/production/7748035",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-seattle-washington-05-17-2027/event/0F006555A5BCAC9C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006555A5BCAC9C",
+        "discovery_event_id": "vvG1HZ_4pPR1wj",
+        "url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-seattle-washington-05-17-2027/event/0F006555A5BCAC9C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7748035,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-seattle-paramount-theatre-seattle-5-17-2027--concerts-alternative/production/7748035",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8338713",
+        "url": "https://www.ticketnetwork.com/en/p/8338713",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_4pPR1wj",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338713"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-sacramento-g5vyz_46svaa8",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club - Tourist History 15th Anniversary Tour",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Channel 24",
+    "datetime_iso": "2027-05-20T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006551F3049150",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-sacramento-california-05-19-2027/event/1C006551F3049150",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-sacramento-channel-24-5-19-2027--concerts-alternative/production/7748113",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-sacramento-california-05-19-2027/event/1C006551F3049150",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006551F3049150",
+        "discovery_event_id": "G5vYZ_46SvaA8",
+        "url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-sacramento-california-05-19-2027/event/1C006551F3049150",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7748113,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-sacramento-channel-24-5-19-2027--concerts-alternative/production/7748113",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8338714",
+        "url": "https://www.ticketnetwork.com/en/p/8338714",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_46SvaA8",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338714"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-oakland-g5vyz_48x4wje",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club - Tourist History 15th Anniversary Tour",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Fox Theater - Oakland",
+    "datetime_iso": "2027-05-21T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00655422572702",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-oakland-california-05-20-2027/event/1C00655422572702",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-oakland-fox-theater-oakland-5-20-2027--concerts-alternative/production/7748115",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-oakland-california-05-20-2027/event/1C00655422572702",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00655422572702",
+        "discovery_event_id": "G5vYZ_48x4wje",
+        "url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-oakland-california-05-20-2027/event/1C00655422572702",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7748115,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-oakland-fox-theater-oakland-5-20-2027--concerts-alternative/production/7748115",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8338715",
+        "url": "https://www.ticketnetwork.com/en/p/8338715",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678440",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-oakland-tickets-5-20-2027/event/107678440",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_48x4wje",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338715",
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-oakland-tickets-5-20-2027/event/107678440"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-hollywood-vv16azk4k-kza5aa16",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club - Tourist History 15th Anniversary Tour",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Palladium",
+    "datetime_iso": "2027-05-23T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006553853A4496",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-hollywood-california-05-22-2027/event/09006553853A4496",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-los-angeles-hollywood-palladium-5-22-2027--concerts-alternative/production/7748117",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-hollywood-california-05-22-2027/event/09006553853A4496",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006553853A4496",
+        "discovery_event_id": "vv16aZk4K-KZA5AA16",
+        "url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-hollywood-california-05-22-2027/event/09006553853A4496",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7748117,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-los-angeles-hollywood-palladium-5-22-2027--concerts-alternative/production/7748117",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8338716",
+        "url": "https://www.ticketnetwork.com/en/p/8338716",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107676263",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-22-2027/event/107676263",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16aZk4K-KZA5AA16",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338716",
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-22-2027/event/107676263"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-hollywood-vv170z_4gknbp_nx",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club - Tourist History 15th Anniversary Tour",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Palladium",
+    "datetime_iso": "2027-05-24T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900655ABA9598E2",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-hollywood-california-05-23-2027/event/0900655ABA9598E2",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-los-angeles-hollywood-palladium-5-23-2027/production/7768316",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-hollywood-california-05-23-2027/event/0900655ABA9598E2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900655ABA9598E2",
+        "discovery_event_id": "vv170Z_4GknBP_Nx",
+        "url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-hollywood-california-05-23-2027/event/0900655ABA9598E2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7768316,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-los-angeles-hollywood-palladium-5-23-2027/production/7768316",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_4GknBP_Nx",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T17:00:00Z"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-del-mar-rz7hnez1afc70v",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club - Tourist History 15th Anniversary Tour w/ Friendly Fires",
+    "city": "Del Mar",
+    "country": "United States Of America",
+    "venue": "The Sound",
+    "datetime_iso": "2027-05-25T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14384934",
+    "ticketmaster_url": "https://www.ticketweb.com/event/two-door-cinema-club-the-sound-tickets/14384934",
+    "seatgeek_url": "https://seatgeek.com/two-door-cinema-club-tickets/del-mar-california-the-sound-del-mar-2027-05-24-7-30-pm/concert/18711341",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-del-mar-the-sound---del-mar-5-24-2027--concerts-alternative/production/7748119",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/two-door-cinema-club-the-sound-tickets/14384934",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14384934",
+        "discovery_event_id": "rZ7HnEZ1AfC70V",
+        "url": "https://www.ticketweb.com/event/two-door-cinema-club-the-sound-tickets/14384934",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18711341,
+        "url": "https://seatgeek.com/two-door-cinema-club-tickets/del-mar-california-the-sound-del-mar-2027-05-24-7-30-pm/concert/18711341",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7748119,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-del-mar-the-sound---del-mar-5-24-2027--concerts-alternative/production/7748119",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8338717",
+        "url": "https://www.ticketnetwork.com/en/p/8338717",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfC70V",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338717"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-houston-g5diz_42wndml",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club - Tourist History 15th Anniversary Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "White Oak Music Hall Lawn",
+    "datetime_iso": "2027-05-28T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006553FDA83DDF",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-houston-texas-05-28-2027/event/3A006553FDA83DDF",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-houston-white-oak-music-hall---upstairs-5-28-2027--concerts-alternative/production/7748121",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-houston-texas-05-28-2027/event/3A006553FDA83DDF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006553FDA83DDF",
+        "discovery_event_id": "G5dIZ_42WndML",
+        "url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-houston-texas-05-28-2027/event/3A006553FDA83DDF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7748121,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-houston-white-oak-music-hall---upstairs-5-28-2027--concerts-alternative/production/7748121",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8338718",
+        "url": "https://www.ticketnetwork.com/en/p/8338718",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_42WndML",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-30T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338718"
+  }
+]

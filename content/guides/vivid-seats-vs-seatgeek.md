@@ -44,6 +44,10 @@ sources:
 
 **Short answer:** Vivid Seats and SeatGeek are separate companies, and neither wins on price for every show. Vivid Seats is a resale marketplace where independent sellers set every price. SeatGeek is a resale marketplace too, and the primary ticketing platform for some leagues and venues. Both show all-in prices, each has a published buyer guarantee, and both treat a postponed show very differently from a cancelled one. Compare the same seats, for the same date, at the full order total.
 
+## Find your concert
+
+[Choose your artist and concert date](/artists) to see the ticket links checked for that show. A link does not confirm that tickets are still available. Where a listed-price snapshot is shown, check its currency and capture time, then confirm the seats, quantity and final total on the seller's site.
+
 ## Vivid Seats vs SeatGeek at a glance
 
 | Question | Vivid Seats | SeatGeek |
@@ -100,6 +104,8 @@ Neither is a sign of a problem on its own. Check the listed delivery method befo
 Vivid Seats runs a loyalty scheme, Vivid Seats Rewards: its site says you earn a Reward Credit after your tenth ticket, to spend in its app. Treat rewards as a tiebreaker, not a reason to accept a worse seat or a higher total.
 
 ## Which should you use?
+
+For buyers deciding whether SeatGeek or Vivid Seats is better, start with the exact concert rather than a general platform ranking. The useful comparison is the seat you want, the complete total and the delivery terms for that order.
 
 - **For an official onsale:** start with the seller named by the artist, venue or promoter. Vivid Seats is not a primary seller; SeatGeek sometimes is.
 - **For resale:** open the same date on both and compare matching seats at the full order total.

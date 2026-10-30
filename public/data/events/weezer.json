@@ -639,7 +639,7 @@
         "event_id": 7387539,
         "url": "https://www.vividseats.com/weezer-tickets-newcastle-upon-tyne-utilita-arena-newcastle-5-14-2027--concerts-alternative/production/7387539",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -695,7 +695,7 @@
         "event_id": 7387541,
         "url": "https://www.vividseats.com/weezer-tickets-manchester-co-op-live-5-15-2027--concerts-alternative/production/7387541",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -775,7 +775,7 @@
         "event_id": 7387543,
         "url": "https://www.vividseats.com/weezer-tickets-leeds-first-direct-arena---leeds-5-17-2027--concerts-alternative/production/7387543",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -831,7 +831,7 @@
         "event_id": 7387545,
         "url": "https://www.vividseats.com/weezer-tickets-glasgow-ovo-hydro-5-19-2027--concerts-alternative/production/7387545",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -904,7 +904,7 @@
         "event_id": 7387549,
         "url": "https://www.vividseats.com/weezer-tickets-birmingham-utilita-arena-birmingham-5-21-2027--concerts-alternative/production/7387549",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -968,7 +968,7 @@
         "event_id": 7387551,
         "url": "https://www.vividseats.com/weezer-tickets-london-alexandra-palace-5-22-2027--concerts-alternative/production/7387551",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1048,7 +1048,7 @@
         "event_id": 7387553,
         "url": "https://www.vividseats.com/weezer-tickets-cardiff-utilita-arena-cardiff-5-23-2027--concerts-alternative/production/7387553",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1202,5 +1202,59 @@
     "organizer_names": [
       "Veikkaus Arena VN Helsinki Oy"
     ]
+  },
+  {
+    "id": "tm-weezer-2027-auckland-1fazvp4sz3z7g15d",
+    "artist_slug": "weezer",
+    "artist_name": "Weezer",
+    "event_name": "Weezer - The Gathering Worldwide",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2027-03-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240065573012B9A2",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/weezer-the-gathering-worldwide-auckland-07-03-2027/event/240065573012B9A2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/weezer-the-gathering-worldwide-auckland-07-03-2027/event/240065573012B9A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240065573012B9A2",
+        "discovery_event_id": "1FaZvP4SZ3Z7G15d",
+        "url": "https://www.ticketmaster.co.nz/weezer-the-gathering-worldwide-auckland-07-03-2027/event/240065573012B9A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FaZvP4SZ3Z7G15d",
+    "timezone": "Pacific/Auckland",
+    "status": "announced",
+    "public_onsale_at": "2026-11-05T22:00:00Z"
   }
 ]

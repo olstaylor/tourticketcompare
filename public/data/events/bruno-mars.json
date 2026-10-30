@@ -3917,17 +3917,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107666002",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-19-2-2027/event/107666002",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aefZ_o37vvZdCkk",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-19-2-2027/event/107666002",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ]
@@ -3981,17 +3981,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107666003",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-20-2-2027/event/107666003",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknWW0xk",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-20-2-2027/event/107666003",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ]
@@ -4045,17 +4045,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107666004",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-23-2-2027/event/107666004",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknWX7x5",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-23-2-2027/event/107666004",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ]
@@ -4107,6 +4107,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667338",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-24-2-2027/event/107667338",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknWX0x2",
@@ -4114,7 +4121,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-24-2-2027/event/107667338"
   },
   {
     "id": "tm-bruno-mars-2027-milton-1akzkf3gkdacg5v",
@@ -4977,6 +4985,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667645",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-13-3-2027/event/107667645",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A0ZkfKGkeslw-y",
@@ -4986,7 +5001,8 @@
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244830"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244830",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-13-3-2027/event/107667645"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1ae8z_ogkiuunsj",
@@ -5049,6 +5065,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666025",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-14-3-2027/event/107666025",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_oGkiuuNSJ",
@@ -5058,7 +5081,8 @@
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244848"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244848",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-14-3-2027/event/107666025"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1ae8z_ogksqr0wn",

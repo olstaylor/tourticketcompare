@@ -386,7 +386,7 @@
         "event_id": 7169269,
         "url": "https://www.vividseats.com/polyphia-tickets-birmingham-o2-academy---birmingham-12-11-2026--concerts-hard-rock/production/7169269",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -528,7 +528,7 @@
         "event_id": 7169275,
         "url": "https://www.vividseats.com/polyphia-tickets-leeds-o2-academy---leeds-12-15-2026--concerts-hard-rock/production/7169275",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -593,7 +593,7 @@
         "event_id": 7169277,
         "url": "https://www.vividseats.com/polyphia-tickets-london-o2-academy-brixton-12-16-2026--concerts-hard-rock/production/7169277",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -667,14 +667,14 @@
         "event_id": 18536014,
         "url": "https://seatgeek.com/polyphia-tickets/phoenix-arizona-arizona-financial-theatre-2027-02-05-7-30-pm/concert/18536014",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7484783,
         "url": "https://www.vividseats.com/polyphia-tickets-phoenix-arizona-financial-theatre-2-5-2027/production/7484783",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -758,7 +758,7 @@
         "event_id": 7483184,
         "url": "https://www.vividseats.com/polyphia-tickets-las-vegas-house-of-blues-las-vegas-2-6-2027/production/7483184",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -780,6 +780,13 @@
         "url": "https://www.ticketnetwork.com/en/p/8235924",
         "verified": true,
         "last_verified_at": "2026-09-11",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107676192",
+        "url": "https://www.stubhub.ie/polyphia-las-vegas-tickets-2-6-2027/event/107676192",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       }
     },
@@ -803,7 +810,8 @@
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-las-vegas-tickets-2-6-2027/event/107676192"
   },
   {
     "id": "tm-polyphia-2027-san-diego-z7r9jz1aav67j",
@@ -843,7 +851,7 @@
         "event_id": 7485019,
         "url": "https://www.vividseats.com/polyphia-tickets-san-diego-soma-2-10-2027--concerts-hard-rock/production/7485019",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -912,7 +920,7 @@
         "event_id": 7484847,
         "url": "https://www.vividseats.com/polyphia-tickets-seattle-paramount-theatre-seattle-2-17-2027/production/7484847",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -996,7 +1004,7 @@
         "event_id": 7485681,
         "url": "https://www.vividseats.com/polyphia-tickets-salt-lake-city-the-depot---ut-2-19-2027--concerts-hard-rock/production/7485681",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1073,7 +1081,7 @@
         "event_id": 18312321,
         "url": "https://seatgeek.com/polyphia-tickets/denver-colorado-fillmore-auditorium-denver-2027-02-20-7-30-pm/concert/18312321",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1141,14 +1149,14 @@
         "event_id": 18312324,
         "url": "https://seatgeek.com/polyphia-tickets/minneapolis-minnesota-uptown-theater-minneapolis-2027-02-23-7-30-pm/concert/18312324",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7484734,
         "url": "https://www.vividseats.com/polyphia-tickets-minneapolis-uptown-theater-minneapolis-2-23-2027/production/7484734",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1216,7 +1224,7 @@
         "event_id": 7485007,
         "url": "https://www.vividseats.com/polyphia-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-2-26-2027/production/7485007",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1293,14 +1301,14 @@
         "event_id": 18536017,
         "url": "https://seatgeek.com/polyphia-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-03-12-7-30-pm/concert/18536017",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7484736,
         "url": "https://www.vividseats.com/polyphia-tickets-charlotte-the-fillmore-charlotte-3-12-2027/production/7484736",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1462,14 +1470,14 @@
         "event_id": 18536027,
         "url": "https://seatgeek.com/polyphia-tickets/birmingham-alabama-avondale-brewing-company-2027-03-17-7-30-pm/concert/18536027",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7484740,
         "url": "https://www.vividseats.com/polyphia-tickets-birmingham-avondale-brewing-company-3-17-2027/production/7484740",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1531,7 +1539,7 @@
         "event_id": 18312346,
         "url": "https://seatgeek.com/polyphia-tickets/raleigh-north-carolina-the-ritz-raleigh-2027-03-10-5-30-pm/concert/18312346",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1996,7 +2004,7 @@
         "event_id": 18312323,
         "url": "https://seatgeek.com/polyphia-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-02-24-7-30-pm/concert/18312323",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2174,7 +2182,7 @@
         "event_id": 18312333,
         "url": "https://seatgeek.com/polyphia-tickets/detroit-michigan-the-fillmore-detroit-2027-02-27-7-30-pm/concert/18312333",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2259,7 +2267,7 @@
         "event_id": 18312357,
         "url": "https://seatgeek.com/polyphia-tickets/toronto-canada-the-theatre-at-great-canadian-casino-resort-toronto-2027-03-02-6-30-pm/concert/18312357",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2331,7 +2339,7 @@
         "event_id": 18312356,
         "url": "https://seatgeek.com/polyphia-tickets/montreal-canada-l-olympia-olympia-theatre-2027-03-03-6-30-pm/concert/18312356",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2402,7 +2410,7 @@
         "event_id": 18312344,
         "url": "https://seatgeek.com/polyphia-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2027-03-05-7-30-pm/concert/18312344",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2487,14 +2495,14 @@
         "event_id": 18312312,
         "url": "https://seatgeek.com/polyphia-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-06-7-30-pm/concert/18312312",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7486334,
         "url": "https://www.vividseats.com/polyphia-tickets-brooklyn-brooklyn-paramount-3-6-2027/production/7486334",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2575,7 +2583,7 @@
         "event_id": 18312334,
         "url": "https://seatgeek.com/polyphia-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-07-7-30-pm/concert/18312334",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2663,7 +2671,7 @@
         "event_id": 18312337,
         "url": "https://seatgeek.com/polyphia-tickets/washington-district-of-columbia-echostage-2027-03-09-7-30-pm/concert/18312337",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2743,7 +2751,7 @@
         "event_id": 18312347,
         "url": "https://seatgeek.com/polyphia-tickets/orlando-florida-hard-rock-live-orlando-2027-03-13-7-30-pm/concert/18312347",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2836,7 +2844,7 @@
         "event_id": 18312348,
         "url": "https://seatgeek.com/polyphia-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-03-16-7-30-pm/concert/18312348",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2916,7 +2924,7 @@
         "event_id": 18312351,
         "url": "https://seatgeek.com/polyphia-tickets/nashville-tennessee-the-truth-nashville-2027-03-18-7-30-pm/concert/18312351",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2996,7 +3004,7 @@
         "event_id": 18312313,
         "url": "https://seatgeek.com/polyphia-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2027-03-20-7-30-pm/concert/18312313",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -603,25 +603,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7930662",
-        "url": "https://www.ticketnetwork.com/en/p/7930662",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7930662",
-        "url": "https://www.ticketliquidator.com/tickets/7930662/Amble-tickets-Mon-Oct-26-2026-The-Showbox",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70p_0",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930662",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930662/Amble-tickets-Mon-Oct-26-2026-The-Showbox"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-amble-2026-vancouver-1av7z_agkmsrf76",
@@ -636,7 +636,7 @@
     "ticketmaster_event_id": "1100649BB3788107",
     "ticketmaster_url": "https://www.ticketmaster.ca/amble-vancouver-british-columbia-10-27-2026/event/1100649BB3788107",
     "seatgeek_url": "https://seatgeek.com/amble-tickets/vancouver-canada-orpheum-theatre-vancouver-2026-10-27-8-pm/concert/18222764",
-    "vividseats_url": "https://www.vividseats.com/amble-tickets-vancouver-orpheum-theatre---vancouver-10-27-2026--concerts-alternative/production/6982424",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/amble-vancouver-british-columbia-10-27-2026/event/1100649BB3788107",
     "last_verified_at": "2026-10-15",
@@ -658,11 +658,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6982424,
-        "url": "https://www.vividseats.com/amble-tickets-vancouver-orpheum-theatre---vancouver-10-27-2026--concerts-alternative/production/6982424",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -672,25 +672,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7936748",
-        "url": "https://www.ticketnetwork.com/en/p/7936748",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7936748",
-        "url": "https://www.ticketliquidator.com/tickets/7936748/Amble-tickets-Tue-Oct-27-2026-Orpheum-Theatre-Vancouver",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_aGkmSrF76",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7936748",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7936748/Amble-tickets-Tue-Oct-27-2026-Orpheum-Theatre-Vancouver",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -799,7 +799,7 @@
         "event_id": 6982426,
         "url": "https://www.vividseats.com/amble-tickets-toronto-history-toronto-11-2-2026--concerts-alternative/production/6982426",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -917,7 +917,7 @@
         "event_id": 6982394,
         "url": "https://www.vividseats.com/amble-tickets-boston-citizens-house-of-blues-boston-11-6-2026--concerts-alternative/production/6982394",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -989,7 +989,7 @@
         "event_id": 6982398,
         "url": "https://www.vividseats.com/amble-tickets-brooklyn-brooklyn-paramount-11-7-2026--concerts-alternative/production/6982398",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1069,7 +1069,7 @@
         "event_id": 6982400,
         "url": "https://www.vividseats.com/amble-tickets-philadelphia-theatre-of-living-arts-11-10-2026--concerts-alternative/production/6982400",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1335,14 +1335,14 @@
         "event_id": 18222773,
         "url": "https://seatgeek.com/amble-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2026-11-16-7-pm/concert/18222773",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982406,
         "url": "https://www.vividseats.com/amble-tickets-new-orleans-house-of-blues-new-orleans-11-16-2026--concerts-alternative/production/6982406",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1414,7 +1414,7 @@
         "event_id": 18222798,
         "url": "https://seatgeek.com/amble-tickets/austin-texas-emo-s-austin-2026-11-17-7-pm/concert/18222798",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1470,14 +1470,14 @@
         "event_id": 18223872,
         "url": "https://seatgeek.com/amble-tickets/dallas-texas-the-echo-lounge-music-hall-2026-11-18-7-pm/concert/18223872",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982420,
         "url": "https://www.vividseats.com/amble-tickets-dallas-the-echo-lounge-and-music-hall-11-18-2026--concerts-alternative/production/6982420",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {

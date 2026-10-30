@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "1500647B92A850B2",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-30-2026/event/1500647B92A850B2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-baltimore-cfg-bank-arena-10-30-2026--concerts-country-and-folk/production/6850512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-30-2026/event/1500647B92A850B2",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6850512,
+        "url": "https://www.vividseats.com/billy-strings-tickets-baltimore-cfg-bank-arena-10-30-2026--concerts-country-and-folk/production/6850512",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -72,7 +72,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1500647B93A75283",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-31-2026/event/1500647B93A75283",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/baltimore-maryland-cfg-bank-arena-2026-10-31-7-30-pm/concert/18155650",
     "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-baltimore-cfg-bank-arena-10-31-2026--concerts-country-and-folk/production/6850516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-baltimore-maryland-10-31-2026/event/1500647B93A75283",
@@ -88,17 +88,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18155650,
+        "url": "https://seatgeek.com/billy-strings-tickets/baltimore-maryland-cfg-bank-arena-2026-10-31-7-30-pm/concert/18155650",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6850516,
         "url": "https://www.vividseats.com/billy-strings-tickets-baltimore-cfg-bank-arena-10-31-2026--concerts-country-and-folk/production/6850516",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -239,7 +239,7 @@
         "event_id": 6850482,
         "url": "https://www.vividseats.com/billy-strings-tickets-new-orleans-smoothie-king-center-12-5-2026/production/6850482",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -301,7 +301,7 @@
         "event_id": 18158743,
         "url": "https://seatgeek.com/billy-strings-tickets/sugar-land-texas-smart-financial-centre-2026-12-09-7-30-pm/concert/18158743",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -344,7 +344,7 @@
     "ticketmaster_event_id": "0C00647BAD4B9754",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-fort-worth-texas-12-11-2026/event/0C00647BAD4B9754",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-fort-worth-dickies-arena-12-11-2026/production/6850486",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-fort-worth-texas-12-11-2026/event/0C00647BAD4B9754",
     "last_verified_at": "2026-10-27",
@@ -366,11 +366,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6850486,
-        "url": "https://www.vividseats.com/billy-strings-tickets-fort-worth-dickies-arena-12-11-2026/production/6850486",
-        "verified": true,
-        "last_verified_at": "2026-10-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -380,33 +380,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7843525",
+        "url": "https://www.ticketnetwork.com/en/p/7843525",
+        "verified": true,
+        "last_verified_at": "2026-10-27",
+        "availability_status": "listed"
       },
       "ticket-liquidator": {
+        "event_id": "7843525",
+        "url": "https://www.ticketliquidator.com/tickets/7843525/Billy-Strings-tickets-Fri-Dec-11-2026-Ariat-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
         "event_id": null,
         "url": null,
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_listed"
-      },
-      "stubhub-international": {
-        "event_id": "107155188",
-        "url": "https://www.stubhub.ie/billy-strings-fort-worth-tickets-12-11-2026/event/107155188",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_6mc3yqf",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "",
-    "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/billy-strings-fort-worth-tickets-12-11-2026/event/107155188"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843525",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843525/Billy-Strings-tickets-Fri-Dec-11-2026-Ariat-Arena",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-billy-strings-2026-austin-g5diz_ub5bart",
@@ -446,7 +446,7 @@
         "event_id": 7250307,
         "url": "https://www.vividseats.com/billy-strings-tickets-austin-moody-center-atx-12-12-2026/production/7250307",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -788,7 +788,7 @@
         "event_id": 7490339,
         "url": "https://www.vividseats.com/billy-strings-tickets-duluth-gas-south-arena-2-12-2027/production/7490339",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -849,7 +849,7 @@
         "event_id": 7490211,
         "url": "https://www.vividseats.com/billy-strings-tickets-duluth-gas-south-arena-2-13-2027--concerts-country-and-folk/production/7490211",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -979,7 +979,7 @@
         "event_id": 7490217,
         "url": "https://www.vividseats.com/billy-strings-tickets-nashville-bridgestone-arena-2-20-2027--concerts-country-and-folk/production/7490217",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "stubhub": {

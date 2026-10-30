@@ -447,7 +447,7 @@
         "event_id": 7512477,
         "url": "https://www.vividseats.com/fuerza-regida-tickets-fresno-save-mart-center-10-27-2026--concerts-latin-music/production/7512477",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -458,25 +458,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8247043",
-        "url": "https://www.ticketnetwork.com/en/p/8247043",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8247043",
-        "url": "https://www.ticketliquidator.com/tickets/8247043/Fuerza-Regida-tickets-Tue-Oct-27-2026-Save-Mart-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_89-ysvr",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8247043",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8247043/Fuerza-Regida-tickets-Tue-Oct-27-2026-Save-Mart-Center",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -519,7 +519,7 @@
         "event_id": 7412141,
         "url": "https://www.vividseats.com/fuerza-regida-tickets-fresno-save-mart-center-10-28-2026/production/7412141",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -530,11 +530,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8194525",
-        "url": "https://www.ticketnetwork.com/en/p/8194525",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8194525",
@@ -547,7 +547,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_8KYS-gG",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194525",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194525/Fuerza-Regida-tickets-Wed-Oct-28-2026-Save-Mart-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -565,7 +565,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E0065069F17A250",
     "ticketmaster_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-west-valley-city-utah-10-31-2026/event/1E0065069F17A250",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fuerza-regida-tickets/west-valley-city-utah-maverik-center-2026-10-31-8-30-pm/concert/18470200",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-west-valley-city-utah-10-31-2026/event/1E0065069F17A250",
@@ -581,11 +581,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18470200,
+        "url": "https://seatgeek.com/fuerza-regida-tickets/west-valley-city-utah-maverik-center-2026-10-31-8-30-pm/concert/18470200",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -654,7 +654,7 @@
         "event_id": 7412161,
         "url": "https://www.vividseats.com/fuerza-regida-tickets-morrison-red-rocks-amphitheatre-11-2-2026/production/7412161",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -734,7 +734,7 @@
         "event_id": 7416945,
         "url": "https://www.vividseats.com/fuerza-regida-tickets-morrison-red-rocks-amphitheatre-11-3-2026/production/7416945",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1105,7 +1105,7 @@
         "event_id": "107671609",
         "url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-1-2-2027/event/107671609",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       }
     },

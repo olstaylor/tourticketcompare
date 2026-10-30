@@ -1,0 +1,3071 @@
+[
+  {
+    "id": "tm-calvin-harris-2026-las-vegas-z7r9jz1aav9ui",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris (21 and Over)",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "XS Nightclub at Wynn Las Vegas",
+    "datetime_iso": "2026-11-08T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv9uI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv9uI",
+        "discovery_event_id": "Z7r9jZ1AAv9uI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8256057",
+        "url": "https://www.ticketnetwork.com/en/p/8256057",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv9uI",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256057"
+  },
+  {
+    "id": "tm-calvin-harris-2026-las-vegas-z7r9jz1aav9um",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris (21 and Over)",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "XS Nightclub at Wynn Las Vegas",
+    "datetime_iso": "2026-11-22T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv9uM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uM",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/las-vegas-nevada-xs-nightclub-at-encore-5-2026-11-21-10-30-pm/concert/18701919",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uM",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv9uM",
+        "discovery_event_id": "Z7r9jZ1AAv9uM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18701919,
+        "url": "https://seatgeek.com/calvin-harris-tickets/las-vegas-nevada-xs-nightclub-at-encore-5-2026-11-21-10-30-pm/concert/18701919",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8256058",
+        "url": "https://www.ticketnetwork.com/en/p/8256058",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv9uM",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256058"
+  },
+  {
+    "id": "tm-calvin-harris-2027-las-vegas-z7r9jz1aaeaa4",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris (21 and Over)",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "XS Nightclub at Wynn Las Vegas",
+    "datetime_iso": "2027-01-01T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeAA4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAA4",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/las-vegas-nevada-xs-nightclub-at-encore-5-2026-12-31-10-30-pm/concert/18701921",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAA4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeAA4",
+        "discovery_event_id": "Z7r9jZ1AAeAA4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAA4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18701921,
+        "url": "https://seatgeek.com/calvin-harris-tickets/las-vegas-nevada-xs-nightclub-at-encore-5-2026-12-31-10-30-pm/concert/18701921",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8309899",
+        "url": "https://www.ticketnetwork.com/en/p/8309899",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeAA4",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8309899"
+  },
+  {
+    "id": "tm-calvin-harris-2027-perth-1avgz_kjvv7zd8va",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - Australia Tour 2027",
+    "city": "Perth",
+    "country": "Australia",
+    "venue": "Langley Park",
+    "datetime_iso": "2027-02-17T10:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300653981044F08",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-perth-17-02-2027/event/1300653981044F08",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-perth-17-02-2027/event/1300653981044F08",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300653981044F08",
+        "discovery_event_id": "1avGZ_KJvv7Zd8va",
+        "url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-perth-17-02-2027/event/1300653981044F08",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1avGZ_KJvv7Zd8va",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-calvin-harris-2027-perth-1avgz_3gkxss4fp",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - Australia Tour 2027",
+    "city": "Perth",
+    "country": "Australia",
+    "venue": "Langley Park",
+    "datetime_iso": "2027-02-18T10:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300652FB1CD5525",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-perth-18-02-2027/event/1300652FB1CD5525",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-perth-18-02-2027/event/1300652FB1CD5525",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300652FB1CD5525",
+        "discovery_event_id": "1AvGZ_3GkXsS4fP",
+        "url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-perth-18-02-2027/event/1300652FB1CD5525",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_3GkXsS4fP",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-calvin-harris-2027-bowen-hills-1avgz_3gkxc-fur",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - Australia Tour 2027",
+    "city": "Bowen Hills",
+    "country": "Australia",
+    "venue": "Brisbane Showgrounds",
+    "datetime_iso": "2027-02-19T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300652FAD854D9E",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-bowen-hills-19-02-2027/event/1300652FAD854D9E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-bowen-hills-19-02-2027/event/1300652FAD854D9E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300652FAD854D9E",
+        "discovery_event_id": "1AvGZ_3GkXc-fUr",
+        "url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-bowen-hills-19-02-2027/event/1300652FAD854D9E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_3GkXc-fUr",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-calvin-harris-2027-sydney-1avgz_3gkxct3en",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - Australia Tour 2027",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "The Domain",
+    "datetime_iso": "2027-02-20T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300652F8EFD20A3",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-20-02-2027/event/1300652F8EFD20A3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-20-02-2027/event/1300652F8EFD20A3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300652F8EFD20A3",
+        "discovery_event_id": "1AvGZ_3GkXCT3eN",
+        "url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-20-02-2027/event/1300652F8EFD20A3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_3GkXCT3eN",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-calvin-harris-2027-sydney-1avgz_3gkt8zbnw",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - Australia Tour 2027",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "The Domain",
+    "datetime_iso": "2027-02-21T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300652FD003AABD",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-21-02-2027/event/1300652FD003AABD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-21-02-2027/event/1300652FD003AABD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300652FD003AABD",
+        "discovery_event_id": "1AvGZ_3GkT8ZBnW",
+        "url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-21-02-2027/event/1300652FD003AABD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_3GkT8ZBnW",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-calvin-harris-2027-sydney-1akzkfmgkdbb5z5",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - Australia Tour 2027",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "The Domain",
+    "datetime_iso": "2027-02-22T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006537D860BE0B",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-22-02-2027/event/13006537D860BE0B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-22-02-2027/event/13006537D860BE0B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006537D860BE0B",
+        "discovery_event_id": "1AKZkfMGkdbb5z5",
+        "url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-22-02-2027/event/13006537D860BE0B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkfMGkdbb5z5",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-calvin-harris-2027-sydney-1akzkfmgkdbrdyf",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - Australia Tour 2027",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "The Domain",
+    "datetime_iso": "2027-02-23T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006537D87BBE48",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-23-02-2027/event/13006537D87BBE48",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-23-02-2027/event/13006537D87BBE48",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006537D87BBE48",
+        "discovery_event_id": "1AKZkfMGkdbrDyF",
+        "url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-23-02-2027/event/13006537D87BBE48",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkfMGkdbrDyF",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-calvin-harris-2027-sydney-1akzkfugkdxptn8",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - Australia Tour 2027",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "The Domain",
+    "datetime_iso": "2027-02-24T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006536E29698D0",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-24-02-2027/event/13006536E29698D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-24-02-2027/event/13006536E29698D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006536E29698D0",
+        "discovery_event_id": "1AKZkfUGkdxPtN8",
+        "url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-24-02-2027/event/13006536E29698D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkfUGkdxPtN8",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-calvin-harris-2027-flemington-1apzkfugkdpmniz",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - Australia Tour 2027",
+    "city": "Flemington",
+    "country": "Australia",
+    "venue": "Flemington Racecourse",
+    "datetime_iso": "2027-02-25T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006536E5BAAB00",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-flemington-25-02-2027/event/25006536E5BAAB00",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-flemington-25-02-2027/event/25006536E5BAAB00",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006536E5BAAB00",
+        "discovery_event_id": "1APZkfUGkdPmniZ",
+        "url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-flemington-25-02-2027/event/25006536E5BAAB00",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZkfUGkdPmniZ",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-calvin-harris-2027-flemington-1aefz_3gkxmmgx4",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - Australia Tour 2027",
+    "city": "Flemington",
+    "country": "Australia",
+    "venue": "Flemington Racecourse",
+    "datetime_iso": "2027-02-26T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500652FAEBB5F95",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-flemington-26-02-2027/event/2500652FAEBB5F95",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-flemington-26-02-2027/event/2500652FAEBB5F95",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500652FAEBB5F95",
+        "discovery_event_id": "1AefZ_3GkXmmgX4",
+        "url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-flemington-26-02-2027/event/2500652FAEBB5F95",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_3GkXmmgX4",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-calvin-harris-2027-flemington-16efz_kefg7nkeo",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - Australia Tour 2027",
+    "city": "Flemington",
+    "country": "Australia",
+    "venue": "Flemington Racecourse",
+    "datetime_iso": "2027-02-28T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500653094A93091",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-flemington-28-02-2027/event/2500653094A93091",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-flemington-28-02-2027/event/2500653094A93091",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500653094A93091",
+        "discovery_event_id": "16efZ_KefG7nKeo",
+        "url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-flemington-28-02-2027/event/2500653094A93091",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16efZ_KefG7nKeo",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-calvin-harris-2027-boston-vv117z_47a1fa9",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2027-04-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100655109288157",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-03-31-2027/event/0100655109288157",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-boston-td-garden-3-31-2027--concerts-dance-electronica/production/7727463",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-03-31-2027/event/0100655109288157",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100655109288157",
+        "discovery_event_id": "vv117Z_47a1FA9",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-03-31-2027/event/0100655109288157",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7727463,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-boston-td-garden-3-31-2027--concerts-dance-electronica/production/7727463",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8332831",
+        "url": "https://www.ticketnetwork.com/en/p/8332831",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678077",
+        "url": "https://www.stubhub.ie/calvin-harris-boston-tickets-3-31-2027/event/107678077",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv117Z_47a1FA9",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332831",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-3-31-2027/event/107678077"
+  },
+  {
+    "id": "tm-calvin-harris-2027-boston-vv1a8vp3aga2khl4",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2027-04-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065489F19B7D5",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-04-01-2027/event/010065489F19B7D5",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-boston-td-garden-4-1-2027--concerts-dance-electronica/production/7697402",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-04-01-2027/event/010065489F19B7D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065489F19B7D5",
+        "discovery_event_id": "vv1A8vP3aGA2khL4",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-04-01-2027/event/010065489F19B7D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7697402,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-boston-td-garden-4-1-2027--concerts-dance-electronica/production/7697402",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319872",
+        "url": "https://www.ticketnetwork.com/en/p/8319872",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673765",
+        "url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-1-2027/event/107673765",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vP3aGA2khL4",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319872",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-1-2027/event/107673765"
+  },
+  {
+    "id": "tm-calvin-harris-2027-baltimore-1ka8vp3_ga2r9p0",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "CFG Bank Arena",
+    "datetime_iso": "2027-04-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150065499F7975A4",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-baltimore-maryland-04-02-2027/event/150065499F7975A4",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-baltimore-cfg-bank-arena-4-2-2027--concerts-dance-electronica/production/7697391",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-baltimore-maryland-04-02-2027/event/150065499F7975A4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150065499F7975A4",
+        "discovery_event_id": "1kA8vP3_GA2r9p0",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-baltimore-maryland-04-02-2027/event/150065499F7975A4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7697391,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-baltimore-cfg-bank-arena-4-2-2027--concerts-dance-electronica/production/7697391",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319873",
+        "url": "https://www.ticketnetwork.com/en/p/8319873",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674374",
+        "url": "https://www.stubhub.ie/calvin-harris-baltimore-tickets-4-2-2027/event/107674374",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kA8vP3_GA2r9p0",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319873",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-baltimore-tickets-4-2-2027/event/107674374"
+  },
+  {
+    "id": "tm-calvin-harris-2027-boston-vv1a8vp49ga5l0kw",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2027-04-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065557B7E41BD",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-04-04-2027/event/010065557B7E41BD",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-boston-td-garden-4-4-2027/production/7742575",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-04-04-2027/event/010065557B7E41BD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065557B7E41BD",
+        "discovery_event_id": "vv1A8vP49GA5L0kW",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-04-04-2027/event/010065557B7E41BD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7742575,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-boston-td-garden-4-4-2027/production/7742575",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8336942",
+        "url": "https://www.ticketnetwork.com/en/p/8336942",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678078",
+        "url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-4-2027/event/107678078",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vP49GA5L0kW",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336942",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-4-2027/event/107678078"
+  },
+  {
+    "id": "tm-calvin-harris-2027-brooklyn-16yzk4k-yza5e8ka",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2027-04-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006553879A1F54",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-06-2027/event/30006553879A1F54",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-6-2027/production/7727404",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-06-2027/event/30006553879A1F54",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006553879A1F54",
+        "discovery_event_id": "16YZk4K-yZA5e8kA",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-06-2027/event/30006553879A1F54",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7727404,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-6-2027/production/7727404",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8332603",
+        "url": "https://www.ticketnetwork.com/en/p/8332603",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678079",
+        "url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-6-2027/event/107678079",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16YZk4K-yZA5e8kA",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332603",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-6-2027/event/107678079"
+  },
+  {
+    "id": "tm-calvin-harris-2027-brooklyn-16dzz_4c6g7nsw_",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2027-04-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000655387AB1F59",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-07-2027/event/3000655387AB1F59",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-7-2027--concerts-dance-electronica/production/7727467",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-07-2027/event/3000655387AB1F59",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000655387AB1F59",
+        "discovery_event_id": "16dZZ_4C6G7nsW_",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-07-2027/event/3000655387AB1F59",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7727467,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-7-2027--concerts-dance-electronica/production/7727467",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8332913",
+        "url": "https://www.ticketnetwork.com/en/p/8332913",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675887",
+        "url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-7-2027/event/107675887",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dZZ_4C6G7nsW_",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332913",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-7-2027/event/107675887"
+  },
+  {
+    "id": "tm-calvin-harris-2027-philadelphia-1ayzk4agkew8jvi",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Xfinity Mobile Arena",
+    "datetime_iso": "2027-04-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006549BD426068",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-philadelphia-pennsylvania-04-08-2027/event/30006549BD426068",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-philadelphia-xfinity-mobile-arena-4-8-2027--concerts-dance-electronica/production/7697396",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-philadelphia-pennsylvania-04-08-2027/event/30006549BD426068",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006549BD426068",
+        "discovery_event_id": "1AYZk4aGkeW8JvI",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-philadelphia-pennsylvania-04-08-2027/event/30006549BD426068",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7697396,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-philadelphia-xfinity-mobile-arena-4-8-2027--concerts-dance-electronica/production/7697396",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319874",
+        "url": "https://www.ticketnetwork.com/en/p/8319874",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674366",
+        "url": "https://www.stubhub.ie/calvin-harris-philadelphia-tickets-4-8-2027/event/107674366",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AYZk4aGkeW8JvI",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319874",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-philadelphia-tickets-4-8-2027/event/107674366"
+  },
+  {
+    "id": "tm-calvin-harris-2027-brooklyn-1ayzk4fgkeyujwu",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2027-04-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006548B9DA6C8D",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-09-2027/event/30006548B9DA6C8D",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-9-2027--concerts-dance-electronica/production/7697398",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-09-2027/event/30006548B9DA6C8D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006548B9DA6C8D",
+        "discovery_event_id": "1AYZk4FGkeyUJwu",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-09-2027/event/30006548B9DA6C8D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7697398,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-9-2027--concerts-dance-electronica/production/7697398",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319875",
+        "url": "https://www.ticketnetwork.com/en/p/8319875",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674362",
+        "url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-9-2027/event/107674362",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AYZk4FGkeyUJwu",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319875",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-9-2027/event/107674362"
+  },
+  {
+    "id": "tm-calvin-harris-2027-brooklyn-16yzk4ov9zau1f7g",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2027-04-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006551057C973B",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-10-2027/event/30006551057C973B",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-10-2027/production/7722849",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-10-2027/event/30006551057C973B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006551057C973B",
+        "discovery_event_id": "16YZk4ov9ZAu1F7G",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-10-2027/event/30006551057C973B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7722849,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-10-2027/production/7722849",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8330028",
+        "url": "https://www.ticketnetwork.com/en/p/8330028",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677355",
+        "url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-10-2027/event/107677355",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16YZk4ov9ZAu1F7G",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330028",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-10-2027/event/107677355"
+  },
+  {
+    "id": "tm-calvin-harris-2027-toronto-1a8zk4fgkevlxcb",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2027-04-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006548B4AFEB7A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-toronto-ontario-04-12-2027/event/10006548B4AFEB7A",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-toronto-scotiabank-arena-4-12-2027--concerts-dance-electronica/production/7697406",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-toronto-ontario-04-12-2027/event/10006548B4AFEB7A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006548B4AFEB7A",
+        "discovery_event_id": "1A8Zk4FGkeVlXcB",
+        "url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-toronto-ontario-04-12-2027/event/10006548B4AFEB7A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7697406,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-toronto-scotiabank-arena-4-12-2027--concerts-dance-electronica/production/7697406",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4FGkeVlXcB",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-calvin-harris-2027-montreal-1ad7z_fxfqwzdua5",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Centre Bell",
+    "datetime_iso": "2027-04-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100654888772C8A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-montreal-quebec-04-16-2027/event/3100654888772C8A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-montreal-quebec-04-16-2027/event/3100654888772C8A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100654888772C8A",
+        "discovery_event_id": "1ad7Z_fxFqwZdua5",
+        "url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-montreal-quebec-04-16-2027/event/3100654888772C8A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319891",
+        "url": "https://www.ticketnetwork.com/en/p/8319891",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ad7Z_fxFqwZdua5",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319891"
+  },
+  {
+    "id": "tm-calvin-harris-2027-hamilton-1a8zk4agkd5cdnl",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Hamilton",
+    "country": "Canada",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2027-04-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006549CB383A9F",
+    "ticketmaster_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-hamilton-ontario-04-17-2027/event/10006549CB383A9F",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-hamilton-td-coliseum-4-17-2027/production/7697514",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-hamilton-ontario-04-17-2027/event/10006549CB383A9F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006549CB383A9F",
+        "discovery_event_id": "1A8Zk4aGkd5CdnL",
+        "url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-hamilton-ontario-04-17-2027/event/10006549CB383A9F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7697514,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-hamilton-td-coliseum-4-17-2027/production/7697514",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4aGkd5CdnL",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-calvin-harris-2027-houston-z7r9jz1aa76pk",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2027-04-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA76Pk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76Pk",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/houston-texas-toyota-center-2027-04-23-8-pm/concert/18674838",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-houston-toyota-center---tx-4-23-2027--concerts-dance-electronica/production/7697373",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76Pk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA76Pk",
+        "discovery_event_id": "Z7r9jZ1AA76Pk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76Pk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18674838,
+        "url": "https://seatgeek.com/calvin-harris-tickets/houston-texas-toyota-center-2027-04-23-8-pm/concert/18674838",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7697373,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-houston-toyota-center---tx-4-23-2027--concerts-dance-electronica/production/7697373",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319876",
+        "url": "https://www.ticketnetwork.com/en/p/8319876",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA76Pk",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319876"
+  },
+  {
+    "id": "tm-calvin-harris-2027-fort-worth-vvg1yz_flvwxhm",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Ariat Arena",
+    "datetime_iso": "2027-04-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006547F4CBE6F7",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-fort-worth-texas-04-24-2027/event/0C006547F4CBE6F7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-fort-worth-texas-04-24-2027/event/0C006547F4CBE6F7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006547F4CBE6F7",
+        "discovery_event_id": "vvG1YZ_fLVwXhM",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-fort-worth-texas-04-24-2027/event/0C006547F4CBE6F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319878",
+        "url": "https://www.ticketnetwork.com/en/p/8319878",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_fLVwXhM",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319878"
+  },
+  {
+    "id": "tm-calvin-harris-2027-austin-g5diz_fjhnaqg",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2027-04-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006549BC8C568C",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-austin-texas-04-25-2027/event/3A006549BC8C568C",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-austin-moody-center-atx-4-25-2027--concerts-dance-electronica/production/7697360",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-austin-texas-04-25-2027/event/3A006549BC8C568C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006549BC8C568C",
+        "discovery_event_id": "G5dIZ_fJHNAQG",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-austin-texas-04-25-2027/event/3A006549BC8C568C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7697360,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-austin-moody-center-atx-4-25-2027--concerts-dance-electronica/production/7697360",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319880",
+        "url": "https://www.ticketnetwork.com/en/p/8319880",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673761",
+        "url": "https://www.stubhub.ie/calvin-harris-austin-tickets-4-25-2027/event/107673761",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_fJHNAQG",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319880",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-austin-tickets-4-25-2027/event/107673761"
+  },
+  {
+    "id": "tm-calvin-harris-2027-saint-paul-z7r9jz1aa76pf",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Saint Paul",
+    "country": "United States Of America",
+    "venue": "Grand Casino Arena",
+    "datetime_iso": "2027-04-30T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA76PF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76PF",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/saint-paul-minnesota-grand-casino-arena-2027-04-29-8-pm/concert/18665651",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-saint-paul-grand-casino-arena-4-29-2027--concerts-dance-electronica/production/7697379",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76PF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA76PF",
+        "discovery_event_id": "Z7r9jZ1AA76PF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76PF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18665651,
+        "url": "https://seatgeek.com/calvin-harris-tickets/saint-paul-minnesota-grand-casino-arena-2027-04-29-8-pm/concert/18665651",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7697379,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-saint-paul-grand-casino-arena-4-29-2027--concerts-dance-electronica/production/7697379",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319881",
+        "url": "https://www.ticketnetwork.com/en/p/8319881",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677510",
+        "url": "https://www.stubhub.ie/calvin-harris-saint-paul-tickets-4-29-2027/event/107677510",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA76PF",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319881",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-saint-paul-tickets-4-29-2027/event/107677510"
+  },
+  {
+    "id": "tm-calvin-harris-2027-chicago-vv1a7zk4fgkdzmu0d",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-05-01T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006548C0DCD93B",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-chicago-illinois-04-30-2027/event/04006548C0DCD93B",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-chicago-united-center-4-30-2027--concerts-dance-electronica/production/7697375",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-chicago-illinois-04-30-2027/event/04006548C0DCD93B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006548C0DCD93B",
+        "discovery_event_id": "vv1A7Zk4FGkdZMu0D",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-chicago-illinois-04-30-2027/event/04006548C0DCD93B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7697375,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-chicago-united-center-4-30-2027--concerts-dance-electronica/production/7697375",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319882",
+        "url": "https://www.ticketnetwork.com/en/p/8319882",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673764",
+        "url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-4-30-2027/event/107673764",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7Zk4FGkdZMu0D",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319882",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-4-30-2027/event/107673764"
+  },
+  {
+    "id": "tm-calvin-harris-2027-chicago-vv167zk4319zac1ud5",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-05-03T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006552297D9C2A",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-chicago-illinois-05-02-2027/event/04006552297D9C2A",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-chicago-united-center-5-2-2027--concerts-dance-electronica/production/7727680",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-chicago-illinois-05-02-2027/event/04006552297D9C2A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006552297D9C2A",
+        "discovery_event_id": "vv167Zk4319ZAC1ud5",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-chicago-illinois-05-02-2027/event/04006552297D9C2A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7727680,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-chicago-united-center-5-2-2027--concerts-dance-electronica/production/7727680",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333136",
+        "url": "https://www.ticketnetwork.com/en/p/8333136",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675891",
+        "url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-5-2-2027/event/107675891",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv167Zk4319ZAC1ud5",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333136",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-5-2-2027/event/107675891"
+  },
+  {
+    "id": "tm-calvin-harris-2027-salt-lake-city-z7r9jz1aa76p8",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Delta Center",
+    "datetime_iso": "2027-05-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA76P8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76P8",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/salt-lake-city-utah-delta-center-1-2027-05-05-8-pm/concert/18659029",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-salt-lake-city-delta-center-5-5-2027--concerts-dance-electronica/production/7697381",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76P8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA76P8",
+        "discovery_event_id": "Z7r9jZ1AA76P8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76P8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18659029,
+        "url": "https://seatgeek.com/calvin-harris-tickets/salt-lake-city-utah-delta-center-1-2027-05-05-8-pm/concert/18659029",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7697381,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-salt-lake-city-delta-center-5-5-2027--concerts-dance-electronica/production/7697381",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319883",
+        "url": "https://www.ticketnetwork.com/en/p/8319883",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107674370",
+        "url": "https://www.stubhub.ie/calvin-harris-salt-lake-city-tickets-5-5-2027/event/107674370",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA76P8",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319883",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-salt-lake-city-tickets-5-5-2027/event/107674370"
+  },
+  {
+    "id": "tm-calvin-harris-2027-oakland-g5vyz_fh6tm8u",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2027-05-08T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006546C7A6E40D",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-07-2027/event/1C006546C7A6E40D",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-oakland-oakland-arena-5-7-2027--concerts-dance-electronica/production/7697400",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-07-2027/event/1C006546C7A6E40D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006546C7A6E40D",
+        "discovery_event_id": "G5vYZ_fh6tm8u",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-07-2027/event/1C006546C7A6E40D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7697400,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-oakland-oakland-arena-5-7-2027--concerts-dance-electronica/production/7697400",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319885",
+        "url": "https://www.ticketnetwork.com/en/p/8319885",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673758",
+        "url": "https://www.stubhub.ie/calvin-harris-oakland-tickets-5-7-2027/event/107673758",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_fh6tm8u",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319885",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-oakland-tickets-5-7-2027/event/107673758"
+  },
+  {
+    "id": "tm-calvin-harris-2027-oakland-g5vyz_4drjlsj",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2027-05-09T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006550EF72BC66",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-08-2027/event/1C006550EF72BC66",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-oakland-oakland-arena-5-8-2027/production/7728777",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-08-2027/event/1C006550EF72BC66",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006550EF72BC66",
+        "discovery_event_id": "G5vYZ_4dRjlsJ",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-08-2027/event/1C006550EF72BC66",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7728777,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-oakland-oakland-arena-5-8-2027/production/7728777",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333276",
+        "url": "https://www.ticketnetwork.com/en/p/8333276",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_4dRjlsJ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333276"
+  },
+  {
+    "id": "tm-calvin-harris-2027-oakland-g5vyz_4cwzdxp",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2027-05-10T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006553BDE03896",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-09-2027/event/1C006553BDE03896",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-oakland-oakland-arena-5-9-2027/production/7728807",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-09-2027/event/1C006553BDE03896",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006553BDE03896",
+        "discovery_event_id": "G5vYZ_4CWzdxp",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-09-2027/event/1C006553BDE03896",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7728807,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-oakland-oakland-arena-5-9-2027/production/7728807",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333281",
+        "url": "https://www.ticketnetwork.com/en/p/8333281",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_4CWzdxp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333281"
+  },
+  {
+    "id": "tm-calvin-harris-2027-seattle-vvg1hz_fjlgmb1",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-05-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0065499FD7760A",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-seattle-washington-05-14-2027/event/0F0065499FD7760A",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-seattle-climate-pledge-arena-5-14-2027--concerts-dance-electronica/production/7697404",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-seattle-washington-05-14-2027/event/0F0065499FD7760A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0065499FD7760A",
+        "discovery_event_id": "vvG1HZ_fJLgMb1",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-seattle-washington-05-14-2027/event/0F0065499FD7760A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7697404,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-seattle-climate-pledge-arena-5-14-2027--concerts-dance-electronica/production/7697404",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319886",
+        "url": "https://www.ticketnetwork.com/en/p/8319886",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673763",
+        "url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-14-2027/event/107673763",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_fJLgMb1",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319886",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-14-2027/event/107673763"
+  },
+  {
+    "id": "tm-calvin-harris-2027-seattle-vvg1hz_48c3k9c",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-05-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0065540E4935CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-seattle-washington-05-15-2027/event/0F0065540E4935CE",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-seattle-climate-pledge-arena-5-15-2027/production/7744012",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-seattle-washington-05-15-2027/event/0F0065540E4935CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0065540E4935CE",
+        "discovery_event_id": "vvG1HZ_48C3K9C",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-seattle-washington-05-15-2027/event/0F0065540E4935CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7744012,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-seattle-climate-pledge-arena-5-15-2027/production/7744012",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8336941",
+        "url": "https://www.ticketnetwork.com/en/p/8336941",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675892",
+        "url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-15-2027/event/107675892",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_48C3K9C",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336941",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-15-2027/event/107675892"
+  },
+  {
+    "id": "tm-calvin-harris-2027-vancouver-1aozk46gkdf4hov",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-05-17T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006547C855B801",
+    "ticketmaster_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-vancouver-british-columbia-05-16-2027/event/11006547C855B801",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-vancouver-rogers-arena-5-16-2027--concerts-dance-electronica/production/7697417",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-vancouver-british-columbia-05-16-2027/event/11006547C855B801",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006547C855B801",
+        "discovery_event_id": "1AoZk46GkdF4hOv",
+        "url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-vancouver-british-columbia-05-16-2027/event/11006547C855B801",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7697417,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-vancouver-rogers-arena-5-16-2027--concerts-dance-electronica/production/7697417",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319893",
+        "url": "https://www.ticketnetwork.com/en/p/8319893",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk46GkdF4hOv",
+    "timezone": "America/Vancouver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319893"
+  },
+  {
+    "id": "tm-calvin-harris-2027-vancouver-1k78vpfmgagddrz",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-05-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110065537CEC3BC0",
+    "ticketmaster_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-vancouver-british-columbia-05-17-2027/event/110065537CEC3BC0",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-vancouver-rogers-arena-5-17-2027/production/7743249",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-vancouver-british-columbia-05-17-2027/event/110065537CEC3BC0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110065537CEC3BC0",
+        "discovery_event_id": "1k78vPfMGAGDdRZ",
+        "url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-vancouver-british-columbia-05-17-2027/event/110065537CEC3BC0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7743249,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-vancouver-rogers-arena-5-17-2027/production/7743249",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8336944",
+        "url": "https://www.ticketnetwork.com/en/p/8336944",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vPfMGAGDdRZ",
+    "timezone": "America/Vancouver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336944"
+  },
+  {
+    "id": "tm-calvin-harris-2027-anaheim-vv1aazk44gkdgr8bi",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-05-21T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006555CCBD0EA8",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-anaheim-california-05-20-2027/event/09006555CCBD0EA8",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-anaheim-honda-center-5-20-2027/production/7745730",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-anaheim-california-05-20-2027/event/09006555CCBD0EA8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006555CCBD0EA8",
+        "discovery_event_id": "vv1AaZk44GkdGR8BI",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-anaheim-california-05-20-2027/event/09006555CCBD0EA8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7745730,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-anaheim-honda-center-5-20-2027/production/7745730",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337412",
+        "url": "https://www.ticketnetwork.com/en/p/8337412",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675893",
+        "url": "https://www.stubhub.ie/calvin-harris-anaheim-tickets-5-20-2027/event/107675893",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZk44GkdGR8BI",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337412",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-anaheim-tickets-5-20-2027/event/107675893"
+  },
+  {
+    "id": "tm-calvin-harris-2027-san-diego-vvg1iz_fqlbaqn",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2027-05-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0065469F60976A",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-21-2027/event/0A0065469F60976A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-21-2027/event/0A0065469F60976A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0065469F60976A",
+        "discovery_event_id": "vvG1IZ_fQLbaqn",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-21-2027/event/0A0065469F60976A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319887",
+        "url": "https://www.ticketnetwork.com/en/p/8319887",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_fQLbaqn",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319887"
+  },
+  {
+    "id": "tm-calvin-harris-2027-san-diego-vvg1iz_4dbvmwb",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2027-05-23T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006550FA06EF7A",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-22-2027/event/0A006550FA06EF7A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-22-2027/event/0A006550FA06EF7A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006550FA06EF7A",
+        "discovery_event_id": "vvG1IZ_4dBvmWB",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-22-2027/event/0A006550FA06EF7A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333282",
+        "url": "https://www.ticketnetwork.com/en/p/8333282",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_4dBvmWB",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333282"
+  },
+  {
+    "id": "tm-calvin-harris-2027-san-diego-vvg1iz_45bbb-k",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2027-05-24T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006552D8618846",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-23-2027/event/0A006552D8618846",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-23-2027/event/0A006552D8618846",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006552D8618846",
+        "discovery_event_id": "vvG1IZ_45bbb-k",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-23-2027/event/0A006552D8618846",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333283",
+        "url": "https://www.ticketnetwork.com/en/p/8333283",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_45bbb-k",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333283"
+  },
+  {
+    "id": "tm-calvin-harris-2027-inglewood-vv1f0z_48vcazd8d1",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2027-05-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900655401385F29",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-26-2027/event/0900655401385F29",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-26-2027/production/7743385",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-26-2027/event/0900655401385F29",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900655401385F29",
+        "discovery_event_id": "vv1F0Z_48vCAZd8d1",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-26-2027/event/0900655401385F29",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7743385,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-26-2027/production/7743385",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8336943",
+        "url": "https://www.ticketnetwork.com/en/p/8336943",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675896",
+        "url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-26-2027/event/107675896",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1F0Z_48vCAZd8d1",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336943",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-26-2027/event/107675896"
+  },
+  {
+    "id": "tm-calvin-harris-2027-inglewood-vv1aazk4fgkebghyq",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2027-05-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006548BAD7CE5D",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-27-2027/event/09006548BAD7CE5D",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-27-2027--concerts-dance-electronica/production/7697385",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-27-2027/event/09006548BAD7CE5D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006548BAD7CE5D",
+        "discovery_event_id": "vv1AaZk4FGkeBgHyq",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-27-2027/event/09006548BAD7CE5D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7697385,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-27-2027--concerts-dance-electronica/production/7697385",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319888",
+        "url": "https://www.ticketnetwork.com/en/p/8319888",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673759",
+        "url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-27-2027/event/107673759",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZk4FGkeBgHyq",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319888",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-27-2027/event/107673759"
+  },
+  {
+    "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd68xic",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2027-05-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006550C743EB0E",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-28-2027/event/09006550C743EB0E",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-28-2027/production/7723105",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-28-2027/event/09006550C743EB0E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006550C743EB0E",
+        "discovery_event_id": "vv1AaZk48Gkd68XiC",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-28-2027/event/09006550C743EB0E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7723105,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-28-2027/production/7723105",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8330024",
+        "url": "https://www.ticketnetwork.com/en/p/8330024",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677401",
+        "url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-28-2027/event/107677401",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZk48Gkd68XiC",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330024",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-28-2027/event/107677401"
+  },
+  {
+    "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd6fcij",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2027-05-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006550C750EB26",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-29-2027/event/09006550C750EB26",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-29-2027--concerts-dance-electronica/production/7728620",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-29-2027/event/09006550C750EB26",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006550C750EB26",
+        "discovery_event_id": "vv1AaZk48Gkd6fCiJ",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-29-2027/event/09006550C750EB26",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7728620,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-29-2027--concerts-dance-electronica/production/7728620",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333280",
+        "url": "https://www.ticketnetwork.com/en/p/8333280",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675897",
+        "url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-29-2027/event/107675897",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZk48Gkd6fCiJ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333280",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-29-2027/event/107675897"
+  },
+  {
+    "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd69rc1",
+    "artist_slug": "calvin-harris",
+    "artist_name": "Calvin Harris",
+    "event_name": "Calvin Harris - North America Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2027-05-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006550C75DEB4A",
+    "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-30-2027/event/09006550C75DEB4A",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-30-2027--concerts-dance-electronica/production/7728622",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-30-2027/event/09006550C75DEB4A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006550C75DEB4A",
+        "discovery_event_id": "vv1AaZk48Gkd69rc1",
+        "url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-30-2027/event/09006550C75DEB4A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7728622,
+        "url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-30-2027--concerts-dance-electronica/production/7728622",
+        "verified": true,
+        "last_verified_at": "2026-10-29",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333277",
+        "url": "https://www.ticketnetwork.com/en/p/8333277",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675898",
+        "url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-30-2027/event/107675898",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZk48Gkd69rc1",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333277",
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-30-2027/event/107675898"
+  }
+]

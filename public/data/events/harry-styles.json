@@ -1988,7 +1988,7 @@
         "event_id": 6564706,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-28-2026--concerts-pop/production/6564706",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2006,11 +2006,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107083224",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-28-2026/event/107083224",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7695893",
@@ -2023,7 +2023,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfkRzCU",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695893",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-28-2026/event/107083224",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695893/Harry-Styles-tickets-Wed-Oct-28-2026-Madison-Square-Garden",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -2068,7 +2068,7 @@
         "event_id": 6564711,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-30-2026--concerts-pop/production/6564711",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2148,7 +2148,7 @@
         "event_id": 6564719,
         "url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-31-2026--concerts-pop/production/6564719",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2720,6 +2720,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107082955",
+        "url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-27-11-2026/event/107082955",
+        "verified": true,
+        "last_verified_at": "2026-10-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1APZk8UGkd2sm8u",
@@ -2727,7 +2734,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-27-11-2026/event/107082955"
   },
   {
     "id": "tm-harry-styles-2026-docklands-16efz_dckg7slsc",
@@ -3103,7 +3111,7 @@
         "event_id": 7539880,
         "url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-4-23-2027--concerts-pop/production/7539880",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3183,7 +3191,7 @@
         "event_id": 7539882,
         "url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-4-24-2027--concerts-pop/production/7539882",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3256,14 +3264,14 @@
         "event_id": 18579677,
         "url": "https://seatgeek.com/harry-styles-tickets/toronto-canada-rogers-stadium-toronto-2027-05-07-7-45-pm/concert/18579677",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7539896,
         "url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-7-2027--concerts-pop/production/7539896",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3313,14 +3321,14 @@
         "event_id": 18579684,
         "url": "https://seatgeek.com/harry-styles-tickets/toronto-canada-rogers-stadium-toronto-2027-05-08-7-45-pm/concert/18579684",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7539898,
         "url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-8-2027--concerts-pop/production/7539898",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3370,14 +3378,14 @@
         "event_id": 18579683,
         "url": "https://seatgeek.com/harry-styles-tickets/atlanta-georgia-mercedes-benz-stadium-2027-05-21-7-45-pm/concert/18579683",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7539884,
         "url": "https://www.vividseats.com/harry-styles-tickets-atlanta-mercedes-benz-stadium-5-21-2027--concerts-pop/production/7539884",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3450,14 +3458,14 @@
         "event_id": 18579676,
         "url": "https://seatgeek.com/harry-styles-tickets/atlanta-georgia-mercedes-benz-stadium-2027-05-22-7-45-pm/concert/18579676",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7539886,
         "url": "https://www.vividseats.com/harry-styles-tickets-atlanta-mercedes-benz-stadium-5-22-2027--concerts-pop/production/7539886",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3530,14 +3538,14 @@
         "event_id": 18579673,
         "url": "https://seatgeek.com/harry-styles-tickets/chicago-illinois-soldier-field-2027-05-28-7-45-pm/concert/18579673",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7539892,
         "url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-5-28-2027--concerts-pop/production/7539892",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3610,14 +3618,14 @@
         "event_id": 18579687,
         "url": "https://seatgeek.com/harry-styles-tickets/chicago-illinois-soldier-field-2027-05-29-7-45-pm/concert/18579687",
         "verified": true,
-        "last_verified_at": "2026-10-18",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7539894,
         "url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-5-29-2027--concerts-pop/production/7539894",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3697,7 +3705,7 @@
         "event_id": 7539904,
         "url": "https://www.vividseats.com/harry-styles-tickets-madrid-riyadh-air-metropolitano-7-30-2027--concerts-pop/production/7539904",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3753,7 +3761,7 @@
         "event_id": 7539908,
         "url": "https://www.vividseats.com/harry-styles-tickets-madrid-riyadh-air-metropolitano-7-31-2027--concerts-pop/production/7539908",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3921,7 +3929,7 @@
         "event_id": 7539918,
         "url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-25-2027--concerts-pop/production/7539918",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4001,7 +4009,7 @@
         "event_id": 7539920,
         "url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-27-2027--concerts-pop/production/7539920",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4081,7 +4089,7 @@
         "event_id": 7539922,
         "url": "https://www.vividseats.com/harry-styles-tickets-london-wembley-stadium-8-28-2027--concerts-pop/production/7539922",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4210,7 +4218,7 @@
         "event_id": 18516103,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-09-7-45-pm/concert/18516103",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4287,7 +4295,7 @@
         "event_id": 18577780,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-10-7-45-pm/concert/18577780",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4364,7 +4372,7 @@
         "event_id": 18584157,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-16-7-45-pm/concert/18584157",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4448,7 +4456,7 @@
         "event_id": 7559045,
         "url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-4-30-2027/production/7559045",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4528,7 +4536,7 @@
         "event_id": 7559041,
         "url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-5-1-2027/production/7559041",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4601,14 +4609,14 @@
         "event_id": 18592380,
         "url": "https://seatgeek.com/harry-styles-tickets/toronto-canada-rogers-stadium-toronto-2027-05-14-7-45-pm/concert/18592380",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-10-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557449,
         "url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-14-2027--concerts-pop/production/7557449",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4658,14 +4666,14 @@
         "event_id": 18592381,
         "url": "https://seatgeek.com/harry-styles-tickets/toronto-canada-rogers-stadium-toronto-2027-05-15-7-45-pm/concert/18592381",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557455,
         "url": "https://www.vividseats.com/harry-styles-tickets-toronto-rogers-stadium---toronto-5-15-2027--concerts-pop/production/7557455",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4715,14 +4723,14 @@
         "event_id": 18592375,
         "url": "https://seatgeek.com/harry-styles-tickets/chicago-illinois-soldier-field-2027-06-04-7-45-pm/concert/18592375",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7558050,
         "url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-6-4-2027--concerts-pop/production/7558050",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4795,14 +4803,14 @@
         "event_id": 18592376,
         "url": "https://seatgeek.com/harry-styles-tickets/chicago-illinois-soldier-field-2027-06-05-7-45-pm/concert/18592376",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7558044,
         "url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-6-5-2027--concerts-pop/production/7558044",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4882,7 +4890,7 @@
         "event_id": 7556405,
         "url": "https://www.vividseats.com/harry-styles-tickets-madrid-riyadh-air-metropolitano-8-2-2027/production/7556405",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4931,7 +4939,7 @@
         "event_id": 18584154,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-14-7-45-pm/concert/18584154",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -5008,7 +5016,7 @@
         "event_id": 18584160,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-17-7-45-pm/concert/18584160",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -5085,14 +5093,14 @@
         "event_id": 18593728,
         "url": "https://seatgeek.com/harry-styles-tickets/chicago-illinois-soldier-field-2027-05-31-7-45-pm/concert/18593728",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7561430,
         "url": "https://www.vividseats.com/harry-styles-tickets-chicago-soldier-field-5-31-2027--concerts-pop/production/7561430",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5165,14 +5173,14 @@
         "event_id": 18570444,
         "url": "https://seatgeek.com/harry-styles-tickets/glendale-arizona-state-farm-stadium-2027-04-02-7-45-pm/concert/18570444",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7539868,
         "url": "https://www.vividseats.com/harry-styles-tickets-glendale-state-farm-stadium-4-2-2027--concerts-pop/production/7539868",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5242,14 +5250,14 @@
         "event_id": 18577793,
         "url": "https://seatgeek.com/harry-styles-tickets/glendale-arizona-state-farm-stadium-2027-04-03-7-45-pm/concert/18577793",
         "verified": true,
-        "last_verified_at": "2026-10-23",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7539870,
         "url": "https://www.vividseats.com/harry-styles-tickets-glendale-state-farm-stadium-4-3-2027--concerts-pop/production/7539870",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-10-27",
         "availability_status": "listed"
       },
       "stubhub": {

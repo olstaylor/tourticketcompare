@@ -3016,6 +3016,230 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-rufus-du-sol",
     redirectUrl: "https://seatgeek.com/rufus-du-sol-tickets",
     verified: true
+  },
+  "usher:ticketmaster": {
+    artistSlug: "usher",
+    provider: "ticketmaster",
+    linkId: "tm-artist-usher",
+    redirectUrl: "https://www.ticketmaster.com/usher-tickets/artist/766722",
+    verified: true
+  },
+  "usher:seatgeek": {
+    artistSlug: "usher",
+    provider: "seatgeek",
+    linkId: "sg-artist-usher",
+    redirectUrl: "https://seatgeek.com/usher-tickets",
+    verified: true
+  },
+  "illenium:ticketmaster": {
+    artistSlug: "illenium",
+    provider: "ticketmaster",
+    linkId: "tm-artist-illenium",
+    redirectUrl: "https://www.ticketmaster.com/illenium-tickets/artist/2035639",
+    verified: true
+  },
+  "illenium:seatgeek": {
+    artistSlug: "illenium",
+    provider: "seatgeek",
+    linkId: "sg-artist-illenium",
+    redirectUrl: "https://seatgeek.com/illenium-tickets",
+    verified: true
+  },
+  "lola-young:ticketmaster": {
+    artistSlug: "lola-young",
+    provider: "ticketmaster",
+    linkId: "tm-artist-lola-young",
+    redirectUrl: "https://www.ticketmaster.com/lola-young-tickets/artist/2813510",
+    verified: true
+  },
+  "lola-young:seatgeek": {
+    artistSlug: "lola-young",
+    provider: "seatgeek",
+    linkId: "sg-artist-lola-young",
+    redirectUrl: "https://seatgeek.com/lola-young-tickets",
+    verified: true
+  },
+  "james-blunt:ticketmaster": {
+    artistSlug: "james-blunt",
+    provider: "ticketmaster",
+    linkId: "tm-artist-james-blunt",
+    redirectUrl: "https://www.ticketmaster.com/james-blunt-tickets/artist/980710",
+    verified: true
+  },
+  "james-blunt:seatgeek": {
+    artistSlug: "james-blunt",
+    provider: "seatgeek",
+    linkId: "sg-artist-james-blunt",
+    redirectUrl: "https://seatgeek.com/james-blunt-tickets",
+    verified: true
+  },
+  "bryan-adams:ticketmaster": {
+    artistSlug: "bryan-adams",
+    provider: "ticketmaster",
+    linkId: "tm-artist-bryan-adams",
+    redirectUrl: "https://www.ticketmaster.com/bryan-adams-tickets/artist/734390",
+    verified: true
+  },
+  "bryan-adams:seatgeek": {
+    artistSlug: "bryan-adams",
+    provider: "seatgeek",
+    linkId: "sg-artist-bryan-adams",
+    redirectUrl: "https://seatgeek.com/bryan-adams-tickets",
+    verified: true
+  },
+  "megadeth:ticketmaster": {
+    artistSlug: "megadeth",
+    provider: "ticketmaster",
+    linkId: "tm-artist-megadeth",
+    redirectUrl: "https://www.ticketmaster.com/megadeth-tickets/artist/735627",
+    verified: true
+  },
+  "megadeth:seatgeek": {
+    artistSlug: "megadeth",
+    provider: "seatgeek",
+    linkId: "sg-artist-megadeth",
+    redirectUrl: "https://seatgeek.com/megadeth-tickets",
+    verified: true
+  },
+  "simple-plan:ticketmaster": {
+    artistSlug: "simple-plan",
+    provider: "ticketmaster",
+    linkId: "tm-artist-simple-plan",
+    redirectUrl: "https://www.ticketmaster.com/simple-plan-tickets/artist/840419",
+    verified: true
+  },
+  "simple-plan:seatgeek": {
+    artistSlug: "simple-plan",
+    provider: "seatgeek",
+    linkId: "sg-artist-simple-plan",
+    redirectUrl: "https://seatgeek.com/simple-plan-tickets",
+    verified: true
+  },
+  "simply-red:ticketmaster": {
+    artistSlug: "simply-red",
+    provider: "ticketmaster",
+    linkId: "tm-artist-simply-red",
+    redirectUrl: "https://www.ticketmaster.com/simply-red-tickets/artist/736121",
+    verified: true
+  },
+  "simply-red:seatgeek": {
+    artistSlug: "simply-red",
+    provider: "seatgeek",
+    linkId: "sg-artist-simply-red",
+    redirectUrl: "https://seatgeek.com/simply-red-tickets",
+    verified: true
+  },
+  "dropkick-murphys:ticketmaster": {
+    artistSlug: "dropkick-murphys",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dropkick-murphys",
+    redirectUrl: "https://www.ticketmaster.com/dropkick-murphys-tickets/artist/798903",
+    verified: true
+  },
+  "dropkick-murphys:seatgeek": {
+    artistSlug: "dropkick-murphys",
+    provider: "seatgeek",
+    linkId: "sg-artist-dropkick-murphys",
+    redirectUrl: "https://seatgeek.com/dropkick-murphys-tickets",
+    verified: true
+  },
+  "kaleo:ticketmaster": {
+    artistSlug: "kaleo",
+    provider: "ticketmaster",
+    linkId: "tm-artist-kaleo",
+    redirectUrl: "https://www.ticketmaster.com/kaleo-tickets/artist/2091102",
+    verified: true
+  },
+  "kaleo:seatgeek": {
+    artistSlug: "kaleo",
+    provider: "seatgeek",
+    linkId: "sg-artist-kaleo",
+    redirectUrl: "https://seatgeek.com/kaleo-tickets",
+    verified: true
+  },
+  "alex-warren:ticketmaster": {
+    artistSlug: "alex-warren",
+    provider: "ticketmaster",
+    linkId: "tm-artist-alex-warren",
+    redirectUrl: "https://www.ticketmaster.com/alex-warren-tickets/artist/2965178",
+    verified: true
+  },
+  "alex-warren:seatgeek": {
+    artistSlug: "alex-warren",
+    provider: "seatgeek",
+    linkId: "sg-artist-alex-warren",
+    redirectUrl: "https://seatgeek.com/alex-warren-tickets",
+    verified: true
+  },
+  "marc-anthony:ticketmaster": {
+    artistSlug: "marc-anthony",
+    provider: "ticketmaster",
+    linkId: "tm-artist-marc-anthony",
+    redirectUrl: "https://www.ticketmaster.com/marc-anthony-tickets/artist/759949",
+    verified: true
+  },
+  "marc-anthony:seatgeek": {
+    artistSlug: "marc-anthony",
+    provider: "seatgeek",
+    linkId: "sg-artist-marc-anthony",
+    redirectUrl: "https://seatgeek.com/marc-anthony-tickets",
+    verified: true
+  },
+  "calvin-harris:ticketmaster": {
+    artistSlug: "calvin-harris",
+    provider: "ticketmaster",
+    linkId: "tm-artist-calvin-harris",
+    redirectUrl: "https://www.ticketmaster.com/calvin-harris-tickets/artist/1149552",
+    verified: true
+  },
+  "calvin-harris:seatgeek": {
+    artistSlug: "calvin-harris",
+    provider: "seatgeek",
+    linkId: "sg-artist-calvin-harris",
+    redirectUrl: "https://seatgeek.com/calvin-harris-tickets",
+    verified: true
+  },
+  "aespa:ticketmaster": {
+    artistSlug: "aespa",
+    provider: "ticketmaster",
+    linkId: "tm-artist-aespa",
+    redirectUrl: "https://www.ticketmaster.com/aespa-tickets/artist/2887549",
+    verified: true
+  },
+  "aespa:seatgeek": {
+    artistSlug: "aespa",
+    provider: "seatgeek",
+    linkId: "sg-artist-aespa",
+    redirectUrl: "https://seatgeek.com/aespa-tickets",
+    verified: true
+  },
+  "cage-the-elephant:ticketmaster": {
+    artistSlug: "cage-the-elephant",
+    provider: "ticketmaster",
+    linkId: "tm-artist-cage-the-elephant",
+    redirectUrl: "https://www.ticketmaster.com/cage-the-elephant-tickets/artist/1105603",
+    verified: true
+  },
+  "cage-the-elephant:seatgeek": {
+    artistSlug: "cage-the-elephant",
+    provider: "seatgeek",
+    linkId: "sg-artist-cage-the-elephant",
+    redirectUrl: "https://seatgeek.com/cage-the-elephant-tickets",
+    verified: true
+  },
+  "two-door-cinema-club:ticketmaster": {
+    artistSlug: "two-door-cinema-club",
+    provider: "ticketmaster",
+    linkId: "tm-artist-two-door-cinema-club",
+    redirectUrl: "https://www.ticketmaster.com/two-door-cinema-club-tickets/artist/1407642",
+    verified: true
+  },
+  "two-door-cinema-club:seatgeek": {
+    artistSlug: "two-door-cinema-club",
+    provider: "seatgeek",
+    linkId: "sg-artist-two-door-cinema-club",
+    redirectUrl: "https://seatgeek.com/two-door-cinema-club-tickets",
+    verified: true
   }
 };
 

@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70E78",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E78",
     "seatgeek_url": "https://seatgeek.com/treaty-oak-revival-tickets/corpus-christi-texas-concrete-street-amphitheater-2026-10-29-7-pm/concert/18230902",
-    "vividseats_url": "https://www.vividseats.com/treaty-oak-revival-tickets-corpus-christi-concrete-street-amphitheater-10-29-2026--concerts-country-and-folk/production/6997002",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E78",
     "last_verified_at": null,
@@ -30,15 +30,15 @@
         "event_id": 18230902,
         "url": "https://seatgeek.com/treaty-oak-revival-tickets/corpus-christi-texas-concrete-street-amphitheater-2026-10-29-7-pm/concert/18230902",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6997002,
-        "url": "https://www.vividseats.com/treaty-oak-revival-tickets-corpus-christi-concrete-street-amphitheater-10-29-2026--concerts-country-and-folk/production/6997002",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -106,7 +106,7 @@
         "event_id": 7006221,
         "url": "https://www.vividseats.com/treaty-oak-revival-tickets-austin-moody-center-atx-11-12-2026--concerts-country-and-folk/production/7006221",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -256,7 +256,7 @@
         "event_id": 7553279,
         "url": "https://www.vividseats.com/treaty-oak-revival-tickets-tulsa-bok-center-11-21-2026/production/7553279",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-29",
         "availability_status": "listed"
       },
       "stubhub": {

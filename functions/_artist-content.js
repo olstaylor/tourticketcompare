@@ -427,6 +427,26 @@ export function artistFaqEntries(artist, status, options = {}) {
     ]);
   }
 
+  // "What tour is <artist> on?" is answered only from verified tour names on
+  // this board's own dates: tour name, date count, cities and run. Nothing
+  // here comes from outside the verified record, and nothing about price.
+  const tours = Array.isArray(options.tours) ? options.tours : [];
+  if (tours.length) {
+    const described = tours.slice(0, 2).map((tour) => {
+      const start = formatDate(tour.startISO, tour.startTimezone);
+      const end = formatDate(tour.endISO, tour.endTimezone);
+      const run = start && end && start !== end ? `, running ${start} to ${end}` : start ? `, on ${start}` : "";
+      const where = tour.sampleCities.length
+        ? ` in ${tour.cityCount > tour.sampleCities.length ? `${joinList(tour.sampleCities)} and more` : joinList(tour.sampleCities)}`
+        : "";
+      return `${tour.name} (${plural(tour.showCount, "date")}${where}${run})`;
+    });
+    entries.push([
+      `What tour is ${name} on?`,
+      `The ${name} dates listed here are part of ${joinList(described)}. Dates without a verified tour name aren't counted in this answer.`
+    ]);
+  }
+
   // Questions the visible page now answers directly are dropped rather than
   // repeated in the FAQ.
   const SUPERSEDED = [/tour dates\?/i, /prices can i see/i, /prices shown here/i];
@@ -481,6 +501,6 @@ export function buildArtistContentModel(artist, shows, options = {}) {
     tours: deriveTourSummaries(shows),
     help: artistTicketHelp(),
     emptyBoard: artistEmptyBoardCopy(artist, options),
-    faq: artistFaqEntries(artist, status, options)
+    faq: artistFaqEntries(artist, status, { ...options, tours: deriveTourSummaries(shows) })
   };
 }

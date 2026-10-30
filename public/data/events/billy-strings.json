@@ -213,7 +213,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B00647AA462ED67",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-05-2026/event/1B00647AA462ED67",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/new-orleans-louisiana-smoothie-king-center-2026-12-05-7-30-pm/concert/18155651",
     "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-new-orleans-smoothie-king-center-12-5-2026/production/6850482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-05-2026/event/1B00647AA462ED67",
@@ -728,7 +728,7 @@
         "event_id": 18540083,
         "url": "https://seatgeek.com/billy-strings-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2027-02-09-7-30-pm/concert/18540083",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -842,7 +842,7 @@
         "event_id": 18540092,
         "url": "https://seatgeek.com/billy-strings-tickets/duluth-georgia-gas-south-arena-2027-02-13-7-30-pm/concert/18540092",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -972,7 +972,7 @@
         "event_id": 18540094,
         "url": "https://seatgeek.com/billy-strings-tickets/nashville-tennessee-bridgestone-arena-2027-02-20-7-30-pm/concert/18540094",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-10-30",
         "availability_status": "listed"
       },
       "vivid-seats": {

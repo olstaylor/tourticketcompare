@@ -367,6 +367,11 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(text(page.main).replace(/\s/g, " ").includes("Cheapest listed price of 2 priced dates: GBP 182 on Vivid Seats"), "the title's figure is the one the Cheapest panel prints");
   assert(page.html.includes(`<meta property="og:title" content="${page.title}"`) && page.html.includes(`<meta name="twitter:title" content="${page.title}"`), "social titles carry the same title");
   assert(!/"name":"Oasis Ticket Prices 2026: Cheapest/.test(page.html), "JSON-LD keeps the price-free route title");
+  // A check date more than two days old is never quoted in a title.
+  Date.now = () => NOW_MS + 3 * 86400000;
+  const staleTitle = (await render(GUIDE_PATH)).title;
+  Date.now = () => NOW_MS;
+  assert(!/cheapest/i.test(staleTitle), `a price checked three days ago is not put in the title (got ${staleTitle})`);
   // 2026-10-25 (owner OK): the HTML snippet may carry the lead's one chronological,
   // attributed example, in the same shape as the artist-city snippet.
   assert(

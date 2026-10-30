@@ -7199,6 +7199,8 @@ function priceGuideSnippet(route, events, env) {
 // prices are fetched, and only for a pick passing cheapestAcrossDates (two or
 // more priced dates, one currency); otherwise, or if no candidate fits the
 // title budget, the route's own title stands.
+const PRICE_TITLE_MAX_AGE_HOURS = 48;
+
 function priceGuideCheapestTitle(route, events, env) {
   if (route.type !== "price-guide") return "";
   const pick = cheapestAcrossDates(derivePriceGuideView(route, events, env).priceAnswer.rows)[0];
@@ -7206,6 +7208,10 @@ function priceGuideCheapestTitle(route, events, env) {
   const captured = new Date(pick.lane.fetchedAt);
   const price = formatServerPrice(pick.lane.price, pick.lane.currency).replace(/\u00a0/g, " ");
   if (!price || !Number.isFinite(captured.getTime())) return "";
+  // A title is read before the page is, so a stale check date would put
+  // searchers off. Only a price captured in the last two days is quoted.
+  const ageMs = Date.now() - captured.getTime();
+  if (ageMs > PRICE_TITLE_MAX_AGE_HOURS * 3600000 || ageMs < -300000) return "";
   const checked = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", timeZone: "UTC" }).format(captured);
   const name = route.artist.name;
   const year = route.yearLabel ? ` ${route.yearLabel}` : "";

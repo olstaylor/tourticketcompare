@@ -950,5 +950,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284731",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284731/Too-Many-Zooz-tickets-Sat-May-15-2027-The-Pearl-BC"
+  },
+  {
+    "id": "tm-too-many-zooz-2027-oklahoma-city-z7r9jz1aaee-e",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Audio Lipstick Tour",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Beer City Music Hall",
+    "datetime_iso": "2027-05-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAee-e",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAee-e",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAee-e",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAee-e",
+        "discovery_event_id": "Z7r9jZ1AAee-e",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAee-e",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAee-e",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

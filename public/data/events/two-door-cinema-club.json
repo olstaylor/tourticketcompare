@@ -1140,5 +1140,270 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338718"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-chicago-z7r9jz1aa7p88",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club w/ Friendly Fires",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Riviera Theatre- IL",
+    "datetime_iso": "2027-05-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7P88",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P88",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P88",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7P88",
+        "discovery_event_id": "Z7r9jZ1AA7P88",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P88",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7P88",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-st-paul-z7r9jz1aa7p8o",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club (18+ Event)",
+    "city": "St. Paul",
+    "country": "United States Of America",
+    "venue": "Palace Theatre-MN",
+    "datetime_iso": "2027-05-10T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7P8o",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P8o",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P8o",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7P8o",
+        "discovery_event_id": "Z7r9jZ1AA7P8o",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P8o",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7P8o",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-morrison-z7r9jz1aa7p83",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club w/ Friendly Fires",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-12T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7P83",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P83",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P83",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7P83",
+        "discovery_event_id": "Z7r9jZ1AA7P83",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P83",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7P83",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-austin-z7r9jz1aa7p8f",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club w/ Friendly Fires",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "United Heritage Hall",
+    "datetime_iso": "2027-05-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7P8f",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P8f",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P8f",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7P8f",
+        "discovery_event_id": "Z7r9jZ1AA7P8f",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P8f",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7P8f",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-dallas-z7r9jz1aa7p84",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club (16 and Under with Parent or Legal Guardian)",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "The Bomb Factory",
+    "datetime_iso": "2027-05-30T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7P84",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P84",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P84",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7P84",
+        "discovery_event_id": "Z7r9jZ1AA7P84",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P84",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7P84",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

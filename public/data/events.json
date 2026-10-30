@@ -328713,5 +328713,59 @@
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:30:00Z"
+  },
+  {
+    "id": "tm-nickelback-2027-pokolbin-1avgz_4c70szdc8v",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "NICKELBACK \"Everything Under The Sun\" Tour",
+    "city": "Pokolbin",
+    "country": "Australia",
+    "venue": "Roche Estate",
+    "datetime_iso": "2027-10-17T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300655384931DF0",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-pokolbin-17-10-2027/event/1300655384931DF0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-pokolbin-17-10-2027/event/1300655384931DF0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300655384931DF0",
+        "discovery_event_id": "1avGZ_4C70sZdC8v",
+        "url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-pokolbin-17-10-2027/event/1300655384931DF0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1avGZ_4C70sZdC8v",
+    "timezone": "Australia/Sydney",
+    "status": "announced",
+    "public_onsale_at": "2026-11-04T00:00:00Z"
   }
 ]

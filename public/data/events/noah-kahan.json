@@ -1216,12 +1216,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347742",
+        "url": "https://www.ticketnetwork.com/en/p/8347742",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_4GkwloeXg",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T18:00:00Z"
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347742"
   },
   {
     "id": "tm-noah-kahan-2027-tampa-vvg1vz_4rlk1ty",
@@ -1270,12 +1278,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347743",
+        "url": "https://www.ticketnetwork.com/en/p/8347743",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_4RlK1ty",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347743"
   },
   {
     "id": "tm-noah-kahan-2027-charlotte-g5evz_4r3uqrt",
@@ -1324,12 +1340,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347745",
+        "url": "https://www.ticketnetwork.com/en/p/8347745",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_4R3uqrt",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347745"
   },
   {
     "id": "tm-noah-kahan-2027-houston-g5diz_4wkxf3f",
@@ -1378,12 +1402,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347747",
+        "url": "https://www.ticketnetwork.com/en/p/8347747",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_4wkXf3f",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T18:00:00Z"
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347747"
   },
   {
     "id": "tm-noah-kahan-2027-santa-clara-g5vyz_4rfk6c7",
@@ -1432,12 +1464,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347749",
+        "url": "https://www.ticketnetwork.com/en/p/8347749",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4RFk6c7",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T20:00:00Z"
+    "public_onsale_at": "2026-11-12T20:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347749"
   },
   {
     "id": "tm-noah-kahan-2027-las-vegas-1avjz_4gkrmeou0",
@@ -1486,12 +1526,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347750",
+        "url": "https://www.ticketnetwork.com/en/p/8347750",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_4GkRmEoU0",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T20:00:00Z"
+    "public_onsale_at": "2026-11-12T20:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347750"
   },
   {
     "id": "tm-noah-kahan-2027-columbus-vv17fz_4gkshkqmo",
@@ -1540,12 +1588,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347756",
+        "url": "https://www.ticketnetwork.com/en/p/8347756",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_4GkSHkqmO",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347756"
   },
   {
     "id": "tm-noah-kahan-2027-detroit-vv1koz_kr3g7cdve",
@@ -1594,12 +1650,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347757",
+        "url": "https://www.ticketnetwork.com/en/p/8347757",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kOZ_Kr3G7cdVE",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347757"
   },
   {
     "id": "tm-noah-kahan-2027-orchard-park-vv17gz_4gksqg3zl",
@@ -1648,12 +1712,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347758",
+        "url": "https://www.ticketnetwork.com/en/p/8347758",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17GZ_4GkSqG3zl",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347758"
   },
   {
     "id": "tm-noah-kahan-2027-montreal-1aszk4pgkdjhrvf",
@@ -1702,12 +1774,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347760",
+        "url": "https://www.ticketnetwork.com/en/p/8347760",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4pGkdJHrVF",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347760"
   },
   {
     "id": "tm-noah-kahan-2027-east-rutherford-k7vgf_4me3p--",
@@ -1756,12 +1836,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347759",
+        "url": "https://www.ticketnetwork.com/en/p/8347759",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_4mE3P--",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347759"
   },
   {
     "id": "tm-noah-kahan-2027-berlin-z698xzc2z16vgkoop-",

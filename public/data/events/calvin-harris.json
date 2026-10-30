@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8256057",
+        "url": "https://www.ticketnetwork.com/en/p/8256057",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv9uI",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256057"
   },
   {
     "id": "tm-calvin-harris-2026-las-vegas-z7r9jz1aav9um",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8256058",
+        "url": "https://www.ticketnetwork.com/en/p/8256058",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv9uM",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256058"
   },
   {
     "id": "tm-calvin-harris-2027-las-vegas-z7r9jz1aaeaa4",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8309899",
+        "url": "https://www.ticketnetwork.com/en/p/8309899",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeAA4",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8309899"
   },
   {
     "id": "tm-calvin-harris-2027-perth-1avgz_kjvv7zd8va",
@@ -788,11 +812,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8332831",
+        "url": "https://www.ticketnetwork.com/en/p/8332831",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv117Z_47a1FA9",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332831"
   },
   {
     "id": "tm-calvin-harris-2027-boston-vv1a8vp3aga2khl4",
@@ -841,11 +873,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319872",
+        "url": "https://www.ticketnetwork.com/en/p/8319872",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vP3aGA2khL4",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319872"
   },
   {
     "id": "tm-calvin-harris-2027-baltimore-1ka8vp3_ga2r9p0",
@@ -894,11 +934,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319873",
+        "url": "https://www.ticketnetwork.com/en/p/8319873",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kA8vP3_GA2r9p0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319873"
   },
   {
     "id": "tm-calvin-harris-2027-boston-vv1a8vp49ga5l0kw",
@@ -947,11 +995,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8336942",
+        "url": "https://www.ticketnetwork.com/en/p/8336942",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vP49GA5L0kW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336942"
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-16yzk4k-yza5e8ka",
@@ -1000,11 +1056,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8332603",
+        "url": "https://www.ticketnetwork.com/en/p/8332603",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16YZk4K-yZA5e8kA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332603"
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-16dzz_4c6g7nsw_",
@@ -1053,11 +1117,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8332913",
+        "url": "https://www.ticketnetwork.com/en/p/8332913",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dZZ_4C6G7nsW_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332913"
   },
   {
     "id": "tm-calvin-harris-2027-philadelphia-1ayzk4agkew8jvi",
@@ -1106,11 +1178,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319874",
+        "url": "https://www.ticketnetwork.com/en/p/8319874",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4aGkeW8JvI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319874"
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-1ayzk4fgkeyujwu",
@@ -1159,11 +1239,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319875",
+        "url": "https://www.ticketnetwork.com/en/p/8319875",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4FGkeyUJwu",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319875"
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-16yzk4ov9zau1f7g",
@@ -1212,11 +1300,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8330028",
+        "url": "https://www.ticketnetwork.com/en/p/8330028",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16YZk4ov9ZAu1F7G",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330028"
   },
   {
     "id": "tm-calvin-harris-2027-toronto-1a8zk4fgkevlxcb",
@@ -1318,11 +1414,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319891",
+        "url": "https://www.ticketnetwork.com/en/p/8319891",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ad7Z_fxFqwZdua5",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319891"
   },
   {
     "id": "tm-calvin-harris-2027-hamilton-1a8zk4agkd5cdnl",
@@ -1424,11 +1528,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319876",
+        "url": "https://www.ticketnetwork.com/en/p/8319876",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76Pk",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319876"
   },
   {
     "id": "tm-calvin-harris-2027-fort-worth-vvg1yz_flvwxhm",
@@ -1477,11 +1589,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319878",
+        "url": "https://www.ticketnetwork.com/en/p/8319878",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fLVwXhM",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319878"
   },
   {
     "id": "tm-calvin-harris-2027-austin-g5diz_fjhnaqg",
@@ -1530,11 +1650,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319880",
+        "url": "https://www.ticketnetwork.com/en/p/8319880",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fJHNAQG",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319880"
   },
   {
     "id": "tm-calvin-harris-2027-saint-paul-z7r9jz1aa76pf",
@@ -1583,11 +1711,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319881",
+        "url": "https://www.ticketnetwork.com/en/p/8319881",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76PF",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319881"
   },
   {
     "id": "tm-calvin-harris-2027-chicago-vv1a7zk4fgkdzmu0d",
@@ -1636,11 +1772,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319882",
+        "url": "https://www.ticketnetwork.com/en/p/8319882",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4FGkdZMu0D",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319882"
   },
   {
     "id": "tm-calvin-harris-2027-chicago-vv167zk4319zac1ud5",
@@ -1689,11 +1833,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333136",
+        "url": "https://www.ticketnetwork.com/en/p/8333136",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv167Zk4319ZAC1ud5",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333136"
   },
   {
     "id": "tm-calvin-harris-2027-salt-lake-city-z7r9jz1aa76p8",
@@ -1742,11 +1894,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319883",
+        "url": "https://www.ticketnetwork.com/en/p/8319883",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76P8",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319883"
   },
   {
     "id": "tm-calvin-harris-2027-oakland-g5vyz_fh6tm8u",
@@ -1795,11 +1955,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319885",
+        "url": "https://www.ticketnetwork.com/en/p/8319885",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_fh6tm8u",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319885"
   },
   {
     "id": "tm-calvin-harris-2027-oakland-g5vyz_4drjlsj",
@@ -1848,11 +2016,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333276",
+        "url": "https://www.ticketnetwork.com/en/p/8333276",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4dRjlsJ",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333276"
   },
   {
     "id": "tm-calvin-harris-2027-oakland-g5vyz_4cwzdxp",
@@ -1901,11 +2077,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333281",
+        "url": "https://www.ticketnetwork.com/en/p/8333281",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4CWzdxp",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333281"
   },
   {
     "id": "tm-calvin-harris-2027-seattle-vvg1hz_fjlgmb1",
@@ -1954,11 +2138,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319886",
+        "url": "https://www.ticketnetwork.com/en/p/8319886",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fJLgMb1",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319886"
   },
   {
     "id": "tm-calvin-harris-2027-seattle-vvg1hz_48c3k9c",
@@ -2007,11 +2199,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8336941",
+        "url": "https://www.ticketnetwork.com/en/p/8336941",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_48C3K9C",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336941"
   },
   {
     "id": "tm-calvin-harris-2027-vancouver-1aozk46gkdf4hov",
@@ -2060,11 +2260,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319893",
+        "url": "https://www.ticketnetwork.com/en/p/8319893",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk46GkdF4hOv",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319893"
   },
   {
     "id": "tm-calvin-harris-2027-vancouver-1k78vpfmgagddrz",
@@ -2113,11 +2321,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8336944",
+        "url": "https://www.ticketnetwork.com/en/p/8336944",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPfMGAGDdRZ",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336944"
   },
   {
     "id": "tm-calvin-harris-2027-anaheim-vv1aazk44gkdgr8bi",
@@ -2166,11 +2382,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337412",
+        "url": "https://www.ticketnetwork.com/en/p/8337412",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk44GkdGR8BI",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337412"
   },
   {
     "id": "tm-calvin-harris-2027-san-diego-vvg1iz_fqlbaqn",
@@ -2219,11 +2443,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319887",
+        "url": "https://www.ticketnetwork.com/en/p/8319887",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_fQLbaqn",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319887"
   },
   {
     "id": "tm-calvin-harris-2027-san-diego-vvg1iz_4dbvmwb",
@@ -2272,11 +2504,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333282",
+        "url": "https://www.ticketnetwork.com/en/p/8333282",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4dBvmWB",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333282"
   },
   {
     "id": "tm-calvin-harris-2027-san-diego-vvg1iz_45bbb-k",
@@ -2325,11 +2565,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333283",
+        "url": "https://www.ticketnetwork.com/en/p/8333283",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_45bbb-k",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333283"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1f0z_48vcazd8d1",
@@ -2378,11 +2626,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8336943",
+        "url": "https://www.ticketnetwork.com/en/p/8336943",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F0Z_48vCAZd8d1",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336943"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk4fgkebghyq",
@@ -2431,11 +2687,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319888",
+        "url": "https://www.ticketnetwork.com/en/p/8319888",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4FGkeBgHyq",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319888"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd68xic",
@@ -2484,11 +2748,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8330024",
+        "url": "https://www.ticketnetwork.com/en/p/8330024",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk48Gkd68XiC",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330024"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd6fcij",
@@ -2537,11 +2809,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333280",
+        "url": "https://www.ticketnetwork.com/en/p/8333280",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk48Gkd6fCiJ",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333280"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd69rc1",
@@ -2590,10 +2870,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333277",
+        "url": "https://www.ticketnetwork.com/en/p/8333277",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk48Gkd69rc1",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333277"
   }
 ]

@@ -308,11 +308,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7828054",
-        "url": "https://www.ticketnetwork.com/en/p/7828054",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7828054",
@@ -325,7 +325,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-V04",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828054",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828054/Blue-October-tickets-Wed-Oct-28-2026-Pabst-Theater"
   },
   {

@@ -5,6 +5,7 @@ description: Eagles added 8 and 9 January 2027 at Sphere. Presales open 28 and 2
 summary: Two more Eagles nights at Sphere in Las Vegas, Friday 8 and Saturday 9 January 2027, go on general sale on Friday 30 October at 10:00 Pacific time, after two days of presales. The other residency nights are already on sale, which shapes what you see on resale sites this week.
 date: 2026-10-23
 status: published
+updated: 2026-10-30
 tags:
   - tour-buying
 related_artists:
@@ -32,8 +33,8 @@ These are the windows Ticketmaster lists for both new dates. All times are Pacif
 
 | Sale | Opens | Closes |
 |---|---|---|
-| Seated presale | Wed 28 Oct, 10:00 | Fri 30 Oct, 09:59 |
-| On The List VIP package presale | Wed 28 Oct, 10:00 | Thu 29 Oct, 22:00 |
+| Seated presale | Wed 28 Oct, 10:00 (opened) | Fri 30 Oct, 09:59 |
+| On The List VIP package presale | Wed 28 Oct, 10:00 (opened) | Thu 29 Oct, 22:00 (closed) |
 | Live Nation presale | Thu 29 Oct, 10:00 | Fri 30 Oct, 09:59 |
 | Ticketmaster presale | Thu 29 Oct, 10:00 | Fri 30 Oct, 09:59 |
 | Venue presale | Thu 29 Oct, 10:00 | Fri 30 Oct, 09:59 |

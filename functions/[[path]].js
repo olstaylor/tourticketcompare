@@ -3918,7 +3918,7 @@ function renderPriceGuideBody(route, events, env) {
 
   const jumpCities = guide.cities.filter(city => city.shows.some(show => rowById.has(show.id)));
   const cityPickerHtml = jumpCities.length > 1
-    ? `<details class="nested-panel"><summary>Choose a city</summary><nav aria-label="${escapeHtml(`${artist.name} ticket price cities`)}"><ul class="link-list">${jumpCities.map(city => `<li>${anchor(city.label, `#priceGuideCity-${city.slug}`)}</li>`).join("")}</ul></nav></details>`
+    ? `<details class="nested-panel"${artist.slug === "zach-bryan" ? " open" : ""}><summary>Choose a city</summary><nav aria-label="${escapeHtml(`${artist.name} ticket price cities`)}"><ul class="link-list">${jumpCities.map(city => `<li>${anchor(city.label, `#priceGuideCity-${city.slug}`)}</li>`).join("")}</ul></nav></details>`
     : "";
   const tablesHtml = `<section class="nested-panel artist-city-price-answer" aria-labelledby="priceGuideDatesTitle"><h2 id="priceGuideDatesTitle">${escapeHtml(
     artist.name

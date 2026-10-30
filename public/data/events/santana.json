@@ -2078,6 +2078,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107678203",
+        "url": "https://www.stubhub.ie/santana-tickets-london-the-o2-arena-30-6-2027/event/107678203",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4pGkemMURU",
@@ -2086,7 +2093,8 @@
     "public_onsale_at": "2026-10-30T09:30:00Z",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/santana-tickets-london-the-o2-arena-30-6-2027/event/107678203"
   },
   {
     "id": "tm-santana-2027-krakow-z698xzqpz16va4pvo4",

@@ -205,11 +205,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667232",
+        "url": "https://www.stubhub.ie/cage-the-elephant-tickets-leeds-o2-academy-leeds-23-2-2027/event/107667232",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_350zpR-",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-leeds-o2-academy-leeds-23-2-2027/event/107667232"
   },
   {
     "id": "tm-cage-the-elephant-2027-glasgow-g5dzz_3kn7sp1",
@@ -258,11 +266,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667233",
+        "url": "https://www.stubhub.ie/cage-the-elephant-tickets-glasgow-o2-academy-glasgow-25-2-2027/event/107667233",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3kn7SP1",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-glasgow-o2-academy-glasgow-25-2-2027/event/107667233"
   },
   {
     "id": "tm-cage-the-elephant-2027-birmingham-g5dzz_3k0lkkh",
@@ -318,12 +334,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667235",
+        "url": "https://www.stubhub.ie/cage-the-elephant-tickets-birmingham-o2-academy-birmingham-26-2-2027/event/107667235",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3k0LKKh",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265885"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265885",
+    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-birmingham-o2-academy-birmingham-26-2-2027/event/107667235"
   },
   {
     "id": "tm-cage-the-elephant-2027-manchester-g5dzz_3374s3o",
@@ -433,10 +457,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107667230",
+        "url": "https://www.stubhub.ie/cage-the-elephant-tickets-london-alexandra-palace-1-3-2027/event/107667230",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_3r6zvAl",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-london-alexandra-palace-1-3-2027/event/107667230"
   }
 ]

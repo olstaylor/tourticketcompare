@@ -771,6 +771,13 @@
         "verified": true,
         "last_verified_at": "2026-10-12",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107676279",
+        "url": "https://www.stubhub.ie/the-airborne-toxic-event-las-vegas-tickets-6-3-2027/event/107676279",
+        "verified": true,
+        "last_verified_at": "2026-10-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G61aVjbwz",
@@ -781,7 +788,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977703/The-Airborne-Toxic-Event-tickets-Thu-Jun-3-2027-House-Of-Blues-Las-Vegas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/the-airborne-toxic-event-las-vegas-tickets-6-3-2027/event/107676279"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-san-diego-vvg1iz_a0ap_1u",

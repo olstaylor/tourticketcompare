@@ -152,3 +152,37 @@ test('/api/out refuses requests whose Sec-Fetch-Site is present and not same-ori
   const analytics = await run({ 'Sec-Fetch-Site': 'cross-site' }, '/api/analytics');
   assert.equal(analytics.reached, true);
 });
+
+test('/api/out refuses Chrome that sends no Sec-Fetch-Site, but not real visitors or crawlers', async () => {
+  const chrome = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36';
+  const run = async (headers) => {
+    let reached = false;
+    const response = await middleware({
+      request: new Request('https://tourticketcompare.com/api/out?provider=seatgeek&showId=x', { headers }),
+      env: {},
+      next: async () => { reached = true; return new Response('redirect'); }
+    });
+    return { response, reached };
+  };
+  // The forged identity: Chrome user-agent, no Sec-Fetch-Site, no Referer.
+  const forged = await run({ 'User-Agent': chrome });
+  assert.equal(forged.response.status, 403);
+  assert.equal(forged.reached, false);
+  assert.equal((await run({ 'User-Agent': chrome, Referer: 'https://example.com/' })).response.status, 403);
+  // Real clicks and everything that is not a header-less Chrome still redirect.
+  const safari = 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7 Mobile/15E148 Safari/604.1';
+  const firefox = 'Mozilla/5.0 (Windows NT 10.0; Win64; rv:130.0) Gecko/20100101 Firefox/130.0';
+  const oldChrome = 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.0.0 Safari/537.36';
+  const googlebot = 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/151.0.0.0 Safari/537.36';
+  const webview = 'Mozilla/5.0 (Linux; Android 14; Pixel 8 Build/AP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/151.0.0.0 Mobile Safari/537.36';
+  for (const headers of [
+    { 'User-Agent': chrome, 'Sec-Fetch-Site': 'same-origin' },
+    { 'User-Agent': chrome, Referer: 'https://tourticketcompare.com/artists/test-artist' },
+    { 'User-Agent': safari }, { 'User-Agent': firefox }, { 'User-Agent': oldChrome },
+    { 'User-Agent': googlebot }, { 'User-Agent': webview }, {}
+  ]) {
+    const { response, reached } = await run(headers);
+    assert.equal(reached, true, JSON.stringify(headers));
+    assert.equal(response.status, 200);
+  }
+});

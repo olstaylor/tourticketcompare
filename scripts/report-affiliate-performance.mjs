@@ -189,8 +189,8 @@ export function chunkDateWindow(sinceIso, untilIso, maxDays = MAX_ACTION_WINDOW_
 // live redirect used. Ticketmaster is deliberately absent: it has no Impact
 // program and /api/out never calls the Impact API for it.
 const PROVIDER_CAMPAIGN_ENV = {
-  seatgeek: { campaign: "IMPACT_SEATGEEK_CAMPAIGN_ID", legacy: "IMPACT_SEATGEEK_PROGRAM_ID", default: "" },
-  "vivid-seats": { campaign: "IMPACT_VIVIDSEATS_CAMPAIGN_ID", legacy: "IMPACT_VIVIDSEATS_PROGRAM_ID", default: "" },
+  seatgeek: { campaign: "IMPACT_SEATGEEK_CAMPAIGN_ID", legacy: "IMPACT_SEATGEEK_PROGRAM_ID", default: "20501" },
+  "vivid-seats": { campaign: "IMPACT_VIVIDSEATS_CAMPAIGN_ID", legacy: "IMPACT_VIVIDSEATS_PROGRAM_ID", default: "12730" },
   ticketnetwork: { campaign: "IMPACT_TICKETNETWORK_CAMPAIGN_ID", legacy: "IMPACT_TICKETNETWORK_PROGRAM_ID", default: "2322" },
   "ticket-liquidator": { campaign: "IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID", legacy: "IMPACT_TICKETLIQUIDATOR_PROGRAM_ID", default: "2085" },
   "stubhub-international": { campaign: "IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID", legacy: "IMPACT_STUBHUB_INTERNATIONAL_PROGRAM_ID", default: "24092" }

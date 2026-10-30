@@ -2207,13 +2207,22 @@ summary {
 /* Inside a table cell the CTA is a block, not a pill in a row of pills: it
    fills its column, and its two halves wrap onto separate lines rather than
    forcing the column wider than the provider's name. */
-.price-answer-table .provider-cta,
-.price-cheapest .provider-cta {
+.price-answer-table .provider-cta {
   width: 100%;
   min-width: 0;
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 2px 10px;
+  min-height: 44px;
+  padding: 8px 14px;
+  border-radius: 14px;
+}
+
+/* The "Cheapest <artist> tickets" panel's button takes the same card shape:
+   as a pill it ran past the panel's edge on a phone (2026-10-30). */
+.price-cheapest .provider-cta {
+  width: 100%;
+  min-width: 0;
   min-height: 44px;
   padding: 8px 14px;
   border-radius: 14px;

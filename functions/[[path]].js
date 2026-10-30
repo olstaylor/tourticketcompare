@@ -5886,7 +5886,7 @@ export function renderArtistNextDatesPriceAnswer(artist, shows, availability, su
     caption: surface.caption || `Ticket options for the next ${artist.name} dates`,
     titleId: surface.titleId || "artistNextDatesTitle",
     ticketOptionsByShowId: new Map(nextShows.map((show) => [String(show.id || ""), {
-      count: specsByShowId.get(String(show.id || "")).length,
+      count: specsFor(show).length,
       status: publicOnsalePending(show) ? publicOnsaleLabel(show) : ""
     }])),
     placeFor: (row) => placeById.get(row.showId) || row.venue,

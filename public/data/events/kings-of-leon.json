@@ -1,0 +1,427 @@
+[
+  {
+    "id": "tm-kings-of-leon-2027-auckland-1kazvpfagago3z7",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon - Live at the Domain",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Auckland Domain",
+    "datetime_iso": "2027-02-24T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240065509C812E04",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/kings-of-leon-live-at-the-auckland-24-02-2027/event/240065509C812E04",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/kings-of-leon-live-at-the-auckland-24-02-2027/event/240065509C812E04",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240065509C812E04",
+        "discovery_event_id": "1kaZvPfaGAGO3z7",
+        "url": "https://www.ticketmaster.co.nz/kings-of-leon-live-at-the-auckland-24-02-2027/event/240065509C812E04",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kaZvPfaGAGO3z7",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-bowen-hills-1avgz_fgkxy2l3h",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Bowen Hills",
+    "country": "Australia",
+    "venue": "Brisbane Showgrounds",
+    "datetime_iso": "2027-03-03T05:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300654FB93EB49B",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/kings-of-leon-bowen-hills-03-03-2027/event/1300654FB93EB49B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/kings-of-leon-bowen-hills-03-03-2027/event/1300654FB93EB49B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300654FB93EB49B",
+        "discovery_event_id": "1AvGZ_fGkXy2l3h",
+        "url": "https://www.ticketmaster.com.au/kings-of-leon-bowen-hills-03-03-2027/event/1300654FB93EB49B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_fGkXy2l3h",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-flemington-1aefz_fgkxtcmb-",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Flemington",
+    "country": "Australia",
+    "venue": "Flemington Racecourse",
+    "datetime_iso": "2027-03-05T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500654FA93B7EA1",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/kings-of-leon-flemington-05-03-2027/event/2500654FA93B7EA1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/kings-of-leon-flemington-05-03-2027/event/2500654FA93B7EA1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500654FA93B7EA1",
+        "discovery_event_id": "1AefZ_fGkXtCMB-",
+        "url": "https://www.ticketmaster.com.au/kings-of-leon-flemington-05-03-2027/event/2500654FA93B7EA1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_fGkXtCMB-",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-hamburg-z698xzc2z1kjifpz9",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings Of Leon 2027",
+    "city": "Hamburg",
+    "country": "Germany",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2027-06-18T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "728525017",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/kings-of-leon-2027-tickets/728525017?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/kings-of-leon-2027-tickets/728525017?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "728525017",
+        "discovery_event_id": "Z698xZC2Z1kjIfPZ9",
+        "url": "https://www.ticketmaster.de/event/kings-of-leon-2027-tickets/728525017?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kjIfPZ9",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T10:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-dublin-1avoz_fgktpkxi7",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-06-22T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800654FD61BEA04",
+    "ticketmaster_url": "https://www.ticketmaster.ie/kings-of-leon-dublin-22-06-2027/event/1800654FD61BEA04",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/kings-of-leon-dublin-22-06-2027/event/1800654FD61BEA04",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800654FD61BEA04",
+        "discovery_event_id": "1AvOZ_fGkTpkXI7",
+        "url": "https://www.ticketmaster.ie/kings-of-leon-dublin-22-06-2027/event/1800654FD61BEA04",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_fGkTpkXI7",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-scarborough-1agzk4fgke0iell",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Open Air Theatre",
+    "datetime_iso": "2027-06-27T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006554A4B027DF",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kings-of-leon-scarborough-27-06-2027/event/35006554A4B027DF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kings-of-leon-scarborough-27-06-2027/event/35006554A4B027DF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006554A4B027DF",
+        "discovery_event_id": "1AgZk4fGke0ieLL",
+        "url": "https://www.ticketmaster.co.uk/kings-of-leon-scarborough-27-06-2027/event/35006554A4B027DF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4fGke0ieLL",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-london-1agzk4egkesvn16",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-07-02T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006542B306A287",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kings-of-leon-london-02-07-2027/event/35006542B306A287",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kings-of-leon-london-02-07-2027/event/35006542B306A287",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006542B306A287",
+        "discovery_event_id": "1AgZk4eGkeSvn16",
+        "url": "https://www.ticketmaster.co.uk/kings-of-leon-london-02-07-2027/event/35006542B306A287",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4eGkeSvn16",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-london-1agzk4egkdt5lpe",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-07-03T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006542FF2DF582",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kings-of-leon-london-03-07-2027/event/35006542FF2DF582",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kings-of-leon-london-03-07-2027/event/35006542FF2DF582",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006542FF2DF582",
+        "discovery_event_id": "1AgZk4eGkdT5Lpe",
+        "url": "https://www.ticketmaster.co.uk/kings-of-leon-london-03-07-2027/event/35006542FF2DF582",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4eGkdT5Lpe",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

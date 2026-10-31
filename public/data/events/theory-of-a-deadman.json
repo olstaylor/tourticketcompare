@@ -1,0 +1,1062 @@
+[
+  {
+    "id": "tm-theory-of-a-deadman-2027-nottingham-g5vhz_1u0tvak",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory Of A Deadman",
+    "city": "Nottingham",
+    "country": "Great Britain",
+    "venue": "Rock City",
+    "datetime_iso": "2027-02-05T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064ADA4A74246",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-nottingham-05-02-2027/event/1F0064ADA4A74246",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-nottingham-05-02-2027/event/1F0064ADA4A74246",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064ADA4A74246",
+        "discovery_event_id": "G5vHZ_1U0tVak",
+        "url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-nottingham-05-02-2027/event/1F0064ADA4A74246",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_1U0tVak",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-glasgow-17uov0g61uju3tk",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Glasgow Garage",
+    "datetime_iso": "2027-02-06T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064AD9CD92A53",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-glasgow-06-02-2027/event/360064AD9CD92A53",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-glasgow-06-02-2027/event/360064AD9CD92A53",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064AD9CD92A53",
+        "discovery_event_id": "17uOv0G61UjU3tK",
+        "url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-glasgow-06-02-2027/event/360064AD9CD92A53",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G61UjU3tK",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-manchester-g5dzz_1mez0ds",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Ritz Manchester",
+    "datetime_iso": "2027-02-09T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064ADC2E24EF1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-manchester-09-02-2027/event/3E0064ADC2E24EF1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-manchester-09-02-2027/event/3E0064ADC2E24EF1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064ADC2E24EF1",
+        "discovery_event_id": "G5dzZ_1Mez0Ds",
+        "url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-manchester-09-02-2027/event/3E0064ADC2E24EF1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_1Mez0Ds",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-london-g5dzz_1tbseag",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Shepherds Bush Empire",
+    "datetime_iso": "2027-02-11T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064AFFACE724C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-london-11-02-2027/event/3E0064AFFACE724C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-london-11-02-2027/event/3E0064AFFACE724C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064AFFACE724C",
+        "discovery_event_id": "G5dzZ_1TBSEaG",
+        "url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-london-11-02-2027/event/3E0064AFFACE724C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_1TBSEaG",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-amsterdam-z698xzbpz16vffqn4a",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Melkweg",
+    "datetime_iso": "2027-02-16T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1508763549",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/theory-of-a-deadman-tickets/1508763549?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/theory-of-a-deadman-tickets/1508763549?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1508763549",
+        "discovery_event_id": "Z698xZbpZ16vfFqN4a",
+        "url": "https://www.ticketmaster.nl/event/theory-of-a-deadman-tickets/1508763549?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vfFqN4a",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-halifax-z7r9jz1aav0ak",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman",
+    "city": "Halifax",
+    "country": "Canada",
+    "venue": "Light House Arts Centre",
+    "datetime_iso": "2027-03-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv0Ak",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAv0Ak",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAv0Ak",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv0Ak",
+        "discovery_event_id": "Z7r9jZ1AAv0Ak",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAv0Ak",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv0Ak",
+    "timezone": "America/Halifax",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-moncton-16d7z_31_g7xauw",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman: The Northern Chaos Tour",
+    "city": "Moncton",
+    "country": "Canada",
+    "venue": "The Molson Canadian Centre at Casino New Brunswick",
+    "datetime_iso": "2027-03-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100652299F85372",
+    "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-moncton-new-brunswick-03-06-2027/event/3100652299F85372",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-moncton-new-brunswick-03-06-2027/event/3100652299F85372",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100652299F85372",
+        "discovery_event_id": "16d7Z_31_G7XAuw",
+        "url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-moncton-new-brunswick-03-06-2027/event/3100652299F85372",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16d7Z_31_G7XAuw",
+    "timezone": "America/Halifax",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-quebec-1aszkf04if8zegk",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman: The Northern Chaos Tour",
+    "city": "Quebec",
+    "country": "Canada",
+    "venue": "Théâtre Capitole",
+    "datetime_iso": "2027-03-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006524568510B5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-quebec-quebec-03-08-2027/event/31006524568510B5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-quebec-quebec-03-08-2027/event/31006524568510B5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006524568510B5",
+        "discovery_event_id": "1asZkf04If8ZeGk",
+        "url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-quebec-quebec-03-08-2027/event/31006524568510B5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1asZkf04If8ZeGk",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-montreal-1aszkfxgkerzpy6",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman: The Northern Chaos Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "MTELUS",
+    "datetime_iso": "2027-03-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006522AF016E47",
+    "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-montreal-quebec-03-09-2027/event/31006522AF016E47",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-montreal-quebec-03-09-2027/event/31006522AF016E47",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006522AF016E47",
+        "discovery_event_id": "1AsZkfxGkeRZpy6",
+        "url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-montreal-quebec-03-09-2027/event/31006522AF016E47",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZkfxGkeRZpy6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-ottawa-1aszkfngkedu_z0",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman: The Northern Chaos Tour",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "Hard Rock Hotel & Casino Ottawa",
+    "datetime_iso": "2027-03-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006523BBD99024",
+    "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-ottawa-ontario-03-11-2027/event/31006523BBD99024",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-ottawa-ontario-03-11-2027/event/31006523BBD99024",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006523BBD99024",
+        "discovery_event_id": "1AsZkfNGkeDU_Z0",
+        "url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-ottawa-ontario-03-11-2027/event/31006523BBD99024",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZkfNGkeDU_Z0",
+    "timezone": "America/Montreal",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-rama-1a8zkfngkeitbvf",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory Of A Deadman The Northern Chaos Tour With Special Guest Mammoth",
+    "city": "Rama",
+    "country": "Canada",
+    "venue": "Casino Rama Resort",
+    "datetime_iso": "2027-03-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006523A8A58D08",
+    "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-rama-ontario-03-12-2027/event/10006523A8A58D08",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/rama-canada-casino-rama-resort-2027-03-12-9-pm/concert/18570545",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-rama-ontario-03-12-2027/event/10006523A8A58D08",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006523A8A58D08",
+        "discovery_event_id": "1A8ZkfNGkeItbVF",
+        "url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-rama-ontario-03-12-2027/event/10006523A8A58D08",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkfNGkeItbVF",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-toronto-1a8zkfngked-56c",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman: The Northern Chaos Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Theatre at Great Canadian Toronto",
+    "datetime_iso": "2027-03-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006523BB84B1ED",
+    "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-toronto-ontario-03-13-2027/event/10006523BB84B1ED",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/toronto-canada-the-theatre-at-great-canadian-casino-resort-toronto-2027-03-13-8-pm/concert/18570546",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-toronto-ontario-03-13-2027/event/10006523BB84B1ED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006523BB84B1ED",
+        "discovery_event_id": "1A8ZkfNGkeD-56c",
+        "url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-toronto-ontario-03-13-2027/event/10006523BB84B1ED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkfNGkeD-56c",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-windsor-1avzz_ogktpe4kz",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman: The Northern Chaos Tour",
+    "city": "Windsor",
+    "country": "Canada",
+    "venue": "The Colosseum at Caesars Windsor",
+    "datetime_iso": "2027-03-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000651FD69D54F8",
+    "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-windsor-ontario-03-17-2027/event/1000651FD69D54F8",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/windsor-canada-the-colosseum-at-caesars-windsor-2027-03-17-7-pm/concert/18560921",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-windsor-ontario-03-17-2027/event/1000651FD69D54F8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000651FD69D54F8",
+        "discovery_event_id": "1AvZZ_oGkTpE4Kz",
+        "url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-windsor-ontario-03-17-2027/event/1000651FD69D54F8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_oGkTpE4Kz",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-thunder-bay-1avzz_ogkrpopru",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman-The Northern Chaos Tour",
+    "city": "Thunder Bay",
+    "country": "Canada",
+    "venue": "The Auditorium",
+    "datetime_iso": "2027-03-19T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000651BD646578D",
+    "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadmanthe-northern-chaos-thunder-bay-ontario-03-19-2027/event/1000651BD646578D",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/thunder-bay-canada-thunder-bay-community-auditorium-2027-03-19-7-30-pm/concert/18570548",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/theory-of-a-deadmanthe-northern-chaos-thunder-bay-ontario-03-19-2027/event/1000651BD646578D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000651BD646578D",
+        "discovery_event_id": "1AvZZ_oGkRpoPru",
+        "url": "https://www.ticketmaster.ca/theory-of-a-deadmanthe-northern-chaos-thunder-bay-ontario-03-19-2027/event/1000651BD646578D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_oGkRpoPru",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-winnipeg-1av7z_ogkxutibu",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman: The Northern Chaos Tour",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Burton Cummings Theatre",
+    "datetime_iso": "2027-03-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100651FB6A68E8D",
+    "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-winnipeg-manitoba-03-20-2027/event/1100651FB6A68E8D",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/winnipeg-canada-burton-cummings-theatre-2027-03-20-8-pm/concert/18570549",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-winnipeg-manitoba-03-20-2027/event/1100651FB6A68E8D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100651FB6A68E8D",
+        "discovery_event_id": "1Av7Z_oGkXUtIBu",
+        "url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-winnipeg-manitoba-03-20-2027/event/1100651FB6A68E8D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_oGkXUtIBu",
+    "timezone": "America/Winnipeg",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-regina-z7r9jz1aavxpg",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman",
+    "city": "Regina",
+    "country": "Canada",
+    "venue": "Conexus Performing Arts Center",
+    "datetime_iso": "2027-03-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvxPg",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvxPg",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/regina-canada-conexus-arts-centre-2027-03-22-8-pm/concert/18570554",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvxPg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvxPg",
+        "discovery_event_id": "Z7r9jZ1AAvxPg",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvxPg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvxPg",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-enoch-1aozkfngkdgjwil",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman: The Northern Chaos Tour",
+    "city": "Enoch",
+    "country": "Canada",
+    "venue": "River Cree Resort & Casino",
+    "datetime_iso": "2027-03-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006523F59BDB1F",
+    "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-enoch-alberta-03-24-2027/event/11006523F59BDB1F",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/enoch-canada-river-cree-resort-casino-2027-03-24-8-pm/concert/18570557",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-enoch-alberta-03-24-2027/event/11006523F59BDB1F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006523F59BDB1F",
+        "discovery_event_id": "1AoZkfNGkdgJWiL",
+        "url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-enoch-alberta-03-24-2027/event/11006523F59BDB1F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkfNGkdgJWiL",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-calgary-1av7z_ogkn_kbte",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman: The Northern Chaos Tour",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Southern Alberta Jubilee Auditorium",
+    "datetime_iso": "2027-03-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100651A99198FE7",
+    "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-calgary-alberta-03-25-2027/event/1100651A99198FE7",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/calgary-canada-southern-alberta-jubilee-auditorium-2027-03-25-8-pm/concert/18570558",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-calgary-alberta-03-25-2027/event/1100651A99198FE7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100651A99198FE7",
+        "discovery_event_id": "1Av7Z_oGkn_kbTE",
+        "url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-calgary-alberta-03-25-2027/event/1100651A99198FE7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_oGkn_kbTE",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-dawson-creek-z7r9jz1aavxjp",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman",
+    "city": "Dawson Creek",
+    "country": "Canada",
+    "venue": "Ovintiv Events Centre",
+    "datetime_iso": "2027-03-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvxJp",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvxJp",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/dawson-creek-canada-ovintiv-events-centre-2027-03-27-8-pm/concert/18570559",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvxJp",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvxJp",
+        "discovery_event_id": "Z7r9jZ1AAvxJp",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvxJp",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvxJp",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-theory-of-a-deadman-2027-vancouver-1av7z_ogknc7mrb",
+    "artist_slug": "theory-of-a-deadman",
+    "artist_name": "Theory Of A Deadman",
+    "event_name": "Theory of a Deadman: The Northern Chaos Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Queen Elizabeth Theatre",
+    "datetime_iso": "2027-04-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100651A8E137798",
+    "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-vancouver-british-columbia-03-31-2027/event/1100651A8E137798",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/vancouver-canada-queen-elizabeth-theatre-vancouver-2027-03-31-8-pm/concert/18570564",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-vancouver-british-columbia-03-31-2027/event/1100651A8E137798",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100651A8E137798",
+        "discovery_event_id": "1Av7Z_oGknC7Mrb",
+        "url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-vancouver-british-columbia-03-31-2027/event/1100651A8E137798",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_oGknC7Mrb",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  }
+]

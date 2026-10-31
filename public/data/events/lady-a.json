@@ -1,0 +1,373 @@
+[
+  {
+    "id": "tm-lady-a-2026-northfield-vvg1fz_gkaw2vw",
+    "artist_slug": "lady-a",
+    "artist_name": "Lady A",
+    "event_name": "Lady A: This Winter's Night Tour 2026",
+    "city": "Northfield",
+    "country": "United States Of America",
+    "venue": "Northfield Park Racino - Center Stage",
+    "datetime_iso": "2026-12-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050064C4C5F4FD3D",
+    "ticketmaster_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-northfield-ohio-12-10-2026/event/050064C4C5F4FD3D",
+    "seatgeek_url": "https://seatgeek.com/lady-a-tickets/northfield-ohio-mgm-northfield-park-center-stage-2026-12-10-7-30-pm/concert/18295291",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-northfield-ohio-12-10-2026/event/050064C4C5F4FD3D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050064C4C5F4FD3D",
+        "discovery_event_id": "vvG1fZ_GKAW2VW",
+        "url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-northfield-ohio-12-10-2026/event/050064C4C5F4FD3D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1fZ_GKAW2VW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lady-a-2026-gary-vvg1fz_5la2nke",
+    "artist_slug": "lady-a",
+    "artist_name": "Lady A",
+    "event_name": "Lady A: This Winter's Night Tour 2026",
+    "city": "Gary",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Northern Indiana",
+    "datetime_iso": "2026-12-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050064BAC93EA4E7",
+    "ticketmaster_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-gary-indiana-12-11-2026/event/050064BAC93EA4E7",
+    "seatgeek_url": "https://seatgeek.com/lady-a-tickets/gary-indiana-hard-rock-live-northern-indiana-2026-12-11-7-pm/concert/18295733",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-gary-indiana-12-11-2026/event/050064BAC93EA4E7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050064BAC93EA4E7",
+        "discovery_event_id": "vvG1fZ_5la2nKE",
+        "url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-gary-indiana-12-11-2026/event/050064BAC93EA4E7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1fZ_5la2nKE",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lady-a-2026-shipshewana-z7r9jz1a7pkv6",
+    "artist_slug": "lady-a",
+    "artist_name": "Lady A",
+    "event_name": "Lady A",
+    "city": "Shipshewana",
+    "country": "United States Of America",
+    "venue": "Blue Gate Performing Arts Center",
+    "datetime_iso": "2026-12-13T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PKv6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKv6",
+    "seatgeek_url": "https://seatgeek.com/lady-a-tickets/shipshewana-indiana-blue-gate-performing-arts-center-2026-12-12-7-30-pm/concert/18295863",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKv6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PKv6",
+        "discovery_event_id": "Z7r9jZ1A7PKv6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKv6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PKv6",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lady-a-2026-new-york-g5diz_g2zkgbb",
+    "artist_slug": "lady-a",
+    "artist_name": "Lady A",
+    "event_name": "Lady A: This Winter's Night Tour 2026",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Beacon Theatre",
+    "datetime_iso": "2026-12-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B0064C3C01B5EBA",
+    "ticketmaster_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-new-york-new-york-12-17-2026/event/3B0064C3C01B5EBA",
+    "seatgeek_url": "https://seatgeek.com/lady-a-tickets/new-york-new-york-beacon-theatre-2026-12-17-8-pm/concert/18294956",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-new-york-new-york-12-17-2026/event/3B0064C3C01B5EBA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B0064C3C01B5EBA",
+        "discovery_event_id": "G5diZ_G2ZkgBB",
+        "url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-new-york-new-york-12-17-2026/event/3B0064C3C01B5EBA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_G2ZkgBB",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lady-a-2026-bensalem-z7r9jz1a7p380",
+    "artist_slug": "lady-a",
+    "artist_name": "Lady A",
+    "event_name": "Lady A - Ages 21+",
+    "city": "Bensalem",
+    "country": "United States Of America",
+    "venue": "Xcite Center",
+    "datetime_iso": "2026-12-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P380",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P380",
+    "seatgeek_url": "https://seatgeek.com/lady-a-tickets/bensalem-pennsylvania-xcite-center-at-parx-casino-2026-12-18-8-pm/concert/18353855",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P380",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P380",
+        "discovery_event_id": "Z7r9jZ1A7P380",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P380",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P380",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lady-a-2026-greensboro-g5evz_g5lge4i",
+    "artist_slug": "lady-a",
+    "artist_name": "Lady A",
+    "event_name": "Lady A: This Winter's Night Tour 2026",
+    "city": "Greensboro",
+    "country": "United States Of America",
+    "venue": "Steven Tanger Center for the Performing Arts",
+    "datetime_iso": "2026-12-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064C2EBD42568",
+    "ticketmaster_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-greensboro-north-carolina-12-19-2026/event/2D0064C2EBD42568",
+    "seatgeek_url": "https://seatgeek.com/lady-a-tickets/greensboro-north-carolina-steven-tanger-center-for-the-performing-arts-2026-12-19-7-30-pm/concert/18295539",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-greensboro-north-carolina-12-19-2026/event/2D0064C2EBD42568",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064C2EBD42568",
+        "discovery_event_id": "G5eVZ_G5lge4I",
+        "url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-greensboro-north-carolina-12-19-2026/event/2D0064C2EBD42568",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_G5lge4I",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lady-a-2026-nashville-z7r9jz1a7p0p9",
+    "artist_slug": "lady-a",
+    "artist_name": "Lady A",
+    "event_name": "Lady A",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Ryman Auditorium",
+    "datetime_iso": "2026-12-21T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P0p9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0p9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0p9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P0p9",
+        "discovery_event_id": "Z7r9jZ1A7P0p9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0p9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0p9",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

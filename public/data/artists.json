@@ -3146,5 +3146,117 @@
     "last_verified_at": "2026-10-30",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-30"
+  },
+  {
+    "slug": "tash-sultana",
+    "name": "Tash Sultana",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-31",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-31"
+  },
+  {
+    "slug": "erasure",
+    "name": "Erasure",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-31",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-31"
+  },
+  {
+    "slug": "theory-of-a-deadman",
+    "name": "Theory Of A Deadman",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-31",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-31"
+  },
+  {
+    "slug": "black-stone-cherry",
+    "name": "Black Stone Cherry",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-31",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-31"
+  },
+  {
+    "slug": "the-avett-brothers",
+    "name": "The Avett Brothers",
+    "short_description": "Folk act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-31",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-31"
+  },
+  {
+    "slug": "kings-of-leon",
+    "name": "Kings Of Leon",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-31",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-31"
+  },
+  {
+    "slug": "grupo-frontera",
+    "name": "Grupo Frontera",
+    "short_description": "World act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-31",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-31"
+  },
+  {
+    "slug": "lady-a",
+    "name": "Lady A",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-31",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-31"
   }
 ]

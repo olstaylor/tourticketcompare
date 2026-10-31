@@ -26,6 +26,39 @@ const logs = [];
 const clock = () => now;
 const snapshotFile = path.join(tmp, 'snapshot.json');
 try {
+  // Batched prefetch: hits cost no single call, misses fall back, a mismatched sample discards the batch.
+  {
+    const idB = 'Z7r9jZ1A706eq';
+    const dataB = { ...data, id: idB };
+    const reply = (events, status = 200) => async () => new Response(JSON.stringify(events ? { _embedded: { events } } : {}), { status });
+    const run1 = async (fetchImpl, directFetch, env) => {
+      const prev = process.env.TM_BATCH_FETCH;
+      if (env === undefined) delete process.env.TM_BATCH_FETCH; else process.env.TM_BATCH_FETCH = env;
+      try {
+        const sweep = createSnapshotSweep({ base, now: clock });
+        await sweep.prefetch([id, idB, 'Z7r9jZ1A706missing'], { apiKey: 'k', fetchImpl, directFetch, log: () => {} });
+        const seen = [];
+        for (const eventId of [id, idB, 'Z7r9jZ1A706missing']) {
+          seen.push((await sweep.get(eventId, async () => ({ status: 404, exists: false, data: null }))).source);
+        }
+        return { seen, stats: sweep.stats };
+      } finally {
+        if (prev === undefined) delete process.env.TM_BATCH_FETCH; else process.env.TM_BATCH_FETCH = prev;
+      }
+    };
+    const good = await run1(reply([data, dataB]), async (eventId) => ({ status: 200, exists: true, data: eventId === id ? data : dataB }));
+    assert.deepEqual(good.seen, ['batch', 'batch', 'direct'], 'returned events come from the batch, the absent one is fetched singly');
+    assert.equal(good.stats.batch_requests, 1);
+    assert.equal(good.stats.batch_reused, 2);
+    const differs = await run1(reply([data, dataB]), async () => ({ status: 200, exists: true, data: { ...data, name: 'Renamed' } }));
+    assert.deepEqual(differs.seen, ['direct', 'direct', 'direct'], 'a sample that differs from its single-event record discards the batch');
+    const throttled = await run1(reply(null, 429), async () => ({ status: 200, exists: true, data }));
+    assert.deepEqual(throttled.seen, ['direct', 'direct', 'direct'], 'a throttled batch falls back to single requests');
+    let batchCalls = 0;
+    const off = await run1(async () => { batchCalls++; return new Response('{}'); }, null, '0');
+    assert.equal(batchCalls, 0, 'TM_BATCH_FETCH=0 makes no batch request');
+    assert.deepEqual(off.seen, ['direct', 'direct', 'direct']);
+  }
   const producer = createSnapshotSweep({ base, now: clock });
   let calls = 0;
   const direct = async () => { calls++; producer.observeResponse({ status: 200 }); return ok; };

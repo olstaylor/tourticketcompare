@@ -287,6 +287,20 @@ async function main() {
   const auditNow = Date.now();
   const includePast = includePastFromEnv();
 
+  // Collect every event this run will fetch, then ask for them in batches
+  // (TM_BATCH_FETCH=0 turns this off). Anything a batch does not return is
+  // still fetched singly below, so the 404/410 findings are unchanged.
+  {
+    const batchIds = [];
+    for (const slug of slugs) {
+      for (const event of (await loadArtistEvents(slug)).filter((e) => clean(e?.ticketmaster_event_id))) {
+        const resolved = discoveryIdFor(event);
+        if (resolved && !skipInSweep(event, auditNow, { includePast })) batchIds.push(resolved.id);
+      }
+    }
+    await sweep.prefetch(batchIds, { apiKey, directFetch: (id) => fetchEvent(apiKey, base, id, sweep) });
+  }
+
   for (const slug of slugs) {
     const events = await loadArtistEvents(slug);
     const withId = events.filter((e) => clean(e?.ticketmaster_event_id));

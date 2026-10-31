@@ -147,6 +147,19 @@ function ticketmasterStorefrontEventId(event) {
   return clean(event?.ticketmaster_event_id);
 }
 
+// A throttle or origin outage is the origin not answering right now, not a
+// verdict about any event. Same classification as scripts/lib/tm-event-snapshot.mjs.
+export function isTransientFetchStatus(status) {
+  return status === null || status === undefined || status === 429 || status >= 500;
+}
+
+// Commit only when something changed and every error is transient. Each update
+// comes from its own successful response, so a failed fetch elsewhere cannot
+// make it wrong; any other error still vetoes everything.
+export function tmCommitSafe(updatedCount, errors) {
+  return updatedCount > 0 && errors.every((e) => isTransientFetchStatus(e.status));
+}
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -856,6 +869,11 @@ async function runSelfTest() {
   const remote = (o) => ({ data: { id: 'X', dates: { start: {}, timezone: '' }, _embedded: { venues: [{ name: '', city: { name: '' }, country: { name: '' } }] }, ...o } });
   const fieldsOf = (e, r) => computeIntendedUpdates(e, r).map((c) => c.field);
 
+  assert('a throttled fetch alone does not veto other events\' updates', tmCommitSafe(2, [{ status: 429 }, { status: 503 }, { status: null }]));
+  assert('a 401/403 error still vetoes the commit', !tmCommitSafe(2, [{ status: 429 }, { status: 403 }]));
+  assert('no updates means nothing to commit even with only throttles', !tmCommitSafe(0, [{ status: 429 }]));
+  assert('a clean run with updates commits', tmCommitSafe(1, []));
+
   assert('a newly qualified end clears an old exact end', computeIntendedUpdates(ev({ datetime_iso: '2026-10-01T18:00:00Z', end_datetime_iso: '2026-10-01T21:00:00Z' }), remote({ dates: { start: { dateTime: '2026-10-01T18:00:00Z' }, end: { dateTime: '2026-10-01T21:00:00Z', approximate: true, noSpecificTime: false } } })).some((c) => c.field === 'end_datetime_iso' && c.to === null));
 
   assert('ambiguous stored names are cleared without dropping genuine co-organizers', JSON.stringify(computeIntendedUpdates(ev({ artist_name: 'Artist', venue: 'Hall', organizer_names: ['ARTIST', 'HALL', 'Real Promoter'] }), remote({})).find((c) => c.field === 'organizer_names')?.to) === JSON.stringify(['Real Promoter']));
@@ -1282,7 +1300,8 @@ async function main() {
         ...summarizeEvent(event, id),
         error: result.error,
         status: result.status,
-        recommendedAction: 'Retry on the next run; do not commit any data changes from a run with errors.'
+        transient: isTransientFetchStatus(result.status),
+        recommendedAction: 'Retry on the next run. A throttled or unavailable event is left untouched; other events in the run are unaffected.'
       });
     } else {
       const plan = planEventSync(event, result, id);
@@ -1306,12 +1325,15 @@ async function main() {
     updated: updates.length,
     reviewItems: reviewItems.length,
     errors: errors.length,
+    transientErrors: errors.filter((e) => e.transient).length,
     blockedUpdateIds: blockedUpdateIds.length,
     // Updates are only ever applied to events with zero review blockers (see
     // the per-event branch above), so standing review items on OTHER events —
     // e.g. the permanently-offsale rows — do not make the applied updates
-    // unsafe. Errors still veto: a run with failed fetches should not commit.
-    autoCommitSafe: updates.length > 0 && errors.length === 0
+    // unsafe. A non-transient error still vetoes the commit. A throttled (429),
+    // 5xx or network-failed fetch only leaves that one event untouched, so it
+    // does not stop other events' lossless updates (see tmCommitSafe).
+    autoCommitSafe: tmCommitSafe(updates.length, errors)
   };
 
   await reportSnapshotStats(sweep.stats);

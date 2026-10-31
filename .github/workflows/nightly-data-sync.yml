@@ -109,6 +109,10 @@ jobs:
 
       - name: Apply authoritative TM field updates
         id: apply
+        # The script exits 1 on any fetch error so a throttled sweep never looks
+        # clean. The gate below decides whether the updates may still commit, and
+        # the last step re-fails the job so the red run stays visible.
+        continue-on-error: true
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
           # Repository variable: "1" restores the full daily sweep (scripts/lib/tm-sweep-window.mjs).
@@ -157,7 +161,12 @@ jobs:
           // e.g. permanently-offsale rows — are surfaced in the rolling issue
           // but must not veto the clean events' lossless updates, otherwise
           // the nightly sync can never commit. Errors still veto everything.
-          const commitAllowed = updated > 0 && errors === 0;
+          // A throttle (429), 5xx or network failure leaves only that one event
+          // untouched, so it does not veto other events' updates. Any other error
+          // (bad key, 4xx, unreadable response) still vetoes everything.
+          const errorList = Array.isArray(report?.errors) ? report.errors : [];
+          const hardErrors = errorList.length ? errorList.filter((e) => e?.transient !== true).length : errors;
+          const commitAllowed = updated > 0 && hardErrors === 0;
           console.log(`updated=${updated}`);
           console.log(`review_items=${reviewItems}`);
           console.log(`errors=${errors}`);
@@ -241,3 +250,9 @@ jobs:
           if-no-files-found: warn
           include-hidden-files: true
           retention-days: 30
+
+      - name: Fail the run if the sweep had fetch errors
+        if: always() && steps.apply.outcome == 'failure'
+        run: |
+          echo "::error::The Ticketmaster sweep had errors. Updates from unaffected events may still have been published; see the rolling data-sync issue."
+          exit 1

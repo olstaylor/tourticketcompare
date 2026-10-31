@@ -887,13 +887,21 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666197",
+        "url": "https://www.stubhub.ie/foreigner-new-york-tickets-4-27-2027/event/107666197",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_ooHwwkW",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243091",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243091/Foreigner-tickets-Tue-Apr-27-2027-Beacon-Theatre-NY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243091/Foreigner-tickets-Tue-Apr-27-2027-Beacon-Theatre-NY",
+    "stubhub_international_url": "https://www.stubhub.ie/foreigner-new-york-tickets-4-27-2027/event/107666197"
   },
   {
     "id": "tm-foreigner-2027-montclair-vv1aezkf_gkded4lx",

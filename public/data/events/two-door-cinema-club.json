@@ -801,6 +801,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678424",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-seattle-tickets-5-17-2027/event/107678424",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4pPR1wj",
@@ -808,7 +815,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338713",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338713/Two-Door-Cinema-Club-tickets-Mon-May-17-2027-Paramount-Theatre-Seattle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338713/Two-Door-Cinema-Club-tickets-Mon-May-17-2027-Paramount-Theatre-Seattle",
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-seattle-tickets-5-17-2027/event/107678424"
   },
   {
     "id": "tm-two-door-cinema-club-2027-sacramento-g5vyz_46svaa8",

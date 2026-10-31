@@ -647,11 +647,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107671384",
+        "url": "https://www.stubhub.ie/fantasia-fort-worth-tickets-3-13-2027/event/107671384",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KbTLWH3",
@@ -659,7 +659,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293970",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293970/The-Love-of-Soul-Tour-tickets-Sat-Mar-13-2027-Ariat-Arena",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/fantasia-fort-worth-tickets-3-13-2027/event/107671384",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
     ]

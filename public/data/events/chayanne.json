@@ -128,11 +128,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107165162",
-        "url": "https://www.stubhub.ie/chayanne-tampa-tickets-10-30-2026/event/107165162",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7892339",
@@ -152,7 +152,7 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_km8pku0",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/chayanne-tampa-tickets-10-30-2026/event/107165162",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7892339/Chayanne-tickets-Fri-Oct-30-2026-Benchmark-International-Arena",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"

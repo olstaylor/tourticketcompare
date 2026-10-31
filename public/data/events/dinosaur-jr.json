@@ -844,18 +844,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8099079",
-        "url": "https://www.ticketliquidator.com/tickets/8099079/Dinosaur-Jr-tickets-Thu-Oct-29-2026-Ogden-Theatre",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PU0P",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8099079/Dinosaur-Jr-tickets-Thu-Oct-29-2026-Ogden-Theatre"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-dinosaur-jr-2026-houston-g5diz_uj-6tws",

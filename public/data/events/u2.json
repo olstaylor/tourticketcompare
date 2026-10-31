@@ -412,13 +412,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347795",
+        "url": "https://www.ticketliquidator.com/tickets/8347795/U2-tickets-Mon-Apr-26-2027-Strawberry-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z16v-3vZAt",
     "timezone": "Europe/Stockholm",
     "status": "announced",
     "public_onsale_at": "2026-11-06T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347795"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347795",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347795/U2-tickets-Mon-Apr-26-2027-Strawberry-Arena"
   },
   {
     "id": "tm-u2-2027-stockholm-z698xzq2z16v_p7i1a",
@@ -474,13 +482,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347796",
+        "url": "https://www.ticketliquidator.com/tickets/8347796/U2-tickets-Wed-Apr-28-2027-Strawberry-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z16v_p7I1a",
     "timezone": "Europe/Stockholm",
     "status": "announced",
     "public_onsale_at": "2026-11-06T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347796"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347796",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347796/U2-tickets-Wed-Apr-28-2027-Strawberry-Arena"
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz16v0jupoj",
@@ -529,12 +545,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347800",
+        "url": "https://www.ticketliquidator.com/tickets/8347800/U2-tickets-Sat-Jun-5-2027-Johan-Cruijff-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v0JuPOJ",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347800/U2-tickets-Sat-Jun-5-2027-Johan-Cruijff-Arena"
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz16v7bpzfv",
@@ -583,11 +607,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347801",
+        "url": "https://www.ticketliquidator.com/tickets/8347801/U2-tickets-Sun-Jun-6-2027-Johan-Cruijff-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v7bPzfv",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347801/U2-tickets-Sun-Jun-6-2027-Johan-Cruijff-Arena"
   }
 ]

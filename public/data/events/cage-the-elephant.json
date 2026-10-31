@@ -341,13 +341,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265885",
+        "url": "https://www.ticketliquidator.com/tickets/8265885/Cage-The-Elephant-tickets-Fri-Feb-26-2027-O2-Academy-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3k0LKKh",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265885",
-    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-birmingham-o2-academy-birmingham-26-2-2027/event/107667235"
+    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-birmingham-o2-academy-birmingham-26-2-2027/event/107667235",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265885/Cage-The-Elephant-tickets-Fri-Feb-26-2027-O2-Academy-Birmingham"
   },
   {
     "id": "tm-cage-the-elephant-2027-manchester-g5dzz_3374s3o",
@@ -403,12 +411,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8254819",
+        "url": "https://www.ticketliquidator.com/tickets/8254819/Cage-The-Elephant-tickets-Sun-Feb-28-2027-O2-Victoria-Warehouse-Manchester",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3374s3o",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254819"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254819",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8254819/Cage-The-Elephant-tickets-Sun-Feb-28-2027-O2-Victoria-Warehouse-Manchester"
   },
   {
     "id": "tm-cage-the-elephant-2027-london-g5vhz_3r6zval",

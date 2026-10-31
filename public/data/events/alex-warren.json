@@ -60,13 +60,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264076",
+        "url": "https://www.ticketliquidator.com/tickets/8264076/Alex-Warren-tickets-Wed-Dec-30-2026-The-Colosseum-At-Caesars-Palace",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZkftGkdvnPgB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264076",
-    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-30-2026/event/107669462"
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-30-2026/event/107669462",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264076/Alex-Warren-tickets-Wed-Dec-30-2026-The-Colosseum-At-Caesars-Palace"
   },
   {
     "id": "tm-alex-warren-2027-las-vegas-1ayzkftgkdvipgh",
@@ -129,13 +137,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264077",
+        "url": "https://www.ticketliquidator.com/tickets/8264077/Alex-Warren-tickets-Thu-Dec-31-2026-The-Colosseum-At-Caesars-Palace",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZkftGkdviPgH",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264077",
-    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-31-2026/event/107668643"
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-31-2026/event/107668643",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264077/Alex-Warren-tickets-Thu-Dec-31-2026-The-Colosseum-At-Caesars-Palace"
   },
   {
     "id": "tm-alex-warren-2027-cardiff-g5vhz_3c3nozb",
@@ -487,6 +503,13 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345707",
+        "url": "https://www.ticketliquidator.com/tickets/8345707/Alex-Warren-tickets-Sun-Jun-27-2027-Blenheim-Palace",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16djZ_4Q3G7MfNF",
@@ -494,7 +517,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345707",
-    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-woodstock-blenheim-palace-27-6-2027/event/107676110"
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-woodstock-blenheim-palace-27-6-2027/event/107676110",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345707/Alex-Warren-tickets-Sun-Jun-27-2027-Blenheim-Palace"
   },
   {
     "id": "tm-alex-warren-2027-scarborough-1agzkf0gkdh1nyj",
@@ -557,13 +581,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295164",
+        "url": "https://www.ticketliquidator.com/tickets/8295164/Alex-Warren-tickets-Wed-Jun-30-2027-Scarborough-Open-Air-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkf0Gkdh1nYJ",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295164",
-    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-scarborough-scarborough-open-air-theatre-30-6-2027/event/107670721"
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-scarborough-scarborough-open-air-theatre-30-6-2027/event/107670721",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295164/Alex-Warren-tickets-Wed-Jun-30-2027-Scarborough-Open-Air-Theatre"
   },
   {
     "id": "tm-alex-warren-2027-manchester-g5dzz_fblbfue",
@@ -626,6 +658,13 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345708",
+        "url": "https://www.ticketliquidator.com/tickets/8345708/Alex-Warren-tickets-Fri-Jul-2-2027-Heaton-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_fBlBfue",
@@ -633,7 +672,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345708",
-    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-manchester-heaton-park-2-7-2027/event/107678237"
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-manchester-heaton-park-2-7-2027/event/107678237",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345708/Alex-Warren-tickets-Fri-Jul-2-2027-Heaton-Park"
   },
   {
     "id": "tm-alex-warren-2027-london-1amzkfngkdb5am5",
@@ -696,12 +736,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294337",
+        "url": "https://www.ticketliquidator.com/tickets/8294337/Alex-Warren-tickets-Sat-Jul-3-2027-Crystal-Palace-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfNGkdb5aM5",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294337",
-    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-london-crystal-palace-park-3-7-2027/event/107671362"
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-london-crystal-palace-park-3-7-2027/event/107671362",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294337/Alex-Warren-tickets-Sat-Jul-3-2027-Crystal-Palace-Park"
   }
 ]

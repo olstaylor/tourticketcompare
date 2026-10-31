@@ -703,11 +703,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8164817",
+        "url": "https://www.ticketliquidator.com/tickets/8164817/Tyla-tickets-Fri-Nov-13-2026-Fox-Theater-Oakland",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -721,7 +721,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164817",
-    "ticketliquidator_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164817/Tyla-tickets-Fri-Nov-13-2026-Fox-Theater-Oakland",
     "stubhub_international_url": "",
     "presales": [
       {

@@ -710,12 +710,20 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326648",
+        "url": "https://www.ticketliquidator.com/tickets/8326648/Megadeth-tickets-Sun-Mar-28-2027-Oslo-Spektrum",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16vo9vPvY",
     "timezone": "Europe/Oslo",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326648",
-    "stubhub_international_url": "https://www.stubhub.ie/megadeth-tickets-oslo-oslo-spektrum-28-3-2027/event/107469086"
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-tickets-oslo-oslo-spektrum-28-3-2027/event/107469086",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326648/Megadeth-tickets-Sun-Mar-28-2027-Oslo-Spektrum"
   }
 ]

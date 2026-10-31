@@ -1005,11 +1005,19 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284743",
+        "url": "https://www.ticketliquidator.com/tickets/8284743/Too-Many-Zooz-tickets-Mon-May-3-2027-Beer-City-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAee-e",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284743"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284743",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284743/Too-Many-Zooz-tickets-Mon-May-3-2027-Beer-City-Music-Hall"
   }
 ]

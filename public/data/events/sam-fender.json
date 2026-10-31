@@ -60,6 +60,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8349501",
+        "url": "https://www.ticketliquidator.com/tickets/8349501/Sam-Fender-tickets-Thu-Jun-3-2027-St-James-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4fGkd88g8t",
@@ -70,7 +77,8 @@
       "KMJ ENTERTAINMENT LTD"
     ],
     "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-3-6-2027/event/107678199",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8349501"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8349501",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8349501/Sam-Fender-tickets-Thu-Jun-3-2027-St-James-Park"
   },
   {
     "id": "tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj",
@@ -133,6 +141,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8349502",
+        "url": "https://www.ticketliquidator.com/tickets/8349502/Sam-Fender-tickets-Sat-Jun-5-2027-St-James-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_fGkTpp_oj",
@@ -143,7 +158,8 @@
       "KMJ ENTERTAINMENT LTD"
     ],
     "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-5-6-2027/event/107676048",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8349502"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8349502",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8349502/Sam-Fender-tickets-Sat-Jun-5-2027-St-James-Park"
   },
   {
     "id": "tm-sam-fender-2027-cardiff-16gzk4fpszage5ca",

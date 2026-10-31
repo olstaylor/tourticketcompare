@@ -863,13 +863,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8098853",
+        "url": "https://www.ticketliquidator.com/tickets/8098853/Kaleo-tickets-Tue-Mar-30-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v8--tPb",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098853",
-    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-amsterdam-ziggo-dome-30-3-2027/event/107418043"
+    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-amsterdam-ziggo-dome-30-3-2027/event/107418043",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098853/Kaleo-tickets-Tue-Mar-30-2027-Ziggo-Dome"
   },
   {
     "id": "tm-kaleo-2027-london-g5dzz_uxmo7c5",
@@ -932,13 +940,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8098553",
+        "url": "https://www.ticketliquidator.com/tickets/8098553/Kaleo-tickets-Sat-Apr-3-2027-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_uxmo7c5",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098553",
-    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-london-o2-academy-brixton-3-4-2027/event/107417949"
+    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-london-o2-academy-brixton-3-4-2027/event/107417949",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098553/Kaleo-tickets-Sat-Apr-3-2027-O2-Academy-Brixton"
   },
   {
     "id": "tm-kaleo-2027-manchester-17uov0g6ulnuuct",
@@ -1001,13 +1017,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8098554",
+        "url": "https://www.ticketliquidator.com/tickets/8098554/Kaleo-tickets-Tue-Apr-6-2027-O2-Apollo-Manchester",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6uLNuuCt",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098554",
-    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-manchester-o2-apollo-manchester-6-4-2027/event/107417929"
+    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-manchester-o2-apollo-manchester-6-4-2027/event/107417929",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098554/Kaleo-tickets-Tue-Apr-6-2027-O2-Apollo-Manchester"
   },
   {
     "id": "tm-kaleo-2027-glasgow-g5dzz_ujz8jhw",
@@ -1070,13 +1094,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8098555",
+        "url": "https://www.ticketliquidator.com/tickets/8098555/Kaleo-tickets-Thu-Apr-8-2027-O2-Academy-Glasgow",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_uJz8JHW",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098555",
-    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-glasgow-o2-academy-glasgow-8-4-2027/event/107447610"
+    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-glasgow-o2-academy-glasgow-8-4-2027/event/107447610",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098555/Kaleo-tickets-Thu-Apr-8-2027-O2-Academy-Glasgow"
   },
   {
     "id": "tm-kaleo-2027-birmingham-g5dzz_u5ehmmb",
@@ -1139,12 +1171,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8098851",
+        "url": "https://www.ticketliquidator.com/tickets/8098851/Kaleo-tickets-Fri-Apr-9-2027-O2-Academy-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_u5eHMMb",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098851",
-    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-birmingham-o2-academy-birmingham-9-4-2027/event/107447611"
+    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-birmingham-o2-academy-birmingham-9-4-2027/event/107447611",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098851/Kaleo-tickets-Fri-Apr-9-2027-O2-Academy-Birmingham"
   }
 ]

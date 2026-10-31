@@ -1223,13 +1223,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347742",
+        "url": "https://www.ticketliquidator.com/tickets/8347742/Noah-Kahan-tickets-Tue-Apr-27-2027-Protective-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_4GkwloeXg",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347742"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347742",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347742/Noah-Kahan-tickets-Tue-Apr-27-2027-Protective-Stadium"
   },
   {
     "id": "tm-noah-kahan-2027-tampa-vvg1vz_4rlk1ty",
@@ -1285,13 +1293,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347743",
+        "url": "https://www.ticketliquidator.com/tickets/8347743/Noah-Kahan-tickets-Thu-Apr-29-2027-Raymond-James-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_4RlK1ty",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347743"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347743",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347743/Noah-Kahan-tickets-Thu-Apr-29-2027-Raymond-James-Stadium"
   },
   {
     "id": "tm-noah-kahan-2027-charlotte-g5evz_4r3uqrt",
@@ -1347,13 +1363,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347745",
+        "url": "https://www.ticketliquidator.com/tickets/8347745/Noah-Kahan-tickets-Thu-May-6-2027-Bank-Of-America-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_4R3uqrt",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347745"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347745",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347745/Noah-Kahan-tickets-Thu-May-6-2027-Bank-Of-America-Stadium"
   },
   {
     "id": "tm-noah-kahan-2027-houston-g5diz_4wkxf3f",
@@ -1409,13 +1433,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347747",
+        "url": "https://www.ticketliquidator.com/tickets/8347747/Noah-Kahan-tickets-Wed-May-12-2027-Reliant-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_4wkXf3f",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347747"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347747",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347747/Noah-Kahan-tickets-Wed-May-12-2027-Reliant-Stadium"
   },
   {
     "id": "tm-noah-kahan-2027-santa-clara-g5vyz_4rfk6c7",
@@ -1471,13 +1503,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347749",
+        "url": "https://www.ticketliquidator.com/tickets/8347749/Noah-Kahan-tickets-Wed-May-19-2027-Levis-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4RFk6c7",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T20:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347749"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347749",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347749/Noah-Kahan-tickets-Wed-May-19-2027-Levis-Stadium"
   },
   {
     "id": "tm-noah-kahan-2027-las-vegas-1avjz_4gkrmeou0",
@@ -1533,13 +1573,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347750",
+        "url": "https://www.ticketliquidator.com/tickets/8347750/Noah-Kahan-tickets-Fri-May-21-2027-Allegiant-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_4GkRmEoU0",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T20:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347750"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347750",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347750/Noah-Kahan-tickets-Fri-May-21-2027-Allegiant-Stadium"
   },
   {
     "id": "tm-noah-kahan-2027-columbus-vv17fz_4gkshkqmo",
@@ -1595,13 +1643,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347756",
+        "url": "https://www.ticketliquidator.com/tickets/8347756/Noah-Kahan-tickets-Sat-Jun-5-2027-Ohio-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_4GkSHkqmO",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347756"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347756",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347756/Noah-Kahan-tickets-Sat-Jun-5-2027-Ohio-Stadium"
   },
   {
     "id": "tm-noah-kahan-2027-detroit-vv1koz_kr3g7cdve",
@@ -1657,13 +1713,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347757",
+        "url": "https://www.ticketliquidator.com/tickets/8347757/Noah-Kahan-tickets-Thu-Jun-10-2027-Ford-Field",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kOZ_Kr3G7cdVE",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347757"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347757",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347757/Noah-Kahan-tickets-Thu-Jun-10-2027-Ford-Field"
   },
   {
     "id": "tm-noah-kahan-2027-orchard-park-vv17gz_4gksqg3zl",
@@ -1719,13 +1783,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347758",
+        "url": "https://www.ticketliquidator.com/tickets/8347758/Noah-Kahan-tickets-Sat-Jun-12-2027-New-Highmark-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17GZ_4GkSqG3zl",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347758"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347758",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347758/Noah-Kahan-tickets-Sat-Jun-12-2027-New-Highmark-Stadium"
   },
   {
     "id": "tm-noah-kahan-2027-montreal-1aszk4pgkdjhrvf",
@@ -1781,13 +1853,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347760",
+        "url": "https://www.ticketliquidator.com/tickets/8347760/Noah-Kahan-tickets-Tue-Jun-15-2027-Parc-Jean-Drapeau",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4pGkdJHrVF",
     "timezone": "America/Toronto",
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347760"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347760",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347760/Noah-Kahan-tickets-Tue-Jun-15-2027-Parc-Jean-Drapeau"
   },
   {
     "id": "tm-noah-kahan-2027-east-rutherford-k7vgf_4me3p--",
@@ -1843,13 +1923,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8347759",
+        "url": "https://www.ticketliquidator.com/tickets/8347759/Noah-Kahan-tickets-Fri-Jun-18-2027-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_4mE3P--",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347759"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347759",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347759/Noah-Kahan-tickets-Fri-Jun-18-2027-MetLife-Stadium"
   },
   {
     "id": "tm-noah-kahan-2027-berlin-z698xzc2z16vgkoop-",

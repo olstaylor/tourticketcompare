@@ -318,11 +318,19 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8297688",
+        "url": "https://www.ticketliquidator.com/tickets/8297688/Bullet-For-My-Valentine-tickets-Sat-Feb-27-2027-AO-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_Kd3NKoQ",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297688"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297688",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297688/Bullet-For-My-Valentine-tickets-Sat-Feb-27-2027-AO-Arena"
   }
 ]

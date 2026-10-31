@@ -55,11 +55,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8311062",
-        "url": "https://www.ticketliquidator.com/tickets/8311062/Aerosmith-tickets-Thu-Oct-29-2026-Hollywood-Bowl",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107672550",
@@ -73,7 +73,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311062/Aerosmith-tickets-Thu-Oct-29-2026-Hollywood-Bowl",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/aerosmith-hollywood-tickets-10-29-2026/event/107672550",
     "organizer_names": [
       "ANDREW HEWITT & BILL SILVA PRESENTS",

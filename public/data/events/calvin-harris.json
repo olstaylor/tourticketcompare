@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8256057",
+        "url": "https://www.ticketliquidator.com/tickets/8256057/Calvin-Harris-tickets-Sat-Nov-7-2026-XS-Nightclub-At-Wynn-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv9uI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256057"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256057",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8256057/Calvin-Harris-tickets-Sat-Nov-7-2026-XS-Nightclub-At-Wynn-Las-Vegas"
   },
   {
     "id": "tm-calvin-harris-2026-las-vegas-z7r9jz1aav9um",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8256058",
+        "url": "https://www.ticketliquidator.com/tickets/8256058/Calvin-Harris-tickets-Sat-Nov-21-2026-XS-Nightclub-At-Wynn-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv9uM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256058"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256058",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8256058/Calvin-Harris-tickets-Sat-Nov-21-2026-XS-Nightclub-At-Wynn-Las-Vegas"
   },
   {
     "id": "tm-calvin-harris-2027-las-vegas-z7r9jz1aaeaa4",
@@ -175,12 +191,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8309899",
+        "url": "https://www.ticketliquidator.com/tickets/8309899/Calvin-Harris-tickets-Thu-Dec-31-2026-XS-Nightclub-At-Wynn-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeAA4",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8309899"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8309899",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8309899/Calvin-Harris-tickets-Thu-Dec-31-2026-XS-Nightclub-At-Wynn-Las-Vegas"
   },
   {
     "id": "tm-calvin-harris-2027-perth-1avgz_kjvv7zd8va",
@@ -826,13 +850,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332831",
+        "url": "https://www.ticketliquidator.com/tickets/8332831/Calvin-Harris-tickets-Wed-Mar-31-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv117Z_47a1FA9",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332831",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-3-31-2027/event/107678077"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-3-31-2027/event/107678077",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332831/Calvin-Harris-tickets-Wed-Mar-31-2027-TD-Garden"
   },
   {
     "id": "tm-calvin-harris-2027-boston-vv1a8vp3aga2khl4",
@@ -895,13 +927,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319872",
+        "url": "https://www.ticketliquidator.com/tickets/8319872/Calvin-Harris-tickets-Thu-Apr-1-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vP3aGA2khL4",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319872",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-1-2027/event/107673765"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-1-2027/event/107673765",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319872/Calvin-Harris-tickets-Thu-Apr-1-2027-TD-Garden"
   },
   {
     "id": "tm-calvin-harris-2027-baltimore-1ka8vp3_ga2r9p0",
@@ -964,13 +1004,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319873",
+        "url": "https://www.ticketliquidator.com/tickets/8319873/Calvin-Harris-tickets-Fri-Apr-2-2027-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kA8vP3_GA2r9p0",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319873",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-baltimore-tickets-4-2-2027/event/107674374"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-baltimore-tickets-4-2-2027/event/107674374",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319873/Calvin-Harris-tickets-Fri-Apr-2-2027-CFG-Bank-Arena"
   },
   {
     "id": "tm-calvin-harris-2027-boston-vv1a8vp49ga5l0kw",
@@ -1033,13 +1081,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8336942",
+        "url": "https://www.ticketliquidator.com/tickets/8336942/Calvin-Harris-tickets-Sun-Apr-4-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vP49GA5L0kW",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336942",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-4-2027/event/107678078"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-4-2027/event/107678078",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8336942/Calvin-Harris-tickets-Sun-Apr-4-2027-TD-Garden"
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-16yzk4k-yza5e8ka",
@@ -1102,13 +1158,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332603",
+        "url": "https://www.ticketliquidator.com/tickets/8332603/Calvin-Harris-tickets-Tue-Apr-6-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16YZk4K-yZA5e8kA",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332603",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-6-2027/event/107678079"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-6-2027/event/107678079",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332603/Calvin-Harris-tickets-Tue-Apr-6-2027-Barclays-Center"
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-16dzz_4c6g7nsw_",
@@ -1171,13 +1235,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332913",
+        "url": "https://www.ticketliquidator.com/tickets/8332913/Calvin-Harris-tickets-Wed-Apr-7-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dZZ_4C6G7nsW_",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332913",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-7-2027/event/107675887"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-7-2027/event/107675887",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332913/Calvin-Harris-tickets-Wed-Apr-7-2027-Barclays-Center"
   },
   {
     "id": "tm-calvin-harris-2027-philadelphia-1ayzk4agkew8jvi",
@@ -1240,13 +1312,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319874",
+        "url": "https://www.ticketliquidator.com/tickets/8319874/Calvin-Harris-tickets-Thu-Apr-8-2027-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4aGkeW8JvI",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319874",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-philadelphia-tickets-4-8-2027/event/107674366"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-philadelphia-tickets-4-8-2027/event/107674366",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319874/Calvin-Harris-tickets-Thu-Apr-8-2027-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-1ayzk4fgkeyujwu",
@@ -1309,13 +1389,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319875",
+        "url": "https://www.ticketliquidator.com/tickets/8319875/Calvin-Harris-tickets-Fri-Apr-9-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4FGkeyUJwu",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319875",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-9-2027/event/107674362"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-9-2027/event/107674362",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319875/Calvin-Harris-tickets-Fri-Apr-9-2027-Barclays-Center"
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-16yzk4ov9zau1f7g",
@@ -1378,13 +1466,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8330028",
+        "url": "https://www.ticketliquidator.com/tickets/8330028/Calvin-Harris-tickets-Sat-Apr-10-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16YZk4ov9ZAu1F7G",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330028",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-10-2027/event/107677355"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-10-2027/event/107677355",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8330028/Calvin-Harris-tickets-Sat-Apr-10-2027-Barclays-Center"
   },
   {
     "id": "tm-calvin-harris-2027-toronto-1a8zk4fgkevlxcb",
@@ -1493,12 +1589,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319891",
+        "url": "https://www.ticketliquidator.com/tickets/8319891/Calvin-Harris-tickets-Fri-Apr-16-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ad7Z_fxFqwZdua5",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319891"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319891",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319891/Calvin-Harris-tickets-Fri-Apr-16-2027-Centre-Bell"
   },
   {
     "id": "tm-calvin-harris-2027-hamilton-1a8zk4agkd5cdnl",
@@ -1607,12 +1711,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319876",
+        "url": "https://www.ticketliquidator.com/tickets/8319876/Calvin-Harris-tickets-Fri-Apr-23-2027-Toyota-Center-TX",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76Pk",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319876"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319876",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319876/Calvin-Harris-tickets-Fri-Apr-23-2027-Toyota-Center-TX"
   },
   {
     "id": "tm-calvin-harris-2027-fort-worth-vvg1yz_flvwxhm",
@@ -1668,12 +1780,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319878",
+        "url": "https://www.ticketliquidator.com/tickets/8319878/Calvin-Harris-tickets-Sat-Apr-24-2027-Ariat-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fLVwXhM",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319878"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319878",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319878/Calvin-Harris-tickets-Sat-Apr-24-2027-Ariat-Arena"
   },
   {
     "id": "tm-calvin-harris-2027-austin-g5diz_fjhnaqg",
@@ -1736,13 +1856,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319880",
+        "url": "https://www.ticketliquidator.com/tickets/8319880/Calvin-Harris-tickets-Sun-Apr-25-2027-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fJHNAQG",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319880",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-austin-tickets-4-25-2027/event/107673761"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-austin-tickets-4-25-2027/event/107673761",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319880/Calvin-Harris-tickets-Sun-Apr-25-2027-Moody-Center-ATX"
   },
   {
     "id": "tm-calvin-harris-2027-saint-paul-z7r9jz1aa76pf",
@@ -1805,13 +1933,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319881",
+        "url": "https://www.ticketliquidator.com/tickets/8319881/Calvin-Harris-tickets-Thu-Apr-29-2027-Grand-Casino-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76PF",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319881",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-saint-paul-tickets-4-29-2027/event/107677510"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-saint-paul-tickets-4-29-2027/event/107677510",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319881/Calvin-Harris-tickets-Thu-Apr-29-2027-Grand-Casino-Arena"
   },
   {
     "id": "tm-calvin-harris-2027-chicago-vv1a7zk4fgkdzmu0d",
@@ -1874,13 +2010,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319882",
+        "url": "https://www.ticketliquidator.com/tickets/8319882/Calvin-Harris-tickets-Fri-Apr-30-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4FGkdZMu0D",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319882",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-4-30-2027/event/107673764"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-4-30-2027/event/107673764",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319882/Calvin-Harris-tickets-Fri-Apr-30-2027-United-Center"
   },
   {
     "id": "tm-calvin-harris-2027-chicago-vv167zk4319zac1ud5",
@@ -1943,13 +2087,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8333136",
+        "url": "https://www.ticketliquidator.com/tickets/8333136/Calvin-Harris-tickets-Sun-May-2-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv167Zk4319ZAC1ud5",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333136",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-5-2-2027/event/107675891"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-5-2-2027/event/107675891",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333136/Calvin-Harris-tickets-Sun-May-2-2027-United-Center"
   },
   {
     "id": "tm-calvin-harris-2027-salt-lake-city-z7r9jz1aa76p8",
@@ -2012,13 +2164,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319883",
+        "url": "https://www.ticketliquidator.com/tickets/8319883/Calvin-Harris-tickets-Wed-May-5-2027-Delta-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76P8",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319883",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-salt-lake-city-tickets-5-5-2027/event/107674370"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-salt-lake-city-tickets-5-5-2027/event/107674370",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319883/Calvin-Harris-tickets-Wed-May-5-2027-Delta-Center"
   },
   {
     "id": "tm-calvin-harris-2027-oakland-g5vyz_fh6tm8u",
@@ -2081,13 +2241,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319885",
+        "url": "https://www.ticketliquidator.com/tickets/8319885/Calvin-Harris-tickets-Fri-May-7-2027-Oakland-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_fh6tm8u",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319885",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-oakland-tickets-5-7-2027/event/107673758"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-oakland-tickets-5-7-2027/event/107673758",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319885/Calvin-Harris-tickets-Fri-May-7-2027-Oakland-Arena"
   },
   {
     "id": "tm-calvin-harris-2027-oakland-g5vyz_4drjlsj",
@@ -2143,12 +2311,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8333276",
+        "url": "https://www.ticketliquidator.com/tickets/8333276/Calvin-Harris-tickets-Sat-May-8-2027-Oakland-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4dRjlsJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333276"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333276",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333276/Calvin-Harris-tickets-Sat-May-8-2027-Oakland-Arena"
   },
   {
     "id": "tm-calvin-harris-2027-oakland-g5vyz_4cwzdxp",
@@ -2204,12 +2380,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8333281",
+        "url": "https://www.ticketliquidator.com/tickets/8333281/Calvin-Harris-tickets-Sun-May-9-2027-Oakland-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4CWzdxp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333281"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333281",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333281/Calvin-Harris-tickets-Sun-May-9-2027-Oakland-Arena"
   },
   {
     "id": "tm-calvin-harris-2027-seattle-vvg1hz_fjlgmb1",
@@ -2272,13 +2456,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319886",
+        "url": "https://www.ticketliquidator.com/tickets/8319886/Calvin-Harris-tickets-Fri-May-14-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fJLgMb1",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319886",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-14-2027/event/107673763"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-14-2027/event/107673763",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319886/Calvin-Harris-tickets-Fri-May-14-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-calvin-harris-2027-seattle-vvg1hz_48c3k9c",
@@ -2341,13 +2533,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8336941",
+        "url": "https://www.ticketliquidator.com/tickets/8336941/Calvin-Harris-tickets-Sat-May-15-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_48C3K9C",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336941",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-15-2027/event/107675892"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-15-2027/event/107675892",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8336941/Calvin-Harris-tickets-Sat-May-15-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-calvin-harris-2027-vancouver-1aozk46gkdf4hov",
@@ -2403,12 +2603,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319893",
+        "url": "https://www.ticketliquidator.com/tickets/8319893/Calvin-Harris-tickets-Sun-May-16-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk46GkdF4hOv",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319893"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319893",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319893/Calvin-Harris-tickets-Sun-May-16-2027-Rogers-Arena"
   },
   {
     "id": "tm-calvin-harris-2027-vancouver-1k78vpfmgagddrz",
@@ -2464,12 +2672,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8336944",
+        "url": "https://www.ticketliquidator.com/tickets/8336944/Calvin-Harris-tickets-Mon-May-17-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPfMGAGDdRZ",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336944"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336944",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8336944/Calvin-Harris-tickets-Mon-May-17-2027-Rogers-Arena"
   },
   {
     "id": "tm-calvin-harris-2027-anaheim-vv1aazk44gkdgr8bi",
@@ -2532,13 +2748,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337412",
+        "url": "https://www.ticketliquidator.com/tickets/8337412/Calvin-Harris-tickets-Thu-May-20-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk44GkdGR8BI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337412",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-anaheim-tickets-5-20-2027/event/107675893"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-anaheim-tickets-5-20-2027/event/107675893",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337412/Calvin-Harris-tickets-Thu-May-20-2027-Honda-Center"
   },
   {
     "id": "tm-calvin-harris-2027-san-diego-vvg1iz_fqlbaqn",
@@ -2594,12 +2818,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319887",
+        "url": "https://www.ticketliquidator.com/tickets/8319887/Calvin-Harris-tickets-Fri-May-21-2027-Viejas-Arena-At-Aztec-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_fQLbaqn",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319887"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319887",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319887/Calvin-Harris-tickets-Fri-May-21-2027-Viejas-Arena-At-Aztec-Bowl"
   },
   {
     "id": "tm-calvin-harris-2027-san-diego-vvg1iz_4dbvmwb",
@@ -2655,12 +2887,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8333282",
+        "url": "https://www.ticketliquidator.com/tickets/8333282/Calvin-Harris-tickets-Sat-May-22-2027-Viejas-Arena-At-Aztec-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4dBvmWB",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333282"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333282",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333282/Calvin-Harris-tickets-Sat-May-22-2027-Viejas-Arena-At-Aztec-Bowl"
   },
   {
     "id": "tm-calvin-harris-2027-san-diego-vvg1iz_45bbb-k",
@@ -2716,12 +2956,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8333283",
+        "url": "https://www.ticketliquidator.com/tickets/8333283/Calvin-Harris-tickets-Sun-May-23-2027-Viejas-Arena-At-Aztec-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_45bbb-k",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333283"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333283",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333283/Calvin-Harris-tickets-Sun-May-23-2027-Viejas-Arena-At-Aztec-Bowl"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1f0z_48vcazd8d1",
@@ -2784,13 +3032,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8336943",
+        "url": "https://www.ticketliquidator.com/tickets/8336943/Calvin-Harris-tickets-Wed-May-26-2027-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F0Z_48vCAZd8d1",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336943",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-26-2027/event/107675896"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-26-2027/event/107675896",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8336943/Calvin-Harris-tickets-Wed-May-26-2027-The-Kia-Forum"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk4fgkebghyq",
@@ -2853,13 +3109,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319888",
+        "url": "https://www.ticketliquidator.com/tickets/8319888/Calvin-Harris-tickets-Thu-May-27-2027-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4FGkeBgHyq",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319888",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-27-2027/event/107673759"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-27-2027/event/107673759",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319888/Calvin-Harris-tickets-Thu-May-27-2027-The-Kia-Forum"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd68xic",
@@ -2922,13 +3186,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8330024",
+        "url": "https://www.ticketliquidator.com/tickets/8330024/Calvin-Harris-tickets-Fri-May-28-2027-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk48Gkd68XiC",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330024",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-28-2027/event/107677401"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-28-2027/event/107677401",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8330024/Calvin-Harris-tickets-Fri-May-28-2027-The-Kia-Forum"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd6fcij",
@@ -2991,13 +3263,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8333280",
+        "url": "https://www.ticketliquidator.com/tickets/8333280/Calvin-Harris-tickets-Sat-May-29-2027-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk48Gkd6fCiJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333280",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-29-2027/event/107675897"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-29-2027/event/107675897",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333280/Calvin-Harris-tickets-Sat-May-29-2027-The-Kia-Forum"
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd69rc1",
@@ -3060,12 +3340,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8333277",
+        "url": "https://www.ticketliquidator.com/tickets/8333277/Calvin-Harris-tickets-Sun-May-30-2027-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk48Gkd69rc1",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333277",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-30-2027/event/107675898"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-30-2027/event/107675898",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333277/Calvin-Harris-tickets-Sun-May-30-2027-The-Kia-Forum"
   }
 ]

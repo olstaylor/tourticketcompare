@@ -793,12 +793,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8338175",
+        "url": "https://www.ticketliquidator.com/tickets/8338175/Interpol-tickets-Thu-Mar-18-2027-The-Espee-St-Paul-Square",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA70jA",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338175"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338175",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338175/Interpol-tickets-Thu-Mar-18-2027-The-Espee-St-Paul-Square"
   },
   {
     "id": "tm-interpol-2027-sayreville-z7r9jz1aa70_y",
@@ -854,11 +862,19 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8338177",
+        "url": "https://www.ticketliquidator.com/tickets/8338177/Interpol-tickets-Sat-Mar-27-2027-Starland-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA70_y",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338177"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338177",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338177/Interpol-tickets-Sat-Mar-27-2027-Starland-Ballroom"
   }
 ]

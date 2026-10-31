@@ -160,10 +160,23 @@ async function pool(items, worker, size = CONCURRENCY) {
   return results;
 }
 
-async function readText(url, fetchImpl) {
-  const response = await fetchImpl(url, { headers: { "User-Agent": USER_AGENT } });
-  if (!response.ok) throw Object.assign(new Error(`GET ${url} returned HTTP ${response.status}`), { status: response.status });
-  return response.text();
+// A single 5xx or dropped connection on a sitemap or API read is not an outage:
+// on 30 Oct one 503 on /sitemap-index.xml turned a healthy run red. Retry those
+// twice before reporting; a 4xx, or a failure that repeats, is still reported.
+async function readText(url, fetchImpl, { attempts = 3, delayMs = RETRY_DELAY_MS } = {}) {
+  for (let attempt = 1; ; attempt += 1) {
+    let response;
+    try {
+      response = await fetchImpl(url, { headers: { "User-Agent": USER_AGENT } });
+    } catch (error) {
+      if (attempt >= attempts) throw error;
+      await new Promise((resolve) => setTimeout(resolve, delayMs));
+      continue;
+    }
+    if (response.ok) return response.text();
+    if (response.status < 500 || attempt >= attempts) throw Object.assign(new Error(`GET ${url} returned HTTP ${response.status}`), { status: response.status });
+    await new Promise((resolve) => setTimeout(resolve, delayMs));
+  }
 }
 
 // Sitemaps carry canonical apex URLs whatever host serves them. Rebase each
@@ -402,6 +415,19 @@ async function selfTest() {
   assert.ok(pageProblems("https://x.test/a", { status: 200, html: good.replace("<h1>A</h1>", "") }).some((p) => /no <h1>/.test(p)));
   assert.ok(pageProblems("https://x.test/a", { status: 200, html: good.replace('{"@type":"WebPage"}', "{oops") }).some((p) => /JSON-LD/.test(p)));
 
+  // A one-off 503 on a read is retried; a repeated 503 and a 404 are still reported.
+  {
+    let calls = 0;
+    const flaky503 = async () => (++calls === 1 ? new Response("busy", { status: 503 }) : new Response("ok", { status: 200 }));
+    assert.equal(await readText("https://x.test/a", flaky503, { delayMs: 0 }), "ok");
+    assert.equal(calls, 2);
+    let always = 0;
+    await assert.rejects(readText("https://x.test/a", async () => (++always, new Response("busy", { status: 503 })), { delayMs: 0 }), /HTTP 503/);
+    assert.equal(always, 3);
+    let notFound = 0;
+    await assert.rejects(readText("https://x.test/a", async () => (++notFound, new Response("no", { status: 404 })), { delayMs: 0 }), /HTTP 404/);
+    assert.equal(notFound, 1);
+  }
   // End to end against a fake site: one 404, one duplicate title, a sitemap
   // segment that disagrees with /sitemap.xml, and a healthy price payload.
   const page = (path, title) => good.replace("x.test/a", `x.test${path}`).replace("A | TTC", title);

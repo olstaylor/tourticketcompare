@@ -279,7 +279,7 @@ function evaluateCandidate(event, candidate, eventLocalDateVal) {
   if (!venueMatchesSlug(event.venue, locationBlob, event.city)) {
     reasons.push(`venue mismatch: '${clean(event.venue)}' not found in the production slug`);
   }
-  return { ok: reasons.length === 0, reasons, url: candidate?.normalizedUrl || "", sku: candidate?.sku ?? null };
+  return { ok: reasons.length === 0, reasons, url: candidate?.normalizedUrl || "", sku: candidate?.sku ?? null, name: candidate?.name || "" };
 }
 
 // Decide what to do for one event given the verification/discovery outcome.
@@ -523,7 +523,7 @@ function toCandidate(item) {
   if (!Number.isInteger(sku) || !originalUrl) return null;
   const normalizedUrl = normalizeVividSeatsUrl(originalUrl);
   if (!normalizedUrl) return null;
-  return { sku, normalizedUrl, parsedSlug: parseProductionSlug(normalizedUrl) };
+  return { sku, normalizedUrl, parsedSlug: parseProductionSlug(normalizedUrl), name: clean(item?.Name, 200) };
 }
 
 // Fetch one artist's full Marketplace Products catalog. Returns
@@ -938,7 +938,7 @@ async function main() {
       // Name the listings an ambiguity is between, so the log shows what a
       // tie-break would have to tell apart. Nothing is written from this.
       if (discovery && discovery.candidates.length > 1 && (outcome.action === "conflict" || outcome.action === "clear")) {
-        outcome.notes.push(`candidates: ${discovery.candidates.map((candidate) => candidate.url || candidate.sku).join(", ")}`);
+        outcome.notes.push(`candidates: ${discovery.candidates.map((candidate) => `${candidate.url || candidate.sku}${candidate.name ? ` ("${candidate.name}")` : ""}`).join(", ")}`);
       }
       results.push({
         showId: event.id,

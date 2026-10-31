@@ -81,7 +81,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70AFY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AFY",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-easton-state-theatre-easton-11-6-2026--concerts-pop/production/6961235",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AFY",
     "last_verified_at": null,
@@ -103,11 +103,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6961235,
+        "url": "https://www.vividseats.com/air-supply-tickets-easton-state-theatre-easton-11-6-2026--concerts-pop/production/6961235",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -203,7 +203,7 @@
     "ticketmaster_event_id": "150064C5AA57A431",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-national-harbor-maryland-11-13-2026/event/150064C5AA57A431",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-oxon-hill-the-theater-at-mgm-national-harbor-11-13-2026/production/7199199",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-national-harbor-maryland-11-13-2026/event/150064C5AA57A431",
     "last_verified_at": null,
@@ -225,11 +225,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7199199,
+        "url": "https://www.vividseats.com/air-supply-tickets-oxon-hill-the-theater-at-mgm-national-harbor-11-13-2026/production/7199199",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -272,7 +272,7 @@
     "ticketmaster_event_id": "00006484C03BC3A5",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-westbury-new-york-11-14-2026/event/00006484C03BC3A5",
     "seatgeek_url": "https://seatgeek.com/air-supply-tickets/westbury-new-york-flagstar-at-westbury-music-fair-2026-11-14-8-pm/concert/18206347",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-westbury-flagstar-at-westbury-music-fair-11-14-2026/production/6956190",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-westbury-new-york-11-14-2026/event/00006484C03BC3A5",
     "last_verified_at": null,
@@ -294,11 +294,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6956190,
+        "url": "https://www.vividseats.com/air-supply-tickets-westbury-flagstar-at-westbury-music-fair-11-14-2026/production/6956190",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -325,7 +325,7 @@
     "ticketmaster_event_id": "1D0064AEA693531F",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-red-bank-new-jersey-11-15-2026/event/1D0064AEA693531F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-red-bank-hackensack-meridian-health-theatre-at-the-count-basie-center-11-15-2026/production/7079634",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-red-bank-new-jersey-11-15-2026/event/1D0064AEA693531F",
     "last_verified_at": null,
@@ -347,11 +347,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7079634,
+        "url": "https://www.vividseats.com/air-supply-tickets-red-bank-hackensack-meridian-health-theatre-at-the-count-basie-center-11-15-2026/production/7079634",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -447,7 +447,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PaoU",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PaoU",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-clearwater-ruth-eckerd-hall-11-21-2026/production/7104803",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PaoU",
     "last_verified_at": null,
@@ -469,11 +469,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7104803,
+        "url": "https://www.vividseats.com/air-supply-tickets-clearwater-ruth-eckerd-hall-11-21-2026/production/7104803",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -516,7 +516,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70Eoz",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Eoz",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-jacksonville-florida-theatre-jacksonville-11-22-2026/production/7047661",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Eoz",
     "last_verified_at": null,
@@ -538,11 +538,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7047661,
+        "url": "https://www.vividseats.com/air-supply-tickets-jacksonville-florida-theatre-jacksonville-11-22-2026/production/7047661",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -638,7 +638,7 @@
     "ticketmaster_event_id": "0D006506C11C7A09",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-fort-pierce-florida-01-21-2027/event/0D006506C11C7A09",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-fort-pierce-sunrise-theatre-1-21-2027--concerts-pop/production/7411746",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-fort-pierce-florida-01-21-2027/event/0D006506C11C7A09",
     "last_verified_at": null,
@@ -660,11 +660,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7411746,
+        "url": "https://www.vividseats.com/air-supply-tickets-fort-pierce-sunrise-theatre-1-21-2027--concerts-pop/production/7411746",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -760,7 +760,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P_4P",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_4P",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-sarasota-van-wezel-performing-arts-hall-1-24-2027/production/7163566",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_4P",
     "last_verified_at": null,
@@ -782,11 +782,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7163566,
+        "url": "https://www.vividseats.com/air-supply-tickets-sarasota-van-wezel-performing-arts-hall-1-24-2027/production/7163566",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -829,7 +829,7 @@
     "ticketmaster_event_id": "0D00652FD999E602",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-hollywood-florida-01-29-2027/event/0D00652FD999E602",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-1-29-2027/production/7619872",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-hollywood-florida-01-29-2027/event/0D00652FD999E602",
     "last_verified_at": null,
@@ -851,11 +851,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7619872,
+        "url": "https://www.vividseats.com/air-supply-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-1-29-2027/production/7619872",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -959,7 +959,7 @@
     "ticketmaster_event_id": "210064F0B34A4ED5",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-rockford-illinois-02-05-2027/event/210064F0B34A4ED5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-rockford-hard-rock-live---rockford-2-5-2027/production/7411024",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-rockford-illinois-02-05-2027/event/210064F0B34A4ED5",
     "last_verified_at": null,
@@ -981,11 +981,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7411024,
+        "url": "https://www.vividseats.com/air-supply-tickets-rockford-hard-rock-live---rockford-2-5-2027/production/7411024",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1028,7 +1028,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7x_eZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x_eZ",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-wisconsin-dells-crystal-grand-music-theatre-2-6-2027/production/6939186",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x_eZ",
     "last_verified_at": null,
@@ -1050,11 +1050,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6939186,
+        "url": "https://www.vividseats.com/air-supply-tickets-wisconsin-dells-crystal-grand-music-theatre-2-6-2027/production/6939186",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1081,7 +1081,7 @@
     "ticketmaster_event_id": "070064E9E1443EE2",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-waukegan-illinois-02-07-2027/event/070064E9E1443EE2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-waukegan-genesee-theatre-2-7-2027/production/7474307",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-waukegan-illinois-02-07-2027/event/070064E9E1443EE2",
     "last_verified_at": null,
@@ -1103,11 +1103,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7474307,
+        "url": "https://www.vividseats.com/air-supply-tickets-waukegan-genesee-theatre-2-7-2027/production/7474307",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1150,7 +1150,7 @@
     "ticketmaster_event_id": "09006514D7F9CCA2",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-rancho-mirage-california-02-13-2027/event/09006514D7F9CCA2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-rancho-mirage-the-show---agua-caliente-casino-2-13-2027/production/7479852",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-rancho-mirage-california-02-13-2027/event/09006514D7F9CCA2",
     "last_verified_at": null,
@@ -1172,11 +1172,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7479852,
+        "url": "https://www.vividseats.com/air-supply-tickets-rancho-mirage-the-show---agua-caliente-casino-2-13-2027/production/7479852",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1219,7 +1219,7 @@
     "ticketmaster_event_id": "110065290D5FDDC5",
     "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-abbotsford-british-columbia-02-18-2027/event/110065290D5FDDC5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-abbotsford-rogers-forum-2-18-2027--concerts-pop/production/7559666",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-abbotsford-british-columbia-02-18-2027/event/110065290D5FDDC5",
     "last_verified_at": null,
@@ -1241,11 +1241,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7559666,
+        "url": "https://www.vividseats.com/air-supply-tickets-abbotsford-rogers-forum-2-18-2027--concerts-pop/production/7559666",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1394,7 +1394,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvSx4",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvSx4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-moose-jaw-temple-gardens-centre-2-26-2027--concerts-pop/production/7564237",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvSx4",
     "last_verified_at": null,
@@ -1416,11 +1416,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7564237,
+        "url": "https://www.vividseats.com/air-supply-tickets-moose-jaw-temple-gardens-centre-2-26-2027--concerts-pop/production/7564237",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1447,7 +1447,7 @@
     "ticketmaster_event_id": "11006529C87392ED",
     "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-winnipeg-manitoba-02-28-2027/event/11006529C87392ED",
     "seatgeek_url": "https://seatgeek.com/air-supply-tickets/winnipeg-canada-canada-life-centre-2027-02-28-7-30-pm/concert/18593527",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-winnipeg-canada-life-centre-2-28-2027--concerts-pop/production/7559672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-winnipeg-manitoba-02-28-2027/event/11006529C87392ED",
     "last_verified_at": null,
@@ -1469,11 +1469,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7559672,
+        "url": "https://www.vividseats.com/air-supply-tickets-winnipeg-canada-life-centre-2-28-2027--concerts-pop/production/7559672",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1516,7 +1516,7 @@
     "ticketmaster_event_id": "3100652CC92BB37A",
     "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-ottawa-ontario-03-03-2027/event/3100652CC92BB37A",
     "seatgeek_url": "https://seatgeek.com/air-supply-tickets/ottawa-canada-hard-rock-hotel-and-casino-ottawa-2027-03-03-7-pm/concert/18594799",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-gloucester-hard-rock-hotel-and-casino-ottawa-3-3-2027--concerts-pop/production/7559686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-ottawa-ontario-03-03-2027/event/3100652CC92BB37A",
     "last_verified_at": null,
@@ -1538,11 +1538,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7559686,
+        "url": "https://www.vividseats.com/air-supply-tickets-gloucester-hard-rock-hotel-and-casino-ottawa-3-3-2027--concerts-pop/production/7559686",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1675,7 +1675,7 @@
     "ticketmaster_event_id": "1000652A197A3080",
     "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-windsor-ontario-03-07-2027/event/1000652A197A3080",
     "seatgeek_url": "https://seatgeek.com/air-supply-tickets/windsor-canada-the-colosseum-at-caesars-windsor-2027-03-07-7-pm/concert/18593816",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-windsor-the-colosseum-at-caesars-windsor-3-7-2027--concerts-pop/production/7559692",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-windsor-ontario-03-07-2027/event/1000652A197A3080",
     "last_verified_at": null,
@@ -1697,11 +1697,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7559692,
+        "url": "https://www.vividseats.com/air-supply-tickets-windsor-the-colosseum-at-caesars-windsor-3-7-2027--concerts-pop/production/7559692",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

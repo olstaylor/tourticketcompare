@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "2D00652425E3F382",
     "ticketmaster_url": "https://www.ticketmaster.com/the-avett-brothers-asheville-north-carolina-12-31-2026/event/2D00652425E3F382",
     "seatgeek_url": "https://seatgeek.com/the-avett-brothers-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2026-12-31-8-pm/concert/18580244",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-avett-brothers-tickets-asheville-harrahs-cherokee-center-asheville-12-31-2026/production/7540521",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-avett-brothers-asheville-north-carolina-12-31-2026/event/2D00652425E3F382",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7540521,
+        "url": "https://www.vividseats.com/the-avett-brothers-tickets-asheville-harrahs-cherokee-center-asheville-12-31-2026/production/7540521",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

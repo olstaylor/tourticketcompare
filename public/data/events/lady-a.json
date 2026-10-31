@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "3B0064C3C01B5EBA",
     "ticketmaster_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-new-york-new-york-12-17-2026/event/3B0064C3C01B5EBA",
     "seatgeek_url": "https://seatgeek.com/lady-a-tickets/new-york-new-york-beacon-theatre-2026-12-17-8-pm/concert/18294956",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lady-a-tickets-new-york-beacon-theatre-12-17-2026/production/7132089",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-new-york-new-york-12-17-2026/event/3B0064C3C01B5EBA",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132089,
+        "url": "https://www.vividseats.com/lady-a-tickets-new-york-beacon-theatre-12-17-2026/production/7132089",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P380",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P380",
     "seatgeek_url": "https://seatgeek.com/lady-a-tickets/bensalem-pennsylvania-xcite-center-at-parx-casino-2026-12-18-8-pm/concert/18353855",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lady-a-tickets-bensalem-xcite-center---parx-casino-and-racing-12-18-2026--concerts-country-and-folk/production/7132099",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P380",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132099,
+        "url": "https://www.vividseats.com/lady-a-tickets-bensalem-xcite-center---parx-casino-and-racing-12-18-2026--concerts-country-and-folk/production/7132099",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "2D0064C2EBD42568",
     "ticketmaster_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-greensboro-north-carolina-12-19-2026/event/2D0064C2EBD42568",
     "seatgeek_url": "https://seatgeek.com/lady-a-tickets/greensboro-north-carolina-steven-tanger-center-for-the-performing-arts-2026-12-19-7-30-pm/concert/18295539",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lady-a-tickets-greensboro-steven-tanger-center-for-the-performing-arts-12-19-2026/production/7132085",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-greensboro-north-carolina-12-19-2026/event/2D0064C2EBD42568",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132085,
+        "url": "https://www.vividseats.com/lady-a-tickets-greensboro-steven-tanger-center-for-the-performing-arts-12-19-2026/production/7132085",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

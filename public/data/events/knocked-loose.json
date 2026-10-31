@@ -320,7 +320,7 @@
     "ticketmaster_event_id": "0A0064B65F291D73",
     "ticketmaster_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-san-diego-california-10-30-2026/event/0A0064B65F291D73",
     "seatgeek_url": "https://seatgeek.com/knocked-loose-tickets/san-diego-california-petco-park-2026-10-30-7-pm/concert/18270641",
-    "vividseats_url": "https://www.vividseats.com/knocked-loose-tickets-san-diego-petco-park-10-30-2026--concerts-rock/production/7092574",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-san-diego-california-10-30-2026/event/0A0064B65F291D73",
     "last_verified_at": "2026-10-20",
@@ -342,11 +342,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7092574,
-        "url": "https://www.vividseats.com/knocked-loose-tickets-san-diego-petco-park-10-30-2026--concerts-rock/production/7092574",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -470,7 +470,7 @@
         "event_id": 7092595,
         "url": "https://www.vividseats.com/knocked-loose-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-2-2026/production/7092595",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -542,7 +542,7 @@
         "event_id": 7092605,
         "url": "https://www.vividseats.com/knocked-loose-tickets-denver-fillmore-auditorium-denver-11-3-2026/production/7092605",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -598,7 +598,7 @@
         "event_id": 7092585,
         "url": "https://www.vividseats.com/knocked-loose-tickets-austin-moody-amphitheater-11-5-2026/production/7092585",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {

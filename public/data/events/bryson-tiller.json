@@ -533,7 +533,7 @@
     "ticketmaster_event_id": "110064BCDDA0B267",
     "ticketmaster_url": "https://www.ticketmaster.ca/bryson-tiller-presents-the-neo-trapsoul-vancouver-british-columbia-10-30-2026/event/110064BCDDA0B267",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-vancouver-rogers-arena-10-30-2026--concerts-rb/production/7104577",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bryson-tiller-presents-the-neo-trapsoul-vancouver-british-columbia-10-30-2026/event/110064BCDDA0B267",
     "last_verified_at": "2026-10-27",
@@ -555,11 +555,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7104577,
-        "url": "https://www.vividseats.com/bryson-tiller-tickets-vancouver-rogers-arena-10-30-2026--concerts-rb/production/7104577",
-        "verified": true,
-        "last_verified_at": "2026-10-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -641,7 +641,7 @@
         "event_id": 7104573,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-seattle-climate-pledge-arena-11-1-2026--concerts-rb/production/7104573",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1030,7 +1030,7 @@
         "event_id": 7104592,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-manchester-co-op-live-12-3-2026--concerts-rb/production/7104592",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1110,7 +1110,7 @@
         "event_id": 7104598,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-leeds-first-direct-arena---leeds-12-4-2026--concerts-rb/production/7104598",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1166,7 +1166,7 @@
         "event_id": 7104602,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-cardiff-utilita-arena-cardiff-12-5-2026--concerts-rb/production/7104602",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1232,7 +1232,7 @@
         "event_id": 7104604,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-london-the-o2---london-12-7-2026--concerts-rb/production/7104604",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1296,7 +1296,7 @@
         "event_id": 7104606,
         "url": "https://www.vividseats.com/bryson-tiller-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-12-9-2026--concerts-rb/production/7104606",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {

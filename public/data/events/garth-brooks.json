@@ -269,7 +269,7 @@
         "event_id": 7704177,
         "url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-13-2026--concerts-country-and-folk/production/7704177",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -349,7 +349,7 @@
         "event_id": 7704179,
         "url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-14-2026--concerts-country-and-folk/production/7704179",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -429,7 +429,7 @@
         "event_id": 7740302,
         "url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-15-2026--concerts-country-and-folk/production/7740302",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -564,7 +564,7 @@
     "ticketmaster_event_id": "1000655BC088C8B2",
     "ticketmaster_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-04-2026/event/1000655BC088C8B2",
     "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-04-8-pm/concert/18726838",
-    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-4-2026--concerts-country-and-folk/production/7767692",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-04-2026/event/1000655BC088C8B2",
     "last_verified_at": null,
@@ -586,11 +586,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7767692,
-        "url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-4-2026--concerts-country-and-folk/production/7767692",
-        "verified": true,
-        "last_verified_at": "2026-10-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

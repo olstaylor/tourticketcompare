@@ -211,7 +211,7 @@
     "ticketmaster_event_id": "0E00648E91795CA4",
     "ticketmaster_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-atlanta-georgia-10-30-2026/event/0E00648E91795CA4",
     "seatgeek_url": "https://seatgeek.com/beck-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-10-30-8-pm/concert/18194424",
-    "vividseats_url": "https://www.vividseats.com/beck-tickets-atlanta-coca-cola-roxy-theatre-10-30-2026--concerts-alternative/production/6928703",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-atlanta-georgia-10-30-2026/event/0E00648E91795CA4",
     "last_verified_at": "2026-10-25",
@@ -233,11 +233,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6928703,
-        "url": "https://www.vividseats.com/beck-tickets-atlanta-coca-cola-roxy-theatre-10-30-2026--concerts-alternative/production/6928703",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -308,7 +308,7 @@
         "event_id": 6789923,
         "url": "https://www.vividseats.com/beck-tickets-nashville-the-truth-10-31-2026--concerts-alternative/production/6789923",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -380,7 +380,7 @@
         "event_id": 7622671,
         "url": "https://www.vividseats.com/beck-tickets-spokane-first-interstate-center-for-the-arts-11-6-2026/production/7622671",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -452,7 +452,7 @@
         "event_id": 7558616,
         "url": "https://www.vividseats.com/beck-tickets-seattle-benaroya-hall---taper-auditorium-11-8-2026/production/7558616",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {

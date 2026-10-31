@@ -82,21 +82,22 @@ export function buildPriceFacts(rows, events) {
       const latest = Number(r.latest);
       const base = Number(r.base);
       const moved = base > 0 && r.base_date ? (latest > base * (1 + PRICE_MOVE_BAND) ? "up" : latest < base * (1 - PRICE_MOVE_BAND) ? "down" : "about the same") : null;
-      listings.push({ site, currency, city: e.city, date: e.date, lowestListed: money(latest, currency), capturedOn: r.latest_date,
-        thirtyDaysEarlier: moved ? money(base, currency) : null, movedOver30Days: moved,
-        unusuallyLow: rated && latest < mid * OUTLIER_RATIO });
+      // Absent fields are omitted: the whole block rides in a bounded prompt.
+      listings.push({ site, city: e.city, lowestListed: money(latest, currency), capturedOn: r.latest_date,
+        ...(moved ? { thirtyDaysEarlier: money(base, currency), movedOver30Days: moved } : {}),
+        ...(rated && latest < mid * OUTLIER_RATIO ? { unusuallyLow: true } : {}) });
     }
     if (rated) {
       const typical = group.filter((r) => Number(r.latest) >= mid * OUTLIER_RATIO);
       const lowest = typical.reduce((a, b) => (Number(b.latest) < Number(a.latest) ? b : a));
       const highest = group.reduce((a, b) => (Number(b.latest) > Number(a.latest) ? b : a));
-      siteSummaries.push({ site, currency, datesPriced: group.length,
+      siteSummaries.push({ site, datesPriced: group.length,
         lowestTypicalListed: `${money(lowest.latest, currency)} in ${byId.get(lowest.event_id).city}`,
         highestListed: `${money(highest.latest, currency)} in ${byId.get(highest.event_id).city}` });
     }
   }
   listings.sort((x, y) => x.city.localeCompare(y.city) || x.site.localeCompare(y.site));
-  return { note: 'Each figure is one site\'s lowest listed price for one date in its own currency when captured (the capturedOn day). Never convert currencies, rank sites against each other or add figures up. A "movedOver30Days" value is history, not a forecast. unusuallyLow listings sit far below that site\'s other dates: tell readers to check the listing before relying on it.',
+  return { note: 'Each figure is one site\'s lowest listed price for one date in its own currency when captured (the capturedOn day). Never convert currencies, rank sites against each other or add figures up. movedOver30Days is history, not a forecast. unusuallyLow listings sit far below that site\'s other dates: tell readers to check the listing before relying on it.',
     listings, siteSummaries };
 }
 

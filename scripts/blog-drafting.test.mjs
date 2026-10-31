@@ -7,7 +7,7 @@ import { execFileSync } from 'node:child_process';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 import { parse as parseYaml } from 'yaml';
 import { selectArticle, spentUsd, selectTourGuides, remoteMismatches, buildEvidence, checkArticle, generateArticle, anthropicClient, researchEvidence, verifyRemoteEvent,
-  reserveTopic, listEditorialPrs, MODEL, EFFORT, OUTPUT_LIMITS, MAX_ESTIMATED_USD, MAX_OPEN_DRAFTS, prBody } from './lib/blog-drafting.mjs';
+  reserveTopic, listEditorialPrs, boundedOverlap, PRICED_OVERLAP_CHARS, MODEL, EFFORT, OUTPUT_LIMITS, MAX_ESTIMATED_USD, MAX_OPEN_DRAFTS, prBody } from './lib/blog-drafting.mjs';
 import { draftOnce, prepareContent, readDraftRules } from './draft-blog-article.mjs';
 import { createMockClient, mockMarkdown } from './fixtures/blog-draft-model.mjs';
 import { githubClient } from './propose-blog-ideas.mjs';
@@ -605,7 +605,7 @@ test('price facts: per-site cheapest, 30-day moves and an unusually low listing,
   assert.equal(vivid.find((l) => l.city === 'London').movedOver30Days, 'up');
   assert.equal(vivid.find((l) => l.city === 'Paris').movedOver30Days, 'about the same');
   assert.equal(vivid.find((l) => l.city === 'Madrid').movedOver30Days, 'down');
-  assert.equal(vivid.find((l) => l.city === 'Rome').movedOver30Days, null);
+  assert.equal(vivid.find((l) => l.city === 'Rome').movedOver30Days, undefined);
   assert.equal(vivid.find((l) => l.city === 'Berlin').unusuallyLow, true);
   const summary = facts.siteSummaries.find((s) => s.site === 'Vivid Seats');
   assert.equal(summary.lowestTypicalListed, 'USD 220 in Paris', 'the outlier is not offered as the cheapest city');
@@ -631,4 +631,39 @@ test('a priced tour guide may quote only the supplied prices, and still may not 
   assert.throws(() => checkArticle(withPrice('London is from $203.'), selected, evidence, fixture.documents, now), /unsupported factual/);
   const { prices, ...unpriced } = evidence;
   assert.throws(() => checkArticle(ok, selected, unpriced, fixture.documents, now), /price not in the evidence|unsupported factual/);
+});
+
+test('worst case with prices: 12 cities on 3 sites, a long draft and the real rules still fit both calls', async () => {
+  const { buildPriceFacts } = await import('./lib/draft-prices.mjs');
+  const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))];
+  const tour = selectTourGuides(fixture, slugs, { now }).selected;
+  tour.overlap = [{ file: 'a', title: 'a', body: 'y'.repeat(9000) }, { file: 'b', title: 'b', body: 'y'.repeat(9000) }];
+  const evidence = buildEvidence(tour, { now, snapshot });
+  const template = evidence.events[0];
+  evidence.events = Array.from({ length: 12 }, (_, i) => ({ ...template, id: `e${i}`, city: `Los Angeles ${i}`, venue: `Venue ${i}`, date: `2027-06-${String(i + 1).padStart(2, '0')}`,
+    sourceUrl: `${template.sourceUrl.replace(/\/?$/, '')}-${i}`, external: { kind: 'current-ticketmaster-api', checkedFields: ['name', 'date', 'venue', 'city', 'url', 'status'] } }));
+  const rows = ['vivid-seats', 'ticketnetwork', 'stubhub-international'].flatMap((provider) => evidence.events.map((e, i) =>
+    ({ event_id: e.id, provider, currency: 'USD', latest_date: '2026-10-30', latest: 200 + i * 7, base_date: '2026-09-30', base: 230 })));
+  evidence.prices = buildPriceFacts(rows, evidence.events);
+  assert(evidence.prices.listings.length === 36);
+  // The real path shrinks the context when prices are present.
+  const priced = buildEvidence(tour, { now, snapshot, prices: rows.map((r) => ({ ...r, event_id: tour.rows[0].event.id })) });
+  assert(priced.overlap.reduce((n, d) => n + d.body.length, 0) <= PRICED_OVERLAP_CHARS);
+  evidence.overlap = boundedOverlap(tour.overlap, PRICED_OVERLAP_CHARS);
+  const rules = await readDraftRules();
+  const bodies = [];
+  const fetchImpl = async (_url, init) => {
+    const body = JSON.parse(init.body);
+    bodies.push(Buffer.byteLength(body.system + body.messages[0].content));
+    const task = JSON.parse(body.messages[0].content).task;
+    const out = task === 'draft'
+      ? { markdown: mockMarkdown({ evidence, artistSlug: tour.artist, date: new Date(now).toISOString().slice(0, 10) }) + ` ${'Check each listing against the exact event page before you decide. '.repeat(25)}\n` }
+      : { supported: true, issues: [], claims: [{ claim: 'x', sourceUrl: evidence.events[0].sourceUrl, basis: 'current-ticketmaster-api' }] };
+    return { ok: true, status: 200, json: async () => ({ stop_reason: 'end_turn', usage: { input_tokens: 1000, output_tokens: 1000 }, content: [{ type: 'text', text: JSON.stringify(out) }] }) };
+  };
+  const client = anthropicClient({ apiKey: 'sk-ant-test', fetchImpl });
+  await generateArticle({ selected: tour, evidence, documents: fixture.documents, rules, client, now });
+  assert.equal(bodies.length, 2);
+  assert(bodies.every((n) => n < 48000), `payload bytes ${bodies}`);
+  console.log('priced payload bytes', bodies.join(','));
 });

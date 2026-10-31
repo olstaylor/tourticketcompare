@@ -25,11 +25,11 @@ export const GUIDE_ROUTES = {
   "/guides/vivid-seats-vs-ticketmaster": {
     title: "Vivid Seats vs Ticketmaster: Which Is Better?",
     h1: "Vivid Seats vs Ticketmaster: Which Is Better?",
-    description: "Separate businesses, not the same one. Ticketmaster often sells primary tickets; Vivid Seats is resale. What differs in seats, fees, delivery and protection.",
+    description: "No, Vivid Seats isn't owned by Ticketmaster. Ticketmaster often sells primary tickets; Vivid Seats is resale. Seats, fees, delivery and protection compared.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","vivid-seats"],
     datePublished: "2026-08-20",
-    lastmod: "2026-10-26"
+    lastmod: "2026-10-31"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
     title: "Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets",
@@ -43,11 +43,11 @@ export const GUIDE_ROUTES = {
   "/guides/seatgeek-vs-ticketmaster": {
     title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
     h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
-    description: "Separate companies, not the same one. Ticketmaster often sells primary tickets; SeatGeek is a resale marketplace. How fees, delivery and protection differ.",
+    description: "No, SeatGeek isn't owned by Ticketmaster. Ticketmaster often sells primary tickets; SeatGeek is a resale marketplace. Fees, delivery and protection compared.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-07-13",
-    lastmod: "2026-10-27"
+    lastmod: "2026-10-31"
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
     title: "TicketNetwork vs Ticketmaster: Which Should You Use?",

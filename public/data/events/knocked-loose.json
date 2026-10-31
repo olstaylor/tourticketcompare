@@ -294,18 +294,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8003134",
-        "url": "https://www.ticketnetwork.com/en/p/8003134",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70yjs",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8003134/Knocked-Loose-tickets-Thu-Oct-29-2026-Shrine-LA-Outdoors",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8003134"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-knocked-loose-2026-san-diego-vvg1iz_5_l1ogs",

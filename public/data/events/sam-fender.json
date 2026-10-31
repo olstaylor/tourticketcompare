@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8349501",
+        "url": "https://www.ticketnetwork.com/en/p/8349501",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4fGkd88g8t",
@@ -62,7 +69,8 @@
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-3-6-2027/event/107678199"
+    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-3-6-2027/event/107678199",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8349501"
   },
   {
     "id": "tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj",
@@ -118,6 +126,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8349502",
+        "url": "https://www.ticketnetwork.com/en/p/8349502",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_fGkTpp_oj",
@@ -127,7 +142,8 @@
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-5-6-2027/event/107676048"
+    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-5-6-2027/event/107676048",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8349502"
   },
   {
     "id": "tm-sam-fender-2027-cardiff-16gzk4fpszage5ca",

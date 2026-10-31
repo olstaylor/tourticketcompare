@@ -466,11 +466,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7997400",
-        "url": "https://www.ticketnetwork.com/en/p/7997400",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1Uw3Ukc",
@@ -480,7 +480,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997400"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-tom-jones-2026-san-francisco-g5vyz_5d9skqu",
@@ -545,11 +545,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7997401",
-        "url": "https://www.ticketnetwork.com/en/p/7997401",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5d9skQu",
@@ -560,6 +560,6 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997401"
+    "ticketnetwork_url": ""
   }
 ]

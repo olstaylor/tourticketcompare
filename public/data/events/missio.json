@@ -55,18 +55,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8200524",
-        "url": "https://www.ticketnetwork.com/en/p/8200524",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIv4",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200524/Missio-tickets-Thu-Oct-29-2026-The-Rebel-Lounge-Phoenix",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200524"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-missio-2026-san-diego-vvg1iz_8m2p9ef",

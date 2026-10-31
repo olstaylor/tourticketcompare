@@ -190,11 +190,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7999837",
-        "url": "https://www.ticketnetwork.com/en/p/7999837",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5K9T5FO",
@@ -205,7 +205,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7999837"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-the-chicks-2026-san-francisco-g5vyz_5kbz5fl",

@@ -563,7 +563,19 @@ async function run(options, deps = {}) {
       if (!needsTime) continue;
       const timedMatch = (candidate) => candidate.localStartTimes?.length === 1 &&
         evaluateCandidate(evaluation.event, artistName, candidate).ok;
-      const timed = evaluation.passing.filter(timedMatch);
+      let timed = evaluation.passing.filter(timedMatch);
+      // Ticket Liquidator lists TicketNetwork's own listings under the same
+      // ids, without start times. When the TicketNetwork link on this event is
+      // verified (TicketNetwork's feed does carry times) and exactly one tied
+      // listing has that id, it is the same performance: take it. Metallica's
+      // Sphere Thursdays tie a single night with a two-night package listed on
+      // the same date (2026-10-31 sync logs).
+      if (!timed.length && config.slug === "ticket-liquidator") {
+        const tnLink = evaluation.event?.provider_links?.ticketnetwork;
+        const tnId = tnLink?.verified === true ? clean(tnLink.event_id, 255) : "";
+        const sameListing = tnId ? evaluation.passing.filter((candidate) => candidate.externalId === tnId) : [];
+        if (sameListing.length === 1) timed = sameListing;
+      }
       // Missing or malformed start evidence must not become the sole match
       // after a conflicting timed listing is rejected. Withhold the unresolved
       // ambiguity; it is not evidence that an existing verified link vanished.
@@ -920,6 +932,17 @@ async function selfTest() {
   assert.equal(missingStartReport.results[0].ambiguous_listing, undefined, "start evidence is distinct from cross-performance reuse");
   assert.deepEqual(missingStartReport.results[0].candidates, [`${second.externalId} @ 2027-03-05T19:30`, `${noTime.externalId} @ no start time`], "a conflict names the listings it is between");
   assert.match(renderLog(missingStartReport), /performance start evidence; candidates: 9000002 @ 2027-03-05T19:30, tn-1 @ no start time \|/);
+  // Ticket Liquidator shares TicketNetwork's listing ids but has no start times.
+  // A verified TicketNetwork id on the event picks the one tied listing it names.
+  const tlSingle = { ...noTime, externalId: "7775510", normalizedUrl: "https://www.ticketliquidator.com/tickets/7775510" };
+  const tlPackage = { ...noTime, externalId: "7775752", normalizedUrl: "https://www.ticketliquidator.com/tickets/7775752" };
+  const tnVerified = (id, verified = true) => ({ ...matinee, provider_links: { ticketnetwork: { verified, event_id: id } } });
+  const tlPick = await runWith("ticket-liquidator", [tnVerified("7775510")], [tlSingle, tlPackage]);
+  assert.deepEqual(actions(tlPick), { matinee: "add" }, "a verified TicketNetwork id breaks a Ticket Liquidator tie");
+  assert.equal(tlPick.results[0].external_id, "7775510");
+  assert.deepEqual(actions(await runWith("ticket-liquidator", [tnVerified("7775510", false)], [tlSingle, tlPackage])), { matinee: "conflict" }, "an unverified TicketNetwork id is not evidence");
+  assert.deepEqual(actions(await runWith("ticket-liquidator", [tnVerified("9999999")], [tlSingle, tlPackage])), { matinee: "conflict" }, "a TicketNetwork id matching neither listing leaves the tie");
+  assert.deepEqual(actions(await runWith("ticketnetwork", [tnVerified("7775510")], [tlSingle, tlPackage])), { matinee: "conflict" }, "only Ticket Liquidator borrows TicketNetwork's id");
   const incompleteTimes = await run({ provider: "ticketnetwork", apply: false, delayMs: 0 }, {
     now: new Date("2026-09-27T00:00:00Z"), data: nightData([matinee]),
     async fetchCatalog() { return { candidates: [second, noTime], complete: false, stopReason: "pagination_cap" }; }

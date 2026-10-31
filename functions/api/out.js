@@ -3352,6 +3352,118 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-foreigner",
     redirectUrl: "https://seatgeek.com/foreigner-tickets",
     verified: true
+  },
+  "tash-sultana:ticketmaster": {
+    artistSlug: "tash-sultana",
+    provider: "ticketmaster",
+    linkId: "tm-artist-tash-sultana",
+    redirectUrl: "https://www.ticketmaster.com/tash-sultana-tickets/artist/2247303",
+    verified: true
+  },
+  "tash-sultana:seatgeek": {
+    artistSlug: "tash-sultana",
+    provider: "seatgeek",
+    linkId: "sg-artist-tash-sultana",
+    redirectUrl: "https://seatgeek.com/tash-sultana-tickets",
+    verified: true
+  },
+  "erasure:ticketmaster": {
+    artistSlug: "erasure",
+    provider: "ticketmaster",
+    linkId: "tm-artist-erasure",
+    redirectUrl: "https://www.ticketmaster.com/erasure-tickets/artist/735018",
+    verified: true
+  },
+  "erasure:seatgeek": {
+    artistSlug: "erasure",
+    provider: "seatgeek",
+    linkId: "sg-artist-erasure",
+    redirectUrl: "https://seatgeek.com/erasure-tickets",
+    verified: true
+  },
+  "theory-of-a-deadman:ticketmaster": {
+    artistSlug: "theory-of-a-deadman",
+    provider: "ticketmaster",
+    linkId: "tm-artist-theory-of-a-deadman",
+    redirectUrl: "https://www.ticketmaster.com/theory-of-a-deadman-tickets/artist/841413",
+    verified: true
+  },
+  "theory-of-a-deadman:seatgeek": {
+    artistSlug: "theory-of-a-deadman",
+    provider: "seatgeek",
+    linkId: "sg-artist-theory-of-a-deadman",
+    redirectUrl: "https://seatgeek.com/theory-of-a-deadman-tickets",
+    verified: true
+  },
+  "black-stone-cherry:ticketmaster": {
+    artistSlug: "black-stone-cherry",
+    provider: "ticketmaster",
+    linkId: "tm-artist-black-stone-cherry",
+    redirectUrl: "https://www.ticketmaster.com/black-stone-cherry-tickets/artist/1093504",
+    verified: true
+  },
+  "black-stone-cherry:seatgeek": {
+    artistSlug: "black-stone-cherry",
+    provider: "seatgeek",
+    linkId: "sg-artist-black-stone-cherry",
+    redirectUrl: "https://seatgeek.com/black-stone-cherry-tickets",
+    verified: true
+  },
+  "the-avett-brothers:ticketmaster": {
+    artistSlug: "the-avett-brothers",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-avett-brothers",
+    redirectUrl: "https://www.ticketmaster.com/the-avett-brothers-tickets/artist/1108947",
+    verified: true
+  },
+  "the-avett-brothers:seatgeek": {
+    artistSlug: "the-avett-brothers",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-avett-brothers",
+    redirectUrl: "https://seatgeek.com/the-avett-brothers-tickets",
+    verified: true
+  },
+  "kings-of-leon:ticketmaster": {
+    artistSlug: "kings-of-leon",
+    provider: "ticketmaster",
+    linkId: "tm-artist-kings-of-leon",
+    redirectUrl: "https://www.ticketmaster.com/kings-of-leon-tickets/artist/862453",
+    verified: true
+  },
+  "kings-of-leon:seatgeek": {
+    artistSlug: "kings-of-leon",
+    provider: "seatgeek",
+    linkId: "sg-artist-kings-of-leon",
+    redirectUrl: "https://seatgeek.com/kings-of-leon-tickets",
+    verified: true
+  },
+  "grupo-frontera:ticketmaster": {
+    artistSlug: "grupo-frontera",
+    provider: "ticketmaster",
+    linkId: "tm-artist-grupo-frontera",
+    redirectUrl: "https://www.ticketmaster.com/grupo-frontera-tickets/artist/2942293",
+    verified: true
+  },
+  "grupo-frontera:seatgeek": {
+    artistSlug: "grupo-frontera",
+    provider: "seatgeek",
+    linkId: "sg-artist-grupo-frontera",
+    redirectUrl: "https://seatgeek.com/grupo-frontera-tickets",
+    verified: true
+  },
+  "lady-a:ticketmaster": {
+    artistSlug: "lady-a",
+    provider: "ticketmaster",
+    linkId: "tm-artist-lady-a",
+    redirectUrl: "https://www.ticketmaster.com/lady-a-tickets/artist/1173672",
+    verified: true
+  },
+  "lady-a:seatgeek": {
+    artistSlug: "lady-a",
+    provider: "seatgeek",
+    linkId: "sg-artist-lady-a",
+    redirectUrl: "https://seatgeek.com/lady-a-tickets",
+    verified: true
   }
 };
 

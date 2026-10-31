@@ -1,0 +1,1168 @@
+[
+  {
+    "id": "tm-black-stone-cherry-2026-milwaukee-z7r9jz1aae8ot",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Bonfire Nights: An Acoustic Evening",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "The Rave-Eagles Club",
+    "datetime_iso": "2026-11-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe8Ot",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8Ot",
+    "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18637121",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8Ot",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe8Ot",
+        "discovery_event_id": "Z7r9jZ1AAe8Ot",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8Ot",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8Ot",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2026-omaha-z7r9jz1aae8_-",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry???s Bonfire Nights: An Acoustic Evening",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "The Waiting Room - NE",
+    "datetime_iso": "2026-11-19T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe8_-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8_-",
+    "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/omaha-nebraska-the-waiting-room-omaha-2026-11-18-8-pm/concert/18637126",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8_-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe8_-",
+        "discovery_event_id": "Z7r9jZ1AAe8_-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8_-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8_-",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2026-sauget-rz7hnez1afggzf",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry's Bonfire Nights: An Acoustic Evening",
+    "city": "Sauget",
+    "country": "United States Of America",
+    "venue": "Pop's Concert Venue",
+    "datetime_iso": "2026-11-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14335014",
+    "ticketmaster_url": "https://www.ticketweb.com/event/black-stone-cherrys-bonfire-nights-pops-concert-venue-tickets/14335014",
+    "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/sauget-illinois-pop-s-sauget-2026-11-20-8-pm/concert/18637133",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/black-stone-cherrys-bonfire-nights-pops-concert-venue-tickets/14335014",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14335014",
+        "discovery_event_id": "rZ7HnEZ1AfGgZf",
+        "url": "https://www.ticketweb.com/event/black-stone-cherrys-bonfire-nights-pops-concert-venue-tickets/14335014",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGgZf",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2026-birmingham-rz7hnez1afuf1f",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry Bonfire Nights: An Acoustic Evening",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "The Fennec - Main Stage",
+    "datetime_iso": "2026-11-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14348294",
+    "ticketmaster_url": "https://www.ticketweb.com/event/black-stone-cherry-bonfire-nights-the-fennec-main-tickets/14348294",
+    "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/birmingham-alabama-the-fennec-sports-live-music-events-2026-11-21-8-pm/concert/18637134",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/black-stone-cherry-bonfire-nights-the-fennec-main-tickets/14348294",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14348294",
+        "discovery_event_id": "rZ7HnEZ1AfuF1f",
+        "url": "https://www.ticketweb.com/event/black-stone-cherry-bonfire-nights-the-fennec-main-tickets/14348294",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfuF1f",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2026-nashville-z7r9jz1aaeapk",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry - Ages 18+",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Eastside Bowl",
+    "datetime_iso": "2026-11-23T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeaPk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaPk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaPk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeaPk",
+        "discovery_event_id": "Z7r9jZ1AAeaPk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaPk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeaPk",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2026-lexington-1avbz_kgklcscxl",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry",
+    "city": "Lexington",
+    "country": "United States Of America",
+    "venue": "Manchester Music Hall",
+    "datetime_iso": "2026-11-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600653AEDC6D8AB",
+    "ticketmaster_url": "https://www.ticketmaster.com/black-stone-cherry-lexington-kentucky-11-27-2026/event/1600653AEDC6D8AB",
+    "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/lexington-kentucky-manchester-music-hall-2026-11-27-8-pm/concert/18630042",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/black-stone-cherry-lexington-kentucky-11-27-2026/event/1600653AEDC6D8AB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600653AEDC6D8AB",
+        "discovery_event_id": "1AvbZ_KGklcscxl",
+        "url": "https://www.ticketmaster.com/black-stone-cherry-lexington-kentucky-11-27-2026/event/1600653AEDC6D8AB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_KGklcscxl",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2026-toronto-16tzkfzkozagevde",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Blackstone Cherry's Bonfire Nights *An Acoustic Evening*",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Soybomb",
+    "datetime_iso": "2026-12-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14342404",
+    "ticketmaster_url": "https://www.ticketweb.com/event/blackstone-cherrys-bonfire-nights-an-the-ritz-theater-scranton-tickets/14342404?REFERRAL_ID=tmfeed",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/blackstone-cherrys-bonfire-nights-an-the-ritz-theater-scranton-tickets/14342404?REFERRAL_ID=tmfeed",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14342404",
+        "discovery_event_id": "16tZkfzkoZAGevde",
+        "url": "https://www.ticketweb.com/event/blackstone-cherrys-bonfire-nights-an-the-ritz-theater-scranton-tickets/14342404?REFERRAL_ID=tmfeed",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16tZkfzkoZAGevde",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2026-hartford-z7r9jz1aaea0z",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry",
+    "city": "Hartford",
+    "country": "United States Of America",
+    "venue": "Webster Underground",
+    "datetime_iso": "2026-12-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAea0Z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea0Z",
+    "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/hartford-connecticut-webster-underground-hartford-2026-12-05-8-pm/concert/18637149",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea0Z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAea0Z",
+        "discovery_event_id": "Z7r9jZ1AAea0Z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAea0Z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAea0Z",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2026-columbus-z7r9jz1aae7be",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry (All ages with adult)",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "The KING of CLUBS - Columbus",
+    "datetime_iso": "2026-12-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe7bE",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7bE",
+    "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/columbus-ohio-the-king-of-clubs-oh-2026-12-12-5-30-pm/concert/18637158",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7bE",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe7bE",
+        "discovery_event_id": "Z7r9jZ1AAe7bE",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe7bE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe7bE",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2027-bournemouth-g5dzz_g9ioeuq",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry",
+    "city": "Bournemouth",
+    "country": "Great Britain",
+    "venue": "O2 Academy Bournemouth",
+    "datetime_iso": "2027-01-14T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064C5E846735A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-bournemouth-14-01-2027/event/3E0064C5E846735A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-bournemouth-14-01-2027/event/3E0064C5E846735A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064C5E846735A",
+        "discovery_event_id": "G5dzZ_G9IoEuQ",
+        "url": "https://www.ticketmaster.co.uk/black-stone-cherry-bournemouth-14-01-2027/event/3E0064C5E846735A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_G9IoEuQ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2027-london-g5dzzbzpu7g4_",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry The Celebrate Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Forum Kentish Town",
+    "datetime_iso": "2027-01-22T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006385B6135559",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-london-22-01-2027/event/3E006385B6135559",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-london-22-01-2027/event/3E006385B6135559",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006385B6135559",
+        "discovery_event_id": "G5dzZbzpU7g4_",
+        "url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-london-22-01-2027/event/3E006385B6135559",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZbzpU7g4_",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2027-london-g5dzzbz9kujcl",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry The Celebrate Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Forum Kentish Town",
+    "datetime_iso": "2027-01-23T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006385D3DA6B5F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-london-23-01-2027/event/3E006385D3DA6B5F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-london-23-01-2027/event/3E006385D3DA6B5F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006385D3DA6B5F",
+        "discovery_event_id": "G5dzZbz9KUJcL",
+        "url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-london-23-01-2027/event/3E006385D3DA6B5F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZbz9KUJcL",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2027-margate-16dfzbzp7g7r7jo",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry - the Celebrate Tour",
+    "city": "Margate",
+    "country": "Great Britain",
+    "venue": "Hall By The Sea, Dreamland Margate",
+    "datetime_iso": "2027-01-25T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500638584BC4711",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-margate-25-01-2027/event/3500638584BC4711",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-margate-25-01-2027/event/3500638584BC4711",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500638584BC4711",
+        "discovery_event_id": "16dfZbzp7G7R7jo",
+        "url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-margate-25-01-2027/event/3500638584BC4711",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dfZbzp7G7R7jo",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2027-nottingham-g5vhzbzpq5krb",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry - the Celebrate Tour",
+    "city": "Nottingham",
+    "country": "Great Britain",
+    "venue": "Rock City",
+    "datetime_iso": "2027-01-26T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0063859D2C6BD8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-nottingham-26-01-2027/event/1F0063859D2C6BD8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-nottingham-26-01-2027/event/1F0063859D2C6BD8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0063859D2C6BD8",
+        "discovery_event_id": "G5vHZbzpq5kRb",
+        "url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-nottingham-26-01-2027/event/1F0063859D2C6BD8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZbzpq5kRb",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2027-manchester-g5vhzbzkgpts1",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry - the Celebrate Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Manchester Academy",
+    "datetime_iso": "2027-02-02T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006384F55A9CCA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-manchester-02-02-2027/event/1F006384F55A9CCA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-manchester-02-02-2027/event/1F006384F55A9CCA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006384F55A9CCA",
+        "discovery_event_id": "G5vHZbzKgptS1",
+        "url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-manchester-02-02-2027/event/1F006384F55A9CCA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZbzKgptS1",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2027-norwich-g5vhzbzpkx4ut",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry - the Celebrate Tour",
+    "city": "Norwich",
+    "country": "Great Britain",
+    "venue": "The Nick Rayns LCR, UEA",
+    "datetime_iso": "2027-02-03T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00638593F95DA9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-norwich-03-02-2027/event/1F00638593F95DA9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-norwich-03-02-2027/event/1F00638593F95DA9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00638593F95DA9",
+        "discovery_event_id": "G5vHZbzpKX4Ut",
+        "url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-norwich-03-02-2027/event/1F00638593F95DA9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZbzpKX4Ut",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2027-edinburgh-g5dzzbzk-605z",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Edinburgh Corn Exchange",
+    "datetime_iso": "2027-02-06T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006381A11E42C0",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-edinburgh-06-02-2027/event/3E006381A11E42C0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-edinburgh-06-02-2027/event/3E006381A11E42C0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006381A11E42C0",
+        "discovery_event_id": "G5dzZbzk-605Z",
+        "url": "https://www.ticketmaster.co.uk/black-stone-cherry-edinburgh-06-02-2027/event/3E006381A11E42C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZbzk-605Z",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2027-aberdeen-1auzkcagkdnsiac",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry",
+    "city": "Aberdeen",
+    "country": "Great Britain",
+    "venue": "Aberdeen Music Hall",
+    "datetime_iso": "2027-02-08T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006385E3C6C16D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-aberdeen-08-02-2027/event/36006385E3C6C16D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-aberdeen-08-02-2027/event/36006385E3C6C16D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006385E3C6C16D",
+        "discovery_event_id": "1AUZkCAGkdNsiAc",
+        "url": "https://www.ticketmaster.co.uk/black-stone-cherry-aberdeen-08-02-2027/event/36006385E3C6C16D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkCAGkdNsiAc",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2027-newcastle-upon-tyne-g5dzz_g10kk11",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry",
+    "city": "Newcastle Upon Tyne",
+    "country": "Great Britain",
+    "venue": "O2 City Hall Newcastle",
+    "datetime_iso": "2027-02-09T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0064C2A44D328A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-newcastle-upon-tyne-09-02-2027/event/3E0064C2A44D328A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-newcastle-upon-tyne-09-02-2027/event/3E0064C2A44D328A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064C2A44D328A",
+        "discovery_event_id": "G5dzZ_G10KK11",
+        "url": "https://www.ticketmaster.co.uk/black-stone-cherry-newcastle-upon-tyne-09-02-2027/event/3E0064C2A44D328A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_G10KK11",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2027-belfast-1kczvno9gacmss6",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "The Telegraph Building",
+    "datetime_iso": "2027-02-11T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "380063817EDF1C47",
+    "ticketmaster_url": "https://www.ticketmaster.ie/black-stone-cherry-belfast-11-02-2027/event/380063817EDF1C47",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/black-stone-cherry-belfast-11-02-2027/event/380063817EDF1C47",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "380063817EDF1C47",
+        "discovery_event_id": "1kCZvNO9GACMss6",
+        "url": "https://www.ticketmaster.ie/black-stone-cherry-belfast-11-02-2027/event/380063817EDF1C47",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kCZvNO9GACMss6",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2027-dublin-1avozbmgkwn1n87",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "The Academy",
+    "datetime_iso": "2027-02-12T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800637CAA2A3404",
+    "ticketmaster_url": "https://www.ticketmaster.ie/black-stone-cherry-dublin-12-02-2027/event/1800637CAA2A3404",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/black-stone-cherry-dublin-12-02-2027/event/1800637CAA2A3404",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800637CAA2A3404",
+        "discovery_event_id": "1AvOZbMGkwn1N87",
+        "url": "https://www.ticketmaster.ie/black-stone-cherry-dublin-12-02-2027/event/1800637CAA2A3404",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZbMGkwn1N87",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-black-stone-cherry-2027-cork-1avozbzgklkguax",
+    "artist_slug": "black-stone-cherry",
+    "artist_name": "Black Stone Cherry",
+    "event_name": "Black Stone Cherry",
+    "city": "Cork",
+    "country": "Ireland",
+    "venue": "Cyprus Avenue",
+    "datetime_iso": "2027-02-13T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800638AC630D162",
+    "ticketmaster_url": "https://www.ticketmaster.ie/black-stone-cherry-cork-13-02-2027/event/1800638AC630D162",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/black-stone-cherry-cork-13-02-2027/event/1800638AC630D162",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800638AC630D162",
+        "discovery_event_id": "1AvOZbzGklkGuAx",
+        "url": "https://www.ticketmaster.ie/black-stone-cherry-cork-13-02-2027/event/1800638AC630D162",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZbzGklkGuAx",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

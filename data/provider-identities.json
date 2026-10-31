@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-30",
+  "updated_at": "2026-10-31",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -2537,6 +2537,94 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-30 (sanctioned path D): SeatGeek performer 8767 and Ticketmaster attraction K8vZ9171CG7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "tash-sultana",
+      "ticketmaster_attraction_id": "K8vZ917fYHf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/tash-sultana-tickets/artist/2247303",
+      "seatgeek_performer_id": 428678,
+      "seatgeek_artist_url": "https://seatgeek.com/tash-sultana-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-31 (sanctioned path D): SeatGeek performer 428678 and Ticketmaster attraction K8vZ917fYHf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "erasure",
+      "ticketmaster_attraction_id": "K8vZ9171CF0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/erasure-tickets/artist/735018",
+      "seatgeek_performer_id": 8968,
+      "seatgeek_artist_url": "https://seatgeek.com/erasure-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-31 (sanctioned path D): SeatGeek performer 8968 and Ticketmaster attraction K8vZ9171CF0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "theory-of-a-deadman",
+      "ticketmaster_attraction_id": "K8vZ91758P0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/theory-of-a-deadman-tickets/artist/841413",
+      "seatgeek_performer_id": 1890,
+      "seatgeek_artist_url": "https://seatgeek.com/theory-of-a-deadman-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-31 (sanctioned path D): SeatGeek performer 1890 and Ticketmaster attraction K8vZ91758P0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "black-stone-cherry",
+      "ticketmaster_attraction_id": "K8vZ9175Tjf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/black-stone-cherry-tickets/artist/1093504",
+      "seatgeek_performer_id": 9032,
+      "seatgeek_artist_url": "https://seatgeek.com/black-stone-cherry-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-31 (sanctioned path D): SeatGeek performer 9032 and Ticketmaster attraction K8vZ9175Tjf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "the-avett-brothers",
+      "ticketmaster_attraction_id": "K8vZ917GgwV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/the-avett-brothers-tickets/artist/1108947",
+      "seatgeek_performer_id": 1768,
+      "seatgeek_artist_url": "https://seatgeek.com/the-avett-brothers-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-31 (sanctioned path D): SeatGeek performer 1768 and Ticketmaster attraction K8vZ917GgwV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "kings-of-leon",
+      "ticketmaster_attraction_id": "K8vZ9175hx7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/kings-of-leon-tickets/artist/862453",
+      "seatgeek_performer_id": 44,
+      "seatgeek_artist_url": "https://seatgeek.com/kings-of-leon-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-31 (sanctioned path D): SeatGeek performer 44 and Ticketmaster attraction K8vZ9175hx7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "grupo-frontera",
+      "ticketmaster_attraction_id": "K8vZ917QwgV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/grupo-frontera-tickets/artist/2942293",
+      "seatgeek_performer_id": 800430,
+      "seatgeek_artist_url": "https://seatgeek.com/grupo-frontera-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-31 (sanctioned path D): SeatGeek performer 800430 and Ticketmaster attraction K8vZ917QwgV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "lady-a",
+      "ticketmaster_attraction_id": "K8vZ917GFIf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/lady-a-tickets/artist/1173672",
+      "seatgeek_performer_id": 1082,
+      "seatgeek_artist_url": "https://seatgeek.com/lady-a-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-31 (sanctioned path D): SeatGeek performer 1082 and Ticketmaster attraction K8vZ917GFIf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

@@ -1,0 +1,373 @@
+[
+  {
+    "id": "tm-tash-sultana-2027-dublin-1abzkgkgkdrrzgx",
+    "artist_slug": "tash-sultana",
+    "artist_name": "Tash Sultana",
+    "event_name": "Tash Sultana",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-03-11T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006313EF7B833E",
+    "ticketmaster_url": "https://www.ticketmaster.ie/tash-sultana-dublin-11-03-2027/event/18006313EF7B833E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/tash-sultana-dublin-11-03-2027/event/18006313EF7B833E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006313EF7B833E",
+        "discovery_event_id": "1AbZkGKGkdRrzGX",
+        "url": "https://www.ticketmaster.ie/tash-sultana-dublin-11-03-2027/event/18006313EF7B833E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkGKGkdRrzGX",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tash-sultana-2027-london-1adjzbsgkmupg8h",
+    "artist_slug": "tash-sultana",
+    "artist_name": "Tash Sultana",
+    "event_name": "Tash Sultana",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "OVO Arena Wembley",
+    "datetime_iso": "2027-03-13T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700631DCD5B543C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tash-sultana-london-13-03-2027/event/3700631DCD5B543C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tash-sultana-london-13-03-2027/event/3700631DCD5B543C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700631DCD5B543C",
+        "discovery_event_id": "1AdjZbsGkMupg8H",
+        "url": "https://www.ticketmaster.co.uk/tash-sultana-london-13-03-2027/event/3700631DCD5B543C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZbsGkMupg8H",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tash-sultana-2027-merksem-antwerpen-z698xzg2z1kjpqofb",
+    "artist_slug": "tash-sultana",
+    "artist_name": "Tash Sultana",
+    "event_name": "Tash Sultana",
+    "city": "Merksem (Antwerpen)",
+    "country": "Belgium",
+    "venue": "Lotto Arena Antwerpen",
+    "datetime_iso": "2027-03-16T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "716691218",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/tash-sultana-tickets/716691218",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/tash-sultana-tickets/716691218",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "716691218",
+        "discovery_event_id": "Z698xZG2Z1kjpQoFb",
+        "url": "https://www.ticketmaster.be/event/tash-sultana-tickets/716691218",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kjpQoFb",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tash-sultana-2027-amsterdam-z698xzbpz16vawaob0",
+    "artist_slug": "tash-sultana",
+    "artist_name": "Tash Sultana",
+    "event_name": "Tash Sultana - Return To The Roots EU/UK Tour 2027",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-03-26T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1172151624",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/tash-sultana-return-to-the-roots-eu-uk-tour-2027-tickets/1172151624?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/tash-sultana-return-to-the-roots-eu-uk-tour-2027-tickets/1172151624?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1172151624",
+        "discovery_event_id": "Z698xZbpZ16vAwAob0",
+        "url": "https://www.ticketmaster.nl/event/tash-sultana-return-to-the-roots-eu-uk-tour-2027-tickets/1172151624?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vAwAob0",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tash-sultana-2027-auckland-1a0zkfggkee4ejk",
+    "artist_slug": "tash-sultana",
+    "artist_name": "Tash Sultana",
+    "event_name": "Tash Sultana",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "The Powerstation",
+    "datetime_iso": "2027-04-22T07:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "24006535A7542713",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/tash-sultana-auckland-22-04-2027/event/24006535A7542713",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/tash-sultana-auckland-22-04-2027/event/24006535A7542713",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "24006535A7542713",
+        "discovery_event_id": "1A0ZkfgGkeE4ejK",
+        "url": "https://www.ticketmaster.co.nz/tash-sultana-auckland-22-04-2027/event/24006535A7542713",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A0ZkfgGkeE4ejK",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tash-sultana-2027-auckland-1kazvpgigacnerq",
+    "artist_slug": "tash-sultana",
+    "artist_name": "Tash Sultana",
+    "event_name": "Tash Sultana",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "The Powerstation",
+    "datetime_iso": "2027-04-23T07:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240065328E8C2BDD",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/tash-sultana-auckland-23-04-2027/event/240065328E8C2BDD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/tash-sultana-auckland-23-04-2027/event/240065328E8C2BDD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240065328E8C2BDD",
+        "discovery_event_id": "1kaZvPGIGACNeRq",
+        "url": "https://www.ticketmaster.co.nz/tash-sultana-auckland-23-04-2027/event/240065328E8C2BDD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kaZvPGIGACNeRq",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tash-sultana-2027-thirroul-1akzkfggkdlsqdl",
+    "artist_slug": "tash-sultana",
+    "artist_name": "Tash Sultana",
+    "event_name": "Tash Sultana",
+    "city": "Thirroul",
+    "country": "Australia",
+    "venue": "Anita's Theatre",
+    "datetime_iso": "2027-05-01T10:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006535DFCDD0EB",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/tash-sultana-thirroul-01-05-2027/event/13006535DFCDD0EB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/tash-sultana-thirroul-01-05-2027/event/13006535DFCDD0EB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006535DFCDD0EB",
+        "discovery_event_id": "1AKZkfgGkdLSqdl",
+        "url": "https://www.ticketmaster.com.au/tash-sultana-thirroul-01-05-2027/event/13006535DFCDD0EB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkfgGkdLSqdl",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  }
+]

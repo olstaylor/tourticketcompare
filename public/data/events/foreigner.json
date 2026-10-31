@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7864777",
+        "url": "https://www.ticketliquidator.com/tickets/7864777/Foreigner-tickets-Fri-Oct-30-2026-The-Venue-At-Thunder-Valley-Casino-Resort",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_66kfcGC",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7864777"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7864777",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7864777/Foreigner-tickets-Fri-Oct-30-2026-The-Venue-At-Thunder-Valley-Casino-Resort"
   },
   {
     "id": "tm-foreigner-2026-reno-1kc8v0otgacbkaa",
@@ -220,12 +228,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8237209",
+        "url": "https://www.ticketliquidator.com/tickets/8237209/Foreigner-tickets-Fri-Feb-19-2027-Pompano-Beach-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv6fN",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237209"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237209",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237209/Foreigner-tickets-Fri-Feb-19-2027-Pompano-Beach-Amphitheatre"
   },
   {
     "id": "tm-foreigner-2027-monterrey-1av8zbygkudzz0k",
@@ -864,12 +880,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8243091",
+        "url": "https://www.ticketliquidator.com/tickets/8243091/Foreigner-tickets-Tue-Apr-27-2027-Beacon-Theatre-NY",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_ooHwwkW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243091"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243091",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243091/Foreigner-tickets-Tue-Apr-27-2027-Beacon-Theatre-NY"
   },
   {
     "id": "tm-foreigner-2027-montclair-vv1aezkf_gkded4lx",
@@ -1084,11 +1108,19 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8318453",
+        "url": "https://www.ticketliquidator.com/tickets/8318453/Foreigner-tickets-Fri-Jul-2-2027-BMO-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk4aGkd5HEh6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318453"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318453",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318453/Foreigner-tickets-Fri-Jul-2-2027-BMO-Pavilion"
   }
 ]

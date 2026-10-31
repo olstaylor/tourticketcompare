@@ -2365,6 +2365,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7772705",
+        "url": "https://www.ticketliquidator.com/tickets/7772705/Metallica-tickets-Thu-Oct-29-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv048rvZ72a6e",
@@ -2373,7 +2380,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772705"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772705",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772705/Metallica-tickets-Thu-Oct-29-2026-Sphere"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rvz72a6k",

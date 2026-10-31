@@ -1746,6 +1746,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8345084",
+        "url": "https://www.ticketliquidator.com/tickets/8345084/The-Interrupters-tickets-Sat-May-1-2027-SOMA",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4ZG9eZ5",
@@ -1761,6 +1768,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345084"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345084",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345084/The-Interrupters-tickets-Sat-May-1-2027-SOMA"
   }
 ]

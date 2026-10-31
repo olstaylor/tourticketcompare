@@ -60,13 +60,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7915776",
+        "url": "https://www.ticketliquidator.com/tickets/7915776/Aespa-tickets-Thu-Jan-14-2027-AO-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_Gm82p9j",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915776",
-    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-manchester-manchester-ao-arena-14-1-2027/event/107162341"
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-manchester-manchester-ao-arena-14-1-2027/event/107162341",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7915776/Aespa-tickets-Thu-Jan-14-2027-AO-Arena"
   },
   {
     "id": "tm-aespa-2027-london-1agzk3pgkeok319",
@@ -190,13 +198,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7915781",
+        "url": "https://www.ticketliquidator.com/tickets/7915781/Aespa-tickets-Tue-Jan-19-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16voeqaA6",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915781",
-    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-amsterdam-ziggo-dome-19-1-2027/event/107165089"
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-amsterdam-ziggo-dome-19-1-2027/event/107165089",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7915781/Aespa-tickets-Tue-Jan-19-2027-Ziggo-Dome"
   },
   {
     "id": "tm-aespa-2027-berlin-z698xzc2z1k_y_voe",
@@ -259,13 +275,21 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7915779",
+        "url": "https://www.ticketliquidator.com/tickets/7915779/Aespa-tickets-Tue-Jan-26-2027-Uber-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k_y_Voe",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915779",
-    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-berlin-uber-arena-26-1-2027/event/107165116"
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-berlin-uber-arena-26-1-2027/event/107165116",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7915779/Aespa-tickets-Tue-Jan-26-2027-Uber-Arena"
   },
   {
     "id": "tm-aespa-2027-milano-zg9rmiynyzekk1",
@@ -381,12 +405,20 @@
         "verified": true,
         "last_verified_at": "2026-10-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7915778",
+        "url": "https://www.ticketliquidator.com/tickets/7915778/Aespa-tickets-Sun-Jan-31-2027-Palau-Sant-Jordi",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v0vCkob",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7915778",
-    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-barcelona-palau-sant-jordi-31-1-2027/event/107162333"
+    "stubhub_international_url": "https://www.stubhub.ie/aespa-tickets-barcelona-palau-sant-jordi-31-1-2027/event/107162333",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7915778/Aespa-tickets-Sun-Jan-31-2027-Palau-Sant-Jordi"
   }
 ]

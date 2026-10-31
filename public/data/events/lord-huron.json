@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8181767",
+        "url": "https://www.ticketliquidator.com/tickets/8181767/Lord-Huron-tickets-Tue-Dec-1-2026-Ryman-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZbfY",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8181767"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8181767",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8181767/Lord-Huron-tickets-Tue-Dec-1-2026-Ryman-Auditorium"
   },
   {
     "id": "tm-lord-huron-2026-cincinnati-17aov0g62ysdsyk",
@@ -228,12 +236,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180368",
+        "url": "https://www.ticketliquidator.com/tickets/8180368/Lord-Huron-tickets-Sun-Dec-6-2026-GLC-Live-at-20-Monroe",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_2Sbbhp3",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180368"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180368",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180368/Lord-Huron-tickets-Sun-Dec-6-2026-GLC-Live-at-20-Monroe"
   },
   {
     "id": "tm-lord-huron-2026-chicago-vvg1jz_2u-es7s",
@@ -289,12 +305,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180369",
+        "url": "https://www.ticketliquidator.com/tickets/8180369/Lord-Huron-tickets-Tue-Dec-8-2026-The-Chicago-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_2U-ES7s",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180369"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180369",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180369/Lord-Huron-tickets-Tue-Dec-8-2026-The-Chicago-Theatre"
   },
   {
     "id": "tm-lord-huron-2026-chicago-vvg1jz_2u-jk7l",
@@ -350,12 +374,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180370",
+        "url": "https://www.ticketliquidator.com/tickets/8180370/Lord-Huron-tickets-Wed-Dec-9-2026-The-Chicago-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_2U-JK7l",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180370"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180370",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180370/Lord-Huron-tickets-Wed-Dec-9-2026-The-Chicago-Theatre"
   },
   {
     "id": "tm-lord-huron-2026-albany-k7vgf_2d6r7wd",
@@ -464,12 +496,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180372",
+        "url": "https://www.ticketliquidator.com/tickets/8180372/Lord-Huron-tickets-Sat-Dec-12-2026-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_2mgbLqL",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180372"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180372",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180372/Lord-Huron-tickets-Sat-Dec-12-2026-The-Met-Presented-by-Highmark"
   },
   {
     "id": "tm-lord-huron-2026-boston-vvg17z_2wsvfp-",
@@ -525,12 +565,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180373",
+        "url": "https://www.ticketliquidator.com/tickets/8180373/Lord-Huron-tickets-Sun-Dec-13-2026-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_2wSVFP-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180373"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180373",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180373/Lord-Huron-tickets-Sun-Dec-13-2026-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-lord-huron-2026-montreal-17g8v0g62wrdz3v",
@@ -586,12 +634,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180374",
+        "url": "https://www.ticketliquidator.com/tickets/8180374/Lord-Huron-tickets-Tue-Dec-15-2026-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G62wRdz3v",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180374"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180374",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180374/Lord-Huron-tickets-Tue-Dec-15-2026-MTelus"
   },
   {
     "id": "tm-lord-huron-2026-montreal-17g8v0g62wr7i3a",
@@ -647,12 +703,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180375",
+        "url": "https://www.ticketliquidator.com/tickets/8180375/Lord-Huron-tickets-Wed-Dec-16-2026-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G62wR7I3a",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180375"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180375",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180375/Lord-Huron-tickets-Wed-Dec-16-2026-MTelus"
   },
   {
     "id": "tm-lord-huron-2026-brooklyn-z7r9jz1aazpf3",
@@ -708,12 +772,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180376",
+        "url": "https://www.ticketliquidator.com/tickets/8180376/Lord-Huron-tickets-Fri-Dec-18-2026-Kings-Theatre-NY",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZPF3",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180376"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180376",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180376/Lord-Huron-tickets-Fri-Dec-18-2026-Kings-Theatre-NY"
   },
   {
     "id": "tm-lord-huron-2026-brooklyn-z7r9jz1aazbbi",
@@ -769,12 +841,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180377",
+        "url": "https://www.ticketliquidator.com/tickets/8180377/Lord-Huron-tickets-Sat-Dec-19-2026-Kings-Theatre-NY",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZbbI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180377"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180377",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180377/Lord-Huron-tickets-Sat-Dec-19-2026-Kings-Theatre-NY"
   },
   {
     "id": "tm-lord-huron-2027-sacramento-g5vyz_2wpd5xx",
@@ -830,12 +910,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180378",
+        "url": "https://www.ticketliquidator.com/tickets/8180378/Lord-Huron-tickets-Fri-Jan-1-2027-Channel-24",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_2wPD5XX",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180378"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180378",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180378/Lord-Huron-tickets-Fri-Jan-1-2027-Channel-24"
   },
   {
     "id": "tm-lord-huron-2027-las-vegas-z7r9jz1aazbo8",
@@ -891,12 +979,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180380",
+        "url": "https://www.ticketliquidator.com/tickets/8180380/Lord-Huron-tickets-Sat-Jan-2-2027-The-Theater-at-Virgin-Hotels-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZbo8",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180380"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180380",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180380/Lord-Huron-tickets-Sat-Jan-2-2027-The-Theater-at-Virgin-Hotels-Las-Vegas"
   },
   {
     "id": "tm-lord-huron-2027-oakland-g5vyz_2mrsp3q",
@@ -952,12 +1048,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180382",
+        "url": "https://www.ticketliquidator.com/tickets/8180382/Lord-Huron-tickets-Sun-Jan-3-2027-Fox-Theater-Oakland",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_2MrSP3Q",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180382"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180382",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180382/Lord-Huron-tickets-Sun-Jan-3-2027-Fox-Theater-Oakland"
   },
   {
     "id": "tm-lord-huron-2027-vancouver-1778v0g62bp9vz3",
@@ -1013,12 +1117,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180385",
+        "url": "https://www.ticketliquidator.com/tickets/8180385/Lord-Huron-tickets-Tue-Jan-5-2027-Orpheum-Theatre-Vancouver",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G62Bp9Vz3",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180385"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180385",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180385/Lord-Huron-tickets-Tue-Jan-5-2027-Orpheum-Theatre-Vancouver"
   },
   {
     "id": "tm-lord-huron-2027-vancouver-1778v0g62bpn7yz",
@@ -1074,12 +1186,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180387",
+        "url": "https://www.ticketliquidator.com/tickets/8180387/Lord-Huron-tickets-Wed-Jan-6-2027-Orpheum-Theatre-Vancouver",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G62BpN7yZ",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180387"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180387",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180387/Lord-Huron-tickets-Wed-Jan-6-2027-Orpheum-Theatre-Vancouver"
   },
   {
     "id": "tm-lord-huron-2027-seattle-vvg1hz_2t-gnc5",
@@ -1135,12 +1255,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180388",
+        "url": "https://www.ticketliquidator.com/tickets/8180388/Lord-Huron-tickets-Thu-Jan-7-2027-Paramount-Theatre-Seattle",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_2T-gNc5",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180388"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180388",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180388/Lord-Huron-tickets-Thu-Jan-7-2027-Paramount-Theatre-Seattle"
   },
   {
     "id": "tm-lord-huron-2027-seattle-vvg1hz_2t-uscj",
@@ -1196,12 +1324,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180389",
+        "url": "https://www.ticketliquidator.com/tickets/8180389/Lord-Huron-tickets-Fri-Jan-8-2027-Paramount-Theatre-Seattle",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_2T-UScj",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180389"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180389",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180389/Lord-Huron-tickets-Fri-Jan-8-2027-Paramount-Theatre-Seattle"
   },
   {
     "id": "tm-lord-huron-2027-los-angeles-vvg10z_2ug7bzu",
@@ -1257,12 +1393,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180391",
+        "url": "https://www.ticketliquidator.com/tickets/8180391/Lord-Huron-tickets-Sun-Jan-10-2027-The-Wiltern",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_2Ug7bzu",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180391"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180391",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180391/Lord-Huron-tickets-Sun-Jan-10-2027-The-Wiltern"
   },
   {
     "id": "tm-lord-huron-2027-los-angeles-vvg10z_2ugkfzf",
@@ -1318,12 +1462,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8180392",
+        "url": "https://www.ticketliquidator.com/tickets/8180392/Lord-Huron-tickets-Mon-Jan-11-2027-The-Wiltern",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_2UgkFzf",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180392"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180392",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180392/Lord-Huron-tickets-Mon-Jan-11-2027-The-Wiltern"
   },
   {
     "id": "tm-lord-huron-2027-los-angeles-vvg10z_2d_gilx",
@@ -1379,11 +1531,19 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8196845",
+        "url": "https://www.ticketliquidator.com/tickets/8196845/Lord-Huron-tickets-Tue-Jan-12-2027-The-Wiltern",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_2D_Gilx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196845"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8196845",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8196845/Lord-Huron-tickets-Tue-Jan-12-2027-The-Wiltern"
   }
 ]

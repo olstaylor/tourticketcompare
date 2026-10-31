@@ -1280,6 +1280,13 @@ async function main() {
   // One allowance for the whole sweep — see TM_RETRY_BUDGET_MS.
   const retryBudget = createRetryBudget();
 
+  // Fetch the events the shared snapshot does not already cover in batches
+  // instead of one call each (set TM_BATCH_FETCH=0 to turn this off).
+  await sweep.prefetch(targets.map((event) => ticketmasterDiscoveryEventId(event)), {
+    apiKey,
+    directFetch: (id) => fetchEvent(apiKey, base, id, { budget: retryBudget, observeResponse: sweep.observeResponse })
+  });
+
   for (const event of targets) {
     const id = ticketmasterDiscoveryEventId(event);
     const result = await sweep.get(id, () => fetchEvent(apiKey, base, id, { budget: retryBudget, observeResponse: sweep.observeResponse }));

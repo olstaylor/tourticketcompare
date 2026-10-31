@@ -7,6 +7,8 @@ import { presaleNameSafe } from '../../functions/_presales.js';
 
 export const SNAPSHOT_VERSION = 1;
 export const SNAPSHOT_MAX_AGE_MS = 6 * 60 * 60 * 1000;
+// Discovery accepts a comma-separated `id` list; 100 ids keeps the URL short and the page single.
+export const BATCH_SIZE = 100;
 export const SNAPSHOT_ARTIFACT = 'tm-tracked-event-snapshot';
 const hash = (value) => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const object = (value) => value !== null && typeof value === 'object' && !Array.isArray(value);
@@ -124,10 +126,64 @@ export async function loadSnapshot(file, base, { now = Date.now(), log = console
 export function createSnapshotSweep({ base, snapshot = null, now = () => Date.now(), secrets = [] }) {
   const createdAt = new Date(now()).toISOString();
   const recorded = Object.create(null);
+  // Events answered by a batched `events.json?id=a,b,c` request (see prefetch).
+  const batched = Object.create(null);
   const unresolvable = [];
-  const stats = { events_requested: 0, snapshot_reused: 0, in_run_reused: 0, direct_requests: 0, transient_failures: 0, failed_events: 0, snapshot_failed_entries: 0, skipped_past: 0, unresolvable: 0, estimated_calls_saved: 0, quota: {} };
+  const stats = { events_requested: 0, snapshot_reused: 0, in_run_reused: 0, batch_reused: 0, batch_requests: 0, batch_misses: 0, direct_requests: 0, transient_failures: 0, failed_events: 0, snapshot_failed_entries: 0, skipped_past: 0, unresolvable: 0, estimated_calls_saved: 0, quota: {} };
   return {
     stats,
+    // Fetch many tracked events per Discovery call instead of one each. Only a
+    // present, well-formed record is used; an event the batch does not return
+    // (deleted, hidden, or an error) is NOT treated as missing: it falls through
+    // to the normal single-event request, which keeps the 404/410 semantics and
+    // the retry rules exactly as they were. Before trusting any batch result, a
+    // few returned events are fetched singly and must project identically;
+    // otherwise every batch result is discarded for this run.
+    async prefetch(ids, { apiKey, fetchImpl = fetch, directFetch = null, batchSize = BATCH_SIZE, timeoutMs = 20000, userAgent = 'TourTicketCompareSync/1.0 (+https://tourticketcompare.com)', verifySample = 3, log = console.log } = {}) {
+      if (process.env.TM_BATCH_FETCH === '0') return;
+      const at = now();
+      const wanted = [...new Set(ids)].filter((id) => !usableSnapshotEntry(recorded[id], id, at) && !(validSnapshot(snapshot, base, at) && usableSnapshotEntry(snapshot.events[id], id, at)));
+      const found = Object.create(null);
+      for (let i = 0; i < wanted.length; i += batchSize) {
+        const group = wanted.slice(i, i + batchSize);
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), timeoutMs);
+        try {
+          const url = `${base}/events.json?size=${group.length}&id=${group.map(encodeURIComponent).join(',')}&apikey=${encodeURIComponent(apiKey)}`;
+          const response = await fetchImpl(url, { method: 'GET', redirect: 'follow', signal: controller.signal, headers: { 'user-agent': userAgent } });
+          stats.batch_requests += 1;
+          Object.assign(stats.quota, quotaHeaders(response?.headers));
+          if (!response?.ok) {
+            if (response?.status === 429) break; // throttled: stop batching, singles will retry with backoff
+            continue;
+          }
+          const body = await response.json().catch(() => null);
+          const list = Array.isArray(body?._embedded?.events) ? body._embedded.events : [];
+          for (const event of list) {
+            if (group.includes(event?.id) && object(event)) found[event.id] = { status: 200, exists: true, data: event, quota: quotaHeaders(response.headers) };
+          }
+        } catch {
+          stats.batch_requests += 1;
+        } finally {
+          clearTimeout(timer);
+        }
+      }
+      const hits = Object.keys(found);
+      if (hits.length && directFetch && verifySample > 0) {
+        const sample = hits.slice(0, verifySample);
+        for (const id of sample) {
+          const single = await directFetch(id);
+          if (single?.exists !== true || JSON.stringify(snapshotFields(single.data)) !== JSON.stringify(snapshotFields(found[id].data))) {
+            log(`TM batch check failed for ${id}: batched and single-event records differ; ignoring batch results for this run.`);
+            return;
+          }
+        }
+        // The verified sample already cost single calls; reuse them as-is.
+      }
+      for (const id of hits) batched[id] = found[id];
+      stats.batch_misses = wanted.length - hits.length;
+      log(`TM batch: ${hits.length} of ${wanted.length} tracked events answered in ${stats.batch_requests} request(s); ${stats.batch_misses} fall back to single-event requests.`);
+    },
     observeResponse(response) {
       stats.direct_requests += 1;
       if (!response || response.status === 429 || response.status >= 500) stats.transient_failures += 1;
@@ -148,6 +204,11 @@ export function createSnapshotSweep({ base, snapshot = null, now = () => Date.no
       }
       if (usableSnapshotEntry(entry, eventId, at)) {
         stats[source === 'snapshot' ? 'snapshot_reused' : 'in_run_reused'] += 1;
+      } else if (batched[eventId]) {
+        // Answered by a batched request: the same event record, no extra call.
+        stats.batch_reused += 1;
+        source = 'batch';
+        entry = makeSnapshotEntry(eventId, batched[eventId], new Date(now()).toISOString(), secrets);
       } else {
         if (entry?.exists === null) stats.snapshot_failed_entries += 1;
         source = 'direct';
@@ -156,7 +217,7 @@ export function createSnapshotSweep({ base, snapshot = null, now = () => Date.no
         if (entry.exists === null) stats.failed_events += 1;
       }
       recorded[eventId] = entry;
-      stats.estimated_calls_saved = stats.events_requested - stats.direct_requests;
+      stats.estimated_calls_saved = stats.events_requested - stats.direct_requests - stats.batch_requests;
       // A copy prevents a consumer from changing the observation itself.
       return { ...structuredClone(entry), source };
     },

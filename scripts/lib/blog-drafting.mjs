@@ -207,8 +207,11 @@ export function localSaleTime(iso, timeZone) {
 // Existing articles are context only. A cap on their combined size keeps
 // artists with many posts inside the input limit.
 const OVERLAP_TOTAL_CHARS = 12000;
-function boundedOverlap(docs) {
-  let left = OVERLAP_TOTAL_CHARS;
+// A price block adds up to ~6 KB of evidence, so context shrinks to match
+// (the 2026-10-31 Olivia run was refused for exceeding the input bound).
+export const PRICED_OVERLAP_CHARS = 2000;
+export function boundedOverlap(docs, total = OVERLAP_TOTAL_CHARS) {
+  let left = total;
   const out = [];
   for (const d of docs) {
     if (left <= 0) break;
@@ -247,7 +250,7 @@ export function buildEvidence(selected, { now = Date.now(), snapshot, prices = [
       ...(saleKind ? ['Sale and presale times are what Ticketmaster listed when checked. Organisers can change them; readers must confirm on the official event page.'] : []),
       priceFacts ? 'The only prices authorised are the strings in the prices block, quoted exactly as supplied and attributed to the named site. No codes, eligibility rules, fees, savings, scarcity or last-chance claims, tour branding or price predictions are authorised.'
         : 'No codes, eligibility rules, claims that a site, date or seat is cheapest, prices, scarcity or last-chance claims, tour branding or price predictions are authorised.'],
-    overlap: boundedOverlap(selected.overlap) };
+    overlap: boundedOverlap(selected.overlap, priceFacts ? PRICED_OVERLAP_CHARS : OVERLAP_TOTAL_CHARS) };
 }
 
 // Discovery returns its own URL slug and, for affiliate-enabled keys, wraps the

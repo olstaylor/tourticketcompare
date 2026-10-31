@@ -786,6 +786,11 @@ function resolveNothing(events, key) {
   const router = await load("functions/[[path]].js");
   const site = await loadSiteFixture(ROOT);
   const now = Date.now();
+  // Pin the clock for this section. It renders hundreds of pages over a minute or
+  // more; a show that starts during that time (or the UTC date rolling over) would
+  // otherwise leave the pilot list one event longer when it is read at the start
+  // than when the sitemaps are read at the end, and fail the run at midnight.
+  Date.now = () => now;
   const stub = { IMPACT_SEATGEEK_ACCOUNT_SID: "t", IMPACT_SEATGEEK_AUTH_TOKEN: "t", IMPACT_SEATGEEK_CAMPAIGN_ID: "1", IMPACT_VIVIDSEATS_CAMPAIGN_ID: "2", IMPACT_ACCOUNT_SID: "t", IMPACT_AUTH_TOKEN: "t" };
   const deployed = { ...site.env, ...wranglerVars(fs.readFileSync(path.join(ROOT, "wrangler.toml"), "utf8")), ...stub };
   const { events } = site.data;
@@ -850,6 +855,7 @@ function resolveNothing(events, key) {
   assert(`cohort: eligible non-pilot pages stay noindex,follow (${sample.length} sampled of ${nonPilot.length}${leaks.length ? `; ${leaks.join(", ")}` : ""})`, sample.length >= 30 && leaks.length === 0);
   const preview = await renderReal(runtimePaths[0] || "/", "https://preview.tourticketcompare.pages.dev");
   assert("cohort: the same deployed config on a *.pages.dev host renders the pilot page noindex,follow", robotsOf(preview.html) === "noindex,follow");
+  Date.now = realNow;
 }
 
 let failed = 0;

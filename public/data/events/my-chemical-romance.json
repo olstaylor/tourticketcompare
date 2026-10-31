@@ -632,7 +632,7 @@
     "ticketmaster_event_id": "0B006332CBE5399E",
     "ticketmaster_url": "https://www.ticketmaster.com/my-chemical-romance-with-special-guest-hollywood-california-10-30-2026/event/0B006332CBE5399E",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-30-2026--concerts-rock/production/6314708",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/my-chemical-romance-with-special-guest-hollywood-california-10-30-2026/event/0B006332CBE5399E",
     "last_verified_at": "2026-10-15",
@@ -654,11 +654,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6314708,
-        "url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-30-2026--concerts-rock/production/6314708",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -738,7 +738,7 @@
         "event_id": 6314710,
         "url": "https://www.vividseats.com/my-chemical-romance-tickets-los-angeles-hollywood-bowl-10-31-2026--concerts-rock/production/6314710",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-10-31",
         "availability_status": "listed"
       },
       "stubhub": {

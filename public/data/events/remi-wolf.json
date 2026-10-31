@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "15006547A9CD67C5",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-23-2027/event/15006547A9CD67C5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-washington-dc-the-anthem-2-23-2027--concerts-pop/production/7679280",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-23-2027/event/15006547A9CD67C5",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679280,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-washington-dc-the-anthem-2-23-2027--concerts-pop/production/7679280",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -150,7 +150,7 @@
     "ticketmaster_event_id": "3C0065477C7B0DDB",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-new-york-new-york-02-27-2027/event/3C0065477C7B0DDB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-new-york-radio-city-music-hall-2-27-2027--concerts-pop/production/7679286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-new-york-new-york-02-27-2027/event/3C0065477C7B0DDB",
     "last_verified_at": null,
@@ -172,11 +172,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679286,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-new-york-radio-city-music-hall-2-27-2027--concerts-pop/production/7679286",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -219,7 +219,7 @@
     "ticketmaster_event_id": "01006546DEE3F4C9",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-02-2027/event/01006546DEE3F4C9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-boston-mgm-music-hall-at-fenway-3-2-2027--concerts-pop/production/7679291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-02-2027/event/01006546DEE3F4C9",
     "last_verified_at": null,
@@ -241,11 +241,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679291,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-boston-mgm-music-hall-at-fenway-3-2-2027--concerts-pop/production/7679291",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -296,7 +296,7 @@
     "ticketmaster_event_id": "01006546DEF6F505",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-03-2027/event/01006546DEF6F505",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-boston-mgm-music-hall-at-fenway-3-3-2027--concerts-pop/production/7713782",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-03-2027/event/01006546DEF6F505",
     "last_verified_at": null,
@@ -318,11 +318,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7713782,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-boston-mgm-music-hall-at-fenway-3-3-2027--concerts-pop/production/7713782",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -373,7 +373,7 @@
     "ticketmaster_event_id": "10006547EB618514",
     "ticketmaster_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-05-2027/event/10006547EB618514",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-toronto-massey-hall---allied-music-centre-3-5-2027--concerts-pop/production/7679350",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-05-2027/event/10006547EB618514",
     "last_verified_at": null,
@@ -395,11 +395,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679350,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-toronto-massey-hall---allied-music-centre-3-5-2027--concerts-pop/production/7679350",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -426,7 +426,7 @@
     "ticketmaster_event_id": "10006547EB638527",
     "ticketmaster_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-06-2027/event/10006547EB638527",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-toronto-massey-hall---allied-music-centre-3-6-2027/production/7713965",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-06-2027/event/10006547EB638527",
     "last_verified_at": null,
@@ -448,11 +448,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7713965,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-toronto-massey-hall---allied-music-centre-3-6-2027/production/7713965",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -638,7 +638,7 @@
     "ticketmaster_event_id": "06006547E364FAD6",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-minneapolis-minnesota-03-12-2027/event/06006547E364FAD6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-minneapolis-armory---minneapolis-3-12-2027--concerts-pop/production/7679372",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-minneapolis-minnesota-03-12-2027/event/06006547E364FAD6",
     "last_verified_at": null,
@@ -660,11 +660,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679372,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-minneapolis-armory---minneapolis-3-12-2027--concerts-pop/production/7679372",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -707,7 +707,7 @@
     "ticketmaster_event_id": "07006546AC2956C5",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-milwaukee-wisconsin-03-13-2027/event/07006546AC2956C5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-milwaukee-landmark-credit-union-live-3-13-2027--concerts-pop/production/7679297",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-milwaukee-wisconsin-03-13-2027/event/07006546AC2956C5",
     "last_verified_at": null,
@@ -729,11 +729,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679297,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-milwaukee-landmark-credit-union-live-3-13-2027--concerts-pop/production/7679297",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -829,7 +829,7 @@
     "ticketmaster_event_id": "160065459C6148BA",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-cincinnati-ohio-03-17-2027/event/160065459C6148BA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-cincinnati-andrew-j-brady-music-center-3-17-2027--concerts-pop/production/7679320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-cincinnati-ohio-03-17-2027/event/160065459C6148BA",
     "last_verified_at": null,
@@ -851,11 +851,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679320,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-cincinnati-andrew-j-brady-music-center-3-17-2027--concerts-pop/production/7679320",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -890,7 +890,7 @@
     "ticketmaster_event_id": "1B006548E83E4662",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-nashville-tennessee-03-19-2027/event/1B006548E83E4662",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-nashville-the-truth-3-19-2027--concerts-pop/production/7679324",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-nashville-tennessee-03-19-2027/event/1B006548E83E4662",
     "last_verified_at": null,
@@ -912,11 +912,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679324,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-nashville-the-truth-3-19-2027--concerts-pop/production/7679324",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -959,7 +959,7 @@
     "ticketmaster_event_id": "0E0065470B84F8EA",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-atlanta-georgia-03-20-2027/event/0E0065470B84F8EA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-atlanta-coca-cola-roxy-theatre-3-20-2027--concerts-pop/production/7679330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-atlanta-georgia-03-20-2027/event/0E0065470B84F8EA",
     "last_verified_at": null,
@@ -981,11 +981,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679330,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-atlanta-coca-cola-roxy-theatre-3-20-2027--concerts-pop/production/7679330",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1028,7 +1028,7 @@
     "ticketmaster_event_id": "3A006548ED31C5A0",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-austin-texas-05-06-2027/event/3A006548ED31C5A0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-austin-moody-amphitheater-5-6-2027--concerts-pop/production/7679377",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-austin-texas-05-06-2027/event/3A006548ED31C5A0",
     "last_verified_at": null,
@@ -1050,11 +1050,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679377,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-austin-moody-amphitheater-5-6-2027--concerts-pop/production/7679377",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1097,7 +1097,7 @@
     "ticketmaster_event_id": "3A006545CDEB6F92",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-houston-texas-05-07-2027/event/3A006545CDEB6F92",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-houston-713-music-hall-5-7-2027--concerts-pop/production/7679340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-houston-texas-05-07-2027/event/3A006545CDEB6F92",
     "last_verified_at": null,
@@ -1119,11 +1119,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679340,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-houston-713-music-hall-5-7-2027--concerts-pop/production/7679340",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1174,7 +1174,7 @@
     "ticketmaster_event_id": "0C006547BBD78E87",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-irving-texas-05-08-2027/event/0C006547BBD78E87",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-irving-pavilion-at-toyota-music-factory-5-8-2027--concerts-pop/production/7679344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-irving-texas-05-08-2027/event/0C006547BBD78E87",
     "last_verified_at": null,
@@ -1196,11 +1196,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679344,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-irving-pavilion-at-toyota-music-factory-5-8-2027--concerts-pop/production/7679344",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1296,7 +1296,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7KJk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7KJk",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-05-11-8-pm/concert/18664787",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-kansas-city-the-midland-theatre-5-11-2027--concerts-pop/production/7679366",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7KJk",
     "last_verified_at": null,
@@ -1318,11 +1318,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679366,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-kansas-city-the-midland-theatre-5-11-2027--concerts-pop/production/7679366",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1365,7 +1365,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7AJ7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7AJ7",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/west-des-moines-iowa-val-air-ballroom-2027-05-12-8-pm/concert/18664791",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-west-des-moines-val-air-ballroom-5-12-2027--concerts-pop/production/7679368",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7AJ7",
     "last_verified_at": null,
@@ -1387,11 +1387,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679368,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-west-des-moines-val-air-ballroom-5-12-2027--concerts-pop/production/7679368",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1434,7 +1434,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7Kap",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Kap",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-16-7-pm/concert/18664789",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-morrison-red-rocks-amphitheatre-5-16-2027--concerts-pop/production/7679370",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Kap",
     "last_verified_at": null,
@@ -1456,11 +1456,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679370,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-morrison-red-rocks-amphitheatre-5-16-2027--concerts-pop/production/7679370",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1503,7 +1503,7 @@
     "ticketmaster_event_id": "1E006547C9A1CD00",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-bonner-montana-05-19-2027/event/1E006547C9A1CD00",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/bonner-montana-kettlehouse-amphitheater-2027-05-19-8-pm/concert/18664792",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-bonner-kettlehouse-amphitheater-5-19-2027--concerts-pop/production/7679346",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-bonner-montana-05-19-2027/event/1E006547C9A1CD00",
     "last_verified_at": null,
@@ -1525,11 +1525,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679346,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-bonner-kettlehouse-amphitheater-5-19-2027--concerts-pop/production/7679346",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1641,7 +1641,7 @@
     "ticketmaster_event_id": "0F006546BCCB95AB",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-seattle-washington-05-22-2027/event/0F006546BCCB95AB",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/seattle-washington-wamu-theater-2027-05-22-8-pm/concert/18664798",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-seattle-wamu-theater---seattle-5-22-2027--concerts-pop/production/7679348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-seattle-washington-05-22-2027/event/0F006546BCCB95AB",
     "last_verified_at": null,
@@ -1663,11 +1663,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679348,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-seattle-wamu-theater---seattle-5-22-2027--concerts-pop/production/7679348",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

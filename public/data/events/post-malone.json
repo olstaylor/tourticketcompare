@@ -324,7 +324,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7Skb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Skb",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/post-malone-tickets-salt-lake-city-delta-center-12-31-2026/production/7770372",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Skb",
     "last_verified_at": null,
@@ -346,11 +346,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7770372,
+        "url": "https://www.vividseats.com/post-malone-tickets-salt-lake-city-delta-center-12-31-2026/production/7770372",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

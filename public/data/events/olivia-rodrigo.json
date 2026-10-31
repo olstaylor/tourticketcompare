@@ -1413,11 +1413,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107164685",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-columbus-tickets-10-30-2026/event/107164685",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -1426,7 +1426,7 @@
     "ticketmaster_discovery_event_id": "vv17fZ_aGkMTNRI-",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921660",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921660/Olivia-Rodrigo-tickets-Fri-Oct-30-2026-Value-City-Arena-at-The-Schottenstein-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-columbus-tickets-10-30-2026/event/107164685",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

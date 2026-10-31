@@ -394,11 +394,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107155188",
+        "url": "https://www.stubhub.ie/billy-strings-fort-worth-tickets-12-11-2026/event/107155188",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_6mc3yqf",
@@ -406,7 +406,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843525",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843525/Billy-Strings-tickets-Fri-Dec-11-2026-Ariat-Arena",
-    "stubhub_international_url": ""
+    "stubhub_international_url": "https://www.stubhub.ie/billy-strings-fort-worth-tickets-12-11-2026/event/107155188"
   },
   {
     "id": "tm-billy-strings-2026-austin-g5diz_ub5bart",

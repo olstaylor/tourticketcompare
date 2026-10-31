@@ -1187,11 +1187,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107484094",
-        "url": "https://www.stubhub.ie/don-omar-ontario-tickets-10-29-2026/event/107484094",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1TPplaO",
@@ -1199,7 +1199,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-ontario-tickets-10-29-2026/event/107484094"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-las-vegas-z7r9jz1a70eqs",
@@ -2591,11 +2591,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107447678",
+        "url": "https://www.stubhub.ie/don-omar-fort-worth-tickets-3-6-2027/event/107447678",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_u1_oUrO",
@@ -2603,7 +2603,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071966",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071966/Don-Omar-tickets-Sat-Mar-6-2027-Ariat-Arena",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/don-omar-fort-worth-tickets-3-6-2027/event/107447678",
     "presales": [
       {
         "name": "VIP Packages Onsale",

@@ -1937,17 +1937,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107019371",
-        "url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-30-10-2026/event/107019371",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v0V0YPZ",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-30-10-2026/event/107019371",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Papuchi Events, S.L."
     ]

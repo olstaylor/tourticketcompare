@@ -1477,11 +1477,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107671871",
+        "url": "https://www.stubhub.ie/greta-van-fleet-fort-worth-tickets-3-15-2027/event/107671871",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f6vci7r",
@@ -1496,7 +1496,7 @@
         "end": "2027-03-08T05:55:00Z"
       }
     ],
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-fort-worth-tickets-3-15-2027/event/107671871",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

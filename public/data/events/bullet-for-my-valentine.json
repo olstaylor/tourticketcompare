@@ -152,11 +152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670042",
+        "url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-glasgow-ovo-hydro-arena-glasgow-23-2-2027/event/107670042",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kuOvPuOGA5ADTh",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-glasgow-ovo-hydro-arena-glasgow-23-2-2027/event/107670042"
   },
   {
     "id": "tm-bullet-for-my-valentine-2027-birmingham-1anzkfggkel7zmz",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670043",
+        "url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-birmingham-bp-pulse-live-25-2-2027/event/107670043",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkfgGkel7Zmz",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-birmingham-bp-pulse-live-25-2-2027/event/107670043"
   },
   {
     "id": "tm-bullet-for-my-valentine-2027-london-16dfz_kqeg7loo3",
@@ -258,11 +274,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669052",
+        "url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-london-the-o2-arena-26-2-2027/event/107669052",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dfZ_KQeG7loo3",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-london-the-o2-arena-26-2-2027/event/107669052"
   },
   {
     "id": "tm-bullet-for-my-valentine-2027-manchester-g5vhz_kd3nkoq",
@@ -325,12 +349,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669053",
+        "url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-manchester-manchester-ao-arena-27-2-2027/event/107669053",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_Kd3NKoQ",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297688",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297688/Bullet-For-My-Valentine-tickets-Sat-Feb-27-2027-AO-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297688/Bullet-For-My-Valentine-tickets-Sat-Feb-27-2027-AO-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-manchester-manchester-ao-arena-27-2-2027/event/107669053"
   }
 ]

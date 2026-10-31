@@ -1789,11 +1789,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106957105",
-        "url": "https://www.stubhub.ie/ed-sheeran-hollywood-tickets-10-30-2026/event/106957105",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbS6V90ea",
@@ -1802,7 +1802,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418600",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418600/Ed-Sheeran-tickets-Fri-Oct-30-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-hollywood-tickets-10-30-2026/event/106957105"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-tampa-0d006331d60a3a7a",

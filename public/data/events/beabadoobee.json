@@ -351,11 +351,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107522082",
-        "url": "https://www.stubhub.ie/beabadoobee-seattle-tickets-10-29-2026/event/107522082",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -369,7 +369,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-seattle-tickets-10-29-2026/event/107522082",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

@@ -877,13 +877,21 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670677",
+        "url": "https://www.stubhub.ie/air-supply-hollywood-tickets-1-29-2027/event/107670677",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3T_Jrbe",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293949",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293949/Air-Supply-tickets-Fri-Jan-29-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293949/Air-Supply-tickets-Fri-Jan-29-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+    "stubhub_international_url": "https://www.stubhub.ie/air-supply-hollywood-tickets-1-29-2027/event/107670677"
   },
   {
     "id": "tm-air-supply-2027-immokalee-vvg1vz_2x6gs2d",

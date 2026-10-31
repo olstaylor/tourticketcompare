@@ -2300,11 +2300,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8326645",
-        "url": "https://www.ticketnetwork.com/en/p/8326645",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16v-8-pb8",
@@ -2314,7 +2314,7 @@
     "organizer_names": [
       "Live Nation Norway AS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326645"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-tyla-2027-pretoria-z698xz05z16eza8efw",

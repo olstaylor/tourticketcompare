@@ -1497,11 +1497,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8038273",
-        "url": "https://www.ticketnetwork.com/en/p/8038273",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8038273",
@@ -1521,7 +1521,7 @@
     "ticketmaster_discovery_event_id": "vvG10Z_GpoVtCx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038273",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038273/Malcolm-Todd-tickets-Thu-Oct-29-2026-Greek-Theatre-Los-Angeles-CA",
     "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-29-2026/event/107417992",
     "organizer_names": [

@@ -358,11 +358,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8081075",
-        "url": "https://www.ticketnetwork.com/en/p/8081075",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_u_UAdG3",
@@ -373,7 +373,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8081075"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-beabadoobee-2026-glasgow-17uov0g6uryba3u",

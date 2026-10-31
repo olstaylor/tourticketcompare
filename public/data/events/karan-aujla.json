@@ -62,11 +62,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8267874",
-        "url": "https://www.ticketnetwork.com/en/p/8267874",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_3m-gnBM",
@@ -84,7 +84,7 @@
         "end": "2026-11-03T20:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267874"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-karan-aujla-2026-los-angeles-g5eyz_3lgqzvb",
@@ -149,11 +149,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8267866",
-        "url": "https://www.ticketnetwork.com/en/p/8267866",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eYZ_3lgqZVb",
@@ -171,7 +171,7 @@
         "end": "2026-11-05T20:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267866"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-karan-aujla-2026-dallas-vvg1yz_3r_e2at",
@@ -236,11 +236,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8267876",
-        "url": "https://www.ticketnetwork.com/en/p/8267876",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3R_E2aT",
@@ -258,7 +258,7 @@
         "end": "2026-11-09T18:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267876"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-karan-aujla-2026-atlanta-vvg1zz_3myjgwo",
@@ -323,11 +323,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8267877",
-        "url": "https://www.ticketnetwork.com/en/p/8267877",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3mYJGwO",
@@ -345,7 +345,7 @@
         "end": "2026-11-12T17:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267877"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-karan-aujla-2026-new-york-g5diz_3ivacnr",
@@ -410,11 +410,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8267865",
-        "url": "https://www.ticketnetwork.com/en/p/8267865",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_3IvACNR",
@@ -437,7 +437,7 @@
         "end": "2026-11-19T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267865"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-karan-aujla-2026-washington-1a4zkftgkdhkud5",
@@ -502,11 +502,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8267878",
-        "url": "https://www.ticketnetwork.com/en/p/8267878",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkftGkdhKud5",
@@ -524,6 +524,6 @@
         "end": "2026-11-16T17:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267878"
+    "ticketnetwork_url": ""
   }
 ]

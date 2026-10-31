@@ -124,18 +124,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8200525",
-        "url": "https://www.ticketnetwork.com/en/p/8200525",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_8m2P9Ef",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200525/Missio-tickets-Fri-Oct-30-2026-Voodoo-Room-at-House-of-Blues-San-Diego",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200525",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

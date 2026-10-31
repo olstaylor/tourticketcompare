@@ -270,11 +270,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7999839",
-        "url": "https://www.ticketnetwork.com/en/p/7999839",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5KbZ5Fl",
@@ -285,7 +285,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7999839"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-the-chicks-2026-hollywood-vvg10z_5ljdml9",

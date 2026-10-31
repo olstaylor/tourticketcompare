@@ -456,18 +456,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8062598",
-        "url": "https://www.ticketnetwork.com/en/p/8062598",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PIjY",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062598/Brand-New-tickets-Fri-Oct-30-2026-Texas-Trust-CU-Theatre-at-Grand-Prairie",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062598"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-brand-new-2026-denver-z7r9jz1a7ptjo",

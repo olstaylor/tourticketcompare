@@ -48,17 +48,17 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7843520",
-        "url": "https://www.ticketnetwork.com/en/p/7843520",
-        "verified": true,
-        "last_verified_at": "2026-10-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_6Gkm3nAew",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843520"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-billy-strings-2026-baltimore-1avfz_6gkmktg1d",

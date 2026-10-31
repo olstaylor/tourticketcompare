@@ -319,11 +319,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7961852",
-        "url": "https://www.ticketnetwork.com/en/p/7961852",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G61xOe95K",
@@ -335,7 +335,7 @@
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961852"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-katseye-2026-hamilton-177zv0g61i6mwwe",

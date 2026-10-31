@@ -3976,6 +3976,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8350368",
+        "url": "https://www.ticketnetwork.com/en/p/8350368",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KwVCQCl",
@@ -4026,7 +4033,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-08-16T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350368"
   },
   {
     "id": "tm-the-red-clay-strays-2027-huntsville-z7r9jz1aa7svn",

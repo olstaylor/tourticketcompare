@@ -282,6 +282,18 @@ function evaluateCandidate(event, candidate, eventLocalDateVal) {
   return { ok: reasons.length === 0, reasons, url: candidate?.normalizedUrl || "", sku: candidate?.sku ?? null, name: candidate?.name || "" };
 }
 
+// Vivid Seats lists a multi-night package ("Metallica - 2 Day Pass") as its own
+// production on the first night's date, next to that night's single listing
+// (Metallica's Sphere Thursdays, 2026-10-31 sync log). When a single-night
+// event ties with such passes and exactly one listing is not a pass, that
+// listing is the night. An event that is itself a pass keeps every candidate.
+const MULTI_DAY_PASS = /\b\d+[- ]?day pass\b/i;
+function withoutMultiDayPasses(event, candidates) {
+  if (candidates.length < 2 || MULTI_DAY_PASS.test(`${event?.event_name || ""} ${event?.name || ""}`)) return candidates;
+  const nights = candidates.filter((candidate) => !MULTI_DAY_PASS.test(candidate.name || ""));
+  return nights.length === 1 ? nights : candidates;
+}
+
 // Decide what to do for one event given the verification/discovery outcome.
 // Identical contract to verify-seatgeek-events.mjs's decideOutcome — pure so
 // the branch matrix is testable offline, and reused unmodified because the
@@ -724,6 +736,13 @@ function selfTest() {
   assert("failed stored URL + no candidates (complete catalog) clears", decideOutcome({ storedUrl: good.url, storedVerified: false, idCheck: bad, discovery: { candidates: [] } }).action === "clear");
   assert("no stored URL + one candidate adds", decideOutcome({ storedUrl: "", storedVerified: false, idCheck: null, discovery: { candidates: [good] } }).action === "add");
   assert("no stored URL + no candidates is none", decideOutcome({ storedUrl: "", storedVerified: false, idCheck: null, discovery: { candidates: [] } }).action === "none");
+  const nightOnly = { ...good, sku: 6742745, name: "Metallica" };
+  const pass = { ...good, sku: 6742741, name: "Metallica - 2 Day Pass" };
+  assert("a two-night pass gives way to the single night", withoutMultiDayPasses({ event_name: "Metallica: Life Burns Faster" }, [pass, nightOnly]).map((c) => c.sku).join() === "6742745");
+  assert("'2-Day Pass' spelling is a pass too", withoutMultiDayPasses({}, [{ ...pass, name: "Metallica - 2-Day Pass" }, nightOnly]).length === 1);
+  assert("an event that is itself a pass keeps both", withoutMultiDayPasses({ event_name: "2-DAY PASS: Blue October" }, [pass, nightOnly]).length === 2);
+  assert("two non-pass listings stay ambiguous", withoutMultiDayPasses({}, [nightOnly, { ...nightOnly, sku: 2 }]).length === 2);
+  assert("two passes and no night stay ambiguous", withoutMultiDayPasses({}, [pass, { ...pass, sku: 3 }]).length === 2);
   assert("ambiguous candidates conflict", decideOutcome({ storedUrl: "", storedVerified: false, idCheck: null, discovery: { candidates: [good, { ...good, sku: 2 }] } }).action === "conflict");
   assert("previously verified + gone unverifies", decideOutcome({ storedUrl: good.url, storedVerified: true, idCheck: bad, discovery: { candidates: [] } }).action === "unverify");
   assert("incomplete catalog (discovery null) never clears", decideOutcome({ storedUrl: good.url, storedVerified: false, idCheck: bad, discovery: null }).action === "none");
@@ -925,7 +944,7 @@ async function main() {
           }
         }
         if (passing.length > 0 || catalog.complete) {
-          discovery = { candidates: passing };
+          discovery = { candidates: withoutMultiDayPasses(event, passing) };
         }
         // else: catalog incomplete and zero matches — leave discovery null so
         // decideOutcome never clears/un-verifies on inconclusive absence.

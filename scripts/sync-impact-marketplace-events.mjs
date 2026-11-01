@@ -612,7 +612,7 @@ async function run(options, deps = {}) {
       // Name the listings an ambiguity is between, with the start times each
       // one states, so the log shows what a tie-break would have to tell apart.
       const tied = outcome.action === "conflict" ? (untimedPassing || passing) : [];
-      const candidates = tied.length ? tied.map((candidate) => `${candidate.externalId} @ ${candidate.localStartTimes?.length ? candidate.localStartTimes.join("/") : "no start time"}`) : null;
+      const candidates = tied.length ? tied.map((candidate) => `${candidate.externalId} @ ${candidate.localStartTimes?.length ? candidate.localStartTimes.join("/") : "no start time"}${candidate.name ? ` ("${candidate.name}")` : ""}`) : null;
       results.push({ event_id: event.id, artist: artistName, action: outcome.action, applied, url: outcome.candidate?.url || storedUrl || "", external_id: outcome.candidate?.externalId || storedId || "", catalog_complete: catalog.complete, stop_reason: catalog.stopReason || "", note, ...(ambiguousListing ? { ambiguous_listing: true } : {}), ...(candidates ? { candidates } : {}) });
     }
   }
@@ -930,8 +930,8 @@ async function selfTest() {
   const missingStartReport = await runWith("ticketnetwork", [matinee], [second, noTime]);
   assert.equal(missingStartReport.results[0].note, "ambiguous: missing or conflicting performance start evidence");
   assert.equal(missingStartReport.results[0].ambiguous_listing, undefined, "start evidence is distinct from cross-performance reuse");
-  assert.deepEqual(missingStartReport.results[0].candidates, [`${second.externalId} @ 2027-03-05T19:30`, `${noTime.externalId} @ no start time`], "a conflict names the listings it is between");
-  assert.match(renderLog(missingStartReport), /performance start evidence; candidates: 9000002 @ 2027-03-05T19:30, tn-1 @ no start time \|/);
+  assert.deepEqual(missingStartReport.results[0].candidates, [`${second.externalId} @ 2027-03-05T19:30 ("Stadium Act")`, `${noTime.externalId} @ no start time ("Stadium Act")`], "a conflict names the listings it is between");
+  assert.match(renderLog(missingStartReport), /performance start evidence; candidates: 9000002 @ 2027-03-05T19:30 \("Stadium Act"\), tn-1 @ no start time \("Stadium Act"\) \|/);
   // Ticket Liquidator shares TicketNetwork's listing ids but has no start times.
   // A verified TicketNetwork id on the event picks the one tied listing it names.
   const tlSingle = { ...noTime, externalId: "7775510", normalizedUrl: "https://www.ticketliquidator.com/tickets/7775510" };

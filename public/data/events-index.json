@@ -58818,5 +58818,29 @@
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-u2-2027-london-1adfz_4qdzvzd55v",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "Tottenham Hotspur Stadium",
+    "datetime_iso": "2027-06-18T16:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-u2-2027-london-1adfz_4gkszafjm",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "Tottenham Hotspur Stadium",
+    "datetime_iso": "2027-06-19T16:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

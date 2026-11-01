@@ -893,12 +893,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8350153",
+        "url": "https://www.ticketliquidator.com/tickets/8350153/Sam-Fender-tickets-Thu-Sep-2-2027-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_4GklV3o2E",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:30:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350153"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350153",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8350153/Sam-Fender-tickets-Thu-Sep-2-2027-Wembley-Stadium"
   }
 ]

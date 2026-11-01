@@ -1300,11 +1300,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7756935",
-        "url": "https://www.ticketliquidator.com/tickets/7756935/The-Psychedelic-Furs-tickets-Fri-Oct-30-2026-Uptown-Theatre-Napa",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_AulUJn5",
@@ -1312,7 +1312,7 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756935/The-Psychedelic-Furs-tickets-Fri-Oct-30-2026-Uptown-Theatre-Napa"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-the-psychedelic-furs-2026-menlo-park-z7r9jz1a7p90y",

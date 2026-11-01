@@ -60,13 +60,21 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8311023",
+        "url": "https://www.ticketliquidator.com/tickets/8311023/Phish-tickets-Wed-Dec-30-2026-Madison-Square-Garden",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KV3gvWH",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311023",
-    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199"
+    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311023/Phish-tickets-Wed-Dec-30-2026-Madison-Square-Garden"
   },
   {
     "id": "tm-phish-2027-new-york-g5diz_kv3mvxa",

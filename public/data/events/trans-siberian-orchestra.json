@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255032",
+        "url": "https://www.ticketliquidator.com/tickets/8255032/Trans-Siberian-Orchestra-tickets-Thu-Nov-19-2026-Resch-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvxjs",
@@ -61,7 +68,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255032"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255032",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255032/Trans-Siberian-Orchestra-tickets-Thu-Nov-19-2026-Resch-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-council-bluffs-vv17bz_8gkr7r5-j",
@@ -198,6 +206,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255035",
+        "url": "https://www.ticketliquidator.com/tickets/8255035/Trans-Siberian-Orchestra-tickets-Sat-Nov-21-2026-Heritage-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkffGkdGgXqT",
@@ -218,7 +233,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255035"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255035",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255035/Trans-Siberian-Orchestra-tickets-Sat-Nov-21-2026-Heritage-Bank-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-denver-g5vzz_o66yljp",
@@ -274,6 +290,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255039",
+        "url": "https://www.ticketliquidator.com/tickets/8255039/Trans-Siberian-Orchestra-tickets-Sat-Nov-21-2026-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_o66YlJp",
@@ -294,7 +317,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255039"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255039",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255039/Trans-Siberian-Orchestra-tickets-Sat-Nov-21-2026-Ball-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-youngstown-vv1aazkfagkd2zwpt",
@@ -350,6 +374,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255040",
+        "url": "https://www.ticketliquidator.com/tickets/8255040/Trans-Siberian-Orchestra-tickets-Sun-Nov-22-2026-Covelli-Centre-Youngstown",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfAGkd2ZwpT",
@@ -370,7 +401,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255040"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255040",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255040/Trans-Siberian-Orchestra-tickets-Sun-Nov-22-2026-Covelli-Centre-Youngstown"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-salt-lake-city-z7r9jz1aavpc_",
@@ -426,12 +458,20 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255044",
+        "url": "https://www.ticketliquidator.com/tickets/8255044/Trans-Siberian-Orchestra-tickets-Tue-Nov-24-2026-Delta-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvpC_",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255044"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255044",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255044/Trans-Siberian-Orchestra-tickets-Tue-Nov-24-2026-Delta-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-wilkes-barre-vv17fz_8gku2vdcc",
@@ -568,6 +608,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255047",
+        "url": "https://www.ticketliquidator.com/tickets/8255047/Trans-Siberian-Orchestra-tickets-Fri-Nov-27-2026-SNHU-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkffGkecCONl",
@@ -588,7 +635,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255047"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255047",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255047/Trans-Siberian-Orchestra-tickets-Fri-Nov-27-2026-SNHU-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-boise-g5vzz_8l3-m4c",
@@ -722,6 +770,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255052",
+        "url": "https://www.ticketliquidator.com/tickets/8255052/Trans-Siberian-Orchestra-tickets-Sat-Nov-28-2026-DCU-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkf7Gkd6__C-",
@@ -737,7 +792,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255052"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255052",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255052/Trans-Siberian-Orchestra-tickets-Sat-Nov-28-2026-DCU-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-portland-vvg1hz_8rkn5r8",
@@ -793,6 +849,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255054",
+        "url": "https://www.ticketliquidator.com/tickets/8255054/Trans-Siberian-Orchestra-tickets-Sat-Nov-28-2026-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_8RKn5r8",
@@ -818,7 +881,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255054"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255054",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255054/Trans-Siberian-Orchestra-tickets-Sat-Nov-28-2026-Moda-Center-at-the-Rose-Quarter"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-uncasville-g5vvz_8ebyjdo",
@@ -874,6 +938,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255056",
+        "url": "https://www.ticketliquidator.com/tickets/8255056/Trans-Siberian-Orchestra-tickets-Sun-Nov-29-2026-Mohegan-Sun-Arena-CT",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_8EBYJDo",
@@ -886,7 +957,8 @@
         "end": "2026-11-02T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255056"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255056",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255056/Trans-Siberian-Orchestra-tickets-Sun-Nov-29-2026-Mohegan-Sun-Arena-CT"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-seattle-vvg1hz_8bxdfpp",
@@ -942,6 +1014,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255058",
+        "url": "https://www.ticketliquidator.com/tickets/8255058/Trans-Siberian-Orchestra-tickets-Sun-Nov-29-2026-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_8BxDFPp",
@@ -967,7 +1046,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255058"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255058",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255058/Trans-Siberian-Orchestra-tickets-Sun-Nov-29-2026-Climate-Pledge-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-sacramento-g5vyz_8hivhsq",
@@ -1023,6 +1103,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255061",
+        "url": "https://www.ticketliquidator.com/tickets/8255061/Trans-Siberian-Orchestra-tickets-Wed-Dec-2-2026-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_8hiVHsQ",
@@ -1043,7 +1130,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255061"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255061",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255061/Trans-Siberian-Orchestra-tickets-Wed-Dec-2-2026-Golden-1-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-nashville-g5viz_oinlsr4",
@@ -1376,6 +1464,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255065",
+        "url": "https://www.ticketliquidator.com/tickets/8255065/Trans-Siberian-Orchestra-tickets-Fri-Dec-4-2026-Huntington-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1keZvPv_GACwg13",
@@ -1396,7 +1491,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255065"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255065",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255065/Trans-Siberian-Orchestra-tickets-Fri-Dec-4-2026-Huntington-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-columbus-vv17fz_8gkuihkxu",
@@ -1452,6 +1548,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255068",
+        "url": "https://www.ticketliquidator.com/tickets/8255068/Trans-Siberian-Orchestra-tickets-Sat-Dec-5-2026-Nationwide-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_8GkUIhkxu",
@@ -1472,7 +1575,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255068"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255068",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255068/Trans-Siberian-Orchestra-tickets-Sat-Dec-5-2026-Nationwide-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-ontario-z7r9jz1aav08p",
@@ -1581,6 +1685,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255072",
+        "url": "https://www.ticketliquidator.com/tickets/8255072/Trans-Siberian-Orchestra-tickets-Sun-Dec-6-2026-Van-Andel-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_8GkSfQIpN",
@@ -1601,7 +1712,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255072"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255072",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255072/Trans-Siberian-Orchestra-tickets-Sun-Dec-6-2026-Van-Andel-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-phoenix-1av0z_8gks2uk5t",
@@ -1657,6 +1769,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255079",
+        "url": "https://www.ticketliquidator.com/tickets/8255079/Trans-Siberian-Orchestra-tickets-Sun-Dec-6-2026-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_8GkS2UK5T",
@@ -1677,7 +1796,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255079"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255079",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255079/Trans-Siberian-Orchestra-tickets-Sun-Dec-6-2026-Mortgage-Matchup-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-allentown-17gzv0g62dv8e6s",
@@ -2085,6 +2205,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8256376",
+        "url": "https://www.ticketliquidator.com/tickets/8256376/Trans-Siberian-Orchestra-tickets-Fri-Dec-11-2026-Bon-Secours-Wellness-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_o2S2Bkg",
@@ -2100,7 +2227,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256376"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256376",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8256376/Trans-Siberian-Orchestra-tickets-Fri-Dec-11-2026-Bon-Secours-Wellness-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-houston-z7r9jz1aavnas",
@@ -2156,6 +2284,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255087",
+        "url": "https://www.ticketliquidator.com/tickets/8255087/Trans-Siberian-Orchestra-tickets-Fri-Dec-11-2026-Toyota-Center-TX",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNAS",
@@ -2164,7 +2299,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255087"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255087",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255087/Trans-Siberian-Orchestra-tickets-Fri-Dec-11-2026-Toyota-Center-TX"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-charlotte-g5evz_o6l3kkc",
@@ -2220,6 +2356,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255089",
+        "url": "https://www.ticketliquidator.com/tickets/8255089/Trans-Siberian-Orchestra-tickets-Sat-Dec-12-2026-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_o6L3kKc",
@@ -2245,7 +2388,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255089"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255089",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255089/Trans-Siberian-Orchestra-tickets-Sat-Dec-12-2026-Spectrum-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-san-antonio-g5diz_8q4vky5",
@@ -2301,6 +2445,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255092",
+        "url": "https://www.ticketliquidator.com/tickets/8255092/Trans-Siberian-Orchestra-tickets-Sat-Dec-12-2026-Frost-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_8Q4vky5",
@@ -2321,7 +2472,8 @@
     "organizer_names": [
       "COMMUNITY ARENA MANAGEMENT"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255092"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255092",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255092/Trans-Siberian-Orchestra-tickets-Sat-Dec-12-2026-Frost-Bank-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-duluth-vvg1zz_8rk7fyq",
@@ -2377,6 +2529,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255093",
+        "url": "https://www.ticketliquidator.com/tickets/8255093/Trans-Siberian-Orchestra-tickets-Sun-Dec-13-2026-Gas-South-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_8rk7fYq",
@@ -2397,7 +2556,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255093"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255093",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255093/Trans-Siberian-Orchestra-tickets-Sun-Dec-13-2026-Gas-South-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-dallas-vvg1yz_8bgba0q",
@@ -2453,6 +2613,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255097",
+        "url": "https://www.ticketliquidator.com/tickets/8255097/Trans-Siberian-Orchestra-tickets-Sun-Dec-13-2026-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_8BGbA0q",
@@ -2478,7 +2645,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255097"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255097",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255097/Trans-Siberian-Orchestra-tickets-Sun-Dec-13-2026-American-Airlines-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-charlottesville-vv177z_ogksqlpte",
@@ -2881,6 +3049,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255105",
+        "url": "https://www.ticketliquidator.com/tickets/8255105/Trans-Siberian-Orchestra-tickets-Fri-Dec-18-2026-Giant-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AOvPkFGAu5bFb",
@@ -2911,7 +3086,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255105"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255105",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255105/Trans-Siberian-Orchestra-tickets-Fri-Dec-18-2026-Giant-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-sunrise-z7r9jz1aavnag",
@@ -3047,6 +3223,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255108",
+        "url": "https://www.ticketliquidator.com/tickets/8255108/Trans-Siberian-Orchestra-tickets-Sat-Dec-19-2026-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_8GkMASNhq",
@@ -3067,7 +3250,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255108"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255108",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255108/Trans-Siberian-Orchestra-tickets-Sat-Dec-19-2026-Kia-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-pittsburgh-1apzkfdgkej_ji6",
@@ -3123,6 +3307,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255109",
+        "url": "https://www.ticketliquidator.com/tickets/8255109/Trans-Siberian-Orchestra-tickets-Sat-Dec-19-2026-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfdGkeJ_JI6",
@@ -3138,7 +3329,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255109"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255109",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255109/Trans-Siberian-Orchestra-tickets-Sat-Dec-19-2026-PPG-Paints-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-philadelphia-1adzz_8gkbpbarl",
@@ -3194,6 +3386,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255113",
+        "url": "https://www.ticketliquidator.com/tickets/8255113/Trans-Siberian-Orchestra-tickets-Sun-Dec-20-2026-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_8GkBPbARL",
@@ -3219,7 +3418,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255113"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255113",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255113/Trans-Siberian-Orchestra-tickets-Sun-Dec-20-2026-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-tampa-vvg1vz_oku2sug",
@@ -3275,6 +3475,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255112",
+        "url": "https://www.ticketliquidator.com/tickets/8255112/Trans-Siberian-Orchestra-tickets-Sun-Dec-20-2026-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_oku2SUG",
@@ -3300,7 +3507,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255112"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255112",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255112/Trans-Siberian-Orchestra-tickets-Sun-Dec-20-2026-Benchmark-International-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-cleveland-z7r9jz1aavx-d",
@@ -3356,6 +3564,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255116",
+        "url": "https://www.ticketliquidator.com/tickets/8255116/Trans-Siberian-Orchestra-tickets-Tue-Dec-22-2026-Rocket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvx-d",
@@ -3364,7 +3579,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255116"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255116",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255116/Trans-Siberian-Orchestra-tickets-Tue-Dec-22-2026-Rocket-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-indianapolis-vv17fz_8gkiwqjq1",
@@ -3420,6 +3636,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255117",
+        "url": "https://www.ticketliquidator.com/tickets/8255117/Trans-Siberian-Orchestra-tickets-Tue-Dec-22-2026-Gainbridge-Fieldhouse",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_8GkiwQjQ1",
@@ -3440,7 +3663,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255117"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255117",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255117/Trans-Siberian-Orchestra-tickets-Tue-Dec-22-2026-Gainbridge-Fieldhouse"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-detroit-vv17oz_8gkyvghou",
@@ -3496,6 +3720,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255120",
+        "url": "https://www.ticketliquidator.com/tickets/8255120/Trans-Siberian-Orchestra-tickets-Wed-Dec-23-2026-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_8GkYvghOu",
@@ -3521,7 +3752,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255120"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255120",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255120/Trans-Siberian-Orchestra-tickets-Wed-Dec-23-2026-Little-Caesars-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-rosemont-vv1a7zkffgkdsxaxx",
@@ -3577,6 +3809,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255121",
+        "url": "https://www.ticketliquidator.com/tickets/8255121/Trans-Siberian-Orchestra-tickets-Wed-Dec-23-2026-Allstate-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkffGkdsxaxx",
@@ -3607,7 +3846,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255121"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255121",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255121/Trans-Siberian-Orchestra-tickets-Wed-Dec-23-2026-Allstate-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-newark-vv1aezkf_gkdmwuvf",
@@ -3663,6 +3903,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255124",
+        "url": "https://www.ticketliquidator.com/tickets/8255124/Trans-Siberian-Orchestra-tickets-Sat-Dec-26-2026-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkf_GkdMWuvf",
@@ -3675,7 +3922,8 @@
         "end": "2026-11-29T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255124"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255124",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255124/Trans-Siberian-Orchestra-tickets-Sat-Dec-26-2026-Prudential-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-milwaukee-vv1a6zkfogkdqpudv",
@@ -3731,6 +3979,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255125",
+        "url": "https://www.ticketliquidator.com/tickets/8255125/Trans-Siberian-Orchestra-tickets-Sat-Dec-26-2026-Fiserv-Forum",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfoGkdQpUdv",
@@ -3752,7 +4007,8 @@
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255125"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255125",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255125/Trans-Siberian-Orchestra-tickets-Sat-Dec-26-2026-Fiserv-Forum"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-washington-17a8v0g62bwqi08",
@@ -3808,6 +4064,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255128",
+        "url": "https://www.ticketliquidator.com/tickets/8255128/Trans-Siberian-Orchestra-tickets-Sun-Dec-27-2026-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G62bwQi08",
@@ -3833,7 +4096,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255128"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255128",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255128/Trans-Siberian-Orchestra-tickets-Sun-Dec-27-2026-Capital-One-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-minneapolis-vv1akzkfbgkelyd6x",
@@ -3889,6 +4153,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255130",
+        "url": "https://www.ticketliquidator.com/tickets/8255130/Trans-Siberian-Orchestra-tickets-Sun-Dec-27-2026-Target-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfbGkelyD6X",
@@ -3914,7 +4185,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255130"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255130",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255130/Trans-Siberian-Orchestra-tickets-Sun-Dec-27-2026-Target-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-colorado-springs-z7r9jz1aavnz9",
@@ -3970,6 +4242,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255043",
+        "url": "https://www.ticketliquidator.com/tickets/8255043/Trans-Siberian-Orchestra-tickets-Sun-Nov-22-2026-Broadmoor-World-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNZ9",
@@ -3978,7 +4257,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255043"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255043",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255043/Trans-Siberian-Orchestra-tickets-Sun-Nov-22-2026-Broadmoor-World-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-las-vegas-z7r9jz1aavnzs",
@@ -4173,6 +4453,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255134",
+        "url": "https://www.ticketliquidator.com/tickets/8255134/Trans-Siberian-Orchestra-tickets-Tue-Dec-29-2026-T-Mobile-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPkbGACwdwU",
@@ -4203,7 +4490,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255134"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255134",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255134/Trans-Siberian-Orchestra-tickets-Tue-Dec-29-2026-T-Mobile-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-buffalo-k7vgf_okhdtog",
@@ -4259,6 +4547,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255136",
+        "url": "https://www.ticketliquidator.com/tickets/8255136/Trans-Siberian-Orchestra-tickets-Wed-Dec-30-2026-KeyBank-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_oKhDTOG",
@@ -4271,7 +4566,8 @@
         "end": "2026-12-03T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255136"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255136",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255136/Trans-Siberian-Orchestra-tickets-Wed-Dec-30-2026-KeyBank-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-saint-louis-vv1akzkfbgkdrsdgs",

@@ -616,7 +616,7 @@
     "ticketmaster_event_id": "3E00653C94F332DE",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/erasure-brighton-11-05-2027/event/3E00653C94F332DE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/erasure-tickets-brighton-brighton-centre-5-11-2027/production/7632463",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/erasure-brighton-11-05-2027/event/3E00653C94F332DE",
     "last_verified_at": "2026-11-01",
@@ -638,11 +638,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7632463,
+        "url": "https://www.vividseats.com/erasure-tickets-brighton-brighton-centre-5-11-2027/production/7632463",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

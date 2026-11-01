@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0A00654FBCA580AF",
     "ticketmaster_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-14-2026/event/0A00654FBCA580AF",
     "seatgeek_url": "https://seatgeek.com/daniel-caesar-tickets/honolulu-hawaii-neal-s-blaisdell-arena-2026-11-14-8-pm/concert/18692471",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/daniel-caesar-tickets-honolulu-neal-s-blaisdell-arena-11-14-2026/production/7715194",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-14-2026/event/0A00654FBCA580AF",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7715194,
+        "url": "https://www.vividseats.com/daniel-caesar-tickets-honolulu-neal-s-blaisdell-arena-11-14-2026/production/7715194",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "0A00654FBCAA80B2",
     "ticketmaster_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-15-2026/event/0A00654FBCAA80B2",
     "seatgeek_url": "https://seatgeek.com/daniel-caesar-tickets/honolulu-hawaii-neal-s-blaisdell-arena-2026-11-15-8-pm/concert/18700620",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/daniel-caesar-tickets-honolulu-neal-s-blaisdell-arena-11-15-2026--concerts-rap-hip-hop/production/7724762",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-15-2026/event/0A00654FBCAA80B2",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7724762,
+        "url": "https://www.vividseats.com/daniel-caesar-tickets-honolulu-neal-s-blaisdell-arena-11-15-2026--concerts-rap-hip-hop/production/7724762",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -901,7 +901,7 @@
     "ticketmaster_event_id": "1B00651A8B1175A0",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-19-2027/event/1B00651A8B1175A0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-nashville-bridgestone-arena-2-19-2027--concerts-country-and-folk/production/7490213",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-19-2027/event/1B00651A8B1175A0",
     "last_verified_at": null,
@@ -923,11 +923,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7490213,
+        "url": "https://www.vividseats.com/billy-strings-tickets-nashville-bridgestone-arena-2-19-2027--concerts-country-and-folk/production/7490213",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

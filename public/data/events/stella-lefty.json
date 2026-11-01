@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70E4E",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E4E",
     "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/west-hollywood-california-troubadour-2026-11-01-7-pm/concert/18253662",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-west-hollywood-troubadour---west-hollywood-11-1-2026--concerts-pop/production/7047592",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E4E",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7047592,
+        "url": "https://www.vividseats.com/stella-lefty-tickets-west-hollywood-troubadour---west-hollywood-11-1-2026--concerts-pop/production/7047592",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -369,7 +369,7 @@
         "event_id": 7047351,
         "url": "https://www.vividseats.com/stella-lefty-tickets-houston-the-bronze-peacock-at-house-of-blues-houston-11-7-2026/production/7047351",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -761,7 +761,7 @@
         "event_id": 7047300,
         "url": "https://www.vividseats.com/stella-lefty-tickets-washington-the-atlantis-11-19-2026/production/7047300",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "stubhub": {

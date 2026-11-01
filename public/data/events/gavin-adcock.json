@@ -278,7 +278,7 @@
     "ticketmaster_event_id": "0D00646981D54771",
     "ticketmaster_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-estero-florida-10-31-2026/event/0D00646981D54771",
     "seatgeek_url": "https://seatgeek.com/gavin-adcock-tickets/estero-florida-hertz-arena-2026-10-31-8-pm/concert/18126382",
-    "vividseats_url": "https://www.vividseats.com/gavin-adcock-tickets-estero-hertz-arena-10-31-2026--concerts-country-and-folk/production/6789023",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gavin-adcock-the-day-i-hang-estero-florida-10-31-2026/event/0D00646981D54771",
     "last_verified_at": "2026-10-25",
@@ -300,11 +300,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6789023,
-        "url": "https://www.vividseats.com/gavin-adcock-tickets-estero-hertz-arena-10-31-2026--concerts-country-and-folk/production/6789023",
-        "verified": true,
-        "last_verified_at": "2026-10-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -375,7 +375,7 @@
         "event_id": 6789025,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-boston-mgm-music-hall-at-fenway-11-6-2026--concerts-country-and-folk/production/6789025",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -564,7 +564,7 @@
         "event_id": 6789048,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-grand-rapids-van-andel-arena-11-14-2026--concerts-country-and-folk/production/6789048",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -689,7 +689,7 @@
         "event_id": 6976694,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-las-vegas-the-theater-at-virgin-hotels-las-vegas-12-10-2026/production/6976694",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -758,7 +758,7 @@
         "event_id": 7688256,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-lexington-commonspirit-health-stage-at-gatton-park-4-1-2027--concerts-country-and-folk/production/7688256",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1033,7 +1033,7 @@
         "event_id": 7688278,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-salem-salem-civic-center-4-29-2027/production/7688278",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1165,7 +1165,7 @@
         "event_id": 7688335,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-oklahoma-city-okc-zoo-amphitheatre-5-7-2027--concerts-country-and-folk/production/7688335",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1218,7 +1218,7 @@
         "event_id": 7688229,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-houston-the-lawn-at-white-oak-music-hall-5-8-2027/production/7688229",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1302,7 +1302,7 @@
         "event_id": 7691232,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-richmond-virginia-credit-union-live-at-richmond-raceway-5-13-2027/production/7691232",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1371,7 +1371,7 @@
         "event_id": 7688058,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-5-14-2027/production/7688058",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1447,7 +1447,7 @@
         "event_id": 7688530,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-baltimore-pier-six-pavilion-5-15-2027/production/7688530",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "stubhub": {

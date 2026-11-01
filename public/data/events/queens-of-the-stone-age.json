@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "0900655402A265F4",
     "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-inglewood-california-05-02-2027/event/0900655402A265F4",
     "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/inglewood-california-kia-forum-2027-05-02-6-30-pm/concert/18709211",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-inglewood-kia-forum-5-2-2027--concerts-rock/production/7744650",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-inglewood-california-05-02-2027/event/0900655402A265F4",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7744650,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-inglewood-kia-forum-5-2-2027--concerts-rock/production/7744650",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "1C006554C4B298D6",
     "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-oakland-california-05-04-2027/event/1C006554C4B298D6",
     "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/oakland-california-oakland-arena-2027-05-04-6-30-pm/concert/18709212",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-oakland-oakland-arena-5-4-2027--concerts-rock/production/7744654",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-oakland-california-05-04-2027/event/1C006554C4B298D6",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7744654,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-oakland-oakland-arena-5-4-2027--concerts-rock/production/7744654",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "1C00655589B18B27",
     "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-sacramento-california-05-05-2027/event/1C00655589B18B27",
     "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/sacramento-california-golden-1-center-2027-05-05-6-30-pm/concert/18709213",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-sacramento-golden-1-center-5-5-2027--concerts-rock/production/7744656",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-sacramento-california-05-05-2027/event/1C00655589B18B27",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7744656,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-sacramento-golden-1-center-5-5-2027--concerts-rock/production/7744656",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "0F006554AA2D7170",
     "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-seattle-washington-05-07-2027/event/0F006554AA2D7170",
     "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/seattle-washington-climate-pledge-arena-2027-05-07-6-30-pm/concert/18709214",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-seattle-climate-pledge-arena-5-7-2027--concerts-rock/production/7744658",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-seattle-washington-05-07-2027/event/0F006554AA2D7170",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7744658,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-seattle-climate-pledge-arena-5-7-2027--concerts-rock/production/7744658",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "0F006553C0E284CF",
     "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-portland-oregon-05-09-2027/event/0F006553C0E284CF",
     "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/portland-oregon-moda-center-2027-05-09-6-30-pm/concert/18709215",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-portland-moda-center-5-9-2027--concerts-rock/production/7744663",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-portland-oregon-05-09-2027/event/0F006553C0E284CF",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7744663,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-portland-moda-center-5-9-2027--concerts-rock/production/7744663",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7-1Z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1Z",
     "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/salt-lake-city-utah-delta-center-1-2027-05-11-6-30-pm/concert/18475187",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-salt-lake-city-delta-center-5-11-2027--concerts-rock/production/7744672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1Z",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7744672,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-salt-lake-city-delta-center-5-11-2027--concerts-rock/production/7744672",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7NqM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NqM",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-morrison-red-rocks-amphitheatre-5-12-2027--concerts-rock/production/7732383",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NqM",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7732383,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-morrison-red-rocks-amphitheatre-5-12-2027--concerts-rock/production/7732383",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7-1v",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1v",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-saint-paul-grand-casino-arena-5-14-2027--concerts-rock/production/7744676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1v",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7744676,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-saint-paul-grand-casino-arena-5-14-2027--concerts-rock/production/7744676",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "040065539EE6427C",
     "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-rosemont-illinois-05-16-2027/event/040065539EE6427C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-rosemont-allstate-arena-5-16-2027--concerts-rock/production/7744680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-rosemont-illinois-05-16-2027/event/040065539EE6427C",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7744680,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-rosemont-allstate-arena-5-16-2027--concerts-rock/production/7744680",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "05006554CF98A7FD",
     "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-indianapolis-indiana-05-18-2027/event/05006554CF98A7FD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-indianapolis-gainbridge-fieldhouse-5-18-2027--concerts-rock/production/7744718",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-indianapolis-indiana-05-18-2027/event/05006554CF98A7FD",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7744718,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-indianapolis-gainbridge-fieldhouse-5-18-2027--concerts-rock/production/7744718",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "050065549EDC4B2C",
     "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-columbus-ohio-05-19-2027/event/050065549EDC4B2C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-columbus-nationwide-arena-5-19-2027--concerts-rock/production/7744724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-columbus-ohio-05-19-2027/event/050065549EDC4B2C",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7744724,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-columbus-nationwide-arena-5-19-2027--concerts-rock/production/7744724",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "16006555BBB184E5",
     "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-pittsburgh-pennsylvania-05-21-2027/event/16006555BBB184E5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-pittsburgh-petersen-events-center-5-21-2027--concerts-rock/production/7744728",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-pittsburgh-pennsylvania-05-21-2027/event/16006555BBB184E5",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7744728,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-pittsburgh-petersen-events-center-5-21-2027--concerts-rock/production/7744728",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "080065559CA03C03",
     "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-detroit-michigan-05-22-2027/event/080065559CA03C03",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-detroit-little-caesars-arena-5-22-2027--concerts-rock/production/7744734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-detroit-michigan-05-22-2027/event/080065559CA03C03",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7744734,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-detroit-little-caesars-arena-5-22-2027--concerts-rock/production/7744734",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +966,7 @@
     "ticketmaster_event_id": "01006552F1C61FAB",
     "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-boston-massachusetts-05-24-2027/event/01006552F1C61FAB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-boston-td-garden-5-24-2027--concerts-rock/production/7744736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-boston-massachusetts-05-24-2027/event/01006552F1C61FAB",
     "last_verified_at": null,
@@ -988,11 +988,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7744736,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-boston-td-garden-5-24-2027--concerts-rock/production/7744736",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

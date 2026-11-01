@@ -271,7 +271,7 @@
     "ticketmaster_event_id": "0A006550C6E493B7",
     "ticketmaster_url": "https://www.ticketmaster.com/interpol-san-diego-california-12-11-2026/event/0A006550C6E493B7",
     "seatgeek_url": "https://seatgeek.com/interpol-tickets/san-diego-california-soma-san-diego-2026-12-11-8-pm/concert/18700629",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/interpol-tickets-san-diego-soma-12-11-2026/production/7722601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-san-diego-california-12-11-2026/event/0A006550C6E493B7",
     "last_verified_at": "2026-11-01",
@@ -293,11 +293,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7722601,
+        "url": "https://www.vividseats.com/interpol-tickets-san-diego-soma-12-11-2026/production/7722601",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "1D00647A9EA3547F",
     "ticketmaster_url": "https://www.ticketmaster.com/metallica-uncasville-connecticut-11-19-2026/event/1D00647A9EA3547F",
     "seatgeek_url": "https://seatgeek.com/metallica-tickets/uncasville-connecticut-mohegan-sun-arena-2026-11-19-8-pm/concert/18164315",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/metallica-tickets-uncasville-mohegan-sun-arena-ct-11-19-2026--concerts-hard-rock/production/6872632",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-uncasville-connecticut-11-19-2026/event/1D00647A9EA3547F",
     "last_verified_at": "2026-10-27",
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6872632,
+        "url": "https://www.vividseats.com/metallica-tickets-uncasville-mohegan-sun-arena-ct-11-19-2026--concerts-hard-rock/production/6872632",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -150,7 +150,7 @@
     "ticketmaster_event_id": "170064619015BB05",
     "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-01-28-2027/event/170064619015BB05",
     "seatgeek_url": "https://seatgeek.com/metallica-tickets/las-vegas-nevada-sphere-2027-01-28-8-30-pm/concert/18103479",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-1-28-2027--concerts-hard-rock/production/6742763",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-01-28-2027/event/170064619015BB05",
     "last_verified_at": "2026-10-15",
@@ -172,11 +172,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6742763,
+        "url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-1-28-2027--concerts-hard-rock/production/6742763",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -316,7 +316,7 @@
     "ticketmaster_event_id": "17006461A4E6DFE4",
     "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-04-2027/event/17006461A4E6DFE4",
     "seatgeek_url": "https://seatgeek.com/metallica-tickets/las-vegas-nevada-sphere-2027-02-04-8-30-pm/concert/18108442",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-2-4-2027/production/6754180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-04-2027/event/17006461A4E6DFE4",
     "last_verified_at": "2026-10-15",
@@ -338,11 +338,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6754180,
+        "url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-2-4-2027/production/6754180",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -482,7 +482,7 @@
     "ticketmaster_event_id": "17006461A4E7DFEA",
     "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-18-2027/event/17006461A4E7DFEA",
     "seatgeek_url": "https://seatgeek.com/metallica-tickets/las-vegas-nevada-sphere-2027-02-18-8-30-pm/concert/18108446",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-2-18-2027/production/6754699",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-18-2027/event/17006461A4E7DFEA",
     "last_verified_at": "2026-10-15",
@@ -504,11 +504,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6754699,
+        "url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-2-18-2027/production/6754699",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "17006461A4E8DFEC",
     "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-25-2027/event/17006461A4E8DFEC",
     "seatgeek_url": "https://seatgeek.com/metallica-tickets/las-vegas-nevada-sphere-2027-02-25-8-30-pm/concert/18108450",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-2-25-2027/production/6754223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-25-2027/event/17006461A4E8DFEC",
     "last_verified_at": "2026-10-15",
@@ -670,11 +670,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6754223,
+        "url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-2-25-2027/production/6754223",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2508,7 +2508,7 @@
     "ticketmaster_event_id": "170064550782E86E",
     "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-05-2026/event/170064550782E86E",
     "seatgeek_url": "https://seatgeek.com/metallica-tickets/las-vegas-nevada-sphere-2026-11-05-8-30-pm/concert/18103476",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-11-5-2026/production/6742745",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-05-2026/event/170064550782E86E",
     "last_verified_at": "2026-11-01",
@@ -2530,11 +2530,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6742745,
+        "url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-11-5-2026/production/6742745",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2747,7 +2747,7 @@
     "ticketmaster_event_id": "17006461A4E8DFF6",
     "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-04-2027/event/17006461A4E8DFF6",
     "seatgeek_url": "https://seatgeek.com/metallica-tickets/las-vegas-nevada-sphere-2027-03-04-8-30-pm/concert/18111112",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-3-4-2027--concerts-hard-rock/production/6755433",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-04-2027/event/17006461A4E8DFF6",
     "last_verified_at": "2026-10-15",
@@ -2769,11 +2769,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6755433,
+        "url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-3-4-2027--concerts-hard-rock/production/6755433",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2913,7 +2913,7 @@
     "ticketmaster_event_id": "17006461A4E9DFF8",
     "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-11-2027/event/17006461A4E9DFF8",
     "seatgeek_url": "https://seatgeek.com/metallica-tickets/las-vegas-nevada-sphere-2027-03-11-8-30-pm/concert/18111116",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-3-11-2027--concerts-hard-rock/production/6755438",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-11-2027/event/17006461A4E9DFF8",
     "last_verified_at": "2026-10-15",
@@ -2935,11 +2935,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6755438,
+        "url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-3-11-2027--concerts-hard-rock/production/6755438",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

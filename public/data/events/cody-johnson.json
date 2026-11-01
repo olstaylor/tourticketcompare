@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "36006436C8845A01",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/cody-johnson-glasgow-02-11-2026/event/36006436C8845A01",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-glasgow-ovo-hydro-11-2-2026--concerts-country-and-folk/production/6646043",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/cody-johnson-glasgow-02-11-2026/event/36006436C8845A01",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6646043,
+        "url": "https://www.vividseats.com/cody-johnson-tickets-glasgow-ovo-hydro-11-2-2026--concerts-country-and-folk/production/6646043",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "3A006554B3FBC02A",
     "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-austin-texas-02-19-2027/event/3A006554B3FBC02A",
     "seatgeek_url": "https://seatgeek.com/cody-johnson-tickets/austin-texas-moody-center-atx-2027-02-19-7-pm/concert/18710054",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-austin-moody-center-atx-2-19-2027--concerts-country-and-folk/production/7745720",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-austin-texas-02-19-2027/event/3A006554B3FBC02A",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7745720,
+        "url": "https://www.vividseats.com/cody-johnson-tickets-austin-moody-center-atx-2-19-2027--concerts-country-and-folk/production/7745720",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "3A006551E27088BC",
     "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-austin-texas-02-20-2027/event/3A006551E27088BC",
     "seatgeek_url": "https://seatgeek.com/cody-johnson-tickets/austin-texas-moody-center-atx-2027-02-20-7-pm/concert/18701505",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-austin-moody-center-atx-2-20-2027--concerts-country-and-folk/production/7721395",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-austin-texas-02-20-2027/event/3A006551E27088BC",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7721395,
+        "url": "https://www.vividseats.com/cody-johnson-tickets-austin-moody-center-atx-2-20-2027--concerts-country-and-folk/production/7721395",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

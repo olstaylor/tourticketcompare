@@ -704,7 +704,7 @@
     "ticketmaster_event_id": "3500655683001AA0",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-18-06-2027/event/3500655683001AA0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-18-2027--concerts-rock/production/7772985",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-18-06-2027/event/3500655683001AA0",
     "last_verified_at": null,
@@ -726,11 +726,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7772985,
+        "url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-18-2027--concerts-rock/production/7772985",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -758,7 +758,7 @@
     "ticketmaster_event_id": "3500655CC0148737",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-19-06-2027/event/3500655CC0148737",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-19-2027--concerts-rock/production/7772989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-19-06-2027/event/3500655CC0148737",
     "last_verified_at": null,
@@ -780,11 +780,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7772989,
+        "url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-19-2027--concerts-rock/production/7772989",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

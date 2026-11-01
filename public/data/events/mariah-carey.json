@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "23006531F4B02471",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-birmingham-27-11-2026/event/23006531F4B02471",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-birmingham-utilita-arena-birmingham-11-27-2026/production/7587257",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-birmingham-27-11-2026/event/23006531F4B02471",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587257,
+        "url": "https://www.vividseats.com/mariah-carey-tickets-birmingham-utilita-arena-birmingham-11-27-2026/production/7587257",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "35006531F8C37B87",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-london-30-11-2026/event/35006531F8C37B87",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-london-the-o2---london-11-30-2026/production/7587213",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-london-30-11-2026/event/35006531F8C37B87",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587213,
+        "url": "https://www.vividseats.com/mariah-carey-tickets-london-the-o2---london-11-30-2026/production/7587213",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "37006531A6EF24D4",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-manchester-02-12-2026/event/37006531A6EF24D4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-manchester-co-op-live-12-2-2026/production/7587211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-manchester-02-12-2026/event/37006531A6EF24D4",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7587211,
+        "url": "https://www.vividseats.com/mariah-carey-tickets-manchester-co-op-live-12-2-2026/production/7587211",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

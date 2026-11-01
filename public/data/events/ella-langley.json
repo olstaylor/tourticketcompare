@@ -169,7 +169,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PPo7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPo7",
     "seatgeek_url": "https://seatgeek.com/ella-langley-tickets/saint-paul-minnesota-grand-casino-arena-2026-10-31-7-pm/concert/18325137",
-    "vividseats_url": "https://www.vividseats.com/ella-langley-tickets-saint-paul-grand-casino-arena-10-31-2026--concerts-rock/production/7199177",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PPo7",
     "last_verified_at": null,
@@ -191,11 +191,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7199177,
-        "url": "https://www.vividseats.com/ella-langley-tickets-saint-paul-grand-casino-arena-10-31-2026--concerts-rock/production/7199177",
-        "verified": true,
-        "last_verified_at": "2026-10-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

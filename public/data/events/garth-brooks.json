@@ -509,7 +509,7 @@
         "event_id": 7748436,
         "url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-12-2026--concerts-country-and-folk/production/7748436",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -621,7 +621,7 @@
     "ticketmaster_event_id": "1000655BC241CB77",
     "ticketmaster_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-05-2026/event/1000655BC241CB77",
     "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-05-8-pm/concert/18726837",
-    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-5-2026--concerts-country-and-folk/production/7767695",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-05-2026/event/1000655BC241CB77",
     "last_verified_at": "2026-11-01",
@@ -643,11 +643,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7767695,
-        "url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-5-2026--concerts-country-and-folk/production/7767695",
-        "verified": true,
-        "last_verified_at": "2026-10-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

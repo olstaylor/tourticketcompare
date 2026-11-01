@@ -698,7 +698,7 @@
     "ticketmaster_event_id": "0F006459EB45A052",
     "ticketmaster_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-seattle-washington-10-31-2026/event/0F006459EB45A052",
     "seatgeek_url": "https://seatgeek.com/gorillaz-tickets/seattle-washington-climate-pledge-arena-2026-10-31-7-30-pm/concert/18102856",
-    "vividseats_url": "https://www.vividseats.com/gorillaz-tickets-seattle-climate-pledge-arena-10-31-2026--concerts-alternative/production/6739888",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-seattle-washington-10-31-2026/event/0F006459EB45A052",
     "last_verified_at": "2026-10-16",
@@ -720,11 +720,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6739888,
-        "url": "https://www.vividseats.com/gorillaz-tickets-seattle-climate-pledge-arena-10-31-2026--concerts-alternative/production/6739888",
-        "verified": true,
-        "last_verified_at": "2026-10-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

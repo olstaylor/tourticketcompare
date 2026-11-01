@@ -102,6 +102,7 @@
     "og:check": "node scripts/build-og-cards.mjs --check",
     "og:coverage:check": "node scripts/build-og-cards.mjs --coverage-check",
     "og:self-test": "node scripts/build-og-cards.mjs --self-test",
+    "dates:label": "node scripts/label-passed-dates.mjs",
     "blog:build": "node scripts/build-blog-content.mjs",
     "blog:check": "node scripts/build-blog-content.mjs --check",
     "blog:self-test": "node scripts/build-blog-content.mjs --self-test",

@@ -5,8 +5,11 @@
 // pause, and hands back the final response so the caller still decides what a
 // persistent failure means.
 //
-// Never retried: 4xx (the request is wrong) and 429 (that is a quota, and retrying
-// spends more of it). A failure that repeats is still reported by the caller.
+// Never retried: 4xx (the request is wrong), 429 (that is a quota, and retrying
+// spends more of it), and any request that is not a read (GET/HEAD/OPTIONS). A
+// POST whose response was lost may already have been applied, so repeating it
+// could create a second issue; such a call is made once and its failure reported.
+// A failure that repeats is still reported by the caller.
 
 export const RETRY_ATTEMPTS = 3;
 export const RETRY_DELAY_MS = 2000;
@@ -15,11 +18,16 @@ export function isRetryableStatus(status) {
   return Number.isInteger(status) && status >= 500 && status <= 599;
 }
 
+const SAFE_METHODS = new Set(["GET", "HEAD", "OPTIONS"]);
+
+export function isSafeToRepeat(init = {}) {
+  return SAFE_METHODS.has(String(init?.method || "GET").toUpperCase());
+}
+
 const defaultSleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 /**
- * fetch with bounded retries. `init` is passed through unchanged each attempt, so
- * pass a body that can be sent twice (string/JSON, not a stream).
+ * fetch with bounded retries, for reads only: any other method is sent once.
  * Resolves to the last Response; rejects with the last error if every attempt threw.
  */
 export async function fetchWithRetry(url, init = {}, {
@@ -28,6 +36,7 @@ export async function fetchWithRetry(url, init = {}, {
   delayMs = RETRY_DELAY_MS,
   sleep = defaultSleep
 } = {}) {
+  if (!isSafeToRepeat(init)) attempts = 1;
   for (let attempt = 1; ; attempt += 1) {
     let response;
     try {

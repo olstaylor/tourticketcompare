@@ -1,6 +1,6 @@
 // node scripts/http-retry.test.mjs
 import assert from "node:assert/strict";
-import { fetchWithRetry, isRetryableStatus } from "./lib/http-retry.mjs";
+import { fetchWithRetry, isRetryableStatus, isSafeToRepeat } from "./lib/http-retry.mjs";
 
 const res = (status) => ({ status, ok: status >= 200 && status < 300 });
 const noSleep = async () => {};
@@ -49,6 +49,17 @@ for (const status of [429, 404, 401]) { // answers, not blips
   assert.equal((await fetchWithRetry("u", {}, { fetchImpl, sleep: noSleep })).status, status);
   assert.equal(calls.length, 1, `${status} is not retried`);
 }
+for (const method of ["POST", "PATCH", "PUT", "DELETE"]) { // a lost response may already have been applied
+  const { fetchImpl, calls } = sequence(res(502), res(200));
+  assert.equal((await fetchWithRetry("u", { method }, { fetchImpl, sleep: noSleep })).status, 502);
+  assert.equal(calls.length, 1, `${method} is sent once`);
+  const dropped = sequence(new Error("reset"), res(200));
+  await assert.rejects(fetchWithRetry("u", { method }, { fetchImpl: dropped.fetchImpl, sleep: noSleep }), /reset/);
+  assert.equal(dropped.calls.length, 1);
+}
+assert.equal(isSafeToRepeat({}), true);
+assert.equal(isSafeToRepeat({ method: "get" }), true);
+assert.equal(isSafeToRepeat({ method: "POST" }), false);
 { // the pause grows
   const waits = [];
   const { fetchImpl } = sequence(res(500), res(500), res(200));

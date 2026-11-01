@@ -170,17 +170,17 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8180594",
-        "url": "https://www.ticketnetwork.com/en/p/8180594",
-        "verified": true,
-        "last_verified_at": "2026-10-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62Mr173-",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180594"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-bryan-adams-2026-las-vegas-17ayv0g62mr1v3m",

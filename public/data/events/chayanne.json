@@ -142,11 +142,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7892339",
-        "url": "https://www.ticketnetwork.com/en/p/7892339",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_km8pku0",
@@ -164,7 +164,7 @@
         "end": "2026-10-30T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7892339"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-chayanne-2026-orlando-1aefz_kgkwoqkla",

@@ -2015,11 +2015,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7823355",
-        "url": "https://www.ticketnetwork.com/en/p/7823355",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vQfvSuz",
@@ -2030,6 +2030,6 @@
     "organizer_names": [
       "Papuchi Events, S.L."
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7823355"
+    "ticketnetwork_url": ""
   }
 ]

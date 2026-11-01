@@ -311,11 +311,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255029",
+        "url": "https://www.ticketnetwork.com/en/p/8255029",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv0Ak",
     "timezone": "America/Halifax",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255029"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-moncton-16d7z_31_g7xauw",
@@ -364,11 +372,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8254012",
+        "url": "https://www.ticketnetwork.com/en/p/8254012",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16d7Z_31_G7XAuw",
     "timezone": "America/Halifax",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254012"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-quebec-1aszkf04if8zegk",
@@ -417,11 +433,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8254013",
+        "url": "https://www.ticketnetwork.com/en/p/8254013",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1asZkf04If8ZeGk",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254013"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-montreal-1aszkfxgkerzpy6",
@@ -470,11 +494,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8254014",
+        "url": "https://www.ticketnetwork.com/en/p/8254014",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkfxGkeRZpy6",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254014"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-ottawa-1aszkfngkedu_z0",
@@ -788,11 +820,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8254020",
+        "url": "https://www.ticketnetwork.com/en/p/8254020",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_oGkXUtIBu",
     "timezone": "America/Winnipeg",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254020"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-regina-z7r9jz1aavxpg",
@@ -947,11 +987,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8254022",
+        "url": "https://www.ticketnetwork.com/en/p/8254022",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_oGkn_kbTE",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254022"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-dawson-creek-z7r9jz1aavxjp",
@@ -1053,10 +1101,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8254023",
+        "url": "https://www.ticketnetwork.com/en/p/8254023",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_oGknC7Mrb",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254023"
   }
 ]

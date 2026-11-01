@@ -3129,11 +3129,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7695894",
-        "url": "https://www.ticketnetwork.com/en/p/7695894",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -3152,7 +3152,7 @@
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfkSz25",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695894",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695894/Harry-Styles-tickets-Fri-Oct-30-2026-Madison-Square-Garden",
     "organizer_names": [
@@ -21665,11 +21665,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7418600",
-        "url": "https://www.ticketnetwork.com/en/p/7418600",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7418600",
@@ -21690,7 +21690,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418600",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418600/Ed-Sheeran-tickets-Fri-Oct-30-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
     "stubhub_international_url": ""
   },
@@ -33273,11 +33273,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7831764",
-        "url": "https://www.ticketnetwork.com/en/p/7831764",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107148177",
@@ -33297,7 +33297,7 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kaaofap",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831764",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-munich-olympiahalle-munich-31-10-2026/event/107148177",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831764/Niall-Horan-tickets-Sat-Oct-31-2026-Kleine-Olympiahalle-Munich",
     "organizer_names": [
@@ -46278,11 +46278,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7570185",
-        "url": "https://www.ticketnetwork.com/en/p/7570185",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7570185",
@@ -46302,7 +46302,7 @@
     "ticketmaster_discovery_event_id": "vvG1iZbS55yKJr",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7570185",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7570185/My-Chemical-Romance-tickets-Fri-Oct-30-2026-Hollywood-Bowl",
     "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-30-2026/event/107076168",
     "organizer_names": [
@@ -48042,11 +48042,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7883111",
-        "url": "https://www.ticketnetwork.com/en/p/7883111",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7883111",
@@ -48066,7 +48066,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_FlXlBcf",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883111",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883111/Teddy-Swims-tickets-Fri-Oct-30-2026-Ariat-Arena",
     "stubhub_international_url": "",
     "organizer_names": [
@@ -53667,11 +53667,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976499",
-        "url": "https://www.ticketnetwork.com/en/p/7976499",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7976499",
@@ -53691,7 +53691,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EqS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976499",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976499/Don-Omar-tickets-Fri-Oct-30-2026-Michelob-ULTRA-Arena-At-Mandalay-Bay",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-las-vegas-tickets-10-30-2026/event/107289098"
   },
@@ -53744,11 +53744,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976501",
-        "url": "https://www.ticketnetwork.com/en/p/7976501",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7976501",
@@ -53761,7 +53761,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EfV",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976501",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976501/Don-Omar-tickets-Sun-Nov-1-2026-Delta-Center"
   },
   {
@@ -81596,18 +81596,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8200525",
-        "url": "https://www.ticketnetwork.com/en/p/8200525",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_8m2P9Ef",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200525/Missio-tickets-Fri-Oct-30-2026-Voodoo-Room-at-House-of-Blues-San-Diego",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200525",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -126607,11 +126607,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8038350",
-        "url": "https://www.ticketnetwork.com/en/p/8038350",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8038350",
@@ -126624,7 +126624,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P-jI",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038350",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038350/Sienna-Spiro-tickets-Fri-Oct-30-2026-Gothic-Theatre"
   },
   {
@@ -129585,11 +129585,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8038476",
-        "url": "https://www.ticketnetwork.com/en/p/8038476",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8038476",
@@ -129609,7 +129609,7 @@
     "ticketmaster_discovery_event_id": "vvG10Z_GpoMy2y",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038476",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038476/Malcolm-Todd-tickets-Fri-Oct-30-2026-Greek-Theatre-Los-Angeles-CA",
     "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-30-2026/event/107447653",
     "organizer_names": [
@@ -152825,11 +152825,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8235574",
-        "url": "https://www.ticketnetwork.com/en/p/8235574",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8235574",
@@ -152849,7 +152849,7 @@
     "ticketmaster_discovery_event_id": "k7vGF_opjosBe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235574",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235574/Too-Many-Zooz-tickets-Fri-Oct-30-2026-Brooklyn-Bowl-NY",
     "stubhub_international_url": "",
     "presales": [
@@ -205896,11 +205896,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7977878",
-        "url": "https://www.ticketnetwork.com/en/p/7977878",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7977878",
@@ -205913,7 +205913,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70U7_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977878",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977878/Mico-tickets-Fri-Oct-30-2026-Webster-Hall"
   },
   {
@@ -221274,11 +221274,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7756935",
-        "url": "https://www.ticketnetwork.com/en/p/7756935",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7756935",
@@ -221292,7 +221292,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756935",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756935/The-Psychedelic-Furs-tickets-Fri-Oct-30-2026-Uptown-Theatre-Napa"
   },
   {
@@ -230486,11 +230486,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8199802",
-        "url": "https://www.ticketnetwork.com/en/p/8199802",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8199802",
@@ -230503,7 +230503,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_2X4sIuB",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199802",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199802/Steve-Lacy-tickets-Fri-Oct-30-2026-Synovus-Bank-Amphitheater-at-Chastain-Park",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -255535,11 +255535,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7774766",
-        "url": "https://www.ticketnetwork.com/en/p/7774766",
-        "verified": true,
-        "last_verified_at": "2026-10-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7774766",
@@ -255562,7 +255562,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774766",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774766/Gorillaz-tickets-Fri-Oct-30-2026-Moda-Center-at-the-Rose-Quarter",
     "stubhub_international_url": "https://www.stubhub.ie/gorillaz-portland-tickets-10-30-2026/event/107129384"
   },
@@ -257047,11 +257047,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8071933",
-        "url": "https://www.ticketnetwork.com/en/p/8071933",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8071933",
@@ -257071,7 +257071,7 @@
     "ticketmaster_discovery_event_id": "vvG1bZ_u6bp0mE",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071933",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071933/Ella-Langley-tickets-Fri-Oct-30-2026-Pinnacle-Bank-Arena",
     "stubhub_international_url": "",
     "organizer_names": [
@@ -257488,11 +257488,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7594540",
-        "url": "https://www.ticketnetwork.com/en/p/7594540",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7594540",
@@ -257505,7 +257505,7 @@
     "ticketmaster_discovery_event_id": "vv167ZkuUOKZA2AdC5",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7594540",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7594540/Mana-tickets-Fri-Oct-30-2026-Allstate-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -266180,18 +266180,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8062598",
-        "url": "https://www.ticketnetwork.com/en/p/8062598",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PIjY",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062598/Brand-New-tickets-Fri-Oct-30-2026-Texas-Trust-CU-Theatre-at-Grand-Prairie",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062598"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-brand-new-2026-denver-z7r9jz1a7ptjo",
@@ -267562,18 +267562,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8002991",
-        "url": "https://www.ticketnetwork.com/en/p/8002991",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_5_L1ogS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002991/Knocked-Loose-tickets-Fri-Oct-30-2026-Gallagher-Square-at-Petco-Park",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002991",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -268473,11 +268473,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8028492",
-        "url": "https://www.ticketnetwork.com/en/p/8028492",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5EPLBfx",
@@ -268488,7 +268488,7 @@
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8028492"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-phoebe-bridgers-2026-inglewood-vvg10z_goubfs2",
@@ -269809,11 +269809,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8011583",
-        "url": "https://www.ticketnetwork.com/en/p/8011583",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G65SqI5aE",
@@ -269827,7 +269827,7 @@
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011583"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-bryson-tiller-2026-seattle-vvg1hz_5llgxaj",
@@ -272287,11 +272287,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7823355",
-        "url": "https://www.ticketnetwork.com/en/p/7823355",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vQfvSuz",
@@ -272302,7 +272302,7 @@
     "organizer_names": [
       "Papuchi Events, S.L."
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7823355"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-the-lemonheads-2027-seattle-z7r9jz1aa79u7",
@@ -276151,11 +276151,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8026602",
-        "url": "https://www.ticketnetwork.com/en/p/8026602",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_G6SZNnJ",
@@ -276165,7 +276165,7 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8026602"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-sienna-spiro-2027-austin-g5diz_47ytekn",
@@ -278272,11 +278272,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7961852",
-        "url": "https://www.ticketnetwork.com/en/p/7961852",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G61xOe95K",
@@ -278288,7 +278288,7 @@
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961852"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-katseye-2026-hamilton-177zv0g61i6mwwe",
@@ -279505,11 +279505,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8130658",
-        "url": "https://www.ticketnetwork.com/en/p/8130658",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6uBm5h5l",
@@ -279519,7 +279519,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8130658"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-ricky-martin-2026-las-vegas-17ayv0g6ubmuh5y",
@@ -283215,11 +283215,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7999839",
-        "url": "https://www.ticketnetwork.com/en/p/7999839",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5KbZ5Fl",
@@ -283230,7 +283230,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7999839"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-the-chicks-2026-hollywood-vvg10z_5ljdml9",
@@ -286304,11 +286304,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7892339",
-        "url": "https://www.ticketnetwork.com/en/p/7892339",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_km8pku0",
@@ -286326,7 +286326,7 @@
         "end": "2026-10-30T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7892339"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-chayanne-2026-orlando-1aefz_kgkwoqkla",
@@ -287923,11 +287923,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8267874",
-        "url": "https://www.ticketnetwork.com/en/p/8267874",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_3m-gnBM",
@@ -287945,7 +287945,7 @@
         "end": "2026-11-03T20:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267874"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-karan-aujla-2026-los-angeles-g5eyz_3lgqzvb",
@@ -288010,11 +288010,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8267866",
-        "url": "https://www.ticketnetwork.com/en/p/8267866",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eYZ_3lgqZVb",
@@ -288032,7 +288032,7 @@
         "end": "2026-11-05T20:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267866"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-karan-aujla-2026-dallas-vvg1yz_3r_e2at",
@@ -288097,11 +288097,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8267876",
-        "url": "https://www.ticketnetwork.com/en/p/8267876",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3R_E2aT",
@@ -288119,7 +288119,7 @@
         "end": "2026-11-09T18:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267876"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-karan-aujla-2026-atlanta-vvg1zz_3myjgwo",
@@ -288184,11 +288184,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8267877",
-        "url": "https://www.ticketnetwork.com/en/p/8267877",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3mYJGwO",
@@ -288206,7 +288206,7 @@
         "end": "2026-11-12T17:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267877"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-karan-aujla-2026-new-york-g5diz_3ivacnr",
@@ -288271,11 +288271,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8267865",
-        "url": "https://www.ticketnetwork.com/en/p/8267865",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_3IvACNR",
@@ -288298,7 +288298,7 @@
         "end": "2026-11-19T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267865"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-karan-aujla-2026-washington-1a4zkftgkdhkud5",
@@ -288363,11 +288363,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8267878",
-        "url": "https://www.ticketnetwork.com/en/p/8267878",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkftGkdhKud5",
@@ -288385,7 +288385,7 @@
         "end": "2026-11-16T17:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267878"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-jack-johnson-2026-brisbane-1k7yv0jtgaugdpl",
@@ -292666,11 +292666,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7896100",
-        "url": "https://www.ticketnetwork.com/en/p/7896100",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7896100",
@@ -292683,7 +292683,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_FBor4w0",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896100",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -295403,17 +295403,17 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7843520",
-        "url": "https://www.ticketnetwork.com/en/p/7843520",
-        "verified": true,
-        "last_verified_at": "2026-10-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_6Gkm3nAew",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843520"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-billy-strings-2026-baltimore-1avfz_6gkmktg1d",
@@ -306281,6 +306281,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8350368",
+        "url": "https://www.ticketnetwork.com/en/p/8350368",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KwVCQCl",
@@ -306331,7 +306338,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-08-16T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350368"
   },
   {
     "id": "tm-mico-2027-columbus-z7r9jz1aa7_pz",
@@ -307969,11 +307977,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034494",
-        "url": "https://www.ticketnetwork.com/en/p/8034494",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8034494",
@@ -307986,7 +307994,7 @@
     "ticketmaster_discovery_event_id": "G5dIZ_G2cMeda",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034494",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034494/Little-Big-Town-tickets-Fri-Oct-30-2026-Sarofim-Hall-Hobby-Center"
   },
   {
@@ -312515,17 +312523,17 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8180594",
-        "url": "https://www.ticketnetwork.com/en/p/8180594",
-        "verified": true,
-        "last_verified_at": "2026-10-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62Mr173-",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180594"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-bryan-adams-2026-las-vegas-17ayv0g62mr1v3m",
@@ -328148,12 +328156,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8350435",
+        "url": "https://www.ticketnetwork.com/en/p/8350435",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_4GknBP_Nx",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T17:00:00Z"
+    "public_onsale_at": "2026-10-30T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350435"
   },
   {
     "id": "tm-two-door-cinema-club-2027-del-mar-rz7hnez1afc70v",
@@ -329771,12 +329787,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8350153",
+        "url": "https://www.ticketnetwork.com/en/p/8350153",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_4GklV3o2E",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350153"
   },
   {
     "id": "tm-nickelback-2027-pokolbin-1avgz_4c70szdc8v",
@@ -336775,11 +336799,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7864777",
-        "url": "https://www.ticketnetwork.com/en/p/7864777",
-        "verified": true,
-        "last_verified_at": "2026-10-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7864777",
@@ -336792,7 +336816,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_66kfcGC",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7864777",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7864777/Foreigner-tickets-Fri-Oct-30-2026-The-Venue-At-Thunder-Valley-Casino-Resort"
   },
   {
@@ -338701,11 +338725,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8324659",
+        "url": "https://www.ticketnetwork.com/en/p/8324659",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZkGKGkdRrzGX",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324659"
   },
   {
     "id": "tm-tash-sultana-2027-london-1adjzbsgkmupg8h",
@@ -338754,11 +338786,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7771601",
+        "url": "https://www.ticketnetwork.com/en/p/7771601",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZbsGkMupg8H",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7771601"
   },
   {
     "id": "tm-tash-sultana-2027-merksem-antwerpen-z698xzg2z1kjpqofb",
@@ -338860,11 +338900,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315153",
+        "url": "https://www.ticketnetwork.com/en/p/8315153",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vAwAob0",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315153"
   },
   {
     "id": "tm-tash-sultana-2027-auckland-1a0zkfggkee4ejk",
@@ -339973,11 +340021,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255029",
+        "url": "https://www.ticketnetwork.com/en/p/8255029",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv0Ak",
     "timezone": "America/Halifax",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255029"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-moncton-16d7z_31_g7xauw",
@@ -340026,11 +340082,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8254012",
+        "url": "https://www.ticketnetwork.com/en/p/8254012",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16d7Z_31_G7XAuw",
     "timezone": "America/Halifax",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254012"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-quebec-1aszkf04if8zegk",
@@ -340079,11 +340143,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8254013",
+        "url": "https://www.ticketnetwork.com/en/p/8254013",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1asZkf04If8ZeGk",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254013"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-montreal-1aszkfxgkerzpy6",
@@ -340132,11 +340204,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8254014",
+        "url": "https://www.ticketnetwork.com/en/p/8254014",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkfxGkeRZpy6",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254014"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-ottawa-1aszkfngkedu_z0",
@@ -340450,11 +340530,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8254020",
+        "url": "https://www.ticketnetwork.com/en/p/8254020",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_oGkXUtIBu",
     "timezone": "America/Winnipeg",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254020"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-regina-z7r9jz1aavxpg",
@@ -340609,11 +340697,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8254022",
+        "url": "https://www.ticketnetwork.com/en/p/8254022",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_oGkn_kbTE",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254022"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-dawson-creek-z7r9jz1aavxjp",
@@ -340715,11 +340811,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8254023",
+        "url": "https://www.ticketnetwork.com/en/p/8254023",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_oGknC7Mrb",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254023"
   },
   {
     "id": "tm-black-stone-cherry-2026-milwaukee-z7r9jz1aae8ot",
@@ -341033,11 +341137,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294989",
+        "url": "https://www.ticketnetwork.com/en/p/8294989",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_KGklcscxl",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294989"
   },
   {
     "id": "tm-black-stone-cherry-2026-toronto-16tzkfzkozagevde",
@@ -341139,11 +341251,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294999",
+        "url": "https://www.ticketnetwork.com/en/p/8294999",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAea0Z",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294999"
   },
   {
     "id": "tm-black-stone-cherry-2026-columbus-z7r9jz1aae7be",
@@ -341192,11 +341312,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295002",
+        "url": "https://www.ticketnetwork.com/en/p/8295002",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe7bE",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295002"
   },
   {
     "id": "tm-black-stone-cherry-2027-bournemouth-g5dzz_g9ioeuq",
@@ -341669,11 +341797,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7779272",
+        "url": "https://www.ticketnetwork.com/en/p/7779272",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkCAGkdNsiAc",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7779272"
   },
   {
     "id": "tm-black-stone-cherry-2027-newcastle-upon-tyne-g5dzz_g10kk11",
@@ -342412,11 +342548,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034628",
+        "url": "https://www.ticketnetwork.com/en/p/8034628",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_GKAW2VW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034628"
   },
   {
     "id": "tm-lady-a-2026-gary-vvg1fz_5la2nke",
@@ -342465,11 +342609,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034630",
+        "url": "https://www.ticketnetwork.com/en/p/8034630",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_5la2nKE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034630"
   },
   {
     "id": "tm-lady-a-2026-shipshewana-z7r9jz1a7pkv6",
@@ -342518,11 +342670,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034030",
+        "url": "https://www.ticketnetwork.com/en/p/8034030",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PKv6",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034030"
   },
   {
     "id": "tm-lady-a-2026-new-york-g5diz_g2zkgbb",
@@ -342571,11 +342731,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034631",
+        "url": "https://www.ticketnetwork.com/en/p/8034631",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_G2ZkgBB",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034631"
   },
   {
     "id": "tm-lady-a-2026-bensalem-z7r9jz1a7p380",
@@ -342624,11 +342792,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8042192",
+        "url": "https://www.ticketnetwork.com/en/p/8042192",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P380",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042192"
   },
   {
     "id": "tm-lady-a-2026-greensboro-g5evz_g5lge4i",
@@ -342677,11 +342853,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034632",
+        "url": "https://www.ticketnetwork.com/en/p/8034632",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_G5lge4I",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034632"
   },
   {
     "id": "tm-lady-a-2026-nashville-z7r9jz1a7p0p9",
@@ -342730,10 +342914,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034649",
+        "url": "https://www.ticketnetwork.com/en/p/8034649",
+        "verified": true,
+        "last_verified_at": "2026-10-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0p9",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034649"
   }
 ]

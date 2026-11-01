@@ -778,12 +778,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679562",
+        "url": "https://www.stubhub.ie/sam-fender-tickets-cardiff-principality-stadium-cardiff-12-6-2027/event/107679562",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_4GklAT6o4",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-cardiff-principality-stadium-cardiff-12-6-2027/event/107679562"
   },
   {
     "id": "tm-sam-fender-2027-edinburgh-1adbz_4gkm8ikcj",
@@ -900,6 +908,13 @@
         "verified": true,
         "last_verified_at": "2026-11-01",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679564",
+        "url": "https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-2-9-2027/event/107679564",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_4GklV3o2E",
@@ -907,6 +922,7 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:30:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350153",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8350153/Sam-Fender-tickets-Thu-Sep-2-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8350153/Sam-Fender-tickets-Thu-Sep-2-2027-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-2-9-2027/event/107679564"
   }
 ]

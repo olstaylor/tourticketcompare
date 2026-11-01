@@ -267,13 +267,21 @@
         "verified": true,
         "last_verified_at": "2026-11-01",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666091",
+        "url": "https://www.stubhub.ie/lady-a-new-york-tickets-12-17-2026/event/107666091",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_G2ZkgBB",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034631",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034631/Lady-A-Country-Group-tickets-Thu-Dec-17-2026-Beacon-Theatre-NY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034631/Lady-A-Country-Group-tickets-Thu-Dec-17-2026-Beacon-Theatre-NY",
+    "stubhub_international_url": "https://www.stubhub.ie/lady-a-new-york-tickets-12-17-2026/event/107666091"
   },
   {
     "id": "tm-lady-a-2026-bensalem-z7r9jz1a7p380",

@@ -522,11 +522,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107189134",
-        "url": "https://www.stubhub.ie/john-summit-washington-tickets-10-31-2026/event/107189134",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7982948",
@@ -540,7 +540,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982948",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-washington-tickets-10-31-2026/event/107189134",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982948/John-Summit-tickets-Sat-Oct-31-2026-Capital-One-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"

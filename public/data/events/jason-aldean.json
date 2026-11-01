@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724459,
+        "url": "https://seatgeek.com/jason-aldean-tickets/hollywood-florida-hard-rock-live-hollywood-2027-02-27-8-pm/concert/18724459",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

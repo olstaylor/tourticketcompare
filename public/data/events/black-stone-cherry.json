@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18637121,
+        "url": "https://seatgeek.com/black-stone-cherry-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18637121",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621062,
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18637126,
+        "url": "https://seatgeek.com/black-stone-cherry-tickets/omaha-nebraska-the-waiting-room-omaha-2026-11-18-8-pm/concert/18637126",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -117,7 +117,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14335014",
     "ticketmaster_url": "https://www.ticketweb.com/event/black-stone-cherrys-bonfire-nights-pops-concert-venue-tickets/14335014",
-    "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/sauget-illinois-pop-s-sauget-2026-11-20-8-pm/concert/18637133",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/black-stone-cherrys-bonfire-nights-pops-concert-venue-tickets/14335014",
@@ -137,7 +137,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -170,7 +170,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14348294",
     "ticketmaster_url": "https://www.ticketweb.com/event/black-stone-cherry-bonfire-nights-the-fennec-main-tickets/14348294",
-    "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/birmingham-alabama-the-fennec-sports-live-music-events-2026-11-21-8-pm/concert/18637134",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/black-stone-cherry-bonfire-nights-the-fennec-main-tickets/14348294",
@@ -190,7 +190,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -292,11 +292,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18630042,
+        "url": "https://seatgeek.com/black-stone-cherry-tickets/lexington-kentucky-manchester-music-hall-2026-11-27-8-pm/concert/18630042",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620989,
@@ -414,11 +414,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18637149,
+        "url": "https://seatgeek.com/black-stone-cherry-tickets/hartford-connecticut-webster-underground-hartford-2026-12-05-8-pm/concert/18637149",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -483,11 +483,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18637158,
+        "url": "https://seatgeek.com/black-stone-cherry-tickets/columbus-ohio-the-king-of-clubs-oh-2026-12-12-5-30-pm/concert/18637158",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606316,

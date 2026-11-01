@@ -30,7 +30,7 @@
         "event_id": 18696397,
         "url": "https://seatgeek.com/valley-tickets/quebec-canada-grizzly-fuzz-2027-02-04-8-pm/concert/18696397",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -355,7 +355,7 @@
         "event_id": 18684172,
         "url": "https://seatgeek.com/valley-tickets/chicago-illinois-park-west-2027-02-12-7-30-pm/concert/18684172",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -424,7 +424,7 @@
         "event_id": 18684018,
         "url": "https://seatgeek.com/valley-tickets/minneapolis-minnesota-fine-line-music-cafe-2027-02-13-7-30-pm/concert/18684018",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1389,7 +1389,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

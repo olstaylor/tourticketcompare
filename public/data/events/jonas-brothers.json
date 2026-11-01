@@ -1375,7 +1375,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A00650C36443D5D",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-palm-desert-california-11-17-2026/event/0A00650C36443D5D",
-    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/thousand-palms-california-acrisure-arena-2026-11-17-7-30-pm/concert/18503906",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-palm-desert-california-11-17-2026/event/0A00650C36443D5D",
@@ -1886,7 +1886,7 @@
         "event_id": 18503912,
         "url": "https://seatgeek.com/jonas-brothers-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-11-28-7-30-pm/concert/18503912",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2229,7 +2229,7 @@
         "event_id": 18471182,
         "url": "https://seatgeek.com/jonas-brothers-tickets/salt-lake-city-utah-delta-center-1-2026-12-07-7-30-pm/concert/18471182",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {

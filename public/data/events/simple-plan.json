@@ -745,7 +745,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3100653E92243369",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kanata-ontario-02-11-2027/event/3100653E92243369",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/kanata-canada-canadian-tire-centre-2027-02-11-7-pm/concert/18655548",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kanata-ontario-02-11-2027/event/3100653E92243369",
@@ -761,11 +761,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18655548,
+        "url": "https://seatgeek.com/simple-plan-tickets/kanata-canada-canadian-tire-centre-2027-02-11-7-pm/concert/18655548",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

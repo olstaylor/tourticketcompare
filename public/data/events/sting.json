@@ -912,7 +912,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "39006549AD057B22",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-04-2027/event/39006549AD057B22",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-04-8-pm/concert/18674616",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-04-2027/event/39006549AD057B22",
@@ -928,11 +928,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674616,
+        "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-04-8-pm/concert/18674616",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -965,7 +965,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "39006549AD0B7B3C",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-06-2027/event/39006549AD0B7B3C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-06-8-pm/concert/18674617",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-06-2027/event/39006549AD0B7B3C",
@@ -981,11 +981,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674617,
+        "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-06-8-pm/concert/18674617",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1018,7 +1018,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "39006549AD117B5F",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-07-2027/event/39006549AD117B5F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-07-8-pm/concert/18674618",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-07-2027/event/39006549AD117B5F",
@@ -1034,11 +1034,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674618,
+        "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-07-8-pm/concert/18674618",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1087,11 +1087,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674619,
+        "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-10-8-pm/concert/18674619",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1140,11 +1140,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674620,
+        "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-12-8-pm/concert/18674620",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

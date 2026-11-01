@@ -2418,7 +2418,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7Ypb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Ypb",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/houston-texas-toyota-center-2027-03-06-7-pm/concert/18726903",
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-houston-toyota-center---tx-3-6-2027--concerts-rock/production/7767791",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Ypb",
@@ -2434,11 +2434,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18726903,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/houston-texas-toyota-center-2027-03-06-7-pm/concert/18726903",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767791,

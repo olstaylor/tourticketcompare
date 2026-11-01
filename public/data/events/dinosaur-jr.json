@@ -1154,7 +1154,7 @@
         "event_id": 18540431,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/brooklyn-new-york-brooklyn-steel-2027-02-11-8-pm/concert/18540431",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1207,7 +1207,7 @@
         "event_id": 18540433,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/brooklyn-new-york-brooklyn-steel-2027-02-12-8-pm/concert/18540433",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1339,7 +1339,7 @@
         "event_id": 18540443,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/orlando-florida-the-plaza-live-2027-02-23-7-30-pm/concert/18540443",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1839,7 +1839,7 @@
         "event_id": 18540434,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/philadelphia-pennsylvania-union-transfer-philadelphia-2027-02-13-8-pm/concert/18540434",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2001,7 +2001,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvK16",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK16",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/saint-petersburg-florida-jannus-live-2027-02-20-8-pm/concert/18540442",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK16",
@@ -2017,11 +2017,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18540442,
+        "url": "https://seatgeek.com/dinosaur-jr-tickets/saint-petersburg-florida-jannus-live-2027-02-20-8-pm/concert/18540442",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

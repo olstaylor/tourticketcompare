@@ -372,7 +372,7 @@
         "event_id": 18609088,
         "url": "https://seatgeek.com/atmosphere-tickets/eugene-oregon-mcdonald-theatre-2027-01-28-8-pm/concert/18609088",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -818,7 +818,7 @@
         "event_id": 18609071,
         "url": "https://seatgeek.com/atmosphere-tickets/green-bay-wisconsin-epic-event-center-green-bay-2027-01-14-6-45-pm/concert/18609071",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -887,7 +887,7 @@
         "event_id": 18609072,
         "url": "https://seatgeek.com/atmosphere-tickets/west-des-moines-iowa-val-air-ballroom-2027-01-16-6-45-pm/concert/18609072",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -956,7 +956,7 @@
         "event_id": 18609074,
         "url": "https://seatgeek.com/atmosphere-tickets/omaha-nebraska-the-admiral-omaha-2027-01-17-8-pm/concert/18609074",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1009,7 +1009,7 @@
         "event_id": 18609075,
         "url": "https://seatgeek.com/atmosphere-tickets/fort-collins-colorado-aggie-theatre-2027-01-19-6-45-pm/concert/18609075",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1043,7 +1043,7 @@
     "tour_name": "The Winter Carnival Tour 2027",
     "ticketmaster_event_id": "Z7r9jZ1AAeZfe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfe",
-    "seatgeek_url": "https://seatgeek.com/atmosphere-tickets/grand-junction-colorado-mesa-theater-2027-01-20-7-pm/concert/18609076",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfe",
@@ -1063,7 +1063,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1115,7 +1115,7 @@
         "event_id": 18609105,
         "url": "https://seatgeek.com/atmosphere-tickets/minneapolis-minnesota-first-avenue-minneapolis-2027-02-07-6-45-pm/concert/18609105",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {

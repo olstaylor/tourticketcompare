@@ -1344,6 +1344,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679599",
+        "url": "https://www.stubhub.ie/the-neighbourhood-dallas-tickets-3-7-2027/event/107679599",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4nO500H",
@@ -1351,7 +1358,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345905",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345905/The-Neighbourhood-tickets-Sun-Mar-7-2027-American-Airlines-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345905/The-Neighbourhood-tickets-Sun-Mar-7-2027-American-Airlines-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-dallas-tickets-3-7-2027/event/107679599"
   },
   {
     "id": "tm-the-neighbourhood-2027-philadelphia-1adzz_4gkl39a_b",
@@ -1484,6 +1492,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678918",
+        "url": "https://www.stubhub.ie/the-neighbourhood-boston-tickets-4-24-2027/event/107678918",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4_GkdekcQu",
@@ -1491,7 +1506,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345907",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345907/The-Neighbourhood-tickets-Sat-Apr-24-2027-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345907/The-Neighbourhood-tickets-Sat-Apr-24-2027-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-boston-tickets-4-24-2027/event/107678918"
   },
   {
     "id": "tm-the-neighbourhood-2027-montreal-1ad7z_4gknbo3lq",
@@ -1958,6 +1974,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678938",
+        "url": "https://www.stubhub.ie/the-neighbourhood-chicago-tickets-5-8-2027/event/107678938",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_4GknyH4c0",
@@ -1965,7 +1988,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345914",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345914/The-Neighbourhood-tickets-Sat-May-8-2027-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345914/The-Neighbourhood-tickets-Sat-May-8-2027-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-chicago-tickets-5-8-2027/event/107678938"
   },
   {
     "id": "tm-the-neighbourhood-2027-winnipeg-1av7z_4gknbr6nb",

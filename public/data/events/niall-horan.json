@@ -900,11 +900,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107148177",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-munich-olympiahalle-munich-31-10-2026/event/107148177",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -918,7 +918,7 @@
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-munich-olympiahalle-munich-31-10-2026/event/107148177",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "",
     "organizer_names": [
       "Live Nation GmbH"

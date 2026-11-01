@@ -1264,11 +1264,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107289098",
-        "url": "https://www.stubhub.ie/don-omar-las-vegas-tickets-10-30-2026/event/107289098",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EqS",
@@ -1276,7 +1276,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-las-vegas-tickets-10-30-2026/event/107289098"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-salt-lake-city-z7r9jz1a70efv",

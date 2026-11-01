@@ -571,11 +571,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107356092",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-bournemouth-o2-academy-bournemouth-14-1-2027/event/107356092",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_G9IoEuQ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-bournemouth-o2-academy-bournemouth-14-1-2027/event/107356092"
   },
   {
     "id": "tm-black-stone-cherry-2027-london-g5dzzbzpu7g4_",
@@ -624,11 +632,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107037110",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-22-1-2027/event/107037110",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbzpU7g4_",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-22-1-2027/event/107037110"
   },
   {
     "id": "tm-black-stone-cherry-2027-london-g5dzzbz9kujcl",
@@ -677,11 +693,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107037109",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-23-1-2027/event/107037109",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbz9KUJcL",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-23-1-2027/event/107037109"
   },
   {
     "id": "tm-black-stone-cherry-2027-margate-16dfzbzp7g7r7jo",
@@ -783,11 +807,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107036094",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-nottingham-rock-city-26-1-2027/event/107036094",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbzpq5kRb",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-nottingham-rock-city-26-1-2027/event/107036094"
   },
   {
     "id": "tm-black-stone-cherry-2027-manchester-g5vhzbzkgpts1",
@@ -836,11 +868,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107029485",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-manchester-manchester-academy-2-2-2027/event/107029485",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbzKgptS1",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-manchester-manchester-academy-2-2-2027/event/107029485"
   },
   {
     "id": "tm-black-stone-cherry-2027-norwich-g5vhzbzpkx4ut",
@@ -889,11 +929,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107037107",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-norwich-the-nick-rayns-lcr-uea-3-2-2027/event/107037107",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbzpKX4Ut",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-norwich-the-nick-rayns-lcr-uea-3-2-2027/event/107037107"
   },
   {
     "id": "tm-black-stone-cherry-2027-edinburgh-g5dzzbzk-605z",
@@ -942,11 +990,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107029486",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-edinburgh-edinburgh-corn-exchange-6-2-2027/event/107029486",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbzk-605Z",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-edinburgh-edinburgh-corn-exchange-6-2-2027/event/107029486"
   },
   {
     "id": "tm-black-stone-cherry-2027-aberdeen-1auzkcagkdnsiac",
@@ -1009,13 +1065,21 @@
         "verified": true,
         "last_verified_at": "2026-11-01",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107029487",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-aberdeen-aberdeen-music-hall-8-2-2027/event/107029487",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkCAGkdNsiAc",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7779272",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7779272/Black-Stone-Cherry-tickets-Mon-Feb-8-2027-Aberdeen-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7779272/Black-Stone-Cherry-tickets-Mon-Feb-8-2027-Aberdeen-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-aberdeen-aberdeen-music-hall-8-2-2027/event/107029487"
   },
   {
     "id": "tm-black-stone-cherry-2027-newcastle-upon-tyne-g5dzz_g10kk11",

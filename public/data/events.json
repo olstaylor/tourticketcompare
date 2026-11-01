@@ -3216,11 +3216,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107082342",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-31-2026/event/107082342",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7695895",
@@ -3233,7 +3233,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfkUI2r",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695895",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-31-2026/event/107082342",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695895/Harry-Styles-tickets-Sat-Oct-31-2026-Madison-Square-Garden",
     "presales": [
       {
@@ -33280,11 +33280,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107148177",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-munich-olympiahalle-munich-31-10-2026/event/107148177",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -33298,7 +33298,7 @@
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-munich-olympiahalle-munich-31-10-2026/event/107148177",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "",
     "organizer_names": [
       "Live Nation GmbH"
@@ -41284,11 +41284,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107189134",
-        "url": "https://www.stubhub.ie/john-summit-washington-tickets-10-31-2026/event/107189134",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7982948",
@@ -41302,7 +41302,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982948",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-washington-tickets-10-31-2026/event/107189134",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982948/John-Summit-tickets-Sat-Oct-31-2026-Capital-One-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -46324,11 +46324,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107076168",
-        "url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-30-2026/event/107076168",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55yKJr",
@@ -46336,7 +46336,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-30-2026/event/107076168",
+    "stubhub_international_url": "",
     "organizer_names": [
       "ANDREW HEWITT & BILL SILVA PRESENTS",
       "LIVE NATION MUSIC"
@@ -53713,11 +53713,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107289098",
-        "url": "https://www.stubhub.ie/don-omar-las-vegas-tickets-10-30-2026/event/107289098",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EqS",
@@ -53725,7 +53725,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-las-vegas-tickets-10-30-2026/event/107289098"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-salt-lake-city-z7r9jz1a70efv",
@@ -129911,11 +129911,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107447653",
-        "url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-30-2026/event/107447653",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GpoMy2y",
@@ -129923,7 +129923,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-30-2026/event/107447653",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -232753,17 +232753,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107186117",
-        "url": "https://www.stubhub.ie/the-smashing-pumpkins-las-vegas-tickets-10-30-2026/event/107186117",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70x-e",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-las-vegas-tickets-10-30-2026/event/107186117",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -255909,11 +255909,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107129384",
-        "url": "https://www.stubhub.ie/gorillaz-portland-tickets-10-30-2026/event/107129384",
-        "verified": true,
-        "last_verified_at": "2026-10-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_AnwQDFp",
@@ -255924,7 +255924,7 @@
     ],
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-portland-tickets-10-30-2026/event/107129384"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-gorillaz-2026-seattle-vvg1hz_aeloqv3",
@@ -257501,11 +257501,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107486127",
-        "url": "https://www.stubhub.ie/ella-langley-saint-paul-tickets-10-31-2026/event/107486127",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PPo7",
@@ -257513,7 +257513,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071934",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071934/Ella-Langley-tickets-Sat-Oct-31-2026-Grand-Casino-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/ella-langley-saint-paul-tickets-10-31-2026/event/107486127"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-aerosmith-2026-hollywood-vvg1iz_kzl1gke",
@@ -268826,11 +268826,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107259004",
-        "url": "https://www.stubhub.ie/phoebe-bridgers-inglewood-tickets-10-30-2026/event/107259004",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -268844,7 +268844,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-inglewood-tickets-10-30-2026/event/107259004",
+    "stubhub_international_url": "",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
     ],
@@ -270162,11 +270162,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107324082",
-        "url": "https://www.stubhub.ie/bryson-tiller-tickets-vancouver-rogers-arena-10-30-2026/event/107324082",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -270180,7 +270180,7 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-vancouver-rogers-arena-10-30-2026/event/107324082",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -272640,11 +272640,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107017057",
-        "url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-31-10-2026/event/107017057",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -272658,7 +272658,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-madrid-movistar-arena-palacio-de-los-deportes-31-10-2026/event/107017057",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Papuchi Events, S.L."
     ],
@@ -283561,11 +283561,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107409078",
-        "url": "https://www.stubhub.ie/the-chicks-san-francisco-tickets-10-30-2026/event/107409078",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -283585,7 +283585,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_5KbZ5Fl",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-chicks-san-francisco-tickets-10-30-2026/event/107409078",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -284166,11 +284166,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107154369",
-        "url": "https://www.stubhub.ie/young-miko-atlanta-tickets-10-31-2026/event/107154369",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7860532",
@@ -284190,7 +284190,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_F1gFmtS",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/young-miko-atlanta-tickets-10-31-2026/event/107154369",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860532/Young-Miko-tickets-Sat-Oct-31-2026-State-Farm-Arena-GA",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -286737,11 +286737,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107164100",
-        "url": "https://www.stubhub.ie/chayanne-orlando-tickets-10-31-2026/event/107164100",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7892340",
@@ -286761,7 +286761,7 @@
     "ticketmaster_discovery_event_id": "1AeFZ_kGkwOQklA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/chayanne-orlando-tickets-10-31-2026/event/107164100",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7892340/Chayanne-tickets-Sat-Oct-31-2026-Kia-Center",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
@@ -317250,6 +317250,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679599",
+        "url": "https://www.stubhub.ie/the-neighbourhood-dallas-tickets-3-7-2027/event/107679599",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4nO500H",
@@ -317257,7 +317264,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345905",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345905/The-Neighbourhood-tickets-Sun-Mar-7-2027-American-Airlines-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345905/The-Neighbourhood-tickets-Sun-Mar-7-2027-American-Airlines-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-dallas-tickets-3-7-2027/event/107679599"
   },
   {
     "id": "tm-the-neighbourhood-2027-philadelphia-1adzz_4gkl39a_b",
@@ -317390,6 +317398,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678918",
+        "url": "https://www.stubhub.ie/the-neighbourhood-boston-tickets-4-24-2027/event/107678918",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4_GkdekcQu",
@@ -317397,7 +317412,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345907",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345907/The-Neighbourhood-tickets-Sat-Apr-24-2027-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345907/The-Neighbourhood-tickets-Sat-Apr-24-2027-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-boston-tickets-4-24-2027/event/107678918"
   },
   {
     "id": "tm-the-neighbourhood-2027-montreal-1ad7z_4gknbo3lq",
@@ -317864,6 +317880,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678938",
+        "url": "https://www.stubhub.ie/the-neighbourhood-chicago-tickets-5-8-2027/event/107678938",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_4GknyH4c0",
@@ -317871,7 +317894,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345914",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345914/The-Neighbourhood-tickets-Sat-May-8-2027-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345914/The-Neighbourhood-tickets-Sat-May-8-2027-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-chicago-tickets-5-8-2027/event/107678938"
   },
   {
     "id": "tm-the-neighbourhood-2027-winnipeg-1av7z_4gknbr6nb",
@@ -330087,12 +330111,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679562",
+        "url": "https://www.stubhub.ie/sam-fender-tickets-cardiff-principality-stadium-cardiff-12-6-2027/event/107679562",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_4GklAT6o4",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-30T09:30:00Z"
+    "public_onsale_at": "2026-10-30T09:30:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-cardiff-principality-stadium-cardiff-12-6-2027/event/107679562"
   },
   {
     "id": "tm-sam-fender-2027-edinburgh-1adbz_4gkm8ikcj",
@@ -330209,6 +330241,13 @@
         "verified": true,
         "last_verified_at": "2026-11-01",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679564",
+        "url": "https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-2-9-2027/event/107679564",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_4GklV3o2E",
@@ -330216,7 +330255,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-30T09:30:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350153",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8350153/Sam-Fender-tickets-Thu-Sep-2-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8350153/Sam-Fender-tickets-Thu-Sep-2-2027-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-2-9-2027/event/107679564"
   },
   {
     "id": "tm-nickelback-2027-pokolbin-1avgz_4c70szdc8v",
@@ -339224,13 +339264,21 @@
         "verified": true,
         "last_verified_at": "2026-11-01",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106928086",
+        "url": "https://www.stubhub.ie/tash-sultana-tickets-london-ovo-arena-wembley-13-3-2027/event/106928086",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZbsGkMupg8H",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7771601",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7771601/Tash-Sultana-tickets-Sat-Mar-13-2027-OVO-Arena-Wembley"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7771601/Tash-Sultana-tickets-Sat-Mar-13-2027-OVO-Arena-Wembley",
+    "stubhub_international_url": "https://www.stubhub.ie/tash-sultana-tickets-london-ovo-arena-wembley-13-3-2027/event/106928086"
   },
   {
     "id": "tm-tash-sultana-2027-merksem-antwerpen-z698xzg2z1kjpqofb",
@@ -339346,13 +339394,21 @@
         "verified": true,
         "last_verified_at": "2026-11-01",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106927110",
+        "url": "https://www.stubhub.ie/tash-sultana-tickets-amsterdam-ziggo-dome-26-3-2027/event/106927110",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vAwAob0",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315153",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315153/Tash-Sultana-tickets-Fri-Mar-26-2027-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315153/Tash-Sultana-tickets-Fri-Mar-26-2027-Ziggo-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/tash-sultana-tickets-amsterdam-ziggo-dome-26-3-2027/event/106927110"
   },
   {
     "id": "tm-tash-sultana-2027-auckland-1a0zkfggkee4ejk",
@@ -339613,11 +339669,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671328",
+        "url": "https://www.stubhub.ie/erasure-tickets-bournemouth-bournemouth-international-centre-26-4-2027/event/107671328",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15dbZ_Kx7jxjo",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/erasure-tickets-bournemouth-bournemouth-international-centre-26-4-2027/event/107671328"
   },
   {
     "id": "tm-erasure-2027-liverpool-1amzkfugkdiq68r",
@@ -339719,11 +339783,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670585",
+        "url": "https://www.stubhub.ie/erasure-tickets-birmingham-utilita-arena-birmingham-30-4-2027/event/107670585",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkfzGkdMiv17",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/erasure-tickets-birmingham-utilita-arena-birmingham-30-4-2027/event/107670585"
   },
   {
     "id": "tm-erasure-2027-manchester-g5vhz_k6qxkzy",
@@ -339772,11 +339844,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671331",
+        "url": "https://www.stubhub.ie/erasure-tickets-manchester-manchester-ao-arena-1-5-2027/event/107671331",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_K6QXKzY",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/erasure-tickets-manchester-manchester-ao-arena-1-5-2027/event/107671331"
   },
   {
     "id": "tm-erasure-2027-dublin-15voz_kqav4z0",
@@ -339931,11 +340011,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670586",
+        "url": "https://www.stubhub.ie/erasure-tickets-hull-connexin-live-6-5-2027/event/107670586",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfyGkeY3boB",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/erasure-tickets-hull-connexin-live-6-5-2027/event/107670586"
   },
   {
     "id": "tm-erasure-2027-leeds-g5vhz_kldd9ue",
@@ -340037,11 +340125,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670587",
+        "url": "https://www.stubhub.ie/erasure-tickets-glasgow-ovo-hydro-arena-glasgow-9-5-2027/event/107670587",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfzGkds5H6i",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/erasure-tickets-glasgow-ovo-hydro-arena-glasgow-9-5-2027/event/107670587"
   },
   {
     "id": "tm-erasure-2027-brighton-g5dzz_kwfhs5r",
@@ -340143,11 +340239,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671326",
+        "url": "https://www.stubhub.ie/erasure-tickets-london-the-o2-arena-12-5-2027/event/107671326",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfMGkdxOIX5",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/erasure-tickets-london-the-o2-arena-12-5-2027/event/107671326"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-nottingham-g5vhz_1u0tvak",
@@ -341893,11 +341997,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107356092",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-bournemouth-o2-academy-bournemouth-14-1-2027/event/107356092",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_G9IoEuQ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-bournemouth-o2-academy-bournemouth-14-1-2027/event/107356092"
   },
   {
     "id": "tm-black-stone-cherry-2027-london-g5dzzbzpu7g4_",
@@ -341946,11 +342058,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107037110",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-22-1-2027/event/107037110",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbzpU7g4_",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-22-1-2027/event/107037110"
   },
   {
     "id": "tm-black-stone-cherry-2027-london-g5dzzbz9kujcl",
@@ -341999,11 +342119,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107037109",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-23-1-2027/event/107037109",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbz9KUJcL",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-23-1-2027/event/107037109"
   },
   {
     "id": "tm-black-stone-cherry-2027-margate-16dfzbzp7g7r7jo",
@@ -342105,11 +342233,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107036094",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-nottingham-rock-city-26-1-2027/event/107036094",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbzpq5kRb",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-nottingham-rock-city-26-1-2027/event/107036094"
   },
   {
     "id": "tm-black-stone-cherry-2027-manchester-g5vhzbzkgpts1",
@@ -342158,11 +342294,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107029485",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-manchester-manchester-academy-2-2-2027/event/107029485",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbzKgptS1",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-manchester-manchester-academy-2-2-2027/event/107029485"
   },
   {
     "id": "tm-black-stone-cherry-2027-norwich-g5vhzbzpkx4ut",
@@ -342211,11 +342355,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107037107",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-norwich-the-nick-rayns-lcr-uea-3-2-2027/event/107037107",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbzpKX4Ut",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-norwich-the-nick-rayns-lcr-uea-3-2-2027/event/107037107"
   },
   {
     "id": "tm-black-stone-cherry-2027-edinburgh-g5dzzbzk-605z",
@@ -342264,11 +342416,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107029486",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-edinburgh-edinburgh-corn-exchange-6-2-2027/event/107029486",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbzk-605Z",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-edinburgh-edinburgh-corn-exchange-6-2-2027/event/107029486"
   },
   {
     "id": "tm-black-stone-cherry-2027-aberdeen-1auzkcagkdnsiac",
@@ -342331,13 +342491,21 @@
         "verified": true,
         "last_verified_at": "2026-11-01",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107029487",
+        "url": "https://www.stubhub.ie/black-stone-cherry-tickets-aberdeen-aberdeen-music-hall-8-2-2027/event/107029487",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkCAGkdNsiAc",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7779272",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7779272/Black-Stone-Cherry-tickets-Mon-Feb-8-2027-Aberdeen-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7779272/Black-Stone-Cherry-tickets-Mon-Feb-8-2027-Aberdeen-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-aberdeen-aberdeen-music-hall-8-2-2027/event/107029487"
   },
   {
     "id": "tm-black-stone-cherry-2027-newcastle-upon-tyne-g5dzz_g10kk11",
@@ -342917,11 +343085,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107676167",
+        "url": "https://www.stubhub.ie/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-27-6-2027/event/107676167",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4fGke0ieLL",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-27-6-2027/event/107676167"
   },
   {
     "id": "tm-kings-of-leon-2027-london-1agzk4egkesvn16",
@@ -342970,11 +343146,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671680",
+        "url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-2-7-2027/event/107671680",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4eGkeSvn16",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-2-7-2027/event/107671680"
   },
   {
     "id": "tm-kings-of-leon-2027-london-1agzk4egkdt5lpe",
@@ -343023,11 +343207,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672737",
+        "url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-3-7-2027/event/107672737",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4eGkdT5Lpe",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-3-7-2027/event/107672737"
   },
   {
     "id": "tm-lady-a-2026-northfield-vvg1fz_gkaw2vw",
@@ -343297,13 +343489,21 @@
         "verified": true,
         "last_verified_at": "2026-11-01",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666091",
+        "url": "https://www.stubhub.ie/lady-a-new-york-tickets-12-17-2026/event/107666091",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_G2ZkgBB",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034631",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034631/Lady-A-Country-Group-tickets-Thu-Dec-17-2026-Beacon-Theatre-NY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034631/Lady-A-Country-Group-tickets-Thu-Dec-17-2026-Beacon-Theatre-NY",
+    "stubhub_international_url": "https://www.stubhub.ie/lady-a-new-york-tickets-12-17-2026/event/107666091"
   },
   {
     "id": "tm-lady-a-2026-bensalem-z7r9jz1a7p380",

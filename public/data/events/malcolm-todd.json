@@ -1591,11 +1591,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107447653",
-        "url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-30-2026/event/107447653",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GpoMy2y",
@@ -1603,7 +1603,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-los-angeles-tickets-10-30-2026/event/107447653",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

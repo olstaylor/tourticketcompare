@@ -774,17 +774,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107186117",
-        "url": "https://www.stubhub.ie/the-smashing-pumpkins-las-vegas-tickets-10-30-2026/event/107186117",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70x-e",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-las-vegas-tickets-10-30-2026/event/107186117",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

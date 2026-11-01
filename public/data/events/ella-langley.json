@@ -219,11 +219,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107486127",
-        "url": "https://www.stubhub.ie/ella-langley-saint-paul-tickets-10-31-2026/event/107486127",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PPo7",
@@ -231,6 +231,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071934",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071934/Ella-Langley-tickets-Sat-Oct-31-2026-Grand-Casino-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/ella-langley-saint-paul-tickets-10-31-2026/event/107486127"
+    "stubhub_international_url": ""
   }
 ]

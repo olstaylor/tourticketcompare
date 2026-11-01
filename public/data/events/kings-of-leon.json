@@ -312,11 +312,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107676167",
+        "url": "https://www.stubhub.ie/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-27-6-2027/event/107676167",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4fGke0ieLL",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-27-6-2027/event/107676167"
   },
   {
     "id": "tm-kings-of-leon-2027-london-1agzk4egkesvn16",
@@ -365,11 +373,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671680",
+        "url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-2-7-2027/event/107671680",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4eGkeSvn16",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-2-7-2027/event/107671680"
   },
   {
     "id": "tm-kings-of-leon-2027-london-1agzk4egkdt5lpe",
@@ -418,10 +434,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672737",
+        "url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-3-7-2027/event/107672737",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4eGkdT5Lpe",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-3-7-2027/event/107672737"
   }
 ]

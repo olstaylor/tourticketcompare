@@ -39,6 +39,7 @@
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
 import { eventLifecycleHeld, publicOnsalePending } from "../functions/_route-indexability.js";
+import { fetchWithRetry as retryHttp } from "./lib/http-retry.mjs";
 import { laneBySlug, safeLaneUrl } from "./lib/event-link-coverage.mjs";
 
 // Lanes with a numeric price feed and display on. Mirrors LISTED_PRICE_PROVIDERS
@@ -272,7 +273,7 @@ export function renderMarkdown(report, baseUrl = "") {
 }
 
 async function gh(token, repo, method, apiPath, body) {
-  const response = await fetch(`https://api.github.com${apiPath.replace("{repo}", repo)}`, {
+  const response = await retryHttp(`https://api.github.com${apiPath.replace("{repo}", repo)}`, {
     method,
     headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", "Content-Type": "application/json" },
     body: body ? JSON.stringify(body) : undefined

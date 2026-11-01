@@ -24,6 +24,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { fetchWithRetry } from "./lib/http-retry.mjs";
 import { normalizeName } from "./lib/artist-screen.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -114,7 +115,7 @@ async function fetchDemandEvents({ clientId, clientSecret, pages }) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 20000);
     try {
-      const res = await fetch(`https://api.seatgeek.com/2/events?${params.toString()}`, { signal: controller.signal });
+      const res = await fetchWithRetry(`https://api.seatgeek.com/2/events?${params.toString()}`, { signal: controller.signal });
       if (!res.ok) throw new Error(`SeatGeek events returned HTTP ${res.status} on page ${page}`);
       const data = await res.json();
       if (!Array.isArray(data?.events)) throw new Error(`SeatGeek events response had no events list on page ${page}`);

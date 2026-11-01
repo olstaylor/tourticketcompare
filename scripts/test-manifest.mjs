@@ -42,6 +42,7 @@ export const STEPS = [
   { id: "audit:links:self-test",                  lane: "units",  run: "node scripts/verify-outbound-links.mjs --self-test" },
   { id: "audit:tm-events:self-test",              lane: "units",  run: "node scripts/audit-tm-events.mjs --self-test" },
   { id: "dates:label:self-test", lane: "units", run: "node scripts/label-passed-dates.mjs --self-test" },
+  { id: "http:retry:self-test", lane: "units", run: "node scripts/http-retry.test.mjs" },
   { id: "tm:snapshot:self-test", lane: "units", run: "node scripts/tm-event-snapshot.test.mjs" },
   { id: "tm:snapshot-artifact:self-test", lane: "units", run: "node scripts/find-tm-snapshot.mjs --self-test" },
   { id: "audit:report:self-test",                 lane: "units",  run: "node scripts/daily-audit-report.mjs --self-test" },

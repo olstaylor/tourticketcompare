@@ -40,6 +40,7 @@ import { fileURLToPath } from "node:url";
 import os from "node:os";
 import path from "node:path";
 import { analyse as analysePrices, coverageShareLabel, fetchAllShows } from "./report-price-coverage.mjs";
+import { fetchWithRetry } from "./lib/http-retry.mjs";
 import { llmsTxtStaleDates, pastShowsInApi, pastStructuredEvents, staleDatedCopy } from "./lib/date-staleness.mjs";
 
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -164,19 +165,9 @@ async function pool(items, worker, size = CONCURRENCY) {
 // on 30 Oct one 503 on /sitemap-index.xml turned a healthy run red. Retry those
 // twice before reporting; a 4xx, or a failure that repeats, is still reported.
 async function readText(url, fetchImpl, { attempts = 3, delayMs = RETRY_DELAY_MS } = {}) {
-  for (let attempt = 1; ; attempt += 1) {
-    let response;
-    try {
-      response = await fetchImpl(url, { headers: { "User-Agent": USER_AGENT } });
-    } catch (error) {
-      if (attempt >= attempts) throw error;
-      await new Promise((resolve) => setTimeout(resolve, delayMs));
-      continue;
-    }
-    if (response.ok) return response.text();
-    if (response.status < 500 || attempt >= attempts) throw Object.assign(new Error(`GET ${url} returned HTTP ${response.status}`), { status: response.status });
-    await new Promise((resolve) => setTimeout(resolve, delayMs));
-  }
+  const response = await fetchWithRetry(url, { headers: { "User-Agent": USER_AGENT } }, { fetchImpl, attempts, delayMs });
+  if (response.ok) return response.text();
+  throw Object.assign(new Error(`GET ${url} returned HTTP ${response.status}`), { status: response.status });
 }
 
 // Sitemaps carry canonical apex URLs whatever host serves them. Rebase each
@@ -226,7 +217,7 @@ export async function collectSitemapUrls(baseUrl, fetchImpl = globalThis.fetch) 
 async function openSensorFindings(token, repo) {
   if (!token || !repo) return { available: false, items: [] };
   const get = async (apiPath) => {
-    const response = await fetch(`https://api.github.com/repos/${repo}${apiPath}`, {
+    const response = await fetchWithRetry(`https://api.github.com/repos/${repo}${apiPath}`, {
       headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" }
     });
     if (!response.ok) throw new Error(`GitHub ${apiPath} returned HTTP ${response.status}`);
@@ -388,7 +379,7 @@ export async function runHealthCheck({ baseUrl, fetchImpl = globalThis.fetch, to
 
 async function syncIssue(report, markdown, token, repo) {
   const api = async (method, apiPath, body) => {
-    const response = await fetch(`https://api.github.com/repos/${repo}${apiPath}`, {
+    const response = await fetchWithRetry(`https://api.github.com/repos/${repo}${apiPath}`, {
       method,
       headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", "Content-Type": "application/json" },
       body: body ? JSON.stringify(body) : undefined

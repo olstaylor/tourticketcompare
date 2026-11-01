@@ -77,7 +77,26 @@ async function loadArtistEvents(slug) {
   }
 }
 
+// A single dropped connection or 5xx on one of ~4,000 events used to fail the whole
+// audit and withhold every verification date. Retry those (never a 429: that is the
+// quota, and retrying would spend more of it) before the event counts as an error.
+export function isRetryableFetchResult(result) {
+  return result?.exists === null && (result.status === null || result.status === undefined || result.status >= 500);
+}
+
+const FETCH_RETRIES = Number.parseInt(process.env.TM_FETCH_RETRIES || '2', 10);
+const FETCH_RETRY_DELAY_MS = Number.parseInt(process.env.TM_FETCH_RETRY_DELAY_MS || '2000', 10);
+
 async function fetchEvent(apiKey, base, eventId, sweep) {
+  let result = await fetchEventOnce(apiKey, base, eventId, sweep);
+  for (let attempt = 1; attempt <= FETCH_RETRIES && isRetryableFetchResult(result); attempt += 1) {
+    await sleep(FETCH_RETRY_DELAY_MS * attempt);
+    result = await fetchEventOnce(apiKey, base, eventId, sweep);
+  }
+  return result;
+}
+
+async function fetchEventOnce(apiKey, base, eventId, sweep) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), requestTimeoutMs);
   const url = `${base}/events/${encodeURIComponent(eventId)}.json?apikey=${encodeURIComponent(apiKey)}`;
@@ -224,6 +243,10 @@ function runSelfTest() {
       { datetime_iso: '2026-10-19', venue: 'Old Venue', ticketmaster_status_code: 'rescheduled' },
       { data: { dates: { start: { localDate: '2026-10-25' }, status: { code: 'rescheduled' } }, _embedded: { venues: [{ name: 'New Venue' }] } } }
     ).map((diff) => diff.field).join(',') === 'datetime_iso,venue'],
+    ['a dropped connection is retried', isRetryableFetchResult({ exists: null, status: null })],
+    ['a 503 is retried', isRetryableFetchResult({ exists: null, status: 503 })],
+    ['a 429 is never retried', !isRetryableFetchResult({ exists: null, status: 429 })],
+    ['a 404 is an answer, not retried', !isRetryableFetchResult({ exists: false, status: 404 })],
     ['date-only value stays venue-local', venueLocalDate('2026-06-19', 'America/Los_Angeles') === '2026-06-19'],
     ['offset-free wall time stays venue-local', venueLocalDate('2026-06-19T02:00:00', 'America/Los_Angeles') === '2026-06-19'],
     ['UTC instant converts to venue-local date', venueLocalDate('2026-06-19T02:00:00Z', 'America/Los_Angeles') === '2026-06-18'],

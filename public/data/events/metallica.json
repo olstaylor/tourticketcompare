@@ -191,6 +191,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7775512",
+        "url": "https://www.ticketliquidator.com/tickets/7775512/Metallica-tickets-Thu-Jan-28-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv0b_Z4Z7GGvk",
@@ -206,7 +213,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775512"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775512",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775512/Metallica-tickets-Thu-Jan-28-2027-Sphere"
   },
   {
     "id": "tm-metallica-2027-las-vegas-16vjz_kk3g7ndxr",
@@ -349,6 +357,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7785086",
+        "url": "https://www.ticketliquidator.com/tickets/7785086/Metallica-tickets-Thu-Feb-4-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0ycT0",
@@ -364,7 +379,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785086"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785086",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785086/Metallica-tickets-Thu-Feb-4-2027-Sphere"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzr6s",
@@ -507,6 +523,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7785088",
+        "url": "https://www.ticketliquidator.com/tickets/7785088/Metallica-tickets-Thu-Feb-18-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0yWTn",
@@ -522,7 +545,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785088"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785088",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785088/Metallica-tickets-Thu-Feb-18-2027-Sphere"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzr6g",
@@ -665,6 +689,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7785090",
+        "url": "https://www.ticketliquidator.com/tickets/7785090/Metallica-tickets-Thu-Feb-25-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0BuTi",
@@ -680,7 +711,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785090"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785090",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785090/Metallica-tickets-Thu-Feb-25-2027-Sphere"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzxff",
@@ -2517,6 +2549,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7775510",
+        "url": "https://www.ticketliquidator.com/tickets/7775510/Metallica-tickets-Thu-Nov-5-2026-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv048reZ72a62",
@@ -2532,7 +2571,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775510"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775510",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775510/Metallica-tickets-Thu-Nov-5-2026-Sphere"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rez72afa",
@@ -2762,6 +2802,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7785868",
+        "url": "https://www.ticketliquidator.com/tickets/7785868/Metallica-tickets-Thu-Mar-4-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0BuTU",
@@ -2777,7 +2824,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785868"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785868",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785868/Metallica-tickets-Thu-Mar-4-2027-Sphere"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzm6w",
@@ -2920,6 +2968,13 @@
         "verified": true,
         "last_verified_at": "2026-10-19",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7785870",
+        "url": "https://www.ticketliquidator.com/tickets/7785870/Metallica-tickets-Thu-Mar-11-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0BqTz",
@@ -2935,7 +2990,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785870"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785870",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785870/Metallica-tickets-Thu-Mar-11-2027-Sphere"
   },
   {
     "id": "tm-metallica-2027-raleigh-z7r9jz1aavwaj",

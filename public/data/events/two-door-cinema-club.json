@@ -1098,13 +1098,21 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8350435",
+        "url": "https://www.ticketliquidator.com/tickets/8350435/Two-Door-Cinema-Club-tickets-Sun-May-23-2027-Hollywood-Palladium",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_4GknBP_Nx",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-30T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350435"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350435",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8350435/Two-Door-Cinema-Club-tickets-Sun-May-23-2027-Hollywood-Palladium"
   },
   {
     "id": "tm-two-door-cinema-club-2027-del-mar-rz7hnez1afc70v",

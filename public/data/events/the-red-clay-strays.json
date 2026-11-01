@@ -3983,6 +3983,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8350368",
+        "url": "https://www.ticketliquidator.com/tickets/8350368/The-Red-Clay-Strays-tickets-Fri-Aug-20-2027-Hayden-Homes-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KwVCQCl",
@@ -4034,7 +4041,8 @@
         "end": "2027-08-16T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350368"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350368",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8350368/The-Red-Clay-Strays-tickets-Fri-Aug-20-2027-Hayden-Homes-Amphitheater"
   },
   {
     "id": "tm-the-red-clay-strays-2027-huntsville-z7r9jz1aa7svn",

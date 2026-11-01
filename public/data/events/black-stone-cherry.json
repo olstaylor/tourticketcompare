@@ -318,12 +318,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294989",
+        "url": "https://www.ticketliquidator.com/tickets/8294989/Black-Stone-Cherry-tickets-Fri-Nov-27-2026-Manchester-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_KGklcscxl",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294989"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294989",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294989/Black-Stone-Cherry-tickets-Fri-Nov-27-2026-Manchester-Music-Hall"
   },
   {
     "id": "tm-black-stone-cherry-2026-toronto-16tzkfzkozagevde",
@@ -432,12 +440,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294999",
+        "url": "https://www.ticketliquidator.com/tickets/8294999/Black-Stone-Cherry-tickets-Sat-Dec-5-2026-Webster-Underground",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAea0Z",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294999"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294999",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294999/Black-Stone-Cherry-tickets-Sat-Dec-5-2026-Webster-Underground"
   },
   {
     "id": "tm-black-stone-cherry-2026-columbus-z7r9jz1aae7be",
@@ -493,12 +509,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295002",
+        "url": "https://www.ticketliquidator.com/tickets/8295002/Black-Stone-Cherry-tickets-Sat-Dec-12-2026-The-King-of-Clubs-Columbus",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe7bE",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295002"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295002",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295002/Black-Stone-Cherry-tickets-Sat-Dec-12-2026-The-King-of-Clubs-Columbus"
   },
   {
     "id": "tm-black-stone-cherry-2027-bournemouth-g5dzz_g9ioeuq",
@@ -978,12 +1002,20 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7779272",
+        "url": "https://www.ticketliquidator.com/tickets/7779272/Black-Stone-Cherry-tickets-Mon-Feb-8-2027-Aberdeen-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkCAGkdNsiAc",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7779272"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7779272",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7779272/Black-Stone-Cherry-tickets-Mon-Feb-8-2027-Aberdeen-Music-Hall"
   },
   {
     "id": "tm-black-stone-cherry-2027-newcastle-upon-tyne-g5dzz_g10kk11",

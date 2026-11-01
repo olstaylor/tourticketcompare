@@ -48,11 +48,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8267874",
-        "url": "https://www.ticketliquidator.com/tickets/8267874/Karan-Aujla-tickets-Sat-Nov-7-2026-Golden-1-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107668612",
@@ -72,7 +72,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_3m-gnBM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267874/Karan-Aujla-tickets-Sat-Nov-7-2026-Golden-1-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-sacramento-tickets-11-7-2026/event/107668612",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -135,11 +135,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8267866",
-        "url": "https://www.ticketliquidator.com/tickets/8267866/Karan-Aujla-tickets-Mon-Nov-9-2026-Cryptocom-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107668616",
@@ -159,7 +159,7 @@
     "ticketmaster_discovery_event_id": "G5eYZ_3lgqZVb",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267866/Karan-Aujla-tickets-Mon-Nov-9-2026-Cryptocom-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-los-angeles-tickets-11-9-2026/event/107668616",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -222,11 +222,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8267876",
-        "url": "https://www.ticketliquidator.com/tickets/8267876/Karan-Aujla-tickets-Fri-Nov-13-2026-American-Airlines-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107669422",
@@ -246,7 +246,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_3R_E2aT",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267876/Karan-Aujla-tickets-Fri-Nov-13-2026-American-Airlines-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-dallas-tickets-11-13-2026/event/107669422",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -309,11 +309,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8267877",
-        "url": "https://www.ticketliquidator.com/tickets/8267877/Karan-Aujla-tickets-Mon-Nov-16-2026-State-Farm-Arena-GA",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107668599",
@@ -333,7 +333,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_3mYJGwO",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267877/Karan-Aujla-tickets-Mon-Nov-16-2026-State-Farm-Arena-GA",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-atlanta-tickets-11-16-2026/event/107668599",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -396,11 +396,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8267865",
-        "url": "https://www.ticketliquidator.com/tickets/8267865/Karan-Aujla-tickets-Wed-Nov-18-2026-Madison-Square-Garden",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107669421",
@@ -420,7 +420,7 @@
     "ticketmaster_discovery_event_id": "G5diZ_3IvACNR",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267865/Karan-Aujla-tickets-Wed-Nov-18-2026-Madison-Square-Garden",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-new-york-tickets-11-18-2026/event/107669421",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -488,11 +488,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8267878",
-        "url": "https://www.ticketliquidator.com/tickets/8267878/Karan-Aujla-tickets-Fri-Nov-20-2026-Capital-One-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107668604",
@@ -512,7 +512,7 @@
     "ticketmaster_discovery_event_id": "1A4ZkftGkdhKud5",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267878/Karan-Aujla-tickets-Fri-Nov-20-2026-Capital-One-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-washington-tickets-11-20-2026/event/107668604",
     "organizer_names": [
       "LIVE NATION MUSIC"

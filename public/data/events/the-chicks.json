@@ -263,11 +263,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7999839",
-        "url": "https://www.ticketliquidator.com/tickets/7999839/The-Chicks-tickets-Fri-Oct-30-2026-The-Masonic-San-Francisco",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -281,7 +281,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-chicks-san-francisco-tickets-10-30-2026/event/107409078",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7999839/The-Chicks-tickets-Fri-Oct-30-2026-The-Masonic-San-Francisco",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

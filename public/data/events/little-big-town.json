@@ -124,18 +124,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034494",
-        "url": "https://www.ticketliquidator.com/tickets/8034494/Little-Big-Town-tickets-Fri-Oct-30-2026-Sarofim-Hall-Hobby-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_G2cMeda",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034494/Little-Big-Town-tickets-Fri-Oct-30-2026-Sarofim-Hall-Hobby-Center"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-little-big-town-2026-dallas-vvg1yz_g1nt6fw",

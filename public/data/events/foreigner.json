@@ -55,18 +55,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7864777",
-        "url": "https://www.ticketliquidator.com/tickets/7864777/Foreigner-tickets-Fri-Oct-30-2026-The-Venue-At-Thunder-Valley-Casino-Resort",
-        "verified": true,
-        "last_verified_at": "2026-10-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_66kfcGC",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7864777/Foreigner-tickets-Fri-Oct-30-2026-The-Venue-At-Thunder-Valley-Casino-Resort"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-foreigner-2026-reno-1kc8v0otgacbkaa",

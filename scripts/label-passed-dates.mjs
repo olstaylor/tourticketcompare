@@ -10,7 +10,8 @@
 // What it changes: a Markdown table cell that holds nothing but a date ("31 October
 // 2026") which date-staleness.mjs reports as passed since the post was written
 // becomes "31 October 2026 (has passed)", the form the tables already use. Then it
-// sets `updated` to today, which clears the finding. It adds no fact: the date was
+// sets `updated` to today (or the day before the earliest date still to come, so that
+// date can be flagged when it passes), which clears the finding. It adds no fact: the date was
 // already there and the show has happened.
 //
 // What it never changes: sentences. "Twelve nights remain to 31 October" needs a
@@ -49,6 +50,20 @@ export function labelPassedTableDates(source, passedDates) {
   return { source: lines.join("\n"), labelled };
 }
 
+/**
+ * The `updated` value that clears today's findings without hiding tomorrow's.
+ * staleDatedCopy() reports only dates strictly after `updated`, so setting it to
+ * today would exempt a show dated today for good: it could never be flagged when
+ * it passes. Keep `updated` below the earliest date that has not passed yet
+ * (still at or after every date just labelled, which are all before today).
+ */
+export function updatedFor(source, today) {
+  const upcoming = namedDates(source).filter((date) => date >= today);
+  if (!upcoming.length) return today;
+  const dayBefore = new Date(Date.parse(`${upcoming[0]}T00:00:00Z`) - 86400000).toISOString().slice(0, 10);
+  return dayBefore < today ? dayBefore : today;
+}
+
 export function setUpdated(source, today) {
   if (/^updated:\s*.*$/m.test(source.split(/\n---/)[0])) return source.replace(/^updated:\s*.*$/m, `updated: ${today}`);
   return source.replace(/^(date:\s*.*)$/m, `$1\nupdated: ${today}`);
@@ -63,7 +78,7 @@ export function run({ root = ROOT, today = new Date().toISOString().slice(0, 10)
     const before = fs.readFileSync(file, "utf8");
     const { source, labelled } = labelPassedTableDates(before, finding.dates);
     if (!labelled) { needsEditor.push(finding); continue; }
-    const after = setUpdated(source, today);
+    const after = setUpdated(source, updatedFor(source, today));
     // Whatever is left (prose) would still be reported once `updated` moves, so
     // list it for an editor rather than hiding it behind the new date.
     const remaining = finding.dates.filter((date) => namedDates(after.split(/\n---\n/).slice(1).join("\n---\n").split("\n").filter((l) => !/^\s*\|/.test(l)).join("\n")).includes(date));
@@ -97,6 +112,9 @@ function selfTest() {
   ok("a cell with other words is left alone", labelPassedTableDates(mixed, ["2026-10-31"]).labelled === 0);
   ok("updated is replaced", setUpdated("---\ndate: 2026-10-01\nupdated: 2026-10-02\n---\nx", "2026-11-01").includes("updated: 2026-11-01"));
   ok("updated is added after date", setUpdated("---\ndate: 2026-10-01\nstatus: published\n---\nx", "2026-11-01").includes("date: 2026-10-01\nupdated: 2026-11-01"));
+  ok("updated is today when nothing is upcoming", updatedFor("| a | 31 October 2026 |", "2026-11-10") === "2026-11-10");
+  ok("updated stays below a date that is today", updatedFor("| a | 31 October 2026 |\n| b | 10 November 2026 |", "2026-11-10") === "2026-11-09");
+  ok("updated stays below a date in the future", updatedFor("| b | 12 November 2026 |", "2026-11-10") === "2026-11-10");
   const failed = checks.filter(([, pass]) => !pass);
   for (const [name, pass] of checks) console.log(`${pass ? "PASS" : "FAIL"}  ${name}`);
   if (failed.length) process.exit(1);

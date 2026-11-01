@@ -1199,7 +1199,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": ""
+    "stubhub_international_url": "",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-don-omar-2026-las-vegas-z7r9jz1a70eqs",
@@ -1276,7 +1277,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": ""
+    "stubhub_international_url": "",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-don-omar-2026-salt-lake-city-z7r9jz1a70efv",
@@ -1345,7 +1347,8 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": ""
+    "ticketliquidator_url": "",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-don-omar-2026-san-jose-g5vyz_1mqembe",
@@ -1363,7 +1366,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-san-jose-california-11-05-2026/event/1C0064ADDD0AE627",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1398,14 +1401,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1MqembE",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-22T17:00:00Z",
-        "end": "2026-10-30T00:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-don-omar-2026-inglewood-vvg10z_56fvyeu",

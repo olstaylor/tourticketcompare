@@ -441,7 +441,7 @@
     "city": "Winnipeg",
     "country": "Canada",
     "venue": "Canada Life Centre",
-    "datetime_iso": "2027-01-31T01:30:00Z",
+    "datetime_iso": "2027-01-31T00:30:00Z",
     "tour_name": "the lucky me tour",
     "ticketmaster_event_id": "1100644ABDD62163",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-winnipeg-manitoba-01-30-2027/event/1100644ABDD62163",
@@ -449,7 +449,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-winnipeg-canada-life-centre-1-30-2027--concerts-pop/production/6652472",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-winnipeg-manitoba-01-30-2027/event/1100644ABDD62163",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -513,7 +513,7 @@
       {
         "name": "VIP Packages Onsale",
         "start": "2026-02-20T16:00:00Z",
-        "end": "2027-01-26T04:00:00Z"
+        "end": "2027-01-26T03:00:00Z"
       }
     ],
     "organizer_names": [

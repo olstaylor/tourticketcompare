@@ -714,7 +714,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-detroit-michigan-11-01-2026/event/08006497A7C3A145",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -750,13 +750,6 @@
     "ticketmaster_discovery_event_id": "vv1AFZk39GkeEYBAA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-08T13:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

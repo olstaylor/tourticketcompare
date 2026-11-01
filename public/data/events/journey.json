@@ -1460,7 +1460,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-dallas-american-airlines-center---tx-11-20-2026--concerts-rock/production/7022113",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-dallas-texas-11-20-2026/event/0C0064A57D1347A3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1517,18 +1517,6 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_14W7VrN",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-15T15:00:00Z",
-        "end": "2026-10-30T22:00:00Z"
-      },
-      {
-        "name": "AARP Member Offer",
-        "start": "2026-08-28T12:00:00Z",
-        "end": "2026-10-30T22:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956784/Journey-tickets-Fri-Nov-20-2026-American-Airlines-Center",
     "stubhub_international_url": "https://www.stubhub.ie/journey-dallas-tickets-11-20-2026/event/107170294",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956784",

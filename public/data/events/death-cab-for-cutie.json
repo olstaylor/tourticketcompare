@@ -1907,7 +1907,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-columbus-wexner-center-for-the-arts---mershon-auditorium-3-29-2027/production/7747803",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-columbus-ohio-03-29-2027/event/05006554D792BA56",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1956,28 +1956,10 @@
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4fGkd90ltp",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338611/Death-Cab-for-Cutie-tickets-Mon-Mar-29-2027-Mershon-Auditorium-At-Wexner-Center-For-The-Arts",
     "organizer_names": [
       "AEG LIVE"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-28T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "PromoWest Presale",
-        "start": "2026-10-29T16:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-29T16:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338611"
   },
@@ -1997,7 +1979,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-charlottesville-ting-pavilion-4-14-2027/production/7747820",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-charlottesville-virginia-04-14-2027/event/010065547F0F3592",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2046,28 +2028,10 @@
     },
     "ticketmaster_discovery_event_id": "vv1A8vP46GA2dSp3",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338610/Death-Cab-for-Cutie-tickets-Wed-Apr-14-2027-Ting-Pavilion",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-28T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "Local Presale",
-        "start": "2026-10-29T16:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "Ting Presale",
-        "start": "2026-10-29T16:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338610"
   },

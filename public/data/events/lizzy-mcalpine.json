@@ -394,7 +394,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-durham-north-carolina-05-04-2027/event/2D006537DF9A769F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -431,11 +431,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "Artist Presale Wave 1",
-        "start": "2026-09-30T14:00:00Z",
-        "end": "2026-10-30T17:30:00Z"
-      },
       {
         "name": "Amex Reserved Tickets®",
         "start": "2026-10-02T14:00:00Z",

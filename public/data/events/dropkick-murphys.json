@@ -84,7 +84,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-tempe-marquee-theatre-2-6-2027/production/7624076",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-tempe-arizona-02-06-2027/event/190065359E8A4FAA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +135,17 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295207",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295207/Dropkick-Murphys-tickets-Sat-Feb-6-2027-Marquee-Theatre-AZ"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295207/Dropkick-Murphys-tickets-Sat-Feb-6-2027-Marquee-Theatre-AZ",
+    "organizer_names": [
+      "LUCKYMAN CONCERTS"
+    ],
+    "presales": [
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-31T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-del-mar-rz7hnez1afgypv",
@@ -222,7 +232,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-anaheim-house-of-blues-anaheim-2-9-2027/production/7624084",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-anaheim-california-02-09-2027/event/09006536F0B8F691",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273,7 +283,22 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295210",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295210/Dropkick-Murphys-tickets-Tue-Feb-9-2027-House-Of-Blues-Anaheim"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295210/Dropkick-Murphys-tickets-Tue-Feb-9-2027-House-Of-Blues-Anaheim",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-01-10T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-02-03T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-sacramento-g5vyz_k9fojar",
@@ -291,7 +316,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-sacramento-channel-24-2-10-2027/production/7624088",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-sacramento-california-02-10-2027/event/1C006535D446625E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -342,7 +367,22 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295211",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295211/Dropkick-Murphys-tickets-Wed-Feb-10-2027-Channel-24"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295211/Dropkick-Murphys-tickets-Wed-Feb-10-2027-Channel-24",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "presales": [
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-02-04T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-02-04T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-vancouver-z7r9jz1aaeopk",
@@ -482,7 +522,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-calgary-alberta-02-14-2027/event/110065378A2555F6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -517,7 +557,17 @@
     },
     "ticketmaster_discovery_event_id": "1k78vPuzGA1a49U",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "THE TOURING CO"
+    ],
+    "presales": [
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T16:00:00Z",
+        "end": "2027-02-08T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-edmonton-1aozkfygkesdhkn",
@@ -535,7 +585,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-edmonton-edmonton-convention-centre-2-16-2027/production/7624222",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-edmonton-alberta-02-16-2027/event/11006539B3EFC4E3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -586,7 +636,17 @@
     "timezone": "America/Edmonton",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295219",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295219/Dropkick-Murphys-tickets-Tue-Feb-16-2027-Edmonton-Convention-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295219/Dropkick-Murphys-tickets-Tue-Feb-16-2027-Edmonton-Convention-Centre",
+    "organizer_names": [
+      "THE TOURING CO"
+    ],
+    "presales": [
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T16:00:00Z",
+        "end": "2027-02-10T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-saskatoon-1aozkfmgke0_iup",
@@ -604,7 +664,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-saskatoon-sasktel-centre-2-17-2027/production/7624308",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-saskatoon-saskatchewan-02-17-2027/event/11006537A4668D96",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -655,7 +715,17 @@
     "timezone": "America/Swift_Current",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295220",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295220/Dropkick-Murphys-tickets-Wed-Feb-17-2027-SaskTel-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295220/Dropkick-Murphys-tickets-Wed-Feb-17-2027-SaskTel-Centre",
+    "organizer_names": [
+      "THE TOURING CO"
+    ],
+    "presales": [
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T16:00:00Z",
+        "end": "2027-02-11T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-winnipeg-1aozkfugkew6n6r",
@@ -673,7 +743,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-winnipeg-burton-cummings-theatre-2-18-2027/production/7624351",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-winnipeg-manitoba-02-18-2027/event/11006536BD1EA1DE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -724,7 +794,17 @@
     "timezone": "America/Winnipeg",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295221",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295221/Dropkick-Murphys-tickets-Thu-Feb-18-2027-Burton-Cummings-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295221/Dropkick-Murphys-tickets-Thu-Feb-18-2027-Burton-Cummings-Theatre",
+    "organizer_names": [
+      "THE TOURING CO"
+    ],
+    "presales": [
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-02-12T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-winnipeg-1aozkfugkewfq6x",
@@ -742,7 +822,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-winnipeg-burton-cummings-theatre-2-19-2027/production/7624192",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-winnipeg-manitoba-02-19-2027/event/11006536BD21A1E2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -793,7 +873,17 @@
     "timezone": "America/Winnipeg",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295223",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295223/Dropkick-Murphys-tickets-Fri-Feb-19-2027-Burton-Cummings-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295223/Dropkick-Murphys-tickets-Fri-Feb-19-2027-Burton-Cummings-Theatre",
+    "organizer_names": [
+      "THE TOURING CO"
+    ],
+    "presales": [
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-02-13T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-green-bay-z7r9jz1aaeopf",
@@ -933,7 +1023,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-grand-rapids-glc-live-at-20-monroe-2-24-2027/production/7624092",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-grand-rapids-michigan-02-24-2027/event/08006535BFC75054",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -984,7 +1074,22 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295212",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295212/Dropkick-Murphys-tickets-Wed-Feb-24-2027-GLC-Live-at-20-Monroe"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295212/Dropkick-Murphys-tickets-Wed-Feb-24-2027-GLC-Live-at-20-Monroe",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-01-28T03:00:00Z"
+      },
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-18T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-detroit-vv1afzkfggkemn0a8",
@@ -1002,7 +1107,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-detroit-the-fillmore-detroit-2-26-2027/production/7624100",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-detroit-michigan-02-26-2027/event/08006535AEAA4250",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1053,7 +1158,22 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295213",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295213/Dropkick-Murphys-tickets-Fri-Feb-26-2027-The-Fillmore-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295213/Dropkick-Murphys-tickets-Fri-Feb-26-2027-The-Fillmore-Detroit",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-01-30T03:00:00Z"
+      },
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-20T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-london-1a8zkfugkeybnv7",
@@ -1071,7 +1191,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-london-ontario-02-27-2027/event/10006536B062A044",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1106,7 +1226,17 @@
     },
     "ticketmaster_discovery_event_id": "1A8ZkfUGkeYbnv7",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "THE TOURING CO"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-toronto-1a8zkfygkdujro2",
@@ -1124,7 +1254,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-toronto-ontario-03-01-2027/event/10006539CD99E80F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1159,7 +1289,18 @@
     },
     "ticketmaster_discovery_event_id": "1A8ZkfyGkduJrO2",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "INK",
+      "THE TOURING CO"
+    ],
+    "presales": [
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-ottawa-16d7z_kj6g7s2ev",
@@ -1177,7 +1318,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-ottawa-ontario-03-02-2027/event/3100653707C4F081",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1212,7 +1353,18 @@
     },
     "ticketmaster_discovery_event_id": "16d7Z_Kj6G7s2ev",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-24T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-quebec-1aszkfzbgfozegk",
@@ -1230,7 +1382,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-quebec-city-capitole-theatre-3-3-2027--concerts-alternative/production/7625256",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-st-patricks-day-2027-quebec-quebec-03-03-2027/event/31006538635511B5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1281,7 +1433,17 @@
     "timezone": "America/Toronto",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295227",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295227/Dropkick-Murphys-tickets-Wed-Mar-3-2027-Le-Theatre-Capitole"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295227/Dropkick-Murphys-tickets-Wed-Mar-3-2027-Le-Theatre-Capitole",
+    "organizer_names": [
+      "THE TOURING CO"
+    ],
+    "presales": [
+      {
+        "name": "Forfait VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-24T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-quebec-1aszkfzbgoozeg5",
@@ -1299,7 +1461,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-quebec-city-capitole-theatre-3-4-2027--concerts-alternative/production/7625262",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-st-patricks-day-2027-quebec-quebec-03-04-2027/event/31006538635811BA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1350,7 +1512,17 @@
     "timezone": "America/Toronto",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295228",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295228/Dropkick-Murphys-tickets-Thu-Mar-4-2027-Le-Theatre-Capitole"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295228/Dropkick-Murphys-tickets-Thu-Mar-4-2027-Le-Theatre-Capitole",
+    "organizer_names": [
+      "THE TOURING CO"
+    ],
+    "presales": [
+      {
+        "name": "Forfait VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-25T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-montreal-1aszkfugkdv84mc",
@@ -1368,7 +1540,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-montreal-quebec-03-05-2027/event/31006536C1415DCE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1403,7 +1575,17 @@
     },
     "ticketmaster_discovery_event_id": "1AsZkfUGkdv84MC",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "THE TOURING CO"
+    ],
+    "presales": [
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-27T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-brooklyn-k7vgf_kictnjm",
@@ -1421,7 +1603,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-brooklyn-brooklyn-paramount-3-7-2027/production/7624104",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-brooklyn-new-york-03-07-2027/event/0000653B0EA63737",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1480,7 +1662,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295214",
     "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-brooklyn-tickets-3-7-2027/event/107671545",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295214/Dropkick-Murphys-tickets-Sun-Mar-7-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295214/Dropkick-Murphys-tickets-Sun-Mar-7-2027-Brooklyn-Paramount",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-08T03:00:00Z"
+      },
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-03-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-wilmington-vv1aezkfmgkexqysz",
@@ -1498,7 +1695,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-wilmington-the-queen-3-8-2027/production/7624110",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-wilmington-delaware-03-08-2027/event/02006537A2779C78",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1549,7 +1746,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295215",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295215/Dropkick-Murphys-tickets-Mon-Mar-8-2027-The-Queen-Wilmington"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295215/Dropkick-Murphys-tickets-Mon-Mar-8-2027-The-Queen-Wilmington",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-03-02T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-portland-vv177z_kgksaw-ns",
@@ -1567,7 +1771,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-portland-state-theatre-portland-3-11-2027/production/7624117",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-portland-maine-03-11-2027/event/0100653CC5CA1AB3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1618,7 +1822,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295216",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295216/Dropkick-Murphys-tickets-Thu-Mar-11-2027-State-Theatre-ME"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295216/Dropkick-Murphys-tickets-Thu-Mar-11-2027-State-Theatre-ME",
+    "presales": [
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-03-05T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfsgkdttsc_",
@@ -1636,7 +1847,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-boston-mgm-music-hall-at-fenway-3-12-2027--concerts-alternative/production/7696175",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-12-2027/event/01006533FFA73B59",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1695,7 +1906,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319718",
     "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-12-2027/event/107674838",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319718/Dropkick-Murphys-tickets-Fri-Mar-12-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319718/Dropkick-Murphys-tickets-Fri-Mar-12-2027-MGM-Music-Hall-at-Fenway-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfsgkdtcsmb",
@@ -1713,7 +1927,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mini-concert-with-dropkick-murphys-boston-massachusetts-03-13-2027/event/01006533FFB73BBA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1772,7 +1986,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319720",
     "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-13-2027/event/107674156",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319720/Dropkick-Murphys-tickets-Sat-Mar-13-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319720/Dropkick-Murphys-tickets-Sat-Mar-13-2027-MGM-Music-Hall-at-Fenway-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfmgketdy2c",
@@ -1790,7 +2007,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-boston-mgm-music-hall-at-fenway-3-14-2027--concerts-alternative/production/7696181",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-14-2027/event/01006537BF0F93CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1849,7 +2066,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319723",
     "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-14-2027/event/107674157",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319723/Dropkick-Murphys-tickets-Sun-Mar-14-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319723/Dropkick-Murphys-tickets-Sun-Mar-14-2027-MGM-Music-Hall-at-Fenway-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-08T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dropkick-murphys-2027-boston-vv1avzkfygkdomyjz",
@@ -1867,7 +2094,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-boston-citizens-house-of-blues-boston-3-17-2027--concerts-alternative/production/7696183",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-17-2027/event/01006539E0BB9980",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1926,6 +2153,16 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319724",
     "stubhub_international_url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-17-2027/event/107674954",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319724/Dropkick-Murphys-tickets-Wed-Mar-17-2027-Citizens-House-Of-Blues-Boston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319724/Dropkick-Murphys-tickets-Wed-Mar-17-2027-Citizens-House-Of-Blues-Boston",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Early Entry Package Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-11T03:00:00Z"
+      }
+    ]
   }
 ]

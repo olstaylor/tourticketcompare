@@ -418,7 +418,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-10-2027/production/7755456",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-10-2027/event/1700653D9EC2A4C9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453,7 +453,22 @@
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrYnKa",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-06T20:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-11T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkursnk8",
@@ -471,7 +486,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-12-2027/production/7755502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-12-2027/event/1700653D9EC6A4D0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -506,7 +521,22 @@
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrsnK8",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-08T20:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-13T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurwnkf",
@@ -524,7 +554,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-13-2027/production/7755492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-13-2027/event/1700653D9ECAA4D4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -559,7 +589,22 @@
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrwnKf",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-09T20:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-14T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkursnk_",
@@ -577,7 +622,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-17-2027/production/7755482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-17-2027/event/1700653D9ECEA4D9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -612,7 +657,22 @@
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrSnK_",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-13T20:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-18T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurvnkq",
@@ -630,7 +690,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-19-2027/production/7755454",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-19-2027/event/1700653D9ED2A4DD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -665,7 +725,22 @@
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrVnKq",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-15T19:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-20T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurgbki",
@@ -683,7 +758,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-20-2027/production/7755538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-50-years-of-hits-live-las-vegas-nevada-03-20-2027/event/1700653D9ED7A4E8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -718,7 +793,22 @@
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrgBKI",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-16T19:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-21T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-dublin-1kkzvpv9gacwy1_",
@@ -736,7 +826,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/foreigner-unplugged-dublin-12-04-2027/event/180065057EF79299",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -771,7 +861,10 @@
     },
     "ticketmaster_discovery_event_id": "1kkZvPv9GACWy1_",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-foreigner-2027-london-16djz_37gg7hhxi",
@@ -789,7 +882,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-london-london-palladium-4-14-2027/production/7527201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foreigner-london-14-04-2027/event/3700652135F3CFAC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -824,7 +917,10 @@
     },
     "ticketmaster_discovery_event_id": "16djZ_37gG7HHXi",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-foreigner-2027-new-york-g5diz_oohwwkw",
@@ -842,7 +938,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-new-york-beacon-theatre-4-27-2027/production/7500863",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-new-york-new-york-04-27-2027/event/3B0065147CCB21BD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -901,7 +997,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243091",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243091/Foreigner-tickets-Tue-Apr-27-2027-Beacon-Theatre-NY",
-    "stubhub_international_url": "https://www.stubhub.ie/foreigner-new-york-tickets-4-27-2027/event/107666197"
+    "stubhub_international_url": "https://www.stubhub.ie/foreigner-new-york-tickets-4-27-2027/event/107666197",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-09-03T14:00:00Z",
+        "end": "2027-04-23T16:00:00Z"
+      },
+      {
+        "name": "City National Bank Cardholder Preferred",
+        "start": "2026-09-03T14:00:00Z",
+        "end": "2027-04-28T00:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-montclair-vv1aezkf_gkded4lx",
@@ -919,7 +1030,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-montclair-wellmont-theater-4-28-2027/production/7501184",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-montclair-new-jersey-04-28-2027/event/02006519C20D5AE2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -954,7 +1065,14 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZkf_Gkded4lx",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-03T14:00:00Z",
+        "end": "2027-04-25T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-port-chester-g5vvz_ony3-go",
@@ -972,7 +1090,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-port-chester-new-york-04-30-2027/event/1D006518F04A1D60",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1007,7 +1125,22 @@
     },
     "ticketmaster_discovery_event_id": "G5vVZ_oNY3-gO",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-09-03T14:00:00Z",
+        "end": "2027-04-03T00:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-03T14:00:00Z",
+        "end": "2027-04-27T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-westbury-k7vgf_ocs3r5v",
@@ -1025,7 +1158,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-westbury-flagstar-at-westbury-music-fair-5-2-2027/production/7501061",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-westbury-new-york-05-02-2027/event/00006513B14AF2C1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1060,7 +1193,22 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_oCs3R5v",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2026-09-03T14:00:00Z",
+        "end": "2027-04-29T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-03T14:00:00Z",
+        "end": "2027-05-01T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-milwaukee-vv1a6zk4agkd5heh6",
@@ -1078,7 +1226,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-milwaukee-wisconsin-07-02-2027/event/07006549CBF276C7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1129,6 +1277,9 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318453",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318453/Foreigner-tickets-Fri-Jul-2-2027-BMO-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318453/Foreigner-tickets-Fri-Jul-2-2027-BMO-Pavilion",
+    "organizer_names": [
+      "SUMMERFEST PRODUCTIONS"
+    ]
   }
 ]

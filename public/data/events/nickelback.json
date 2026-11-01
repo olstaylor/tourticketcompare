@@ -4635,7 +4635,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-pokolbin-17-10-2027/event/1300655384931DF0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4671,6 +4671,26 @@
     "ticketmaster_discovery_event_id": "1avGZ_4C70sZdC8v",
     "timezone": "Australia/Sydney",
     "status": "announced",
-    "public_onsale_at": "2026-11-04T00:00:00Z"
+    "public_onsale_at": "2026-11-04T00:00:00Z",
+    "organizer_names": [
+      "FACE TO FACE TOURING"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-01T23:00:00Z",
+        "end": "2026-11-03T11:00:00Z"
+      },
+      {
+        "name": "Face to Face Presale",
+        "start": "2026-11-02T23:00:00Z",
+        "end": "2026-11-03T11:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-02T23:00:00Z",
+        "end": "2026-11-03T11:00:00Z"
+      }
+    ]
   }
 ]

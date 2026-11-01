@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-15-2027/event/1700632BE9F96094",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7496384",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7496384/Carin-Leon-tickets-Wed-Sep-15-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7496384/Carin-Leon-tickets-Wed-Sep-15-2027-Sphere",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-carin-leon-2027-las-vegas-1a9zkfpgkdqtn6j",
@@ -84,7 +85,7 @@
     "vividseats_url": "https://www.vividseats.com/carin-leon-tickets-las-vegas-sphere-at-the-venetian-resort-9-16-2027/production/7541683",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-16-2027/event/17006525DDFE31E6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +136,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258206",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258206/Carin-Leon-tickets-Thu-Sep-16-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258206/Carin-Leon-tickets-Thu-Sep-16-2027-Sphere",
+    "presales": [
+      {
+        "name": "Travel VIP Packages Onsale",
+        "start": "2026-09-17T17:00:00Z",
+        "end": "2027-08-27T00:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-17T17:00:00Z",
+        "end": "2027-08-27T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-carin-leon-2027-las-vegas-1a9zkfpgkdrskjz",
@@ -153,7 +166,7 @@
     "vividseats_url": "https://www.vividseats.com/carin-leon-tickets-las-vegas-sphere-at-the-venetian-resort-9-17-2027/production/7541681",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-17-2027/event/17006525DECD3700",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,7 +217,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258208",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258208/Carin-Leon-tickets-Fri-Sep-17-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258208/Carin-Leon-tickets-Fri-Sep-17-2027-Sphere",
+    "presales": [
+      {
+        "name": "Travel VIP Packages Onsale",
+        "start": "2026-09-17T17:00:00Z",
+        "end": "2027-08-28T00:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-17T17:00:00Z",
+        "end": "2027-08-28T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-carin-leon-2027-las-vegas-1a9zkfpgkdrgsj0",
@@ -222,7 +247,7 @@
     "vividseats_url": "https://www.vividseats.com/carin-leon-tickets-las-vegas-sphere-at-the-venetian-resort-9-18-2027/production/7541685",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carin-leon-las-vegas-nevada-09-18-2027/event/17006525DED73724",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273,6 +298,18 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258209",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258209/Carin-Leon-tickets-Sat-Sep-18-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258209/Carin-Leon-tickets-Sat-Sep-18-2027-Sphere",
+    "presales": [
+      {
+        "name": "Travel VIP Packages Onsale",
+        "start": "2026-09-17T17:00:00Z",
+        "end": "2027-08-29T00:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-17T17:00:00Z",
+        "end": "2027-08-29T00:00:00Z"
+      }
+    ]
   }
 ]

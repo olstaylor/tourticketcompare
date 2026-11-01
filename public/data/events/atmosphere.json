@@ -274,7 +274,7 @@
     "city": "Vancouver",
     "country": "Canada",
     "venue": "Commodore Ballroom",
-    "datetime_iso": "2027-01-27T02:00:00Z",
+    "datetime_iso": "2027-01-27T01:00:00Z",
     "tour_name": "The Winter Carnival Tour 2027",
     "ticketmaster_event_id": "1100652F902D7B36",
     "ticketmaster_url": "https://www.ticketmaster.ca/atmosphere-the-winter-carnival-tour-2027-vancouver-british-columbia-01-26-2027/event/1100652F902D7B36",
@@ -282,7 +282,7 @@
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-vancouver-commodore-ballroom-1-26-2027--concerts-rap-hip-hop/production/7588977",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/atmosphere-the-winter-carnival-tour-2027-vancouver-british-columbia-01-26-2027/event/1100652F902D7B36",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

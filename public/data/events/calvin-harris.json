@@ -222,7 +222,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-perth-17-02-2027/event/1300653981044F08",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -257,7 +257,10 @@
     },
     "ticketmaster_discovery_event_id": "1avGZ_KJvv7Zd8va",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "UNTITLED GROUP"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-perth-1avgz_3gkxss4fp",
@@ -275,7 +278,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-perth-18-02-2027/event/1300652FB1CD5525",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -310,7 +313,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_3GkXsS4fP",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "UNTITLED GROUP"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-bowen-hills-1avgz_3gkxc-fur",
@@ -328,7 +334,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-bowen-hills-19-02-2027/event/1300652FAD854D9E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363,7 +369,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_3GkXc-fUr",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "UNTITLED GROUP"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-sydney-1avgz_3gkxct3en",
@@ -381,7 +390,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-20-02-2027/event/1300652F8EFD20A3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416,7 +425,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_3GkXCT3eN",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "UNTITLED GROUP"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-sydney-1avgz_3gkt8zbnw",
@@ -434,7 +446,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-21-02-2027/event/1300652FD003AABD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -469,7 +481,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_3GkT8ZBnW",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "UNTITLED GROUP"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-sydney-1akzkfmgkdbb5z5",
@@ -487,7 +502,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-22-02-2027/event/13006537D860BE0B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -522,7 +537,10 @@
     },
     "ticketmaster_discovery_event_id": "1AKZkfMGkdbb5z5",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "UNTITLED GROUP"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-sydney-1akzkfmgkdbrdyf",
@@ -540,7 +558,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-23-02-2027/event/13006537D87BBE48",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -575,7 +593,10 @@
     },
     "ticketmaster_discovery_event_id": "1AKZkfMGkdbrDyF",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "UNTITLED GROUP"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-sydney-1akzkfugkdxptn8",
@@ -593,7 +614,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-sydney-24-02-2027/event/13006536E29698D0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -628,7 +649,10 @@
     },
     "ticketmaster_discovery_event_id": "1AKZkfUGkdxPtN8",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "UNTITLED GROUP"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-flemington-1apzkfugkdpmniz",
@@ -646,7 +670,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-flemington-25-02-2027/event/25006536E5BAAB00",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -681,7 +705,10 @@
     },
     "ticketmaster_discovery_event_id": "1APZkfUGkdPmniZ",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "UNTITLED GROUP"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-flemington-1aefz_3gkxmmgx4",
@@ -699,7 +726,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-flemington-26-02-2027/event/2500652FAEBB5F95",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -734,7 +761,10 @@
     },
     "ticketmaster_discovery_event_id": "1AefZ_3GkXmmgX4",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "UNTITLED GROUP"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-flemington-16efz_kefg7nkeo",
@@ -752,7 +782,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/calvin-harris-australia-tour-2027-flemington-28-02-2027/event/2500653094A93091",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -787,7 +817,10 @@
     },
     "ticketmaster_discovery_event_id": "16efZ_KefG7nKeo",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "UNTITLED GROUP"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-boston-vv117z_47a1fa9",
@@ -805,7 +838,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-boston-td-garden-3-31-2027--concerts-dance-electronica/production/7727463",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-03-31-2027/event/0100655109288157",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -864,7 +897,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332831",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-3-31-2027/event/107678077",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332831/Calvin-Harris-tickets-Wed-Mar-31-2027-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332831/Calvin-Harris-tickets-Wed-Mar-31-2027-TD-Garden",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2027-03-28T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-boston-vv1a8vp3aga2khl4",
@@ -882,7 +925,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-boston-td-garden-4-1-2027--concerts-dance-electronica/production/7697402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-04-01-2027/event/010065489F19B7D5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -941,7 +984,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319872",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-1-2027/event/107673765",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319872/Calvin-Harris-tickets-Thu-Apr-1-2027-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319872/Calvin-Harris-tickets-Thu-Apr-1-2027-TD-Garden",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2027-03-28T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-baltimore-1ka8vp3_ga2r9p0",
@@ -959,7 +1012,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-baltimore-cfg-bank-arena-4-2-2027--concerts-dance-electronica/production/7697391",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-baltimore-maryland-04-02-2027/event/150065499F7975A4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1018,7 +1071,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319873",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-baltimore-tickets-4-2-2027/event/107674374",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319873/Calvin-Harris-tickets-Fri-Apr-2-2027-CFG-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319873/Calvin-Harris-tickets-Fri-Apr-2-2027-CFG-Bank-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2027-03-29T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-boston-vv1a8vp49ga5l0kw",
@@ -1036,7 +1099,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-boston-td-garden-4-4-2027/production/7742575",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-04-04-2027/event/010065557B7E41BD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1095,7 +1158,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336942",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-boston-tickets-4-4-2027/event/107678078",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8336942/Calvin-Harris-tickets-Sun-Apr-4-2027-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8336942/Calvin-Harris-tickets-Sun-Apr-4-2027-TD-Garden",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2027-03-31T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-16yzk4k-yza5e8ka",
@@ -1113,7 +1186,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-6-2027/production/7727404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-06-2027/event/30006553879A1F54",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1172,7 +1245,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332603",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-6-2027/event/107678079",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332603/Calvin-Harris-tickets-Tue-Apr-6-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332603/Calvin-Harris-tickets-Tue-Apr-6-2027-Barclays-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2027-04-02T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-16dzz_4c6g7nsw_",
@@ -1190,7 +1273,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-7-2027--concerts-dance-electronica/production/7727467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-07-2027/event/3000655387AB1F59",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1249,7 +1332,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332913",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-7-2027/event/107675887",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332913/Calvin-Harris-tickets-Wed-Apr-7-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332913/Calvin-Harris-tickets-Wed-Apr-7-2027-Barclays-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2027-04-03T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-philadelphia-1ayzk4agkew8jvi",
@@ -1267,7 +1360,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-philadelphia-xfinity-mobile-arena-4-8-2027--concerts-dance-electronica/production/7697396",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-philadelphia-pennsylvania-04-08-2027/event/30006549BD426068",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1326,7 +1419,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319874",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-philadelphia-tickets-4-8-2027/event/107674366",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319874/Calvin-Harris-tickets-Thu-Apr-8-2027-Xfinity-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319874/Calvin-Harris-tickets-Thu-Apr-8-2027-Xfinity-Mobile-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2027-04-04T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-1ayzk4fgkeyujwu",
@@ -1344,7 +1447,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-9-2027--concerts-dance-electronica/production/7697398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-09-2027/event/30006548B9DA6C8D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1403,7 +1506,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319875",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-9-2027/event/107674362",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319875/Calvin-Harris-tickets-Fri-Apr-9-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319875/Calvin-Harris-tickets-Fri-Apr-9-2027-Barclays-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2027-04-05T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-brooklyn-16yzk4ov9zau1f7g",
@@ -1421,7 +1534,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-10-2027/production/7722849",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-10-2027/event/30006551057C973B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1480,7 +1593,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330028",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-10-2027/event/107677355",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8330028/Calvin-Harris-tickets-Sat-Apr-10-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8330028/Calvin-Harris-tickets-Sat-Apr-10-2027-Barclays-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2027-04-06T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-toronto-1a8zk4fgkevlxcb",
@@ -1498,7 +1621,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-toronto-scotiabank-arena-4-12-2027--concerts-dance-electronica/production/7697406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-toronto-ontario-04-12-2027/event/10006548B4AFEB7A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1533,7 +1656,20 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk4FGkeVlXcB",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2027-04-08T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-montreal-1ad7z_fxfqwzdua5",
@@ -1551,7 +1687,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-montreal-quebec-04-16-2027/event/3100654888772C8A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1602,7 +1738,20 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319891",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319891/Calvin-Harris-tickets-Fri-Apr-16-2027-Centre-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319891/Calvin-Harris-tickets-Fri-Apr-16-2027-Centre-Bell",
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "presales": [
+      {
+        "name": "Forfaits VIP Packages",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2027-04-12T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-hamilton-1a8zk4agkd5cdnl",
@@ -1620,7 +1769,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-hamilton-td-coliseum-4-17-2027/production/7697514",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-hamilton-ontario-04-17-2027/event/10006549CB383A9F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1655,7 +1804,20 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk4aGkd5CdnL",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T16:00:00Z",
+        "end": "2027-04-08T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-houston-z7r9jz1aa76pk",
@@ -1673,7 +1835,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-houston-toyota-center---tx-4-23-2027--concerts-dance-electronica/production/7697373",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76Pk",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1724,7 +1886,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319876",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319876/Calvin-Harris-tickets-Fri-Apr-23-2027-Toyota-Center-TX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319876/Calvin-Harris-tickets-Fri-Apr-23-2027-Toyota-Center-TX",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-fort-worth-vvg1yz_flvwxhm",
@@ -1742,7 +1907,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-fort-worth-texas-04-24-2027/event/0C006547F4CBE6F7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1801,7 +1966,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319878",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319878/Calvin-Harris-tickets-Sat-Apr-24-2027-Ariat-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-fort-worth-tickets-4-24-2027/event/107674373"
+    "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-fort-worth-tickets-4-24-2027/event/107674373",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2027-04-20T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-austin-g5diz_fjhnaqg",
@@ -1819,7 +1994,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-austin-moody-center-atx-4-25-2027--concerts-dance-electronica/production/7697360",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-austin-texas-04-25-2027/event/3A006549BC8C568C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1878,7 +2053,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319880",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-austin-tickets-4-25-2027/event/107673761",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319880/Calvin-Harris-tickets-Sun-Apr-25-2027-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319880/Calvin-Harris-tickets-Sun-Apr-25-2027-Moody-Center-ATX",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2027-04-21T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-saint-paul-z7r9jz1aa76pf",
@@ -1896,7 +2081,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-saint-paul-grand-casino-arena-4-29-2027--concerts-dance-electronica/production/7697379",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76PF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1955,7 +2140,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319881",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-saint-paul-tickets-4-29-2027/event/107677510",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319881/Calvin-Harris-tickets-Thu-Apr-29-2027-Grand-Casino-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319881/Calvin-Harris-tickets-Thu-Apr-29-2027-Grand-Casino-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-chicago-vv1a7zk4fgkdzmu0d",
@@ -1973,7 +2161,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-chicago-united-center-4-30-2027--concerts-dance-electronica/production/7697375",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-chicago-illinois-04-30-2027/event/04006548C0DCD93B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2032,7 +2220,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319882",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-4-30-2027/event/107673764",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319882/Calvin-Harris-tickets-Fri-Apr-30-2027-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319882/Calvin-Harris-tickets-Fri-Apr-30-2027-United-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2027-04-26T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-chicago-vv167zk4319zac1ud5",
@@ -2050,7 +2248,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-chicago-united-center-5-2-2027--concerts-dance-electronica/production/7727680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-chicago-illinois-05-02-2027/event/04006552297D9C2A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2109,7 +2307,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333136",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-chicago-tickets-5-2-2027/event/107675891",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333136/Calvin-Harris-tickets-Sun-May-2-2027-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333136/Calvin-Harris-tickets-Sun-May-2-2027-United-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-22T17:00:00Z",
+        "end": "2027-04-28T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-salt-lake-city-z7r9jz1aa76p8",
@@ -2127,7 +2335,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-salt-lake-city-delta-center-5-5-2027--concerts-dance-electronica/production/7697381",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76P8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2186,7 +2394,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319883",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-salt-lake-city-tickets-5-5-2027/event/107674370",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319883/Calvin-Harris-tickets-Wed-May-5-2027-Delta-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319883/Calvin-Harris-tickets-Wed-May-5-2027-Delta-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-oakland-g5vyz_fh6tm8u",
@@ -2204,7 +2415,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-oakland-oakland-arena-5-7-2027--concerts-dance-electronica/production/7697400",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-07-2027/event/1C006546C7A6E40D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2263,7 +2474,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319885",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-oakland-tickets-5-7-2027/event/107673758",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319885/Calvin-Harris-tickets-Fri-May-7-2027-Oakland-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319885/Calvin-Harris-tickets-Fri-May-7-2027-Oakland-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-03T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-oakland-g5vyz_4drjlsj",
@@ -2281,7 +2502,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-oakland-oakland-arena-5-8-2027/production/7728777",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-08-2027/event/1C006550EF72BC66",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2332,7 +2553,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333276",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333276/Calvin-Harris-tickets-Sat-May-8-2027-Oakland-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333276/Calvin-Harris-tickets-Sat-May-8-2027-Oakland-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-04T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-oakland-g5vyz_4cwzdxp",
@@ -2350,7 +2581,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-oakland-oakland-arena-5-9-2027/production/7728807",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-09-2027/event/1C006553BDE03896",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2401,7 +2632,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333281",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333281/Calvin-Harris-tickets-Sun-May-9-2027-Oakland-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333281/Calvin-Harris-tickets-Sun-May-9-2027-Oakland-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-05T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-seattle-vvg1hz_fjlgmb1",
@@ -2419,7 +2660,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-seattle-climate-pledge-arena-5-14-2027--concerts-dance-electronica/production/7697404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-seattle-washington-05-14-2027/event/0F0065499FD7760A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2478,7 +2719,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319886",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-14-2027/event/107673763",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319886/Calvin-Harris-tickets-Fri-May-14-2027-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319886/Calvin-Harris-tickets-Fri-May-14-2027-Climate-Pledge-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-10T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-seattle-vvg1hz_48c3k9c",
@@ -2496,7 +2747,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-seattle-climate-pledge-arena-5-15-2027/production/7744012",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-seattle-washington-05-15-2027/event/0F0065540E4935CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2555,7 +2806,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336941",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-seattle-tickets-5-15-2027/event/107675892",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8336941/Calvin-Harris-tickets-Sat-May-15-2027-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8336941/Calvin-Harris-tickets-Sat-May-15-2027-Climate-Pledge-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-11T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-vancouver-1aozk46gkdf4hov",
@@ -2573,7 +2834,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-vancouver-rogers-arena-5-16-2027--concerts-dance-electronica/production/7697417",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-vancouver-british-columbia-05-16-2027/event/11006547C855B801",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2624,7 +2885,20 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319893",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319893/Calvin-Harris-tickets-Sun-May-16-2027-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319893/Calvin-Harris-tickets-Sun-May-16-2027-Rogers-Arena",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-12T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-vancouver-1k78vpfmgagddrz",
@@ -2642,7 +2916,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-vancouver-rogers-arena-5-17-2027/production/7743249",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-vancouver-british-columbia-05-17-2027/event/110065537CEC3BC0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2693,7 +2967,20 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336944",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8336944/Calvin-Harris-tickets-Mon-May-17-2027-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8336944/Calvin-Harris-tickets-Mon-May-17-2027-Rogers-Arena",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-13T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-anaheim-vv1aazk44gkdgr8bi",
@@ -2711,7 +2998,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-anaheim-honda-center-5-20-2027/production/7745730",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-anaheim-california-05-20-2027/event/09006555CCBD0EA8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2770,7 +3057,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337412",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-anaheim-tickets-5-20-2027/event/107675893",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337412/Calvin-Harris-tickets-Thu-May-20-2027-Honda-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337412/Calvin-Harris-tickets-Thu-May-20-2027-Honda-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-16T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-san-diego-vvg1iz_fqlbaqn",
@@ -2788,7 +3085,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-21-2027/event/0A0065469F60976A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2839,7 +3136,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319887",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319887/Calvin-Harris-tickets-Fri-May-21-2027-Viejas-Arena-At-Aztec-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319887/Calvin-Harris-tickets-Fri-May-21-2027-Viejas-Arena-At-Aztec-Bowl",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-17T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-san-diego-vvg1iz_4dbvmwb",
@@ -2857,7 +3164,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-22-2027/event/0A006550FA06EF7A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2908,7 +3215,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333282",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333282/Calvin-Harris-tickets-Sat-May-22-2027-Viejas-Arena-At-Aztec-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333282/Calvin-Harris-tickets-Sat-May-22-2027-Viejas-Arena-At-Aztec-Bowl",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-18T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-san-diego-vvg1iz_45bbb-k",
@@ -2926,7 +3243,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-23-2027/event/0A006552D8618846",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2977,7 +3294,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333283",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333283/Calvin-Harris-tickets-Sun-May-23-2027-Viejas-Arena-At-Aztec-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333283/Calvin-Harris-tickets-Sun-May-23-2027-Viejas-Arena-At-Aztec-Bowl",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-19T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1f0z_48vcazd8d1",
@@ -2995,7 +3322,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-26-2027/production/7743385",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-26-2027/event/0900655401385F29",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3054,7 +3381,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8336943",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-26-2027/event/107675896",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8336943/Calvin-Harris-tickets-Wed-May-26-2027-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8336943/Calvin-Harris-tickets-Wed-May-26-2027-The-Kia-Forum",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-26T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk4fgkebghyq",
@@ -3072,7 +3409,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-27-2027--concerts-dance-electronica/production/7697385",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-27-2027/event/09006548BAD7CE5D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3131,7 +3468,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319888",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-27-2027/event/107673759",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319888/Calvin-Harris-tickets-Thu-May-27-2027-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319888/Calvin-Harris-tickets-Thu-May-27-2027-The-Kia-Forum",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-23T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd68xic",
@@ -3149,7 +3496,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-28-2027/production/7723105",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-28-2027/event/09006550C743EB0E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3208,7 +3555,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8330024",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-28-2027/event/107677401",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8330024/Calvin-Harris-tickets-Fri-May-28-2027-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8330024/Calvin-Harris-tickets-Fri-May-28-2027-The-Kia-Forum",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-24T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd6fcij",
@@ -3226,7 +3583,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-29-2027--concerts-dance-electronica/production/7728620",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-29-2027/event/09006550C750EB26",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3285,7 +3642,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333280",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-29-2027/event/107675897",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333280/Calvin-Harris-tickets-Sat-May-29-2027-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333280/Calvin-Harris-tickets-Sat-May-29-2027-The-Kia-Forum",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-25T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-calvin-harris-2027-inglewood-vv1aazk48gkd69rc1",
@@ -3303,7 +3670,7 @@
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-inglewood-kia-forum-5-30-2027--concerts-dance-electronica/production/7728622",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-inglewood-california-05-30-2027/event/09006550C75DEB4A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3362,6 +3729,16 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333277",
     "stubhub_international_url": "https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-30-2027/event/107675898",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333277/Calvin-Harris-tickets-Sun-May-30-2027-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333277/Calvin-Harris-tickets-Sun-May-30-2027-The-Kia-Forum",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-22T19:00:00Z",
+        "end": "2027-05-26T19:00:00Z"
+      }
+    ]
   }
 ]

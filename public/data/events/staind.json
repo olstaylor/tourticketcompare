@@ -2609,7 +2609,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-evansville-ford-center-evansville-4-14-2027/production/7658929",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-evansville-indiana-04-14-2027/event/0500653ED26DE11F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2669,6 +2669,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-04-10T03:00:00Z"
+      },
+      {
+        "name": "Spooky Savings",
+        "start": "2026-10-28T15:00:00Z",
+        "end": "2026-11-03T05:59:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308791",

@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/cage-the-elephant-dying-in-reverse-tour-tickets/1356567682?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16vup4EQe",
     "timezone": "Europe/Warsaw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation sp. z o.o."
+    ]
   },
   {
     "id": "tm-cage-the-elephant-2027-milano-zg9rmiynyzdfvd",
@@ -121,7 +124,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-cardiff-22-02-2027/event/3600652788BE2090",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +159,10 @@
     },
     "ticketmaster_discovery_event_id": "16dbZ_3rFG7Rxe8",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ]
   },
   {
     "id": "tm-cage-the-elephant-2027-leeds-g5dzz_350zpr-",
@@ -174,7 +180,7 @@
     "vividseats_url": "https://www.vividseats.com/cage-the-elephant-tickets-leeds-o2-academy---leeds-2-23-2027/production/7536887",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-leeds-23-02-2027/event/3E006522E4E16BE1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -217,7 +223,11 @@
     "ticketmaster_discovery_event_id": "G5dzZ_350zpR-",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-leeds-o2-academy-leeds-23-2-2027/event/107667232"
+    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-leeds-o2-academy-leeds-23-2-2027/event/107667232",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY LEEDS)"
+    ]
   },
   {
     "id": "tm-cage-the-elephant-2027-glasgow-g5dzz_3kn7sp1",
@@ -235,7 +245,7 @@
     "vividseats_url": "https://www.vividseats.com/cage-the-elephant-tickets-glasgow-o2-academy-glasgow-2-25-2027/production/7536881",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-glasgow-25-02-2027/event/3E006521AA13394A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278,7 +288,11 @@
     "ticketmaster_discovery_event_id": "G5dzZ_3kn7SP1",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-glasgow-o2-academy-glasgow-25-2-2027/event/107667233"
+    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-glasgow-o2-academy-glasgow-25-2-2027/event/107667233",
+    "organizer_names": [
+      "DF CONCERTS",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY GLASGOW)"
+    ]
   },
   {
     "id": "tm-cage-the-elephant-2027-birmingham-g5dzz_3k0lkkh",
@@ -296,7 +310,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-birmingham-26-02-2027/event/3E006521A47D34DB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -355,7 +369,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265885",
     "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-birmingham-o2-academy-birmingham-26-2-2027/event/107667235",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265885/Cage-The-Elephant-tickets-Fri-Feb-26-2027-O2-Academy-Birmingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265885/Cage-The-Elephant-tickets-Fri-Feb-26-2027-O2-Academy-Birmingham",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)"
+    ]
   },
   {
     "id": "tm-cage-the-elephant-2027-manchester-g5dzz_3374s3o",
@@ -373,7 +391,7 @@
     "vividseats_url": "https://www.vividseats.com/cage-the-elephant-tickets-manchester-o2-victoria-warehouse-2-28-2027/production/7536889",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-manchester-28-02-2027/event/3E00652484571491",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424,7 +442,11 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254819",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8254819/Cage-The-Elephant-tickets-Sun-Feb-28-2027-O2-Victoria-Warehouse-Manchester"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8254819/Cage-The-Elephant-tickets-Sun-Feb-28-2027-O2-Victoria-Warehouse-Manchester",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY VICTORIA WAREHOUSE MANCHESTER)"
+    ]
   },
   {
     "id": "tm-cage-the-elephant-2027-london-g5vhz_3r6zval",
@@ -442,7 +464,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-london-01-03-2027/event/1F00652787E0116B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -485,6 +507,9 @@
     "ticketmaster_discovery_event_id": "G5vHZ_3r6zvAl",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-london-alexandra-palace-1-3-2027/event/107667230"
+    "stubhub_international_url": "https://www.stubhub.ie/cage-the-elephant-tickets-london-alexandra-palace-1-3-2027/event/107667230",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ]
   }
 ]

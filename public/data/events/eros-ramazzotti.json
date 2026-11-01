@@ -298,7 +298,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-rosemont-illinois-10-05-2027/event/04006282A80D1B64",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -356,13 +356,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "AISLE SEAT OFFER",
-        "start": "2025-04-21T15:00:00Z",
-        "end": "2026-10-29T01:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7091994",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091994/Eros-Ramazzotti-tickets-Tue-Oct-5-2027-Rosemont-Theatre",
     "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-rosemont-tickets-10-5-2027/event/106747121"

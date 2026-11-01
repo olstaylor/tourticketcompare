@@ -3763,7 +3763,7 @@
     "city": "Vancouver",
     "country": "Canada",
     "venue": "Commodore Ballroom",
-    "datetime_iso": "2027-02-26T03:00:00Z",
+    "datetime_iso": "2027-02-26T02:00:00Z",
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "110064A5B5FEB876",
     "ticketmaster_url": "https://www.ticketmaster.ca/blue-october-vancouver-british-columbia-02-25-2027/event/110064A5B5FEB876",
@@ -3771,7 +3771,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blue-october-vancouver-british-columbia-02-25-2027/event/110064A5B5FEB876",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

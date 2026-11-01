@@ -349,15 +349,15 @@
     "city": "Highland",
     "country": "United States Of America",
     "venue": "Yaamava Theater",
-    "datetime_iso": "2026-10-30T03:00:00Z",
+    "datetime_iso": "2026-11-07T04:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7P6r4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6r4",
-    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2026-10-29-8-pm/concert/18266705",
-    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-10-29-2026/production/7080417",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6r4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -369,18 +369,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18266705,
-        "url": "https://seatgeek.com/tom-jones-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2026-10-29-8-pm/concert/18266705",
-        "verified": true,
-        "last_verified_at": "2026-10-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7080417,
-        "url": "https://www.vividseats.com/tom-jones-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-10-29-2026/production/7080417",
-        "verified": true,
-        "last_verified_at": "2026-10-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "stubhub": {
         "event_id": null,
@@ -408,7 +408,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "ticketnetwork_url": ""
+    "ticketnetwork_url": "",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-tom-jones-2026-wheatland-g5vyz_1uw3ukc",
@@ -480,7 +481,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": ""
+    "ticketnetwork_url": "",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-tom-jones-2026-san-francisco-g5vyz_5d9skqu",
@@ -560,6 +562,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": ""
+    "ticketnetwork_url": "",
+    "ticketmaster_status_code": "postponed"
   }
 ]

@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phish-new-york-new-york-12-30-2026/event/3B00653D12D41F7C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -74,7 +74,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311023",
     "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311023/Phish-tickets-Wed-Dec-30-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311023/Phish-tickets-Wed-Dec-30-2026-Madison-Square-Garden",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-phish-2027-new-york-g5diz_kv3mvxa",
@@ -92,7 +95,7 @@
     "vividseats_url": "https://www.vividseats.com/phish-tickets-new-york-madison-square-garden-12-31-2026--concerts-rock/production/7666269",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phish-new-york-new-york-12-31-2026/event/3B00653D12DC1F89",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -151,7 +154,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311024",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311024/Phish-tickets-Thu-Dec-31-2026-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-12-31-2026/event/107672200"
+    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-12-31-2026/event/107672200",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-phish-2027-new-york-g5diz_kv3yvxl",
@@ -169,7 +175,7 @@
     "vividseats_url": "https://www.vividseats.com/phish-tickets-new-york-madison-square-garden-1-1-2027--concerts-rock/production/7666271",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phish-new-york-new-york-01-01-2027/event/3B00653D12E41F9F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -228,7 +234,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311025",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311025/Phish-tickets-Fri-Jan-1-2027-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-1-1-2027/event/107672780"
+    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-1-1-2027/event/107672780",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-phish-2027-new-york-g5diz_kv3dvxt",
@@ -246,7 +255,7 @@
     "vividseats_url": "https://www.vividseats.com/phish-tickets-new-york-madison-square-garden-1-2-2027--concerts-rock/production/7666273",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phish-new-york-new-york-01-02-2027/event/3B00653D12EC1FA9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -305,6 +314,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311027",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311027/Phish-tickets-Sat-Jan-2-2027-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-1-2-2027/event/107672781"
+    "stubhub_international_url": "https://www.stubhub.ie/phish-new-york-tickets-1-2-2027/event/107672781",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

@@ -1059,7 +1059,7 @@
     "vividseats_url": "https://www.vividseats.com/the-eagles-tickets-las-vegas-sphere-1-8-2027--concerts-adult-contemporary/production/7726271",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-08-2027/event/17006542EDDFB8F3",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1115,38 +1115,12 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4eGkdcMDNS",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T17:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332074/The-Eagles-tickets-Fri-Jan-8-2027-Sphere",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "On The List VIP Package Presale",
-        "start": "2026-10-28T17:00:00Z",
-        "end": "2026-10-30T05:00:00Z"
-      },
-      {
-        "name": "Seated Presale",
-        "start": "2026-10-28T17:00:00Z",
-        "end": "2026-10-30T16:59:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-29T17:00:00Z",
-        "end": "2026-10-30T16:59:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-29T17:00:00Z",
-        "end": "2026-10-30T16:59:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-29T17:00:00Z",
-        "end": "2026-10-30T16:59:00Z"
-      },
       {
         "name": "On The List VIP Package Onsale",
         "start": "2026-10-30T17:00:00Z",
@@ -1172,7 +1146,7 @@
     "vividseats_url": "https://www.vividseats.com/the-eagles-tickets-las-vegas-sphere-1-9-2027--concerts-adult-contemporary/production/7726273",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-09-2027/event/17006542EE15B950",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1228,38 +1202,12 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4eGkdmAhP8",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T17:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332075/The-Eagles-tickets-Sat-Jan-9-2027-Sphere",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "On The List VIP Package Presale",
-        "start": "2026-10-28T17:00:00Z",
-        "end": "2026-10-30T05:00:00Z"
-      },
-      {
-        "name": "Seated Presale",
-        "start": "2026-10-28T17:00:00Z",
-        "end": "2026-10-30T16:59:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-29T17:00:00Z",
-        "end": "2026-10-30T16:59:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-29T17:00:00Z",
-        "end": "2026-10-30T16:59:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-29T17:00:00Z",
-        "end": "2026-10-30T16:59:00Z"
-      },
       {
         "name": "On The List VIP Package Onsale",
         "start": "2026-10-30T17:00:00Z",

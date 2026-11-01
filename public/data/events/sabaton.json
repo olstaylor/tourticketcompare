@@ -993,7 +993,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-dallas-texas-11-06-2026/event/0C006328DC3C27CE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1051,13 +1051,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-09-19T15:00:00Z",
-        "end": "2026-10-31T03:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410005",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410005/Sabaton-tickets-Fri-Nov-6-2026-South-Side-Ballroom-at-Gilleys",
     "stubhub_international_url": "https://www.stubhub.ie/sabaton-dallas-tickets-11-6-2026/event/107457434",
@@ -1081,7 +1074,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-houston-texas-11-07-2026/event/3A00632ADE944917",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1139,18 +1132,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "VIP Packages Presale",
-        "start": "2025-09-15T16:00:00Z",
-        "end": "2026-11-01T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2025-09-19T15:00:00Z",
-        "end": "2026-11-01T03:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410004",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410004/Sabaton-tickets-Sat-Nov-7-2026-713-Music-Hall",
     "stubhub_international_url": "https://www.stubhub.ie/sabaton-houston-tickets-11-7-2026/event/107457435",
@@ -1407,7 +1388,7 @@
     "city": "Salt Lake City",
     "country": "United States Of America",
     "venue": "The Union",
-    "datetime_iso": "2026-11-18T02:00:00Z",
+    "datetime_iso": "2026-11-18T01:30:00Z",
     "tour_name": "Legends On Tour",
     "ticketmaster_event_id": "1E006328C1141760",
     "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-salt-lake-city-utah-11-17-2026/event/1E006328C1141760",
@@ -1415,7 +1396,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-salt-lake-city-utah-11-17-2026/event/1E006328C1141760",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1477,7 +1458,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410010/Sabaton-tickets-Tue-Nov-17-2026-The-Union-Event-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "previous_start_date": "2026-11-18T02:00:00Z",
+    "previous_start_timezone": "America/Denver"
   },
   {
     "id": "tm-sabaton-2026-omaha-1aozkgigkedlvji",
@@ -1495,7 +1478,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-omaha-nebraska-11-20-2026/event/20006328BBAC19A8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1547,11 +1530,6 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2025-09-19T15:00:00Z",
-        "end": "2026-10-31T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2025-09-19T15:00:00Z",
@@ -1904,7 +1882,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-saint-louis-missouri-11-27-2026/event/2100632BB3A10AC9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1942,16 +1920,6 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2025-09-19T15:00:00Z",
-        "end": "2026-10-28T03:00:00Z"
-      },
-      {
-        "name": "Verizon Access Select Seat",
-        "start": "2025-09-19T15:00:00Z",
-        "end": "2026-10-28T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2025-09-19T15:00:00Z",

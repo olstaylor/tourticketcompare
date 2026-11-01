@@ -744,7 +744,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-asbury-park-stone-pony-11-6-2026/production/7291723",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-asbury-park-new-jersey-11-06-2026/event/000064E100957069",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -780,13 +780,6 @@
     "ticketmaster_discovery_event_id": "k7vGF_C7ZP9vt",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-17T04:00:00Z",
-        "end": "2026-10-30T03:55:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

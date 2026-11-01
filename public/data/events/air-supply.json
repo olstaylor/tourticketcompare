@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-medford-massachusetts-11-05-2026/event/0100647AD2C52B9C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7841429",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7841429/Air-Supply-tickets-Thu-Nov-5-2026-Chevalier-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7841429/Air-Supply-tickets-Thu-Nov-5-2026-Chevalier-Theatre",
+    "organizer_names": [
+      "COMEDY CONNECTION"
+    ]
   },
   {
     "id": "tm-air-supply-2026-easton-z7r9jz1a70afy",
@@ -206,7 +209,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-oxon-hill-the-theater-at-mgm-national-harbor-11-13-2026/production/7199199",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-national-harbor-maryland-11-13-2026/event/150064C5AA57A431",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -257,7 +260,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071982",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071982/Air-Supply-tickets-Fri-Nov-13-2026-The-Theater-at-MGM-National-Harbor"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071982/Air-Supply-tickets-Fri-Nov-13-2026-The-Theater-at-MGM-National-Harbor",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-26T14:00:00Z",
+        "end": "2026-11-07T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2026-westbury-k7vgf_fkzchcp",
@@ -275,7 +288,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-westbury-flagstar-at-westbury-music-fair-11-14-2026/production/6956190",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-westbury-new-york-11-14-2026/event/00006484C03BC3A5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -310,7 +323,22 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_FKZCHCP",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-01T14:00:00Z",
+        "end": "2026-11-08T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-01T14:00:00Z",
+        "end": "2026-11-14T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2026-red-bank-g5vvz_1bj0ggl",
@@ -328,7 +356,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-red-bank-hackensack-meridian-health-theatre-at-the-count-basie-center-11-15-2026/production/7079634",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-red-bank-new-jersey-11-15-2026/event/1D0064AEA693531F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379,7 +407,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997065",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997065/Air-Supply-tickets-Sun-Nov-15-2026-Hackensack-Meridian-Health-Theatre-at-the-Count-Basie-Center-for-the-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997065/Air-Supply-tickets-Sun-Nov-15-2026-Hackensack-Meridian-Health-Theatre-at-the-Count-Basie-Center-for-the-Arts",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-29T14:00:00Z",
+        "end": "2026-11-09T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2026-orlando-z7r9jz1aazdae",
@@ -588,7 +623,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/air-supply-the-50th-anniversary-celebration-auckland-15-12-2026/event/240064BBE2CB349A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -623,7 +658,10 @@
     },
     "ticketmaster_discovery_event_id": "17aZv0G65RxwS3Q",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AUCKLAND LIVE"
+    ]
   },
   {
     "id": "tm-air-supply-2027-fort-pierce-vvg1vz_8hv66ia",
@@ -641,7 +679,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-fort-pierce-sunrise-theatre-1-21-2027--concerts-pop/production/7411746",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-fort-pierce-florida-01-21-2027/event/0D006506C11C7A09",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -692,7 +730,11 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199121",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199121/Air-Supply-tickets-Thu-Jan-21-2027-Sunrise-Theatre-FL"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199121/Air-Supply-tickets-Thu-Jan-21-2027-Sunrise-Theatre-FL",
+    "organizer_names": [
+      "VENUWORKS CORPORATE",
+      "AEG PRESENTS"
+    ]
   },
   {
     "id": "tm-air-supply-2027-daytona-beach-z7r9jz1a7pozg",
@@ -832,7 +874,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-1-29-2027/production/7619872",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-hollywood-florida-01-29-2027/event/0D00652FD999E602",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -891,7 +933,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293949",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293949/Air-Supply-tickets-Fri-Jan-29-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/air-supply-hollywood-tickets-1-29-2027/event/107670677"
+    "stubhub_international_url": "https://www.stubhub.ie/air-supply-hollywood-tickets-1-29-2027/event/107670677",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-01-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-immokalee-vvg1vz_2x6gs2d",
@@ -909,7 +958,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-immokalee-florida-01-30-2027/event/0D0064F8873333FB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -944,7 +993,17 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_2x6GS2D",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-07T14:00:00Z",
+        "end": "2027-01-24T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-rockford-17f8v0g62es30d4",
@@ -962,7 +1021,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-rockford-hard-rock-live---rockford-2-5-2027/production/7411024",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-rockford-illinois-02-05-2027/event/210064F0B34A4ED5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1013,7 +1072,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8193701",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8193701/Air-Supply-tickets-Fri-Feb-5-2027-Hard-Rock-Live-Rockford"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8193701/Air-Supply-tickets-Fri-Feb-5-2027-Hard-Rock-Live-Rockford",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-14T15:00:00Z",
+        "end": "2027-01-30T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-wisconsin-dells-z7r9jz1a7x_ez",
@@ -1084,7 +1150,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-waukegan-genesee-theatre-2-7-2027/production/7474307",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-waukegan-illinois-02-07-2027/event/070064E9E1443EE2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1135,7 +1201,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231497",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231497/Air-Supply-tickets-Sun-Feb-7-2027-Genesee-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231497/Air-Supply-tickets-Sun-Feb-7-2027-Genesee-Theatre",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-28T15:00:00Z",
+        "end": "2027-02-01T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-rancho-mirage-vv1aazkffgkd9xjwx",
@@ -1153,7 +1226,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-rancho-mirage-the-show---agua-caliente-casino-2-13-2027/production/7479852",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-rancho-mirage-california-02-13-2027/event/09006514D7F9CCA2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1204,7 +1277,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238782",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238782/Air-Supply-tickets-Sat-Feb-13-2027-The-Show-Agua-Caliente-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238782/Air-Supply-tickets-Sat-Feb-13-2027-The-Show-Agua-Caliente-Casino",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-28T17:00:00Z",
+        "end": "2027-02-08T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-abbotsford-1k78vp18gau9wma",
@@ -1222,7 +1302,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-abbotsford-rogers-forum-2-18-2027--concerts-pop/production/7559666",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-abbotsford-british-columbia-02-18-2027/event/110065290D5FDDC5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1273,7 +1353,19 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8274264",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8274264/Air-Supply-tickets-Thu-Feb-18-2027-Rogers-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8274264/Air-Supply-tickets-Thu-Feb-18-2027-Rogers-Forum",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-18T17:00:00Z",
+        "end": "2027-02-12T05:00:00Z"
+      },
+      {
+        "name": "Official Platinum Onsale",
+        "start": "2026-09-18T17:00:00Z",
+        "end": "2027-02-19T04:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-dawson-creek-z7r9jz1aavmfk",
@@ -1450,7 +1542,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-winnipeg-canada-life-centre-2-28-2027--concerts-pop/production/7559672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-winnipeg-manitoba-02-28-2027/event/11006529C87392ED",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1501,7 +1593,14 @@
     "timezone": "America/Winnipeg",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8274110",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8274110/Air-Supply-tickets-Sun-Feb-28-2027-Canada-Life-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8274110/Air-Supply-tickets-Sun-Feb-28-2027-Canada-Life-Centre",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-02-22T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-ottawa-1ad7z_3gksa1dub",
@@ -1519,7 +1618,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-gloucester-hard-rock-hotel-and-casino-ottawa-3-3-2027--concerts-pop/production/7559686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-ottawa-ontario-03-03-2027/event/3100652CC92BB37A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1554,7 +1653,23 @@
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GkSa1DuB",
     "timezone": "America/Montreal",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-18T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-25T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-rama-1avzz_3gkn3a6sv",
@@ -1572,7 +1687,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-with-special-guest-glass-rama-ontario-03-05-2027/event/1000652A92247C74",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1607,7 +1722,19 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_3Gkn3a6sV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-02-27T03:00:00Z"
+      },
+      {
+        "name": "Ticket Deals Offer",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2027-01-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-toronto-1avzz_3gkws1scj",
@@ -1625,7 +1752,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-toronto-ontario-03-06-2027/event/1000652CB32B13A6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1660,7 +1787,20 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_3GkwS1sCJ",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-27T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-windsor-1avzz_3gki_rnez",
@@ -1678,7 +1818,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-windsor-the-colosseum-at-caesars-windsor-3-7-2027--concerts-pop/production/7559692",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-windsor-ontario-03-07-2027/event/1000652A197A3080",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1713,7 +1853,17 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_3GkI_rNeZ",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-27T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-saint-louis-vv1akzkftgkdvwrkv",
@@ -1731,7 +1881,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-saint-louis-missouri-05-23-2027/event/06006529C1F5E4F4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1766,6 +1916,13 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZkftGkdvWrKV",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-05-17T03:00:00Z"
+      }
+    ]
   }
 ]

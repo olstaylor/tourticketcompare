@@ -1219,7 +1219,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/weezer-the-gathering-worldwide-auckland-07-03-2027/event/240065573012B9A2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1255,6 +1255,28 @@
     "ticketmaster_discovery_event_id": "1FaZvP4SZ3Z7G15d",
     "timezone": "Pacific/Auckland",
     "status": "announced",
-    "public_onsale_at": "2026-11-05T22:00:00Z"
+    "public_onsale_at": "2026-11-05T22:00:00Z",
+    "presales": [
+      {
+        "name": "Weezer Fan Club Presale",
+        "start": "2026-11-03T20:00:00Z",
+        "end": "2026-11-04T19:00:00Z"
+      },
+      {
+        "name": "Destroy All Lines Presale",
+        "start": "2026-11-03T21:00:00Z",
+        "end": "2026-11-04T19:00:00Z"
+      },
+      {
+        "name": "My Ticketmaster Presale",
+        "start": "2026-11-04T20:00:00Z",
+        "end": "2026-11-05T19:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-04T20:00:00Z",
+        "end": "2026-11-05T19:00:00Z"
+      }
+    ]
   }
 ]

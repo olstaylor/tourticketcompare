@@ -790,7 +790,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1691238050?language=en-us",
-    "last_verified_at": "2026-10-26",
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -832,37 +832,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vQoFzv8",
     "timezone": "Europe/Berlin",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation GmbH"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-27T09:00:00Z",
-        "end": "2026-10-30T09:00:00Z"
-      },
-      {
-        "name": "PayPal Prio Tickets",
-        "start": "2026-10-28T09:00:00Z",
-        "end": "2026-10-30T09:00:00Z"
-      },
-      {
-        "name": "Telekom Prio Tickets",
-        "start": "2026-10-28T09:00:00Z",
-        "end": "2026-10-30T09:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-10-29T09:00:00Z",
-        "end": "2026-10-30T09:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-29T09:00:00Z",
-        "end": "2026-10-30T09:00:00Z"
-      }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-nurnberg-psd-bank-nurnberg-arena-5-5-2027/event/107676064"
   },
@@ -882,7 +854,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-casalecchio-di-reno-bologna-08-05-2027/event/59jdmitw5833",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -917,8 +889,7 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZFFde",
     "timezone": "Europe/Rome",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T09:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-praha-9-z698xzu0z1k788y-z",
@@ -936,7 +907,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/110430840?language=en-us",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -971,27 +942,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z1k788Y-Z",
     "timezone": "Europe/Prague",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-27T09:00:00Z",
-        "end": "2026-10-30T07:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-10-29T09:00:00Z",
-        "end": "2026-10-30T07:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-10-29T09:00:00Z",
-        "end": "2026-10-30T07:00:00Z"
-      }
     ]
   },
   {

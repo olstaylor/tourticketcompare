@@ -382,7 +382,7 @@
     "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-new-york-madison-square-garden-5-1-2027/production/7673638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-new-york-new-york-05-01-2027/event/3B006546A82E4535",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -433,11 +433,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-10-16T14:00:00Z",
-        "end": "2026-10-31T02:00:00Z"
-      },
       {
         "name": "Chase Cardholder Preferred Tickets",
         "start": "2026-10-16T14:00:00Z",

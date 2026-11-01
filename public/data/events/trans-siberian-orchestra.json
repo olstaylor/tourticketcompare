@@ -168,7 +168,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-cincinnati-ohio-11-21-2026/event/16006514CCD7E77F",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -223,11 +223,6 @@
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-08T03:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "organizer_names": [
@@ -252,7 +247,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C7C2B996",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -307,11 +302,6 @@
         "name": "T-Mobile® Concert Perks",
         "start": "2026-09-18T16:00:00Z",
         "end": "2026-11-08T05:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T16:00:00Z",
-        "end": "2026-11-01T04:00:00Z"
       }
     ],
     "organizer_names": [
@@ -336,7 +326,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-youngstown-ohio-11-22-2026/event/05006505CF0325BF",
-    "last_verified_at": "2026-10-26",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391,11 +381,6 @@
         "name": "T-Mobile Offer",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-09T03:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "organizer_names": [
@@ -489,7 +474,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-wilkes-barre-mohegan-arena-at-casey-plaza-11-24-2026/production/7536513",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-wilkes-barre-pennsylvania-11-24-2026/event/0200650D8FD3BB4E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -545,11 +530,6 @@
         "name": "T-Mobile $99 All-In Offer",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-11T03:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-20T14:00:00Z",
-        "end": "2026-10-28T03:59:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255046/Trans-Siberian-Orchestra-tickets-Tue-Nov-24-2026-Mohegan-Arena-at-Casey-Plaza"
@@ -570,7 +550,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-manchester-new-hampshire-11-27-2026/event/01006514AD3A08EB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -622,11 +602,6 @@
     "status": "on-sale",
     "presales": [
       {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-10-31T02:00:00Z"
-      },
-      {
         "name": "T-Mobile® Concert Perks",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-14T03:00:00Z"
@@ -654,7 +629,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-boise-idaho-11-27-2026/event/1E006507D287756D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -700,16 +675,6 @@
         "name": "Aisle Seat Upgrade",
         "start": "2026-09-17T16:00:00Z",
         "end": "2026-11-27T06:59:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T16:00:00Z",
-        "end": "2026-10-31T04:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T16:00:00Z",
-        "end": "2026-11-01T04:00:00Z"
       }
     ],
     "organizer_names": [
@@ -732,7 +697,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-worcester-massachusetts-11-28-2026/event/01006504C76593A1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -782,13 +747,6 @@
     "ticketmaster_discovery_event_id": "vv1AvZkf7Gkd6__C-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -811,7 +769,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-portland-oregon-11-28-2026/event/0F00650BD3A8B790",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -863,19 +821,9 @@
     "status": "on-sale",
     "presales": [
       {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T17:00:00Z",
-        "end": "2026-11-01T05:00:00Z"
-      },
-      {
         "name": "Preferred Seating Onsale",
         "start": "2026-09-18T17:00:00Z",
         "end": "2026-11-24T00:30:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T17:00:00Z",
-        "end": "2026-11-01T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -976,7 +924,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-seattle-washington-11-29-2026/event/0F00650EA2EC8956",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1036,11 +984,6 @@
         "name": "T-Mobile Offer",
         "start": "2026-09-18T17:00:00Z",
         "end": "2026-11-16T06:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T17:00:00Z",
-        "end": "2026-11-01T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -1149,7 +1092,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-nashville-bridgestone-arena-12-2-2026/production/7536635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-nashville-tennessee-12-02-2026/event/1B00651B2A7F1795",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1222,11 +1165,6 @@
         "end": "2026-12-02T04:00:00Z"
       },
       {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-11-01T03:00:00Z"
-      },
-      {
         "name": "Lowe's Discount Ticket Offer",
         "start": "2026-11-10T15:00:00Z",
         "end": "2026-12-01T01:30:00Z"
@@ -1253,7 +1191,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-charleston-charleston-coliseum-and-convention-center-12-3-2026/production/7536609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charleston-west-virginia-12-03-2026/event/1600650CA03760B5",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1315,11 +1253,6 @@
         "name": "T-Mobile Offer",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-13T19:30:00Z",
-        "end": "2026-11-01T02:00:00Z"
       },
       {
         "name": "Lowe's Discount Ticket Offer",
@@ -1426,7 +1359,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-toledo-ohio-12-04-2026/event/080065059ECB5292",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1481,11 +1414,6 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-07T03:00:00Z"
-      },
-      {
-        "name": "TSO Scary Good Deal Offer",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "organizer_names": [
@@ -1510,7 +1438,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-columbus-ohio-12-05-2026/event/0500650DA86C688D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1565,11 +1493,6 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-08T03:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "organizer_names": [
@@ -1647,7 +1570,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-grand-rapids-michigan-12-06-2026/event/0800650CD46A85A3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1702,11 +1625,6 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-09T03:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "organizer_names": [
@@ -1731,7 +1649,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-phoenix-arizona-12-06-2026/event/1900650CCFD932FF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1786,11 +1704,6 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-18T17:00:00Z",
         "end": "2026-11-09T05:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T17:00:00Z",
-        "end": "2026-11-01T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -1894,7 +1807,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-austin-moody-center-atx-12-9-2026/production/7536643",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-austin-texas-12-09-2026/event/3A006510C43173A4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1963,11 +1876,6 @@
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T15:00:00Z",
         "end": "2026-11-26T04:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-11-01T03:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255081/Trans-Siberian-Orchestra-tickets-Wed-Dec-9-2026-Moody-Center-ATX",
@@ -1991,7 +1899,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-raleigh-lenovo-center-12-10-2026--concerts-world-music/production/7536791",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-raleigh-north-carolina-12-10-2026/event/2D0064FCA708BBA4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2060,11 +1968,6 @@
         "name": "T-Mobile® Concert Perks",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-27T03:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255082/Trans-Siberian-Orchestra-tickets-Thu-Dec-10-2026-Lenovo-Center",
@@ -2318,7 +2221,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlotte-north-carolina-12-12-2026/event/2D006511DF4864ED",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2378,11 +2281,6 @@
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-12T19:30:00Z"
-      },
-      {
-        "name": "Scary Good Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "organizer_names": [
@@ -2407,7 +2305,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-san-antonio-texas-12-12-2026/event/3A00650695046E4B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2462,11 +2360,6 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-18T15:00:00Z",
         "end": "2026-11-15T04:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-14T15:00:00Z",
-        "end": "2026-11-01T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -2491,7 +2384,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-duluth-georgia-12-13-2026/event/0E00650786114C1D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2546,11 +2439,6 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-16T03:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "organizer_names": [
@@ -2575,7 +2463,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-dallas-texas-12-13-2026/event/0C00650E8C60591D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2635,11 +2523,6 @@
         "name": "T-Mobile® Concerts Perk Offer",
         "start": "2026-09-18T15:00:00Z",
         "end": "2026-11-30T04:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-11-01T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -2664,7 +2547,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-charlottesville-john-paul-jones-arena-12-16-2026--concerts-world-music/production/7536731",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlottesville-virginia-12-16-2026/event/0100651CDD7E5A42",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2725,11 +2608,6 @@
         "name": "T-Mobile Concert Perks Offer",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-13T03:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255100/Trans-Siberian-Orchestra-tickets-Wed-Dec-16-2026-John-Paul-Jones-Arena",
@@ -2753,7 +2631,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-birmingham-legacy-arena-at-the-bjcc-12-16-2026/production/7536607",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-birmingham-alabama-12-16-2026/event/2000651393381D8C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2812,13 +2690,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255101",
     "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-north-birmingham-tickets-12-16-2026/event/107667920",
-    "presales": [
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-11-01T03:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255101/Trans-Siberian-Orchestra-tickets-Wed-Dec-16-2026-Legacy-Arena-at-The-BJCC",
     "organizer_names": [
       "LIVE NATION MUSIC",
@@ -2841,7 +2712,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-jacksonville-vystar-veterans-memorial-arena-12-17-2026/production/7536615",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-jacksonville-florida-12-17-2026/event/2200651CB8B35463",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2902,11 +2773,6 @@
         "name": "T-Mobile® Concert Perks",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-04T03:00:00Z"
-      },
-      {
-        "name": "Scary Good Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255102/Trans-Siberian-Orchestra-tickets-Thu-Dec-17-2026-VyStar-Veterans-Memorial-Arena",
@@ -3011,7 +2877,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-hershey-pennsylvania-12-18-2026/event/020065188D2D8218",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3076,11 +2942,6 @@
         "name": "$10 Off Trans-Siberian Orchestra Limited",
         "start": "2026-10-05T16:00:00Z",
         "end": "2026-12-18T15:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "organizer_names": [
@@ -3185,7 +3046,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-orlando-florida-12-19-2026/event/2200650DC5CE36DD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3240,11 +3101,6 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-22T03:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "organizer_names": [
@@ -3348,7 +3204,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-philadelphia-pennsylvania-12-20-2026/event/3000650EA5605BDF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3408,11 +3264,6 @@
         "name": "T-Mobile $99 All In Offer",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-07T03:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "organizer_names": [
@@ -3437,7 +3288,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-tampa-florida-12-20-2026/event/0D0065118D3F3D8C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3497,11 +3348,6 @@
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-07T03:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "organizer_names": [
@@ -3682,7 +3528,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-detroit-michigan-12-23-2026/event/0800650C01D5B80D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3742,11 +3588,6 @@
         "name": "T-Mobile® Concert Perks",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-10T03:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-11-01T02:00:00Z"
       }
     ],
     "organizer_names": [
@@ -3771,7 +3612,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-rosemont-illinois-12-23-2026/event/04006514F18898A2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3836,11 +3677,6 @@
         "name": "Preferred Seating",
         "start": "2026-09-18T15:00:00Z",
         "end": "2026-12-23T21:45:00Z"
-      },
-      {
-        "name": "TSO Halloween Offer",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-11-01T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -3941,7 +3777,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-milwaukee-wisconsin-12-26-2026/event/07006511DA5B60C1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3996,11 +3832,6 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-18T15:00:00Z",
         "end": "2026-11-29T04:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-11-01T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -4115,7 +3946,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-minneapolis-minnesota-12-27-2026/event/06006518ABE7B1FE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4175,11 +4006,6 @@
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T15:00:00Z",
         "end": "2026-12-14T04:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-11-01T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -4415,7 +4241,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-kansas-city-missouri-12-29-2026/event/060065198EC83CB6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4480,11 +4306,6 @@
         "name": "Preferred Seating",
         "start": "2026-09-18T15:00:00Z",
         "end": "2026-12-29T16:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-11-01T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -4585,7 +4406,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-saint-louis-missouri-12-30-2026/event/06006518DECC3331",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4631,11 +4452,6 @@
         "name": "T-Mobile® Concert Perks",
         "start": "2026-09-18T15:00:00Z",
         "end": "2026-12-17T04:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-11-01T03:00:00Z"
       }
     ],
     "organizer_names": [

@@ -822,7 +822,7 @@
     "city": "Vancouver",
     "country": "Canada",
     "venue": "Commodore Ballroom",
-    "datetime_iso": "2027-02-25T03:00:00Z",
+    "datetime_iso": "2027-02-25T02:00:00Z",
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652E92F16D17",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
@@ -830,7 +830,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-vancouver-commodore-ballroom-2-24-2027--concerts-rock/production/7579442",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -886,22 +886,22 @@
       {
         "name": "Front of the Line Reserved Amex Tickets",
         "start": "2026-09-25T17:00:00Z",
-        "end": "2027-02-11T06:00:00Z"
+        "end": "2027-02-11T05:00:00Z"
       },
       {
         "name": "RBCx Preferred Tickets",
         "start": "2026-09-25T17:00:00Z",
-        "end": "2027-02-11T06:00:00Z"
+        "end": "2027-02-11T05:00:00Z"
       },
       {
         "name": "Rogers Customer Exclusive Tickets",
         "start": "2026-09-25T17:00:00Z",
-        "end": "2027-02-11T06:00:00Z"
+        "end": "2027-02-11T05:00:00Z"
       },
       {
         "name": "VIP Package Onsale",
         "start": "2026-09-25T17:00:00Z",
-        "end": "2027-02-17T07:55:00Z"
+        "end": "2027-02-17T06:55:00Z"
       }
     ],
     "organizer_names": [

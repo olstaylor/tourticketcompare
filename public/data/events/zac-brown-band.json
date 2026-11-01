@@ -225,7 +225,7 @@
     "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-detroit-little-caesars-arena-11-6-2026--concerts-country-and-folk/production/6579006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-detroit-michigan-11-06-2026/event/08006434E81E7407",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -288,13 +288,6 @@
       "AEG LIVE",
       "THE MESSINA GROUP (TMG)"
     ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-01-30T15:00:00Z",
-        "end": "2026-10-27T21:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7703261"
   },
   {
@@ -313,7 +306,7 @@
     "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-lincoln-pinnacle-bank-arena-11-19-2026--concerts-country-and-folk/production/6579008",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-lincoln-nebraska-11-19-2026/event/06006432246D711C",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -368,16 +361,6 @@
       "THE MESSINA GROUP (TMG)"
     ],
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-01-30T16:00:00Z",
-        "end": "2026-10-29T22:00:00Z"
-      },
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-01-30T16:00:00Z",
-        "end": "2026-10-29T22:00:00Z"
-      },
       {
         "name": "MVAS Cruise Offer",
         "start": "2026-07-20T15:00:00Z",
@@ -476,7 +459,7 @@
     "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-rosemont-allstate-arena-11-21-2026--concerts-country-and-folk/production/6579013",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-rosemont-illinois-11-21-2026/event/04006431DF0D8823",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -537,13 +520,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703263/Zac-Brown-Band-tickets-Sat-Nov-21-2026-Allstate-Arena",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-01-30T16:00:00Z",
-        "end": "2026-10-30T22:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7703263"
   },

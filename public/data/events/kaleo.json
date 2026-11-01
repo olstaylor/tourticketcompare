@@ -68,7 +68,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/kaleo-way-down-under-we-go-brisbane-15-02-2027/event/13006514AE884D36",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +103,10 @@
     },
     "ticketmaster_discovery_event_id": "1AKZkffGkemx7VU",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FRONTIER TOURING COMPANY"
+    ]
   },
   {
     "id": "tm-kaleo-2027-auckland-1a0zkfkgkeyf3yh",
@@ -121,7 +124,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/kaleo-way-down-under-we-go-auckland-18-02-2027/event/24006513B9212C1B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +159,10 @@
     },
     "ticketmaster_discovery_event_id": "1A0ZkfKGkeyF3Yh",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AUCKLAND LIVE"
+    ]
   },
   {
     "id": "tm-kaleo-2027-oslo-z698xzb_z1kaejyfv",
@@ -174,7 +180,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/kaleo-way-down-we-go-tour-tickets/267730534?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +215,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z1kaEjYfV",
     "timezone": "Europe/Oslo",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Auditorium AS (Rockefeller / John Dee / Sentrum Scene)"
+    ]
   },
   {
     "id": "tm-kaleo-2027-oslo-z698xzb_z16v0wbofv",
@@ -227,7 +236,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/kaleo-way-down-we-go-tour-tickets/1932620501?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -262,7 +271,17 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16v0wbOfv",
     "timezone": "Europe/Oslo",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Auditorium AS (Rockefeller / John Dee / Sentrum Scene)"
+    ],
+    "presales": [
+      {
+        "name": "Mastercard® Presale",
+        "start": "2026-07-01T08:00:00Z",
+        "end": "2027-07-03T07:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kaleo-2027-brussels-z698xzg2z16vjkuafp",
@@ -280,7 +299,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/kaleo-way-down-we-go-tour-tickets/1986345216",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +334,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16vJkuAFp",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation"
+    ]
   },
   {
     "id": "tm-kaleo-2027-brussels-z698xzg2z16v_0_u-k",
@@ -333,7 +355,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/kaleo-way-down-we-go-tour-tickets/1664676853",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +390,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16v_0_U-K",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation"
+    ]
   },
   {
     "id": "tm-kaleo-2027-madrid-z698xz2qz1kuvp4rv",
@@ -386,7 +411,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/kaleo-way-down-we-go-tour-tickets/341955781?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -429,7 +454,10 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kuvP4rv",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-madrid-live-las-ventas-plaza-de-toros-de-las-ventas-14-3-2027/event/107447689"
+    "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-madrid-live-las-ventas-plaza-de-toros-de-las-ventas-14-3-2027/event/107447689",
+    "organizer_names": [
+      "Live Nation España S.A.U."
+    ]
   },
   {
     "id": "tm-kaleo-2027-barcelona-z698xz2qz1koa3fud",
@@ -447,7 +475,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/kaleo-way-down-we-go-tour-tickets/449488343?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -482,7 +510,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1koa3Fud",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation España S.A.U."
+    ]
   },
   {
     "id": "tm-kaleo-2027-milano-zg9rmiynyzdeke",
@@ -553,7 +584,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/kaleo-way-down-we-go-tour-tickets/618161993?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -588,7 +619,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1kbbA-JK",
     "timezone": "Europe/Warsaw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation sp. z o.o."
+    ]
   },
   {
     "id": "tm-kaleo-2027-praha-8-z698xzu0z1kauc3vb",
@@ -606,7 +640,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/kaleo--way-down-we-go-tour-tickets/276392058?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -641,7 +675,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z1kaUC3vb",
     "timezone": "Europe/Prague",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CZECH REPUBLIC s.r.o."
+    ]
   },
   {
     "id": "tm-kaleo-2027-zurich-z698xzu3z16vqkfsq4",
@@ -659,7 +696,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ch/event/kaleo-way-down-we-go-tour-tickets/1686531695?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -694,7 +731,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z16vQkfsQ4",
     "timezone": "Europe/Zurich",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Schweiz AG"
+    ]
   },
   {
     "id": "tm-kaleo-2027-vienna-z698xz5rz16vr81eow",
@@ -712,7 +752,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/kaleo-way-down-we-go-tour-tickets/1790282472?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -747,7 +787,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ5rZ16vr81eow",
     "timezone": "Europe/Vienna",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Austria GmbH"
+    ]
   },
   {
     "id": "tm-kaleo-2027-berlin-z698xzc2z1ku0c686",
@@ -765,7 +808,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/kaleo-way-down-we-go-tour-tickets/364387407?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -800,7 +843,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1ku0C686",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Trinity Music GmbH"
+    ]
   },
   {
     "id": "tm-kaleo-2027-amsterdam-z698xzbpz16v8--tpb",
@@ -818,7 +864,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/kaleo-way-down-we-go-tour-tickets/1421869958?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -877,7 +923,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098853",
     "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-amsterdam-ziggo-dome-30-3-2027/event/107418043",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098853/Kaleo-tickets-Tue-Mar-30-2027-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098853/Kaleo-tickets-Tue-Mar-30-2027-Ziggo-Dome",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-kaleo-2027-london-g5dzz_uxmo7c5",
@@ -895,7 +944,7 @@
     "vividseats_url": "https://www.vividseats.com/kaleo-tickets-london-o2-academy-brixton-4-3-2027/production/7256394",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-london-03-04-2027/event/3E0064D8AE444B4B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -954,7 +1003,12 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098553",
     "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-london-o2-academy-brixton-3-4-2027/event/107417949",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098553/Kaleo-tickets-Sat-Apr-3-2027-O2-Academy-Brixton"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098553/Kaleo-tickets-Sat-Apr-3-2027-O2-Academy-Brixton",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-kaleo-2027-manchester-17uov0g6ulnuuct",
@@ -972,7 +1026,7 @@
     "vividseats_url": "https://www.vividseats.com/kaleo-tickets-manchester-o2-apollo-manchester-4-6-2027/production/7256336",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-manchester-06-04-2027/event/360064D7E334D3A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1031,7 +1085,12 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098554",
     "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-manchester-o2-apollo-manchester-6-4-2027/event/107417929",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098554/Kaleo-tickets-Tue-Apr-6-2027-O2-Apollo-Manchester"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098554/Kaleo-tickets-Tue-Apr-6-2027-O2-Apollo-Manchester",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "LIVE NATION MUSIC (VENUES) LTD (NEW)",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-kaleo-2027-glasgow-g5dzz_ujz8jhw",
@@ -1049,7 +1108,7 @@
     "vividseats_url": "https://www.vividseats.com/kaleo-tickets-glasgow-o2-academy-glasgow-4-8-2027/production/7256348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-glasgow-08-04-2027/event/3E0064D9B8426F3D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1108,7 +1167,12 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098555",
     "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-glasgow-o2-academy-glasgow-8-4-2027/event/107447610",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098555/Kaleo-tickets-Thu-Apr-8-2027-O2-Academy-Glasgow"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098555/Kaleo-tickets-Thu-Apr-8-2027-O2-Academy-Glasgow",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY GLASGOW)",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-kaleo-2027-birmingham-g5dzz_u5ehmmb",
@@ -1126,7 +1190,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kaleo-way-down-we-go-tour-birmingham-09-04-2027/event/3E0064D2C2F37DD8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1185,6 +1249,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098851",
     "stubhub_international_url": "https://www.stubhub.ie/kaleo-tickets-birmingham-o2-academy-birmingham-9-4-2027/event/107447611",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098851/Kaleo-tickets-Fri-Apr-9-2027-O2-Academy-Birmingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098851/Kaleo-tickets-Fri-Apr-9-2027-O2-Academy-Birmingham",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)",
+      "LNM - VIP NATION UK"
+    ]
   }
 ]

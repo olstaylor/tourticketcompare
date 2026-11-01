@@ -95,7 +95,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-dallas-south-side-ballroom-11-2-2026--concerts-pop/production/7540274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-dallas-texas-11-02-2026/event/0C006528D73AB742",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -157,9 +157,9 @@
         "end": "2026-11-02T23:00:00Z"
       },
       {
-        "name": "Global Poverty Project",
-        "start": "2026-10-24T01:00:00Z",
-        "end": "2026-10-27T14:00:00Z"
+        "name": "Better With a Boo 2- Pack",
+        "start": "2026-10-27T21:00:00Z",
+        "end": "2026-11-02T23:00:00Z"
       }
     ]
   },
@@ -1032,7 +1032,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-new-york-infosys-theater-at-madison-square-garden-11-24-2026--concerts-pop/production/7540333",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-new-york-new-york-11-24-2026/event/3B0065238AD32241",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1097,16 +1097,6 @@
     ],
     "presales": [
       {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-16T14:00:00Z",
-        "end": "2026-10-28T02:00:00Z"
-      },
-      {
-        "name": "Verizon Shine Select Seats",
-        "start": "2026-09-16T14:00:00Z",
-        "end": "2026-10-28T02:00:00Z"
-      },
-      {
         "name": "VIP Packages",
         "start": "2026-09-16T14:00:00Z",
         "end": "2026-11-18T03:00:00Z"
@@ -1134,7 +1124,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-washington-dc-the-anthem-11-27-2026--concerts-pop/production/7540341",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-washington-district-of-columbia-11-27-2026/event/15006528B61E893A",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1199,11 +1189,6 @@
     ],
     "presales": [
       {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-16T14:00:00Z",
-        "end": "2026-10-31T02:00:00Z"
-      },
-      {
         "name": "VIP Packages Public Onsale",
         "start": "2026-09-16T14:00:00Z",
         "end": "2026-11-21T03:00:00Z"
@@ -1226,7 +1211,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-nashville-the-truth-11-30-2026--concerts-pop/production/7540349",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-nashville-tennessee-11-30-2026/event/1B006527BBA98ECF",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1282,11 +1267,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-16T15:00:00Z",
-        "end": "2026-10-31T03:00:00Z"
-      },
       {
         "name": "Verizon Shine Select Seats",
         "start": "2026-09-16T15:00:00Z",

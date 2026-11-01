@@ -190,7 +190,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tour-ma-vie-world-tour-concert-philadelphia-pennsylvania-11-29-2026/event/0200655DA255656E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -225,7 +225,6 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_4GkUx4p4m",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T21:00:00Z"
+    "status": "on-sale"
   }
 ]

@@ -1,0 +1,744 @@
+[
+  {
+    "id": "tm-three-days-grace-2026-nashville-g5vizbu4hqfya",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Three Days Grace - Alienation Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-11-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0063657C694E45",
+    "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-nashville-tennessee-11-01-2026/event/1B0063657C694E45",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-nashville-tennessee-11-01-2026/event/1B0063657C694E45",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0063657C694E45",
+        "discovery_event_id": "G5viZbU4HQfyA",
+        "url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-nashville-tennessee-11-01-2026/event/1B0063657C694E45",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZbU4HQfyA",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-three-days-grace-2026-peoria-vv1a6zkuppfa-ze27",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Three Days Grace - Alienation Tour",
+    "city": "Peoria",
+    "country": "United States Of America",
+    "venue": "Peoria Civic Center",
+    "datetime_iso": "2026-11-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006365948161E3",
+    "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-peoria-illinois-11-03-2026/event/07006365948161E3",
+    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/peoria-illinois-peoria-civic-center-arena-2026-11-03-7-pm/concert/17895156",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-peoria-illinois-11-03-2026/event/07006365948161E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006365948161E3",
+        "discovery_event_id": "vv1a6ZkuPPFA-Ze27",
+        "url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-peoria-illinois-11-03-2026/event/07006365948161E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1a6ZkuPPFA-Ze27",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-three-days-grace-2026-indianapolis-vv11v8vn_af0q_vg",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Three Days Grace - Alienation Tour",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Gainbridge Fieldhouse",
+    "datetime_iso": "2026-11-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050063649224699B",
+    "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-indianapolis-indiana-11-04-2026/event/050063649224699B",
+    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/indianapolis-indiana-gainbridge-fieldhouse-2026-11-04-7-pm/concert/17895157",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-indianapolis-indiana-11-04-2026/event/050063649224699B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050063649224699B",
+        "discovery_event_id": "vv11v8vN_aF0Q_vG",
+        "url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-indianapolis-indiana-11-04-2026/event/050063649224699B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv11v8vN_aF0Q_vG",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-three-days-grace-2026-tulsa-1aozkupgkdxuamf",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Three Days Grace - Alienation Tour",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "BOK Center",
+    "datetime_iso": "2026-11-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006365E2345B88",
+    "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-tulsa-oklahoma-11-06-2026/event/20006365E2345B88",
+    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/tulsa-oklahoma-bok-center-2026-11-06-7-pm/concert/17895159",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-tulsa-oklahoma-11-06-2026/event/20006365E2345B88",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006365E2345B88",
+        "discovery_event_id": "1AOZkuPGkdxuAmF",
+        "url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-tulsa-oklahoma-11-06-2026/event/20006365E2345B88",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZkuPGkdxuAmF",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-three-days-grace-2026-saint-louis-vv1akzku0gkd5ahjs",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Three Days Grace - Alienation Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2026-11-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006364CB27C733",
+    "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-saint-louis-missouri-11-07-2026/event/06006364CB27C733",
+    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/saint-louis-missouri-enterprise-center-2026-11-07-7-pm/concert/17895158",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-saint-louis-missouri-11-07-2026/event/06006364CB27C733",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006364CB27C733",
+        "discovery_event_id": "vv1AkZku0Gkd5aHjS",
+        "url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-saint-louis-missouri-11-07-2026/event/06006364CB27C733",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZku0Gkd5aHjS",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-three-days-grace-2026-kansas-city-vv1akzkujgkeirwar",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Three Days Grace - Alienation Tour",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2026-11-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006366AC7BD15E",
+    "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-kansas-city-missouri-11-09-2026/event/06006366AC7BD15E",
+    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/kansas-city-missouri-t-mobile-center-2026-11-09-7-pm/concert/17895165",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-kansas-city-missouri-11-09-2026/event/06006366AC7BD15E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006366AC7BD15E",
+        "discovery_event_id": "vv1AkZkuJGkeirWAr",
+        "url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-kansas-city-missouri-11-09-2026/event/06006366AC7BD15E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkuJGkeirWAr",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-three-days-grace-2026-denver-g5vzzbuiyxc--",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Club Level Seating: Three Days Grace",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2026-11-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00636A30FAD861",
+    "ticketmaster_url": "https://www.ticketmaster.com/club-level-seating-three-days-grace-denver-colorado-11-11-2026/event/1E00636A30FAD861",
+    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/denver-colorado-ball-arena-2026-11-11-7-pm/concert/17895166",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/club-level-seating-three-days-grace-denver-colorado-11-11-2026/event/1E00636A30FAD861",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00636A30FAD861",
+        "discovery_event_id": "G5vzZbUIYXc--",
+        "url": "https://www.ticketmaster.com/club-level-seating-three-days-grace-denver-colorado-11-11-2026/event/1E00636A30FAD861",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZbUIYXc--",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-three-days-grace-2026-nampa-z7r9jz1a7qz3z",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Three Days Grace - Alienation Tour",
+    "city": "Nampa",
+    "country": "United States Of America",
+    "venue": "Ford Idaho Center Arena",
+    "datetime_iso": "2026-11-15T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7qz3Z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz3Z",
+    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/nampa-idaho-ford-idaho-center-2026-11-14-7-pm/concert/17895168",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz3Z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qz3Z",
+        "discovery_event_id": "Z7r9jZ1A7qz3Z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz3Z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qz3Z",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-three-days-grace-2026-spokane-z7r9jz1a7qz3e",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Three Days Grace - Alienation Tour",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "Numerica Veterans Arena",
+    "datetime_iso": "2026-11-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7qz3e",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz3e",
+    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/spokane-washington-numerica-veterans-arena-2026-11-15-7-pm/concert/17895171",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz3e",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qz3e",
+        "discovery_event_id": "Z7r9jZ1A7qz3e",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz3e",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qz3e",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-three-days-grace-2026-sacramento-g5vyzbu2whwe8",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Three Days Grace - Alienation Tour",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2026-11-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006363F26FD9D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-sacramento-california-11-17-2026/event/1C006363F26FD9D0",
+    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/sacramento-california-golden-1-center-2026-11-17-7-pm/concert/17895172",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-sacramento-california-11-17-2026/event/1C006363F26FD9D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006363F26FD9D0",
+        "discovery_event_id": "G5vYZbU2whWE8",
+        "url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-sacramento-california-11-17-2026/event/1C006363F26FD9D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZbU2whWE8",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-three-days-grace-2026-san-jose-g5vyzbu3r_nwh",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Three Days Grace - Alienation Tour",
+    "city": "San Jose",
+    "country": "United States Of America",
+    "venue": "SAP Center at San Jose",
+    "datetime_iso": "2026-11-19T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006364AF66ACBC",
+    "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-jose-california-11-18-2026/event/1C006364AF66ACBC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-jose-california-11-18-2026/event/1C006364AF66ACBC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006364AF66ACBC",
+        "discovery_event_id": "G5vYZbU3R_nwH",
+        "url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-jose-california-11-18-2026/event/1C006364AF66ACBC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZbU3R_nwH",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-three-days-grace-2026-san-diego-vvg1izbuciwp5c",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Three Days Grace - Alienation Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2026-11-21T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006363ACF562CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-diego-california-11-20-2026/event/0A006363ACF562CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-diego-california-11-20-2026/event/0A006363ACF562CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006363ACF562CE",
+        "discovery_event_id": "vvG1IZbUCiWp5C",
+        "url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-diego-california-11-20-2026/event/0A006363ACF562CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZbUCiWp5C",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-three-days-grace-2026-phoenix-1a_zku0gkemfp-f",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Three Days Grace - Alienation Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Talking Stick Resort Amphitheatre",
+    "datetime_iso": "2026-11-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006364AE216854",
+    "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-phoenix-arizona-11-21-2026/event/19006364AE216854",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-phoenix-arizona-11-21-2026/event/19006364AE216854",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006364AE216854",
+        "discovery_event_id": "1A_Zku0GkemFp-f",
+        "url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-phoenix-arizona-11-21-2026/event/19006364AE216854",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zku0GkemFp-f",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-three-days-grace-2026-inglewood-vv1aazkupgkerzcmz",
+    "artist_slug": "three-days-grace",
+    "artist_name": "Three Days Grace",
+    "event_name": "Three Days Grace - Alienation Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Intuit Dome",
+    "datetime_iso": "2026-11-23T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006365AFE0EDC0",
+    "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-inglewood-california-11-22-2026/event/09006365AFE0EDC0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-inglewood-california-11-22-2026/event/09006365AFE0EDC0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006365AFE0EDC0",
+        "discovery_event_id": "vv1AaZkuPGkeRzCMZ",
+        "url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-inglewood-california-11-22-2026/event/09006365AFE0EDC0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZkuPGkeRzCMZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

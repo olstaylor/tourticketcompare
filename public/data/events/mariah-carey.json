@@ -1,0 +1,161 @@
+[
+  {
+    "id": "tm-mariah-carey-2026-birmingham-1anzkfsgkdvieos",
+    "artist_slug": "mariah-carey",
+    "artist_name": "Mariah Carey",
+    "event_name": "Mariah Carey",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Birmingham",
+    "datetime_iso": "2026-11-27T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006531F4B02471",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-birmingham-27-11-2026/event/23006531F4B02471",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/mariah-carey-birmingham-27-11-2026/event/23006531F4B02471",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006531F4B02471",
+        "discovery_event_id": "1ANZkfsGkdVieos",
+        "url": "https://www.ticketmaster.co.uk/mariah-carey-birmingham-27-11-2026/event/23006531F4B02471",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZkfsGkdVieos",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mariah-carey-2026-london-1agzkfsgkdzymm6",
+    "artist_slug": "mariah-carey",
+    "artist_name": "Mariah Carey",
+    "event_name": "Mariah Carey",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2026-11-30T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006531F8C37B87",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-london-30-11-2026/event/35006531F8C37B87",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/mariah-carey-london-30-11-2026/event/35006531F8C37B87",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006531F8C37B87",
+        "discovery_event_id": "1AgZkfsGkdzYMm6",
+        "url": "https://www.ticketmaster.co.uk/mariah-carey-london-30-11-2026/event/35006531F8C37B87",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfsGkdzYMm6",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mariah-carey-2026-manchester-1amzkfsgkejdwkf",
+    "artist_slug": "mariah-carey",
+    "artist_name": "Mariah Carey",
+    "event_name": "Mariah Carey",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2026-12-02T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006531A6EF24D4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-manchester-02-12-2026/event/37006531A6EF24D4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/mariah-carey-manchester-02-12-2026/event/37006531A6EF24D4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006531A6EF24D4",
+        "discovery_event_id": "1AMZkfsGkeJDwKf",
+        "url": "https://www.ticketmaster.co.uk/mariah-carey-manchester-02-12-2026/event/37006531A6EF24D4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkfsGkeJDwKf",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

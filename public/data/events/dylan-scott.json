@@ -545,7 +545,7 @@
         "event_id": 18603379,
         "url": "https://seatgeek.com/dylan-scott-tickets/bismarck-north-dakota-bismarck-event-center-2027-01-29-7-30-pm/concert/18603379",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -948,7 +948,7 @@
         "event_id": 18603380,
         "url": "https://seatgeek.com/dylan-scott-tickets/denver-colorado-mission-ballroom-2027-02-18-8-pm/concert/18603380",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1141,7 +1141,7 @@
     "tour_name": "Dear Big City Tour",
     "ticketmaster_event_id": "1E00652BA02E740F",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-albuquerque-new-mexico-02-25-2027/event/1E00652BA02E740F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/albuquerque-new-mexico-kiva-auditorium-at-the-albuquerque-convention-center-2027-02-25-7-30-pm/concert/18600938",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-albuquerque-new-mexico-02-25-2027/event/1E00652BA02E740F",
@@ -1157,11 +1157,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18600938,
+        "url": "https://seatgeek.com/dylan-scott-tickets/albuquerque-new-mexico-kiva-auditorium-at-the-albuquerque-convention-center-2027-02-25-7-30-pm/concert/18600938",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

@@ -783,7 +783,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA70jA",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70jA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/interpol-tickets/san-antonio-texas-the-espee-2027-03-18-7-30-pm/concert/18710345",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70jA",
@@ -799,11 +799,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18710345,
+        "url": "https://seatgeek.com/interpol-tickets/san-antonio-texas-the-espee-2027-03-18-7-30-pm/concert/18710345",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -852,7 +852,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA70_y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70_y",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/interpol-tickets/sayreville-new-jersey-starland-ballroom-2027-03-27-8-pm/concert/18710358",
     "vividseats_url": "https://www.vividseats.com/interpol-tickets-sayreville-starland-ballroom-3-27-2027--concerts-rock/production/7745559",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70_y",
@@ -868,11 +868,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18710358,
+        "url": "https://seatgeek.com/interpol-tickets/sayreville-new-jersey-starland-ballroom-2027-03-27-8-pm/concert/18710358",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7745559,

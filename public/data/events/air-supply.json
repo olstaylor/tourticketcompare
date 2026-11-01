@@ -83,7 +83,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70AFY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AFY",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/easton-pennsylvania-state-theatre-easton-2026-11-06-7-30-pm/concert/18355665",
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-easton-state-theatre-easton-11-6-2026--concerts-pop/production/6961235",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AFY",
@@ -99,11 +99,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18355665,
+        "url": "https://seatgeek.com/air-supply-tickets/easton-pennsylvania-state-theatre-easton-2026-11-06-7-30-pm/concert/18355665",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6961235,
@@ -168,11 +168,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18126968,
+        "url": "https://seatgeek.com/air-supply-tickets/stamford-connecticut-the-palace-theatre-stamford-2026-11-07-8-pm/concert/18126968",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -300,11 +300,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18206347,
+        "url": "https://seatgeek.com/air-supply-tickets/westbury-new-york-flagstar-at-westbury-music-fair-2026-11-14-8-pm/concert/18206347",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6956190,
@@ -444,11 +444,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18355666,
+        "url": "https://seatgeek.com/air-supply-tickets/orlando-florida-dr-phillips-center-for-performing-arts-2026-11-19-8-pm/concert/18355666",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -481,7 +481,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PaoU",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PaoU",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/clearwater-florida-ruth-eckerd-hall-2026-11-21-8-pm/concert/18289135",
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-clearwater-ruth-eckerd-hall-11-21-2026/production/7104803",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PaoU",
@@ -497,11 +497,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18289135,
+        "url": "https://seatgeek.com/air-supply-tickets/clearwater-florida-ruth-eckerd-hall-2026-11-21-8-pm/concert/18289135",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7104803,
@@ -550,7 +550,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70Eoz",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Eoz",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/jacksonville-florida-florida-theatre-jacksonville-2026-11-22-7-pm/concert/18355667",
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-jacksonville-florida-theatre-jacksonville-11-22-2026/production/7047661",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Eoz",
@@ -566,11 +566,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18355667,
+        "url": "https://seatgeek.com/air-supply-tickets/jacksonville-florida-florida-theatre-jacksonville-2026-11-22-7-pm/concert/18355667",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047661,
@@ -748,7 +748,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7POZg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POZg",
-    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/daytona-beach-florida-peabody-auditorium-2027-01-22-8-pm/concert/18355671",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POZg",
@@ -768,7 +768,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -801,7 +801,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7P_4P",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_4P",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/sarasota-florida-van-wezel-performing-arts-hall-2027-01-24-7-pm/concert/18355670",
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-sarasota-van-wezel-performing-arts-hall-1-24-2027/production/7163566",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_4P",
@@ -817,11 +817,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18355670,
+        "url": "https://seatgeek.com/air-supply-tickets/sarasota-florida-van-wezel-performing-arts-hall-2027-01-24-7-pm/concert/18355670",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7163566,
@@ -954,7 +954,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D0064F8873333FB",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-immokalee-florida-01-30-2027/event/0D0064F8873333FB",
-    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/immokalee-florida-seminole-casino-immokalee-2027-01-30-8-pm/concert/18424504",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-immokalee-florida-01-30-2027/event/0D0064F8873333FB",
@@ -974,7 +974,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1093,7 +1093,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7x_eZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x_eZ",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/wisconsin-dells-wisconsin-crystal-grand-music-theatre-2027-02-06-8-pm/concert/18200030",
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-wisconsin-dells-crystal-grand-music-theatre-2-6-2027/production/6939186",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x_eZ",
@@ -1109,11 +1109,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18200030,
+        "url": "https://seatgeek.com/air-supply-tickets/wisconsin-dells-wisconsin-crystal-grand-music-theatre-2027-02-06-8-pm/concert/18200030",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6939186,
@@ -1395,11 +1395,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18646928,
+        "url": "https://seatgeek.com/air-supply-tickets/dawson-creek-canada-ovintiv-events-centre-2027-02-22-7-30-pm/concert/18646928",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1448,11 +1448,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18594382,
+        "url": "https://seatgeek.com/air-supply-tickets/calgary-canada-grey-eagle-event-centre-2027-02-24-7-pm/concert/18594382",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1554,11 +1554,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18593527,
+        "url": "https://seatgeek.com/air-supply-tickets/winnipeg-canada-canada-life-centre-2027-02-28-7-30-pm/concert/18593527",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7559672,
@@ -1614,7 +1614,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3100652CC92BB37A",
     "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-ottawa-ontario-03-03-2027/event/3100652CC92BB37A",
-    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/ottawa-canada-hard-rock-hotel-and-casino-ottawa-2027-03-03-7-pm/concert/18594799",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-gloucester-hard-rock-hotel-and-casino-ottawa-3-3-2027--concerts-pop/production/7559686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-ottawa-ontario-03-03-2027/event/3100652CC92BB37A",
@@ -1634,7 +1634,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7559686,
@@ -1699,11 +1699,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18618284,
+        "url": "https://seatgeek.com/air-supply-tickets/rama-canada-casino-rama-resort-2027-03-05-9-pm/concert/18618284",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1764,11 +1764,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18594770,
+        "url": "https://seatgeek.com/air-supply-tickets/toronto-canada-the-theatre-at-great-canadian-casino-resort-toronto-2027-03-06-8-pm/concert/18594770",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1830,11 +1830,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18593816,
+        "url": "https://seatgeek.com/air-supply-tickets/windsor-canada-the-colosseum-at-caesars-windsor-2027-03-07-7-pm/concert/18593816",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7559692,

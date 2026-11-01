@@ -535,7 +535,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7K0M",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7K0M",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2027-03-07-7-pm/concert/18664757",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7K0M",
@@ -551,11 +551,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664757,
+        "url": "https://seatgeek.com/remi-wolf-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2027-03-07-7-pm/concert/18664757",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -588,7 +588,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "04006548D8121164",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-09-2027/event/04006548D8121164",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/chicago-illinois-the-salt-shed-indoors-2027-03-09-8-pm/concert/18664766",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-09-2027/event/04006548D8121164",
@@ -604,11 +604,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664766,
+        "url": "https://seatgeek.com/remi-wolf-tickets/chicago-illinois-the-salt-shed-indoors-2027-03-09-8-pm/concert/18664766",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -651,7 +651,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "04006548D8C61293",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-10-2027/event/04006548D8C61293",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/chicago-illinois-the-salt-shed-indoors-2027-03-10-8-pm/concert/18692433",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-10-2027/event/04006548D8C61293",
@@ -667,11 +667,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18692433,
+        "url": "https://seatgeek.com/remi-wolf-tickets/chicago-illinois-the-salt-shed-indoors-2027-03-10-8-pm/concert/18692433",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZbfY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfY",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lord-huron-tickets/nashville-tennessee-ryman-auditorium-2026-12-01-8-pm/concert/18421956",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfY",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421956,
+        "url": "https://seatgeek.com/lord-huron-tickets/nashville-tennessee-ryman-auditorium-2026-12-01-8-pm/concert/18421956",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -164,11 +164,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421959,
+        "url": "https://seatgeek.com/lord-huron-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2026-12-05-6-30-pm/concert/18421959",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -464,11 +464,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421968,
+        "url": "https://seatgeek.com/lord-huron-tickets/albany-new-york-palace-theatre-albany-2026-12-11-8-pm/concert/18421968",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -853,7 +853,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZPF3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPF3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lord-huron-tickets/brooklyn-new-york-kings-theatre-brooklyn-2026-12-18-8-pm/concert/18421979",
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-brooklyn-kings-theatre-brooklyn-12-18-2026--concerts-country-and-folk/production/7382416",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPF3",
@@ -869,11 +869,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421979,
+        "url": "https://seatgeek.com/lord-huron-tickets/brooklyn-new-york-kings-theatre-brooklyn-2026-12-18-8-pm/concert/18421979",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382416,
@@ -930,7 +930,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZbbI",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbbI",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lord-huron-tickets/brooklyn-new-york-kings-theatre-brooklyn-2026-12-19-8-pm/concert/18421980",
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-brooklyn-kings-theatre-brooklyn-12-19-2026--concerts-country-and-folk/production/7382426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbbI",
@@ -946,11 +946,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421980,
+        "url": "https://seatgeek.com/lord-huron-tickets/brooklyn-new-york-kings-theatre-brooklyn-2026-12-19-8-pm/concert/18421980",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382426,
@@ -1094,7 +1094,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZbo8",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbo8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lord-huron-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2027-01-02-8-pm/concert/18421984",
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-las-vegas-the-theater-at-virgin-hotels-las-vegas-1-2-2027--concerts-country-and-folk/production/7382442",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbo8",
@@ -1110,11 +1110,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421984,
+        "url": "https://seatgeek.com/lord-huron-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2027-01-02-8-pm/concert/18421984",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382442,
@@ -1574,11 +1574,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421996,
+        "url": "https://seatgeek.com/lord-huron-tickets/los-angeles-california-the-wiltern-2027-01-10-8-pm/concert/18421996",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382502,
@@ -1666,11 +1666,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421997,
+        "url": "https://seatgeek.com/lord-huron-tickets/los-angeles-california-the-wiltern-2027-01-11-8-pm/concert/18421997",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382516,
@@ -1758,11 +1758,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18484690,
+        "url": "https://seatgeek.com/lord-huron-tickets/los-angeles-california-the-wiltern-2027-01-12-6-30-pm/concert/18484690",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7416931,

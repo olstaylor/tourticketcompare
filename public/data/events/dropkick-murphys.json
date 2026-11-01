@@ -518,7 +518,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "110065378A2555F6",
     "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-calgary-alberta-02-14-2027/event/110065378A2555F6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/calgary-canada-grey-eagle-event-centre-2027-02-14-7-pm/concert/18633536",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-calgary-alberta-02-14-2027/event/110065378A2555F6",
@@ -534,11 +534,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633536,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/calgary-canada-grey-eagle-event-centre-2027-02-14-7-pm/concert/18633536",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1536,7 +1536,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "31006536C1415DCE",
     "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-montreal-quebec-03-05-2027/event/31006536C1415DCE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/montreal-canada-l-olympia-olympia-theatre-2027-03-05-7-pm/concert/18633565",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-montreal-quebec-03-05-2027/event/31006536C1415DCE",
@@ -1552,11 +1552,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633565,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/montreal-canada-l-olympia-olympia-theatre-2027-03-05-7-pm/concert/18633565",
+        "verified": true,
+        "last_verified_at": "2026-11-01",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-10-31",
+  "asOf": "2026-11-01",
   "artistSlug": "hilary-duff",
   "artist": "Hilary Duff",
   "artistPageIndexable": true,
@@ -11,8 +11,8 @@
   "siteLabel": "TicketNetwork",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-10-31T12:33:46.565Z",
-  "capturedTo": "2026-10-31T12:34:44.595Z",
+  "capturedFrom": "2026-11-01T07:34:16.198Z",
+  "capturedTo": "2026-11-01T15:13:34.491Z",
   "tourDates": 37,
   "coverage": {
     "marketCities": 19,
@@ -60,7 +60,7 @@
     "localDate": "2027-10-16",
     "price": 75.9,
     "currency": "USD",
-    "capturedAt": "2026-10-31T12:33:47.849Z"
+    "capturedAt": "2026-11-01T07:34:17.732Z"
   },
   "high": {
     "city": "Uncasville",
@@ -70,9 +70,9 @@
     "localDate": "2027-10-08",
     "price": 175.95,
     "currency": "USD",
-    "capturedAt": "2026-10-31T12:33:47.209Z"
+    "capturedAt": "2026-11-01T07:34:16.866Z"
   },
-  "median": 96.6,
+  "median": 97.75,
   "ratio": 2.3,
   "cities": [
     {
@@ -83,7 +83,7 @@
       "localDate": "2027-10-16",
       "price": 75.9,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:47.849Z",
+      "capturedAt": "2026-11-01T07:34:17.732Z",
       "path": "/artists/hilary-duff/tickets/pittsburgh-united-states"
     },
     {
@@ -94,7 +94,7 @@
       "localDate": "2027-11-05",
       "price": 80.5,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:47.965Z",
+      "capturedAt": "2026-11-01T07:34:17.959Z",
       "path": "/artists/hilary-duff/tickets/san-antonio-united-states"
     },
     {
@@ -105,19 +105,8 @@
       "localDate": "2027-10-13",
       "price": 82.8,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:34:44.476Z",
+      "capturedAt": "2026-11-01T15:13:34.231Z",
       "path": "/artists/hilary-duff/tickets/cleveland-united-states"
-    },
-    {
-      "city": "Columbus",
-      "country": "United States",
-      "venue": "Schottenstein Center",
-      "eventId": "tm-hilary-duff-2027-columbus-vv1kv8vpu8ga1ilbe",
-      "localDate": "2027-10-15",
-      "price": 90.85,
-      "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:47.705Z",
-      "path": "/artists/hilary-duff/tickets/columbus-united-states"
     },
     {
       "city": "Anaheim",
@@ -125,9 +114,9 @@
       "venue": "Honda Center",
       "eventId": "tm-hilary-duff-2027-anaheim-vv110z_kqbpjub",
       "localDate": "2027-11-20",
-      "price": 93.15,
+      "price": 89.7,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:49.070Z",
+      "capturedAt": "2026-11-01T07:34:19.521Z",
       "path": "/artists/hilary-duff/tickets/anaheim-united-states"
     },
     {
@@ -138,7 +127,7 @@
       "localDate": "2027-10-06",
       "price": 94.3,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:46.975Z",
+      "capturedAt": "2026-11-01T07:34:16.664Z",
       "path": "/artists/hilary-duff/tickets/baltimore-united-states"
     },
     {
@@ -149,7 +138,7 @@
       "localDate": "2027-11-12",
       "price": 94.3,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:48.644Z",
+      "capturedAt": "2026-11-01T07:34:18.874Z",
       "path": "/artists/hilary-duff/tickets/milwaukee-united-states"
     },
     {
@@ -160,7 +149,7 @@
       "localDate": "2027-10-11",
       "price": 96.6,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:47.577Z",
+      "capturedAt": "2026-11-01T07:34:17.325Z",
       "path": "/artists/hilary-duff/tickets/buffalo-united-states"
     },
     {
@@ -171,7 +160,7 @@
       "localDate": "2027-10-02",
       "price": 96.6,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:46.565Z",
+      "capturedAt": "2026-11-01T07:34:16.198Z",
       "path": "/artists/hilary-duff/tickets/orlando-united-states"
     },
     {
@@ -182,7 +171,7 @@
       "localDate": "2027-10-04",
       "price": 96.6,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:46.716Z",
+      "capturedAt": "2026-11-01T07:34:16.461Z",
       "path": "/artists/hilary-duff/tickets/raleigh-united-states"
     },
     {
@@ -193,7 +182,7 @@
       "localDate": "2027-10-01",
       "price": 97.75,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:34:44.283Z",
+      "capturedAt": "2026-11-01T15:13:33.844Z",
       "path": "/artists/hilary-duff/tickets/sunrise-united-states"
     },
     {
@@ -204,7 +193,7 @@
       "localDate": "2027-11-08",
       "price": 98.9,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:48.308Z",
+      "capturedAt": "2026-11-01T07:34:18.439Z",
       "path": "/artists/hilary-duff/tickets/tulsa-united-states"
     },
     {
@@ -215,7 +204,7 @@
       "localDate": "2027-11-10",
       "price": 100.05,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:48.470Z",
+      "capturedAt": "2026-11-01T07:34:18.665Z",
       "path": "/artists/hilary-duff/tickets/omaha-united-states"
     },
     {
@@ -226,8 +215,19 @@
       "localDate": "2027-11-17",
       "price": 101.2,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:48.923Z",
+      "capturedAt": "2026-11-01T07:34:19.303Z",
       "path": "/artists/hilary-duff/tickets/denver-united-states"
+    },
+    {
+      "city": "Columbus",
+      "country": "United States",
+      "venue": "Schottenstein Center",
+      "eventId": "tm-hilary-duff-2027-columbus-vv1kv8vpu8ga1ilbe",
+      "localDate": "2027-10-15",
+      "price": 102.35,
+      "currency": "USD",
+      "capturedAt": "2026-11-01T07:34:17.524Z",
+      "path": "/artists/hilary-duff/tickets/columbus-united-states"
     },
     {
       "city": "Kansas City",
@@ -237,7 +237,7 @@
       "localDate": "2027-11-15",
       "price": 111.55,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:48.795Z",
+      "capturedAt": "2026-11-01T07:34:19.069Z",
       "path": "/artists/hilary-duff/tickets/kansas-city-united-states"
     },
     {
@@ -248,7 +248,7 @@
       "localDate": "2027-11-14",
       "price": 115,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:34:44.595Z",
+      "capturedAt": "2026-11-01T15:13:34.491Z",
       "path": "/artists/hilary-duff/tickets/des-moines-united-states"
     },
     {
@@ -259,7 +259,7 @@
       "localDate": "2027-11-06",
       "price": 129.95,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:48.115Z",
+      "capturedAt": "2026-11-01T07:34:18.212Z",
       "path": "/artists/hilary-duff/tickets/fort-worth-united-states"
     },
     {
@@ -270,7 +270,7 @@
       "localDate": "2027-10-09",
       "price": 162.15,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:47.401Z",
+      "capturedAt": "2026-11-01T07:34:17.099Z",
       "path": "/artists/hilary-duff/tickets/hershey-united-states"
     },
     {
@@ -281,7 +281,7 @@
       "localDate": "2027-10-08",
       "price": 175.95,
       "currency": "USD",
-      "capturedAt": "2026-10-31T12:33:47.209Z",
+      "capturedAt": "2026-11-01T07:34:16.866Z",
       "path": "/artists/hilary-duff/tickets/uncasville-united-states"
     }
   ]

@@ -1,10 +1,10 @@
 ---
 title: "Sombr tour tickets: listed prices city by city"
 seo_title: "Sombr tour ticket prices by city"
-description: "Sombr's tour in the United States: the lowest listed price for the next date in 15 cities, $37 in Indianapolis at the low end, $120 in Boston at the high end."
-summary: "Vivid Seats' lowest listed price for the next Sombr date in each of 15 cities, each figure with the time it was captured. Snapshots 31 October 2026."
+description: "Sombr's tour in the United States: the lowest listed price for the next date in 14 cities, $37 in Indianapolis at the low end, $120 in Boston at the high end."
+summary: "Vivid Seats' lowest listed price for the next Sombr date in each of 14 cities, each figure with the time it was captured. Snapshots 1 November 2026."
 date: 2026-10-24
-updated: 2026-10-31
+updated: 2026-11-01
 status: published
 tags:
   - tour-data
@@ -14,27 +14,26 @@ related_guides:
   - primary-vs-resale-concert-tickets
 ---
 
-Sombr's You Are The Reason Tour has 37 dates that TourTicketCompare tracks. In the United States, 15 cities had a recent listed price on Vivid Seats. The next date in Indianapolis was listed at $37 at the low end, and the next date in Boston at $120 at the high end, 3.2 times as much. The median city was listed at $77.
+Sombr's You Are The Reason Tour has 36 dates that TourTicketCompare tracks. In the United States, 14 cities had a recent listed price on Vivid Seats. The next date in Indianapolis was listed at $37 at the low end, and the next date in Boston at $120 at the high end, 3.2 times as much. The median city was listed at $79.
 
 ## Sombr ticket prices by city
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Indianapolis](/artists/sombr/tickets/indianapolis-united-states) | 6 November 2026 | Gainbridge Fieldhouse | $37 | Vivid Seats | 31 October, 13:55 UTC |
-| [Milwaukee](/artists/sombr/tickets/milwaukee-united-states) | 3 November 2026 | Fiserv Forum | $37 | Vivid Seats | 31 October, 13:55 UTC |
-| [Kansas City](/artists/sombr/tickets/kansas-city-united-states) | 31 October 2026 | T-Mobile Center | $43 | Vivid Seats | 31 October, 13:55 UTC |
-| [Columbus](/artists/sombr/tickets/columbus-united-states) | 8 November 2026 | Nationwide Arena | $50 | Vivid Seats | 31 October, 13:55 UTC |
-| [Pittsburgh](/artists/sombr/tickets/pittsburgh-united-states) | 12 November 2026 | PPG Paints Arena | $51 | Vivid Seats | 31 October, 13:55 UTC |
-| [Minneapolis](/artists/sombr/tickets/minneapolis-united-states) | 1 November 2026 | Target Center | $60 | Vivid Seats | 31 October, 13:55 UTC |
-| [Buffalo](/artists/sombr/tickets/buffalo-united-states) | 14 November 2026 | KeyBank Center | $61 | Vivid Seats | 31 October, 13:55 UTC |
-| [Cleveland](/artists/sombr/tickets/cleveland-united-states) | 13 November 2026 | Rocket Arena | $77 | Vivid Seats | 31 October, 13:55 UTC |
-| [Detroit](/artists/sombr/tickets/detroit-united-states) | 7 November 2026 | Little Caesars Arena | $79 | Vivid Seats | 31 October, 13:55 UTC |
-| [New York](/artists/sombr/tickets/new-york-united-states) | 23 November 2026 | Madison Square Garden | $79 | Vivid Seats | 31 October, 13:55 UTC |
-| [Washington](/artists/sombr/tickets/washington-united-states) | 10 November 2026 | Capital One Arena | $84 | Vivid Seats | 31 October, 13:55 UTC |
-| [Philadelphia](/artists/sombr/tickets/philadelphia-united-states) | 19 November 2026 | Xfinity Mobile Arena | $90 | Vivid Seats | 31 October, 13:55 UTC |
-| [Newark](/artists/sombr/tickets/newark-united-states) | 21 November 2026 | Prudential Center | $92 | Vivid Seats | 31 October, 13:55 UTC |
-| [Chicago](/artists/sombr/tickets/chicago-united-states) | 4 November 2026 | United Center | $105 | Vivid Seats | 31 October, 13:55 UTC |
-| [Boston](/artists/sombr/tickets/boston-united-states) | 18 November 2026 | TD Garden | $120 | Vivid Seats | 31 October, 13:55 UTC |
+| [Indianapolis](/artists/sombr/tickets/indianapolis-united-states) | 6 November 2026 | Gainbridge Fieldhouse | $37 | Vivid Seats | 1 November, 16:28 UTC |
+| [Milwaukee](/artists/sombr/tickets/milwaukee-united-states) | 3 November 2026 | Fiserv Forum | $37 | Vivid Seats | 1 November, 16:28 UTC |
+| [Minneapolis](/artists/sombr/tickets/minneapolis-united-states) | 1 November 2026 | Target Center | $41 | Vivid Seats | 1 November, 16:28 UTC |
+| [Columbus](/artists/sombr/tickets/columbus-united-states) | 8 November 2026 | Nationwide Arena | $50 | Vivid Seats | 1 November, 16:28 UTC |
+| [Pittsburgh](/artists/sombr/tickets/pittsburgh-united-states) | 12 November 2026 | PPG Paints Arena | $56 | Vivid Seats | 1 November, 16:28 UTC |
+| [Buffalo](/artists/sombr/tickets/buffalo-united-states) | 14 November 2026 | KeyBank Center | $58 | Vivid Seats | 1 November, 16:28 UTC |
+| [Cleveland](/artists/sombr/tickets/cleveland-united-states) | 13 November 2026 | Rocket Arena | $79 | Vivid Seats | 1 November, 16:28 UTC |
+| [Detroit](/artists/sombr/tickets/detroit-united-states) | 7 November 2026 | Little Caesars Arena | $79 | Vivid Seats | 1 November, 16:28 UTC |
+| [New York](/artists/sombr/tickets/new-york-united-states) | 23 November 2026 | Madison Square Garden | $82 | Vivid Seats | 1 November, 16:28 UTC |
+| [Washington](/artists/sombr/tickets/washington-united-states) | 10 November 2026 | Capital One Arena | $84 | Vivid Seats | 1 November, 16:28 UTC |
+| [Newark](/artists/sombr/tickets/newark-united-states) | 21 November 2026 | Prudential Center | $90 | Vivid Seats | 1 November, 16:28 UTC |
+| [Philadelphia](/artists/sombr/tickets/philadelphia-united-states) | 19 November 2026 | Xfinity Mobile Arena | $90 | Vivid Seats | 1 November, 16:28 UTC |
+| [Chicago](/artists/sombr/tickets/chicago-united-states) | 4 November 2026 | United Center | $105 | Vivid Seats | 1 November, 16:28 UTC |
+| [Boston](/artists/sombr/tickets/boston-united-states) | 18 November 2026 | TD Garden | $120 | Vivid Seats | 1 November, 16:28 UTC |
 
 Each figure is the lowest listed price on Vivid Seats for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
@@ -44,7 +43,7 @@ Each figure is the lowest listed price on Vivid Seats for the next date in that 
 - **One country, one currency.** The tour also has dates in the United Kingdom (7), Germany (3), the Netherlands (2), Austria (1), Belgium (1), Canada (1), the Czech Republic (1), Finland (1), Ireland (1), Italy (1), Norway (1), Switzerland (1). They are left out, because comparing across countries would mix markets and currencies.
 - **Next date only.** A city's figure is its first upcoming date, not the lowest of all its dates.
 - **Recent prices only.** A price is used only if it was captured in the 72 hours before this page was updated. Captured times are in the table.
-- **Coverage.** All 15 cities on the tour in the United States are priced.
+- **Coverage.** All 14 cities on the tour in the United States are priced.
 
 ## What this does and doesn't say
 

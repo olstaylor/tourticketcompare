@@ -1,0 +1,151 @@
+name: Label passed dates
+
+# One scheduled run a day (05:30 UTC, before the 09:40 Site health check), plus
+# dispatch. Runs `npm run dates:label` (scripts/label-passed-dates.mjs): a blog
+# table cell that holds only a date which has since passed becomes
+# "<date> (has passed)", and `updated` moves forward so the stale-dates check
+# clears. It adds no fact, edits no sentence and touches no guide; prose that
+# still names a passed date is listed in the run summary for an editor.
+#
+# Owner-approved 2026-11-01. The PR is merged by scripts/open-automation-pr.mjs
+# only after Prelaunch Validation passes on exactly the pushed head and the
+# AUTOPUBLISH_ENABLED switch is not "false"; a red check or a failed merge leaves
+# the PR open for a person. Stands down while an earlier labeller PR is open.
+
+on:
+  schedule:
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Build and check without opening a PR'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: label-passed-dates
+  cancel-in-progress: false
+
+jobs:
+  label:
+    if: github.repository == 'olstaylor/tourticketcompare'
+    runs-on: ubuntu-latest
+    timeout-minutes: 80
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+    steps:
+      - name: Stand down while a labeller PR is open
+        id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          open=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 100 --json headRefName \
+            --jq '[.[] | select(.headRefName | startswith("automation/label-passed-dates-"))] | length')
+          if [ "$open" -gt 0 ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+            echo "An earlier labeller PR is still open: skipped." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout trusted main
+        if: steps.gate.outputs.proceed == 'true'
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Setup Node.js
+        if: steps.gate.outputs.proceed == 'true'
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install locked dependencies
+        if: steps.gate.outputs.proceed == 'true'
+        run: npm ci
+
+      - name: Label passed dates
+        id: label
+        if: steps.gate.outputs.proceed == 'true'
+        run: |
+          set -euo pipefail
+          node scripts/label-passed-dates.mjs | tee label.log
+          {
+            echo "### Label passed dates"
+            echo '```'
+            cat label.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          rm label.log
+          if [ -z "$(git status --porcelain --untracked-files=all)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Nothing to label." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Compile content and refresh provenance
+        if: steps.label.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          npm run blog:build
+          npm run og:build
+          npm run content:provenance
+
+      - name: Assert the diff contains only blog copy and files compiled from it
+        if: steps.label.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          bad=$(git status --porcelain=v1 --untracked-files=all | cut -c4- | grep -Ev \
+            '^(content/blog/[a-z0-9-]+\.md|public/data/blog-content\.json|data/content-provenance\.json|functions/_og-cards\.generated\.js|public/og/[a-z0-9-]+\.png)$' || true)
+          if [ -n "$bad" ]; then
+            echo "::error::unexpected changes, nothing committed:"
+            printf '%s\n' "$bad"
+            exit 1
+          fi
+          echo "diff allowlist OK"
+
+      - name: Validate the content
+        if: steps.label.outputs.changed == 'true'
+        run: |
+          npm run blog:check
+          npm run content:provenance:check
+          node scripts/label-passed-dates.mjs --self-test
+          git diff --check
+
+      - name: Prepare publishing identity
+        id: publishing-identity
+        if: steps.label.outputs.changed == 'true' && inputs.dry_run != true
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open and merge the labeller PR
+        if: steps.label.outputs.changed == 'true' && inputs.dry_run != true
+        timeout-minutes: 45
+        env:
+          GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          BRANCH="automation/label-passed-dates-$(date -u +%Y-%m-%d)-${GITHUB_RUN_ID}"
+          git config user.name "tourticketcompare-bot"
+          git config user.email "tourticketcompare-bot@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add -A content/blog public/data/blog-content.json data/content-provenance.json functions/_og-cards.generated.js public/og
+          git commit -m "content: label passed dates in blog tables"
+          node scripts/push-automation-branch.mjs "$BRANCH"
+          BRANCH="$BRANCH" \
+          PR_TITLE="content: label passed dates in blog tables" \
+          PR_AUTO_MERGE=true \
+          PR_BODY=$'## Label passed dates\nTable cells that hold only a date which has passed now read "(has passed)", and `updated` moves forward so the stale-dates check clears. No sentence, guide, event, price or provider data is changed.\n\nMerged only after Prelaunch Validation passes on this exact head. Prose that still names a passed date is listed in the run summary for an editor.\n' \
+          node scripts/open-automation-pr.mjs

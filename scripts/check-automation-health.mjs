@@ -191,9 +191,14 @@ export const WATCHED_LANES = [
   // Weekly price-history repair: idempotent D1 fills and rollup upserts only;
   // writes nothing to the repository and validates nothing against main.
   { file: "pricing-history-repair.yml", name: "Price history weekly repair", cadence: "weekly Sun 05:23", maxAgeHours: 8 * 24 + 6, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
-  // Daily city report refresh: reads D1, opens one unmerged PR of report files;
-  // writes no event data. A run that stands down for an open refresh PR is green.
-  { file: "artist-city-reports.yml", name: "Artist city reports", cadence: "daily 13:10", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false }
+  // Daily city report refresh: reads D1, opens one PR of report files that merges
+  // once Prelaunch Validation passes on its head; writes no event data. A run that
+  // stands down for an open refresh PR is green.
+  { file: "artist-city-reports.yml", name: "Artist city reports", cadence: "daily 13:10", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
+  // Daily passed-date labeller: edits blog table cells only, opens one PR that merges
+  // once Prelaunch Validation passes on its head. A run that stands down for an open
+  // labeller PR is green.
+  { file: "label-passed-dates.yml", name: "Label passed dates", cadence: "daily 05:30", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false }
 ];
 
 // Whether a lane runs often enough that one failure is absorbed rather than
@@ -740,7 +745,7 @@ if (SELF_TEST) {
   );
   assert.deepEqual(
     WATCHED_LANES.filter((lane) => !lane.sharesMainGate).map((lane) => lane.file).sort(),
-    ["artist-city-reports.yml", "automation-health.yml", "autopublish-digest.yml", "blog-ideas.yml", "funnel-daily.yml", "generated-freshness.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-drop-drafts.yml", "price-guide-candidates.yml", "pricing-history-repair.yml", "show-priority.yml", "site-health.yml"],
+    ["artist-city-reports.yml", "automation-health.yml", "autopublish-digest.yml", "blog-ideas.yml", "funnel-daily.yml", "generated-freshness.yml", "label-passed-dates.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-drop-drafts.yml", "price-guide-candidates.yml", "pricing-history-repair.yml", "show-priority.yml", "site-health.yml"],
     "the sensors, digest, editorial screen, coverage report, site health, scoreboard, funnel check, show-priority ranking, price-drop drafts and price-history repair are excluded from writer correlation"
   );
   // GitHub accepts either extension for a workflow file, so the coverage scan

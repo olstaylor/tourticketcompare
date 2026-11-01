@@ -350250,5 +350250,113 @@
     "ticketmaster_discovery_event_id": "G5dIZ_46xjFxH",
     "timezone": "America/Chicago",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-u2-2027-london-1adfz_4qdzvzd55v",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Tottenham Hotspur Stadium",
+    "datetime_iso": "2027-06-18T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500655683001AA0",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-18-06-2027/event/3500655683001AA0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-18-06-2027/event/3500655683001AA0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500655683001AA0",
+        "discovery_event_id": "1adfZ_4QdZvZd55v",
+        "url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-18-06-2027/event/3500655683001AA0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1adfZ_4QdZvZd55v",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T10:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-london-1adfz_4gkszafjm",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Tottenham Hotspur Stadium",
+    "datetime_iso": "2027-06-19T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500655CC0148737",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-19-06-2027/event/3500655CC0148737",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-19-06-2027/event/3500655CC0148737",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500655CC0148737",
+        "discovery_event_id": "1AdfZ_4GkSZAFjM",
+        "url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-19-06-2027/event/3500655CC0148737",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_4GkSZAFjM",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T10:00:00Z"
   }
 ]

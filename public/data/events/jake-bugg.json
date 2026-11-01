@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jake-bugg-manchester-06-02-2027/event/1F00651CBAE2BCAB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_owBzlwl",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-jake-bugg-2027-dublin-1kkzvpk9ga1efx9",
@@ -68,7 +71,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/jake-bugg-alamo-uk-european-tour-dublin-09-02-2027/event/180065197A088F97",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +106,10 @@
     },
     "ticketmaster_discovery_event_id": "1kkZvPk9GA1eFX9",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-jake-bugg-2027-edinburgh-1auzkf-gkd9gf1d",
@@ -121,7 +127,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jake-bugg-edinburgh-11-02-2027/event/36006521D7308283",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +162,11 @@
     },
     "ticketmaster_discovery_event_id": "1AUZkf-Gkd9GF1d",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "GIGS IN SCOTLAND",
+      "DF CONCERTS LIMITED"
+    ]
   },
   {
     "id": "tm-jake-bugg-2027-glasgow-1auzkf-gkeivv0q",
@@ -174,7 +184,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jake-bugg-glasgow-14-02-2027/event/36006521A807491A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +219,11 @@
     },
     "ticketmaster_discovery_event_id": "1AUZkf-GkeIvV0Q",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "GIGS IN SCOTLAND",
+      "DF CONCERTS LIMITED"
+    ]
   },
   {
     "id": "tm-jake-bugg-2027-gateshead-11uyvpf_qopzvc",
@@ -227,7 +241,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jake-bugg-gateshead-17-02-2027/event/370065219691580D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -262,7 +276,10 @@
     },
     "ticketmaster_discovery_event_id": "11uYvPF_QopZvC",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-jake-bugg-2027-sheffield-1adfz_ogkmhb1lb",
@@ -280,7 +297,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jake-bugg-arches-bar-experience-sheffield-18-02-2027/event/3500651BBC60AAFA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +332,11 @@
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkmHb1lB",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)",
+      "ASM T.A SHEFFIELD CITY HALL"
+    ]
   },
   {
     "id": "tm-jake-bugg-2027-liverpool-g5vhz_owwx56n",
@@ -333,7 +354,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jake-bugg-liverpool-20-02-2027/event/1F00651CB2F8B1EA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +389,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_owwX56n",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-jake-bugg-2027-bristol-1adjz_ogkvkgljy",
@@ -386,7 +410,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jake-bugg-bristol-21-02-2027/event/3700651D06D6B739",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421,7 +445,10 @@
     },
     "ticketmaster_discovery_event_id": "1AdjZ_oGkVkgljy",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "DAYBROOK HOUSE LIMITED"
+    ]
   },
   {
     "id": "tm-jake-bugg-2027-nottingham-g5vhz_ohmndtt",
@@ -439,7 +466,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jake-bugg-nottingham-23-02-2027/event/1F00651F378C3FFF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -474,7 +501,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_oHMNdTT",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "DAYBROOK HOUSE LIMITED"
+    ]
   },
   {
     "id": "tm-jake-bugg-2027-london-g5vhz_olkluto",
@@ -667,7 +697,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/jake-bugg-alamo--solo-acoustic-tour-tickets/679434859?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -710,7 +740,10 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k_y8V-_",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/jake-bugg-tickets-madrid-teatro-eslava-ochoymedio-club-6-4-2027/event/107665739"
+    "stubhub_international_url": "https://www.stubhub.ie/jake-bugg-tickets-madrid-teatro-eslava-ochoymedio-club-6-4-2027/event/107665739",
+    "organizer_names": [
+      "Live Nation España S.A.U."
+    ]
   },
   {
     "id": "tm-jake-bugg-2027-barcelona-z698xz2qz16vps_0bf",
@@ -728,7 +761,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/jake-bugg-alamo--solo-acoustic-tour-tickets/1973664608?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -771,7 +804,10 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vPS_0bF",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/jake-bugg-tickets-barcelona-sala-la-paloma-7-4-2027/event/107665740"
+    "stubhub_international_url": "https://www.stubhub.ie/jake-bugg-tickets-barcelona-sala-la-paloma-7-4-2027/event/107665740",
+    "organizer_names": [
+      "Live Nation España S.A.U."
+    ]
   },
   {
     "id": "tm-jake-bugg-2027-milano-zg9rmiynyzd6ke",

@@ -861,7 +861,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-smashing-pumpkins-the-rats-in-calgary-alberta-11-03-2026/event/110064AEDCA88E22",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -897,13 +897,6 @@
     "ticketmaster_discovery_event_id": "1778v0G61DjnFzx",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-21T16:00:00Z",
-        "end": "2026-10-28T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -927,7 +920,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-smashing-pumpkins-the-rats-in-vancouver-british-columbia-11-05-2026/event/110064AE89EF3F6F",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -971,13 +964,6 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-tickets-vancouver-rogers-arena-11-5-2026/event/107185115",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-21T17:00:00Z",
-        "end": "2026-10-30T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -1001,7 +987,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-seattle-washington-11-06-2026/event/0F0064AF79DC5465",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1045,13 +1031,6 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-seattle-tickets-11-6-2026/event/107186118",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-21T17:00:00Z",
-        "end": "2026-10-31T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

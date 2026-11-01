@@ -387,7 +387,7 @@
     "vividseats_url": "https://www.vividseats.com/young-miko-tickets-charlotte-spectrum-center-11-1-2026--concerts-latin-music/production/6872928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-charlotte-north-carolina-11-01-2026/event/2D00648208B9A3EA",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441,13 +441,6 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-10T14:00:00Z",
-        "end": "2026-10-28T16:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860533"
   },
   {
@@ -466,7 +459,7 @@
     "vividseats_url": "https://www.vividseats.com/young-miko-tickets-philadelphia-xfinity-mobile-arena-11-4-2026--concerts-latin-music/production/6872930",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-philadelphia-pennsylvania-11-04-2026/event/30006482ED0C0DEE",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -527,13 +520,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860534/Young-Miko-tickets-Wed-Nov-4-2026-Xfinity-Mobile-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-10T14:00:00Z",
-        "end": "2026-10-31T16:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860534"
   },

@@ -1644,7 +1644,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-denver-ball-arena-11-1-2026--concerts-rb/production/6912000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-denver-colorado-11-01-2026/event/1E00648D91186395",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1704,13 +1704,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883112",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883112/Teddy-Swims-tickets-Sun-Nov-1-2026-Ball-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-denver-tickets-11-1-2026/event/107168139",
-    "presales": [
-      {
-        "name": "T-Mobile Reserved Tickets",
-        "start": "2026-10-02T00:00:00Z",
-        "end": "2026-11-01T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -1895,7 +1888,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-vancouver-rogers-arena-11-6-2026--concerts-rb/production/6912128",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/teddy-swims-the-ugly-tour-vancouver-british-columbia-11-06-2026/event/1100648EBB8598B4",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1955,13 +1948,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883116",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883116/Teddy-Swims-tickets-Fri-Nov-6-2026-Rogers-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-vancouver-rogers-arena-11-6-2026/event/107158276",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-24T17:00:00Z",
-        "end": "2026-10-28T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -1982,7 +1968,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-portland-moda-center-11-8-2026--concerts-rb/production/6912006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-portland-oregon-11-08-2026/event/0F00648E91EC6BD7",
-    "last_verified_at": "2026-10-26",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2044,11 +2030,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-portland-tickets-11-8-2026/event/107168140",
     "presales": [
       {
-        "name": "VIP Onsale",
-        "start": "2026-04-24T17:00:00Z",
-        "end": "2026-10-30T05:00:00Z"
-      },
-      {
         "name": "T-Mobile Reserved",
         "start": "2026-10-08T16:00:00Z",
         "end": "2026-11-08T06:00:00Z"
@@ -2074,7 +2055,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-san-francisco-chase-center-11-10-2026--concerts-rb/production/6912010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-san-francisco-california-11-10-2026/event/1C00648ABCA0F080",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2136,11 +2117,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-san-francisco-tickets-11-10-2026/event/107158277",
     "presales": [
       {
-        "name": "VIP Package Onsale",
-        "start": "2026-04-24T17:00:00Z",
-        "end": "2026-11-01T05:00:00Z"
-      },
-      {
         "name": "Special Offer",
         "start": "2026-09-18T17:00:00Z",
         "end": "2026-11-11T03:00:00Z"
@@ -2172,7 +2148,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-sacramento-golden-1-center-11-11-2026--concerts-rb/production/6912016",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-sacramento-california-11-11-2026/event/1C00648DF18D8FCC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2233,11 +2209,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883122/Teddy-Swims-tickets-Wed-Nov-11-2026-Golden-1-Center",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-sacramento-tickets-11-11-2026/event/107158278",
     "presales": [
-      {
-        "name": "Chime Visa Post-Sale",
-        "start": "2026-04-24T17:00:00Z",
-        "end": "2026-10-29T05:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-04-24T17:00:00Z",

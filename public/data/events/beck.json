@@ -486,7 +486,7 @@
     "city": "Vancouver",
     "country": "Canada",
     "venue": "Queen Elizabeth Theatre",
-    "datetime_iso": "2026-11-10T03:30:00Z",
+    "datetime_iso": "2026-11-10T02:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "11006489918258F5",
     "ticketmaster_url": "https://www.ticketmaster.ca/beck-ride-lonesome-tour-vancouver-british-columbia-11-09-2026/event/11006489918258F5",
@@ -494,7 +494,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/beck-ride-lonesome-tour-vancouver-british-columbia-11-09-2026/event/11006489918258F5",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -550,7 +550,9 @@
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896101/Beck-tickets-Mon-Nov-9-2026-Queen-Elizabeth-Theatre-Vancouver"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896101/Beck-tickets-Mon-Nov-9-2026-Queen-Elizabeth-Theatre-Vancouver",
+    "previous_start_date": "2026-11-10T03:30:00Z",
+    "previous_start_timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-beck-2026-portland-z7r9jz1a7xffk",

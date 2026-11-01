@@ -619,7 +619,7 @@
     "vividseats_url": "https://www.vividseats.com/bryson-tiller-tickets-seattle-climate-pledge-arena-11-1-2026--concerts-rb/production/7104573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-seattle-washington-11-01-2026/event/0F0064BADFD7E266",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -680,18 +680,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-seattle-tickets-11-1-2026/event/107258875",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-05T19:00:00Z",
-        "end": "2026-10-28T19:00:00Z"
-      },
-      {
-        "name": "Meet & Greet VIP Package",
-        "start": "2026-06-17T19:00:00Z",
-        "end": "2026-10-28T19:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8011581"
   },

@@ -1497,7 +1497,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-minneapolis-target-center-11-1-2026--concerts-alternative/production/6897954",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-minneapolis-minnesota-11-01-2026/event/06006489AC06E087",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1551,11 +1551,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874873/sombr-tickets-Sun-Nov-1-2026-Target-Center",
     "presales": [
       {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-17T15:00:00Z",
-        "end": "2026-10-28T17:00:00Z"
-      },
-      {
         "name": "Single Seat Offer",
         "start": "2026-10-15T16:30:00Z",
         "end": "2026-11-02T03:00:00Z"
@@ -1581,7 +1576,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-milwaukee-fiserv-forum-11-3-2026--concerts-alternative/production/6897964",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-milwaukee-wisconsin-11-03-2026/event/07006488DF476E7D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1633,13 +1628,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874874",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874874/sombr-tickets-Tue-Nov-3-2026-Fiserv-Forum",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-17T15:00:00Z",
-        "end": "2026-10-30T17:00:00Z"
-      }
-    ],
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
@@ -1661,7 +1649,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-chicago-united-center-11-4-2026--concerts-alternative/production/6897970",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-chicago-illinois-11-04-2026/event/04006487CFF2C118",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1721,13 +1709,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874875",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-chicago-tickets-11-4-2026/event/107154727",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874875/sombr-tickets-Wed-Nov-4-2026-United-Center",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-17T15:00:00Z",
-        "end": "2026-10-31T17:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

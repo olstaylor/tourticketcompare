@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/kings-of-leon-live-at-the-auckland-24-02-2027/event/240065509C812E04",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,10 @@
     },
     "ticketmaster_discovery_event_id": "1kaZvPfaGAGO3z7",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-bowen-hills-1avgz_fgkxy2l3h",
@@ -68,7 +71,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/kings-of-leon-bowen-hills-03-03-2027/event/1300654FB93EB49B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +106,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_fGkXy2l3h",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-flemington-1aefz_fgkxtcmb-",
@@ -121,7 +127,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/kings-of-leon-flemington-05-03-2027/event/2500654FA93B7EA1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +162,10 @@
     },
     "ticketmaster_discovery_event_id": "1AefZ_fGkXtCMB-",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-hamburg-z698xzc2z1kjifpz9",
@@ -174,7 +183,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/kings-of-leon-2027-tickets/728525017?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -210,7 +219,22 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kjIfPZ9",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z"
+    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-06T10:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-05T10:00:00Z",
+        "end": "2026-11-06T10:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-dublin-1avoz_fgktpkxi7",
@@ -228,7 +252,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/kings-of-leon-dublin-22-06-2027/event/1800654FD61BEA04",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -263,7 +287,11 @@
     },
     "ticketmaster_discovery_event_id": "1AvOZ_fGkTpkXI7",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-scarborough-1agzk4fgke0iell",
@@ -281,7 +309,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-6-27-2027/production/7755406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kings-of-leon-scarborough-27-06-2027/event/35006554A4B027DF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -324,7 +352,10 @@
     "ticketmaster_discovery_event_id": "1AgZk4fGke0ieLL",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-27-6-2027/event/107676167"
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-27-6-2027/event/107676167",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-london-1agzk4egkesvn16",
@@ -342,7 +373,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-london-the-o2---london-7-2-2027/production/7654318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kings-of-leon-london-02-07-2027/event/35006542B306A287",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -385,7 +416,10 @@
     "ticketmaster_discovery_event_id": "1AgZk4eGkeSvn16",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-2-7-2027/event/107671680"
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-2-7-2027/event/107671680",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-london-1agzk4egkdt5lpe",
@@ -403,7 +437,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-london-the-o2---london-7-3-2027/production/7657333",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kings-of-leon-london-03-07-2027/event/35006542FF2DF582",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -446,6 +480,9 @@
     "ticketmaster_discovery_event_id": "1AgZk4eGkdT5Lpe",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-3-7-2027/event/107672737"
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-3-7-2027/event/107672737",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ]
   }
 ]

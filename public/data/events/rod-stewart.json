@@ -1930,7 +1930,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-3-6-2027/production/7761495",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-atlantic-city-new-jersey-03-06-2027/event/02006557FBD16BDC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1979,10 +1979,12 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZk49GkdDVpRj",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343668",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343668/Rod-Stewart-tickets-Sat-Mar-6-2027-Hard-Rock-Live-At-Etess-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343668/Rod-Stewart-tickets-Sat-Mar-6-2027-Hard-Rock-Live-At-Etess-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-rod-stewart-2027-lincoln-g5vyz_4ho4bgw",
@@ -2000,7 +2002,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-lincoln-the-venue-at-thunder-valley-casino-resort-8-14-2027/production/7763286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-lincoln-california-08-14-2027/event/1C006556D157AD72",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2049,8 +2051,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4ho4Bgw",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343679",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343679/Rod-Stewart-tickets-Sat-Aug-14-2027-The-Venue-At-Thunder-Valley-Casino-Resort"
   }

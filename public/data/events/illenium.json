@@ -129,7 +129,7 @@
     "vividseats_url": "https://www.vividseats.com/illenium-tickets-san-francisco-bill-graham-civic-auditorium-12-30-2026/production/7609174",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-12-30-2026/event/1C006537247E9E87",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -188,7 +188,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294523",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294523/Illenium-tickets-Wed-Dec-30-2026-Bill-Graham-Civic-Auditorium",
-    "stubhub_international_url": "https://www.stubhub.ie/illenium-san-francisco-tickets-12-30-2026/event/107672778"
+    "stubhub_international_url": "https://www.stubhub.ie/illenium-san-francisco-tickets-12-30-2026/event/107672778",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "presales": [
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-09-29T17:00:00Z",
+        "end": "2026-12-03T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-illenium-2027-san-francisco-g5vyz_kjpaqe2",
@@ -206,7 +216,7 @@
     "vividseats_url": "https://www.vividseats.com/illenium-tickets-san-francisco-bill-graham-civic-auditorium-12-31-2026/production/7609172",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-12-31-2026/event/1C0065372525A08F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -265,7 +275,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294522",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294522/Illenium-tickets-Thu-Dec-31-2026-Bill-Graham-Civic-Auditorium",
-    "stubhub_international_url": "https://www.stubhub.ie/illenium-san-francisco-tickets-12-31-2026/event/107672779"
+    "stubhub_international_url": "https://www.stubhub.ie/illenium-san-francisco-tickets-12-31-2026/event/107672779",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "presales": [
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-09-29T17:00:00Z",
+        "end": "2026-12-04T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-illenium-2027-san-francisco-g5vyz_kuqzndv",
@@ -283,7 +303,7 @@
     "vividseats_url": "https://www.vividseats.com/illenium-tickets-san-francisco-bill-graham-civic-auditorium-1-1-2027/production/7757695",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/illenium-18-san-francisco-california-01-01-2027/event/1C00653D9D023EF4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -332,9 +352,18 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KUqZNDV",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-29T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342892",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342892/Illenium-tickets-Fri-Jan-1-2027-Bill-Graham-Civic-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342892/Illenium-tickets-Fri-Jan-1-2027-Bill-Graham-Civic-Auditorium",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "presales": [
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-10-29T17:00:00Z",
+        "end": "2026-12-05T06:00:00Z"
+      }
+    ]
   }
 ]

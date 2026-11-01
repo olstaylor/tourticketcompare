@@ -1175,7 +1175,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-denver-ball-arena-3-2-2027--concerts-rock/production/7767705",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-denver-colorado-03-02-2027/event/1E006556AE015756",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1224,10 +1224,19 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_4QmZ4qp",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T16:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345902",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345902/The-Neighbourhood-tickets-Tue-Mar-2-2027-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345902/The-Neighbourhood-tickets-Tue-Mar-2-2027-Ball-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T16:00:00Z",
+        "end": "2027-02-24T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-saint-louis-vv1kvovppfga13fre",
@@ -1245,7 +1254,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-saint-louis-missouri-03-04-2027/event/060065588A494782",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1280,8 +1289,17 @@
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPpFGA13fre",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T15:00:00Z"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-02-26T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-dallas-vvg1yz_4no500h",
@@ -1299,7 +1317,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-dallas-american-airlines-center---tx-3-7-2027--concerts-rock/production/7767707",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alt-1037-presents-the-neighbourhood-wourld-dallas-texas-03-07-2027/event/0C00655AA02E493C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1355,11 +1373,21 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4nO500H",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345905",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345905/The-Neighbourhood-tickets-Sun-Mar-7-2027-American-Airlines-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-dallas-tickets-3-7-2027/event/107679599"
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-dallas-tickets-3-7-2027/event/107679599",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "PLEASE & THANK YOU LLC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-03-01T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-philadelphia-1adzz_4gkl39a_b",
@@ -1377,7 +1405,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-philadelphia-xfinity-mobile-arena-4-23-2027--concerts-rock/production/7767709",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wrff-presents-the-neighbourhood-wourld-tour-philadelphia-pennsylvania-04-23-2027/event/3000655AD25C9658",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1426,10 +1454,19 @@
     },
     "ticketmaster_discovery_event_id": "1AdZZ_4Gkl39a_b",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345906",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345906/The-Neighbourhood-tickets-Fri-Apr-23-2027-Xfinity-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345906/The-Neighbourhood-tickets-Fri-Apr-23-2027-Xfinity-Mobile-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-04-17T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-boston-vv1avzk4_gkdekcqu",
@@ -1447,7 +1484,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-boston-td-garden-4-24-2027--concerts-rock/production/7767716",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-boston-massachusetts-04-24-2027/event/01006559C21AD68D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1503,11 +1540,20 @@
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4_GkdekcQu",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345907",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345907/The-Neighbourhood-tickets-Sat-Apr-24-2027-TD-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-boston-tickets-4-24-2027/event/107678918"
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-boston-tickets-4-24-2027/event/107678918",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-04-18T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-montreal-1ad7z_4gknbo3lq",
@@ -1525,7 +1571,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-montreal-bell-centre-4-27-2027--concerts-rock/production/7767734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-montreal-quebec-04-27-2027/event/3100655A98812ADA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1574,10 +1620,22 @@
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_4GknbO3lQ",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345908",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345908/The-Neighbourhood-tickets-Tue-Apr-27-2027-Centre-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345908/The-Neighbourhood-tickets-Tue-Apr-27-2027-Centre-Bell",
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "Forfaits VIP Packages",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-04-21T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-kanata-16szk49oizau7kga",
@@ -1595,7 +1653,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-kanata-ontario-04-28-2027/event/31006557828C35B4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1630,8 +1688,20 @@
     },
     "ticketmaster_discovery_event_id": "16sZk49OIZAu7kGA",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-04-22T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-columbus-vv17fz_4gkmetfbq",
@@ -1649,7 +1719,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-columbus-value-city-arena-at-schottenstein-center-4-30-2027--concerts-rock/production/7767718",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-columbus-ohio-04-30-2027/event/0500655BA7A5461D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1698,10 +1768,19 @@
     },
     "ticketmaster_discovery_event_id": "vv17fZ_4GkmEtfbq",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345910",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345910/The-Neighbourhood-tickets-Fri-Apr-30-2027-Value-City-Arena-at-The-Schottenstein-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345910/The-Neighbourhood-tickets-Fri-Apr-30-2027-Value-City-Arena-at-The-Schottenstein-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-04-24T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-pittsburgh-16vbz_4jkg7tdr9",
@@ -1719,7 +1798,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-pittsburgh-ppg-paints-arena-5-1-2027--concerts-rock/production/7767720",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-pittsburgh-pennsylvania-05-01-2027/event/1600655713FFBBD7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1768,10 +1847,19 @@
     },
     "ticketmaster_discovery_event_id": "16vbZ_4jKG7TDR9",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345911",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345911/The-Neighbourhood-tickets-Sat-May-1-2027-PPG-Paints-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345911/The-Neighbourhood-tickets-Sat-May-1-2027-PPG-Paints-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-04-25T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-raleigh-g5evz_4l74bcy",
@@ -1789,7 +1877,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-raleigh-lenovo-center-5-4-2027--concerts-rock/production/7767726",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-raleigh-north-carolina-05-04-2027/event/2D00655AC457A3B0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1838,10 +1926,20 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_4l74BCY",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345912",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345912/The-Neighbourhood-tickets-Tue-May-4-2027-Lenovo-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345912/The-Neighbourhood-tickets-Tue-May-4-2027-Lenovo-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "PLEASE & THANK YOU LLC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-04-28T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-indianapolis-vv1aazk49gkeyee1s",
@@ -1859,7 +1957,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-indianapolis-gainbridge-fieldhouse-5-7-2027--concerts-rock/production/7767728",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-indianapolis-indiana-05-07-2027/event/05006557B00A72B1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1908,10 +2006,19 @@
     },
     "ticketmaster_discovery_event_id": "vv1AAZk49GkeYeE1s",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345913",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345913/The-Neighbourhood-tickets-Fri-May-7-2027-Gainbridge-Fieldhouse"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345913/The-Neighbourhood-tickets-Fri-May-7-2027-Gainbridge-Fieldhouse",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-05-01T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-chicago-vv178z_4gknyh4c0",
@@ -1929,7 +2036,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-chicago-united-center-5-8-2027--concerts-rock/production/7767730",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/q101-presents-the-neighbourhood-wourld-tour-chicago-illinois-05-08-2027/event/0400655AB9F15B64",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1985,11 +2092,20 @@
     },
     "ticketmaster_discovery_event_id": "vv178Z_4GknyH4c0",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345914",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345914/The-Neighbourhood-tickets-Sat-May-8-2027-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-chicago-tickets-5-8-2027/event/107678938"
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-chicago-tickets-5-8-2027/event/107678938",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-05-02T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-winnipeg-1av7z_4gknbr6nb",
@@ -2007,7 +2123,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-winnipeg-canada-life-centre-5-11-2027--concerts-rock/production/7767742",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-winnipeg-manitoba-05-11-2027/event/1100655ABABC7A98",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2056,10 +2172,22 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_4GknBR6nb",
     "timezone": "America/Winnipeg",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345915",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345915/The-Neighbourhood-tickets-Tue-May-11-2027-Canada-Life-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345915/The-Neighbourhood-tickets-Tue-May-11-2027-Canada-Life-Centre",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-05-05T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-calgary-1av7z_4gknld4le",
@@ -2077,7 +2205,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-calgary-scotiabank-saddledome-5-14-2027--concerts-rock/production/7767748",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-calgary-alberta-05-14-2027/event/1100655A9FED5AE7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2126,10 +2254,22 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_4GknLD4lE",
     "timezone": "America/Edmonton",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T16:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345916",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345916/The-Neighbourhood-tickets-Fri-May-14-2027-Scotiabank-Saddledome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345916/The-Neighbourhood-tickets-Fri-May-14-2027-Scotiabank-Saddledome",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T16:00:00Z",
+        "end": "2027-05-08T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-edmonton-1av7z_4gkl6qbrx",
@@ -2147,7 +2287,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-edmonton-rogers-place-5-15-2027--concerts-rock/production/7767750",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-edmonton-alberta-05-15-2027/event/1100655AC77587A2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2196,10 +2336,22 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_4Gkl6qbrx",
     "timezone": "America/Edmonton",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T16:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345917",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345917/The-Neighbourhood-tickets-Sat-May-15-2027-Rogers-Place"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345917/The-Neighbourhood-tickets-Sat-May-15-2027-Rogers-Place",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T16:00:00Z",
+        "end": "2027-05-09T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-neighbourhood-2027-firenze-zg9rmiynyzfavv",
@@ -2217,7 +2369,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/the-neighbourhood-firenze-13-07-2027/event/j8c9cxxwoswx",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2252,8 +2404,7 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZFavv",
     "timezone": "Europe/Rome",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T09:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-houston-z7r9jz1aa7ypb",
@@ -2271,7 +2422,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-houston-toyota-center---tx-3-6-2027--concerts-rock/production/7767791",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Ypb",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2322,6 +2473,9 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345904",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345904/The-Neighbourhood-tickets-Sat-Mar-6-2027-Toyota-Center-TX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345904/The-Neighbourhood-tickets-Sat-Mar-6-2027-Toyota-Center-TX",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

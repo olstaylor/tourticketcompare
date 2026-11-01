@@ -1185,7 +1185,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-birmingham-protective-stadium-4-27-2027--concerts-pop/production/7773108",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-birmingham-alabama-04-27-2027/event/2000655CAB442FB5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1237,7 +1237,22 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347742",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347742/Noah-Kahan-tickets-Tue-Apr-27-2027-Protective-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347742/Noah-Kahan-tickets-Tue-Apr-27-2027-Protective-Stadium",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T18:00:00Z",
+        "end": "2026-11-11T05:59:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T15:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-noah-kahan-2027-tampa-vvg1vz_4rlk1ty",
@@ -1255,7 +1270,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-tampa-raymond-james-stadium-4-29-2027--concerts-pop/production/7773110",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-tampa-florida-04-29-2027/event/0D00655BEB4CAA79",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1315,7 +1330,42 @@
     "public_onsale_at": "2026-11-12T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347743",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347743/Noah-Kahan-tickets-Thu-Apr-29-2027-Raymond-James-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tampa-tickets-4-29-2027/event/107679485"
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tampa-tickets-4-29-2027/event/107679485",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-11T04:59:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Packages",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-11T04:59:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2027-04-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2027-04-24T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-noah-kahan-2027-charlotte-g5evz_4r3uqrt",
@@ -1333,7 +1383,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-charlotte-bank-of-america-stadium-5-6-2027--concerts-pop/production/7773114",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-charlotte-north-carolina-05-06-2027/event/2D00655BD235D7A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1393,7 +1443,27 @@
     "public_onsale_at": "2026-11-12T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347745",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347745/Noah-Kahan-tickets-Thu-May-6-2027-Bank-Of-America-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-charlotte-tickets-5-6-2027/event/107679487"
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-charlotte-tickets-5-6-2027/event/107679487",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-11T04:59:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2027-04-23T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-noah-kahan-2027-houston-g5diz_4wkxf3f",
@@ -1411,7 +1481,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-houston-reliant-stadium-5-12-2027--concerts-pop/production/7773118",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-houston-texas-05-12-2027/event/3A00655C86F94494",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1471,7 +1541,42 @@
     "public_onsale_at": "2026-11-12T18:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347747",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347747/Noah-Kahan-tickets-Wed-May-12-2027-Reliant-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-houston-tickets-5-12-2027/event/107679488"
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-houston-tickets-5-12-2027/event/107679488",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T18:00:00Z",
+        "end": "2026-11-11T05:59:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Packages",
+        "start": "2026-11-10T18:00:00Z",
+        "end": "2026-11-11T05:59:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T15:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T15:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2027-04-29T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2027-05-07T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-noah-kahan-2027-santa-clara-g5vyz_4rfk6c7",
@@ -1489,7 +1594,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-santa-clara-california-05-19-2027/event/1C00655BC8187B44",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1549,7 +1654,22 @@
     "public_onsale_at": "2026-11-12T20:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347749",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347749/Noah-Kahan-tickets-Wed-May-19-2027-Levis-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-santa-clara-tickets-5-19-2027/event/107679489"
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-santa-clara-tickets-5-19-2027/event/107679489",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T20:00:00Z",
+        "end": "2026-11-12T07:59:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-noah-kahan-2027-las-vegas-1avjz_4gkrmeou0",
@@ -1567,7 +1687,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-las-vegas-allegiant-stadium-5-21-2027--concerts-pop/production/7773130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-las-vegas-nevada-05-21-2027/event/1700655BEE9D1DA4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1627,7 +1747,22 @@
     "public_onsale_at": "2026-11-12T20:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347750",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347750/Noah-Kahan-tickets-Fri-May-21-2027-Allegiant-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-las-vegas-tickets-5-21-2027/event/107679490"
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-las-vegas-tickets-5-21-2027/event/107679490",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T20:00:00Z",
+        "end": "2026-11-11T07:59:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-noah-kahan-2027-columbus-vv17fz_4gkshkqmo",
@@ -1645,7 +1780,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-columbus-ohio-stadium-6-5-2027--concerts-pop/production/7773179",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-columbus-ohio-06-05-2027/event/0500655CFC19DBA0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1705,7 +1840,32 @@
     "public_onsale_at": "2026-11-12T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347756",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347756/Noah-Kahan-tickets-Sat-Jun-5-2027-Ohio-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-columbus-tickets-6-5-2027/event/107679494"
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-columbus-tickets-6-5-2027/event/107679494",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-11T04:59:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Packages",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-11T04:59:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-noah-kahan-2027-detroit-vv1koz_kr3g7cdve",
@@ -1723,7 +1883,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-detroit-ford-field-6-10-2027--concerts-pop/production/7773185",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-10-2027/event/0800653792B43D27",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1783,7 +1943,22 @@
     "public_onsale_at": "2026-11-12T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347757",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347757/Noah-Kahan-tickets-Thu-Jun-10-2027-Ford-Field",
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-detroit-tickets-6-10-2027/event/107678749"
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-detroit-tickets-6-10-2027/event/107678749",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-11T04:59:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-noah-kahan-2027-orchard-park-vv17gz_4gksqg3zl",
@@ -1801,7 +1976,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-orchard-park-highmark-stadium-6-12-2027--concerts-pop/production/7773189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-orchard-park-new-york-06-12-2027/event/0300655CDD312E2B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1861,7 +2036,22 @@
     "public_onsale_at": "2026-11-12T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347758",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347758/Noah-Kahan-tickets-Sat-Jun-12-2027-New-Highmark-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-orchard-park-tickets-6-12-2027/event/107678750"
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-orchard-park-tickets-6-12-2027/event/107678750",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-11T04:59:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-noah-kahan-2027-montreal-1aszk4pgkdjhrvf",
@@ -1879,7 +2069,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-montreal-parc-jean-drapeau-6-15-2027--concerts-pop/production/7773197",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/noah-kahan-the-last-of-the-montreal-quebec-06-15-2027/event/31006556E6F1ED08",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1931,7 +2121,23 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347760",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347760/Noah-Kahan-tickets-Tue-Jun-15-2027-Parc-Jean-Drapeau"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347760/Noah-Kahan-tickets-Tue-Jun-15-2027-Parc-Jean-Drapeau",
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-11T04:59:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-noah-kahan-2027-east-rutherford-k7vgf_4me3p--",
@@ -1949,7 +2155,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-east-rutherford-metlife-stadium-6-18-2027--concerts-pop/production/7773195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-18-2027/event/0000655BA74A5861",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2009,7 +2215,24 @@
     "public_onsale_at": "2026-11-12T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347759",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347759/Noah-Kahan-tickets-Fri-Jun-18-2027-MetLife-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-east-rutherford-tickets-6-18-2027/event/107678751"
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-east-rutherford-tickets-6-18-2027/event/107678751",
+    "presales": [
+      {
+        "name": "Citi Field Past Purchaser Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-10T16:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-11T04:59:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-noah-kahan-2027-berlin-z698xzc2z16vgkoop-",
@@ -2019,7 +2242,7 @@
     "city": "Berlin",
     "country": "Germany",
     "venue": "Waldbühne",
-    "datetime_iso": "2027-07-02T18:00:00Z",
+    "datetime_iso": "2027-07-02T17:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1306451961",
     "ticketmaster_url": "https://www.ticketmaster.de/event/noah-kahan-the-last-of-the-bugs-world-tour-tickets/1306451961?language=en-us",
@@ -2027,7 +2250,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/noah-kahan-the-last-of-the-bugs-world-tour-tickets/1306451961?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2063,7 +2286,27 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vGkooP-",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z"
+    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T11:00:00Z",
+        "end": "2026-11-12T11:00:00Z"
+      },
+      {
+        "name": "PayPal Prio Tickets",
+        "start": "2026-11-10T11:00:00Z",
+        "end": "2026-11-12T11:00:00Z"
+      },
+      {
+        "name": "Telekom Prio Tickets",
+        "start": "2026-11-10T11:00:00Z",
+        "end": "2026-11-12T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-noah-kahan-2027-milano-zg9rmiynyzfa6d",
@@ -2135,7 +2378,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/noah-kahan-iconica-santalucia-sevilla-fest-tickets/1483340788?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2171,6 +2414,9 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v3duZrF",
     "timezone": "Europe/Madrid",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z"
+    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "organizer_names": [
+      "Live Nation España S.A.U."
+    ]
   }
 ]

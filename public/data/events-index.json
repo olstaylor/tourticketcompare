@@ -3867,7 +3867,7 @@
     "country": "United States Of America",
     "city": "Tampa",
     "venue": "Raymond James Stadium",
-    "datetime_iso": "2026-11-07T22:30:00Z",
+    "datetime_iso": "2026-11-07T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "The Loop Tour",
     "status": "on-sale"
@@ -10106,7 +10106,7 @@
     "country": "Canada",
     "city": "Vancouver",
     "venue": "Commodore Ballroom",
-    "datetime_iso": "2027-02-26T03:00:00Z",
+    "datetime_iso": "2027-02-26T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "status": "on-sale"
@@ -19334,7 +19334,7 @@
     "country": "Canada",
     "city": "Vancouver",
     "venue": "Commodore Ballroom",
-    "datetime_iso": "2027-01-27T02:00:00Z",
+    "datetime_iso": "2027-01-27T01:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "The Winter Carnival Tour 2027",
     "status": "on-sale"
@@ -19478,7 +19478,7 @@
     "country": "Canada",
     "city": "Winnipeg",
     "venue": "Canada Life Centre",
-    "datetime_iso": "2027-01-31T01:30:00Z",
+    "datetime_iso": "2027-01-31T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "the lucky me tour",
     "status": "on-sale"
@@ -25034,7 +25034,7 @@
     "country": "Canada",
     "city": "Vancouver",
     "venue": "Commodore Ballroom",
-    "datetime_iso": "2027-02-25T03:00:00Z",
+    "datetime_iso": "2027-02-25T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "status": "on-sale"
@@ -27914,7 +27914,7 @@
     "country": "Canada",
     "city": "Vancouver",
     "venue": "Commodore Ballroom",
-    "datetime_iso": "2027-03-07T02:30:00Z",
+    "datetime_iso": "2027-03-07T01:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
@@ -28274,7 +28274,7 @@
     "country": "Canada",
     "city": "Vancouver",
     "venue": "Queen Elizabeth Theatre",
-    "datetime_iso": "2027-03-13T04:00:00Z",
+    "datetime_iso": "2027-03-13T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Living In The Light Tour",
     "status": "on-sale"
@@ -35162,7 +35162,7 @@
     "country": "United States Of America",
     "city": "Salt Lake City",
     "venue": "The Union",
-    "datetime_iso": "2026-11-18T02:00:00Z",
+    "datetime_iso": "2026-11-18T01:30:00Z",
     "timezone": "America/Denver",
     "tour_name": "Legends On Tour",
     "status": "on-sale"
@@ -37034,7 +37034,7 @@
     "country": "Canada",
     "city": "Vancouver",
     "venue": "Hollywood Theatre",
-    "datetime_iso": "2026-11-13T02:00:00Z",
+    "datetime_iso": "2026-11-13T01:30:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
     "status": "on-sale"
@@ -42638,7 +42638,7 @@
     "country": "United States Of America",
     "city": "Hollywood",
     "venue": "Hollywood Bowl",
-    "datetime_iso": "2026-11-02T02:30:00Z",
+    "datetime_iso": "2026-11-02T02:15:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
@@ -45554,7 +45554,7 @@
     "country": "United States Of America",
     "city": "Highland",
     "venue": "Yaamava Theater",
-    "datetime_iso": "2026-10-30T03:00:00Z",
+    "datetime_iso": "2026-11-07T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
@@ -45965,7 +45965,7 @@
     "datetime_iso": "2027-01-09T04:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-eagles-2027-las-vegas-1a9zk4egkdmahp8",
@@ -45977,7 +45977,7 @@
     "datetime_iso": "2027-01-10T04:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd",
@@ -48353,7 +48353,7 @@
     "datetime_iso": "2027-03-29T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-charlottesville-vv1a8vp46ga2dsp3",
@@ -48365,7 +48365,7 @@
     "datetime_iso": "2027-04-14T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-tommy-emmanuel-2027-loveland-z7r9jz1aa791k",
@@ -48461,7 +48461,7 @@
     "datetime_iso": "2027-03-03T03:00:00Z",
     "timezone": "America/Mexico_City",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-beck-2026-washington-1avfz_fgkdleutu",
@@ -48554,7 +48554,7 @@
     "country": "Canada",
     "city": "Vancouver",
     "venue": "Queen Elizabeth Theatre",
-    "datetime_iso": "2026-11-10T03:30:00Z",
+    "datetime_iso": "2026-11-10T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
@@ -48713,7 +48713,7 @@
     "datetime_iso": "2027-06-03T15:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj",
@@ -48725,7 +48725,7 @@
     "datetime_iso": "2027-06-05T15:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-cardiff-16gzk4fpszage5ca",
@@ -48737,7 +48737,7 @@
     "datetime_iso": "2027-06-10T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-london-16nzk4f00zauv12c",
@@ -48749,7 +48749,7 @@
     "datetime_iso": "2027-06-18T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-london-1anzk4fgkdp88g6",
@@ -48761,7 +48761,7 @@
     "datetime_iso": "2027-06-20T15:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-dublin-1avoz_fgkxvywdt",
@@ -48773,7 +48773,7 @@
     "datetime_iso": "2027-07-01T15:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-edinburgh-1auzk4fgkd4qebt",
@@ -48785,7 +48785,7 @@
     "datetime_iso": "2027-07-08T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-manchester-g5dzz_42lyjlw",
@@ -48797,7 +48797,7 @@
     "datetime_iso": "2027-07-15T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-manchester-g5dzz_4k4turs",
@@ -48809,7 +48809,7 @@
     "datetime_iso": "2027-07-17T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-bon-jovi-2027-docklands-1aefz_fgkxe60v9",
@@ -48833,7 +48833,7 @@
     "datetime_iso": "2027-07-15T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-bon-jovi-2027-chicago-vv178z_fgkh_n5td",
@@ -48845,7 +48845,7 @@
     "datetime_iso": "2027-07-21T23:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-bon-jovi-2027-foxborough-vv1avzk48gke-15d8",
@@ -48854,10 +48854,10 @@
     "country": "United States Of America",
     "city": "Foxborough",
     "venue": "Gillette Stadium",
-    "datetime_iso": "2027-07-28T23:00:00Z",
+    "datetime_iso": "2027-07-28T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-bon-jovi-2027-toronto-1a8zk48je1zze8k",
@@ -48869,7 +48869,7 @@
     "datetime_iso": "2027-08-04T22:30:00Z",
     "timezone": "America/Toronto",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-anuel-aa-2026-belmont-park-1ayzkffgkd4zfkj",
@@ -49133,7 +49133,7 @@
     "datetime_iso": "2027-05-05T18:00:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-casalecchio-di-reno-bologna-zg9rmiynyzffde",
@@ -49145,7 +49145,7 @@
     "datetime_iso": "2027-05-08T18:30:00Z",
     "timezone": "Europe/Rome",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-praha-9-z698xzu0z1k788y-z",
@@ -49157,7 +49157,7 @@
     "datetime_iso": "2027-05-18T18:00:00Z",
     "timezone": "Europe/Prague",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-helsinki-z698xz8kz16v7so3fa",
@@ -50657,7 +50657,7 @@
     "datetime_iso": "2027-01-06T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-brandi-carlile-2027-seattle-vvg1hz_44gxf5-",
@@ -50669,7 +50669,7 @@
     "datetime_iso": "2027-01-07T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-brandi-carlile-2027-seattle-vvg1hz_44gnb5t",
@@ -50681,7 +50681,7 @@
     "datetime_iso": "2027-01-10T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-brandi-carlile-2027-seattle-vvg1hz_44g0z5w",
@@ -50693,7 +50693,7 @@
     "datetime_iso": "2027-01-11T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-brandi-carlile-2027-dublin-1abzku4gkdpubm4",
@@ -50801,7 +50801,7 @@
     "datetime_iso": "2027-05-27T18:00:00Z",
     "timezone": "Europe/Prague",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-blondshell-2027-columbus-z7r9jz1aaeogk",
@@ -50837,7 +50837,7 @@
     "datetime_iso": "2027-08-21T01:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mico-2027-columbus-z7r9jz1aa7_pz",
@@ -50861,7 +50861,7 @@
     "datetime_iso": "2027-06-30T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-santana-2027-krakow-z698xzqpz16va4pvo4",
@@ -50873,7 +50873,7 @@
     "datetime_iso": "2027-07-24T16:00:00Z",
     "timezone": "Europe/Warsaw",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-santana-2027-oslo-z698xzb_z16v43vmbv",
@@ -50885,7 +50885,7 @@
     "datetime_iso": "2027-07-28T17:30:00Z",
     "timezone": "Europe/Oslo",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mana-2027-highland-z7r9jz1aa7ngx",
@@ -51053,7 +51053,7 @@
     "datetime_iso": "2027-03-20T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-interpol-2027-memphis-g5viz_4agmgrr",
@@ -51065,7 +51065,7 @@
     "datetime_iso": "2027-03-23T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-interpol-2027-asheville-g5evz_4oz4dpm",
@@ -51077,7 +51077,7 @@
     "datetime_iso": "2027-03-24T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-interpol-2027-washington-1a4zk4kgkd5cf0g",
@@ -51089,7 +51089,7 @@
     "datetime_iso": "2027-03-24T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-interpol-2027-philadelphia-vv1aezk4fgkevbabi",
@@ -51101,7 +51101,7 @@
     "datetime_iso": "2027-03-27T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-little-big-town-2026-san-antonio-z7r9jz1a7p8a_",
@@ -51449,7 +51449,7 @@
     "datetime_iso": "2027-03-07T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-rod-stewart-2027-lincoln-g5vyz_4ho4bgw",
@@ -51461,7 +51461,7 @@
     "datetime_iso": "2027-08-15T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-weezer-2027-auckland-1fazvp4sz3z7g15d",
@@ -51533,7 +51533,7 @@
     "datetime_iso": "2027-01-02T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-lola-young-2027-nashville-z7r9jz1aaebv0",
@@ -52430,7 +52430,7 @@
     "country": "Canada",
     "city": "Winnipeg",
     "venue": "Canada Life Centre",
-    "datetime_iso": "2027-02-03T01:00:00Z",
+    "datetime_iso": "2027-02-03T00:00:00Z",
     "timezone": "America/Winnipeg",
     "tour_name": "",
     "status": "on-sale"
@@ -52793,7 +52793,7 @@
     "datetime_iso": "2027-09-13T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-denver-g5vzz_4qmz4qp",
@@ -52805,7 +52805,7 @@
     "datetime_iso": "2027-03-03T02:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-saint-louis-vv1kvovppfga13fre",
@@ -52817,7 +52817,7 @@
     "datetime_iso": "2027-03-05T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-dallas-vvg1yz_4no500h",
@@ -52829,7 +52829,7 @@
     "datetime_iso": "2027-03-08T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-philadelphia-1adzz_4gkl39a_b",
@@ -52841,7 +52841,7 @@
     "datetime_iso": "2027-04-23T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-boston-vv1avzk4_gkdekcqu",
@@ -52853,7 +52853,7 @@
     "datetime_iso": "2027-04-24T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-montreal-1ad7z_4gknbo3lq",
@@ -52865,7 +52865,7 @@
     "datetime_iso": "2027-04-27T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-kanata-16szk49oizau7kga",
@@ -52877,7 +52877,7 @@
     "datetime_iso": "2027-04-28T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-columbus-vv17fz_4gkmetfbq",
@@ -52889,7 +52889,7 @@
     "datetime_iso": "2027-04-30T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-pittsburgh-16vbz_4jkg7tdr9",
@@ -52901,7 +52901,7 @@
     "datetime_iso": "2027-05-01T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-raleigh-g5evz_4l74bcy",
@@ -52913,7 +52913,7 @@
     "datetime_iso": "2027-05-04T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-indianapolis-vv1aazk49gkeyee1s",
@@ -52925,7 +52925,7 @@
     "datetime_iso": "2027-05-07T23:00:00Z",
     "timezone": "America/Indiana/Indianapolis",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-chicago-vv178z_4gknyh4c0",
@@ -52937,7 +52937,7 @@
     "datetime_iso": "2027-05-09T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-winnipeg-1av7z_4gknbr6nb",
@@ -52949,7 +52949,7 @@
     "datetime_iso": "2027-05-12T00:00:00Z",
     "timezone": "America/Winnipeg",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-calgary-1av7z_4gknld4le",
@@ -52961,7 +52961,7 @@
     "datetime_iso": "2027-05-15T01:00:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-edmonton-1av7z_4gkl6qbrx",
@@ -52973,7 +52973,7 @@
     "datetime_iso": "2027-05-16T01:00:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2027-firenze-zg9rmiynyzfavv",
@@ -52985,7 +52985,7 @@
     "datetime_iso": "2027-07-13T18:30:00Z",
     "timezone": "Europe/Rome",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkrzxgxw",
@@ -53033,7 +53033,7 @@
     "datetime_iso": "2027-03-16T05:30:00Z",
     "timezone": "Pacific/Auckland",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-foy-vance-2027-ardmore-z7r9jz1aa7_fo",
@@ -53741,7 +53741,7 @@
     "datetime_iso": "2027-06-27T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-alex-warren-2027-scarborough-1agzkf0gkdh1nyj",
@@ -53765,7 +53765,7 @@
     "datetime_iso": "2027-07-02T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-alex-warren-2027-london-1amzkfngkdb5am5",
@@ -54821,7 +54821,7 @@
     "datetime_iso": "2027-05-09T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-two-door-cinema-club-2027-seattle-vvg1hz_4ppr1wj",
@@ -54833,7 +54833,7 @@
     "datetime_iso": "2027-05-18T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-two-door-cinema-club-2027-sacramento-g5vyz_46svaa8",
@@ -54845,7 +54845,7 @@
     "datetime_iso": "2027-05-20T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-two-door-cinema-club-2027-oakland-g5vyz_48x4wje",
@@ -54857,7 +54857,7 @@
     "datetime_iso": "2027-05-21T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-two-door-cinema-club-2027-hollywood-vv16azk4k-kza5aa16",
@@ -54869,7 +54869,7 @@
     "datetime_iso": "2027-05-23T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-two-door-cinema-club-2027-hollywood-vv170z_4gknbp_nx",
@@ -54881,7 +54881,7 @@
     "datetime_iso": "2027-05-24T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-two-door-cinema-club-2027-del-mar-rz7hnez1afc70v",
@@ -54905,7 +54905,7 @@
     "datetime_iso": "2027-05-28T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-latto-2026-philadelphia-vv17fz_4gkux4p4m",
@@ -54917,7 +54917,7 @@
     "datetime_iso": "2026-11-30T03:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-birmingham-1aezz_4gkwloexg",
@@ -55058,7 +55058,7 @@
     "country": "Germany",
     "city": "Berlin",
     "venue": "Waldbühne",
-    "datetime_iso": "2027-07-02T18:00:00Z",
+    "datetime_iso": "2027-07-02T17:00:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "",
     "status": "announced"
@@ -55145,7 +55145,7 @@
     "datetime_iso": "2027-06-12T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-edinburgh-1adbz_4gkm8ikcj",
@@ -55157,7 +55157,7 @@
     "datetime_iso": "2027-07-10T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-london-1aegz_4gklv3o2e",
@@ -55169,7 +55169,7 @@
     "datetime_iso": "2027-09-02T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-nickelback-2027-pokolbin-1avgz_4c70szdc8v",

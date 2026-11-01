@@ -169,7 +169,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-cardiff-blackweir-fields-6-20-2027/production/7620233",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-cardiff-20-06-2027/event/1F006523928D1E3A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,7 +204,11 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_3C3NozB",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "DEPOT MARKETING LIMITED"
+    ]
   },
   {
     "id": "tm-alex-warren-2027-belfast-16doz_3cdg7z8me",
@@ -222,7 +226,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-belfast-ormeau-park-6-21-2027/production/7620223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/alex-warren-finding-more-family-on-belfast-21-06-2027/event/3800652383E10B82",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -265,7 +269,10 @@
     "ticketmaster_discovery_event_id": "16dOZ_3CdG7z8me",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-belfast-ormeau-park-21-6-2027/event/107670720"
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-belfast-ormeau-park-21-6-2027/event/107670720",
+    "organizer_names": [
+      "BELSONIC LTD"
+    ]
   },
   {
     "id": "tm-alex-warren-2027-co-dublin-1abzkf-gkebtuoa",
@@ -283,7 +290,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/alex-warren-finding-more-family-on-co-dublin-22-06-2027/event/18006521BAA76805",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -318,7 +325,10 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkf-GkeBtUOA",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-alex-warren-2027-glasgow-1auzkf_gkemjhov",
@@ -336,7 +346,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-glasgow-glasgow-green-6-25-2027/production/7620219",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-finding-more-family-on-glasgow-25-06-2027/event/36006519B79BC441",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379,7 +389,11 @@
     "ticketmaster_discovery_event_id": "1AUZkf_GkeMJHov",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-glasgow-glasgow-green-25-6-2027/event/107671364"
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-glasgow-glasgow-green-25-6-2027/event/107671364",
+    "organizer_names": [
+      "GIGS IN SCOTLAND",
+      "DF CONCERTS LIMITED"
+    ]
   },
   {
     "id": "tm-alex-warren-2027-exeter-g5vhz_3je-wlb",
@@ -397,7 +411,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-exeter-powderham-castle-6-26-2027/production/7620105",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-transport-exeter-26-06-2027/event/1F006529A7872AFA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440,7 +454,10 @@
     "ticketmaster_discovery_event_id": "G5vHZ_3JE-wlB",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-exeter-powderham-castle-26-6-2027/event/107671365"
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-exeter-powderham-castle-26-6-2027/event/107671365",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ]
   },
   {
     "id": "tm-alex-warren-2027-woodstock-16djz_4q3g7mfnf",
@@ -458,7 +475,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-woodstock-blenheim-palace-6-27-2027/production/7755843",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-woodstock-27-06-2027/event/3700655692DD48C8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -514,11 +531,15 @@
     },
     "ticketmaster_discovery_event_id": "16djZ_4Q3G7MfNF",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T09:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345707",
     "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-woodstock-blenheim-palace-27-6-2027/event/107676110",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345707/Alex-Warren-tickets-Sun-Jun-27-2027-Blenheim-Palace"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345707/Alex-Warren-tickets-Sun-Jun-27-2027-Blenheim-Palace",
+    "organizer_names": [
+      "MARI",
+      "PWR EVENTS",
+      "CUFFE & TAYLOR (NEW)"
+    ]
   },
   {
     "id": "tm-alex-warren-2027-scarborough-1agzkf0gkdh1nyj",
@@ -536,7 +557,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-scarborough-scarborough-open-air-theatre-6-30-2027/production/7620049",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-scarborough-30-06-2027/event/35006524DB2AAC26",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -595,7 +616,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295164",
     "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-scarborough-scarborough-open-air-theatre-30-6-2027/event/107670721",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295164/Alex-Warren-tickets-Wed-Jun-30-2027-Scarborough-Open-Air-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295164/Alex-Warren-tickets-Wed-Jun-30-2027-Scarborough-Open-Air-Theatre",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "LIVE NATION MUSIC UK LTD"
+    ]
   },
   {
     "id": "tm-alex-warren-2027-manchester-g5dzz_fblbfue",
@@ -613,7 +638,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-manchester-heaton-park-7-2-2027/production/7755831",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-manchester-02-07-2027/event/3E00654EABE94342",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -669,11 +694,13 @@
     },
     "ticketmaster_discovery_event_id": "G5dzZ_fBlBfue",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T09:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345708",
     "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-manchester-heaton-park-2-7-2027/event/107678237",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345708/Alex-Warren-tickets-Fri-Jul-2-2027-Heaton-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345708/Alex-Warren-tickets-Fri-Jul-2-2027-Heaton-Park",
+    "organizer_names": [
+      "THE WAREHOUSE PROJECT (MANCH) LTD"
+    ]
   },
   {
     "id": "tm-alex-warren-2027-london-1amzkfngkdb5am5",
@@ -691,7 +718,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-london-crystal-palace-park-7-3-2027/production/7620071",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-london-03-07-2027/event/37006523D82C9DCB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -750,6 +777,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294337",
     "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-london-crystal-palace-park-3-7-2027/event/107671362",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294337/Alex-Warren-tickets-Sat-Jul-3-2027-Crystal-Palace-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294337/Alex-Warren-tickets-Sat-Jul-3-2027-Crystal-Palace-Park",
+    "organizer_names": [
+      "FESTIVAL REPUBLIC LTD",
+      "LNM - VIP NATION UK",
+      "LIVE NATION ON BEHALF OF CRYSTAL PALACE PARK LIVE"
+    ]
   }
 ]

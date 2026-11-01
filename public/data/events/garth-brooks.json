@@ -567,7 +567,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-04-2026/event/1000655BC088C8B2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -603,7 +603,10 @@
     "ticketmaster_discovery_event_id": "1AvZZ_4GkRZxGxw",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T15:00:00Z"
+    "public_onsale_at": "2026-11-06T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE (CANADA)"
+    ]
   },
   {
     "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkre8jcm",
@@ -621,7 +624,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-5-2026--concerts-country-and-folk/production/7767695",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-05-2026/event/1000655BC241CB77",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -657,6 +660,9 @@
     "ticketmaster_discovery_event_id": "1AvZZ_4GkRe8jcM",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T15:00:00Z"
+    "public_onsale_at": "2026-11-06T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE (CANADA)"
+    ]
   }
 ]

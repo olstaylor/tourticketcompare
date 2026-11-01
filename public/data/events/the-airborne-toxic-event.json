@@ -1103,7 +1103,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-sacramento-california-06-15-2027/event/1C0064A8AC204C0F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1154,13 +1154,6 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "Rocktober 2-pack",
-        "start": "2026-10-02T05:00:00Z",
-        "end": "2026-11-01T05:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978064",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978064/The-Airborne-Toxic-Event-tickets-Tue-Jun-15-2027-Ace-of-Spades",
     "organizer_names": [

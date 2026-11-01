@@ -580,7 +580,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-milwaukee-fiserv-forum-11-1-2026--concerts-pop/production/7446264",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -635,13 +635,6 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T15:00:00Z",
-        "end": "2026-10-28T17:00:00Z"
-      }
     ]
   },
   {
@@ -732,7 +725,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-kansas-city-t-mobile-center-11-3-2026--concerts-pop/production/7446268",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-kansas-city-missouri-11-03-2026/event/0600650E94218C54",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -786,13 +779,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214352/Jonas-Brothers-tickets-Tue-Nov-3-2026-T-Mobile-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T15:00:00Z",
-        "end": "2026-10-30T17:00:00Z"
-      }
     ]
   },
   {
@@ -1806,7 +1792,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-glendale-desert-diamond-arena-11-27-2026--concerts-pop/production/7446318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-glendale-arizona-11-27-2026/event/1900650DD11599D6",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1862,11 +1848,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-10-29T05:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-21T17:00:00Z",
@@ -1970,7 +1951,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-diego-california-11-30-2026/event/0A00650D864B747A",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2026,11 +2007,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-11-01T05:00:00Z"
-      },
       {
         "name": "Jonas Brothers VIP Package Onsale",
         "start": "2026-08-21T17:00:00Z",

@@ -365,7 +365,7 @@
     "city": "Vancouver",
     "country": "Canada",
     "venue": "Commodore Ballroom",
-    "datetime_iso": "2027-03-07T02:30:00Z",
+    "datetime_iso": "2027-03-07T01:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "11006538816C4514",
     "ticketmaster_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
@@ -373,7 +373,7 @@
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-vancouver-commodore-ballroom-3-6-2027/production/7625188",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -429,7 +429,7 @@
       {
         "name": "VIP Package Onsale",
         "start": "2026-10-02T17:00:00Z",
-        "end": "2027-02-28T06:00:00Z"
+        "end": "2027-02-28T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -1241,7 +1241,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-washington-district-of-columbia-03-15-2027/event/150064ACA6AE6F8C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1292,13 +1292,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-22T14:00:00Z",
-        "end": "2026-10-28T02:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976581",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976581/Blondshell-tickets-Mon-Mar-15-2027-930-Club"
   },

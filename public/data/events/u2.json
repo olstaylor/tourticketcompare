@@ -276,7 +276,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-02-03-2027/event/14006549BAA0CA8F",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -332,22 +332,11 @@
     },
     "ticketmaster_discovery_event_id": "1AfZk4aGkeBIGn2",
     "timezone": "America/Mexico_City",
-    "status": "announced",
-    "public_onsale_at": "2026-10-28T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "OCESA"
     ],
     "presales": [
-      {
-        "name": "Preventa Banamex",
-        "start": "2026-10-27T16:00:00Z",
-        "end": "2026-10-28T04:00:00Z"
-      },
-      {
-        "name": "Preventa Banamex Paquetes VIP",
-        "start": "2026-10-27T16:00:00Z",
-        "end": "2026-10-28T04:00:00Z"
-      },
       {
         "name": "Venta General Paquetes VIP",
         "start": "2026-10-28T16:00:00Z",
@@ -374,7 +363,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1852040169?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -426,7 +415,27 @@
     "status": "announced",
     "public_onsale_at": "2026-11-06T09:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347795",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347795/U2-tickets-Mon-Apr-26-2027-Strawberry-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347795/U2-tickets-Mon-Apr-26-2027-Strawberry-Arena",
+    "organizer_names": [
+      "Nationalarenan i Solna AB"
+    ],
+    "presales": [
+      {
+        "name": "U2 Album Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-04T21:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-04T21:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-05T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-stockholm-z698xzq2z16v_p7i1a",
@@ -444,7 +453,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1656128289?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -496,7 +505,27 @@
     "status": "announced",
     "public_onsale_at": "2026-11-06T09:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347796",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347796/U2-tickets-Wed-Apr-28-2027-Strawberry-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347796/U2-tickets-Wed-Apr-28-2027-Strawberry-Arena",
+    "organizer_names": [
+      "Nationalarenan i Solna AB"
+    ],
+    "presales": [
+      {
+        "name": "U2 Album Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-04T21:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-04T21:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-05T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz16v0jupoj",
@@ -514,7 +543,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1926365826?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -558,7 +587,27 @@
     "timezone": "Europe/Amsterdam",
     "status": "announced",
     "public_onsale_at": "2026-11-06T09:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347800/U2-tickets-Sat-Jun-5-2027-Johan-Cruijff-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347800/U2-tickets-Sat-Jun-5-2027-Johan-Cruijff-Arena",
+    "organizer_names": [
+      "Mojo Concerts"
+    ],
+    "presales": [
+      {
+        "name": "U2 Album Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-04T21:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-04T21:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2027-11-05T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz16v7bpzfv",
@@ -576,7 +625,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1118978501?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -620,6 +669,26 @@
     "timezone": "Europe/Amsterdam",
     "status": "announced",
     "public_onsale_at": "2026-11-06T09:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347801/U2-tickets-Sun-Jun-6-2027-Johan-Cruijff-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347801/U2-tickets-Sun-Jun-6-2027-Johan-Cruijff-Arena",
+    "organizer_names": [
+      "Mojo Concerts"
+    ],
+    "presales": [
+      {
+        "name": "U2 Album Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-04T21:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-04T21:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-05T21:00:00Z"
+      }
+    ]
   }
 ]

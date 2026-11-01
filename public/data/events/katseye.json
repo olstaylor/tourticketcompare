@@ -1459,7 +1459,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/katseye-the-wildworld-tour-auckland-05-03-2027/event/2400655BE73C411D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1495,6 +1495,21 @@
     "ticketmaster_discovery_event_id": "1Ae8Z_4GkRE277q",
     "timezone": "Pacific/Auckland",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T01:00:00Z"
+    "public_onsale_at": "2026-11-06T01:00:00Z",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "presales": [
+      {
+        "name": "EYEKONS Membership Presale",
+        "start": "2026-11-03T22:00:00Z",
+        "end": "2026-11-04T22:00:00Z"
+      },
+      {
+        "name": "Westpac NZ Mastercard Presale",
+        "start": "2026-11-04T01:00:00Z",
+        "end": "2026-11-05T01:00:00Z"
+      }
+    ]
   }
 ]

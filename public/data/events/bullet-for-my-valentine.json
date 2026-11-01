@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/bullet-for-my-valentine--very-special-guests-pendulum-live-tickets/628731648?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z1kbIjs_F",
     "timezone": "Europe/Prague",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Ameba Production spol. s r.o."
+    ]
   },
   {
     "id": "tm-bullet-for-my-valentine-2027-forest-brussels-z698xzg2z1ku8c37e",
@@ -68,7 +71,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/bullet-for-my-valentine-social-apocalypse-2027-tickets/350392127",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +106,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1ku8C37E",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation"
+    ]
   },
   {
     "id": "tm-bullet-for-my-valentine-2027-glasgow-1kuovpuoga5adth",
@@ -121,7 +127,7 @@
     "vividseats_url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-glasgow-ovo-hydro-2-23-2027/production/7618049",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-glasgow-23-02-2027/event/360065360B17BFDB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -164,7 +170,11 @@
     "ticketmaster_discovery_event_id": "1kuOvPuOGA5ADTh",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-glasgow-ovo-hydro-arena-glasgow-23-2-2027/event/107670042"
+    "stubhub_international_url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-glasgow-ovo-hydro-arena-glasgow-23-2-2027/event/107670042",
+    "organizer_names": [
+      "KILIMANJARO",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ]
   },
   {
     "id": "tm-bullet-for-my-valentine-2027-birmingham-1anzkfggkel7zmz",
@@ -182,7 +192,7 @@
     "vividseats_url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-2-25-2027/production/7618057",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-birmingham-25-02-2027/event/23006535AB100BB8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -225,7 +235,10 @@
     "ticketmaster_discovery_event_id": "1ANZkfgGkel7Zmz",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-birmingham-bp-pulse-live-25-2-2027/event/107670043"
+    "stubhub_international_url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-birmingham-bp-pulse-live-25-2-2027/event/107670043",
+    "organizer_names": [
+      "KMJ ENTERTAINMENT LTD"
+    ]
   },
   {
     "id": "tm-bullet-for-my-valentine-2027-london-16dfz_kqeg7loo3",
@@ -243,7 +256,7 @@
     "vividseats_url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-london-the-o2---london-2-26-2027/production/7618055",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bullet-for-my-valentine-pendulum-live-london-26-02-2027/event/3500653682AD1452",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -286,7 +299,10 @@
     "ticketmaster_discovery_event_id": "16dfZ_KQeG7loo3",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-london-the-o2-arena-26-2-2027/event/107669052"
+    "stubhub_international_url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-london-the-o2-arena-26-2-2027/event/107669052",
+    "organizer_names": [
+      "KMJ ENTERTAINMENT LTD"
+    ]
   },
   {
     "id": "tm-bullet-for-my-valentine-2027-manchester-g5vhz_kd3nkoq",
@@ -304,7 +320,7 @@
     "vividseats_url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-manchester-ao-arena-2-27-2027/production/7618045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/action-presents-bullet-for-my-valentine-manchester-27-02-2027/event/1F006530D28D345A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363,6 +379,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297688",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297688/Bullet-For-My-Valentine-tickets-Sat-Feb-27-2027-AO-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-manchester-manchester-ao-arena-27-2-2027/event/107669053"
+    "stubhub_international_url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-manchester-manchester-ao-arena-27-2-2027/event/107669053",
+    "organizer_names": [
+      "KILIMANJARO",
+      "ASM T-A AO ARENA"
+    ]
   }
 ]

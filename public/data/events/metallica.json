@@ -2511,7 +2511,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-05-2026/event/170064550782E86E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2561,13 +2561,6 @@
     "ticketmaster_discovery_event_id": "1FAYv048reZ72a62",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-06T21:00:00Z",
-        "end": "2026-10-30T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -2590,7 +2583,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-11-7-2026/production/6742738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-07-2026/event/170064550782E874",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2650,13 +2643,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775511",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775511/Metallica-tickets-Sat-Nov-7-2026-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-7-2026/event/107120666",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-06T21:00:00Z",
-        "end": "2026-11-01T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

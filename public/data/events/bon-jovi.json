@@ -68,7 +68,7 @@
     "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-east-rutherford-metlife-stadium-7-15-2027/production/7720574",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-east-rutherford-new-jersey-07-15-2027/event/00006550B4D5AF70",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -124,8 +124,7 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_4eVgQWY",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329063",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329063/Bon-Jovi-tickets-Thu-Jul-15-2027-MetLife-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-east-rutherford-tickets-7-15-2027/event/107675286",
@@ -133,41 +132,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Bon Jovi Fan Club Presale",
-        "start": "2026-10-28T12:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-28T12:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "VIP Travel Packages Presale",
-        "start": "2026-10-28T12:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-28T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-29T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "Sirius XM Presale",
-        "start": "2026-10-29T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-29T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
       {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-10-30T14:00:00Z",
@@ -196,7 +160,7 @@
     "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-chicago-soldier-field-7-21-2027/production/7720572",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-chicago-illinois-07-21-2027/event/0400654F198CBFFB",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -252,8 +216,7 @@
     },
     "ticketmaster_discovery_event_id": "vv178Z_fGkH_N5TD",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329064",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329064/Bon-Jovi-tickets-Wed-Jul-21-2027-Soldier-Field",
     "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-chicago-tickets-7-21-2027/event/107675287",
@@ -261,41 +224,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Bon Jovi Fan Club Presale",
-        "start": "2026-10-28T13:00:00Z",
-        "end": "2026-10-30T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-28T13:00:00Z",
-        "end": "2026-10-30T03:00:00Z"
-      },
-      {
-        "name": "VIP Travel Packages Presale",
-        "start": "2026-10-28T13:00:00Z",
-        "end": "2026-10-30T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-28T15:00:00Z",
-        "end": "2026-10-30T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-29T15:00:00Z",
-        "end": "2026-10-30T03:00:00Z"
-      },
-      {
-        "name": "SiriusXM Presale",
-        "start": "2026-10-29T15:00:00Z",
-        "end": "2026-10-30T03:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-29T15:00:00Z",
-        "end": "2026-10-30T03:00:00Z"
-      },
       {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-10-30T15:00:00Z",
@@ -316,7 +244,7 @@
     "city": "Foxborough",
     "country": "United States Of America",
     "venue": "Gillette Stadium",
-    "datetime_iso": "2027-07-28T23:00:00Z",
+    "datetime_iso": "2027-07-28T22:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "01006550A128B0D0",
     "ticketmaster_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-foxborough-massachusetts-07-28-2027/event/01006550A128B0D0",
@@ -324,7 +252,7 @@
     "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-foxborough-gillette-stadium-7-28-2027/production/7720570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-foxborough-massachusetts-07-28-2027/event/01006550A128B0D0",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -380,8 +308,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AvZk48Gke-15d8",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329065",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329065/Bon-Jovi-tickets-Wed-Jul-28-2027-Gillette-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-foxborough-tickets-7-28-2027/event/107675288",
@@ -389,41 +316,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Bon Jovi Fan Club Presale",
-        "start": "2026-10-28T12:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-28T12:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "VIP Travel Packages Presale",
-        "start": "2026-10-28T12:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-28T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-29T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "Sirius XM Presale",
-        "start": "2026-10-29T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-29T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
       {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-10-30T14:00:00Z",
@@ -452,7 +344,7 @@
     "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-toronto-rogers-stadium---toronto-8-4-2027/production/7720693",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bon-jovi-toronto-ontario-08-04-2027/event/10006550982280F5",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -487,8 +379,7 @@
     },
     "ticketmaster_discovery_event_id": "1a8Zk48Je1ZZe8k",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-10-30T14:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -496,46 +387,6 @@
       "LIVE NATION CANADA-RBC"
     ],
     "presales": [
-      {
-        "name": "Bon Jovi Fan Club Presale",
-        "start": "2026-10-28T12:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-28T12:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "VIP Travel Packages Presale",
-        "start": "2026-10-28T12:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-28T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "Front Of The Line Amex Presale Tickets",
-        "start": "2026-10-28T16:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-29T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "PSS Additional Access Presale",
-        "start": "2026-10-29T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
-      {
-        "name": "Sirius XM Presale",
-        "start": "2026-10-29T14:00:00Z",
-        "end": "2026-10-30T02:00:00Z"
-      },
       {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-10-30T14:00:00Z",

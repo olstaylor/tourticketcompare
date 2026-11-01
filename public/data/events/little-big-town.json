@@ -222,7 +222,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-virginia-beach-virginia-11-05-2026/event/010064C3044DC52B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273,7 +273,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034496",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034496/Little-Big-Town-tickets-Thu-Nov-5-2026-The-Dome-by-Rutter-Mills"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034496/Little-Big-Town-tickets-Thu-Nov-5-2026-The-Dome-by-Rutter-Mills",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-11-02T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-little-big-town-2026-durham-g5evz_gplfpyl",
@@ -291,7 +301,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-durham-north-carolina-11-06-2026/event/2D0064C5AB216E6B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -326,7 +336,17 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_GplFpyl",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-11-03T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-little-big-town-2026-charlotte-g5evz_g5h5gi9",
@@ -344,7 +364,7 @@
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-charlotte-ovens-auditorium-11-7-2026--concerts-country-and-folk/production/7132527",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-charlotte-north-carolina-11-07-2026/event/2D0064C2DB2CCA17",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395,7 +415,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034499",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034499/Little-Big-Town-tickets-Sat-Nov-7-2026-Ovens-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034499/Little-Big-Town-tickets-Sat-Nov-7-2026-Ovens-Auditorium",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-11-04T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-little-big-town-2026-akron-vvg1fz_ghpckp3",
@@ -413,7 +443,7 @@
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-akron-akron-civic-theatre-11-12-2026/production/7130405",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-akron-ohio-11-12-2026/event/050064C6E5B53592",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -464,7 +494,22 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034501",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034501/Little-Big-Town-tickets-Thu-Nov-12-2026-Akron-Civic-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034501/Little-Big-Town-tickets-Thu-Nov-12-2026-Akron-Civic-Theatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-11-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-11-13T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-little-big-town-2026-columbus-vvg1fz_gptrce6",
@@ -482,7 +527,7 @@
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-columbus-wexner-center-for-the-arts---mershon-auditorium-11-13-2026--concerts-country-and-folk/production/7132535",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-columbus-ohio-11-13-2026/event/050064C5A9BED087",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -533,7 +578,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034503",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034503/Little-Big-Town-tickets-Fri-Nov-13-2026-Mershon-Auditorium-At-Wexner-Center-For-The-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034503/Little-Big-Town-tickets-Fri-Nov-13-2026-Mershon-Auditorium-At-Wexner-Center-For-The-Arts",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-11-10T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-little-big-town-2026-indianapolis-vvg1fz_g5crrzm",
@@ -551,7 +606,7 @@
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-indianapolis-murat-theatre-at-old-national-centre-11-14-2026--concerts-country-and-folk/production/7132543",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-indianapolis-indiana-11-14-2026/event/050064C2CEBEF02E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,7 +657,22 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034507",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034507/Little-Big-Town-tickets-Sat-Nov-14-2026-Murat-Theatre-at-Old-National-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034507/Little-Big-Town-tickets-Sat-Nov-14-2026-Murat-Theatre-at-Old-National-Centre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-11-11T03:00:00Z"
+      },
+      {
+        "name": "T-Mobile Concert Perks+Fastlane Onsale",
+        "start": "2026-09-16T14:00:00Z",
+        "end": "2026-11-15T02:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-little-big-town-2026-chicago-vvg1jz_gohfssb",
@@ -620,7 +690,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-chicago-illinois-11-19-2026/event/070064C47C531CFA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -671,7 +741,22 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034509",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034509/Little-Big-Town-tickets-Thu-Nov-19-2026-The-Chicago-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034509/Little-Big-Town-tickets-Thu-Nov-19-2026-The-Chicago-Theatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-06-12T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-06-12T15:00:00Z",
+        "end": "2026-11-20T02:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-little-big-town-2026-detroit-vvg1oz_g9neqkq",
@@ -689,7 +774,7 @@
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-detroit-fox-theatre-detroit-11-20-2026--concerts-country-and-folk/production/7132557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-detroit-michigan-11-20-2026/event/080064C5EA9DD19D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -740,7 +825,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034511",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034511/Little-Big-Town-tickets-Fri-Nov-20-2026-Fox-Theatre-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034511/Little-Big-Town-tickets-Fri-Nov-20-2026-Fox-Theatre-Detroit",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-11-17T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-little-big-town-2026-toronto-177zv0g6g2_mkrp",
@@ -758,7 +853,7 @@
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-toronto-massey-hall---allied-music-centre-11-22-2026--concerts-country-and-folk/production/7132573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/little-big-town-for-the-art-toronto-ontario-11-22-2026/event/100064C3D9B86796",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -793,7 +888,25 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G6G2_mkrp",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-11-19T03:00:00Z"
+      },
+      {
+        "name": "Preferred Seating Onsale",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-11-23T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-little-big-town-2026-nashville-z7r9jz1a7j8ra",

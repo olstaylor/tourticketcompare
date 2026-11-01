@@ -88,7 +88,7 @@
     "city": "Hollywood",
     "country": "United States Of America",
     "venue": "Hollywood Bowl",
-    "datetime_iso": "2026-11-02T02:30:00Z",
+    "datetime_iso": "2026-11-02T02:15:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0B00653E2B2EC4EE",
     "ticketmaster_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-11-01-2026/event/0B00653E2B2EC4EE",
@@ -96,7 +96,7 @@
     "vividseats_url": "https://www.vividseats.com/aerosmith-tickets-los-angeles-hollywood-bowl-11-1-2026--concerts-rock/production/7666928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/california-dream-on-aerosmith-friends-hollywood-california-11-01-2026/event/0B00653E2B2EC4EE",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

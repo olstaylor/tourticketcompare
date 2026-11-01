@@ -84,7 +84,8 @@
         "end": "2026-11-03T20:00:00Z"
       }
     ],
-    "ticketnetwork_url": ""
+    "ticketnetwork_url": "",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-karan-aujla-2026-los-angeles-g5eyz_3lgqzvb",
@@ -171,7 +172,8 @@
         "end": "2026-11-05T20:00:00Z"
       }
     ],
-    "ticketnetwork_url": ""
+    "ticketnetwork_url": "",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-karan-aujla-2026-dallas-vvg1yz_3r_e2at",
@@ -258,7 +260,8 @@
         "end": "2026-11-09T18:00:00Z"
       }
     ],
-    "ticketnetwork_url": ""
+    "ticketnetwork_url": "",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-karan-aujla-2026-atlanta-vvg1zz_3myjgwo",
@@ -345,7 +348,8 @@
         "end": "2026-11-12T17:00:00Z"
       }
     ],
-    "ticketnetwork_url": ""
+    "ticketnetwork_url": "",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-karan-aujla-2026-new-york-g5diz_3ivacnr",
@@ -437,7 +441,8 @@
         "end": "2026-11-19T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": ""
+    "ticketnetwork_url": "",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-karan-aujla-2026-washington-1a4zkftgkdhkud5",
@@ -524,6 +529,7 @@
         "end": "2026-11-16T17:00:00Z"
       }
     ],
-    "ticketnetwork_url": ""
+    "ticketnetwork_url": "",
+    "ticketmaster_status_code": "postponed"
   }
 ]

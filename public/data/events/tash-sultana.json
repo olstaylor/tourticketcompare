@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/tash-sultana-dublin-11-03-2027/event/18006313EF7B833E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,12 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324659",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324659/Tash-Sultana-tickets-Thu-Mar-11-2027-3Arena-Dublin"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324659/Tash-Sultana-tickets-Thu-Mar-11-2027-3Arena-Dublin",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "SINGULAR ARTISTS",
+      "AMPHITHEATRE IRELAND"
+    ]
   },
   {
     "id": "tm-tash-sultana-2027-london-1adjzbsgkmupg8h",
@@ -84,7 +89,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tash-sultana-london-13-03-2027/event/3700631DCD5B543C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -143,7 +148,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7771601",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7771601/Tash-Sultana-tickets-Sat-Mar-13-2027-OVO-Arena-Wembley",
-    "stubhub_international_url": "https://www.stubhub.ie/tash-sultana-tickets-london-ovo-arena-wembley-13-3-2027/event/106928086"
+    "stubhub_international_url": "https://www.stubhub.ie/tash-sultana-tickets-london-ovo-arena-wembley-13-3-2027/event/106928086",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD"
+    ]
   },
   {
     "id": "tm-tash-sultana-2027-merksem-antwerpen-z698xzg2z1kjpqofb",
@@ -161,7 +170,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/tash-sultana-tickets/716691218",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -196,7 +205,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kjpQoFb",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FKP Scorpio Belgium"
+    ]
   },
   {
     "id": "tm-tash-sultana-2027-amsterdam-z698xzbpz16vawaob0",
@@ -214,7 +226,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/tash-sultana-return-to-the-roots-eu-uk-tour-2027-tickets/1172151624?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -273,7 +285,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315153",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315153/Tash-Sultana-tickets-Fri-Mar-26-2027-Ziggo-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/tash-sultana-tickets-amsterdam-ziggo-dome-26-3-2027/event/106927110"
+    "stubhub_international_url": "https://www.stubhub.ie/tash-sultana-tickets-amsterdam-ziggo-dome-26-3-2027/event/106927110",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "Mojo Concerts"
+    ]
   },
   {
     "id": "tm-tash-sultana-2027-auckland-1a0zkfggkee4ejk",
@@ -397,7 +413,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/tash-sultana-thirroul-01-05-2027/event/13006535DFCDD0EB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -432,6 +448,10 @@
     },
     "ticketmaster_discovery_event_id": "1AKZkfgGkdLSqdl",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FRONTIER TOURING COMPANY",
+      "MUSHROOM GROUP AUSTRALIA"
+    ]
   }
 ]

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-11-20-2026--concerts-latin-music/production/6876856",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-20-2026/event/17006481D438EC9D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7863378",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7863378/Marc-Anthony-tickets-Fri-Nov-20-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7863378/Marc-Anthony-tickets-Fri-Nov-20-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-marc-anthony-2026-las-vegas-1a9zk3vgkdf2mwm",
@@ -84,7 +87,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-11-21-2026/production/6876842",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-21-2026/event/17006481D43EECAE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +138,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7863379",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7863379/Marc-Anthony-tickets-Sat-Nov-21-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7863379/Marc-Anthony-tickets-Sat-Nov-21-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcrlvv",
@@ -153,7 +159,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-2-12-2027--concerts-latin-music/production/7587483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-12-2027/event/1700652DEDBDFD01",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,7 +210,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8281218",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281218/Marc-Anthony-tickets-Fri-Feb-12-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281218/Marc-Anthony-tickets-Fri-Feb-12-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-01-16T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcslva",
@@ -222,7 +238,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-2-13-2027--concerts-latin-music/production/7587485",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-13-2027/event/1700652DEDC5FD09",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273,7 +289,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8281219",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281219/Marc-Anthony-tickets-Sat-Feb-13-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281219/Marc-Anthony-tickets-Sat-Feb-13-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-01-16T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcslvq",
@@ -291,7 +317,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-2-17-2027--concerts-latin-music/production/7587487",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-17-2027/event/1700652DEDCDFD1A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -342,7 +368,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8281222",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281222/Marc-Anthony-tickets-Wed-Feb-17-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281222/Marc-Anthony-tickets-Wed-Feb-17-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-01-16T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcglvg",
@@ -360,7 +396,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-2-19-2027--concerts-latin-music/production/7587489",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-19-2027/event/1700652DEDD5FD35",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -411,7 +447,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8281225",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281225/Marc-Anthony-tickets-Fri-Feb-19-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281225/Marc-Anthony-tickets-Fri-Feb-19-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-01-16T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcmlvw",
@@ -429,7 +475,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-2-20-2027--concerts-latin-music/production/7587493",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-20-2027/event/1700652DEDDDFD3D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -480,7 +526,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8281226",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281226/Marc-Anthony-tickets-Sat-Feb-20-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281226/Marc-Anthony-tickets-Sat-Feb-20-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-01-16T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcylvt",
@@ -498,7 +554,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-9-10-2027--concerts-latin-music/production/7587499",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-10-2027/event/1700652DEDE5FD3F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -549,7 +605,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8281233",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281233/Marc-Anthony-tickets-Fri-Sep-10-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281233/Marc-Anthony-tickets-Fri-Sep-10-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-01-16T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcdlga",
@@ -567,7 +633,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-9-11-2027--concerts-latin-music/production/7587503",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-11-2027/event/1700652DEDEDFD45",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -618,7 +684,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8281234",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281234/Marc-Anthony-tickets-Sat-Sep-11-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281234/Marc-Anthony-tickets-Sat-Sep-11-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-01-16T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcwlg2",
@@ -636,7 +712,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-9-17-2027--concerts-latin-music/production/7587505",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-17-2027/event/1700652DEDF5FD4F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -687,7 +763,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8281237",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281237/Marc-Anthony-tickets-Fri-Sep-17-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281237/Marc-Anthony-tickets-Fri-Sep-17-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-01-16T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmctlgh",
@@ -705,7 +791,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-9-18-2027--concerts-latin-music/production/7587507",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-18-2027/event/1700652DEDFDFD5B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -756,7 +842,17 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8281238",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281238/Marc-Anthony-tickets-Sat-Sep-18-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281238/Marc-Anthony-tickets-Sat-Sep-18-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-01-16T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmmv2gl",
@@ -774,7 +870,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-9-19-2027--concerts-latin-music/production/7587509",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-09-19-2027/event/1700652DEE04FD6B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -825,6 +921,16 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8281239",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281239/Marc-Anthony-tickets-Sun-Sep-19-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8281239/Marc-Anthony-tickets-Sun-Sep-19-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-01-16T06:00:00Z"
+      }
+    ]
   }
 ]

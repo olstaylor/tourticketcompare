@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-northfield-ohio-12-10-2026/event/050064C4C5F4FD3D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,22 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034628",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034628/Lady-A-Country-Group-tickets-Thu-Dec-10-2026-Northfield-Park-Racino-Center-Stage"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034628/Lady-A-Country-Group-tickets-Thu-Dec-10-2026-Northfield-Park-Racino-Center-Stage",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-12-03T22:00:00Z"
+      },
+      {
+        "name": "Preferred Seats 21+",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-12-11T00:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lady-a-2026-gary-vvg1fz_5la2nke",
@@ -84,7 +99,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-gary-indiana-12-11-2026/event/050064BAC93EA4E7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +150,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034630",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034630/Lady-A-Country-Group-tickets-Fri-Dec-11-2026-Hard-Rock-Live-Northern-Indiana"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034630/Lady-A-Country-Group-tickets-Fri-Dec-11-2026-Hard-Rock-Live-Northern-Indiana",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-12T15:00:00Z",
+        "end": "2026-12-04T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lady-a-2026-shipshewana-z7r9jz1a7pkv6",
@@ -222,7 +244,7 @@
     "vividseats_url": "https://www.vividseats.com/lady-a-tickets-new-york-beacon-theatre-12-17-2026/production/7132089",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-new-york-new-york-12-17-2026/event/3B0064C3C01B5EBA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -281,7 +303,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034631",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034631/Lady-A-Country-Group-tickets-Thu-Dec-17-2026-Beacon-Theatre-NY",
-    "stubhub_international_url": "https://www.stubhub.ie/lady-a-new-york-tickets-12-17-2026/event/107666091"
+    "stubhub_international_url": "https://www.stubhub.ie/lady-a-new-york-tickets-12-17-2026/event/107666091",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-12-10T22:00:00Z"
+      },
+      {
+        "name": "City National Bank Cardholder Preferred",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-12-18T01:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lady-a-2026-bensalem-z7r9jz1a7p380",
@@ -368,7 +405,7 @@
     "vividseats_url": "https://www.vividseats.com/lady-a-tickets-greensboro-steven-tanger-center-for-the-performing-arts-12-19-2026/production/7132085",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-greensboro-north-carolina-12-19-2026/event/2D0064C2EBD42568",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419,7 +456,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034632",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034632/Lady-A-Country-Group-tickets-Sat-Dec-19-2026-Steven-Tanger-Center-for-the-Performing-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034632/Lady-A-Country-Group-tickets-Sat-Dec-19-2026-Steven-Tanger-Center-for-the-Performing-Arts",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-12-12T22:00:00Z"
+      },
+      {
+        "name": "Halloween Offer",
+        "start": "2026-10-27T14:00:00Z",
+        "end": "2026-11-02T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lady-a-2026-nashville-z7r9jz1a7p0p9",

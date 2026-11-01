@@ -1511,7 +1511,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-san-francisco-bill-graham-civic-auditorium-11-24-2026--concerts-rb/production/7423408",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-francisco-california-11-24-2026/event/1C00650611C16877",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1571,13 +1571,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199812",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199812/Steve-Lacy-tickets-Tue-Nov-24-2026-Bill-Graham-Civic-Auditorium",
     "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-24-2026/event/107482319",
-    "presales": [
-      {
-        "name": "Mastercard Preferred Tickets",
-        "start": "2026-08-14T17:00:00Z",
-        "end": "2026-10-29T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "ANOTHER PLANET",
       "LIVE NATION MUSIC"
@@ -1599,7 +1592,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-san-francisco-bill-graham-civic-auditorium-11-25-2026--concerts-rb/production/7600490",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-francisco-california-11-25-2026/event/1C00650613106DC2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-01",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1660,11 +1653,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286236/Steve-Lacy-tickets-Wed-Nov-25-2026-Bill-Graham-Civic-Auditorium",
     "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-25-2026/event/107672773",
     "presales": [
-      {
-        "name": "Mastercard Preferred Tickets",
-        "start": "2026-09-25T17:00:00Z",
-        "end": "2026-10-29T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-09-25T17:00:00Z",

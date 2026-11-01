@@ -5,7 +5,7 @@ description: "For 10 big tours, one resale site's lowest listed price for the ne
 summary: "Lowest listed resale prices for the same tour in different cities, one site per tour, each figure with the time it was captured. Snapshots up to 18 October 2026."
 date: 2026-10-18
 status: published
-updated: 2026-10-30
+updated: 2026-11-01
 tags:
   - tour-data
 related_guides:
@@ -82,7 +82,7 @@ On Vivid Seats, the lowest listed price for the next date in each of 28 cities i
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| Birmingham | 31 October 2026 | Legacy Arena at the BJCC | $47 | Vivid Seats | 18 October, 06:39 UTC |
+| Birmingham | 31 October 2026 (has passed) | Legacy Arena at the BJCC | $47 | Vivid Seats | 18 October, 06:39 UTC |
 | Knoxville | 28 October 2026 (has passed) | Food City Center | $49 | Vivid Seats | 18 October, 06:39 UTC |
 | Bossier City | 6 November 2026 | Brookshire Grocery Arena | $50 | Vivid Seats | 18 October, 06:39 UTC |
 | Mobile | 25 March 2027 | Regions Arena | $106 | Vivid Seats | 18 October, 06:39 UTC |

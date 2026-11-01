@@ -236,6 +236,7 @@ function productCandidates(config, item, programId = "") {
     candidates.push({
       externalId,
       normalizedUrl,
+      name: clean(item?.Name || offer?.Name, 200),
       searchableText,
       // TicketNetwork's Bullets carry the performance's local wall time.
       // LaunchDate is a catalog timestamp and must not identify a show.

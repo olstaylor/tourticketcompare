@@ -1,0 +1,108 @@
+[
+  {
+    "id": "tm-daniel-caesar-2026-honolulu-vvg1iz_fxhtber",
+    "artist_slug": "daniel-caesar",
+    "artist_name": "Daniel Caesar",
+    "event_name": "Daniel Caesar - Son Of Spergy Tour",
+    "city": "Honolulu",
+    "country": "United States Of America",
+    "venue": "Neal S Blaisdell Arena",
+    "datetime_iso": "2026-11-15T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00654FBCA580AF",
+    "ticketmaster_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-14-2026/event/0A00654FBCA580AF",
+    "seatgeek_url": "https://seatgeek.com/daniel-caesar-tickets/honolulu-hawaii-neal-s-blaisdell-arena-2026-11-14-8-pm/concert/18692471",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-14-2026/event/0A00654FBCA580AF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00654FBCA580AF",
+        "discovery_event_id": "vvG1IZ_fXHtbeR",
+        "url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-14-2026/event/0A00654FBCA580AF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_fXHtbeR",
+    "timezone": "Pacific/Honolulu",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daniel-caesar-2026-honolulu-vvg1iz_fxhniew",
+    "artist_slug": "daniel-caesar",
+    "artist_name": "Daniel Caesar",
+    "event_name": "Daniel Caesar - Son Of Spergy Tour",
+    "city": "Honolulu",
+    "country": "United States Of America",
+    "venue": "Neal S Blaisdell Arena",
+    "datetime_iso": "2026-11-16T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00654FBCAA80B2",
+    "ticketmaster_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-15-2026/event/0A00654FBCAA80B2",
+    "seatgeek_url": "https://seatgeek.com/daniel-caesar-tickets/honolulu-hawaii-neal-s-blaisdell-arena-2026-11-15-8-pm/concert/18700620",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-15-2026/event/0A00654FBCAA80B2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00654FBCAA80B2",
+        "discovery_event_id": "vvG1IZ_fXHnIew",
+        "url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-15-2026/event/0A00654FBCAA80B2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_fXHnIew",
+    "timezone": "Pacific/Honolulu",
+    "status": "on-sale"
+  }
+]

@@ -1,0 +1,1009 @@
+[
+  {
+    "id": "tm-queens-of-the-stone-age-2026-adelaide-17a8v0g6cj0fp2t",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of the Stone Age",
+    "city": "Adelaide",
+    "country": "Australia",
+    "venue": "The Drive",
+    "datetime_iso": "2026-12-08T08:05:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250064E9A45253E9",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/queens-of-the-stone-age-adelaide-08-12-2026/event/250064E9A45253E9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/queens-of-the-stone-age-adelaide-08-12-2026/event/250064E9A45253E9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250064E9A45253E9",
+        "discovery_event_id": "17a8v0G6CJ0fP2t",
+        "url": "https://www.ticketmaster.com.au/queens-of-the-stone-age-adelaide-08-12-2026/event/250064E9A45253E9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17a8v0G6CJ0fP2t",
+    "timezone": "Australia/Adelaide",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2026-glenorchy-177yv0g6cla9khl",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of the Stone Age",
+    "city": "Glenorchy",
+    "country": "Australia",
+    "venue": "MyState Bank Arena",
+    "datetime_iso": "2026-12-11T07:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064E7C55D3F2B",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/queens-of-the-stone-age-glenorchy-11-12-2026/event/130064E7C55D3F2B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/queens-of-the-stone-age-glenorchy-11-12-2026/event/130064E7C55D3F2B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064E7C55D3F2B",
+        "discovery_event_id": "177Yv0G6CLA9KHl",
+        "url": "https://www.ticketmaster.com.au/queens-of-the-stone-age-glenorchy-11-12-2026/event/130064E7C55D3F2B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G6CLA9KHl",
+    "timezone": "Australia/Hobart",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2026-auckland-17azv0g6cjw0kgn",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of the Stone Age",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2026-12-20T05:35:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064E9BD91332A",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/queens-of-the-stone-age-auckland-20-12-2026/event/240064E9BD91332A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/queens-of-the-stone-age-auckland-20-12-2026/event/240064E9BD91332A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064E9BD91332A",
+        "discovery_event_id": "17aZv0G6CJW0KGn",
+        "url": "https://www.ticketmaster.co.nz/queens-of-the-stone-age-auckland-20-12-2026/event/240064E9BD91332A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G6CJW0KGn",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-san-diego-vvg1iz_4c-ppva",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of The Stone Age - PERFECTH WORLD TOUR",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2027-05-02T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006553A1965D05",
+    "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-san-diego-california-05-01-2027/event/0A006553A1965D05",
+    "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2027-05-01-6-30-pm/concert/18709210",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-san-diego-california-05-01-2027/event/0A006553A1965D05",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006553A1965D05",
+        "discovery_event_id": "vvG1IZ_4C-PPVA",
+        "url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-san-diego-california-05-01-2027/event/0A006553A1965D05",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_4C-PPVA",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-inglewood-vv1k0z_48eg7ij9v",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of The Stone Age - PERFECTH WORLD TOUR",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2027-05-03T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900655402A265F4",
+    "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-inglewood-california-05-02-2027/event/0900655402A265F4",
+    "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/inglewood-california-kia-forum-2027-05-02-6-30-pm/concert/18709211",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-inglewood-california-05-02-2027/event/0900655402A265F4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900655402A265F4",
+        "discovery_event_id": "vv1k0Z_48eG7IJ9V",
+        "url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-inglewood-california-05-02-2027/event/0900655402A265F4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1k0Z_48eG7IJ9V",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-oakland-g5vyz_4k7itnp",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of The Stone Age - PERFECTH WORLD TOUR",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2027-05-05T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006554C4B298D6",
+    "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-oakland-california-05-04-2027/event/1C006554C4B298D6",
+    "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/oakland-california-oakland-arena-2027-05-04-6-30-pm/concert/18709212",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-oakland-california-05-04-2027/event/1C006554C4B298D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006554C4B298D6",
+        "discovery_event_id": "G5vYZ_4K7itNp",
+        "url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-oakland-california-05-04-2027/event/1C006554C4B298D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_4K7itNp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-sacramento-g5vyz_4paibie",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of The Stone Age - PERFECTH WORLD TOUR",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2027-05-06T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00655589B18B27",
+    "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-sacramento-california-05-05-2027/event/1C00655589B18B27",
+    "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/sacramento-california-golden-1-center-2027-05-05-6-30-pm/concert/18709213",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-sacramento-california-05-05-2027/event/1C00655589B18B27",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00655589B18B27",
+        "discovery_event_id": "G5vYZ_4paibiE",
+        "url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-sacramento-california-05-05-2027/event/1C00655589B18B27",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_4paibiE",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-seattle-vvg1hz_43n59ay",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of The Stone Age - PERFECTH WORLD TOUR",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-05-08T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006554AA2D7170",
+    "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-seattle-washington-05-07-2027/event/0F006554AA2D7170",
+    "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/seattle-washington-climate-pledge-arena-2027-05-07-6-30-pm/concert/18709214",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-seattle-washington-05-07-2027/event/0F006554AA2D7170",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006554AA2D7170",
+        "discovery_event_id": "vvG1HZ_43n59AY",
+        "url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-seattle-washington-05-07-2027/event/0F006554AA2D7170",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_43n59AY",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-portland-vvg1hz_42zzik2",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of The Stone Age - PERFECTH WORLD TOUR",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2027-05-10T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006553C0E284CF",
+    "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-portland-oregon-05-09-2027/event/0F006553C0E284CF",
+    "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/portland-oregon-moda-center-2027-05-09-6-30-pm/concert/18709215",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-portland-oregon-05-09-2027/event/0F006553C0E284CF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006553C0E284CF",
+        "discovery_event_id": "vvG1HZ_42ZzIK2",
+        "url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-portland-oregon-05-09-2027/event/0F006553C0E284CF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_42ZzIK2",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-salt-lake-city-z7r9jz1aa7-1z",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens Of The Stone Age - Perfecth World Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Delta Center",
+    "datetime_iso": "2027-05-12T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7-1Z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1Z",
+    "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/salt-lake-city-utah-delta-center-1-2027-05-11-6-30-pm/concert/18475187",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1Z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7-1Z",
+        "discovery_event_id": "Z7r9jZ1AA7-1Z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1Z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7-1Z",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-morrison-z7r9jz1aa7nqm",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of the Stone Age w/ Pixies",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-13T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7NqM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NqM",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NqM",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7NqM",
+        "discovery_event_id": "Z7r9jZ1AA7NqM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NqM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7NqM",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-saint-paul-z7r9jz1aa7-1v",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens Of The Stone Age - Perfecth World Tour",
+    "city": "Saint Paul",
+    "country": "United States Of America",
+    "venue": "Grand Casino Arena",
+    "datetime_iso": "2027-05-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7-1v",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1v",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1v",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7-1v",
+        "discovery_event_id": "Z7r9jZ1AA7-1v",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1v",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7-1v",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-milwaukee-vv1a6zk4kgkdc_par",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of The Stone Age - PERFECTH WORLD TOUR",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "American Family Insurance Amphitheater - Summerfest Grounds",
+    "datetime_iso": "2027-05-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006553CE65625E",
+    "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-milwaukee-wisconsin-05-15-2027/event/07006553CE65625E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-milwaukee-wisconsin-05-15-2027/event/07006553CE65625E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006553CE65625E",
+        "discovery_event_id": "vv1A6Zk4KGkdC_par",
+        "url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-milwaukee-wisconsin-05-15-2027/event/07006553CE65625E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6Zk4KGkdC_par",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-rosemont-vv1kvzvpfygacy0ah",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of The Stone Age - PERFECTH WORLD TOUR",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Allstate Arena",
+    "datetime_iso": "2027-05-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040065539EE6427C",
+    "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-rosemont-illinois-05-16-2027/event/040065539EE6427C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-rosemont-illinois-05-16-2027/event/040065539EE6427C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040065539EE6427C",
+        "discovery_event_id": "vv1kvZvPfyGACy0aH",
+        "url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-rosemont-illinois-05-16-2027/event/040065539EE6427C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvZvPfyGACy0aH",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-indianapolis-vv1aazk4fgkd2j1lw",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of The Stone Age - PERFECTH WORLD TOUR",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Gainbridge Fieldhouse",
+    "datetime_iso": "2027-05-18T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006554CF98A7FD",
+    "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-indianapolis-indiana-05-18-2027/event/05006554CF98A7FD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-indianapolis-indiana-05-18-2027/event/05006554CF98A7FD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006554CF98A7FD",
+        "discovery_event_id": "vv1AAZk4fGkd2J1LW",
+        "url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-indianapolis-indiana-05-18-2027/event/05006554CF98A7FD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4fGkd2J1LW",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-columbus-vv1kv8vp4agacm7ii",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of The Stone Age - PERFECTH WORLD TOUR",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Nationwide Arena",
+    "datetime_iso": "2027-05-19T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050065549EDC4B2C",
+    "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-columbus-ohio-05-19-2027/event/050065549EDC4B2C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-columbus-ohio-05-19-2027/event/050065549EDC4B2C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050065549EDC4B2C",
+        "discovery_event_id": "vv1kv8vP4aGACM7ii",
+        "url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-columbus-ohio-05-19-2027/event/050065549EDC4B2C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kv8vP4aGACM7ii",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-pittsburgh-1apzk44gkedibkp",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of The Stone Age - PERFECTH WORLD TOUR",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Petersen Events Center",
+    "datetime_iso": "2027-05-21T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006555BBB184E5",
+    "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-pittsburgh-pennsylvania-05-21-2027/event/16006555BBB184E5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-pittsburgh-pennsylvania-05-21-2027/event/16006555BBB184E5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006555BBB184E5",
+        "discovery_event_id": "1ApZk44GkeDibKP",
+        "url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-pittsburgh-pennsylvania-05-21-2027/event/16006555BBB184E5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZk44GkeDibKP",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-detroit-vv1kezvp4_gagidyd",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of The Stone Age - PERFECTH WORLD TOUR",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2027-05-22T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080065559CA03C03",
+    "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-detroit-michigan-05-22-2027/event/080065559CA03C03",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-detroit-michigan-05-22-2027/event/080065559CA03C03",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080065559CA03C03",
+        "discovery_event_id": "vv1keZvP4_GAGIdYd",
+        "url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-detroit-michigan-05-22-2027/event/080065559CA03C03",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1keZvP4_GAGIdYd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-boston-vv1avzk43gkdss-xl",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens of The Stone Age - PERFECTH WORLD TOUR",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2027-05-24T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006552F1C61FAB",
+    "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-boston-massachusetts-05-24-2027/event/01006552F1C61FAB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-boston-massachusetts-05-24-2027/event/01006552F1C61FAB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006552F1C61FAB",
+        "discovery_event_id": "vv1AvZk43Gkdss-Xl",
+        "url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-boston-massachusetts-05-24-2027/event/01006552F1C61FAB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk43Gkdss-Xl",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

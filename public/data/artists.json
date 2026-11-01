@@ -3258,5 +3258,117 @@
     "last_verified_at": "2026-10-31",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-31"
+  },
+  {
+    "slug": "jason-aldean",
+    "name": "Jason Aldean",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-01",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-01"
+  },
+  {
+    "slug": "mariah-carey",
+    "name": "Mariah Carey",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-01",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-01"
+  },
+  {
+    "slug": "sting",
+    "name": "Sting",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-01",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-01"
+  },
+  {
+    "slug": "queens-of-the-stone-age",
+    "name": "Queens Of The Stone Age",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-01",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-01"
+  },
+  {
+    "slug": "daniel-caesar",
+    "name": "Daniel Caesar",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-01",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-01"
+  },
+  {
+    "slug": "three-days-grace",
+    "name": "Three Days Grace",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-01",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-01"
+  },
+  {
+    "slug": "cody-johnson",
+    "name": "Cody Johnson",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-01",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-01"
+  },
+  {
+    "slug": "hardy",
+    "name": "Hardy",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-01",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-01"
   }
 ]

@@ -3464,6 +3464,118 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-lady-a",
     redirectUrl: "https://seatgeek.com/lady-a-tickets",
     verified: true
+  },
+  "jason-aldean:ticketmaster": {
+    artistSlug: "jason-aldean",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jason-aldean",
+    redirectUrl: "https://www.ticketmaster.com/jason-aldean-tickets/artist/984829",
+    verified: true
+  },
+  "jason-aldean:seatgeek": {
+    artistSlug: "jason-aldean",
+    provider: "seatgeek",
+    linkId: "sg-artist-jason-aldean",
+    redirectUrl: "https://seatgeek.com/jason-aldean-tickets",
+    verified: true
+  },
+  "mariah-carey:ticketmaster": {
+    artistSlug: "mariah-carey",
+    provider: "ticketmaster",
+    linkId: "tm-artist-mariah-carey",
+    redirectUrl: "https://www.ticketmaster.com/mariah-carey-tickets/artist/767870",
+    verified: true
+  },
+  "mariah-carey:seatgeek": {
+    artistSlug: "mariah-carey",
+    provider: "seatgeek",
+    linkId: "sg-artist-mariah-carey",
+    redirectUrl: "https://seatgeek.com/mariah-carey-tickets",
+    verified: true
+  },
+  "sting:ticketmaster": {
+    artistSlug: "sting",
+    provider: "ticketmaster",
+    linkId: "tm-artist-sting",
+    redirectUrl: "https://www.ticketmaster.com/sting-tickets/artist/723578",
+    verified: true
+  },
+  "sting:seatgeek": {
+    artistSlug: "sting",
+    provider: "seatgeek",
+    linkId: "sg-artist-sting",
+    redirectUrl: "https://seatgeek.com/sting-tickets",
+    verified: true
+  },
+  "queens-of-the-stone-age:ticketmaster": {
+    artistSlug: "queens-of-the-stone-age",
+    provider: "ticketmaster",
+    linkId: "tm-artist-queens-of-the-stone-age",
+    redirectUrl: "https://www.ticketmaster.com/queens-of-the-stone-age-tickets/artist/730011",
+    verified: true
+  },
+  "queens-of-the-stone-age:seatgeek": {
+    artistSlug: "queens-of-the-stone-age",
+    provider: "seatgeek",
+    linkId: "sg-artist-queens-of-the-stone-age",
+    redirectUrl: "https://seatgeek.com/queens-of-the-stone-age-tickets",
+    verified: true
+  },
+  "daniel-caesar:ticketmaster": {
+    artistSlug: "daniel-caesar",
+    provider: "ticketmaster",
+    linkId: "tm-artist-daniel-caesar",
+    redirectUrl: "https://www.ticketmaster.com/daniel-caesar-tickets/artist/2219489",
+    verified: true
+  },
+  "daniel-caesar:seatgeek": {
+    artistSlug: "daniel-caesar",
+    provider: "seatgeek",
+    linkId: "sg-artist-daniel-caesar",
+    redirectUrl: "https://seatgeek.com/daniel-caesar-tickets",
+    verified: true
+  },
+  "three-days-grace:ticketmaster": {
+    artistSlug: "three-days-grace",
+    provider: "ticketmaster",
+    linkId: "tm-artist-three-days-grace",
+    redirectUrl: "https://www.ticketmaster.com/three-days-grace-tickets/artist/882809",
+    verified: true
+  },
+  "three-days-grace:seatgeek": {
+    artistSlug: "three-days-grace",
+    provider: "seatgeek",
+    linkId: "sg-artist-three-days-grace",
+    redirectUrl: "https://seatgeek.com/three-days-grace-tickets",
+    verified: true
+  },
+  "cody-johnson:ticketmaster": {
+    artistSlug: "cody-johnson",
+    provider: "ticketmaster",
+    linkId: "tm-artist-cody-johnson",
+    redirectUrl: "https://www.ticketmaster.com/cody-johnson-tickets/artist/1833710",
+    verified: true
+  },
+  "cody-johnson:seatgeek": {
+    artistSlug: "cody-johnson",
+    provider: "seatgeek",
+    linkId: "sg-artist-cody-johnson",
+    redirectUrl: "https://seatgeek.com/cody-johnson-tickets",
+    verified: true
+  },
+  "hardy:ticketmaster": {
+    artistSlug: "hardy",
+    provider: "ticketmaster",
+    linkId: "tm-artist-hardy",
+    redirectUrl: "https://www.ticketmaster.com/hardy-tickets/artist/2555869",
+    verified: true
+  },
+  "hardy:seatgeek": {
+    artistSlug: "hardy",
+    provider: "seatgeek",
+    linkId: "sg-artist-hardy",
+    redirectUrl: "https://seatgeek.com/hardy-tickets",
+    verified: true
   }
 };
 

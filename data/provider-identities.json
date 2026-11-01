@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31",
+  "updated_at": "2026-11-01",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -2625,6 +2625,94 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-31 (sanctioned path D): SeatGeek performer 1082 and Ticketmaster attraction K8vZ917GFIf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "jason-aldean",
+      "ticketmaster_attraction_id": "K8vZ9175zpV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/jason-aldean-tickets/artist/984829",
+      "seatgeek_performer_id": 918,
+      "seatgeek_artist_url": "https://seatgeek.com/jason-aldean-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-01 (sanctioned path D): SeatGeek performer 918 and Ticketmaster attraction K8vZ9175zpV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "mariah-carey",
+      "ticketmaster_attraction_id": "K8vZ9171KB7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/mariah-carey-tickets/artist/767870",
+      "seatgeek_performer_id": 2494,
+      "seatgeek_artist_url": "https://seatgeek.com/mariah-carey-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-01 (sanctioned path D): SeatGeek performer 2494 and Ticketmaster attraction K8vZ9171KB7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "sting",
+      "ticketmaster_attraction_id": "K8vZ91712w7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/sting-tickets/artist/723578",
+      "seatgeek_performer_id": 1698,
+      "seatgeek_artist_url": "https://seatgeek.com/sting-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-01 (sanctioned path D): SeatGeek performer 1698 and Ticketmaster attraction K8vZ91712w7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "queens-of-the-stone-age",
+      "ticketmaster_attraction_id": "K8vZ9171su7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/queens-of-the-stone-age-tickets/artist/730011",
+      "seatgeek_performer_id": 7978,
+      "seatgeek_artist_url": "https://seatgeek.com/queens-of-the-stone-age-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-01 (sanctioned path D): SeatGeek performer 7978 and Ticketmaster attraction K8vZ9171su7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "daniel-caesar",
+      "ticketmaster_attraction_id": "K8vZ917fLyV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/daniel-caesar-tickets/artist/2219489",
+      "seatgeek_performer_id": 485601,
+      "seatgeek_artist_url": "https://seatgeek.com/daniel-caesar-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-01 (sanctioned path D): SeatGeek performer 485601 and Ticketmaster attraction K8vZ917fLyV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "three-days-grace",
+      "ticketmaster_attraction_id": "K8vZ9175jBV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/three-days-grace-tickets/artist/882809",
+      "seatgeek_performer_id": 2691,
+      "seatgeek_artist_url": "https://seatgeek.com/three-days-grace-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-01 (sanctioned path D): SeatGeek performer 2691 and Ticketmaster attraction K8vZ9175jBV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "cody-johnson",
+      "ticketmaster_attraction_id": "K8vZ9178Uz0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/cody-johnson-tickets/artist/1833710",
+      "seatgeek_performer_id": 60868,
+      "seatgeek_artist_url": "https://seatgeek.com/cody-johnson-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-01 (sanctioned path D): SeatGeek performer 60868 and Ticketmaster attraction K8vZ9178Uz0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "hardy",
+      "ticketmaster_attraction_id": "K8vZ9179LdV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/hardy-tickets/artist/2555869",
+      "seatgeek_performer_id": 336167,
+      "seatgeek_artist_url": "https://seatgeek.com/hardy-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-01 (sanctioned path D): SeatGeek performer 336167 and Ticketmaster attraction K8vZ9179LdV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

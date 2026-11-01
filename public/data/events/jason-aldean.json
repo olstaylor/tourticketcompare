@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tm-jason-aldean-2027-hollywood-vvg1vz_4r1id24",
+    "artist_slug": "jason-aldean",
+    "artist_name": "Jason Aldean",
+    "event_name": "Jason Aldean",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live",
+    "datetime_iso": "2027-02-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0065578AB033D5",
+    "ticketmaster_url": "https://www.ticketmaster.com/jason-aldean-hollywood-florida-02-27-2027/event/0D0065578AB033D5",
+    "seatgeek_url": "https://seatgeek.com/jason-aldean-tickets/hollywood-florida-hard-rock-live-hollywood-2027-02-27-8-pm/concert/18724459",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jason-aldean-hollywood-florida-02-27-2027/event/0D0065578AB033D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0065578AB033D5",
+        "discovery_event_id": "vvG1VZ_4r1id24",
+        "url": "https://www.ticketmaster.com/jason-aldean-hollywood-florida-02-27-2027/event/0D0065578AB033D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_4r1id24",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

@@ -5,7 +5,7 @@ description: "Olivia Rodrigo tour: the next date in 11 cities, $256 in Sunrise a
 summary: "Vivid Seats' lowest listed price for the next Olivia Rodrigo date in each of 11 cities, each figure with the time it was captured. Snapshots 31 October 2026."
 date: 2026-10-30
 updated: 2026-10-31
-status: draft
+status: published
 tags:
   - tour-data
 related_artists:

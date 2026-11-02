@@ -54,9 +54,9 @@ sources:
     last_checked: 2026-09-21
 ---
 
-No, SeatGeek isn't owned by Ticketmaster. They're two separate companies, and Ticketmaster is part of Live Nation.
+**Which is cheaper?** Neither, every time. Ticketmaster usually sells face-value primary tickets, and SeatGeek mostly lists resale tickets that can cost more or less than face value. The only fair test is the same seats, the same quantity and the full order total, checked on both.
 
-So which should you use? Start with the seller linked by the artist or venue. That may be Ticketmaster, SeatGeek or another ticket site. If you're buying resale, compare the seats and the full order total, because neither brand is always cheaper.
+They are two separate companies. Ticketmaster is part of Live Nation, and SeatGeek is independent. Start with the seller linked by the artist or venue. That may be Ticketmaster, SeatGeek or another ticket site.
 
 Ticketmaster sells primary tickets for many events and also offers labelled resale tickets. SeatGeek is a resale marketplace and the primary ticketing partner for some venues and teams. The distinction matters more than the logo on the checkout page.
 
@@ -72,6 +72,8 @@ Ticketmaster sells primary tickets for many events and also offers labelled resa
 | Who sets the price? | The event organiser for primary tickets; the reseller for resale | The primary partner or marketplace seller |
 | Seat information | Seat map, listing labels and event-specific categories | Seat map, listing details and Deal Score where available |
 | First step | Check whether the artist or venue links to Ticketmaster | Check whether the listing is primary or resale |
+| Price shown upfront | Face value plus required fees, generally before taxes (Ticketmaster's own wording) | Includes mandatory fees; taxes, shipping and optional extras can be added at checkout (SeatGeek's own wording) |
+| If a show is cancelled | Event-specific rules attached to the ticket | Refund or credit if not rescheduled; postponed shows generally not refunded |
 | Before paying | Full total, ticket restrictions and delivery terms | Full total, ticket restrictions and delivery terms |
 
 ## Is SeatGeek cheaper than Ticketmaster?

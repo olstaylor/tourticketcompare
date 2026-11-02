@@ -11,7 +11,7 @@
       "summary": "When checked on 2026-11-02, each ticket site's lowest listed price across these seven dates was for London or Seattle. Oakland and Sacramento listings moved down over 30 days, and Inglewood moved up.",
       "datePublished": "2026-11-02",
       "dateModified": "2026-11-02",
-      "status": "draft",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
@@ -2298,7 +2298,7 @@
     {
       "slug": "tour-buying",
       "label": "Tour Buying",
-      "postCount": 16
+      "postCount": 17
     },
     {
       "slug": "how-we-work",

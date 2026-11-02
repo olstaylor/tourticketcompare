@@ -4,7 +4,7 @@ seo_title: 'Olivia Rodrigo tour: where to go'
 description: 'Lowest listed Olivia Rodrigo prices by city on StubHub International, TicketNetwork and Vivid Seats when checked on 2026-11-02, plus what moved over 30 days.'
 summary: 'When checked on 2026-11-02, each ticket site''s lowest listed price across these seven dates was for London or Seattle. Oakland and Sacramento listings moved down over 30 days, and Inglewood moved up.'
 date: 2026-11-02
-status: draft
+status: published
 tags: [tour-buying]
 related_artists: [olivia-rodrigo]
 related_guides: [how-to-read-a-ticket-listing, primary-vs-resale-concert-tickets, ticket-delivery-and-transfer-timing]

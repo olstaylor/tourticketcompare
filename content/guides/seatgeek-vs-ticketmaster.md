@@ -56,7 +56,7 @@ sources:
 
 **Which is cheaper?** Neither, every time. Ticketmaster usually sells face-value primary tickets, and SeatGeek mostly lists resale tickets that can cost more or less than face value. The only fair test is the same seats, the same quantity and the full order total, checked on both.
 
-They are two separate companies. Ticketmaster is part of Live Nation, and SeatGeek is independent. Start with the seller your artist or venue links to, because that may be Ticketmaster, SeatGeek or another ticket site.
+They are two separate companies. Ticketmaster is part of Live Nation, and SeatGeek is independent. Start with the seller linked by the artist or venue. That may be Ticketmaster, SeatGeek or another ticket site.
 
 Ticketmaster sells primary tickets for many events and also offers labelled resale tickets. SeatGeek is a resale marketplace and the primary ticketing partner for some venues and teams. The distinction matters more than the logo on the checkout page.
 

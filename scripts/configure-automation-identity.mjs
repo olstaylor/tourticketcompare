@@ -97,7 +97,7 @@ function selfTest() {
       }
     }
   }
-  assert.equal(publishers, 13, 'all thirteen publishing jobs (incl. autopublish-health demotions, auto-promote, artist city reports and the date labeller) must use the identity helper');
+  assert.equal(publishers, 14, 'all fourteen publishing jobs (incl. autopublish-health demotions, auto-promote, artist city reports, the tour league story and the date labeller) must use the identity helper');
   // The identity action's preflight imports `yaml`: any job that uses it must
   // install dependencies first (the digest shipped without this and failed).
   for (const file of readdirSync('.github/workflows').filter(f => f.endsWith('.yml'))) {

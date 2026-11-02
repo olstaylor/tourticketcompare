@@ -1,0 +1,1251 @@
+{
+  "storyType": "tour-league",
+  "asOf": "2026-11-02",
+  "newestReading": "2026-11-02",
+  "tourCount": 124,
+  "totalDates": 2053,
+  "largestTourShare": 0.025328787140769606,
+  "droppedImplausiblyLow": 4,
+  "tours": [
+    {
+      "slug": "stevie-wonder",
+      "label": "Stevie Wonder",
+      "path": "/artists/stevie-wonder",
+      "tourName": "",
+      "dates": 6,
+      "median": 560.26,
+      "p25": 451.3275,
+      "p75": 654.8525
+    },
+    {
+      "slug": "metallica",
+      "label": "Metallica",
+      "path": "/artists/metallica",
+      "tourName": "Life Burns Faster",
+      "dates": 25,
+      "median": 544,
+      "p25": 131.45,
+      "p75": 575.17
+    },
+    {
+      "slug": "noah-kahan",
+      "label": "Noah Kahan",
+      "path": "/artists/noah-kahan",
+      "tourName": "",
+      "dates": 10,
+      "median": 424,
+      "p25": 409,
+      "p75": 429.25
+    },
+    {
+      "slug": "eagles",
+      "label": "Eagles",
+      "path": "/artists/eagles",
+      "tourName": "",
+      "dates": 14,
+      "median": 372.69,
+      "p25": 342.1725,
+      "p75": 393.5875
+    },
+    {
+      "slug": "olivia-rodrigo",
+      "label": "Olivia Rodrigo",
+      "path": "/artists/olivia-rodrigo",
+      "tourName": "The Unraveled Tour",
+      "dates": 36,
+      "median": 356.455,
+      "p25": 317.32,
+      "p75": 387.545
+    },
+    {
+      "slug": "katseye",
+      "label": "KATSEYE",
+      "path": "/artists/katseye",
+      "tourName": "",
+      "dates": 8,
+      "median": 264.5,
+      "p25": 208.10000000000002,
+      "p75": 288.65
+    },
+    {
+      "slug": "brandi-carlile",
+      "label": "Brandi Carlile",
+      "path": "/artists/brandi-carlile",
+      "tourName": "",
+      "dates": 13,
+      "median": 254,
+      "p25": 202,
+      "p75": 373
+    },
+    {
+      "slug": "backstreet-boys",
+      "label": "Backstreet Boys",
+      "path": "/artists/backstreet-boys",
+      "tourName": "",
+      "dates": 6,
+      "median": 242.975,
+      "p25": 233.5575,
+      "p75": 286.6825
+    },
+    {
+      "slug": "calvin-harris",
+      "label": "Calvin Harris",
+      "path": "/artists/calvin-harris",
+      "tourName": "",
+      "dates": 32,
+      "median": 212.025,
+      "p25": 175.75,
+      "p75": 285.515
+    },
+    {
+      "slug": "oasis",
+      "label": "Oasis",
+      "path": "/artists/oasis",
+      "tourName": "Oasis Live '27",
+      "dates": 6,
+      "median": 203.68,
+      "p25": 169.1675,
+      "p75": 237.66
+    },
+    {
+      "slug": "lionel-richie",
+      "label": "Lionel Richie",
+      "path": "/artists/lionel-richie",
+      "tourName": "",
+      "dates": 6,
+      "median": 201,
+      "p25": 197.25,
+      "p75": 227.0625
+    },
+    {
+      "slug": "mana",
+      "label": "MANA",
+      "path": "/artists/mana",
+      "tourName": "",
+      "dates": 6,
+      "median": 193.925,
+      "p25": 178.325,
+      "p75": 217.2125
+    },
+    {
+      "slug": "john-mayer",
+      "label": "John Mayer",
+      "path": "/artists/john-mayer",
+      "tourName": "",
+      "dates": 21,
+      "median": 167.69,
+      "p25": 147.84,
+      "p75": 227.63
+    },
+    {
+      "slug": "steve-lacy",
+      "label": "Steve Lacy",
+      "path": "/artists/steve-lacy",
+      "tourName": "",
+      "dates": 8,
+      "median": 161.555,
+      "p25": 145.47,
+      "p75": 196.78750000000002
+    },
+    {
+      "slug": "marc-anthony",
+      "label": "Marc Anthony",
+      "path": "/artists/marc-anthony",
+      "tourName": "",
+      "dates": 12,
+      "median": 145,
+      "p25": 141.45,
+      "p75": 145
+    },
+    {
+      "slug": "sienna-spiro",
+      "label": "Sienna Spiro",
+      "path": "/artists/sienna-spiro",
+      "tourName": "My House Tour",
+      "dates": 17,
+      "median": 141.63,
+      "p25": 129.7,
+      "p75": 169.05
+    },
+    {
+      "slug": "santana",
+      "label": "Santana",
+      "path": "/artists/santana",
+      "tourName": "",
+      "dates": 20,
+      "median": 137.25,
+      "p25": 137.25,
+      "p75": 137.91
+    },
+    {
+      "slug": "lady-a",
+      "label": "Lady A",
+      "path": "/artists/lady-a",
+      "tourName": "",
+      "dates": 7,
+      "median": 136.85,
+      "p25": 120.775,
+      "p75": 147.775
+    },
+    {
+      "slug": "rod-stewart",
+      "label": "Rod Stewart",
+      "path": "/artists/rod-stewart",
+      "tourName": "",
+      "dates": 9,
+      "median": 136,
+      "p25": 119,
+      "p75": 141
+    },
+    {
+      "slug": "sting",
+      "label": "Sting",
+      "path": "/artists/sting",
+      "tourName": "",
+      "dates": 22,
+      "median": 134.275,
+      "p25": 128,
+      "p75": 312.96000000000004
+    },
+    {
+      "slug": "andrea-bocelli",
+      "label": "Andrea Bocelli",
+      "path": "/artists/andrea-bocelli",
+      "tourName": "",
+      "dates": 15,
+      "median": 132.48,
+      "p25": 113.81,
+      "p75": 174.59
+    },
+    {
+      "slug": "rod-wave",
+      "label": "Rod Wave",
+      "path": "/artists/rod-wave",
+      "tourName": "",
+      "dates": 6,
+      "median": 126.74,
+      "p25": 95.4975,
+      "p75": 153.9925
+    },
+    {
+      "slug": "cristian-castro",
+      "label": "Cristian Castro",
+      "path": "/artists/cristian-castro",
+      "tourName": "",
+      "dates": 8,
+      "median": 122.025,
+      "p25": 98.6875,
+      "p75": 199.2625
+    },
+    {
+      "slug": "def-leppard",
+      "label": "Def Leppard",
+      "path": "/artists/def-leppard",
+      "tourName": "",
+      "dates": 39,
+      "median": 122,
+      "p25": 109.395,
+      "p75": 128.75
+    },
+    {
+      "slug": "the-neighbourhood",
+      "label": "The Neighbourhood",
+      "path": "/artists/the-neighbourhood",
+      "tourName": "",
+      "dates": 23,
+      "median": 122,
+      "p25": 84.475,
+      "p75": 154.32
+    },
+    {
+      "slug": "lord-huron",
+      "label": "Lord Huron",
+      "path": "/artists/lord-huron",
+      "tourName": "",
+      "dates": 17,
+      "median": 118.93,
+      "p25": 95.99,
+      "p75": 154
+    },
+    {
+      "slug": "fantasia",
+      "label": "Fantasia",
+      "path": "/artists/fantasia",
+      "tourName": "The Love of Soul Tour",
+      "dates": 23,
+      "median": 118.66,
+      "p25": 111.5,
+      "p75": 127.5
+    },
+    {
+      "slug": "boyz-ii-men",
+      "label": "Boyz II Men",
+      "path": "/artists/boyz-ii-men",
+      "tourName": "",
+      "dates": 11,
+      "median": 114,
+      "p25": 112.775,
+      "p75": 144
+    },
+    {
+      "slug": "saint-levant",
+      "label": "Saint Levant",
+      "path": "/artists/saint-levant",
+      "tourName": "AFANDI World Tour",
+      "dates": 21,
+      "median": 114,
+      "p25": 81.65,
+      "p75": 132.25
+    },
+    {
+      "slug": "don-omar",
+      "label": "Don Omar",
+      "path": "/artists/don-omar",
+      "tourName": "The Last King World Tour",
+      "dates": 15,
+      "median": 113.81,
+      "p25": 93.855,
+      "p75": 116.57
+    },
+    {
+      "slug": "hans-zimmer",
+      "label": "Hans Zimmer",
+      "path": "/artists/hans-zimmer",
+      "tourName": "Hans Zimmer Live – The Next Level",
+      "dates": 26,
+      "median": 108.24000000000001,
+      "p25": 90.01,
+      "p75": 138.5
+    },
+    {
+      "slug": "foreigner",
+      "label": "Foreigner",
+      "path": "/artists/foreigner",
+      "tourName": "",
+      "dates": 11,
+      "median": 103,
+      "p25": 96.5,
+      "p75": 103
+    },
+    {
+      "slug": "two-door-cinema-club",
+      "label": "Two Door Cinema Club",
+      "path": "/artists/two-door-cinema-club",
+      "tourName": "",
+      "dates": 12,
+      "median": 102.275,
+      "p25": 94.215,
+      "p75": 110.75
+    },
+    {
+      "slug": "flans",
+      "label": "Flans",
+      "path": "/artists/flans",
+      "tourName": "",
+      "dates": 13,
+      "median": 101.2,
+      "p25": 94,
+      "p75": 109
+    },
+    {
+      "slug": "kenny-chesney",
+      "label": "Kenny Chesney",
+      "path": "/artists/kenny-chesney",
+      "tourName": "The Original Vibe Room Tour",
+      "dates": 19,
+      "median": 101,
+      "p25": 80,
+      "p75": 129.82
+    },
+    {
+      "slug": "luke-combs",
+      "label": "Luke Combs",
+      "path": "/artists/luke-combs",
+      "tourName": "My Kinda Saturday Night Tour",
+      "dates": 10,
+      "median": 99.6,
+      "p25": 93.36749999999999,
+      "p75": 139.25
+    },
+    {
+      "slug": "air-supply",
+      "label": "Air Supply",
+      "path": "/artists/air-supply",
+      "tourName": "",
+      "dates": 12,
+      "median": 98.6,
+      "p25": 73.325,
+      "p75": 107.1
+    },
+    {
+      "slug": "interpol",
+      "label": "Interpol",
+      "path": "/artists/interpol",
+      "tourName": "",
+      "dates": 9,
+      "median": 94,
+      "p25": 81.4,
+      "p75": 114
+    },
+    {
+      "slug": "lizzy-mcalpine",
+      "label": "Lizzy McAlpine",
+      "path": "/artists/lizzy-mcalpine",
+      "tourName": "The Over Country Tour",
+      "dates": 24,
+      "median": 92.265,
+      "p25": 58.097500000000004,
+      "p75": 151.8
+    },
+    {
+      "slug": "fontaines-d-c",
+      "label": "Fontaines D.C.",
+      "path": "/artists/fontaines-d-c",
+      "tourName": "",
+      "dates": 15,
+      "median": 92,
+      "p25": 70.305,
+      "p75": 114.12
+    },
+    {
+      "slug": "remi-wolf",
+      "label": "Remi Wolf",
+      "path": "/artists/remi-wolf",
+      "tourName": "",
+      "dates": 18,
+      "median": 91.5,
+      "p25": 73.3125,
+      "p75": 105.225
+    },
+    {
+      "slug": "jay-wheeler",
+      "label": "Jay Wheeler",
+      "path": "/artists/jay-wheeler",
+      "tourName": "",
+      "dates": 16,
+      "median": 88.17,
+      "p25": 81.7425,
+      "p75": 103.5
+    },
+    {
+      "slug": "riley-green",
+      "label": "Riley Green",
+      "path": "/artists/riley-green",
+      "tourName": "That's Just Me Tour",
+      "dates": 28,
+      "median": 87.16499999999999,
+      "p25": 76.5,
+      "p75": 102.0875
+    },
+    {
+      "slug": "eros-ramazzotti",
+      "label": "Eros Ramazzotti",
+      "path": "/artists/eros-ramazzotti",
+      "tourName": "Una Storia Importante World Tour",
+      "dates": 6,
+      "median": 86.39,
+      "p25": 80.97749999999999,
+      "p75": 101.695
+    },
+    {
+      "slug": "slipknot",
+      "label": "Slipknot",
+      "path": "/artists/slipknot",
+      "tourName": "",
+      "dates": 10,
+      "median": 86.25999999999999,
+      "p25": 80.4,
+      "p75": 116
+    },
+    {
+      "slug": "nickelback",
+      "label": "Nickelback",
+      "path": "/artists/nickelback",
+      "tourName": "",
+      "dates": 30,
+      "median": 85.7,
+      "p25": 74.78999999999999,
+      "p75": 111.88749999999999
+    },
+    {
+      "slug": "trans-siberian-orchestra",
+      "label": "Trans-Siberian Orchestra",
+      "path": "/artists/trans-siberian-orchestra",
+      "tourName": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
+      "dates": 52,
+      "median": 85.1,
+      "p25": 75.67500000000001,
+      "p75": 91.13749999999999
+    },
+    {
+      "slug": "the-interrupters",
+      "label": "The Interrupters",
+      "path": "/artists/the-interrupters",
+      "tourName": "",
+      "dates": 17,
+      "median": 85,
+      "p25": 80,
+      "p75": 89
+    },
+    {
+      "slug": "the-psychedelic-furs",
+      "label": "The Psychedelic Furs",
+      "path": "/artists/the-psychedelic-furs",
+      "tourName": "",
+      "dates": 22,
+      "median": 84.4,
+      "p25": 78,
+      "p75": 97.175
+    },
+    {
+      "slug": "daughtry",
+      "label": "Daughtry",
+      "path": "/artists/daughtry",
+      "tourName": "20 Years Unplugged Tour",
+      "dates": 27,
+      "median": 84,
+      "p25": 78.1,
+      "p75": 112
+    },
+    {
+      "slug": "stella-lefty",
+      "label": "Stella Lefty",
+      "path": "/artists/stella-lefty",
+      "tourName": "Long Way Home Tour",
+      "dates": 22,
+      "median": 83.375,
+      "p25": 51.6375,
+      "p75": 92.75
+    },
+    {
+      "slug": "cece-winans",
+      "label": "CeCe Winans",
+      "path": "/artists/cece-winans",
+      "tourName": "",
+      "dates": 7,
+      "median": 82,
+      "p25": 80.5,
+      "p75": 112.75
+    },
+    {
+      "slug": "needtobreathe",
+      "label": "NEEDTOBREATHE",
+      "path": "/artists/needtobreathe",
+      "tourName": "The Long Surrender Tour",
+      "dates": 21,
+      "median": 82,
+      "p25": 73.18,
+      "p75": 89
+    },
+    {
+      "slug": "the-red-clay-strays",
+      "label": "The Red Clay Strays",
+      "path": "/artists/the-red-clay-strays",
+      "tourName": "Grateful Tour",
+      "dates": 33,
+      "median": 82,
+      "p25": 74,
+      "p75": 89
+    },
+    {
+      "slug": "earth-wind-fire",
+      "label": "Earth, Wind & Fire",
+      "path": "/artists/earth-wind-fire",
+      "tourName": "",
+      "dates": 13,
+      "median": 81,
+      "p25": 66,
+      "p75": 108
+    },
+    {
+      "slug": "gavin-adcock",
+      "label": "Gavin Adcock",
+      "path": "/artists/gavin-adcock",
+      "tourName": "",
+      "dates": 12,
+      "median": 81,
+      "p25": 68.2,
+      "p75": 92.6875
+    },
+    {
+      "slug": "leon-bridges",
+      "label": "Leon Bridges",
+      "path": "/artists/leon-bridges",
+      "tourName": "",
+      "dates": 23,
+      "median": 81,
+      "p25": 65,
+      "p75": 99.5
+    },
+    {
+      "slug": "pink-martini",
+      "label": "Pink Martini",
+      "path": "/artists/pink-martini",
+      "tourName": "",
+      "dates": 17,
+      "median": 81,
+      "p25": 71,
+      "p75": 91
+    },
+    {
+      "slug": "a-perfect-circle",
+      "label": "A Perfect Circle",
+      "path": "/artists/a-perfect-circle",
+      "tourName": "",
+      "dates": 23,
+      "median": 80.94,
+      "p25": 75.5,
+      "p75": 99
+    },
+    {
+      "slug": "dropkick-murphys",
+      "label": "Dropkick Murphys",
+      "path": "/artists/dropkick-murphys",
+      "tourName": "",
+      "dates": 16,
+      "median": 80.8,
+      "p25": 68.75,
+      "p75": 94.5
+    },
+    {
+      "slug": "sylvan-esso",
+      "label": "Sylvan Esso",
+      "path": "/artists/sylvan-esso",
+      "tourName": "",
+      "dates": 14,
+      "median": 80.75,
+      "p25": 77.3375,
+      "p75": 87.25
+    },
+    {
+      "slug": "death-cab-for-cutie",
+      "label": "Death Cab for Cutie",
+      "path": "/artists/death-cab-for-cutie",
+      "tourName": "I Built You A Tower World Tour",
+      "dates": 21,
+      "median": 80.5,
+      "p25": 69,
+      "p75": 94
+    },
+    {
+      "slug": "zach-bryan",
+      "label": "Zach Bryan",
+      "path": "/artists/zach-bryan",
+      "tourName": "",
+      "dates": 15,
+      "median": 79.92,
+      "p25": 72.9,
+      "p75": 99.97999999999999
+    },
+    {
+      "slug": "michelle-branch",
+      "label": "Michelle Branch",
+      "path": "/artists/michelle-branch",
+      "tourName": "Everywhere and Back Again Tour",
+      "dates": 19,
+      "median": 79.35,
+      "p25": 44.275000000000006,
+      "p75": 94.8
+    },
+    {
+      "slug": "polyphia",
+      "label": "Polyphia",
+      "path": "/artists/polyphia",
+      "tourName": "BE NOT AFRAID World Tour",
+      "dates": 25,
+      "median": 78.5,
+      "p25": 62.66,
+      "p75": 98.9
+    },
+    {
+      "slug": "tommy-emmanuel",
+      "label": "Tommy Emmanuel",
+      "path": "/artists/tommy-emmanuel",
+      "tourName": "Living In The Light Tour",
+      "dates": 20,
+      "median": 78.19999999999999,
+      "p25": 71.225,
+      "p75": 89.225
+    },
+    {
+      "slug": "the-airborne-toxic-event",
+      "label": "The Airborne Toxic Event",
+      "path": "/artists/the-airborne-toxic-event",
+      "tourName": "",
+      "dates": 14,
+      "median": 77.05000000000001,
+      "p25": 64.4,
+      "p75": 91.425
+    },
+    {
+      "slug": "journey",
+      "label": "Journey",
+      "path": "/artists/journey",
+      "tourName": "",
+      "dates": 9,
+      "median": 77.05,
+      "p25": 74,
+      "p75": 113.85
+    },
+    {
+      "slug": "carly-rae-jepsen",
+      "label": "Carly Rae Jepsen",
+      "path": "/artists/carly-rae-jepsen",
+      "tourName": "Day and Night Tour",
+      "dates": 19,
+      "median": 77,
+      "p25": 68.69,
+      "p75": 86.175
+    },
+    {
+      "slug": "sombr",
+      "label": "Sombr",
+      "path": "/artists/sombr",
+      "tourName": "You Are The Reason Tour",
+      "dates": 9,
+      "median": 77,
+      "p25": 73,
+      "p75": 77
+    },
+    {
+      "slug": "yuridia",
+      "label": "Yuridia",
+      "path": "/artists/yuridia",
+      "tourName": "",
+      "dates": 20,
+      "median": 76.735,
+      "p25": 73.32,
+      "p75": 99.3125
+    },
+    {
+      "slug": "hilary-duff",
+      "label": "Hilary Duff",
+      "path": "/artists/hilary-duff",
+      "tourName": "the lucky me tour",
+      "dates": 20,
+      "median": 75.97,
+      "p25": 68.56,
+      "p75": 86.625
+    },
+    {
+      "slug": "harry-styles",
+      "label": "Harry Styles",
+      "path": "/artists/harry-styles",
+      "tourName": "Together, Together",
+      "dates": 18,
+      "median": 74.945,
+      "p25": 51.875,
+      "p75": 87.275
+    },
+    {
+      "slug": "niall-horan",
+      "label": "Niall Horan",
+      "path": "/artists/niall-horan",
+      "tourName": "Dinner Party Live On Tour",
+      "dates": 21,
+      "median": 73.73,
+      "p25": 60,
+      "p75": 84
+    },
+    {
+      "slug": "blue-october",
+      "label": "Blue October",
+      "path": "/artists/blue-october",
+      "tourName": "The Foiled 20th Anniversary World Tour",
+      "dates": 49,
+      "median": 73.6,
+      "p25": 57.5,
+      "p75": 89
+    },
+    {
+      "slug": "los-tigres-del-norte",
+      "label": "Los Tigres del Norte",
+      "path": "/artists/los-tigres-del-norte",
+      "tourName": "",
+      "dates": 8,
+      "median": 72.2,
+      "p25": 60.065,
+      "p75": 92.9825
+    },
+    {
+      "slug": "yacht-rock-revue",
+      "label": "Yacht Rock Revue",
+      "path": "/artists/yacht-rock-revue",
+      "tourName": "",
+      "dates": 16,
+      "median": 71.5,
+      "p25": 61.75,
+      "p75": 75.8
+    },
+    {
+      "slug": "dylan-gossett",
+      "label": "Dylan Gossett",
+      "path": "/artists/dylan-gossett",
+      "tourName": "",
+      "dates": 19,
+      "median": 71,
+      "p25": 63.7,
+      "p75": 75
+    },
+    {
+      "slug": "lola-young",
+      "label": "Lola Young",
+      "path": "/artists/lola-young",
+      "tourName": "",
+      "dates": 11,
+      "median": 71,
+      "p25": 65,
+      "p75": 76
+    },
+    {
+      "slug": "staind",
+      "label": "Staind",
+      "path": "/artists/staind",
+      "tourName": "",
+      "dates": 24,
+      "median": 71,
+      "p25": 65.1625,
+      "p75": 73.94500000000001
+    },
+    {
+      "slug": "john-summit",
+      "label": "John Summit",
+      "path": "/artists/john-summit",
+      "tourName": "CTRL ESCAPE ARENA TOUR",
+      "dates": 12,
+      "median": 69.5,
+      "p25": 64.765,
+      "p75": 89.3375
+    },
+    {
+      "slug": "billy-strings",
+      "label": "Billy Strings",
+      "path": "/artists/billy-strings",
+      "tourName": "",
+      "dates": 9,
+      "median": 69,
+      "p25": 60.71,
+      "p75": 92
+    },
+    {
+      "slug": "the-warning",
+      "label": "The Warning",
+      "path": "/artists/the-warning",
+      "tourName": "Everything's Falling World Tour",
+      "dates": 13,
+      "median": 69,
+      "p25": 55.63,
+      "p75": 94.57
+    },
+    {
+      "slug": "atmosphere",
+      "label": "Atmosphere",
+      "path": "/artists/atmosphere",
+      "tourName": "The Winter Carnival Tour 2027",
+      "dates": 12,
+      "median": 68,
+      "p25": 59,
+      "p75": 75.8
+    },
+    {
+      "slug": "dinosaur-jr",
+      "label": "Dinosaur Jr.",
+      "path": "/artists/dinosaur-jr",
+      "tourName": "",
+      "dates": 7,
+      "median": 68,
+      "p25": 61.55,
+      "p75": 71.5
+    },
+    {
+      "slug": "fkj",
+      "label": "FKJ",
+      "path": "/artists/fkj",
+      "tourName": "Tyber Tour",
+      "dates": 12,
+      "median": 67.43,
+      "p25": 58.65,
+      "p75": 77.42500000000001
+    },
+    {
+      "slug": "vnv-nation",
+      "label": "VNV Nation",
+      "path": "/artists/vnv-nation",
+      "tourName": "",
+      "dates": 12,
+      "median": 65.7,
+      "p25": 53.1875,
+      "p75": 72.375
+    },
+    {
+      "slug": "chelsea-cutler",
+      "label": "Chelsea Cutler",
+      "path": "/artists/chelsea-cutler",
+      "tourName": "IS THIS THE END? Tour",
+      "dates": 20,
+      "median": 65.2,
+      "p25": 59.5,
+      "p75": 69
+    },
+    {
+      "slug": "morat",
+      "label": "Morat",
+      "path": "/artists/morat",
+      "tourName": "YEM: Ya Es Mañana World Tour 2027",
+      "dates": 11,
+      "median": 65,
+      "p25": 61.34,
+      "p75": 75
+    },
+    {
+      "slug": "warren-zeiders",
+      "label": "Warren Zeiders",
+      "path": "/artists/warren-zeiders",
+      "tourName": "",
+      "dates": 11,
+      "median": 64.99,
+      "p25": 58.9,
+      "p75": 70.5
+    },
+    {
+      "slug": "amble",
+      "label": "Amble",
+      "path": "/artists/amble",
+      "tourName": "",
+      "dates": 6,
+      "median": 64.625,
+      "p25": 39.212500000000006,
+      "p75": 87.975
+    },
+    {
+      "slug": "barry-manilow",
+      "label": "Barry Manilow",
+      "path": "/artists/barry-manilow",
+      "tourName": "",
+      "dates": 7,
+      "median": 64.4,
+      "p25": 42.010000000000005,
+      "p75": 104.6
+    },
+    {
+      "slug": "alan-walker",
+      "label": "Alan Walker",
+      "path": "/artists/alan-walker",
+      "tourName": "Legend of Atlantis Tour",
+      "dates": 17,
+      "median": 64,
+      "p25": 59.96,
+      "p75": 66.58
+    },
+    {
+      "slug": "tyla",
+      "label": "Tyla",
+      "path": "/artists/tyla",
+      "tourName": "The A*POP World Tour",
+      "dates": 18,
+      "median": 63.6,
+      "p25": 51.15,
+      "p75": 74.16
+    },
+    {
+      "slug": "trivium",
+      "label": "Trivium",
+      "path": "/artists/trivium",
+      "tourName": "Crown In The Grave World Tour",
+      "dates": 20,
+      "median": 63.55,
+      "p25": 50.325,
+      "p75": 76.75
+    },
+    {
+      "slug": "dylan-scott",
+      "label": "Dylan Scott",
+      "path": "/artists/dylan-scott",
+      "tourName": "Dear Big City Tour",
+      "dates": 17,
+      "median": 63,
+      "p25": 58.65,
+      "p75": 73
+    },
+    {
+      "slug": "ha-ash",
+      "label": "Ha*Ash",
+      "path": "/artists/ha-ash",
+      "tourName": "No Me Hablen de Amor Tour",
+      "dates": 16,
+      "median": 62.7,
+      "p25": 59.61,
+      "p75": 70.25
+    },
+    {
+      "slug": "the-lemonheads",
+      "label": "The Lemonheads",
+      "path": "/artists/the-lemonheads",
+      "tourName": "The Love Chant Tour",
+      "dates": 18,
+      "median": 62.5,
+      "p25": 57.25,
+      "p75": 82.5125
+    },
+    {
+      "slug": "greta-van-fleet",
+      "label": "Greta Van Fleet",
+      "path": "/artists/greta-van-fleet",
+      "tourName": "Into The Beginning Tour",
+      "dates": 35,
+      "median": 62,
+      "p25": 59.455,
+      "p75": 70
+    },
+    {
+      "slug": "elevation-worship",
+      "label": "Elevation Worship",
+      "path": "/artists/elevation-worship",
+      "tourName": "",
+      "dates": 8,
+      "median": 61.475,
+      "p25": 56.25,
+      "p75": 62.6025
+    },
+    {
+      "slug": "queens-of-the-stone-age",
+      "label": "Queens Of The Stone Age",
+      "path": "/artists/queens-of-the-stone-age",
+      "tourName": "",
+      "dates": 15,
+      "median": 61,
+      "p25": 59,
+      "p75": 63.405
+    },
+    {
+      "slug": "hazlett",
+      "label": "Hazlett",
+      "path": "/artists/hazlett",
+      "tourName": "",
+      "dates": 16,
+      "median": 60.725,
+      "p25": 52.6125,
+      "p75": 65.2625
+    },
+    {
+      "slug": "blondshell",
+      "label": "Blondshell",
+      "path": "/artists/blondshell",
+      "tourName": "",
+      "dates": 12,
+      "median": 60,
+      "p25": 55.08,
+      "p75": 69.575
+    },
+    {
+      "slug": "foy-vance",
+      "label": "Foy Vance",
+      "path": "/artists/foy-vance",
+      "tourName": "The Wake World Tour",
+      "dates": 15,
+      "median": 59,
+      "p25": 49.575,
+      "p75": 63
+    },
+    {
+      "slug": "sabaton",
+      "label": "Sabaton",
+      "path": "/artists/sabaton",
+      "tourName": "Legends On Tour",
+      "dates": 17,
+      "median": 58,
+      "p25": 37.95,
+      "p75": 81.65
+    },
+    {
+      "slug": "nothing-but-thieves",
+      "label": "Nothing But Thieves",
+      "path": "/artists/nothing-but-thieves",
+      "tourName": "The Stray Dogs World Tour",
+      "dates": 11,
+      "median": 57.6,
+      "p25": 53.86,
+      "p75": 74.95
+    },
+    {
+      "slug": "pentatonix",
+      "label": "Pentatonix",
+      "path": "/artists/pentatonix",
+      "tourName": "Christmas in the City Tour",
+      "dates": 25,
+      "median": 57,
+      "p25": 36.48,
+      "p75": 63
+    },
+    {
+      "slug": "doja-cat",
+      "label": "Doja Cat",
+      "path": "/artists/doja-cat",
+      "tourName": "Tour Ma Vie World Tour",
+      "dates": 10,
+      "median": 56.5,
+      "p25": 52.150000000000006,
+      "p75": 75.005
+    },
+    {
+      "slug": "jonas-brothers",
+      "label": "Jonas Brothers",
+      "path": "/artists/jonas-brothers",
+      "tourName": "",
+      "dates": 21,
+      "median": 55,
+      "p25": 48.3,
+      "p75": 78
+    },
+    {
+      "slug": "missio",
+      "label": "Missio",
+      "path": "/artists/missio",
+      "tourName": "",
+      "dates": 19,
+      "median": 55,
+      "p25": 48,
+      "p75": 62
+    },
+    {
+      "slug": "mei-semones",
+      "label": "Mei Semones",
+      "path": "/artists/mei-semones",
+      "tourName": "",
+      "dates": 19,
+      "median": 54.05,
+      "p25": 49,
+      "p75": 62.125
+    },
+    {
+      "slug": "josiah-queen",
+      "label": "Josiah Queen",
+      "path": "/artists/josiah-queen",
+      "tourName": "",
+      "dates": 14,
+      "median": 54.025,
+      "p25": 48.542500000000004,
+      "p75": 62.0575
+    },
+    {
+      "slug": "beartooth",
+      "label": "Beartooth",
+      "path": "/artists/beartooth",
+      "tourName": "Pure Ecstasy World Tour",
+      "dates": 22,
+      "median": 54,
+      "p25": 41.4,
+      "p75": 72.7375
+    },
+    {
+      "slug": "valley",
+      "label": "Valley",
+      "path": "/artists/valley",
+      "tourName": "Do You Need To Be Entertained? The Tour",
+      "dates": 15,
+      "median": 53,
+      "p25": 51.5,
+      "p75": 62.1
+    },
+    {
+      "slug": "too-many-zooz",
+      "label": "Too Many Zooz",
+      "path": "/artists/too-many-zooz",
+      "tourName": "",
+      "dates": 10,
+      "median": 52,
+      "p25": 49,
+      "p75": 64.75
+    },
+    {
+      "slug": "teddy-swims",
+      "label": "Teddy Swims",
+      "path": "/artists/teddy-swims",
+      "tourName": "The Ugly Tour",
+      "dates": 6,
+      "median": 51.95,
+      "p25": 43.8975,
+      "p75": 65.1175
+    },
+    {
+      "slug": "three-days-grace",
+      "label": "Three Days Grace",
+      "path": "/artists/three-days-grace",
+      "tourName": "",
+      "dates": 8,
+      "median": 51.75,
+      "p25": 37.775000000000006,
+      "p75": 63.25
+    },
+    {
+      "slug": "haiden-henderson",
+      "label": "Haiden Henderson",
+      "path": "/artists/haiden-henderson",
+      "tourName": "The dumblond Tour",
+      "dates": 14,
+      "median": 50.5,
+      "p25": 46,
+      "p75": 52.75
+    },
+    {
+      "slug": "lukas-graham",
+      "label": "Lukas Graham",
+      "path": "/artists/lukas-graham",
+      "tourName": "",
+      "dates": 10,
+      "median": 47.864999999999995,
+      "p25": 43.71,
+      "p75": 53
+    },
+    {
+      "slug": "little-big-town",
+      "label": "Little Big Town",
+      "path": "/artists/little-big-town",
+      "tourName": "",
+      "dates": 8,
+      "median": 47.375,
+      "p25": 42.262499999999996,
+      "p75": 130.2375
+    },
+    {
+      "slug": "mico",
+      "label": "Mico",
+      "path": "/artists/mico",
+      "tourName": "",
+      "dates": 10,
+      "median": 44.5,
+      "p25": 39.025,
+      "p75": 49.75
+    },
+    {
+      "slug": "gracie-abrams",
+      "label": "Gracie Abrams",
+      "path": "/artists/gracie-abrams",
+      "tourName": "The Look at My Life Tour",
+      "dates": 33,
+      "median": 39.36,
+      "p25": 28.8,
+      "p75": 68.31
+    },
+    {
+      "slug": "victoria-monet",
+      "label": "Victoria Monet",
+      "path": "/artists/victoria-monet",
+      "tourName": "",
+      "dates": 17,
+      "median": 39,
+      "p25": 31.35,
+      "p75": 50.6
+    },
+    {
+      "slug": "tobymac",
+      "label": "TobyMac",
+      "path": "/artists/tobymac",
+      "tourName": "Hits Deep Tour",
+      "dates": 28,
+      "median": 36.265,
+      "p25": 32.2,
+      "p75": 39.325
+    }
+  ]
+}

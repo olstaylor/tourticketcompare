@@ -176,7 +176,7 @@ export function renderTourLeaguePost(figures, existing = null) {
     "---",
     `title: "Which US tours have the highest and lowest ticket prices right now?"`,
     `seo_title: "US concert ticket prices by tour"`,
-    `description: "${figures.tourCount} US tours ranked by their typical lowest listed resale price, from ${money(low[0].median)} to ${money(high[0].median)}, checked ${longDate(figures.newestReading)}."`,
+    `description: "${figures.tourCount} US tours ranked by their typical lowest listed resale price, ranging between ${money(low[0].median)} and ${money(high[0].median)}, checked ${longDate(figures.newestReading)}."`,
     `summary: "A ranking of ${figures.tourCount} US tours by the typical lowest listed resale price across ${figures.totalDates} dates. Prices checked up to ${longDate(figures.newestReading)}."`,
     `date: ${date}`,
     ...(updated ? [`updated: ${updated}`] : []),

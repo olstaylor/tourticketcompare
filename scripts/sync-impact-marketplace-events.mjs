@@ -420,6 +420,8 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
   return { candidates, complete: false, stopReason: "pagination_cap" };
 }
 
+const MULTI_DAY_PASS = /\b\d+[- ]?day pass\b/i;
+
 // Listing ids that pass for different performance times are ambiguous, even
 // on the same day. A date-only listing cannot identify a matinee or evening.
 function listingsMatchingSeveralDates(evaluations) {
@@ -575,6 +577,14 @@ async function run(options, deps = {}) {
         const tnId = tnLink?.verified === true ? clean(tnLink.event_id, 255) : "";
         const sameListing = tnId ? evaluation.passing.filter((candidate) => candidate.externalId === tnId) : [];
         if (sameListing.length === 1) timed = sameListing;
+      }
+      // StubHub lists a multi-night package ("Metallica - 2-Day Pass (November
+      // 5 & 7) Las Vegas") on the first night's date beside that night's own
+      // listing (2026-11-02 sync log). For a single-night event, exactly one
+      // tied listing that is not a pass is the night. Same rule as Vivid Seats.
+      if (!timed.length && config.slug === "stubhub-international" && !MULTI_DAY_PASS.test(`${evaluation.event?.event_name || ""}`)) {
+        const nights = evaluation.passing.filter((candidate) => !MULTI_DAY_PASS.test(candidate.name || ""));
+        if (nights.length === 1 && evaluation.passing.length > 1) timed = nights;
       }
       // Missing or malformed start evidence must not become the sole match
       // after a conflicting timed listing is rejected. Withhold the unresolved
@@ -943,6 +953,15 @@ async function selfTest() {
   assert.deepEqual(actions(await runWith("ticket-liquidator", [tnVerified("7775510", false)], [tlSingle, tlPackage])), { matinee: "conflict" }, "an unverified TicketNetwork id is not evidence");
   assert.deepEqual(actions(await runWith("ticket-liquidator", [tnVerified("9999999")], [tlSingle, tlPackage])), { matinee: "conflict" }, "a TicketNetwork id matching neither listing leaves the tie");
   assert.deepEqual(actions(await runWith("ticketnetwork", [tnVerified("7775510")], [tlSingle, tlPackage])), { matinee: "conflict" }, "only Ticket Liquidator borrows TicketNetwork's id");
+  // StubHub ties a single night with its multi-night pass on the same date.
+  const shNight = { ...noTime, externalId: "107132081", name: "Metallica Las Vegas", normalizedUrl: "https://www.stubhub.ie/metallica-las-vegas-tickets-11-5-2026/event/107132081" };
+  const shPass = { ...noTime, externalId: "107132082", name: "Metallica - 2-Day Pass (November 5 & 7) Las Vegas", normalizedUrl: "https://www.stubhub.ie/metallica-las-vegas-tickets-11-5-2026/event/107132082" };
+  const shPick = await runWith("stubhub-international", [matinee], [shPass, shNight]);
+  assert.deepEqual(actions(shPick), { matinee: "add" }, "a StubHub night wins a tie with its 2-Day Pass");
+  assert.equal(shPick.results[0].external_id, "107132081");
+  assert.deepEqual(actions(await runWith("stubhub-international", [{ ...matinee, event_name: "2-DAY PASS: Stadium Act" }], [shPass, shNight])), { matinee: "conflict" }, "a pass event keeps the tie");
+  assert.deepEqual(actions(await runWith("stubhub-international", [matinee], [shNight, { ...shNight, externalId: "107132085" }])), { matinee: "conflict" }, "two nights stay a conflict");
+  assert.deepEqual(actions(await runWith("ticketnetwork", [matinee], [shPass, shNight])), { matinee: "conflict" }, "only the StubHub lane uses the pass rule");
   const incompleteTimes = await run({ provider: "ticketnetwork", apply: false, delayMs: 0 }, {
     now: new Date("2026-09-27T00:00:00Z"), data: nightData([matinee]),
     async fetchCatalog() { return { candidates: [second, noTime], complete: false, stopReason: "pagination_cap" }; }

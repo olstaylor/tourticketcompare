@@ -55,18 +55,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8286255",
-        "url": "https://www.ticketliquidator.com/tickets/8286255/Latto-tickets-Sat-Oct-31-2026-On-The-Record-at-Park-MGM",
-        "verified": true,
-        "last_verified_at": "2026-09-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5ezZ_KhRBUSj",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286255",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286255/Latto-tickets-Sat-Oct-31-2026-On-The-Record-at-Park-MGM"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-latto-2026-petersburg-vvg17z_2r3gq4t",

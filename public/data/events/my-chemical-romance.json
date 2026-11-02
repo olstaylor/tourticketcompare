@@ -756,11 +756,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7570377",
-        "url": "https://www.ticketliquidator.com/tickets/7570377/My-Chemical-Romance-tickets-Sat-Oct-31-2026-Hollywood-Bowl",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107074158",
@@ -774,7 +774,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7570377",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7570377/My-Chemical-Romance-tickets-Sat-Oct-31-2026-Hollywood-Bowl",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-31-2026/event/107074158",
     "organizer_names": [
       "ANDREW HEWITT & BILL SILVA PRESENTS",

@@ -159,12 +159,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8173263",
+        "url": "https://www.ticketliquidator.com/tickets/8173263/Queens-of-the-Stone-Age-tickets-Sun-Dec-20-2026-Spark-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17aZv0G6CJW0KGn",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173263"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173263",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173263/Queens-of-the-Stone-Age-tickets-Sun-Dec-20-2026-Spark-Arena"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-san-diego-vvg1iz_4c-ppva",
@@ -281,12 +289,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337029",
+        "url": "https://www.ticketliquidator.com/tickets/8337029/Queens-of-the-Stone-Age-tickets-Sun-May-2-2027-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k0Z_48eG7IJ9V",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337029"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337029",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337029/Queens-of-the-Stone-Age-tickets-Sun-May-2-2027-The-Kia-Forum"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-oakland-g5vyz_4k7itnp",
@@ -342,12 +358,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337030",
+        "url": "https://www.ticketliquidator.com/tickets/8337030/Queens-of-the-Stone-Age-tickets-Tue-May-4-2027-Oakland-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4K7itNp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337030"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337030",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337030/Queens-of-the-Stone-Age-tickets-Tue-May-4-2027-Oakland-Arena"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-sacramento-g5vyz_4paibie",
@@ -403,12 +427,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337031",
+        "url": "https://www.ticketliquidator.com/tickets/8337031/Queens-of-the-Stone-Age-tickets-Wed-May-5-2027-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4paibiE",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337031"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337031",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337031/Queens-of-the-Stone-Age-tickets-Wed-May-5-2027-Golden-1-Center"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-seattle-vvg1hz_43n59ay",
@@ -464,12 +496,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337032",
+        "url": "https://www.ticketliquidator.com/tickets/8337032/Queens-of-the-Stone-Age-tickets-Fri-May-7-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_43n59AY",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337032"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337032",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337032/Queens-of-the-Stone-Age-tickets-Fri-May-7-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-portland-vvg1hz_42zzik2",
@@ -525,12 +565,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337034",
+        "url": "https://www.ticketliquidator.com/tickets/8337034/Queens-of-the-Stone-Age-tickets-Sun-May-9-2027-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_42ZzIK2",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337034"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337034",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337034/Queens-of-the-Stone-Age-tickets-Sun-May-9-2027-Moda-Center-at-the-Rose-Quarter"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-salt-lake-city-z7r9jz1aa7-1z",
@@ -586,12 +634,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337035",
+        "url": "https://www.ticketliquidator.com/tickets/8337035/Queens-of-the-Stone-Age-tickets-Tue-May-11-2027-Delta-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7-1Z",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337035"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337035",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337035/Queens-of-the-Stone-Age-tickets-Tue-May-11-2027-Delta-Center"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-morrison-z7r9jz1aa7nqm",
@@ -647,12 +703,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337048",
+        "url": "https://www.ticketliquidator.com/tickets/8337048/Queens-of-the-Stone-Age-tickets-Wed-May-12-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7NqM",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337048"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337048",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337048/Queens-of-the-Stone-Age-tickets-Wed-May-12-2027-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-saint-paul-z7r9jz1aa7-1v",
@@ -708,12 +772,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342261",
+        "url": "https://www.ticketliquidator.com/tickets/8342261/Queens-of-the-Stone-Age-tickets-Fri-May-14-2027-Grand-Casino-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7-1v",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342261"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342261",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342261/Queens-of-the-Stone-Age-tickets-Fri-May-14-2027-Grand-Casino-Arena"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-milwaukee-vv1a6zk4kgkdc_par",
@@ -822,12 +894,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337037",
+        "url": "https://www.ticketliquidator.com/tickets/8337037/Queens-of-the-Stone-Age-tickets-Sun-May-16-2027-Allstate-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvZvPfyGACy0aH",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337037"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337037",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337037/Queens-of-the-Stone-Age-tickets-Sun-May-16-2027-Allstate-Arena"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-indianapolis-vv1aazk4fgkd2j1lw",
@@ -883,12 +963,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337038",
+        "url": "https://www.ticketliquidator.com/tickets/8337038/Queens-of-the-Stone-Age-tickets-Tue-May-18-2027-Gainbridge-Fieldhouse",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4fGkd2J1LW",
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337038"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337038",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337038/Queens-of-the-Stone-Age-tickets-Tue-May-18-2027-Gainbridge-Fieldhouse"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-columbus-vv1kv8vp4agacm7ii",
@@ -944,12 +1032,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337040",
+        "url": "https://www.ticketliquidator.com/tickets/8337040/Queens-of-the-Stone-Age-tickets-Wed-May-19-2027-Nationwide-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vP4aGACM7ii",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337040"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337040",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337040/Queens-of-the-Stone-Age-tickets-Wed-May-19-2027-Nationwide-Arena"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-pittsburgh-1apzk44gkedibkp",
@@ -1005,12 +1101,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337042",
+        "url": "https://www.ticketliquidator.com/tickets/8337042/Queens-of-the-Stone-Age-tickets-Fri-May-21-2027-Petersen-Events-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk44GkeDibKP",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337042"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337042",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337042/Queens-of-the-Stone-Age-tickets-Fri-May-21-2027-Petersen-Events-Center"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-detroit-vv1kezvp4_gagidyd",
@@ -1066,12 +1170,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337043",
+        "url": "https://www.ticketliquidator.com/tickets/8337043/Queens-of-the-Stone-Age-tickets-Sat-May-22-2027-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1keZvP4_GAGIdYd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337043"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337043",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337043/Queens-of-the-Stone-Age-tickets-Sat-May-22-2027-Little-Caesars-Arena"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-boston-vv1avzk43gkdss-xl",
@@ -1127,11 +1239,19 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337046",
+        "url": "https://www.ticketliquidator.com/tickets/8337046/Queens-of-the-Stone-Age-tickets-Mon-May-24-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk43Gkdss-Xl",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337046"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337046",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337046/Queens-of-the-Stone-Age-tickets-Mon-May-24-2027-TD-Garden"
   }
 ]

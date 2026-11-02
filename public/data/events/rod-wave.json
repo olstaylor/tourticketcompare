@@ -714,11 +714,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8063454",
-        "url": "https://www.ticketnetwork.com/en/p/8063454",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8063454",
@@ -738,7 +738,7 @@
     "ticketmaster_discovery_event_id": "vvG18Z_udha5EP",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063454",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063454/Rod-Wave-tickets-Sat-Oct-31-2026-United-Center",
     "stubhub_international_url": "https://www.stubhub.ie/rod-wave-chicago-tickets-10-31-2026/event/107447269",
     "presales": [

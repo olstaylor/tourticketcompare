@@ -585,11 +585,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8028493",
-        "url": "https://www.ticketnetwork.com/en/p/8028493",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GoUbfs2",
@@ -600,7 +600,7 @@
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8028493"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-phoebe-bridgers-2026-inglewood-vvg10z_gomyvhe",

@@ -321,11 +321,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7806868",
-        "url": "https://www.ticketnetwork.com/en/p/7806868",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_kJvgfqs",
@@ -335,7 +335,7 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806868"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-gavin-adcock-2026-boston-vv177z_kgkmr1ooo",

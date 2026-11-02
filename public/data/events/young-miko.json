@@ -347,11 +347,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7860532",
-        "url": "https://www.ticketnetwork.com/en/p/7860532",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_F1gFmtS",
@@ -369,7 +369,7 @@
         "end": "2026-10-27T16:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860532"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-young-miko-2026-charlotte-g5evz_fffmq2n",

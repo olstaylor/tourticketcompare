@@ -152,11 +152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8173263",
+        "url": "https://www.ticketnetwork.com/en/p/8173263",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17aZv0G6CJW0KGn",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173263"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-san-diego-vvg1iz_4c-ppva",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337028",
+        "url": "https://www.ticketnetwork.com/en/p/8337028",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4C-PPVA",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337028"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-inglewood-vv1k0z_48eg7ij9v",
@@ -258,11 +274,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337029",
+        "url": "https://www.ticketnetwork.com/en/p/8337029",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k0Z_48eG7IJ9V",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337029"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-oakland-g5vyz_4k7itnp",
@@ -311,11 +335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337030",
+        "url": "https://www.ticketnetwork.com/en/p/8337030",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4K7itNp",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337030"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-sacramento-g5vyz_4paibie",
@@ -364,11 +396,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337031",
+        "url": "https://www.ticketnetwork.com/en/p/8337031",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4paibiE",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337031"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-seattle-vvg1hz_43n59ay",
@@ -417,11 +457,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337032",
+        "url": "https://www.ticketnetwork.com/en/p/8337032",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_43n59AY",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337032"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-portland-vvg1hz_42zzik2",
@@ -470,11 +518,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337034",
+        "url": "https://www.ticketnetwork.com/en/p/8337034",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_42ZzIK2",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337034"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-salt-lake-city-z7r9jz1aa7-1z",
@@ -523,11 +579,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337035",
+        "url": "https://www.ticketnetwork.com/en/p/8337035",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7-1Z",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337035"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-morrison-z7r9jz1aa7nqm",
@@ -576,11 +640,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337048",
+        "url": "https://www.ticketnetwork.com/en/p/8337048",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7NqM",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337048"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-saint-paul-z7r9jz1aa7-1v",
@@ -629,11 +701,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342261",
+        "url": "https://www.ticketnetwork.com/en/p/8342261",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7-1v",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342261"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-milwaukee-vv1a6zk4kgkdc_par",
@@ -735,11 +815,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337037",
+        "url": "https://www.ticketnetwork.com/en/p/8337037",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvZvPfyGACy0aH",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337037"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-indianapolis-vv1aazk4fgkd2j1lw",
@@ -788,11 +876,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337038",
+        "url": "https://www.ticketnetwork.com/en/p/8337038",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4fGkd2J1LW",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337038"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-columbus-vv1kv8vp4agacm7ii",
@@ -841,11 +937,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337040",
+        "url": "https://www.ticketnetwork.com/en/p/8337040",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vP4aGACM7ii",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337040"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-pittsburgh-1apzk44gkedibkp",
@@ -894,11 +998,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337042",
+        "url": "https://www.ticketnetwork.com/en/p/8337042",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk44GkeDibKP",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337042"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-detroit-vv1kezvp4_gagidyd",
@@ -947,11 +1059,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337043",
+        "url": "https://www.ticketnetwork.com/en/p/8337043",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1keZvP4_GAGIdYd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337043"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-boston-vv1avzk43gkdss-xl",
@@ -1000,10 +1120,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337046",
+        "url": "https://www.ticketnetwork.com/en/p/8337046",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk43Gkdss-Xl",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337046"
   }
 ]

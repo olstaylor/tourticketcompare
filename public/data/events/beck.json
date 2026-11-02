@@ -319,11 +319,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7808848",
-        "url": "https://www.ticketnetwork.com/en/p/7808848",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7808848",
@@ -336,7 +336,7 @@
     "ticketmaster_discovery_event_id": "G5viZ_kSpxNLj",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808848",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

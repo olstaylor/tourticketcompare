@@ -152,11 +152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7772522",
+        "url": "https://www.ticketnetwork.com/en/p/7772522",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZko9GkelIzYS",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772522"
   },
   {
     "id": "tm-sting-2026-pittsburgh-1avbz_kgkwesf_t",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7808971",
+        "url": "https://www.ticketnetwork.com/en/p/7808971",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_kGkweSf_T",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808971"
   },
   {
     "id": "tm-sting-2026-pittsburgh-1avbz_kgkwscsdv",
@@ -258,11 +274,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7827443",
+        "url": "https://www.ticketnetwork.com/en/p/7827443",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_kGkWSCsDv",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827443"
   },
   {
     "id": "tm-sting-2026-wallingford-g5vvz_ajjscmb",
@@ -311,11 +335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7772524",
+        "url": "https://www.ticketnetwork.com/en/p/7772524",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_AJjScMb",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772524"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7nwya",
@@ -364,11 +396,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7772527",
+        "url": "https://www.ticketnetwork.com/en/p/7772527",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v17_A0AG7nWYA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772527"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7lcyc",
@@ -417,11 +457,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7772528",
+        "url": "https://www.ticketnetwork.com/en/p/7772528",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v17_A0AG7lcYC",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772528"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7icyq",
@@ -470,11 +518,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7772529",
+        "url": "https://www.ticketnetwork.com/en/p/7772529",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v17_A0AG7icYQ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772529"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7twrb",
@@ -523,11 +579,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7772530",
+        "url": "https://www.ticketnetwork.com/en/p/7772530",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v17_A0AG7tWRB",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772530"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7tury",
@@ -576,11 +640,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7772531",
+        "url": "https://www.ticketnetwork.com/en/p/7772531",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v17_A0AG7tuRY",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772531"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7iure",
@@ -629,11 +701,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7772532",
+        "url": "https://www.ticketnetwork.com/en/p/7772532",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v17_A0AG7IuRE",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772532"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v1ako_v_zaccg27",
@@ -682,11 +762,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294252",
+        "url": "https://www.ticketnetwork.com/en/p/8294252",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v1Ako_v_ZACCG27",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294252"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v1ako_v_za5cgcc",
@@ -735,11 +823,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294253",
+        "url": "https://www.ticketnetwork.com/en/p/8294253",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v1Ako_v_ZA5CGCC",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294253"
   },
   {
     "id": "tm-sting-2026-orlando-1aefz_fgklnyeh_",
@@ -788,11 +884,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7045419",
+        "url": "https://www.ticketnetwork.com/en/p/7045419",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_FGklNyEh_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7045419"
   },
   {
     "id": "tm-sting-2026-tampa-vvg1vzbpivbfyz",
@@ -841,11 +945,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8249211",
+        "url": "https://www.ticketnetwork.com/en/p/8249211",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbPiVBfyz",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8249211"
   },
   {
     "id": "tm-sting-2026-hollywood-vvg1vz_8wi3ad6",
@@ -894,11 +1006,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8214753",
+        "url": "https://www.ticketnetwork.com/en/p/8214753",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_8wI3AD6",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8214753"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecv9ix",
@@ -947,11 +1067,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319776",
+        "url": "https://www.ticketnetwork.com/en/p/8319776",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZk4aGkecv9ix",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319776"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecemih",
@@ -1000,11 +1128,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319777",
+        "url": "https://www.ticketnetwork.com/en/p/8319777",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZk4aGkeceMiH",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319777"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec79cl",
@@ -1053,11 +1189,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319778",
+        "url": "https://www.ticketnetwork.com/en/p/8319778",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZk4aGkec79cL",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319778"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecamcg",
@@ -1106,11 +1250,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319779",
+        "url": "https://www.ticketnetwork.com/en/p/8319779",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZk4aGkecAMcg",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319779"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec6msw",
@@ -1159,11 +1311,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319780",
+        "url": "https://www.ticketnetwork.com/en/p/8319780",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZk4aGkec6MsW",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319780"
   },
   {
     "id": "tm-sting-2027-gliwice-z698xzqpz1kckp0pa",
@@ -1795,11 +1955,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319784",
+        "url": "https://www.ticketnetwork.com/en/p/8319784",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZk4aGkeca9wi",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319784"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec1mvn",
@@ -1848,11 +2016,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319785",
+        "url": "https://www.ticketnetwork.com/en/p/8319785",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZk4aGkec1MVn",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319785"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecg6m7",
@@ -1901,11 +2077,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319786",
+        "url": "https://www.ticketnetwork.com/en/p/8319786",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZk4aGkecG6M7",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319786"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecumyj",
@@ -1954,11 +2138,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319788",
+        "url": "https://www.ticketnetwork.com/en/p/8319788",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZk4aGkecuMyj",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319788"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec2mbz",
@@ -2007,11 +2199,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319789",
+        "url": "https://www.ticketnetwork.com/en/p/8319789",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZk4aGkec2MBZ",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319789"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecoebs",
@@ -2060,10 +2260,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8319790",
+        "url": "https://www.ticketnetwork.com/en/p/8319790",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AyZk4aGkecoEBs",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319790"
   }
 ]

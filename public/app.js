@@ -1110,7 +1110,8 @@ function renderSearchResultItem(type, data) {
 
   if (type === "artist") {
     nameEl.textContent = data.name;
-    desc.textContent = data.short_description || "";
+    // The seeded "<genre> act listed on Ticketmaster." line says nothing, so search results omit it.
+    desc.textContent = /^(?:.+ act )?listed on Ticketmaster\.?$/i.test(String(data.short_description || "").trim()) ? "" : data.short_description || "";
     ctaLabel = "Open artist page";
     ctaHref = `/artists/${data.slug}`;
   } else if (type === "event") {

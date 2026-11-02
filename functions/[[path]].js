@@ -3962,7 +3962,7 @@ function renderPriceGuideBody(route, events, env) {
     route.yearLabel ? ` for ${escapeHtml(route.yearLabel)}` : ""
   }</h1><p class="lead">${escapeHtml(
     currentAnswer
-  )}</p>${nextDatesHtml}${renderCityReportLinkHtml(artist, route.cityReport)}<p>${escapeHtml(
+  )}</p>${nextDatesHtml}${renderArtistPresaleLinkHtml(artist, deriveArtistPresales(events, artist.slug))}${renderCityReportLinkHtml(artist, route.cityReport)}<p>${escapeHtml(
     `${guide.showCount} upcoming ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${guide.cityCount === 1 ? "city" : "cities"}${
       range ? ` (${range})` : ""
     }. These are resale listings, not face value.`
@@ -7598,7 +7598,13 @@ function renderEventPageBody(route, events, env) {
       registered: priceGuideRegistered(artist.slug),
       artistEditoriallyIndexable: artist.indexing_status === "indexable_with_substantial_content"
     }) === "render";
+  // The presale page, only while Ticketmaster lists an open or upcoming window
+  // that covers this date (same gate as the artist page link).
+  const eventPresaleLead = held
+    ? ""
+    : artistPresaleLead(artist.name, presalesForShows(deriveArtistPresales(route.events || events, artist.slug), new Set([eventId])));
   const links = [
+    eventPresaleLead ? anchor(eventPresaleLead, presalePath(artist.slug), "mini-link") : "",
     priceGuideLive ? anchor(`${artist.name} ticket prices by date`, priceGuidePath(artist.slug), "mini-link") : "",
     route.artistCityPath ? anchor(`All ${artist.name} dates in ${route.artistCityLabel}`, route.artistCityPath, "mini-link") : "",
     anchor(`All ${artist.name} tickets and dates`, `/artists/${artist.slug}`, "mini-link"),

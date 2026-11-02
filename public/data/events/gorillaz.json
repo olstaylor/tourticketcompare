@@ -741,11 +741,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7774767",
-        "url": "https://www.ticketliquidator.com/tickets/7774767/Gorillaz-tickets-Sat-Oct-31-2026-Climate-Pledge-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107131097",
@@ -769,7 +769,7 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7774767",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7774767/Gorillaz-tickets-Sat-Oct-31-2026-Climate-Pledge-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/gorillaz-seattle-tickets-10-31-2026/event/107131097"
   },
   {

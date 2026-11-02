@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284511",
+        "url": "https://www.ticketliquidator.com/tickets/8284511/Mariah-Carey-tickets-Fri-Nov-27-2026-Utilita-Arena-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkfsGkdVieos",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284511"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284511",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284511/Mariah-Carey-tickets-Fri-Nov-27-2026-Utilita-Arena-Birmingham"
   },
   {
     "id": "tm-mariah-carey-2026-london-1agzkfsgkdzymm6",
@@ -167,11 +175,19 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8276812",
+        "url": "https://www.ticketliquidator.com/tickets/8276812/Mariah-Carey-tickets-Wed-Dec-2-2026-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfsGkeJDwKf",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276812"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276812",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8276812/Mariah-Carey-tickets-Wed-Dec-2-2026-Co-Op-Live"
   }
 ]

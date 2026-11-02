@@ -1,0 +1,1857 @@
+[
+  {
+    "id": "tm-jodeci-2026-saint-louis-vvg1bz_2r0qtwk",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci- 35th Anniversary Tour of Forever My Lady",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Stifel Theatre",
+    "datetime_iso": "2026-11-05T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064F7A46A9F46",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-saint-louis-missouri-11-04-2026/event/060064F7A46A9F46",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-saint-louis-missouri-11-04-2026/event/060064F7A46A9F46",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064F7A46A9F46",
+        "discovery_event_id": "vvG1bZ_2r0QtWk",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-saint-louis-missouri-11-04-2026/event/060064F7A46A9F46",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_2r0QtWk",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-detroit-vvg1oz_2lg-loc",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Fox Theatre Detroit",
+    "datetime_iso": "2026-11-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080064F7F586B80E",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-detroit-michigan-11-06-2026/event/080064F7F586B80E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-detroit-michigan-11-06-2026/event/080064F7F586B80E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080064F7F586B80E",
+        "discovery_event_id": "vvG1OZ_2Lg-lOC",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-detroit-michigan-11-06-2026/event/080064F7F586B80E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1OZ_2Lg-lOC",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-chicago-vvg1jz_2brfg7b",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Arie Crown Theater",
+    "datetime_iso": "2026-11-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "070064F61E20C13A",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-chicago-illinois-11-07-2026/event/070064F61E20C13A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-chicago-illinois-11-07-2026/event/070064F61E20C13A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "070064F61E20C13A",
+        "discovery_event_id": "vvG1jZ_2brFG7B",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-chicago-illinois-11-07-2026/event/070064F61E20C13A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1jZ_2brFG7B",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-indianapolis-vvg1fz_2rfzpki",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "WTLC Presents Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Old National Centre",
+    "datetime_iso": "2026-11-09T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050064F7880254E8",
+    "ticketmaster_url": "https://www.ticketmaster.com/wtlc-presents-jodeci-35th-anniversary-tour-indianapolis-indiana-11-08-2026/event/050064F7880254E8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/wtlc-presents-jodeci-35th-anniversary-tour-indianapolis-indiana-11-08-2026/event/050064F7880254E8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050064F7880254E8",
+        "discovery_event_id": "vvG1fZ_2rFZPKI",
+        "url": "https://www.ticketmaster.com/wtlc-presents-jodeci-35th-anniversary-tour-indianapolis-indiana-11-08-2026/event/050064F7880254E8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1fZ_2rFZPKI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-cincinnati-17aov0g62qly9ie",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "The Andrew J Brady Music Center",
+    "datetime_iso": "2026-11-11T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160064F6ABE57A02",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-cincinnati-ohio-11-10-2026/event/160064F6ABE57A02",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-cincinnati-ohio-11-10-2026/event/160064F6ABE57A02",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160064F6ABE57A02",
+        "discovery_event_id": "17AOv0G62Qly9Ie",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-cincinnati-ohio-11-10-2026/event/160064F6ABE57A02",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AOv0G62Qly9Ie",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-pittsburgh-17aov0g62hhggfi",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "WAMO Fall Fest Featuring Jodeci",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Citizens Live at The Wylie",
+    "datetime_iso": "2026-11-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160064F6DBD4C228",
+    "ticketmaster_url": "https://www.ticketmaster.com/wamo-fall-fest-featuring-jodeci-pittsburgh-pennsylvania-11-11-2026/event/160064F6DBD4C228",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/wamo-fall-fest-featuring-jodeci-pittsburgh-pennsylvania-11-11-2026/event/160064F6DBD4C228",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160064F6DBD4C228",
+        "discovery_event_id": "17AOv0G62hhgGFI",
+        "url": "https://www.ticketmaster.com/wamo-fall-fest-featuring-jodeci-pittsburgh-pennsylvania-11-11-2026/event/160064F6DBD4C228",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AOv0G62hhgGFI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-national-harbor-164zk3ffyzacfekc",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "National Harbor",
+    "country": "United States Of America",
+    "venue": "The Theater at MGM National Harbor",
+    "datetime_iso": "2026-11-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006488230D715D",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-national-harbor-maryland-11-12-2026/event/15006488230D715D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-national-harbor-maryland-11-12-2026/event/15006488230D715D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006488230D715D",
+        "discovery_event_id": "164Zk3FFYZACFekC",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-national-harbor-maryland-11-12-2026/event/15006488230D715D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "164Zk3FFYZACFekC",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-cleveland-z7r9jz1aaed_7",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Keybank State Theatre-Playhouse Square Center",
+    "datetime_iso": "2026-11-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAed_7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAed_7",
+        "discovery_event_id": "Z7r9jZ1AAed_7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAed_7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-bristol-g5viz_25fd7l0",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Bristol",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Bristol",
+    "datetime_iso": "2026-11-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064F2D4EC4AE4",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-bristol-virginia-11-15-2026/event/1B0064F2D4EC4AE4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-bristol-virginia-11-15-2026/event/1B0064F2D4EC4AE4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064F2D4EC4AE4",
+        "discovery_event_id": "G5viZ_25fD7l0",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-bristol-virginia-11-15-2026/event/1B0064F2D4EC4AE4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_25fD7l0",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-jersey-city-vvg1fz_2hzjb2j",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Jersey City",
+    "country": "United States Of America",
+    "venue": "Loew's Jersey Theatre",
+    "datetime_iso": "2026-11-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064F6C09983DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-jersey-city-new-jersey-11-18-2026/event/020064F6C09983DC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-jersey-city-new-jersey-11-18-2026/event/020064F6C09983DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064F6C09983DC",
+        "discovery_event_id": "vvG1FZ_2hZJb2j",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-jersey-city-new-jersey-11-18-2026/event/020064F6C09983DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_2hZJb2j",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-bensalem-z7r9jz1aaz98b",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci (21 and Over)",
+    "city": "Bensalem",
+    "country": "United States Of America",
+    "venue": "Xcite Center",
+    "datetime_iso": "2026-11-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZ98b",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ98b",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ98b",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZ98b",
+        "discovery_event_id": "Z7r9jZ1AAZ98b",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ98b",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ98b",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-baltimore-17a8v0g62qqx1z6",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci-35th Anniversary Tour of Forever My Lady",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "The Paramount Baltimore",
+    "datetime_iso": "2026-11-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064F69DF8A007",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci35th-anniversary-tour-of-forever-my-baltimore-maryland-11-20-2026/event/150064F69DF8A007",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci35th-anniversary-tour-of-forever-my-baltimore-maryland-11-20-2026/event/150064F69DF8A007",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064F69DF8A007",
+        "discovery_event_id": "17A8v0G62QqX1Z6",
+        "url": "https://www.ticketmaster.com/jodeci35th-anniversary-tour-of-forever-my-baltimore-maryland-11-20-2026/event/150064F69DF8A007",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G62QqX1Z6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-louisville-17aov0g629rlldo",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Louisville",
+    "country": "United States Of America",
+    "venue": "The Louisville Palace",
+    "datetime_iso": "2026-11-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160064F5DEAEB0E0",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-louisville-kentucky-11-22-2026/event/160064F5DEAEB0E0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-louisville-kentucky-11-22-2026/event/160064F5DEAEB0E0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160064F5DEAEB0E0",
+        "discovery_event_id": "17AOv0G629rlldO",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-louisville-kentucky-11-22-2026/event/160064F5DEAEB0E0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AOv0G629rlldO",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-memphis-g5viz_2h5lx5n",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Memphis",
+    "country": "United States Of America",
+    "venue": "The Orpheum Theatre Memphis",
+    "datetime_iso": "2026-11-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064F6CB7FE2EA",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-memphis-tennessee-11-24-2026/event/1B0064F6CB7FE2EA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-memphis-tennessee-11-24-2026/event/1B0064F6CB7FE2EA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064F6CB7FE2EA",
+        "discovery_event_id": "G5viZ_2h5LX5n",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-memphis-tennessee-11-24-2026/event/1B0064F6CB7FE2EA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_2h5LX5n",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-thackerville-z7r9jz1aaz3ae",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci w/ Bobby Brown",
+    "city": "Thackerville",
+    "country": "United States Of America",
+    "venue": "Lucas Oil Live at WinStar World Casino",
+    "datetime_iso": "2026-11-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZ3ae",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ3ae",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ3ae",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZ3ae",
+        "discovery_event_id": "Z7r9jZ1AAZ3ae",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ3ae",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ3ae",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-norman-z7r9jz1aaed_m",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci",
+    "city": "Norman",
+    "country": "United States Of America",
+    "venue": "Showplace Theatre at Riverwind Casino",
+    "datetime_iso": "2026-11-29T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAed_M",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_M",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_M",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAed_M",
+        "discovery_event_id": "Z7r9jZ1AAed_M",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_M",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAed_M",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-houston-g5diz_2lvp-gm",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Arena Theatre",
+    "datetime_iso": "2026-11-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064F7C1961D77",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-houston-texas-11-29-2026/event/3A0064F7C1961D77",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-houston-texas-11-29-2026/event/3A0064F7C1961D77",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064F7C1961D77",
+        "discovery_event_id": "G5dIZ_2LvP-gM",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-houston-texas-11-29-2026/event/3A0064F7C1961D77",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_2LvP-gM",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-north-little-rock-g5viz_29tplat",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "North Little Rock",
+    "country": "United States Of America",
+    "venue": "Simmons Bank Arena",
+    "datetime_iso": "2026-12-02T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064F5E959F269",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-north-little-rock-arkansas-12-01-2026/event/1B0064F5E959F269",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-north-little-rock-arkansas-12-01-2026/event/1B0064F5E959F269",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064F5E959F269",
+        "discovery_event_id": "G5viZ_29tpLat",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-north-little-rock-arkansas-12-01-2026/event/1B0064F5E959F269",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_29tpLat",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-new-orleans-z7r9jz1aazk_o",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "Saenger Theatre-New Orleans",
+    "datetime_iso": "2026-12-03T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZk_O",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZk_O",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZk_O",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZk_O",
+        "discovery_event_id": "Z7r9jZ1AAZk_O",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZk_O",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZk_O",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-birmingham-17fzv0g62rrj3c3",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "BJCC Concert Hall",
+    "datetime_iso": "2026-12-04T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "200064F79E992B52",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-birmingham-alabama-12-03-2026/event/200064F79E992B52",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-birmingham-alabama-12-03-2026/event/200064F79E992B52",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "200064F79E992B52",
+        "discovery_event_id": "17FZv0G62rrJ3c3",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-birmingham-alabama-12-03-2026/event/200064F79E992B52",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FZv0G62rrJ3c3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-lake-charles-g5viz_2mnhtb3",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci: 35th Anniversary Tour of Forever My Lady Special Guest CASE",
+    "city": "Lake Charles",
+    "country": "United States Of America",
+    "venue": "Lake Charles Event Center",
+    "datetime_iso": "2026-12-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064FBAA6E9E92",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-lake-charles-louisiana-12-05-2026/event/1B0064FBAA6E9E92",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-lake-charles-louisiana-12-05-2026/event/1B0064FBAA6E9E92",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064FBAA6E9E92",
+        "discovery_event_id": "G5viZ_2mnhtB3",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-lake-charles-louisiana-12-05-2026/event/1B0064FBAA6E9E92",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_2mnhtB3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-mobile-g5viz_2rkvisc",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Mobile",
+    "country": "United States Of America",
+    "venue": "Saenger Theatre Mobile",
+    "datetime_iso": "2026-12-07T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064F793068C4E",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-mobile-alabama-12-06-2026/event/1B0064F793068C4E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-mobile-alabama-12-06-2026/event/1B0064F793068C4E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064F793068C4E",
+        "discovery_event_id": "G5viZ_2rKvIsC",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-mobile-alabama-12-06-2026/event/1B0064F793068C4E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_2rKvIsC",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-savannah-vvg1zz_2qcyhff",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Savannah",
+    "country": "United States Of America",
+    "venue": "Savannah Civic Center - Johnny Mercer Theatre",
+    "datetime_iso": "2026-12-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064F6ADE5B208",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-savannah-georgia-12-08-2026/event/0E0064F6ADE5B208",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-savannah-georgia-12-08-2026/event/0E0064F6ADE5B208",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064F6ADE5B208",
+        "discovery_event_id": "vvG1zZ_2QcyhFF",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-savannah-georgia-12-08-2026/event/0E0064F6ADE5B208",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_2QcyhFF",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-nashville-g5viz_2rjh5vs",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-12-11T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064F7A66CBD33",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-nashville-tennessee-12-10-2026/event/1B0064F7A66CBD33",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-nashville-tennessee-12-10-2026/event/1B0064F7A66CBD33",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064F7A66CBD33",
+        "discovery_event_id": "G5viZ_2rJh5VS",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-nashville-tennessee-12-10-2026/event/1B0064F7A66CBD33",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_2rJh5VS",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-columbia-g5evz_2hnfhnt",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Columbia",
+    "country": "United States Of America",
+    "venue": "Township Auditorium",
+    "datetime_iso": "2026-12-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064F6E351BAA9",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-columbia-south-carolina-12-11-2026/event/2D0064F6E351BAA9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-columbia-south-carolina-12-11-2026/event/2D0064F6E351BAA9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064F6E351BAA9",
+        "discovery_event_id": "G5eVZ_2hNfhnt",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-columbia-south-carolina-12-11-2026/event/2D0064F6E351BAA9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_2hNfhnt",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-st-petersburg-vvg1vz_2qbbe54",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "St Petersburg",
+    "country": "United States Of America",
+    "venue": "Mahaffey Theater",
+    "datetime_iso": "2026-12-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064F6BA6272D5",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-st-petersburg-florida-12-13-2026/event/0D0064F6BA6272D5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-st-petersburg-florida-12-13-2026/event/0D0064F6BA6272D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064F6BA6272D5",
+        "discovery_event_id": "vvG1VZ_2QBbE54",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-st-petersburg-florida-12-13-2026/event/0D0064F6BA6272D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_2QBbE54",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-jacksonville-z7r9jz1aaz3fu",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "Florida Theatre Jacksonville",
+    "datetime_iso": "2026-12-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZ3FU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ3FU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ3FU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZ3FU",
+        "discovery_event_id": "Z7r9jZ1AAZ3FU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ3FU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ3FU",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-miami-beach-vvg1vz_29bl5j9",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Miami Beach",
+    "country": "United States Of America",
+    "venue": "The Fillmore Miami Beach at Jackie Gleason Theater",
+    "datetime_iso": "2026-12-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064F5FAACB717",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-miami-beach-florida-12-16-2026/event/0D0064F5FAACB717",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-miami-beach-florida-12-16-2026/event/0D0064F5FAACB717",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064F5FAACB717",
+        "discovery_event_id": "vvG1VZ_29Bl5j9",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-miami-beach-florida-12-16-2026/event/0D0064F5FAACB717",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_29Bl5j9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-charlotte-g5evz_2qspt5m",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Ovens Auditorium",
+    "datetime_iso": "2026-12-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064F6B35BF2EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-charlotte-north-carolina-12-19-2026/event/2D0064F6B35BF2EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-charlotte-north-carolina-12-19-2026/event/2D0064F6B35BF2EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064F6B35BF2EE",
+        "discovery_event_id": "G5eVZ_2QSpT5m",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-charlotte-north-carolina-12-19-2026/event/2D0064F6B35BF2EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_2QSpT5m",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2026-charlotte-g5evz_ok-zl2c",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Ovens Auditorium",
+    "datetime_iso": "2026-12-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006514E1E2B3CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-charlotte-north-carolina-12-20-2026/event/2D006514E1E2B3CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-charlotte-north-carolina-12-20-2026/event/2D006514E1E2B3CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006514E1E2B3CE",
+        "discovery_event_id": "G5eVZ_oK-zl2C",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-charlotte-north-carolina-12-20-2026/event/2D006514E1E2B3CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_oK-zl2C",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2027-san-francisco-g5vyz_2qprnjg",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Masonic",
+    "datetime_iso": "2027-01-09T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064F6A5BEA98C",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-san-francisco-california-01-08-2027/event/1C0064F6A5BEA98C",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/san-francisco-california-the-masonic-san-francisco-2027-01-08-8-pm/concert/18407226",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-san-francisco-california-01-08-2027/event/1C0064F6A5BEA98C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064F6A5BEA98C",
+        "discovery_event_id": "G5vYZ_2QPRnJG",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-san-francisco-california-01-08-2027/event/1C0064F6A5BEA98C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_2QPRnJG",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2027-inglewood-vvg1iz_2l8dh94",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "YouTube Theater",
+    "datetime_iso": "2027-01-10T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064F7D00DB5D5",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-inglewood-california-01-09-2027/event/0A0064F7D00DB5D5",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/inglewood-california-youtube-theater-2027-01-09-8-pm/concert/18407227",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-inglewood-california-01-09-2027/event/0A0064F7D00DB5D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064F7D00DB5D5",
+        "discovery_event_id": "vvG1IZ_2L8dh94",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-inglewood-california-01-09-2027/event/0A0064F7D00DB5D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_2L8dh94",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2027-el-cajon-vvg1iz_2r2vxq6",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "El Cajon",
+    "country": "United States Of America",
+    "venue": "The Magnolia",
+    "datetime_iso": "2027-01-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B0064F78FD22687",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-el-cajon-california-01-10-2027/event/0B0064F78FD22687",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/el-cajon-california-the-magnolia-1-2027-01-10-7-pm/concert/18407231",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-el-cajon-california-01-10-2027/event/0B0064F78FD22687",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B0064F78FD22687",
+        "discovery_event_id": "vvG1iZ_2r2VxQ6",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-el-cajon-california-01-10-2027/event/0B0064F78FD22687",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_2r2VxQ6",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2027-phoenix-17k8v0g62lhiblw",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2027-01-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064F7DBB187F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-phoenix-arizona-01-15-2027/event/190064F7DBB187F2",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/phoenix-arizona-arizona-financial-theatre-2027-01-15-8-pm/concert/18407229",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-phoenix-arizona-01-15-2027/event/190064F7DBB187F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064F7DBB187F2",
+        "discovery_event_id": "17k8v0G62LhibLw",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-phoenix-arizona-01-15-2027/event/190064F7DBB187F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G62LhibLw",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jodeci-2027-ontario-vvg10z_2n6tniq",
+    "artist_slug": "jodeci",
+    "artist_name": "Jodeci",
+    "event_name": "Jodeci - 35th Anniversary Tour of Forever My Lady",
+    "city": "Ontario",
+    "country": "United States Of America",
+    "venue": "Toyota Arena",
+    "datetime_iso": "2027-01-17T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064F8C7A6AA1D",
+    "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-ontario-california-01-16-2027/event/090064F8C7A6AA1D",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/ontario-california-toyota-arena-ontario-2027-01-16-8-pm/concert/18407228",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-ontario-california-01-16-2027/event/090064F8C7A6AA1D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064F8C7A6AA1D",
+        "discovery_event_id": "vvG10Z_2N6tnIq",
+        "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-ontario-california-01-16-2027/event/090064F8C7A6AA1D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_2N6tnIq",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

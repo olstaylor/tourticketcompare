@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tm-dom-dolla-2026-las-vegas-z7r9jz1a7p3c3",
+    "artist_slug": "dom-dolla",
+    "artist_name": "Dom Dolla",
+    "event_name": "Dom Dolla ??? Race Week - Ages 21+",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "LIV Nightclub Las Vegas",
+    "datetime_iso": "2026-11-22T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P3C3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P3C3",
+    "seatgeek_url": "https://seatgeek.com/dom-dolla-tickets/las-vegas-nevada-liv-nightclub-las-vegas-2026-11-21-10-30-pm/concert/18598936",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P3C3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P3C3",
+        "discovery_event_id": "Z7r9jZ1A7P3C3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P3C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P3C3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "id": "tm-shania-twain-2027-scarborough-1agzkfugkdob_wu",
+    "artist_slug": "shania-twain",
+    "artist_name": "Shania Twain",
+    "event_name": "Shania Twain - The Places I'll Go Tour",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Open Air Theatre",
+    "datetime_iso": "2027-06-16T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006536D1E99CB6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-scarborough-16-06-2027/event/35006536D1E99CB6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-scarborough-16-06-2027/event/35006536D1E99CB6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006536D1E99CB6",
+        "discovery_event_id": "1AgZkfUGkdoB_wU",
+        "url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-scarborough-16-06-2027/event/35006536D1E99CB6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfUGkdoB_wU",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
+  },
+  {
+    "id": "tm-shania-twain-2027-glasgow-1adbz_fgkuptsoi",
+    "artist_slug": "shania-twain",
+    "artist_name": "Shania Twain",
+    "event_name": "Glasgow Summer Sessions - Shania Twain - the Places I'll Go Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Bellahouston Park",
+    "datetime_iso": "2027-06-17T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600654DA5FF3468",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/glasgow-summer-sessions-shania-twain-the-glasgow-17-06-2027/event/3600654DA5FF3468",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/glasgow-summer-sessions-shania-twain-the-glasgow-17-06-2027/event/3600654DA5FF3468",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600654DA5FF3468",
+        "discovery_event_id": "1AdbZ_fGkUPTSoI",
+        "url": "https://www.ticketmaster.co.uk/glasgow-summer-sessions-shania-twain-the-glasgow-17-06-2027/event/3600654DA5FF3468",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_fGkUPTSoI",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
+  },
+  {
+    "id": "tm-shania-twain-2027-cardiff-g5vhz_kljqj-d",
+    "artist_slug": "shania-twain",
+    "artist_name": "Shania Twain",
+    "event_name": "Shania Twain - The Places I'll Go Tour",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Blackweir Fields, Cardiff",
+    "datetime_iso": "2027-06-22T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006537E676687B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-cardiff-22-06-2027/event/1F006537E676687B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-cardiff-22-06-2027/event/1F006537E676687B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006537E676687B",
+        "discovery_event_id": "G5vHZ_KLJqJ-D",
+        "url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-cardiff-22-06-2027/event/1F006537E676687B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_KLJqJ-D",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
+  },
+  {
+    "id": "tm-shania-twain-2027-exeter-g5vhz_kjtg0ag",
+    "artist_slug": "shania-twain",
+    "artist_name": "Shania Twain",
+    "event_name": "Shania Twain - the Places I'll Go Tour - Transport",
+    "city": "Exeter",
+    "country": "Great Britain",
+    "venue": "Powderham Castle",
+    "datetime_iso": "2027-06-24T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006539A9D64275",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-exeter-24-06-2027/event/1F006539A9D64275",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-exeter-24-06-2027/event/1F006539A9D64275",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006539A9D64275",
+        "discovery_event_id": "G5vHZ_KJtg0ag",
+        "url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-exeter-24-06-2027/event/1F006539A9D64275",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_KJtg0ag",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
+  },
+  {
+    "id": "tm-shania-twain-2027-dublin-1abzk4pgkenqubp",
+    "artist_slug": "shania-twain",
+    "artist_name": "Shania Twain",
+    "event_name": "Shania Twain - The Places I'll Go Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Marlay Park",
+    "datetime_iso": "2027-06-26T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006556AA68D625",
+    "ticketmaster_url": "https://www.ticketmaster.ie/shania-twain-the-places-ill-go-dublin-26-06-2027/event/18006556AA68D625",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/shania-twain-the-places-ill-go-dublin-26-06-2027/event/18006556AA68D625",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006556AA68D625",
+        "discovery_event_id": "1AbZk4pGkenQubP",
+        "url": "https://www.ticketmaster.ie/shania-twain-the-places-ill-go-dublin-26-06-2027/event/18006556AA68D625",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZk4pGkenQubP",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
+  },
+  {
+    "id": "tm-shania-twain-2027-belfast-1adoz_4gksdrodo",
+    "artist_slug": "shania-twain",
+    "artist_name": "Shania Twain",
+    "event_name": "Shania Twain - The Places I'll Go Tour",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "Ormeau Park",
+    "datetime_iso": "2027-06-27T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800655C7BBD10E0",
+    "ticketmaster_url": "https://www.ticketmaster.ie/shania-twain-the-places-ill-go-belfast-27-06-2027/event/3800655C7BBD10E0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/shania-twain-the-places-ill-go-belfast-27-06-2027/event/3800655C7BBD10E0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800655C7BBD10E0",
+        "discovery_event_id": "1AdOZ_4GksDRodO",
+        "url": "https://www.ticketmaster.ie/shania-twain-the-places-ill-go-belfast-27-06-2027/event/3800655C7BBD10E0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdOZ_4GksDRodO",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
+  },
+  {
+    "id": "tm-shania-twain-2027-woodstock-1amzk4agkdk2pnt",
+    "artist_slug": "shania-twain",
+    "artist_name": "Shania Twain",
+    "event_name": "Shania Twain - The Places I'll Go Tour",
+    "city": "Woodstock",
+    "country": "Great Britain",
+    "venue": "Blenheim Palace",
+    "datetime_iso": "2027-06-29T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006545C63E58FF",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-woodstock-29-06-2027/event/37006545C63E58FF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-woodstock-29-06-2027/event/37006545C63E58FF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006545C63E58FF",
+        "discovery_event_id": "1AMZk4AGkdk2PNT",
+        "url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-woodstock-29-06-2027/event/37006545C63E58FF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk4AGkdk2PNT",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
+  }
+]

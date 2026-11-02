@@ -1,0 +1,161 @@
+[
+  {
+    "id": "tm-yg-2026-honolulu-z7r9jz1aaz6-d",
+    "artist_slug": "yg",
+    "artist_name": "YG",
+    "event_name": "YG",
+    "city": "Honolulu",
+    "country": "United States Of America",
+    "venue": "The Republik",
+    "datetime_iso": "2026-11-07T06:01:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZ6-d",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6-d",
+    "seatgeek_url": "https://seatgeek.com/yg-tickets/honolulu-hawaii-the-republik-1-2026-11-06-8-pm/concert/18392100",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6-d",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZ6-d",
+        "discovery_event_id": "Z7r9jZ1AAZ6-d",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6-d",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ6-d",
+    "timezone": "Pacific/Honolulu",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yg-2026-honolulu-z7r9jz1aazajy",
+    "artist_slug": "yg",
+    "artist_name": "YG",
+    "event_name": "YG",
+    "city": "Honolulu",
+    "country": "United States Of America",
+    "venue": "The Republik",
+    "datetime_iso": "2026-11-08T06:01:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZAjy",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAjy",
+    "seatgeek_url": "https://seatgeek.com/yg-tickets/honolulu-hawaii-the-republik-1-2026-11-07-8-pm/concert/18392092",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAjy",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZAjy",
+        "discovery_event_id": "Z7r9jZ1AAZAjy",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAjy",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZAjy",
+    "timezone": "Pacific/Honolulu",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yg-2026-oakland-g5vyz_u2lcdvy",
+    "artist_slug": "yg",
+    "artist_name": "YG",
+    "event_name": "YG: THE GENTLEMEN'S CLUB TOUR",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2026-12-20T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064D3DF3BB079",
+    "ticketmaster_url": "https://www.ticketmaster.com/yg-the-gentlemens-club-tour-oakland-california-12-19-2026/event/1C0064D3DF3BB079",
+    "seatgeek_url": "https://seatgeek.com/yg-tickets/oakland-california-oakland-arena-2026-12-19-8-pm/concert/18327961",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/yg-the-gentlemens-club-tour-oakland-california-12-19-2026/event/1C0064D3DF3BB079",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064D3DF3BB079",
+        "discovery_event_id": "G5vYZ_u2LCDvy",
+        "url": "https://www.ticketmaster.com/yg-the-gentlemens-club-tour-oakland-california-12-19-2026/event/1C0064D3DF3BB079",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_u2LCDvy",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

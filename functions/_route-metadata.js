@@ -330,7 +330,7 @@ export const TRUST_ROUTES = {
     indexable: true,
     faq: true,
     breadcrumb: [{ name: "How it works", path: "/how-it-works" }],
-    lastmod: "2026-10-23"
+    lastmod: "2026-11-02"
   },
   "/currency-converter": {
     title: "Currency Converter for Concert Tickets | TourTicketCompare",

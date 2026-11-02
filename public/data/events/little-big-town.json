@@ -186,11 +186,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034495",
-        "url": "https://www.ticketnetwork.com/en/p/8034495",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8034495",
@@ -203,7 +203,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_G1NT6Fw",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034495",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034495/Little-Big-Town-tickets-Sat-Oct-31-2026-Music-Hall-At-Fair-Park"
   },
   {

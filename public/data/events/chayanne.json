@@ -229,11 +229,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7892340",
-        "url": "https://www.ticketnetwork.com/en/p/7892340",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_kGkwOQklA",
@@ -251,6 +251,6 @@
         "end": "2026-10-30T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7892340"
+    "ticketnetwork_url": ""
   }
 ]

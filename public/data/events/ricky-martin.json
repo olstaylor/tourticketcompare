@@ -180,11 +180,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8130659",
-        "url": "https://www.ticketnetwork.com/en/p/8130659",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6uBmuh5Y",
@@ -194,7 +194,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8130659"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-ricky-martin-2026-lincoln-g5vyz_grrfawg",

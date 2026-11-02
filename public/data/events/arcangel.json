@@ -391,11 +391,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7997047",
-        "url": "https://www.ticketnetwork.com/en/p/7997047",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1U8Np3L",
@@ -412,7 +412,7 @@
         "end": "2026-10-27T17:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997047"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-arcangel-2026-houston-g5diz_53je_pf",

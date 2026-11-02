@@ -40,6 +40,9 @@ export const DIGEST_KEEP = 40;
 export const WATCHED_ARTISTS = Object.freeze(["beyonce"]);
 export const MIN_DATES = 3;
 export const MAX_ISSUES_PER_RUN = 5;
+// Guide drafts started per detection run. Blog-draft spends model budget, so only
+// watched acts qualify and the cap sits well under the blog lane's own limits.
+export const MAX_GUIDE_DRAFTS_PER_RUN = 2;
 const SITE = "https://tourticketcompare.com";
 const REPO_URL = "https://github.com/olstaylor/tourticketcompare";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -108,7 +111,12 @@ export function reportedMarkers(issues) {
 const dayLabel = (iso) =>
   new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
 
-export function renderIssue(tour, { watch } = {}) {
+/** Inputs for the Blog article draft workflow: one live guide draft for one artist. */
+export function guideDraftDispatch(tour) {
+  return { ref: "main", inputs: { mode: "live", artists: tour.slug } };
+}
+
+export function renderIssue(tour, { watch, guideDraft = false } = {}) {
   const rumour = watch
     ? [
         "",
@@ -137,7 +145,9 @@ export function renderIssue(tour, { watch } = {}) {
     "- Success, checked 14 days after the dates landed: the artist page is indexed, and ticket clicks per visit on it are at or above the site average. If it is not, improve that page first. Do not add pages to chase the search.",
     "",
     "### Needs a human",
-    `- [ ] Tour guide draft, only if there is something to say that the artist page does not already (several nights in one venue, a multi-country route, an unusual on-sale or presale structure). It is a paid Claude run, so it waits for a click: [Run Blog article draft](${REPO_URL}/actions/workflows/blog-draft.yml) with mode \`live\` and artists \`${tour.slug}\`. Skip it if the answer is no.`,
+    guideDraft
+      ? `- [x] Tour guide draft: requested automatically from this detection ([Blog article draft](${REPO_URL}/actions/workflows/blog-draft.yml), mode \`live\`, artist \`${tour.slug}\`). It must still pass the blog lane's evidence and editorial checks, so it can be rejected for having nothing to add beyond the artist page; the run's \`blog-draft-report\` artifact says which.`
+      : `- [ ] Tour guide draft, only if there is something to say that the artist page does not already (several nights in one venue, a multi-country route, an unusual on-sale or presale structure). It is a paid Claude run, so it waits for a click: [Run Blog article draft](${REPO_URL}/actions/workflows/blog-draft.yml) with mode \`live\` and artists \`${tour.slug}\`. Skip it if the answer is no.`,
     `- [ ] Date alerts: [Run Artist date alerts](${REPO_URL}/actions/workflows/date-alerts.yml), preview first, then send. Needs Resend set up.`,
     "- [ ] One factual announcement post for socials (dates, cities, on-sale time, link; never presale codes). Ask Claude to draft it; nothing posts without approval of the exact text.",
     "- [ ] Event-page batch decision: only dates with real price history are worth widening to. A new staged batch in a reviewed PR; existing cohorts stay frozen.",
@@ -176,7 +186,7 @@ async function gh(method, apiPath, body) {
     body: body ? JSON.stringify(body) : undefined
   });
   if (!res.ok) throw new Error(`GitHub API ${method} ${apiPath} ${res.status}`);
-  return res.json();
+  return res.status === 204 ? null : res.json();
 }
 
 function loadWatchlist() {
@@ -213,10 +223,24 @@ async function main() {
   if (!tours.length) return console.log("No new tours.");
   const seen = reportedMarkers(await gh("GET", `/issues?state=all&labels=${encodeURIComponent(LABEL)}&per_page=100`));
   const fresh = watched.filter((t) => !seen.has(marker(t)));
+  // Kill switch: the workflow passes BLOG_DRAFT_ENABLED (the blog lane's own) and NEW_TOUR_GUIDE_DRAFT.
+  const draftsOn = process.env.BLOG_DRAFT_ENABLED !== "false" && process.env.NEW_TOUR_GUIDE_DRAFT !== "false" && process.env.GUIDE_DRAFT_DISPATCH === "true";
+  let drafts = 0;
   for (const tour of fresh.slice(0, MAX_ISSUES_PER_RUN)) {
+    let guideDraft = false;
+    if (draftsOn && drafts < MAX_GUIDE_DRAFTS_PER_RUN) {
+      try {
+        await gh("POST", "/actions/workflows/blog-draft.yml/dispatches", guideDraftDispatch(tour));
+        guideDraft = true;
+        drafts++;
+        console.log(`Started a guide draft for ${tour.slug}.`);
+      } catch (error) {
+        console.error(`Guide draft not started for ${tour.slug}: ${error.message}. The issue keeps the manual step.`);
+      }
+    }
     const issue = await gh("POST", "/issues", {
       title: `New tour detected: ${tour.name} (${tour.dateCount} dates)`,
-      body: renderIssue(tour, { watch: watchEntry(watchlist, tour.name) }),
+      body: renderIssue(tour, { watch: watchEntry(watchlist, tour.name), guideDraft }),
       labels: [LABEL]
     });
     console.log(`Opened #${issue.number} for ${tour.slug}.`);
@@ -271,6 +295,8 @@ function selfTest() {
     [body.includes("It was on the rumoured list") && !plain.includes("rumoured list"), "rumoured context only when the act was on the watchlist"],
     [body.includes("blog-draft.yml") && body.includes("`brandnew`") && body.includes("[ ]"), "lists the paid blog run, with the slug, as a human step"],
     [!/cheapest|lowest price|from \$|presale code:/i.test(body), "no price or ranking claims, no presale codes"],
+    [JSON.stringify(guideDraftDispatch(tours[0])) === JSON.stringify({ ref: "main", inputs: { mode: "live", artists: "brandnew" } }), "the guide draft is one live run for one artist on main"],
+    [renderIssue(tours[0], { guideDraft: true }).includes("- [x] Tour guide draft: requested automatically") && !renderIssue(tours[0], { guideDraft: true }).includes("waits for a click"), "an issue whose draft was started says so instead of asking for a click"],
     [body.includes("Who benefits") && body.includes("Success, checked 14 days") && body.includes("Skip it if the answer is no"), "states who benefits, what is distinctive, the success measure, and makes the paid guide conditional"]
   );
   const digest = renderDigest(tours, "2026-10-30");

@@ -129,13 +129,21 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098551",
+        "url": "https://www.stubhub.ie/cody-johnson-tickets-glasgow-ovo-hydro-arena-glasgow-2-11-2026/event/107098551",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk8UGkdF-AIv",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7796271",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796271/Cody-Johnson-tickets-Mon-Nov-2-2026-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796271/Cody-Johnson-tickets-Mon-Nov-2-2026-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/cody-johnson-tickets-glasgow-ovo-hydro-arena-glasgow-2-11-2026/event/107098551"
   },
   {
     "id": "tm-cody-johnson-2026-belfast-1azzkodgkdbmxb7",
@@ -336,13 +344,21 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678068",
+        "url": "https://www.stubhub.ie/cody-johnson-austin-tickets-2-19-2027/event/107678068",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_43SXHZn",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337510",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337510/Cody-Johnson-tickets-Fri-Feb-19-2027-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337510/Cody-Johnson-tickets-Fri-Feb-19-2027-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/cody-johnson-austin-tickets-2-19-2027/event/107678068"
   },
   {
     "id": "tm-cody-johnson-2027-austin-g5diz_46xjfxh",
@@ -405,12 +421,20 @@
         "verified": true,
         "last_verified_at": "2026-11-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677325",
+        "url": "https://www.stubhub.ie/cody-johnson-austin-tickets-2-20-2027/event/107677325",
+        "verified": true,
+        "last_verified_at": "2026-11-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_46xjFxH",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329600",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329600/Cody-Johnson-tickets-Sat-Feb-20-2027-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329600/Cody-Johnson-tickets-Sat-Feb-20-2027-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/cody-johnson-austin-tickets-2-20-2027/event/107677325"
   }
 ]

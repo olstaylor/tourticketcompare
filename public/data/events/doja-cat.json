@@ -2437,11 +2437,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106969174",
-        "url": "https://www.stubhub.ie/doja-cat-las-vegas-tickets-10-31-2026/event/106969174",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jS4U",
@@ -2449,6 +2449,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457634",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-las-vegas-tickets-10-31-2026/event/106969174"
+    "stubhub_international_url": ""
   }
 ]

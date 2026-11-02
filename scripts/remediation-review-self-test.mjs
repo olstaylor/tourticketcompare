@@ -68,7 +68,7 @@ assert.equal(appVersion, smokeVersion);
 assert.equal(shell.match(/\/ttc-shell\.css\?v=([0-9a-z]+)/)?.[1], "20261023b");
 assert.equal(route.match(/\/ttc-home\.css\?v=([0-9a-z]+)/)?.[1], "20261023b");
 assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20261025a");
-assert.match(route, /\/artist-board\.js\?v=20261023a/);
+assert.match(route, /\/artist-board\.js\?v=20261102a/);
 assert.match(route, /\/currency-converter\.js\?v=20260821a/);
 
 // PR #727 split the universal application bundle into route modules. These

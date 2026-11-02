@@ -4,9 +4,9 @@ name: Artist city reports
 # (`npm run stories:build -- --story artist-cities`, docs/BLOG.md "Automated
 # data stories") for the artists named in `artists`, or refreshes every report
 # already in content/blog when `artists` is empty, and opens one PR with the
-# result. It never publishes:
-# a new report arrives as `status: draft` (no page, no sitemap entry) until a
-# person sets `status: published`; a report that is already published stays so.
+# result. A report that passes the builder's coverage and display gates is
+# written `status: published` (owner decision 2026-11-02, `--publish`); one that
+# fails them is held and nothing is written.
 #
 # Fails closed per artist. The build refuses (exit 1, nothing written) when the
 # coverage or display gate fails or its D1 / availability reads fail, so a
@@ -22,8 +22,7 @@ name: Artist city reports
 # Auto-merge (owner-approved 2026-11-01): the PR is merged by
 # scripts/open-automation-pr.mjs only once Prelaunch Validation passes on exactly the
 # pushed head and the AUTOPUBLISH_ENABLED switch is not "false". A red check or a failed
-# merge leaves the PR open for a person. It still never publishes: a new report is
-# `status: draft` and stays unpublished until a person flips it.
+# merge leaves the PR open for a person.
 #
 # Reads production D1 through wrangler with the same read token the blog-draft
 # lane uses, and provider availability from the live /api/shows. Writes no event
@@ -130,7 +129,7 @@ jobs:
               exit 1
             fi
             echo "::group::$slug"
-            if npm run stories:build -- --story artist-cities --artist "$slug"; then
+            if npm run stories:build -- --story artist-cities --artist "$slug" --publish; then
               built="$built $slug"
             else
               held="$held $slug"
@@ -212,7 +211,7 @@ jobs:
           BRANCH="$BRANCH" \
           PR_TITLE="Artist city price reports" \
           PR_AUTO_MERGE=true \
-          PR_BODY="$(printf '## Artist city price reports\nBuilt from the current provider price snapshots by `npm run stories:build -- --story artist-cities`, behind the coverage and display gates: %s\n\nHeld (build refused, left as on main): %s\n\nA new report is `status: draft` and has no page until a person sets `status: published`. Merged automatically once Prelaunch Validation passes on this head.\n' "${BUILT:-none}" "${HELD:-none}")" \
+          PR_BODY="$(printf '## Artist city price reports\nBuilt from the current provider price snapshots by `npm run stories:build -- --story artist-cities`, behind the coverage and display gates: %s\n\nHeld (build refused, left as on main): %s\n\nA report that passes the coverage and display gates is built as `status: published` (owner decision 2026-11-02); one that fails them is held and not written. Merged automatically once Prelaunch Validation passes on this head.\n' "${BUILT:-none}" "${HELD:-none}")" \
           node scripts/open-automation-pr.mjs
 
       - name: Keep the built files for review

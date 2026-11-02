@@ -235,7 +235,7 @@ if (story === "tour-map") {
   const existing = await existingPost(slug);
   await writeStory(
     slug,
-    { text: renderArtistCityPost(figures, existing), status: existing?.status === "published" ? "published" : "draft" },
+    { text: renderArtistCityPost(figures, existing), status: existing?.status === "published" || process.argv.includes("--publish") ? "published" : "draft" },
     { "figures.json": `${JSON.stringify(figures, null, 2)}\n`, "chart.svg": renderArtistCityChart(figures) }
   );
   // The PR package is internal working copy (approval checklist, rights notes),

@@ -382,7 +382,7 @@ adds its own builder, gate and renderers. Tests: `npm run test:artist-city-resea
 The owner approved publishing single-artist reports on 2026-10-23, under the
 same conditions as city-prices and the coverage gate above
 ([PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md), "Single-artist city
-report"). A new post is still `status: draft` until a person publishes it.
+report"). The scheduled workflow builds with `--publish` (owner decision 2026-11-02), so a report that passes the gate is published; a run by hand without the flag still writes a draft.
 Ranking dates inside one city is not covered and needs its own decision.
 
 Out of scope by policy: prices outside the city-prices and artist-cities stories, cross-site comparisons

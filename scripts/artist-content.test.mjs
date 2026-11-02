@@ -138,6 +138,10 @@ assert(!/soon|expected|any day/i.test(emptyCopy.body), "empty copy must not impl
 assert(!/ourselves|we've followed/i.test(emptyCopy.next), "the next-step copy must not claim a manual link check");
 assertCopySafe(emptyCopy.body, "empty body");
 assertCopySafe(emptyCopy.next, "empty next-step");
+const alertFirstCopy = artistEmptyBoardCopy({ name: "Beyoncé", slug: "beyonce" }, { pastShowCount: 0 });
+assert(alertFirstCopy.heading === emptyCopy.heading && alertFirstCopy.body.includes("Beyoncé") && alertFirstCopy.next.includes("Leave your email"), "an alert-first artist leads with the date-alert signup");
+assert(!/soon|expected|any day|coming|2027|announce(d)? (soon|shortly)/i.test(alertFirstCopy.next), "alert-first copy must not imply a tour is coming");
+assertCopySafe(alertFirstCopy.next, "alert-first next-step");
 assert(
   artistEmptyBoardCopy({ name: "Post Malone" }, { pastShowCount: 3 }).body.includes("dates tracked by TTC have passed"),
   "an empty board with past dates should acknowledge them"

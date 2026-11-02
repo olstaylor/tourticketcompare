@@ -335,6 +335,9 @@ export function artistTicketHelp() {
   };
 }
 
+// Artists whose empty page leads with the date-alert signup.
+const ALERT_FIRST_ARTIST_SLUGS = new Set(["beyonce"]);
+
 /**
  * Empty-board copy for an artist with no verified upcoming dates. States the
  * position plainly, explains what has to happen for a date to appear, and
@@ -352,10 +355,16 @@ export function artistEmptyBoardCopy(artist, options = {}) {
   // one short statement instead of three. `compact` tells the renderer to drop
   // the board intro and use the short explainer.
   if (!pastShowCount) {
+    // Artists fans arrive for before any tour exists (owner request 2026-11-02):
+    // the next-step line says what the email alert does, and still promises
+    // nothing about when, or whether, a tour is announced.
+    const alertFirst = ALERT_FIRST_ARTIST_SLUGS.has(cleanString(artist?.slug).toLowerCase());
     return {
       heading: "No upcoming dates verified on TTC",
       body: `TTC has not verified any upcoming ${name} dates. This does not mean no shows have been announced.`,
-      next: "For the latest announcements, check the artist’s official website or the venue.",
+      next: alertFirst
+        ? `No ${name} tour is confirmed on TTC. Leave your email below for one email when confirmed dates are listed, then compare tickets here. For official announcements, check the artist’s website.`
+        : "For the latest announcements, check the artist’s official website or the venue.",
       compact: true
     };
   }

@@ -216,7 +216,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-detroit-michigan-11-01-2026/event/0800626482020F30",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -271,13 +271,6 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "Preferred Seating Offer",
-        "start": "2025-03-14T14:00:00Z",
-        "end": "2026-11-02T02:00:00Z"
-      }
     ]
   },
   {

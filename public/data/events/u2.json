@@ -707,7 +707,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-18-2027--concerts-rock/production/7772985",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-18-06-2027/event/3500655683001AA0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -743,7 +743,27 @@
     "ticketmaster_discovery_event_id": "1adfZ_4QdZvZd55v",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z"
+    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-04T22:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-04T22:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-05T10:00:00Z",
+        "end": "2026-11-05T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-london-1adfz_4gkszafjm",
@@ -761,7 +781,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-19-2027--concerts-rock/production/7772989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-19-06-2027/event/3500655CC0148737",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -797,6 +817,26 @@
     "ticketmaster_discovery_event_id": "1AdfZ_4GkSZAFjM",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z"
+    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-04T22:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-04T22:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-05T10:00:00Z",
+        "end": "2026-11-05T22:00:00Z"
+      }
+    ]
   }
 ]

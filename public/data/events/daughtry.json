@@ -1188,7 +1188,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-napa-uptown-theatre-napa-11-8-2026--concerts-rock/production/7170026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1239,14 +1239,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056807",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056807/Daughtry-tickets-Sun-Nov-8-2026-Uptown-Theatre-Napa",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-19T17:00:00Z",
-        "end": "2026-11-02T06:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056807/Daughtry-tickets-Sun-Nov-8-2026-Uptown-Theatre-Napa"
   },
   {
     "id": "tm-daughtry-2026-anaheim-vvg10z_grix-n9",

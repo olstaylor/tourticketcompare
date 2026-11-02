@@ -1947,7 +1947,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-18-2027/production/7618196",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-18-2027/event/01006531A109FD2C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1984,11 +1984,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "Eastern Propane Ticket Offer",
-        "start": "2026-10-01T14:00:00Z",
-        "end": "2026-11-02T03:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-02T14:00:00Z",

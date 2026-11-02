@@ -92,7 +92,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-peoria-peoria-civic-center---carver-arena-11-3-2026--concerts-hard-rock/production/6276998",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-peoria-illinois-11-03-2026/event/07006365948161E3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -143,7 +143,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551662",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551662/Three-Days-Grace-tickets-Tue-Nov-3-2026-Carver-Arena-At-Peoria-Civic-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551662/Three-Days-Grace-tickets-Tue-Nov-3-2026-Carver-Arena-At-Peoria-Civic-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-indianapolis-vv11v8vn_af0q_vg",
@@ -161,7 +164,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-indianapolis-gainbridge-fieldhouse-11-4-2026--concerts-hard-rock/production/6276970",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-indianapolis-indiana-11-04-2026/event/050063649224699B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -212,7 +215,17 @@
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551663",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551663/Three-Days-Grace-tickets-Wed-Nov-4-2026-Gainbridge-Fieldhouse"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551663/Three-Days-Grace-tickets-Wed-Nov-4-2026-Gainbridge-Fieldhouse",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Preferred Seating Offer Onsale",
+        "start": "2025-11-14T15:00:00Z",
+        "end": "2026-11-05T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-tulsa-1aozkupgkdxuamf",
@@ -230,7 +243,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-tulsa-bok-center-11-6-2026--concerts-hard-rock/production/6276960",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-tulsa-oklahoma-11-06-2026/event/20006365E2345B88",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -281,7 +294,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551664",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551664/Three-Days-Grace-tickets-Fri-Nov-6-2026-BOK-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551664/Three-Days-Grace-tickets-Fri-Nov-6-2026-BOK-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-saint-louis-vv1akzku0gkd5ahjs",
@@ -299,7 +315,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-saint-louis-missouri-11-07-2026/event/06006364CB27C733",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -334,7 +350,10 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZku0Gkd5aHjS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-kansas-city-vv1akzkujgkeirwar",
@@ -352,7 +371,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-kansas-city-t-mobile-center-11-9-2026--concerts-hard-rock/production/6278673",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-kansas-city-missouri-11-09-2026/event/06006366AC7BD15E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -411,7 +430,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551666",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551666/Three-Days-Grace-tickets-Mon-Nov-9-2026-T-Mobile-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-kansas-city-tickets-11-9-2026/event/107017183"
+    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-kansas-city-tickets-11-9-2026/event/107017183",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Preferred Seating Offer",
+        "start": "2025-11-11T16:00:00Z",
+        "end": "2026-11-10T01:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2025-11-14T16:00:00Z",
+        "end": "2026-11-03T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-denver-g5vzzbuiyxc--",
@@ -506,7 +540,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-nampa-ford-idaho-center-arena-11-14-2026--concerts-hard-rock/production/6277283",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz3Z",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -541,7 +575,10 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7qz3Z",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-spokane-z7r9jz1a7qz3e",
@@ -559,7 +596,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-spokane-numerica-veterans-arena-11-15-2026--concerts-hard-rock/production/6277525",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz3e",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -610,7 +647,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551669",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551669/Three-Days-Grace-tickets-Sun-Nov-15-2026-Numerica-Veterans-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551669/Three-Days-Grace-tickets-Sun-Nov-15-2026-Numerica-Veterans-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-sacramento-g5vyzbu2whwe8",
@@ -628,7 +668,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-sacramento-golden-1-center-11-17-2026--concerts-hard-rock/production/6276738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-sacramento-california-11-17-2026/event/1C006363F26FD9D0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -687,7 +727,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551670",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551670/Three-Days-Grace-tickets-Tue-Nov-17-2026-Golden-1-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-sacramento-tickets-11-17-2026/event/107016094"
+    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-sacramento-tickets-11-17-2026/event/107016094",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2025-11-14T18:00:00Z",
+        "end": "2026-11-11T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-san-jose-g5vyzbu3r_nwh",
@@ -705,7 +755,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-jose-california-11-18-2026/event/1C006364AF66ACBC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -740,7 +790,22 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZbU3R_nwH",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2025-11-14T18:00:00Z",
+        "end": "2026-11-12T06:00:00Z"
+      },
+      {
+        "name": "Live Nation All Access Deal",
+        "start": "2026-03-24T23:00:00Z",
+        "end": "2026-11-19T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-san-diego-vvg1izbuciwp5c",
@@ -758,7 +823,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-diego-california-11-20-2026/event/0A006363ACF562CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -801,7 +866,17 @@
     "ticketmaster_discovery_event_id": "vvG1IZbUCiWp5C",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551672"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551672",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2025-11-14T18:00:00Z",
+        "end": "2026-11-14T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-phoenix-1a_zku0gkemfp-f",
@@ -819,7 +894,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-phoenix-talking-stick-resort-amphitheatre-11-21-2026--concerts-hard-rock/production/6276810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-phoenix-arizona-11-21-2026/event/19006364AE216854",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -878,7 +953,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551673",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551673/Three-Days-Grace-tickets-Sat-Nov-21-2026-Talking-Stick-Resort-Amphitheatre",
-    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-phoenix-tickets-11-21-2026/event/107017186"
+    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-phoenix-tickets-11-21-2026/event/107017186",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred",
+        "start": "2025-11-14T17:00:00Z",
+        "end": "2026-11-14T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2025-11-14T17:00:00Z",
+        "end": "2026-11-15T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-inglewood-vv1aazkupgkerzcmz",
@@ -896,7 +986,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-inglewood-intuit-dome-11-22-2026--concerts-hard-rock/production/6276780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-inglewood-california-11-22-2026/event/09006365AFE0EDC0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -955,6 +1045,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551674",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551674/Three-Days-Grace-tickets-Sun-Nov-22-2026-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-inglewood-tickets-11-22-2026/event/107017187"
+    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-inglewood-tickets-11-22-2026/event/107017187",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

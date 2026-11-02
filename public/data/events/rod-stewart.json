@@ -2071,7 +2071,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-15-05-2027/event/35006538F62DA830",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2107,7 +2107,19 @@
     "ticketmaster_discovery_event_id": "1AgZkfzGkdU5QOY",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z"
+    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-03T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-05T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1adbz_4gkmvnhoa",
@@ -2125,7 +2137,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-18-05-2027/event/3600655DF4ABC445",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2161,6 +2173,31 @@
     "ticketmaster_discovery_event_id": "1AdbZ_4GkMVnHoA",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z"
+    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "organizer_names": [
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-03T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      },
+      {
+        "name": "OVO Presale",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-05T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      }
+    ]
   }
 ]

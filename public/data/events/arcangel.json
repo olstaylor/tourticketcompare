@@ -430,7 +430,7 @@
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-houston-713-music-hall-11-5-2026--concerts-rap-hip-hop/production/7079513",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-houston-texas-11-05-2026/event/3A0064B49C099594",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -483,13 +483,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997050/Arcangel-tickets-Thu-Nov-5-2026-713-Music-Hall",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-28T15:00:00Z",
-        "end": "2026-11-01T18:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997050"
   },

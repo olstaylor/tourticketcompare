@@ -405,7 +405,7 @@
     "vividseats_url": "https://www.vividseats.com/lady-a-tickets-greensboro-steven-tanger-center-for-the-performing-arts-12-19-2026/production/7132085",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-greensboro-north-carolina-12-19-2026/event/2D0064C2EBD42568",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -462,11 +462,6 @@
         "name": "VIP Packages Public Onsale",
         "start": "2026-06-12T14:00:00Z",
         "end": "2026-12-12T22:00:00Z"
-      },
-      {
-        "name": "Halloween Offer",
-        "start": "2026-10-27T14:00:00Z",
-        "end": "2026-11-02T03:00:00Z"
       }
     ]
   },

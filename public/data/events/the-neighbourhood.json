@@ -1008,7 +1008,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-4-2026--concerts-rock/production/6690373",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-04-2026/event/09006443CD5C89D1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1065,13 +1065,6 @@
     "ticketmaster_discovery_event_id": "vv1AaZkodGkdu9FEo",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-02-26T19:00:00Z",
-        "end": "2026-11-02T06:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748324",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748324/The-Neighbourhood-tickets-Fri-Dec-4-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-4-2026/event/107123115",

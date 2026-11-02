@@ -17,7 +17,7 @@ export function validateIdentity(env) {
   if (env.GITHUB_SERVER_URL !== 'https://github.com' || env.GITHUB_REPOSITORY !== 'olstaylor/tourticketcompare') {
     throw new Error('Automation App is restricted to olstaylor/tourticketcompare on github.com');
   }
-  if (!['schedule', 'workflow_dispatch', 'push'].includes(env.GITHUB_EVENT_NAME)) {
+  if (!['schedule', 'workflow_dispatch', 'push', 'workflow_run'].includes(env.GITHUB_EVENT_NAME)) {
     throw new Error('Automation App may only run in the existing trusted publishing triggers');
   }
   return true;
@@ -45,6 +45,10 @@ function selfTest() {
   const calls = [];
   const deps = { git: args => calls.push(['git', args]), mask: value => calls.push(['mask', value]), output: value => calls.push(['output', value]) };
   assert.equal(configureIdentity(base, deps), 'app');
+  // The blog drafter's own workflow_run (main only, after Weekly blog opportunities) is a trusted trigger.
+  assert.equal(configureIdentity({ ...base, GITHUB_EVENT_NAME: 'workflow_run' }, deps), 'app');
+  calls.length = 0;
+  configureIdentity(base, deps);
   assert.equal(calls.at(-1)[1], 'test-app');
   const header = calls.find(c => c[0] === 'git')[1].at(-1);
   assert.equal(Buffer.from(header.split(' ').at(-1), 'base64').toString(), 'x-access-token:test-app');

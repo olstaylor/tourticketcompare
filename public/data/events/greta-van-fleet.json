@@ -4198,5 +4198,164 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341908",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341908/Greta-Van-Fleet-tickets-Wed-Jun-2-2027-OVO-Hydro"
+  },
+  {
+    "id": "tm-greta-van-fleet-2027-green-bay-z7r9jz1aae44u",
+    "artist_slug": "greta-van-fleet",
+    "artist_name": "Greta Van Fleet",
+    "event_name": "Greta Van Fleet",
+    "city": "Green Bay",
+    "country": "United States Of America",
+    "venue": "Resch Center",
+    "datetime_iso": "2027-02-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe44U",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44U",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44U",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe44U",
+        "discovery_event_id": "Z7r9jZ1AAe44U",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44U",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe44U",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-greta-van-fleet-2027-cleveland-z7r9jz1aae44m",
+    "artist_slug": "greta-van-fleet",
+    "artist_name": "Greta Van Fleet",
+    "event_name": "Greta Van Fleet - Into The Beginning",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2027-03-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe44M",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44M",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44M",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe44M",
+        "discovery_event_id": "Z7r9jZ1AAe44M",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44M",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe44M",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-greta-van-fleet-2027-salt-lake-city-z7r9jz1aae44z",
+    "artist_slug": "greta-van-fleet",
+    "artist_name": "Greta Van Fleet",
+    "event_name": "Greta Van Fleet - Into The Beginning",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Delta Center",
+    "datetime_iso": "2027-03-30T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe44z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe44z",
+        "discovery_event_id": "Z7r9jZ1AAe44z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe44z",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

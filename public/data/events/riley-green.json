@@ -2962,5 +2962,59 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8339188",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8339188/Riley-Green-tickets-Mon-Nov-2-2026-SNHU-Arena"
+  },
+  {
+    "id": "tm-riley-green-2027-cincinnati-1kaovp4ygacu9xm",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "The Farmer Music Center",
+    "datetime_iso": "2027-06-24T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160065579ED978B7",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-cincinnati-ohio-06-24-2027/event/160065579ED978B7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-cincinnati-ohio-06-24-2027/event/160065579ED978B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160065579ED978B7",
+        "discovery_event_id": "1kAOvP4yGACU9xM",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-cincinnati-ohio-06-24-2027/event/160065579ED978B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAOvP4yGACU9xM",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T15:00:00Z"
   }
 ]

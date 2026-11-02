@@ -891,5 +891,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294749",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294749/Flans-tickets-Fri-May-28-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie"
+  },
+  {
+    "id": "tm-flans-2027-las-vegas-z7r9jz1aaeaov",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "FLANS40 - \"Sin Control\" Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Theater at Virgin Hotels Las Vegas",
+    "datetime_iso": "2027-03-12T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeaov",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaov",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaov",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeaov",
+        "discovery_event_id": "Z7r9jZ1AAeaov",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaov",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeaov",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

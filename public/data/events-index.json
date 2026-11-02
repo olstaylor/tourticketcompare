@@ -58842,5 +58842,65 @@
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-rod-stewart-2027-london-1agzkfzgkdu5qoy",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "The O2",
+    "datetime_iso": "2027-05-15T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-rod-stewart-2027-glasgow-1adbz_4gkmvnhoa",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "country": "Great Britain",
+    "city": "Glasgow",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-05-18T17:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-role-model-2027-manchester-g5vhz_u1kkyot",
+    "artist_slug": "role-model",
+    "artist_name": "Role Model",
+    "country": "Great Britain",
+    "city": "Manchester",
+    "venue": "AO Arena",
+    "datetime_iso": "2027-02-28T19:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-valencia-z698xz2qz16vfzvzrf",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "country": "Spain",
+    "city": "Valencia",
+    "venue": "Roig Arena",
+    "datetime_iso": "2027-06-21T18:30:00Z",
+    "timezone": "Europe/Madrid",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-pordenone-zg9rmiynyzfa6e",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "country": "Italy",
+    "city": "Pordenone",
+    "venue": "Parco San Valentino",
+    "datetime_iso": "2027-06-27T19:00:00Z",
+    "timezone": "Europe/Rome",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

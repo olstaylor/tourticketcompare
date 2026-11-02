@@ -3576,6 +3576,118 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-hardy",
     redirectUrl: "https://seatgeek.com/hardy-tickets",
     verified: true
+  },
+  "shania-twain:ticketmaster": {
+    artistSlug: "shania-twain",
+    provider: "ticketmaster",
+    linkId: "tm-artist-shania-twain",
+    redirectUrl: "https://www.ticketmaster.com/shania-twain-tickets/artist/764367",
+    verified: true
+  },
+  "shania-twain:seatgeek": {
+    artistSlug: "shania-twain",
+    provider: "seatgeek",
+    linkId: "sg-artist-shania-twain",
+    redirectUrl: "https://seatgeek.com/shania-twain-tickets",
+    verified: true
+  },
+  "dom-dolla:ticketmaster": {
+    artistSlug: "dom-dolla",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dom-dolla",
+    redirectUrl: "https://www.ticketmaster.com/dom-dolla-tickets/artist/2471820",
+    verified: true
+  },
+  "dom-dolla:seatgeek": {
+    artistSlug: "dom-dolla",
+    provider: "seatgeek",
+    linkId: "sg-artist-dom-dolla",
+    redirectUrl: "https://seatgeek.com/dom-dolla-tickets",
+    verified: true
+  },
+  "motionless-in-white:ticketmaster": {
+    artistSlug: "motionless-in-white",
+    provider: "ticketmaster",
+    linkId: "tm-artist-motionless-in-white",
+    redirectUrl: "https://www.ticketmaster.com/motionless-in-white-tickets/artist/1492903",
+    verified: true
+  },
+  "motionless-in-white:seatgeek": {
+    artistSlug: "motionless-in-white",
+    provider: "seatgeek",
+    linkId: "sg-artist-motionless-in-white",
+    redirectUrl: "https://seatgeek.com/motionless-in-white-tickets",
+    verified: true
+  },
+  "yg:ticketmaster": {
+    artistSlug: "yg",
+    provider: "ticketmaster",
+    linkId: "tm-artist-yg",
+    redirectUrl: "https://www.ticketmaster.com/yg-tickets/artist/1546929",
+    verified: true
+  },
+  "yg:seatgeek": {
+    artistSlug: "yg",
+    provider: "seatgeek",
+    linkId: "sg-artist-yg",
+    redirectUrl: "https://seatgeek.com/yg-tickets",
+    verified: true
+  },
+  "rawayana:ticketmaster": {
+    artistSlug: "rawayana",
+    provider: "ticketmaster",
+    linkId: "tm-artist-rawayana",
+    redirectUrl: "https://www.ticketmaster.com/rawayana-tickets/artist/2334749",
+    verified: true
+  },
+  "rawayana:seatgeek": {
+    artistSlug: "rawayana",
+    provider: "seatgeek",
+    linkId: "sg-artist-rawayana",
+    redirectUrl: "https://seatgeek.com/rawayana-tickets",
+    verified: true
+  },
+  "jodeci:ticketmaster": {
+    artistSlug: "jodeci",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jodeci",
+    redirectUrl: "https://www.ticketmaster.com/jodeci-tickets/artist/752607",
+    verified: true
+  },
+  "jodeci:seatgeek": {
+    artistSlug: "jodeci",
+    provider: "seatgeek",
+    linkId: "sg-artist-jodeci",
+    redirectUrl: "https://seatgeek.com/jodeci-tickets",
+    verified: true
+  },
+  "mercyme:ticketmaster": {
+    artistSlug: "mercyme",
+    provider: "ticketmaster",
+    linkId: "tm-artist-mercyme",
+    redirectUrl: "https://www.ticketmaster.com/mercyme-tickets/artist/873854",
+    verified: true
+  },
+  "mercyme:seatgeek": {
+    artistSlug: "mercyme",
+    provider: "seatgeek",
+    linkId: "sg-artist-mercyme",
+    redirectUrl: "https://seatgeek.com/mercyme-tickets",
+    verified: true
+  },
+  "omer-adam:ticketmaster": {
+    artistSlug: "omer-adam",
+    provider: "ticketmaster",
+    linkId: "tm-artist-omer-adam",
+    redirectUrl: "https://www.ticketmaster.com/omer-adam-tickets/artist/2428788",
+    verified: true
+  },
+  "omer-adam:seatgeek": {
+    artistSlug: "omer-adam",
+    provider: "seatgeek",
+    linkId: "sg-artist-omer-adam",
+    redirectUrl: "https://seatgeek.com/omer-adam-tickets",
+    verified: true
   }
 };
 

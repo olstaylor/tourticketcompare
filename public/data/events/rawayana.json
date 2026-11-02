@@ -1,0 +1,532 @@
+[
+  {
+    "id": "tm-rawayana-2026-national-harbor-1avfz_kgkw9bb9h",
+    "artist_slug": "rawayana",
+    "artist_name": "Rawayana",
+    "event_name": "RAWAYANA - ¿Dónde es el after? World Tour",
+    "city": "National Harbor",
+    "country": "United States Of America",
+    "venue": "The Theater at MGM National Harbor",
+    "datetime_iso": "2026-11-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500646C976185DB",
+    "ticketmaster_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-national-harbor-maryland-11-04-2026/event/1500646C976185DB",
+    "seatgeek_url": "https://seatgeek.com/rawayana-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-11-04-8-pm/concert/18127549",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-national-harbor-maryland-11-04-2026/event/1500646C976185DB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500646C976185DB",
+        "discovery_event_id": "1AvfZ_kGkw9bb9h",
+        "url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-national-harbor-maryland-11-04-2026/event/1500646C976185DB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_kGkw9bb9h",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rawayana-2026-chicago-vv178z_kgkrasef7",
+    "artist_slug": "rawayana",
+    "artist_name": "Rawayana",
+    "event_name": "RAWAYANA - ¿Dónde es el after? World Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Aragon Ballroom",
+    "datetime_iso": "2026-11-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400646BC9C67504",
+    "ticketmaster_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-chicago-illinois-11-07-2026/event/0400646BC9C67504",
+    "seatgeek_url": "https://seatgeek.com/rawayana-tickets/chicago-illinois-byline-bank-aragon-ballroom-2026-11-07-8-pm/concert/18126546",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-chicago-illinois-11-07-2026/event/0400646BC9C67504",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400646BC9C67504",
+        "discovery_event_id": "vv178Z_kGkRasEf7",
+        "url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-chicago-illinois-11-07-2026/event/0400646BC9C67504",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_kGkRasEf7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rawayana-2026-inglewood-vv170z_kgkuw4lc4",
+    "artist_slug": "rawayana",
+    "artist_name": "Rawayana",
+    "event_name": "RAWAYANA - ¿Dónde es el after? World Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-11-16T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900646DB256B395",
+    "ticketmaster_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-inglewood-california-11-15-2026/event/0900646DB256B395",
+    "seatgeek_url": "https://seatgeek.com/rawayana-tickets/inglewood-california-kia-forum-2026-11-15-8-pm/concert/18126384",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-inglewood-california-11-15-2026/event/0900646DB256B395",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900646DB256B395",
+        "discovery_event_id": "vv170Z_kGkUw4lC4",
+        "url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-inglewood-california-11-15-2026/event/0900646DB256B395",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_kGkUw4lC4",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rawayana-2026-houston-g5diz_kwowtst",
+    "artist_slug": "rawayana",
+    "artist_name": "Rawayana",
+    "event_name": "RAWAYANA - ¿Dónde es el after? World Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2026-11-19T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00646CA0F69CE9",
+    "ticketmaster_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-houston-texas-11-18-2026/event/3A00646CA0F69CE9",
+    "seatgeek_url": "https://seatgeek.com/rawayana-tickets/houston-texas-713-music-hall-2026-11-18-8-pm/concert/18127552",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-houston-texas-11-18-2026/event/3A00646CA0F69CE9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00646CA0F69CE9",
+        "discovery_event_id": "G5dIZ_kwOWtSt",
+        "url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-houston-texas-11-18-2026/event/3A00646CA0F69CE9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_kwOWtSt",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rawayana-2026-houston-g5diz_ad2y7sg",
+    "artist_slug": "rawayana",
+    "artist_name": "Rawayana",
+    "event_name": "RAWAYANA - ¿Dónde es el after? World Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2026-11-20T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00649ECFE44CCC",
+    "ticketmaster_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-houston-texas-11-19-2026/event/3A00649ECFE44CCC",
+    "seatgeek_url": "https://seatgeek.com/rawayana-tickets/houston-texas-713-music-hall-2026-11-19-8-pm/concert/18223585",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-houston-texas-11-19-2026/event/3A00649ECFE44CCC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00649ECFE44CCC",
+        "discovery_event_id": "G5dIZ_aD2y7SG",
+        "url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-houston-texas-11-19-2026/event/3A00649ECFE44CCC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_aD2y7SG",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rawayana-2026-irving-vvg1yz_kyui28o",
+    "artist_slug": "rawayana",
+    "artist_name": "Rawayana",
+    "event_name": "RAWAYANA - ¿Dónde es el after? World Tour",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2026-11-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00646C0DA0F420",
+    "ticketmaster_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-irving-texas-11-21-2026/event/0C00646C0DA0F420",
+    "seatgeek_url": "https://seatgeek.com/rawayana-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-21-8-pm/concert/18127554",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-irving-texas-11-21-2026/event/0C00646C0DA0F420",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00646C0DA0F420",
+        "discovery_event_id": "vvG1YZ_kYuI28O",
+        "url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-irving-texas-11-21-2026/event/0C00646C0DA0F420",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_kYuI28O",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rawayana-2026-orlando-1aefz_kgkuqmj8a",
+    "artist_slug": "rawayana",
+    "artist_name": "Rawayana",
+    "event_name": "RAWAYANA - ¿Dónde es el after? World Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2026-12-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2200646D9ABA6409",
+    "ticketmaster_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-orlando-florida-12-03-2026/event/2200646D9ABA6409",
+    "seatgeek_url": "https://seatgeek.com/rawayana-tickets/orlando-florida-kia-center-2026-12-03-8-pm/concert/18126388",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-orlando-florida-12-03-2026/event/2200646D9ABA6409",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200646D9ABA6409",
+        "discovery_event_id": "1AeFZ_kGkUQmJ8a",
+        "url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-orlando-florida-12-03-2026/event/2200646D9ABA6409",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_kGkUQmJ8a",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rawayana-2026-miami-vvg1vz_fh4bcfd",
+    "artist_slug": "rawayana",
+    "artist_name": "Rawayana",
+    "event_name": "RAWAYANA - ¿Dónde es el after? World Tour",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Kaseya Center",
+    "datetime_iso": "2026-12-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006546D560E203",
+    "ticketmaster_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-miami-florida-12-04-2026/event/0D006546D560E203",
+    "seatgeek_url": "https://seatgeek.com/rawayana-tickets/miami-florida-kaseya-center-2026-12-04-8-pm/concert/18659426",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-miami-florida-12-04-2026/event/0D006546D560E203",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006546D560E203",
+        "discovery_event_id": "vvG1VZ_fh4bCFd",
+        "url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-miami-florida-12-04-2026/event/0D006546D560E203",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_fh4bCFd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rawayana-2026-miami-vvg1vz_kwnj_rj",
+    "artist_slug": "rawayana",
+    "artist_name": "Rawayana",
+    "event_name": "RAWAYANA - ¿Dónde es el after? World Tour",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Kaseya Center",
+    "datetime_iso": "2026-12-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00646CAA719BDC",
+    "ticketmaster_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-miami-florida-12-05-2026/event/0D00646CAA719BDC",
+    "seatgeek_url": "https://seatgeek.com/rawayana-tickets/miami-florida-kaseya-center-2026-12-05-8-pm/concert/18126459",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-miami-florida-12-05-2026/event/0D00646CAA719BDC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00646CAA719BDC",
+        "discovery_event_id": "vvG1VZ_kwnj_Rj",
+        "url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-miami-florida-12-05-2026/event/0D00646CAA719BDC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_kwnj_Rj",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rawayana-2026-miami-vvg1vz_6kilnkl",
+    "artist_slug": "rawayana",
+    "artist_name": "Rawayana",
+    "event_name": "RAWAYANA - ¿Dónde es el after? World Tour",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Kaseya Center",
+    "datetime_iso": "2026-12-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006471A8AEA4EB",
+    "ticketmaster_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-miami-florida-12-06-2026/event/0D006471A8AEA4EB",
+    "seatgeek_url": "https://seatgeek.com/rawayana-tickets/miami-florida-kaseya-center-2026-12-06-8-pm/concert/18132184",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-miami-florida-12-06-2026/event/0D006471A8AEA4EB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006471A8AEA4EB",
+        "discovery_event_id": "vvG1VZ_6kIlnKl",
+        "url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-miami-florida-12-06-2026/event/0D006471A8AEA4EB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_6kIlnKl",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

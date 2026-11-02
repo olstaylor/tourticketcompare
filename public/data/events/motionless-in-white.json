@@ -1,0 +1,691 @@
+[
+  {
+    "id": "tm-motionless-in-white-2026-raleigh-g5evz_5mdu9qp",
+    "artist_slug": "motionless-in-white",
+    "artist_name": "Motionless in White",
+    "event_name": "Motionless In White: The Sweat and Blood Tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Lenovo Center",
+    "datetime_iso": "2026-11-03T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064BB83357756",
+    "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-raleigh-north-carolina-11-03-2026/event/2D0064BB83357756",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-raleigh-north-carolina-11-03-2026/event/2D0064BB83357756",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064BB83357756",
+        "discovery_event_id": "G5eVZ_5mdu9qp",
+        "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-raleigh-north-carolina-11-03-2026/event/2D0064BB83357756",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_5mdu9qp",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-motionless-in-white-2026-port-wentworth-vvg1zz_5lcp7qp",
+    "artist_slug": "motionless-in-white",
+    "artist_name": "Motionless in White",
+    "event_name": "Motionless In White: The Sweat and Blood Tour",
+    "city": "Port Wentworth",
+    "country": "United States Of America",
+    "venue": "VyStar Pavilion",
+    "datetime_iso": "2026-11-04T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064BAED5846A5",
+    "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-port-wentworth-georgia-11-04-2026/event/0E0064BAED5846A5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-port-wentworth-georgia-11-04-2026/event/0E0064BAED5846A5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064BAED5846A5",
+        "discovery_event_id": "vvG1zZ_5lcp7QP",
+        "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-port-wentworth-georgia-11-04-2026/event/0E0064BAED5846A5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_5lcp7QP",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-motionless-in-white-2026-orlando-17fov0g65wwp47r",
+    "artist_slug": "motionless-in-white",
+    "artist_name": "Motionless in White",
+    "event_name": "Motionless In White: The Sweat and Blood Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2026-11-05T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220064BCB295511E",
+    "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-orlando-florida-11-05-2026/event/220064BCB295511E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-orlando-florida-11-05-2026/event/220064BCB295511E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220064BCB295511E",
+        "discovery_event_id": "17FOv0G65wwP47r",
+        "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-orlando-florida-11-05-2026/event/220064BCB295511E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FOv0G65wwP47r",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-motionless-in-white-2026-nashville-g5viz_5no0bwc",
+    "artist_slug": "motionless-in-white",
+    "artist_name": "Motionless in White",
+    "event_name": "Motionless In White: The Sweat and Blood Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-11-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064BAA093AF4E",
+    "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-nashville-tennessee-11-07-2026/event/1B0064BAA093AF4E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-nashville-tennessee-11-07-2026/event/1B0064BAA093AF4E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064BAA093AF4E",
+        "discovery_event_id": "G5viZ_5nO0BWC",
+        "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-nashville-tennessee-11-07-2026/event/1B0064BAA093AF4E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_5nO0BWC",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-motionless-in-white-2026-peoria-vvg1jz_5wcknnp",
+    "artist_slug": "motionless-in-white",
+    "artist_name": "Motionless in White",
+    "event_name": "Motionless In White: The Sweat and Blood Tour",
+    "city": "Peoria",
+    "country": "United States Of America",
+    "venue": "Peoria Civic Center",
+    "datetime_iso": "2026-11-09T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "070064BCAD1A38D6",
+    "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-peoria-illinois-11-08-2026/event/070064BCAD1A38D6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-peoria-illinois-11-08-2026/event/070064BCAD1A38D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "070064BCAD1A38D6",
+        "discovery_event_id": "vvG1jZ_5wckNNp",
+        "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-peoria-illinois-11-08-2026/event/070064BCAD1A38D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1jZ_5wckNNp",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-motionless-in-white-2026-minneapolis-vvg1bz_5wlfjnl",
+    "artist_slug": "motionless-in-white",
+    "artist_name": "Motionless in White",
+    "event_name": "Motionless In White: The Sweat and Blood Tour",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Target Center",
+    "datetime_iso": "2026-11-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064BC9F226AAB",
+    "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-minneapolis-minnesota-11-10-2026/event/060064BC9F226AAB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-minneapolis-minnesota-11-10-2026/event/060064BC9F226AAB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064BC9F226AAB",
+        "discovery_event_id": "vvG1bZ_5wLFJnl",
+        "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-minneapolis-minnesota-11-10-2026/event/060064BC9F226AAB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_5wLFJnl",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-motionless-in-white-2026-omaha-vvg1bz_5sqsgj6",
+    "artist_slug": "motionless-in-white",
+    "artist_name": "Motionless in White",
+    "event_name": "Motionless In White: The Sweat and Blood Tour",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "CHI Health Center Omaha",
+    "datetime_iso": "2026-11-12T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064BCDDC4C987",
+    "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-omaha-nebraska-11-11-2026/event/060064BCDDC4C987",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-omaha-nebraska-11-11-2026/event/060064BCDDC4C987",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064BCDDC4C987",
+        "discovery_event_id": "vvG1bZ_5SqsGJ6",
+        "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-omaha-nebraska-11-11-2026/event/060064BCDDC4C987",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_5SqsGJ6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-motionless-in-white-2026-milwaukee-vvg1jz_5myjgaa",
+    "artist_slug": "motionless-in-white",
+    "artist_name": "Motionless in White",
+    "event_name": "Motionless In White: The Sweat and Blood Tour",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Fiserv Forum",
+    "datetime_iso": "2026-11-14T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "070064BBB9735249",
+    "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "070064BBB9735249",
+        "discovery_event_id": "vvG1jZ_5myjgaa",
+        "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1jZ_5myjgaa",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-motionless-in-white-2026-albany-k7vgf_5wspmvj",
+    "artist_slug": "motionless-in-white",
+    "artist_name": "Motionless in White",
+    "event_name": "Motionless In White: The Sweat and Blood Tour",
+    "city": "Albany",
+    "country": "United States Of America",
+    "venue": "MVP Arena",
+    "datetime_iso": "2026-11-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064BCB15AED26",
+    "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-albany-new-york-11-15-2026/event/000064BCB15AED26",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-albany-new-york-11-15-2026/event/000064BCB15AED26",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064BCB15AED26",
+        "discovery_event_id": "k7vGF_5wspmVJ",
+        "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-albany-new-york-11-15-2026/event/000064BCB15AED26",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_5wspmVJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-motionless-in-white-2026-portland-vvg17z_5r6traw",
+    "artist_slug": "motionless-in-white",
+    "artist_name": "Motionless in White",
+    "event_name": "Motionless In White: The Sweat and Blood Tour",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Cross Insurance Arena",
+    "datetime_iso": "2026-11-18T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064BBC7FDE27D",
+    "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-portland-maine-11-18-2026/event/010064BBC7FDE27D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-portland-maine-11-18-2026/event/010064BBC7FDE27D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064BBC7FDE27D",
+        "discovery_event_id": "vvG17Z_5R6TraW",
+        "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-portland-maine-11-18-2026/event/010064BBC7FDE27D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_5R6TraW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-motionless-in-white-2026-newark-vvg1fz_5s7fn3l",
+    "artist_slug": "motionless-in-white",
+    "artist_name": "Motionless in White",
+    "event_name": "Motionless In White: The Sweat and Blood Tour",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2026-11-19T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064BCC422349F",
+    "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-newark-new-jersey-11-19-2026/event/020064BCC422349F",
+    "seatgeek_url": "https://seatgeek.com/motionless-in-white-tickets/newark-new-jersey-prudential-center-2026-11-19-6-30-pm/concert/18281913",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-newark-new-jersey-11-19-2026/event/020064BCC422349F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064BCC422349F",
+        "discovery_event_id": "vvG1FZ_5S7FN3L",
+        "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-newark-new-jersey-11-19-2026/event/020064BCC422349F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_5S7FN3L",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-motionless-in-white-2026-pittsburgh-17aov0g65mh-tzb",
+    "artist_slug": "motionless-in-white",
+    "artist_name": "Motionless in White",
+    "event_name": "Motionless In White: The Sweat and Blood Tour",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "PPG Paints Arena",
+    "datetime_iso": "2026-11-20T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160064BBBC86903A",
+    "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-pittsburgh-pennsylvania-11-20-2026/event/160064BBBC86903A",
+    "seatgeek_url": "https://seatgeek.com/motionless-in-white-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-20-6-30-pm/concert/18281916",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-pittsburgh-pennsylvania-11-20-2026/event/160064BBBC86903A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160064BBBC86903A",
+        "discovery_event_id": "17AOv0G65mH-tZB",
+        "url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-pittsburgh-pennsylvania-11-20-2026/event/160064BBBC86903A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AOv0G65mH-tZB",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-motionless-in-white-2027-dubendorf-z698xzu3z16ezmoj16",
+    "artist_slug": "motionless-in-white",
+    "artist_name": "Motionless in White",
+    "event_name": "Motionless In White",
+    "city": "Dübendorf",
+    "country": "Switzerland",
+    "venue": "THE HALL Zürich",
+    "datetime_iso": "2027-06-08T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2037466287",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/motionless-in-white-tickets/2037466287?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/motionless-in-white-tickets/2037466287?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2037466287",
+        "discovery_event_id": "Z698xZu3Z16eZMoJ16",
+        "url": "https://www.ticketmaster.ch/event/motionless-in-white-tickets/2037466287?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z16eZMoJ16",
+    "timezone": "Europe/Zurich",
+    "status": "on-sale"
+  }
+]

@@ -1,0 +1,1698 @@
+[
+  {
+    "id": "tm-mercyme-2026-colorado-springs-z7r9jz1a70nz_",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe w/ Jeremy Camp",
+    "city": "Colorado Springs",
+    "country": "United States Of America",
+    "venue": "Broadmoor World Arena",
+    "datetime_iso": "2026-11-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70NZ_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70NZ_",
+        "discovery_event_id": "Z7r9jZ1A70NZ_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70NZ_",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2026-park-city-vvg1bz_135gz80",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Jeremy Camp, Tim Timmons, Sam Wesley",
+    "city": "Park City",
+    "country": "United States Of America",
+    "venue": "Heartland Credit Union Arena",
+    "datetime_iso": "2026-11-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064A48B338424",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-park-city-kansas-11-06-2026/event/060064A48B338424",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-park-city-kansas-11-06-2026/event/060064A48B338424",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064A48B338424",
+        "discovery_event_id": "vvG1bZ_135Gz80",
+        "url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-park-city-kansas-11-06-2026/event/060064A48B338424",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_135Gz80",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2026-springfield-z7r9jz1a70n7d",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe",
+    "city": "Springfield",
+    "country": "United States Of America",
+    "venue": "Great Southern Bank Arena",
+    "datetime_iso": "2026-11-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70N7d",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70N7d",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70N7d",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70N7d",
+        "discovery_event_id": "Z7r9jZ1A70N7d",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70N7d",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70N7d",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2026-oklahoma-city-vvg1yz_13ofzsb",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Jeremy Camp, Tim Timmons, Sam Wesley",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Paycom Center",
+    "datetime_iso": "2026-11-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064A4A0538C58",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-oklahoma-city-oklahoma-11-08-2026/event/0C0064A4A0538C58",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-oklahoma-city-oklahoma-11-08-2026/event/0C0064A4A0538C58",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064A4A0538C58",
+        "discovery_event_id": "vvG1YZ_13Ofzsb",
+        "url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-oklahoma-city-oklahoma-11-08-2026/event/0C0064A4A0538C58",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_13Ofzsb",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2026-fishers-vvg1fz_1kxwtrx",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Jeremy Camp, Tim Timmons, Sam Wesley",
+    "city": "Fishers",
+    "country": "United States Of America",
+    "venue": "Fishers Event Center",
+    "datetime_iso": "2026-11-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050064A4E2CA9BE2",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-fishers-indiana-11-12-2026/event/050064A4E2CA9BE2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-fishers-indiana-11-12-2026/event/050064A4E2CA9BE2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050064A4E2CA9BE2",
+        "discovery_event_id": "vvG1fZ_1KxwtRx",
+        "url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-fishers-indiana-11-12-2026/event/050064A4E2CA9BE2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1fZ_1KxwtRx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2026-louisville-17aov0g6193qcjg",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Jeremy Camp, Tim Timmons, Sam Wesley",
+    "city": "Louisville",
+    "country": "United States Of America",
+    "venue": "KFC Yum! Center",
+    "datetime_iso": "2026-11-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160064A5D268E9B5",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-louisville-kentucky-11-13-2026/event/160064A5D268E9B5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-louisville-kentucky-11-13-2026/event/160064A5D268E9B5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160064A5D268E9B5",
+        "discovery_event_id": "17AOv0G6193QCJg",
+        "url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-louisville-kentucky-11-13-2026/event/160064A5D268E9B5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AOv0G6193QCJg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2026-kansas-city-z7r9jz1a70nek",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe w/ Jeremy Camp",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2026-11-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70NeK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NeK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NeK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70NeK",
+        "discovery_event_id": "Z7r9jZ1A70NeK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NeK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70NeK",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2026-minneapolis-z7r9jz1a70nz6",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe w/ Jeremy Camp",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Target Center",
+    "datetime_iso": "2026-11-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70NZ6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70NZ6",
+        "discovery_event_id": "Z7r9jZ1A70NZ6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70NZ6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-roanoke-vv1avzk4agkdxzmi2",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Roanoke",
+    "country": "United States Of America",
+    "venue": "Berglund Coliseum",
+    "datetime_iso": "2027-03-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006549E2E37A0F",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-roanoke-virginia-03-11-2027/event/01006549E2E37A0F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-roanoke-virginia-03-11-2027/event/01006549E2E37A0F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006549E2E37A0F",
+        "discovery_event_id": "vv1AvZk4aGkdxzMI2",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-roanoke-virginia-03-11-2027/event/01006549E2E37A0F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4aGkdxzMI2",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-huntington-1avbz_fgkbqrak8",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Huntington",
+    "country": "United States Of America",
+    "venue": "Marshall Health Network Arena (formerly Mountain Health Arena)",
+    "datetime_iso": "2027-03-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600654E9A7854D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-huntington-west-virginia-03-12-2027/event/1600654E9A7854D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-huntington-west-virginia-03-12-2027/event/1600654E9A7854D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600654E9A7854D0",
+        "discovery_event_id": "1AvbZ_fGkBQrAK8",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-huntington-west-virginia-03-12-2027/event/1600654E9A7854D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_fGkBQrAK8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-highland-heights-1avbz_fgkwx5pep",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Highland Heights",
+    "country": "United States Of America",
+    "venue": "Truist Arena",
+    "datetime_iso": "2027-03-14T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600654CBE2D69E5",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-highland-heights-kentucky-03-14-2027/event/1600654CBE2D69E5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-highland-heights-kentucky-03-14-2027/event/1600654CBE2D69E5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600654CBE2D69E5",
+        "discovery_event_id": "1AvbZ_fGkwX5pEP",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-highland-heights-kentucky-03-14-2027/event/1600654CBE2D69E5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_fGkwX5pEP",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-florence-g5evz_fmi8uks",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Florence",
+    "country": "United States Of America",
+    "venue": "Florence Center",
+    "datetime_iso": "2027-03-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00654DE840D1B1",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-florence-south-carolina-03-18-2027/event/2D00654DE840D1B1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-florence-south-carolina-03-18-2027/event/2D00654DE840D1B1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00654DE840D1B1",
+        "discovery_event_id": "G5eVZ_fMI8uks",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-florence-south-carolina-03-18-2027/event/2D00654DE840D1B1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_fMI8uks",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-macon-vvg1zz_fsveixl",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Macon",
+    "country": "United States Of America",
+    "venue": "Atrium Health Amphitheater",
+    "datetime_iso": "2027-03-20T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00654CC10AC89F",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-macon-georgia-03-20-2027/event/0E00654CC10AC89F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-macon-georgia-03-20-2027/event/0E00654CC10AC89F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00654CC10AC89F",
+        "discovery_event_id": "vvG1zZ_fSveixL",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-macon-georgia-03-20-2027/event/0E00654CC10AC89F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_fSveixL",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-huntsville-1aezz_fgksvhplo",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Huntsville",
+    "country": "United States Of America",
+    "venue": "Von Braun Center Propst Arena",
+    "datetime_iso": "2027-03-22T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000654CC1F25AD1",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-huntsville-alabama-03-21-2027/event/2000654CC1F25AD1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-huntsville-alabama-03-21-2027/event/2000654CC1F25AD1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000654CC1F25AD1",
+        "discovery_event_id": "1AeZZ_fGkSvHPlo",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-huntsville-alabama-03-21-2027/event/2000654CC1F25AD1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_fGkSvHPlo",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-pensacola-g5viz_fuwn07x",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Pensacola",
+    "country": "United States Of America",
+    "venue": "Pensacola Bay Center",
+    "datetime_iso": "2027-03-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00654DBD8E4122",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-pensacola-florida-03-24-2027/event/1B00654DBD8E4122",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-pensacola-florida-03-24-2027/event/1B00654DBD8E4122",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00654DBD8E4122",
+        "discovery_event_id": "G5viZ_fUWN07x",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-pensacola-florida-03-24-2027/event/1B00654DBD8E4122",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_fUWN07x",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-orlando-1kfovp3_ga2o7he",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Addition Financial Arena",
+    "datetime_iso": "2027-03-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220065499F4446C2",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-orlando-florida-03-25-2027/event/220065499F4446C2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-orlando-florida-03-25-2027/event/220065499F4446C2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220065499F4446C2",
+        "discovery_event_id": "1kFOvP3_GA2o7he",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-orlando-florida-03-25-2027/event/220065499F4446C2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kFOvP3_GA2o7he",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-tallahassee-17fov0g613pbs0q",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Tallahassee",
+    "country": "United States Of America",
+    "venue": "Donald L. Tucker Civic Center",
+    "datetime_iso": "2027-03-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220064A4A5EB391A",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-tallahassee-florida-03-26-2027/event/220064A4A5EB391A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-tallahassee-florida-03-26-2027/event/220064A4A5EB391A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220064A4A5EB391A",
+        "discovery_event_id": "17FOv0G613PBS0Q",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-tallahassee-florida-03-26-2027/event/220064A4A5EB391A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FOv0G613PBS0Q",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-fayetteville-g5evz_frs44wl",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Fayetteville",
+    "country": "United States Of America",
+    "venue": "Crown Coliseum",
+    "datetime_iso": "2027-04-01T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00654BF1555CAB",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-fayetteville-north-carolina-04-01-2027/event/2D00654BF1555CAB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-fayetteville-north-carolina-04-01-2027/event/2D00654BF1555CAB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00654BF1555CAB",
+        "discovery_event_id": "G5eVZ_fRs44wl",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-fayetteville-north-carolina-04-01-2027/event/2D00654BF1555CAB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_fRs44wl",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-reading-vv17fz_fgks27zye",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Reading",
+    "country": "United States Of America",
+    "venue": "The Santander Arena",
+    "datetime_iso": "2027-04-04T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200654CCF138C02",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-reading-pennsylvania-04-04-2027/event/0200654CCF138C02",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-reading-pennsylvania-04-04-2027/event/0200654CCF138C02",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200654CCF138C02",
+        "discovery_event_id": "vv17FZ_fGkS27zYe",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-reading-pennsylvania-04-04-2027/event/0200654CCF138C02",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_fGkS27zYe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-portland-vv177z_fgkxgyxqn",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Cross Insurance Arena",
+    "datetime_iso": "2027-04-08T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100654FB5C3E763",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-portland-maine-04-08-2027/event/0100654FB5C3E763",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-portland-maine-04-08-2027/event/0100654FB5C3E763",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100654FB5C3E763",
+        "discovery_event_id": "vv177Z_fGkXgYXqN",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-portland-maine-04-08-2027/event/0100654FB5C3E763",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_fGkXgYXqN",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-trenton-k7vgf_fedotss",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Trenton",
+    "country": "United States Of America",
+    "venue": "CURE Insurance Arena",
+    "datetime_iso": "2027-04-10T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006549C3469CF1",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-trenton-new-jersey-04-10-2027/event/00006549C3469CF1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-trenton-new-jersey-04-10-2027/event/00006549C3469CF1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006549C3469CF1",
+        "discovery_event_id": "k7vGF_fEdotSs",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-trenton-new-jersey-04-10-2027/event/00006549C3469CF1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_fEdotSs",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-grand-prairie-z7r9jz1aa74jn",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe",
+    "city": "Grand Prairie",
+    "country": "United States Of America",
+    "venue": "Texas Trust CU Theatre",
+    "datetime_iso": "2027-04-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA74jN",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA74jN",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA74jN",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA74jN",
+        "discovery_event_id": "Z7r9jZ1AA74jN",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA74jN",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA74jN",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-cedar-park-g5diz_fiumntg",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Cedar Park",
+    "country": "United States Of America",
+    "venue": "H-E-B Center at Cedar Park",
+    "datetime_iso": "2027-04-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00654A0DBAAFF5",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-cedar-park-texas-04-17-2027/event/3A00654A0DBAAFF5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-cedar-park-texas-04-17-2027/event/3A00654A0DBAAFF5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00654A0DBAAFF5",
+        "discovery_event_id": "G5dIZ_fIumnTg",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-cedar-park-texas-04-17-2027/event/3A00654A0DBAAFF5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_fIumnTg",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-bossier-city-g5viz_fdsgolb",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Bossier City",
+    "country": "United States Of America",
+    "venue": "Brookshire Grocery Arena",
+    "datetime_iso": "2027-04-18T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00654EF1D517FA",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-bossier-city-louisiana-04-18-2027/event/1B00654EF1D517FA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-bossier-city-louisiana-04-18-2027/event/1B00654EF1D517FA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00654EF1D517FA",
+        "discovery_event_id": "G5viZ_fDsgoLB",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-bossier-city-louisiana-04-18-2027/event/1B00654EF1D517FA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_fDsgoLB",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-tulsa-1aezz_fgkbolkrk",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "BOK Center",
+    "datetime_iso": "2027-04-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000654EA07D3BD3",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-tulsa-oklahoma-04-22-2027/event/2000654EA07D3BD3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-tulsa-oklahoma-04-22-2027/event/2000654EA07D3BD3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000654EA07D3BD3",
+        "discovery_event_id": "1AeZZ_fGkBOLKRK",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-tulsa-oklahoma-04-22-2027/event/2000654EA07D3BD3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_fGkBOLKRK",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-lincoln-vv17bz_fgktuaum7",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Lincoln",
+    "country": "United States Of America",
+    "venue": "Pinnacle Bank Arena",
+    "datetime_iso": "2027-04-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600654FCD14DB84",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-lincoln-nebraska-04-23-2027/event/0600654FCD14DB84",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-lincoln-nebraska-04-23-2027/event/0600654FCD14DB84",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600654FCD14DB84",
+        "discovery_event_id": "vv17bZ_fGkTuAum7",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-lincoln-nebraska-04-23-2027/event/0600654FCD14DB84",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_fGkTuAum7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-moline-vv17bz_fgkwrzpms",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Moline",
+    "country": "United States Of America",
+    "venue": "Vibrant Arena at the Mark",
+    "datetime_iso": "2027-04-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600654C9E016BB3",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-moline-illinois-04-24-2027/event/0600654C9E016BB3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-moline-illinois-04-24-2027/event/0600654C9E016BB3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600654C9E016BB3",
+        "discovery_event_id": "vv17bZ_fGkwrZpmS",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-moline-illinois-04-24-2027/event/0600654C9E016BB3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_fGkwrZpmS",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-grand-rapids-vv17oz_fgkmddfhb",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "Van Andel Arena",
+    "datetime_iso": "2027-04-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800654DFB0C8F18",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-grand-rapids-michigan-04-25-2027/event/0800654DFB0C8F18",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-grand-rapids-michigan-04-25-2027/event/0800654DFB0C8F18",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800654DFB0C8F18",
+        "discovery_event_id": "vv17OZ_fGkMDdFHb",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-grand-rapids-michigan-04-25-2027/event/0800654DFB0C8F18",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_fGkMDdFHb",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-milwaukee-vv17jz_fgkboydiq",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "UW - Milwaukee Panther Arena",
+    "datetime_iso": "2027-04-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700654E91E43A1A",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-milwaukee-wisconsin-04-29-2027/event/0700654E91E43A1A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-milwaukee-wisconsin-04-29-2027/event/0700654E91E43A1A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700654E91E43A1A",
+        "discovery_event_id": "vv17jZ_fGkBoydIQ",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-milwaukee-wisconsin-04-29-2027/event/0700654E91E43A1A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_fGkBoydIQ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-springfield-vv1a6zk4agkeirfgx",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Springfield",
+    "country": "United States Of America",
+    "venue": "Bank of Springfield Center",
+    "datetime_iso": "2027-05-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006549A8BD4D7E",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-springfield-illinois-04-30-2027/event/07006549A8BD4D7E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-springfield-illinois-04-30-2027/event/07006549A8BD4D7E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006549A8BD4D7E",
+        "discovery_event_id": "vv1A6Zk4aGkeIRfgX",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-springfield-illinois-04-30-2027/event/07006549A8BD4D7E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6Zk4aGkeIRfgX",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-canton-vv17fz_fgkw2un6n",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Canton",
+    "country": "United States Of America",
+    "venue": "Canton Civic Center",
+    "datetime_iso": "2027-05-01T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500654C8F3631EA",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-canton-ohio-05-01-2027/event/0500654C8F3631EA",
+    "seatgeek_url": "https://seatgeek.com/mercyme-tickets/canton-ohio-canton-civic-center-canton-oh-2027-05-01-7-pm/concert/18692284",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-canton-ohio-05-01-2027/event/0500654C8F3631EA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500654C8F3631EA",
+        "discovery_event_id": "vv17fZ_fGkw2uN6n",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-canton-ohio-05-01-2027/event/0500654C8F3631EA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_fGkw2uN6n",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mercyme-2027-evansville-vv17fz_fgkwdo5qw",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe, Ben Fuller, Peter Burton",
+    "city": "Evansville",
+    "country": "United States Of America",
+    "venue": "Ford Center",
+    "datetime_iso": "2027-05-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500654CBB44B772",
+    "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-evansville-indiana-05-02-2027/event/0500654CBB44B772",
+    "seatgeek_url": "https://seatgeek.com/mercyme-tickets/evansville-indiana-ford-center-in-2027-05-02-7-pm/concert/18692285",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-evansville-indiana-05-02-2027/event/0500654CBB44B772",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500654CBB44B772",
+        "discovery_event_id": "vv17fZ_fGkwDo5qw",
+        "url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-evansville-indiana-05-02-2027/event/0500654CBB44B772",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_fGkwDo5qw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

@@ -3370,5 +3370,117 @@
     "last_verified_at": "2026-11-02",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-11-01"
+  },
+  {
+    "slug": "shania-twain",
+    "name": "Shania Twain",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-02",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-02"
+  },
+  {
+    "slug": "dom-dolla",
+    "name": "Dom Dolla",
+    "short_description": "Dance/Electronic act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-02",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-02"
+  },
+  {
+    "slug": "motionless-in-white",
+    "name": "Motionless in White",
+    "short_description": "Metal act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-02",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-02"
+  },
+  {
+    "slug": "yg",
+    "name": "YG",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-02",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-02"
+  },
+  {
+    "slug": "rawayana",
+    "name": "Rawayana",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-02",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-02"
+  },
+  {
+    "slug": "jodeci",
+    "name": "Jodeci",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-02",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-02"
+  },
+  {
+    "slug": "mercyme",
+    "name": "MercyMe",
+    "short_description": "Religious act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-02",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-02"
+  },
+  {
+    "slug": "omer-adam",
+    "name": "Omer Adam",
+    "short_description": "World act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-02",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-02"
   }
 ]

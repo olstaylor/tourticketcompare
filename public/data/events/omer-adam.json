@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tm-omer-adam-2026-brooklyn-1ayzk4vgkdfutko",
+    "artist_slug": "omer-adam",
+    "artist_name": "Omer Adam",
+    "event_name": "Omer Adam",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2026-11-04T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006541D4DA94D1",
+    "ticketmaster_url": "https://www.ticketmaster.com/omer-adam-brooklyn-new-york-11-03-2026/event/30006541D4DA94D1",
+    "seatgeek_url": "https://seatgeek.com/omer-adam-tickets/brooklyn-new-york-barclays-center-2026-11-03-9-pm/concert/18671901",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/omer-adam-brooklyn-new-york-11-03-2026/event/30006541D4DA94D1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006541D4DA94D1",
+        "discovery_event_id": "1AYZk4vGkdfUtKo",
+        "url": "https://www.ticketmaster.com/omer-adam-brooklyn-new-york-11-03-2026/event/30006541D4DA94D1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AYZk4vGkdfUtKo",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

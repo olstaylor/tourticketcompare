@@ -1,7 +1,7 @@
 ---
-title: Is SeatGeek Legit? Buyer Protection Explained
+title: Is SeatGeek Legit? Yes, and What Its Buyer Protection Covers
 h1: Is SeatGeek legit, and are its tickets real?
-description: Is SeatGeek legit? Who sells tickets on it, what its buyer protection covers and excludes, all-in fees, late delivery, and cancelled or postponed shows.
+description: 'Yes, SeatGeek is a legitimate ticketing company: primary seller for some venues, resale marketplace for the rest. What its buyer protection covers and excludes.'
 status: published
 date_published: 2026-09-25
 comparison_providers:

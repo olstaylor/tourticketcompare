@@ -32,13 +32,13 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-10-31"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
-    title: "Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets",
-    h1: "Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets",
-    description: "Ticketmaster, SeatGeek and Vivid Seats play different roles. Which sells primary or resale, and what to compare in total, delivery and buyer protection.",
+    title: "Ticketmaster vs SeatGeek vs Vivid Seats: The Difference",
+    h1: "Ticketmaster vs SeatGeek vs Vivid Seats: What's the Difference?",
+    description: "Ticketmaster often sells primary tickets; SeatGeek and Vivid Seats are mainly resale. How they differ on who sets the price, fees, delivery and protection.",
     fullContent: true,
     comparisonProviders: ["seatgeek","vivid-seats"],
     datePublished: "2026-06-11",
-    lastmod: "2026-10-28"
+    lastmod: "2026-11-02"
   },
   "/guides/seatgeek-vs-ticketmaster": {
     title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
@@ -164,12 +164,12 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-10-26"
   },
   "/guides/seatgeek-vs-stubhub": {
-    title: "SeatGeek vs StubHub: Fees, Protection and Delivery",
+    title: "SeatGeek vs StubHub: Which Is Better? Fees and Protection",
     h1: "SeatGeek vs StubHub: How Do They Compare?",
-    description: "SeatGeek vs StubHub compared on who sells the ticket, all-in fees, buyer protection, cancellations, postponements and delivery timing.",
+    description: "SeatGeek vs StubHub compared on who sells the ticket, all-in fees, buyer protection, cancelled and postponed shows, and delivery timing.",
     fullContent: true,
     datePublished: "2026-09-25",
-    lastmod: "2026-10-26"
+    lastmod: "2026-11-02"
   },
   "/guides/vivid-seats-vs-seatgeek": {
     title: "Vivid Seats vs SeatGeek: Fees, Guarantees, Delivery",
@@ -181,12 +181,12 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-10-27"
   },
   "/guides/vivid-seats-vs-stubhub": {
-    title: "Vivid Seats vs StubHub: Fees, Guarantees, Delivery",
+    title: "Vivid Seats vs StubHub: Which Is Better? Fees and Guarantees",
     h1: "Vivid Seats vs StubHub: How Do They Compare?",
-    description: "Vivid Seats vs StubHub compared on seller pricing, upfront fees, buyer protection, cancelled and postponed shows, delivery and which site you're on.",
+    description: "Both are resale marketplaces where sellers set the price. Vivid Seats vs StubHub on fees, buyer protection, cancelled shows and delivery, and what to compare.",
     fullContent: true,
     datePublished: "2026-09-25",
-    lastmod: "2026-10-26"
+    lastmod: "2026-11-02"
   },
   "/guides/is-vivid-seats-legit": {
     title: "Is Vivid Seats Legit? What the Guarantee Covers",
@@ -198,13 +198,13 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-10-26"
   },
   "/guides/is-seatgeek-legit": {
-    title: "Is SeatGeek Legit? Buyer Protection Explained",
+    title: "Is SeatGeek Legit? Yes, and What Its Buyer Protection Covers",
     h1: "Is SeatGeek legit, and are its tickets real?",
-    description: "Is SeatGeek legit? Who sells tickets on it, what its buyer protection covers and excludes, all-in fees, late delivery, and cancelled or postponed shows.",
+    description: "Yes, SeatGeek is a legitimate ticketing company: primary seller for some venues, resale marketplace for the rest. What its buyer protection covers and excludes.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-09-25",
-    lastmod: "2026-10-26"
+    lastmod: "2026-11-02"
   },
   "/guides/is-ticket-liquidator-legit": {
     title: "Is Ticket Liquidator Legit? Guarantee and Refunds",

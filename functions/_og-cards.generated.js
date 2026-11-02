@@ -766,6 +766,7 @@ export const OG_CARDS = {
   "/blog/niall-horan-tour-ticket-prices-by-city": {"url":"/og/blog-niall-horan-tour-ticket-prices-by-city.png","alt":"Blog: Niall Horan tour tickets: listed prices city by city"},
   "/blog/oasis-live-27-code-only-ticket-sale": {"url":"/og/blog-oasis-live-27-code-only-ticket-sale.png","alt":"Blog: Oasis Live '27: what a code-only ticket sale changes"},
   "/blog/oasis-live-27-ticket-prices": {"url":"/og/blog-oasis-live-27-ticket-prices.png","alt":"Blog: Oasis Live '27 ticket prices: how to read what you see"},
+  "/blog/oasis-tour-guide": {"url":"/og/blog-oasis-tour-guide.png","alt":"Blog: Oasis tour: dates, cities and how to choose"},
   "/blog/olivia-rodrigo-tour-guide": {"url":"/og/blog-olivia-rodrigo-tour-guide.png","alt":"Blog: Olivia Rodrigo tour: dates, cities and how to choose"},
   "/blog/olivia-rodrigo-tour-ticket-prices-by-city": {"url":"/og/blog-olivia-rodrigo-tour-ticket-prices-by-city.png","alt":"Blog: Olivia Rodrigo tour tickets: listed prices city by city"},
   "/blog/olivia-rodrigo-unraveled-tour-ticket-types": {"url":"/og/blog-olivia-rodrigo-unraveled-tour-ticket-types.png","alt":"Blog: Three kinds of Olivia Rodrigo ticket, and what each one means"},

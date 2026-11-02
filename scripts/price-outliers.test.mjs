@@ -13,7 +13,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const load = (relativePath) => import(pathToFileURL(path.join(root, relativePath)));
 
-const { isIsolatedSpike, dropIsolatedSpikes, keepNonSpikeSql } = await load("functions/_price-outliers.js");
+const { isIsolatedSpike, dropIsolatedSpikes, keepNonSpikeSql, implausiblyLowAmongSites } = await load("functions/_price-outliers.js");
 const { fetchEventPriceLowSeries, deriveEventPriceLow } = await load("functions/_event-price-low.js");
 const {
   derivePriceMove,
@@ -185,5 +185,14 @@ const weekIndex = await fetchEventWeeklyPriceSeries(db, ["e5"], [{ dbKey: "vivid
 const e5 = weekIndex.get("e5|vivid-seats");
 check(e5.length === 2 && e5[0].price === 420 && e5[1].price === 415, "weekly read returns the approved series oldest first");
 check((await fetchEventWeeklyPriceSeries(null, ["e5"], lanes)).size === 0, "no database degrades to no change");
+
+// Cross-site guard: the Olivia Rodrigo Atlanta case (StubHub International
+// 50.59 against Vivid Seats 371 and TicketNetwork 481.85) is hidden; ordinary
+// gaps, thin evidence and mixed currencies are not.
+check(JSON.stringify(implausiblyLowAmongSites([{ price: 371, currency: "USD" }, { price: 481.85, currency: "USD" }, { price: 50.59, currency: "USD" }])) === "[false,false,true]", "a price far under two other sites is hidden");
+check(implausiblyLowAmongSites([{ price: 200, currency: "USD" }, { price: 481.85, currency: "USD" }, { price: 371, currency: "USD" }]).every((x) => !x), "a wide but ordinary gap is kept");
+check(implausiblyLowAmongSites([{ price: 50, currency: "USD" }, { price: 400, currency: "USD" }]).every((x) => !x), "one neighbour is not enough to judge");
+check(implausiblyLowAmongSites([{ price: 50, currency: "USD" }, { price: 400, currency: "GBP" }, { price: 420, currency: "GBP" }]).every((x) => !x), "never across currencies");
+check(implausiblyLowAmongSites([{ price: null }, { price: 400, currency: "USD" }, { price: 420, currency: "USD" }]).every((x) => !x), "missing prices are ignored");
 
 console.log(`price-outliers: ${passed} checks passed`);

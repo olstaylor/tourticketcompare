@@ -1,4 +1,5 @@
 import { organizerNames, eventEndDate } from "../_event-metadata.js";
+import { implausiblyLowAmongSites } from "../_price-outliers.js";
 import { isUpcomingShow, showStartMs } from "../_upcoming.js";
 import { eventPreviousStartDate } from "../_event-reschedule.js";
 import { VERIFIED_TICKET_LINKS } from "./out.js";
@@ -1191,6 +1192,10 @@ export async function attachApprovedMarketplacePrices(shows, env) {
         );
       }
       return decorateProviderResult(result || unavailableProviderPrice(lane.provider, show), show, lane.provider, env);
+    });
+    const hide = implausiblyLowAmongSites(prices.map((entry) => ({ price: entry.status === "ok" ? entry.price : null, currency: entry.currency })));
+    prices.forEach((entry, index) => {
+      if (hide[index]) prices[index] = decorateProviderResult(unavailableProviderPrice(entry.provider, show), show, entry.provider, env);
     });
     const priceChecks = checksByEvent.get(showId);
     return priceChecks ? { ...show, prices, priceChecks } : { ...show, prices };

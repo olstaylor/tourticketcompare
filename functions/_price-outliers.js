@@ -72,3 +72,32 @@ export function keepNonSpikeSql(price, prev, next) {
   return `NOT (${prev} IS NOT NULL AND ${next} IS NOT NULL AND ${prev} > 0 AND ${next} > 0 AND (` +
     `${price} < ${SPIKE_LOW_RATIO} * MIN(${prev}, ${next}) OR ${price} > ${SPIKE_HIGH_RATIO} * MAX(${prev}, ${next})))`;
 }
+
+// A live price that sits far below every other site's price for the SAME show
+// is treated as a feed glitch or placeholder, not a market (owner direction
+// 2026-11-02, after StubHub International read USD 50.59 for both Olivia Rodrigo
+// Atlanta nights while Vivid Seats and TicketNetwork read 364 to 482). It needs
+// at least two other prices in the same currency, so one site is never judged
+// against a single neighbour, and it only ever hides a price: the site's button
+// stays. Real gaps between sites are well inside this ratio.
+export const CROSS_SITE_LOW_RATIO = 0.25;
+
+/**
+ * @param {Array<{price: number|null, currency?: string}>} entries
+ * @returns {boolean[]} true where the entry's price should be hidden
+ */
+export function implausiblyLowAmongSites(entries) {
+  const list = Array.isArray(entries) ? entries : [];
+  return list.map((entry, index) => {
+    const price = Number(entry?.price);
+    if (!Number.isFinite(price) || price <= 0) return false;
+    const others = list
+      .filter((other, i) => i !== index && other?.currency === entry?.currency)
+      .map((other) => Number(other?.price))
+      .filter((value) => Number.isFinite(value) && value > 0)
+      .sort((a, b) => a - b);
+    if (others.length < 2) return false;
+    const mid = others.length % 2 ? others[(others.length - 1) / 2] : (others[others.length / 2 - 1] + others[others.length / 2]) / 2;
+    return price < CROSS_SITE_LOW_RATIO * mid;
+  });
+}

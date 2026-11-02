@@ -335,6 +335,18 @@ figures rely on the providers' off-site grant and its cross-city scope
 ([PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md), "Off-site use" and "One
 site, across cities, in a data story").
 
+`npm run stories:build -- --story tour-league` writes
+`/blog/which-us-tours-have-the-highest-ticket-prices` (owner decision
+2026-11-02, [PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md), "Relaxed
+data-story rules"): US tours ranked by the median of each date's lowest listed
+price across the three price sites, from the daily rollup in D1 (`--rows` for a
+saved result). Logic is in `scripts/lib/tour-league.mjs`: US dollars only,
+dates at least 7 days away, readings no older than 3 days, prices under $10 and
+prices far below the other sites dropped, 6+ dates per tour and 12+ tours.
+It prints the middle half of each tour's dates, the tour count and the date
+count. It is a snapshot, not a forecast. Run it from the `Tour league story`
+workflow (dispatch only; opens a draft PR, never auto-merged).
+
 ### Data & Insights engine: artist city research
 
 `npm run stories:build -- --story artist-cities --artist <slug>` is the first

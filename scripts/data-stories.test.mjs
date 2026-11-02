@@ -24,6 +24,7 @@ import {
   renderCityPricesPost,
   CITY_PRICE_GATE
 } from "./lib/data-stories.mjs";
+import { buildTourLeagueFigures, tourLeagueGate, renderTourLeaguePost, tourLeagueSql, percentile, TOUR_LEAGUE_GATE } from "./lib/tour-league.mjs";
 import { findFirstPersonPlural } from "./check-site-voice.mjs";
 
 let passed = 0;
@@ -235,5 +236,41 @@ assert(cityPost.includes("one tour per artist"), "the method states the one-tour
 assert(!cityPost.includes("TicketNetwork") && !cityPost.includes("StubHub"), "sites are never set against each other");
 assert(!/\b(cheapest|lowest price|will (?:fall|drop|rise)|best time|sold out)\b/i.test(cityPost), "the city-prices post makes no banned claim");
 assert(findFirstPersonPlural(cityPost).length === 0, "the city-prices post does not speak as \"we\"");
+
+// Tour league table: median of each date's lowest listed price, US only.
+const leagueArtists = [];
+const leagueEvents = [];
+const leagueRows = [];
+for (let a = 0; a < 13; a += 1) {
+  const slug = `league-${a}`;
+  leagueArtists.push({ slug, name: `League ${a}`, indexing_status: "indexable_with_substantial_content" });
+  for (let d = 0; d < 7; d += 1) {
+    const ev = event(slug, `2027-0${(d % 6) + 2}-1${d}T22:00:00Z`, { artist_name: `League ${a}`, city: `City ${d}`, venue: `Hall ${d}`, tour_name: `League ${a} Tour` });
+    leagueEvents.push(ev);
+    const base = 100 + a * 20 + d;
+    leagueRows.push({ artist_slug: slug, event_id: ev.id, provider: "vivid-seats", currency: "USD", observed_date: "2026-10-15", price: base + 10 });
+    leagueRows.push({ artist_slug: slug, event_id: ev.id, provider: "ticketnetwork", currency: "USD", observed_date: "2026-10-16", price: base });
+  }
+}
+// A glitch price far below the other sites, a non-US show and a final-week show must not count.
+const glitchEvent = leagueEvents[0];
+leagueRows.push({ artist_slug: "league-0", event_id: glitchEvent.id, provider: "stubhub-international", currency: "USD", observed_date: "2026-10-16", price: 12 });
+leagueRows.push({ artist_slug: "league-0", event_id: glitchEvent.id, provider: "vivid-seats", currency: "GBP", observed_date: "2026-10-16", price: 1 });
+const nonUs = event("league-0", "2027-02-01T22:00:00Z", { country: "Canada" });
+leagueEvents.push(nonUs);
+leagueRows.push({ artist_slug: "league-0", event_id: nonUs.id, provider: "ticketnetwork", currency: "USD", observed_date: "2026-10-16", price: 5000 });
+const lg = buildTourLeagueFigures(leagueRows, leagueEvents, leagueArtists, { now: NOW_MS });
+assert(lg.tourCount === 13 && lg.totalDates === 91, "every artist with 6+ US dates is counted, other countries are not");
+assert(lg.tours[0].slug === "league-12" && lg.tours.at(-1).slug === "league-0", "tours are ranked by median, highest first");
+assert(lg.tours.at(-1).median === 103, "the glitch price is dropped and the median uses each date's lowest site");
+assert(percentile([1, 2, 3, 4], 0.5) === 2.5 && percentile([5], 0.25) === 5, "percentiles interpolate");
+assert(tourLeagueGate(lg).length === 0, "13 tours clear the gate");
+assert(tourLeagueGate(buildTourLeagueFigures(leagueRows.slice(0, 20), leagueEvents, leagueArtists, { now: NOW_MS })).length > 0, "too few tours is refused");
+assert(buildTourLeagueFigures(leagueRows, leagueEvents, leagueArtists, { now: NOW_MS + 5 * 86400000 }).tourCount === 0, "readings older than 3 days are left out");
+assert(/where observed_date >= date\('2026-11-02'/i.test(tourLeagueSql("2026-11-02")) && TOUR_LEAGUE_GATE.minDatesPerTour === 6, "the query is dated and the gate is set");
+const leaguePost = renderTourLeaguePost(lg);
+assert(/^status: draft$/m.test(leaguePost), "a new league post is a draft");
+assert(leaguePost.includes("[League 12](/artists/league-12)") && leaguePost.includes("not a checkout total") && leaguePost.includes("not a forecast"), "the post links tours and carries the caveats");
+assert(findFirstPersonPlural(leaguePost).length === 0, "the league post does not speak as \"we\"");
 
 console.log(`data-stories: ${passed} assertions passed`);

@@ -60,6 +60,7 @@ import {
   CITY_PRICE_SLUG,
   CITY_PRICE_SQL
 } from "./lib/data-stories.mjs";
+import { TOUR_LEAGUE_SLUG, tourLeagueSql, buildTourLeagueFigures, tourLeagueGate, renderTourLeaguePost } from "./lib/tour-league.mjs";
 import { buildArtistCityFigures, artistCityGate, artistCitySlug, renderArtistCityPost, renderArtistCityPrPackage, renderArtistCityChart } from "./lib/artist-city-research.mjs";
 import { TOURS_HUB_YEAR } from "../functions/_tours-hub.js";
 import { isUpcomingShow } from "../functions/_upcoming.js";
@@ -79,8 +80,8 @@ const year = Number(argValue("--year") || TOURS_HUB_YEAR);
 const nowArg = argValue("--now");
 const now = nowArg ? Date.parse(nowArg) : Date.now();
 const checkOnly = process.argv.includes("--check");
-if (!["tour-map", "price-moves", "city-prices", "artist-cities"].includes(story) || !Number.isInteger(year) || !Number.isFinite(now)) {
-  console.error("data-story: --story must be tour-map, price-moves, city-prices or artist-cities, --year a year and --now an ISO instant");
+if (!["tour-map", "price-moves", "city-prices", "artist-cities", "tour-league"].includes(story) || !Number.isInteger(year) || !Number.isFinite(now)) {
+  console.error("data-story: --story must be tour-map, price-moves, city-prices, artist-cities or tour-league, --year a year and --now an ISO instant");
   process.exit(2);
 }
 
@@ -191,6 +192,16 @@ if (story === "tour-map") {
   await writeStory(
     PRICE_MOVES_SLUG,
     { text: renderPriceMovesPost(figures, existing), status: existing?.status === "published" ? "published" : "draft" },
+    { "figures.json": `${JSON.stringify(figures, null, 2)}\n` }
+  );
+} else if (story === "tour-league") {
+  const figures = buildTourLeagueFigures(await readD1Rows(tourLeagueSql(new Date(now).toISOString().slice(0, 10))), events, artists, { now });
+  console.log(`data-story: tour league, ${figures.tourCount} tours, ${figures.totalDates} dates, newest reading ${figures.newestReading}`);
+  stopIfGateFails(tourLeagueGate(figures));
+  const existing = await existingPost(TOUR_LEAGUE_SLUG);
+  await writeStory(
+    TOUR_LEAGUE_SLUG,
+    { text: renderTourLeaguePost(figures, existing), status: existing?.status === "published" ? "published" : "draft" },
     { "figures.json": `${JSON.stringify(figures, null, 2)}\n` }
   );
 } else if (story === "city-prices") {

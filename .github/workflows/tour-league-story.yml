@@ -1,0 +1,134 @@
+name: Tour league story
+
+# Dispatch only. Builds the US tour price league table
+# (`npm run stories:build -- --story tour-league`, docs/BLOG.md "Automated data
+# stories") from the daily price rollup in production D1 and opens one PR with
+# the result. It never publishes: a new post is `status: draft` (no page, no
+# sitemap entry) until a person sets `status: published`, and the PR is not
+# auto-merged. The build refuses (exit 1, nothing written) when fewer than 12
+# tours have 6+ priced US dates. Writes no event data.
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Build and check without opening a PR'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tour-league-story
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.repository == 'olstaylor/tourticketcompare'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+    steps:
+      - name: Checkout trusted main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Build the league table
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          npm run stories:build -- --story tour-league | tee "$RUNNER_TEMP/league.log"
+          {
+            echo "### Tour league story"
+            tail -n 3 "$RUNNER_TEMP/league.log"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Compile content and refresh provenance
+        id: compile
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain --untracked-files=all)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Nothing changed." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          npm run blog:build
+          npm run og:build
+          npm run content:provenance
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Assert the diff contains only league story files
+        if: steps.compile.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          bad=$(git status --porcelain=v1 --untracked-files=all | cut -c4- | grep -Ev \
+            '^(content/blog/which-us-tours-have-the-highest-ticket-prices\.md|reports/data-stories/which-us-tours-have-the-highest-ticket-prices/figures\.json|public/data/blog-content\.json|data/content-provenance\.json|functions/_og-cards\.generated\.js|public/og/[a-z0-9-]+\.png)$' || true)
+          if [ -n "$bad" ]; then
+            echo "::error::unexpected changes, nothing committed:"
+            printf '%s\n' "$bad"
+            exit 1
+          fi
+          echo "diff allowlist OK"
+
+      - name: Validate the content
+        if: steps.compile.outputs.changed == 'true'
+        run: |
+          npm run blog:check
+          npm run content:provenance:check
+          git diff --check
+
+      - name: Prepare publishing identity
+        id: publishing-identity
+        if: steps.compile.outputs.changed == 'true' && inputs.dry_run != true
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open the league story PR
+        if: steps.compile.outputs.changed == 'true' && inputs.dry_run != true
+        timeout-minutes: 10
+        env:
+          GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          BRANCH="automation/tour-league-story-$(date -u +%Y-%m-%d)-${GITHUB_RUN_ID}"
+          git config user.name "tourticketcompare-bot"
+          git config user.email "tourticketcompare-bot@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add -A content/blog reports/data-stories public/data/blog-content.json data/content-provenance.json functions/_og-cards.generated.js public/og
+          git commit -m "content: US tour price league table"
+          node scripts/push-automation-branch.mjs "$BRANCH"
+          BRANCH="$BRANCH" \
+          PR_TITLE="US tour price league table (draft)" \
+          PR_BODY="$(printf '## US tour price league table\nBuilt from the daily price rollup by `npm run stories:build -- --story tour-league`, behind its 12-tour gate. It is `status: draft`: no page until a person sets `status: published`. Not auto-merged.\n')" \
+          node scripts/open-automation-pr.mjs
+
+      - name: Keep the built files for review
+        if: always() && inputs.dry_run == true
+        uses: actions/upload-artifact@v4
+        with:
+          name: tour-league-story
+          path: |
+            content/blog/which-us-tours-have-the-highest-ticket-prices.md
+            reports/data-stories/which-us-tours-have-the-highest-ticket-prices/
+          retention-days: 14
+          if-no-files-found: ignore

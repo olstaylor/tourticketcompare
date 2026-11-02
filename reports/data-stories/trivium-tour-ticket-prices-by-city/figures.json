@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-11-01",
+  "asOf": "2026-11-02",
   "artistSlug": "trivium",
   "artist": "Trivium",
   "artistPageIndexable": true,
@@ -11,8 +11,8 @@
   "siteLabel": "TicketNetwork",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-11-01T07:34:48.178Z",
-  "capturedTo": "2026-11-01T07:39:32.386Z",
+  "capturedFrom": "2026-11-01T23:39:14.174Z",
+  "capturedTo": "2026-11-02T16:02:47.513Z",
   "tourDates": 32,
   "coverage": {
     "marketCities": 28,
@@ -41,7 +41,7 @@
     "localDate": "2026-12-04",
     "price": 21.85,
     "currency": "USD",
-    "capturedAt": "2026-11-01T07:39:30.215Z"
+    "capturedAt": "2026-11-02T06:12:51.202Z"
   },
   "high": {
     "city": "Tulsa",
@@ -51,9 +51,9 @@
     "localDate": "2026-12-15",
     "price": 105.8,
     "currency": "USD",
-    "capturedAt": "2026-11-01T07:39:31.711Z"
+    "capturedAt": "2026-11-02T16:02:47.513Z"
   },
-  "median": 62.1,
+  "median": 65.55,
   "ratio": 4.8,
   "cities": [
     {
@@ -64,7 +64,7 @@
       "localDate": "2026-12-04",
       "price": 21.85,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:30.215Z",
+      "capturedAt": "2026-11-02T06:12:51.202Z",
       "path": "/artists/trivium/tickets/inglewood-united-states"
     },
     {
@@ -75,8 +75,19 @@
       "localDate": "2026-11-28",
       "price": 41.4,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:29.489Z",
+      "capturedAt": "2026-11-02T06:12:50.315Z",
       "path": "/artists/trivium/tickets/houston-united-states"
+    },
+    {
+      "city": "Silver Spring",
+      "country": "United States",
+      "venue": "The Fillmore Silver Spring",
+      "eventId": "tm-trivium-2026-silver-spring-17a8v0g6cngp9y6",
+      "localDate": "2026-11-10",
+      "price": 44.85,
+      "currency": "USD",
+      "capturedAt": "2026-11-02T06:12:40.146Z",
+      "path": "/artists/trivium/tickets/silver-spring-united-states"
     },
     {
       "city": "Grand Rapids",
@@ -86,7 +97,7 @@
       "localDate": "2026-11-08",
       "price": 46,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:25.542Z",
+      "capturedAt": "2026-11-02T06:12:39.061Z",
       "path": "/artists/trivium/tickets/grand-rapids-united-states"
     },
     {
@@ -97,7 +108,7 @@
       "localDate": "2026-12-02",
       "price": 48.3,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:29.998Z",
+      "capturedAt": "2026-11-02T06:12:50.985Z",
       "path": "/artists/trivium/tickets/phoenix-united-states"
     },
     {
@@ -108,19 +119,8 @@
       "localDate": "2026-11-20",
       "price": 48.3,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:28.683Z",
+      "capturedAt": "2026-11-02T06:12:48.858Z",
       "path": "/artists/trivium/tickets/royal-oak-united-states"
-    },
-    {
-      "city": "Silver Spring",
-      "country": "United States",
-      "venue": "The Fillmore Silver Spring",
-      "eventId": "tm-trivium-2026-silver-spring-17a8v0g6cngp9y6",
-      "localDate": "2026-11-10",
-      "price": 54.05,
-      "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:26.308Z",
-      "path": "/artists/trivium/tickets/silver-spring-united-states"
     },
     {
       "city": "Atlanta",
@@ -128,9 +128,9 @@
       "venue": "The Eastern-GA",
       "eventId": "tm-trivium-2026-atlanta-z7r9jz1aazdby",
       "localDate": "2026-11-06",
-      "price": 56.35,
+      "price": 54.05,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:25.213Z",
+      "capturedAt": "2026-11-02T06:12:37.393Z",
       "path": "/artists/trivium/tickets/atlanta-united-states"
     },
     {
@@ -141,7 +141,7 @@
       "localDate": "2026-11-29",
       "price": 58.65,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:29.708Z",
+      "capturedAt": "2026-11-02T06:12:50.713Z",
       "path": "/artists/trivium/tickets/dallas-united-states"
     },
     {
@@ -152,7 +152,7 @@
       "localDate": "2026-11-05",
       "price": 59.8,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:24.943Z",
+      "capturedAt": "2026-11-02T06:12:37.073Z",
       "path": "/artists/trivium/tickets/st-petersburg-united-states"
     },
     {
@@ -163,7 +163,7 @@
       "localDate": "2026-12-19",
       "price": 62.1,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:32.386Z",
+      "capturedAt": "2026-11-01T23:39:14.660Z",
       "path": "/artists/trivium/tickets/charlotte-united-states"
     },
     {
@@ -174,19 +174,8 @@
       "localDate": "2026-12-03",
       "price": 62.1,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:34:48.379Z",
+      "capturedAt": "2026-11-01T23:40:27.946Z",
       "path": "/artists/trivium/tickets/las-vegas-united-states"
-    },
-    {
-      "city": "Philadelphia",
-      "country": "United States",
-      "venue": "Franklin Music Hall",
-      "eventId": "tm-trivium-2026-philadelphia-z7r9jz1aazdbv",
-      "localDate": "2026-11-14",
-      "price": 62.1,
-      "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:27.573Z",
-      "path": "/artists/trivium/tickets/philadelphia-united-states"
     },
     {
       "city": "Denver",
@@ -196,8 +185,19 @@
       "localDate": "2026-12-13",
       "price": 65.55,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:31.427Z",
+      "capturedAt": "2026-11-01T23:39:14.174Z",
       "path": "/artists/trivium/tickets/denver-united-states"
+    },
+    {
+      "city": "Philadelphia",
+      "country": "United States",
+      "venue": "Franklin Music Hall",
+      "eventId": "tm-trivium-2026-philadelphia-z7r9jz1aazdbv",
+      "localDate": "2026-11-14",
+      "price": 66.7,
+      "currency": "USD",
+      "capturedAt": "2026-11-02T06:12:47.353Z",
+      "path": "/artists/trivium/tickets/philadelphia-united-states"
     },
     {
       "city": "Chicago",
@@ -207,7 +207,7 @@
       "localDate": "2026-11-21",
       "price": 72.45,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:28.990Z",
+      "capturedAt": "2026-11-02T06:12:49.747Z",
       "path": "/artists/trivium/tickets/chicago-united-states"
     },
     {
@@ -218,7 +218,7 @@
       "localDate": "2026-12-16",
       "price": 72.45,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:31.930Z",
+      "capturedAt": "2026-11-01T23:39:14.386Z",
       "path": "/artists/trivium/tickets/omaha-united-states"
     },
     {
@@ -229,7 +229,7 @@
       "localDate": "2026-11-12",
       "price": 82.8,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:27.313Z",
+      "capturedAt": "2026-11-02T06:12:45.833Z",
       "path": "/artists/trivium/tickets/new-york-united-states"
     },
     {
@@ -240,7 +240,7 @@
       "localDate": "2026-12-05",
       "price": 82.8,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:30.478Z",
+      "capturedAt": "2026-11-02T06:12:51.433Z",
       "path": "/artists/trivium/tickets/san-francisco-united-states"
     },
     {
@@ -251,7 +251,7 @@
       "localDate": "2026-12-18",
       "price": 85.1,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:32.140Z",
+      "capturedAt": "2026-11-01T23:39:14.556Z",
       "path": "/artists/trivium/tickets/pittsburgh-united-states"
     },
     {
@@ -262,7 +262,7 @@
       "localDate": "2026-11-27",
       "price": 87.4,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:34:48.178Z",
+      "capturedAt": "2026-11-01T23:40:27.862Z",
       "path": "/artists/trivium/tickets/san-antonio-united-states"
     },
     {
@@ -273,7 +273,7 @@
       "localDate": "2026-12-09",
       "price": 92,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:31.207Z",
+      "capturedAt": "2026-11-02T16:01:45.085Z",
       "path": "/artists/trivium/tickets/seattle-united-states"
     },
     {
@@ -284,7 +284,7 @@
       "localDate": "2026-11-22",
       "price": 94.3,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:29.261Z",
+      "capturedAt": "2026-11-02T06:12:50.041Z",
       "path": "/artists/trivium/tickets/madison-united-states"
     },
     {
@@ -295,7 +295,7 @@
       "localDate": "2026-11-11",
       "price": 103.5,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:26.848Z",
+      "capturedAt": "2026-11-02T06:12:42.916Z",
       "path": "/artists/trivium/tickets/new-haven-united-states"
     },
     {
@@ -306,7 +306,7 @@
       "localDate": "2026-12-15",
       "price": 105.8,
       "currency": "USD",
-      "capturedAt": "2026-11-01T07:39:31.711Z",
+      "capturedAt": "2026-11-02T16:02:47.513Z",
       "path": "/artists/trivium/tickets/tulsa-united-states"
     }
   ]

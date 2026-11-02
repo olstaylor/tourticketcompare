@@ -310,7 +310,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-phoenix-arizona-11-05-2026/event/190064AEE2E28037",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -348,13 +348,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-22T17:00:00Z",
-        "end": "2026-11-01T19:00:00Z"
-      }
     ]
   },
   {

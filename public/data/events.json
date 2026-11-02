@@ -48592,7 +48592,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-sacramento-golden-1-center-11-11-2026--concerts-rb/production/6912016",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-sacramento-california-11-11-2026/event/1C00648DF18D8FCC",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -48653,11 +48653,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883122/Teddy-Swims-tickets-Wed-Nov-11-2026-Golden-1-Center",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-sacramento-tickets-11-11-2026/event/107158278",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-04-24T17:00:00Z",
-        "end": "2026-11-02T06:00:00Z"
-      },
       {
         "name": "T-Mobile® Reserved Tickets",
         "start": "2026-10-11T16:00:00Z",
@@ -53886,7 +53881,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-phoenix-mortgage-matchup-center-11-8-2026/production/7047748",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-phoenix-arizona-11-08-2026/event/190064AFC8167E0A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -53946,13 +53941,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976491",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976491/Don-Omar-tickets-Sun-Nov-8-2026-Mortgage-Matchup-Center",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-phoenix-tickets-11-8-2026/event/107189122",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-22T17:00:00Z",
-        "end": "2026-11-02T00:00:00Z"
-      }
-    ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ]
@@ -63715,7 +63703,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-15-2026--concerts-pop/production/7347496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-vancouver-british-columbia-11-15-2026/event/110064F6FEA517B5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -63775,11 +63763,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164819",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164819/Tyla-tickets-Sun-Nov-15-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
     "presales": [
-      {
-        "name": "Amex Reserved Tickets",
-        "start": "2026-07-31T17:00:00Z",
-        "end": "2026-11-02T05:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-07-31T17:00:00Z",
@@ -67376,7 +67359,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-grand-rapids-michigan-11-08-2026/event/080064E8ECCDBF7C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -67428,18 +67411,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151245",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151245/Trivium-tickets-Sun-Nov-8-2026-GLC-Live-at-20-Monroe",
-    "presales": [
-      {
-        "name": "In Flames VIP Packages Onsale",
-        "start": "2026-07-24T14:00:00Z",
-        "end": "2026-11-02T04:55:00Z"
-      },
-      {
-        "name": "Trivium VIP Packages Onsale",
-        "start": "2026-07-24T14:00:00Z",
-        "end": "2026-11-02T04:55:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -101680,7 +101651,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-uncasville-connecticut-11-29-2026/event/1D006509FAC26ED1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -101730,13 +101701,6 @@
     "ticketmaster_discovery_event_id": "G5vVZ_8EBYJDo",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-02T03:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255056",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255056/Trans-Siberian-Orchestra-tickets-Sun-Nov-29-2026-Mohegan-Sun-Arena-CT"
   },
@@ -101756,7 +101720,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-seattle-washington-11-29-2026/event/0F00650EA2EC8956",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -101807,11 +101771,6 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T17:00:00Z",
-        "end": "2026-11-02T06:00:00Z"
-      },
       {
         "name": "T-Mobile Offer",
         "start": "2026-09-18T17:00:00Z",
@@ -161888,7 +161847,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-jonesboro-first-national-bank-arena-11-8-2026--concerts-country-and-folk/production/6948987",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-jonesboro-arkansas-11-08-2026/event/1B006482E94BDF34",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -161939,13 +161898,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906855",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-01T14:00:00Z",
-        "end": "2026-11-02T04:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7906855/The-Red-Clay-Strays-tickets-Sun-Nov-8-2026-First-National-Bank-Arena",
     "organizer_names": [
       "AEG LIVE"
@@ -165415,7 +165367,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-napa-uptown-theatre-napa-11-8-2026--concerts-rock/production/7170026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -165466,14 +165418,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056807",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056807/Daughtry-tickets-Sun-Nov-8-2026-Uptown-Theatre-Napa",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-19T17:00:00Z",
-        "end": "2026-11-02T06:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056807/Daughtry-tickets-Sun-Nov-8-2026-Uptown-Theatre-Napa"
   },
   {
     "id": "tm-daughtry-2026-anaheim-vvg10z_grix-n9",
@@ -178813,7 +178758,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-18-2027/production/7618196",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-18-2027/event/01006531A109FD2C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178850,11 +178795,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "Eastern Propane Ticket Offer",
-        "start": "2026-10-01T14:00:00Z",
-        "end": "2026-11-02T03:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-02T14:00:00Z",
@@ -183658,7 +183598,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-4-2026--concerts-rock/production/6690373",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-04-2026/event/09006443CD5C89D1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -183715,13 +183655,6 @@
     "ticketmaster_discovery_event_id": "vv1AaZkodGkdu9FEo",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-02-26T19:00:00Z",
-        "end": "2026-11-02T06:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748324",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748324/The-Neighbourhood-tickets-Fri-Dec-4-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-4-2026/event/107123115",
@@ -232627,7 +232560,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/live-105-presents-the-smashing-pumpkins-san-jose-california-11-08-2026/event/1C0064AEFCB78A38",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -232663,13 +232596,6 @@
     "ticketmaster_discovery_event_id": "G5vYZ_1DHczIz",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-21T17:00:00Z",
-        "end": "2026-11-02T06:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -240613,7 +240539,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-denver-ball-arena-11-22-2026--concerts-rock/production/7022115",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-denver-colorado-11-22-2026/event/1E0064A4E2714602",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -240664,11 +240590,6 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-15T16:00:00Z",
-        "end": "2026-11-02T00:00:00Z"
-      },
       {
         "name": "AARP Member Offer",
         "start": "2026-08-28T17:00:00Z",
@@ -257453,7 +257374,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-detroit-michigan-11-01-2026/event/0800626482020F30",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -257508,13 +257429,6 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "Preferred Seating Offer",
-        "start": "2025-03-14T14:00:00Z",
-        "end": "2026-11-02T02:00:00Z"
-      }
     ]
   },
   {
@@ -258587,7 +258501,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-nashville-bridgestone-arena-11-5-2026--concerts-pop/production/7446274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-nashville-tennessee-11-05-2026/event/1B00650D13C6A27C",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -258641,13 +258555,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214353/Jonas-Brothers-tickets-Thu-Nov-5-2026-Bridgestone-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T15:00:00Z",
-        "end": "2026-11-01T18:00:00Z"
-      }
     ]
   },
   {
@@ -270991,7 +270898,7 @@
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-houston-713-music-hall-11-5-2026--concerts-rap-hip-hop/production/7079513",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-houston-texas-11-05-2026/event/3A0064B49C099594",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -271044,13 +270951,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997050/Arcangel-tickets-Thu-Nov-5-2026-713-Music-Hall",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-28T15:00:00Z",
-        "end": "2026-11-01T18:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997050"
   },
@@ -280151,7 +280051,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-phoenix-arizona-11-05-2026/event/190064AEE2E28037",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280189,13 +280089,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-22T17:00:00Z",
-        "end": "2026-11-01T19:00:00Z"
-      }
     ]
   },
   {
@@ -283831,7 +283724,7 @@
     "vividseats_url": "https://www.vividseats.com/young-miko-tickets-brooklyn-barclays-center-11-5-2026--concerts-latin-music/production/6872936",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/young-miko-late-checkout-tour-brooklyn-new-york-11-05-2026/event/3000648292EF3C31",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -283892,13 +283785,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860535/Young-Miko-tickets-Thu-Nov-5-2026-Barclays-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-10T14:00:00Z",
-        "end": "2026-11-01T17:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7860535"
   },
@@ -285243,7 +285129,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-baltimore-nevermore-hall-11-8-2026/production/7163672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-baltimore-maryland-11-08-2026/event/150064C8BFE8B9F5",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -285296,13 +285182,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053963/Sleeping-With-Sirens-tickets-Sun-Nov-8-2026-Nevermore-Hall",
     "organizer_names": [
       "LIVE NATION - NO LN CONCERTS BRANDING"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-18T14:00:00Z",
-        "end": "2026-11-02T03:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053963"
   },
@@ -301082,7 +300961,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-tampa-yuengling-center-11-8-2026--concerts-pop/production/7540276",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-tampa-florida-11-08-2026/event/0D006528C1F1AD5E",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -301146,11 +301025,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-09-16T14:00:00Z",
-        "end": "2026-11-02T03:00:00Z"
-      },
       {
         "name": "2 for $50",
         "start": "2026-10-23T14:00:00Z",
@@ -307366,7 +307240,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-virginia-beach-virginia-11-05-2026/event/010064C3044DC52B",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -307420,13 +307294,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034496/Little-Big-Town-tickets-Thu-Nov-5-2026-The-Dome-by-Rutter-Mills",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-12T14:00:00Z",
-        "end": "2026-11-02T03:00:00Z"
-      }
     ]
   },
   {
@@ -345665,7 +345532,7 @@
     "vividseats_url": "https://www.vividseats.com/lady-a-tickets-greensboro-steven-tanger-center-for-the-performing-arts-12-19-2026/production/7132085",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-greensboro-north-carolina-12-19-2026/event/2D0064C2EBD42568",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -345722,11 +345589,6 @@
         "name": "VIP Packages Public Onsale",
         "start": "2026-06-12T14:00:00Z",
         "end": "2026-12-12T22:00:00Z"
-      },
-      {
-        "name": "Halloween Offer",
-        "start": "2026-10-27T14:00:00Z",
-        "end": "2026-11-02T03:00:00Z"
       }
     ]
   },
@@ -345884,7 +345746,7 @@
     "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-birmingham-utilita-arena-birmingham-11-27-2026/production/7587257",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-birmingham-27-11-2026/event/23006531F4B02471",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -345943,7 +345805,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284511",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284511/Mariah-Carey-tickets-Fri-Nov-27-2026-Utilita-Arena-Birmingham",
-    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-birmingham-utilita-arena-birmingham-27-11-2026/event/107669566"
+    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-birmingham-utilita-arena-birmingham-27-11-2026/event/107669566",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-mariah-carey-2026-london-1agzkfsgkdzymm6",
@@ -345961,7 +345826,7 @@
     "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-london-the-o2---london-11-30-2026/production/7587213",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-london-30-11-2026/event/35006531F8C37B87",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346004,7 +345869,10 @@
     "ticketmaster_discovery_event_id": "1AgZkfsGkdzYMm6",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-london-the-o2-arena-30-11-2026/event/107669567"
+    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-london-the-o2-arena-30-11-2026/event/107669567",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-mariah-carey-2026-manchester-1amzkfsgkejdwkf",
@@ -346022,7 +345890,7 @@
     "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-manchester-co-op-live-12-2-2026/production/7587211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-manchester-02-12-2026/event/37006531A6EF24D4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346081,7 +345949,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276812",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8276812/Mariah-Carey-tickets-Wed-Dec-2-2026-Co-Op-Live",
-    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-manchester-co-op-live-2-12-2026/event/107669568"
+    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-manchester-co-op-live-2-12-2026/event/107669568",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-sting-2026-akron-vv1aazkobgkdpsd9k",
@@ -346205,7 +346077,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-cincinnati-andrew-j-brady-icon-music-center-11-4-2026--concerts-adult-contemporary/production/6727892",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-cincinnati-ohio-11-04-2026/event/16006457ABA38C33",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346248,7 +346120,10 @@
     "ticketmaster_discovery_event_id": "1ApZko9GkelIzYS",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772522"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772522",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-sting-2026-pittsburgh-1avbz_kgkwesf_t",
@@ -346266,7 +346141,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-pittsburgh-citizens-live-at-the-wylie-11-6-2026--concerts-adult-contemporary/production/6789515",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-pittsburgh-pennsylvania-11-06-2026/event/1600646C82CD467F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346317,7 +346192,22 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808971",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808971/Sting-tickets-Fri-Nov-6-2026-Citizens-Live-at-The-Wylie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808971/Sting-tickets-Fri-Nov-6-2026-Citizens-Live-at-The-Wylie",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-20T14:00:00Z",
+        "end": "2026-11-02T17:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-20T14:00:00Z",
+        "end": "2026-11-03T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-pittsburgh-1avbz_kgkwscsdv",
@@ -346335,7 +346225,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-pittsburgh-citizens-live-at-the-wylie-11-7-2026/production/6810223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-pittsburgh-pennsylvania-11-07-2026/event/1600646F733B1EC1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346386,7 +346276,22 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827443",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827443/Sting-tickets-Sat-Nov-7-2026-Citizens-Live-at-The-Wylie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827443/Sting-tickets-Sat-Nov-7-2026-Citizens-Live-at-The-Wylie",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-27T14:00:00Z",
+        "end": "2026-11-03T17:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-27T14:00:00Z",
+        "end": "2026-11-04T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-wallingford-g5vvz_ajjscmb",
@@ -346404,7 +346309,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-wallingford-toyota-oakdale-theatre-11-9-2026--concerts-adult-contemporary/production/6727894",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-wallingford-connecticut-11-09-2026/event/1D0064599CCEDDD8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346455,7 +346360,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772524",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772524/Sting-tickets-Mon-Nov-9-2026-Toyota-Oakdale-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772524/Sting-tickets-Mon-Nov-9-2026-Toyota-Oakdale-Theatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-05T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7nwya",
@@ -346473,7 +346388,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-11-2026--concerts-adult-contemporary/production/6727899",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-11-2026/event/0000645905ABDC05",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346532,7 +346447,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772527",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772527/Sting-tickets-Wed-Nov-11-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-11-2026/event/107140086"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-11-2026/event/107140086",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-07T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7lcyc",
@@ -346550,7 +346475,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-12-2026--concerts-adult-contemporary/production/6727904",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-12-2026/event/0000645905AEDC0E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346609,7 +346534,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772528",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772528/Sting-tickets-Thu-Nov-12-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-12-2026/event/107140085"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-12-2026/event/107140085",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-08T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7icyq",
@@ -346627,7 +346562,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-14-2026--concerts-adult-contemporary/production/6727910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-14-2026/event/0000645905B2DC1A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346686,7 +346621,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772529",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772529/Sting-tickets-Sat-Nov-14-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-14-2026/event/107140084"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-14-2026/event/107140084",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-10T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7twrb",
@@ -346704,7 +346649,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-15-2026--concerts-adult-contemporary/production/6727916",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-15-2026/event/0000645905A7DBFA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346763,7 +346708,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772530",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772530/Sting-tickets-Sun-Nov-15-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-15-2026/event/107140083"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-15-2026/event/107140083",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-11T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7tury",
@@ -346781,7 +346736,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-17-2026--concerts-adult-contemporary/production/6727921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-17-2026/event/0000645905A4DBF0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346840,7 +346795,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772531",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772531/Sting-tickets-Tue-Nov-17-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-17-2026/event/107140082"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-17-2026/event/107140082",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-13T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7iure",
@@ -346858,7 +346823,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-18-2026--concerts-adult-contemporary/production/6727928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-18-2026/event/0000645905A0DBE7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346917,7 +346882,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772532",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772532/Sting-tickets-Wed-Nov-18-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-18-2026/event/107140081"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-18-2026/event/107140081",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-14T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v1ako_v_zaccg27",
@@ -346935,7 +346910,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-20-2026/production/7620571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-20-2026/event/00006459059DDBE3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346994,7 +346969,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294252",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294252/Sting-tickets-Fri-Nov-20-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-20-2026/event/107670634"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-20-2026/event/107670634",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2026-11-16T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v1ako_v_za5cgcc",
@@ -347012,7 +346997,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-21-2026/production/7620569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-21-2026/event/00006459059ADBDD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -347071,7 +347056,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294253",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294253/Sting-tickets-Sat-Nov-21-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-21-2026/event/107670637"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-21-2026/event/107670637",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2026-11-17T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-orlando-1aefz_fgklnyeh_",
@@ -347166,7 +347161,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-relocated-to-hard-tampa-florida-11-24-2026/event/0D00625B34E94E78",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -347217,7 +347212,15 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8249211",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8249211/Sting-tickets-Tue-Nov-24-2026-Seminole-Hard-Rock-Tampa-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8249211/Sting-tickets-Tue-Nov-24-2026-Seminole-Hard-Rock-Tampa-Event-Center",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Official Platinum",
+        "start": "2025-03-21T14:00:00Z",
+        "end": "2026-11-25T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-hollywood-vvg1vz_8wi3ad6",
@@ -347312,7 +347315,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-4-2027/production/7696930",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-04-2027/event/39006549AD057B22",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -347371,7 +347374,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319776",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319776/Sting-tickets-Thu-Mar-4-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-4-2027/event/107674835"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-4-2027/event/107674835",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecemih",
@@ -347389,7 +347399,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-6-2027/production/7696920",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-06-2027/event/39006549AD0B7B3C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -347448,7 +347458,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319777",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319777/Sting-tickets-Sat-Mar-6-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-6-2027/event/107674836"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-6-2027/event/107674836",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec79cl",
@@ -347466,7 +347483,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-7-2027/production/7696922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-07-2027/event/39006549AD117B5F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -347525,7 +347542,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319778",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319778/Sting-tickets-Sun-Mar-7-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-7-2027/event/107674154"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-7-2027/event/107674154",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecamcg",
@@ -347543,7 +347567,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-10-2027/production/7696916",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-10-2027/event/39006549AD177B75",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -347602,7 +347626,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319779",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319779/Sting-tickets-Wed-Mar-10-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-10-2027/event/107674837"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-10-2027/event/107674837",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec6msw",
@@ -347620,7 +347651,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-12-2027--concerts-adult-contemporary/production/7697050",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-12-2027/event/39006549AD1F7C7D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -347679,7 +347710,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319780",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319780/Sting-tickets-Fri-Mar-12-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-12-2027/event/107674155"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-12-2027/event/107674155",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-gliwice-z698xzqpz1kckp0pa",
@@ -347697,7 +347735,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/sting-30-tour-tickets/386964585?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -347732,7 +347770,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1kCkP0pA",
     "timezone": "Europe/Warsaw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation sp. z o.o."
+    ]
   },
   {
     "id": "tm-sting-2027-gdansk-sopot-z698xzqpz16vv6c7f6",
@@ -347750,7 +347791,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/sting-30-tour-tickets/1047384207?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -347785,7 +347826,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16vv6C7F6",
     "timezone": "Europe/Warsaw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation sp. z o.o."
+    ]
   },
   {
     "id": "tm-sting-2027-krakow-z698xzqpz16evtf6jd",
@@ -347803,7 +347847,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/sting-30-tour-tickets/2069207703?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -347838,7 +347882,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16evtF6jd",
     "timezone": "Europe/Warsaw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation sp. z o.o."
+    ]
   },
   {
     "id": "tm-sting-2027-odz-z698xzqpz1k06xapf",
@@ -347856,7 +347903,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/sting-30-tour-tickets/907885954?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -347899,7 +347946,10 @@
     "ticketmaster_discovery_event_id": "Z698xZQpZ1k06xAPf",
     "timezone": "Europe/Warsaw",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-tickets-lodz-atlas-arena-10-6-2027/event/107675353"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-tickets-lodz-atlas-arena-10-6-2027/event/107675353",
+    "organizer_names": [
+      "Live Nation sp. z o.o."
+    ]
   },
   {
     "id": "tm-sting-2027-magdeburg-z698xzc2z16vzxvefv",
@@ -347917,7 +347967,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/1022042201?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -347952,7 +348002,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vZxveFv",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MAWI Concert GmbH"
+    ]
   },
   {
     "id": "tm-sting-2027-rastatt-z698xzc2z1ke30sgb",
@@ -347970,7 +348023,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/92931318?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -348005,7 +348058,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1ke30sGb",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Provinztour Konzert- und Theateragentur GmbH & Co.KG"
+    ]
   },
   {
     "id": "tm-sting-2027-hemer-z698xzc2z16vagofpv",
@@ -348023,7 +348079,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-hemer-sauerlandpark-hemer-6-20-2027/production/7723029",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/1275448941?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -348058,7 +348114,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vagoFPv",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Goldrush Productions GmbH"
+    ]
   },
   {
     "id": "tm-sting-2027-fulda-z698xzc2z16v1vjxok",
@@ -348076,7 +348135,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-fulda-domplatz-fulda-6-26-2027/production/7727422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/1281722453?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -348119,7 +348178,10 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v1vjxoK",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-tickets-fulda-domplatz-fulda-26-6-2027/event/107675401"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-tickets-fulda-domplatz-fulda-26-6-2027/event/107675401",
+    "organizer_names": [
+      "Provinztour Konzert- und Theateragentur GmbH & Co.KG"
+    ]
   },
   {
     "id": "tm-sting-2027-konstanz-z698xzc2z1kjfov_n",
@@ -348137,7 +348199,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-konstanz-festplatz-klein-venedig-6-27-2027/production/7723021",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/714441663?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -348172,7 +348234,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kjfov_N",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Vaddi Concerts GmbH"
+    ]
   },
   {
     "id": "tm-sting-2027-klagenfurt-z698xz5rz1kgyvv34",
@@ -348190,7 +348255,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/sting-30-tour-tickets/330074495?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -348225,7 +348290,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ5rZ1kGYvV34",
     "timezone": "Europe/Vienna",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Austria GmbH"
+    ]
   },
   {
     "id": "tm-sting-2027-verona-zg9rmiynyzf61a",
@@ -348296,7 +348364,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-14-2027/production/7696924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-14-2027/event/39006549AD257CAC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -348355,7 +348423,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319784",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319784/Sting-tickets-Thu-Oct-14-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-14-2027/event/107674256"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-14-2027/event/107674256",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec1mvn",
@@ -348373,7 +348448,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-16-2027/production/7696918",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-16-2027/event/39006549AD2B7D2A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -348432,7 +348507,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319785",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319785/Sting-tickets-Sat-Oct-16-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-16-2027/event/107674257"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-16-2027/event/107674257",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecg6m7",
@@ -348450,7 +348532,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-17-2027/production/7696934",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-17-2027/event/39006549AD307DC4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -348509,7 +348591,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319786",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319786/Sting-tickets-Sun-Oct-17-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-17-2027/event/107674934"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-17-2027/event/107674934",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecumyj",
@@ -348527,7 +348616,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-20-2027/production/7696928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-20-2027/event/39006549AD377E5C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -348586,7 +348675,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319788",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319788/Sting-tickets-Wed-Oct-20-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-20-2027/event/107674935"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-20-2027/event/107674935",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec2mbz",
@@ -348604,7 +348700,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-22-2027/production/7696932",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-22-2027/event/39006549AD3F7E80",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -348663,7 +348759,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319789",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319789/Sting-tickets-Fri-Oct-22-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-22-2027/event/107674936"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-22-2027/event/107674936",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecoebs",
@@ -348681,7 +348784,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-23-2027/production/7696938",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-23-2027/event/39006549AD467EB1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -348740,7 +348843,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319790",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319790/Sting-tickets-Sat-Oct-23-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-23-2027/event/107674258"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-23-2027/event/107674258",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2026-adelaide-17a8v0g6cj0fp2t",
@@ -348758,7 +348868,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/queens-of-the-stone-age-adelaide-08-12-2026/event/250064E9A45253E9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -348793,7 +348903,10 @@
     },
     "ticketmaster_discovery_event_id": "17a8v0G6CJ0fP2t",
     "timezone": "Australia/Adelaide",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2026-glenorchy-177yv0g6cla9khl",
@@ -348811,7 +348924,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/queens-of-the-stone-age-glenorchy-11-12-2026/event/130064E7C55D3F2B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -348846,7 +348959,10 @@
     },
     "ticketmaster_discovery_event_id": "177Yv0G6CLA9KHl",
     "timezone": "Australia/Hobart",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2026-auckland-17azv0g6cjw0kgn",
@@ -348864,7 +348980,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/queens-of-the-stone-age-auckland-20-12-2026/event/240064E9BD91332A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -348915,7 +349031,10 @@
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173263",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173263/Queens-of-the-Stone-Age-tickets-Sun-Dec-20-2026-Spark-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173263/Queens-of-the-Stone-Age-tickets-Sun-Dec-20-2026-Spark-Arena",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-san-diego-vvg1iz_4c-ppva",
@@ -348933,7 +349052,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-san-diego-california-05-01-2027/event/0A006553A1965D05",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -348976,7 +349095,10 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_4C-PPVA",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337028"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337028",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-inglewood-vv1k0z_48eg7ij9v",
@@ -348994,7 +349116,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-inglewood-kia-forum-5-2-2027--concerts-rock/production/7744650",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-inglewood-california-05-02-2027/event/0900655402A265F4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -349053,7 +349175,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337029",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337029/Queens-of-the-Stone-Age-tickets-Sun-May-2-2027-The-Kia-Forum",
-    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-inglewood-tickets-5-2-2027/event/107678044"
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-inglewood-tickets-5-2-2027/event/107678044",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-oakland-g5vyz_4k7itnp",
@@ -349071,7 +349196,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-oakland-oakland-arena-5-4-2027--concerts-rock/production/7744654",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-oakland-california-05-04-2027/event/1C006554C4B298D6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -349130,7 +349255,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337030",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337030/Queens-of-the-Stone-Age-tickets-Tue-May-4-2027-Oakland-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-oakland-tickets-5-4-2027/event/107675863"
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-oakland-tickets-5-4-2027/event/107675863",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-sacramento-g5vyz_4paibie",
@@ -349148,7 +349276,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-sacramento-golden-1-center-5-5-2027--concerts-rock/production/7744656",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-sacramento-california-05-05-2027/event/1C00655589B18B27",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -349207,7 +349335,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337031",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337031/Queens-of-the-Stone-Age-tickets-Wed-May-5-2027-Golden-1-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-sacramento-tickets-5-5-2027/event/107675861"
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-sacramento-tickets-5-5-2027/event/107675861",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-seattle-vvg1hz_43n59ay",
@@ -349225,7 +349356,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-seattle-climate-pledge-arena-5-7-2027--concerts-rock/production/7744658",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-seattle-washington-05-07-2027/event/0F006554AA2D7170",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -349284,7 +349415,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337032",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337032/Queens-of-the-Stone-Age-tickets-Fri-May-7-2027-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-seattle-tickets-5-7-2027/event/107678042"
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-seattle-tickets-5-7-2027/event/107678042",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-portland-vvg1hz_42zzik2",
@@ -349302,7 +349436,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-portland-moda-center-5-9-2027--concerts-rock/production/7744663",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-portland-oregon-05-09-2027/event/0F006553C0E284CF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -349361,7 +349495,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337034",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337034/Queens-of-the-Stone-Age-tickets-Sun-May-9-2027-Moda-Center-at-the-Rose-Quarter",
-    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-portland-tickets-5-9-2027/event/107675846"
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-portland-tickets-5-9-2027/event/107675846",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-salt-lake-city-z7r9jz1aa7-1z",
@@ -349379,7 +349516,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-salt-lake-city-delta-center-5-11-2027--concerts-rock/production/7744672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1Z",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -349438,7 +349575,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337035",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337035/Queens-of-the-Stone-Age-tickets-Tue-May-11-2027-Delta-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-salt-lake-city-tickets-5-11-2027/event/107678046"
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-salt-lake-city-tickets-5-11-2027/event/107678046",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-morrison-z7r9jz1aa7nqm",
@@ -349533,7 +349673,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-saint-paul-grand-casino-arena-5-14-2027--concerts-rock/production/7744676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1v",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -349584,7 +349724,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342261",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342261/Queens-of-the-Stone-Age-tickets-Fri-May-14-2027-Grand-Casino-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342261/Queens-of-the-Stone-Age-tickets-Fri-May-14-2027-Grand-Casino-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-milwaukee-vv1a6zk4kgkdc_par",
@@ -349602,7 +349745,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-milwaukee-wisconsin-05-15-2027/event/07006553CE65625E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -349637,7 +349780,11 @@
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk4KGkdC_par",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-rosemont-vv1kvzvpfygacy0ah",
@@ -349655,7 +349802,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-rosemont-allstate-arena-5-16-2027--concerts-rock/production/7744680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-rosemont-illinois-05-16-2027/event/040065539EE6427C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -349714,7 +349861,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337037",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337037/Queens-of-the-Stone-Age-tickets-Sun-May-16-2027-Allstate-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-rosemont-tickets-5-16-2027/event/107675852"
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-rosemont-tickets-5-16-2027/event/107675852",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-indianapolis-vv1aazk4fgkd2j1lw",
@@ -349732,7 +349882,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-indianapolis-gainbridge-fieldhouse-5-18-2027--concerts-rock/production/7744718",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-indianapolis-indiana-05-18-2027/event/05006554CF98A7FD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -349791,7 +349941,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337038",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337038/Queens-of-the-Stone-Age-tickets-Tue-May-18-2027-Gainbridge-Fieldhouse",
-    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-indianapolis-tickets-5-18-2027/event/107675866"
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-indianapolis-tickets-5-18-2027/event/107675866",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-columbus-vv1kv8vp4agacm7ii",
@@ -349809,7 +349962,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-columbus-nationwide-arena-5-19-2027--concerts-rock/production/7744724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-columbus-ohio-05-19-2027/event/050065549EDC4B2C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -349868,7 +350021,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337040",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337040/Queens-of-the-Stone-Age-tickets-Wed-May-19-2027-Nationwide-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-columbus-tickets-5-19-2027/event/107678060"
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-columbus-tickets-5-19-2027/event/107678060",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-pittsburgh-1apzk44gkedibkp",
@@ -349886,7 +350042,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-pittsburgh-petersen-events-center-5-21-2027--concerts-rock/production/7744728",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-pittsburgh-pennsylvania-05-21-2027/event/16006555BBB184E5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -349937,7 +350093,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337042",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337042/Queens-of-the-Stone-Age-tickets-Fri-May-21-2027-Petersen-Events-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337042/Queens-of-the-Stone-Age-tickets-Fri-May-21-2027-Petersen-Events-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-detroit-vv1kezvp4_gagidyd",
@@ -349955,7 +350114,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-detroit-little-caesars-arena-5-22-2027--concerts-rock/production/7744734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-detroit-michigan-05-22-2027/event/080065559CA03C03",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350014,7 +350173,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337043",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337043/Queens-of-the-Stone-Age-tickets-Sat-May-22-2027-Little-Caesars-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-detroit-tickets-5-22-2027/event/107675865"
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-detroit-tickets-5-22-2027/event/107675865",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-boston-vv1avzk43gkdss-xl",
@@ -350032,7 +350194,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-boston-td-garden-5-24-2027--concerts-rock/production/7744736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-boston-massachusetts-05-24-2027/event/01006552F1C61FAB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350091,7 +350253,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337046",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337046/Queens-of-the-Stone-Age-tickets-Mon-May-24-2027-TD-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-boston-tickets-5-24-2027/event/107678061"
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-boston-tickets-5-24-2027/event/107678061",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-daniel-caesar-2026-honolulu-vvg1iz_fxhtber",
@@ -350109,7 +350274,7 @@
     "vividseats_url": "https://www.vividseats.com/daniel-caesar-tickets-honolulu-neal-s-blaisdell-arena-11-14-2026/production/7715194",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-14-2026/event/0A00654FBCA580AF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350144,7 +350309,17 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_fXHtbeR",
     "timezone": "Pacific/Honolulu",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-20T20:00:00Z",
+        "end": "2026-11-10T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daniel-caesar-2026-honolulu-vvg1iz_fxhniew",
@@ -350162,7 +350337,7 @@
     "vividseats_url": "https://www.vividseats.com/daniel-caesar-tickets-honolulu-neal-s-blaisdell-arena-11-15-2026--concerts-rap-hip-hop/production/7724762",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-15-2026/event/0A00654FBCAA80B2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350197,7 +350372,17 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_fXHnIew",
     "timezone": "Pacific/Honolulu",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-20T20:00:00Z",
+        "end": "2026-11-11T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-nashville-g5vizbu4hqfya",
@@ -350292,7 +350477,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-peoria-peoria-civic-center---carver-arena-11-3-2026--concerts-hard-rock/production/6276998",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-peoria-illinois-11-03-2026/event/07006365948161E3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350343,7 +350528,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551662",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551662/Three-Days-Grace-tickets-Tue-Nov-3-2026-Carver-Arena-At-Peoria-Civic-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551662/Three-Days-Grace-tickets-Tue-Nov-3-2026-Carver-Arena-At-Peoria-Civic-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-indianapolis-vv11v8vn_af0q_vg",
@@ -350361,7 +350549,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-indianapolis-gainbridge-fieldhouse-11-4-2026--concerts-hard-rock/production/6276970",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-indianapolis-indiana-11-04-2026/event/050063649224699B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350412,7 +350600,17 @@
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551663",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551663/Three-Days-Grace-tickets-Wed-Nov-4-2026-Gainbridge-Fieldhouse"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551663/Three-Days-Grace-tickets-Wed-Nov-4-2026-Gainbridge-Fieldhouse",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Preferred Seating Offer Onsale",
+        "start": "2025-11-14T15:00:00Z",
+        "end": "2026-11-05T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-tulsa-1aozkupgkdxuamf",
@@ -350430,7 +350628,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-tulsa-bok-center-11-6-2026--concerts-hard-rock/production/6276960",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-tulsa-oklahoma-11-06-2026/event/20006365E2345B88",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350481,7 +350679,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551664",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551664/Three-Days-Grace-tickets-Fri-Nov-6-2026-BOK-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551664/Three-Days-Grace-tickets-Fri-Nov-6-2026-BOK-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-saint-louis-vv1akzku0gkd5ahjs",
@@ -350499,7 +350700,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-saint-louis-missouri-11-07-2026/event/06006364CB27C733",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350534,7 +350735,10 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZku0Gkd5aHjS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-kansas-city-vv1akzkujgkeirwar",
@@ -350552,7 +350756,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-kansas-city-t-mobile-center-11-9-2026--concerts-hard-rock/production/6278673",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-kansas-city-missouri-11-09-2026/event/06006366AC7BD15E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350611,7 +350815,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551666",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551666/Three-Days-Grace-tickets-Mon-Nov-9-2026-T-Mobile-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-kansas-city-tickets-11-9-2026/event/107017183"
+    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-kansas-city-tickets-11-9-2026/event/107017183",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Preferred Seating Offer",
+        "start": "2025-11-11T16:00:00Z",
+        "end": "2026-11-10T01:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2025-11-14T16:00:00Z",
+        "end": "2026-11-03T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-denver-g5vzzbuiyxc--",
@@ -350706,7 +350925,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-nampa-ford-idaho-center-arena-11-14-2026--concerts-hard-rock/production/6277283",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz3Z",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -350741,7 +350960,10 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7qz3Z",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-spokane-z7r9jz1a7qz3e",
@@ -350759,7 +350981,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-spokane-numerica-veterans-arena-11-15-2026--concerts-hard-rock/production/6277525",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qz3e",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -350810,7 +351032,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551669",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551669/Three-Days-Grace-tickets-Sun-Nov-15-2026-Numerica-Veterans-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551669/Three-Days-Grace-tickets-Sun-Nov-15-2026-Numerica-Veterans-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-sacramento-g5vyzbu2whwe8",
@@ -350828,7 +351053,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-sacramento-golden-1-center-11-17-2026--concerts-hard-rock/production/6276738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-sacramento-california-11-17-2026/event/1C006363F26FD9D0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350887,7 +351112,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551670",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551670/Three-Days-Grace-tickets-Tue-Nov-17-2026-Golden-1-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-sacramento-tickets-11-17-2026/event/107016094"
+    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-sacramento-tickets-11-17-2026/event/107016094",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2025-11-14T18:00:00Z",
+        "end": "2026-11-11T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-san-jose-g5vyzbu3r_nwh",
@@ -350905,7 +351140,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-jose-california-11-18-2026/event/1C006364AF66ACBC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350940,7 +351175,22 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZbU3R_nwH",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2025-11-14T18:00:00Z",
+        "end": "2026-11-12T06:00:00Z"
+      },
+      {
+        "name": "Live Nation All Access Deal",
+        "start": "2026-03-24T23:00:00Z",
+        "end": "2026-11-19T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-san-diego-vvg1izbuciwp5c",
@@ -350958,7 +351208,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-diego-california-11-20-2026/event/0A006363ACF562CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351001,7 +351251,17 @@
     "ticketmaster_discovery_event_id": "vvG1IZbUCiWp5C",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551672"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551672",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2025-11-14T18:00:00Z",
+        "end": "2026-11-14T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-phoenix-1a_zku0gkemfp-f",
@@ -351019,7 +351279,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-phoenix-talking-stick-resort-amphitheatre-11-21-2026--concerts-hard-rock/production/6276810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-phoenix-arizona-11-21-2026/event/19006364AE216854",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351078,7 +351338,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551673",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551673/Three-Days-Grace-tickets-Sat-Nov-21-2026-Talking-Stick-Resort-Amphitheatre",
-    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-phoenix-tickets-11-21-2026/event/107017186"
+    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-phoenix-tickets-11-21-2026/event/107017186",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred",
+        "start": "2025-11-14T17:00:00Z",
+        "end": "2026-11-14T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2025-11-14T17:00:00Z",
+        "end": "2026-11-15T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-three-days-grace-2026-inglewood-vv1aazkupgkerzcmz",
@@ -351096,7 +351371,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-inglewood-intuit-dome-11-22-2026--concerts-hard-rock/production/6276780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-inglewood-california-11-22-2026/event/09006365AFE0EDC0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351155,7 +351430,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551674",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551674/Three-Days-Grace-tickets-Sun-Nov-22-2026-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-inglewood-tickets-11-22-2026/event/107017187"
+    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-inglewood-tickets-11-22-2026/event/107017187",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-cody-johnson-2026-birmingham-1kfyv0o_ga1tsuk",
@@ -351242,7 +351520,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-glasgow-ovo-hydro-11-2-2026--concerts-country-and-folk/production/6646043",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/cody-johnson-glasgow-02-11-2026/event/36006436C8845A01",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351301,7 +351579,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7796271",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796271/Cody-Johnson-tickets-Mon-Nov-2-2026-OVO-Hydro",
-    "stubhub_international_url": "https://www.stubhub.ie/cody-johnson-tickets-glasgow-ovo-hydro-arena-glasgow-2-11-2026/event/107098551"
+    "stubhub_international_url": "https://www.stubhub.ie/cody-johnson-tickets-glasgow-ovo-hydro-arena-glasgow-2-11-2026/event/107098551",
+    "organizer_names": [
+      "DF CONCERTS",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ]
   },
   {
     "id": "tm-cody-johnson-2026-belfast-1azzkodgkdbmxb7",
@@ -351319,7 +351601,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/cody-johnson-belfast-04-11-2026/event/38006443FABA2604",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351370,7 +351652,11 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7796270",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796270/Cody-Johnson-tickets-Wed-Nov-4-2026-The-O2-Belfast"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796270/Cody-Johnson-tickets-Wed-Nov-4-2026-The-O2-Belfast",
+    "organizer_names": [
+      "MCD PRODUCTIONS",
+      "O2"
+    ]
   },
   {
     "id": "tm-cody-johnson-2026-dublin-1avoz_73704zd85a",
@@ -351388,7 +351674,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/cody-johnson-dublin-05-11-2026/event/1800644484915FA8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351439,7 +351725,11 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7800005",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7800005/Cody-Johnson-tickets-Thu-Nov-5-2026-3Arena-Dublin"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7800005/Cody-Johnson-tickets-Thu-Nov-5-2026-3Arena-Dublin",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "MCD PRODUCTIONS"
+    ]
   },
   {
     "id": "tm-cody-johnson-2027-austin-g5diz_43sxhzn",
@@ -351457,7 +351747,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-austin-moody-center-atx-2-19-2027--concerts-country-and-folk/production/7745720",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-austin-texas-02-19-2027/event/3A006554B3FBC02A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351516,7 +351806,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337510",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337510/Cody-Johnson-tickets-Fri-Feb-19-2027-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/cody-johnson-austin-tickets-2-19-2027/event/107678068"
+    "stubhub_international_url": "https://www.stubhub.ie/cody-johnson-austin-tickets-2-19-2027/event/107678068",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-10-23T15:00:00Z",
+        "end": "2027-02-20T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-cody-johnson-2027-austin-g5diz_46xjfxh",
@@ -351534,7 +351834,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-austin-moody-center-atx-2-20-2027--concerts-country-and-folk/production/7721395",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-austin-texas-02-20-2027/event/3A006551E27088BC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351593,7 +351893,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329600",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329600/Cody-Johnson-tickets-Sat-Feb-20-2027-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/cody-johnson-austin-tickets-2-20-2027/event/107677325"
+    "stubhub_international_url": "https://www.stubhub.ie/cody-johnson-austin-tickets-2-20-2027/event/107677325",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-u2-2027-london-1adfz_4qdzvzd55v",
@@ -351611,7 +351914,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-18-2027--concerts-rock/production/7772985",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-18-06-2027/event/3500655683001AA0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351647,7 +351950,27 @@
     "ticketmaster_discovery_event_id": "1adfZ_4QdZvZd55v",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z"
+    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-04T22:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-04T22:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-05T10:00:00Z",
+        "end": "2026-11-05T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-london-1adfz_4gkszafjm",
@@ -351665,7 +351988,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-19-2027--concerts-rock/production/7772989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-19-06-2027/event/3500655CC0148737",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351701,7 +352024,27 @@
     "ticketmaster_discovery_event_id": "1AdfZ_4GkSZAFjM",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z"
+    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-04T22:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-04T22:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-05T10:00:00Z",
+        "end": "2026-11-05T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rod-stewart-2027-london-1agzkfzgkdu5qoy",
@@ -351719,7 +352062,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-15-05-2027/event/35006538F62DA830",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351755,7 +352098,19 @@
     "ticketmaster_discovery_event_id": "1AgZkfzGkdU5QOY",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z"
+    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-03T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-05T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1adbz_4gkmvnhoa",
@@ -351773,7 +352128,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-18-05-2027/event/3600655DF4ABC445",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351809,7 +352164,32 @@
     "ticketmaster_discovery_event_id": "1AdbZ_4GkMVnHoA",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z"
+    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "organizer_names": [
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-03T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      },
+      {
+        "name": "OVO Presale",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-05T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-role-model-2027-manchester-g5vhz_u1kkyot",
@@ -351827,7 +352207,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351863,7 +352243,33 @@
     "ticketmaster_discovery_event_id": "G5vHZ_u1KKyOt",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ASM T-A AO ARENA"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2 Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-valencia-z698xz2qz16vfzvzrf",
@@ -351881,7 +352287,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/queens-of-the-stone-age-perfecth-world-tour-tickets/1238040788?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -351917,7 +352323,17 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vFzvZrF",
     "timezone": "Europe/Madrid",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "organizer_names": [
+      "Live Nation España Golden Age SL"
+    ],
+    "presales": [
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-pordenone-zg9rmiynyzfa6e",

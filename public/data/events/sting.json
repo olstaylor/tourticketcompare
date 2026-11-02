@@ -121,7 +121,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-cincinnati-andrew-j-brady-icon-music-center-11-4-2026--concerts-adult-contemporary/production/6727892",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-cincinnati-ohio-11-04-2026/event/16006457ABA38C33",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -164,7 +164,10 @@
     "ticketmaster_discovery_event_id": "1ApZko9GkelIzYS",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772522"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772522",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-sting-2026-pittsburgh-1avbz_kgkwesf_t",
@@ -182,7 +185,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-pittsburgh-citizens-live-at-the-wylie-11-6-2026--concerts-adult-contemporary/production/6789515",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-pittsburgh-pennsylvania-11-06-2026/event/1600646C82CD467F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -233,7 +236,22 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808971",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808971/Sting-tickets-Fri-Nov-6-2026-Citizens-Live-at-The-Wylie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808971/Sting-tickets-Fri-Nov-6-2026-Citizens-Live-at-The-Wylie",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-20T14:00:00Z",
+        "end": "2026-11-02T17:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-20T14:00:00Z",
+        "end": "2026-11-03T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-pittsburgh-1avbz_kgkwscsdv",
@@ -251,7 +269,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-pittsburgh-citizens-live-at-the-wylie-11-7-2026/production/6810223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-pittsburgh-pennsylvania-11-07-2026/event/1600646F733B1EC1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -302,7 +320,22 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827443",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827443/Sting-tickets-Sat-Nov-7-2026-Citizens-Live-at-The-Wylie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827443/Sting-tickets-Sat-Nov-7-2026-Citizens-Live-at-The-Wylie",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-27T14:00:00Z",
+        "end": "2026-11-03T17:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-27T14:00:00Z",
+        "end": "2026-11-04T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-wallingford-g5vvz_ajjscmb",
@@ -320,7 +353,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-wallingford-toyota-oakdale-theatre-11-9-2026--concerts-adult-contemporary/production/6727894",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-wallingford-connecticut-11-09-2026/event/1D0064599CCEDDD8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -371,7 +404,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772524",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772524/Sting-tickets-Mon-Nov-9-2026-Toyota-Oakdale-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772524/Sting-tickets-Mon-Nov-9-2026-Toyota-Oakdale-Theatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-05T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7nwya",
@@ -389,7 +432,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-11-2026--concerts-adult-contemporary/production/6727899",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-11-2026/event/0000645905ABDC05",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448,7 +491,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772527",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772527/Sting-tickets-Wed-Nov-11-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-11-2026/event/107140086"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-11-2026/event/107140086",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-07T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7lcyc",
@@ -466,7 +519,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-12-2026--concerts-adult-contemporary/production/6727904",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-12-2026/event/0000645905AEDC0E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -525,7 +578,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772528",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772528/Sting-tickets-Thu-Nov-12-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-12-2026/event/107140085"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-12-2026/event/107140085",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-08T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7icyq",
@@ -543,7 +606,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-14-2026--concerts-adult-contemporary/production/6727910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-14-2026/event/0000645905B2DC1A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,7 +665,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772529",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772529/Sting-tickets-Sat-Nov-14-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-14-2026/event/107140084"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-14-2026/event/107140084",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-10T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7twrb",
@@ -620,7 +693,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-15-2026--concerts-adult-contemporary/production/6727916",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-15-2026/event/0000645905A7DBFA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -679,7 +752,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772530",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772530/Sting-tickets-Sun-Nov-15-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-15-2026/event/107140083"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-15-2026/event/107140083",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-11T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7tury",
@@ -697,7 +780,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-17-2026--concerts-adult-contemporary/production/6727921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-17-2026/event/0000645905A4DBF0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -756,7 +839,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772531",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772531/Sting-tickets-Tue-Nov-17-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-17-2026/event/107140082"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-17-2026/event/107140082",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-13T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7iure",
@@ -774,7 +867,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-18-2026--concerts-adult-contemporary/production/6727928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-18-2026/event/0000645905A0DBE7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -833,7 +926,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772532",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772532/Sting-tickets-Wed-Nov-18-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-18-2026/event/107140081"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-18-2026/event/107140081",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-06T15:00:00Z",
+        "end": "2026-11-14T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v1ako_v_zaccg27",
@@ -851,7 +954,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-20-2026/production/7620571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-20-2026/event/00006459059DDBE3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -910,7 +1013,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294252",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294252/Sting-tickets-Fri-Nov-20-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-20-2026/event/107670634"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-20-2026/event/107670634",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2026-11-16T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v1ako_v_za5cgcc",
@@ -928,7 +1041,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-21-2026/production/7620569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-21-2026/event/00006459059ADBDD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -987,7 +1100,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294253",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294253/Sting-tickets-Sat-Nov-21-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-21-2026/event/107670637"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-21-2026/event/107670637",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2026-11-17T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-orlando-1aefz_fgklnyeh_",
@@ -1082,7 +1205,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-relocated-to-hard-tampa-florida-11-24-2026/event/0D00625B34E94E78",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1133,7 +1256,15 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8249211",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8249211/Sting-tickets-Tue-Nov-24-2026-Seminole-Hard-Rock-Tampa-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8249211/Sting-tickets-Tue-Nov-24-2026-Seminole-Hard-Rock-Tampa-Event-Center",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Official Platinum",
+        "start": "2025-03-21T14:00:00Z",
+        "end": "2026-11-25T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2026-hollywood-vvg1vz_8wi3ad6",
@@ -1228,7 +1359,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-4-2027/production/7696930",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-04-2027/event/39006549AD057B22",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1287,7 +1418,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319776",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319776/Sting-tickets-Thu-Mar-4-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-4-2027/event/107674835"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-4-2027/event/107674835",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecemih",
@@ -1305,7 +1443,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-6-2027/production/7696920",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-06-2027/event/39006549AD0B7B3C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1364,7 +1502,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319777",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319777/Sting-tickets-Sat-Mar-6-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-6-2027/event/107674836"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-6-2027/event/107674836",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec79cl",
@@ -1382,7 +1527,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-7-2027/production/7696922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-07-2027/event/39006549AD117B5F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1441,7 +1586,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319778",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319778/Sting-tickets-Sun-Mar-7-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-7-2027/event/107674154"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-7-2027/event/107674154",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecamcg",
@@ -1459,7 +1611,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-10-2027/production/7696916",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-10-2027/event/39006549AD177B75",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1518,7 +1670,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319779",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319779/Sting-tickets-Wed-Mar-10-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-10-2027/event/107674837"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-10-2027/event/107674837",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec6msw",
@@ -1536,7 +1695,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-12-2027--concerts-adult-contemporary/production/7697050",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-12-2027/event/39006549AD1F7C7D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1595,7 +1754,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319780",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319780/Sting-tickets-Fri-Mar-12-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-12-2027/event/107674155"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-12-2027/event/107674155",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-gliwice-z698xzqpz1kckp0pa",
@@ -1613,7 +1779,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/sting-30-tour-tickets/386964585?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1648,7 +1814,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1kCkP0pA",
     "timezone": "Europe/Warsaw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation sp. z o.o."
+    ]
   },
   {
     "id": "tm-sting-2027-gdansk-sopot-z698xzqpz16vv6c7f6",
@@ -1666,7 +1835,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/sting-30-tour-tickets/1047384207?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1701,7 +1870,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16vv6C7F6",
     "timezone": "Europe/Warsaw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation sp. z o.o."
+    ]
   },
   {
     "id": "tm-sting-2027-krakow-z698xzqpz16evtf6jd",
@@ -1719,7 +1891,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/sting-30-tour-tickets/2069207703?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1754,7 +1926,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16evtF6jd",
     "timezone": "Europe/Warsaw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation sp. z o.o."
+    ]
   },
   {
     "id": "tm-sting-2027-odz-z698xzqpz1k06xapf",
@@ -1772,7 +1947,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/sting-30-tour-tickets/907885954?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1815,7 +1990,10 @@
     "ticketmaster_discovery_event_id": "Z698xZQpZ1k06xAPf",
     "timezone": "Europe/Warsaw",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-tickets-lodz-atlas-arena-10-6-2027/event/107675353"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-tickets-lodz-atlas-arena-10-6-2027/event/107675353",
+    "organizer_names": [
+      "Live Nation sp. z o.o."
+    ]
   },
   {
     "id": "tm-sting-2027-magdeburg-z698xzc2z16vzxvefv",
@@ -1833,7 +2011,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/1022042201?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1868,7 +2046,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vZxveFv",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MAWI Concert GmbH"
+    ]
   },
   {
     "id": "tm-sting-2027-rastatt-z698xzc2z1ke30sgb",
@@ -1886,7 +2067,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/92931318?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1921,7 +2102,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1ke30sGb",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Provinztour Konzert- und Theateragentur GmbH & Co.KG"
+    ]
   },
   {
     "id": "tm-sting-2027-hemer-z698xzc2z16vagofpv",
@@ -1939,7 +2123,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-hemer-sauerlandpark-hemer-6-20-2027/production/7723029",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/1275448941?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1974,7 +2158,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vagoFPv",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Goldrush Productions GmbH"
+    ]
   },
   {
     "id": "tm-sting-2027-fulda-z698xzc2z16v1vjxok",
@@ -1992,7 +2179,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-fulda-domplatz-fulda-6-26-2027/production/7727422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/1281722453?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2035,7 +2222,10 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v1vjxoK",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-tickets-fulda-domplatz-fulda-26-6-2027/event/107675401"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-tickets-fulda-domplatz-fulda-26-6-2027/event/107675401",
+    "organizer_names": [
+      "Provinztour Konzert- und Theateragentur GmbH & Co.KG"
+    ]
   },
   {
     "id": "tm-sting-2027-konstanz-z698xzc2z1kjfov_n",
@@ -2053,7 +2243,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-konstanz-festplatz-klein-venedig-6-27-2027/production/7723021",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/714441663?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2088,7 +2278,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kjfov_N",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Vaddi Concerts GmbH"
+    ]
   },
   {
     "id": "tm-sting-2027-klagenfurt-z698xz5rz1kgyvv34",
@@ -2106,7 +2299,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/sting-30-tour-tickets/330074495?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2141,7 +2334,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ5rZ1kGYvV34",
     "timezone": "Europe/Vienna",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Austria GmbH"
+    ]
   },
   {
     "id": "tm-sting-2027-verona-zg9rmiynyzf61a",
@@ -2212,7 +2408,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-14-2027/production/7696924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-14-2027/event/39006549AD257CAC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2271,7 +2467,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319784",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319784/Sting-tickets-Thu-Oct-14-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-14-2027/event/107674256"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-14-2027/event/107674256",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec1mvn",
@@ -2289,7 +2492,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-16-2027/production/7696918",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-16-2027/event/39006549AD2B7D2A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2348,7 +2551,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319785",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319785/Sting-tickets-Sat-Oct-16-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-16-2027/event/107674257"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-16-2027/event/107674257",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecg6m7",
@@ -2366,7 +2576,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-17-2027/production/7696934",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-17-2027/event/39006549AD307DC4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2425,7 +2635,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319786",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319786/Sting-tickets-Sun-Oct-17-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-17-2027/event/107674934"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-17-2027/event/107674934",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecumyj",
@@ -2443,7 +2660,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-20-2027/production/7696928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-20-2027/event/39006549AD377E5C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2502,7 +2719,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319788",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319788/Sting-tickets-Wed-Oct-20-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-20-2027/event/107674935"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-20-2027/event/107674935",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec2mbz",
@@ -2520,7 +2744,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-22-2027/production/7696932",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-22-2027/event/39006549AD3F7E80",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2579,7 +2803,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319789",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319789/Sting-tickets-Fri-Oct-22-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-22-2027/event/107674936"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-22-2027/event/107674936",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecoebs",
@@ -2597,7 +2828,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-23-2027/production/7696938",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-23-2027/event/39006549AD467EB1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2656,6 +2887,13 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319790",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319790/Sting-tickets-Sat-Oct-23-2027-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-23-2027/event/107674258"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-23-2027/event/107674258",
+    "presales": [
+      {
+        "name": "Collector's Ticket",
+        "start": "2026-10-17T17:00:00Z",
+        "end": "2027-02-05T06:00:00Z"
+      }
+    ]
   }
 ]

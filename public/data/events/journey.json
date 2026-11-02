@@ -1540,7 +1540,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-denver-ball-arena-11-22-2026--concerts-rock/production/7022115",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-denver-colorado-11-22-2026/event/1E0064A4E2714602",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1591,11 +1591,6 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-15T16:00:00Z",
-        "end": "2026-11-02T00:00:00Z"
-      },
       {
         "name": "AARP Member Offer",
         "start": "2026-08-28T17:00:00Z",

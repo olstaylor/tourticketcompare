@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-birmingham-utilita-arena-birmingham-11-27-2026/production/7587257",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-birmingham-27-11-2026/event/23006531F4B02471",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -74,7 +74,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284511",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284511/Mariah-Carey-tickets-Fri-Nov-27-2026-Utilita-Arena-Birmingham",
-    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-birmingham-utilita-arena-birmingham-27-11-2026/event/107669566"
+    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-birmingham-utilita-arena-birmingham-27-11-2026/event/107669566",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-mariah-carey-2026-london-1agzkfsgkdzymm6",
@@ -92,7 +95,7 @@
     "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-london-the-o2---london-11-30-2026/production/7587213",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-london-30-11-2026/event/35006531F8C37B87",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +138,10 @@
     "ticketmaster_discovery_event_id": "1AgZkfsGkdzYMm6",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-london-the-o2-arena-30-11-2026/event/107669567"
+    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-london-the-o2-arena-30-11-2026/event/107669567",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ]
   },
   {
     "id": "tm-mariah-carey-2026-manchester-1amzkfsgkejdwkf",
@@ -153,7 +159,7 @@
     "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-manchester-co-op-live-12-2-2026/production/7587211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-manchester-02-12-2026/event/37006531A6EF24D4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -212,6 +218,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276812",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8276812/Mariah-Carey-tickets-Wed-Dec-2-2026-Co-Op-Live",
-    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-manchester-co-op-live-2-12-2026/event/107669568"
+    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-manchester-co-op-live-2-12-2026/event/107669568",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "LNM - VIP NATION UK"
+    ]
   }
 ]

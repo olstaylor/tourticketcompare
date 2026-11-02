@@ -222,7 +222,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-virginia-beach-virginia-11-05-2026/event/010064C3044DC52B",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276,13 +276,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034496/Little-Big-Town-tickets-Thu-Nov-5-2026-The-Dome-by-Rutter-Mills",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-12T14:00:00Z",
-        "end": "2026-11-02T03:00:00Z"
-      }
     ]
   },
   {

@@ -994,7 +994,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-jonesboro-first-national-bank-arena-11-8-2026--concerts-country-and-folk/production/6948987",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-jonesboro-arkansas-11-08-2026/event/1B006482E94BDF34",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-02",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1045,13 +1045,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906855",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-01T14:00:00Z",
-        "end": "2026-11-02T04:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7906855/The-Red-Clay-Strays-tickets-Sun-Nov-8-2026-First-National-Bank-Arena",
     "organizer_names": [
       "AEG LIVE"

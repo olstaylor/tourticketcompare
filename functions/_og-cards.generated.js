@@ -777,6 +777,7 @@ export const OG_CARDS = {
   "/blog/trivium-tour-ticket-prices-by-city": {"url":"/og/blog-trivium-tour-ticket-prices-by-city.png","alt":"Blog: Trivium tour tickets: listed prices city by city"},
   "/blog/what-a-price-snapshot-actually-is": {"url":"/og/blog-what-a-price-snapshot-actually-is.png","alt":"Blog: What a price on this site actually means"},
   "/blog/where-the-big-concert-tours-are-playing-in-2027": {"url":"/og/blog-where-the-big-concert-tours-are-playing-in-2027.png","alt":"Blog: Where the big concert tours are playing in 2027"},
+  "/blog/which-us-tours-have-the-highest-ticket-prices": {"url":"/og/blog-which-us-tours-have-the-highest-ticket-prices.png","alt":"Blog: Which US tours have the highest and lowest ticket prices right now?"},
   "/blog/why-a-price-here-disappears": {"url":"/og/blog-why-a-price-here-disappears.png","alt":"Blog: Why a price on this site disappears"},
   "/blog/why-some-artist-pages-show-no-dates": {"url":"/og/blog-why-some-artist-pages-show-no-dates.png","alt":"Blog: Why some artist pages here show no dates"},
   "/blog/zach-bryan-2027-stadium-tour-tickets": {"url":"/og/blog-zach-bryan-2027-stadium-tour-tickets.png","alt":"Blog: Zach Bryan's 2027 stadium tour: tickets after the general sale"},

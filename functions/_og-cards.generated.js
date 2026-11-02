@@ -759,6 +759,7 @@ export const OG_CARDS = {
   "/blog/hilary-duff-tour-ticket-prices-by-city": {"url":"/og/blog-hilary-duff-tour-ticket-prices-by-city.png","alt":"Blog: Hilary Duff tour tickets: listed prices city by city"},
   "/blog/how-a-ticket-link-gets-published": {"url":"/og/blog-how-a-ticket-link-gets-published.png","alt":"Blog: How a ticket link gets published on TourTicketCompare"},
   "/blog/how-resale-ticket-prices-moved-this-month": {"url":"/og/blog-how-resale-ticket-prices-moved-this-month.png","alt":"Blog: How resale ticket prices moved in the last 30 days"},
+  "/blog/lizzy-mcalpine-tour-guide": {"url":"/og/blog-lizzy-mcalpine-tour-guide.png","alt":"Blog: Lizzy McAlpine tour: dates, cities and how to choose"},
   "/blog/lizzy-mcalpine-tour-ticket-prices-by-city": {"url":"/og/blog-lizzy-mcalpine-tour-ticket-prices-by-city.png","alt":"Blog: Lizzy McAlpine tour tickets: listed prices city by city"},
   "/blog/metallica-m72-2027-stadium-dates-on-sale": {"url":"/og/blog-metallica-m72-2027-stadium-dates-on-sale.png","alt":"Blog: Metallica's 2027 M72 stadium dates: resale listed first"},
   "/blog/metallica-tour-guide": {"url":"/og/blog-metallica-tour-guide.png","alt":"Blog: Metallica tour: dates, cities and how to choose"},

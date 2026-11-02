@@ -5,8 +5,11 @@ name: New tour detector
 # one rolling `automation:new-tour-digest` issue of every detection and opens an
 # `automation:new-tour` issue for each act the owner is watching (focus
 # artists, Beyoncé, rumoured watchlist acts). The issue lists what already runs
-# on its own and what still needs a human. Writes no repository file, publishes
-# nothing, spends no paid run and dispatches no workflow.
+# on its own and what still needs a human. Writes no repository file and
+# publishes nothing. For a watched act's first detection (at most 2 a run) it
+# starts one Blog article draft run for that artist, which keeps its own
+# budget, evidence and editorial gates. Kill switches: BLOG_DRAFT_ENABLED=false
+# (the blog lane's) or NEW_TOUR_GUIDE_DRAFT=false.
 # Detections are deduplicated by marker, so the 6-hour lookback is safe to overlap.
 
 on:
@@ -23,6 +26,7 @@ on:
 permissions:
   contents: read
   issues: write
+  actions: write
 
 concurrency:
   group: new-tour-detector
@@ -64,6 +68,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          GUIDE_DRAFT_DISPATCH: 'true'
+          BLOG_DRAFT_ENABLED: ${{ vars.BLOG_DRAFT_ENABLED }}
+          NEW_TOUR_GUIDE_DRAFT: ${{ vars.NEW_TOUR_GUIDE_DRAFT }}
         run: node scripts/detect-new-tours.mjs --since "${{ steps.since.outputs.since }}" --issue
 
       - name: Confirm no repository data changed

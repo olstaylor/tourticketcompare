@@ -8471,7 +8471,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "Browse cities",
     "/cities",
     "text-link"
-  )} or ${anchor("venues", "/venues", "text-link")}. Waiting for a sale? ${anchor("See what goes on sale next", ONSALE_CALENDAR_PATH, "text-link")}.</p></section>${renderHomepagePriceGuideLinks(route.priceGuideDirectory)}<section class="section-grid home-section" aria-labelledby="homeBuyingGuidesTitle"><div class="home-section__head"><h2 id="homeBuyingGuidesTitle">Buying guides</h2>${anchor(
+  )} or ${anchor("venues", "/venues", "text-link")}. Waiting for a sale? ${anchor("See what goes on sale next", ONSALE_CALENDAR_PATH, "text-link")}. Planning ahead? ${anchor(`See ${TOURS_HUB_YEAR} tours`, TOURS_HUB_PATH, "text-link")}.</p></section>${renderHomepagePriceGuideLinks(route.priceGuideDirectory)}<section class="section-grid home-section" aria-labelledby="homeBuyingGuidesTitle"><div class="home-section__head"><h2 id="homeBuyingGuidesTitle">Buying guides</h2>${anchor(
     "All guides",
     "/guides",
     "text-link"

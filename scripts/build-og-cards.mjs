@@ -384,6 +384,37 @@ async function collectCards() {
     });
   }
 
+  // Hub pages people share directly (an X post, a group chat). Each names the
+  // page's job only: no counts or dates, which move with the calendar.
+  const { TOURS_HUB_PATH, TOURS_HUB_YEAR } = await import(pathToFileURL(path.join(root, "functions/_tours-hub.js")));
+  const { RUMOURED_TOURS_PATH } = await import(pathToFileURL(path.join(root, "functions/_rumoured-tours.js")));
+  cards.push(
+    {
+      path: TOURS_HUB_PATH,
+      eyebrow: "Concert tours",
+      headline: `${TOURS_HUB_YEAR} tours`,
+      sub: "Every tracked artist with confirmed dates"
+    },
+    {
+      path: RUMOURED_TOURS_PATH,
+      eyebrow: "Unconfirmed",
+      headline: `Rumoured ${TOURS_HUB_YEAR} tours`,
+      sub: "Reported, not confirmed: no dates or tickets yet"
+    },
+    {
+      path: "/on-sale",
+      eyebrow: "On sale",
+      headline: "Concert tickets on sale soon",
+      sub: "Presale and public on-sale times from Ticketmaster"
+    },
+    {
+      path: "/compare-concert-ticket-prices",
+      eyebrow: "Compare",
+      headline: "Compare concert ticket prices",
+      sub: "Listed prices by ticket site, then check the total"
+    }
+  );
+
   return cards;
 }
 

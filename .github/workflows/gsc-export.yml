@@ -1,0 +1,64 @@
+name: Search Console export
+
+# Weekly read-only export (Monday 06:30 UTC, plus dispatch) so threads can read
+# Search Console data without a manual upload. scripts/export-search-console.mjs
+# signs in with the read-only GSC_SERVICE_ACCOUNT_JSON service account, pulls the
+# last 28 complete days of page and query rows, and rewrites the rolling
+# `automation:gsc-export` issue with the top rows. Writes nothing to the
+# repository or D1, so it takes no writer lock. Without the secret the run step is
+# skipped with a notice and the job stays green. Owner-approved 2026-11-02.
+
+on:
+  schedule:
+    - cron: '30 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: gsc-export
+  cancel-in-progress: true
+
+jobs:
+  export:
+    if: github.repository == 'olstaylor/tourticketcompare'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          ref: main
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Self-test
+        run: node scripts/export-search-console.mjs --self-test
+      - name: Check for the Search Console key
+        id: key
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ -z "$GSC_SERVICE_ACCOUNT_JSON" ]; then
+            echo "::notice::GSC_SERVICE_ACCOUNT_JSON is not set, so the Search Console export was skipped."
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Export and update the issue
+        if: steps.key.outputs.present == 'true'
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/export-search-console.mjs --issue --json "$RUNNER_TEMP/gsc.json"
+      - name: Keep the full rows
+        if: steps.key.outputs.present == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: gsc-export
+          path: ${{ runner.temp }}/gsc.json
+          retention-days: 30

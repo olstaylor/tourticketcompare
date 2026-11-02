@@ -1,10 +1,10 @@
 ---
 title: "Metallica's 2027 M72 stadium dates: resale listed first"
-seo_title: "Metallica 2027 M72 tickets: on-sale"
+seo_title: 'Metallica 2027 M72 tickets: on-sale'
 description: Metallica's ten 2027 M72 stadium dates opened at 10:00 local time on September 25. Resale sites listed all ten the day before. What to check.
 summary: Ten new North American stadium dates on Metallica's M72 World Tour went on public sale on Friday, September 25, each at 10:00 in the venue's time. Resale sites had listings up for all ten the day before, which is worth understanding before you buy.
 date: 2026-09-25
-updated: 2026-10-23
+updated: 2026-11-02
 status: published
 tags:
   - tour-buying
@@ -66,3 +66,5 @@ After each date's on-sale time, the Metallica page shows the Ticketmaster link f
 The [Metallica page](/artists/metallica) lists every tracked date, including the Sphere residency and Mohegan Sun. Before a date's public on-sale, its card shows the on-sale time and no Ticketmaster button. Where a resale price appears, it is that site's listed price when it was last checked, with the time shown. It isn't the face value or a final checkout total. TourTicketCompare doesn't sell tickets or run presales.
 
 For other tours with a public on-sale coming up, the [on-sale calendar](/on-sale) lists them by day, in each venue's local time.
+
+Planning further ahead? Every tracked artist with 2027 dates is listed on the [2027 tours page](/tours/2027).

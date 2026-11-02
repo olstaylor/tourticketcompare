@@ -316,5 +316,59 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8074604/Role-Model-tickets-Wed-Feb-24-2027-OVO-Arena-Wembley",
     "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-london-ovo-arena-wembley-24-2-2027/event/107447294",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8074604"
+  },
+  {
+    "id": "tm-role-model-2027-manchester-g5vhz_u1kkyot",
+    "artist_slug": "role-model",
+    "artist_name": "Role Model",
+    "event_name": "ROLE MODEL",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2027-02-28T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064D2934F9829",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064D2934F9829",
+        "discovery_event_id": "G5vHZ_u1KKyOt",
+        "url": "https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_u1KKyOt",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
   }
 ]

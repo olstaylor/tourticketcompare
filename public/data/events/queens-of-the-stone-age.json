@@ -1349,5 +1349,113 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337046",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337046/Queens-of-the-Stone-Age-tickets-Mon-May-24-2027-TD-Garden",
     "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-boston-tickets-5-24-2027/event/107678061"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-valencia-z698xz2qz16vfzvzrf",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "Queens Of The Stone Age - Perfecth World Tour",
+    "city": "Valencia",
+    "country": "Spain",
+    "venue": "Roig Arena",
+    "datetime_iso": "2027-06-21T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1238040788",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/queens-of-the-stone-age-perfecth-world-tour-tickets/1238040788?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/queens-of-the-stone-age-perfecth-world-tour-tickets/1238040788?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1238040788",
+        "discovery_event_id": "Z698xZ2qZ16vFzvZrF",
+        "url": "https://www.ticketmaster.es/event/queens-of-the-stone-age-perfecth-world-tour-tickets/1238040788?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vFzvZrF",
+    "timezone": "Europe/Madrid",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
+  },
+  {
+    "id": "tm-queens-of-the-stone-age-2027-pordenone-zg9rmiynyzfa6e",
+    "artist_slug": "queens-of-the-stone-age",
+    "artist_name": "Queens Of The Stone Age",
+    "event_name": "QUEENS OF THE STONE AGE",
+    "city": "Pordenone",
+    "country": "Italy",
+    "venue": "Parco San Valentino",
+    "datetime_iso": "2027-06-27T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "rpght2pnsldw",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/queens-of-the-stone-age-pordenone-27-06-2027/event/rpght2pnsldw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/queens-of-the-stone-age-pordenone-27-06-2027/event/rpght2pnsldw",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "rpght2pnsldw",
+        "discovery_event_id": "ZG9rmIYnyZFa6e",
+        "url": "https://www.ticketmaster.it/biglietti/queens-of-the-stone-age-pordenone-27-06-2027/event/rpght2pnsldw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZFa6e",
+    "timezone": "Europe/Rome",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
   }
 ]

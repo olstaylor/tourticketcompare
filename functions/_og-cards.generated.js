@@ -740,6 +740,7 @@ export const OG_CARDS = {
   "/artists/zach-bryan/tickets/east-rutherford-united-states": {"url":"/og/artists-zach-bryan-tickets-east-rutherford-united-states.png","alt":"Tickets: Zach Bryan in East Rutherford"},
   "/artists/zach-bryan/tickets/vancouver-canada": {"url":"/og/artists-zach-bryan-tickets-vancouver-canada.png","alt":"Tickets: Zach Bryan in Vancouver"},
   "/artists/zach-top": {"url":"/og/artists-zach-top.png","alt":"Tickets & tour dates: Zach Top"},
+  "/blog/beyonce-2027-tour-what-we-know": {"url":"/og/blog-beyonce-2027-tour-what-we-know.png","alt":"Blog: Beyoncé 2027 tour: what we know so far"},
   "/blog/bruno-mars-falcon-stadium-base-access": {"url":"/og/blog-bruno-mars-falcon-stadium-base-access.png","alt":"Blog: Bruno Mars at Falcon Stadium: September 2026 entry guidance"},
   "/blog/buying-tickets-for-a-concert-in-another-country": {"url":"/og/blog-buying-tickets-for-a-concert-in-another-country.png","alt":"Blog: Buying tickets for a concert in another country"},
   "/blog/carly-rae-jepsen-tour-ticket-prices-by-city": {"url":"/og/blog-carly-rae-jepsen-tour-ticket-prices-by-city.png","alt":"Blog: Carly Rae Jepsen tour tickets: listed prices city by city"},

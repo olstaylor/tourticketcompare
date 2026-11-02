@@ -1,6 +1,6 @@
 ---
-title: "Beyoncé 2027 tour: what we know so far"
-seo_title: "Beyoncé 2027 tour: what we know so far"
+title: "Beyoncé 2027 tour: what is known so far"
+seo_title: "Beyoncé 2027 tour: what is known so far"
 description: "No Beyoncé tour has been announced. What has been reported about a 2027 run, what is only speculation, and how to avoid buying for a date that does not exist."
 summary: "As of 2 November 2026 Beyoncé has not announced a tour. A 2027 run has been predicted and rumoured, but none of it is confirmed. Here is what is reported, what is not, and what to do before an announcement."
 date: 2026-11-02

@@ -11,12 +11,14 @@
 // the next date in its city, never a minimum across a city's dates; it passes
 // the live display gate; it is under 72 hours old and carries its capture
 // time; one country and one currency; no conversion; sites are never compared
-// or ranked. Pure: callers pass every input, including `now`.
+// or ranked. Since the 2 Nov 2026 relaxed rules, an optional labelled second
+// table shows one other site for the same cities, in date order, unranked. Pure: callers pass every input, including `now`.
 
 import { isUpcomingShow } from "../../functions/_upcoming.js";
 import { eventLifecycleHeld } from "../../functions/_route-indexability.js";
 import { artistPageIndexable } from "../../functions/_artist-indexability.js";
 import { deriveArtistCities } from "../../functions/_artist-cities.js";
+import { eventLocalDateIso } from "../../functions/_event-local-date.js";
 import { PRICE_DISCLOSURE } from "../../functions/_price-wording.js";
 import {
   CITY_PRICE_GATE,
@@ -41,7 +43,9 @@ export const ARTIST_CITY_GATE = {
   // Share of the market country's cities (those with a publishable next date)
   // that must have a fresh price on the chosen site. A ranking that leaves out
   // half the tour's cities would mislead.
-  minCoverage: 0.5
+  minCoverage: 0.5,
+  // The optional second site's table needs at least this many priced cities.
+  minSecondTableCities: 3
 };
 
 export const artistCitySlug = (artistSlug) => `${artistSlug}-tour-ticket-prices-by-city`;
@@ -103,6 +107,37 @@ export function buildArtistCityFigures(pricedShows, events, artists, { artistSlu
   const capturedTimes = cities.map((row) => Date.parse(row.capturedAt)).sort((a, b) => a - b);
   const cityLinks = new Map(tourCities.map((city) => [city.label, `/artists/${artistSlug}/tickets/${city.slug}`]));
 
+  // Optional second table: the other site with the most priced cities in the
+  // same country and currency, same next dates. Listed by date, never ranked.
+  const bySite = new Map();
+  for (const city of marketCities) {
+    const next = city.shows.find((show) => show.publishable);
+    if (!next) continue;
+    for (const [site, snap] of lanes.get(next.id) || []) {
+      if (site === market.site || snap.currency !== market.currency) continue;
+      if (!bySite.has(site)) bySite.set(site, []);
+      bySite.get(site).push({
+        city: city.label,
+        country: city.country,
+        venue: next.venue,
+        eventId: next.id,
+        localDate: eventLocalDateIso({ datetime_iso: next.datetime_iso, timezone: next.timezone }),
+        ...snap,
+        path: cityLinks.get(city.label) || ""
+      });
+    }
+  }
+  const order = [...PRICE_MOVE_SITES.keys()];
+  const [otherSite, otherRows] = [...bySite].sort((a, b) => b[1].length - a[1].length || order.indexOf(a[0]) - order.indexOf(b[0]))[0] || [];
+  const second =
+    otherSite && otherRows.length >= ARTIST_CITY_GATE.minSecondTableCities
+      ? {
+          site: otherSite,
+          siteLabel: PRICE_MOVE_SITES.get(otherSite),
+          cities: otherRows.sort((a, b) => a.localDate.localeCompare(b.localDate) || a.city.localeCompare(b.city))
+        }
+      : null;
+
   return {
     storyType: "artist-cities",
     asOf: isoDay(now),
@@ -131,7 +166,8 @@ export function buildArtistCityFigures(pricedShows, events, artists, { artistSlu
     median: median(prices),
     // Rounded down, so 1.95 reads 1.9× and never as the double it isn't.
     ratio: Math.floor((high.price / low.price) * 10) / 10,
-    cities: cities.map((row) => ({ ...row, path: cityLinks.get(row.city) || "" }))
+    cities: cities.map((row) => ({ ...row, path: cityLinks.get(row.city) || "" })),
+    second
   };
 }
 
@@ -243,6 +279,18 @@ export function renderArtistCityPost(figures, existing = null) {
     "---"
   ].join("\n");
 
+  const second = figures.second;
+  const secondSection = second
+    ? `## ${second.siteLabel}, same cities (not ranked)
+
+${second.siteLabel} also had a recent listed price for the next date in ${second.cities.length} of these cities. They are set out below by date, not ranked, and are not netted against the table above: the two sites list different tickets, so a gap between them says nothing about which is better value.
+
+${TABLE_HEAD}
+${second.cities.map((row) => tableLine(row, second.siteLabel)).join("\n")}
+
+`
+    : "";
+
   const body = `${possessive(artist)} ${tourName} has ${figures.tourDates} dates that TourTicketCompare tracks. In ${place(figures)}, ${cities.length} cities had a recent listed price on ${siteLabel}. The next date in ${low.city} was listed at ${money(low.price, currency)} at the low end, and the next date in ${high.city} at ${money(high.price, currency)} at the high end, ${figures.ratio} times as much. The median city was listed at ${money(figures.median, currency)}.
 
 ## ${artist} ticket prices by city
@@ -252,9 +300,9 @@ ${cities.map((row) => tableLine(row, siteLabel)).join("\n")}
 
 Each figure is the lowest listed price on ${siteLabel} for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
-## How this was worked out
+${secondSection}## How this was worked out
 
-- **One site.** Every price is from ${siteLabel}, the site with recent listed prices in the most cities for this tour. Sites are not compared with each other.
+- **Main table: one site.** Every price in the first table is from ${siteLabel}, the site with recent listed prices in the most cities for this tour.${second ? ` The second table is ${second.siteLabel}, labelled and in date order. Sites are shown side by side but not ranked.` : " Sites are not compared with each other."}
 - **One country, one currency.** ${others || `All figures are in ${currency} for ${place(figures)}.`}
 - **Next date only.** A city's figure is its first upcoming date, not the lowest of all its dates.
 - **Recent prices only.** A price is used only if it was captured in the 72 hours before this page was updated. Captured times are in the table.

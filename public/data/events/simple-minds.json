@@ -542,6 +542,13 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8353390",
+        "url": "https://www.ticketnetwork.com/en/p/8353390",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v_t_v7k",
@@ -550,7 +557,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/simple-minds-tickets-amsterdam-ziggo-dome-30-4-2027/event/107665751",
     "organizer_names": [
       "Mojo Concerts"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353390"
   },
   {
     "id": "tm-simple-minds-2027-amsterdam-z698xzbpz1k8banaf",

@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18671901,
+        "url": "https://seatgeek.com/omer-adam-tickets/brooklyn-new-york-barclays-center-2026-11-03-9-pm/concert/18671901",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

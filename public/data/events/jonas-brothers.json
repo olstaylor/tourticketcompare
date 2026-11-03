@@ -576,7 +576,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0700650DFC2127EB",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB",
-    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-01-7-30-pm/concert/18503891",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-milwaukee-fiserv-forum-11-1-2026--concerts-pop/production/7446264",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-milwaukee-wisconsin-11-01-2026/event/0700650DFC2127EB",
@@ -592,11 +592,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18503891,
-        "url": "https://seatgeek.com/jonas-brothers-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-01-7-30-pm/concert/18503891",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7446264,
@@ -668,7 +668,7 @@
         "event_id": 18492128,
         "url": "https://seatgeek.com/jonas-brothers-tickets/saint-paul-minnesota-grand-casino-arena-2026-11-02-7-30-pm/concert/18492128",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -740,7 +740,7 @@
         "event_id": 18503893,
         "url": "https://seatgeek.com/jonas-brothers-tickets/kansas-city-missouri-t-mobile-center-2026-11-03-7-30-pm/concert/18503893",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -812,7 +812,7 @@
         "event_id": 18503892,
         "url": "https://seatgeek.com/jonas-brothers-tickets/nashville-tennessee-bridgestone-arena-2026-11-05-7-30-pm/concert/18503892",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -884,7 +884,7 @@
         "event_id": 18503986,
         "url": "https://seatgeek.com/jonas-brothers-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2026-11-06-7-30-pm/concert/18503986",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -964,7 +964,7 @@
         "event_id": 18571665,
         "url": "https://seatgeek.com/jonas-brothers-tickets/houston-texas-toyota-center-2026-11-08-7-30-pm/concert/18571665",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1036,7 +1036,7 @@
         "event_id": 18503896,
         "url": "https://seatgeek.com/jonas-brothers-tickets/oklahoma-city-oklahoma-paycom-center-2026-11-09-7-30-pm/concert/18503896",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {

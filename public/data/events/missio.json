@@ -152,7 +152,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0900650B02842801",
     "ticketmaster_url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
-    "seatgeek_url": "https://seatgeek.com/missio-tickets/los-angeles-california-teragram-ballroom-2026-11-01-7-30-pm/concert/18492941",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-los-angeles-teragram-ballroom-11-1-2026/production/7425741",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
@@ -168,11 +168,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18492941,
-        "url": "https://seatgeek.com/missio-tickets/los-angeles-california-teragram-ballroom-2026-11-01-7-30-pm/concert/18492941",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7425741,
@@ -300,7 +300,7 @@
         "event_id": 18492221,
         "url": "https://seatgeek.com/missio-tickets/denver-colorado-marquis-theater-denver-2026-11-11-7-pm/concert/18492221",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -432,7 +432,7 @@
         "event_id": 18492369,
         "url": "https://seatgeek.com/missio-tickets/toronto-canada-the-garrison-toronto-2026-11-20-6-30-pm/concert/18492369",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1892,7 +1892,7 @@
         "event_id": 18492778,
         "url": "https://seatgeek.com/missio-tickets/san-francisco-california-brick-and-mortar-music-hall-2026-11-03-8-30-pm/concert/18492778",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {

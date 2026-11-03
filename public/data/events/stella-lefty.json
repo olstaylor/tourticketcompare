@@ -64,7 +64,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70E4E",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E4E",
-    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/west-hollywood-california-troubadour-2026-11-01-7-pm/concert/18253662",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-west-hollywood-troubadour---west-hollywood-11-1-2026--concerts-pop/production/7047592",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E4E",
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18253662,
-        "url": "https://seatgeek.com/stella-lefty-tickets/west-hollywood-california-troubadour-2026-11-01-7-pm/concert/18253662",
-        "verified": true,
-        "last_verified_at": "2026-10-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7047592,
@@ -152,7 +152,7 @@
         "event_id": 18291327,
         "url": "https://seatgeek.com/stella-lefty-tickets/los-angeles-california-the-fonda-theatre-2026-11-02-8-pm/concert/18291327",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -221,7 +221,7 @@
         "event_id": 18253664,
         "url": "https://seatgeek.com/stella-lefty-tickets/phoenix-arizona-crescent-ballroom-2026-11-03-8-pm/concert/18253664",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -290,7 +290,7 @@
         "event_id": 18252621,
         "url": "https://seatgeek.com/stella-lefty-tickets/dallas-texas-cambridge-room-at-house-of-blues-dallas-1-2026-11-06-7-pm/concert/18252621",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -362,7 +362,7 @@
         "event_id": 18252613,
         "url": "https://seatgeek.com/stella-lefty-tickets/houston-texas-the-bronze-peacock-at-house-of-blues-houston-2026-11-07-7-pm/concert/18252613",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -434,7 +434,7 @@
         "event_id": 18251775,
         "url": "https://seatgeek.com/stella-lefty-tickets/atlanta-georgia-the-masquerade-hell-2026-11-10-7-pm/concert/18251775",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -487,7 +487,7 @@
         "event_id": 18252162,
         "url": "https://seatgeek.com/stella-lefty-tickets/toronto-canada-the-opera-house-toronto-2026-11-12-7-pm/concert/18252162",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -544,7 +544,7 @@
         "event_id": 18269141,
         "url": "https://seatgeek.com/stella-lefty-tickets/new-york-new-york-webster-hall-2026-11-15-8-pm/concert/18269141",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -613,7 +613,7 @@
         "event_id": 18251604,
         "url": "https://seatgeek.com/stella-lefty-tickets/new-york-new-york-bowery-ballroom-2026-11-16-7-pm/concert/18251604",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -685,7 +685,7 @@
         "event_id": 18253466,
         "url": "https://seatgeek.com/stella-lefty-tickets/boston-massachusetts-royale-boston-2026-11-17-8-pm/concert/18253466",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -754,7 +754,7 @@
         "event_id": 18252806,
         "url": "https://seatgeek.com/stella-lefty-tickets/washington-district-of-columbia-the-atlantis-2026-11-19-6-30-pm/concert/18252806",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {

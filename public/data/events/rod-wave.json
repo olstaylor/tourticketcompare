@@ -764,7 +764,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "040064D68E724E6E",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-chicago-illinois-11-01-2026/event/040064D68E724E6E",
-    "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/chicago-illinois-united-center-2026-11-01-8-pm/concert/18414825",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-chicago-united-center-11-1-2026/production/7367131",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-chicago-illinois-11-01-2026/event/040064D68E724E6E",
@@ -780,11 +780,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18414825,
-        "url": "https://seatgeek.com/rod-wave-tickets/chicago-illinois-united-center-2026-11-01-8-pm/concert/18414825",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7367131,
@@ -863,7 +863,7 @@
         "event_id": 18320066,
         "url": "https://seatgeek.com/rod-wave-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-11-03-8-30-pm/concert/18320066",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -935,7 +935,7 @@
         "event_id": 18320065,
         "url": "https://seatgeek.com/rod-wave-tickets/columbia-south-carolina-colonial-life-arena-2026-11-06-8-30-pm/concert/18320065",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1014,7 +1014,7 @@
         "event_id": 18320069,
         "url": "https://seatgeek.com/rod-wave-tickets/orlando-florida-kia-center-2026-11-09-8-30-pm/concert/18320069",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1101,7 +1101,7 @@
         "event_id": 18414835,
         "url": "https://seatgeek.com/rod-wave-tickets/orlando-florida-kia-center-2026-11-10-8-pm/concert/18414835",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1188,7 +1188,7 @@
         "event_id": 18312360,
         "url": "https://seatgeek.com/rod-wave-tickets/sunrise-florida-amerant-bank-arena-2026-11-14-8-pm/concert/18312360",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1268,7 +1268,7 @@
         "event_id": 18312361,
         "url": "https://seatgeek.com/rod-wave-tickets/sunrise-florida-amerant-bank-arena-2026-11-15-8-pm/concert/18312361",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1348,7 +1348,7 @@
         "event_id": 18320070,
         "url": "https://seatgeek.com/rod-wave-tickets/atlanta-georgia-state-farm-arena-1-2026-11-18-8-30-pm/concert/18320070",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1435,7 +1435,7 @@
         "event_id": 18414834,
         "url": "https://seatgeek.com/rod-wave-tickets/atlanta-georgia-state-farm-arena-1-2026-11-19-8-pm/concert/18414834",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {

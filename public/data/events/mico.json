@@ -1136,7 +1136,7 @@
         "event_id": 18251753,
         "url": "https://seatgeek.com/mico-tickets/boston-massachusetts-paradise-rock-club-2026-11-02-7-pm/concert/18251753",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1208,7 +1208,7 @@
         "event_id": 18345103,
         "url": "https://seatgeek.com/mico-tickets/providence-rhode-island-fete-music-hall-2026-11-03-8-pm/concert/18345103",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1242,7 +1242,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "31006506924B56FB",
     "ticketmaster_url": "https://www.ticketmaster.ca/mico-montreal-quebec-11-05-2026/event/31006506924B56FB",
-    "seatgeek_url": "https://seatgeek.com/mico-tickets/montreal-canada-mtelus-2026-11-05-8-pm/concert/18472169",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-montreal-mtelus-11-5-2026/production/7411491",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mico-montreal-quebec-11-05-2026/event/31006506924B56FB",
@@ -1258,11 +1258,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18472169,
-        "url": "https://seatgeek.com/mico-tickets/montreal-canada-mtelus-2026-11-05-8-pm/concert/18472169",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7411491,
@@ -1333,7 +1333,7 @@
         "event_id": 18252202,
         "url": "https://seatgeek.com/mico-tickets/toronto-canada-the-danforth-music-hall-2026-11-06-7-pm/concert/18252202",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1392,7 +1392,7 @@
         "event_id": 18260543,
         "url": "https://seatgeek.com/mico-tickets/toronto-canada-the-danforth-music-hall-2026-11-07-7-pm/concert/18260543",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {

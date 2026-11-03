@@ -382,7 +382,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAed_7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/cleveland-ohio-keybank-state-theatre-at-playhouse-square-2026-11-14-8-pm/concert/18407250",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_7",
@@ -398,11 +398,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407250,
+        "url": "https://seatgeek.com/jodeci-tickets/cleveland-ohio-keybank-state-theatre-at-playhouse-square-2026-11-14-8-pm/concert/18407250",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -541,7 +541,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZ98b",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ98b",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/bensalem-pennsylvania-xcite-center-at-parx-casino-2026-11-19-8-pm/concert/18407255",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ98b",
@@ -557,11 +557,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407255,
+        "url": "https://seatgeek.com/jodeci-tickets/bensalem-pennsylvania-xcite-center-at-parx-casino-2026-11-19-8-pm/concert/18407255",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -753,7 +753,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZ3ae",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ3ae",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-11-27-8-pm/concert/18395809",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ3ae",
@@ -769,11 +769,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18395809,
+        "url": "https://seatgeek.com/jodeci-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-11-27-8-pm/concert/18395809",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -806,7 +806,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAed_M",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_M",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/norman-oklahoma-riverwind-casino-2026-11-28-8-pm/concert/18350138",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_M",
@@ -822,11 +822,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18350138,
+        "url": "https://seatgeek.com/jodeci-tickets/norman-oklahoma-riverwind-casino-2026-11-28-8-pm/concert/18350138",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -965,7 +965,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZk_O",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZk_O",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/new-orleans-louisiana-saenger-theatre-new-orleans-2026-12-02-7-30-pm/concert/18406111",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZk_O",
@@ -981,11 +981,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18406111,
+        "url": "https://seatgeek.com/jodeci-tickets/new-orleans-louisiana-saenger-theatre-new-orleans-2026-12-02-7-30-pm/concert/18406111",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1389,7 +1389,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZ3FU",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ3FU",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/jacksonville-florida-florida-theatre-jacksonville-2026-12-15-8-pm/concert/18407288",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ3FU",
@@ -1405,11 +1405,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407288,
+        "url": "https://seatgeek.com/jodeci-tickets/jacksonville-florida-florida-theatre-jacksonville-2026-12-15-8-pm/concert/18407288",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1617,11 +1617,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407226,
+        "url": "https://seatgeek.com/jodeci-tickets/san-francisco-california-the-masonic-san-francisco-2027-01-08-8-pm/concert/18407226",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1670,11 +1670,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407227,
+        "url": "https://seatgeek.com/jodeci-tickets/inglewood-california-youtube-theater-2027-01-09-8-pm/concert/18407227",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1723,11 +1723,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407231,
+        "url": "https://seatgeek.com/jodeci-tickets/el-cajon-california-the-magnolia-1-2027-01-10-7-pm/concert/18407231",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1776,11 +1776,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407229,
+        "url": "https://seatgeek.com/jodeci-tickets/phoenix-arizona-arizona-financial-theatre-2027-01-15-8-pm/concert/18407229",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1829,11 +1829,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407228,
+        "url": "https://seatgeek.com/jodeci-tickets/ontario-california-toyota-arena-ontario-2027-01-16-8-pm/concert/18407228",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

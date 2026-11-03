@@ -1714,11 +1714,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662740,
+        "url": "https://seatgeek.com/leon-bridges-tickets/austin-texas-moody-center-atx-2027-09-24-7-30-pm/concert/18662740",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673695,
@@ -1794,11 +1794,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662745,
+        "url": "https://seatgeek.com/leon-bridges-tickets/houston-texas-713-music-hall-2027-09-25-7-30-pm/concert/18662745",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673606,

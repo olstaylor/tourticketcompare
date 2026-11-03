@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70NZ_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mercyme-tickets/colorado-springs-colorado-broadmoor-world-arena-2026-11-05-7-pm/concert/18243411",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ_",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18243411,
+        "url": "https://seatgeek.com/mercyme-tickets/colorado-springs-colorado-broadmoor-world-arena-2026-11-05-7-pm/concert/18243411",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -117,7 +117,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70N7d",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70N7d",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mercyme-tickets/springfield-missouri-great-southern-bank-arena-2026-11-07-7-pm/concert/18243415",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70N7d",
@@ -133,11 +133,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18243415,
+        "url": "https://seatgeek.com/mercyme-tickets/springfield-missouri-great-southern-bank-arena-2026-11-07-7-pm/concert/18243415",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -329,7 +329,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70NeK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NeK",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mercyme-tickets/kansas-city-missouri-t-mobile-center-2026-11-14-7-pm/concert/18243423",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NeK",
@@ -345,11 +345,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18243423,
+        "url": "https://seatgeek.com/mercyme-tickets/kansas-city-missouri-t-mobile-center-2026-11-14-7-pm/concert/18243423",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -382,7 +382,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70NZ6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mercyme-tickets/minneapolis-minnesota-target-center-2026-11-15-7-pm/concert/18243425",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ6",
@@ -398,11 +398,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18243425,
+        "url": "https://seatgeek.com/mercyme-tickets/minneapolis-minnesota-target-center-2026-11-15-7-pm/concert/18243425",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1124,7 +1124,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA74jN",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA74jN",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mercyme-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-04-15-7-pm/concert/18692264",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA74jN",
@@ -1140,11 +1140,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18692264,
+        "url": "https://seatgeek.com/mercyme-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-04-15-7-pm/concert/18692264",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1617,11 +1617,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18692284,
+        "url": "https://seatgeek.com/mercyme-tickets/canton-ohio-canton-civic-center-canton-oh-2027-05-01-7-pm/concert/18692284",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1670,11 +1670,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18692285,
+        "url": "https://seatgeek.com/mercyme-tickets/evansville-indiana-ford-center-in-2027-05-02-7-pm/concert/18692285",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

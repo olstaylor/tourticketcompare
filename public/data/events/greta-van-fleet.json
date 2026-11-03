@@ -4211,7 +4211,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe44U",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44U",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/green-bay-wisconsin-resch-center-2027-02-17-7-pm/concert/18641961",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44U",
@@ -4227,11 +4227,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18641961,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/green-bay-wisconsin-resch-center-2027-02-17-7-pm/concert/18641961",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -4264,7 +4264,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe44M",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44M",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/cleveland-ohio-rocket-arena-2027-03-03-7-pm/concert/18611175",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44M",
@@ -4280,11 +4280,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18611175,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/cleveland-ohio-rocket-arena-2027-03-03-7-pm/concert/18611175",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -4317,7 +4317,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe44z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44z",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/greta-van-fleet-tickets/salt-lake-city-utah-delta-center-1-2027-03-29-7-pm/concert/18582229",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44z",
@@ -4333,11 +4333,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18582229,
+        "url": "https://seatgeek.com/greta-van-fleet-tickets/salt-lake-city-utah-delta-center-1-2027-03-29-7-pm/concert/18582229",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

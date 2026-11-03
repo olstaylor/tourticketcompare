@@ -163,11 +163,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17482113,
+        "url": "https://seatgeek.com/eros-ramazzotti-tickets/laval-canada-place-bell-2027-09-26-8-pm/concert/17482113",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7484548,

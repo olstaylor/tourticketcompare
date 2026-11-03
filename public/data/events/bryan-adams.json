@@ -255,7 +255,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "170064FDDE2D44C1",
     "ticketmaster_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-11-01-2026/event/170064FDDE2D44C1",
-    "seatgeek_url": "https://seatgeek.com/bryan-adams-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-01-8-pm/concert/18424326",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-1-2026/production/7383758",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bryan-adams-bare-bones-acoustic-solo-las-vegas-nevada-11-01-2026/event/170064FDDE2D44C1",
@@ -271,11 +271,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18424326,
-        "url": "https://seatgeek.com/bryan-adams-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-01-8-pm/concert/18424326",
-        "verified": true,
-        "last_verified_at": "2026-10-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7383758,

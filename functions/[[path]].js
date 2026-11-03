@@ -55,7 +55,7 @@ import {
   WEEKLY_CHANGE_DAYS
 } from "./_event-price-moves.js";
 import { isUpcomingShow, showStartMs } from "./_upcoming.js";
-import { CARD_PRICE_TAIL, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, PRICE_SUMMARY, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
+import { CARD_PRICE_TAIL, LAST_SEEN_MAX_DAYS, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, PRICE_SUMMARY, lastSeenDate, lastSeenNote, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, nonPerformanceMarkers, resolveEventRoute } from "./_event-pages.js";
 import { deriveEventContext, EVENT_CITY_NEIGHBOUR_DAYS, EVENT_VENUE_NEIGHBOUR_DAYS } from "./_event-context.js";
 import { deriveEventPriceRange, fetchEventPriceRange, isRicherEventPilot } from "./_event-price-range.js";
@@ -6500,9 +6500,29 @@ function checkedTimeHtml(fetchedAt, asOf = "") {
   return `<time datetime="${escapeAttr(at)}"${title ? ` title="${escapeAttr(title)}"` : ""}>Checked ${escapeHtml(relativeCheckAge(at))}</time>`;
 }
 
+// "Last seen" figures for a card with no fresh price: each rendered button's
+// lane that carries a lastSeen snapshot (attachApprovedMarketplacePrices) under
+// LAST_SEEN_MAX_DAYS old, in button order. Never a button amount and never
+// compared. Keep in sync with lastSeenEntries in public/app.js.
+function lastSeenEntries(ctaSpecs, show, now = Date.now()) {
+  const lanes = Array.isArray(show?.prices) ? show.prices : [];
+  const entries = [];
+  for (const spec of ctaSpecs) {
+    const seen = lanes.find((lane) => lane?.provider === spec.name && lane.status !== "ok")?.lastSeen;
+    const at = Date.parse(String(seen?.observedAt || ""));
+    if (!seen || !Number.isFinite(at) || at > now + 300000 || now - at > LAST_SEEN_MAX_DAYS * 86400000) continue;
+    const amount = formatServerPrice(Number(seen.price), String(seen.currency || "").toUpperCase());
+    const date = lastSeenDate(seen.observedAt);
+    if (amount && date) entries.push({ amount, name: spec.name, date });
+  }
+  return entries;
+}
+
 function renderServerPriceNotes(ctaSpecs, pricesChecked = false, show = null) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) {
+    const seen = pricesChecked ? lastSeenEntries(ctaSpecs, show) : [];
+    if (seen.length) return `<div class="provider-cta-notes"><p class="disclosure-note last-seen-note">${escapeHtml(lastSeenNote(seen))}</p></div>`;
     const note = pricesChecked && ctaSpecs.length ? priceUnavailableNote(ctaSpecs, show) : "";
     return note ? `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(note)}</p></div>` : "";
   }

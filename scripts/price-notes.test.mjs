@@ -140,13 +140,29 @@ const PENDING_RESALE = fixtureEvent("fixture-pending-resale", "2026-09-16T01:00:
 const PENDING_BARE = fixtureEvent("fixture-pending-bare", "2026-09-17T01:00:00Z", { lanes: [], seatgeek: false, onsaleAt: "2026-08-20T15:00:00Z" });
 const UK_USD = { ...fixtureEvent("fixture-uk-usd", "2026-09-18T19:00:00Z"), city: "London", country: "Great Britain", timezone: "Europe/London" };
 const UK_GBP = { ...fixtureEvent("fixture-uk-gbp", "2026-09-19T19:00:00Z"), city: "London", country: "Great Britain", timezone: "Europe/London" };
-const EVENTS = [PRICED, CHECKED, UNMAPPED, UNCHECKED, STALE_CHECK, PENDING_RESALE, PENDING_BARE, UK_USD, UK_GBP];
+// "Last seen" fallback (owner-approved 2026-11-03): an expired snapshot under
+// 7 days old shows as a dated note, never as a price; older ones stay hidden,
+// and a later no-price check outranks it.
+const LAST_SEEN = fixtureEvent("fixture-last-seen", "2026-09-20T01:00:00Z", { lanes: ["vivid-seats", "ticketnetwork"] });
+const TOO_OLD = fixtureEvent("fixture-too-old", "2026-09-21T01:00:00Z", { lanes: ["vivid-seats"] });
+const SUPERSEDED = fixtureEvent("fixture-superseded", "2026-09-22T01:00:00Z", { lanes: ["vivid-seats"] });
+const OUTLIER = fixtureEvent("fixture-outlier", "2026-09-23T01:00:00Z");
+const EVENTS = [PRICED, CHECKED, UNMAPPED, UNCHECKED, STALE_CHECK, PENDING_RESALE, PENDING_BARE, UK_USD, UK_GBP, LAST_SEEN, TOO_OLD, SUPERSEDED, OUTLIER];
 
 const PRICE_ROWS = [
   ...[UK_USD, UK_GBP].map((event, index) => ({ event_id: event.id, provider: "vivid-seats", low_price: 125, currency: index ? "GBP" : "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" })),
   { event_id: PRICED.id, provider: "vivid-seats", low_price: 182, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" },
   { event_id: PENDING_RESALE.id, provider: "vivid-seats", low_price: 240, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" },
-  { event_id: PRICED.id, provider: "ticketnetwork", low_price: 190, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "ticketnetwork_impact_marketplace_api" }
+  { event_id: PRICED.id, provider: "ticketnetwork", low_price: 190, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "ticketnetwork_impact_marketplace_api" },
+  // Expired 3 days ago (writers stopped), 3.1 and 4 days old: shown as last seen.
+  { event_id: LAST_SEEN.id, provider: "vivid-seats", low_price: 62, currency: "USD", verified_at: "2026-08-06T09:00:00Z", expires_at: "2026-08-07T09:00:00Z", source: "vividseats_impact_marketplace_api" },
+  { event_id: LAST_SEEN.id, provider: "ticketnetwork", low_price: 58, currency: "USD", verified_at: "2026-08-05T12:00:00Z", expires_at: "2026-08-06T12:00:00Z", source: "ticketnetwork_impact_marketplace_api" },
+  // All expired; the cross-site guard still rejects the implausibly low one.
+  ...[["vivid-seats", 371, "vividseats"], ["ticketnetwork", 481.85, "ticketnetwork"], ["stubhub-international", 50.59, "stubhub_international"]].map(([provider, low, src]) => ({ event_id: OUTLIER.id, provider, low_price: low, currency: "USD", verified_at: "2026-08-06T09:00:00Z", expires_at: "2026-08-07T09:00:00Z", source: `${src}_impact_marketplace_api` })),
+  // 10 days old: past the 7-day window, stays hidden.
+  { event_id: TOO_OLD.id, provider: "vivid-seats", low_price: 71, currency: "USD", verified_at: "2026-07-30T09:00:00Z", expires_at: "2026-07-31T09:00:00Z", source: "vividseats_impact_marketplace_api" },
+  // Expired, but a later check found no listed price: not shown.
+  { event_id: SUPERSEDED.id, provider: "vivid-seats", low_price: 83, currency: "USD", verified_at: "2026-08-06T09:00:00Z", expires_at: "2026-08-07T09:00:00Z", source: "vividseats_impact_marketplace_api" }
 ];
 const CHECK_ROWS = [
   { event_id: PRICED.id, provider: "vivid-seats", checked_at: "2026-08-09T09:00:00.000Z", outcome: "priced" },
@@ -155,7 +171,8 @@ const CHECK_ROWS = [
   // A 'priced' check whose row the display gate withholds: never quoted as "no listed price".
   { event_id: UNCHECKED.id, provider: "vivid-seats", checked_at: "2026-08-09T11:00:00.000Z", outcome: "priced" },
   // 60h old: past the 36h quote window, so it must not be quoted.
-  { event_id: STALE_CHECK.id, provider: "ticketnetwork", checked_at: "2026-08-07T00:00:00.000Z", outcome: "no_price" }
+  { event_id: STALE_CHECK.id, provider: "ticketnetwork", checked_at: "2026-08-07T00:00:00.000Z", outcome: "no_price" },
+  { event_id: SUPERSEDED.id, provider: "vivid-seats", checked_at: "2026-08-08T09:00:00.000Z", outcome: "no_price" }
 ];
 
 function fakeDb({ failCache = false, failChecks = false } = {}) {
@@ -280,6 +297,20 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
   assert(text(pending).includes("Public on-sale Aug 20, 2026") && text(pending).includes("resale listings"), `${pathname}: the pre-on-sale card states the on-sale time and that these are resale listings`);
   assert(!html.includes(`showId=${PENDING_BARE.id}`), `${pathname}: a pre-on-sale date with no verified resale lane renders no button`);
   assert(text(html).includes("Public on-sale Aug 20, 2026"), `${pathname}: it still states the on-sale time`);
+
+  const lastSeen = card(html, LAST_SEEN.id);
+  assert(
+    text(lastSeen).includes("Last seen USD 58 at TicketNetwork on 5 Aug and USD 62 at Vivid Seats on 6 Aug. Not checked since, so it may have changed."),
+    `${pathname}: an expired snapshot under 7 days old is shown dated, per site, in button order — got: ${text(lastSeen).slice(-260)}`
+  );
+  assert(!/provider-cta-priced/.test(lastSeen) && !/From USD/.test(text(lastSeen)), `${pathname}: a last-seen figure is never a button price`);
+  assert(!/cheapest|lowest/i.test(text(lastSeen)), `${pathname}: a last-seen card makes no cheapest claim`);
+  const jsonLd = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]).join("\n");
+  assert(!/"price":\s*"?(62|58)\b/.test(jsonLd), `${pathname}: a last-seen figure never reaches JSON-LD offers`);
+  assert(!/Last seen/.test(card(html, TOO_OLD.id)) && text(card(html, TOO_OLD.id)).includes(PRICE_UNAVAILABLE_NOTE), `${pathname}: a snapshot older than 7 days stays hidden`);
+  assert(!/Last seen|USD 83/.test(text(card(html, SUPERSEDED.id))), `${pathname}: a later no-price check outranks an older figure`);
+  const outlier = text(card(html, OUTLIER.id));
+  assert(/Last seen/.test(outlier) && /USD 371/.test(outlier) && !/50\.59/.test(outlier), `${pathname}: expiry does not revive a figure the cross-site guard rejects — got: ${outlier.slice(-260)}`);
 }
 
 // A cache read that throws establishes nothing: no card may claim absence.
@@ -305,6 +336,14 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
   assert(foreign.includes("This UK event has prices in a foreign currency"), "the UK buyer sees currency context beside the actual price");
   assert(/From GBP\s+125/.test(text(local)) && !local.includes("foreign currency"), "a GBP price gets no foreign-currency warning");
   assert(!/fees are added at checkout/.test(html), "shared copy does not invent missing fee treatment");
+}
+
+// Client hydration must not drop a last-seen-only card (it used to replace
+// only cards with a fresh price).
+{
+  const appJs = await read("public/app.js");
+  const gates = appJs.match(/hasApprovedMarketplacePrice\(pricedShow\) && !hasLastSeenPrice\(pricedShow\)/g) || [];
+  assert(gates.length === 2, `both hydration gates let last-seen-only cards through (found ${gates.length})`);
 }
 
 console.log(`price-notes: ${passed} assertions passed`);

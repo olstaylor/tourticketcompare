@@ -14,6 +14,15 @@ const appJs = await readFile(new URL("../public/app.js", import.meta.url), "utf8
 for (const name of ["PRICE_SUMMARY", "PRICE_DISCLOSURE", "NO_PRICE_NOTE", "PRICE_HISTORY_LABEL", "CARD_PRICE_TAIL", "MONEY_DISCLOSURE"]) {
   assert(appJs.includes(JSON.stringify(wording[name])), `public/app.js mirrors ${name} (${JSON.stringify(wording[name])})`);
 }
+assert(appJs.includes(JSON.stringify(wording.LAST_SEEN_TAIL)), "public/app.js mirrors LAST_SEEN_TAIL");
+assert(appJs.includes(`const LAST_SEEN_MAX_DAYS = ${wording.LAST_SEEN_MAX_DAYS};`), "public/app.js mirrors LAST_SEEN_MAX_DAYS");
+{
+  const shows = await import("../functions/api/shows.js");
+  assert(shows.LAST_SEEN_MAX_DAYS === wording.LAST_SEEN_MAX_DAYS, "functions/api/shows.js and _price-wording.js agree on LAST_SEEN_MAX_DAYS");
+}
+assert(wording.lastSeenDate("2026-10-24T18:00:00Z") === "24 Oct", "lastSeenDate");
+assert(wording.lastSeenNote([{ amount: "USD 62", name: "Vivid Seats", date: "24 Oct" }]) === `Last seen USD 62 at Vivid Seats on 24 Oct. ${wording.LAST_SEEN_TAIL}`, "lastSeenNote");
+assert(!wording.UNSUPPORTED_CHEAPEST_CLAIM.test(wording.LAST_SEEN_TAIL), "the last-seen tail makes no price claim");
 assert(appJs.includes('"Provider starting price"') && appJs.includes('"Separate provider starting prices"'), "public/app.js mirrors lowestPriceLabel");
 assert(wording.lowestPriceLabel(0) === "" && wording.lowestPriceLabel(1) === "Provider starting price" && wording.lowestPriceLabel(3) === "Separate provider starting prices", "lowestPriceLabel");
 const now = Date.parse("2026-10-06T12:00:00Z");

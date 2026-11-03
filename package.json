@@ -19,6 +19,7 @@
     "test:price-wording": "node scripts/price-wording.test.mjs",
     "test:upcoming-shows": "node scripts/upcoming-shows.test.mjs",
     "test:selling-soon": "node scripts/selling-soon.test.mjs",
+    "test:embed": "node scripts/embed.test.mjs",
     "site:health": "node scripts/check-site-health.mjs",
     "site:health:self-test": "node scripts/check-site-health.mjs --self-test",
     "artists:requests:check": "node scripts/artist-requests.mjs --check",

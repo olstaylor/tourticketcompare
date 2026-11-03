@@ -5895,6 +5895,44 @@ export function renderArtistNextDatesPriceAnswer(artist, shows, availability, su
   });
 }
 
+// Data for the embeddable price widget (functions/api/embed.js, _embed.js).
+// Same artist gate, same price attach and same serverShowCtaSpecs gate as the
+// artist page's opening table, so the widget can never print a price the site
+// would not. Returns null for an unknown artist. An artist that is under review
+// or demoted gets no rows (its own page carries no ticket buttons either).
+// Shows are only the first EMBED_PRICE_LOOKUP_SHOWS dates, bounding D1 reads.
+const EMBED_PRICE_LOOKUP_SHOWS = 40;
+
+export async function loadEmbedPrices(env, artistSlug) {
+  const slug = slugify(artistSlug);
+  if (!slug) return null;
+  const [catalog, artistsMeta] = await Promise.all([loadCatalog(env), loadArtistsMeta(env)]);
+  const artist = findArtist(catalog, slug);
+  if (!artist) return null;
+  const meta = artistsMeta.find((m) => slugify(m.slug) === slug) || {};
+  const out = { artist: { slug: artist.slug, name: artist.name }, shows: [], rows: [], totalDates: 0 };
+  if (meta.demoted || meta.indexing_status !== "indexable_with_substantial_content") return out;
+  const events = await loadArtistEvents(env, slug);
+  const all = futureShowsForArtist(events, slug);
+  out.totalDates = all.length;
+  const candidates = all.slice(0, EMBED_PRICE_LOOKUP_SHOWS);
+  const priced = await attachApprovedMarketplacePrices(candidates, env);
+  const availability = {
+    seatGeekAvailable: isSeatGeekConfigured(env),
+    vividSeatsAvailable: isVividSeatsConfigured(env),
+    marketplaceAvailability: Object.fromEntries(
+      IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)])
+    )
+  };
+  const answer = deriveCityDatePrices(priced, {
+    ctaSpecsFor: (show) => serverShowCtaSpecs(show, availability),
+    wasChecked: pricesWereChecked
+  });
+  out.rows = answer.rows;
+  out.shows = priced.map((show) => ({ id: String(show.id || ""), city: String(show.city || ""), venue: String(show.venue || "") }));
+  return out;
+}
+
 // The presale page's opening ticket table: the next few dates it lists, as the
 // artist page opens with. Presale searchers arrive in bursts around a sale
 // (Nickelback, 13-14 Oct 2026: 51 search landings) and the first ticket button
@@ -7899,7 +7937,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const nextDatesHtml = `${shows.length ? `<p class="artist-dates-jump">${anchor(`Find your date · ${shows.length} listed`, "#artistShowBoard", "text-link")}</p>` : ""}${nextDatesTableHtml}`;
     const leadHtml = `<div data-artist-lead><h1 id="artistTitle">${escapeHtml(
       shows.length ? `${artist.name} tickets and tour dates` : `${artist.name} tickets`
-    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${priceGuideLinkHtml}${presaleLinkHtml}${renderCityReportLinkHtml(artist, route.cityReport)}${nextDatesHtml}</div>`;
+    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${priceGuideLinkHtml}${presaleLinkHtml}${renderCityReportLinkHtml(artist, route.cityReport)}${nextDatesHtml}${nextDatesTableHtml ? `<p class="artist-embed-link">${anchor("Embed these prices on your site", `/api/embed?artist=${encodeURIComponent(artist.slug)}&view=builder`, "text-link", "rel=\"nofollow\"")}</p>` : ""}</div>`;
     const showBoardHtml = renderShowBoardServerHtml(
       shows,
       seatGeekAvailable,

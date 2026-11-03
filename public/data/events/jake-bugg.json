@@ -914,5 +914,113 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k7936fE",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-jake-bugg-2027-ayr-1auzk4xgkerybal",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg",
+    "city": "Ayr",
+    "country": "Great Britain",
+    "venue": "Ayr Pavilion",
+    "datetime_iso": "2027-02-12T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006562AFC1825F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-ayr-12-02-2027/event/36006562AFC1825F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-ayr-12-02-2027/event/36006562AFC1825F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006562AFC1825F",
+        "discovery_event_id": "1AUZk4xGkeRYbaL",
+        "url": "https://www.ticketmaster.co.uk/jake-bugg-ayr-12-02-2027/event/36006562AFC1825F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk4xGkeRYbaL",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T10:00:00Z"
+  },
+  {
+    "id": "tm-jake-bugg-2027-stirling-1auzk4xgkd61qqs",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "event_name": "Jake Bugg",
+    "city": "Stirling",
+    "country": "Great Britain",
+    "venue": "Stirling Albert Halls",
+    "datetime_iso": "2027-02-13T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006562C729A6B3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-stirling-13-02-2027/event/36006562C729A6B3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-stirling-13-02-2027/event/36006562C729A6B3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006562C729A6B3",
+        "discovery_event_id": "1AUZk4xGkd61QQS",
+        "url": "https://www.ticketmaster.co.uk/jake-bugg-stirling-13-02-2027/event/36006562C729A6B3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk4xGkd61QQS",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T10:00:00Z"
   }
 ]

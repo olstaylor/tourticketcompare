@@ -98,6 +98,30 @@ export function relativeCheckAge(fetchedAt, now = Date.now()) {
   return `${days} day${days === 1 ? "" : "s"} ago`;
 }
 
+/** How old a lane's expired snapshot may be and still show as "last seen".
+ *  Keep in sync with LAST_SEEN_MAX_DAYS in functions/api/shows.js. */
+export const LAST_SEEN_MAX_DAYS = 7;
+
+/** The tail on a "last seen" note: an expired figure is history, not a price. */
+export const LAST_SEEN_TAIL = "Not checked since, so it may have changed. Check the ticket site for today's price.";
+
+/** "Last seen USD 62 at Vivid Seats on 24 Oct. <tail>" for a card with no
+ *  fresh price but one or more expired snapshots under LAST_SEEN_MAX_DAYS old.
+ *  Each figure keeps its own site and date; they are never compared. */
+export function lastSeenNote(entries) {
+  const parts = entries.map((entry) => `${entry.amount} at ${entry.name} on ${entry.date}`);
+  if (!parts.length) return "";
+  const joined = parts.length > 1 ? `${parts.slice(0, -1).join(", ")} and ${parts[parts.length - 1]}` : parts[0];
+  return `Last seen ${joined}. ${LAST_SEEN_TAIL}`;
+}
+
+/** "24 Oct" in UTC, the date a last-seen figure was captured. */
+export function lastSeenDate(observedAt) {
+  const at = Date.parse(String(observedAt || ""));
+  if (!Number.isFinite(at)) return "";
+  return new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", timeZone: "UTC" }).format(new Date(at));
+}
+
 /** A checked card with no price, naming the lanes checked and when. */
 export function noPriceAtLastCheck(laneNames, when) {
   return `No listed price from ${laneNames} at the last check (${when}).`;

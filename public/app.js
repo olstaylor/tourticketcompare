@@ -2065,6 +2065,33 @@ const PRICE_SUMMARY = "Starting prices only. Seats and fees vary, and your final
 const CARD_PRICE_TAIL = "not the final total";
 const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";
 const PRICE_HISTORY_LABEL = "Show price history";
+const LAST_SEEN_MAX_DAYS = 7;
+const LAST_SEEN_TAIL = "Not checked since, so it may have changed. Check the ticket site for today's price.";
+function lastSeenNote(entries) {
+  const parts = entries.map((entry) => `${entry.amount} at ${entry.name} on ${entry.date}`);
+  if (!parts.length) return "";
+  const joined = parts.length > 1 ? `${parts.slice(0, -1).join(", ")} and ${parts[parts.length - 1]}` : parts[0];
+  return `Last seen ${joined}. ${LAST_SEEN_TAIL}`;
+}
+function lastSeenDate(observedAt) {
+  const at = Date.parse(String(observedAt || ""));
+  if (!Number.isFinite(at)) return "";
+  return new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", timeZone: "UTC" }).format(new Date(at));
+}
+// Keep in sync with lastSeenEntries in functions/[[path]].js.
+function lastSeenEntries(ctaSpecs, show, now = Date.now()) {
+  const lanes = Array.isArray(show?.prices) ? show.prices : [];
+  const entries = [];
+  for (const spec of ctaSpecs) {
+    const seen = lanes.find((lane) => lane?.provider === spec.name && lane.status !== "ok")?.lastSeen;
+    const at = Date.parse(String(seen?.observedAt || ""));
+    if (!seen || !Number.isFinite(at) || at > now + 300000 || now - at > LAST_SEEN_MAX_DAYS * 86400000) continue;
+    const amount = formatProviderPrice(Number(seen.price), String(seen.currency || "").toUpperCase());
+    const date = lastSeenDate(seen.observedAt);
+    if (amount && date) entries.push({ amount, name: spec.name, date });
+  }
+  return entries;
+}
 
 // Scheduled numeric-price lanes whose absence can be explained on a card.
 // A link-only SeatGeek date stays silent while its writer is dispatch-only.
@@ -2092,6 +2119,13 @@ function pricesWereChecked(show) {
 function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false, show = null) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) {
+    const seen = pricesChecked ? lastSeenEntries(ctaSpecs, show) : [];
+    if (seen.length) {
+      const seenWrap = document.createElement("div");
+      seenWrap.className = "provider-cta-notes";
+      text(seenWrap, "p", lastSeenNote(seen), "disclosure-note last-seen-note");
+      return seenWrap;
+    }
     if (!pricesChecked || !ctaSpecs.some((spec) => LISTED_PRICE_PROVIDER_SLUGS.has(spec.provider))) return null;
     const emptyWrap = document.createElement("div");
     emptyWrap.className = "provider-cta-notes";

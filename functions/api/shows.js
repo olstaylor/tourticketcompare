@@ -942,6 +942,36 @@ function approvedCachedPriceFromRow(provider, approvedSource, show, row) {
   };
 }
 
+// "Last seen" fallback (owner-approved 2026-11-03). When the scheduled writers
+// miss runs, a lane's snapshot passes its expires_at and the price used to
+// vanish from the card. A row that fails ONLY the expiry gate, and whose
+// verified_at is no more than LAST_SEEN_MAX_DAYS old, may instead be shown as
+// a dated "last seen" figure. It is never a fresh price: it stays out of the
+// lane's price/status (so it can never reach a button amount, a cheapest or
+// side-by-side comparison, JSON-LD offers, price moves or data stories, all of
+// which read status "ok" lanes only) and travels on a separate lastSeen field
+// that only the card's no-price note reads. Older rows stay hidden.
+// Keep LAST_SEEN_MAX_DAYS in sync with functions/_price-wording.js.
+export const LAST_SEEN_MAX_DAYS = 7;
+
+export function lastSeenPriceFromRow(provider, approvedSource, show, row, now = Date.now()) {
+  if (!providerPriceEventVerified(show, providerKey(provider))) return null;
+  if (!row || typeof row !== "object" || row.source !== approvedSource) return null;
+  const lowPrice = Number(row.low_price);
+  if (!Number.isFinite(lowPrice) || lowPrice < MIN_PLAUSIBLE_LISTED_PRICE) return null;
+  const currency = String(row.currency || "").trim().toUpperCase();
+  if (!/^[A-Z]{3}$/.test(currency)) return null;
+  const verifiedAt = String(row.verified_at || "").trim();
+  const verifiedAtMs = Date.parse(verifiedAt);
+  if (!Number.isFinite(verifiedAtMs) || verifiedAtMs > now + 300000) return null;
+  if (now - verifiedAtMs > LAST_SEEN_MAX_DAYS * 86400000) return null;
+  const expiresAtMs = Date.parse(String(row.expires_at || "").trim());
+  // Only an expired row falls back; an unexpired one is a fresh price (or was
+  // rejected for another reason, which the fallback must not bypass).
+  if (!Number.isFinite(expiresAtMs) || expiresAtMs > now) return null;
+  return { price: lowPrice, currency, observedAt: verifiedAt };
+}
+
 async function fetchSeatGeekCachedPrice(show, env) {
   const provider = "SeatGeek";
   const providerDbKey = "seatgeek";
@@ -1183,15 +1213,20 @@ export async function attachApprovedMarketplacePrices(shows, env) {
     const showId = String(show?.id || "").trim();
     const prices = laneStates.map(({ lane, enabled }) => {
       let result = null;
+      let lastSeen = null;
       if (enabled && db && showId && lane.hasDisplayableUrl(show)) {
-        result = approvedCachedPriceFromRow(
-          lane.provider,
-          lane.approvedSource,
-          show,
-          rowsByKey.get(`${showId}:${lane.dbKey}`)
-        );
+        const row = rowsByKey.get(`${showId}:${lane.dbKey}`);
+        result = approvedCachedPriceFromRow(lane.provider, lane.approvedSource, show, row);
+        if (!result) {
+          lastSeen = lastSeenPriceFromRow(lane.provider, lane.approvedSource, show, row);
+          // A later check that found no listed price outranks an older figure:
+          // the seller has told us the price is gone, not just that we missed a run.
+          const noPriceAt = Date.parse(String(checksByEvent.get(showId)?.[lane.dbKey] || ""));
+          if (lastSeen && Number.isFinite(noPriceAt) && noPriceAt >= Date.parse(lastSeen.observedAt)) lastSeen = null;
+        }
       }
-      return decorateProviderResult(result || unavailableProviderPrice(lane.provider, show), show, lane.provider, env);
+      const decorated = decorateProviderResult(result || unavailableProviderPrice(lane.provider, show), show, lane.provider, env);
+      return lastSeen && decorated.status !== "ok" ? { ...decorated, lastSeen } : decorated;
     });
     const hide = implausiblyLowAmongSites(prices.map((entry) => ({ price: entry.status === "ok" ? entry.price : null, currency: entry.currency })));
     prices.forEach((entry, index) => {

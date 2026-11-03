@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import { FOCUS_ARTISTS, detectPriceDrops, renderDraftText, renderDraftFile, priceDropSql } from "./lib/price-drop-posts.mjs";
+import { FOCUS_ARTISTS, X_LIMIT, detectPriceDrops, renderDraftText, renderDraftFile, priceDropSql, imageFill, xLength } from "./lib/price-drop-posts.mjs";
 
 const NOW = Date.parse("2026-10-26T09:00:00Z");
 const artists = JSON.parse(fs.readFileSync(new URL("../public/data/artists.json", import.meta.url), "utf8"));
@@ -66,6 +66,16 @@ assert.equal(two[0].eventId, "e2");
 
 // Focus artists must be real artist slugs, or the priority silently does nothing.
 for (const f of FOCUS_ARTISTS) assert.ok(artistList.some((a) => a.slug === f), `focus artist ${f} exists`);
+
+// X-ready: tracked link, fits one post, names site and capture time; image fill is real data only.
+for (const d of out.concat(two)) {
+  const t = renderDraftText(d);
+  assert.match(t, /\?utm_source=x&utm_medium=social&utm_campaign=tourticketcomp$/);
+  assert.ok(xLength(t) <= X_LIMIT, `fits X: ${xLength(t)}`);
+  assert.match(t, /captured \d+ [A-Z][a-z]{2}, \d\d:\d\d UTC/);
+  assert.equal(imageFill(d).template, "ig-price-drop");
+}
+assert.match(renderDraftText(two[0], "olstaylor"), /utm_campaign=olstaylor$/);
 
 // File output.
 assert.match(renderDraftFile(out, { now: NOW }), /Nothing is posted/);

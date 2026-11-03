@@ -931,7 +931,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jake-bugg-ayr-12-02-2027/event/36006562AFC1825F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -967,7 +967,22 @@
     "ticketmaster_discovery_event_id": "1AUZk4xGkeRYbaL",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z"
+    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "organizer_names": [
+      "DF CONCERTS LIMITED"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      },
+      {
+        "name": "Gigs in Scotland Presale",
+        "start": "2026-11-05T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jake-bugg-2027-stirling-1auzk4xgkd61qqs",
@@ -985,7 +1000,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jake-bugg-stirling-13-02-2027/event/36006562C729A6B3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1021,6 +1036,22 @@
     "ticketmaster_discovery_event_id": "1AUZk4xGkd61QQS",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z"
+    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "GIGS IN SCOTLAND"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-04T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      },
+      {
+        "name": "Gigs in Scotland Presale",
+        "start": "2026-11-05T10:00:00Z",
+        "end": "2026-11-06T09:00:00Z"
+      }
+    ]
   }
 ]

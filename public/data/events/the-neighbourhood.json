@@ -833,7 +833,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-phoenix-mortgage-matchup-center-11-30-2026--concerts-rock/production/6690369",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-phoenix-arizona-11-30-2026/event/1900645387C950F4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -890,13 +890,6 @@
     "ticketmaster_discovery_event_id": "16v0Z_AC6G7w4dV",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-02-26T18:00:00Z",
-        "end": "2026-11-03T05:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748322",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748322/The-Neighbourhood-tickets-Mon-Nov-30-2026-Mortgage-Matchup-Center",
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-phoenix-tickets-11-30-2026/event/107123113",

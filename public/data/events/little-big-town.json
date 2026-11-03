@@ -294,7 +294,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-durham-north-carolina-11-06-2026/event/2D0064C5AB216E6B",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -332,13 +332,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-12T14:00:00Z",
-        "end": "2026-11-03T03:00:00Z"
-      }
     ]
   },
   {

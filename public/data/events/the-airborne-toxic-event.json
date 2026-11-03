@@ -7,7 +7,7 @@
     "city": "Glenside",
     "country": "United States Of America",
     "venue": "Keswick Theatre",
-    "datetime_iso": "2026-10-22T00:00:00Z",
+    "datetime_iso": "2027-05-20T00:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70_Pw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Pw",
@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Pw",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_Pw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-chicago-z7r9jz1aazbfj",

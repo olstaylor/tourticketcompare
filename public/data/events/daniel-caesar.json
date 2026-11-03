@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/daniel-caesar-tickets-honolulu-neal-s-blaisdell-arena-11-14-2026/production/7715194",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-14-2026/event/0A00654FBCA580AF",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -60,7 +60,8 @@
         "start": "2026-10-20T20:00:00Z",
         "end": "2026-11-10T22:00:00Z"
       }
-    ]
+    ],
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-daniel-caesar-2026-honolulu-vvg1iz_fxhniew",
@@ -78,7 +79,7 @@
     "vividseats_url": "https://www.vividseats.com/daniel-caesar-tickets-honolulu-neal-s-blaisdell-arena-11-15-2026--concerts-rap-hip-hop/production/7724762",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-15-2026/event/0A00654FBCAA80B2",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -123,6 +124,7 @@
         "start": "2026-10-20T20:00:00Z",
         "end": "2026-11-11T22:00:00Z"
       }
-    ]
+    ],
+    "ticketmaster_status_code": "cancelled"
   }
 ]

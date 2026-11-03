@@ -1841,7 +1841,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.dk/event/the-interrupters-us--tickets/418612942?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1877,6 +1877,9 @@
     "ticketmaster_discovery_event_id": "Z698xZC4Z1k8bb3Pe",
     "timezone": "Europe/Copenhagen",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "organizer_names": [
+      "VEGA Musikkens Hus"
+    ]
   }
 ]

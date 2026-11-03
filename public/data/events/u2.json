@@ -559,7 +559,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1926365826?language=en-us",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -628,7 +628,7 @@
       {
         "name": "Artist Presale",
         "start": "2026-11-05T09:00:00Z",
-        "end": "2027-11-05T21:00:00Z"
+        "end": "2026-11-05T21:00:00Z"
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-5-6-2027/event/107679471"

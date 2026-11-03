@@ -4215,7 +4215,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-green-bay-resch-center-2-17-2027/production/7642142",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44U",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4266,7 +4266,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303352",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303352/Greta-Van-Fleet-tickets-Wed-Feb-17-2027-Resch-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303352/Greta-Van-Fleet-tickets-Wed-Feb-17-2027-Resch-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-greta-van-fleet-2027-cleveland-z7r9jz1aae44m",
@@ -4284,7 +4287,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-cleveland-rocket-arena-3-3-2027/production/7642138",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44M",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4335,7 +4338,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303356",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303356/Greta-Van-Fleet-tickets-Wed-Mar-3-2027-Rocket-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303356/Greta-Van-Fleet-tickets-Wed-Mar-3-2027-Rocket-Arena",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-greta-van-fleet-2027-salt-lake-city-z7r9jz1aae44z",
@@ -4353,7 +4359,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-salt-lake-city-delta-center-3-29-2027/production/7642124",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe44z",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4404,6 +4410,9 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303371",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303371/Greta-Van-Fleet-tickets-Mon-Mar-29-2027-Delta-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303371/Greta-Van-Fleet-tickets-Mon-Mar-29-2027-Delta-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

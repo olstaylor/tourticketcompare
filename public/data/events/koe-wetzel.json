@@ -542,7 +542,7 @@
     "vividseats_url": "https://www.vividseats.com/koe-wetzel-tickets-durant-choctaw-grand-theater-1-29-2027/production/7794068",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/koe-wetzel-durant-oklahoma-01-29-2027/event/0C00655CB30E61D4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -578,6 +578,13 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_4wSdJ6f",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T16:00:00Z"
+    "public_onsale_at": "2026-11-06T16:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-04T16:00:00Z",
+        "end": "2026-11-06T04:00:00Z"
+      }
+    ]
   }
 ]

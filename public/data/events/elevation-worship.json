@@ -153,7 +153,7 @@
     "vividseats_url": "https://www.vividseats.com/elevation-worship-tickets-sacramento-golden-1-center-3-1-2027/production/7554854",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-sacramento-california-03-01-2027/event/1C00652400D2B6A2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -212,7 +212,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264723/Elevation-Worship-tickets-Mon-Mar-1-2027-Golden-1-Center",
     "stubhub_international_url": "https://www.stubhub.ie/elevation-worship-sacramento-tickets-3-1-2027/event/107668142",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264723"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264723",
+    "presales": [
+      {
+        "name": "TicketsGiving Offer",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2026-12-01T07:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-elevation-worship-2027-oakland-g5vyz_3npydie",

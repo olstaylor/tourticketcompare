@@ -800,7 +800,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-chicago-house-of-blues-chicago-11-10-2026/production/7292219",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-chicago-illinois-11-10-2026/event/040064E1E6DECA83",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -852,13 +852,6 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135378/Michelle-Branch-tickets-Tue-Nov-10-2026-House-Of-Blues-Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135378",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-17T15:00:00Z",
-        "end": "2026-11-03T05:55:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC",
       "HOUSE OF BLUES CONCERTS (HOB)"

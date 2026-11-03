@@ -375,15 +375,15 @@
     "city": "Hollywood",
     "country": "United States Of America",
     "venue": "Dolby Theatre",
-    "datetime_iso": "2026-11-03T04:30:00Z",
+    "datetime_iso": "2026-11-05T04:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "090064B785414609",
     "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
-    "seatgeek_url": "https://seatgeek.com/the-chicks-tickets/hollywood-california-dolby-theatre-2026-11-02-8-30-pm/concert/18268878",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-2-2026--concerts-country-and-folk/production/7084783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395,11 +395,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18268878,
-        "url": "https://seatgeek.com/the-chicks-tickets/hollywood-california-dolby-theatre-2026-11-02-8-30-pm/concert/18268878",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "vivid-seats": {
         "event_id": 7084783,
@@ -423,11 +423,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7999841",
-        "url": "https://www.ticketliquidator.com/tickets/7999841/The-Chicks-tickets-Mon-Nov-2-2026-Dolby-Theatre",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "ticketnetwork": {
         "event_id": "7999841",
@@ -441,11 +441,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-2-2026/event/107410077",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7999841/The-Chicks-tickets-Mon-Nov-2-2026-Dolby-Theatre",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7999841"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7999841",
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-11-03T04:30:00Z",
+    "previous_start_timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-the-chicks-2026-hollywood-vvg10z_5rao7bc",

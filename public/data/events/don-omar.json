@@ -1132,15 +1132,15 @@
     "city": "Ontario",
     "country": "United States Of America",
     "venue": "Toyota Arena",
-    "datetime_iso": "2026-10-30T03:00:00Z",
+    "datetime_iso": "2026-11-11T04:00:00Z",
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "090064AFE55AB260",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-ontario-california-10-29-2026/event/090064AFE55AB260",
-    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/ontario-california-toyota-arena-ontario-2026-10-29-8-pm/concert/18250868",
-    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-ontario-toyota-arena---ca-10-29-2026/production/7047716",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-ontario-california-10-29-2026/event/090064AFE55AB260",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1152,18 +1152,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18250868,
-        "url": "https://seatgeek.com/don-omar-tickets/ontario-california-toyota-arena-ontario-2026-10-29-8-pm/concert/18250868",
-        "verified": true,
-        "last_verified_at": "2026-10-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7047716,
-        "url": "https://www.vividseats.com/don-omar-tickets-ontario-toyota-arena---ca-10-29-2026/production/7047716",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "stubhub": {
         "event_id": null,
@@ -1200,7 +1200,9 @@
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
     "stubhub_international_url": "",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-10-30T03:00:00Z",
+    "previous_start_timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-don-omar-2026-las-vegas-z7r9jz1a70eqs",

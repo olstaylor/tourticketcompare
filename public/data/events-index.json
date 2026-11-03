@@ -60402,5 +60402,53 @@
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-the-interrupters-2027-london-g5vhz_4d3nbns",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "Roundhouse",
+    "datetime_iso": "2027-06-01T18:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-the-interrupters-2027-k-benhavn-v-z698xzc4z1k8bb3pe",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "country": "Denmark",
+    "city": "København V",
+    "venue": "VEGA - Musikkens Hus, Store VEGA",
+    "datetime_iso": "2027-06-21T18:00:00Z",
+    "timezone": "Europe/Copenhagen",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-jake-bugg-2027-ayr-1auzk4xgkerybal",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "country": "Great Britain",
+    "city": "Ayr",
+    "venue": "Ayr Pavilion",
+    "datetime_iso": "2027-02-12T19:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-jake-bugg-2027-stirling-1auzk4xgkd61qqs",
+    "artist_slug": "jake-bugg",
+    "artist_name": "Jake Bugg",
+    "country": "Great Britain",
+    "city": "Stirling",
+    "venue": "Stirling Albert Halls",
+    "datetime_iso": "2027-02-13T19:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

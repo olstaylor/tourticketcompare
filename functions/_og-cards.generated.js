@@ -608,7 +608,6 @@ export const OG_CARDS = {
   "/artists/sombr/tickets/m-xico-mexico": {"url":"/og/artists-sombr-tickets-m-xico-mexico.png","alt":"Tickets: Sombr in México"},
   "/artists/sombr/tickets/new-york-united-states": {"url":"/og/artists-sombr-tickets-new-york-united-states.png","alt":"Tickets: Sombr in New York"},
   "/artists/staind": {"url":"/og/artists-staind.png","alt":"Tickets & tour dates: Staind"},
-  "/artists/staind/presale": {"url":"/og/artists-staind-presale.png","alt":"Presale: Staind"},
   "/artists/staind/ticket-prices": {"url":"/og/artists-staind-ticket-prices.png","alt":"Ticket prices: Staind"},
   "/artists/stella-lefty": {"url":"/og/artists-stella-lefty.png","alt":"Tickets & tour dates: Stella Lefty"},
   "/artists/stella-lefty/ticket-prices": {"url":"/og/artists-stella-lefty-ticket-prices.png","alt":"Ticket prices: Stella Lefty"},

@@ -1770,5 +1770,113 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345084",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345084/The-Interrupters-tickets-Sat-May-1-2027-SOMA"
+  },
+  {
+    "id": "tm-the-interrupters-2027-london-g5vhz_4d3nbns",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Roundhouse",
+    "datetime_iso": "2027-06-01T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00655ED28D88F1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-interrupters-london-01-06-2027/event/1F00655ED28D88F1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-interrupters-london-01-06-2027/event/1F00655ED28D88F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00655ED28D88F1",
+        "discovery_event_id": "G5vHZ_4D3NbNs",
+        "url": "https://www.ticketmaster.co.uk/the-interrupters-london-01-06-2027/event/1F00655ED28D88F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_4D3NbNs",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T10:00:00Z"
+  },
+  {
+    "id": "tm-the-interrupters-2027-k-benhavn-v-z698xzc4z1k8bb3pe",
+    "artist_slug": "the-interrupters",
+    "artist_name": "The Interrupters",
+    "event_name": "The Interrupters (US)",
+    "city": "København V",
+    "country": "Denmark",
+    "venue": "VEGA - Musikkens Hus, Store VEGA",
+    "datetime_iso": "2027-06-21T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "418612942",
+    "ticketmaster_url": "https://www.ticketmaster.dk/event/the-interrupters-us--tickets/418612942?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.dk/event/the-interrupters-us--tickets/418612942?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "418612942",
+        "discovery_event_id": "Z698xZC4Z1k8bb3Pe",
+        "url": "https://www.ticketmaster.dk/event/the-interrupters-us--tickets/418612942?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC4Z1k8bb3Pe",
+    "timezone": "Europe/Copenhagen",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
   }
 ]

@@ -125,7 +125,8 @@ const PRICE_ROWS = [
   cacheRow(NEAR, "vivid-seats", 182, "vividseats_impact_marketplace_api"),
   cacheRow(NEAR, "ticketnetwork", 190, "ticketnetwork_impact_marketplace_api"),
   // Expired: must be invisible on both surfaces.
-  cacheRow(STALE, "vivid-seats", 99, "vividseats_impact_marketplace_api", "2026-08-02T09:00:00Z"),
+  // Past the 7-day "last seen" window too (owner-approved 2026-11-03), so it shows nowhere.
+  { ...cacheRow(STALE, "vivid-seats", 99, "vividseats_impact_marketplace_api", "2026-07-26T09:00:00Z"), verified_at: "2026-07-25T09:00:00Z" },
   // Held dates have fresh rows; neither surface may show them.
   ...HELD.map((event) => cacheRow(event, "vivid-seats", 150, "vividseats_impact_marketplace_api"))
 ];
@@ -362,7 +363,7 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
 
   // Stale snapshot: invisible on both surfaces.
   const stale = await render(pathOf(STALE));
-  assert(!/(?:\$|USD\s+)99/.test(stale.html) && !/(?:\$|USD\s+)99/.test(card(parent.html, STALE.id)), "an expired snapshot shows on neither surface");
+  assert(!/(?:\$|USD\s+)99/.test(stale.html) && !/(?:\$|USD\s+)99/.test(card(parent.html, STALE.id)), "an expired snapshot past the last-seen window shows on neither surface");
   assert(JSON.stringify(buttons(card(stale.html, STALE.id))) === JSON.stringify(buttons(card(parent.html, STALE.id))), "the stale date's buttons match the parent's");
 }
 

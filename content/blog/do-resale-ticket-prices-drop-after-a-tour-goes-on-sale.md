@@ -43,7 +43,7 @@ Each figure is the lowest listed price on that site at its last check of the day
 
 - **Harry Styles, Atlanta, 21 May 2027.** Vivid Seats: $586 on 11 September 2026, the first day it was recorded, then $211 a week later and $101 after two weeks.
 - **Fontaines D.C., Atlanta, 8 October 2027.** TicketNetwork: $184 on 4 October 2026, $46 a week later and $42.55 after two weeks.
-- **Carly Rae Jepsen, Chicago, 21 May 2027.** The other way: TicketNetwork went from $163.30 on 4 October 2026 to $227.70 a week later and $326.60 after two weeks.
+- **Carly Rae Jepsen, Chicago, 21 May 2027.** The other way: TicketNetwork was $163.30 on 4 October 2026, then $227.70 a week later and $326.60 after two weeks.
 
 ## What this does and doesn't say
 

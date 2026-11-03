@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70NZ_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ_",
     "seatgeek_url": "https://seatgeek.com/mercyme-tickets/colorado-springs-colorado-broadmoor-world-arena-2026-11-05-7-pm/concert/18243411",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-colorado-springs-broadmoor-world-arena-11-5-2026/production/7034805",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ_",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7034805,
+        "url": "https://www.vividseats.com/mercyme-tickets-colorado-springs-broadmoor-world-arena-11-5-2026/production/7034805",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "060064A48B338424",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-park-city-kansas-11-06-2026/event/060064A48B338424",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-park-city-heartland-credit-union-arena-11-6-2026--concerts-new-age/production/7034872",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-park-city-kansas-11-06-2026/event/060064A48B338424",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7034872,
+        "url": "https://www.vividseats.com/mercyme-tickets-park-city-heartland-credit-union-arena-11-6-2026--concerts-new-age/production/7034872",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70N7d",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70N7d",
     "seatgeek_url": "https://seatgeek.com/mercyme-tickets/springfield-missouri-great-southern-bank-arena-2026-11-07-7-pm/concert/18243415",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-springfield-great-southern-bank-arena-11-7-2026/production/7034799",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70N7d",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7034799,
+        "url": "https://www.vividseats.com/mercyme-tickets-springfield-great-southern-bank-arena-11-7-2026/production/7034799",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "0C0064A4A0538C58",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-oklahoma-city-oklahoma-11-08-2026/event/0C0064A4A0538C58",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-oklahoma-city-paycom-center-11-8-2026/production/7034443",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-oklahoma-city-oklahoma-11-08-2026/event/0C0064A4A0538C58",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7034443,
+        "url": "https://www.vividseats.com/mercyme-tickets-oklahoma-city-paycom-center-11-8-2026/production/7034443",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "050064A4E2CA9BE2",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-fishers-indiana-11-12-2026/event/050064A4E2CA9BE2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-fishers-fishers-event-center-11-12-2026/production/7034845",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-fishers-indiana-11-12-2026/event/050064A4E2CA9BE2",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7034845,
+        "url": "https://www.vividseats.com/mercyme-tickets-fishers-fishers-event-center-11-12-2026/production/7034845",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "160064A5D268E9B5",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-louisville-kentucky-11-13-2026/event/160064A5D268E9B5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-louisville-kfc-yum-center-11-13-2026/production/7034438",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-louisville-kentucky-11-13-2026/event/160064A5D268E9B5",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7034438,
+        "url": "https://www.vividseats.com/mercyme-tickets-louisville-kfc-yum-center-11-13-2026/production/7034438",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70NeK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NeK",
     "seatgeek_url": "https://seatgeek.com/mercyme-tickets/kansas-city-missouri-t-mobile-center-2026-11-14-7-pm/concert/18243423",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-kansas-city-t-mobile-center-11-14-2026/production/7034797",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NeK",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7034797,
+        "url": "https://www.vividseats.com/mercyme-tickets-kansas-city-t-mobile-center-11-14-2026/production/7034797",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70NZ6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ6",
     "seatgeek_url": "https://seatgeek.com/mercyme-tickets/minneapolis-minnesota-target-center-2026-11-15-7-pm/concert/18243425",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-minneapolis-target-center-11-15-2026/production/7034803",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70NZ6",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7034803,
+        "url": "https://www.vividseats.com/mercyme-tickets-minneapolis-target-center-11-15-2026/production/7034803",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "01006549E2E37A0F",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-roanoke-virginia-03-11-2027/event/01006549E2E37A0F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-roanoke-berglund-center-coliseum-3-11-2027/production/7714482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-roanoke-virginia-03-11-2027/event/01006549E2E37A0F",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714482,
+        "url": "https://www.vividseats.com/mercyme-tickets-roanoke-berglund-center-coliseum-3-11-2027/production/7714482",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "1600654E9A7854D0",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-huntington-west-virginia-03-12-2027/event/1600654E9A7854D0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-huntington-marshall-health-network-arena-3-12-2027/production/7714458",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-huntington-west-virginia-03-12-2027/event/1600654E9A7854D0",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714458,
+        "url": "https://www.vividseats.com/mercyme-tickets-huntington-marshall-health-network-arena-3-12-2027/production/7714458",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "2D00654DE840D1B1",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-florence-south-carolina-03-18-2027/event/2D00654DE840D1B1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-florence-florence-center-3-18-2027/production/7714386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-florence-south-carolina-03-18-2027/event/2D00654DE840D1B1",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714386,
+        "url": "https://www.vividseats.com/mercyme-tickets-florence-florence-center-3-18-2027/production/7714386",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "0E00654CC10AC89F",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-macon-georgia-03-20-2027/event/0E00654CC10AC89F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-macon-atrium-health-amphitheater-3-20-2027/production/7714410",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-macon-georgia-03-20-2027/event/0E00654CC10AC89F",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714410,
+        "url": "https://www.vividseats.com/mercyme-tickets-macon-atrium-health-amphitheater-3-20-2027/production/7714410",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "2000654CC1F25AD1",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-huntsville-alabama-03-21-2027/event/2000654CC1F25AD1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-huntsville-propst-arena-at-the-von-braun-center-3-21-2027/production/7714400",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-huntsville-alabama-03-21-2027/event/2000654CC1F25AD1",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714400,
+        "url": "https://www.vividseats.com/mercyme-tickets-huntsville-propst-arena-at-the-von-braun-center-3-21-2027/production/7714400",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "1B00654DBD8E4122",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-pensacola-florida-03-24-2027/event/1B00654DBD8E4122",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-pensacola-pensacola-bay-center-3-24-2027/production/7714408",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-pensacola-florida-03-24-2027/event/1B00654DBD8E4122",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714408,
+        "url": "https://www.vividseats.com/mercyme-tickets-pensacola-pensacola-bay-center-3-24-2027/production/7714408",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "220065499F4446C2",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-orlando-florida-03-25-2027/event/220065499F4446C2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-orlando-addition-financial-arena-3-25-2027/production/7714406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-orlando-florida-03-25-2027/event/220065499F4446C2",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714406,
+        "url": "https://www.vividseats.com/mercyme-tickets-orlando-addition-financial-arena-3-25-2027/production/7714406",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "2D00654BF1555CAB",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-fayetteville-north-carolina-04-01-2027/event/2D00654BF1555CAB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-fayetteville-crown-complex---crown-coliseum-4-1-2027/production/7714448",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-fayetteville-north-carolina-04-01-2027/event/2D00654BF1555CAB",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714448,
+        "url": "https://www.vividseats.com/mercyme-tickets-fayetteville-crown-complex---crown-coliseum-4-1-2027/production/7714448",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +966,7 @@
     "ticketmaster_event_id": "0200654CCF138C02",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-reading-pennsylvania-04-04-2027/event/0200654CCF138C02",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-reading-santander-arena-4-4-2027/production/7714342",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-reading-pennsylvania-04-04-2027/event/0200654CCF138C02",
     "last_verified_at": null,
@@ -988,11 +988,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714342,
+        "url": "https://www.vividseats.com/mercyme-tickets-reading-santander-arena-4-4-2027/production/7714342",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1019,7 +1019,7 @@
     "ticketmaster_event_id": "0100654FB5C3E763",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-portland-maine-04-08-2027/event/0100654FB5C3E763",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-portland-cross-insurance-arena-4-8-2027/production/7714967",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-portland-maine-04-08-2027/event/0100654FB5C3E763",
     "last_verified_at": null,
@@ -1041,11 +1041,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714967,
+        "url": "https://www.vividseats.com/mercyme-tickets-portland-cross-insurance-arena-4-8-2027/production/7714967",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1072,7 +1072,7 @@
     "ticketmaster_event_id": "00006549C3469CF1",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-trenton-new-jersey-04-10-2027/event/00006549C3469CF1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-trenton-cure-insurance-arena-4-10-2027/production/7714416",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-trenton-new-jersey-04-10-2027/event/00006549C3469CF1",
     "last_verified_at": null,
@@ -1094,11 +1094,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714416,
+        "url": "https://www.vividseats.com/mercyme-tickets-trenton-cure-insurance-arena-4-10-2027/production/7714416",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1125,7 +1125,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA74jN",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA74jN",
     "seatgeek_url": "https://seatgeek.com/mercyme-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-04-15-7-pm/concert/18692264",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-4-15-2027--concerts-new-age/production/7714364",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA74jN",
     "last_verified_at": null,
@@ -1147,11 +1147,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714364,
+        "url": "https://www.vividseats.com/mercyme-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-4-15-2027--concerts-new-age/production/7714364",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1178,7 +1178,7 @@
     "ticketmaster_event_id": "3A00654A0DBAAFF5",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-cedar-park-texas-04-17-2027/event/3A00654A0DBAAFF5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-cedar-park-heb-center-at-cedar-park-4-17-2027/production/7714476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-cedar-park-texas-04-17-2027/event/3A00654A0DBAAFF5",
     "last_verified_at": null,
@@ -1200,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714476,
+        "url": "https://www.vividseats.com/mercyme-tickets-cedar-park-heb-center-at-cedar-park-4-17-2027/production/7714476",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1231,7 +1231,7 @@
     "ticketmaster_event_id": "1B00654EF1D517FA",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-bossier-city-louisiana-04-18-2027/event/1B00654EF1D517FA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-bossier-city-brookshire-grocery-arena-4-18-2027/production/7714460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-bossier-city-louisiana-04-18-2027/event/1B00654EF1D517FA",
     "last_verified_at": null,
@@ -1253,11 +1253,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714460,
+        "url": "https://www.vividseats.com/mercyme-tickets-bossier-city-brookshire-grocery-arena-4-18-2027/production/7714460",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1284,7 +1284,7 @@
     "ticketmaster_event_id": "2000654EA07D3BD3",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-tulsa-oklahoma-04-22-2027/event/2000654EA07D3BD3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-tulsa-bok-center-4-22-2027/production/7714452",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-tulsa-oklahoma-04-22-2027/event/2000654EA07D3BD3",
     "last_verified_at": null,
@@ -1306,11 +1306,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714452,
+        "url": "https://www.vividseats.com/mercyme-tickets-tulsa-bok-center-4-22-2027/production/7714452",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1337,7 +1337,7 @@
     "ticketmaster_event_id": "0600654FCD14DB84",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-lincoln-nebraska-04-23-2027/event/0600654FCD14DB84",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-lincoln-pinnacle-bank-arena-4-23-2027/production/7714396",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-lincoln-nebraska-04-23-2027/event/0600654FCD14DB84",
     "last_verified_at": null,
@@ -1359,11 +1359,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714396,
+        "url": "https://www.vividseats.com/mercyme-tickets-lincoln-pinnacle-bank-arena-4-23-2027/production/7714396",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1390,7 +1390,7 @@
     "ticketmaster_event_id": "0600654C9E016BB3",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-moline-illinois-04-24-2027/event/0600654C9E016BB3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-moline-vibrant-arena-at-the-mark-4-24-2027/production/7714404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-moline-illinois-04-24-2027/event/0600654C9E016BB3",
     "last_verified_at": null,
@@ -1412,11 +1412,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714404,
+        "url": "https://www.vividseats.com/mercyme-tickets-moline-vibrant-arena-at-the-mark-4-24-2027/production/7714404",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1443,7 +1443,7 @@
     "ticketmaster_event_id": "0800654DFB0C8F18",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-grand-rapids-michigan-04-25-2027/event/0800654DFB0C8F18",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-grand-rapids-van-andel-arena-4-25-2027/production/7714418",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-grand-rapids-michigan-04-25-2027/event/0800654DFB0C8F18",
     "last_verified_at": null,
@@ -1465,11 +1465,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714418,
+        "url": "https://www.vividseats.com/mercyme-tickets-grand-rapids-van-andel-arena-4-25-2027/production/7714418",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1496,7 +1496,7 @@
     "ticketmaster_event_id": "0700654E91E43A1A",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-milwaukee-wisconsin-04-29-2027/event/0700654E91E43A1A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-milwaukee-uw-milwaukee-panther-arena-4-29-2027/production/7714484",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-milwaukee-wisconsin-04-29-2027/event/0700654E91E43A1A",
     "last_verified_at": null,
@@ -1518,11 +1518,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714484,
+        "url": "https://www.vividseats.com/mercyme-tickets-milwaukee-uw-milwaukee-panther-arena-4-29-2027/production/7714484",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1549,7 +1549,7 @@
     "ticketmaster_event_id": "07006549A8BD4D7E",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-springfield-illinois-04-30-2027/event/07006549A8BD4D7E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-springfield-bank-of-springfield-center-4-30-2027/production/7714402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-springfield-illinois-04-30-2027/event/07006549A8BD4D7E",
     "last_verified_at": null,
@@ -1571,11 +1571,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714402,
+        "url": "https://www.vividseats.com/mercyme-tickets-springfield-bank-of-springfield-center-4-30-2027/production/7714402",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1602,7 +1602,7 @@
     "ticketmaster_event_id": "0500654C8F3631EA",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-canton-ohio-05-01-2027/event/0500654C8F3631EA",
     "seatgeek_url": "https://seatgeek.com/mercyme-tickets/canton-ohio-canton-civic-center-canton-oh-2027-05-01-7-pm/concert/18692284",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-canton-canton-civic-center-5-1-2027/production/7714478",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-canton-ohio-05-01-2027/event/0500654C8F3631EA",
     "last_verified_at": null,
@@ -1624,11 +1624,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714478,
+        "url": "https://www.vividseats.com/mercyme-tickets-canton-canton-civic-center-5-1-2027/production/7714478",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1655,7 +1655,7 @@
     "ticketmaster_event_id": "0500654CBB44B772",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-evansville-indiana-05-02-2027/event/0500654CBB44B772",
     "seatgeek_url": "https://seatgeek.com/mercyme-tickets/evansville-indiana-ford-center-in-2027-05-02-7-pm/concert/18692285",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-evansville-ford-center-evansville-5-2-2027/production/7714414",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-evansville-indiana-05-02-2027/event/0500654CBB44B772",
     "last_verified_at": null,
@@ -1677,11 +1677,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7714414,
+        "url": "https://www.vividseats.com/mercyme-tickets-evansville-ford-center-evansville-5-2-2027/production/7714414",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

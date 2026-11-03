@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "30006541D4DA94D1",
     "ticketmaster_url": "https://www.ticketmaster.com/omer-adam-brooklyn-new-york-11-03-2026/event/30006541D4DA94D1",
     "seatgeek_url": "https://seatgeek.com/omer-adam-tickets/brooklyn-new-york-barclays-center-2026-11-03-9-pm/concert/18671901",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/omer-adam-tickets-brooklyn-barclays-center-11-3-2026--concerts-world-music/production/7689744",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/omer-adam-brooklyn-new-york-11-03-2026/event/30006541D4DA94D1",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7689744,
+        "url": "https://www.vividseats.com/omer-adam-tickets-brooklyn-barclays-center-11-3-2026--concerts-world-music/production/7689744",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

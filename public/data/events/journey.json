@@ -872,11 +872,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107170300",
-        "url": "https://www.stubhub.ie/journey-detroit-tickets-11-2-2026/event/107170300",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7956779",
@@ -897,7 +897,7 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956779/Journey-tickets-Mon-Nov-2-2026-Little-Caesars-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-detroit-tickets-11-2-2026/event/107170300",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956779",
     "organizer_names": [
       "AEG PRESENTS"

@@ -44860,12 +44860,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669953",
+        "url": "https://www.stubhub.ie/metallica-uncasville-tickets-11-19-2026/event/107669953",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_6nrIgoT",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": ""
+    "ticketnetwork_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-uncasville-tickets-11-19-2026/event/107669953"
   },
   {
     "id": "tm-metallica-2026-uncasville-g5vvz_6n-zpjb",
@@ -45005,6 +45013,13 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107132084",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-28-2027/event/107132084",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv0b_Z4Z7GGvk",
@@ -45021,7 +45036,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775512",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775512/Metallica-tickets-Thu-Jan-28-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775512/Metallica-tickets-Thu-Jan-28-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-28-2027/event/107132084"
   },
   {
     "id": "tm-metallica-2027-las-vegas-16vjz_kk3g7ndxr",
@@ -45171,6 +45187,13 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133087",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-4-2027/event/107133087",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0ycT0",
@@ -45187,7 +45210,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785086",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785086/Metallica-tickets-Thu-Feb-4-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785086/Metallica-tickets-Thu-Feb-4-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-4-2027/event/107133087"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzr6s",
@@ -45337,6 +45361,13 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133091",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-18-2027/event/107133091",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0yWTn",
@@ -45353,7 +45384,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785088",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785088/Metallica-tickets-Thu-Feb-18-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785088/Metallica-tickets-Thu-Feb-18-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-18-2027/event/107133091"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzr6g",
@@ -45503,6 +45535,13 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133093",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-25-2027/event/107133093",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0BuTi",
@@ -45519,7 +45558,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785090",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785090/Metallica-tickets-Thu-Feb-25-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785090/Metallica-tickets-Thu-Feb-25-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-25-2027/event/107133093"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzxff",
@@ -77295,11 +77335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107673492",
+        "url": "https://www.stubhub.ie/stella-lefty-tickets-amsterdam-melkweg-13-3-2027/event/107673492",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vj_PxbP",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-tickets-amsterdam-melkweg-13-3-2027/event/107673492"
   },
   {
     "id": "tm-stella-lefty-2027-manchester-g5dzz_36uppzk",
@@ -137843,6 +137891,13 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107132081",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-5-2026/event/107132081",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv048reZ72a62",
@@ -137852,7 +137907,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775510",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775510/Metallica-tickets-Thu-Nov-5-2026-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775510/Metallica-tickets-Thu-Nov-5-2026-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-5-2026/event/107132081"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rez72afa",
@@ -138082,6 +138138,13 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133097",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-4-2027/event/107133097",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0BuTU",
@@ -138098,7 +138161,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785868",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785868/Metallica-tickets-Thu-Mar-4-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785868/Metallica-tickets-Thu-Mar-4-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-4-2027/event/107133097"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzm6w",
@@ -138248,6 +138312,13 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133099",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-11-2027/event/107133099",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0BqTz",
@@ -138264,7 +138335,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785870",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785870/Metallica-tickets-Thu-Mar-11-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785870/Metallica-tickets-Thu-Mar-11-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-11-2027/event/107133099"
   },
   {
     "id": "tm-metallica-2027-raleigh-z7r9jz1aavwaj",
@@ -176993,13 +177065,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678763",
+        "url": "https://www.stubhub.ie/riley-green-las-vegas-tickets-12-6-2026/event/107678763",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PeQa",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018163",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018163/Riley-Green-tickets-Sun-Dec-6-2026-The-Theatre-at-Resorts-World-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018163/Riley-Green-tickets-Sun-Dec-6-2026-The-Theatre-at-Resorts-World-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-las-vegas-tickets-12-6-2026/event/107678763"
   },
   {
     "id": "tm-riley-green-2026-las-vegas-z7r9jz1a7peq7",
@@ -177062,13 +177142,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678765",
+        "url": "https://www.stubhub.ie/riley-green-las-vegas-tickets-12-10-2026/event/107678765",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Peq7",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018164",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018164/Riley-Green-tickets-Thu-Dec-10-2026-The-Theatre-at-Resorts-World-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018164/Riley-Green-tickets-Thu-Dec-10-2026-The-Theatre-at-Resorts-World-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-las-vegas-tickets-12-10-2026/event/107678765"
   },
   {
     "id": "tm-riley-green-2027-spokane-z7r9jz1aaezrp",
@@ -233438,11 +233526,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107665240",
-        "url": "https://www.stubhub.ie/fuerza-regida-morrison-tickets-11-2-2026/event/107665240",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZPuz",
@@ -233450,7 +233538,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194529",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194529/Fuerza-Regida-tickets-Mon-Nov-2-2026-Red-Rocks-Amphitheatre",
-    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-morrison-tickets-11-2-2026/event/107665240",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -239887,11 +239975,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107170300",
-        "url": "https://www.stubhub.ie/journey-detroit-tickets-11-2-2026/event/107170300",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7956779",
@@ -239912,7 +240000,7 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956779/Journey-tickets-Mon-Nov-2-2026-Little-Caesars-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-detroit-tickets-11-2-2026/event/107170300",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956779",
     "organizer_names": [
       "AEG PRESENTS"
@@ -308623,7 +308711,7 @@
         "event_id": "107672199",
         "url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -316560,6 +316648,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679039",
+        "url": "https://www.stubhub.ie/the-neighbourhood-denver-tickets-3-2-2027/event/107679039",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_4QmZ4qp",
@@ -316576,7 +316671,8 @@
         "start": "2026-10-30T16:00:00Z",
         "end": "2027-02-24T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-denver-tickets-3-2-2027/event/107679039"
   },
   {
     "id": "tm-the-neighbourhood-2027-saint-louis-vv1kvovppfga13fre",
@@ -316790,6 +316886,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678914",
+        "url": "https://www.stubhub.ie/the-neighbourhood-philadelphia-tickets-4-23-2027/event/107678914",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_4Gkl39a_b",
@@ -316806,7 +316909,8 @@
         "start": "2026-10-30T14:00:00Z",
         "end": "2027-04-17T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-philadelphia-tickets-4-23-2027/event/107678914"
   },
   {
     "id": "tm-the-neighbourhood-2027-boston-vv1avzk4_gkdekcqu",
@@ -317183,6 +317287,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679041",
+        "url": "https://www.stubhub.ie/the-neighbourhood-pittsburgh-tickets-5-1-2027/event/107679041",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vbZ_4jKG7TDR9",
@@ -317199,7 +317310,8 @@
         "start": "2026-10-30T14:00:00Z",
         "end": "2027-04-25T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-pittsburgh-tickets-5-1-2027/event/107679041"
   },
   {
     "id": "tm-the-neighbourhood-2027-raleigh-g5evz_4l74bcy",
@@ -317508,6 +317620,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679042",
+        "url": "https://www.stubhub.ie/the-neighbourhood-tickets-winnipeg-canada-life-centre-5-11-2027/event/107679042",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_4GknBR6nb",
@@ -317527,7 +317646,8 @@
         "start": "2026-10-30T15:00:00Z",
         "end": "2027-05-05T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-tickets-winnipeg-canada-life-centre-5-11-2027/event/107679042"
   },
   {
     "id": "tm-the-neighbourhood-2027-calgary-1av7z_4gknld4le",
@@ -328888,6 +329008,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678423",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-sacramento-tickets-5-19-2027/event/107678423",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_46SvaA8",
@@ -328904,7 +329031,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-05-13T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-sacramento-tickets-5-19-2027/event/107678423"
   },
   {
     "id": "tm-two-door-cinema-club-2027-oakland-g5vyz_48x4wje",
@@ -330678,6 +330806,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679468",
+        "url": "https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-26-4-2027/event/107679468",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z16v-3vZAt",
@@ -330705,7 +330840,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-05T21:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-26-4-2027/event/107679468"
   },
   {
     "id": "tm-u2-2027-stockholm-z698xzq2z16v_p7i1a",
@@ -330768,6 +330904,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679469",
+        "url": "https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-28-4-2027/event/107679469",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z16v_p7I1a",
@@ -330795,7 +330938,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-05T21:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-28-4-2027/event/107679469"
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz16v0jupoj",
@@ -330851,6 +330995,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679471",
+        "url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-5-6-2027/event/107679471",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v0JuPOJ",
@@ -330877,7 +331028,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2027-11-05T21:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-5-6-2027/event/107679471"
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz16v7bpzfv",
@@ -330933,6 +331085,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679472",
+        "url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-6-6-2027/event/107679472",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v7bPzfv",
@@ -330959,7 +331118,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-05T21:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-6-6-2027/event/107679472"
   },
   {
     "id": "tm-sam-fender-2027-cardiff-1adfz_4gklat6o4",
@@ -351615,11 +351775,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107098551",
-        "url": "https://www.stubhub.ie/cody-johnson-tickets-glasgow-ovo-hydro-arena-glasgow-2-11-2026/event/107098551",
-        "verified": true,
-        "last_verified_at": "2026-11-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk8UGkdF-AIv",
@@ -351627,7 +351787,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/cody-johnson-tickets-glasgow-ovo-hydro-arena-glasgow-2-11-2026/event/107098551",
+    "stubhub_international_url": "",
     "organizer_names": [
       "DF CONCERTS",
       "SCOTTISH EVENT CAMPUS LIMITED"
@@ -351993,6 +352153,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107678744",
+        "url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-18-6-2027/event/107678744",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1adfZ_4QdZvZd55v",
@@ -352018,7 +352185,8 @@
         "start": "2026-11-05T10:00:00Z",
         "end": "2026-11-05T22:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-18-6-2027/event/107678744"
   },
   {
     "id": "tm-u2-2027-london-1adfz_4gkszafjm",
@@ -352067,6 +352235,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679467",
+        "url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-19-6-2027/event/107679467",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_4GkSZAFjM",
@@ -352092,7 +352267,8 @@
         "start": "2026-11-05T10:00:00Z",
         "end": "2026-11-05T22:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-19-6-2027/event/107679467"
   },
   {
     "id": "tm-rod-stewart-2027-london-1agzkfzgkdu5qoy",
@@ -352929,13 +353105,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107325077",
+        "url": "https://www.stubhub.ie/motionless-in-white-raleigh-tickets-11-3-2026/event/107325077",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_5mdu9qp",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018445",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018445/Motionless-In-White-tickets-Tue-Nov-3-2026-Lenovo-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018445/Motionless-In-White-tickets-Tue-Nov-3-2026-Lenovo-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-raleigh-tickets-11-3-2026/event/107325077"
   },
   {
     "id": "tm-motionless-in-white-2026-port-wentworth-vvg1zz_5lcp7qp",
@@ -353051,13 +353235,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107325078",
+        "url": "https://www.stubhub.ie/motionless-in-white-orlando-tickets-11-5-2026/event/107325078",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G65wwP47r",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018448",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018448/Motionless-In-White-tickets-Thu-Nov-5-2026-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018448/Motionless-In-White-tickets-Thu-Nov-5-2026-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-orlando-tickets-11-5-2026/event/107325078"
   },
   {
     "id": "tm-motionless-in-white-2026-nashville-g5viz_5no0bwc",
@@ -353465,13 +353657,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107258877",
+        "url": "https://www.stubhub.ie/motionless-in-white-albany-tickets-11-15-2026/event/107258877",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_5wspmVJ",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018454",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018454/Motionless-In-White-tickets-Sun-Nov-15-2026-MVP-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018454/Motionless-In-White-tickets-Sun-Nov-15-2026-MVP-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-albany-tickets-11-15-2026/event/107258877"
   },
   {
     "id": "tm-motionless-in-white-2026-portland-vvg17z_5r6traw",
@@ -353603,13 +353803,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107258878",
+        "url": "https://www.stubhub.ie/motionless-in-white-newark-tickets-11-19-2026/event/107258878",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_5S7FN3L",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018456",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018456/Motionless-In-White-tickets-Thu-Nov-19-2026-Prudential-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018456/Motionless-In-White-tickets-Thu-Nov-19-2026-Prudential-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-newark-tickets-11-19-2026/event/107258878"
   },
   {
     "id": "tm-motionless-in-white-2026-pittsburgh-17aov0g65mh-tzb",
@@ -353672,13 +353880,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107258879",
+        "url": "https://www.stubhub.ie/motionless-in-white-pittsburgh-tickets-11-20-2026/event/107258879",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G65mH-tZB",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018457",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018457/Motionless-In-White-tickets-Fri-Nov-20-2026-PPG-Paints-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018457/Motionless-In-White-tickets-Fri-Nov-20-2026-PPG-Paints-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-pittsburgh-tickets-11-20-2026/event/107258879"
   },
   {
     "id": "tm-motionless-in-white-2027-dubendorf-z698xzu3z16ezmoj16",
@@ -354001,13 +354217,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482965",
+        "url": "https://www.stubhub.ie/rawayana-national-harbor-tickets-11-4-2026/event/107482965",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_kGkw9bb9h",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808621",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808621/Rawayana-tickets-Wed-Nov-4-2026-The-Theater-at-MGM-National-Harbor"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808621/Rawayana-tickets-Wed-Nov-4-2026-The-Theater-at-MGM-National-Harbor",
+    "stubhub_international_url": "https://www.stubhub.ie/rawayana-national-harbor-tickets-11-4-2026/event/107482965"
   },
   {
     "id": "tm-rawayana-2026-chicago-vv178z_kgkrasef7",
@@ -354070,13 +354294,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482968",
+        "url": "https://www.stubhub.ie/rawayana-chicago-tickets-11-7-2026/event/107482968",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_kGkRasEf7",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808622",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808622/Rawayana-tickets-Sat-Nov-7-2026-Byline-Bank-Aragon-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808622/Rawayana-tickets-Sat-Nov-7-2026-Byline-Bank-Aragon-Ballroom",
+    "stubhub_international_url": "https://www.stubhub.ie/rawayana-chicago-tickets-11-7-2026/event/107482968"
   },
   {
     "id": "tm-rawayana-2026-inglewood-vv170z_kgkuw4lc4",
@@ -354139,13 +354371,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107140387",
+        "url": "https://www.stubhub.ie/rawayana-inglewood-tickets-11-15-2026/event/107140387",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_kGkUw4lC4",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808627",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808627/Rawayana-tickets-Sun-Nov-15-2026-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808627/Rawayana-tickets-Sun-Nov-15-2026-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/rawayana-inglewood-tickets-11-15-2026/event/107140387"
   },
   {
     "id": "tm-rawayana-2026-houston-g5diz_kwowtst",
@@ -354208,13 +354448,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107140388",
+        "url": "https://www.stubhub.ie/rawayana-houston-tickets-11-18-2026/event/107140388",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_kwOWtSt",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808631",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808631/Rawayana-tickets-Wed-Nov-18-2026-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808631/Rawayana-tickets-Wed-Nov-18-2026-713-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/rawayana-houston-tickets-11-18-2026/event/107140388"
   },
   {
     "id": "tm-rawayana-2026-houston-g5diz_ad2y7sg",
@@ -354277,13 +354525,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107447958",
+        "url": "https://www.stubhub.ie/rawayana-houston-tickets-11-19-2026/event/107447958",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_aD2y7SG",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930292",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930292/Rawayana-tickets-Thu-Nov-19-2026-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930292/Rawayana-tickets-Thu-Nov-19-2026-713-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/rawayana-houston-tickets-11-19-2026/event/107447958"
   },
   {
     "id": "tm-rawayana-2026-irving-vvg1yz_kyui28o",
@@ -354346,13 +354602,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482970",
+        "url": "https://www.stubhub.ie/rawayana-irving-tickets-11-21-2026/event/107482970",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_kYuI28O",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808639",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808639/Rawayana-tickets-Sat-Nov-21-2026-The-Pavilion-at-Toyota-Music-Factory"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808639/Rawayana-tickets-Sat-Nov-21-2026-The-Pavilion-at-Toyota-Music-Factory",
+    "stubhub_international_url": "https://www.stubhub.ie/rawayana-irving-tickets-11-21-2026/event/107482970"
   },
   {
     "id": "tm-rawayana-2026-orlando-1aefz_kgkuqmj8a",
@@ -354415,13 +354679,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107141314",
+        "url": "https://www.stubhub.ie/rawayana-orlando-tickets-12-3-2026/event/107141314",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_kGkUQmJ8a",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808658",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808658/Rawayana-tickets-Thu-Dec-3-2026-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808658/Rawayana-tickets-Thu-Dec-3-2026-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/rawayana-orlando-tickets-12-3-2026/event/107141314"
   },
   {
     "id": "tm-rawayana-2026-miami-vvg1vz_fh4bcfd",
@@ -354484,13 +354756,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672941",
+        "url": "https://www.stubhub.ie/rawayana-miami-tickets-12-4-2026/event/107672941",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fh4bCFd",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314977",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314977/Rawayana-tickets-Fri-Dec-4-2026-Kaseya-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314977/Rawayana-tickets-Fri-Dec-4-2026-Kaseya-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/rawayana-miami-tickets-12-4-2026/event/107672941"
   },
   {
     "id": "tm-rawayana-2026-miami-vvg1vz_kwnj_rj",
@@ -354553,13 +354833,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107140392",
+        "url": "https://www.stubhub.ie/rawayana-miami-tickets-12-5-2026/event/107140392",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_kwnj_Rj",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808663",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808663/Rawayana-tickets-Sat-Dec-5-2026-Kaseya-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808663/Rawayana-tickets-Sat-Dec-5-2026-Kaseya-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/rawayana-miami-tickets-12-5-2026/event/107140392"
   },
   {
     "id": "tm-rawayana-2026-miami-vvg1vz_6kilnkl",
@@ -354622,13 +354910,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107141315",
+        "url": "https://www.stubhub.ie/rawayana-miami-tickets-12-6-2026/event/107141315",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_6kIlnKl",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7815294",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7815294/Rawayana-tickets-Sun-Dec-6-2026-Kaseya-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7815294/Rawayana-tickets-Sun-Dec-6-2026-Kaseya-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/rawayana-miami-tickets-12-6-2026/event/107141315"
   },
   {
     "id": "tm-jodeci-2026-saint-louis-vvg1bz_2r0qtwk",
@@ -357169,13 +357465,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677681",
+        "url": "https://www.stubhub.ie/mercyme-oklahoma-city-tickets-11-8-2026/event/107677681",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_13Ofzsb",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7965219",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965219/MercyMe-tickets-Sun-Nov-8-2026-Paycom-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965219/MercyMe-tickets-Sun-Nov-8-2026-Paycom-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/mercyme-oklahoma-city-tickets-11-8-2026/event/107677681"
   },
   {
     "id": "tm-mercyme-2026-fishers-vvg1fz_1kxwtrx",
@@ -357376,13 +357680,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677659",
+        "url": "https://www.stubhub.ie/mercyme-kansas-city-tickets-11-14-2026/event/107677659",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70NeK",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7965234",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965234/MercyMe-tickets-Sat-Nov-14-2026-T-Mobile-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965234/MercyMe-tickets-Sat-Nov-14-2026-T-Mobile-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/mercyme-kansas-city-tickets-11-14-2026/event/107677659"
   },
   {
     "id": "tm-mercyme-2026-minneapolis-z7r9jz1a70nz6",
@@ -357445,13 +357757,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677667",
+        "url": "https://www.stubhub.ie/mercyme-minneapolis-tickets-11-15-2026/event/107677667",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70NZ6",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7968350",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7968350/MercyMe-tickets-Sun-Nov-15-2026-Target-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7968350/MercyMe-tickets-Sun-Nov-15-2026-Target-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/mercyme-minneapolis-tickets-11-15-2026/event/107677667"
   },
   {
     "id": "tm-mercyme-2027-roanoke-vv1avzk4agkdxzmi2",
@@ -359042,13 +359362,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672940",
+        "url": "https://www.stubhub.ie/omer-adam-brooklyn-tickets-11-3-2026/event/107672940",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4vGkdfUtKo",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8317986",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8317986/Omer-Adam-tickets-Tue-Nov-3-2026-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8317986/Omer-Adam-tickets-Tue-Nov-3-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/omer-adam-brooklyn-tickets-11-3-2026/event/107672940"
   },
   {
     "id": "tm-gracie-abrams-2027-austin-g5diz_4uo-e6z",

@@ -166,13 +166,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678763",
+        "url": "https://www.stubhub.ie/riley-green-las-vegas-tickets-12-6-2026/event/107678763",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PeQa",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018163",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018163/Riley-Green-tickets-Sun-Dec-6-2026-The-Theatre-at-Resorts-World-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018163/Riley-Green-tickets-Sun-Dec-6-2026-The-Theatre-at-Resorts-World-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-las-vegas-tickets-12-6-2026/event/107678763"
   },
   {
     "id": "tm-riley-green-2026-las-vegas-z7r9jz1a7peq7",
@@ -235,13 +243,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678765",
+        "url": "https://www.stubhub.ie/riley-green-las-vegas-tickets-12-10-2026/event/107678765",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Peq7",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018164",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018164/Riley-Green-tickets-Thu-Dec-10-2026-The-Theatre-at-Resorts-World-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018164/Riley-Green-tickets-Thu-Dec-10-2026-The-Theatre-at-Resorts-World-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-las-vegas-tickets-12-10-2026/event/107678765"
   },
   {
     "id": "tm-riley-green-2027-spokane-z7r9jz1aaezrp",

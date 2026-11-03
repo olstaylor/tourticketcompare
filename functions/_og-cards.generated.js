@@ -716,6 +716,7 @@ export const OG_CARDS = {
   "/artists/u2": {"url":"/og/artists-u2.png","alt":"Tickets & tour dates: U2"},
   "/artists/u2/presale": {"url":"/og/artists-u2-presale.png","alt":"Presale: U2"},
   "/artists/u2/ticket-prices": {"url":"/og/artists-u2-ticket-prices.png","alt":"Ticket prices: U2"},
+  "/artists/u2/tickets/amsterdam-netherlands": {"url":"/og/artists-u2-tickets-amsterdam-netherlands.png","alt":"Tickets: U2 in Amsterdam"},
   "/artists/u2/tickets/ciudad-de-m-xico-mexico": {"url":"/og/artists-u2-tickets-ciudad-de-m-xico-mexico.png","alt":"Tickets: U2 in Ciudad de México"},
   "/artists/u2/tickets/london-united-kingdom": {"url":"/og/artists-u2-tickets-london-united-kingdom.png","alt":"Tickets: U2 in London"},
   "/artists/u2/tickets/stockholm-sweden": {"url":"/og/artists-u2-tickets-stockholm-sweden.png","alt":"Tickets: U2 in Stockholm"},

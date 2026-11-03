@@ -2240,11 +2240,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107673492",
+        "url": "https://www.stubhub.ie/stella-lefty-tickets-amsterdam-melkweg-13-3-2027/event/107673492",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vj_PxbP",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-tickets-amsterdam-melkweg-13-3-2027/event/107673492"
   },
   {
     "id": "tm-stella-lefty-2027-manchester-g5dzz_36uppzk",

@@ -1213,6 +1213,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679039",
+        "url": "https://www.stubhub.ie/the-neighbourhood-denver-tickets-3-2-2027/event/107679039",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_4QmZ4qp",
@@ -1229,7 +1236,8 @@
         "start": "2026-10-30T16:00:00Z",
         "end": "2027-02-24T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-denver-tickets-3-2-2027/event/107679039"
   },
   {
     "id": "tm-the-neighbourhood-2027-saint-louis-vv1kvovppfga13fre",
@@ -1443,6 +1451,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678914",
+        "url": "https://www.stubhub.ie/the-neighbourhood-philadelphia-tickets-4-23-2027/event/107678914",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_4Gkl39a_b",
@@ -1459,7 +1474,8 @@
         "start": "2026-10-30T14:00:00Z",
         "end": "2027-04-17T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-philadelphia-tickets-4-23-2027/event/107678914"
   },
   {
     "id": "tm-the-neighbourhood-2027-boston-vv1avzk4_gkdekcqu",
@@ -1836,6 +1852,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679041",
+        "url": "https://www.stubhub.ie/the-neighbourhood-pittsburgh-tickets-5-1-2027/event/107679041",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vbZ_4jKG7TDR9",
@@ -1852,7 +1875,8 @@
         "start": "2026-10-30T14:00:00Z",
         "end": "2027-04-25T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-pittsburgh-tickets-5-1-2027/event/107679041"
   },
   {
     "id": "tm-the-neighbourhood-2027-raleigh-g5evz_4l74bcy",
@@ -2161,6 +2185,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679042",
+        "url": "https://www.stubhub.ie/the-neighbourhood-tickets-winnipeg-canada-life-centre-5-11-2027/event/107679042",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_4GknBR6nb",
@@ -2180,7 +2211,8 @@
         "start": "2026-10-30T15:00:00Z",
         "end": "2027-05-05T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-tickets-winnipeg-canada-life-centre-5-11-2027/event/107679042"
   },
   {
     "id": "tm-the-neighbourhood-2027-calgary-1av7z_4gknld4le",

@@ -251,13 +251,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677681",
+        "url": "https://www.stubhub.ie/mercyme-oklahoma-city-tickets-11-8-2026/event/107677681",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_13Ofzsb",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7965219",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965219/MercyMe-tickets-Sun-Nov-8-2026-Paycom-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965219/MercyMe-tickets-Sun-Nov-8-2026-Paycom-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/mercyme-oklahoma-city-tickets-11-8-2026/event/107677681"
   },
   {
     "id": "tm-mercyme-2026-fishers-vvg1fz_1kxwtrx",
@@ -458,13 +466,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677659",
+        "url": "https://www.stubhub.ie/mercyme-kansas-city-tickets-11-14-2026/event/107677659",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70NeK",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7965234",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965234/MercyMe-tickets-Sat-Nov-14-2026-T-Mobile-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965234/MercyMe-tickets-Sat-Nov-14-2026-T-Mobile-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/mercyme-kansas-city-tickets-11-14-2026/event/107677659"
   },
   {
     "id": "tm-mercyme-2026-minneapolis-z7r9jz1a70nz6",
@@ -527,13 +543,21 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107677667",
+        "url": "https://www.stubhub.ie/mercyme-minneapolis-tickets-11-15-2026/event/107677667",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70NZ6",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7968350",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7968350/MercyMe-tickets-Sun-Nov-15-2026-Target-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7968350/MercyMe-tickets-Sun-Nov-15-2026-Target-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/mercyme-minneapolis-tickets-11-15-2026/event/107677667"
   },
   {
     "id": "tm-mercyme-2027-roanoke-vv1avzk4agkdxzmi2",

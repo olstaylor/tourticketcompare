@@ -60,12 +60,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672940",
+        "url": "https://www.stubhub.ie/omer-adam-brooklyn-tickets-11-3-2026/event/107672940",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4vGkdfUtKo",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8317986",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8317986/Omer-Adam-tickets-Tue-Nov-3-2026-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8317986/Omer-Adam-tickets-Tue-Nov-3-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/omer-adam-brooklyn-tickets-11-3-2026/event/107672940"
   }
 ]

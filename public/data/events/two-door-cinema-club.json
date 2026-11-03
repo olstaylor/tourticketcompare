@@ -930,6 +930,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678423",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-sacramento-tickets-5-19-2027/event/107678423",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_46SvaA8",
@@ -946,7 +953,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-05-13T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-sacramento-tickets-5-19-2027/event/107678423"
   },
   {
     "id": "tm-two-door-cinema-club-2027-oakland-g5vyz_48x4wje",

@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZ6-d",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6-d",
     "seatgeek_url": "https://seatgeek.com/yg-tickets/honolulu-hawaii-the-republik-1-2026-11-06-8-pm/concert/18392100",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yg---keenon-jackson-tickets-honolulu-the-republik---honolulu-11-6-2026/production/7337947",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ6-d",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7337947,
+        "url": "https://www.vividseats.com/yg---keenon-jackson-tickets-honolulu-the-republik---honolulu-11-6-2026/production/7337947",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZAjy",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAjy",
     "seatgeek_url": "https://seatgeek.com/yg-tickets/honolulu-hawaii-the-republik-1-2026-11-07-8-pm/concert/18392092",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/yg---keenon-jackson-tickets-honolulu-the-republik---honolulu-11-7-2026--concerts-rap-hip-hop/production/7331146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAjy",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7331146,
+        "url": "https://www.vividseats.com/yg---keenon-jackson-tickets-honolulu-the-republik---honolulu-11-7-2026--concerts-rap-hip-hop/production/7331146",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "2D0064BB83357756",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-raleigh-north-carolina-11-03-2026/event/2D0064BB83357756",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-raleigh-lenovo-center-11-3-2026/production/7108769",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-raleigh-north-carolina-11-03-2026/event/2D0064BB83357756",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7108769,
+        "url": "https://www.vividseats.com/motionless-in-white-tickets-raleigh-lenovo-center-11-3-2026/production/7108769",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "0E0064BAED5846A5",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-port-wentworth-georgia-11-04-2026/event/0E0064BAED5846A5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-port-wentworth-vystar-pavilion-11-4-2026/production/7108842",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-port-wentworth-georgia-11-04-2026/event/0E0064BAED5846A5",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7108842,
+        "url": "https://www.vividseats.com/motionless-in-white-tickets-port-wentworth-vystar-pavilion-11-4-2026/production/7108842",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "220064BCB295511E",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-orlando-florida-11-05-2026/event/220064BCB295511E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-orlando-kia-center-11-5-2026/production/7108771",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-orlando-florida-11-05-2026/event/220064BCB295511E",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7108771,
+        "url": "https://www.vividseats.com/motionless-in-white-tickets-orlando-kia-center-11-5-2026/production/7108771",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "1B0064BAA093AF4E",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-nashville-tennessee-11-07-2026/event/1B0064BAA093AF4E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-nashville-the-truth-11-7-2026/production/7108866",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-nashville-tennessee-11-07-2026/event/1B0064BAA093AF4E",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7108866,
+        "url": "https://www.vividseats.com/motionless-in-white-tickets-nashville-the-truth-11-7-2026/production/7108866",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "070064BCAD1A38D6",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-peoria-illinois-11-08-2026/event/070064BCAD1A38D6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-peoria-peoria-civic-center---carver-arena-11-8-2026/production/7108802",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-peoria-illinois-11-08-2026/event/070064BCAD1A38D6",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7108802,
+        "url": "https://www.vividseats.com/motionless-in-white-tickets-peoria-peoria-civic-center---carver-arena-11-8-2026/production/7108802",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "060064BC9F226AAB",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-minneapolis-minnesota-11-10-2026/event/060064BC9F226AAB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-minneapolis-target-center-11-10-2026/production/7108726",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-minneapolis-minnesota-11-10-2026/event/060064BC9F226AAB",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7108726,
+        "url": "https://www.vividseats.com/motionless-in-white-tickets-minneapolis-target-center-11-10-2026/production/7108726",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "060064BCDDC4C987",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-omaha-nebraska-11-11-2026/event/060064BCDDC4C987",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-omaha-chi-health-center-omaha-11-11-2026/production/7108792",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-omaha-nebraska-11-11-2026/event/060064BCDDC4C987",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7108792,
+        "url": "https://www.vividseats.com/motionless-in-white-tickets-omaha-chi-health-center-omaha-11-11-2026/production/7108792",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "070064BBB9735249",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-milwaukee-fiserv-forum-11-13-2026/production/7108776",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7108776,
+        "url": "https://www.vividseats.com/motionless-in-white-tickets-milwaukee-fiserv-forum-11-13-2026/production/7108776",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "000064BCB15AED26",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-albany-new-york-11-15-2026/event/000064BCB15AED26",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-albany-mvp-arena-11-15-2026/production/7108774",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-albany-new-york-11-15-2026/event/000064BCB15AED26",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7108774,
+        "url": "https://www.vividseats.com/motionless-in-white-tickets-albany-mvp-arena-11-15-2026/production/7108774",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "010064BBC7FDE27D",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-portland-maine-11-18-2026/event/010064BBC7FDE27D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-portland-cross-insurance-arena-11-18-2026/production/7108788",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-portland-maine-11-18-2026/event/010064BBC7FDE27D",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7108788,
+        "url": "https://www.vividseats.com/motionless-in-white-tickets-portland-cross-insurance-arena-11-18-2026/production/7108788",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "020064BCC422349F",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-newark-new-jersey-11-19-2026/event/020064BCC422349F",
     "seatgeek_url": "https://seatgeek.com/motionless-in-white-tickets/newark-new-jersey-prudential-center-2026-11-19-6-30-pm/concert/18281913",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-newark-prudential-center-11-19-2026/production/7108780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-newark-new-jersey-11-19-2026/event/020064BCC422349F",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7108780,
+        "url": "https://www.vividseats.com/motionless-in-white-tickets-newark-prudential-center-11-19-2026/production/7108780",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "160064BBBC86903A",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-pittsburgh-pennsylvania-11-20-2026/event/160064BBBC86903A",
     "seatgeek_url": "https://seatgeek.com/motionless-in-white-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-20-6-30-pm/concert/18281916",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-pittsburgh-ppg-paints-arena-11-20-2026/production/7108782",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-pittsburgh-pennsylvania-11-20-2026/event/160064BBBC86903A",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7108782,
+        "url": "https://www.vividseats.com/motionless-in-white-tickets-pittsburgh-ppg-paints-arena-11-20-2026/production/7108782",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

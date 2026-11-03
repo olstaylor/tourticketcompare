@@ -355223,7 +355223,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "080064F7F586B80E",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-detroit-michigan-11-06-2026/event/080064F7F586B80E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/detroit-michigan-fox-theatre-detroit-2026-11-06-8-pm/concert/18407238",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-detroit-fox-theatre-detroit-11-6-2026/production/7353261",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-detroit-michigan-11-06-2026/event/080064F7F586B80E",
@@ -355239,11 +355239,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407238,
+        "url": "https://seatgeek.com/jodeci-tickets/detroit-michigan-fox-theatre-detroit-2026-11-06-8-pm/concert/18407238",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353261,
@@ -355295,7 +355295,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "070064F61E20C13A",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-chicago-illinois-11-07-2026/event/070064F61E20C13A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/chicago-illinois-arie-crown-theater-2026-11-07-8-pm/concert/18407239",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-chicago-arie-crown-theater-11-7-2026/production/7353370",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-chicago-illinois-11-07-2026/event/070064F61E20C13A",
@@ -355311,11 +355311,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407239,
+        "url": "https://seatgeek.com/jodeci-tickets/chicago-illinois-arie-crown-theater-2026-11-07-8-pm/concert/18407239",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353370,
@@ -355367,7 +355367,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "050064F7880254E8",
     "ticketmaster_url": "https://www.ticketmaster.com/wtlc-presents-jodeci-35th-anniversary-tour-indianapolis-indiana-11-08-2026/event/050064F7880254E8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/indianapolis-indiana-murat-theatre-at-old-national-centre-2026-11-08-7-30-pm/concert/18407240",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-indianapolis-murat-theatre-at-old-national-centre-11-8-2026/production/7353413",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wtlc-presents-jodeci-35th-anniversary-tour-indianapolis-indiana-11-08-2026/event/050064F7880254E8",
@@ -355383,11 +355383,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407240,
+        "url": "https://seatgeek.com/jodeci-tickets/indianapolis-indiana-murat-theatre-at-old-national-centre-2026-11-08-7-30-pm/concert/18407240",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353413,
@@ -355439,7 +355439,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "160064F6ABE57A02",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-cincinnati-ohio-11-10-2026/event/160064F6ABE57A02",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/cincinnati-ohio-andrew-j-brady-music-center-2026-11-10-8-pm/concert/18407241",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-cincinnati-andrew-j-brady-music-center-11-10-2026/production/7353259",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-cincinnati-ohio-11-10-2026/event/160064F6ABE57A02",
@@ -355455,11 +355455,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407241,
+        "url": "https://seatgeek.com/jodeci-tickets/cincinnati-ohio-andrew-j-brady-music-center-2026-11-10-8-pm/concert/18407241",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353259,
@@ -355589,7 +355589,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "15006488230D715D",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-national-harbor-maryland-11-12-2026/event/15006488230D715D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-11-12-8-pm/concert/18407243",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-oxon-hill-the-theater-at-mgm-national-harbor-11-12-2026/production/7353247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-national-harbor-maryland-11-12-2026/event/15006488230D715D",
@@ -355605,11 +355605,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407243,
+        "url": "https://seatgeek.com/jodeci-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-11-12-8-pm/concert/18407243",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353247,
@@ -355721,7 +355721,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B0064F2D4EC4AE4",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-bristol-virginia-11-15-2026/event/1B0064F2D4EC4AE4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/bristol-virginia-hard-rock-hotel-and-casino-bristol-2026-11-15-7-pm/concert/18407251",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-bristol-virginia-11-15-2026/event/1B0064F2D4EC4AE4",
@@ -355737,11 +355737,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407251,
+        "url": "https://seatgeek.com/jodeci-tickets/bristol-virginia-hard-rock-hotel-and-casino-bristol-2026-11-15-7-pm/concert/18407251",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -355791,7 +355791,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "020064F6C09983DC",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-jersey-city-new-jersey-11-18-2026/event/020064F6C09983DC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/jersey-city-new-jersey-loew-s-jersey-theatre-2026-11-18-8-pm/concert/18407254",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-jersey-city-new-jersey-11-18-2026/event/020064F6C09983DC",
@@ -355807,11 +355807,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407254,
+        "url": "https://seatgeek.com/jodeci-tickets/jersey-city-new-jersey-loew-s-jersey-theatre-2026-11-18-8-pm/concert/18407254",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -355939,7 +355939,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "150064F69DF8A007",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci35th-anniversary-tour-of-forever-my-baltimore-maryland-11-20-2026/event/150064F69DF8A007",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/baltimore-maryland-the-paramount-baltimore-2026-11-20-8-pm/concert/18407286",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-baltimore-the-paramount-baltimore-11-20-2026/production/7366680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci35th-anniversary-tour-of-forever-my-baltimore-maryland-11-20-2026/event/150064F69DF8A007",
@@ -355955,11 +355955,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407286,
+        "url": "https://seatgeek.com/jodeci-tickets/baltimore-maryland-the-paramount-baltimore-2026-11-20-8-pm/concert/18407286",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7366680,
@@ -356018,7 +356018,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "160064F5DEAEB0E0",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-louisville-kentucky-11-22-2026/event/160064F5DEAEB0E0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/louisville-kentucky-louisville-palace-2026-11-22-8-pm/concert/18407257",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-louisville-louisville-palace-11-22-2026/production/7353398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-louisville-kentucky-11-22-2026/event/160064F5DEAEB0E0",
@@ -356034,11 +356034,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407257,
+        "url": "https://seatgeek.com/jodeci-tickets/louisville-kentucky-louisville-palace-2026-11-22-8-pm/concert/18407257",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353398,
@@ -356081,7 +356081,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B0064F6CB7FE2EA",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-memphis-tennessee-11-24-2026/event/1B0064F6CB7FE2EA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/memphis-tennessee-orpheum-theatre-memphis-2026-11-24-8-pm/concert/18407256",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-memphis-orpheum-theatre---memphis-11-24-2026/production/7353380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-memphis-tennessee-11-24-2026/event/1B0064F6CB7FE2EA",
@@ -356097,11 +356097,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407256,
+        "url": "https://seatgeek.com/jodeci-tickets/memphis-tennessee-orpheum-theatre-memphis-2026-11-24-8-pm/concert/18407256",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353380,
@@ -356274,7 +356274,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064F7C1961D77",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-houston-texas-11-29-2026/event/3A0064F7C1961D77",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/houston-texas-arena-theatre-houston-2026-11-29-8-pm/concert/18407262",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-houston-texas-11-29-2026/event/3A0064F7C1961D77",
@@ -356290,11 +356290,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407262,
+        "url": "https://seatgeek.com/jodeci-tickets/houston-texas-arena-theatre-houston-2026-11-29-8-pm/concert/18407262",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -356350,7 +356350,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B0064F5E959F269",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-north-little-rock-arkansas-12-01-2026/event/1B0064F5E959F269",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/north-little-rock-arkansas-simmons-bank-arena-2026-12-01-8-30-pm/concert/18407263",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-north-little-rock-simmons-bank-arena-12-1-2026/production/7353338",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-north-little-rock-arkansas-12-01-2026/event/1B0064F5E959F269",
@@ -356366,11 +356366,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407263,
+        "url": "https://seatgeek.com/jodeci-tickets/north-little-rock-arkansas-simmons-bank-arena-2026-12-01-8-30-pm/concert/18407263",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353338,
@@ -356501,7 +356501,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "200064F79E992B52",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-birmingham-alabama-12-03-2026/event/200064F79E992B52",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/birmingham-alabama-bjcc-concert-hall-2026-12-03-7-30-pm/concert/18407266",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-birmingham-bjcc-concert-hall-12-3-2026/production/7353354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-birmingham-alabama-12-03-2026/event/200064F79E992B52",
@@ -356517,11 +356517,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407266,
+        "url": "https://seatgeek.com/jodeci-tickets/birmingham-alabama-bjcc-concert-hall-2026-12-03-7-30-pm/concert/18407266",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353354,
@@ -356564,7 +356564,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B0064FBAA6E9E92",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-lake-charles-louisiana-12-05-2026/event/1B0064FBAA6E9E92",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/lake-charles-louisiana-lake-charles-event-center-2026-12-05-8-pm/concert/18407282",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-lake-charles-lake-charles-event-center---sudduth-coliseum-12-5-2026--concerts-rb/production/7354326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-lake-charles-louisiana-12-05-2026/event/1B0064FBAA6E9E92",
@@ -356580,11 +356580,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407282,
+        "url": "https://seatgeek.com/jodeci-tickets/lake-charles-louisiana-lake-charles-event-center-2026-12-05-8-pm/concert/18407282",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7354326,
@@ -356640,7 +356640,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B0064F793068C4E",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-mobile-alabama-12-06-2026/event/1B0064F793068C4E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/mobile-alabama-saenger-theatre-mobile-2026-12-06-7-30-pm/concert/18407267",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-mobile-saenger-theatre-al-12-6-2026/production/7353330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-mobile-alabama-12-06-2026/event/1B0064F793068C4E",
@@ -356656,11 +356656,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407267,
+        "url": "https://seatgeek.com/jodeci-tickets/mobile-alabama-saenger-theatre-mobile-2026-12-06-7-30-pm/concert/18407267",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353330,
@@ -356787,7 +356787,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B0064F7A66CBD33",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-nashville-tennessee-12-10-2026/event/1B0064F7A66CBD33",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/nashville-tennessee-the-truth-nashville-2026-12-10-8-pm/concert/18407270",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-nashville-the-truth-12-10-2026/production/7353386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-nashville-tennessee-12-10-2026/event/1B0064F7A66CBD33",
@@ -356803,11 +356803,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407270,
+        "url": "https://seatgeek.com/jodeci-tickets/nashville-tennessee-the-truth-nashville-2026-12-10-8-pm/concert/18407270",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353386,
@@ -356866,7 +356866,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D0064F6E351BAA9",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-columbia-south-carolina-12-11-2026/event/2D0064F6E351BAA9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/columbia-south-carolina-township-auditorium-2026-12-11-8-pm/concert/18407274",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-columbia-township-auditorium-12-11-2026/production/7353364",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-columbia-south-carolina-12-11-2026/event/2D0064F6E351BAA9",
@@ -356882,11 +356882,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407274,
+        "url": "https://seatgeek.com/jodeci-tickets/columbia-south-carolina-township-auditorium-2026-12-11-8-pm/concert/18407274",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353364,
@@ -357096,7 +357096,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D0064F5FAACB717",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-miami-beach-florida-12-16-2026/event/0D0064F5FAACB717",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2026-12-16-8-pm/concert/18407278",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-12-16-2026/production/7353322",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-miami-beach-florida-12-16-2026/event/0D0064F5FAACB717",
@@ -357112,11 +357112,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407278,
+        "url": "https://seatgeek.com/jodeci-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2026-12-16-8-pm/concert/18407278",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353322,
@@ -357175,7 +357175,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D0064F6B35BF2EE",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-charlotte-north-carolina-12-19-2026/event/2D0064F6B35BF2EE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/charlotte-north-carolina-ovens-auditorium-2026-12-19-8-pm/concert/18407279",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-charlotte-ovens-auditorium-12-19-2026/production/7353388",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-charlotte-north-carolina-12-19-2026/event/2D0064F6B35BF2EE",
@@ -357191,11 +357191,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407279,
+        "url": "https://seatgeek.com/jodeci-tickets/charlotte-north-carolina-ovens-auditorium-2026-12-19-8-pm/concert/18407279",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353388,
@@ -357254,7 +357254,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006514E1E2B3CE",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-charlotte-north-carolina-12-20-2026/event/2D006514E1E2B3CE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/charlotte-north-carolina-ovens-auditorium-2026-12-20-8-pm/concert/18522802",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-charlotte-ovens-auditorium-12-20-2026--concerts-rb/production/7465261",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-charlotte-north-carolina-12-20-2026/event/2D006514E1E2B3CE",
@@ -357270,11 +357270,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18522802,
+        "url": "https://seatgeek.com/jodeci-tickets/charlotte-north-carolina-ovens-auditorium-2026-12-20-8-pm/concert/18522802",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7465261,

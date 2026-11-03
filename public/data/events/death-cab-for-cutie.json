@@ -2172,5 +2172,59 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338609",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338609/Death-Cab-for-Cutie-tickets-Thu-Jul-8-2027-Red-Rocks-Amphitheatre"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-milwaukee-vv17jz_4gkdidvax",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "BMO Pavilion",
+    "datetime_iso": "2027-06-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700655EE80C1262",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-milwaukee-wisconsin-06-25-2027/event/0700655EE80C1262",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-milwaukee-wisconsin-06-25-2027/event/0700655EE80C1262",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700655EE80C1262",
+        "discovery_event_id": "vv17jZ_4GkDIdvax",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-milwaukee-wisconsin-06-25-2027/event/0700655EE80C1262",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_4GkDIdvax",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T16:00:00Z"
   }
 ]

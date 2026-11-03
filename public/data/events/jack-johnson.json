@@ -950,5 +950,113 @@
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
     ]
+  },
+  {
+    "id": "tm-jack-johnson-2027-las-vegas-1avjz_fgkthyfka",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2027-06-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700654FDBE484C9",
+    "ticketmaster_url": "https://www.ticketmaster.com/jack-johnson-las-vegas-nevada-06-02-2027/event/1700654FDBE484C9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jack-johnson-las-vegas-nevada-06-02-2027/event/1700654FDBE484C9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700654FDBE484C9",
+        "discovery_event_id": "1AvjZ_fGkThyFKa",
+        "url": "https://www.ticketmaster.com/jack-johnson-las-vegas-nevada-06-02-2027/event/1700654FDBE484C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_fGkThyFKa",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T18:00:00Z"
+  },
+  {
+    "id": "tm-jack-johnson-2027-las-vegas-1avjz_fgkthbfkc",
+    "artist_slug": "jack-johnson",
+    "artist_name": "Jack Johnson",
+    "event_name": "Jack Johnson",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Encore Theater at Wynn Las Vegas",
+    "datetime_iso": "2027-06-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700654FDBE884CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/jack-johnson-las-vegas-nevada-06-03-2027/event/1700654FDBE884CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jack-johnson-las-vegas-nevada-06-03-2027/event/1700654FDBE884CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700654FDBE884CE",
+        "discovery_event_id": "1AvjZ_fGkThBFKC",
+        "url": "https://www.ticketmaster.com/jack-johnson-las-vegas-nevada-06-03-2027/event/1700654FDBE884CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_fGkThBFKC",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T18:00:00Z"
   }
 ]

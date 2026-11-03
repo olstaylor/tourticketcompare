@@ -908,5 +908,59 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338177",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338177/Interpol-tickets-Sat-Mar-27-2027-Starland-Ballroom"
+  },
+  {
+    "id": "tm-interpol-2026-london-1amzk4xgkd2vp1g",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "British Airways ARC",
+    "datetime_iso": "2026-12-04T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006562CF0652B5",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/interpol-london-04-12-2026/event/37006562CF0652B5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/interpol-london-04-12-2026/event/37006562CF0652B5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006562CF0652B5",
+        "discovery_event_id": "1AMZk4xGkd2vP1g",
+        "url": "https://www.ticketmaster.co.uk/interpol-london-04-12-2026/event/37006562CF0652B5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk4xGkd2vP1g",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T09:00:00Z"
   }
 ]

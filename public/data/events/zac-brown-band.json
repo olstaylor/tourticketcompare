@@ -585,5 +585,59 @@
         "end": "2027-06-15T22:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-zac-brown-band-2027-sparks-1avjz_4gkrmjou6",
+    "artist_slug": "zac-brown-band",
+    "artist_name": "Zac Brown Band",
+    "event_name": "Zac Brown Band",
+    "city": "Sparks",
+    "country": "United States Of America",
+    "venue": "Nugget Event Center",
+    "datetime_iso": "2027-05-02T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700655BEE711D87",
+    "ticketmaster_url": "https://www.ticketmaster.com/zac-brown-band-sparks-nevada-05-01-2027/event/1700655BEE711D87",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zac-brown-band-sparks-nevada-05-01-2027/event/1700655BEE711D87",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700655BEE711D87",
+        "discovery_event_id": "1AvjZ_4GkRmjoU6",
+        "url": "https://www.ticketmaster.com/zac-brown-band-sparks-nevada-05-01-2027/event/1700655BEE711D87",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_4GkRmjoU6",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T18:00:00Z"
   }
 ]

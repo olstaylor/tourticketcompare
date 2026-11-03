@@ -1778,5 +1778,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301030",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301030/Chelsea-Cutler-tickets-Sat-Mar-13-2027-Roseland-Theater"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-austin-z7r9jz1aa7ug0",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "IS THIS THE END? TOUR",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moonline",
+    "datetime_iso": "2027-02-27T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7UG0",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7UG0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7UG0",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7UG0",
+        "discovery_event_id": "Z7r9jZ1AA7UG0",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7UG0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7UG0",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

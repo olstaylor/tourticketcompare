@@ -1667,5 +1667,59 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295790",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295790/Blondshell-tickets-Thu-May-20-2027-Newport-Music-Hall"
+  },
+  {
+    "id": "tm-blondshell-2027-cleveland-vv1aazk4pgkduzdwy",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell: Scaring Strangers Tour",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "The Odeon",
+    "datetime_iso": "2027-05-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006556CD03BF70",
+    "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-cleveland-ohio-05-18-2027/event/05006556CD03BF70",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-cleveland-ohio-05-18-2027/event/05006556CD03BF70",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006556CD03BF70",
+        "discovery_event_id": "vv1AAZk4pGkduZDWY",
+        "url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-cleveland-ohio-05-18-2027/event/05006556CD03BF70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4pGkduZDWY",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T15:00:00Z"
   }
 ]

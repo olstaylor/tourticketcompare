@@ -1232,6 +1232,20 @@ export async function attachApprovedMarketplacePrices(shows, env) {
     prices.forEach((entry, index) => {
       if (hide[index]) prices[index] = decorateProviderResult(unavailableProviderPrice(entry.provider, show), show, entry.provider, env);
     });
+    // Expiry must not revive a figure the cross-site guard rejects: a
+    // last-seen amount is checked against every other figure for this show
+    // (fresh or last seen) the same way, and dropped if implausibly low.
+    const hideSeen = implausiblyLowAmongSites(prices.map((entry) => (
+      entry.status === "ok" ? { price: entry.price, currency: entry.currency }
+        : entry.lastSeen ? { price: entry.lastSeen.price, currency: entry.lastSeen.currency }
+          : { price: null, currency: entry.currency }
+    )));
+    prices.forEach((entry, index) => {
+      if (hideSeen[index] && entry.lastSeen) {
+        const { lastSeen, ...rest } = entry;
+        prices[index] = rest;
+      }
+    });
     const priceChecks = checksByEvent.get(showId);
     return priceChecks ? { ...show, prices, priceChecks } : { ...show, prices };
   });

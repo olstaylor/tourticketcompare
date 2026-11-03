@@ -146,7 +146,8 @@ const UK_GBP = { ...fixtureEvent("fixture-uk-gbp", "2026-09-19T19:00:00Z"), city
 const LAST_SEEN = fixtureEvent("fixture-last-seen", "2026-09-20T01:00:00Z", { lanes: ["vivid-seats", "ticketnetwork"] });
 const TOO_OLD = fixtureEvent("fixture-too-old", "2026-09-21T01:00:00Z", { lanes: ["vivid-seats"] });
 const SUPERSEDED = fixtureEvent("fixture-superseded", "2026-09-22T01:00:00Z", { lanes: ["vivid-seats"] });
-const EVENTS = [PRICED, CHECKED, UNMAPPED, UNCHECKED, STALE_CHECK, PENDING_RESALE, PENDING_BARE, UK_USD, UK_GBP, LAST_SEEN, TOO_OLD, SUPERSEDED];
+const OUTLIER = fixtureEvent("fixture-outlier", "2026-09-23T01:00:00Z");
+const EVENTS = [PRICED, CHECKED, UNMAPPED, UNCHECKED, STALE_CHECK, PENDING_RESALE, PENDING_BARE, UK_USD, UK_GBP, LAST_SEEN, TOO_OLD, SUPERSEDED, OUTLIER];
 
 const PRICE_ROWS = [
   ...[UK_USD, UK_GBP].map((event, index) => ({ event_id: event.id, provider: "vivid-seats", low_price: 125, currency: index ? "GBP" : "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" })),
@@ -156,6 +157,8 @@ const PRICE_ROWS = [
   // Expired 3 days ago (writers stopped), 3.1 and 4 days old: shown as last seen.
   { event_id: LAST_SEEN.id, provider: "vivid-seats", low_price: 62, currency: "USD", verified_at: "2026-08-06T09:00:00Z", expires_at: "2026-08-07T09:00:00Z", source: "vividseats_impact_marketplace_api" },
   { event_id: LAST_SEEN.id, provider: "ticketnetwork", low_price: 58, currency: "USD", verified_at: "2026-08-05T12:00:00Z", expires_at: "2026-08-06T12:00:00Z", source: "ticketnetwork_impact_marketplace_api" },
+  // All expired; the cross-site guard still rejects the implausibly low one.
+  ...[["vivid-seats", 371, "vividseats"], ["ticketnetwork", 481.85, "ticketnetwork"], ["stubhub-international", 50.59, "stubhub_international"]].map(([provider, low, src]) => ({ event_id: OUTLIER.id, provider, low_price: low, currency: "USD", verified_at: "2026-08-06T09:00:00Z", expires_at: "2026-08-07T09:00:00Z", source: `${src}_impact_marketplace_api` })),
   // 10 days old: past the 7-day window, stays hidden.
   { event_id: TOO_OLD.id, provider: "vivid-seats", low_price: 71, currency: "USD", verified_at: "2026-07-30T09:00:00Z", expires_at: "2026-07-31T09:00:00Z", source: "vividseats_impact_marketplace_api" },
   // Expired, but a later check found no listed price: not shown.
@@ -306,6 +309,8 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
   assert(!/"price":\s*"?(62|58)\b/.test(jsonLd), `${pathname}: a last-seen figure never reaches JSON-LD offers`);
   assert(!/Last seen/.test(card(html, TOO_OLD.id)) && text(card(html, TOO_OLD.id)).includes(PRICE_UNAVAILABLE_NOTE), `${pathname}: a snapshot older than 7 days stays hidden`);
   assert(!/Last seen|USD 83/.test(text(card(html, SUPERSEDED.id))), `${pathname}: a later no-price check outranks an older figure`);
+  const outlier = text(card(html, OUTLIER.id));
+  assert(/Last seen/.test(outlier) && /USD 371/.test(outlier) && !/50\.59/.test(outlier), `${pathname}: expiry does not revive a figure the cross-site guard rejects — got: ${outlier.slice(-260)}`);
 }
 
 // A cache read that throws establishes nothing: no card may claim absence.
@@ -331,6 +336,14 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
   assert(foreign.includes("This UK event has prices in a foreign currency"), "the UK buyer sees currency context beside the actual price");
   assert(/From GBP\s+125/.test(text(local)) && !local.includes("foreign currency"), "a GBP price gets no foreign-currency warning");
   assert(!/fees are added at checkout/.test(html), "shared copy does not invent missing fee treatment");
+}
+
+// Client hydration must not drop a last-seen-only card (it used to replace
+// only cards with a fresh price).
+{
+  const appJs = await read("public/app.js");
+  const gates = appJs.match(/hasApprovedMarketplacePrice\(pricedShow\) && !hasLastSeenPrice\(pricedShow\)/g) || [];
+  assert(gates.length === 2, `both hydration gates let last-seen-only cards through (found ${gates.length})`);
 }
 
 console.log(`price-notes: ${passed} assertions passed`);

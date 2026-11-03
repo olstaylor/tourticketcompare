@@ -2078,6 +2078,15 @@ function lastSeenDate(observedAt) {
   if (!Number.isFinite(at)) return "";
   return new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", timeZone: "UTC" }).format(new Date(at));
 }
+// A priced response whose only figures are "last seen" ones still replaces the
+// card during hydration, so the server's dated note is not lost. Fresh-price
+// consumers (history panel, badges) keep using hasApprovedMarketplacePrice.
+function hasLastSeenPrice(show, now = Date.now()) {
+  return (Array.isArray(show?.prices) ? show.prices : []).some((lane) => {
+    const at = Date.parse(String(lane?.lastSeen?.observedAt || ""));
+    return lane?.status !== "ok" && Number.isFinite(at) && at <= now + 300000 && now - at <= LAST_SEEN_MAX_DAYS * 86400000;
+  });
+}
 // Keep in sync with lastSeenEntries in functions/[[path]].js.
 function lastSeenEntries(ctaSpecs, show, now = Date.now()) {
   const lanes = Array.isArray(show?.prices) ? show.prices : [];
@@ -3133,7 +3142,7 @@ async function hydrateCurrentShowPriceSnapshot(shows, cardOptions) {
     if (!response.ok) return;
     const data = await response.json();
     const pricedShow = safeShowList(data).find((candidate) => String(candidate?.id || "") === String(show.id));
-    if (!hasApprovedMarketplacePrice(pricedShow)) return;
+    if (!hasApprovedMarketplacePrice(pricedShow) && !hasLastSeenPrice(pricedShow)) return;
     const currentCard = document.getElementById(hash);
     if (!currentCard) return;
     currentCard.replaceWith(renderShowCard(pricedShow, {
@@ -3190,7 +3199,7 @@ async function hydrateShowBoardPriceSnapshots(shows, cardOptions) {
       if (!anchorId) continue;
       const pricedShow = pricedById.get(String(show.id));
       if (!pricedShow) continue;
-      if (!hasApprovedMarketplacePrice(pricedShow)) continue;
+      if (!hasApprovedMarketplacePrice(pricedShow) && !hasLastSeenPrice(pricedShow)) continue;
 
       const currentCard = document.getElementById(anchorId);
       if (!currentCard) continue;

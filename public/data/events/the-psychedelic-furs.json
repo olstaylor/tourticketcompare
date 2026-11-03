@@ -30,7 +30,7 @@
         "event_id": 18394805,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/riverside-california-fox-performing-arts-center-2026-11-11-7-pm/concert/18394805",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1326,7 +1326,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7P90y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P90y",
-    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/menlo-park-california-the-guild-theatre-menlo-park-2026-11-01-8-pm/concert/18592658",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P90y",
@@ -1342,11 +1342,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18592658,
-        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/menlo-park-california-the-guild-theatre-menlo-park-2026-11-01-8-pm/concert/18592658",
-        "verified": true,
-        "last_verified_at": "2026-10-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1399,7 +1399,7 @@
         "event_id": 18592656,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/menlo-park-california-the-guild-theatre-menlo-park-2026-11-02-8-pm/concert/18592656",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1453,7 +1453,7 @@
         "event_id": 18298234,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/fresno-california-warnors-theatre-2026-11-04-8-pm/concert/18298234",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1507,7 +1507,7 @@
         "event_id": 18091775,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/del-mar-california-the-sound-del-mar-2026-11-08-8-pm/concert/18091775",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1577,7 +1577,7 @@
         "event_id": 18310993,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2026-11-16-8-pm/concert/18310993",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1647,7 +1647,7 @@
         "event_id": 18092700,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/phoenix-arizona-celebrity-theatre-phoenix-2026-11-19-7-30-pm/concert/18092700",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {

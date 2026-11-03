@@ -1292,7 +1292,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70EfV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EfV",
-    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/salt-lake-city-utah-delta-center-1-2026-11-01-8-pm/concert/18240069",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EfV",
@@ -1308,11 +1308,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18240069,
-        "url": "https://seatgeek.com/don-omar-tickets/salt-lake-city-utah-delta-center-1-2026-11-01-8-pm/concert/18240069",
-        "verified": true,
-        "last_verified_at": "2026-10-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1381,7 +1381,7 @@
         "event_id": 18250872,
         "url": "https://seatgeek.com/don-omar-tickets/san-jose-california-sap-center-at-san-jose-2026-11-05-8-pm/concert/18250872",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {

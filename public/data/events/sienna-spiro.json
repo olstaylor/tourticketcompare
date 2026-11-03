@@ -786,7 +786,7 @@
         "event_id": 18297301,
         "url": "https://seatgeek.com/sienna-spiro-tickets/seattle-washington-the-showbox-2026-11-02-8-pm/concert/18297301",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -855,7 +855,7 @@
         "event_id": 18297302,
         "url": "https://seatgeek.com/sienna-spiro-tickets/vancouver-canada-vogue-theatre-bc-1-2026-11-04-8-pm/concert/18297302",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -924,7 +924,7 @@
         "event_id": 18297303,
         "url": "https://seatgeek.com/sienna-spiro-tickets/vancouver-canada-vogue-theatre-bc-1-2026-11-05-8-pm/concert/18297303",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -993,7 +993,7 @@
         "event_id": 18318283,
         "url": "https://seatgeek.com/sienna-spiro-tickets/portland-oregon-mcmenamins-crystal-ballroom-2026-11-07-8-pm/concert/18318283",
         "verified": true,
-        "last_verified_at": "2026-10-25",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1062,7 +1062,7 @@
         "event_id": 18297308,
         "url": "https://seatgeek.com/sienna-spiro-tickets/san-francisco-california-castro-theatre-2026-11-09-8-pm/concert/18297308",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1118,7 +1118,7 @@
         "event_id": 18297309,
         "url": "https://seatgeek.com/sienna-spiro-tickets/los-angeles-california-the-wiltern-2026-11-10-8-pm/concert/18297309",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1198,7 +1198,7 @@
         "event_id": 18317534,
         "url": "https://seatgeek.com/sienna-spiro-tickets/los-angeles-california-orpheum-theatre-los-angeles-2026-11-12-8-pm/concert/18317534",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3446,7 +3446,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7bjy",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7bjy",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/nashville-tennessee-grand-ole-opry-house-2027-08-08-7-pm/concert/18702009",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-nashville-grand-ole-opry-house-8-8-2027--concerts-pop/production/7726792",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7bjy",
@@ -3462,11 +3462,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702009,
+        "url": "https://seatgeek.com/sienna-spiro-tickets/nashville-tennessee-grand-ole-opry-house-2027-08-08-7-pm/concert/18702009",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7726792,

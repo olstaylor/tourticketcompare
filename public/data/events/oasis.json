@@ -2580,11 +2580,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18589078,
+        "url": "https://seatgeek.com/oasis-tickets/las-vegas-nevada-allegiant-stadium-2027-08-21-7-pm/concert/18589078",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553375,
@@ -2667,11 +2667,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18589081,
+        "url": "https://seatgeek.com/oasis-tickets/las-vegas-nevada-allegiant-stadium-2027-08-24-7-pm/concert/18589081",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553379,

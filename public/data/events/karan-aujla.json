@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C00652BA1D6AEB7",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-sacramento-california-11-07-2026/event/1C00652BA1D6AEB7",
-    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/sacramento-california-golden-1-center-2026-11-07-8-pm/concert/18592286",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-sacramento-california-11-07-2026/event/1C00652BA1D6AEB7",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18592286,
-        "url": "https://seatgeek.com/karan-aujla-tickets/sacramento-california-golden-1-center-2026-11-07-8-pm/concert/18592286",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -99,7 +99,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2C00652AF5740D18",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-los-angeles-california-11-09-2026/event/2C00652AF5740D18",
-    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/los-angeles-california-crypto-com-arena-2026-11-09-8-pm/concert/18592285",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-los-angeles-california-11-09-2026/event/2C00652AF5740D18",
@@ -115,11 +115,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18592285,
-        "url": "https://seatgeek.com/karan-aujla-tickets/los-angeles-california-crypto-com-arena-2026-11-09-8-pm/concert/18592285",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -187,7 +187,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C00652BD99CF27F",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-dallas-texas-11-13-2026/event/0C00652BD99CF27F",
-    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/dallas-texas-american-airlines-center-2026-11-13-8-pm/concert/18592287",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-dallas-texas-11-13-2026/event/0C00652BD99CF27F",
@@ -203,11 +203,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18592287,
-        "url": "https://seatgeek.com/karan-aujla-tickets/dallas-texas-american-airlines-center-2026-11-13-8-pm/concert/18592287",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -275,7 +275,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E00652BB098CCA0",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-atlanta-georgia-11-16-2026/event/0E00652BB098CCA0",
-    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/atlanta-georgia-state-farm-arena-1-2026-11-16-8-pm/concert/18592290",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-atlanta-state-farm-arena-11-16-2026/production/7557616",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-atlanta-georgia-11-16-2026/event/0E00652BB098CCA0",
@@ -291,11 +291,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18592290,
-        "url": "https://seatgeek.com/karan-aujla-tickets/atlanta-georgia-state-farm-arena-1-2026-11-16-8-pm/concert/18592290",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7557616,
@@ -363,7 +363,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3B00652A0114E8EF",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-new-york-new-york-11-18-2026/event/3B00652A0114E8EF",
-    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/new-york-new-york-madison-square-garden-2026-11-18-8-pm/concert/18592288",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-new-york-new-york-11-18-2026/event/3B00652A0114E8EF",
@@ -379,11 +379,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18592288,
-        "url": "https://seatgeek.com/karan-aujla-tickets/new-york-new-york-madison-square-garden-2026-11-18-8-pm/concert/18592288",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -475,7 +475,7 @@
         "event_id": 18592289,
         "url": "https://seatgeek.com/karan-aujla-tickets/washington-district-of-columbia-capital-one-arena-2026-11-20-8-pm/concert/18592289",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -496,7 +496,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C0064B0D7C4668D",
     "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-francisco-california-11-01-2026/event/1C0064B0D7C4668D",
-    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/san-francisco-california-the-masonic-san-francisco-2026-11-01-8-pm/concert/18266707",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-francisco-california-11-01-2026/event/1C0064B0D7C4668D",
@@ -512,11 +512,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18266707,
-        "url": "https://seatgeek.com/tom-jones-tickets/san-francisco-california-the-masonic-san-francisco-2026-11-01-8-pm/concert/18266707",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

@@ -202,7 +202,7 @@
     "tour_name": "Living In The Light Tour",
     "ticketmaster_event_id": "180064749D35DD39",
     "ticketmaster_url": "https://www.ticketmaster.ie/tommy-emmanuel-cgp-living-in-the-dublin-02-11-2026/event/180064749D35DD39",
-    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/dublin-ireland-vicar-street-2026-11-02-8-pm/concert/18147020",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/tommy-emmanuel-cgp-living-in-the-dublin-02-11-2026/event/180064749D35DD39",
@@ -218,11 +218,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18147020,
-        "url": "https://seatgeek.com/tommy-emmanuel-tickets/dublin-ireland-vicar-street-2026-11-02-8-pm/concert/18147020",
-        "verified": true,
-        "last_verified_at": "2026-10-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

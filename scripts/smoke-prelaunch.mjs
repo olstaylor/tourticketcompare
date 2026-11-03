@@ -49,7 +49,7 @@ const expectedH1 = new Map([
   ["/terms", "Terms of use"]
 ]);
 const expectedTitle = new Map([
-  ["/", "Compare Concert Tickets & Tour Dates | TourTicketCompare"],
+  ["/", "Compare Concert Ticket Prices | TourTicketCompare"],
   ["/artists", "Artists | TourTicketCompare"],
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
   ["/on-sale", "Concert Tickets Going On Sale Soon | TourTicketCompare"],
@@ -567,7 +567,7 @@ assert(
   "index.html must not advertise the retired sitelinks SearchAction or create a crawlable template-query URL"
 );
 const expectedClientMetadata = [
-  "Compare Concert Tickets & Tour Dates | TourTicketCompare",
+  "Compare Concert Ticket Prices | TourTicketCompare",
   homepageDescription,
   "Compare Concert Ticket Prices by Site | TourTicketCompare",
   "Compare ticket prices for the same concert across ticket sites, then check the fees and final total before you buy.",
@@ -579,7 +579,7 @@ for (const value of expectedClientMetadata) {
   assert(clientApp.includes(value), `public/app.js should preserve client metadata parity for "${value}"`);
 }
 assert(
-  clientIndexHtml.includes("<title>Compare Concert Tickets &amp; Tour Dates | TourTicketCompare</title>"),
+  clientIndexHtml.includes("<title>Compare Concert Ticket Prices | TourTicketCompare</title>"),
   "public/index.html fallback title should match the homepage metadata source of truth"
 );
 assert(

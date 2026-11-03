@@ -4,7 +4,7 @@ seo_title: "Nickelback tour dates and prices"
 description: "Lowest listed Nickelback ticket prices by city from three ticket sites, captured 2026-11-03, with venues and dates to compare before you buy."
 summary: "A city-by-city table of the lowest listed Nickelback prices on Vivid Seats, TicketNetwork and StubHub International, captured 2026-11-03, with each date linked to its Ticketmaster event page."
 date: 2026-11-03
-status: draft
+status: published
 tags: [tour-buying]
 related_artists: [nickelback]
 related_guides: [how-to-read-a-ticket-listing, primary-vs-resale-concert-tickets, ticket-delivery-and-transfer-timing]
@@ -62,7 +62,7 @@ This table carries one date per city and is not the full list. The [Nickelback a
 
 Read each column on its own, because each site is a separate set of listings. On Vivid Seats, the lowest figure was USD 87 in Knoxville and the highest was USD 390 in Durant. On TicketNetwork, figures ran from USD 83 in Nashville to USD 202 in Hollywood. StubHub International had figures for fewer cities, from USD 51 in Atlanta to USD 181 in Hollywood.
 
-Hollywood sits at the top end on all three sites. Durant, the only date in this table before 2027, carries the single highest figure here, from Vivid Seats. If you are flexible about cities, the arena dates across Pennsylvania, Ohio, Indiana, Illinois, Tennessee and Georgia mostly cluster lower on each site's own list.
+Hollywood sits at the top end on all three sites. Durant, the only date in this table before 2027, carries the single highest figure here, from Vivid Seats. Outside Hollywood and Durant, every Vivid Seats and TicketNetwork figure in the table sits between USD 83 and USD 147.
 
 No price was captured from these three sites for the Saint Louis date. None of the listings in the table is flagged as unusually low against the same site's other dates.
 

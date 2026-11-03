@@ -1743,5 +1743,58 @@
     "organizer_names": [
       "KENNEDY STREET ENTS LTD"
     ]
+  },
+  {
+    "id": "tm-pink-martini-2027-pittsburgh-z7r9jz1aavjpj",
+    "artist_slug": "pink-martini",
+    "artist_name": "Pink Martini",
+    "event_name": "Pink Martini",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Carnegie Music Hall",
+    "datetime_iso": "2027-03-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvJPJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvJPJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvJPJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvJPJ",
+        "discovery_event_id": "Z7r9jZ1AAvJPJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvJPJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvJPJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

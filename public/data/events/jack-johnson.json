@@ -765,6 +765,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8353391",
+        "url": "https://www.ticketnetwork.com/en/p/8353391",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v8kG7FN",
@@ -773,7 +780,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/jack-johnson-tickets-amsterdam-ziggo-dome-27-6-2027/event/107675651",
     "organizer_names": [
       "Greenhouse Talent"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353391"
   },
   {
     "id": "tm-jack-johnson-2027-st-austell-g5vhz_4eimdn_",
@@ -998,12 +1006,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8353404",
+        "url": "https://www.ticketnetwork.com/en/p/8353404",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_fGkThyFKa",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T18:00:00Z"
+    "public_onsale_at": "2026-11-06T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353404"
   },
   {
     "id": "tm-jack-johnson-2027-las-vegas-1avjz_fgkthbfkc",
@@ -1052,11 +1068,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8353405",
+        "url": "https://www.ticketnetwork.com/en/p/8353405",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_fGkThBFKC",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T18:00:00Z"
+    "public_onsale_at": "2026-11-06T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353405"
   }
 ]

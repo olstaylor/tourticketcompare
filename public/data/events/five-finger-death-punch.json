@@ -1973,6 +1973,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8353347",
+        "url": "https://www.ticketnetwork.com/en/p/8353347",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvOZ_FGkBmO2ST",
@@ -1982,7 +1989,8 @@
       "DME PROMOTIONS LTD",
       "MCD PRODUCTIONS",
       "AMPHITHEATRE IRELAND"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353347"
   },
   {
     "id": "tm-five-finger-death-punch-2026-huntsville-z7r9jz1a7ooob",

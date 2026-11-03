@@ -117,11 +117,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7796271",
-        "url": "https://www.ticketnetwork.com/en/p/7796271",
-        "verified": true,
-        "last_verified_at": "2026-11-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7796271",
@@ -141,7 +141,7 @@
     "ticketmaster_discovery_event_id": "1AUZk8UGkdF-AIv",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7796271",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796271/Cody-Johnson-tickets-Mon-Nov-2-2026-OVO-Hydro",
     "stubhub_international_url": "https://www.stubhub.ie/cody-johnson-tickets-glasgow-ovo-hydro-arena-glasgow-2-11-2026/event/107098551",
     "organizer_names": [

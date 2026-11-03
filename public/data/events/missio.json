@@ -196,18 +196,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8200526",
-        "url": "https://www.ticketnetwork.com/en/p/8200526",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_8Gkie-eOv",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200526/Missio-tickets-Sun-Nov-1-2026-Teragram-Ballroom",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200526",
+    "ticketnetwork_url": "",
     "presales": [
       {
         "name": "Priority Entry DOS GA",

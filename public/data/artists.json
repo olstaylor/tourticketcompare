@@ -3482,5 +3482,61 @@
     "last_verified_at": "2026-11-02",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-11-02"
+  },
+  {
+    "slug": "chris-stassy",
+    "name": "Chris Stassy",
+    "short_description": "Dance/Electronic act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-03"
+  },
+  {
+    "slug": "gary-allan",
+    "name": "Gary Allan",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-03"
+  },
+  {
+    "slug": "mon-laferte",
+    "name": "Mon Laferte",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-03"
+  },
+  {
+    "slug": "meshuggah",
+    "name": "Meshuggah",
+    "short_description": "Metal act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-03"
   }
 ]

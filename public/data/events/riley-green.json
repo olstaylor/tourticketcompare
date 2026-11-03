@@ -2950,18 +2950,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8339188",
-        "url": "https://www.ticketliquidator.com/tickets/8339188/Riley-Green-tickets-Mon-Nov-2-2026-SNHU-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_fGkwNh6_I",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8339188/Riley-Green-tickets-Mon-Nov-2-2026-SNHU-Arena"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-riley-green-2027-cincinnati-1kaovp4ygacu9xm",
@@ -3017,12 +3017,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8353775",
+        "url": "https://www.ticketliquidator.com/tickets/8353775/Riley-Green-tickets-Thu-Jun-24-2027-The-Farmer-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAOvP4yGACU9xM",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-06T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353775"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353775",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353775/Riley-Green-tickets-Thu-Jun-24-2027-The-Farmer-Music-Center"
   }
 ]

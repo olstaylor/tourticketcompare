@@ -106,12 +106,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167866",
+        "url": "https://www.ticketliquidator.com/tickets/8167866/Jodeci-tickets-Fri-Nov-6-2026-Fox-Theatre-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_2Lg-lOC",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167866"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167866",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167866/Jodeci-tickets-Fri-Nov-6-2026-Fox-Theatre-Detroit"
   },
   {
     "id": "tm-jodeci-2026-chicago-vvg1jz_2brfg7b",
@@ -167,12 +175,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167867",
+        "url": "https://www.ticketliquidator.com/tickets/8167867/Jodeci-tickets-Sat-Nov-7-2026-Arie-Crown-Theater",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_2brFG7B",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167867"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167867",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167867/Jodeci-tickets-Sat-Nov-7-2026-Arie-Crown-Theater"
   },
   {
     "id": "tm-jodeci-2026-indianapolis-vvg1fz_2rfzpki",
@@ -228,12 +244,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167868",
+        "url": "https://www.ticketliquidator.com/tickets/8167868/Jodeci-tickets-Sun-Nov-8-2026-Murat-Theatre-at-Old-National-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_2rFZPKI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167868"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167868",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167868/Jodeci-tickets-Sun-Nov-8-2026-Murat-Theatre-at-Old-National-Centre"
   },
   {
     "id": "tm-jodeci-2026-cincinnati-17aov0g62qly9ie",
@@ -350,12 +374,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167870",
+        "url": "https://www.ticketliquidator.com/tickets/8167870/Jodeci-tickets-Wed-Nov-11-2026-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G62hhgGFI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167870"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167870",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167870/Jodeci-tickets-Wed-Nov-11-2026-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-jodeci-2026-national-harbor-164zk3ffyzacfekc",
@@ -411,12 +443,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167871",
+        "url": "https://www.ticketliquidator.com/tickets/8167871/Jodeci-tickets-Thu-Nov-12-2026-The-Theater-at-MGM-National-Harbor",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "164Zk3FFYZACFekC",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167871"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167871",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167871/Jodeci-tickets-Thu-Nov-12-2026-The-Theater-at-MGM-National-Harbor"
   },
   {
     "id": "tm-jodeci-2026-cleveland-z7r9jz1aaed_7",
@@ -578,12 +618,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8263854",
+        "url": "https://www.ticketliquidator.com/tickets/8263854/Jodeci-tickets-Wed-Nov-18-2026-Loews-Jersey-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_2hZJb2j",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8263854"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8263854",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8263854/Jodeci-tickets-Wed-Nov-18-2026-Loews-Jersey-Theatre"
   },
   {
     "id": "tm-jodeci-2026-bensalem-z7r9jz1aaz98b",
@@ -639,12 +687,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8170937",
+        "url": "https://www.ticketliquidator.com/tickets/8170937/Jodeci-tickets-Thu-Nov-19-2026-Xcite-Center-At-Parx-Casino-and-Racing",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ98b",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8170937"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8170937",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8170937/Jodeci-tickets-Thu-Nov-19-2026-Xcite-Center-At-Parx-Casino-and-Racing"
   },
   {
     "id": "tm-jodeci-2026-baltimore-17a8v0g62qqx1z6",
@@ -700,12 +756,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167890",
+        "url": "https://www.ticketliquidator.com/tickets/8167890/Jodeci-tickets-Fri-Nov-20-2026-The-Paramount-Baltimore",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G62QqX1Z6",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167890"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167890",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167890/Jodeci-tickets-Fri-Nov-20-2026-The-Paramount-Baltimore"
   },
   {
     "id": "tm-jodeci-2026-louisville-17aov0g629rlldo",
@@ -928,12 +992,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8173555",
+        "url": "https://www.ticketliquidator.com/tickets/8173555/Jodeci-tickets-Sat-Nov-28-2026-Showplace-Theatre-At-Riverwind-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAed_M",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173555"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173555",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173555/Jodeci-tickets-Sat-Nov-28-2026-Showplace-Theatre-At-Riverwind-Casino"
   },
   {
     "id": "tm-jodeci-2026-houston-g5diz_2lvp-gm",
@@ -989,12 +1061,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167852",
+        "url": "https://www.ticketliquidator.com/tickets/8167852/Jodeci-tickets-Sun-Nov-29-2026-Houston-Arena-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_2LvP-gM",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167852"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167852",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167852/Jodeci-tickets-Sun-Nov-29-2026-Houston-Arena-Theatre"
   },
   {
     "id": "tm-jodeci-2026-north-little-rock-g5viz_29tplat",
@@ -1050,12 +1130,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167877",
+        "url": "https://www.ticketliquidator.com/tickets/8167877/Jodeci-tickets-Tue-Dec-1-2026-Simmons-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_29tpLat",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167877"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167877",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167877/Jodeci-tickets-Tue-Dec-1-2026-Simmons-Bank-Arena"
   },
   {
     "id": "tm-jodeci-2026-new-orleans-z7r9jz1aazk_o",
@@ -1111,12 +1199,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8165309",
+        "url": "https://www.ticketliquidator.com/tickets/8165309/Jodeci-tickets-Wed-Dec-2-2026-Saenger-Theatre-New-Orleans",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZk_O",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165309"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165309",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8165309/Jodeci-tickets-Wed-Dec-2-2026-Saenger-Theatre-New-Orleans"
   },
   {
     "id": "tm-jodeci-2026-birmingham-17fzv0g62rrj3c3",
@@ -1225,12 +1321,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167887",
+        "url": "https://www.ticketliquidator.com/tickets/8167887/Jodeci-tickets-Sat-Dec-5-2026-Lake-Charles-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_2mnhtB3",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167887"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167887",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167887/Jodeci-tickets-Sat-Dec-5-2026-Lake-Charles-Event-Center"
   },
   {
     "id": "tm-jodeci-2026-mobile-g5viz_2rkvisc",
@@ -1286,12 +1390,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167879",
+        "url": "https://www.ticketliquidator.com/tickets/8167879/Jodeci-tickets-Sun-Dec-6-2026-Saenger-Theatre-Mobile",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_2rKvIsC",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167879"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167879",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167879/Jodeci-tickets-Sun-Dec-6-2026-Saenger-Theatre-Mobile"
   },
   {
     "id": "tm-jodeci-2026-savannah-vvg1zz_2qcyhff",
@@ -1400,12 +1512,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167881",
+        "url": "https://www.ticketliquidator.com/tickets/8167881/Jodeci-tickets-Thu-Dec-10-2026-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_2rJh5VS",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167881"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167881",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167881/Jodeci-tickets-Thu-Dec-10-2026-The-Truth"
   },
   {
     "id": "tm-jodeci-2026-columbia-g5evz_2hnfhnt",
@@ -1461,12 +1581,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167882",
+        "url": "https://www.ticketliquidator.com/tickets/8167882/Jodeci-tickets-Fri-Dec-11-2026-Township-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_2hNfhnt",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167882"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167882",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167882/Jodeci-tickets-Fri-Dec-11-2026-Township-Auditorium"
   },
   {
     "id": "tm-jodeci-2026-st-petersburg-vvg1vz_2qbbe54",
@@ -1522,12 +1650,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167883",
+        "url": "https://www.ticketliquidator.com/tickets/8167883/Jodeci-tickets-Sun-Dec-13-2026-Mahaffey-Theater-At-The-Duke-Energy-Center-for-the-Arts",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_2QBbE54",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167883"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167883",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167883/Jodeci-tickets-Sun-Dec-13-2026-Mahaffey-Theater-At-The-Duke-Energy-Center-for-the-Arts"
   },
   {
     "id": "tm-jodeci-2026-jacksonville-z7r9jz1aaz3fu",
@@ -1583,12 +1719,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8173206",
+        "url": "https://www.ticketliquidator.com/tickets/8173206/Jodeci-tickets-Tue-Dec-15-2026-Florida-Theatre-Jacksonville",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ3FU",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173206"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173206",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173206/Jodeci-tickets-Tue-Dec-15-2026-Florida-Theatre-Jacksonville"
   },
   {
     "id": "tm-jodeci-2026-miami-beach-vvg1vz_29bl5j9",
@@ -1644,12 +1788,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167884",
+        "url": "https://www.ticketliquidator.com/tickets/8167884/Jodeci-tickets-Wed-Dec-16-2026-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_29Bl5j9",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167884"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167884",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167884/Jodeci-tickets-Wed-Dec-16-2026-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater"
   },
   {
     "id": "tm-jodeci-2026-charlotte-g5evz_2qspt5m",
@@ -1705,12 +1857,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167885",
+        "url": "https://www.ticketliquidator.com/tickets/8167885/Jodeci-tickets-Sat-Dec-19-2026-Ovens-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_2QSpT5m",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167885"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167885",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167885/Jodeci-tickets-Sat-Dec-19-2026-Ovens-Auditorium"
   },
   {
     "id": "tm-jodeci-2026-charlotte-g5evz_ok-zl2c",
@@ -1766,12 +1926,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231624",
+        "url": "https://www.ticketliquidator.com/tickets/8231624/Jodeci-tickets-Sun-Dec-20-2026-Ovens-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_oK-zl2C",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231624"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231624",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231624/Jodeci-tickets-Sun-Dec-20-2026-Ovens-Auditorium"
   },
   {
     "id": "tm-jodeci-2027-san-francisco-g5vyz_2qprnjg",
@@ -1827,12 +1995,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167859",
+        "url": "https://www.ticketliquidator.com/tickets/8167859/Jodeci-tickets-Fri-Jan-8-2027-The-Masonic-San-Francisco",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_2QPRnJG",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167859"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167859",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167859/Jodeci-tickets-Fri-Jan-8-2027-The-Masonic-San-Francisco"
   },
   {
     "id": "tm-jodeci-2027-inglewood-vvg1iz_2l8dh94",
@@ -1888,12 +2064,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167860",
+        "url": "https://www.ticketliquidator.com/tickets/8167860/Jodeci-tickets-Sat-Jan-9-2027-YouTube-Theater-at-Hollywood-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_2L8dh94",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167860"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167860",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167860/Jodeci-tickets-Sat-Jan-9-2027-YouTube-Theater-at-Hollywood-Park"
   },
   {
     "id": "tm-jodeci-2027-el-cajon-vvg1iz_2r2vxq6",
@@ -1949,12 +2133,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167863",
+        "url": "https://www.ticketliquidator.com/tickets/8167863/Jodeci-tickets-Sun-Jan-10-2027-The-Magnolia-Performing-Arts-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_2r2VxQ6",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167863"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167863",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167863/Jodeci-tickets-Sun-Jan-10-2027-The-Magnolia-Performing-Arts-Center"
   },
   {
     "id": "tm-jodeci-2027-phoenix-17k8v0g62lhiblw",
@@ -2010,12 +2202,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8165300",
+        "url": "https://www.ticketliquidator.com/tickets/8165300/Jodeci-tickets-Fri-Jan-15-2027-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G62LhibLw",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165300"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165300",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8165300/Jodeci-tickets-Fri-Jan-15-2027-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-jodeci-2027-ontario-vvg10z_2n6tniq",
@@ -2071,11 +2271,19 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167861",
+        "url": "https://www.ticketliquidator.com/tickets/8167861/Jodeci-tickets-Sat-Jan-16-2027-Toyota-Arena-Ontario",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_2N6tnIq",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167861"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167861",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167861/Jodeci-tickets-Sat-Jan-16-2027-Toyota-Arena-Ontario"
   }
 ]

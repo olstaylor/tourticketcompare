@@ -640,12 +640,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8353403",
+        "url": "https://www.ticketliquidator.com/tickets/8353403/Zac-Brown-Band-tickets-Sat-May-1-2027-Nugget-Event-Center-At-Nugget-Casino-Resort",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_4GkRmjoU6",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-06T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353403"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353403",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353403/Zac-Brown-Band-tickets-Sat-May-1-2027-Nugget-Event-Center-At-Nugget-Casino-Resort"
   }
 ]

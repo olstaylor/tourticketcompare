@@ -3,6 +3,7 @@
   "asOf": "2026-11-03",
   "source": "provider_pricing_daily (D1), low_price_last per event x provider x UTC day",
   "scope": "US shows whose first priced day in TourTicketCompare's records (any site) fell between 2026-08-09 and 2026-10-19, with the show at least 45 days after that day; each site compared only with itself for the same show; per show, the median change across its sites",
+  "caveat": "First priced day is when TourTicketCompare first recorded a price (after link verification), not the official on-sale date.",
   "band": 0.02,
   "firstFortnight": {
     "compare": "first priced day vs 14 days later",

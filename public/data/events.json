@@ -365008,5 +365008,431 @@
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-11-06T11:00:00Z"
+  },
+  {
+    "id": "tm-tyla-2026-seattle-vvg1hz_4ubjbln",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2026-11-18T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00655DBA7187E3",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F00655DBA7187E3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F00655DBA7187E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00655DBA7187E3",
+        "discovery_event_id": "vvG1HZ_4UBjbLN",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F00655DBA7187E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_4UBjbLN",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-pink-martini-2027-pittsburgh-z7r9jz1aavjpj",
+    "artist_slug": "pink-martini",
+    "artist_name": "Pink Martini",
+    "event_name": "Pink Martini",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Carnegie Music Hall",
+    "datetime_iso": "2027-03-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvJPJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvJPJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvJPJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvJPJ",
+        "discovery_event_id": "Z7r9jZ1AAvJPJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvJPJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvJPJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-salt-lake-city-z7r9jz1aa7ec3",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett w/ lighthearted",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Complex - UT",
+    "datetime_iso": "2027-05-22T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7eC3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eC3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eC3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7eC3",
+        "discovery_event_id": "Z7r9jZ1AA7eC3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eC3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7eC3",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mico-2027-carrboro-z7r9jz1aa73ap",
+    "artist_slug": "mico",
+    "artist_name": "Mico",
+    "event_name": "Mico",
+    "city": "Carrboro",
+    "country": "United States Of America",
+    "venue": "Cat's Cradle",
+    "datetime_iso": "2027-02-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA73Ap",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA73Ap",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA73Ap",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA73Ap",
+        "discovery_event_id": "Z7r9jZ1AA73Ap",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA73Ap",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA73Ap",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkr__tfz",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "Hamilton",
+    "country": "Canada",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2026-12-06T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000655BD967F538",
+    "ticketmaster_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-06-2026/event/1000655BD967F538",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-06-2026/event/1000655BD967F538",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000655BD967F538",
+        "discovery_event_id": "1AvZZ_4GkR__Tfz",
+        "url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-06-2026/event/1000655BD967F538",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_4GkR__Tfz",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T15:00:00Z"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2026-new-york-k7vgf_p5e9_go",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "Power 105.1 Power Sessions",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Manhattan Center Hammerstein Ballroom",
+    "datetime_iso": "2026-12-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006562C25D9320",
+    "ticketmaster_url": "https://www.ticketmaster.com/power-1051-power-sessions-new-york-new-york-12-13-2026/event/00006562C25D9320",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/power-1051-power-sessions-new-york-new-york-12-13-2026/event/00006562C25D9320",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006562C25D9320",
+        "discovery_event_id": "k7vGF_p5e9_GO",
+        "url": "https://www.ticketmaster.com/power-1051-power-sessions-new-york-new-york-12-13-2026/event/00006562C25D9320",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_p5e9_GO",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T15:00:00Z"
+  },
+  {
+    "id": "tm-air-supply-2027-penticton-z7r9jz1aa7o-a",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply w/ Glass Tiger",
+    "city": "Penticton",
+    "country": "Canada",
+    "venue": "South Okanagan Events Centre",
+    "datetime_iso": "2027-02-20T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7o-a",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7o-a",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7o-a",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7o-a",
+        "discovery_event_id": "Z7r9jZ1AA7o-a",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7o-a",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7o-a",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-prince-george-z7r9jz1aaek-z",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply",
+    "city": "Prince George",
+    "country": "Canada",
+    "venue": "CN Centre",
+    "datetime_iso": "2027-02-22T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeK-Z",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeK-Z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeK-Z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeK-Z",
+        "discovery_event_id": "Z7r9jZ1AAeK-Z",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeK-Z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeK-Z",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

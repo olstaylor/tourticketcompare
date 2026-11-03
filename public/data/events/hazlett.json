@@ -1848,5 +1848,58 @@
     "organizer_names": [
       "Auditorium AS (Rockefeller / John Dee / Sentrum Scene)"
     ]
+  },
+  {
+    "id": "tm-hazlett-2027-salt-lake-city-z7r9jz1aa7ec3",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett w/ lighthearted",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Complex - UT",
+    "datetime_iso": "2027-05-22T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7eC3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eC3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eC3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7eC3",
+        "discovery_event_id": "Z7r9jZ1AA7eC3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7eC3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7eC3",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

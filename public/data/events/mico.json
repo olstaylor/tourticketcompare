@@ -2773,5 +2773,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315360",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315360/Mico-tickets-Wed-Mar-10-2027-Newport-Music-Hall"
+  },
+  {
+    "id": "tm-mico-2027-carrboro-z7r9jz1aa73ap",
+    "artist_slug": "mico",
+    "artist_name": "Mico",
+    "event_name": "Mico",
+    "city": "Carrboro",
+    "country": "United States Of America",
+    "venue": "Cat's Cradle",
+    "datetime_iso": "2027-02-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA73Ap",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA73Ap",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA73Ap",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA73Ap",
+        "discovery_event_id": "Z7r9jZ1AA73Ap",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA73Ap",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA73Ap",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

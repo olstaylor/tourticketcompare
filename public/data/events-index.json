@@ -61110,5 +61110,101 @@
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-tyla-2026-seattle-vvg1hz_4ubjbln",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "country": "United States Of America",
+    "city": "Seattle",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2026-11-18T04:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-pink-martini-2027-pittsburgh-z7r9jz1aavjpj",
+    "artist_slug": "pink-martini",
+    "artist_name": "Pink Martini",
+    "country": "United States Of America",
+    "city": "Pittsburgh",
+    "venue": "Carnegie Music Hall",
+    "datetime_iso": "2027-03-09T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-salt-lake-city-z7r9jz1aa7ec3",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "country": "United States Of America",
+    "city": "Salt Lake City",
+    "venue": "The Complex - UT",
+    "datetime_iso": "2027-05-22T01:30:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mico-2027-carrboro-z7r9jz1aa73ap",
+    "artist_slug": "mico",
+    "artist_name": "Mico",
+    "country": "United States Of America",
+    "city": "Carrboro",
+    "venue": "Cat's Cradle",
+    "datetime_iso": "2027-02-20T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkr__tfz",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "country": "Canada",
+    "city": "Hamilton",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2026-12-06T19:00:00Z",
+    "timezone": "America/Toronto",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2026-new-york-k7vgf_p5e9_go",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "country": "United States Of America",
+    "city": "New York",
+    "venue": "Manhattan Center Hammerstein Ballroom",
+    "datetime_iso": "2026-12-14T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-air-supply-2027-penticton-z7r9jz1aa7o-a",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "country": "Canada",
+    "city": "Penticton",
+    "venue": "South Okanagan Events Centre",
+    "datetime_iso": "2027-02-20T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-air-supply-2027-prince-george-z7r9jz1aaek-z",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "country": "Canada",
+    "city": "Prince George",
+    "venue": "CN Centre",
+    "datetime_iso": "2027-02-22T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

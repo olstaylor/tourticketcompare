@@ -243,7 +243,7 @@ const guideClusters = [
 
 const routeMeta = {
   "/": {
-    title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
+    title: "Compare Concert Ticket Prices | TourTicketCompare",
     description:
       "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total."
   },

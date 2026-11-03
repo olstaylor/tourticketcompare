@@ -293,11 +293,11 @@ export function artistPageTitle(artist, yearLabel, tourLabel = "", { priced = tr
 // after editing any copy below; `--check` runs in CI and fails a stale commit.
 export const TRUST_ROUTES = {
   "/": {
-    title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
+    title: "Compare Concert Ticket Prices | TourTicketCompare",
     description:
       "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.",
     indexable: true,
-    lastmod: "2026-11-02"
+    lastmod: "2026-11-03"
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices by Site | TourTicketCompare",

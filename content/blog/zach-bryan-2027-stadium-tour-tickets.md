@@ -64,3 +64,5 @@ A stadium listing has more ways to differ than an arena one. Three are worth che
 - **Delivery date.** Resale sellers often can't transfer stadium tickets until close to the show. The [delivery and transfer guide](/guides/ticket-delivery-and-transfer-timing) explains what a late delivery date means and when to worry.
 
 The [guide to reading a ticket listing](/guides/how-to-read-a-ticket-listing) goes through the rest. Whatever you buy, check the date and city on the order summary before paying. With two nights each at MetLife, BC Place and Commonwealth Stadium, the date is the field that separates one listing from another.
+
+Planning further ahead? Every tracked artist with 2027 dates is listed on the [2027 tours page](/tours/2027).

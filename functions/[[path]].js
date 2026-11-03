@@ -782,7 +782,7 @@ async function resolveRoute(pathname, env) {
       type: "tours-hub",
       path,
       indexable: hub.indexable,
-      title: `${TOURS_HUB_YEAR} Concert Tours: Artists and Dates | TourTicketCompare`,
+      title: `${TOURS_HUB_YEAR} World Tours and Concert Dates | TourTicketCompare`,
       description: `Every tracked artist with ${TOURS_HUB_YEAR} tour dates, with how many dates, cities and months each tour covers. Open an artist for every date and its checked ticket links.`,
       hub,
       breadcrumb: [{ name: `${TOURS_HUB_YEAR} tours`, path }]

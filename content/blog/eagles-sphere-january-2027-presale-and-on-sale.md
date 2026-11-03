@@ -5,7 +5,7 @@ description: Eagles added 8 and 9 January 2027 at Sphere. Presales open 28 and 2
 summary: Two more Eagles nights at Sphere in Las Vegas, Friday 8 and Saturday 9 January 2027, go on general sale on Friday 30 October at 10:00 Pacific time, after two days of presales. The other residency nights are already on sale, which shapes what you see on resale sites this week.
 date: 2026-10-23
 status: published
-updated: 2026-10-30
+updated: 2026-11-02
 tags:
   - tour-buying
 related_artists:
@@ -55,3 +55,5 @@ On a residency, the venue and the show name are the same on every listing. The d
 Before the general sale, the two new nights show their on-sale time on the Eagles page and no Ticketmaster button. That does not mean presales are closed: check the Ticketmaster event listing for the current window and eligibility. Resale sites sometimes list seats for a date before its public on-sale. A listing like that is a seller's promise to deliver seats they expect to get, which is worth knowing before paying for one. The [primary vs resale guide](/guides/primary-vs-resale-concert-tickets) explains the difference.
 
 After the general sale opens, the Eagles page adds the ticket sites with a checked link for each new night. Where a price appears next to a button, it is that site's listed price for that one night when it was last checked, with the time shown. It isn't the face value or the final total. Compare the seat, the fees and the delivery terms on the ticket site itself, and use the [on-sale checklist](/guides/how-to-prepare-for-a-ticket-onsale) if you plan to buy in the presale.
+
+Planning further ahead? Every tracked artist with 2027 dates is listed on the [2027 tours page](/tours/2027).

@@ -81,6 +81,14 @@ const build = (overrides = {}, input = { events, shows }) =>
   buildArtistCityFigures(input.shows, input.events, artists, { artistSlug: "artist-a", now: NOW_MS, priceGuideArtists: new Set(["artist-a"]), availableSites: LIVE, ...overrides });
 
 const figures = build();
+assert(figures.second && figures.second.site === "ticketnetwork" && figures.second.cities.length === 3, "the other site's three priced cities become an optional second table");
+assert(figures.second.cities.map((row) => row.price).join() === "20,20,20" && figures.second.cities.every((row) => row.country === figures.country && row.currency === figures.currency), "second table: same country and currency, its own prices");
+assert(build({ availableSites: new Set(["vivid-seats"]) }).second === null, "no second table when the other site's buttons are not rendering");
+const disjoint = fixture(names);
+disjoint.shows = disjoint.shows.map((show) => (names.slice(0, 3).includes(show.city) ? { ...show, prices: show.prices.filter((price) => price.provider !== "Vivid Seats").concat([lane("TicketNetwork", 20)]) } : show));
+assert(build({}, disjoint).second === null, "cities missing from the main table never count toward the second table");
+const secondPost = renderArtistCityPost(figures);
+assert(/## TicketNetwork, same cities \(not ranked\)/.test(secondPost) && !/cheaper|better value than|beats/i.test(secondPost.split("## TicketNetwork, same cities")[1].split("## How this")[0].replace(/not better value|says nothing about which is better value/g, "")), "second table is labelled, not ranked, no winner language");
 assert(figures.site === "vivid-seats" && figures.siteLabel === "Vivid Seats", "the site pricing the most cities is chosen; TicketNetwork's three are not shown");
 assert(figures.cities.length === 10 && figures.currency === "USD" && figures.country === "United States", "ten US cities in one currency");
 assert(figures.cities.map((row) => row.price).join() === "40,50,60,70,80,90,100,110,120,130", "each city's next date only, lowest first");
@@ -122,14 +130,15 @@ const big = fixture(wideNames.concat(["CityU", "CityV", "CityW", "CityX"]));
 const bigFigures = build({}, big);
 const bigPost = renderArtistCityPost(bigFigures);
 assert(bigFigures.cities.length === 24, "24 priced cities");
-assert((bigPost.match(/^\| \[/gm) || []).length === bigFigures.cities.length && !/cities in between/.test(bigPost), "every priced city is tabled, none hidden");
+const bigMain = bigPost.split("## TicketNetwork, same cities")[0];
+assert((bigMain.match(/^\| \[/gm) || []).length === bigFigures.cities.length && !/cities in between/.test(bigPost), "every priced city is tabled, none hidden");
 assert(bigPost.includes(`the lowest listed price for the next date in ${bigFigures.cities.length} cities`) && bigPost.includes(`${bigFigures.cities.length} cities had a recent listed price`), "headline, summary and intro use the table's row count");
 
 // Post.
 const post = renderArtistCityPost(figures);
 assert(/^status: draft$/m.test(post), "a new post is a draft");
 assert(/^date: 2026-10-16$/m.test(post) && !/^updated:/m.test(post), "a new post carries today's date");
-assert((post.match(/^\| \[/gm) || []).length === 10, "every city is tabled");
+assert((post.match(/^\| \[/gm) || []).length === 13, "ten cities plus the second site's three are tabled");
 assert(post.includes("16 October, 10:00 UTC") && post.includes("Vivid Seats"), "each figure carries its site and capture time");
 assert(post.includes(PRICE_DISCLOSURE), "the shared price disclosure is printed");
 assert(post.includes("(/artists/artist-a/ticket-prices)") && post.includes("/artists/artist-a/tickets/austin-united-states"), "the post links the price guide and the city pages");

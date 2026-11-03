@@ -351,7 +351,7 @@ workflow (dispatch only; opens a draft PR, never auto-merged).
 
 `npm run stories:build -- --story artist-cities --artist <slug>` is the first
 research type of the Data & Insights engine. It takes one artist's tour and
-sets its cities side by side on one site, from the same gated figures as
+sets its cities side by side on one site (plus an optional labelled second table for one other site, in date order and unranked, when it prices 3+ of the same cities), from the same gated figures as
 city-prices (`gatherPriceLanes` and `chooseTourMarket` in
 `scripts/lib/data-stories.mjs`), and writes these under a stable slug,
 `/blog/<artist>-tour-ticket-prices-by-city`:

@@ -2,9 +2,9 @@
 title: "Greta Van Fleet tour tickets: listed prices city by city"
 seo_title: "Greta Van Fleet ticket prices by city"
 description: "Greta Van Fleet tour: the next date in 34 cities, $53 in Grand Rapids at the low end, $111 in Uncasville at the high end."
-summary: "Vivid Seats' lowest listed price for the next Greta Van Fleet date in each of 34 cities, each figure with the time it was captured. Snapshots 2 November 2026."
+summary: "Vivid Seats' lowest listed price for the next Greta Van Fleet date in each of 34 cities, each figure with the time it was captured. Snapshots 3 November 2026."
 date: 2026-10-26
-updated: 2026-11-02
+updated: 2026-11-03
 status: published
 tags:
   - tour-data
@@ -20,46 +20,86 @@ Greta Van Fleet's Into The Beginning Tour has 52 dates that TourTicketCompare tr
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Grand Rapids](/artists/greta-van-fleet/tickets/grand-rapids-united-states) | 31 July 2027 | Acrisure Amphitheater | $53 | Vivid Seats | 2 November, 18:52 UTC |
-| [Noblesville](/artists/greta-van-fleet/tickets/noblesville-united-states) | 17 July 2027 | Ruoff Music Center | $56 | Vivid Seats | 2 November, 18:52 UTC |
-| [Atlanta](/artists/greta-van-fleet/tickets/atlanta-united-states) | 9 February 2027 | State Farm Arena | $59 | Vivid Seats | 2 November, 18:52 UTC |
-| [Brooklyn](/artists/greta-van-fleet/tickets/brooklyn-united-states) | 8 March 2027 | Barclays Center | $59 | Vivid Seats | 2 November, 18:52 UTC |
-| [Louisville](/artists/greta-van-fleet/tickets/louisville-united-states) | 19 February 2027 | KFC Yum! Center | $61 | Vivid Seats | 2 November, 18:52 UTC |
-| [Pittsburgh](/artists/greta-van-fleet/tickets/pittsburgh-united-states) | 20 February 2027 | PPG Paints Arena | $61 | Vivid Seats | 2 November, 18:52 UTC |
-| [Albany](/artists/greta-van-fleet/tickets/albany-united-states) | 6 March 2027 | MVP Arena | $62 | Vivid Seats | 2 November, 18:52 UTC |
-| [Columbia](/artists/greta-van-fleet/tickets/columbia-united-states) | 21 July 2027 | Merriweather Post Pavilion | $62 | Vivid Seats | 2 November, 18:52 UTC |
-| [Phoenix](/artists/greta-van-fleet/tickets/phoenix-united-states) | 20 March 2027 | Mortgage Matchup Center | $62 | Vivid Seats | 2 November, 18:52 UTC |
-| [Columbus](/artists/greta-van-fleet/tickets/columbus-united-states) | 16 July 2027 | Nationwide Arena | $63 | Vivid Seats | 2 November, 18:52 UTC |
-| [Detroit](/artists/greta-van-fleet/tickets/detroit-united-states) | 2 March 2027 | Little Caesars Arena | $63 | Vivid Seats | 2 November, 18:52 UTC |
-| [Rosemont](/artists/greta-van-fleet/tickets/rosemont-united-states) | 12 February 2027 | Allstate Arena | $63 | Vivid Seats | 2 November, 18:52 UTC |
-| [Jacksonville](/artists/greta-van-fleet/tickets/jacksonville-united-states) | 6 February 2027 | VyStar Veterans Memorial Arena | $64 | Vivid Seats | 2 November, 18:52 UTC |
-| [Nashville](/artists/greta-van-fleet/tickets/nashville-united-states) | 10 February 2027 | Bridgestone Arena | $64 | Vivid Seats | 2 November, 18:52 UTC |
-| [Tulsa](/artists/greta-van-fleet/tickets/tulsa-united-states) | 16 March 2027 | BOK Center | $64 | Vivid Seats | 2 November, 18:52 UTC |
-| [Minneapolis](/artists/greta-van-fleet/tickets/minneapolis-united-states) | 15 February 2027 | Target Center | $65 | Vivid Seats | 2 November, 18:52 UTC |
-| [Portland](/artists/greta-van-fleet/tickets/portland-united-states) | 25 March 2027 | Moda Center | $65 | Vivid Seats | 2 November, 18:52 UTC |
-| [Philadelphia](/artists/greta-van-fleet/tickets/philadelphia-united-states) | 10 March 2027 | Xfinity Mobile Arena | $67 | Vivid Seats | 2 November, 18:52 UTC |
-| [Seattle](/artists/greta-van-fleet/tickets/seattle-united-states) | 24 March 2027 | Climate Pledge Arena | $67 | Vivid Seats | 2 November, 18:52 UTC |
-| [Kansas City](/artists/greta-van-fleet/tickets/kansas-city-united-states) | 13 July 2027 | T-Mobile Center | $68 | Vivid Seats | 2 November, 18:52 UTC |
-| [Gilford](/artists/greta-van-fleet/tickets/gilford-united-states) | 26 July 2027 | BankNH Pavilion | $69 | Vivid Seats | 2 November, 18:52 UTC |
-| [Knoxville](/artists/greta-van-fleet/tickets/knoxville-united-states) | 13 March 2027 | Food City Center | $69 | Vivid Seats | 2 November, 18:52 UTC |
-| [Raleigh](/artists/greta-van-fleet/tickets/raleigh-united-states) | 20 July 2027 | Lenovo Center | $69 | Vivid Seats | 2 November, 18:52 UTC |
-| [Anaheim](/artists/greta-van-fleet/tickets/anaheim-united-states) | 19 March 2027 | Honda Center | $70 | Vivid Seats | 2 November, 18:52 UTC |
-| [Charlotte](/artists/greta-van-fleet/tickets/charlotte-united-states) | 12 March 2027 | Spectrum Center | $71 | Vivid Seats | 2 November, 18:52 UTC |
-| [Omaha](/artists/greta-van-fleet/tickets/omaha-united-states) | 13 February 2027 | CHI Health Center Omaha | $74 | Vivid Seats | 2 November, 18:52 UTC |
-| [Tampa](/artists/greta-van-fleet/tickets/tampa-united-states) | 5 February 2027 | Benchmark International Arena | $74 | Vivid Seats | 2 November, 18:52 UTC |
-| [Boise](/artists/greta-van-fleet/tickets/boise-united-states) | 27 March 2027 | ExtraMile Arena | $80 | Vivid Seats | 2 November, 18:52 UTC |
-| [Boston](/artists/greta-van-fleet/tickets/boston-united-states) | 5 March 2027 | TD Garden | $80 | Vivid Seats | 2 November, 18:52 UTC |
-| [Denver](/artists/greta-van-fleet/tickets/denver-united-states) | 30 March 2027 | Ball Arena | $82 | Vivid Seats | 2 November, 18:52 UTC |
-| [Hershey](/artists/greta-van-fleet/tickets/hershey-united-states) | 23 July 2027 | GIANT Center | $82 | Vivid Seats | 2 November, 18:52 UTC |
-| [Savannah](/artists/greta-van-fleet/tickets/savannah-united-states) | 3 February 2027 | Enmarket Arena | $89 | Vivid Seats | 2 November, 18:52 UTC |
-| [Reno](/artists/greta-van-fleet/tickets/reno-united-states) | 22 March 2027 | Reno Events Center | $104 | Vivid Seats | 2 November, 18:52 UTC |
-| [Uncasville](/artists/greta-van-fleet/tickets/uncasville-united-states) | 24 July 2027 | Mohegan Sun Arena | $111 | Vivid Seats | 2 November, 18:52 UTC |
+| [Grand Rapids](/artists/greta-van-fleet/tickets/grand-rapids-united-states) | 31 July 2027 | Acrisure Amphitheater | $53 | Vivid Seats | 3 November, 18:06 UTC |
+| [Noblesville](/artists/greta-van-fleet/tickets/noblesville-united-states) | 17 July 2027 | Ruoff Music Center | $56 | Vivid Seats | 3 November, 18:06 UTC |
+| [Brooklyn](/artists/greta-van-fleet/tickets/brooklyn-united-states) | 8 March 2027 | Barclays Center | $59 | Vivid Seats | 3 November, 18:06 UTC |
+| [Louisville](/artists/greta-van-fleet/tickets/louisville-united-states) | 19 February 2027 | KFC Yum! Center | $61 | Vivid Seats | 3 November, 18:06 UTC |
+| [Pittsburgh](/artists/greta-van-fleet/tickets/pittsburgh-united-states) | 20 February 2027 | PPG Paints Arena | $61 | Vivid Seats | 3 November, 18:06 UTC |
+| [Albany](/artists/greta-van-fleet/tickets/albany-united-states) | 6 March 2027 | MVP Arena | $62 | Vivid Seats | 3 November, 18:06 UTC |
+| [Columbia](/artists/greta-van-fleet/tickets/columbia-united-states) | 21 July 2027 | Merriweather Post Pavilion | $62 | Vivid Seats | 3 November, 18:06 UTC |
+| [Phoenix](/artists/greta-van-fleet/tickets/phoenix-united-states) | 20 March 2027 | Mortgage Matchup Center | $62 | Vivid Seats | 3 November, 18:06 UTC |
+| [Columbus](/artists/greta-van-fleet/tickets/columbus-united-states) | 16 July 2027 | Nationwide Arena | $63 | Vivid Seats | 3 November, 18:06 UTC |
+| [Detroit](/artists/greta-van-fleet/tickets/detroit-united-states) | 2 March 2027 | Little Caesars Arena | $63 | Vivid Seats | 3 November, 18:06 UTC |
+| [Philadelphia](/artists/greta-van-fleet/tickets/philadelphia-united-states) | 10 March 2027 | Xfinity Mobile Arena | $63 | Vivid Seats | 3 November, 18:06 UTC |
+| [Rosemont](/artists/greta-van-fleet/tickets/rosemont-united-states) | 12 February 2027 | Allstate Arena | $63 | Vivid Seats | 3 November, 18:06 UTC |
+| [Jacksonville](/artists/greta-van-fleet/tickets/jacksonville-united-states) | 6 February 2027 | VyStar Veterans Memorial Arena | $64 | Vivid Seats | 3 November, 18:06 UTC |
+| [Nashville](/artists/greta-van-fleet/tickets/nashville-united-states) | 10 February 2027 | Bridgestone Arena | $64 | Vivid Seats | 3 November, 18:06 UTC |
+| [Tulsa](/artists/greta-van-fleet/tickets/tulsa-united-states) | 16 March 2027 | BOK Center | $64 | Vivid Seats | 3 November, 18:06 UTC |
+| [Minneapolis](/artists/greta-van-fleet/tickets/minneapolis-united-states) | 15 February 2027 | Target Center | $65 | Vivid Seats | 3 November, 18:06 UTC |
+| [Portland](/artists/greta-van-fleet/tickets/portland-united-states) | 25 March 2027 | Moda Center | $65 | Vivid Seats | 3 November, 18:06 UTC |
+| [Seattle](/artists/greta-van-fleet/tickets/seattle-united-states) | 24 March 2027 | Climate Pledge Arena | $67 | Vivid Seats | 3 November, 18:06 UTC |
+| [Kansas City](/artists/greta-van-fleet/tickets/kansas-city-united-states) | 13 July 2027 | T-Mobile Center | $68 | Vivid Seats | 3 November, 18:06 UTC |
+| [Gilford](/artists/greta-van-fleet/tickets/gilford-united-states) | 26 July 2027 | BankNH Pavilion | $69 | Vivid Seats | 3 November, 18:06 UTC |
+| [Knoxville](/artists/greta-van-fleet/tickets/knoxville-united-states) | 13 March 2027 | Food City Center | $69 | Vivid Seats | 3 November, 18:06 UTC |
+| [Raleigh](/artists/greta-van-fleet/tickets/raleigh-united-states) | 20 July 2027 | Lenovo Center | $69 | Vivid Seats | 3 November, 18:06 UTC |
+| [Anaheim](/artists/greta-van-fleet/tickets/anaheim-united-states) | 19 March 2027 | Honda Center | $71 | Vivid Seats | 3 November, 18:06 UTC |
+| [Atlanta](/artists/greta-van-fleet/tickets/atlanta-united-states) | 9 February 2027 | State Farm Arena | $71 | Vivid Seats | 3 November, 18:06 UTC |
+| [Charlotte](/artists/greta-van-fleet/tickets/charlotte-united-states) | 12 March 2027 | Spectrum Center | $71 | Vivid Seats | 3 November, 18:06 UTC |
+| [Omaha](/artists/greta-van-fleet/tickets/omaha-united-states) | 13 February 2027 | CHI Health Center Omaha | $74 | Vivid Seats | 3 November, 18:06 UTC |
+| [Tampa](/artists/greta-van-fleet/tickets/tampa-united-states) | 5 February 2027 | Benchmark International Arena | $74 | Vivid Seats | 3 November, 18:06 UTC |
+| [Boise](/artists/greta-van-fleet/tickets/boise-united-states) | 27 March 2027 | ExtraMile Arena | $80 | Vivid Seats | 3 November, 18:06 UTC |
+| [Boston](/artists/greta-van-fleet/tickets/boston-united-states) | 5 March 2027 | TD Garden | $80 | Vivid Seats | 3 November, 18:06 UTC |
+| [Denver](/artists/greta-van-fleet/tickets/denver-united-states) | 30 March 2027 | Ball Arena | $82 | Vivid Seats | 3 November, 18:06 UTC |
+| [Hershey](/artists/greta-van-fleet/tickets/hershey-united-states) | 23 July 2027 | GIANT Center | $82 | Vivid Seats | 3 November, 18:06 UTC |
+| [Savannah](/artists/greta-van-fleet/tickets/savannah-united-states) | 3 February 2027 | Enmarket Arena | $89 | Vivid Seats | 3 November, 18:06 UTC |
+| [Reno](/artists/greta-van-fleet/tickets/reno-united-states) | 22 March 2027 | Reno Events Center | $104 | Vivid Seats | 3 November, 18:06 UTC |
+| [Uncasville](/artists/greta-van-fleet/tickets/uncasville-united-states) | 24 July 2027 | Mohegan Sun Arena | $111 | Vivid Seats | 3 November, 18:06 UTC |
 
 Each figure is the lowest listed price on Vivid Seats for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
+## TicketNetwork, same cities (not ranked)
+
+TicketNetwork also had a recent listed price for the next date in 33 of these cities. They are set out below by date, not ranked, and are not netted against the table above: the two sites list different tickets, so a gap between them says nothing about which is better value.
+
+| City | Next date | Venue | Lowest listed | Site | Captured |
+|---|---|---|---|---|---|
+| [Savannah](/artists/greta-van-fleet/tickets/savannah-united-states) | 3 February 2027 | Enmarket Arena | $95.45 | TicketNetwork | 3 November, 06:54 UTC |
+| [Tampa](/artists/greta-van-fleet/tickets/tampa-united-states) | 5 February 2027 | Benchmark International Arena | $94.30 | TicketNetwork | 3 November, 06:54 UTC |
+| [Jacksonville](/artists/greta-van-fleet/tickets/jacksonville-united-states) | 6 February 2027 | VyStar Veterans Memorial Arena | $78.20 | TicketNetwork | 3 November, 06:54 UTC |
+| [Atlanta](/artists/greta-van-fleet/tickets/atlanta-united-states) | 9 February 2027 | State Farm Arena | $92 | TicketNetwork | 3 November, 06:54 UTC |
+| [Nashville](/artists/greta-van-fleet/tickets/nashville-united-states) | 10 February 2027 | Bridgestone Arena | $83.95 | TicketNetwork | 3 November, 06:54 UTC |
+| [Rosemont](/artists/greta-van-fleet/tickets/rosemont-united-states) | 12 February 2027 | Allstate Arena | $78.20 | TicketNetwork | 3 November, 06:54 UTC |
+| [Omaha](/artists/greta-van-fleet/tickets/omaha-united-states) | 13 February 2027 | CHI Health Center Omaha | $94.30 | TicketNetwork | 3 November, 06:54 UTC |
+| [Minneapolis](/artists/greta-van-fleet/tickets/minneapolis-united-states) | 15 February 2027 | Target Center | $86.25 | TicketNetwork | 3 November, 06:54 UTC |
+| [Louisville](/artists/greta-van-fleet/tickets/louisville-united-states) | 19 February 2027 | KFC Yum! Center | $78.20 | TicketNetwork | 3 November, 06:54 UTC |
+| [Pittsburgh](/artists/greta-van-fleet/tickets/pittsburgh-united-states) | 20 February 2027 | PPG Paints Arena | $73.60 | TicketNetwork | 3 November, 06:54 UTC |
+| [Detroit](/artists/greta-van-fleet/tickets/detroit-united-states) | 2 March 2027 | Little Caesars Arena | $80.50 | TicketNetwork | 3 November, 06:54 UTC |
+| [Boston](/artists/greta-van-fleet/tickets/boston-united-states) | 5 March 2027 | TD Garden | $106.95 | TicketNetwork | 3 November, 06:54 UTC |
+| [Albany](/artists/greta-van-fleet/tickets/albany-united-states) | 6 March 2027 | MVP Arena | $71.30 | TicketNetwork | 3 November, 06:54 UTC |
+| [Brooklyn](/artists/greta-van-fleet/tickets/brooklyn-united-states) | 8 March 2027 | Barclays Center | $78.20 | TicketNetwork | 3 November, 06:54 UTC |
+| [Philadelphia](/artists/greta-van-fleet/tickets/philadelphia-united-states) | 10 March 2027 | Xfinity Mobile Arena | $85.10 | TicketNetwork | 3 November, 06:54 UTC |
+| [Charlotte](/artists/greta-van-fleet/tickets/charlotte-united-states) | 12 March 2027 | Spectrum Center | $94.30 | TicketNetwork | 3 November, 06:54 UTC |
+| [Knoxville](/artists/greta-van-fleet/tickets/knoxville-united-states) | 13 March 2027 | Food City Center | $92 | TicketNetwork | 3 November, 06:54 UTC |
+| [Tulsa](/artists/greta-van-fleet/tickets/tulsa-united-states) | 16 March 2027 | BOK Center | $82.80 | TicketNetwork | 3 November, 06:54 UTC |
+| [Anaheim](/artists/greta-van-fleet/tickets/anaheim-united-states) | 19 March 2027 | Honda Center | $90.85 | TicketNetwork | 3 November, 06:54 UTC |
+| [Phoenix](/artists/greta-van-fleet/tickets/phoenix-united-states) | 20 March 2027 | Mortgage Matchup Center | $81.65 | TicketNetwork | 3 November, 06:54 UTC |
+| [Reno](/artists/greta-van-fleet/tickets/reno-united-states) | 22 March 2027 | Reno Events Center | $106.95 | TicketNetwork | 3 November, 06:54 UTC |
+| [Seattle](/artists/greta-van-fleet/tickets/seattle-united-states) | 24 March 2027 | Climate Pledge Arena | $87.40 | TicketNetwork | 3 November, 06:54 UTC |
+| [Portland](/artists/greta-van-fleet/tickets/portland-united-states) | 25 March 2027 | Moda Center | $74.75 | TicketNetwork | 3 November, 06:54 UTC |
+| [Boise](/artists/greta-van-fleet/tickets/boise-united-states) | 27 March 2027 | ExtraMile Arena | $93.15 | TicketNetwork | 3 November, 06:54 UTC |
+| [Denver](/artists/greta-van-fleet/tickets/denver-united-states) | 30 March 2027 | Ball Arena | $94.30 | TicketNetwork | 3 November, 06:54 UTC |
+| [Kansas City](/artists/greta-van-fleet/tickets/kansas-city-united-states) | 13 July 2027 | T-Mobile Center | $87.40 | TicketNetwork | 3 November, 06:54 UTC |
+| [Columbus](/artists/greta-van-fleet/tickets/columbus-united-states) | 16 July 2027 | Nationwide Arena | $72.45 | TicketNetwork | 3 November, 06:54 UTC |
+| [Noblesville](/artists/greta-van-fleet/tickets/noblesville-united-states) | 17 July 2027 | Ruoff Music Center | $66.70 | TicketNetwork | 3 November, 06:54 UTC |
+| [Raleigh](/artists/greta-van-fleet/tickets/raleigh-united-states) | 20 July 2027 | Lenovo Center | $94.30 | TicketNetwork | 3 November, 06:54 UTC |
+| [Columbia](/artists/greta-van-fleet/tickets/columbia-united-states) | 21 July 2027 | Merriweather Post Pavilion | $73.60 | TicketNetwork | 3 November, 06:54 UTC |
+| [Hershey](/artists/greta-van-fleet/tickets/hershey-united-states) | 23 July 2027 | GIANT Center | $96.60 | TicketNetwork | 3 November, 06:54 UTC |
+| [Uncasville](/artists/greta-van-fleet/tickets/uncasville-united-states) | 24 July 2027 | Mohegan Sun Arena | $115 | TicketNetwork | 3 November, 06:54 UTC |
+| [Grand Rapids](/artists/greta-van-fleet/tickets/grand-rapids-united-states) | 31 July 2027 | Acrisure Amphitheater | $60.95 | TicketNetwork | 3 November, 06:54 UTC |
+
 ## How this was worked out
 
-- **One site.** Every price is from Vivid Seats, the site with recent listed prices in the most cities for this tour. Sites are not compared with each other.
+- **Main table: one site.** Every price in the first table is from Vivid Seats, the site with recent listed prices in the most cities for this tour. The second table is TicketNetwork, labelled and in date order. Sites are shown side by side but not ranked.
 - **One country, one currency.** The tour also has dates in Canada (6), Germany (3), the United Kingdom (3), Belgium (1), Ireland (1), Italy (1), the Netherlands (1). They are left out, because comparing across countries would mix markets and currencies.
 - **Next date only.** A city's figure is its first upcoming date, not the lowest of all its dates.
 - **Recent prices only.** A price is used only if it was captured in the 72 hours before this page was updated. Captured times are in the table.

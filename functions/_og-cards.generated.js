@@ -639,7 +639,6 @@ export const OG_CARDS = {
   "/artists/stevie-wonder": {"url":"/og/artists-stevie-wonder.png","alt":"Tickets & tour dates: Stevie Wonder"},
   "/artists/stevie-wonder/ticket-prices": {"url":"/og/artists-stevie-wonder-ticket-prices.png","alt":"Ticket prices: Stevie Wonder"},
   "/artists/stevie-wonder/tickets/detroit-united-states": {"url":"/og/artists-stevie-wonder-tickets-detroit-united-states.png","alt":"Tickets: Stevie Wonder in Detroit"},
-  "/artists/stevie-wonder/tickets/london-united-kingdom": {"url":"/og/artists-stevie-wonder-tickets-london-united-kingdom.png","alt":"Tickets: Stevie Wonder in London"},
   "/artists/sting": {"url":"/og/artists-sting.png","alt":"Tickets & tour dates: Sting"},
   "/artists/sting/ticket-prices": {"url":"/og/artists-sting-ticket-prices.png","alt":"Ticket prices: Sting"},
   "/artists/sting/tickets/brooklyn-united-states": {"url":"/og/artists-sting-tickets-brooklyn-united-states.png","alt":"Tickets: Sting in Brooklyn"},

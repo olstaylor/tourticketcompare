@@ -1206,7 +1206,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-nashville-the-truth-11-30-2026--concerts-pop/production/7540349",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-nashville-tennessee-11-30-2026/event/1B006527BBA98ECF",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1262,11 +1262,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Verizon Shine Select Seats",
-        "start": "2026-09-16T15:00:00Z",
-        "end": "2026-11-03T04:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-09-16T15:00:00Z",

@@ -920,7 +920,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-columbia-colonial-life-arena-11-6-2026--concerts-rap-hip-hop/production/7185779",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-columbia-south-carolina-11-06-2026/event/2D0064D0DAD9D273",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -972,13 +972,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063456",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063456/Rod-Wave-tickets-Fri-Nov-6-2026-Colonial-Life-Arena",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-26T17:00:00Z",
-        "end": "2026-11-03T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

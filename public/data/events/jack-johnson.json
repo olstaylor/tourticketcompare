@@ -983,7 +983,7 @@
     "vividseats_url": "https://www.vividseats.com/jack-johnson-tickets-las-vegas-encore-theater-at-wynn-las-vegas-6-2-2027/production/7795175",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jack-johnson-las-vegas-nevada-06-02-2027/event/1700654FDBE484C9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1027,7 +1027,37 @@
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-06T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353404"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353404",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "presales": [
+      {
+        "name": "AEG Presale",
+        "start": "2026-11-05T18:00:00Z",
+        "end": "2026-11-06T06:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets",
+        "start": "2026-11-05T18:00:00Z",
+        "end": "2026-11-06T06:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-05T18:00:00Z",
+        "end": "2026-11-06T06:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-05T18:00:00Z",
+        "end": "2026-11-06T06:00:00Z"
+      },
+      {
+        "name": "Zero Bond Presale",
+        "start": "2026-11-05T18:00:00Z",
+        "end": "2026-11-06T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jack-johnson-2027-las-vegas-1avjz_fgkthbfkc",
@@ -1045,7 +1075,7 @@
     "vividseats_url": "https://www.vividseats.com/jack-johnson-tickets-las-vegas-encore-theater-at-wynn-las-vegas-6-3-2027/production/7795173",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jack-johnson-las-vegas-nevada-06-03-2027/event/1700654FDBE884CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1089,6 +1119,36 @@
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-06T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353405"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353405",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "presales": [
+      {
+        "name": "AEG Presale",
+        "start": "2026-11-05T18:00:00Z",
+        "end": "2026-11-06T06:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets",
+        "start": "2026-11-05T18:00:00Z",
+        "end": "2026-11-06T06:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-05T18:00:00Z",
+        "end": "2026-11-06T06:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-05T18:00:00Z",
+        "end": "2026-11-06T06:00:00Z"
+      },
+      {
+        "name": "Zero Bond Presale",
+        "start": "2026-11-05T18:00:00Z",
+        "end": "2026-11-06T06:00:00Z"
+      }
+    ]
   }
 ]

@@ -371,7 +371,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-kansas-city-t-mobile-center-11-9-2026--concerts-hard-rock/production/6278673",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-kansas-city-missouri-11-09-2026/event/06006366AC7BD15E",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -439,11 +439,6 @@
         "name": "Preferred Seating Offer",
         "start": "2025-11-11T16:00:00Z",
         "end": "2026-11-10T01:00:00Z"
-      },
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-11-14T16:00:00Z",
-        "end": "2026-11-03T04:00:00Z"
       }
     ]
   },

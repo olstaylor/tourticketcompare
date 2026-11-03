@@ -2995,7 +2995,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-cincinnati-the-farmer-music-center-6-24-2027--concerts-country-and-folk/production/7794897",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-cincinnati-ohio-06-24-2027/event/160065579ED978B7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3047,6 +3047,71 @@
     "status": "announced",
     "public_onsale_at": "2026-11-06T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353775",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353775/Riley-Green-tickets-Thu-Jun-24-2027-The-Farmer-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353775/Riley-Green-tickets-Thu-Jun-24-2027-The-Farmer-Music-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Global Poverty project",
+        "start": "2026-11-02T15:00:00Z",
+        "end": "2027-06-17T13:00:00Z"
+      },
+      {
+        "name": "Back 40 Duck Club VIP Packages Presale",
+        "start": "2026-11-03T15:00:00Z",
+        "end": "2026-11-04T03:00:00Z"
+      },
+      {
+        "name": "Back 40 Duck Club Presale",
+        "start": "2026-11-03T15:00:00Z",
+        "end": "2026-11-06T03:00:00Z"
+      },
+      {
+        "name": "Riley Green App Presale",
+        "start": "2026-11-04T15:00:00Z",
+        "end": "2026-11-06T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-04T15:00:00Z",
+        "end": "2026-11-06T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-04T17:00:00Z",
+        "end": "2026-11-06T03:00:00Z"
+      },
+      {
+        "name": "Hannah McFarland Presale",
+        "start": "2026-11-04T17:00:00Z",
+        "end": "2026-11-06T03:00:00Z"
+      },
+      {
+        "name": "Jake Worthington Presale",
+        "start": "2026-11-04T17:00:00Z",
+        "end": "2026-11-06T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-04T17:00:00Z",
+        "end": "2026-11-06T03:00:00Z"
+      },
+      {
+        "name": "Muscadine Bloodline Presale",
+        "start": "2026-11-04T17:00:00Z",
+        "end": "2026-11-06T03:00:00Z"
+      },
+      {
+        "name": "Venue and Radio Presale",
+        "start": "2026-11-05T15:00:00Z",
+        "end": "2026-11-06T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-06T15:00:00Z",
+        "end": "2027-06-20T16:00:00Z"
+      }
+    ]
   }
 ]

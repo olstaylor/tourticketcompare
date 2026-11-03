@@ -198,7 +198,7 @@
     "id": "tm-hazlett-2027-charlotte-g5evz_gmhpguu",
     "artist_slug": "hazlett",
     "artist_name": "Hazlett",
-    "event_name": "Hazlett",
+    "event_name": "Hazlett: The Comeback Tour",
     "city": "Charlotte",
     "country": "United States Of America",
     "venue": "Neighborhood Theatre Main Room",
@@ -210,7 +210,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-charlotte-north-carolina-04-19-2027/event/2D0064CB9B58CD8D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1073,7 +1073,7 @@
     "id": "tm-hazlett-2027-seattle-vvg1hz_gmgf1et",
     "artist_slug": "hazlett",
     "artist_name": "Hazlett",
-    "event_name": "Hazlett",
+    "event_name": "Hazlett with Musical Guest Hunter Metts",
     "city": "Seattle",
     "country": "United States Of America",
     "venue": "Neptune Theatre",
@@ -1085,7 +1085,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-seattle-washington-05-25-2027/event/0F0064CBB520A0BF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1360,7 +1360,7 @@
     "id": "tm-hazlett-2027-san-diego-rz7hnez1afufr7",
     "artist_slug": "hazlett",
     "artist_name": "Hazlett",
-    "event_name": "Hazlett - The Comeback Tour",
+    "event_name": "Hazlett - The Comeback Tour w/ Hunter Metts",
     "city": "San Diego",
     "country": "United States Of America",
     "venue": "Music Box",
@@ -1372,7 +1372,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/hazlett-the-comeback-music-box-tickets/14348784",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

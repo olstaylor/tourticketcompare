@@ -321,7 +321,7 @@
     "id": "tm-role-model-2027-manchester-g5vhz_u1kkyot",
     "artist_slug": "role-model",
     "artist_name": "Role Model",
-    "event_name": "ROLE MODEL",
+    "event_name": "Role Model Presents: Chuck On Tour",
     "city": "Manchester",
     "country": "Great Britain",
     "venue": "AO Arena",
@@ -333,7 +333,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381,7 +381,7 @@
         "end": "2026-11-06T08:00:00Z"
       },
       {
-        "name": "Priority from O2 Presale",
+        "name": "Priority from O2",
         "start": "2026-11-04T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       },

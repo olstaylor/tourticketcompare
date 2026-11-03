@@ -828,19 +828,19 @@
     "id": "tm-tyla-2026-seattle-vvg1hz_2qgz489",
     "artist_slug": "tyla",
     "artist_name": "Tyla",
-    "event_name": "TYLA - MOVED TO PARAMOUNT THEATER",
+    "event_name": "TYLA - MOVED TO PARAMOUNT THEATRE",
     "city": "Seattle",
     "country": "United States Of America",
-    "venue": "WAMU Theater",
-    "datetime_iso": "2026-11-18T04:00:00Z",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2026-12-18T04:00:00Z",
     "tour_name": "The A*POP World Tour",
     "ticketmaster_event_id": "0F0064F74C015417",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F0064F74C015417",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/tyla-tickets-seattle-wamu-theater---seattle-11-17-2026--concerts-pop/production/7347437",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F0064F74C015417",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -859,11 +859,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7347437,
-        "url": "https://www.vividseats.com/tyla-tickets-seattle-wamu-theater---seattle-11-17-2026--concerts-pop/production/7347437",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "stubhub": {
         "event_id": null,
@@ -880,26 +880,26 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8164824",
-        "url": "https://www.ticketliquidator.com/tickets/8164824/Tyla-tickets-Tue-Nov-17-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107462080",
-        "url": "https://www.stubhub.ie/tyla-seattle-tickets-11-17-2026/event/107462080",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_2qGZ489",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164824",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164824/Tyla-tickets-Tue-Nov-17-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-seattle-tickets-11-17-2026/event/107462080",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "presales": [
       {
         "name": "VIP Package Onsale",
@@ -909,7 +909,10 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-11-18T04:00:00Z",
+    "previous_start_timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-tyla-2026-denver-g5vzz_2qdtig-",

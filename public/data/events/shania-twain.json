@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-scarborough-16-06-2027/event/35006536D1E99CB6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -51,7 +51,33 @@
     "ticketmaster_discovery_event_id": "1AgZkfUGkdoB_wU",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2 Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-shania-twain-2027-glasgow-1adbz_fgkuptsoi",
@@ -69,7 +95,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/glasgow-summer-sessions-shania-twain-the-glasgow-17-06-2027/event/3600654DA5FF3468",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -105,7 +131,44 @@
     "ticketmaster_discovery_event_id": "1AdbZ_fGkUPTSoI",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "GIGS IN SCOTLAND",
+      "SUMMER SESSIONS"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T00:00:00Z"
+      },
+      {
+        "name": "Gigs in Scotland Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Summer Sessions Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-shania-twain-2027-cardiff-g5vhz_kljqj-d",
@@ -123,7 +186,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-cardiff-22-06-2027/event/1F006537E676687B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -159,7 +222,43 @@
     "ticketmaster_discovery_event_id": "G5vHZ_KLJqJ-D",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "DEPOT MARKETING LIMITED"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Cuffe and Taylor Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Depot Live Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-shania-twain-2027-exeter-g5vhz_kjtg0ag",
@@ -177,7 +276,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-exeter-24-06-2027/event/1F006539A9D64275",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -213,7 +312,10 @@
     "ticketmaster_discovery_event_id": "G5vHZ_KJtg0ag",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ]
   },
   {
     "id": "tm-shania-twain-2027-dublin-1abzk4pgkenqubp",
@@ -231,7 +333,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/shania-twain-the-places-ill-go-dublin-26-06-2027/event/18006556AA68D625",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -267,7 +369,27 @@
     "ticketmaster_discovery_event_id": "1AbZk4pGkenQubP",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Bank Of Ireland Mastercard Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "MCD Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-shania-twain-2027-belfast-1adoz_4gksdrodo",
@@ -285,7 +407,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/shania-twain-the-places-ill-go-belfast-27-06-2027/event/3800655C7BBD10E0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -321,7 +443,22 @@
     "ticketmaster_discovery_event_id": "1AdOZ_4GksDRodO",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "organizer_names": [
+      "BELSONIC LTD"
+    ],
+    "presales": [
+      {
+        "name": "Album Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Promoter Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-shania-twain-2027-woodstock-1amzk4agkdk2pnt",
@@ -339,7 +476,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-woodstock-29-06-2027/event/37006545C63E58FF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -375,6 +512,42 @@
     "ticketmaster_discovery_event_id": "1AMZk4AGkdk2PNT",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "organizer_names": [
+      "MARI",
+      "PWR EVENTS"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Blenheim Members Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2 Presale",
+        "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      }
+    ]
   }
 ]

@@ -2155,7 +2155,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-east-rutherford-metlife-stadium-6-18-2027--concerts-pop/production/7773195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-18-2027/event/0000655BA74A5861",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2231,7 +2231,15 @@
         "name": "Reserved by Spotify",
         "start": "2026-11-11T14:00:00Z",
         "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2027-06-05T02:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   },
   {
@@ -2366,7 +2374,7 @@
     "id": "tm-noah-kahan-2027-sevilla-z698xz2qz16v3duzrf",
     "artist_slug": "noah-kahan",
     "artist_name": "Noah Kahan",
-    "event_name": "Noah Kahan: Icónica Santalucia Sevilla Fest",
+    "event_name": "Noah Kahan: Icónica Occident Sevilla Fest",
     "city": "Sevilla",
     "country": "Spain",
     "venue": "Plaza de España",
@@ -2378,7 +2386,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/noah-kahan-iconica-santalucia-sevilla-fest-tickets/1483340788?language=en-us",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

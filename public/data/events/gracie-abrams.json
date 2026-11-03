@@ -4695,12 +4695,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8352467",
+        "url": "https://www.ticketliquidator.com/tickets/8352467/Gracie-Abrams-tickets-Sat-Feb-6-2027-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_4UO-E6z",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-06T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8352467"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8352467",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8352467/Gracie-Abrams-tickets-Sat-Feb-6-2027-Moody-Center-ATX"
   }
 ]

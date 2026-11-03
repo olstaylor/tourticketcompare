@@ -343,11 +343,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7999840",
-        "url": "https://www.ticketliquidator.com/tickets/7999840/The-Chicks-tickets-Sun-Nov-1-2026-Dolby-Theatre",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -361,7 +361,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-1-2026/event/107394183",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7999840/The-Chicks-tickets-Sun-Nov-1-2026-Dolby-Theatre",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

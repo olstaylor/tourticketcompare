@@ -4253,12 +4253,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303352",
+        "url": "https://www.ticketliquidator.com/tickets/8303352/Greta-Van-Fleet-tickets-Wed-Feb-17-2027-Resch-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe44U",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303352"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303352",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303352/Greta-Van-Fleet-tickets-Wed-Feb-17-2027-Resch-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-cleveland-z7r9jz1aae44m",
@@ -4314,12 +4322,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303356",
+        "url": "https://www.ticketliquidator.com/tickets/8303356/Greta-Van-Fleet-tickets-Wed-Mar-3-2027-Rocket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe44M",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303356"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303356",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303356/Greta-Van-Fleet-tickets-Wed-Mar-3-2027-Rocket-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-salt-lake-city-z7r9jz1aae44z",
@@ -4375,11 +4391,19 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303371",
+        "url": "https://www.ticketliquidator.com/tickets/8303371/Greta-Van-Fleet-tickets-Mon-Mar-29-2027-Delta-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe44z",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303371"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303371",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303371/Greta-Van-Fleet-tickets-Mon-Mar-29-2027-Delta-Center"
   }
 ]

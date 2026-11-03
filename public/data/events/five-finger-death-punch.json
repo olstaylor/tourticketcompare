@@ -1980,6 +1980,13 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8353347",
+        "url": "https://www.ticketliquidator.com/tickets/8353347/Five-Finger-Death-Punch-tickets-Tue-Jan-19-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvOZ_FGkBmO2ST",
@@ -1990,7 +1997,8 @@
       "MCD PRODUCTIONS",
       "AMPHITHEATRE IRELAND"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353347"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353347",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353347/Five-Finger-Death-Punch-tickets-Tue-Jan-19-2027-3Arena-Dublin"
   },
   {
     "id": "tm-five-finger-death-punch-2026-huntsville-z7r9jz1a7ooob",

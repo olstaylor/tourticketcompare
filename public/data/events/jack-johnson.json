@@ -772,6 +772,13 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8353391",
+        "url": "https://www.ticketliquidator.com/tickets/8353391/Jack-Johnson-tickets-Sun-Jun-27-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v8kG7FN",
@@ -781,7 +788,8 @@
     "organizer_names": [
       "Greenhouse Talent"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353391"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353391",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353391/Jack-Johnson-tickets-Sun-Jun-27-2027-Ziggo-Dome"
   },
   {
     "id": "tm-jack-johnson-2027-st-austell-g5vhz_4eimdn_",

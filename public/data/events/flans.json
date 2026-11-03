@@ -946,11 +946,19 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8289128",
+        "url": "https://www.ticketliquidator.com/tickets/8289128/Flans-tickets-Thu-Mar-11-2027-The-Theater-at-Virgin-Hotels-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeaov",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289128"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289128",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289128/Flans-tickets-Thu-Mar-11-2027-The-Theater-at-Virgin-Hotels-Las-Vegas"
   }
 ]

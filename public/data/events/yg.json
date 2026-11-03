@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8159330",
+        "url": "https://www.ticketliquidator.com/tickets/8159330/YG-tickets-Fri-Nov-6-2026-The-Republik-Honolulu",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ6-d",
     "timezone": "Pacific/Honolulu",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8159330"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8159330",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8159330/YG-tickets-Fri-Nov-6-2026-The-Republik-Honolulu"
   },
   {
     "id": "tm-yg-2026-honolulu-z7r9jz1aazajy",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8159331",
+        "url": "https://www.ticketliquidator.com/tickets/8159331/YG-tickets-Sat-Nov-7-2026-The-Republik-Honolulu",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZAjy",
     "timezone": "Pacific/Honolulu",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8159331"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8159331",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8159331/YG-tickets-Sat-Nov-7-2026-The-Republik-Honolulu"
   },
   {
     "id": "tm-yg-2026-oakland-g5vyz_u2lcdvy",
@@ -175,11 +191,19 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8075219",
+        "url": "https://www.ticketliquidator.com/tickets/8075219/YG-tickets-Sat-Dec-19-2026-Oakland-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_u2LCDvy",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8075219"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8075219",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8075219/YG-tickets-Sat-Dec-19-2026-Oakland-Arena"
   }
 ]

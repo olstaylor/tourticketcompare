@@ -587,7 +587,6 @@ export const OG_CARDS = {
   "/artists/sienna-spiro/tickets/los-angeles-united-states": {"url":"/og/artists-sienna-spiro-tickets-los-angeles-united-states.png","alt":"Tickets: Sienna Spiro in Los Angeles"},
   "/artists/sienna-spiro/tickets/manchester-united-kingdom": {"url":"/og/artists-sienna-spiro-tickets-manchester-united-kingdom.png","alt":"Tickets: Sienna Spiro in Manchester"},
   "/artists/sienna-spiro/tickets/new-york-united-states": {"url":"/og/artists-sienna-spiro-tickets-new-york-united-states.png","alt":"Tickets: Sienna Spiro in New York"},
-  "/artists/sienna-spiro/tickets/seattle-united-states": {"url":"/og/artists-sienna-spiro-tickets-seattle-united-states.png","alt":"Tickets: Sienna Spiro in Seattle"},
   "/artists/sienna-spiro/tickets/vancouver-canada": {"url":"/og/artists-sienna-spiro-tickets-vancouver-canada.png","alt":"Tickets: Sienna Spiro in Vancouver"},
   "/artists/simple-minds": {"url":"/og/artists-simple-minds.png","alt":"Tickets & tour dates: Simple Minds"},
   "/artists/simple-minds/ticket-prices": {"url":"/og/artists-simple-minds-ticket-prices.png","alt":"Ticket prices: Simple Minds"},

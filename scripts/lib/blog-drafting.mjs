@@ -155,7 +155,8 @@ export function selectTourGuides(source, artistSlugs, { now = Date.now(), prs = 
     const topic = `${slug}:${ANGLES.tour.slug}`;
     const artistDocs = source.documents.filter((d) => d.file.startsWith('content/blog/')
       && (d.relatedArtists.includes(slug) || d.file.includes(slug) || normalize(d.title).includes(normalize(artist.name))));
-    if (artistDocs.some((d) => ANGLES.tour.topicRule.test(`${d.title} ${d.file}`))) { reject('Artist already has a tour guide.'); continue; }
+    // A roundup post that merely lists many artists (e.g. the 2027 tours hub) is not this artist's tour guide.
+    if (artistDocs.some((d) => (d.relatedArtists.length <= 2 || d.file.includes(slug)) && ANGLES.tour.topicRule.test(`${d.title} ${d.file}`))) { reject('Artist already has a tour guide.'); continue; }
     if (markers.some((m) => m.topic === topic || (m.artist === slug && m.kind === 'tour'))) { reject('This tour guide already has an editorial PR.'); continue; }
     if (prs.some((p) => p.state === 'open' && !p.head?.ref?.startsWith(PREFIX) && (p.blogFiles || []).some((f) => f.includes(slug)))) { reject('An open PR already edits an article for this artist.'); continue; }
     const own = eligible.filter((e) => e.artist_slug === slug && e.at >= now + TOUR_RUNWAY_DAYS * DAY && eventLocalDateIso(e))

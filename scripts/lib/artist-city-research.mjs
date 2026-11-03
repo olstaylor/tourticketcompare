@@ -111,6 +111,7 @@ export function buildArtistCityFigures(pricedShows, events, artists, { artistSlu
   // same country and currency, same next dates. Listed by date, never ranked.
   const bySite = new Map();
   for (const city of marketCities) {
+    if (!pricedLabels.has(city.label)) continue; // only cities in the main table
     const next = city.shows.find((show) => show.publishable);
     if (!next) continue;
     for (const [site, snap] of lanes.get(next.id) || []) {

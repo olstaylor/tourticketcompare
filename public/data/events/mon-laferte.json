@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7827794",
+        "url": "https://www.ticketnetwork.com/en/p/7827794",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Sud",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827794"
   },
   {
     "id": "tm-mon-laferte-2026-san-jose-g5vyz_kmf8y1d",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7827830",
+        "url": "https://www.ticketnetwork.com/en/p/7827830",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_kGkSmomDW",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827830"
   },
   {
     "id": "tm-mon-laferte-2026-inglewood-vvg10z_gloruht",
@@ -258,11 +274,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8055342",
+        "url": "https://www.ticketnetwork.com/en/p/8055342",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GLORuHT",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8055342"
   },
   {
     "id": "tm-mon-laferte-2026-monterrey-17azv0g6cxrk0bt",

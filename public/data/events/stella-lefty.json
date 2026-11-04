@@ -177,18 +177,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7990417",
-        "url": "https://www.ticketnetwork.com/en/p/7990417",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Sod",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7990417/Stella-Lefty-tickets-Mon-Nov-2-2026-The-Fonda-Theatre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7990417"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-stella-lefty-2026-phoenix-z7r9jz1a70tgw",

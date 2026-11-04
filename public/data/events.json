@@ -53569,11 +53569,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7976488",
+        "url": "https://www.ticketnetwork.com/en/p/7976488",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -53593,7 +53593,7 @@
     "ticketmaster_discovery_event_id": "vvG10Z_1TPplaO",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976488",
     "ticketliquidator_url": "",
     "stubhub_international_url": "",
     "ticketmaster_status_code": "rescheduled",
@@ -63842,11 +63842,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8164824",
-        "url": "https://www.ticketnetwork.com/en/p/8164824",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -63866,7 +63866,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_2qGZ489",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164824",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "",
     "stubhub_international_url": "",
     "presales": [
@@ -75251,18 +75251,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7990417",
-        "url": "https://www.ticketnetwork.com/en/p/7990417",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Sod",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7990417/Stella-Lefty-tickets-Mon-Nov-2-2026-The-Fonda-Theatre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7990417"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-stella-lefty-2026-phoenix-z7r9jz1a70tgw",
@@ -78885,12 +78885,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7978102",
+        "url": "https://www.ticketnetwork.com/en/p/7978102",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_Pw",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978102"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-chicago-z7r9jz1aazbfj",
@@ -126705,11 +126713,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8038352",
-        "url": "https://www.ticketnetwork.com/en/p/8038352",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8038352",
@@ -126722,7 +126730,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxZS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038352",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038352/Sienna-Spiro-tickets-Mon-Nov-2-2026-The-Showbox"
   },
   {
@@ -230590,11 +230598,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8199803",
-        "url": "https://www.ticketnetwork.com/en/p/8199803",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8199803",
@@ -230607,7 +230615,7 @@
     "ticketmaster_discovery_event_id": "G5viZ_2XpZbXL",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199803",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199803/Steve-Lacy-tickets-Mon-Nov-2-2026-Nashville-Municipal-Auditorium",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -233466,11 +233474,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8194529",
-        "url": "https://www.ticketnetwork.com/en/p/8194529",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8194529",
@@ -233490,7 +233498,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZPuz",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194529",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194529/Fuerza-Regida-tickets-Mon-Nov-2-2026-Red-Rocks-Amphitheatre",
     "stubhub_international_url": "",
     "organizer_names": [
@@ -258464,11 +258472,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8214351",
-        "url": "https://www.ticketnetwork.com/en/p/8214351",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8214351",
@@ -258481,7 +258489,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZwba",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8214351",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214351/Jonas-Brothers-tickets-Mon-Nov-2-2026-Grand-Casino-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -266093,18 +266101,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8062599",
-        "url": "https://www.ticketnetwork.com/en/p/8062599",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PtJo",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062599/Brand-New-tickets-Mon-Nov-2-2026-The-Mission-Ballroom",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062599"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-brand-new-2026-las-vegas-z7r9jz1a7jdfs",
@@ -267531,18 +267539,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8002987",
-        "url": "https://www.ticketnetwork.com/en/p/8002987",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_53uNJyF",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002987/Knocked-Loose-tickets-Mon-Nov-2-2026-The-Union-Event-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002987",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -300765,11 +300773,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8258102",
-        "url": "https://www.ticketnetwork.com/en/p/8258102",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8258102",
@@ -300782,7 +300790,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_3N9Clqe",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258102",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258102/Victoria-Monet-tickets-Mon-Nov-2-2026-South-Side-Ballroom-at-Gilleys",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -362135,11 +362143,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8157044",
+        "url": "https://www.ticketnetwork.com/en/p/8157044",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZa0p",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8157044"
   },
   {
     "id": "tm-gary-allan-2026-dodge-city-vvg1bz_gx9hm-8",
@@ -362188,11 +362204,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8091895",
+        "url": "https://www.ticketnetwork.com/en/p/8091895",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_GX9hM-8",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8091895"
   },
   {
     "id": "tm-gary-allan-2026-lake-charles-z7r9jz1aazdcb",
@@ -362241,11 +362265,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8152457",
+        "url": "https://www.ticketnetwork.com/en/p/8152457",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdCb",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8152457"
   },
   {
     "id": "tm-gary-allan-2026-biloxi-g5viz_889usjk",
@@ -362294,11 +362326,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8194381",
+        "url": "https://www.ticketnetwork.com/en/p/8194381",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_889usJK",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194381"
   },
   {
     "id": "tm-gary-allan-2026-las-vegas-z7r9jz1aavf1f",
@@ -362347,11 +362387,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8246442",
+        "url": "https://www.ticketnetwork.com/en/p/8246442",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvf1F",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8246442"
   },
   {
     "id": "tm-gary-allan-2026-napa-g5vyz_3dfyx0l",
@@ -362400,11 +362448,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268101",
+        "url": "https://www.ticketnetwork.com/en/p/8268101",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_3DFyx0L",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268101"
   },
   {
     "id": "tm-gary-allan-2026-bakersfield-z7r9jz1aae3j4",
@@ -362453,12 +362509,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8298182",
+        "url": "https://www.ticketnetwork.com/en/p/8298182",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe3j4",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "9999-12-31T06:00:00Z"
+    "public_onsale_at": "9999-12-31T06:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8298182"
   },
   {
     "id": "tm-gary-allan-2027-tysons-17a8v0g65hn_upy",
@@ -362507,11 +362571,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8181666",
+        "url": "https://www.ticketnetwork.com/en/p/8181666",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G65hn_upY",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8181666"
   },
   {
     "id": "tm-gary-allan-2027-greensboro-g5evz_89x5mox",
@@ -362560,11 +362632,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8187734",
+        "url": "https://www.ticketnetwork.com/en/p/8187734",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_89x5Mox",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8187734"
   },
   {
     "id": "tm-gary-allan-2027-spartanburg-g5evz_8fssjkd",
@@ -362613,11 +362693,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8187724",
+        "url": "https://www.ticketnetwork.com/en/p/8187724",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_8fssJKd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8187724"
   },
   {
     "id": "tm-gary-allan-2027-peoria-vvg1jz_ub8qzyr",
@@ -362666,11 +362754,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8135902",
+        "url": "https://www.ticketnetwork.com/en/p/8135902",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_ub8qzYr",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135902"
   },
   {
     "id": "tm-mon-laferte-2026-salt-lake-city-z7r9jz1a70v_v",
@@ -362772,11 +362868,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7827794",
+        "url": "https://www.ticketnetwork.com/en/p/7827794",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Sud",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827794"
   },
   {
     "id": "tm-mon-laferte-2026-san-jose-g5vyz_kmf8y1d",
@@ -362878,11 +362982,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7827830",
+        "url": "https://www.ticketnetwork.com/en/p/7827830",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_kGkSmomDW",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827830"
   },
   {
     "id": "tm-mon-laferte-2026-inglewood-vvg10z_gloruht",
@@ -362931,11 +363043,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8055342",
+        "url": "https://www.ticketnetwork.com/en/p/8055342",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GLORuHT",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8055342"
   },
   {
     "id": "tm-mon-laferte-2026-monterrey-17azv0g6cxrk0bt",
@@ -363250,11 +363370,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343260",
+        "url": "https://www.ticketnetwork.com/en/p/8343260",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4fGkdTnr8-",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343260"
   },
   {
     "id": "tm-meshuggah-2027-detroit-z7r9jz1aa7t8-",
@@ -363409,11 +363537,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343230",
+        "url": "https://www.ticketnetwork.com/en/p/8343230",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk44GkdFvHXa",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343230"
   },
   {
     "id": "tm-meshuggah-2027-kansas-city-z7r9jz1aa7t8x",
@@ -363462,11 +363598,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343268",
+        "url": "https://www.ticketnetwork.com/en/p/8343268",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t8x",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343268"
   },
   {
     "id": "tm-meshuggah-2027-omaha-1aozk4fgkd-wmvg",
@@ -363515,11 +363659,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343233",
+        "url": "https://www.ticketnetwork.com/en/p/8343233",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4fGkd-wMVG",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343233"
   },
   {
     "id": "tm-meshuggah-2027-saint-louis-1a-zk44gkdts0ox",
@@ -363621,11 +363773,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343237",
+        "url": "https://www.ticketnetwork.com/en/p/8343237",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_4L7rl-D",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343237"
   },
   {
     "id": "tm-meshuggah-2027-virginia-beach-vv1a8vp4dga5tbtb",
@@ -363674,11 +363834,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343238",
+        "url": "https://www.ticketnetwork.com/en/p/8343238",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vP4dGA5tBTB",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343238"
   },
   {
     "id": "tm-meshuggah-2027-baltimore-1a4zk4fgkdwfxtt",
@@ -363727,11 +363895,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343239",
+        "url": "https://www.ticketnetwork.com/en/p/8343239",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk4fGkdWfxtt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343239"
   },
   {
     "id": "tm-meshuggah-2027-pittsburgh-1kaovp4oga2k8sn",
@@ -363780,11 +363956,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343241",
+        "url": "https://www.ticketnetwork.com/en/p/8343241",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAOvP4oGA2K8Sn",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343241"
   },
   {
     "id": "tm-meshuggah-2027-philadelphia-vv1aezk44gkd2msbd",
@@ -363833,11 +364017,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343242",
+        "url": "https://www.ticketnetwork.com/en/p/8343242",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk44Gkd2mSbd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343242"
   },
   {
     "id": "tm-meshuggah-2027-brooklyn-k7vgf_4lfqrel",
@@ -363886,11 +364078,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343243",
+        "url": "https://www.ticketnetwork.com/en/p/8343243",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_4LfqReL",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343243"
   },
   {
     "id": "tm-meshuggah-2027-boston-vv1a8vp4aga5ukxb",
@@ -363939,11 +364139,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343244",
+        "url": "https://www.ticketnetwork.com/en/p/8343244",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vP4aGA5Ukxb",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343244"
   },
   {
     "id": "tm-meshuggah-2027-vancouver-z7r9jz1aa7tay",
@@ -363992,11 +364200,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343261",
+        "url": "https://www.ticketnetwork.com/en/p/8343261",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7tAy",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343261"
   },
   {
     "id": "tm-meshuggah-2027-portland-vvg1hz_4pdt01r",
@@ -364045,11 +364261,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343245",
+        "url": "https://www.ticketnetwork.com/en/p/8343245",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4pdt01r",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343245"
   },
   {
     "id": "tm-meshuggah-2027-seattle-vvg1hz_4kkbgac",
@@ -364098,11 +364322,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343246",
+        "url": "https://www.ticketnetwork.com/en/p/8343246",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4KKbGAc",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343246"
   },
   {
     "id": "tm-meshuggah-2027-salt-lake-city-g5vzz_4r3jsmh",
@@ -364151,11 +364383,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343247",
+        "url": "https://www.ticketnetwork.com/en/p/8343247",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_4r3JSmh",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343247"
   },
   {
     "id": "tm-meshuggah-2027-morrison-z7r9jz1aa7e-0",
@@ -364204,11 +364444,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343226",
+        "url": "https://www.ticketnetwork.com/en/p/8343226",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7E-0",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343226"
   },
   {
     "id": "tm-meshuggah-2027-oakland-g5vyz_4hq7g_c",
@@ -364257,11 +364505,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343248",
+        "url": "https://www.ticketnetwork.com/en/p/8343248",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4hQ7G_c",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343248"
   },
   {
     "id": "tm-meshuggah-2027-inglewood-vvg1iz_4feeal9",
@@ -364310,11 +364566,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343249",
+        "url": "https://www.ticketnetwork.com/en/p/8343249",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4feeaL9",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343249"
   },
   {
     "id": "tm-meshuggah-2027-phoenix-16_zk4bafza5uakd",
@@ -364363,11 +364627,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343250",
+        "url": "https://www.ticketnetwork.com/en/p/8343250",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16_Zk4bAFZA5uAkd",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343250"
   },
   {
     "id": "tm-meshuggah-2027-houston-g5diz_48jqg5z",
@@ -364416,11 +364688,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343251",
+        "url": "https://www.ticketnetwork.com/en/p/8343251",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_48JQg5Z",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343251"
   },
   {
     "id": "tm-meshuggah-2027-san-antonio-z7r9jz1aa7e0a",
@@ -364469,11 +364749,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343252",
+        "url": "https://www.ticketnetwork.com/en/p/8343252",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7E0a",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343252"
   },
   {
     "id": "tm-meshuggah-2027-oklahoma-city-z7r9jz1aa7izs",
@@ -364575,11 +364863,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343254",
+        "url": "https://www.ticketnetwork.com/en/p/8343254",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4fAiuKS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343254"
   },
   {
     "id": "tm-meshuggah-2027-new-orleans-g5viz_49c3t4b",
@@ -364628,11 +364924,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343255",
+        "url": "https://www.ticketnetwork.com/en/p/8343255",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_49C3t4b",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343255"
   },
   {
     "id": "tm-meshuggah-2027-atlanta-vvg1zz_4ptwc--",
@@ -364681,11 +364985,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343256",
+        "url": "https://www.ticketnetwork.com/en/p/8343256",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_4pTWC--",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343256"
   },
   {
     "id": "tm-meshuggah-2027-fort-lauderdale-z7r9jz1aa7iax",
@@ -364787,11 +365099,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343258",
+        "url": "https://www.ticketnetwork.com/en/p/8343258",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_4Knt1ei",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343258"
   },
   {
     "id": "tm-meshuggah-2027-warsaw-z698xzqpz1kgpab4t",
@@ -365215,11 +365535,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315394",
+        "url": "https://www.ticketnetwork.com/en/p/8315394",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA73Ap",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315394"
   },
   {
     "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkr__tfz",
@@ -365376,11 +365704,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8269067",
+        "url": "https://www.ticketnetwork.com/en/p/8269067",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7o-a",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8269067"
   },
   {
     "id": "tm-air-supply-2027-prince-george-z7r9jz1aaek-z",

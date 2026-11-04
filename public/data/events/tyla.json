@@ -873,11 +873,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8164824",
-        "url": "https://www.ticketnetwork.com/en/p/8164824",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -897,7 +897,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_2qGZ489",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164824",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "",
     "stubhub_international_url": "",
     "presales": [

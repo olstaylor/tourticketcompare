@@ -2821,10 +2821,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315394",
+        "url": "https://www.ticketnetwork.com/en/p/8315394",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA73Ap",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315394"
   }
 ]

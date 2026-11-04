@@ -7728,6 +7728,110 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "chris-stassy",
+      "name": "Chris Stassy",
+      "short_description": "Dance/Electronic act listed on Ticketmaster.",
+      "image_alt": "Chris Stassy artist ticket information",
+      "factual_summary": "Chris Stassy is listed by Ticketmaster under Dance/Electronic. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Chris Stassy page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Chris Stassy Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Chris Stassy tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Chris Stassy tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "gary-allan",
+      "name": "Gary Allan",
+      "short_description": "Country act listed on Ticketmaster.",
+      "image_alt": "Gary Allan artist ticket information",
+      "factual_summary": "Gary Allan is listed by Ticketmaster under Country. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Gary Allan page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Gary Allan Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Gary Allan tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Gary Allan tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "mon-laferte",
+      "name": "Mon Laferte",
+      "short_description": "Pop act listed on Ticketmaster.",
+      "image_alt": "Mon Laferte artist ticket information",
+      "factual_summary": "Mon Laferte is listed by Ticketmaster under Pop. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Mon Laferte page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Mon Laferte Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Mon Laferte tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Mon Laferte tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "meshuggah",
+      "name": "Meshuggah",
+      "short_description": "Metal act listed on Ticketmaster.",
+      "image_alt": "Meshuggah artist ticket information",
+      "factual_summary": "Meshuggah is listed by Ticketmaster under Metal. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Meshuggah page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Meshuggah Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Meshuggah tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Meshuggah tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -15251,6 +15355,118 @@
       "last_checked_at": "2026-11-02",
       "disclosure_required": true,
       "url": "https://seatgeek.com/omer-adam-tickets"
+    },
+    {
+      "link_id": "tm-artist-chris-stassy",
+      "artist_slug": "chris-stassy",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-03",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/chris-stassy-tickets/artist/4638826"
+    },
+    {
+      "link_id": "sg-artist-chris-stassy",
+      "artist_slug": "chris-stassy",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-03",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/chris-stussy-tickets"
+    },
+    {
+      "link_id": "tm-artist-gary-allan",
+      "artist_slug": "gary-allan",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-03",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/gary-allan-tickets/artist/780718"
+    },
+    {
+      "link_id": "sg-artist-gary-allan",
+      "artist_slug": "gary-allan",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-03",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/gary-allan-tickets"
+    },
+    {
+      "link_id": "tm-artist-mon-laferte",
+      "artist_slug": "mon-laferte",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-03",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/mon-laferte-tickets/artist/2144574"
+    },
+    {
+      "link_id": "sg-artist-mon-laferte",
+      "artist_slug": "mon-laferte",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-03",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/mon-laferte-tickets"
+    },
+    {
+      "link_id": "tm-artist-meshuggah",
+      "artist_slug": "meshuggah",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-03",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/meshuggah-tickets/artist/847086"
+    },
+    {
+      "link_id": "sg-artist-meshuggah",
+      "artist_slug": "meshuggah",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-03",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/meshuggah-tickets"
     }
   ],
   "safety_rules": [

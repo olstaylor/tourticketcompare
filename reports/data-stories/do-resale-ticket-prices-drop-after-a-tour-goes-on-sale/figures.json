@@ -1,0 +1,33 @@
+{
+  "storyType": "first-fortnight-moves",
+  "asOf": "2026-11-03",
+  "source": "provider_pricing_daily (D1), low_price_last per event x provider x UTC day",
+  "scope": "US shows whose first priced day in TourTicketCompare's records (any site) fell between 2026-08-09 and 2026-10-19, with the show at least 45 days after that day; each site compared only with itself for the same show; per show, the median change across its sites",
+  "caveat": "First priced day is when TourTicketCompare first recorded a price (after link verification), not the official on-sale date.",
+  "band": 0.02,
+  "firstFortnight": {
+    "compare": "first priced day vs 14 days later",
+    "shows": 1608,
+    "artists": 100,
+    "largestArtistShows": 60,
+    "lower": 788,
+    "higher": 390,
+    "same": 430,
+    "artistClusteredShareLower95": [0.433, 0.55],
+    "medianChangePct": -0.018,
+    "medianChangeUsd": -1.42,
+    "fellQuarterOrMore": 208,
+    "roseQuarterOrMore": 74,
+    "sites": [
+      { "site": "vivid-seats", "shows": 1081, "lower": 518, "higher": 326, "same": 237 },
+      { "site": "ticketnetwork", "shows": 1215, "lower": 616, "higher": 265, "same": 334 },
+      { "site": "stubhub-international", "shows": 283, "lower": 117, "higher": 88, "same": 78 }
+    ]
+  },
+  "firstWeek": { "compare": "first priced day vs 7 days later", "shows": 1608, "lower": 696, "higher": 330, "medianChangePct": -0.008 },
+  "examples": [
+    { "event": "tm-harry-styles-2027-atlanta-vvg1zz_3nnlppu", "site": "vivid-seats", "firstDay": "2026-09-11", "day0": 586, "day7": 211, "day14": 101 },
+    { "event": "tm-fontaines-d-c-2027-atlanta-vvg1zz_keib7ia", "site": "ticketnetwork", "firstDay": "2026-10-04", "day0": 184, "day7": 46, "day14": 42.55 },
+    { "event": "tm-carly-rae-jepsen-2027-chicago-vv17jz_kgkbbdisc", "site": "ticketnetwork", "firstDay": "2026-10-04", "day0": 163.3, "day7": 227.7, "day14": 326.6 }
+  ]
+}

@@ -639,7 +639,7 @@
         "event_id": 18270524,
         "url": "https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-18-8-pm/concert/18270524",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -726,7 +726,7 @@
         "event_id": 18270527,
         "url": "https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-19-8-pm/concert/18270527",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -813,7 +813,7 @@
         "event_id": 18270529,
         "url": "https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-20-8-pm/concert/18270529",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -900,7 +900,7 @@
         "event_id": 18270533,
         "url": "https://seatgeek.com/gracie-abrams-tickets/seattle-washington-climate-pledge-arena-2027-01-26-8-pm/concert/18270533",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -987,7 +987,7 @@
         "event_id": 18270531,
         "url": "https://seatgeek.com/gracie-abrams-tickets/seattle-washington-climate-pledge-arena-2027-01-27-8-pm/concert/18270531",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1074,7 +1074,7 @@
         "event_id": 18270535,
         "url": "https://seatgeek.com/gracie-abrams-tickets/seattle-washington-climate-pledge-arena-2027-01-29-8-pm/concert/18270535",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1161,7 +1161,7 @@
         "event_id": 18270537,
         "url": "https://seatgeek.com/gracie-abrams-tickets/portland-oregon-moda-center-2027-01-31-8-pm/concert/18270537",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1248,7 +1248,7 @@
         "event_id": 18270540,
         "url": "https://seatgeek.com/gracie-abrams-tickets/portland-oregon-moda-center-2027-02-01-8-pm/concert/18270540",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4657,7 +4657,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-austin-moody-center-atx-2-6-2027--concerts-pop/production/7792640",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-austin-texas-02-06-2027/event/3A00655DA08671F8",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4720,9 +4720,29 @@
         "end": "2026-11-05T18:00:00Z"
       },
       {
+        "name": "Artist Presale VIP Packages",
+        "start": "2026-11-05T16:00:00Z",
+        "end": "2026-11-06T04:00:00Z"
+      },
+      {
+        "name": "Capital One Cardholder Presale",
+        "start": "2026-11-05T19:00:00Z",
+        "end": "2026-11-06T04:00:00Z"
+      },
+      {
         "name": "Capital One Presale",
         "start": "2026-11-05T19:00:00Z",
         "end": "2026-11-06T04:00:00Z"
+      },
+      {
+        "name": "Capital One VIP Packages Presale",
+        "start": "2026-11-05T19:00:00Z",
+        "end": "2026-11-06T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-06T16:00:00Z",
+        "end": "2027-02-02T18:00:00Z"
       }
     ]
   }

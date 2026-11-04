@@ -3510,5 +3510,58 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332305",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332305/Sienna-Spiro-tickets-Sun-Aug-8-2027-Grand-Ole-Opry-House",
     "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-nashville-tickets-8-8-2027/event/107675966"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-atlanta-z7r9jz1aa7oab",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Fox Theatre - Atlanta",
+    "datetime_iso": "2027-08-10T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7Oab",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Oab",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Oab",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7Oab",
+        "discovery_event_id": "Z7r9jZ1AA7Oab",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Oab",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Oab",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

@@ -228,7 +228,6 @@ export const OG_CARDS = {
   "/artists/foy-vance/tickets/los-angeles-united-states": {"url":"/og/artists-foy-vance-tickets-los-angeles-united-states.png","alt":"Tickets: Foy Vance in Los Angeles"},
   "/artists/fuerza-regida": {"url":"/og/artists-fuerza-regida.png","alt":"Tickets & tour dates: Fuerza Regida"},
   "/artists/fuerza-regida/ticket-prices": {"url":"/og/artists-fuerza-regida-ticket-prices.png","alt":"Ticket prices: Fuerza Regida"},
-  "/artists/fuerza-regida/tickets/ciudad-de-m-xico-mexico": {"url":"/og/artists-fuerza-regida-tickets-ciudad-de-m-xico-mexico.png","alt":"Tickets: Fuerza Regida in Ciudad de México"},
   "/artists/garth-brooks": {"url":"/og/artists-garth-brooks.png","alt":"Tickets & tour dates: Garth Brooks"},
   "/artists/garth-brooks/ticket-prices": {"url":"/og/artists-garth-brooks-ticket-prices.png","alt":"Ticket prices: Garth Brooks"},
   "/artists/garth-brooks/tickets/hamilton-canada": {"url":"/og/artists-garth-brooks-tickets-hamilton-canada.png","alt":"Tickets: Garth Brooks in Hamilton"},

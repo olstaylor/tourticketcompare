@@ -366787,5 +366787,593 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_Af",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-raye-2027-dublin-1abzk4agkdp88vj",
+    "artist_slug": "raye",
+    "artist_name": "RAYE",
+    "event_name": "RAYE",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Marlay Park",
+    "datetime_iso": "2027-06-24T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006545E5410D1C",
+    "ticketmaster_url": "https://www.ticketmaster.ie/raye-dublin-24-06-2027/event/18006545E5410D1C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/raye-dublin-24-06-2027/event/18006545E5410D1C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006545E5410D1C",
+        "discovery_event_id": "1AbZk4AGkdP88Vj",
+        "url": "https://www.ticketmaster.ie/raye-dublin-24-06-2027/event/18006545E5410D1C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZk4AGkdP88Vj",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-10T10:00:00Z"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-austin-z7r9jz1aa7sc6",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie w/ Swapmeet",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "United Heritage Hall",
+    "datetime_iso": "2027-03-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7sC6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7sC6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7sC6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7sC6",
+        "discovery_event_id": "Z7r9jZ1AA7sC6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7sC6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7sC6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-leon-bridges-2027-mexico-1kazvppagacnsha",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges Presents: The Happiness Anytime Tour",
+    "city": "México",
+    "country": "Mexico",
+    "venue": "Teatro Metropolitan",
+    "datetime_iso": "2027-03-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "140065589E8F3F05",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/leon-bridges-presents-the-happiness-anytime-mexico-24-03-2027/event/140065589E8F3F05",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/leon-bridges-presents-the-happiness-anytime-mexico-24-03-2027/event/140065589E8F3F05",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "140065589E8F3F05",
+        "discovery_event_id": "1kAZvPpaGACNSHA",
+        "url": "https://www.ticketmaster.com.mx/leon-bridges-presents-the-happiness-anytime-mexico-24-03-2027/event/140065589E8F3F05",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAZvPpaGACNSHA",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-11-10T17:00:00Z"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-pompano-beach-z7r9jz1aaazue",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth Wind & Fire",
+    "city": "Pompano Beach",
+    "country": "United States Of America",
+    "venue": "Pompano Beach Amphitheatre",
+    "datetime_iso": "2027-04-13T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAZuE",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZuE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZuE",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAZuE",
+        "discovery_event_id": "Z7r9jZ1AAAZuE",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZuE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZuE",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-tallinn-z698xz8kz16vpf_d-9",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars presents A Beautiful Lie vs This Is War",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "venue": "Unibet Arena Quarter",
+    "datetime_iso": "2027-05-22T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1588643857",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1588643857",
+        "discovery_event_id": "Z698xZ8KZ16vpF_d-9",
+        "url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ16vpF_d-9",
+    "timezone": "Europe/Helsinki",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tigres-del-norte-2027-denver-z7r9jz1aaaz8e",
+    "artist_slug": "los-tigres-del-norte",
+    "artist_name": "Los Tigres del Norte",
+    "event_name": "Los Tigres del Norte",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Bellco Theatre",
+    "datetime_iso": "2027-02-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAZ8e",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ8e",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ8e",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAZ8e",
+        "discovery_event_id": "Z7r9jZ1AAAZ8e",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ8e",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZ8e",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tigres-del-norte-2027-montreal-z7r9jz1aa7zf8",
+    "artist_slug": "los-tigres-del-norte",
+    "artist_name": "Los Tigres del Norte",
+    "event_name": "Los Tigres del Norte",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Salle Wilfrid- Pelletier/Place Des Arts",
+    "datetime_iso": "2027-04-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7zF8",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7zF8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7zF8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7zF8",
+        "discovery_event_id": "Z7r9jZ1AA7zF8",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7zF8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7zF8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-05T17:00:00Z"
+  },
+  {
+    "id": "tm-los-tigres-del-norte-2027-los-angeles-z7r9jz1aa7mao",
+    "artist_slug": "los-tigres-del-norte",
+    "artist_name": "Los Tigres del Norte",
+    "event_name": "Los Tigres del Norte",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2027-04-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7MAO",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7MAO",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7MAO",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7MAO",
+        "discovery_event_id": "Z7r9jZ1AA7MAO",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7MAO",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7MAO",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tigres-del-norte-2027-hartford-z7r9jz1aaaz18",
+    "artist_slug": "los-tigres-del-norte",
+    "artist_name": "Los Tigres del Norte",
+    "event_name": "Los Tigres del Norte",
+    "city": "Hartford",
+    "country": "United States Of America",
+    "venue": "PeoplesBank Arena",
+    "datetime_iso": "2027-04-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAZ18",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ18",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ18",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAZ18",
+        "discovery_event_id": "Z7r9jZ1AAAZ18",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ18",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZ18",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-05T18:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-london-1adfz_4gkb4kzby",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Tottenham Hotspur Stadium",
+    "datetime_iso": "2027-06-22T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500655E954F8639",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-22-06-2027/event/3500655E954F8639",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-22-06-2027/event/3500655E954F8639",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500655E954F8639",
+        "discovery_event_id": "1AdfZ_4GkB4Kzby",
+        "url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-22-06-2027/event/3500655E954F8639",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_4GkB4Kzby",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T10:00:00Z"
+  },
+  {
+    "id": "tm-koe-wetzel-2027-rohnert-park-z7r9jz1aa7zjf",
+    "artist_slug": "koe-wetzel",
+    "artist_name": "Koe Wetzel",
+    "event_name": "KOE WETZEL - Froggy 92.9's Hot Country Nights - 21+",
+    "city": "Rohnert Park",
+    "country": "United States Of America",
+    "venue": "The Event at Graton Resort and Casino",
+    "datetime_iso": "2027-01-09T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7zjf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7zjf",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7zjf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7zjf",
+        "discovery_event_id": "Z7r9jZ1AA7zjf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7zjf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7zjf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

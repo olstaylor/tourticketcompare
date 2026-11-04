@@ -586,5 +586,58 @@
         "end": "2026-11-06T04:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-koe-wetzel-2027-rohnert-park-z7r9jz1aa7zjf",
+    "artist_slug": "koe-wetzel",
+    "artist_name": "Koe Wetzel",
+    "event_name": "KOE WETZEL - Froggy 92.9's Hot Country Nights - 21+",
+    "city": "Rohnert Park",
+    "country": "United States Of America",
+    "venue": "The Event at Graton Resort and Casino",
+    "datetime_iso": "2027-01-09T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7zjf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7zjf",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7zjf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7zjf",
+        "discovery_event_id": "Z7r9jZ1AA7zjf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7zjf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7zjf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

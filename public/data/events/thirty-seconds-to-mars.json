@@ -1002,5 +1002,58 @@
     "organizer_names": [
       "Live Nation Finland Oy"
     ]
+  },
+  {
+    "id": "tm-thirty-seconds-to-mars-2027-tallinn-z698xz8kz16vpf_d-9",
+    "artist_slug": "thirty-seconds-to-mars",
+    "artist_name": "Thirty Seconds to Mars",
+    "event_name": "Thirty Seconds to Mars presents A Beautiful Lie vs This Is War",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "venue": "Unibet Arena Quarter",
+    "datetime_iso": "2027-05-22T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1588643857",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1588643857",
+        "discovery_event_id": "Z698xZ8KZ16vpF_d-9",
+        "url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ16vpF_d-9",
+    "timezone": "Europe/Helsinki",
+    "status": "on-sale"
   }
 ]

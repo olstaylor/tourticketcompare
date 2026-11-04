@@ -1556,5 +1556,219 @@
         "end": "2027-05-23T04:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-los-tigres-del-norte-2027-denver-z7r9jz1aaaz8e",
+    "artist_slug": "los-tigres-del-norte",
+    "artist_name": "Los Tigres del Norte",
+    "event_name": "Los Tigres del Norte",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Bellco Theatre",
+    "datetime_iso": "2027-02-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAZ8e",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ8e",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ8e",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAZ8e",
+        "discovery_event_id": "Z7r9jZ1AAAZ8e",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ8e",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZ8e",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tigres-del-norte-2027-montreal-z7r9jz1aa7zf8",
+    "artist_slug": "los-tigres-del-norte",
+    "artist_name": "Los Tigres del Norte",
+    "event_name": "Los Tigres del Norte",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Salle Wilfrid- Pelletier/Place Des Arts",
+    "datetime_iso": "2027-04-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7zF8",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7zF8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7zF8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7zF8",
+        "discovery_event_id": "Z7r9jZ1AA7zF8",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7zF8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7zF8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-05T17:00:00Z"
+  },
+  {
+    "id": "tm-los-tigres-del-norte-2027-los-angeles-z7r9jz1aa7mao",
+    "artist_slug": "los-tigres-del-norte",
+    "artist_name": "Los Tigres del Norte",
+    "event_name": "Los Tigres del Norte",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2027-04-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7MAO",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7MAO",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7MAO",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7MAO",
+        "discovery_event_id": "Z7r9jZ1AA7MAO",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7MAO",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7MAO",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tigres-del-norte-2027-hartford-z7r9jz1aaaz18",
+    "artist_slug": "los-tigres-del-norte",
+    "artist_name": "Los Tigres del Norte",
+    "event_name": "Los Tigres del Norte",
+    "city": "Hartford",
+    "country": "United States Of America",
+    "venue": "PeoplesBank Arena",
+    "datetime_iso": "2027-04-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAZ18",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ18",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ18",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAZ18",
+        "discovery_event_id": "Z7r9jZ1AAAZ18",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ18",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZ18",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-05T18:00:00Z"
   }
 ]

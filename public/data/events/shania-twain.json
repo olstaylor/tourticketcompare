@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/shania-twain-tickets-scarborough-scarborough-open-air-theatre-6-16-2027/production/7797147",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-scarborough-16-06-2027/event/35006536D1E99CB6",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -58,13 +58,18 @@
     ],
     "presales": [
       {
-        "name": "Artist Presale",
+        "name": "Album Presale",
         "start": "2026-11-04T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       },
       {
         "name": "Priority from O2 Presale",
         "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       },
       {
@@ -186,7 +191,7 @@
     "vividseats_url": "https://www.vividseats.com/shania-twain-tickets-cardiff-blackweir-fields-6-22-2027/production/7797143",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-cardiff-22-06-2027/event/1F006537E676687B",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -229,7 +234,7 @@
     ],
     "presales": [
       {
-        "name": "Artist Presale",
+        "name": "Album Presale",
         "start": "2026-11-04T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       },
@@ -476,7 +481,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-woodstock-29-06-2027/event/37006545C63E58FF",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -515,11 +520,12 @@
     "public_onsale_at": "2026-11-06T09:00:00Z",
     "organizer_names": [
       "MARI",
-      "PWR EVENTS"
+      "PWR EVENTS",
+      "CUFFE & TAYLOR (NEW)"
     ],
     "presales": [
       {
-        "name": "Artist Presale",
+        "name": "Album Presale",
         "start": "2026-11-04T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       },
@@ -534,17 +540,27 @@
         "end": "2026-11-06T08:00:00Z"
       },
       {
+        "name": "Blenheim Palace Sign Ups Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
         "name": "Cuffe & Taylor Presale",
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       },
       {
-        "name": "Ticketmaster Presale",
+        "name": "Live Nation Presale",
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       },
       {
-        "name": "Venue Presale",
+        "name": "Mari Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       }

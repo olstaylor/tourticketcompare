@@ -246,7 +246,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-casper-ford-wyoming-center-11-10-2026/production/7393458",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-casper-wyoming-11-10-2026/event/1E0064FDB420C544",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -297,14 +297,7 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184409",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184409/Pentatonix-tickets-Tue-Nov-10-2026-Ford-Wyoming-Center",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-14T16:00:00Z",
-        "end": "2026-11-04T05:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184409/Pentatonix-tickets-Tue-Nov-10-2026-Ford-Wyoming-Center"
   },
   {
     "id": "tm-pentatonix-2026-lincoln-vv1akzkf7gkdppsjy",

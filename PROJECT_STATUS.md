@@ -13,17 +13,17 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 - `public/data/artists.json`: **265 records — 257 `indexable_with_substantial_content` + 8 `review_required` shells** — the 7 held from earlier batches (sabrina-carpenter, lady-gaga, coldplay, rush, muse, system-of-a-down, laura-pausini), with the 15 created by the 2026-09-09 roster batch and the 10 created by the 2026-09-22 batch (oasis, hans-zimmer, trans-siberian-orchestra, kenny-chesney, death-cab-for-cutie, alan-walker, the-psychedelic-furs, eros-ramazzotti, atmosphere, the-warning) all now promoted after owner confirmation of their API-captured destinations, plus the 5 auto-promoted on 2026-09-24 by the first `auto-promote.yml` run (#1117: hilary-duff, josiah-queen, ha-ash, lukas-graham, passenger — each ingested its dates in the same job). The 98 indexable artists carry `verified_providers: ["ticketmaster","seatgeek"]`; the 7 shells carry `verified_providers: []` and render no CTA. 17 of the 98 indexable carry 0 events — beyonce, raye, tate-mcrae, the-weeknd (fact corrected 2026-09-24 by agent: oasis, hans-zimmer, kenny-chesney and atmosphere, eventless after the 2026-09-22 promote because their Ticketmaster dates were withheld, landed dates through the automated Ticketmaster lane in #1110; event ingestion remains a separate phase after promotion is merged and deployed; the 2026-09-10 Ticketmaster run landed dates for 14 of the 15 artists promoted on 2026-09-09, and yuridia's 17 have since landed as well, so all fifteen now carry dates — fact corrected 2026-09-13). A promoted artist with 0 events renders the empty-state watchlist board with its artist-level ticket button (fact corrected 2026-09-23 by agent: since #1092 the empty board carries exactly one artist-level `/api/out` link; event buttons still appear only once dates land). Separately, indexable artists with 0 _upcoming_ events are listed in the generated empty-boards block below, which `daily-audit.yml` refreshes and is the only authority for that count, the list and each page's indexing state; that is the indexable-surface decay BACKLOG item 3 tracks. (The zero-event figure **is** machine-pinned — `SCALAR_ASSERTIONS` matches "N of the M indexable carry 0 events", so `status:validate` fails if N drifts (the denominator M is not pinned) — but the slug list beside it is not. The zero-_upcoming_ figure is pinned by nothing, so recount it from `public/data/` whenever the calendar or an ingestion run moves it; the generated empty-boards block below is its authority and is rewritten by `status:surface:write`.)
 - `public/data/catalog.json`: 265 artist records; 0 tour records; **523 ticket_links rows** (265 ticketmaster + 258 seatgeek artist pages; 514 `verified` + `public_enabled`, plus 7 unverified/hidden shell ticketmaster rows for the 7 `review_required` artists); the `seatgeek` provider entry has `public_enabled: true`.
 - `public/data/events.json`: **5101 events** — 285 `human_verified`, 3677 `machine_high_confidence`, 1139 `needs_recheck`. Verified event-level provider provenance is pinned one provider per line below, each separated by a blank line. Keep both properties: git needs an unchanged line between two edits to merge them as separate hunks, so without the blank lines two lanes editing adjacent providers still conflict. This makes any two provider lanes merge cleanly, except on the shared no-resale figure at the end of the list.
-  - SeatGeek 2680 (2741 rows carry a stored `seatgeek_url`); 637 `needs_recheck` rows retain a standalone SeatGeek CTA.
+  - SeatGeek 2697 (2758 rows carry a stored `seatgeek_url`); 636 `needs_recheck` rows retain a standalone SeatGeek CTA.
 
-  - Vivid Seats 3097; 534 `needs_recheck` rows retain a standalone Vivid Seats CTA.
+  - Vivid Seats 3093; 534 `needs_recheck` rows retain a standalone Vivid Seats CTA.
 
   - TicketNetwork 3018.
 
   - Ticket Liquidator 2942.
 
-  - StubHub International 1557.
+  - StubHub International 1553.
 
-  - Across all lanes, 239 `needs_recheck` rows have no independently verified resale provider. Every lane recomputes this, so two lanes running the same night still conflict here and no layout can fix that — the two values genuinely disagree. It is now the only such line; regenerate it with `npm run status:validate:write` instead of hand-merging.
+  - Across all lanes, 240 `needs_recheck` rows have no independently verified resale provider. Every lane recomputes this, so two lanes running the same night still conflict here and no layout can fix that — the two values genuinely disagree. It is now the only such line; regenerate it with `npm run status:validate:write` instead of hand-merging.
 
   Of those 89, 17 are past and **72 are upcoming** (recounted 2026-10-05 with the bullet's own `RESALE_KEYS` test and `datetime_iso`). Once past its public on-sale, each upcoming one is **not** CTA-less: it carries a Ticketmaster or `source_url` destination, so `eventLinkPublishable` passes and it renders its plain, unmonetized Ticketmaster button. Before its public on-sale a date shows no link (`publicOnsalePending`); `npm run report:link-coverage` lists those as awaiting the on-sale. What they lack is any verified resale lane — none of the 72 carries a stored `seatgeek_url` either — so the date offers one official link and no resale alternative, and no affiliate lane. Outside those on-sale holds, only **4** recheck rows publish no lane at all, and all four are past: ed-sheeran Nashville 6/20, bts Madrid 6/26 and 6/27, bad-bunny Marseille 7/1 (re-verified 2026-10-05 against `eventLinkPublishable`/`providerEventPublishable`). A failing `eventLinkPublishable` is not that test on its own — 10 recheck rows fail it while still publishing verified SeatGeek, Vivid Seats or marketplace lanes. The step change came with the 2026-09-10 ingestion runs — 251 Ticketmaster dates across 16 artists, then 21 more for Harry Styles: ingestion lands dates far faster than resale provenance is verified for them, so this figure tracks ingestion volume rather than the calendar and keeps climbing after each large run until the CTA syncs catch up. Only the counts in the bullets above are machine-pinned; the past/upcoming split is not, and a "no CTA" claim must be computed with the runtime predicates in `functions/[[path]].js` (`eventLinkPublishable`, `providerEventPublishable`) across **all** providers including Ticketmaster, never from the validator's resale-only test. See BACKLOG item 4.
 - `public/data/events/<artist>.json`: per-artist partitions used at runtime.
@@ -83,7 +83,7 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 | sombr | 2026-07-30 | 59 | 16 | 16 | **17** | You Are The Reason Tour | All 6 recheck rows retain independent verified SeatGeek coverage. |
 | latto | 2026-08-07 | 4 | 1 | 1 | **1** | — | Promoted 2026-07-29. |
 | john-summit | 2026-07-30 | 31 | 8 | 8 | **8** | CTRL ESCAPE ARENA TOUR | Separate Lollapalooza aftershow stays blank and fully CTA-suppressed. |
-| don-omar | 2026-08-28 | 38 | 21 | 21 | **5** | The Last King World Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
+| don-omar | 2026-08-28 | 38 | 20 | 20 | **5** | The Last King World Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
 | luke-combs | 2026-08-28 | 12 | 10 | 10 | **2** | My Kinda Saturday Night Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
 | blue-october | 2026-08-28 | 70 | 59 | 59 | **28** | The Foiled 20th Anniversary World Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
 | pentatonix | 2026-08-28 | 28 | 17 | 17 | **3** | Christmas in the City Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
@@ -226,7 +226,7 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 | chayanne | 2026-11-04 | 3 | 3 | 3 | 0 | — |  |
 | cece-winans | 2026-10-23 | 13 | 13 | 13 | **4** | — |  |
 | role-model | 2026-10-23 | 6 | 0 | 0 | **3** | — |  |
-| karan-aujla | 2026-10-23 | 6 | 1 | 1 | 0 | — |  |
+| karan-aujla | 2026-10-23 | 6 | 0 | 0 | 0 | — |  |
 | jack-johnson | 2026-10-23 | 18 | 0 | 0 | **2** | — |  |
 | phil-wickham | 2026-10-23 | 5 | 5 | 5 | **5** | — |  |
 | gavin-adcock | 2026-10-23 | 24 | 20 | 20 | **12** | — |  |
@@ -301,7 +301,7 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 | motionless-in-white | 2026-11-02 | 13 | 2 | 2 | **1** | — |  |
 | yg | 2026-11-02 | 3 | 3 | 3 | **2** | — |  |
 | rawayana | 2026-11-02 | 10 | 10 | 10 | 0 | — |  |
-| jodeci | 2026-11-02 | 35 | 12 | 12 | **6** | — |  |
+| jodeci | 2026-11-02 | 35 | 31 | 31 | **6** | — |  |
 | mercyme | 2026-11-02 | 32 | 7 | 7 | **5** | — |  |
 | omer-adam | 2026-11-04 | 1 | 1 | 1 | 0 | — |  |
 | chris-stassy | 2026-11-04 | 0 | 0 | 0 | 0 | — |  |

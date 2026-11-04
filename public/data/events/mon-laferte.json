@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7-Sud",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Sud",
     "seatgeek_url": "https://seatgeek.com/mon-laferte-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2026-11-05-8-pm/concert/18140310",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mon-laferte-tickets-las-vegas-pearl-concert-theater-at-palms-casino-resort-11-5-2026/production/6822790",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Sud",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6822790,
+        "url": "https://www.vividseats.com/mon-laferte-tickets-las-vegas-pearl-concert-theater-at-palms-casino-resort-11-5-2026/production/6822790",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "0900646CEE46EEFD",
     "ticketmaster_url": "https://www.ticketmaster.com/mon-laferte-femme-fatale-tour-inglewood-california-11-07-2026/event/0900646CEE46EEFD",
     "seatgeek_url": "https://seatgeek.com/mon-laferte-tickets/inglewood-california-kia-forum-2026-11-07-8-pm/concert/18140313",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mon-laferte-tickets-inglewood-kia-forum-11-7-2026/production/6822796",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mon-laferte-femme-fatale-tour-inglewood-california-11-07-2026/event/0900646CEE46EEFD",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6822796,
+        "url": "https://www.vividseats.com/mon-laferte-tickets-inglewood-kia-forum-11-7-2026/production/6822796",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "090064C7E0BCDF3F",
     "ticketmaster_url": "https://www.ticketmaster.com/mon-laferte-femme-fatale-tour-inglewood-california-11-08-2026/event/090064C7E0BCDF3F",
     "seatgeek_url": "https://seatgeek.com/mon-laferte-tickets/inglewood-california-kia-forum-2026-11-08-8-pm/concert/18311530",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mon-laferte-tickets-inglewood-kia-forum-11-8-2026--concerts-rock/production/7164376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mon-laferte-femme-fatale-tour-inglewood-california-11-08-2026/event/090064C7E0BCDF3F",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7164376,
+        "url": "https://www.vividseats.com/mon-laferte-tickets-inglewood-kia-forum-11-8-2026--concerts-rock/production/7164376",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "1776378129",
     "ticketmaster_url": "https://www.ticketmaster.es/event/mon-laferte-tickets/1776378129?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mon-laferte-tickets-madrid-movistar-arena---madrid-1-13-2027/production/7250274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/mon-laferte-tickets/1776378129?language=en-us",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7250274,
+        "url": "https://www.vividseats.com/mon-laferte-tickets-madrid-movistar-arena---madrid-1-13-2027/production/7250274",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

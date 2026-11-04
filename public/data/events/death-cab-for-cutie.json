@@ -875,7 +875,7 @@
     "ticketmaster_event_id": "3100652F229DCFB2",
     "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-ottawa-ontario-04-04-2027/event/3100652F229DCFB2",
     "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/ottawa-canada-history-ottawa-2027-04-04-7-pm/concert/18604166",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-ottawa-history-ottawa-4-4-2027--concerts-alternative/production/7571284",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-ottawa-ontario-04-04-2027/event/3100652F229DCFB2",
     "last_verified_at": "2026-10-15",
@@ -897,11 +897,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7571284,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-ottawa-history-ottawa-4-4-2027--concerts-alternative/production/7571284",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

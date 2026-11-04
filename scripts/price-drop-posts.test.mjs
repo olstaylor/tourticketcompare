@@ -83,3 +83,11 @@ assert.match(renderDraftFile([], { now: NOW }), /No drops met the rules/);
 assert.throws(() => priceDropSql("x"));
 assert.match(priceDropSql("2026-10-26"), /JOIN show_priority/);
 console.log("price-drop-posts: ok");
+
+// Count multiline and non-Latin copy safely; never label an overlong name ready.
+assert.equal(xLength("漢字\nhttps://example.org/long\nmore"), 4 + 1 + 23 + 1 + 4);
+assert.equal(xLength("plain"), 5);
+const longDraft = { ...two[0], artist: "A".repeat(300), city: "東京" };
+assert.match(renderDraftFile([longDraft], { now: NOW }), /Needs editing before X/);
+const compact = { ...two[0], artist: "The Very Long Artist Name", city: "San Francisco" };
+assert.ok(xLength(renderDraftText(compact)) <= X_LIMIT);

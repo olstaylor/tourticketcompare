@@ -197,10 +197,18 @@ export function postUrl(d, account = X_ACCOUNT) {
   return `${SITE}${d.eventPath || d.linkPath}?utm_source=x&utm_medium=social&utm_campaign=${account}`;
 }
 
-/** Characters X will count: text plus a flat 23 for the link. */
+/** Conservative X weighted length, including every line and link. */
 export function xLength(text) {
-  const [body, url = ""] = text.split("\n");
-  return [...body].length + 1 + (url ? X_URL_WEIGHT : 0);
+  // X weights CJK and most symbols twice. Counting each non-light code point
+  // separately is conservative for joined emoji, so this is a safe upper bound.
+  return text.split(/(https?:\/\/[^\s]+)/u).reduce((total, part) => {
+    if (/^https?:\/\//u.test(part)) return total + X_URL_WEIGHT;
+    return total + [...part.normalize("NFC")].reduce((n, char) => {
+      const cp = char.codePointAt(0);
+      return n + (cp <= 0x10ff || (cp >= 0x2000 && cp <= 0x200d)
+        || (cp >= 0x2010 && cp <= 0x201f) || (cp >= 0x2032 && cp <= 0x2037) ? 1 : 2);
+    }, 0);
+  }, 0);
 }
 
 /** The post text for one detected move, written to fit one X post. */
@@ -214,9 +222,16 @@ export function renderDraftText(d, account = X_ACCOUNT) {
     const lead = d.kind === "week-out"
       ? `${d.artist} in ${d.city}, ${shortDate(d.localDate)}, is about a week away and`
       : `${d.artist} in ${d.city}, ${shortDate(d.localDate)}:`;
-    body = `${lead} the lowest listed ${d.site} price dropped ${pctText(d.dropShare)} in a week, ${money(d.from, d.currency)} (${shortDate(d.fromDate)}) to ${money(d.to, d.currency)} (${shortDate(d.toDate)}, ${cap}). ${tail}`;
+    body = `${lead} the lowest listed ${d.site} price dropped ${pctText(d.dropShare)} in a week, ${money(d.from, d.currency)} (${shortDate(d.fromDate)}) to ${money(d.to, d.currency)} (${shortDate(d.toDate)}; ${cap}). ${tail}`;
   }
-  return `${body}\n${postUrl(d, account)}`;
+  const url = postUrl(d, account);
+  if (xLength(`${body}\n${url}`) > X_LIMIT) {
+    const move = d.kind === "record-low"
+      ? `lowest listed price recorded since ${monthYear(d.sinceDate)}: ${money(d.to, d.currency)}`
+      : `lowest listed price dropped ${pctText(d.dropShare)} in a week: ${money(d.from, d.currency)} (${shortDate(d.fromDate)}) → ${money(d.to, d.currency)} (${shortDate(d.toDate)})`;
+    body = `${d.artist}, ${d.city}, ${shortDate(d.localDate)}. ${d.site}: ${move}; ${cap}. ${tail}`;
+  }
+  return `${body}\n${url}`;
 }
 
 /** A ready fill entry for the ig-price-drop brand template (launch/brand/build.mjs --fill). */
@@ -240,6 +255,6 @@ export function renderDraftFile(drafts, { now }) {
   const day = isoDay(now);
   const head = `# Price-drop post drafts, ${day}\n\nStage B: drafts for approval. Nothing is posted. Before posting each one, open the link and check the ticket site still shows a price near the figure; if it has moved back, skip it. Figures are listed starting prices from the named site, not totals. No claim is made about what prices will do next.\n`;
   if (!drafts.length) return `${head}\nNo drops met the rules today (20%+ fall in the lowest listed price over 7 days, held on two readings, show 7+ days away, fresh data).\n`;
-  const body = drafts.map((d, i) => `## ${i + 1}. ${d.artist}, ${d.city} (${d.kind}, show priority #${d.priorityRank})\n\n\`\`\`\n${renderDraftText(d)}\n\`\`\`\n\n${xLength(renderDraftText(d))} of ${X_LIMIT} characters. Optional image: add to a fill.json and run \`node build.mjs --fill fill.json\`:\n\n\`\`\`json\n${JSON.stringify(imageFill(d, i + 1))}\n\`\`\`\n\nSource: ${d.site}, ${d.currency}, ${money(d.from, d.currency)} to ${money(d.to, d.currency)} (${pctText(d.dropShare)}), last observed ${d.capturedAt}. Page: ${SITE}${d.eventPath || d.linkPath}${d.linkPath && d.eventPath ? ` · guide/artist: ${SITE}${d.linkPath}` : ""}`).join("\n\n");
+  const body = drafts.map((d, i) => `## ${i + 1}. ${d.artist}, ${d.city} (${d.kind}, show priority #${d.priorityRank})\n\n\`\`\`\n${renderDraftText(d)}\n\`\`\`\n\n${xLength(renderDraftText(d)) > X_LIMIT ? "Needs editing before X: " : "X length (upper bound): "}${xLength(renderDraftText(d))} of ${X_LIMIT}. Optional image: add to a fill.json and run \`node build.mjs --fill fill.json\`:\n\n\`\`\`json\n${JSON.stringify(imageFill(d, i + 1))}\n\`\`\`\n\nSource: ${d.site}, ${d.currency}, ${money(d.from, d.currency)} to ${money(d.to, d.currency)} (${pctText(d.dropShare)}), last observed ${d.capturedAt}. Page: ${SITE}${d.eventPath || d.linkPath}${d.linkPath && d.eventPath ? ` · guide/artist: ${SITE}${d.linkPath}` : ""}`).join("\n\n");
   return `${head}\n${body}\n`;
 }

@@ -1937,7 +1937,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7o-a",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7o-a",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/penticton-canada-south-okanagan-events-centre-2027-02-19-6-30-pm/concert/18646927",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7o-a",
@@ -1953,11 +1953,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18646927,
+        "url": "https://seatgeek.com/air-supply-tickets/penticton-canada-south-okanagan-events-centre-2027-02-19-6-30-pm/concert/18646927",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1990,7 +1990,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeK-Z",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeK-Z",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/prince-george-canada-cn-centre-2027-02-21-6-30-pm/concert/18736469",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeK-Z",
@@ -2006,11 +2006,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18736469,
+        "url": "https://seatgeek.com/air-supply-tickets/prince-george-canada-cn-centre-2027-02-21-6-30-pm/concert/18736469",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

@@ -1619,7 +1619,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-anaheim-honda-center-11-24-2026--concerts-rock/production/7022141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1677,11 +1677,6 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-15T17:00:00Z",
-        "end": "2026-11-04T01:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-05-15T17:00:00Z",

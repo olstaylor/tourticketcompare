@@ -434,7 +434,7 @@
     "vividseats_url": "https://www.vividseats.com/jon-pardi-tickets-peoria-peoria-civic-center---carver-arena-11-13-2026--concerts-country-and-folk/production/7320595",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-peoria-illinois-11-13-2026/event/070064E9B90D2B09",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -485,7 +485,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149216",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149216/Jon-Pardi-tickets-Fri-Nov-13-2026-Carver-Arena-At-Peoria-Civic-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149216/Jon-Pardi-tickets-Fri-Nov-13-2026-Carver-Arena-At-Peoria-Civic-Center",
+    "presales": [
+      {
+        "name": "Side View/ Obstructed View Seats",
+        "start": "2026-11-03T22:15:00Z",
+        "end": "2026-11-14T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jon-pardi-2026-independence-vvg1bz_cu03zzw",

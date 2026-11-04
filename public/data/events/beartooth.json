@@ -1016,7 +1016,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-atlanta-coca-cola-roxy-theatre-11-29-2026--concerts-hard-rock/production/7052761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-atlanta-georgia-11-29-2026/event/0E0064AEAF84DDE1",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1070,6 +1070,13 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980221/Beartooth-tickets-Sun-Nov-29-2026-Coca-Cola-Roxy",
     "organizer_names": [
       "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Season of Giving 2 for $80",
+        "start": "2026-11-04T15:00:00Z",
+        "end": "2026-11-12T03:00:00Z"
+      }
     ]
   },
   {
@@ -1088,7 +1095,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-charlotte-the-fillmore-charlotte-12-1-2026--concerts-hard-rock/production/7052767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-charlotte-north-carolina-12-01-2026/event/2D0064ABB2D71F8A",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1141,11 +1148,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980223",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980223/Beartooth-tickets-Tue-Dec-1-2026-The-Fillmore-Charlotte",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-22T14:00:00Z",
-        "end": "2026-11-04T03:00:00Z"
-      },
       {
         "name": "T-Mobile® Concert Perks",
         "start": "2026-05-22T14:00:00Z",

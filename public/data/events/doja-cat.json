@@ -2117,7 +2117,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-montreal-quebec-11-27-2026/event/31006339B7D269BF",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2178,6 +2178,11 @@
       {
         "name": "Siège Individuel - Single Seat",
         "start": "2026-10-22T16:00:00Z",
+        "end": "2026-11-28T02:30:00Z"
+      },
+      {
+        "name": "Offre Siège Vue de Côté - Side View Seat",
+        "start": "2026-11-04T20:00:00Z",
         "end": "2026-11-28T02:30:00Z"
       }
     ],

@@ -84,7 +84,7 @@
     "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-dodge-city-united-wireless-arena-11-13-2026/production/7227855",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gary-allan-dodge-city-kansas-11-13-2026/event/060064CF976F7850",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +135,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8091895",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8091895/Gary-Allan-tickets-Fri-Nov-13-2026-United-Wireless-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8091895/Gary-Allan-tickets-Fri-Nov-13-2026-United-Wireless-Arena",
+    "organizer_names": [
+      "VENUWORKS CORPORATE"
+    ]
   },
   {
     "id": "tm-gary-allan-2026-lake-charles-z7r9jz1aazdcb",
@@ -507,7 +510,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gary-allan-tysons-virginia-02-18-2027/event/150064B6EA64D5B0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -558,7 +561,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8181666",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8181666/Gary-Allan-tickets-Thu-Feb-18-2027-Capital-One-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8181666/Gary-Allan-tickets-Thu-Feb-18-2027-Capital-One-Hall",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-gary-allan-2027-greensboro-g5evz_89x5mox",
@@ -714,7 +718,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gary-allan-peoria-illinois-03-13-2027/event/070064D610778C1E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -765,6 +769,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135902",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135902/Gary-Allan-tickets-Sat-Mar-13-2027-Prairie-Home-Alliance-Theater-At-Peoria-Civic-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135902/Gary-Allan-tickets-Sat-Mar-13-2027-Prairie-Home-Alliance-Theater-At-Peoria-Civic-Center",
+    "ticketmaster_status_code": "rescheduled"
   }
 ]

@@ -2183,5 +2183,58 @@
       "AWAKENING EVENTS",
       "VENUWORKS CORPORATE"
     ]
+  },
+  {
+    "id": "tm-mercyme-2027-chattanooga-z7r9jz1aa7_af",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe",
+    "city": "Chattanooga",
+    "country": "United States Of America",
+    "venue": "McKenzie Arena",
+    "datetime_iso": "2027-03-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7_Af",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_Af",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_Af",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7_Af",
+        "discovery_event_id": "Z7r9jZ1AA7_Af",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_Af",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_Af",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

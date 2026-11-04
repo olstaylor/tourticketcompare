@@ -21,6 +21,7 @@
     "placeholder_url": "URL matches a placeholder marker (localhost, example.com, ...).",
     "travel_package_listing": "Listing looks like a travel/hotel/parking/hospitality/premium-seat upsell package.",
     "attraction_identity_mismatch": "Event attractions do not include the registry's verified attraction ID.",
+    "listening_event": "Listing is a listening experience, party or session rather than a verified artist performance.",
     "not_primary_attraction": "Registry attraction is not the primary attraction (support act / festival lineup).",
     "duplicate_existing_event_id": "Same Ticketmaster event id as an existing events.json row.",
     "duplicate_existing_venue_date": "Same venue and venue-local date as an existing events.json row.",

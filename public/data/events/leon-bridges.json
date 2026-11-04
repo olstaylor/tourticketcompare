@@ -2237,5 +2237,59 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7dqd",
     "timezone": "America/Chicago",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-leon-bridges-2027-mexico-1kazvppagacnsha",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges Presents: The Happiness Anytime Tour",
+    "city": "México",
+    "country": "Mexico",
+    "venue": "Teatro Metropolitan",
+    "datetime_iso": "2027-03-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "140065589E8F3F05",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/leon-bridges-presents-the-happiness-anytime-mexico-24-03-2027/event/140065589E8F3F05",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/leon-bridges-presents-the-happiness-anytime-mexico-24-03-2027/event/140065589E8F3F05",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "140065589E8F3F05",
+        "discovery_event_id": "1kAZvPpaGACNSHA",
+        "url": "https://www.ticketmaster.com.mx/leon-bridges-presents-the-happiness-anytime-mexico-24-03-2027/event/140065589E8F3F05",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAZvPpaGACNSHA",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-11-10T17:00:00Z"
   }
 ]

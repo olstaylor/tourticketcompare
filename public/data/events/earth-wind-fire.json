@@ -1628,5 +1628,58 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-saint-augustine-tickets-4-14-2027/event/107672614"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-pompano-beach-z7r9jz1aaazue",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth Wind & Fire",
+    "city": "Pompano Beach",
+    "country": "United States Of America",
+    "venue": "Pompano Beach Amphitheatre",
+    "datetime_iso": "2027-04-13T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAZuE",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZuE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZuE",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAZuE",
+        "discovery_event_id": "Z7r9jZ1AAAZuE",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZuE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZuE",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

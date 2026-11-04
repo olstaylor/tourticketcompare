@@ -1979,12 +1979,20 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8269067",
+        "url": "https://www.ticketliquidator.com/tickets/8269067/Air-Supply-tickets-Fri-Feb-19-2027-South-Okanagan-Events-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7o-a",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8269067"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8269067",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8269067/Air-Supply-tickets-Fri-Feb-19-2027-South-Okanagan-Events-Centre"
   },
   {
     "id": "tm-air-supply-2027-prince-george-z7r9jz1aaek-z",

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/the-eagles-tickets-las-vegas-sphere-at-the-venetian-resort-11-13-2026--concerts-adult-contemporary/production/6981865",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-13-2026/event/17006484FED11E2C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -72,13 +72,6 @@
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXVozi",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "On The List VIP Package Onsale",
-        "start": "2026-05-15T17:00:00Z",
-        "end": "2026-11-04T06:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930155/The-Eagles-tickets-Fri-Nov-13-2026-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-11-13-2026/event/107162527",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930155",

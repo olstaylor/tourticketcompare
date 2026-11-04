@@ -95,7 +95,7 @@
     "vividseats_url": "https://www.vividseats.com/rawayana-tickets-chicago-byline-bank-aragon-ballroom-11-7-2026--concerts-pop/production/6791757",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-chicago-illinois-11-07-2026/event/0400646BC9C67504",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -157,13 +157,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/rawayana-chicago-tickets-11-7-2026/event/107482968",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-19T15:00:00Z",
-        "end": "2026-11-03T18:00:00Z"
-      }
     ]
   },
   {

@@ -1687,7 +1687,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-las-vegas-allegiant-stadium-5-21-2027--concerts-pop/production/7773130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-las-vegas-nevada-05-21-2027/event/1700655BEE9D1DA4",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1758,9 +1758,24 @@
         "end": "2026-11-11T07:59:00Z"
       },
       {
+        "name": "Artist Presale VIP Packages",
+        "start": "2026-11-10T20:00:00Z",
+        "end": "2026-11-11T07:59:00Z"
+      },
+      {
         "name": "Reserved by Spotify",
         "start": "2026-11-11T17:00:00Z",
         "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T20:00:00Z",
+        "end": "2027-05-08T05:00:00Z"
       }
     ]
   },
@@ -2155,7 +2170,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-east-rutherford-metlife-stadium-6-18-2027--concerts-pop/production/7773195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-18-2027/event/0000655BA74A5861",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2224,6 +2239,11 @@
       },
       {
         "name": "Artist Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-11T04:59:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Packages",
         "start": "2026-11-10T17:00:00Z",
         "end": "2026-11-11T04:59:00Z"
       },

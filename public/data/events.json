@@ -37671,7 +37671,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-montreal-quebec-11-27-2026/event/31006339B7D269BF",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -37732,6 +37732,11 @@
       {
         "name": "Siège Individuel - Single Seat",
         "start": "2026-10-22T16:00:00Z",
+        "end": "2026-11-28T02:30:00Z"
+      },
+      {
+        "name": "Offre Siège Vue de Côté - Side View Seat",
+        "start": "2026-11-04T20:00:00Z",
         "end": "2026-11-28T02:30:00Z"
       }
     ],
@@ -39723,7 +39728,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-detroit-little-caesars-arena-11-7-2026--concerts-alternative/production/6897986",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-detroit-michigan-11-07-2026/event/08006488B52E6AC0",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -39783,13 +39788,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874877",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874877/sombr-tickets-Sat-Nov-7-2026-Little-Caesars-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-detroit-tickets-11-7-2026/event/107667741",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-17T14:00:00Z",
-        "end": "2026-11-03T17:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -53608,15 +53606,15 @@
     "city": "Las Vegas",
     "country": "United States Of America",
     "venue": "Michelob Ultra Arena",
-    "datetime_iso": "2026-10-31T03:00:00Z",
+    "datetime_iso": "2026-11-12T04:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70EqS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EqS",
-    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/las-vegas-nevada-michelob-ultra-arena-at-mandalay-bay-resort-casino-2026-10-30-8-pm/concert/18250878",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EqS",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -53628,11 +53626,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18250878,
-        "url": "https://seatgeek.com/don-omar-tickets/las-vegas-nevada-michelob-ultra-arena-at-mandalay-bay-resort-casino-2026-10-30-8-pm/concert/18250878",
-        "verified": true,
-        "last_verified_at": "2026-10-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "vivid-seats": {
         "event_id": null,
@@ -53676,7 +53674,7 @@
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
     "stubhub_international_url": "",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-don-omar-2026-salt-lake-city-z7r9jz1a70efv",
@@ -60933,7 +60931,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-casper-ford-wyoming-center-11-10-2026/production/7393458",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-casper-wyoming-11-10-2026/event/1E0064FDB420C544",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -60984,14 +60982,7 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184409",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184409/Pentatonix-tickets-Tue-Nov-10-2026-Ford-Wyoming-Center",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-14T16:00:00Z",
-        "end": "2026-11-04T05:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184409/Pentatonix-tickets-Tue-Nov-10-2026-Ford-Wyoming-Center"
   },
   {
     "id": "tm-pentatonix-2026-lincoln-vv1akzkf7gkdppsjy",
@@ -67450,7 +67441,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-silver-spring-the-fillmore-silver-spring-11-10-2026--concerts-rock/production/7325330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-silver-spring-maryland-11-10-2026/event/150064EAB5597C07",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -67502,18 +67493,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151248",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151248/Trivium-tickets-Tue-Nov-10-2026-The-Fillmore-Silver-Spring",
-    "presales": [
-      {
-        "name": "In Flames VIP Packages Onsale",
-        "start": "2026-07-24T14:00:00Z",
-        "end": "2026-11-04T04:55:00Z"
-      },
-      {
-        "name": "Trivium VIP Packages Onsale",
-        "start": "2026-07-24T14:00:00Z",
-        "end": "2026-11-04T04:55:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -71575,7 +71554,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-atlanta-coca-cola-roxy-theatre-11-29-2026--concerts-hard-rock/production/7052761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-atlanta-georgia-11-29-2026/event/0E0064AEAF84DDE1",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -71629,6 +71608,13 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980221/Beartooth-tickets-Sun-Nov-29-2026-Coca-Cola-Roxy",
     "organizer_names": [
       "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Season of Giving 2 for $80",
+        "start": "2026-11-04T15:00:00Z",
+        "end": "2026-11-12T03:00:00Z"
+      }
     ]
   },
   {
@@ -71647,7 +71633,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-charlotte-the-fillmore-charlotte-12-1-2026--concerts-hard-rock/production/7052767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-charlotte-north-carolina-12-01-2026/event/2D0064ABB2D71F8A",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -71700,11 +71686,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980223",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980223/Beartooth-tickets-Tue-Dec-1-2026-The-Fillmore-Charlotte",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-22T14:00:00Z",
-        "end": "2026-11-04T03:00:00Z"
-      },
       {
         "name": "T-Mobile® Concert Perks",
         "start": "2026-05-22T14:00:00Z",
@@ -143683,7 +143664,7 @@
     "city": "Boise",
     "country": "United States Of America",
     "venue": "Knitting Factory - Boise",
-    "datetime_iso": "2026-11-17T02:00:00Z",
+    "datetime_iso": "2026-11-17T03:00:00Z",
     "tour_name": "The Wake World Tour",
     "ticketmaster_event_id": "1E006451B06AAE90",
     "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boise-idaho-11-16-2026/event/1E006451B06AAE90",
@@ -143691,7 +143672,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boise-idaho-11-16-2026/event/1E006451B06AAE90",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -155745,7 +155726,7 @@
     "id": "tm-fantasia-2027-washington-1ka8vpuogaub0mr",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Washington",
     "country": "United States Of America",
     "venue": "Capital One Arena",
@@ -155757,7 +155738,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-washington-capital-one-arena-2-5-2027--concerts-rb/production/7621348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-washington-district-of-columbia-02-05-2027/event/150065360DEA4BAF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -155897,7 +155878,7 @@
     "id": "tm-fantasia-2027-belmont-park-1ayzkfugkdwafjv",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Belmont Park",
     "country": "United States Of America",
     "venue": "UBS Arena",
@@ -155909,7 +155890,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-elmont-ubs-arena-2-12-2027--concerts-rb/production/7621358",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-belmont-park-new-york-02-12-2027/event/30006536FD148981",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -155953,7 +155934,7 @@
     "id": "tm-fantasia-2027-atlantic-city-vv1aezkfmgkegjgo6",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Atlantic City",
     "country": "United States Of America",
     "venue": "Boardwalk Hall",
@@ -155965,7 +155946,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-atlantic-city-boardwalk-hall-2-13-2027/production/7620565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlantic-city-new-jersey-02-13-2027/event/02006537B598C447",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156029,7 +156010,7 @@
     "id": "tm-fantasia-2027-new-orleans-g5viz_k6css2k",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton & October London: The Love of Soul Tour",
     "city": "New Orleans",
     "country": "United States Of America",
     "venue": "Smoothie King Center",
@@ -156041,7 +156022,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-new-orleans-smoothie-king-center-2-19-2027/production/7620697",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-new-orleans-louisiana-02-19-2027/event/1B006531CEC733D3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156109,7 +156090,7 @@
     "id": "tm-fantasia-2027-biloxi-g5viz_kxokyjj",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Biloxi",
     "country": "United States Of America",
     "venue": "Mississippi Coast Coliseum",
@@ -156121,7 +156102,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-biloxi-mississippi-coast-coliseum-2-20-2027--concerts-rb/production/7621374",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-biloxi-mississippi-02-20-2027/event/1B006538911B999C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156181,7 +156162,7 @@
     "id": "tm-fantasia-2027-ontario-vv1aazkfzgketkqbz",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Ontario",
     "country": "United States Of America",
     "venue": "Toyota Arena",
@@ -156193,7 +156174,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-ontario-toyota-arena---ca-3-5-2027--concerts-rb/production/7621376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-ontario-california-03-05-2027/event/09006538BF19D600",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156261,7 +156242,7 @@
     "id": "tm-fantasia-2027-oakland-g5vyz_krz5jaf",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Oakland",
     "country": "United States Of America",
     "venue": "Oakland Arena",
@@ -156273,7 +156254,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-oakland-oakland-arena-3-6-2027/production/7621690",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-oakland-california-03-06-2027/event/1C006537B82E6148",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156330,7 +156311,7 @@
     "id": "tm-fantasia-2027-fort-worth-vvg1yz_kbtlwh3",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Fort Worth",
     "country": "United States Of America",
     "venue": "Ariat Arena",
@@ -156342,7 +156323,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-fort-worth-texas-03-13-2027/event/0C0065363F7FDF12",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156410,7 +156391,7 @@
     "id": "tm-fantasia-2027-atlanta-vvg1zz_kqs5ty6",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Atlanta",
     "country": "United States Of America",
     "venue": "State Farm Arena",
@@ -156422,7 +156403,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-atlanta-state-farm-arena-3-26-2027--concerts-rb/production/7621388",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlanta-georgia-03-26-2027/event/0E006536B12E9C07",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156562,7 +156543,7 @@
     "id": "tm-fantasia-2027-saint-louis-vv17bz_3gktv8xq0",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Saint Louis",
     "country": "United States Of America",
     "venue": "Enterprise Center",
@@ -156574,7 +156555,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-saint-louis-missouri-04-09-2027/event/0600652FF4422764",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156618,7 +156599,7 @@
     "id": "tm-fantasia-2027-southaven-g5viz_krb7nuq",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Southaven",
     "country": "United States Of America",
     "venue": "Landers Center",
@@ -156630,7 +156611,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-southaven-landers-center-4-10-2027/production/7620711",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-southaven-mississippi-04-10-2027/event/1B0065379812A35A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156690,7 +156671,7 @@
     "id": "tm-fantasia-2027-jacksonville-1axzkfwgkeynp6z",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Jacksonville",
     "country": "United States Of America",
     "venue": "VyStar Veterans Memorial Arena",
@@ -156702,7 +156683,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-jacksonville-vystar-veterans-memorial-arena-4-16-2027--concerts-rb/production/7621400",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-jacksonville-florida-04-16-2027/event/22006532B98E51F8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156762,7 +156743,7 @@
     "id": "tm-fantasia-2027-hollywood-vvg1vz_k9lsilt",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Hollywood",
     "country": "United States Of America",
     "venue": "Hard Rock Live",
@@ -156774,7 +156755,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-4-17-2027--concerts-rb/production/7621402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-hollywood-florida-04-17-2027/event/0D006535EBCEC7FF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156842,7 +156823,7 @@
     "id": "tm-fantasia-2027-phoenix-1a_zkfmgke0qgen",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Phoenix",
     "country": "United States Of America",
     "venue": "Mortgage Matchup Center",
@@ -156854,7 +156835,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-phoenix-mortgage-matchup-center-4-23-2027--concerts-rb/production/7621404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-phoenix-arizona-04-23-2027/event/19006537A46B50A3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156914,7 +156895,7 @@
     "id": "tm-fantasia-2027-charlotte-g5evz_k5a0ajy",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Charlotte",
     "country": "United States Of America",
     "venue": "Spectrum Center",
@@ -156926,7 +156907,7 @@
     "vividseats_url": "https://www.vividseats.com/the-art-of-love-and-soul-tickets-charlotte-spectrum-center-5-7-2027/production/7621606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-charlotte-north-carolina-05-07-2027/event/2D006532C59099B9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156994,7 +156975,7 @@
     "id": "tm-fantasia-2027-raleigh-g5evz_kx4nbzb",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Raleigh",
     "country": "United States Of America",
     "venue": "Lenovo Center",
@@ -157006,7 +156987,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-tickets-raleigh-lenovo-center-5-8-2027--concerts-dance-electronica/production/7621653",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-raleigh-north-carolina-05-08-2027/event/2D00653895A98E3A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -157066,7 +157047,7 @@
     "id": "tm-fantasia-2027-chicago-vv1a7zkfugkdbhxkp",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
@@ -157078,7 +157059,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-chicago-united-center-5-14-2027/production/7620703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-chicago-illinois-05-14-2027/event/04006536FA6FE196",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -157146,7 +157127,7 @@
     "id": "tm-fantasia-2027-detroit-vv1afzkfsgkdkxfme",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Detroit",
     "country": "United States Of America",
     "venue": "Little Caesars Arena",
@@ -157158,7 +157139,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-detroit-little-caesars-arena-5-15-2027--concerts-rb/production/7621413",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-detroit-michigan-05-15-2027/event/08006533C6F88B82",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -157226,7 +157207,7 @@
     "id": "tm-fantasia-2027-providence-vv1avzkfygkdtqjz9",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Providence",
     "country": "United States Of America",
     "venue": "Amica Mutual Pavilion",
@@ -157238,7 +157219,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-providence-amica-mutual-pavilion-5-21-2027--concerts-rb/production/7621417",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-providence-rhode-island-05-21-2027/event/01006530E96A6017",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -157298,7 +157279,7 @@
     "id": "tm-fantasia-2027-newark-vv1aezkfugke-q6sn",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Newark",
     "country": "United States Of America",
     "venue": "Prudential Center",
@@ -157310,7 +157291,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-newark-prudential-center-5-22-2027--concerts-rb/production/7621441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-newark-new-jersey-05-22-2027/event/02006536A1747C63",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -165513,7 +165494,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-anaheim-grove-of-anaheim-11-10-2026--concerts-rock/production/7170028",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-anaheim-california-11-10-2026/event/090064CBEC8A18D7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -165566,11 +165547,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056808",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056808/Daughtry-tickets-Tue-Nov-10-2026-DigAlert-Grove-of-Anaheim",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T17:00:00Z",
-        "end": "2026-11-04T06:00:00Z"
-      },
       {
         "name": "$20 tix",
         "start": "2026-10-07T17:00:00Z",
@@ -238044,7 +238020,7 @@
     "vividseats_url": "https://www.vividseats.com/the-eagles-tickets-las-vegas-sphere-at-the-venetian-resort-11-13-2026--concerts-adult-contemporary/production/6981865",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-13-2026/event/17006484FED11E2C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -238101,13 +238077,6 @@
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXVozi",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "On The List VIP Package Onsale",
-        "start": "2026-05-15T17:00:00Z",
-        "end": "2026-11-04T06:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930155/The-Eagles-tickets-Fri-Nov-13-2026-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-11-13-2026/event/107162527",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930155",
@@ -240692,7 +240661,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-anaheim-honda-center-11-24-2026--concerts-rock/production/7022141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -240750,11 +240719,6 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-15T17:00:00Z",
-        "end": "2026-11-04T01:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-05-15T17:00:00Z",
@@ -278219,7 +278183,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961637"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961637",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-katseye-2026-chicago-vvg18z_1mip6i3",
@@ -280244,7 +280209,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-mountain-view-california-11-07-2026/event/1C0064AF6B5C5F07",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280282,13 +280247,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-22T17:00:00Z",
-        "end": "2026-11-03T20:00:00Z"
-      }
     ]
   },
   {
@@ -287554,7 +287512,7 @@
     "city": "Sacramento",
     "country": "United States Of America",
     "venue": "Golden 1 Center",
-    "datetime_iso": "2026-11-08T04:00:00Z",
+    "datetime_iso": "2027-02-22T04:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1C00652BA1D6AEB7",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-sacramento-california-11-07-2026/event/1C00652BA1D6AEB7",
@@ -287562,7 +287520,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-sacramento-california-11-07-2026/event/1C00652BA1D6AEB7",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -287624,15 +287582,10 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-09-18T17:00:00Z",
-        "end": "2026-11-03T20:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-11-08T04:00:00Z",
+    "previous_start_timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-karan-aujla-2026-los-angeles-g5eyz_3lgqzvb",
@@ -287642,7 +287595,7 @@
     "city": "Los Angeles",
     "country": "United States Of America",
     "venue": "Crypto.com Arena",
-    "datetime_iso": "2026-11-10T04:00:00Z",
+    "datetime_iso": "2027-02-20T04:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "2C00652AF5740D18",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-los-angeles-california-11-09-2026/event/2C00652AF5740D18",
@@ -287650,7 +287603,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-los-angeles-california-11-09-2026/event/2C00652AF5740D18",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -287720,7 +287673,9 @@
       }
     ],
     "ticketnetwork_url": "",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-11-10T04:00:00Z",
+    "previous_start_timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-karan-aujla-2026-dallas-vvg1yz_3r_e2at",
@@ -287730,15 +287685,15 @@
     "city": "Dallas",
     "country": "United States Of America",
     "venue": "American Airlines Center",
-    "datetime_iso": "2026-11-14T02:00:00Z",
+    "datetime_iso": "2027-02-04T02:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0C00652BD99CF27F",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-dallas-texas-11-13-2026/event/0C00652BD99CF27F",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-dallas-american-airlines-center---tx-11-13-2026/production/7557614",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-dallas-texas-11-13-2026/event/0C00652BD99CF27F",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -287757,11 +287712,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7557614,
-        "url": "https://www.vividseats.com/karan-aujla-tickets-dallas-american-airlines-center---tx-11-13-2026/production/7557614",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "stubhub": {
         "event_id": null,
@@ -287778,11 +287733,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107669422",
-        "url": "https://www.stubhub.ie/karan-aujla-dallas-tickets-11-13-2026/event/107669422",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -287796,7 +287751,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-dallas-tickets-11-13-2026/event/107669422",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -287804,11 +287759,13 @@
       {
         "name": "VIP Packages Onsale",
         "start": "2026-09-18T15:00:00Z",
-        "end": "2026-11-09T18:00:00Z"
+        "end": "2027-01-30T18:00:00Z"
       }
     ],
     "ticketnetwork_url": "",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-11-14T02:00:00Z",
+    "previous_start_timezone": "America/Chicago"
   },
   {
     "id": "tm-karan-aujla-2026-atlanta-vvg1zz_3myjgwo",
@@ -287818,15 +287775,15 @@
     "city": "Atlanta",
     "country": "United States Of America",
     "venue": "State Farm Arena",
-    "datetime_iso": "2026-11-17T01:00:00Z",
+    "datetime_iso": "2027-02-12T01:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0E00652BB098CCA0",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-atlanta-georgia-11-16-2026/event/0E00652BB098CCA0",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-atlanta-state-farm-arena-11-16-2026/production/7557616",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-atlanta-georgia-11-16-2026/event/0E00652BB098CCA0",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -287845,11 +287802,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7557616,
-        "url": "https://www.vividseats.com/karan-aujla-tickets-atlanta-state-farm-arena-11-16-2026/production/7557616",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "stubhub": {
         "event_id": null,
@@ -287866,11 +287823,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107668599",
-        "url": "https://www.stubhub.ie/karan-aujla-atlanta-tickets-11-16-2026/event/107668599",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -287884,7 +287841,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-atlanta-tickets-11-16-2026/event/107668599",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -287892,11 +287849,13 @@
       {
         "name": "VIP Packages Onsale",
         "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-12T17:00:00Z"
+        "end": "2027-02-07T17:00:00Z"
       }
     ],
     "ticketnetwork_url": "",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-11-17T01:00:00Z",
+    "previous_start_timezone": "America/New_York"
   },
   {
     "id": "tm-karan-aujla-2026-new-york-g5diz_3ivacnr",
@@ -287906,15 +287865,15 @@
     "city": "New York",
     "country": "United States Of America",
     "venue": "Madison Square Garden",
-    "datetime_iso": "2026-11-19T01:00:00Z",
+    "datetime_iso": "2027-02-09T01:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "3B00652A0114E8EF",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-new-york-new-york-11-18-2026/event/3B00652A0114E8EF",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-new-york-madison-square-garden-11-18-2026/production/7557632",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-new-york-new-york-11-18-2026/event/3B00652A0114E8EF",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -287933,11 +287892,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7557632,
-        "url": "https://www.vividseats.com/karan-aujla-tickets-new-york-madison-square-garden-11-18-2026/production/7557632",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "stubhub": {
         "event_id": null,
@@ -287954,11 +287913,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107669421",
-        "url": "https://www.stubhub.ie/karan-aujla-new-york-tickets-11-18-2026/event/107669421",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -287972,7 +287931,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-new-york-tickets-11-18-2026/event/107669421",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -287980,16 +287939,18 @@
       {
         "name": "VIP Packages",
         "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-14T17:00:00Z"
+        "end": "2027-02-04T17:00:00Z"
       },
       {
         "name": "Chase Cardholder Preferred Tickets",
         "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-19T02:00:00Z"
+        "end": "2027-02-09T02:00:00Z"
       }
     ],
     "ticketnetwork_url": "",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-11-19T01:00:00Z",
+    "previous_start_timezone": "America/New_York"
   },
   {
     "id": "tm-karan-aujla-2026-washington-1a4zkftgkdhkud5",
@@ -287999,15 +287960,15 @@
     "city": "Washington",
     "country": "United States Of America",
     "venue": "Capital One Arena",
-    "datetime_iso": "2026-11-21T01:00:00Z",
+    "datetime_iso": "2027-02-07T01:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "15006529DB4CD0CB",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-washington-district-of-columbia-11-20-2026/event/15006529DB4CD0CB",
-    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/washington-district-of-columbia-capital-one-arena-2026-11-20-8-pm/concert/18592289",
-    "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-washington-capital-one-arena-11-20-2026/production/7557628",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-washington-district-of-columbia-11-20-2026/event/15006529DB4CD0CB",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -288019,18 +287980,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18592289,
-        "url": "https://seatgeek.com/karan-aujla-tickets/washington-district-of-columbia-capital-one-arena-2026-11-20-8-pm/concert/18592289",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7557628,
-        "url": "https://www.vividseats.com/karan-aujla-tickets-washington-capital-one-arena-11-20-2026/production/7557628",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "stubhub": {
         "event_id": null,
@@ -288047,11 +288008,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107668604",
-        "url": "https://www.stubhub.ie/karan-aujla-washington-tickets-11-20-2026/event/107668604",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -288065,7 +288026,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-washington-tickets-11-20-2026/event/107668604",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -288077,7 +288038,9 @@
       }
     ],
     "ticketnetwork_url": "",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-11-21T01:00:00Z",
+    "previous_start_timezone": "America/New_York"
   },
   {
     "id": "tm-jack-johnson-2026-brisbane-1k7yv0jtgaugdpl",
@@ -297009,7 +296972,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/treaty-oak-revival-west-texas-degenerate-the-woodlands-texas-11-13-2026/event/3A0064A5858D635A",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -297047,13 +297010,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-15T15:00:00Z",
-        "end": "2026-11-03T23:00:00Z"
-      }
     ]
   },
   {
@@ -303169,7 +303125,7 @@
     "vividseats_url": "https://www.vividseats.com/jon-pardi-tickets-peoria-peoria-civic-center---carver-arena-11-13-2026--concerts-country-and-folk/production/7320595",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-peoria-illinois-11-13-2026/event/070064E9B90D2B09",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -303220,7 +303176,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149216",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149216/Jon-Pardi-tickets-Fri-Nov-13-2026-Carver-Arena-At-Peoria-Civic-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149216/Jon-Pardi-tickets-Fri-Nov-13-2026-Carver-Arena-At-Peoria-Civic-Center",
+    "presales": [
+      {
+        "name": "Side View/ Obstructed View Seats",
+        "start": "2026-11-03T22:15:00Z",
+        "end": "2026-11-14T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jon-pardi-2026-independence-vvg1bz_cu03zzw",
@@ -307419,7 +307382,7 @@
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-charlotte-ovens-auditorium-11-7-2026--concerts-country-and-folk/production/7132527",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-charlotte-north-carolina-11-07-2026/event/2D0064C2DB2CCA17",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -307473,13 +307436,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034499/Little-Big-Town-tickets-Sat-Nov-7-2026-Ovens-Auditorium",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-12T14:00:00Z",
-        "end": "2026-11-04T03:00:00Z"
-      }
     ]
   },
   {
@@ -318095,7 +318051,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/katseye-the-wildworld-tour-auckland-05-03-2027/event/2400655BE73C411D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -318142,7 +318098,7 @@
         "end": "2026-11-04T22:00:00Z"
       },
       {
-        "name": "Westpac NZ Mastercard Presale",
+        "name": "Mastercard Presale",
         "start": "2026-11-04T01:00:00Z",
         "end": "2026-11-05T01:00:00Z"
       }
@@ -329921,7 +329877,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-las-vegas-allegiant-stadium-5-21-2027--concerts-pop/production/7773130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-las-vegas-nevada-05-21-2027/event/1700655BEE9D1DA4",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -329992,9 +329948,24 @@
         "end": "2026-11-11T07:59:00Z"
       },
       {
+        "name": "Artist Presale VIP Packages",
+        "start": "2026-11-10T20:00:00Z",
+        "end": "2026-11-11T07:59:00Z"
+      },
+      {
         "name": "Reserved by Spotify",
         "start": "2026-11-11T17:00:00Z",
         "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T20:00:00Z",
+        "end": "2027-05-08T05:00:00Z"
       }
     ]
   },
@@ -330389,7 +330360,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-east-rutherford-metlife-stadium-6-18-2027--concerts-pop/production/7773195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-18-2027/event/0000655BA74A5861",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -330458,6 +330429,11 @@
       },
       {
         "name": "Artist Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-11T04:59:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Packages",
         "start": "2026-11-10T17:00:00Z",
         "end": "2026-11-11T04:59:00Z"
       },
@@ -331260,7 +331236,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-pokolbin-17-10-2027/event/1300655384931DF0",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -331295,8 +331271,7 @@
     },
     "ticketmaster_discovery_event_id": "1avGZ_4C70sZdC8v",
     "timezone": "Australia/Sydney",
-    "status": "announced",
-    "public_onsale_at": "2026-11-04T00:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "FACE TO FACE TOURING"
     ]
@@ -344919,7 +344894,7 @@
     "id": "tm-kings-of-leon-2027-hamburg-z698xzc2z1kjifpz9",
     "artist_slug": "kings-of-leon",
     "artist_name": "Kings Of Leon",
-    "event_name": "Kings Of Leon 2027",
+    "event_name": "Kings Of Leon - World Tour",
     "city": "Hamburg",
     "country": "Germany",
     "venue": "Barclays Arena",
@@ -344931,7 +344906,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/kings-of-leon-2027-tickets/728525017?language=en-us",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-04",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -346320,7 +346295,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-pittsburgh-citizens-live-at-the-wylie-11-7-2026/production/6810223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-pittsburgh-pennsylvania-11-07-2026/event/1600646F733B1EC1",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -346374,18 +346349,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827443/Sting-tickets-Sat-Nov-7-2026-Citizens-Live-at-The-Wylie",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-27T14:00:00Z",
-        "end": "2026-11-03T17:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-03-27T14:00:00Z",
-        "end": "2026-11-04T03:00:00Z"
-      }
     ]
   },
   {
@@ -352537,7 +352500,7 @@
     "vividseats_url": "https://www.vividseats.com/shania-twain-tickets-scarborough-scarborough-open-air-theatre-6-16-2027/production/7797147",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-scarborough-16-06-2027/event/35006536D1E99CB6",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -352580,13 +352543,18 @@
     ],
     "presales": [
       {
-        "name": "Artist Presale",
+        "name": "Album Presale",
         "start": "2026-11-04T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       },
       {
         "name": "Priority from O2 Presale",
         "start": "2026-11-04T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       },
       {
@@ -352708,7 +352676,7 @@
     "vividseats_url": "https://www.vividseats.com/shania-twain-tickets-cardiff-blackweir-fields-6-22-2027/production/7797143",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-cardiff-22-06-2027/event/1F006537E676687B",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -352751,7 +352719,7 @@
     ],
     "presales": [
       {
-        "name": "Artist Presale",
+        "name": "Album Presale",
         "start": "2026-11-04T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       },
@@ -352998,7 +352966,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-woodstock-29-06-2027/event/37006545C63E58FF",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -353037,11 +353005,12 @@
     "public_onsale_at": "2026-11-06T09:00:00Z",
     "organizer_names": [
       "MARI",
-      "PWR EVENTS"
+      "PWR EVENTS",
+      "CUFFE & TAYLOR (NEW)"
     ],
     "presales": [
       {
-        "name": "Artist Presale",
+        "name": "Album Presale",
         "start": "2026-11-04T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       },
@@ -353056,17 +353025,27 @@
         "end": "2026-11-06T08:00:00Z"
       },
       {
+        "name": "Blenheim Palace Sign Ups Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
         "name": "Cuffe & Taylor Presale",
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       },
       {
-        "name": "Ticketmaster Presale",
+        "name": "Live Nation Presale",
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       },
       {
-        "name": "Venue Presale",
+        "name": "Mari Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       }
@@ -354406,7 +354385,7 @@
     "vividseats_url": "https://www.vividseats.com/rawayana-tickets-chicago-byline-bank-aragon-ballroom-11-7-2026--concerts-pop/production/6791757",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-chicago-illinois-11-07-2026/event/0400646BC9C67504",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -354468,13 +354447,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/rawayana-chicago-tickets-11-7-2026/event/107482968",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-19T15:00:00Z",
-        "end": "2026-11-03T18:00:00Z"
-      }
     ]
   },
   {
@@ -355199,7 +355171,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-saint-louis-missouri-11-04-2026/event/060064F7A46A9F46",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -355239,11 +355211,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Scary Good Sale",
-        "start": "2026-10-09T15:00:00Z",
-        "end": "2026-11-04T05:59:00Z"
-      },
       {
         "name": "ScaryGood Sale",
         "start": "2026-10-23T18:00:00Z",
@@ -355483,7 +355450,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-cincinnati-andrew-j-brady-music-center-11-10-2026/production/7353259",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-cincinnati-ohio-11-10-2026/event/160064F6ABE57A02",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -355529,13 +355496,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167869",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T14:00:00Z",
-        "end": "2026-11-04T04:55:00Z"
-      }
     ]
   },
   {
@@ -360035,7 +359995,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-austin-moody-center-atx-2-6-2027--concerts-pop/production/7792640",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-austin-texas-02-06-2027/event/3A00655DA08671F8",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -360098,9 +360058,29 @@
         "end": "2026-11-05T18:00:00Z"
       },
       {
+        "name": "Artist Presale VIP Packages",
+        "start": "2026-11-05T16:00:00Z",
+        "end": "2026-11-06T04:00:00Z"
+      },
+      {
+        "name": "Capital One Cardholder Presale",
+        "start": "2026-11-05T19:00:00Z",
+        "end": "2026-11-06T04:00:00Z"
+      },
+      {
         "name": "Capital One Presale",
         "start": "2026-11-05T19:00:00Z",
         "end": "2026-11-06T04:00:00Z"
+      },
+      {
+        "name": "Capital One VIP Packages Presale",
+        "start": "2026-11-05T19:00:00Z",
+        "end": "2026-11-06T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-06T16:00:00Z",
+        "end": "2027-02-02T18:00:00Z"
       }
     ]
   },
@@ -360188,7 +360168,7 @@
     "city": "Milwaukee",
     "country": "United States Of America",
     "venue": "BMO Pavilion",
-    "datetime_iso": "2027-06-26T00:00:00Z",
+    "datetime_iso": "2027-06-26T01:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0700655EE80C1262",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-milwaukee-wisconsin-06-25-2027/event/0700655EE80C1262",
@@ -360196,7 +360176,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-milwaukee-wisconsin-06-25-2027/event/0700655EE80C1262",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -360550,7 +360530,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-cincinnati-the-farmer-music-center-6-24-2027--concerts-country-and-folk/production/7794897",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-cincinnati-ohio-06-24-2027/event/160065579ED978B7",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -360611,11 +360591,6 @@
         "name": "Global Poverty project",
         "start": "2026-11-02T15:00:00Z",
         "end": "2027-06-17T13:00:00Z"
-      },
-      {
-        "name": "Back 40 Duck Club VIP Packages Presale",
-        "start": "2026-11-03T15:00:00Z",
-        "end": "2026-11-04T03:00:00Z"
       },
       {
         "name": "Back 40 Duck Club Presale",
@@ -360834,7 +360809,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-fort-worth-ariat-arena-2-13-2027/production/7794885",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-fort-worth-texas-02-13-2027/event/0C00655EAEA97F67",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -360892,6 +360867,11 @@
         "name": "Presales",
         "start": "2026-11-04T17:00:00Z",
         "end": "2026-11-05T16:45:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-05T17:00:00Z",
+        "end": "2027-02-12T23:00:00Z"
       }
     ]
   },
@@ -361344,7 +361324,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-seattle-wamu-theater---seattle-5-21-2027/production/7794956",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-seattle-washington-05-21-2027/event/0F00655E394938A0",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -361415,6 +361395,11 @@
         "name": "VIP Package Presale",
         "start": "2026-11-04T17:00:00Z",
         "end": "2026-11-05T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-05T17:00:00Z",
+        "end": "2027-05-21T00:00:00Z"
       }
     ]
   },
@@ -361840,7 +361825,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/interpol-london-04-12-2026/event/37006562CF0652B5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -361876,7 +361861,17 @@
     "ticketmaster_discovery_event_id": "1AMZk4xGkd2vP1g",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "presales": [
+      {
+        "name": "Interpol Past Bookers Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-london-g5vhz_4d3nbns",
@@ -362213,7 +362208,7 @@
     "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-dodge-city-united-wireless-arena-11-13-2026/production/7227855",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gary-allan-dodge-city-kansas-11-13-2026/event/060064CF976F7850",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -362264,7 +362259,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8091895",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8091895/Gary-Allan-tickets-Fri-Nov-13-2026-United-Wireless-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8091895/Gary-Allan-tickets-Fri-Nov-13-2026-United-Wireless-Arena",
+    "organizer_names": [
+      "VENUWORKS CORPORATE"
+    ]
   },
   {
     "id": "tm-gary-allan-2026-lake-charles-z7r9jz1aazdcb",
@@ -362636,7 +362634,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gary-allan-tysons-virginia-02-18-2027/event/150064B6EA64D5B0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -362687,7 +362685,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8181666",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8181666/Gary-Allan-tickets-Thu-Feb-18-2027-Capital-One-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8181666/Gary-Allan-tickets-Thu-Feb-18-2027-Capital-One-Hall",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-gary-allan-2027-greensboro-g5evz_89x5mox",
@@ -362843,7 +362842,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gary-allan-peoria-illinois-03-13-2027/event/070064D610778C1E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -362894,7 +362893,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135902",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135902/Gary-Allan-tickets-Sat-Mar-13-2027-Prairie-Home-Alliance-Theater-At-Peoria-Civic-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135902/Gary-Allan-tickets-Sat-Mar-13-2027-Prairie-Home-Alliance-Theater-At-Peoria-Civic-Center",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-mon-laferte-2026-salt-lake-city-z7r9jz1a70v_v",
@@ -363042,7 +363042,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mon-laferte-femme-fatale-tour-san-jose-california-11-06-2026/event/1C00646B944392BB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363077,7 +363077,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_kmf8y1D",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mon-laferte-2026-inglewood-vv170z_kgksmomdw",
@@ -363095,7 +363098,7 @@
     "vividseats_url": "https://www.vividseats.com/mon-laferte-tickets-inglewood-kia-forum-11-7-2026/production/6822796",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mon-laferte-femme-fatale-tour-inglewood-california-11-07-2026/event/0900646CEE46EEFD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363154,7 +363157,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827830",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827830/Mon-Laferte-tickets-Sat-Nov-7-2026-The-Kia-Forum",
-    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-7-2026/event/107151207"
+    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-7-2026/event/107151207",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mon-laferte-2026-inglewood-vvg10z_gloruht",
@@ -363172,7 +363178,7 @@
     "vividseats_url": "https://www.vividseats.com/mon-laferte-tickets-inglewood-kia-forum-11-8-2026--concerts-rock/production/7164376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mon-laferte-femme-fatale-tour-inglewood-california-11-08-2026/event/090064C7E0BCDF3F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363231,7 +363237,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8055342",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8055342/Mon-Laferte-tickets-Sun-Nov-8-2026-The-Kia-Forum",
-    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-8-2026/event/107455665"
+    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-8-2026/event/107455665",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-18T17:00:00Z",
+        "end": "2026-11-04T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mon-laferte-2026-monterrey-17azv0g6cxrk0bt",
@@ -363249,7 +363265,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/mon-laferte-monterrey-16-11-2026/event/140064EF9E4E4EBF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363284,7 +363300,10 @@
     },
     "ticketmaster_discovery_event_id": "17AZv0G6CXrK0BT",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "OCESA"
+    ]
   },
   {
     "id": "tm-mon-laferte-2026-monterrey-17azv0g61m-mqwh",
@@ -363355,7 +363374,7 @@
     "vividseats_url": "https://www.vividseats.com/mon-laferte-tickets-madrid-movistar-arena---madrid-1-13-2027/production/7250274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/mon-laferte-tickets/1776378129?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -363398,7 +363417,10 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vqUuz7t",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-1-2027/event/107447688"
+    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-1-2027/event/107447688",
+    "organizer_names": [
+      "BERIN IGLESIAS S.L.U."
+    ]
   },
   {
     "id": "tm-mon-laferte-2027-brussels-z698xzg2z1kbx0fgb",
@@ -363416,7 +363438,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/mon-laferte-tickets/622908318",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -363452,7 +363474,10 @@
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kbx0FGb",
     "timezone": "Europe/Brussels",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z"
+    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "organizer_names": [
+      "Gracia Live"
+    ]
   },
   {
     "id": "tm-meshuggah-2027-toronto-1a8zk4fgkepjpte",
@@ -363470,7 +363495,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-toronto-coca-cola-coliseum-2-12-2027--concerts-hard-rock/production/7761483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/meshuggah-the-fortyyear-anomaly-w-testament-toronto-ontario-02-12-2027/event/10006554A59A5FE7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363505,7 +363530,13 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk4fGkePJPTE",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ]
   },
   {
     "id": "tm-meshuggah-2027-laval-1aszk4fgkdtnr8-",
@@ -363523,7 +363554,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-laval-place-bell-2-13-2027--concerts-hard-rock/production/7761485",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/meshuggah-the-fortyyear-anomaly-w-testament-laval-quebec-02-13-2027/event/31006554FFA9E421",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363582,7 +363613,13 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343260",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343260/Meshuggah-tickets-Sat-Feb-13-2027-Place-Bell",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-laval-tickets-2-13-2027/event/107678613"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-laval-tickets-2-13-2027/event/107678613",
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ]
   },
   {
     "id": "tm-meshuggah-2027-detroit-z7r9jz1aa7t8-",
@@ -363653,7 +363690,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-chicago-illinois-02-17-2027/event/04006557D6DFA6CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363688,7 +363725,17 @@
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk49GkdpMBhC",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-02-18T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-minneapolis-vv1akzk44gkdfvhxa",
@@ -363706,7 +363753,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-minneapolis-armory---minneapolis-2-19-2027--concerts-hard-rock/production/7761387",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-minneapolis-minnesota-02-19-2027/event/06006555C807CF89",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363765,7 +363812,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343230",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343230/Meshuggah-tickets-Fri-Feb-19-2027-The-Armory-Minneapolis",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-minneapolis-tickets-2-19-2027/event/107678622"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-minneapolis-tickets-2-19-2027/event/107678622",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-01-23T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-kansas-city-z7r9jz1aa7t8x",
@@ -363852,7 +363909,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-omaha-nebraska-02-21-2027/event/20006554E1CB7D0C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363903,7 +363960,17 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343233",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343233/Meshuggah-tickets-Sun-Feb-21-2027-Steelhouse-Omaha"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343233/Meshuggah-tickets-Sun-Feb-21-2027-Steelhouse-Omaha",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-01-25T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-saint-louis-1a-zk44gkdts0ox",
@@ -363921,7 +363988,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-saint-louis-missouri-02-23-2027/event/21006555FFC6447E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363956,7 +364023,17 @@
     },
     "ticketmaster_discovery_event_id": "1A-Zk44GkdTs0oX",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-01-28T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-nashville-g5viz_4l7rl-d",
@@ -363974,7 +364051,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-nashville-the-truth-2-24-2027--concerts-hard-rock/production/7761397",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-nashville-tennessee-02-24-2027/event/1B006557C47AB87B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364025,7 +364102,17 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343237",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343237/Meshuggah-tickets-Wed-Feb-24-2027-The-Truth"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343237/Meshuggah-tickets-Wed-Feb-24-2027-The-Truth",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-01-25T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-virginia-beach-vv1a8vp4dga5tbtb",
@@ -364043,7 +364130,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-virginia-beach-virginia-02-26-2027/event/010065543BA7AFFA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364094,7 +364181,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343238",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343238/Meshuggah-tickets-Fri-Feb-26-2027-The-Dome-by-Rutter-Mills"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343238/Meshuggah-tickets-Fri-Feb-26-2027-The-Dome-by-Rutter-Mills",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-01-30T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-baltimore-1a4zk4fgkdwfxtt",
@@ -364112,7 +364209,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-baltimore-the-paramount-baltimore-2-27-2027--concerts-hard-rock/production/7761407",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-baltimore-maryland-02-27-2027/event/15006554FD522A69",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364163,7 +364260,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343239",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343239/Meshuggah-tickets-Sat-Feb-27-2027-The-Paramount-Baltimore"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343239/Meshuggah-tickets-Sat-Feb-27-2027-The-Paramount-Baltimore",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-01-31T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-pittsburgh-1kaovp4oga2k8sn",
@@ -364181,7 +364288,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-pittsburgh-citizens-live-at-the-wylie-2-28-2027--concerts-hard-rock/production/7761411",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-pittsburgh-pennsylvania-02-28-2027/event/160065551F4D0CEA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364232,7 +364339,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343241",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343241/Meshuggah-tickets-Sun-Feb-28-2027-Citizens-Live-at-The-Wylie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343241/Meshuggah-tickets-Sun-Feb-28-2027-Citizens-Live-at-The-Wylie",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-02-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-philadelphia-vv1aezk44gkd2msbd",
@@ -364250,7 +364367,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-philadelphia-pennsylvania-03-02-2027/event/02006555CFBB3603",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364301,13 +364418,23 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343242",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343242/Meshuggah-tickets-Tue-Mar-2-2027-The-Met-Presented-by-Highmark"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343242/Meshuggah-tickets-Tue-Mar-2-2027-The-Met-Presented-by-Highmark",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-02-03T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-brooklyn-k7vgf_4lfqrel",
     "artist_slug": "meshuggah",
     "artist_name": "Meshuggah",
-    "event_name": "Meshuggah: The Forty-Year Anomaly w/ Testament & Blood Incantation",
+    "event_name": "WSOU Presents Meshuggah: The Forty-Year Anomaly",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Brooklyn Paramount",
@@ -364319,7 +364446,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-brooklyn-brooklyn-paramount-3-3-2027/production/7761319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-brooklyn-new-york-03-03-2027/event/00006557D476F09F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364378,7 +364505,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343243",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343243/Meshuggah-tickets-Wed-Mar-3-2027-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-brooklyn-tickets-3-3-2027/event/107678642"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-brooklyn-tickets-3-3-2027/event/107678642",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-02-04T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-boston-vv1a8vp4aga5ukxb",
@@ -364396,7 +364533,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-boston-mgm-music-hall-at-fenway-3-6-2027--concerts-hard-rock/production/7761417",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-boston-massachusetts-03-06-2027/event/010065549BD86898",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364455,7 +364592,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343244",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343244/Meshuggah-tickets-Sat-Mar-6-2027-MGM-Music-Hall-at-Fenway-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-boston-tickets-3-6-2027/event/107678606"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-boston-tickets-3-6-2027/event/107678606",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-02-07T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-vancouver-z7r9jz1aa7tay",
@@ -364550,7 +364697,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-portland-moda-center-4-16-2027--concerts-hard-rock/production/7761441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-portland-oregon-04-16-2027/event/0F00655583A6429E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364609,7 +364756,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343245",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343245/Meshuggah-tickets-Fri-Apr-16-2027-Moda-Center-at-the-Rose-Quarter",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-portland-tickets-4-16-2027/event/107678604"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-portland-tickets-4-16-2027/event/107678604",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-20T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-seattle-vvg1hz_4kkbgac",
@@ -364627,7 +364784,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-seattle-paramount-theatre-seattle-4-17-2027--concerts-hard-rock/production/7761443",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-seattle-washington-04-17-2027/event/0F006554D360C16D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364686,7 +364843,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343246",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343246/Meshuggah-tickets-Sat-Apr-17-2027-Paramount-Theatre-Seattle",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-seattle-tickets-4-17-2027/event/107678600"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-seattle-tickets-4-17-2027/event/107678600",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-21T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-salt-lake-city-g5vzz_4r3jsmh",
@@ -364704,7 +364871,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-salt-lake-city-the-union-event-center---salt-lake-city-4-19-2027--concerts-hard-rock/production/7761445",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-salt-lake-city-utah-04-19-2027/event/1E006557929B3B9B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364755,7 +364922,17 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343247",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343247/Meshuggah-tickets-Mon-Apr-19-2027-The-Union-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343247/Meshuggah-tickets-Mon-Apr-19-2027-The-Union-Event-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T16:00:00Z",
+        "end": "2027-03-23T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-morrison-z7r9jz1aa7e-0",
@@ -364773,7 +364950,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-morrison-red-rocks-amphitheatre-4-21-2027--concerts-hard-rock/production/7761316",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7E-0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -364832,7 +365009,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343226",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343226/Meshuggah-tickets-Wed-Apr-21-2027-Red-Rocks-Amphitheatre",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-morrison-tickets-4-21-2027/event/107678638"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-morrison-tickets-4-21-2027/event/107678638",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-meshuggah-2027-oakland-g5vyz_4hq7g_c",
@@ -364850,7 +365030,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-oakland-fox-theater-oakland-4-24-2027--concerts-hard-rock/production/7761447",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-tour-oakland-california-04-24-2027/event/1C006556DA10C66D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364909,7 +365089,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343248",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343248/Meshuggah-tickets-Sat-Apr-24-2027-Fox-Theater-Oakland",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-oakland-tickets-4-24-2027/event/107678644"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-oakland-tickets-4-24-2027/event/107678644",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ]
   },
   {
     "id": "tm-meshuggah-2027-inglewood-vvg1iz_4feeal9",
@@ -364927,7 +365110,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-inglewood-youtube-theater-4-25-2027--concerts-hard-rock/production/7761451",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-inglewood-california-04-25-2027/event/0A006555020897D7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364986,7 +365169,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343249",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343249/Meshuggah-tickets-Sun-Apr-25-2027-YouTube-Theater-at-Hollywood-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-inglewood-tickets-4-25-2027/event/107678605"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-inglewood-tickets-4-25-2027/event/107678605",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-29T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-phoenix-16_zk4bafza5uakd",
@@ -365004,7 +365197,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-phoenix-arizona-financial-theatre-4-27-2027--concerts-hard-rock/production/7761453",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-phoenix-arizona-04-27-2027/event/19006558148AC452",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365063,7 +365256,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343250",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343250/Meshuggah-tickets-Tue-Apr-27-2027-Arizona-Financial-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-phoenix-tickets-4-27-2027/event/107678646"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-phoenix-tickets-4-27-2027/event/107678646",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-31T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-houston-g5diz_48jqg5z",
@@ -365081,7 +365284,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-houston-bayou-music-center-4-30-2027--concerts-hard-rock/production/7761455",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-houston-texas-04-30-2027/event/3A006554266B52C0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365140,7 +365343,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343251",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343251/Meshuggah-tickets-Fri-Apr-30-2027-Bayou-Music-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-houston-tickets-4-30-2027/event/107678603"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-houston-tickets-4-30-2027/event/107678603",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-04-03T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-san-antonio-z7r9jz1aa7e0a",
@@ -365158,7 +365371,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-san-antonio-boeing-center-at-tech-port-5-1-2027--concerts-hard-rock/production/7761459",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7E0a",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -365217,7 +365430,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343252",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343252/Meshuggah-tickets-Sat-May-1-2027-Boeing-Center-at-Tech-Port",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-san-antonio-tickets-5-1-2027/event/107678624"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-san-antonio-tickets-5-1-2027/event/107678624",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-meshuggah-2027-oklahoma-city-z7r9jz1aa7izs",
@@ -365235,7 +365451,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7IZs",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -365270,7 +365486,10 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7IZs",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-meshuggah-2027-irving-vvg1yz_4faiuks",
@@ -365288,7 +365507,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-irving-pavilion-at-toyota-music-factory-5-4-2027/production/7761859",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-irving-texas-05-04-2027/event/0C00655505B0D4F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365347,7 +365566,17 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343254",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343254/Meshuggah-tickets-Tue-May-4-2027-The-Pavilion-at-Toyota-Music-Factory",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-irving-tickets-5-4-2027/event/107678631"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-irving-tickets-5-4-2027/event/107678631",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-04-07T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-new-orleans-g5viz_49c3t4b",
@@ -365365,7 +365594,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-new-orleans-fillmore-new-orleans-5-6-2027--concerts-hard-rock/production/7761463",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-new-orleans-louisiana-05-06-2027/event/1B006555CE4A9558",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365416,7 +365645,17 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343255",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343255/Meshuggah-tickets-Thu-May-6-2027-The-Fillmore-New-Orleans"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343255/Meshuggah-tickets-Thu-May-6-2027-The-Fillmore-New-Orleans",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-04-09T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-atlanta-vvg1zz_4ptwc--",
@@ -365434,7 +365673,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-atlanta-coca-cola-roxy-theatre-5-7-2027--concerts-hard-rock/production/7761465",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-atlanta-georgia-05-07-2027/event/0E006555BFF4E861",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365493,7 +365732,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343256",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343256/Meshuggah-tickets-Fri-May-7-2027-Coca-Cola-Roxy",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-atlanta-tickets-5-7-2027/event/107678609"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-atlanta-tickets-5-7-2027/event/107678609",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Aisle Seat Offer",
+        "start": "2026-10-27T16:00:00Z",
+        "end": "2027-05-07T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-04-08T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-fort-lauderdale-z7r9jz1aa7iax",
@@ -365511,7 +365765,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-fort-lauderdale-war-memorial-auditorium-fl-5-9-2027--concerts-hard-rock/production/7761471",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7IAx",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -365546,7 +365800,10 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7IAx",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-meshuggah-2027-greensboro-g5evz_4knt1ei",
@@ -365564,7 +365821,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-5-11-2027--concerts-hard-rock/production/7761479",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-greensboro-north-carolina-05-11-2027/event/2D006554EAA4A0AC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365615,7 +365872,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343258",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343258/Meshuggah-tickets-Tue-May-11-2027-Special-Events-Center-At-Greensboro-Complex"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343258/Meshuggah-tickets-Tue-May-11-2027-Special-Events-Center-At-Greensboro-Complex",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-04-14T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-warsaw-z698xzqpz1kgpab4t",
@@ -365633,7 +365900,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/meshuggah-the-forty-year-anomaly-w-periphery--vildhjarta-tickets/325258569?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -365669,7 +365936,27 @@
     "ticketmaster_discovery_event_id": "Z698xZQpZ1kGPab4t",
     "timezone": "Europe/Warsaw",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T11:00:00Z"
+    "public_onsale_at": "2026-11-06T11:00:00Z",
+    "organizer_names": [
+      "Live Nation sp. z o.o."
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-03T11:00:00Z",
+        "end": "2026-11-06T11:00:00Z"
+      },
+      {
+        "name": "Pekao Mastercard® Presale",
+        "start": "2026-11-04T11:00:00Z",
+        "end": "2026-11-06T11:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-05T11:00:00Z",
+        "end": "2026-11-06T10:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-dublin-1avoz_4gkwrafdq",
@@ -365687,7 +365974,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/meshuggah-the-forty-year-anomaly-dublin-27-10-2027/event/1800655CAF2540DD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365723,7 +366010,28 @@
     "ticketmaster_discovery_event_id": "1AvOZ_4GkwRafdq",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T11:00:00Z"
+    "public_onsale_at": "2026-11-06T11:00:00Z",
+    "organizer_names": [
+      "DME PROMOTIONS LTD",
+      "MCD PRODUCTIONS"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-03T11:00:00Z",
+        "end": "2026-11-06T10:00:00Z"
+      },
+      {
+        "name": "Three+ Presale",
+        "start": "2026-11-04T11:00:00Z",
+        "end": "2026-11-06T10:00:00Z"
+      },
+      {
+        "name": "MCD Presale",
+        "start": "2026-11-05T11:00:00Z",
+        "end": "2026-11-06T10:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-manchester-1adfz_4gkvdqmcy",
@@ -365741,7 +366049,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/meshuggah-the-fortyyear-anomaly-manchester-29-10-2027/event/3500655D036AE3B9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365777,7 +366085,24 @@
     "ticketmaster_discovery_event_id": "1AdfZ_4GkVdQmCy",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T11:00:00Z"
+    "public_onsale_at": "2026-11-06T11:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-03T11:00:00Z",
+        "end": "2026-11-06T10:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-04T11:00:00Z",
+        "end": "2026-11-06T10:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-05T11:00:00Z",
+        "end": "2026-11-06T10:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-meshuggah-2027-london-1adjz_4gkbbdf9c",
@@ -365795,7 +366120,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/meshuggah-the-fortyyear-anomaly-london-30-10-2027/event/3700655E980D45CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365831,7 +366156,14 @@
     "ticketmaster_discovery_event_id": "1AdjZ_4GkBbdf9C",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T11:00:00Z"
+    "public_onsale_at": "2026-11-06T11:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-03T11:00:00Z",
+        "end": "2026-11-06T10:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-seattle-vvg1hz_4ubjbln",
@@ -365849,7 +366181,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F00655DBA7187E3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365884,7 +366216,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4UBjbLN",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-pink-martini-2027-pittsburgh-z7r9jz1aavjpj",
@@ -366077,7 +366412,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-06-2026/event/1000655BD967F538",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -366113,7 +366448,10 @@
     "ticketmaster_discovery_event_id": "1AvZZ_4GkR__Tfz",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T15:00:00Z"
+    "public_onsale_at": "2026-11-06T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE (CANADA)"
+    ]
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-new-york-k7vgf_p5e9_go",

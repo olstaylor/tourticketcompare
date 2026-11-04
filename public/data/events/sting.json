@@ -257,7 +257,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-pittsburgh-citizens-live-at-the-wylie-11-7-2026/production/6810223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-pittsburgh-pennsylvania-11-07-2026/event/1600646F733B1EC1",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -311,18 +311,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827443/Sting-tickets-Sat-Nov-7-2026-Citizens-Live-at-The-Wylie",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-27T14:00:00Z",
-        "end": "2026-11-03T17:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-03-27T14:00:00Z",
-        "end": "2026-11-04T03:00:00Z"
-      }
     ]
   },
   {

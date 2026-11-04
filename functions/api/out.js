@@ -3688,6 +3688,62 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-omer-adam",
     redirectUrl: "https://seatgeek.com/omer-adam-tickets",
     verified: true
+  },
+  "chris-stassy:ticketmaster": {
+    artistSlug: "chris-stassy",
+    provider: "ticketmaster",
+    linkId: "tm-artist-chris-stassy",
+    redirectUrl: "https://www.ticketmaster.com/chris-stassy-tickets/artist/4638826",
+    verified: true
+  },
+  "chris-stassy:seatgeek": {
+    artistSlug: "chris-stassy",
+    provider: "seatgeek",
+    linkId: "sg-artist-chris-stassy",
+    redirectUrl: "https://seatgeek.com/chris-stussy-tickets",
+    verified: true
+  },
+  "gary-allan:ticketmaster": {
+    artistSlug: "gary-allan",
+    provider: "ticketmaster",
+    linkId: "tm-artist-gary-allan",
+    redirectUrl: "https://www.ticketmaster.com/gary-allan-tickets/artist/780718",
+    verified: true
+  },
+  "gary-allan:seatgeek": {
+    artistSlug: "gary-allan",
+    provider: "seatgeek",
+    linkId: "sg-artist-gary-allan",
+    redirectUrl: "https://seatgeek.com/gary-allan-tickets",
+    verified: true
+  },
+  "mon-laferte:ticketmaster": {
+    artistSlug: "mon-laferte",
+    provider: "ticketmaster",
+    linkId: "tm-artist-mon-laferte",
+    redirectUrl: "https://www.ticketmaster.com/mon-laferte-tickets/artist/2144574",
+    verified: true
+  },
+  "mon-laferte:seatgeek": {
+    artistSlug: "mon-laferte",
+    provider: "seatgeek",
+    linkId: "sg-artist-mon-laferte",
+    redirectUrl: "https://seatgeek.com/mon-laferte-tickets",
+    verified: true
+  },
+  "meshuggah:ticketmaster": {
+    artistSlug: "meshuggah",
+    provider: "ticketmaster",
+    linkId: "tm-artist-meshuggah",
+    redirectUrl: "https://www.ticketmaster.com/meshuggah-tickets/artist/847086",
+    verified: true
+  },
+  "meshuggah:seatgeek": {
+    artistSlug: "meshuggah",
+    provider: "seatgeek",
+    linkId: "sg-artist-meshuggah",
+    redirectUrl: "https://seatgeek.com/meshuggah-tickets",
+    verified: true
   }
 };
 

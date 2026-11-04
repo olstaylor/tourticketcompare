@@ -509,11 +509,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107417251",
-        "url": "https://www.stubhub.ie/sleeping-with-sirens-boston-tickets-11-3-2026/event/107417251",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8053941",
@@ -533,7 +533,7 @@
     "ticketmaster_discovery_event_id": "vvG17Z_GmBZ9_J",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-boston-tickets-11-3-2026/event/107417251",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053941/Sleeping-With-Sirens-tickets-Tue-Nov-3-2026-Citizens-House-Of-Blues-Boston",
     "organizer_names": [
       "LIVE NATION MUSIC"

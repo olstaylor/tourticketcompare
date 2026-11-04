@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-saint-louis-missouri-11-04-2026/event/060064F7A46A9F46",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -55,11 +55,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Scary Good Sale",
-        "start": "2026-10-09T15:00:00Z",
-        "end": "2026-11-04T05:59:00Z"
-      },
       {
         "name": "ScaryGood Sale",
         "start": "2026-10-23T18:00:00Z",
@@ -299,7 +294,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-cincinnati-andrew-j-brady-music-center-11-10-2026/production/7353259",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-cincinnati-ohio-11-10-2026/event/160064F6ABE57A02",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -345,13 +340,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167869",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T14:00:00Z",
-        "end": "2026-11-04T04:55:00Z"
-      }
     ]
   },
   {
@@ -577,7 +565,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B0064F2D4EC4AE4",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-bristol-virginia-11-15-2026/event/1B0064F2D4EC4AE4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/bristol-virginia-hard-rock-hotel-and-casino-bristol-2026-11-15-7-pm/concert/18407251",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-bristol-virginia-11-15-2026/event/1B0064F2D4EC4AE4",
@@ -593,11 +581,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407251,
+        "url": "https://seatgeek.com/jodeci-tickets/bristol-virginia-hard-rock-hotel-and-casino-bristol-2026-11-15-7-pm/concert/18407251",
+        "verified": true,
+        "last_verified_at": "2026-11-03",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

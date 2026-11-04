@@ -317,7 +317,7 @@
         "event_id": 18138848,
         "url": "https://seatgeek.com/los-tigres-del-norte-tickets/detroit-michigan-fox-theatre-detroit-2026-11-21-8-pm/concert/18138848",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -404,7 +404,7 @@
         "event_id": 18092532,
         "url": "https://seatgeek.com/los-tigres-del-norte-tickets/baltimore-maryland-cfg-bank-arena-2026-11-27-8-pm/concert/18092532",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -484,7 +484,7 @@
         "event_id": 18093247,
         "url": "https://seatgeek.com/los-tigres-del-norte-tickets/elmont-new-york-ubs-arena-2026-11-28-8-pm/concert/18093247",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -547,7 +547,7 @@
         "event_id": 18092545,
         "url": "https://seatgeek.com/los-tigres-del-norte-tickets/nashville-tennessee-bridgestone-arena-2026-12-04-8-pm/concert/18092545",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -634,7 +634,7 @@
         "event_id": 18092802,
         "url": "https://seatgeek.com/los-tigres-del-norte-tickets/birmingham-alabama-bjcc-concert-hall-2026-12-05-8-pm/concert/18092802",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -887,7 +887,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-fort-worth-ariat-arena-2-13-2027/production/7794885",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-fort-worth-texas-02-13-2027/event/0C00655EAEA97F67",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -945,6 +945,11 @@
         "name": "Presales",
         "start": "2026-11-04T17:00:00Z",
         "end": "2026-11-05T16:45:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-05T17:00:00Z",
+        "end": "2027-02-12T23:00:00Z"
       }
     ]
   },
@@ -1397,7 +1402,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-seattle-wamu-theater---seattle-5-21-2027/production/7794956",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-seattle-washington-05-21-2027/event/0F00655E394938A0",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1468,6 +1473,11 @@
         "name": "VIP Package Presale",
         "start": "2026-11-04T17:00:00Z",
         "end": "2026-11-05T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-05T17:00:00Z",
+        "end": "2027-05-21T00:00:00Z"
       }
     ]
   },

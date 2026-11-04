@@ -1257,7 +1257,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-anaheim-grove-of-anaheim-11-10-2026--concerts-rock/production/7170028",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-anaheim-california-11-10-2026/event/090064CBEC8A18D7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1310,11 +1310,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056808",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056808/Daughtry-tickets-Tue-Nov-10-2026-DigAlert-Grove-of-Anaheim",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T17:00:00Z",
-        "end": "2026-11-04T06:00:00Z"
-      },
       {
         "name": "$20 tix",
         "start": "2026-10-07T17:00:00Z",
@@ -1574,7 +1569,7 @@
         "event_id": 18632893,
         "url": "https://seatgeek.com/daughtry-tickets/pine-bluff-arkansas-saracen-casino-resort-2027-01-23-7-pm/concert/18632893",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1650,7 +1645,7 @@
         "event_id": 18632895,
         "url": "https://seatgeek.com/daughtry-tickets/orlando-florida-hard-rock-live-orlando-2027-01-27-7-pm/concert/18632895",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1726,7 +1721,7 @@
         "event_id": 18632898,
         "url": "https://seatgeek.com/daughtry-tickets/biloxi-mississippi-hard-rock-hotel-casino-biloxi-2027-01-30-7-pm/concert/18632898",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1786,7 +1781,7 @@
         "event_id": 18632897,
         "url": "https://seatgeek.com/daughtry-tickets/houston-texas-bayou-music-center-2027-01-31-8-pm/concert/18632897",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1865,7 +1860,7 @@
         "event_id": 18632905,
         "url": "https://seatgeek.com/daughtry-tickets/corpus-christi-texas-selena-auditorium-at-the-american-bank-center-2027-02-02-7-pm/concert/18632905",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3093,7 +3088,7 @@
         "event_id": 7625242,
         "url": "https://www.vividseats.com/daughtry-tickets-ventura-the-majestic-ventura-theater-2-6-2027--concerts-rock/production/7625242",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "stubhub": {

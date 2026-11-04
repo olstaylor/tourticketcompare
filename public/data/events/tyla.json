@@ -873,11 +873,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8164824",
-        "url": "https://www.ticketnetwork.com/en/p/8164824",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -897,7 +897,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_2qGZ489",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164824",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "",
     "stubhub_international_url": "",
     "presales": [
@@ -1182,7 +1182,7 @@
         "event_id": 18404308,
         "url": "https://seatgeek.com/tyla-tickets/toronto-canada-coca-cola-coliseum-2026-11-26-8-pm/concert/18404308",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2028,7 +2028,7 @@
         "event_id": 18404300,
         "url": "https://seatgeek.com/tyla-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-12-15-8-pm/concert/18404300",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2194,7 +2194,7 @@
         "event_id": 18404302,
         "url": "https://seatgeek.com/tyla-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-12-19-9-pm/concert/18404302",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2424,6 +2424,62 @@
     "status": "on-sale",
     "organizer_names": [
       "Showtime Management"
+    ]
+  },
+  {
+    "id": "tm-tyla-2026-seattle-vvg1hz_4ubjbln",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2026-11-18T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00655DBA7187E3",
+    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F00655DBA7187E3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F00655DBA7187E3",
+    "last_verified_at": "2026-11-04",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00655DBA7187E3",
+        "discovery_event_id": "vvG1HZ_4UBjbLN",
+        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F00655DBA7187E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_4UBjbLN",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
     ]
   }
 ]

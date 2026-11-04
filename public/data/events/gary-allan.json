@@ -336,13 +336,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678761",
+        "url": "https://www.stubhub.ie/gary-allan-las-vegas-tickets-12-4-2026/event/107678761",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvf1F",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8246442",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8246442/Gary-Allan-tickets-Fri-Dec-4-2026-The-Theatre-at-Resorts-World-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8246442/Gary-Allan-tickets-Fri-Dec-4-2026-The-Theatre-at-Resorts-World-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/gary-allan-las-vegas-tickets-12-4-2026/event/107678761"
   },
   {
     "id": "tm-gary-allan-2026-napa-g5vyz_3dfyx0l",

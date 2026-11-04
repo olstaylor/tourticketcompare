@@ -1452,6 +1452,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679055",
+        "url": "https://www.stubhub.ie/queens-of-the-stone-age-tickets-valencia-roig-arena-21-6-2027/event/107679055",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vFzvZrF",
@@ -1467,7 +1474,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-tickets-valencia-roig-arena-21-6-2027/event/107679055"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-pordenone-zg9rmiynyzfa6e",

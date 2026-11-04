@@ -1101,11 +1101,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106972102",
-        "url": "https://www.stubhub.ie/doja-cat-austin-tickets-11-3-2026/event/106972102",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7457635",
@@ -1119,7 +1119,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457635",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-austin-tickets-11-3-2026/event/106972102",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457635/Doja-Cat-tickets-Tue-Nov-3-2026-Moody-Center-ATX",
     "organizer_names": [
       "LIVE NATION MUSIC"

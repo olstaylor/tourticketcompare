@@ -113,13 +113,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155199",
+        "url": "https://www.stubhub.ie/mon-laferte-las-vegas-tickets-11-5-2026/event/107155199",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Sud",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827794",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827794/Mon-Laferte-tickets-Thu-Nov-5-2026-Pearl-Concert-Theater-At-Palms-Casino-Resort"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827794/Mon-Laferte-tickets-Thu-Nov-5-2026-Pearl-Concert-Theater-At-Palms-Casino-Resort",
+    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-las-vegas-tickets-11-5-2026/event/107155199"
   },
   {
     "id": "tm-mon-laferte-2026-san-jose-g5vyz_kmf8y1d",
@@ -235,13 +243,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107151207",
+        "url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-7-2026/event/107151207",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_kGkSmomDW",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827830",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827830/Mon-Laferte-tickets-Sat-Nov-7-2026-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827830/Mon-Laferte-tickets-Sat-Nov-7-2026-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-7-2026/event/107151207"
   },
   {
     "id": "tm-mon-laferte-2026-inglewood-vvg10z_gloruht",
@@ -304,13 +320,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107455665",
+        "url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-8-2026/event/107455665",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GLORuHT",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8055342",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8055342/Mon-Laferte-tickets-Sun-Nov-8-2026-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8055342/Mon-Laferte-tickets-Sun-Nov-8-2026-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-8-2026/event/107455665"
   },
   {
     "id": "tm-mon-laferte-2026-monterrey-17azv0g6cxrk0bt",
@@ -465,11 +489,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107447688",
+        "url": "https://www.stubhub.ie/mon-laferte-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-1-2027/event/107447688",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vqUuz7t",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-1-2027/event/107447688"
   },
   {
     "id": "tm-mon-laferte-2027-brussels-z698xzg2z1kbx0fgb",

@@ -1771,11 +1771,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107163016",
-        "url": "https://www.stubhub.ie/teddy-swims-salt-lake-city-tickets-11-3-2026/event/107163016",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x_ag",
@@ -1783,7 +1783,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883114",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883114/Teddy-Swims-tickets-Tue-Nov-3-2026-Delta-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-salt-lake-city-tickets-11-3-2026/event/107163016"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-seattle-vvg1hz_fujpiyp",

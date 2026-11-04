@@ -62,11 +62,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107325077",
-        "url": "https://www.stubhub.ie/motionless-in-white-raleigh-tickets-11-3-2026/event/107325077",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_5mdu9qp",
@@ -74,7 +74,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018445",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018445/Motionless-In-White-tickets-Tue-Nov-3-2026-Lenovo-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-raleigh-tickets-11-3-2026/event/107325077",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

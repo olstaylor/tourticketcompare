@@ -398,17 +398,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107667153",
-        "url": "https://www.stubhub.ie/stevie-wonder-tickets-london-the-o2-arena-3-11-2026/event/107667153",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkluZBFE",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-london-the-o2-arena-3-11-2026/event/107667153",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LNM - VIP NATION UK"
     ]

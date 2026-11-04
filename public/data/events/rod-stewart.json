@@ -2102,6 +2102,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679045",
+        "url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-15-5-2027/event/107679045",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfzGkdU5QOY",
@@ -2119,7 +2126,8 @@
         "start": "2026-11-05T10:00:00Z",
         "end": "2026-11-06T09:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-15-5-2027/event/107679045"
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1adbz_4gkmvnhoa",
@@ -2168,6 +2176,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679046",
+        "url": "https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-18-5-2027/event/107679046",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_4GkMVnHoA",
@@ -2198,6 +2213,7 @@
         "start": "2026-11-05T10:00:00Z",
         "end": "2026-11-06T09:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-18-5-2027/event/107679046"
   }
 ]

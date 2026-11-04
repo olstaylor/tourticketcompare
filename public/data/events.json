@@ -36655,11 +36655,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106972102",
-        "url": "https://www.stubhub.ie/doja-cat-austin-tickets-11-3-2026/event/106972102",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7457635",
@@ -36673,7 +36673,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457635",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-austin-tickets-11-3-2026/event/106972102",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457635/Doja-Cat-tickets-Tue-Nov-3-2026-Moody-Center-ATX",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -44851,7 +44851,7 @@
         "event_id": "107669953",
         "url": "https://www.stubhub.ie/metallica-uncasville-tickets-11-19-2026/event/107669953",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       }
     },
@@ -45004,7 +45004,7 @@
         "event_id": "107132084",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-28-2027/event/107132084",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       }
     },
@@ -45178,7 +45178,7 @@
         "event_id": "107133087",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-4-2027/event/107133087",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       }
     },
@@ -45352,7 +45352,7 @@
         "event_id": "107133091",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-18-2027/event/107133091",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       }
     },
@@ -45526,7 +45526,7 @@
         "event_id": "107133093",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-25-2027/event/107133093",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       }
     },
@@ -48241,11 +48241,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107163016",
-        "url": "https://www.stubhub.ie/teddy-swims-salt-lake-city-tickets-11-3-2026/event/107163016",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x_ag",
@@ -48253,7 +48253,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883114",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883114/Teddy-Swims-tickets-Tue-Nov-3-2026-Delta-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-salt-lake-city-tickets-11-3-2026/event/107163016"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-seattle-vvg1hz_fujpiyp",
@@ -137885,7 +137885,7 @@
         "event_id": "107132081",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-5-2026/event/107132081",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       }
     },
@@ -138132,7 +138132,7 @@
         "event_id": "107133097",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-4-2027/event/107133097",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       }
     },
@@ -138306,7 +138306,7 @@
         "event_id": "107133099",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-11-2027/event/107133099",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       }
     },
@@ -273427,17 +273427,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107667153",
-        "url": "https://www.stubhub.ie/stevie-wonder-tickets-london-the-o2-arena-3-11-2026/event/107667153",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkluZBFE",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-london-the-o2-arena-3-11-2026/event/107667153",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LNM - VIP NATION UK"
     ]
@@ -278197,11 +278197,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107169130",
-        "url": "https://www.stubhub.ie/katseye-detroit-tickets-11-3-2026/event/107169130",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7961637",
@@ -278215,7 +278215,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Tue-Nov-3-2026-Little-Caesars-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-detroit-tickets-11-3-2026/event/107169130",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -283117,11 +283117,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107410077",
-        "url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-2-2026/event/107410077",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7999841",
@@ -283141,7 +283141,7 @@
     "ticketmaster_discovery_event_id": "vvG10Z_5rA8fba",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-2-2026/event/107410077",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7999841/The-Chicks-tickets-Wed-Nov-4-2026-Dolby-Theatre",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -284932,11 +284932,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107417251",
-        "url": "https://www.stubhub.ie/sleeping-with-sirens-boston-tickets-11-3-2026/event/107417251",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8053941",
@@ -284956,7 +284956,7 @@
     "ticketmaster_discovery_event_id": "vvG17Z_GmBZ9_J",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-boston-tickets-11-3-2026/event/107417251",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053941/Sleeping-With-Sirens-tickets-Tue-Nov-3-2026-Citizens-House-Of-Blues-Boston",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -308619,7 +308619,7 @@
         "event_id": "107672199",
         "url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -352201,6 +352201,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679045",
+        "url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-15-5-2027/event/107679045",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfzGkdU5QOY",
@@ -352218,7 +352225,8 @@
         "start": "2026-11-05T10:00:00Z",
         "end": "2026-11-06T09:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-15-5-2027/event/107679045"
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1adbz_4gkmvnhoa",
@@ -352267,6 +352275,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679046",
+        "url": "https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-18-5-2027/event/107679046",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_4GkMVnHoA",
@@ -352297,7 +352312,8 @@
         "start": "2026-11-05T10:00:00Z",
         "end": "2026-11-06T09:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-18-5-2027/event/107679046"
   },
   {
     "id": "tm-role-model-2027-manchester-g5vhz_u1kkyot",
@@ -352426,6 +352442,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679055",
+        "url": "https://www.stubhub.ie/queens-of-the-stone-age-tickets-valencia-roig-arena-21-6-2027/event/107679055",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vFzvZrF",
@@ -352441,7 +352464,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-tickets-valencia-roig-arena-21-6-2027/event/107679055"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-pordenone-zg9rmiynyzfa6e",
@@ -353164,11 +353188,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107325077",
-        "url": "https://www.stubhub.ie/motionless-in-white-raleigh-tickets-11-3-2026/event/107325077",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_5mdu9qp",
@@ -353176,7 +353200,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018445",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018445/Motionless-In-White-tickets-Tue-Nov-3-2026-Lenovo-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-raleigh-tickets-11-3-2026/event/107325077",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -359978,11 +360002,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107672940",
-        "url": "https://www.stubhub.ie/omer-adam-brooklyn-tickets-11-3-2026/event/107672940",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4vGkdfUtKo",
@@ -359990,7 +360014,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8317986",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8317986/Omer-Adam-tickets-Tue-Nov-3-2026-Barclays-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/omer-adam-brooklyn-tickets-11-3-2026/event/107672940",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -362441,13 +362465,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678761",
+        "url": "https://www.stubhub.ie/gary-allan-las-vegas-tickets-12-4-2026/event/107678761",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvf1F",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8246442",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8246442/Gary-Allan-tickets-Fri-Dec-4-2026-The-Theatre-at-Resorts-World-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8246442/Gary-Allan-tickets-Fri-Dec-4-2026-The-Theatre-at-Resorts-World-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/gary-allan-las-vegas-tickets-12-4-2026/event/107678761"
   },
   {
     "id": "tm-gary-allan-2026-napa-g5vyz_3dfyx0l",
@@ -362978,13 +363010,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155199",
+        "url": "https://www.stubhub.ie/mon-laferte-las-vegas-tickets-11-5-2026/event/107155199",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Sud",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827794",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827794/Mon-Laferte-tickets-Thu-Nov-5-2026-Pearl-Concert-Theater-At-Palms-Casino-Resort"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827794/Mon-Laferte-tickets-Thu-Nov-5-2026-Pearl-Concert-Theater-At-Palms-Casino-Resort",
+    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-las-vegas-tickets-11-5-2026/event/107155199"
   },
   {
     "id": "tm-mon-laferte-2026-san-jose-g5vyz_kmf8y1d",
@@ -363100,13 +363140,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107151207",
+        "url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-7-2026/event/107151207",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_kGkSmomDW",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827830",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827830/Mon-Laferte-tickets-Sat-Nov-7-2026-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827830/Mon-Laferte-tickets-Sat-Nov-7-2026-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-7-2026/event/107151207"
   },
   {
     "id": "tm-mon-laferte-2026-inglewood-vvg10z_gloruht",
@@ -363169,13 +363217,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107455665",
+        "url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-8-2026/event/107455665",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GLORuHT",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8055342",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8055342/Mon-Laferte-tickets-Sun-Nov-8-2026-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8055342/Mon-Laferte-tickets-Sun-Nov-8-2026-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-8-2026/event/107455665"
   },
   {
     "id": "tm-mon-laferte-2026-monterrey-17azv0g6cxrk0bt",
@@ -363330,11 +363386,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107447688",
+        "url": "https://www.stubhub.ie/mon-laferte-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-1-2027/event/107447688",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vqUuz7t",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-1-2027/event/107447688"
   },
   {
     "id": "tm-mon-laferte-2027-brussels-z698xzg2z1kbx0fgb",
@@ -363504,13 +363568,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678613",
+        "url": "https://www.stubhub.ie/meshuggah-laval-tickets-2-13-2027/event/107678613",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4fGkdTnr8-",
     "timezone": "America/Toronto",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343260",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343260/Meshuggah-tickets-Sat-Feb-13-2027-Place-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343260/Meshuggah-tickets-Sat-Feb-13-2027-Place-Bell",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-laval-tickets-2-13-2027/event/107678613"
   },
   {
     "id": "tm-meshuggah-2027-detroit-z7r9jz1aa7t8-",
@@ -363679,13 +363751,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678622",
+        "url": "https://www.stubhub.ie/meshuggah-minneapolis-tickets-2-19-2027/event/107678622",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk44GkdFvHXa",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343230",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343230/Meshuggah-tickets-Fri-Feb-19-2027-The-Armory-Minneapolis"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343230/Meshuggah-tickets-Fri-Feb-19-2027-The-Armory-Minneapolis",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-minneapolis-tickets-2-19-2027/event/107678622"
   },
   {
     "id": "tm-meshuggah-2027-kansas-city-z7r9jz1aa7t8x",
@@ -364284,13 +364364,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678642",
+        "url": "https://www.stubhub.ie/meshuggah-brooklyn-tickets-3-3-2027/event/107678642",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_4LfqReL",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343243",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343243/Meshuggah-tickets-Wed-Mar-3-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343243/Meshuggah-tickets-Wed-Mar-3-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-brooklyn-tickets-3-3-2027/event/107678642"
   },
   {
     "id": "tm-meshuggah-2027-boston-vv1a8vp4aga5ukxb",
@@ -364353,13 +364441,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678606",
+        "url": "https://www.stubhub.ie/meshuggah-boston-tickets-3-6-2027/event/107678606",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vP4aGA5Ukxb",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343244",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343244/Meshuggah-tickets-Sat-Mar-6-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343244/Meshuggah-tickets-Sat-Mar-6-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-boston-tickets-3-6-2027/event/107678606"
   },
   {
     "id": "tm-meshuggah-2027-vancouver-z7r9jz1aa7tay",
@@ -364422,13 +364518,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678617",
+        "url": "https://www.stubhub.ie/meshuggah-vancouver-tickets-4-15-2027/event/107678617",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7tAy",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343261",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343261/Meshuggah-tickets-Thu-Apr-15-2027-PNE-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343261/Meshuggah-tickets-Thu-Apr-15-2027-PNE-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-vancouver-tickets-4-15-2027/event/107678617"
   },
   {
     "id": "tm-meshuggah-2027-portland-vvg1hz_4pdt01r",
@@ -364491,13 +364595,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678604",
+        "url": "https://www.stubhub.ie/meshuggah-portland-tickets-4-16-2027/event/107678604",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4pdt01r",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343245",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343245/Meshuggah-tickets-Fri-Apr-16-2027-Moda-Center-at-the-Rose-Quarter"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343245/Meshuggah-tickets-Fri-Apr-16-2027-Moda-Center-at-the-Rose-Quarter",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-portland-tickets-4-16-2027/event/107678604"
   },
   {
     "id": "tm-meshuggah-2027-seattle-vvg1hz_4kkbgac",
@@ -364560,13 +364672,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678600",
+        "url": "https://www.stubhub.ie/meshuggah-seattle-tickets-4-17-2027/event/107678600",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4KKbGAc",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343246",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343246/Meshuggah-tickets-Sat-Apr-17-2027-Paramount-Theatre-Seattle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343246/Meshuggah-tickets-Sat-Apr-17-2027-Paramount-Theatre-Seattle",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-seattle-tickets-4-17-2027/event/107678600"
   },
   {
     "id": "tm-meshuggah-2027-salt-lake-city-g5vzz_4r3jsmh",
@@ -364698,13 +364818,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678638",
+        "url": "https://www.stubhub.ie/meshuggah-morrison-tickets-4-21-2027/event/107678638",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7E-0",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343226",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343226/Meshuggah-tickets-Wed-Apr-21-2027-Red-Rocks-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343226/Meshuggah-tickets-Wed-Apr-21-2027-Red-Rocks-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-morrison-tickets-4-21-2027/event/107678638"
   },
   {
     "id": "tm-meshuggah-2027-oakland-g5vyz_4hq7g_c",
@@ -364767,13 +364895,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678644",
+        "url": "https://www.stubhub.ie/meshuggah-oakland-tickets-4-24-2027/event/107678644",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4hQ7G_c",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343248",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343248/Meshuggah-tickets-Sat-Apr-24-2027-Fox-Theater-Oakland"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343248/Meshuggah-tickets-Sat-Apr-24-2027-Fox-Theater-Oakland",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-oakland-tickets-4-24-2027/event/107678644"
   },
   {
     "id": "tm-meshuggah-2027-inglewood-vvg1iz_4feeal9",
@@ -364836,13 +364972,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678605",
+        "url": "https://www.stubhub.ie/meshuggah-inglewood-tickets-4-25-2027/event/107678605",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4feeaL9",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343249",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343249/Meshuggah-tickets-Sun-Apr-25-2027-YouTube-Theater-at-Hollywood-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343249/Meshuggah-tickets-Sun-Apr-25-2027-YouTube-Theater-at-Hollywood-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-inglewood-tickets-4-25-2027/event/107678605"
   },
   {
     "id": "tm-meshuggah-2027-phoenix-16_zk4bafza5uakd",
@@ -364905,13 +365049,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678646",
+        "url": "https://www.stubhub.ie/meshuggah-phoenix-tickets-4-27-2027/event/107678646",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16_Zk4bAFZA5uAkd",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343250",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343250/Meshuggah-tickets-Tue-Apr-27-2027-Arizona-Financial-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343250/Meshuggah-tickets-Tue-Apr-27-2027-Arizona-Financial-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-phoenix-tickets-4-27-2027/event/107678646"
   },
   {
     "id": "tm-meshuggah-2027-houston-g5diz_48jqg5z",
@@ -364974,13 +365126,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678603",
+        "url": "https://www.stubhub.ie/meshuggah-houston-tickets-4-30-2027/event/107678603",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_48JQg5Z",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343251",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343251/Meshuggah-tickets-Fri-Apr-30-2027-Bayou-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343251/Meshuggah-tickets-Fri-Apr-30-2027-Bayou-Music-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-houston-tickets-4-30-2027/event/107678603"
   },
   {
     "id": "tm-meshuggah-2027-san-antonio-z7r9jz1aa7e0a",
@@ -365043,13 +365203,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678624",
+        "url": "https://www.stubhub.ie/meshuggah-san-antonio-tickets-5-1-2027/event/107678624",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7E0a",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343252",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343252/Meshuggah-tickets-Sat-May-1-2027-Boeing-Center-at-Tech-Port"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343252/Meshuggah-tickets-Sat-May-1-2027-Boeing-Center-at-Tech-Port",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-san-antonio-tickets-5-1-2027/event/107678624"
   },
   {
     "id": "tm-meshuggah-2027-oklahoma-city-z7r9jz1aa7izs",
@@ -365165,13 +365333,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678631",
+        "url": "https://www.stubhub.ie/meshuggah-irving-tickets-5-4-2027/event/107678631",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4fAiuKS",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343254",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343254/Meshuggah-tickets-Tue-May-4-2027-The-Pavilion-at-Toyota-Music-Factory"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343254/Meshuggah-tickets-Tue-May-4-2027-The-Pavilion-at-Toyota-Music-Factory",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-irving-tickets-5-4-2027/event/107678631"
   },
   {
     "id": "tm-meshuggah-2027-new-orleans-g5viz_49c3t4b",
@@ -365303,13 +365479,21 @@
         "verified": true,
         "last_verified_at": "2026-11-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678609",
+        "url": "https://www.stubhub.ie/meshuggah-atlanta-tickets-5-7-2027/event/107678609",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_4pTWC--",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343256",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343256/Meshuggah-tickets-Fri-May-7-2027-Coca-Cola-Roxy"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343256/Meshuggah-tickets-Fri-May-7-2027-Coca-Cola-Roxy",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-atlanta-tickets-5-7-2027/event/107678609"
   },
   {
     "id": "tm-meshuggah-2027-fort-lauderdale-z7r9jz1aa7iax",

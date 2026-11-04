@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZa0p",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZa0p",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-catoosa-hard-rock-hotel-and-casino-tulsa-11-6-2026/production/7342534",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZa0p",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7342534,
+        "url": "https://www.vividseats.com/gary-allan-tickets-catoosa-hard-rock-hotel-and-casino-tulsa-11-6-2026/production/7342534",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "060064CF976F7850",
     "ticketmaster_url": "https://www.ticketmaster.com/gary-allan-dodge-city-kansas-11-13-2026/event/060064CF976F7850",
     "seatgeek_url": "https://seatgeek.com/gary-allan-tickets/dodge-city-kansas-united-wireless-arena-2026-11-13-7-30-pm/concert/18344599",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-dodge-city-united-wireless-arena-11-13-2026/production/7227855",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gary-allan-dodge-city-kansas-11-13-2026/event/060064CF976F7850",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7227855,
+        "url": "https://www.vividseats.com/gary-allan-tickets-dodge-city-united-wireless-arena-11-13-2026/production/7227855",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZdCb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdCb",
     "seatgeek_url": "https://seatgeek.com/gary-allan-tickets/lake-charles-louisiana-grand-event-center-golden-nugget-lake-charles-2026-11-20-8-30-pm/concert/18391791",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-lake-charles-grand-event-center---golden-nugget-lake-charles-11-20-2026/production/7326627",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdCb",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7326627,
+        "url": "https://www.vividseats.com/gary-allan-tickets-lake-charles-grand-event-center---golden-nugget-lake-charles-11-20-2026/production/7326627",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "1B00650417371993",
     "ticketmaster_url": "https://www.ticketmaster.com/gary-allan-biloxi-mississippi-11-21-2026/event/1B00650417371993",
     "seatgeek_url": "https://seatgeek.com/gary-allan-tickets/biloxi-mississippi-beau-rivage-theatre-2026-11-21-8-pm/concert/18472669",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-biloxi-beau-rivage-theatre-11-21-2026/production/7410942",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gary-allan-biloxi-mississippi-11-21-2026/event/1B00650417371993",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7410942,
+        "url": "https://www.vividseats.com/gary-allan-tickets-biloxi-beau-rivage-theatre-11-21-2026/production/7410942",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvf1F",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvf1F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-las-vegas-resorts-world-theatre-12-4-2026/production/7504429",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvf1F",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7504429,
+        "url": "https://www.vividseats.com/gary-allan-tickets-las-vegas-resorts-world-theatre-12-4-2026/production/7504429",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "1C00652EC8E6291F",
     "ticketmaster_url": "https://www.ticketmaster.com/gary-allan-napa-california-12-05-2026/event/1C00652EC8E6291F",
     "seatgeek_url": "https://seatgeek.com/gary-allan-tickets/napa-california-uptown-theatre-napa-2026-12-05-8-pm/concert/18593936",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-napa-uptown-theatre-napa-12-5-2026/production/7565101",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gary-allan-napa-california-12-05-2026/event/1C00652EC8E6291F",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7565101,
+        "url": "https://www.vividseats.com/gary-allan-tickets-napa-uptown-theatre-napa-12-5-2026/production/7565101",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -437,7 +437,7 @@
     "ticketmaster_event_id": "2D006505E22F7462",
     "ticketmaster_url": "https://www.ticketmaster.com/gary-allan-greensboro-north-carolina-02-19-2027/event/2D006505E22F7462",
     "seatgeek_url": "https://seatgeek.com/gary-allan-tickets/greensboro-north-carolina-steven-tanger-center-for-the-performing-arts-2027-02-19-7-30-pm/concert/18449332",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-greensboro-steven-tanger-center-for-the-performing-arts-2-19-2027/production/7400781",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gary-allan-greensboro-north-carolina-02-19-2027/event/2D006505E22F7462",
     "last_verified_at": null,
@@ -459,11 +459,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7400781,
+        "url": "https://www.vividseats.com/gary-allan-tickets-greensboro-steven-tanger-center-for-the-performing-arts-2-19-2027/production/7400781",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -490,7 +490,7 @@
     "ticketmaster_event_id": "2D00650531C664C3",
     "ticketmaster_url": "https://www.ticketmaster.com/gary-allan-spartanburg-south-carolina-02-20-2027/event/2D00650531C664C3",
     "seatgeek_url": "https://seatgeek.com/gary-allan-tickets/spartanburg-south-carolina-spartanburg-memorial-auditorium-2027-02-20-7-30-pm/concert/18446298",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-spartanburg-spartanburg-memorial-auditorium-2-20-2027/production/7400779",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gary-allan-spartanburg-south-carolina-02-20-2027/event/2D00650531C664C3",
     "last_verified_at": null,
@@ -512,11 +512,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7400779,
+        "url": "https://www.vividseats.com/gary-allan-tickets-spartanburg-spartanburg-memorial-auditorium-2-20-2027/production/7400779",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

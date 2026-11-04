@@ -576,7 +576,6 @@ export const OG_CARDS = {
   "/artists/sabaton": {"url":"/og/artists-sabaton.png","alt":"Tickets & tour dates: Sabaton"},
   "/artists/sabaton/ticket-prices": {"url":"/og/artists-sabaton-ticket-prices.png","alt":"Ticket prices: Sabaton"},
   "/artists/saint-levant": {"url":"/og/artists-saint-levant.png","alt":"Tickets & tour dates: Saint Levant"},
-  "/artists/saint-levant/presale": {"url":"/og/artists-saint-levant-presale.png","alt":"Presale: Saint Levant"},
   "/artists/saint-levant/ticket-prices": {"url":"/og/artists-saint-levant-ticket-prices.png","alt":"Ticket prices: Saint Levant"},
   "/artists/saint-levant/tickets/brooklyn-united-states": {"url":"/og/artists-saint-levant-tickets-brooklyn-united-states.png","alt":"Tickets: Saint Levant in Brooklyn"},
   "/artists/saint-levant/tickets/detroit-united-states": {"url":"/og/artists-saint-levant-tickets-detroit-united-states.png","alt":"Tickets: Saint Levant in Detroit"},

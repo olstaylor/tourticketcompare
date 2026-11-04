@@ -2,9 +2,9 @@
 title: "Gracie Abrams tour tickets: listed prices city by city"
 seo_title: "Gracie Abrams tour ticket prices by city"
 description: "Gracie Abrams tour: the next date in 14 cities, $29 in Inglewood at the low end, $145 in Boston at the high end."
-summary: "Vivid Seats' lowest listed price for the next Gracie Abrams date in each of 14 cities, each figure with the time it was captured. Snapshots 3 November 2026."
+summary: "Vivid Seats' lowest listed price for the next Gracie Abrams date in each of 14 cities, each figure with the time it was captured. Snapshots 4 November 2026."
 date: 2026-10-23
-updated: 2026-11-03
+updated: 2026-11-04
 status: published
 tags:
   - tour-data
@@ -20,20 +20,20 @@ Gracie Abrams' The Look at My Life Tour has 57 dates that TourTicketCompare trac
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Inglewood](/artists/gracie-abrams/tickets/inglewood-united-states) | 14 December 2026 | Kia Forum | $29 | Vivid Seats | 3 November, 18:05 UTC |
-| [Glendale](/artists/gracie-abrams/tickets/glendale-united-states) | 9 December 2026 | Desert Diamond Arena | $30 | Vivid Seats | 3 November, 18:05 UTC |
-| [Oakland](/artists/gracie-abrams/tickets/oakland-united-states) | 6 December 2026 | Oakland Arena | $31 | Vivid Seats | 3 November, 18:05 UTC |
-| [Seattle](/artists/gracie-abrams/tickets/seattle-united-states) | 26 January 2027 | Climate Pledge Arena | $31 | Vivid Seats | 3 November, 18:05 UTC |
-| [Denver](/artists/gracie-abrams/tickets/denver-united-states) | 2 December 2026 | Ball Arena | $36 | Vivid Seats | 3 November, 18:05 UTC |
-| [Atlanta](/artists/gracie-abrams/tickets/atlanta-united-states) | 23 February 2027 | State Farm Arena | $41 | Vivid Seats | 3 November, 18:05 UTC |
-| [Brooklyn](/artists/gracie-abrams/tickets/brooklyn-united-states) | 16 March 2027 | Barclays Center | $46 | Vivid Seats | 3 November, 18:05 UTC |
-| [Charlotte](/artists/gracie-abrams/tickets/charlotte-united-states) | 26 February 2027 | Spectrum Center | $52 | Vivid Seats | 3 November, 18:05 UTC |
-| [Chicago](/artists/gracie-abrams/tickets/chicago-united-states) | 11 February 2027 | United Center | $56 | Vivid Seats | 3 November, 18:05 UTC |
-| [Portland](/artists/gracie-abrams/tickets/portland-united-states) | 31 January 2027 | Moda Center | $59 | Vivid Seats | 3 November, 18:05 UTC |
-| [Nashville](/artists/gracie-abrams/tickets/nashville-united-states) | 14 February 2027 | Bridgestone Arena | $71 | Vivid Seats | 3 November, 18:05 UTC |
-| [Philadelphia](/artists/gracie-abrams/tickets/philadelphia-united-states) | 12 March 2027 | Xfinity Mobile Arena | $79 | Vivid Seats | 3 November, 18:05 UTC |
-| [Washington](/artists/gracie-abrams/tickets/washington-united-states) | 4 March 2027 | Capital One Arena | $79 | Vivid Seats | 3 November, 18:05 UTC |
-| [Boston](/artists/gracie-abrams/tickets/boston-united-states) | 1 March 2027 | TD Garden | $145 | Vivid Seats | 3 November, 18:05 UTC |
+| [Inglewood](/artists/gracie-abrams/tickets/inglewood-united-states) | 14 December 2026 | Kia Forum | $29 | Vivid Seats | 4 November, 18:53 UTC |
+| [Oakland](/artists/gracie-abrams/tickets/oakland-united-states) | 6 December 2026 | Oakland Arena | $30 | Vivid Seats | 4 November, 18:53 UTC |
+| [Seattle](/artists/gracie-abrams/tickets/seattle-united-states) | 26 January 2027 | Climate Pledge Arena | $31 | Vivid Seats | 4 November, 18:53 UTC |
+| [Glendale](/artists/gracie-abrams/tickets/glendale-united-states) | 9 December 2026 | Desert Diamond Arena | $33 | Vivid Seats | 4 November, 18:53 UTC |
+| [Denver](/artists/gracie-abrams/tickets/denver-united-states) | 2 December 2026 | Ball Arena | $36 | Vivid Seats | 4 November, 18:53 UTC |
+| [Atlanta](/artists/gracie-abrams/tickets/atlanta-united-states) | 23 February 2027 | State Farm Arena | $41 | Vivid Seats | 4 November, 18:53 UTC |
+| [Brooklyn](/artists/gracie-abrams/tickets/brooklyn-united-states) | 16 March 2027 | Barclays Center | $46 | Vivid Seats | 4 November, 18:53 UTC |
+| [Charlotte](/artists/gracie-abrams/tickets/charlotte-united-states) | 26 February 2027 | Spectrum Center | $52 | Vivid Seats | 4 November, 18:53 UTC |
+| [Chicago](/artists/gracie-abrams/tickets/chicago-united-states) | 11 February 2027 | United Center | $59 | Vivid Seats | 4 November, 18:53 UTC |
+| [Portland](/artists/gracie-abrams/tickets/portland-united-states) | 31 January 2027 | Moda Center | $61 | Vivid Seats | 4 November, 18:53 UTC |
+| [Philadelphia](/artists/gracie-abrams/tickets/philadelphia-united-states) | 12 March 2027 | Xfinity Mobile Arena | $77 | Vivid Seats | 4 November, 18:53 UTC |
+| [Nashville](/artists/gracie-abrams/tickets/nashville-united-states) | 14 February 2027 | Bridgestone Arena | $79 | Vivid Seats | 4 November, 18:53 UTC |
+| [Washington](/artists/gracie-abrams/tickets/washington-united-states) | 4 March 2027 | Capital One Arena | $81 | Vivid Seats | 4 November, 18:53 UTC |
+| [Boston](/artists/gracie-abrams/tickets/boston-united-states) | 1 March 2027 | TD Garden | $145 | Vivid Seats | 4 November, 18:53 UTC |
 
 Each figure is the lowest listed price on Vivid Seats for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
@@ -43,20 +43,20 @@ TicketNetwork also had a recent listed price for the next date in 14 of these ci
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Denver](/artists/gracie-abrams/tickets/denver-united-states) | 2 December 2026 | Ball Arena | $31.05 | TicketNetwork | 3 November, 15:13 UTC |
-| [Oakland](/artists/gracie-abrams/tickets/oakland-united-states) | 6 December 2026 | Oakland Arena | $36.80 | TicketNetwork | 3 November, 15:13 UTC |
-| [Glendale](/artists/gracie-abrams/tickets/glendale-united-states) | 9 December 2026 | Desert Diamond Arena | $42.55 | TicketNetwork | 3 November, 15:13 UTC |
-| [Inglewood](/artists/gracie-abrams/tickets/inglewood-united-states) | 14 December 2026 | Kia Forum | $24.15 | TicketNetwork | 3 November, 15:13 UTC |
-| [Seattle](/artists/gracie-abrams/tickets/seattle-united-states) | 26 January 2027 | Climate Pledge Arena | $37.95 | TicketNetwork | 3 November, 15:13 UTC |
-| [Portland](/artists/gracie-abrams/tickets/portland-united-states) | 31 January 2027 | Moda Center | $79.35 | TicketNetwork | 3 November, 15:13 UTC |
-| [Chicago](/artists/gracie-abrams/tickets/chicago-united-states) | 11 February 2027 | United Center | $73.60 | TicketNetwork | 3 November, 15:13 UTC |
-| [Nashville](/artists/gracie-abrams/tickets/nashville-united-states) | 14 February 2027 | Bridgestone Arena | $71.30 | TicketNetwork | 3 November, 15:13 UTC |
-| [Atlanta](/artists/gracie-abrams/tickets/atlanta-united-states) | 23 February 2027 | State Farm Arena | $48.30 | TicketNetwork | 3 November, 15:13 UTC |
-| [Charlotte](/artists/gracie-abrams/tickets/charlotte-united-states) | 26 February 2027 | Spectrum Center | $62.10 | TicketNetwork | 3 November, 15:13 UTC |
-| [Boston](/artists/gracie-abrams/tickets/boston-united-states) | 1 March 2027 | TD Garden | $196.65 | TicketNetwork | 3 November, 15:13 UTC |
-| [Washington](/artists/gracie-abrams/tickets/washington-united-states) | 4 March 2027 | Capital One Arena | $117.30 | TicketNetwork | 3 November, 15:13 UTC |
-| [Philadelphia](/artists/gracie-abrams/tickets/philadelphia-united-states) | 12 March 2027 | Xfinity Mobile Arena | $103.50 | TicketNetwork | 3 November, 15:13 UTC |
-| [Brooklyn](/artists/gracie-abrams/tickets/brooklyn-united-states) | 16 March 2027 | Barclays Center | $66.70 | TicketNetwork | 3 November, 15:13 UTC |
+| [Denver](/artists/gracie-abrams/tickets/denver-united-states) | 2 December 2026 | Ball Arena | $31.05 | TicketNetwork | 4 November, 17:23 UTC |
+| [Oakland](/artists/gracie-abrams/tickets/oakland-united-states) | 6 December 2026 | Oakland Arena | $27.60 | TicketNetwork | 4 November, 17:23 UTC |
+| [Glendale](/artists/gracie-abrams/tickets/glendale-united-states) | 9 December 2026 | Desert Diamond Arena | $48.30 | TicketNetwork | 4 November, 17:23 UTC |
+| [Inglewood](/artists/gracie-abrams/tickets/inglewood-united-states) | 14 December 2026 | Kia Forum | $24.15 | TicketNetwork | 4 November, 17:23 UTC |
+| [Seattle](/artists/gracie-abrams/tickets/seattle-united-states) | 26 January 2027 | Climate Pledge Arena | $37.95 | TicketNetwork | 4 November, 17:23 UTC |
+| [Portland](/artists/gracie-abrams/tickets/portland-united-states) | 31 January 2027 | Moda Center | $81.65 | TicketNetwork | 4 November, 17:23 UTC |
+| [Chicago](/artists/gracie-abrams/tickets/chicago-united-states) | 11 February 2027 | United Center | $75.90 | TicketNetwork | 4 November, 17:23 UTC |
+| [Nashville](/artists/gracie-abrams/tickets/nashville-united-states) | 14 February 2027 | Bridgestone Arena | $71.30 | TicketNetwork | 4 November, 17:23 UTC |
+| [Atlanta](/artists/gracie-abrams/tickets/atlanta-united-states) | 23 February 2027 | State Farm Arena | $48.30 | TicketNetwork | 4 November, 17:23 UTC |
+| [Charlotte](/artists/gracie-abrams/tickets/charlotte-united-states) | 26 February 2027 | Spectrum Center | $62.10 | TicketNetwork | 4 November, 17:23 UTC |
+| [Boston](/artists/gracie-abrams/tickets/boston-united-states) | 1 March 2027 | TD Garden | $196.65 | TicketNetwork | 4 November, 17:23 UTC |
+| [Washington](/artists/gracie-abrams/tickets/washington-united-states) | 4 March 2027 | Capital One Arena | $117.30 | TicketNetwork | 4 November, 17:23 UTC |
+| [Philadelphia](/artists/gracie-abrams/tickets/philadelphia-united-states) | 12 March 2027 | Xfinity Mobile Arena | $103.50 | TicketNetwork | 4 November, 17:23 UTC |
+| [Brooklyn](/artists/gracie-abrams/tickets/brooklyn-united-states) | 16 March 2027 | Barclays Center | $75.90 | TicketNetwork | 4 November, 17:23 UTC |
 
 ## How this was worked out
 

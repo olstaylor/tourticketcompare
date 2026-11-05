@@ -950,6 +950,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7956792",
+        "url": "https://www.ticketliquidator.com/tickets/7956792/Journey-tickets-Wed-Nov-4-2026-Scotiabank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "177Zv0G6110gajO",
@@ -957,7 +964,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956792/Journey-tickets-Wed-Nov-4-2026-Scotiabank-Arena"
   },
   {
     "id": "tm-journey-2026-wilkes-barre-z7r9jz1a70abw",

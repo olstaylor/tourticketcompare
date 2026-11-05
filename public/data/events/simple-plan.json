@@ -183,18 +183,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8308713",
-        "url": "https://www.ticketliquidator.com/tickets/8308713/Simple-Plan-tickets-Wed-Jan-27-2027-Save-On-Foods-Memorial-Centre",
-        "verified": true,
-        "last_verified_at": "2026-10-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe__3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308713",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308713/Simple-Plan-tickets-Wed-Jan-27-2027-Save-On-Foods-Memorial-Centre"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-simple-plan-2027-edmonton-1av7z_kgkmptc0p",

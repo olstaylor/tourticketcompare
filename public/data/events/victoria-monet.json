@@ -300,7 +300,7 @@
     "city": "Fort Lauderdale",
     "country": "United States Of America",
     "venue": "War Memorial Auditorium-FL",
-    "datetime_iso": "2026-11-08T01:00:00Z",
+    "datetime_iso": "2026-11-08T02:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvPbE",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbE",
@@ -308,7 +308,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-fort-lauderdale-war-memorial-auditorium-fl-11-7-2026--concerts-pop/production/7540433",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbE",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-05",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -356,7 +356,7 @@
     "city": "Tampa",
     "country": "United States Of America",
     "venue": "Yuengling Center",
-    "datetime_iso": "2026-11-09T01:00:00Z",
+    "datetime_iso": "2026-11-09T02:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0D006528C1F1AD5E",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-tampa-florida-11-08-2026/event/0D006528C1F1AD5E",
@@ -364,7 +364,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-tampa-yuengling-center-11-8-2026--concerts-pop/production/7540276",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-tampa-florida-11-08-2026/event/0D006528C1F1AD5E",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -443,7 +443,7 @@
     "city": "Philadelphia",
     "country": "United States Of America",
     "venue": "The Met Presented by Highmark",
-    "datetime_iso": "2026-11-13T01:00:00Z",
+    "datetime_iso": "2026-11-13T02:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "02006522B5634466",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-philadelphia-pennsylvania-11-12-2026/event/02006522B5634466",
@@ -451,7 +451,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-philadelphia-pennsylvania-11-12-2026/event/02006522B5634466",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -522,7 +522,7 @@
     "city": "Boston",
     "country": "United States Of America",
     "venue": "MGM Music Hall at Fenway",
-    "datetime_iso": "2026-11-14T01:00:00Z",
+    "datetime_iso": "2026-11-14T02:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "01006525F9EBE9E1",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-boston-massachusetts-11-13-2026/event/01006525F9EBE9E1",
@@ -530,7 +530,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-boston-mgm-music-hall-at-fenway-11-13-2026--concerts-pop/production/7540280",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-boston-massachusetts-11-13-2026/event/01006525F9EBE9E1",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -609,7 +609,7 @@
     "city": "Detroit",
     "country": "United States Of America",
     "venue": "Fox Theatre Detroit",
-    "datetime_iso": "2026-11-16T00:30:00Z",
+    "datetime_iso": "2026-11-16T01:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "08006527CEC34B26",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-detroit-michigan-11-15-2026/event/08006527CEC34B26",
@@ -617,7 +617,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-detroit-fox-theatre-detroit-11-15-2026--concerts-pop/production/7540283",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-detroit-michigan-11-15-2026/event/08006527CEC34B26",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -696,7 +696,7 @@
     "city": "Milwaukee",
     "country": "United States Of America",
     "venue": "Landmark Credit Union Live",
-    "datetime_iso": "2026-11-17T01:30:00Z",
+    "datetime_iso": "2026-11-17T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0700652515D2AF74",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-milwaukee-wisconsin-11-16-2026/event/0700652515D2AF74",
@@ -704,7 +704,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-milwaukee-landmark-credit-union-live-11-16-2026--concerts-pop/production/7540285",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-milwaukee-wisconsin-11-16-2026/event/0700652515D2AF74",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -780,7 +780,7 @@
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "Aragon Ballroom",
-    "datetime_iso": "2026-11-19T01:00:00Z",
+    "datetime_iso": "2026-11-19T02:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0400652605FA6451",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-chicago-illinois-11-18-2026/event/0400652605FA6451",
@@ -788,7 +788,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-chicago-aragon-ballroom-11-18-2026/production/7540297",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-chicago-illinois-11-18-2026/event/0400652605FA6451",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -940,7 +940,7 @@
     "city": "Pittsburgh",
     "country": "United States Of America",
     "venue": "Citizens Live at The Wylie",
-    "datetime_iso": "2026-11-23T01:00:00Z",
+    "datetime_iso": "2026-11-23T02:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "16006529A28F5FEF",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-pittsburgh-pennsylvania-11-22-2026/event/16006529A28F5FEF",
@@ -948,7 +948,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-pittsburgh-citizens-live-at-the-wylie-11-22-2026--concerts-pop/production/7540319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-pittsburgh-pennsylvania-11-22-2026/event/16006529A28F5FEF",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1019,7 +1019,7 @@
     "city": "New York",
     "country": "United States Of America",
     "venue": "Infosys Theater at Madison Square Garden",
-    "datetime_iso": "2026-11-25T01:00:00Z",
+    "datetime_iso": "2026-11-25T02:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "3B0065238AD32241",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-new-york-new-york-11-24-2026/event/3B0065238AD32241",
@@ -1027,7 +1027,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-new-york-infosys-theater-at-madison-square-garden-11-24-2026--concerts-pop/production/7540333",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-new-york-new-york-11-24-2026/event/3B0065238AD32241",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1198,7 +1198,7 @@
     "city": "Nashville",
     "country": "United States Of America",
     "venue": "The Truth",
-    "datetime_iso": "2026-12-01T02:00:00Z",
+    "datetime_iso": "2026-12-01T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1B006527BBA98ECF",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-nashville-tennessee-11-30-2026/event/1B006527BBA98ECF",
@@ -1206,7 +1206,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-nashville-the-truth-11-30-2026--concerts-pop/production/7540349",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-nashville-tennessee-11-30-2026/event/1B006527BBA98ECF",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1346,7 +1346,7 @@
     "city": "Phoenix",
     "country": "United States Of America",
     "venue": "Arizona Financial Theatre",
-    "datetime_iso": "2026-12-06T03:00:00Z",
+    "datetime_iso": "2026-12-06T04:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "190065243354DDCD",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-phoenix-arizona-12-05-2026/event/190065243354DDCD",
@@ -1354,7 +1354,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-phoenix-arizona-financial-theatre-12-5-2026--concerts-pop/production/7540357",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-phoenix-arizona-12-05-2026/event/190065243354DDCD",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1430,7 +1430,7 @@
     "city": "San Diego",
     "country": "United States Of America",
     "venue": "Cal Coast Credit Union Open Air Theatre at SDSU",
-    "datetime_iso": "2026-12-07T04:00:00Z",
+    "datetime_iso": "2026-12-07T05:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0A006523FC003D7C",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-diego-california-12-06-2026/event/0A006523FC003D7C",
@@ -1438,7 +1438,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-san-diego-cal-coast-credit-union-open-air-theatre-at-sdsu-12-6-2026--concerts-pop/production/7540371",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-diego-california-12-06-2026/event/0A006523FC003D7C",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1527,7 +1527,7 @@
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "YouTube Theater",
-    "datetime_iso": "2026-12-09T04:00:00Z",
+    "datetime_iso": "2026-12-09T05:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0A006528B4649609",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-inglewood-california-12-08-2026/event/0A006528B4649609",
@@ -1535,7 +1535,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-inglewood-youtube-theater-12-8-2026--concerts-pop/production/7540377",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-inglewood-california-12-08-2026/event/0A006528B4649609",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1902,7 +1902,7 @@
     "city": "Sacramento",
     "country": "United States Of America",
     "venue": "SACRAMENTO MEMORIAL AUDITORIUM",
-    "datetime_iso": "2026-12-17T04:00:00Z",
+    "datetime_iso": "2026-12-17T05:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1C006528B6AFDD72",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-sacramento-california-12-16-2026/event/1C006528B6AFDD72",
@@ -1910,7 +1910,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-sacramento-sacramento-memorial-auditorium-12-16-2026--concerts-pop/production/7540381",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-sacramento-california-12-16-2026/event/1C006528B6AFDD72",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

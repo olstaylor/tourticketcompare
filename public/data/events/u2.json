@@ -363,7 +363,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1852040169?language=en-us",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-05",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -428,16 +428,6 @@
     ],
     "presales": [
       {
-        "name": "U2 Album Presale",
-        "start": "2026-11-04T09:00:00Z",
-        "end": "2026-11-04T21:00:00Z"
-      },
-      {
-        "name": "Visa Presale",
-        "start": "2026-11-04T09:00:00Z",
-        "end": "2026-11-04T21:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-05T21:00:00Z"
@@ -461,7 +451,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1656128289?language=en-us",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-05",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -526,16 +516,6 @@
     ],
     "presales": [
       {
-        "name": "U2 Album Presale",
-        "start": "2026-11-04T09:00:00Z",
-        "end": "2026-11-04T21:00:00Z"
-      },
-      {
-        "name": "Visa Presale",
-        "start": "2026-11-04T09:00:00Z",
-        "end": "2026-11-04T21:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-05T21:00:00Z"
@@ -559,7 +539,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1926365826?language=en-us",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-05",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -616,16 +596,6 @@
     ],
     "presales": [
       {
-        "name": "U2 Album Presale",
-        "start": "2026-11-04T09:00:00Z",
-        "end": "2026-11-04T21:00:00Z"
-      },
-      {
-        "name": "Visa Presale",
-        "start": "2026-11-04T09:00:00Z",
-        "end": "2026-11-04T21:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-05T21:00:00Z"
@@ -649,7 +619,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1118978501?language=en-us",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-05",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -706,16 +676,6 @@
     ],
     "presales": [
       {
-        "name": "U2 Album Presale",
-        "start": "2026-11-04T09:00:00Z",
-        "end": "2026-11-04T21:00:00Z"
-      },
-      {
-        "name": "Visa Presale",
-        "start": "2026-11-04T09:00:00Z",
-        "end": "2026-11-04T21:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-05T21:00:00Z"
@@ -739,7 +699,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-18-2027--concerts-rock/production/7772985",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-18-06-2027/event/3500655683001AA0",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -788,16 +748,6 @@
     ],
     "presales": [
       {
-        "name": "Album Presale",
-        "start": "2026-11-04T10:00:00Z",
-        "end": "2026-11-04T22:00:00Z"
-      },
-      {
-        "name": "Visa Presale",
-        "start": "2026-11-04T10:00:00Z",
-        "end": "2026-11-04T22:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-11-05T10:00:00Z",
         "end": "2026-11-05T22:00:00Z"
@@ -821,7 +771,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-19-2027--concerts-rock/production/7772989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-19-06-2027/event/3500655CC0148737",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -870,16 +820,6 @@
     ],
     "presales": [
       {
-        "name": "Album Presale",
-        "start": "2026-11-04T10:00:00Z",
-        "end": "2026-11-04T22:00:00Z"
-      },
-      {
-        "name": "Visa Presale",
-        "start": "2026-11-04T10:00:00Z",
-        "end": "2026-11-04T22:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-11-05T10:00:00Z",
         "end": "2026-11-05T22:00:00Z"
@@ -903,7 +843,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-22-06-2027/event/3500655E954F8639",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -939,7 +879,17 @@
     "ticketmaster_discovery_event_id": "1AdfZ_4GkB4Kzby",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z"
+    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "organizer_names": [
+      "LNM - VIP NATION UK"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-05T10:00:00Z",
+        "end": "2026-11-05T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz1kb9z4vi",
@@ -957,7 +907,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/617015068?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -993,6 +943,16 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kb9Z4vI",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "organizer_names": [
+      "Mojo Concerts"
+    ],
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-05T21:00:00Z"
+      }
+    ]
   }
 ]

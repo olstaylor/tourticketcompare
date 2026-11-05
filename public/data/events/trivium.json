@@ -622,7 +622,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-laval-place-bell-11-17-2026--concerts-rock/production/7325404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-laval-quebec-11-17-2026/event/310064ED98CF36FA",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -684,6 +684,11 @@
         "name": "Trivium VIP Packages Onsale",
         "start": "2026-07-24T14:00:00Z",
         "end": "2026-11-11T04:55:00Z"
+      },
+      {
+        "name": "OFFRE FORFAIT 4 BILLETS",
+        "start": "2026-11-05T08:30:00Z",
+        "end": "2026-11-18T01:35:00Z"
       }
     ],
     "organizer_names": [
@@ -1306,7 +1311,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-phoenix-arizona-financial-theatre-12-2-2026--concerts-rock/production/7325306",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-phoenix-arizona-12-02-2026/event/190064F0E0368F3A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1359,11 +1364,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151257",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151257/Trivium-tickets-Wed-Dec-2-2026-Arizona-Financial-Theatre",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-07-24T17:00:00Z",
-        "end": "2026-11-05T05:00:00Z"
-      },
       {
         "name": "In Flames VIP Packages Onsale",
         "start": "2026-07-24T17:00:00Z",

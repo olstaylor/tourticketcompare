@@ -1107,7 +1107,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-phoenix-arizona-11-11-2026/event/190064AF852935FB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1151,13 +1151,6 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-phoenix-tickets-11-11-2026/event/107185111",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-21T17:00:00Z",
-        "end": "2026-11-05T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

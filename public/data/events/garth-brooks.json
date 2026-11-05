@@ -738,7 +738,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-belfast-21-05-2027/event/3800656438D756A3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -774,7 +774,10 @@
     "ticketmaster_discovery_event_id": "16dOZ_p8zG7ggQN",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z"
+    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "organizer_names": [
+      "AIKEN PROMOTIONS"
+    ]
   },
   {
     "id": "tm-garth-brooks-2027-belfast-16doz_p8zg7uaqj",
@@ -792,7 +795,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-belfast-22-05-2027/event/3800656438D856A6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -828,7 +831,10 @@
     "ticketmaster_discovery_event_id": "16dOZ_p8zG7UAQJ",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z"
+    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "organizer_names": [
+      "AIKEN PROMOTIONS"
+    ]
   },
   {
     "id": "tm-garth-brooks-2027-co-galway-16bzk403zza86av1",
@@ -846,7 +852,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-co-galway-29-05-2027/event/18006564480F6409",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -882,7 +888,10 @@
     "ticketmaster_discovery_event_id": "16bZk403ZZA86Av1",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z"
+    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "organizer_names": [
+      "AIKEN PROMOTIONS"
+    ]
   },
   {
     "id": "tm-garth-brooks-2027-co-galway-15voz_pof7p89",
@@ -900,7 +909,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-co-galway-30-05-2027/event/1800656448116417",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -936,7 +945,10 @@
     "ticketmaster_discovery_event_id": "15vOZ_poF7p89",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z"
+    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "organizer_names": [
+      "AIKEN PROMOTIONS"
+    ]
   },
   {
     "id": "tm-garth-brooks-2027-kilkenny-15voz_pod_pcp",
@@ -954,7 +966,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-kilkenny-04-06-2027/event/1800656443665396",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -990,7 +1002,10 @@
     "ticketmaster_discovery_event_id": "15vOZ_pod_PCp",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z"
+    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "organizer_names": [
+      "AIKEN PROMOTIONS"
+    ]
   },
   {
     "id": "tm-garth-brooks-2027-kilkenny-1abzk408u-kze5v",
@@ -1008,7 +1023,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-kilkenny-05-06-2027/event/18006564436853A0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1044,7 +1059,10 @@
     "ticketmaster_discovery_event_id": "1abZk408U-KZe5v",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z"
+    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "organizer_names": [
+      "AIKEN PROMOTIONS"
+    ]
   },
   {
     "id": "tm-garth-brooks-2027-limerick-city-1kkzvp_dgaumnjq",
@@ -1062,7 +1080,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-limerick-city-11-06-2027/event/180065643DDE371D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1098,7 +1116,10 @@
     "ticketmaster_discovery_event_id": "1kkZvP_dGAuMNjq",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z"
+    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "organizer_names": [
+      "AIKEN PROMOTIONS"
+    ]
   },
   {
     "id": "tm-garth-brooks-2027-limerick-city-1kkzvp_dgauzdjl",
@@ -1116,7 +1137,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-limerick-city-12-06-2027/event/180065643DE0372B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1152,7 +1173,10 @@
     "ticketmaster_discovery_event_id": "1kkZvP_dGAuzdjl",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z"
+    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "organizer_names": [
+      "AIKEN PROMOTIONS"
+    ]
   },
   {
     "id": "tm-garth-brooks-2027-cork-16voz_pozg7t0-b",
@@ -1170,7 +1194,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-cork-18-06-2027/event/1800656440A6487A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1206,7 +1230,10 @@
     "ticketmaster_discovery_event_id": "16vOZ_poZG7t0-B",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z"
+    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "organizer_names": [
+      "AIKEN PROMOTIONS"
+    ]
   },
   {
     "id": "tm-garth-brooks-2027-cork-16voz_pozg7nfxm",
@@ -1224,7 +1251,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-cork-19-06-2027/event/1800656440A948B7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1260,6 +1287,9 @@
     "ticketmaster_discovery_event_id": "16vOZ_poZG7nfxM",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z"
+    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "organizer_names": [
+      "AIKEN PROMOTIONS"
+    ]
   }
 ]

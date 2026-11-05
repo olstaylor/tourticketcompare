@@ -44354,7 +44354,7 @@
     "country": "United States Of America",
     "city": "Austin",
     "venue": "Moody Amphitheater",
-    "datetime_iso": "2026-11-06T01:00:00Z",
+    "datetime_iso": "2026-11-06T00:45:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
@@ -46562,7 +46562,7 @@
     "country": "Sweden",
     "city": "Stockholm",
     "venue": "Fryshuset",
-    "datetime_iso": "2026-11-24T19:30:00Z",
+    "datetime_iso": "2026-11-24T18:30:00Z",
     "timezone": "Europe/Stockholm",
     "tour_name": "",
     "status": "on-sale"
@@ -50078,7 +50078,7 @@
     "country": "United States Of America",
     "city": "Fort Lauderdale",
     "venue": "War Memorial Auditorium-FL",
-    "datetime_iso": "2026-11-08T01:00:00Z",
+    "datetime_iso": "2026-11-08T02:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -50090,7 +50090,7 @@
     "country": "United States Of America",
     "city": "Tampa",
     "venue": "Yuengling Center",
-    "datetime_iso": "2026-11-09T01:00:00Z",
+    "datetime_iso": "2026-11-09T02:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -50102,7 +50102,7 @@
     "country": "United States Of America",
     "city": "Philadelphia",
     "venue": "The Met Presented by Highmark",
-    "datetime_iso": "2026-11-13T01:00:00Z",
+    "datetime_iso": "2026-11-13T02:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -50114,7 +50114,7 @@
     "country": "United States Of America",
     "city": "Boston",
     "venue": "MGM Music Hall at Fenway",
-    "datetime_iso": "2026-11-14T01:00:00Z",
+    "datetime_iso": "2026-11-14T02:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -50126,7 +50126,7 @@
     "country": "United States Of America",
     "city": "Detroit",
     "venue": "Fox Theatre Detroit",
-    "datetime_iso": "2026-11-16T00:30:00Z",
+    "datetime_iso": "2026-11-16T01:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -50138,7 +50138,7 @@
     "country": "United States Of America",
     "city": "Milwaukee",
     "venue": "Landmark Credit Union Live",
-    "datetime_iso": "2026-11-17T01:30:00Z",
+    "datetime_iso": "2026-11-17T03:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
@@ -50150,7 +50150,7 @@
     "country": "United States Of America",
     "city": "Chicago",
     "venue": "Aragon Ballroom",
-    "datetime_iso": "2026-11-19T01:00:00Z",
+    "datetime_iso": "2026-11-19T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
@@ -50174,7 +50174,7 @@
     "country": "United States Of America",
     "city": "Pittsburgh",
     "venue": "Citizens Live at The Wylie",
-    "datetime_iso": "2026-11-23T01:00:00Z",
+    "datetime_iso": "2026-11-23T02:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -50186,7 +50186,7 @@
     "country": "United States Of America",
     "city": "New York",
     "venue": "Infosys Theater at Madison Square Garden",
-    "datetime_iso": "2026-11-25T01:00:00Z",
+    "datetime_iso": "2026-11-25T02:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -50210,7 +50210,7 @@
     "country": "United States Of America",
     "city": "Nashville",
     "venue": "The Truth",
-    "datetime_iso": "2026-12-01T02:00:00Z",
+    "datetime_iso": "2026-12-01T03:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
@@ -50234,7 +50234,7 @@
     "country": "United States Of America",
     "city": "Phoenix",
     "venue": "Arizona Financial Theatre",
-    "datetime_iso": "2026-12-06T03:00:00Z",
+    "datetime_iso": "2026-12-06T04:00:00Z",
     "timezone": "America/Phoenix",
     "tour_name": "",
     "status": "on-sale"
@@ -50246,7 +50246,7 @@
     "country": "United States Of America",
     "city": "San Diego",
     "venue": "Cal Coast Credit Union Open Air Theatre at SDSU",
-    "datetime_iso": "2026-12-07T04:00:00Z",
+    "datetime_iso": "2026-12-07T05:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
@@ -50258,7 +50258,7 @@
     "country": "United States Of America",
     "city": "Inglewood",
     "venue": "YouTube Theater",
-    "datetime_iso": "2026-12-09T04:00:00Z",
+    "datetime_iso": "2026-12-09T05:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
@@ -50306,7 +50306,7 @@
     "country": "United States Of America",
     "city": "Sacramento",
     "venue": "SACRAMENTO MEMORIAL AUDITORIUM",
-    "datetime_iso": "2026-12-17T04:00:00Z",
+    "datetime_iso": "2026-12-17T05:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
@@ -58850,7 +58850,7 @@
     "country": "Great Britain",
     "city": "Manchester",
     "venue": "AO Arena",
-    "datetime_iso": "2027-02-28T19:00:00Z",
+    "datetime_iso": "2027-02-28T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "announced"
@@ -60317,7 +60317,7 @@
     "datetime_iso": "2027-05-23T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zac-brown-band-2027-sparks-1avjz_4gkrmjou6",

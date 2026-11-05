@@ -568,7 +568,7 @@
     "city": "Austin",
     "country": "United States Of America",
     "venue": "Moody Amphitheater",
-    "datetime_iso": "2026-11-06T01:00:00Z",
+    "datetime_iso": "2026-11-06T00:45:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "3A0064B6A531ADA0",
     "ticketmaster_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-austin-texas-11-05-2026/event/3A0064B6A531ADA0",
@@ -576,7 +576,7 @@
     "vividseats_url": "https://www.vividseats.com/knocked-loose-tickets-austin-moody-amphitheater-11-5-2026/production/7092585",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-austin-texas-11-05-2026/event/3A0064B6A531ADA0",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -630,13 +630,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002990",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "Premium Pod Offer",
-        "start": "2026-06-05T15:00:00Z",
-        "end": "2026-11-05T16:00:00Z"
-      }
     ]
   }
 ]

@@ -996,7 +996,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-sacramento-california-12-02-2026/event/1C006506ECD3CC5A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1048,11 +1048,6 @@
     "status": "on-sale",
     "presales": [
       {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T17:00:00Z",
-        "end": "2026-11-05T06:00:00Z"
-      },
-      {
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T17:00:00Z",
         "end": "2026-11-19T06:00:00Z"
@@ -1080,7 +1075,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-nashville-bridgestone-arena-12-2-2026/production/7536635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-nashville-tennessee-12-02-2026/event/1B00651B2A7F1795",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1132,11 +1127,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255062",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T15:00:00Z",
-        "end": "2026-11-05T04:00:00Z"
-      },
       {
         "name": "Preferred Aisle Seat Offer",
         "start": "2026-09-18T15:00:00Z",

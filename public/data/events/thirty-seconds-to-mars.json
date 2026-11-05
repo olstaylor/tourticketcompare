@@ -1019,7 +1019,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1054,6 +1054,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ16vpF_d-9",
     "timezone": "Europe/Helsinki",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Wizard Live Oy"
+    ]
   }
 ]

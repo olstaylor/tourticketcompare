@@ -281,7 +281,7 @@
     "vividseats_url": "https://www.vividseats.com/mon-laferte-tickets-inglewood-kia-forum-11-8-2026--concerts-rock/production/7164376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mon-laferte-femme-fatale-tour-inglewood-california-11-08-2026/event/090064C7E0BCDF3F",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -343,13 +343,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-8-2026/event/107455665",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-18T17:00:00Z",
-        "end": "2026-11-04T20:00:00Z"
-      }
     ]
   },
   {

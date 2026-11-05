@@ -165,7 +165,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/cody-johnson-belfast-04-11-2026/event/38006443FABA2604",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -220,7 +220,8 @@
     "organizer_names": [
       "MCD PRODUCTIONS",
       "O2"
-    ]
+    ],
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-cody-johnson-2026-dublin-1avoz_73704zd85a",

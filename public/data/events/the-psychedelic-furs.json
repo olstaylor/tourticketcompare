@@ -791,7 +791,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006528D9173DE7",
     "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-huntington-new-york-04-28-2027/event/00006528D9173DE7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/huntington-new-york-the-paramount-huntington-2027-04-28-8-pm/concert/18592687",
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-huntington-the-paramount-in-concert-with-northwell-4-28-2027--concerts-pop/production/7559015",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-huntington-new-york-04-28-2027/event/00006528D9173DE7",
@@ -967,7 +967,7 @@
         "event_id": 18670227,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/ridgefield-connecticut-the-ridgefield-playhouse-2027-01-15-8-pm/concert/18670227",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {

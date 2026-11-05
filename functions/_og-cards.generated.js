@@ -460,7 +460,6 @@ export const OG_CARDS = {
   "/artists/morat/tickets/ciudad-de-m-xico-mexico": {"url":"/og/artists-morat-tickets-ciudad-de-m-xico-mexico.png","alt":"Tickets: Morat in Ciudad de México"},
   "/artists/morgan-wallen": {"url":"/og/artists-morgan-wallen.png","alt":"Tickets & tour dates: Morgan Wallen"},
   "/artists/motionless-in-white": {"url":"/og/artists-motionless-in-white.png","alt":"Tickets & tour dates: Motionless in White"},
-  "/artists/motionless-in-white/presale": {"url":"/og/artists-motionless-in-white-presale.png","alt":"Presale: Motionless in White"},
   "/artists/motionless-in-white/ticket-prices": {"url":"/og/artists-motionless-in-white-ticket-prices.png","alt":"Ticket prices: Motionless in White"},
   "/artists/mumford-sons": {"url":"/og/artists-mumford-sons.png","alt":"Tickets & tour dates: Mumford & Sons"},
   "/artists/my-chemical-romance": {"url":"/og/artists-my-chemical-romance.png","alt":"Tickets & tour dates: My Chemical Romance"},

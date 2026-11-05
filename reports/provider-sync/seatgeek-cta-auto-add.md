@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-11-03T23:19:58.031Z
+Generated: 2026-11-04T23:44:24.543Z
 
 ## Run summary
 
@@ -8,41 +8,42 @@ Generated: 2026-11-03T23:19:58.031Z
 - SeatGeek client ID present: true
 - SeatGeek client secret present: false
 - API access with client ID only: HTTP 200
-- Total events in data: 5101
-- Enrichment-eligible events (Ticketmaster-verified, or machine_high_confidence with a Ticketmaster identity): 5101
-- Events already carrying a valid SeatGeek URL: 2747
-- Enrichment-eligible events already carrying a valid SeatGeek URL: 2747
-- Enrichment-eligible events still missing a valid SeatGeek URL before this run: 2354
-- Eligible (upcoming, resolvable local date) after pre-API filtering: 1763
-- Skipped before any API call: 610 (past_event: 610)
+- Total events in data: 5115
+- Enrichment-eligible events (Ticketmaster-verified, or machine_high_confidence with a Ticketmaster identity): 5115
+- Events already carrying a valid SeatGeek URL: 2783
+- Enrichment-eligible events already carrying a valid SeatGeek URL: 2783
+- Enrichment-eligible events still missing a valid SeatGeek URL before this run: 2332
+- Eligible (upcoming, resolvable local date) after pre-API filtering: 1742
+- Skipped before any API call: 615 (past_event: 615)
 - Events this run can check (window size): 160
-- Rotation: window 1 of 12 (key 20760)
-- Runs needed to check every eligible event once: 12
+- Rotation: window 5 of 11 (key 20761)
+- Runs needed to check every eligible event once: 11
 - Events selected/logged by this run: 160
 - Events checked by this run: 160
 - API calls made: 800
 - Rate-limit responses: 0
-- URLs added: 19
-- Events skipped: 141
-- no_candidates_returned: 127
+- URLs added: 25
+- Events skipped: 135
+- no_candidates_returned: 130
 - rate_limited_not_checked: 0
 - Stopped early: no
-- Next resume showId: tm-air-supply-2027-daytona-beach-z7r9jz1a7pozg
-- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 800 --resume-from 'tm-air-supply-2027-daytona-beach-z7r9jz1a7pozg'
-- Accepted venue mismatches: 12
-- Conflicts found: 1
+- Next resume showId: tm-lord-huron-2026-philadelphia-vvg1fz_2mgblql
+- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 800 --resume-from 'tm-lord-huron-2026-philadelphia-vvg1fz_2mgblql'
+- Accepted venue mismatches: 5
+- Conflicts found: 2
 
 ## Skipped reasons
 
-- no_candidates_returned: 127
-- city_or_metro_match_failed: 13
-- conflicting_same_date_city_candidates: 1
+- no_candidates_returned: 130
+- conflicting_same_date_city_candidates: 2
+- city_or_metro_match_failed: 2
+- invalid_seatgeek_url: 1
 
 ## Interpretation
 
-- `URLs added: 19` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
-- 2747 event(s) already carried valid SeatGeek URLs before this run, including 2747 enrichment-eligible event(s).
-- This run queried only the 2354 enrichment-eligible event(s) that were still missing a valid `seatgeek_url`.
+- `URLs added: 25` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
+- 2783 event(s) already carried valid SeatGeek URLs before this run, including 2783 enrichment-eligible event(s).
+- This run queried only the 2332 enrichment-eligible event(s) that were still missing a valid `seatgeek_url`.
 - SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.
 
 ## URLs added
@@ -51,25 +52,31 @@ This section lists only URLs newly added by this run. Events that already had va
 
 | showId | artist | date | city | SeatGeek URL |
 | --- | --- | --- | --- | --- |
-| tm-garth-brooks-2026-hamilton-1avzz_4gkr__tfz | Garth Brooks | 2026-12-06 | Hamilton | https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-06-2-pm/concert/18739726 |
-| tm-blondshell-2027-cleveland-vv1aazk4pgkduzdwy | Blondshell | 2027-05-18 | Cleveland | https://seatgeek.com/blondshell-tickets/cleveland-ohio-the-odeon-concert-club-2027-05-18-8-pm/concert/18738820 |
-| tm-daughtry-2026-oklahoma-city-z7r9jz1a7px8p | Daughtry | 2026-11-04 | Oklahoma City | https://seatgeek.com/daughtry-tickets/oklahoma-city-oklahoma-the-criterion-okc-2026-11-04-7-pm/concert/18316804 |
-| tm-victoria-monet-2026-charlotte-g5evz_3nkdbni | Victoria Monet | 2026-11-05 | Charlotte | https://seatgeek.com/victoria-monet-tickets/charlotte-north-carolina-ovens-auditorium-2026-11-05-8-pm/concert/18579758 |
-| tm-don-omar-2026-ontario-vvg10z_1tpplao | Don Omar | 2026-11-10 | Ontario | https://seatgeek.com/don-omar-tickets/ontario-california-toyota-arena-ontario-2026-11-10-8-pm/concert/18250868 |
-| tm-los-tigres-del-norte-2026-palm-desert-vvg1iz_axk_2p- | Los Tigres del Norte | 2026-11-13 | Palm Desert | https://seatgeek.com/los-tigres-del-norte-tickets/thousand-palms-california-acrisure-arena-2026-11-13-8-pm/concert/18093245 |
-| tm-jodeci-2026-bristol-g5viz_25fd7l0 | Jodeci | 2026-11-15 | Bristol | https://seatgeek.com/jodeci-tickets/bristol-virginia-hard-rock-hotel-and-casino-bristol-2026-11-15-7-pm/concert/18407251 |
-| tm-jonas-brothers-2026-palm-desert-vvg1iz_8yuodgq | Jonas Brothers | 2026-11-17 | Palm Desert | https://seatgeek.com/jonas-brothers-tickets/thousand-palms-california-acrisure-arena-2026-11-17-7-30-pm/concert/18503906 |
-| tm-tyla-2026-seattle-vvg1hz_4ubjbln | Tyla | 2026-11-17 | Seattle | https://seatgeek.com/tyla-tickets/seattle-washington-wamu-theater-2026-11-17-8-pm/concert/18404275 |
-| tm-sabaton-2026-loveland-z7r9jz1a7-ojz | Sabaton | 2026-11-18 | Loveland | https://seatgeek.com/sabaton-tickets/loveland-colorado-blue-federal-credit-union-arena-2026-11-18-7-pm/concert/17732682 |
-| tm-three-days-grace-2026-san-jose-g5vyzbu3r_nwh | Three Days Grace | 2026-11-18 | San Jose | https://seatgeek.com/three-days-grace-tickets/san-jose-california-sap-center-at-san-jose-2026-11-18-7-pm/concert/17895175 |
-| tm-black-stone-cherry-2026-sauget-rz7hnez1afggzf | Black Stone Cherry | 2026-11-20 | Sauget | https://seatgeek.com/black-stone-cherry-tickets/sauget-illinois-pop-s-sauget-2026-11-20-8-pm/concert/18637133 |
-| tm-black-stone-cherry-2026-birmingham-rz7hnez1afuf1f | Black Stone Cherry | 2026-11-21 | Birmingham | https://seatgeek.com/black-stone-cherry-tickets/birmingham-alabama-the-fennec-sports-live-music-events-2026-11-21-8-pm/concert/18637134 |
-| tm-latto-2026-boston-z7r9jz1aae_7z | Latto | 2026-11-23 | Boston | https://seatgeek.com/doja-cat-tickets/boston-massachusetts-td-garden-2026-11-23-7-30-pm/concert/17769352 |
-| tm-latto-2026-philadelphia-vv17fz_4gkux4p4m | Latto | 2026-11-29 | Philadelphia | https://seatgeek.com/doja-cat-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-29-7-30-pm/concert/17769353 |
-| tm-pink-martini-2026-redding-z7r9jz1a7ps3o | Pink Martini | 2026-12-04 | Redding | https://seatgeek.com/pink-martini-tickets/redding-california-cascade-theatre-redding-2026-12-04-7-30-pm/concert/18690405 |
-| tm-blue-october-2026-oklahoma-city-z7r9jz1a7-v0b | Blue October | 2026-12-06 | Oklahoma City | https://seatgeek.com/blue-october-tickets/oklahoma-city-oklahoma-the-criterion-okc-2026-12-06-8-pm/concert/18143446 |
-| tm-pink-martini-2027-athens-z7r9jz1a7pv8_ | Pink Martini | 2027-01-19 | Athens | https://seatgeek.com/pink-martini-tickets/athens-georgia-hodgson-concert-hall-at-the-uga-performing-arts-center-2027-01-19-7-30-pm/concert/18701989 |
-| tm-atmosphere-2027-grand-junction-z7r9jz1aaezfe | Atmosphere | 2027-01-20 | Grand Junction | https://seatgeek.com/atmosphere-tickets/grand-junction-colorado-mesa-theater-2027-01-20-7-pm/concert/18609076 |
+| tm-barry-manilow-2027-las-vegas-1avjz_3gkrocmpa | Barry Manilow | 2027-04-02 | Las Vegas | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-02-8-pm/concert/18590288 |
+| tm-barry-manilow-2027-las-vegas-1avjz_3gkrorept | Barry Manilow | 2027-04-03 | Las Vegas | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-03-7-pm/concert/18590286 |
+| tm-mercyme-2027-reading-vv17fz_fgks27zye | MercyMe | 2027-04-04 | Reading | https://seatgeek.com/mercyme-tickets/reading-pennsylvania-santander-arena-2027-04-04-7-pm/concert/18692254 |
+| tm-calvin-harris-2027-toronto-1a8zk4fgkevlxcb | Calvin Harris | 2027-04-12 | Toronto | https://seatgeek.com/calvin-harris-tickets/toronto-canada-scotiabank-arena-2027-04-12-8-pm/concert/18674913 |
+| tm-calvin-harris-2027-hamilton-1a8zk4agkd5cdnl | Calvin Harris | 2027-04-17 | Hamilton | https://seatgeek.com/calvin-harris-tickets/hamilton-canada-td-coliseum-2027-04-17-8-pm/concert/18674914 |
+| tm-mercyme-2027-cedar-park-g5diz_fiumntg | MercyMe | 2027-04-17 | Cedar Park | https://seatgeek.com/mercyme-tickets/cedar-park-texas-h-e-b-center-at-cedar-park-2027-04-17-7-pm/concert/18692268 |
+| tm-lola-young-2027-denver-g5vzz_f11k7mj | Lola Young | 2027-04-25 | Denver | https://seatgeek.com/lola-young-tickets/denver-colorado-fillmore-auditorium-denver-2027-04-25-8-pm/concert/18649718 |
+| tm-foreigner-2027-montclair-vv1aezkf_gkded4lx | Foreigner | 2027-04-28 | Montclair | https://seatgeek.com/foreigner-tickets/montclair-new-jersey-the-wellmont-theater-2027-04-28-8-pm/concert/18550003 |
+| tm-the-psychedelic-furs-2027-huntington-k7vgf_3n_asme | The Psychedelic Furs | 2027-04-28 | Huntington | https://seatgeek.com/the-psychedelic-furs-tickets/huntington-new-york-the-paramount-huntington-2027-04-28-8-pm/concert/18592687 |
+| tm-mercyme-2027-milwaukee-vv17jz_fgkboydiq | MercyMe | 2027-04-29 | Milwaukee | https://seatgeek.com/mercyme-tickets/milwaukee-wisconsin-uw-milwaukee-panther-arena-2027-04-29-7-pm/concert/18692280 |
+| tm-foreigner-2027-westbury-k7vgf_ocs3r5v | Foreigner | 2027-05-02 | Westbury | https://seatgeek.com/foreigner-tickets/westbury-new-york-flagstar-at-westbury-music-fair-2027-05-02-8-pm/concert/18549843 |
+| tm-jack-johnson-2027-las-vegas-1avjz_fgkthyfka | Jack Johnson | 2027-06-02 | Las Vegas | https://seatgeek.com/jack-johnson-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2027-06-02-8-pm/concert/18738901 |
+| tm-jack-johnson-2027-las-vegas-1avjz_fgkthbfkc | Jack Johnson | 2027-06-03 | Las Vegas | https://seatgeek.com/jack-johnson-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2027-06-03-8-pm/concert/18738900 |
+| tm-death-cab-for-cutie-2027-milwaukee-vv17jz_4gkdidvax | Death Cab for Cutie | 2027-06-25 | Milwaukee | https://seatgeek.com/death-cab-for-cutie-tickets/milwaukee-wisconsin-bmo-pavilion-2027-06-25-7-pm/concert/18738391 |
+| tm-sting-2026-cincinnati-1apzko9gkelizys | Sting | 2026-11-04 | Cincinnati | https://seatgeek.com/sting-tickets/cincinnati-ohio-andrew-j-brady-music-center-2026-11-04-7-pm/concert/18100188 |
+| tm-tom-jones-2026-los-angeles-vvg10z_58xadko | Tom Jones | 2026-11-04 | Los Angeles | https://seatgeek.com/tom-jones-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-11-04-8-pm/concert/18266701 |
+| tm-little-big-town-2026-virginia-beach-vvg17z_gg7kjfl | Little Big Town | 2026-11-05 | Virginia Beach | https://seatgeek.com/little-big-town-tickets/virginia-beach-virginia-the-dome-13-2026-11-05-7-30-pm/concert/18292626 |
+| tm-air-supply-2026-medford-vv177z_6gkl3s3mj | Air Supply | 2026-11-05 | Medford | https://seatgeek.com/air-supply-tickets/medford-massachusetts-chevalier-theatre-2026-11-05-8-pm/concert/18155216 |
+| tm-dinosaur-jr-2026-new-orleans-z7r9jz1a7pu-o | Dinosaur Jr. | 2026-11-07 | New Orleans | https://seatgeek.com/dinosaur-jr-tickets/new-orleans-louisiana-tipitina-s-2026-11-07-9-pm/concert/18345776 |
+| tm-victoria-monet-2026-philadelphia-vv1aezkfxgkegbvoj | Victoria Monet | 2026-11-12 | Philadelphia | https://seatgeek.com/victoria-monet-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-11-12-8-pm/concert/18579771 |
+| tm-little-big-town-2026-chicago-vvg1jz_gohfssb | Little Big Town | 2026-11-19 | Chicago | https://seatgeek.com/little-big-town-tickets/chicago-illinois-the-chicago-theatre-2026-11-19-7-30-pm/concert/18292638 |
+| tm-lord-huron-2026-cincinnati-17aov0g62ysdsyk | Lord Huron | 2026-12-02 | Cincinnati | https://seatgeek.com/lord-huron-tickets/cincinnati-ohio-andrew-j-brady-music-center-2026-12-02-8-pm/concert/18421955 |
+| tm-billy-strings-2026-new-orleans-g5viz_fhsj6zp | Billy Strings | 2026-12-04 | New Orleans | https://seatgeek.com/billy-strings-tickets/new-orleans-louisiana-saenger-theatre-new-orleans-2026-12-04-7-30-pm/concert/18167418 |
+| tm-lord-huron-2026-chicago-vvg1jz_2u-es7s | Lord Huron | 2026-12-08 | Chicago | https://seatgeek.com/lord-huron-tickets/chicago-illinois-the-chicago-theatre-2026-12-08-8-pm/concert/18421958 |
+| tm-lord-huron-2026-chicago-vvg1jz_2u-jk7l | Lord Huron | 2026-12-09 | Chicago | https://seatgeek.com/lord-huron-tickets/chicago-illinois-the-chicago-theatre-2026-12-09-8-pm/concert/18421967 |
 
 ## Events skipped
 
@@ -77,169 +84,158 @@ Skipped rows are only the enrichment-eligible events that were still missing a v
 
 | showId | artist | date | city | reason | best candidate |
 | --- | --- | --- | --- | --- | --- |
-| tm-karan-aujla-2026-sacramento-g5vyz_3m-gnbm | Karan Aujla | 2026-11-07 | Sacramento | no_candidates_returned | - |
-| tm-karan-aujla-2026-los-angeles-g5eyz_3lgqzvb | Karan Aujla | 2026-11-09 | Los Angeles | no_candidates_returned | - |
-| tm-karan-aujla-2026-dallas-vvg1yz_3r_e2at | Karan Aujla | 2026-11-13 | Dallas | no_candidates_returned | - |
-| tm-karan-aujla-2026-atlanta-vvg1zz_3myjgwo | Karan Aujla | 2026-11-16 | Atlanta | no_candidates_returned | - |
-| tm-karan-aujla-2026-new-york-g5diz_3ivacnr | Karan Aujla | 2026-11-18 | New York | no_candidates_returned | - |
-| tm-interpol-2026-london-1amzk4xgkd2vp1g | Interpol | 2026-12-04 | London | no_candidates_returned | - |
-| tm-a-boogie-wit-da-hoodie-2026-new-york-k7vgf_p5e9_go | A Boogie Wit Da Hoodie | 2026-12-13 | New York | no_candidates_returned | - |
-| tm-mon-laferte-2027-brussels-z698xzg2z1kbx0fgb | Mon Laferte | 2027-01-18 | Brussels | no_candidates_returned | - |
-| tm-jake-bugg-2027-ayr-1auzk4xgkerybal | Jake Bugg | 2027-02-12 | Ayr | no_candidates_returned | - |
-| tm-jake-bugg-2027-stirling-1auzk4xgkd61qqs | Jake Bugg | 2027-02-13 | Stirling | no_candidates_returned | - |
-| tm-role-model-2027-manchester-g5vhz_u1kkyot | Role Model | 2027-02-28 | Manchester | no_candidates_returned | - |
-| tm-katseye-2027-auckland-1ae8z_4gkre277q | KATSEYE | 2027-03-05 | Auckland | no_candidates_returned | - |
-| tm-weezer-2027-auckland-1fazvp4sz3z7g15d | Weezer | 2027-03-07 | Auckland | no_candidates_returned | - |
+| tm-fontaines-d-c-2027-mexico-1av8z_ogku9epc3 | Fontaines D.C. | 2027-03-24 | México | no_candidates_returned | - |
+| tm-fontaines-d-c-2027-mexico-1av8z_ogkxugz79 | Fontaines D.C. | 2027-03-25 | México | no_candidates_returned | - |
+| tm-james-blunt-2027-leeds-g5vhz_8rglm2f | James Blunt | 2027-03-26 | Leeds | no_candidates_returned | - |
+| tm-james-blunt-2027-newcastle-upon-tyne-g5vhz_8jzh5mu | James Blunt | 2027-03-28 | Newcastle Upon Tyne | no_candidates_returned | - |
+| tm-vnv-nation-2027-toronto-1avzzbvgkvjgkmw | VNV Nation | 2027-04-04 | Toronto | no_candidates_returned | - |
+| tm-jake-bugg-2027-madrid-z698xz2qz1k_y8v-_ | Jake Bugg | 2027-04-06 | Madrid | no_candidates_returned | - |
+| tm-jake-bugg-2027-barcelona-z698xz2qz16vps_0bf | Jake Bugg | 2027-04-07 | Barcelona | no_candidates_returned | - |
+| tm-james-blunt-2027-brighton-g5dzz_8l-leuz | James Blunt | 2027-04-08 | Brighton | no_candidates_returned | - |
+| tm-anuel-aa-2027-monterrey-g5dvz_6rcdk4r | Anuel AA | 2027-04-08 | Monterrey | no_candidates_returned | - |
+| tm-foreigner-2027-london-16djz_37gg7hhxi | Foreigner | 2027-04-14 | London | no_candidates_returned | - |
+| tm-anuel-aa-2027-zapopan-g5dvz_6raf6md | Anuel AA | 2027-04-15 | Zapopan | no_candidates_returned | - |
+| tm-simple-minds-2027-munich-z698xzc2z16vqkpa7j | Simple Minds | 2027-04-20 | Munich | no_candidates_returned | - |
+| tm-erasure-2027-liverpool-1amzkfugkdiq68r | Erasure | 2027-04-28 | Liverpool | no_candidates_returned | - |
+| tm-mei-semones-2027-boise-z7r9jz1aaekjo | Mei Semones | 2027-04-30 | Boise | no_candidates_returned | - |
+| tm-haiden-henderson-2027-milwaukee-z7r9jz1aaeea6 | Haiden Henderson | 2027-05-01 | Milwaukee | no_candidates_returned | - |
+| tm-mei-semones-2027-salt-lake-city-z7r9jz1aaefc8 | Mei Semones | 2027-05-01 | Salt Lake City | no_candidates_returned | - |
+| tm-bryan-adams-2027-oslo-z698xzb_z16vq6qw4z | Bryan Adams | 2027-05-03 | Oslo | no_candidates_returned | - |
+| tm-erasure-2027-nottingham-1agzkfmgkd2kzuu | Erasure | 2027-05-05 | Nottingham | no_candidates_returned | - |
+| tm-thirty-seconds-to-mars-2027-nurnberg-z698xzc2z16vqofzv8 | Thirty Seconds to Mars | 2027-05-05 | Nürnberg | no_candidates_returned | - |
+| tm-mei-semones-2027-lexington-z7r9jz1aaek09 | Mei Semones | 2027-05-06 | Lexington | no_candidates_returned | - |
+| tm-bryan-adams-2027-helsinki-z698xz8kz1kuaq6jf | Bryan Adams | 2027-05-07 | Helsinki | no_candidates_returned | - |
+| tm-mei-semones-2027-columbus-z7r9jz1aaef7k | Mei Semones | 2027-05-07 | Columbus | no_candidates_returned | - |
+| tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdnvnrg | Niall Horan | 2027-05-07 | Ciudad de México | no_candidates_returned | - |
+| tm-erasure-2027-leeds-g5vhz_kldd9ue | Erasure | 2027-05-08 | Leeds | no_candidates_returned | - |
+| tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdpr1hq | Niall Horan | 2027-05-08 | Ciudad de México | no_candidates_returned | - |
+| tm-simple-minds-2027-leeds-g5vhz_31k8si9 | Simple Minds | 2027-05-11 | Leeds | no_candidates_returned | - |
+| tm-erasure-2027-brighton-g5dzz_kwfhs5r | Erasure | 2027-05-11 | Brighton | no_candidates_returned | - |
+| tm-simple-minds-2027-newcastle-upon-tyne-g5vhz_31k4viz | Simple Minds | 2027-05-13 | Newcastle Upon Tyne | no_candidates_returned | - |
+| tm-weezer-2027-newcastle-upon-tyne-g5vhz_8kkspwo | Weezer | 2027-05-14 | Newcastle Upon Tyne | no_candidates_returned | - |
 | tm-rod-stewart-2027-london-1agzkfzgkdu5qoy | Rod Stewart | 2027-05-15 | London | no_candidates_returned | - |
-| tm-rod-stewart-2027-glasgow-1adbz_4gkmvnhoa | Rod Stewart | 2027-05-18 | Glasgow | no_candidates_returned | - |
-| tm-the-interrupters-2027-london-g5vhz_4d3nbns | The Interrupters | 2027-06-01 | London | no_candidates_returned | - |
-| tm-shania-twain-2027-scarborough-1agzkfugkdob_wu | Shania Twain | 2027-06-16 | Scarborough | no_candidates_returned | - |
-| tm-shania-twain-2027-glasgow-1adbz_fgkuptsoi | Shania Twain | 2027-06-17 | Glasgow | no_candidates_returned | - |
-| tm-kings-of-leon-2027-hamburg-z698xzc2z1kjifpz9 | Kings Of Leon | 2027-06-18 | Hamburg | no_candidates_returned | - |
-| tm-the-interrupters-2027-k-benhavn-v-z698xzc4z1k8bb3pe | The Interrupters | 2027-06-21 | København V | no_candidates_returned | - |
-| tm-queens-of-the-stone-age-2027-valencia-z698xz2qz16vfzvzrf | Queens Of The Stone Age | 2027-06-21 | Valencia | no_candidates_returned | - |
-| tm-shania-twain-2027-cardiff-g5vhz_kljqj-d | Shania Twain | 2027-06-22 | Cardiff | no_candidates_returned | - |
-| tm-shania-twain-2027-exeter-g5vhz_kjtg0ag | Shania Twain | 2027-06-24 | Exeter | no_candidates_returned | - |
-| tm-shania-twain-2027-dublin-1abzk4pgkenqubp | Shania Twain | 2027-06-26 | Dublin | no_candidates_returned | - |
-| tm-shania-twain-2027-belfast-1adoz_4gksdrodo | Shania Twain | 2027-06-27 | Belfast | no_candidates_returned | - |
-| tm-queens-of-the-stone-age-2027-pordenone-zg9rmiynyzfa6e | Queens Of The Stone Age | 2027-06-27 | Pordenone | no_candidates_returned | - |
-| tm-shania-twain-2027-woodstock-1amzk4agkdk2pnt | Shania Twain | 2027-06-29 | Woodstock | no_candidates_returned | - |
-| tm-noah-kahan-2027-berlin-z698xzc2z16vgkoop- | Noah Kahan | 2027-07-02 | Berlin | no_candidates_returned | - |
-| tm-noah-kahan-2027-milano-zg9rmiynyzfa6d | Noah Kahan | 2027-07-04 | Milano | no_candidates_returned | - |
-| tm-noah-kahan-2027-sevilla-z698xz2qz16v3duzrf | Noah Kahan | 2027-07-07 | Sevilla | no_candidates_returned | - |
-| tm-meshuggah-2027-warsaw-z698xzqpz1kgpab4t | Meshuggah | 2027-10-10 | Warsaw | no_candidates_returned | - |
-| tm-nickelback-2027-pokolbin-1avgz_4c70szdc8v | Nickelback | 2027-10-17 | Pokolbin | no_candidates_returned | - |
-| tm-meshuggah-2027-dublin-1avoz_4gkwrafdq | Meshuggah | 2027-10-27 | Dublin | no_candidates_returned | - |
-| tm-meshuggah-2027-manchester-1adfz_4gkvdqmcy | Meshuggah | 2027-10-29 | Manchester | no_candidates_returned | - |
-| tm-meshuggah-2027-london-1adjz_4gkbbdf9c | Meshuggah | 2027-10-30 | London | no_candidates_returned | - |
-| tm-sting-2026-akron-vv17fz_agkm57pk- | Sting | 2026-11-02 | Akron | no_candidates_returned | - |
-| tm-niall-horan-2026-krakow-z698xzqpz1kq7zp-- | Niall Horan | 2026-11-03 | Krakow | no_candidates_returned | - |
-| tm-in-flames-2026-ft-lauderdale-vvg1vz_3k_p4ju | In Flames | 2026-11-04 | Ft Lauderdale | city_or_metro_match_failed | https://seatgeek.com/in-flames-tickets/fort-lauderdale-florida-culture-room-2026-11-04-7-pm/concert/18555225 |
-| tm-blue-october-2026-new-york-city-k7v17_67ag7rfqz | Blue October | 2026-11-04 | New York City | city_or_metro_match_failed | https://seatgeek.com/blue-october-tickets/new-york-new-york-palladium-times-square-2026-11-04-8-pm/concert/18140894 |
-| tm-jodeci-2026-saint-louis-vvg1bz_2r0qtwk | Jodeci | 2026-11-04 | Saint Louis | city_or_metro_match_failed | https://seatgeek.com/jodeci-tickets/st-louis-missouri-stifel-theatre-2026-11-04-8-pm/concert/18407230 |
-| tm-niall-horan-2026-merksem-antwerpen-z698xzg2z1k1kb9e_ | Niall Horan | 2026-11-05 | Merksem (Antwerpen) | no_candidates_returned | - |
-| tm-dinosaur-jr-2026-austin-g5diz_usqkioq | Dinosaur Jr. | 2026-11-05 | Austin | conflicting_same_date_city_candidates | https://seatgeek.com/dinosaur-jr-tickets/austin-texas-stubb-s-waller-creek-amphitheater-2026-11-05-8-pm/concert/18345768 |
-| tm-jack-johnson-2026-brisbane-1k7yv0jtgaugdpl | Jack Johnson | 2026-11-06 | Brisbane | no_candidates_returned | - |
-| tm-gary-allan-2026-catoosa-z7r9jz1aaza0p | Gary Allan | 2026-11-06 | Catoosa | city_or_metro_match_failed | https://seatgeek.com/gary-allan-tickets/fort-gibson-oklahoma-cherokee-casino-2-2026-11-06-8-pm/concert/18450871 |
-| tm-jack-johnson-2026-west-perth-1k7yv0qzga2dx6- | Jack Johnson | 2026-11-10 | West Perth | no_candidates_returned | - |
-| tm-my-chemical-romance-2026-singapore-z7r9jz1a7oup6 | My Chemical Romance | 2026-11-10 | Singapore | no_candidates_returned | - |
-| tm-jack-johnson-2026-west-perth-1akzkomgkd_zu0i | Jack Johnson | 2026-11-11 | West Perth | no_candidates_returned | - |
-| tm-jack-johnson-2026-west-perth-1akzkomgkd_bj0s | Jack Johnson | 2026-11-12 | West Perth | no_candidates_returned | - |
-| tm-fontaines-d-c-2026-merksem-antwerpen-z698xzg2z16ve_oz7v | Fontaines D.C. | 2026-11-12 | Merksem (Antwerpen) | no_candidates_returned | - |
-| tm-niall-horan-2026-dublin-1avoz_6rofpzd5ed | Niall Horan | 2026-11-12 | Dublin | no_candidates_returned | - |
-| tm-hans-zimmer-2026-abu-dhabi-z698xz52z16vb-f9q_ | Hans Zimmer | 2026-11-13 | Abu Dhabi | no_candidates_returned | - |
-| tm-jack-johnson-2026-sydney-1akzkosgkdq3fwf | Jack Johnson | 2026-11-14 | Sydney | no_candidates_returned | - |
-| tm-dermot-kennedy-2026-west-perth-1avgz_agkmqzbyp | Dermot Kennedy | 2026-11-14 | West Perth | no_candidates_returned | - |
-| tm-death-cab-for-cutie-2026-brisbane-1akzk3fgkd_ud6g | Death Cab for Cutie | 2026-11-15 | Brisbane | no_candidates_returned | - |
-| tm-two-door-cinema-club-2026-mt-claremont-1akzkosgkdk8pdq | Two Door Cinema Club | 2026-11-15 | Mt Claremont | no_candidates_returned | - |
-| tm-mon-laferte-2026-monterrey-17azv0g6cxrk0bt | Mon Laferte | 2026-11-16 | Monterrey | no_candidates_returned | - |
-| tm-jack-johnson-2026-linlithgow-ave-1avgz_6cppkzd52a | Jack Johnson | 2026-11-17 | Linlithgow Ave | no_candidates_returned | - |
-| tm-dermot-kennedy-2026-brisbane-1avgz_agksulpj1 | Dermot Kennedy | 2026-11-17 | Brisbane | no_candidates_returned | - |
-| tm-bryson-tiller-2026-zurich-z698xzu3z16v7d03_k | Bryson Tiller | 2026-11-17 | Zürich | no_candidates_returned | - |
-| tm-mon-laferte-2026-monterrey-17azv0g61m-mqwh | Mon Laferte | 2026-11-17 | Monterrey | no_candidates_returned | - |
-| tm-jack-johnson-2026-linlithgow-ave-1avgz_6gkbxcfqh | Jack Johnson | 2026-11-18 | Linlithgow Ave | no_candidates_returned | - |
-| tm-beabadoobee-2026-greenwich-z7r9jz1a7ps_a | beabadoobee | 2026-11-18 | Greenwich | no_candidates_returned | - |
-| tm-polyphia-2026-zurich-z698xzu3z16v333k4j | Polyphia | 2026-11-18 | Zürich | no_candidates_returned | - |
-| tm-saint-levant-2026-k-benhavn-v-z698xzc4z16ez9zpo4 | Saint Levant | 2026-11-18 | København V | no_candidates_returned | - |
-| tm-too-many-zooz-2026-toronto-rz7hnez1affov7 | Too Many Zooz | 2026-11-18 | Toronto | no_candidates_returned | - |
-| tm-saint-levant-2026-oslo-z698xzb_z1kk3atjs | Saint Levant | 2026-11-19 | Oslo | no_candidates_returned | - |
-| tm-missio-2026-detroit-z7r9jz1aaziv8 | Missio | 2026-11-19 | Detroit | no_candidates_returned | - |
-| tm-fontaines-d-c-2026-liverpool-1adjz_8gkv_dtbp | Fontaines D.C. | 2026-11-20 | Liverpool | no_candidates_returned | - |
-| tm-morat-2026-tlajomulco-de-zuniga-g5dvz_f6tnua- | Morat | 2026-11-20 | Tlajomulco de Zuñiga | no_candidates_returned | - |
-| tm-saint-levant-2026-stockholm-z698xzq2z16vfgv3vs | Saint Levant | 2026-11-21 | Stockholm | no_candidates_returned | - |
-| tm-jack-johnson-2026-waipara-1kazv0jzgaua-ts | Jack Johnson | 2026-11-22 | Waipara | no_candidates_returned | - |
-| tm-morat-2026-tlajomulco-de-zuniga-g5dvz_f6ivj5r | Morat | 2026-11-21 | Tlajomulco de Zuñiga | no_candidates_returned | - |
-| tm-polyphia-2026-barcelona-z698xz2qz16va8gvrd | Polyphia | 2026-11-22 | Barcelona | no_candidates_returned | - |
-| tm-black-stone-cherry-2026-nashville-z7r9jz1aaeapk | Black Stone Cherry | 2026-11-22 | Nashville | city_or_metro_match_failed | https://seatgeek.com/black-stone-cherry-tickets/madison-tennessee-the-58-at-eastside-bowl-2026-11-22-8-pm/concert/18637135 |
-| tm-fontaines-d-c-2026-leeds-g5vhz_8b5sfcc | Fontaines D.C. | 2026-11-24 | Leeds | no_candidates_returned | - |
-| tm-interpol-2026-manchester-1adfzbggkdjtldr | Interpol | 2026-11-24 | Manchester | no_candidates_returned | - |
-| tm-saint-levant-2026-zurich-z698xzu3z1k8wzyjv | Saint Levant | 2026-11-24 | Zürich | no_candidates_returned | - |
-| tm-beabadoobee-2026-stockholm-z698xzq2z1kp0a-oa | beabadoobee | 2026-11-24 | Stockholm | no_candidates_returned | - |
-| tm-two-door-cinema-club-2026-brisbane-1avgz_kgkwwsauv | Two Door Cinema Club | 2026-11-25 | Brisbane | no_candidates_returned | - |
-| tm-polyphia-2026-milano-zg9rmiynyzefaa | Polyphia | 2026-11-25 | Milano | no_candidates_returned | - |
-| tm-trivium-2026-saint-louis-17f8v0g6cy863b6 | Trivium | 2026-11-25 | Saint Louis | city_or_metro_match_failed | https://seatgeek.com/trivium-tickets/chesterfield-missouri-the-factory-stl-2026-11-25-7-pm/concert/18391960 |
-| tm-saint-levant-2026-milano-zg9rmiynyzdda7 | Saint Levant | 2026-11-26 | Milano | no_candidates_returned | - |
-| tm-two-door-cinema-club-2026-auckland-1a0zkoygkd-_sqy | Two Door Cinema Club | 2026-11-27 | Auckland | no_candidates_returned | - |
-| tm-dermot-kennedy-2026-wellington-1ae8z_agkmdax8r | Dermot Kennedy | 2026-11-27 | Wellington | no_candidates_returned | - |
-| tm-sabaton-2026-saint-louis-1ae7zbwgkmsi8la | Sabaton | 2026-11-27 | Saint Louis | city_or_metro_match_failed | https://seatgeek.com/sabaton-tickets/chesterfield-missouri-the-factory-stl-2026-11-27-7-pm/concert/17732687 |
-| tm-boyz-ii-men-2026-waurn-ponds-177yv0g6cqczn9y | Boyz II Men | 2026-11-28 | Waurn Ponds | no_candidates_returned | - |
-| tm-bryson-tiller-2026-forest-brussels-z698xzg2z1kq6a0r6 | Bryson Tiller | 2026-11-28 | Forest (Brussels) | no_candidates_returned | - |
-| tm-polyphia-2026-praha-7-z698xzu0z16vqdqwjv | Polyphia | 2026-11-28 | Praha 7 | no_candidates_returned | - |
-| tm-guns-n-roses-2026-adelaide-1aefzbygkb-e0bz | Guns N' Roses | 2026-11-29 | Adelaide | no_candidates_returned | - |
-| tm-polyphia-2026-warsaw-z698xzqpz1k-vasek | Polyphia | 2026-11-29 | Warsaw | no_candidates_returned | - |
-| tm-bryson-tiller-2026-dublin-17kzv0g659_puvu | Bryson Tiller | 2026-12-01 | Dublin | no_candidates_returned | - |
-| tm-chris-stapleton-2026-nashville-g5viz_kleeols | Chris Stapleton | 2026-12-01 | Nashville | no_candidates_returned | - |
-| tm-guns-n-roses-2026-townsville-1ka8vpzuga26zyk | Guns N' Roses | 2026-12-02 | Townsville | no_candidates_returned | - |
-| tm-a-perfect-circle-2026-adelaide-1aefz_kgkrmdjgo | A Perfect Circle | 2026-12-04 | Adelaide | no_candidates_returned | - |
-| tm-beabadoobee-2026-forest-brussels-z698xzg2z16vovadfj | beabadoobee | 2026-12-04 | Forest (Brussels) | no_candidates_returned | - |
-| tm-gary-allan-2026-las-vegas-z7r9jz1aavf1f | Gary Allan | 2026-12-04 | Las Vegas | no_candidates_returned | - |
-| tm-boyz-ii-men-2026-pokolbin-177yv0g6cro9xjr | Boyz II Men | 2026-12-05 | Pokolbin | no_candidates_returned | - |
-| tm-guns-n-roses-2026-milton-1akzko_gken_ac7 | Guns N' Roses | 2026-12-05 | Milton | no_candidates_returned | - |
-| tm-dylan-gossett-2026-brisbane-177yv0g61tezlg8 | Dylan Gossett | 2026-12-05 | Brisbane | no_candidates_returned | - |
-| tm-imagine-dragons-2026-abu-dhabi-z698xz52z16vb3ooc_ | Imagine Dragons | 2026-12-05 | Abu Dhabi | city_or_metro_match_failed | https://seatgeek.com/candlelight-coldplay-and-imagine-dragons-tickets/bridgeport-connecticut-bijou-theatre-bridgeport-2026-12-05-8-30-pm/concert/18547570 |
-| tm-phoebe-bridgers-2026-forest-brussels-z698xzg2z16ezpgzqe | Phoebe Bridgers | 2026-12-05 | Forest (Brussels) | no_candidates_returned | - |
-| tm-black-stone-cherry-2026-toronto-16tzkfzkozagevde | Black Stone Cherry | 2026-12-05 | Toronto | city_or_metro_match_failed | https://seatgeek.com/black-stone-cherry-tickets/hartford-connecticut-the-webster-hartford-2026-12-05-7-30-pm/concert/18637147 |
-| tm-boyz-ii-men-2026-mount-cotton-177yv0g6chtbuni | Boyz II Men | 2026-12-06 | Mount Cotton | no_candidates_returned | - |
-| tm-dylan-gossett-2026-sydney-177yv0g655_-4r3 | Dylan Gossett | 2026-12-06 | Sydney | no_candidates_returned | - |
-| tm-blondshell-2026-amsterdam-z698xzbpz16evuaf-z | Blondshell | 2026-12-06 | Amsterdam | no_candidates_returned | - |
-| tm-polyphia-2026-oberhausen-z698xzc2z16vk8v9xd | Polyphia | 2026-12-06 | Oberhausen | no_candidates_returned | - |
-| tm-jay-wheeler-2026-malaga-z698xz2qz1kf3jk0a | Jay Wheeler | 2026-12-07 | Málaga | no_candidates_returned | - |
-| tm-guns-n-roses-2026-newcastle-1avgz_agknobybx | Guns N' Roses | 2026-12-08 | Newcastle | no_candidates_returned | - |
-| tm-a-perfect-circle-2026-brisbane-1avgz_kgklfnuo6 | A Perfect Circle | 2026-12-08 | Brisbane | no_candidates_returned | - |
-| tm-dylan-gossett-2026-west-melbourne-177yv0g653cuwz_ | Dylan Gossett | 2026-12-08 | West Melbourne | no_candidates_returned | - |
-| tm-queens-of-the-stone-age-2026-adelaide-17a8v0g6cj0fp2t | Queens Of The Stone Age | 2026-12-08 | Adelaide | no_candidates_returned | - |
-| tm-dylan-gossett-2026-auckland-17azv0g65cuaddf | Dylan Gossett | 2026-12-11 | Auckland | no_candidates_returned | - |
-| tm-guns-n-roses-2026-docklands-1apzkobgkex5mpi | Guns N' Roses | 2026-12-11 | Docklands | no_candidates_returned | - |
-| tm-queens-of-the-stone-age-2026-glenorchy-177yv0g6cla9khl | Queens Of The Stone Age | 2026-12-11 | Glenorchy | no_candidates_returned | - |
-| tm-dylan-gossett-2026-waipara-17azv0g653pu3v4 | Dylan Gossett | 2026-12-12 | Waipara | no_candidates_returned | - |
-| tm-bryan-adams-2026-praha-9-z698xzu0z16vu4-e_a | Bryan Adams | 2026-12-13 | Praha 9 | no_candidates_returned | - |
-| tm-guns-n-roses-2026-olympic-park-1akzko_gkexzdnf | Guns N' Roses | 2026-12-14 | Olympic Park | no_candidates_returned | - |
-| tm-air-supply-2026-auckland-17azv0g65rxws3q | Air Supply | 2026-12-15 | Auckland | no_candidates_returned | - |
-| tm-guns-n-roses-2026-auckland-15e8z_axausjz | Guns N' Roses | 2026-12-17 | Auckland | no_candidates_returned | - |
-| tm-amble-2026-co-mayo-1abzkfugkd8h21y | Amble | 2026-12-17 | Co. Mayo | no_candidates_returned | - |
-| tm-blondshell-2026-dublin-1avoz_agkwt8mru | Blondshell | 2026-12-17 | Dublin | no_candidates_returned | - |
-| tm-mana-2026-ciudad-de-mexico-17azv0g6gcz4ax4 | MANA | 2026-12-17 | Ciudad de México | no_candidates_returned | - |
-| tm-amble-2026-co-mayo-1abzkfugkd8hl5a | Amble | 2026-12-18 | Co. Mayo | no_candidates_returned | - |
-| tm-stella-lefty-2026-saint-louis-1a-zkfxgkegfvfo | Stella Lefty | 2026-12-18 | Saint Louis | city_or_metro_match_failed | https://seatgeek.com/stella-lefty-tickets/chesterfield-missouri-the-factory-stl-2026-12-18-7-30-pm/concert/18591481 |
-| tm-amble-2026-co-mayo-1abzkfugkd8hr56 | Amble | 2026-12-19 | Co. Mayo | no_candidates_returned | - |
-| tm-jon-pardi-2026-saint-louis-16e7z_obyg7v9-3 | Jon Pardi | 2026-12-19 | Saint Louis | city_or_metro_match_failed | https://seatgeek.com/jon-pardi-tickets/chesterfield-missouri-the-factory-stl-2026-12-19-8-pm/concert/18535011 |
-| tm-amble-2026-co-mayo-1abzkfugkd8w25a | Amble | 2026-12-20 | Co. Mayo | no_candidates_returned | - |
-| tm-amble-2026-co-mayo-1abzkfugkd8wl5u | Amble | 2026-12-21 | Co. Mayo | no_candidates_returned | - |
-| tm-tyla-2027-pretoria-z698xz05z16eza8efw | Tyla | 2027-01-08 | Pretoria | no_candidates_returned | - |
-| tm-tyla-2027-pretoria-z698xz05z1kqkoyov | Tyla | 2027-01-09 | Pretoria | no_candidates_returned | - |
-| tm-mon-laferte-2027-madrid-z698xz2qz16vquuz7t | Mon Laferte | 2027-01-13 | Madrid | no_candidates_returned | - |
-| tm-dinosaur-jr-2027-auckland-1a0zk4fgkei-ffe | Dinosaur Jr. | 2027-01-16 | Auckland | no_candidates_returned | - |
-| tm-pink-martini-2027-ft-lauderdale-vvg1vz_asbh4yx | Pink Martini | 2027-01-17 | Ft Lauderdale | city_or_metro_match_failed | https://seatgeek.com/pink-martini-tickets/fort-lauderdale-florida-au-rene-theater-at-the-broward-center-2027-01-17-7-pm/concert/18223166 |
-| tm-saint-levant-2027-glasgow-1adbz_fgkb_vncq | Saint Levant | 2027-01-18 | Glasgow | no_candidates_returned | - |
-| tm-mico-2027-barcelona-z698xz2qz1k4j0yoa | Mico | 2027-01-18 | Barcelona | no_candidates_returned | - |
-| tm-sienna-spiro-2027-west-melbourne-177yv0g6gecffyz | Sienna Spiro | 2027-01-19 | West Melbourne | no_candidates_returned | - |
-| tm-dinosaur-jr-2027-brisbane-1k7yvp4bgacdnzm | Dinosaur Jr. | 2027-01-19 | Brisbane | no_candidates_returned | - |
-| tm-sienna-spiro-2027-west-melbourne-177yv0g6gmjpde2 | Sienna Spiro | 2027-01-20 | West Melbourne | no_candidates_returned | - |
-| tm-bryson-tiller-2027-linlithgow-ave-177yv0g65m3hnkk | Bryson Tiller | 2027-01-21 | Linlithgow Ave | no_candidates_returned | - |
-| tm-yacht-rock-revue-2027-ft-lauderdale-vvg1vz_3t9jx1c | Yacht Rock Revue | 2027-01-21 | Ft Lauderdale | city_or_metro_match_failed | https://seatgeek.com/yacht-rock-revue-tickets/fort-lauderdale-florida-lillian-s-wells-hall-at-the-parker-2027-01-21-7-30-pm/concert/18613163 |
-| tm-nothing-but-thieves-2027-praha-9-z698xzu0z16vba7mjv | Nothing But Thieves | 2027-01-22 | Praha 9 | no_candidates_returned | - |
+| tm-greta-van-fleet-2027-munich-z698xzc2z16v70efz3 | Greta Van Fleet | 2027-05-15 | Munich | no_candidates_returned | - |
+| tm-jay-wheeler-2027-mexico-16fzkfupgza8kga7 | Jay Wheeler | 2027-05-16 | México | no_candidates_returned | - |
+| tm-weezer-2027-leeds-g5vhz_8pmm7nv | Weezer | 2027-05-17 | Leeds | no_candidates_returned | - |
+| tm-hilary-duff-2027-amsterdam-z698xzbpz1k3djpek | Hilary Duff | 2027-05-17 | Amsterdam | no_candidates_returned | - |
+| tm-nickelback-2027-leeds-g5vhz_flmspew | Nickelback | 2027-05-22 | Leeds | no_candidates_returned | - |
+| tm-weezer-2027-oslo-z698xzb_z16vpd8jgb | Weezer | 2027-05-29 | Oslo | no_candidates_returned | - |
+| tm-greta-van-fleet-2027-birmingham-1aegz_kgkmz0sov | Greta Van Fleet | 2027-05-30 | Birmingham | no_candidates_returned | - |
+| tm-weezer-2027-helsinki-z698xz8kz1ku3e4ea | Weezer | 2027-06-01 | Helsinki | no_candidates_returned | - |
+| tm-sombr-2027-amsterdam-z698xzbpz16v0w4skv | Sombr | 2027-06-01 | Amsterdam | no_candidates_returned | - |
+| tm-karol-g-2027-barcelona-z698xz2qz1k-d-v1k | Karol G | 2027-06-03 | Barcelona | no_candidates_returned | - |
+| tm-karol-g-2027-barcelona-z698xz2qz1k8n04vk | Karol G | 2027-06-04 | Barcelona | no_candidates_returned | - |
+| tm-u2-2027-amsterdam-z698xzbpz16v0jupoj | U2 | 2027-06-05 | Amsterdam | no_candidates_returned | - |
+| tm-u2-2027-amsterdam-z698xzbpz16v7bpzfv | U2 | 2027-06-06 | Amsterdam | no_candidates_returned | - |
+| tm-tame-impala-2027-rotterdam-z698xzbpz1kppan3z | Tame Impala | 2027-06-07 | Rotterdam | no_candidates_returned | - |
+| tm-tame-impala-2027-rotterdam-z698xzbpz1k_yjz0i | Tame Impala | 2027-06-08 | Rotterdam | no_candidates_returned | - |
+| tm-rod-stewart-2027-helsinki-z698xz8kz16v7ia-bv | Rod Stewart | 2027-06-09 | Helsinki | no_candidates_returned | - |
+| tm-sting-2027-odz-z698xzqpz1k06xapf | Sting | 2027-06-10 | Łódź | no_candidates_returned | - |
+| tm-blink-182-2027-milano-zg9rmiynyzefk6 | blink-182 | 2027-06-13 | Milano | no_candidates_returned | - |
+| tm-u2-2027-london-1adfz_4qdzvzd55v | U2 | 2027-06-18 | London | no_candidates_returned | - |
+| tm-u2-2027-london-1adfz_4gkszafjm | U2 | 2027-06-19 | London | no_candidates_returned | - |
+| tm-simply-red-2027-amsterdam-z698xzbpz16vajampp | Simply Red | 2027-06-19 | Amsterdam | no_candidates_returned | - |
+| tm-alex-warren-2027-cardiff-g5vhz_3c3nozb | Alex Warren | 2027-06-20 | Cardiff | no_candidates_returned | - |
+| tm-sting-2027-hemer-z698xzc2z16vagofpv | Sting | 2027-06-20 | Hemer | no_candidates_returned | - |
+| tm-rod-stewart-2027-munich-z698xzc2z1kqvo_bs | Rod Stewart | 2027-06-20 | Munich | no_candidates_returned | - |
+| tm-amble-2027-belfast-17czv0g62qetzl- | Amble | 2027-06-23 | Belfast | no_candidates_returned | - |
+| tm-karol-g-2027-madrid-z698xz2qz16vq8a4f7 | Karol G | 2027-06-24 | Madrid | no_candidates_returned | - |
+| tm-karol-g-2027-madrid-z698xz2qz1kpmzkfn | Karol G | 2027-06-25 | Madrid | no_candidates_returned | - |
+| tm-dermot-kennedy-2027-belfast-1azzk4kgkeju-cx | Dermot Kennedy | 2027-06-26 | Belfast | no_candidates_returned | - |
+| tm-karol-g-2027-madrid-z698xz2qz16v8zxv0i | Karol G | 2027-06-26 | Madrid | no_candidates_returned | - |
+| tm-karol-g-2027-madrid-z698xz2qz1koujx1f | Karol G | 2027-06-27 | Madrid | no_candidates_returned | - |
+| tm-sting-2027-konstanz-z698xzc2z1kjfov_n | Sting | 2027-06-27 | Konstanz | no_candidates_returned | - |
+| tm-hayley-williams-2027-cardiff-1adbz_ogkwuumuk | Hayley Williams | 2027-06-30 | Cardiff | no_candidates_returned | - |
+| tm-nickelback-2027-odz-z698xzqpz1kvw7fvb | Nickelback | 2027-07-01 | Łódź | no_candidates_returned | - |
+| tm-pink-martini-2027-london-g5vhz_fqbbwez | Pink Martini | 2027-07-02 | London | no_candidates_returned | - |
+| tm-fontaines-d-c-2027-manchester-g5dzz_omjzv0z | Fontaines D.C. | 2027-07-03 | Manchester | no_candidates_returned | - |
+| tm-simply-red-2027-hemer-z698xzc2z16v_nfy_4 | Simply Red | 2027-07-03 | Hemer | no_candidates_returned | - |
+| tm-fontaines-d-c-2027-manchester-g5dzz_osdpprt | Fontaines D.C. | 2027-07-04 | Manchester | no_candidates_returned | - |
+| tm-bryan-adams-2027-hemer-z698xzc2z1k_buyvn | Bryan Adams | 2027-07-04 | Hemer | no_candidates_returned | - |
+| tm-pink-martini-2027-edinburgh-1auzk4agkdmo6dj | Pink Martini | 2027-07-04 | Edinburgh | no_candidates_returned | - |
+| tm-fontaines-d-c-2027-glasgow-1adbz_ogkrs74cl | Fontaines D.C. | 2027-07-06 | Glasgow | no_candidates_returned | - |
+| tm-sam-fender-2027-edinburgh-1auzk4fgkd4qebt | Sam Fender | 2027-07-08 | Edinburgh | no_candidates_returned | - |
+| tm-amble-2027-manchester-g5vhz_8upt3w4 | Amble | 2027-07-08 | Manchester | no_candidates_returned | - |
+| tm-sam-fender-2027-edinburgh-1adbz_4gkm8ikcj | Sam Fender | 2027-07-10 | Edinburgh | no_candidates_returned | - |
+| tm-oasis-2027-barcelona-z698xz2qz1kosq3xa | Oasis | 2027-07-10 | Barcelona | no_candidates_returned | - |
+| tm-oasis-2027-barcelona-z698xz2qz1kvz7a4m | Oasis | 2027-07-11 | Barcelona | no_candidates_returned | - |
+| tm-rod-stewart-2027-hannover-z698xzc2z1k88ofxe | Rod Stewart | 2027-07-24 | Hannover | no_candidates_returned | - |
+| tm-santana-2027-oslo-z698xzb_z16v43vmbv | Santana | 2027-07-28 | Oslo | no_candidates_returned | - |
+| tm-harry-styles-2027-madrid-z698xz2qz16v0sptae | Harry Styles | 2027-07-30 | Madrid | no_candidates_returned | - |
+| tm-harry-styles-2027-madrid-z698xz2qz16v8zj448 | Harry Styles | 2027-07-31 | Madrid | no_candidates_returned | - |
+| tm-harry-styles-2027-madrid-z698xz2qz1ko4op48 | Harry Styles | 2027-08-02 | Madrid | no_candidates_returned | - |
+| tm-simply-red-2027-chester-1agzkfsgkduxpco | Simply Red | 2027-08-07 | Chester | no_candidates_returned | - |
+| tm-simply-red-2027-halifax-15dfz_3r_jv8z | Simply Red | 2027-08-09 | Halifax | no_candidates_returned | - |
+| tm-simply-red-2027-halifax-1adfz_3gkrvea3u | Simply Red | 2027-08-10 | Halifax | no_candidates_returned | - |
+| tm-bryan-adams-2027-magdeburg-z698xzc2z16vb8r7pg | Bryan Adams | 2027-08-13 | Magdeburg | no_candidates_returned | - |
+| tm-simply-red-2027-swansea-g5vhz_3rbtf3u | Simply Red | 2027-08-20 | Swansea | no_candidates_returned | - |
+| tm-oasis-2027-stevenage-1adjz_3gklfny3e | Oasis | 2027-09-11 | Stevenage | no_candidates_returned | - |
+| tm-oasis-2027-stevenage-1adjz_3gkrrmy7n | Oasis | 2027-09-12 | Stevenage | no_candidates_returned | - |
+| tm-passenger-2027-newcastle-upon-tyne-g5dzz_o6adefx | Passenger | 2027-09-14 | Newcastle Upon Tyne | no_candidates_returned | - |
+| tm-sienna-spiro-2027-mexico-1afzk4ogkeyuq9e | Sienna Spiro | 2027-09-14 | México | no_candidates_returned | - |
+| tm-oasis-2027-stevenage-1adjz_3gkrnjt4_ | Oasis | 2027-09-18 | Stevenage | no_candidates_returned | - |
+| tm-oasis-2027-stevenage-1adjz_3gkreiyj0 | Oasis | 2027-09-19 | Stevenage | no_candidates_returned | - |
+| tm-passenger-2027-exeter-g5vhz_o2o0irs | Passenger | 2027-09-21 | Exeter | no_candidates_returned | - |
+| tm-oasis-2027-stevenage-1adjz_3gkrs3n_k | Oasis | 2027-09-25 | Stevenage | no_candidates_returned | - |
+| tm-oasis-2027-stevenage-1adjz_3gkrz1qva | Oasis | 2027-09-26 | Stevenage | no_candidates_returned | - |
+| tm-eros-ramazzotti-2027-boston-vv1avzk1fgkd0riv2 | Eros Ramazzotti | 2027-09-29 | Boston | conflicting_same_date_city_candidates | https://seatgeek.com/eros-ramazzotti-tickets/boston-massachusetts-boch-center-wang-theatre-2027-09-29-8-pm/concert/18663233 |
+| tm-tom-jones-2026-san-diego-vvg1iz_5gqcfyd | Tom Jones | 2026-11-03 | San Diego | no_candidates_returned | - |
+| tm-cody-johnson-2026-belfast-1azzkodgkdbmxb7 | Cody Johnson | 2026-11-04 | Belfast | no_candidates_returned | - |
+| tm-cody-johnson-2026-dublin-1avoz_73704zd85a | Cody Johnson | 2026-11-05 | Dublin | no_candidates_returned | - |
+| tm-stevie-wonder-2026-london-1adfz_ogkwbmppe | Stevie Wonder | 2026-11-05 | London | no_candidates_returned | - |
+| tm-trivium-2026-st-petersburg-vvg1vz_cbh66cw | Trivium | 2026-11-05 | St Petersburg | city_or_metro_match_failed | https://seatgeek.com/trivium-tickets/saint-petersburg-florida-jannus-live-2026-11-05-5-30-pm/concert/18391932 |
+| tm-tom-jones-2026-highland-z7r9jz1a7p6r4 | Tom Jones | 2026-11-06 | Highland | no_candidates_returned | - |
+| tm-jack-johnson-2026-brisbane-1akzkosgkdpve0m | Jack Johnson | 2026-11-07 | Brisbane | no_candidates_returned | - |
+| tm-calvin-harris-2026-las-vegas-z7r9jz1aav9ui | Calvin Harris | 2026-11-07 | Las Vegas | invalid_seatgeek_url | https://seatgeek.com/calvin-harris-tickets/las-vegas-nevada-xs-nightclub-at-encore-5-2026-11-07-10-30-pm/music-festival/18696680 |
+| tm-jack-johnson-2026-brisbane-1k7yv0jtgaudsje | Jack Johnson | 2026-11-08 | Brisbane | no_candidates_returned | - |
+| tm-niall-horan-2026-dublin-1avoz_6rofjzd576 | Niall Horan | 2026-11-13 | Dublin | no_candidates_returned | - |
+| tm-noah-kahan-2026-london-1ku8v0x_gag10y_ | Noah Kahan | 2026-11-13 | London | no_candidates_returned | - |
+| tm-noah-kahan-2026-london-1ku8v0x_gag57yq | Noah Kahan | 2026-11-14 | London | no_candidates_returned | - |
+| tm-niall-horan-2026-belfast-1adoz_kgkuhawcy | Niall Horan | 2026-11-15 | Belfast | no_candidates_returned | - |
+| tm-beabadoobee-2026-cardiff-17uov0g6uhod1tg | beabadoobee | 2026-11-16 | Cardiff | no_candidates_returned | - |
+| tm-niall-horan-2026-belfast-1adoz_6gkmwqvwh | Niall Horan | 2026-11-16 | Belfast | no_candidates_returned | - |
+| tm-noah-kahan-2026-dublin-1avoz_fgkn52bxo | Noah Kahan | 2026-11-19 | Dublin | no_candidates_returned | - |
+| tm-jack-johnson-2026-auckland-1a0zkowgkdch7lq | Jack Johnson | 2026-11-20 | Auckland | no_candidates_returned | - |
+| tm-interpol-2026-cardiff-1auzkungkeif6z0 | Interpol | 2026-11-21 | Cardiff | no_candidates_returned | - |
+| tm-noah-kahan-2026-dublin-1kkzv0x9ga2yvxh | Noah Kahan | 2026-11-21 | Dublin | no_candidates_returned | - |
+| tm-noah-kahan-2026-dublin-1abzk3agkdihdnu | Noah Kahan | 2026-11-22 | Dublin | no_candidates_returned | - |
+| tm-trans-siberian-orchestra-2026-youngstown-vv1aazkfagkd2zwpt | Trans-Siberian Orchestra | 2026-11-22 | Youngstown | conflicting_same_date_city_candidates | https://seatgeek.com/trans-siberian-orchestra-tickets/youngstown-ohio-covelli-centre-2026-11-22-7-30-pm/concert/18573366 |
+| tm-phoebe-bridgers-2026-dublin-17kzv0g65ra4cgv | Phoebe Bridgers | 2026-11-23 | Dublin | no_candidates_returned | - |
+| tm-phoebe-bridgers-2026-dublin-17kzv0g65ra4mgk | Phoebe Bridgers | 2026-11-24 | Dublin | no_candidates_returned | - |
+| tm-sting-2026-tampa-vvg1vzbpivbfyz | Sting | 2026-11-24 | Tampa | city_or_metro_match_failed | https://seatgeek.com/sting-tickets/orlando-florida-hard-rock-live-orlando-2026-11-24-8-pm/concert/17898563 |
+| tm-dermot-kennedy-2026-christchurch-1ae8z_agkm57djw | Dermot Kennedy | 2026-11-25 | Christchurch | no_candidates_returned | - |
+| tm-dermot-kennedy-2026-auckland-1ae8z_agkranxjl | Dermot Kennedy | 2026-11-28 | Auckland | no_candidates_returned | - |
+| tm-interpol-2026-dublin-1abzkuogkdez9hd | Interpol | 2026-11-30 | Dublin | no_candidates_returned | - |
+| tm-mariah-carey-2026-london-1agzkfsgkdzymm6 | Mariah Carey | 2026-11-30 | London | no_candidates_returned | - |
+| tm-boyz-ii-men-2026-auckland-17azv0g6c2evn3t | Boyz II Men | 2026-12-01 | Auckland | no_candidates_returned | - |
+| tm-phoebe-bridgers-2026-london-17u8v0g6gpqo1c- | Phoebe Bridgers | 2026-12-01 | London | no_candidates_returned | - |
+| tm-andrea-bocelli-2026-abu-dhabi-z698xz52z1k7pedfx | Andrea Bocelli | 2026-12-02 | Abu Dhabi | no_candidates_returned | - |
+| tm-phoebe-bridgers-2026-london-17u8v0g6gnyjt5y | Phoebe Bridgers | 2026-12-02 | London | no_candidates_returned | - |
+| tm-tommy-emmanuel-2026-newberry-z7r9jz1aavs4z | Tommy Emmanuel | 2026-12-04 | Newberry | no_candidates_returned | - |
+| tm-bryson-tiller-2026-cardiff-17uov0g65m7upzx | Bryson Tiller | 2026-12-05 | Cardiff | no_candidates_returned | - |
+| tm-bryson-tiller-2026-london-17u8v0g6gkcb7og | Bryson Tiller | 2026-12-07 | London | no_candidates_returned | - |
+| tm-jay-wheeler-2026-valencia-z698xz2qz16v4e4u-v | Jay Wheeler | 2026-12-08 | Valencia | no_candidates_returned | - |
+| tm-jay-wheeler-2026-bilbao-z698xz2qz1kvb7mek | Jay Wheeler | 2026-12-10 | Bilbao | no_candidates_returned | - |
+| tm-missio-2026-portland-z7r9jz1aazivo | Missio | 2026-12-10 | Portland | no_candidates_returned | - |
+| tm-missio-2026-seattle-z7r9jz1aaziv3 | Missio | 2026-12-11 | Seattle | no_candidates_returned | - |
+| tm-harry-styles-2026-sydney-olympic-park-1ka8v0ukgagf72c | Harry Styles | 2026-12-12 | Sydney Olympic Park | no_candidates_returned | - |
 
 ## Accepted venue mismatches
 
 | showId | TTC venue | SeatGeek venue | URL |
 | --- | --- | --- | --- |
-| tm-daughtry-2026-oklahoma-city-z7r9jz1a7px8p | Criterion Theater - Oklahoma City | The Criterion - OKC | https://seatgeek.com/daughtry-tickets/oklahoma-city-oklahoma-the-criterion-okc-2026-11-04-7-pm/concert/18316804 |
-| tm-victoria-monet-2026-charlotte-g5evz_3nkdbni | Skyla Credit Union Amphitheatre | Ovens Auditorium | https://seatgeek.com/victoria-monet-tickets/charlotte-north-carolina-ovens-auditorium-2026-11-05-8-pm/concert/18579758 |
-| tm-tyla-2026-seattle-vvg1hz_4ubjbln | Paramount Theatre | WaMu Theater | https://seatgeek.com/tyla-tickets/seattle-washington-wamu-theater-2026-11-17-8-pm/concert/18404275 |
-| tm-sabaton-2026-loveland-z7r9jz1a7-ojz | Blue Arena at The Ranch Events Complex | Blue Federal Credit Union Arena | https://seatgeek.com/sabaton-tickets/loveland-colorado-blue-federal-credit-union-arena-2026-11-18-7-pm/concert/17732682 |
-| tm-black-stone-cherry-2026-sauget-rz7hnez1afggzf | Pop's Concert Venue | Pop's - Sauget | https://seatgeek.com/black-stone-cherry-tickets/sauget-illinois-pop-s-sauget-2026-11-20-8-pm/concert/18637133 |
-| tm-black-stone-cherry-2026-birmingham-rz7hnez1afuf1f | The Fennec - Main Stage | The Fennec - Sports, Live Music, Events | https://seatgeek.com/black-stone-cherry-tickets/birmingham-alabama-the-fennec-sports-live-music-events-2026-11-21-8-pm/concert/18637134 |
-| tm-latto-2026-boston-z7r9jz1aae_7z | Roadrunner-Boston | TD Garden | https://seatgeek.com/doja-cat-tickets/boston-massachusetts-td-garden-2026-11-23-7-30-pm/concert/17769352 |
-| tm-latto-2026-philadelphia-vv17fz_4gkux4p4m | NOTO | Xfinity Mobile Arena | https://seatgeek.com/doja-cat-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-29-7-30-pm/concert/17769353 |
-| tm-pink-martini-2026-redding-z7r9jz1a7ps3o | Cascade Theater | Cascade Theatre - Redding | https://seatgeek.com/pink-martini-tickets/redding-california-cascade-theatre-redding-2026-12-04-7-30-pm/concert/18690405 |
-| tm-blue-october-2026-oklahoma-city-z7r9jz1a7-v0b | Criterion Theater - Oklahoma City | The Criterion - OKC | https://seatgeek.com/blue-october-tickets/oklahoma-city-oklahoma-the-criterion-okc-2026-12-06-8-pm/concert/18143446 |
-| tm-pink-martini-2027-athens-z7r9jz1a7pv8_ | Ramsey Concert Hall | Hodgson Concert Hall at the UGA Performing Arts Center | https://seatgeek.com/pink-martini-tickets/athens-georgia-hodgson-concert-hall-at-the-uga-performing-arts-center-2027-01-19-7-30-pm/concert/18701989 |
-| tm-atmosphere-2027-grand-junction-z7r9jz1aaezfe | Mesa Theatre & Club | Mesa Theater | https://seatgeek.com/atmosphere-tickets/grand-junction-colorado-mesa-theater-2027-01-20-7-pm/concert/18609076 |
+| tm-barry-manilow-2027-las-vegas-1avjz_3gkrocmpa | Westgate Las Vegas International Theater | Westgate Las Vegas Resort & Casino | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-02-8-pm/concert/18590288 |
+| tm-barry-manilow-2027-las-vegas-1avjz_3gkrorept | Westgate Las Vegas International Theater | Westgate Las Vegas Resort & Casino | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-03-7-pm/concert/18590286 |
+| tm-the-psychedelic-furs-2027-huntington-k7vgf_3n_asme | The Paramount in concert with Northwell | The Paramount - Huntington | https://seatgeek.com/the-psychedelic-furs-tickets/huntington-new-york-the-paramount-huntington-2027-04-28-8-pm/concert/18592687 |
+| tm-dinosaur-jr-2026-new-orleans-z7r9jz1a7pu-o | Tipitinas | Tipitina's - New Orleans | https://seatgeek.com/dinosaur-jr-tickets/new-orleans-louisiana-tipitina-s-2026-11-07-9-pm/concert/18345776 |
+| tm-victoria-monet-2026-philadelphia-vv1aezkfxgkegbvoj | The Met Presented by Highmark | The Met Philadelphia | https://seatgeek.com/victoria-monet-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-11-12-8-pm/concert/18579771 |
 
 ## Conflicts found
 
-- tm-dinosaur-jr-2026-austin-g5diz_usqkioq (Dinosaur Jr., 2026-11-05, Austin)
-  - 100: https://seatgeek.com/dinosaur-jr-tickets/austin-texas-stubb-s-waller-creek-amphitheater-2026-11-05-7-pm/concert/18345767
+- tm-eros-ramazzotti-2027-boston-vv1avzk1fgkd0riv2 (Eros Ramazzotti, 2027-09-29, Boston)
+  - 100: https://seatgeek.com/eros-ramazzotti-tickets/boston-massachusetts-boch-center-wang-theatre-2027-09-29-8-pm/concert/17481896
+- tm-trans-siberian-orchestra-2026-youngstown-vv1aazkfagkd2zwpt (Trans-Siberian Orchestra, 2026-11-22, Youngstown)
+  - 100: https://seatgeek.com/trans-siberian-orchestra-tickets/youngstown-ohio-covelli-centre-2026-11-22-2-30-pm/concert/18573365
 
 ## Rate-limited / not checked
 
@@ -472,6 +468,7 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-niall-horan-2026-assago-zg9rmiynyzedfa | niall-horan | 2026-10-28T19:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-niall-horan-2026-casalecchio-di-reno-bologna-zg9rmiynyzedff | niall-horan | 2026-10-29T19:45:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-niall-horan-2026-munich-z698xzc2z1kaaofap | niall-horan | 2026-10-31T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-niall-horan-2026-krakow-z698xzqpz1kq7zp-- | niall-horan | 2026-11-03T17:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-doja-cat-2026-detroit-vv17ozbsgki0b7ti | doja-cat | 2026-10-01T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-doja-cat-2026-chicago-vv178zbsgknyfves | doja-cat | 2026-10-04T00:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-doja-cat-2026-minneapolis-vv17bzbsgknj3vy9 | doja-cat | 2026-10-05T00:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -843,6 +840,7 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-stevie-wonder-2026-hannover-z698xzc2z16v78zovo | stevie-wonder | 2026-10-24T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-stevie-wonder-2026-amsterdam-z698xzbpz16vcpofak | stevie-wonder | 2026-10-28T19:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-stevie-wonder-2026-dublin-1avoz_ogkmfynew | stevie-wonder | 2026-11-01T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-stevie-wonder-2026-london-1adfz_ogkluzbfe | stevie-wonder | 2026-11-03T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-tom-jones-2026-san-francisco-g5vyz_5d9skqu | tom-jones | 2026-11-02T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-katseye-2026-washington-17a8v0g619llzuk | katseye | 2026-10-23T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-katseye-2026-belmont-park-17gzv0g61mqmkdg | katseye | 2026-10-26T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -853,15 +851,18 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-the-chicks-2026-hollywood-vvg10z_5ljdml9 | the-chicks | 2026-11-02T04:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sleeping-with-sirens-2026-chicago-vvg18z_gr6ix5f | sleeping-with-sirens | 2026-10-26T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sleeping-with-sirens-2026-pittsburgh-z7r9jz1a7p_ae | sleeping-with-sirens | 2026-10-27T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-riley-green-2026-manchester-vv177z_fgkwnh6_i | riley-green | 2026-11-02T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-mico-2026-brooklyn-rz7hnez1afcpa7 | mico | 2026-10-30T16:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-billy-strings-2026-baltimore-1avfz_6gkm3naew | billy-strings | 2026-10-30T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-koe-wetzel-2026-morrison-z7r9jz1a7-0gf | koe-wetzel | 2026-10-29T00:45:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-victoria-monet-2026-houston-g5diz_33ccqfw | victoria-monet | 2026-11-01T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-victoria-monet-2026-dallas-vvg1yz_3n9clqe | victoria-monet | 2026-11-03T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-illenium-2026-las-vegas-z7r9jz1aaz7qs | illenium | 2026-10-31T05:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bryan-adams-2026-las-vegas-17ayv0g62mrffoe | bryan-adams | 2026-10-29T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bryan-adams-2026-las-vegas-17ayv0g62mr5fkv | bryan-adams | 2026-11-02T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-foreigner-2026-reno-1kc8v0otgacbkaa | foreigner | 2026-11-02T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sting-2026-akron-vv1aazkobgkdpsd9k | sting | 2026-11-02T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-sting-2026-akron-vv17fz_agkm57pk- | sting | 2026-11-03T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-three-days-grace-2026-nashville-g5vizbu4hqfya | three-days-grace | 2026-11-02T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-cody-johnson-2026-birmingham-1kfyv0o_ga1tsuk | cody-johnson | 2026-11-01T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-cody-johnson-2026-glasgow-1auzk8ugkdf-aiv | cody-johnson | 2026-11-02T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |

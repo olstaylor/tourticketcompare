@@ -1027,11 +1027,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8056806",
-        "url": "https://www.ticketnetwork.com/en/p/8056806",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8056806",
@@ -1044,7 +1044,7 @@
     "ticketmaster_discovery_event_id": "vvG1bZ_GSFTUwT",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056806",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056806/Daughtry-tickets-Tue-Nov-3-2026-Uptown-Theater-KC",
     "organizer_names": [
       "MAMMOTH INC"

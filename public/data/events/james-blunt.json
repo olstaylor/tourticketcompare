@@ -285,6 +285,13 @@
         "verified": true,
         "last_verified_at": "2026-10-29",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8356240",
+        "url": "https://www.ticketnetwork.com/en/p/8356240",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16NZkfo03ZAG7veC",
@@ -293,7 +300,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-birmingham-bp-pulse-live-27-3-2027/event/107665848",
     "organizer_names": [
       "DAYBROOK HOUSE LIMITED"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356240"
   },
   {
     "id": "tm-james-blunt-2027-newcastle-upon-tyne-g5vhz_8jzh5mu",

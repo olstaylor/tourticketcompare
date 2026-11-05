@@ -1000,6 +1000,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8355708",
+        "url": "https://www.ticketnetwork.com/en/p/8355708",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4kGkdeCl8m",
@@ -1025,7 +1032,8 @@
         "start": "2026-11-05T17:00:00Z",
         "end": "2027-03-19T22:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8355708"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-miami-vvg1vz_fxmchil",
@@ -1528,6 +1536,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8355710",
+        "url": "https://www.ticketnetwork.com/en/p/8355710",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fLV5i1R",
@@ -1555,7 +1570,8 @@
         "start": "2026-11-05T17:00:00Z",
         "end": "2027-05-23T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8355710"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-denver-z7r9jz1aaaz8e",
@@ -1604,11 +1620,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8356345",
+        "url": "https://www.ticketnetwork.com/en/p/8356345",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZ8e",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356345"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-montreal-z7r9jz1aa7zf8",
@@ -1711,11 +1735,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8353670",
+        "url": "https://www.ticketnetwork.com/en/p/8353670",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7MAO",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353670"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-hartford-z7r9jz1aaaz18",
@@ -1764,11 +1796,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8356363",
+        "url": "https://www.ticketnetwork.com/en/p/8356363",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZ18",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-05T18:00:00Z"
+    "public_onsale_at": "2026-11-05T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356363"
   }
 ]

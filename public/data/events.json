@@ -278263,7 +278263,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "040064ABAC947B12",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-chicago-illinois-11-05-2026/event/040064ABAC947B12",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/chicago-illinois-united-center-2026-11-05-8-pm/concert/18240147",
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-chicago-united-center-11-5-2026--concerts-pop/production/7027955",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-chicago-illinois-11-05-2026/event/040064ABAC947B12",
@@ -278279,11 +278279,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18240147,
+        "url": "https://seatgeek.com/katseye-tickets/chicago-illinois-united-center-2026-11-05-8-pm/concert/18240147",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7027955,

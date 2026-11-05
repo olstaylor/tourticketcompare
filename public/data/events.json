@@ -370974,5 +370974,435 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_4GOLPzD",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-orlando-z7r9jz1aaevq0",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson - The Dumblond Tour - Ages 12+",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "The Beacham",
+    "datetime_iso": "2027-04-16T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAevq0",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevq0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevq0",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAevq0",
+        "discovery_event_id": "Z7r9jZ1AAevq0",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevq0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAevq0",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-u2-2027-barcelona-z698xz2qz16vasca3z",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Estadi Olímpic Lluis Companys",
+    "datetime_iso": "2027-05-13T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1271385480",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1271385480?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1271385480?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1271385480",
+        "discovery_event_id": "Z698xZ2qZ16vasCA3Z",
+        "url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1271385480?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vasCA3Z",
+    "timezone": "Europe/Madrid",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-barcelona-z698xz2qz1kkzqe8t",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Estadi Olímpic Lluis Companys",
+    "datetime_iso": "2027-05-15T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180682429",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/180682429?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/180682429?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180682429",
+        "discovery_event_id": "Z698xZ2qZ1kkZQe8t",
+        "url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/180682429?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kkZQe8t",
+    "timezone": "Europe/Madrid",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-sevilla-z698xz2qz1k0efyqs",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Sevilla",
+    "country": "Spain",
+    "venue": "Estadio La Cartuja de Sevilla",
+    "datetime_iso": "2027-05-22T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "902239771",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/902239771?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/902239771?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "902239771",
+        "discovery_event_id": "Z698xZ2qZ1k0eFyqs",
+        "url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/902239771?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k0eFyqs",
+    "timezone": "Europe/Madrid",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-london-1adfz_4gkbq3_od",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Tottenham Hotspur Stadium",
+    "datetime_iso": "2027-06-25T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500655E9D499443",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-25-06-2027/event/3500655E9D499443",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-25-06-2027/event/3500655E9D499443",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500655E9D499443",
+        "discovery_event_id": "1AdfZ_4GkBq3_od",
+        "url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-25-06-2027/event/3500655E9D499443",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_4GkBq3_od",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T10:00:00Z"
+  },
+  {
+    "id": "tm-bon-jovi-2027-toronto-1avzz_4gki76ms5",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi: Forever Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2027-08-07T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000655B041F7CCB",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bon-jovi-forever-tour-toronto-ontario-08-07-2027/event/1000655B041F7CCB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bon-jovi-forever-tour-toronto-ontario-08-07-2027/event/1000655B041F7CCB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000655B041F7CCB",
+        "discovery_event_id": "1AvZZ_4Gki76MS5",
+        "url": "https://www.ticketmaster.ca/bon-jovi-forever-tour-toronto-ontario-08-07-2027/event/1000655B041F7CCB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_4Gki76MS5",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
+  },
+  {
+    "id": "tm-bon-jovi-2027-south-bend-vv1kv8vp_zga5o3gv",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi: Forever Tour",
+    "city": "South Bend",
+    "country": "United States Of America",
+    "venue": "Notre Dame Stadium",
+    "datetime_iso": "2027-10-02T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050065640B452301",
+    "ticketmaster_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-south-bend-indiana-10-02-2027/event/050065640B452301",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-south-bend-indiana-10-02-2027/event/050065640B452301",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050065640B452301",
+        "discovery_event_id": "vv1kv8vP_ZGA5o3Gv",
+        "url": "https://www.ticketmaster.com/bon-jovi-forever-tour-south-bend-indiana-10-02-2027/event/050065640B452301",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kv8vP_ZGA5o3Gv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dom-dolla-2027-miami-z7r9jz1aaavbz",
+    "artist_slug": "dom-dolla",
+    "artist_name": "Dom Dolla",
+    "event_name": "Dom Dolla",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Factory Town",
+    "datetime_iso": "2027-01-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAvbz",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAvbz",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAvbz",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAvbz",
+        "discovery_event_id": "Z7r9jZ1AAAvbz",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAvbz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAvbz",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

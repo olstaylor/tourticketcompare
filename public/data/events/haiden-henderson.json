@@ -1674,5 +1674,58 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284334/Haiden-Henderson-tickets-Sun-May-2-2027-7th-Street-Entry",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284334"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-orlando-z7r9jz1aaevq0",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson - The Dumblond Tour - Ages 12+",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "The Beacham",
+    "datetime_iso": "2027-04-16T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAevq0",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevq0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevq0",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAevq0",
+        "discovery_event_id": "Z7r9jZ1AAevq0",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevq0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAevq0",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

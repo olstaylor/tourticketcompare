@@ -3538,5 +3538,61 @@
     "last_verified_at": "2026-11-03",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-11-03"
+  },
+  {
+    "slug": "kodak-black",
+    "name": "Kodak Black",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-05",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-05"
+  },
+  {
+    "slug": "lenny-pearce",
+    "name": "Lenny Pearce",
+    "short_description": "Dance/Electronic act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-05",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-05"
+  },
+  {
+    "slug": "los-tucanes-de-tijuana",
+    "name": "Los Tucanes de Tijuana",
+    "short_description": "World act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-05",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-05"
+  },
+  {
+    "slug": "mat-kearney",
+    "name": "Mat Kearney",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-05",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-05"
   }
 ]

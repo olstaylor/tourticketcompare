@@ -3744,6 +3744,62 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-meshuggah",
     redirectUrl: "https://seatgeek.com/meshuggah-tickets",
     verified: true
+  },
+  "kodak-black:ticketmaster": {
+    artistSlug: "kodak-black",
+    provider: "ticketmaster",
+    linkId: "tm-artist-kodak-black",
+    redirectUrl: "https://www.ticketmaster.com/kodak-black-tickets/artist/2241265",
+    verified: true
+  },
+  "kodak-black:seatgeek": {
+    artistSlug: "kodak-black",
+    provider: "seatgeek",
+    linkId: "sg-artist-kodak-black",
+    redirectUrl: "https://seatgeek.com/kodak-black-tickets",
+    verified: true
+  },
+  "lenny-pearce:ticketmaster": {
+    artistSlug: "lenny-pearce",
+    provider: "ticketmaster",
+    linkId: "tm-artist-lenny-pearce",
+    redirectUrl: "https://www.ticketmaster.com/lenny-pearce-tickets/artist/3598894",
+    verified: true
+  },
+  "lenny-pearce:seatgeek": {
+    artistSlug: "lenny-pearce",
+    provider: "seatgeek",
+    linkId: "sg-artist-lenny-pearce",
+    redirectUrl: "https://seatgeek.com/lenny-pearce-tickets",
+    verified: true
+  },
+  "los-tucanes-de-tijuana:ticketmaster": {
+    artistSlug: "los-tucanes-de-tijuana",
+    provider: "ticketmaster",
+    linkId: "tm-artist-los-tucanes-de-tijuana",
+    redirectUrl: "https://www.ticketmaster.com/los-tucanes-de-tijuana-tickets/artist/764354",
+    verified: true
+  },
+  "los-tucanes-de-tijuana:seatgeek": {
+    artistSlug: "los-tucanes-de-tijuana",
+    provider: "seatgeek",
+    linkId: "sg-artist-los-tucanes-de-tijuana",
+    redirectUrl: "https://seatgeek.com/los-tucanes-de-tijuana-tickets",
+    verified: true
+  },
+  "mat-kearney:ticketmaster": {
+    artistSlug: "mat-kearney",
+    provider: "ticketmaster",
+    linkId: "tm-artist-mat-kearney",
+    redirectUrl: "https://www.ticketmaster.com/mat-kearney-tickets/artist/1015621",
+    verified: true
+  },
+  "mat-kearney:seatgeek": {
+    artistSlug: "mat-kearney",
+    provider: "seatgeek",
+    linkId: "sg-artist-mat-kearney",
+    redirectUrl: "https://seatgeek.com/mat-kearney-tickets",
+    verified: true
   }
 };
 

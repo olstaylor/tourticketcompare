@@ -368218,5 +368218,2761 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_aJ",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-san-antonio-g5diz_gedaabt",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny Pearce - Toddler Rave World Tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Aztec Theatre",
+    "datetime_iso": "2026-11-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064C9FB245EA9",
+    "ticketmaster_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-san-antonio-texas-11-05-2026/event/3A0064C9FB245EA9",
+    "seatgeek_url": "https://seatgeek.com/lenny-pearce-tickets/san-antonio-texas-aztec-theatre-2026-11-05-6-pm/concert/18305062",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-san-antonio-texas-11-05-2026/event/3A0064C9FB245EA9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064C9FB245EA9",
+        "discovery_event_id": "G5dIZ_GEDaABt",
+        "url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-san-antonio-texas-11-05-2026/event/3A0064C9FB245EA9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_GEDaABt",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-austin-g5diz_uux5j8i",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny Pearce - Toddler Rave World Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Stubb's Waller Creek Amphitheater",
+    "datetime_iso": "2026-11-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064DDBE2DC42C",
+    "ticketmaster_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-austin-texas-11-06-2026/event/3A0064DDBE2DC42C",
+    "seatgeek_url": "https://seatgeek.com/lenny-pearce-tickets/austin-texas-stubb-s-waller-creek-amphitheater-2026-11-06-6-pm/concert/18305061",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-austin-texas-11-06-2026/event/3A0064DDBE2DC42C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064DDBE2DC42C",
+        "discovery_event_id": "G5dIZ_uUX5j8i",
+        "url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-austin-texas-11-06-2026/event/3A0064DDBE2DC42C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_uUX5j8i",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-irving-vvg1yz_g0p_mts",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny Pearce - Toddler Rave World Tour",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2026-11-07T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064C925677A73",
+    "ticketmaster_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-irving-texas-11-07-2026/event/0C0064C925677A73",
+    "seatgeek_url": "https://seatgeek.com/lenny-pearce-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-07-5-pm/concert/18305069",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-irving-texas-11-07-2026/event/0C0064C925677A73",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064C925677A73",
+        "discovery_event_id": "vvG1YZ_G0P_MtS",
+        "url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-irving-texas-11-07-2026/event/0C0064C925677A73",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_G0P_MtS",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-houston-g5diz_geaxmd2",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny Pearce - Toddler Rave World Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Bayou Music Center",
+    "datetime_iso": "2026-11-08T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064C9C9FAEECF",
+    "ticketmaster_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-houston-texas-11-08-2026/event/3A0064C9C9FAEECF",
+    "seatgeek_url": "https://seatgeek.com/lenny-pearce-tickets/houston-texas-bayou-music-center-2026-11-08-12-30-pm/concert/18305070",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-houston-texas-11-08-2026/event/3A0064C9C9FAEECF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064C9C9FAEECF",
+        "discovery_event_id": "G5dIZ_GEaXmD2",
+        "url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-houston-texas-11-08-2026/event/3A0064C9C9FAEECF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_GEaXmD2",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-orlando-17fov0g6g3w_f1c",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny Pearce - Toddler Rave World Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Orlando",
+    "datetime_iso": "2026-11-10T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220064C4B26542AD",
+    "ticketmaster_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-orlando-florida-11-10-2026/event/220064C4B26542AD",
+    "seatgeek_url": "https://seatgeek.com/lenny-pearce-tickets/orlando-florida-hard-rock-live-orlando-2026-11-10-6-pm/concert/18305071",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-orlando-florida-11-10-2026/event/220064C4B26542AD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220064C4B26542AD",
+        "discovery_event_id": "17FOv0G6G3w_f1c",
+        "url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-orlando-florida-11-10-2026/event/220064C4B26542AD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FOv0G6G3w_f1c",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-fort-lauderdale-z7r9jz1a7ppo0",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny Pearce - Toddler Rave World Tour",
+    "city": "Fort Lauderdale",
+    "country": "United States Of America",
+    "venue": "War Memorial Auditorium-FL",
+    "datetime_iso": "2026-11-11T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PpO0",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PpO0",
+    "seatgeek_url": "https://seatgeek.com/lenny-pearce-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-11-11-6-pm/concert/18283469",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PpO0",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PpO0",
+        "discovery_event_id": "Z7r9jZ1A7PpO0",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PpO0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PpO0",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-st-petersburg-vvg1vz_gcd9hph",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny Pearce - Toddler Rave World Tour",
+    "city": "St Petersburg",
+    "country": "United States Of America",
+    "venue": "Mahaffey Theater",
+    "datetime_iso": "2026-11-12T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064C3BB5FC95B",
+    "ticketmaster_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-st-petersburg-florida-11-12-2026/event/0D0064C3BB5FC95B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-st-petersburg-florida-11-12-2026/event/0D0064C3BB5FC95B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064C3BB5FC95B",
+        "discovery_event_id": "vvG1VZ_GCD9HPh",
+        "url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-st-petersburg-florida-11-12-2026/event/0D0064C3BB5FC95B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_GCD9HPh",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-atlanta-z7r9jz1a7pnza",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny Pearce",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Eastern-GA",
+    "datetime_iso": "2026-11-14T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PNZA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNZA",
+    "seatgeek_url": "https://seatgeek.com/lenny-pearce-tickets/atlanta-georgia-the-eastern-atlanta-2026-11-14-12-30-pm/concert/18305101",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNZA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PNZA",
+        "discovery_event_id": "Z7r9jZ1A7PNZA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNZA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNZA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-nashville-z7r9jz1a7p0bp",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny Pearce - Toddler Rave World Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Marathon Music Works",
+    "datetime_iso": "2026-11-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P0bp",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0bp",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0bp",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P0bp",
+        "discovery_event_id": "Z7r9jZ1A7P0bp",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0bp",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0bp",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-norfolk-z7r9jz1a7ptxe",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny Pearce",
+    "city": "Norfolk",
+    "country": "United States Of America",
+    "venue": "The Norva",
+    "datetime_iso": "2026-11-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Ptxe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptxe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptxe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Ptxe",
+        "discovery_event_id": "Z7r9jZ1A7Ptxe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptxe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ptxe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-richmond-z7r9jz1a7ptxv",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny Pearce",
+    "city": "Richmond",
+    "country": "United States Of America",
+    "venue": "The National",
+    "datetime_iso": "2026-11-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Ptxv",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptxv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptxv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Ptxv",
+        "discovery_event_id": "Z7r9jZ1A7Ptxv",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptxv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ptxv",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-pittsburgh-z7r9jz1a7pnqd",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny Pearce",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Stage AE",
+    "datetime_iso": "2026-11-19T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PNqd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNqd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNqd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PNqd",
+        "discovery_event_id": "Z7r9jZ1A7PNqd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNqd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNqd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-silver-spring-17a8v0g6gpl1zid",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "LENNY PEARCE  -  TODDLER RAVE WORLD TOUR",
+    "city": "Silver Spring",
+    "country": "United States Of America",
+    "venue": "The Fillmore Silver Spring",
+    "datetime_iso": "2026-11-21T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064C59F2B8B3B",
+    "ticketmaster_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-silver-spring-maryland-11-21-2026/event/150064C59F2B8B3B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-silver-spring-maryland-11-21-2026/event/150064C59F2B8B3B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064C59F2B8B3B",
+        "discovery_event_id": "17A8v0G6GpL1ziD",
+        "url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-silver-spring-maryland-11-21-2026/event/150064C59F2B8B3B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G6GpL1ziD",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2026-new-york-k7vgf_gmumtdg",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "LENNY PEARCE- TODDLER RAVE WORLD TOUR",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Manhattan Center Hammerstein Ballroom",
+    "datetime_iso": "2026-11-22T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064CBB6BBF0F5",
+    "ticketmaster_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-new-york-new-york-11-22-2026/event/000064CBB6BBF0F5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-new-york-new-york-11-22-2026/event/000064CBB6BBF0F5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064CBB6BBF0F5",
+        "discovery_event_id": "k7vGF_GmUmTdg",
+        "url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-new-york-new-york-11-22-2026/event/000064CBB6BBF0F5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_GmUmTdg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2027-auckland-17azv0g6uncrehf",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny's Toddler Rave World Tour: AUCKLAND",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Kiri Te Kanawa Theatre",
+    "datetime_iso": "2027-02-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064D8CEBC26D4",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/lennys-toddler-rave-world-tour-auckland-auckland-27-02-2027/event/240064D8CEBC26D4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/lennys-toddler-rave-world-tour-auckland-auckland-27-02-2027/event/240064D8CEBC26D4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064D8CEBC26D4",
+        "discovery_event_id": "17aZv0G6uNCRehf",
+        "url": "https://www.ticketmaster.co.nz/lennys-toddler-rave-world-tour-auckland-auckland-27-02-2027/event/240064D8CEBC26D4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G6uNCRehf",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2027-townsville-city-1avgz_ogkn2n3_q",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny's Toddler Rave World Tour",
+    "city": "Townsville City",
+    "country": "Australia",
+    "venue": "Townsville Entertainment and Convention Centre",
+    "datetime_iso": "2027-03-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300651A8F8D265D",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/lennys-toddler-rave-world-tour-townsville-city-14-03-2027/event/1300651A8F8D265D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/lennys-toddler-rave-world-tour-townsville-city-14-03-2027/event/1300651A8F8D265D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300651A8F8D265D",
+        "discovery_event_id": "1AvGZ_oGkn2N3_q",
+        "url": "https://www.ticketmaster.com.au/lennys-toddler-rave-world-tour-townsville-city-14-03-2027/event/1300651A8F8D265D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_oGkn2N3_q",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lenny-pearce-2027-hobart-1k7yvp7_gactwpw",
+    "artist_slug": "lenny-pearce",
+    "artist_name": "Lenny Pearce",
+    "event_name": "Lenny's Toddler Rave World Tour",
+    "city": "Hobart",
+    "country": "Australia",
+    "venue": "Odeon Theatre",
+    "datetime_iso": "2027-04-24T00:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130065119EA725BD",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/lennys-toddler-rave-world-tour-hobart-24-04-2027/event/130065119EA725BD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/lennys-toddler-rave-world-tour-hobart-24-04-2027/event/130065119EA725BD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130065119EA725BD",
+        "discovery_event_id": "1k7YvP7_GACtwpW",
+        "url": "https://www.ticketmaster.com.au/lennys-toddler-rave-world-tour-hobart-24-04-2027/event/130065119EA725BD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k7YvP7_GACtwpW",
+    "timezone": "Australia/Hobart",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tucanes-de-tijuana-2026-highland-z7r9jz1a7paao",
+    "artist_slug": "los-tucanes-de-tijuana",
+    "artist_name": "Los Tucanes de Tijuana",
+    "event_name": "Los Tucanes de Tijuana (21+)",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2026-11-25T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Paao",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Paao",
+    "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2026-11-24-8-pm/concert/18288551",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Paao",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Paao",
+        "discovery_event_id": "Z7r9jZ1A7Paao",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Paao",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Paao",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tucanes-de-tijuana-2026-fairfax-17a8v0g61bgdzeq",
+    "artist_slug": "los-tucanes-de-tijuana",
+    "artist_name": "Los Tucanes de Tijuana",
+    "event_name": "Los Tucanes De Tijuana",
+    "city": "Fairfax",
+    "country": "United States Of America",
+    "venue": "EagleBank Arena",
+    "datetime_iso": "2026-11-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064AEB5EF809A",
+    "ticketmaster_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-fairfax-virginia-11-27-2026/event/150064AEB5EF809A",
+    "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/fairfax-virginia-eaglebank-arena-2026-11-27-8-pm/concert/18251692",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-fairfax-virginia-11-27-2026/event/150064AEB5EF809A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064AEB5EF809A",
+        "discovery_event_id": "17A8v0G61BgDzeQ",
+        "url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-fairfax-virginia-11-27-2026/event/150064AEB5EF809A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G61BgDzeQ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tucanes-de-tijuana-2026-elizabeth-k7vgf_1yuvjm8",
+    "artist_slug": "los-tucanes-de-tijuana",
+    "artist_name": "Los Tucanes de Tijuana",
+    "event_name": "Los Tucanes De Tijuana & Tapy Quintero",
+    "city": "Elizabeth",
+    "country": "United States Of America",
+    "venue": "Ritz Theatre",
+    "datetime_iso": "2026-11-29T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064AC0DD26DD0",
+    "ticketmaster_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-tapy-quintero-elizabeth-new-jersey-11-28-2026/event/000064AC0DD26DD0",
+    "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/elizabeth-new-jersey-ritz-theatre-performing-arts-center-2026-11-28-8-pm/concert/18252126",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-tapy-quintero-elizabeth-new-jersey-11-28-2026/event/000064AC0DD26DD0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064AC0DD26DD0",
+        "discovery_event_id": "k7vGF_1YuVJM8",
+        "url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-tapy-quintero-elizabeth-new-jersey-11-28-2026/event/000064AC0DD26DD0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_1YuVJM8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tucanes-de-tijuana-2026-austin-z7r9jz1aazgav",
+    "artist_slug": "los-tucanes-de-tijuana",
+    "artist_name": "Los Tucanes de Tijuana",
+    "event_name": "Los Tucanes de Tijuana",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2026-12-04T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZgaV",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgaV",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgaV",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZgaV",
+        "discovery_event_id": "Z7r9jZ1AAZgaV",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgaV",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZgaV",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tucanes-de-tijuana-2026-thackerville-z7r9jz1aaz9fb",
+    "artist_slug": "los-tucanes-de-tijuana",
+    "artist_name": "Los Tucanes de Tijuana",
+    "event_name": "Los Tucanes de Tijuana w/ Tapy Quintero",
+    "city": "Thackerville",
+    "country": "United States Of America",
+    "venue": "Lucas Oil Live at WinStar World Casino",
+    "datetime_iso": "2026-12-05T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZ9fb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ9fb",
+    "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-04-8-pm/concert/18398232",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ9fb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZ9fb",
+        "discovery_event_id": "Z7r9jZ1AAZ9fb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ9fb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ9fb",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tucanes-de-tijuana-2026-catoosa-z7r9jz1aaef8-",
+    "artist_slug": "los-tucanes-de-tijuana",
+    "artist_name": "Los Tucanes de Tijuana",
+    "event_name": "Los Tucanes de Tijuana",
+    "city": "Catoosa",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Tulsa",
+    "datetime_iso": "2026-12-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAef8-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef8-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef8-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAef8-",
+        "discovery_event_id": "Z7r9jZ1AAef8-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef8-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAef8-",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tucanes-de-tijuana-2027-glendale-17k8v0g62nuo9-m",
+    "artist_slug": "los-tucanes-de-tijuana",
+    "artist_name": "Los Tucanes de Tijuana",
+    "event_name": "Los Tucanes De Tijuana",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2027-02-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064F8CD45786E",
+    "ticketmaster_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-glendale-arizona-02-12-2027/event/190064F8CD45786E",
+    "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/glendale-arizona-desert-diamond-arena-2027-02-12-8-pm/concert/18405269",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-glendale-arizona-02-12-2027/event/190064F8CD45786E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064F8CD45786E",
+        "discovery_event_id": "17k8v0G62Nuo9-m",
+        "url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-glendale-arizona-02-12-2027/event/190064F8CD45786E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G62Nuo9-m",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tucanes-de-tijuana-2027-inglewood-vvg10z_udzwaf3",
+    "artist_slug": "los-tucanes-de-tijuana",
+    "artist_name": "Los Tucanes de Tijuana",
+    "event_name": "Los Tucanes De Tijuana",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Intuit Dome",
+    "datetime_iso": "2027-02-14T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064DEC0F49512",
+    "ticketmaster_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-inglewood-california-02-13-2027/event/090064DEC0F49512",
+    "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/inglewood-california-intuit-dome-2027-02-13-8-pm/concert/18354983",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-inglewood-california-02-13-2027/event/090064DEC0F49512",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064DEC0F49512",
+        "discovery_event_id": "vvG10Z_uDZWaf3",
+        "url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-inglewood-california-02-13-2027/event/090064DEC0F49512",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_uDZWaf3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-los-tucanes-de-tijuana-2027-rosemont-vv1a7zkffgkdqp4jc",
+    "artist_slug": "los-tucanes-de-tijuana",
+    "artist_name": "Los Tucanes de Tijuana",
+    "event_name": "Los Tucanes De Tijuana",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Rosemont Theatre",
+    "datetime_iso": "2027-02-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006508DA59570E",
+    "ticketmaster_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-rosemont-illinois-02-20-2027/event/04006508DA59570E",
+    "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/rosemont-illinois-rosemont-theatre-2027-02-20-8-pm/concert/18472484",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-rosemont-illinois-02-20-2027/event/04006508DA59570E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006508DA59570E",
+        "discovery_event_id": "vv1A7ZkfFGkdQp4jC",
+        "url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-rosemont-illinois-02-20-2027/event/04006508DA59570E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkfFGkdQp4jC",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-kalispell-z7r9jz1aazpfi",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "Kalispell",
+    "country": "United States Of America",
+    "venue": "Wachholz College Center",
+    "datetime_iso": "2027-02-06T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZpfI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZpfI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZpfI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZpfI",
+        "discovery_event_id": "Z7r9jZ1AAZpfI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZpfI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZpfI",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-durham-z7r9jz1aa7tga",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney: Hanging By A Heartstring Tour",
+    "city": "Durham",
+    "country": "United States Of America",
+    "venue": "Carolina Theatre - Durham",
+    "datetime_iso": "2027-04-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7tGA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tGA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tGA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7tGA",
+        "discovery_event_id": "Z7r9jZ1AA7tGA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tGA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7tGA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-charlotte-g5evz_ftdyo7x",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney Hanging By A Heartstring Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2027-04-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00654FFBC1113E",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-charlotte-north-carolina-04-18-2027/event/2D00654FFBC1113E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-charlotte-north-carolina-04-18-2027/event/2D00654FFBC1113E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00654FFBC1113E",
+        "discovery_event_id": "G5eVZ_fTDYo7X",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-charlotte-north-carolina-04-18-2027/event/2D00654FFBC1113E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_fTDYo7X",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-washington-1a4zk49gkdhkrsu",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney - Hanging By A Heartstring Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Lincoln Theatre",
+    "datetime_iso": "2027-04-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006557DB19EC4D",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-washington-district-of-columbia-04-22-2027/event/15006557DB19EC4D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-washington-district-of-columbia-04-22-2027/event/15006557DB19EC4D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006557DB19EC4D",
+        "discovery_event_id": "1A4Zk49Gkdhkrsu",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-washington-district-of-columbia-04-22-2027/event/15006557DB19EC4D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zk49Gkdhkrsu",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-atlantic-city-vv1aezk48gkd-q-0n",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney - Hanging By A Heartstring Tour",
+    "city": "Atlantic City",
+    "country": "United States Of America",
+    "venue": "Music Box at the Borgata",
+    "datetime_iso": "2027-04-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006550E16A1923",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-atlantic-city-new-jersey-04-23-2027/event/02006550E16A1923",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-atlantic-city-new-jersey-04-23-2027/event/02006550E16A1923",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006550E16A1923",
+        "discovery_event_id": "vv1AeZk48Gkd-Q-0N",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-atlantic-city-new-jersey-04-23-2027/event/02006550E16A1923",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk48Gkd-Q-0N",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-portsmouth-z7r9jz1aa7s83",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "Portsmouth",
+    "country": "United States Of America",
+    "venue": "The Historic Theater - Portsmouth",
+    "datetime_iso": "2027-04-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7s83",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7s83",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7s83",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7s83",
+        "discovery_event_id": "Z7r9jZ1AA7s83",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7s83",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7s83",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-new-york-vv16dzk44g3zauv5ea",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney Hanging By A Heartstring Tour",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Town Hall",
+    "datetime_iso": "2027-04-27T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "03006555312C0A14",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-new-york-new-york-04-27-2027/event/03006555312C0A14",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-new-york-new-york-04-27-2027/event/03006555312C0A14",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "03006555312C0A14",
+        "discovery_event_id": "vv16dZk44G3ZAuv5eA",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-new-york-new-york-04-27-2027/event/03006555312C0A14",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16dZk44G3ZAuv5eA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-portland-vv177z_fgkbwdmul",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney - Hanging By A Heartstring Tour",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "State Theatre",
+    "datetime_iso": "2027-04-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100654EBD0EED9F",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-portland-maine-04-28-2027/event/0100654EBD0EED9F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-portland-maine-04-28-2027/event/0100654EBD0EED9F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100654EBD0EED9F",
+        "discovery_event_id": "vv177Z_fGkBWdmUL",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-portland-maine-04-28-2027/event/0100654EBD0EED9F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_fGkBWdmUL",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-mckees-rocks-1avbz_fgkh6lcsf",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney Hanging By A Heartstring Tour",
+    "city": "McKees Rocks",
+    "country": "United States Of America",
+    "venue": "Roxian Theatre Presented By Citizens",
+    "datetime_iso": "2027-04-30T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600654F07ACECD4",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-mckees-rocks-pennsylvania-04-30-2027/event/1600654F07ACECD4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-mckees-rocks-pennsylvania-04-30-2027/event/1600654F07ACECD4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600654F07ACECD4",
+        "discovery_event_id": "1AvbZ_fGkH6lCSf",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-mckees-rocks-pennsylvania-04-30-2027/event/1600654F07ACECD4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_fGkH6lCSf",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-cincinnati-16pzk48jvzacdggk",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney: Hanging By A Heartstring Tour",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "Taft Theatre",
+    "datetime_iso": "2027-05-01T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006550734D2BB5",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-cincinnati-ohio-05-01-2027/event/16006550734D2BB5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-cincinnati-ohio-05-01-2027/event/16006550734D2BB5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006550734D2BB5",
+        "discovery_event_id": "16pZk48jVZACdGGk",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-cincinnati-ohio-05-01-2027/event/16006550734D2BB5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16pZk48jVZACdGGk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-austin-z7r9jz1aa7t0p",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2027-08-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7t0p",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t0p",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t0p",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7t0p",
+        "discovery_event_id": "Z7r9jZ1AA7t0p",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t0p",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t0p",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-dallas-z7r9jz1aa7s_b",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "Majestic Theatre Dallas",
+    "datetime_iso": "2027-08-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7s_b",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7s_b",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7s_b",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7s_b",
+        "discovery_event_id": "Z7r9jZ1AA7s_b",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7s_b",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7s_b",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-denver-g5vzz_44x-wom",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney: Hanging By A Heartstring Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2027-08-18T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0065557E872477",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-denver-colorado-08-17-2027/event/1E0065557E872477",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-denver-colorado-08-17-2027/event/1E0065557E872477",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0065557E872477",
+        "discovery_event_id": "G5vzZ_44X-woM",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-denver-colorado-08-17-2027/event/1E0065557E872477",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_44X-woM",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-phoenix-1av0z_4gknhdgeg",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney - Hanging By A Heartstring Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-08-20T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900655ABC0F508C",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-phoenix-arizona-08-19-2027/event/1900655ABC0F508C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-phoenix-arizona-08-19-2027/event/1900655ABC0F508C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900655ABC0F508C",
+        "discovery_event_id": "1Av0Z_4GknHdgeG",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-phoenix-arizona-08-19-2027/event/1900655ABC0F508C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_4GknHdgeG",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-san-diego-vvg1iz_fdgrqma",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Humphreys Concerts By the Bay",
+    "datetime_iso": "2027-08-21T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00654EF5BDAB89",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-san-diego-california-08-20-2027/event/0A00654EF5BDAB89",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-san-diego-california-08-20-2027/event/0A00654EF5BDAB89",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00654EF5BDAB89",
+        "discovery_event_id": "vvG1IZ_fDgRQma",
+        "url": "https://www.ticketmaster.com/mat-kearney-san-diego-california-08-20-2027/event/0A00654EF5BDAB89",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_fDgRQma",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-cerritos-vvg1iz_4z4bvmr",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney: Hanging By A Heartstring Tour",
+    "city": "Cerritos",
+    "country": "United States Of America",
+    "venue": "Cerritos Center for the Performing Arts",
+    "datetime_iso": "2027-08-22T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B00655015601BAF",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-cerritos-california-08-21-2027/event/0B00655015601BAF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-cerritos-california-08-21-2027/event/0B00655015601BAF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B00655015601BAF",
+        "discovery_event_id": "vvG1iZ_4Z4bvmR",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-cerritos-california-08-21-2027/event/0B00655015601BAF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_4Z4bvmR",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-sacramento-g5vyz_4l700ei",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney - Hanging By A Heartstring Tour",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Ace of Spades",
+    "datetime_iso": "2027-08-25T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00655AC49240A8",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-sacramento-california-08-24-2027/event/1C00655AC49240A8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-sacramento-california-08-24-2027/event/1C00655AC49240A8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00655AC49240A8",
+        "discovery_event_id": "G5vYZ_4l700eI",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-sacramento-california-08-24-2027/event/1C00655AC49240A8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_4l700eI",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-spokane-g5vzz_4p1-wsc",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney - Hanging By A Heartstring Tour",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "Knitting Factory - Spokane",
+    "datetime_iso": "2027-09-01T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0065558A872CCE",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-spokane-washington-08-31-2027/event/1E0065558A872CCE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-spokane-washington-08-31-2027/event/1E0065558A872CCE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0065558A872CCE",
+        "discovery_event_id": "G5vzZ_4p1-wSC",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-spokane-washington-08-31-2027/event/1E0065558A872CCE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_4p1-wSC",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-boise-z7r9jz1aa7yr7",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "Boise",
+    "country": "United States Of America",
+    "venue": "Treefort Music Hall",
+    "datetime_iso": "2027-09-02T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7Yr7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Yr7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Yr7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7Yr7",
+        "discovery_event_id": "Z7r9jZ1AA7Yr7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Yr7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Yr7",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-grand-junction-g5vzz_fmzp1a6",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney - Hanging By A Heartstring Tour",
+    "city": "Grand Junction",
+    "country": "United States Of America",
+    "venue": "Avalon Theatre",
+    "datetime_iso": "2027-09-04T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00654DC058A147",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-grand-junction-colorado-09-03-2027/event/1E00654DC058A147",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-grand-junction-colorado-09-03-2027/event/1E00654DC058A147",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00654DC058A147",
+        "discovery_event_id": "G5vzZ_fMZp1A6",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-grand-junction-colorado-09-03-2027/event/1E00654DC058A147",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_fMZp1A6",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-madison-vv1a6zk48gkehsz0t",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney - Hanging By A Heartstring Tour",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Orpheum Theater",
+    "datetime_iso": "2027-11-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006550BCC78929",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-madison-wisconsin-11-06-2027/event/07006550BCC78929",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/madison-wisconsin-orpheum-theatre-madison-2027-11-06-7-30-pm/concert/18725924",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-madison-wisconsin-11-06-2027/event/07006550BCC78929",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006550BCC78929",
+        "discovery_event_id": "vv1A6Zk48GkeHsz0t",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-madison-wisconsin-11-06-2027/event/07006550BCC78929",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6Zk48GkeHsz0t",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-shipshewana-z7r9jz1aa7t8k",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "Shipshewana",
+    "country": "United States Of America",
+    "venue": "Blue Gate Performing Arts Center",
+    "datetime_iso": "2027-11-09T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7t8k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t8k",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t8k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7t8k",
+        "discovery_event_id": "Z7r9jZ1AA7t8k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t8k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t8k",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-cleveland-vv1aazk4fgkdoxqwy",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney: Hanging By A Heartstring Tour",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "House of Blues Cleveland",
+    "datetime_iso": "2027-11-10T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006554D1F9AF79",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-cleveland-ohio-11-10-2027/event/05006554D1F9AF79",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/cleveland-ohio-house-of-blues-cleveland-2027-11-10-6-30-pm/concert/18725705",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-cleveland-ohio-11-10-2027/event/05006554D1F9AF79",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006554D1F9AF79",
+        "discovery_event_id": "vv1AAZk4fGkdoXQWy",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-cleveland-ohio-11-10-2027/event/05006554D1F9AF79",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4fGkdoXQWy",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-omaha-1aozk4kgkes-kce",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney - Hanging By A Heartstring Tour",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "Steelhouse Omaha",
+    "datetime_iso": "2027-11-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006553B1846382",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-omaha-nebraska-11-12-2027/event/20006553B1846382",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/omaha-nebraska-steelhouse-omaha-2027-11-12-7-30-pm/concert/18726697",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-omaha-nebraska-11-12-2027/event/20006553B1846382",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006553B1846382",
+        "discovery_event_id": "1AOZk4KGkes-kCe",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-omaha-nebraska-11-12-2027/event/20006553B1846382",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZk4KGkes-kCe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-saint-louis-vv1kvovp4agag9idz",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney - Hanging By A Heartstring Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Pageant",
+    "datetime_iso": "2027-11-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060065549C5E80C0",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-saint-louis-missouri-11-13-2027/event/060065549C5E80C0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-saint-louis-missouri-11-13-2027/event/060065549C5E80C0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060065549C5E80C0",
+        "discovery_event_id": "vv1kvOvP4aGAG9IdZ",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-saint-louis-missouri-11-13-2027/event/060065549C5E80C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvOvP4aGAG9IdZ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-atlanta-vvg1zz_4golpzd",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney: Hanging By A Heartstring Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Tabernacle Presented by iTHINK Financial",
+    "datetime_iso": "2027-11-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006553207E5E3B",
+    "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-atlanta-georgia-11-19-2027/event/0E006553207E5E3B",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/atlanta-georgia-the-tabernacle-atlanta-2027-11-19-7-30-pm/concert/18725655",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-atlanta-georgia-11-19-2027/event/0E006553207E5E3B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006553207E5E3B",
+        "discovery_event_id": "vvG1zZ_4GOLPzD",
+        "url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-atlanta-georgia-11-19-2027/event/0E006553207E5E3B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_4GOLPzD",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

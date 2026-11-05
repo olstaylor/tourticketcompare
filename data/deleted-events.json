@@ -311,6 +311,15 @@
       "ticketmaster_event_id": "0A00654FBCAA80B2",
       "reason": "Ticketmaster Discovery API confirms this Honolulu performance is cancelled; reviewed 2026-11-05. Tombstoned by event identity only so a replacement performance is not suppressed.",
       "deleted_at": "2026-11-05"
+    },
+    {
+      "artist_slug": "tyla",
+      "id": "tm-tyla-2026-seattle-vvg1hz_4ubjbln",
+      "ticketmaster_discovery_event_id": "vvG1HZ_4UBjbLN",
+      "ticketmaster_event_id": "0F00655DBA7187E3",
+      "canonical_id": "tm-tyla-2026-seattle-vvg1hz_2qgz489",
+      "reason": "Duplicate of the retained frozen-cohort Seattle event: both exact Ticketmaster Discovery records confirm Tyla at Paramount Theatre on 2026-11-17 at 20:00 local. Retain the existing TTC identity and its live rescheduled source; remove this second admission record. API-verified 2026-11-05.",
+      "deleted_at": "2026-11-05"
     }
   ]
 }

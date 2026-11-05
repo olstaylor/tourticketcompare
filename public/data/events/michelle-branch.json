@@ -2591,5 +2591,58 @@
         "end": "2027-03-24T02:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-michelle-branch-2027-tulsa-z7r9jz1aa7vv3",
+    "artist_slug": "michelle-branch",
+    "artist_name": "Michelle Branch",
+    "event_name": "Michelle Branch",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "Cain's Ballroom",
+    "datetime_iso": "2027-03-05T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7Vv3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Vv3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Vv3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7Vv3",
+        "discovery_event_id": "Z7r9jZ1AA7Vv3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Vv3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Vv3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

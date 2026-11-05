@@ -1181,11 +1181,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106969177",
-        "url": "https://www.stubhub.ie/doja-cat-dallas-tickets-11-4-2026/event/106969177",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7457636",
@@ -1199,7 +1199,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457636",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-dallas-tickets-11-4-2026/event/106969177",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457636/Doja-Cat-tickets-Wed-Nov-4-2026-American-Airlines-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"

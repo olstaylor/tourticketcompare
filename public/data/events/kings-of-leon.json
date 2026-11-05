@@ -214,6 +214,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679573",
+        "url": "https://www.stubhub.ie/kings-of-leon-tickets-hamburg-barclays-arena-hamburg-18-6-2027/event/107679573",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kjIfPZ9",
@@ -234,7 +241,8 @@
         "start": "2026-11-05T10:00:00Z",
         "end": "2026-11-06T10:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-hamburg-barclays-arena-hamburg-18-6-2027/event/107679573"
   },
   {
     "id": "tm-kings-of-leon-2027-dublin-1avoz_fgktpkxi7",

@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679678",
+        "url": "https://www.stubhub.ie/shania-twain-tickets-scarborough-scarborough-open-air-theatre-16-6-2027/event/107679678",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfUGkdoB_wU",
@@ -82,7 +89,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-scarborough-scarborough-open-air-theatre-16-6-2027/event/107679678"
   },
   {
     "id": "tm-shania-twain-2027-glasgow-1adbz_fgkuptsoi",
@@ -312,6 +320,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679687",
+        "url": "https://www.stubhub.ie/shania-twain-tickets-exeter-powderham-castle-24-6-2027/event/107679687",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KJtg0ag",
@@ -320,7 +335,8 @@
     "public_onsale_at": "2026-11-06T09:00:00Z",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-exeter-powderham-castle-24-6-2027/event/107679687"
   },
   {
     "id": "tm-shania-twain-2027-dublin-1abzk4pgkenqubp",
@@ -443,6 +459,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679686",
+        "url": "https://www.stubhub.ie/shania-twain-tickets-belfast-ormeau-park-27-6-2027/event/107679686",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdOZ_4GksDRodO",
@@ -463,7 +486,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-belfast-ormeau-park-27-6-2027/event/107679686"
   },
   {
     "id": "tm-shania-twain-2027-woodstock-1amzk4agkdk2pnt",
@@ -512,6 +536,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679154",
+        "url": "https://www.stubhub.ie/shania-twain-tickets-woodstock-blenheim-palace-29-6-2027/event/107679154",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4AGkdk2PNT",
@@ -564,6 +595,7 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-woodstock-blenheim-palace-29-6-2027/event/107679154"
   }
 ]

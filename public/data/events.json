@@ -36735,11 +36735,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106969177",
-        "url": "https://www.stubhub.ie/doja-cat-dallas-tickets-11-4-2026/event/106969177",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7457636",
@@ -36753,7 +36753,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457636",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-dallas-tickets-11-4-2026/event/106969177",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457636/Doja-Cat-tickets-Wed-Nov-4-2026-American-Airlines-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -39616,11 +39616,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107154727",
-        "url": "https://www.stubhub.ie/sombr-chicago-tickets-11-4-2026/event/107154727",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7874875",
@@ -39634,7 +39634,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874875",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-chicago-tickets-11-4-2026/event/107154727",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874875/sombr-tickets-Wed-Nov-4-2026-United-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -44849,7 +44849,7 @@
         "event_id": "107669953",
         "url": "https://www.stubhub.ie/metallica-uncasville-tickets-11-19-2026/event/107669953",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       }
     },
@@ -45002,7 +45002,7 @@
         "event_id": "107132084",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-28-2027/event/107132084",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       }
     },
@@ -45176,7 +45176,7 @@
         "event_id": "107133087",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-4-2027/event/107133087",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       }
     },
@@ -45350,7 +45350,7 @@
         "event_id": "107133091",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-18-2027/event/107133091",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       }
     },
@@ -45524,7 +45524,7 @@
         "event_id": "107133093",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-25-2027/event/107133093",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       }
     },
@@ -137882,7 +137882,7 @@
         "event_id": "107132081",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-5-2026/event/107132081",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       }
     },
@@ -138129,7 +138129,7 @@
         "event_id": "107133097",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-4-2027/event/107133097",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       }
     },
@@ -138303,7 +138303,7 @@
         "event_id": "107133099",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-11-2027/event/107133099",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       }
     },
@@ -177704,6 +177704,13 @@
         "verified": true,
         "last_verified_at": "2026-10-06",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679607",
+        "url": "https://www.stubhub.ie/riley-green-raleigh-tickets-4-29-2027/event/107679607",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Ke-2cfW",
@@ -177725,7 +177732,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-raleigh-tickets-4-29-2027/event/107679607"
   },
   {
     "id": "tm-riley-green-2027-knoxville-g5viz_3wie3-p",
@@ -178310,6 +178318,13 @@
         "verified": true,
         "last_verified_at": "2026-10-06",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679610",
+        "url": "https://www.stubhub.ie/riley-green-dallas-tickets-5-21-2027/event/107679610",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_K1h0IPI",
@@ -178336,7 +178351,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-dallas-tickets-5-21-2027/event/107679610"
   },
   {
     "id": "tm-riley-green-2027-lafayette-g5viz_3r9l7s7",
@@ -179024,6 +179040,13 @@
         "verified": true,
         "last_verified_at": "2026-10-06",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679602",
+        "url": "https://www.stubhub.ie/riley-green-clarkston-tickets-6-25-2027/event/107679602",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfwGkdw_jCp",
@@ -179045,7 +179068,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-clarkston-tickets-6-25-2027/event/107679602"
   },
   {
     "id": "tm-riley-green-2027-clarkston-vv1afzkfygkenvgq1",
@@ -179108,6 +179132,13 @@
         "verified": true,
         "last_verified_at": "2026-10-06",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679605",
+        "url": "https://www.stubhub.ie/riley-green-clarkston-tickets-6-26-2027/event/107679605",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfyGkeNVgq1",
@@ -179129,7 +179160,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-clarkston-tickets-6-26-2027/event/107679605"
   },
   {
     "id": "tm-riley-green-2027-syracuse-k7vgf_k1rwxjy",
@@ -179365,6 +179397,13 @@
         "verified": true,
         "last_verified_at": "2026-10-06",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679601",
+        "url": "https://www.stubhub.ie/riley-green-columbia-tickets-7-22-2027/event/107679601",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkdaJCIk",
@@ -179386,7 +179425,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-columbia-tickets-7-22-2027/event/107679601"
   },
   {
     "id": "tm-riley-green-2027-bethel-k7vgf_kkxvsto",
@@ -283182,11 +283222,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107477148",
-        "url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-3-2026/event/107477148",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -283206,7 +283246,7 @@
     "ticketmaster_discovery_event_id": "vvG10Z_5rAo7bC",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-chicks-hollywood-tickets-11-3-2026/event/107477148",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -283706,11 +283746,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107155211",
-        "url": "https://www.stubhub.ie/young-miko-philadelphia-tickets-11-4-2026/event/107155211",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7860534",
@@ -283730,7 +283770,7 @@
     "ticketmaster_discovery_event_id": "1AYZk3eGkdcdZMm",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/young-miko-philadelphia-tickets-11-4-2026/event/107155211",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860534/Young-Miko-tickets-Wed-Nov-4-2026-Xfinity-Mobile-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -287584,11 +287624,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107668612",
-        "url": "https://www.stubhub.ie/karan-aujla-sacramento-tickets-11-7-2026/event/107668612",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8267874",
@@ -287602,7 +287642,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267874/Karan-Aujla-tickets-Sun-Feb-21-2027-Golden-1-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-sacramento-tickets-11-7-2026/event/107668612",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -287667,11 +287707,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107668616",
-        "url": "https://www.stubhub.ie/karan-aujla-los-angeles-tickets-11-9-2026/event/107668616",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8267866",
@@ -287685,7 +287725,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267866/Karan-Aujla-tickets-Fri-Feb-19-2027-Cryptocom-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-los-angeles-tickets-11-9-2026/event/107668616",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -294078,11 +294118,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679179",
+        "url": "https://www.stubhub.ie/bon-jovi-tickets-melbourne-marvel-stadium-docklands-4-3-2027/event/107679179",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_fGkXe60v9",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-tickets-melbourne-marvel-stadium-docklands-4-3-2027/event/107679179"
   },
   {
     "id": "tm-bon-jovi-2027-east-rutherford-k7vgf_4evgqwy",
@@ -308599,7 +308647,7 @@
         "event_id": "107672199",
         "url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -329186,6 +329234,13 @@
         "verified": true,
         "last_verified_at": "2026-11-01",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679141",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-23-2027/event/107679141",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_4GknBP_Nx",
@@ -329207,7 +329262,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-05-17T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-23-2027/event/107679141"
   },
   {
     "id": "tm-two-door-cinema-club-2027-del-mar-rz7hnez1afc70v",
@@ -330367,6 +330423,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679153",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-montreal-parc-jean-drapeau-6-15-2027/event/107679153",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4pGkdJHrVF",
@@ -330390,7 +330453,8 @@
         "start": "2026-11-11T14:00:00Z",
         "end": "2026-11-12T14:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-montreal-parc-jean-drapeau-6-15-2027/event/107679153"
   },
   {
     "id": "tm-noah-kahan-2027-east-rutherford-k7vgf_4me3p--",
@@ -344985,6 +345049,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679573",
+        "url": "https://www.stubhub.ie/kings-of-leon-tickets-hamburg-barclays-arena-hamburg-18-6-2027/event/107679573",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kjIfPZ9",
@@ -345005,7 +345076,8 @@
         "start": "2026-11-05T10:00:00Z",
         "end": "2026-11-06T10:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-hamburg-barclays-arena-hamburg-18-6-2027/event/107679573"
   },
   {
     "id": "tm-kings-of-leon-2027-dublin-1avoz_fgktpkxi7",
@@ -352373,6 +352445,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679710",
+        "url": "https://www.stubhub.ie/role-model-tickets-manchester-manchester-ao-arena-28-2-2027/event/107679710",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_u1KKyOt",
@@ -352404,7 +352483,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-manchester-manchester-ao-arena-28-2-2027/event/107679710"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-valencia-z698xz2qz16vfzvzrf",
@@ -352579,6 +352659,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679678",
+        "url": "https://www.stubhub.ie/shania-twain-tickets-scarborough-scarborough-open-air-theatre-16-6-2027/event/107679678",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfUGkdoB_wU",
@@ -352615,7 +352702,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-scarborough-scarborough-open-air-theatre-16-6-2027/event/107679678"
   },
   {
     "id": "tm-shania-twain-2027-glasgow-1adbz_fgkuptsoi",
@@ -352845,6 +352933,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679687",
+        "url": "https://www.stubhub.ie/shania-twain-tickets-exeter-powderham-castle-24-6-2027/event/107679687",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KJtg0ag",
@@ -352853,7 +352948,8 @@
     "public_onsale_at": "2026-11-06T09:00:00Z",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-exeter-powderham-castle-24-6-2027/event/107679687"
   },
   {
     "id": "tm-shania-twain-2027-dublin-1abzk4pgkenqubp",
@@ -352976,6 +353072,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679686",
+        "url": "https://www.stubhub.ie/shania-twain-tickets-belfast-ormeau-park-27-6-2027/event/107679686",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdOZ_4GksDRodO",
@@ -352996,7 +353099,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-belfast-ormeau-park-27-6-2027/event/107679686"
   },
   {
     "id": "tm-shania-twain-2027-woodstock-1amzk4agkdk2pnt",
@@ -353045,6 +353149,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679154",
+        "url": "https://www.stubhub.ie/shania-twain-tickets-woodstock-blenheim-palace-29-6-2027/event/107679154",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4AGkdk2PNT",
@@ -353097,7 +353208,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-06T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-woodstock-blenheim-palace-29-6-2027/event/107679154"
   },
   {
     "id": "tm-dom-dolla-2026-las-vegas-z7r9jz1a7p3c3",
@@ -354400,11 +354512,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107482965",
-        "url": "https://www.stubhub.ie/rawayana-national-harbor-tickets-11-4-2026/event/107482965",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_kGkw9bb9h",
@@ -354412,7 +354524,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808621",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808621/Rawayana-tickets-Wed-Nov-4-2026-The-Theater-at-MGM-National-Harbor",
-    "stubhub_international_url": "https://www.stubhub.ie/rawayana-national-harbor-tickets-11-4-2026/event/107482965",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -360096,6 +360208,13 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679094",
+        "url": "https://www.stubhub.ie/gracie-abrams-austin-tickets-2-6-2027/event/107679094",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_4UO-E6z",
@@ -360138,7 +360257,8 @@
         "start": "2026-11-06T16:00:00Z",
         "end": "2027-02-02T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-austin-tickets-2-6-2027/event/107679094"
   },
   {
     "id": "tm-blondshell-2027-cleveland-vv1aazk4pgkduzdwy",
@@ -360910,6 +361030,13 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679104",
+        "url": "https://www.stubhub.ie/los-tigres-del-norte-fort-worth-tickets-2-13-2027/event/107679104",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4Bmn9WE",
@@ -360929,7 +361056,8 @@
         "start": "2026-11-05T17:00:00Z",
         "end": "2027-02-12T23:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-fort-worth-tickets-2-13-2027/event/107679104"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-rosemont-vv1a7zk4kgkdecl8m",
@@ -366239,6 +366367,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679704",
+        "url": "https://www.stubhub.ie/meshuggah-tickets-london-ovo-arena-wembley-30-10-2027/event/107679704",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_4GkBbdf9C",
@@ -366251,7 +366386,8 @@
         "start": "2026-11-03T11:00:00Z",
         "end": "2026-11-06T10:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-tickets-london-ovo-arena-wembley-30-10-2027/event/107679704"
   },
   {
     "id": "tm-tyla-2026-seattle-vvg1hz_4ubjbln",
@@ -367423,13 +367559,21 @@
         "verified": true,
         "last_verified_at": "2026-11-05",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679135",
+        "url": "https://www.stubhub.ie/los-tigres-del-norte-los-angeles-tickets-4-10-2027/event/107679135",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7MAO",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353670",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353670/Los-Tigres-del-Norte-tickets-Sat-Apr-10-2027-Cryptocom-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353670/Los-Tigres-del-Norte-tickets-Sat-Apr-10-2027-Cryptocom-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-los-angeles-tickets-4-10-2027/event/107679135"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-hartford-z7r9jz1aaaz18",

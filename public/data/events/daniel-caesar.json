@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A00654FBCA580AF",
     "ticketmaster_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-14-2026/event/0A00654FBCA580AF",
-    "seatgeek_url": "https://seatgeek.com/daniel-caesar-tickets/honolulu-hawaii-neal-s-blaisdell-arena-2026-11-14-8-pm/concert/18692471",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-14-2026/event/0A00654FBCA580AF",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18692471,
-        "url": "https://seatgeek.com/daniel-caesar-tickets/honolulu-hawaii-neal-s-blaisdell-arena-2026-11-14-8-pm/concert/18692471",
-        "verified": true,
-        "last_verified_at": "2026-11-01",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -75,7 +75,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A00654FBCAA80B2",
     "ticketmaster_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-15-2026/event/0A00654FBCAA80B2",
-    "seatgeek_url": "https://seatgeek.com/daniel-caesar-tickets/honolulu-hawaii-neal-s-blaisdell-arena-2026-11-15-8-pm/concert/18700620",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-honolulu-hawaii-11-15-2026/event/0A00654FBCAA80B2",
@@ -91,11 +91,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18700620,
-        "url": "https://seatgeek.com/daniel-caesar-tickets/honolulu-hawaii-neal-s-blaisdell-arena-2026-11-15-8-pm/concert/18700620",
-        "verified": true,
-        "last_verified_at": "2026-11-01",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

@@ -388,6 +388,7 @@ for (const entry of artistCityEntries) {
   // The gate is re-derived here from the published constant so a change to
   // deriveArtistCities() cannot silently move the indexable set on its own.
   const expectedIndexable =
+    entry.artistIndexable &&
     entry.publishableCount >= policyModule.ARTIST_CITY_MIN_SHOWS &&
     entry.pricedCount >= 1 &&
     entry.artistCityCount >= policyModule.ARTIST_CITY_MIN_ARTIST_CITIES;

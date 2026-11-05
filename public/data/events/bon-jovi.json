@@ -406,5 +406,113 @@
         "end": "2027-07-29T02:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-bon-jovi-2027-toronto-1avzz_4gki76ms5",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi: Forever Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2027-08-07T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000655B041F7CCB",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bon-jovi-forever-tour-toronto-ontario-08-07-2027/event/1000655B041F7CCB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bon-jovi-forever-tour-toronto-ontario-08-07-2027/event/1000655B041F7CCB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000655B041F7CCB",
+        "discovery_event_id": "1AvZZ_4Gki76MS5",
+        "url": "https://www.ticketmaster.ca/bon-jovi-forever-tour-toronto-ontario-08-07-2027/event/1000655B041F7CCB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_4Gki76MS5",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
+  },
+  {
+    "id": "tm-bon-jovi-2027-south-bend-vv1kv8vp_zga5o3gv",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "Bon Jovi: Forever Tour",
+    "city": "South Bend",
+    "country": "United States Of America",
+    "venue": "Notre Dame Stadium",
+    "datetime_iso": "2027-10-02T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050065640B452301",
+    "ticketmaster_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-south-bend-indiana-10-02-2027/event/050065640B452301",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-south-bend-indiana-10-02-2027/event/050065640B452301",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050065640B452301",
+        "discovery_event_id": "vv1kv8vP_ZGA5o3Gv",
+        "url": "https://www.ticketmaster.com/bon-jovi-forever-tour-south-bend-indiana-10-02-2027/event/050065640B452301",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kv8vP_ZGA5o3Gv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
   }
 ]

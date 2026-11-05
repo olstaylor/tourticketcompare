@@ -954,5 +954,221 @@
         "end": "2026-11-05T21:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-u2-2027-barcelona-z698xz2qz16vasca3z",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Estadi Olímpic Lluis Companys",
+    "datetime_iso": "2027-05-13T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1271385480",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1271385480?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1271385480?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1271385480",
+        "discovery_event_id": "Z698xZ2qZ16vasCA3Z",
+        "url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1271385480?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vasCA3Z",
+    "timezone": "Europe/Madrid",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-barcelona-z698xz2qz1kkzqe8t",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Estadi Olímpic Lluis Companys",
+    "datetime_iso": "2027-05-15T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180682429",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/180682429?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/180682429?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180682429",
+        "discovery_event_id": "Z698xZ2qZ1kkZQe8t",
+        "url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/180682429?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kkZQe8t",
+    "timezone": "Europe/Madrid",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-sevilla-z698xz2qz1k0efyqs",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Sevilla",
+    "country": "Spain",
+    "venue": "Estadio La Cartuja de Sevilla",
+    "datetime_iso": "2027-05-22T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "902239771",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/902239771?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/902239771?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "902239771",
+        "discovery_event_id": "Z698xZ2qZ1k0eFyqs",
+        "url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/902239771?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k0eFyqs",
+    "timezone": "Europe/Madrid",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-london-1adfz_4gkbq3_od",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Tottenham Hotspur Stadium",
+    "datetime_iso": "2027-06-25T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500655E9D499443",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-25-06-2027/event/3500655E9D499443",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-25-06-2027/event/3500655E9D499443",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500655E9D499443",
+        "discovery_event_id": "1AdfZ_4GkBq3_od",
+        "url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-25-06-2027/event/3500655E9D499443",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_4GkBq3_od",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T10:00:00Z"
   }
 ]

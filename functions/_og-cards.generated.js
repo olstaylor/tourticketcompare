@@ -81,6 +81,7 @@ export const OG_CARDS = {
   "/artists/blue-october/tickets/sacramento-united-states": {"url":"/og/artists-blue-october-tickets-sacramento-united-states.png","alt":"Tickets: Blue October in Sacramento"},
   "/artists/bon-jovi": {"url":"/og/artists-bon-jovi.png","alt":"Tickets & tour dates: Bon Jovi"},
   "/artists/bon-jovi/presale": {"url":"/og/artists-bon-jovi-presale.png","alt":"Presale: Bon Jovi"},
+  "/artists/bon-jovi/ticket-prices": {"url":"/og/artists-bon-jovi-ticket-prices.png","alt":"Ticket prices: Bon Jovi"},
   "/artists/boyz-ii-men": {"url":"/og/artists-boyz-ii-men.png","alt":"Tickets & tour dates: Boyz II Men"},
   "/artists/boyz-ii-men/ticket-prices": {"url":"/og/artists-boyz-ii-men-ticket-prices.png","alt":"Ticket prices: Boyz II Men"},
   "/artists/boyz-ii-men/tickets/las-vegas-united-states": {"url":"/og/artists-boyz-ii-men-tickets-las-vegas-united-states.png","alt":"Tickets: Boyz II Men in Las Vegas"},

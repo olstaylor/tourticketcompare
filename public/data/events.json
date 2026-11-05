@@ -366264,62 +366264,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/meshuggah-tickets-london-ovo-arena-wembley-30-10-2027/event/107679704"
   },
   {
-    "id": "tm-tyla-2026-seattle-vvg1hz_4ubjbln",
-    "artist_slug": "tyla",
-    "artist_name": "Tyla",
-    "event_name": "TYLA - THE A*POP WORLD TOUR",
-    "city": "Seattle",
-    "country": "United States Of America",
-    "venue": "Paramount Theatre",
-    "datetime_iso": "2026-11-18T04:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "0F00655DBA7187E3",
-    "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F00655DBA7187E3",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F00655DBA7187E3",
-    "last_verified_at": "2026-11-04",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "0F00655DBA7187E3",
-        "discovery_event_id": "vvG1HZ_4UBjbLN",
-        "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F00655DBA7187E3",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "vvG1HZ_4UBjbLN",
-    "timezone": "America/Los_Angeles",
-    "status": "on-sale",
-    "organizer_names": [
-      "LIVE NATION MUSIC"
-    ]
-  },
-  {
     "id": "tm-pink-martini-2027-pittsburgh-z7r9jz1aavjpj",
     "artist_slug": "pink-martini",
     "artist_name": "Pink Martini",

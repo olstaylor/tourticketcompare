@@ -302,6 +302,25 @@ function runSelfTest() {
   assert.doesNotMatch(mixed.body, /`past` — artist/);
   assert.match(mixed.body, /Clean-update commit gate \| pass/);
 
+  const collision = buildBody({
+    updates: [{ id: 'clean' }],
+    reviewItems: [{
+      id: 'moved', artist_slug: 'artist', kind: 'duplicate_performance',
+      datetime_iso: '2026-07-01T20:00:00Z',
+      intendedChanges: [{ field: 'datetime_iso', to: '2026-08-01T20:00:00Z' }],
+      detail: 'The proposed update creates a duplicate performance with: retained.',
+      recommendedAction: 'Review both records together by PR.'
+    }],
+    blockedUpdateIds: ['moved'], errors: [],
+    summary: { checked: 2, updated: 1, reviewItems: 1, errors: 0, blockedUpdateIds: 1, autoCommitSafe: true }
+  }, now);
+  assert.equal(collision.hasFindings, true);
+  assert.match(collision.body, /Other sync blockers/);
+  assert.match(collision.body, /`moved` — artist/);
+  assert.match(collision.body, /retained/);
+  assert.match(collision.body, /Review both records together by PR/);
+  assert.match(collision.body, /Clean-update commit gate \| pass/);
+
   assert.equal(itemNeedsCurrentReview({
     datetime_iso: '2026-07-01T20:00:00Z',
     ticketmaster_datetime_iso: '2026-08-01T20:00:00Z'

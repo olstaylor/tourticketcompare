@@ -62,11 +62,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8267874",
+        "url": "https://www.ticketnetwork.com/en/p/8267874",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_3m-gnBM",
@@ -77,7 +77,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267874",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-08T04:00:00Z",
     "previous_start_timezone": "America/Los_Angeles"
@@ -145,11 +145,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8267866",
+        "url": "https://www.ticketnetwork.com/en/p/8267866",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eYZ_3lgqZVb",
@@ -167,7 +167,7 @@
         "end": "2026-11-05T20:00:00Z"
       }
     ],
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267866",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-10T04:00:00Z",
     "previous_start_timezone": "America/Los_Angeles"
@@ -235,11 +235,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8267876",
+        "url": "https://www.ticketnetwork.com/en/p/8267876",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3R_E2aT",
@@ -257,7 +257,7 @@
         "end": "2027-01-30T18:00:00Z"
       }
     ],
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267876",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-14T02:00:00Z",
     "previous_start_timezone": "America/Chicago"
@@ -325,11 +325,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8267877",
+        "url": "https://www.ticketnetwork.com/en/p/8267877",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3mYJGwO",
@@ -347,7 +347,7 @@
         "end": "2027-02-07T17:00:00Z"
       }
     ],
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267877",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-17T01:00:00Z",
     "previous_start_timezone": "America/New_York"
@@ -415,11 +415,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8267865",
+        "url": "https://www.ticketnetwork.com/en/p/8267865",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_3IvACNR",
@@ -442,7 +442,7 @@
         "end": "2027-02-09T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267865",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-19T01:00:00Z",
     "previous_start_timezone": "America/New_York"
@@ -510,11 +510,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8267878",
+        "url": "https://www.ticketnetwork.com/en/p/8267878",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkftGkdhKud5",
@@ -532,7 +532,7 @@
         "end": "2026-11-16T17:00:00Z"
       }
     ],
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267878",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-21T01:00:00Z",
     "previous_start_timezone": "America/New_York"

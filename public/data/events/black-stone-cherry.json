@@ -855,7 +855,7 @@
     "ticketmaster_event_id": "1F006384F55A9CCA",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-manchester-02-02-2027/event/1F006384F55A9CCA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/black-stone-cherry-tickets-manchester-manchester-academy---3-2-2-2027/production/7151056",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-manchester-02-02-2027/event/1F006384F55A9CCA",
     "last_verified_at": "2026-11-01",
@@ -877,11 +877,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7151056,
+        "url": "https://www.vividseats.com/black-stone-cherry-tickets-manchester-manchester-academy---3-2-2-2027/production/7151056",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

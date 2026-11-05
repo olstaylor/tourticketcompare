@@ -2197,7 +2197,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7_Af",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_Af",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-chattanooga-utc-mckenzie-arena-3-13-2027/production/7723057",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_Af",
     "last_verified_at": null,
@@ -2219,11 +2219,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7723057,
+        "url": "https://www.vividseats.com/mercyme-tickets-chattanooga-utc-mckenzie-arena-3-13-2027/production/7723057",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

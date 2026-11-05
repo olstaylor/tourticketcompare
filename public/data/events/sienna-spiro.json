@@ -3524,7 +3524,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7Oab",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Oab",
     "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/atlanta-georgia-fox-theatre-atlanta-2027-08-10-7-pm/concert/18702010",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-atlanta-fox-theatre---atlanta-8-10-2027--concerts-pop/production/7726794",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Oab",
     "last_verified_at": null,
@@ -3546,11 +3546,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7726794,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-atlanta-fox-theatre---atlanta-8-10-2027--concerts-pop/production/7726794",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

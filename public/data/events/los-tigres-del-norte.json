@@ -1570,7 +1570,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAZ8e",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ8e",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-denver-bellco-theatre-at-colorado-convention-center-2-27-2027--concerts-latin-music/production/7795251",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ8e",
     "last_verified_at": null,
@@ -1592,11 +1592,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7795251,
+        "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-denver-bellco-theatre-at-colorado-convention-center-2-27-2027--concerts-latin-music/production/7795251",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1730,7 +1730,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAZ18",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ18",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-hartford-peoplesbank-arena-4-17-2027/production/7799310",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ18",
     "last_verified_at": null,
@@ -1752,11 +1752,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7799310,
+        "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-hartford-peoplesbank-arena-4-17-2027/production/7799310",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

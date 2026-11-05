@@ -807,7 +807,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-oklahoma-city-paycom-center-2-12-2027/production/7794871",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-oklahoma-city-oklahoma-02-12-2027/event/0C006542D1ADD76D",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -862,13 +862,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353584/Los-Tigres-del-Norte-tickets-Fri-Feb-12-2027-Paycom-Center",
     "organizer_names": [
       "ZAMORA LIVE"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale Offer",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T04:00:00Z"
-      }
     ]
   },
   {
@@ -977,7 +970,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-rosemont-allstate-arena-3-20-2027/production/7794809",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-rosemont-illinois-03-20-2027/event/04006546C23AB42E",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1032,16 +1025,6 @@
       "ZAMORA LIVE"
     ],
     "presales": [
-      {
-        "name": "Promoter/ Venue Presale Offers",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T15:45:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T15:45:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-11-05T17:00:00Z",
@@ -1331,7 +1314,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-charlotte-spectrum-center-4-24-2027/production/7794948",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-charlotte-north-carolina-04-24-2027/event/2D006546B359D28D",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1389,21 +1372,6 @@
     ],
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T04:59:00Z"
-      },
-      {
-        "name": "Spectrum Center Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T04:59:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T04:59:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-05T17:00:00Z",
         "end": "2027-04-23T21:00:00Z"
@@ -1426,7 +1394,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-seattle-wamu-theater---seattle-5-21-2027/production/7794956",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-seattle-washington-05-21-2027/event/0F00655E394938A0",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1484,21 +1452,6 @@
     ],
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T06:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T06:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T06:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-05T17:00:00Z",
         "end": "2027-05-21T00:00:00Z"
@@ -1521,7 +1474,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-portland-moda-center-5-22-2027/production/7794976",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-portland-oregon-05-22-2027/event/0F006547F42EC2AF",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1570,24 +1523,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fLV5i1R",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-05T08:00:00Z",
+    "status": "on-sale",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T07:59:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T07:59:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T07:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-05T17:00:00Z",

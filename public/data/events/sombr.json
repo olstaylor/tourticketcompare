@@ -1881,7 +1881,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-columbus-nationwide-arena-11-8-2026--concerts-alternative/production/6897990",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-columbus-ohio-11-08-2026/event/050064898B1143E1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1933,13 +1933,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874878",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874878/sombr-tickets-Sun-Nov-8-2026-Nationwide-Arena",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-17T14:00:00Z",
-        "end": "2026-11-04T17:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

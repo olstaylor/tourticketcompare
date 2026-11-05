@@ -285,7 +285,7 @@
     "vividseats_url": "https://www.vividseats.com/missio-tickets-denver-marquis-theater---co-11-11-2026/production/7424526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-denver-colorado-11-11-2026/event/1E00650AE1043A95",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -337,13 +337,6 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200529/Missio-tickets-Wed-Nov-11-2026-Marquis-Theater-CO",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200529",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-14T15:00:00Z",
-        "end": "2026-11-05T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

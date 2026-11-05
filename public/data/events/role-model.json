@@ -325,7 +325,7 @@
     "city": "Manchester",
     "country": "Great Britain",
     "venue": "AO Arena",
-    "datetime_iso": "2027-02-28T19:00:00Z",
+    "datetime_iso": "2027-02-28T18:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1F0064D2934F9829",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829",
@@ -333,7 +333,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

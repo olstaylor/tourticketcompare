@@ -358,7 +358,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-pittsburgh-citizens-live-at-the-wylie-11-11-2026/production/7353378",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wamo-fall-fest-featuring-jodeci-pittsburgh-pennsylvania-11-11-2026/event/160064F6DBD4C228",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -412,13 +412,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167870/Jodeci-tickets-Wed-Nov-11-2026-Citizens-Live-at-The-Wylie",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T14:00:00Z",
-        "end": "2026-11-05T04:55:00Z"
-      }
     ]
   },
   {

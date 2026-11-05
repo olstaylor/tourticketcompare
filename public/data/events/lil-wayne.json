@@ -152,7 +152,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-lexington-kentucky-12-04-2026/event/1600646C2F9154F2",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -212,6 +212,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-03-20T14:00:00Z",
         "end": "2026-11-07T03:00:00Z"
+      },
+      {
+        "name": "Black Friday/Cyber Monday Offer",
+        "start": "2026-11-23T15:00:00Z",
+        "end": "2026-12-01T03:00:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7810684"
@@ -232,7 +237,7 @@
     "vividseats_url": "https://www.vividseats.com/lil-wayne-tickets-savannah-enmarket-arena-12-5-2026--concerts-rap-hip-hop/production/7654768",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-savannah-georgia-12-05-2026/event/0E00652A99D38572",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -287,11 +292,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-10-09T14:00:00Z",
-        "end": "2026-11-05T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T14:00:00Z",

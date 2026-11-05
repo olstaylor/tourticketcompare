@@ -387,17 +387,22 @@ function expectedMusicEventCount(artistSlug) {
     .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
     .map((artist) => artist.slug);
   const entries = deriveIndexableArtistCities(events, indexableSlugs);
+  const metaBySlug = new Map(artistsMeta.map((artist) => [artist.slug, artist]));
 
   let checked = 0;
   for (const entry of entries) {
     const html = await (await render(entry.path)).text();
     assertApexHead(html, entry.path);
+    const indexable = entry.indexable && artistPageIndexable(metaBySlug.get(entry.artistSlug), events, entry.artistSlug);
+    const robots = html.match(/<meta\s+name="robots"\s+content="([^"]*)"/i)?.[1] || "";
+    if (robots.includes("noindex") === indexable) fail(`${entry.path}: robots disagrees with the city and parent artist gates`);
     const graph = extractGraph(html, entry.path);
     if (!graph) continue;
     const t = types(graph);
-    for (const required of ["Place", "CollectionPage", "FAQPage", "BreadcrumbList"]) {
+    for (const required of ["Place", "CollectionPage", "BreadcrumbList", ...(indexable ? ["FAQPage"] : [])]) {
       if (!t.includes(required)) fail(`${entry.path}: missing ${required} structured data`);
     }
+    if (!indexable && t.includes("FAQPage")) fail(`${entry.path}: noindex city page emits FAQPage`);
     // Expected MusicEvent count comes straight from the module's own derivation,
     // so this check fails if the schema builder ever drifts from it.
     //
@@ -408,7 +413,7 @@ function expectedMusicEventCount(artistSlug) {
     // MusicEvent contract, whose gate is the row's own verification status.
     // See eventStatusPublishable() in functions/_route-indexability.js.
     const artistCity = findArtistCity(events, entry.artistSlug, entry.slug);
-    const expected = artistCity ? artistCity.schemaEventCount : 0;
+    const expected = indexable && artistCity ? artistCity.schemaEventCount : 0;
     const musicEvents = graph.filter((node) => node["@type"] === "MusicEvent");
     if (musicEvents.length !== expected) {
       fail(`${entry.path}: ${musicEvents.length} MusicEvent node(s), expected ${expected} from the publishable listing`);

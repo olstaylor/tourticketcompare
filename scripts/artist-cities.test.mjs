@@ -279,4 +279,51 @@ const elsewhere = { city: "Manchester", venue: "AO Arena", datetime_iso: future3
   assert(new Set(paths).size === paths.length, "artist-city paths are unique (no duplicate URLs)");
 }
 
+// A cancellation can leave a city above its own floor while its auto-promoted
+// parent falls below three live dates. The city still serves useful cards, but
+// its robots, FAQ and MusicEvent schema must follow the parent gate together.
+{
+  const fs = await import("node:fs/promises");
+  const { onRequest } = await import("../functions/[[path]].js");
+  const catalog = JSON.parse(await fs.readFile(new URL("../public/data/catalog.json", import.meta.url), "utf8"));
+  const artist = catalog.artists[0];
+  const at = (days) => new Date(Date.now() + days * 86400000).toISOString();
+  const fixture = (id, city, days) => ev({
+    id, artist_slug: artist.slug, artist_name: artist.name, city,
+    country: "Great Britain", venue: `Fixture Hall ${city}`, datetime_iso: at(days), timezone: "Europe/London",
+    ticketmaster_event_id: "0000000000000001", ticketmaster_url: "https://www.ticketmaster.co.uk/event/0000000000000001",
+    provider_links: {
+      ticketmaster: { verified: true },
+      "vivid-seats": { verified: true, url: "https://www.vividseats.com/fixture-tickets/production/12345", event_id: 12345 }
+    }
+  });
+  const live = [fixture("city-parent-1", "London", 30), fixture("city-parent-2", "London", 31), fixture("city-parent-3", "Manchester", 32)];
+  const held = live.map((event, i) => i === 2 ? { ...event, ticketmaster_status_code: "cancelled" } : event);
+  for (const [rows, source, indexable] of [[live, "auto", true], [held, "auto", false], [held, "manual", true]]) {
+    const city = deriveArtistCities(rows, artist.slug).find((entry) => entry.city === "London");
+    assert(city.indexable, "the city itself still clears its data thresholds");
+    const replacements = new Map([
+      ["/data/catalog.json", { ...catalog, artists: [artist] }],
+      ["/data/artists.json", [{ ...artist, indexing_status: "indexable_with_substantial_content", promotion_source: source }]],
+      ["/data/events.json", rows],
+      ["/data/events/_shards/manifest.json", { count: rows.length, shards: [{ path: "/data/events/_shards/000.json", count: rows.length }] }],
+      ["/data/events/_shards/000.json", rows]
+    ]);
+    const env = { ASSETS: { async fetch(input) {
+      const pathname = new URL(input instanceof Request ? input.url : input).pathname;
+      if (replacements.has(pathname)) return new Response(JSON.stringify(replacements.get(pathname)));
+      try { return new Response(await fs.readFile(new URL(`../public${pathname === "/" ? "/index.html" : pathname}`, import.meta.url))); }
+      catch { return new Response("not found", { status: 404 }); }
+    } } };
+    const response = await onRequest({ request: new Request(`https://tourticketcompare.com/artists/${artist.slug}/tickets/${city.slug}`), env });
+    const html = await response.text();
+    const robots = html.match(/<meta\s+name="robots"\s+content="([^"]*)"/i)?.[1] || "";
+    const graph = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1])["@graph"];
+    assert(response.status === 200, "a parent below its floor keeps the city page served");
+    assert(robots.includes("noindex") === !indexable, `${source} parent and cancellation determine city robots`);
+    assert(graph.some((node) => node["@type"] === "FAQPage") === indexable, "FAQ schema follows city indexability");
+    assert(graph.filter((node) => node["@type"] === "MusicEvent").length === (indexable ? 2 : 0), "city event schema follows the parent gate");
+  }
+}
+
 console.log(`artist-cities: ${passed} assertions passed`);

@@ -2889,22 +2889,22 @@
     "event_name": "Saint Levant - AFANDI WORLD TOUR",
     "city": "Manchester",
     "country": "Great Britain",
-    "venue": "O2 Ritz Manchester",
+    "venue": "O2 Victoria Warehouse Manchester",
     "datetime_iso": "2027-01-20T19:00:00Z",
     "tour_name": "",
-    "ticketmaster_event_id": "3E00654EA3E13C7A",
-    "ticketmaster_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-manchester-20-01-2027/event/3E00654EA3E13C7A",
+    "ticketmaster_event_id": "3E0065579656379A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-manchester-20-01-2027/event/3E0065579656379A",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-manchester-20-01-2027/event/3E00654EA3E13C7A",
+    "source_url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-manchester-20-01-2027/event/3E0065579656379A",
     "last_verified_at": "2026-10-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "3E00654EA3E13C7A",
-        "discovery_event_id": "G5dzZ_fBNzKsB",
-        "url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-manchester-20-01-2027/event/3E00654EA3E13C7A",
+        "event_id": "3E0065579656379A",
+        "discovery_event_id": "G5dzZ_4rp4NrQ",
+        "url": "https://www.ticketmaster.co.uk/saint-levant-afandi-world-tour-manchester-20-01-2027/event/3E0065579656379A",
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
@@ -2931,22 +2931,22 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107677729",
-        "url": "https://www.stubhub.ie/saint-levant-tickets-manchester-o2-ritz-manchester-20-1-2027/event/107677729",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       }
     },
-    "ticketmaster_discovery_event_id": "G5dzZ_fBNzKsB",
+    "ticketmaster_discovery_event_id": "G5dzZ_4rp4NrQ",
     "timezone": "Europe/London",
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
-      "ACADEMY MUSIC GROUP (O2 RITZ MANCHESTER)",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY VICTORIA WAREHOUSE MANCHESTER)",
       "LNM - VIP NATION UK"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-tickets-manchester-o2-ritz-manchester-20-1-2027/event/107677729"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-saint-levant-2027-london-1auzk48gkdxoa9q",

@@ -10694,7 +10694,7 @@
     "country": "United States Of America",
     "city": "Seattle",
     "venue": "Paramount Theatre",
-    "datetime_iso": "2026-12-18T04:00:00Z",
+    "datetime_iso": "2026-11-18T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "The A*POP World Tour",
     "status": "on-sale"
@@ -24650,7 +24650,7 @@
     "country": "United States Of America",
     "city": "Milwaukee",
     "venue": "The Rave-Eagles Club",
-    "datetime_iso": "2026-10-25T01:00:00Z",
+    "datetime_iso": "2027-02-14T01:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
@@ -24841,7 +24841,7 @@
     "artist_name": "Dylan Scott",
     "country": "United States Of America",
     "city": "Chandler",
-    "venue": "Gila River Resorts & Casinos - Wild Horse Pass",
+    "venue": "The Showroom at Wild Horse Pass Resort & Casino",
     "datetime_iso": "2027-02-28T03:00:00Z",
     "timezone": "America/Phoenix",
     "tour_name": "Dear Big City Tour",
@@ -45061,7 +45061,7 @@
     "artist_name": "Saint Levant",
     "country": "Great Britain",
     "city": "Manchester",
-    "venue": "O2 Ritz Manchester",
+    "venue": "O2 Victoria Warehouse Manchester",
     "datetime_iso": "2027-01-20T19:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
@@ -58556,30 +58556,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-daniel-caesar-2026-honolulu-vvg1iz_fxhtber",
-    "artist_slug": "daniel-caesar",
-    "artist_name": "Daniel Caesar",
-    "country": "United States Of America",
-    "city": "Honolulu",
-    "venue": "Neal S Blaisdell Arena",
-    "datetime_iso": "2026-11-15T06:00:00Z",
-    "timezone": "Pacific/Honolulu",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-daniel-caesar-2026-honolulu-vvg1iz_fxhniew",
-    "artist_slug": "daniel-caesar",
-    "artist_name": "Daniel Caesar",
-    "country": "United States Of America",
-    "city": "Honolulu",
-    "venue": "Neal S Blaisdell Arena",
-    "datetime_iso": "2026-11-16T06:00:00Z",
-    "timezone": "Pacific/Honolulu",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-three-days-grace-2026-nashville-g5vizbu4hqfya",
     "artist_slug": "three-days-grace",
     "artist_name": "Three Days Grace",
@@ -61110,18 +61086,6 @@
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "announced"
-  },
-  {
-    "id": "tm-tyla-2026-seattle-vvg1hz_4ubjbln",
-    "artist_slug": "tyla",
-    "artist_name": "Tyla",
-    "country": "United States Of America",
-    "city": "Seattle",
-    "venue": "Paramount Theatre",
-    "datetime_iso": "2026-11-18T04:00:00Z",
-    "timezone": "America/Los_Angeles",
-    "tour_name": "",
-    "status": "on-sale"
   },
   {
     "id": "tm-pink-martini-2027-pittsburgh-z7r9jz1aavjpj",

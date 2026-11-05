@@ -1689,11 +1689,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107154727",
-        "url": "https://www.stubhub.ie/sombr-chicago-tickets-11-4-2026/event/107154727",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7874875",
@@ -1707,7 +1707,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874875",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-chicago-tickets-11-4-2026/event/107154727",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874875/sombr-tickets-Wed-Nov-4-2026-United-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"

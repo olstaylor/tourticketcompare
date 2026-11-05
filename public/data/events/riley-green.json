@@ -824,6 +824,13 @@
         "verified": true,
         "last_verified_at": "2026-10-06",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679607",
+        "url": "https://www.stubhub.ie/riley-green-raleigh-tickets-4-29-2027/event/107679607",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Ke-2cfW",
@@ -845,7 +852,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-raleigh-tickets-4-29-2027/event/107679607"
   },
   {
     "id": "tm-riley-green-2027-knoxville-g5viz_3wie3-p",
@@ -1430,6 +1438,13 @@
         "verified": true,
         "last_verified_at": "2026-10-06",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679610",
+        "url": "https://www.stubhub.ie/riley-green-dallas-tickets-5-21-2027/event/107679610",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_K1h0IPI",
@@ -1456,7 +1471,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-dallas-tickets-5-21-2027/event/107679610"
   },
   {
     "id": "tm-riley-green-2027-lafayette-g5viz_3r9l7s7",
@@ -2144,6 +2160,13 @@
         "verified": true,
         "last_verified_at": "2026-10-06",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679602",
+        "url": "https://www.stubhub.ie/riley-green-clarkston-tickets-6-25-2027/event/107679602",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfwGkdw_jCp",
@@ -2165,7 +2188,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-clarkston-tickets-6-25-2027/event/107679602"
   },
   {
     "id": "tm-riley-green-2027-clarkston-vv1afzkfygkenvgq1",
@@ -2228,6 +2252,13 @@
         "verified": true,
         "last_verified_at": "2026-10-06",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679605",
+        "url": "https://www.stubhub.ie/riley-green-clarkston-tickets-6-26-2027/event/107679605",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfyGkeNVgq1",
@@ -2249,7 +2280,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-clarkston-tickets-6-26-2027/event/107679605"
   },
   {
     "id": "tm-riley-green-2027-syracuse-k7vgf_k1rwxjy",
@@ -2485,6 +2517,13 @@
         "verified": true,
         "last_verified_at": "2026-10-06",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679601",
+        "url": "https://www.stubhub.ie/riley-green-columbia-tickets-7-22-2027/event/107679601",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkdaJCIk",
@@ -2506,7 +2545,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-columbia-tickets-7-22-2027/event/107679601"
   },
   {
     "id": "tm-riley-green-2027-bethel-k7vgf_kkxvsto",

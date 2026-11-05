@@ -1196,6 +1196,13 @@
         "verified": true,
         "last_verified_at": "2026-11-01",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679141",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-23-2027/event/107679141",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_4GknBP_Nx",
@@ -1217,7 +1224,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-05-17T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-23-2027/event/107679141"
   },
   {
     "id": "tm-two-door-cinema-club-2027-del-mar-rz7hnez1afc70v",

@@ -62,11 +62,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107482965",
-        "url": "https://www.stubhub.ie/rawayana-national-harbor-tickets-11-4-2026/event/107482965",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_kGkw9bb9h",
@@ -74,7 +74,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808621",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808621/Rawayana-tickets-Wed-Nov-4-2026-The-Theater-at-MGM-National-Harbor",
-    "stubhub_international_url": "https://www.stubhub.ie/rawayana-national-harbor-tickets-11-4-2026/event/107482965",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

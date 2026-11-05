@@ -1851,11 +1851,19 @@
         "verified": true,
         "last_verified_at": "2026-11-05",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267156",
+        "url": "https://www.ticketliquidator.com/tickets/8267156/Pink-Martini-tickets-Sun-Nov-29-2026-Revolution-Hall-Portland",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7U1A",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267156"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267156",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267156/Pink-Martini-tickets-Sun-Nov-29-2026-Revolution-Hall-Portland"
   }
 ]

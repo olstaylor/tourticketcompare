@@ -292,6 +292,13 @@
         "verified": true,
         "last_verified_at": "2026-11-05",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8356240",
+        "url": "https://www.ticketliquidator.com/tickets/8356240/James-Blunt-tickets-Sat-Mar-27-2027-bp-pulse-LIVE",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16NZkfo03ZAG7veC",
@@ -301,7 +308,8 @@
     "organizer_names": [
       "DAYBROOK HOUSE LIMITED"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356240"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356240",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8356240/James-Blunt-tickets-Sat-Mar-27-2027-bp-pulse-LIVE"
   },
   {
     "id": "tm-james-blunt-2027-newcastle-upon-tyne-g5vhz_8jzh5mu",

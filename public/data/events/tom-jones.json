@@ -307,11 +307,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7997399",
-        "url": "https://www.ticketliquidator.com/tickets/7997399/Tom-Jones-tickets-Tue-Nov-3-2026-The-Rady-Shell-at-Jacobs-Park",
-        "verified": true,
-        "last_verified_at": "2026-10-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -331,7 +331,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_5GQCfyd",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997399/Tom-Jones-tickets-Tue-Nov-3-2026-The-Rady-Shell-at-Jacobs-Park",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"

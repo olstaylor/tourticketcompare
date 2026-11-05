@@ -1007,6 +1007,13 @@
         "verified": true,
         "last_verified_at": "2026-11-05",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8355708",
+        "url": "https://www.ticketliquidator.com/tickets/8355708/Los-Tigres-del-Norte-tickets-Sat-Mar-20-2027-Allstate-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4kGkdeCl8m",
@@ -1033,7 +1040,8 @@
         "end": "2027-03-19T22:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8355708"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8355708",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8355708/Los-Tigres-del-Norte-tickets-Sat-Mar-20-2027-Allstate-Arena"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-miami-vvg1vz_fxmchil",
@@ -1543,6 +1551,13 @@
         "verified": true,
         "last_verified_at": "2026-11-05",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8355710",
+        "url": "https://www.ticketliquidator.com/tickets/8355710/Los-Tigres-del-Norte-tickets-Sat-May-22-2027-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_fLV5i1R",
@@ -1571,7 +1586,8 @@
         "end": "2027-05-23T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8355710"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8355710",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8355710/Los-Tigres-del-Norte-tickets-Sat-May-22-2027-Moda-Center-at-the-Rose-Quarter"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-denver-z7r9jz1aaaz8e",
@@ -1627,12 +1643,20 @@
         "verified": true,
         "last_verified_at": "2026-11-05",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8356345",
+        "url": "https://www.ticketliquidator.com/tickets/8356345/Los-Tigres-del-Norte-tickets-Sat-Feb-27-2027-Bellco-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZ8e",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356345"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356345",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8356345/Los-Tigres-del-Norte-tickets-Sat-Feb-27-2027-Bellco-Theatre"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-montreal-z7r9jz1aa7zf8",
@@ -1742,12 +1766,20 @@
         "verified": true,
         "last_verified_at": "2026-11-05",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8353670",
+        "url": "https://www.ticketliquidator.com/tickets/8353670/Los-Tigres-del-Norte-tickets-Sat-Apr-10-2027-Cryptocom-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7MAO",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353670"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353670",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353670/Los-Tigres-del-Norte-tickets-Sat-Apr-10-2027-Cryptocom-Arena"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-hartford-z7r9jz1aaaz18",
@@ -1803,12 +1835,20 @@
         "verified": true,
         "last_verified_at": "2026-11-05",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8356363",
+        "url": "https://www.ticketliquidator.com/tickets/8356363/Los-Tigres-del-Norte-tickets-Sat-Apr-17-2027-PeoplesBank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZ18",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-05T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356363"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356363",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8356363/Los-Tigres-del-Norte-tickets-Sat-Apr-17-2027-PeoplesBank-Arena"
   }
 ]

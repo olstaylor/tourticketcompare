@@ -752,11 +752,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8203898",
-        "url": "https://www.ticketliquidator.com/tickets/8203898/Fuerza-Regida-tickets-Tue-Nov-3-2026-Red-Rocks-Amphitheatre",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107665241",
@@ -770,7 +770,7 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203898/Fuerza-Regida-tickets-Tue-Nov-3-2026-Red-Rocks-Amphitheatre",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-morrison-tickets-11-3-2026/event/107665241",
     "organizer_names": [
       "LIVE NATION MUSIC"

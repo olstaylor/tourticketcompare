@@ -1177,12 +1177,20 @@
         "verified": true,
         "last_verified_at": "2026-11-05",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8354481",
+        "url": "https://www.ticketliquidator.com/tickets/8354481/Dinosaur-Jr-tickets-Thu-Feb-11-2027-Brooklyn-Steel",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvK1a",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8354481"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8354481",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8354481/Dinosaur-Jr-tickets-Thu-Feb-11-2027-Brooklyn-Steel"
   },
   {
     "id": "tm-dinosaur-jr-2027-brooklyn-z7r9jz1aavk1f",

@@ -2300,7 +2300,7 @@
     "ticketmaster_event_id": "3E00652D16C664B8",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-london-14-05-2027/event/3E00652D16C664B8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley---pop-band-tickets-london-o2-forum-kentish-town-5-14-2027/production/7604561",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-london-14-05-2027/event/3E00652D16C664B8",
     "last_verified_at": "2026-10-15",
@@ -2322,11 +2322,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7604561,
+        "url": "https://www.vividseats.com/valley---pop-band-tickets-london-o2-forum-kentish-town-5-14-2027/production/7604561",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

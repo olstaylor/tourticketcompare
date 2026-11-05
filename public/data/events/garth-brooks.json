@@ -564,7 +564,7 @@
     "ticketmaster_event_id": "1000655BC088C8B2",
     "ticketmaster_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-04-2026/event/1000655BC088C8B2",
     "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-04-8-pm/concert/18726838",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-4-2026--concerts-country-and-folk/production/7767692",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-04-2026/event/1000655BC088C8B2",
     "last_verified_at": "2026-11-01",
@@ -586,11 +586,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7767692,
+        "url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-4-2026--concerts-country-and-folk/production/7767692",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

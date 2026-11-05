@@ -238,7 +238,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/cody-johnson-dublin-05-11-2026/event/1800644484915FA8",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293,7 +293,8 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-cody-johnson-2027-austin-g5diz_43sxhzn",

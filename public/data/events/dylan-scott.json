@@ -77,15 +77,15 @@
     "city": "Milwaukee",
     "country": "United States Of America",
     "venue": "The Rave-Eagles Club",
-    "datetime_iso": "2026-10-25T01:00:00Z",
+    "datetime_iso": "2027-02-14T01:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvSe9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe9",
-    "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-24-8-pm/concert/18526286",
-    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-milwaukee-the-rave-eagles-club-10-24-2026/production/7453602",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-05",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -97,18 +97,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18526286,
-        "url": "https://seatgeek.com/dylan-scott-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-24-8-pm/concert/18526286",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7453602,
-        "url": "https://www.vividseats.com/dylan-scott-tickets-milwaukee-the-rave-eagles-club-10-24-2026/production/7453602",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "stubhub": {
         "event_id": null,
@@ -120,7 +120,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSe9",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-dylan-scott-2026-westbury-k7vgf_oh3fr0h",
@@ -1279,7 +1280,7 @@
     "event_name": "Dylan Scott",
     "city": "Chandler",
     "country": "United States Of America",
-    "venue": "Gila River Resorts & Casinos - Wild Horse Pass",
+    "venue": "The Showroom at Wild Horse Pass Resort & Casino",
     "datetime_iso": "2027-02-28T03:00:00Z",
     "tour_name": "Dear Big City Tour",
     "ticketmaster_event_id": "1900652CFC68157E",
@@ -1288,7 +1289,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-chandler-gila-river-resorts-and-casinos---wild-horse-pass-2-27-2027/production/7565027",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-chandler-arizona-02-27-2027/event/1900652CFC68157E",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

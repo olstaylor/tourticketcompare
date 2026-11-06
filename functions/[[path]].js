@@ -6144,7 +6144,7 @@ export function renderWorthWaitingBody(route) {
       )}</p></div><div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">Recent price direction by US tour</caption><thead><tr><th scope="col">Tour</th><th scope="col">Shows compared</th><th scope="col">Lower</th><th scope="col">Higher</th><th scope="col">About the same</th></tr></thead><tbody>${rows}</tbody></table></div><p>${escapeHtml(
         `Across all ${fmt(worth.totals.shows)} compared US shows (${fmt(worth.artistCount)} artists): lower at ${fmt(worth.totals.lower)}, higher at ${fmt(worth.totals.higher)}, about the same at ${fmt(worth.totals.same)}. "About the same" means within 2% either way.`
       )}</p></section>`
-    : `<section class="nested-panel"><h2>Find your tour</h2><p>There are not enough recent price readings to show a tour-by-tour count right now. Check back soon, or open an artist page for the current listed prices.</p></section>`;
+    : `<section class="nested-panel"><h2>Find your tour</h2><p>There are not enough recent price readings to show a tour-by-tour count right now. Check back soon, or open an artist page for its latest checked prices.</p></section>`;
   const f = DAY_ONE_FINDING;
   return `<main id="mainContent"><section class="content-page" aria-labelledby="worthWaitingTitle">${renderBreadcrumbHtml(
     route

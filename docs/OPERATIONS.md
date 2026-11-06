@@ -394,7 +394,8 @@ include-past override on, today's two sweeps are 4,582 → 2,291.
 
 - `report-roster-forecast.mjs`: 330 currently tracked markets with supported
   country codes; one or two pages each (size 200), then up to 60 attraction
-  lookups: ~330–720 per full scan. Each roster workflow separately screens up
+  lookups: ~330–720 per full scan, plus a just-announced pass of up to 10
+  pages per country across US/GB/CA/IE/AU (≤50 calls; 16 on 2026-11-06). Each roster workflow separately screens up
   to 20 names with `propose-onboarding-batch.mjs`: one attraction lookup/search
   each plus up to five event pages each, up to 120 additional calls. The actual
   shortlist and page count require live data, so a precise daily total cannot

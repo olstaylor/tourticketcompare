@@ -89,9 +89,25 @@
 //                             with the headliner's entire routing.
 //   --enrich-limit <n>    Max attractions to scale-check via the attraction
 //                         endpoint, one request each (default 60)
+//   --announce-days <n>   Also scan for tours whose public on-sale started in
+//                         the last n days or is still to come (default 7;
+//                         0 turns the pass off). See "Just announced" below.
+//   --announce-pages <n>  Discovery pages per country for that pass (default 10)
 //   --json <path>         Also write the full report as JSON
 //   --markdown <path>     Also write the report as Markdown
 //   --self-test           Offline assertions only; no API calls
+//
+// Just announced
+// --------------
+// The tracked-market scan only sees an act once its dates reach the first two
+// pages past the horizon in a city the site already covers, and it ranks on
+// keeping city/venue pages alive. A freshly announced 2027 stadium run is
+// usually too far out for either. The search pages that win (U2 London, Role
+// Model, Shania Twain, Santana, Nov 2026) were newly announced tours, so a
+// second pass asks Discovery, per country, for music events whose public
+// on-sale starts on or after (now - --announce-days). An act with
+// >= FRESH_MIN_SHOWS such dates billed first is "just announced" and ranks
+// ahead of the coverage order, biggest tour first. Same screens, same caps.
 //
 // Environment:
 //   TICKETMASTER_API_KEY  Required only for --candidates
@@ -115,6 +131,14 @@ const DEFAULT_HORIZONS = [0, 14, 30, 60, 90, 120, 180, 365];
 // Artist onboarding batches up to 20 promotions per PR (see the onboarding
 // skill), so that is the unit a cadence decision is actually made in.
 const BATCH_SIZE_FOR_CONTRIBUTION = 20;
+// Headline dates with a recent or upcoming public on-sale that mark an act as
+// just announced (same "a tour, not a one-off" bar as the new-tour detector).
+export const FRESH_MIN_SHOWS = 3;
+// Countries the announcement pass scans: where the site's search traffic is.
+// At most this many just-announced acts jump the demand names, so the
+// 20-name list still carries demand picks on a busy announcement day.
+export const FRESH_FIRST_MAX = 10;
+export const ANNOUNCE_COUNTRIES = Object.freeze(["US", "GB", "CA", "IE", "AU"]);
 
 // Ticketmaster requires an ISO country code on city-scoped queries. Keys are
 // the canonical labels normalizeCountry() emits; anything absent is skipped
@@ -612,8 +636,14 @@ export function scoreCandidates(events, candidates, baseNow, horizonDays) {
   // rather than the primary key on purpose: a stadium act that plays none of
   // the at-risk markets does less for the indexable surface than a mid-size
   // act that keeps four city pages alive.
+  //
+  // Just-announced acts go first, largest fresh run first: a new tour is when
+  // fans search, so it is worth more than coverage of a decaying page.
+  const fresh = (c) => ((c.freshCount || 0) >= FRESH_MIN_SHOWS ? 1 : 0);
   scored.sort(
     (a, b) =>
+      fresh(b) - fresh(a) ||
+      (fresh(a) && fresh(b) ? (b.freshCount || 0) - (a.freshCount || 0) : 0) ||
       b.coverageScore - a.coverageScore ||
       b.flipScore - a.flipScore ||
       (b.upcomingTotal || 0) - (a.upcomingTotal || 0) ||
@@ -699,9 +729,16 @@ export function readAttractionRecord(raw) {
     ticketmasterUrl: ticketmasterStorefrontUrl(raw?.url),
     upcomingTotal: Number(raw?.upcomingEvents?._total) || 0,
     genre: clean(primary?.genre?.name) || null,
-    segment: clean(primary?.segment?.name) || null
+    segment: clean(primary?.segment?.name) || null,
+    subType: clean(primary?.subType?.name) || null
   };
 }
+
+// Ticketmaster classifies tribute acts and club/party nights by subType. The
+// promotion screen (D2) already rejects tributes; dropping them here keeps them
+// from taking shortlist slots, which the just-announced pass otherwise fills
+// with them.
+export const NON_ARTIST_SUBTYPE = /tribute|party|gala/i;
 
 /** Flatten a Discovery event into the fields the projection and report need. */
 export function readDiscoveryEvent(raw) {
@@ -798,6 +835,109 @@ async function discoverCandidates({ markets, apiKey, pagesPerCity, delayMs, scan
   }
 
   return { byAttraction, failures, requests };
+}
+
+/**
+ * Move just-announced forecast rows to the front of an auto-promote names
+ * file, ahead of the SeatGeek demand names merged before them. Requests and
+ * watchlist acts are merged after this and still go first.
+ */
+export function freshFirst(rows, existingText) {
+  const key = (name) => String(name || "").toLowerCase().replace(/\s+/g, " ").trim();
+  const lines = (rows || [])
+    .filter((row) => (row.just_announced_shows || 0) >= FRESH_MIN_SHOWS)
+    .slice(0, FRESH_FIRST_MAX)
+    .map((row) => `${row.name}\t${row.ticketmaster_attraction_id || ""}`);
+  const seen = new Set(lines.map((line) => key(line.split("\t")[0])));
+  for (const line of String(existingText || "").split("\n")) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#")) continue;
+    const k = key(trimmed.split("\t")[0]);
+    if (seen.has(k)) continue;
+    seen.add(k);
+    lines.push(trimmed);
+  }
+  return lines.join("\n") + (lines.length ? "\n" : "");
+}
+
+/** Public on-sale start of a raw Discovery event, or NaN (TBA / placeholder). */
+export function publicOnsaleMs(raw) {
+  const ms = Date.parse(clean(raw?.sales?.public?.startDateTime) || "");
+  // Ticketmaster uses 1900-01-01 for "no public on-sale"; treat as unknown.
+  return Number.isFinite(ms) && ms > Date.UTC(2000, 0, 1) ? ms : NaN;
+}
+
+/**
+ * Fold one page of "just announced" Discovery events into byAttraction. Only
+ * future dates whose public on-sale is at or after `sinceMs` count, and a date
+ * is credited as fresh only to the act billed first on it.
+ */
+export function addAnnouncedEvents(byAttraction, rawEvents, { sinceMs, now }) {
+  let added = 0;
+  for (const raw of rawEvents) {
+    const onsale = publicOnsaleMs(raw);
+    if (!Number.isFinite(onsale) || onsale < sinceMs) continue;
+    const event = readDiscoveryEvent(raw);
+    const ts = Date.parse(event.datetime_iso);
+    if (!event.city || !event.country || !event.venue || !Number.isFinite(ts) || ts < now) continue;
+    event.public_onsale_iso = new Date(onsale).toISOString();
+    event.attractions.forEach((attraction, index) => {
+      if (!byAttraction.has(attraction.id)) {
+        byAttraction.set(attraction.id, {
+          attractionId: attraction.id,
+          name: attraction.name,
+          slug: slugify(attraction.name),
+          events: [],
+          eventKeys: new Set(),
+          markets: new Set(),
+          primaryCount: 0
+        });
+      }
+      const record = byAttraction.get(attraction.id);
+      const key = `${venueSlug(event.venue, event.city)}|${event.datetime_iso}`;
+      if (index === 0) {
+        record.freshKeys = record.freshKeys || new Set();
+        record.freshKeys.add(key);
+      }
+      if (record.eventKeys.has(key)) return;
+      record.eventKeys.add(key);
+      record.events.push(event);
+      record.markets.add(citySlug(event.city, event.country));
+      if (index === 0) record.primaryCount += 1;
+      added += 1;
+    });
+  }
+  return added;
+}
+
+async function discoverAnnouncements({ byAttraction, countries, apiKey, pages, delayMs, sinceMs, now }) {
+  const failures = [];
+  let requests = 0;
+  for (const countryCode of countries) {
+    for (let page = 0; page < pages; page += 1) {
+      const res = await discoveryGet(
+        {
+          countryCode,
+          segmentName: "Music",
+          size: DISCOVERY_PAGE_SIZE,
+          page,
+          sort: "onSaleStartDate,asc",
+          // Date-only filter; the exact instant is re-checked per event.
+          onsaleOnAfterStartDate: isoDate(sinceMs)
+        },
+        apiKey
+      );
+      requests += 1;
+      if (!res.ok) {
+        failures.push({ market: `announced-${countryCode}`, page, status: res.status, reason: res.error || `HTTP ${res.status}` });
+        break;
+      }
+      addAnnouncedEvents(byAttraction, res.events, { sinceMs, now });
+      if (!res.page || page + 1 >= (res.page.totalPages || 0)) break;
+      await sleep(delayMs);
+    }
+  }
+  return { failures, requests };
 }
 
 // ─── Rendering ──────────────────────────────────────────────────────────────
@@ -913,13 +1053,14 @@ export function renderReport(report) {
     if (candidates.rows.length === 0) {
       lines.push("_No candidates met the thresholds._", "");
     } else {
-      lines.push("| # | Artist | Genre | At-risk pages covered | Solo flips | Tracked markets | Headline rate | Upcoming (all TM) | Ticketmaster |");
-      lines.push("|---|---|---|---|---|---|---|---|---|");
+      lines.push(`Acts with >=${FRESH_MIN_SHOWS} just-announced headline dates (public on-sale recent or still to come) rank first.`, "");
+      lines.push("| # | Artist | Genre | Just announced | At-risk pages covered | Solo flips | Tracked markets | Headline rate | Upcoming (all TM) | Ticketmaster |");
+      lines.push("|---|---|---|---|---|---|---|---|---|---|");
       candidates.rows.forEach((row, i) => {
         const url = row.ticketmaster_artist_url ? `[artist page](${row.ticketmaster_artist_url})` : "—";
         const covered = [...row.coveredCities, ...row.coveredVenues].slice(0, 3).join(", ");
         lines.push(
-          `| ${i + 1} | ${row.name} | ${row.genre || "—"} | **${row.coverageScore}**${covered ? ` (${covered}${row.coverageScore > 3 ? ", …" : ""})` : ""} | ${row.flipScore} | ${row.marketCount} (${row.upcoming_shows_in_tracked_markets} shows) | ${Math.round((row.primaryRate ?? 0) * 100)}% | ${row.upcomingTotal} | ${url} |`
+          `| ${i + 1} | ${row.name} | ${row.genre || "—"} | ${row.just_announced_shows || "—"} | **${row.coverageScore}**${covered ? ` (${covered}${row.coverageScore > 3 ? ", …" : ""})` : ""} | ${row.flipScore} | ${row.marketCount} (${row.upcoming_shows_in_tracked_markets} shows) | ${Math.round((row.primaryRate ?? 0) * 100)}% | ${row.upcomingTotal} | ${url} |`
         );
       });
       lines.push("");
@@ -1332,6 +1473,69 @@ function runSelfTest() {
     }).includes("not currently shrinking")
   );
   assert("report states the floor caveat", md.includes("floor, not a prediction"));
+
+  // Just-announced pass: on-sale filter, headliner-only fresh credit, ranking.
+  const annNow = Date.parse("2026-11-06T00:00:00Z");
+  const sinceMs = annNow - 7 * DAY_MS;
+  const rawEvent = (id, name, date, onsale, support) => ({
+    dates: { start: { dateTime: `${date}T19:00:00Z` } },
+    sales: { public: { startDateTime: onsale } },
+    _embedded: {
+      venues: [{ name: `Arena ${date}`, city: { name: "London" }, country: { name: "Great Britain" } }],
+      attractions: [{ id, name }, ...(support ? [{ id: "sup", name: "Opener" }] : [])]
+    }
+  });
+  const announced = new Map();
+  addAnnouncedEvents(
+    announced,
+    [
+      rawEvent("big", "Big Act", "2027-06-01", "2026-11-07T10:00:00Z", true),
+      rawEvent("big", "Big Act", "2027-06-02", "2026-11-07T10:00:00Z", true),
+      rawEvent("big", "Big Act", "2027-06-03", "2026-11-03T10:00:00Z", true),
+      rawEvent("old", "Old Act", "2027-06-04", "2026-10-01T10:00:00Z"),
+      rawEvent("tba", "TBA Act", "2027-06-05", "1900-01-01T06:00:00Z"),
+      rawEvent("past", "Past Act", "2026-11-01", "2026-11-02T10:00:00Z")
+    ],
+    { sinceMs, now: annNow }
+  );
+  assert("announced pass credits each fresh headline date", announced.get("big")?.freshKeys?.size === 3);
+  assert("support acts get the date but no fresh credit", announced.get("sup")?.events.length === 3 && !announced.get("sup")?.freshKeys);
+  assert("on-sales before the window are ignored", !announced.has("old"));
+  assert("the 1900 'no on-sale' placeholder is ignored", !announced.has("tba"));
+  assert("past dates are ignored", !announced.has("past"));
+  assert(
+    "tribute and party-night attractions are recognised",
+    NON_ARTIST_SUBTYPE.test(readAttractionRecord({ classifications: [{ primary: true, subType: { name: "Tribute Band" } }] }).subType) &&
+      NON_ARTIST_SUBTYPE.test("Party/Gala") &&
+      !NON_ARTIST_SUBTYPE.test("Band")
+  );
+  assert(
+    "fresh-first puts just-announced acts ahead of demand names, once each",
+    freshFirst(
+      [
+        { name: "New Tour", ticketmaster_attraction_id: "K1", just_announced_shows: 5 },
+        { name: "Old Coverage", ticketmaster_attraction_id: "K2", just_announced_shows: 0 }
+      ],
+      "Demand Act\t\nNew Tour\tK1\nOld Coverage\tK2\n"
+    ) === "New Tour\tK1\nDemand Act\nOld Coverage\tK2\n"
+  );
+  assert("1900 placeholder reads as unknown", Number.isNaN(publicOnsaleMs({ sales: { public: { startDateTime: "1900-01-01T06:00:00Z" } } })));
+
+  const ranked = scoreCandidates(
+    [],
+    [
+      { name: "Coverage Act", slug: "coverage-act", events: [], marketCount: 9, upcomingTotal: 50, freshCount: 0 },
+      { name: "Small New", slug: "small-new", events: [], marketCount: 1, upcomingTotal: 9, freshCount: 3 },
+      { name: "Big New", slug: "big-new", events: [], marketCount: 1, upcomingTotal: 9, freshCount: 12 },
+      { name: "Two Dates", slug: "two-dates", events: [], marketCount: 1, upcomingTotal: 99, freshCount: 2 }
+    ],
+    annNow,
+    90
+  );
+  assert(
+    "just-announced acts rank first, biggest fresh run first",
+    ranked.map((r) => r.slug).join(",") === "big-new,small-new,two-dates,coverage-act"
+  );
 }
 
 // ─── Main ───────────────────────────────────────────────────────────────────
@@ -1343,6 +1547,19 @@ async function readJson(relPath) {
 async function main() {
   if (argv.includes("--self-test")) {
     runSelfTest();
+    return;
+  }
+  // --fresh-first <forecast.json> <names.txt>: reorder the names file in place.
+  const freshIndex = argv.indexOf("--fresh-first");
+  if (freshIndex !== -1) {
+    const [forecastPath, namesPath] = argv.slice(freshIndex + 1, freshIndex + 3);
+    const forecast = JSON.parse(await fs.readFile(path.resolve(ROOT, forecastPath), "utf8"));
+    const namesFile = path.resolve(ROOT, namesPath);
+    const existing = await fs.readFile(namesFile, "utf8").catch(() => "");
+    const next = freshFirst(forecast?.candidates?.rows || [], existing);
+    await fs.writeFile(namesFile, next);
+    const moved = Math.min(FRESH_FIRST_MAX, (forecast?.candidates?.rows || []).filter((r) => (r.just_announced_shows || 0) >= FRESH_MIN_SHOWS).length);
+    console.error(`Moved ${moved} just-announced act(s) ahead of the demand names.`);
     return;
   }
 
@@ -1357,6 +1574,8 @@ async function main() {
   const minUpcomingTotal = intArg("--min-upcoming-total", 8);
   const minPrimaryRate = floatArg("--min-primary-rate", DEFAULT_MIN_PRIMARY_RATE);
   const enrichLimit = intArg("--enrich-limit", 60);
+  const announceDays = intArg("--announce-days", 7);
+  const announcePages = intArg("--announce-pages", 10);
 
   const events = await readJson("public/data/events.json");
   const artists = await readJson("public/data/artists.json");
@@ -1388,18 +1607,34 @@ async function main() {
         `Scanning ${markets.length} tracked markets via Ticketmaster Discovery from ${isoDate(baseNow + horizonDays * DAY_MS)} forward…`
       );
       const scanFrom = baseNow + horizonDays * DAY_MS;
-      const { byAttraction, failures, requests } = await discoverCandidates({
+      const { byAttraction, failures, requests: marketRequests } = await discoverCandidates({
         markets,
         apiKey,
         pagesPerCity,
         delayMs,
         scanFrom
       });
+      let requests = marketRequests;
+      if (announceDays > 0) {
+        const announced = await discoverAnnouncements({
+          byAttraction,
+          countries: ANNOUNCE_COUNTRIES,
+          apiKey,
+          pages: announcePages,
+          delayMs,
+          sinceMs: baseNow - announceDays * DAY_MS,
+          now: baseNow
+        });
+        failures.push(...announced.failures);
+        requests += announced.requests;
+        console.error(`Just-announced pass: ${announced.requests} request(s) across ${ANNOUNCE_COUNTRIES.join("/")}.`);
+      }
 
       const eligible = [];
       let screenedOutAsSupport = 0;
       for (const record of byAttraction.values()) {
-        if (record.events.length < minShows) continue;
+        const freshCount = record.freshKeys?.size || 0;
+        if (record.events.length < minShows && freshCount < FRESH_MIN_SHOWS) continue;
         if (isExcludedCandidate(record.name, record.attractionId, exclusions)) continue;
         const primaryRate = primaryAttractionRate(record);
         if (primaryRate < minPrimaryRate) {
@@ -1413,7 +1648,8 @@ async function main() {
           events: record.events,
           marketCount: record.markets.size,
           primaryCount: record.primaryCount,
-          primaryRate
+          primaryRate,
+          freshCount
         });
       }
       if (screenedOutAsSupport) {
@@ -1426,8 +1662,14 @@ async function main() {
       // the signals already in hand and only look up the plausible head of the
       // list. Everything below the cut is dropped rather than reported without
       // its scale check.
+      const isFresh = (c) => (c.freshCount >= FRESH_MIN_SHOWS ? 1 : 0);
       eligible.sort(
-        (a, b) => b.marketCount - a.marketCount || b.events.length - a.events.length || a.name.localeCompare(b.name)
+        (a, b) =>
+          isFresh(b) - isFresh(a) ||
+          b.freshCount - a.freshCount ||
+          b.marketCount - a.marketCount ||
+          b.events.length - a.events.length ||
+          a.name.localeCompare(b.name)
       );
       const shortlist = eligible.slice(0, enrichLimit);
       console.error(`Checking touring scale for ${shortlist.length} of ${eligible.length} eligible attractions…`);
@@ -1437,6 +1679,7 @@ async function main() {
         const record = await attractionGet(candidate.attractionId, apiKey);
         const detail = record ? readAttractionRecord(record) : null;
         if (!detail || detail.upcomingTotal < minUpcomingTotal) continue;
+        if (detail.subType && NON_ARTIST_SUBTYPE.test(detail.subType)) continue;
         enriched.push({ ...candidate, ...detail });
         await sleep(delayMs);
       }
@@ -1478,6 +1721,7 @@ async function main() {
           primaryCount: r.primaryCount,
           upcoming_shows_in_tracked_markets: r.events.length,
           showsAfterHorizon: r.showsAfterHorizon,
+          just_announced_shows: r.freshCount || 0,
           marketCount: r.marketCount,
           coverageScore: r.coverageScore,
           coveredCities: r.coveredCities,

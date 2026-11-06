@@ -118,10 +118,10 @@ const subcopy = literal(serverBlock, "HOME_SUBCOPY");
 const primaryCtaLabel = literal(serverBlock, "HOME_PRIMARY_CTA_LABEL");
 const primaryCtaHref = literal(serverBlock, "HOME_PRIMARY_CTA_HREF");
 
-assert(headline === "Compare ticket prices for the show you want.", "the homepage headline is the agreed proposition");
+assert(headline === "Compare resale ticket prices for your show, site by site.", "the homepage headline is the agreed proposition");
 assert(
   subcopy ===
-    "Choose an artist and date, see each ticket site's listed price where available, then check the final total on the ticket site.",
+    "Pick an artist and date to see each ticket site's listed price where available and the time it was checked, then confirm the total on the ticket site.",
   "the homepage supporting copy is the agreed proposition"
 );
 // "Compare", not "Find" (owner review, 2026-10-06): the product is comparison,

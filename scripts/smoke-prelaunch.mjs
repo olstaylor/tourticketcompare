@@ -31,7 +31,7 @@ const EDGE_CACHEABLE_ROUTES = new Set([
   "/terms"
 ]);
 const expectedH1 = new Map([
-  ["/", "Compare ticket prices for the show you want."],
+  ["/", "Compare resale ticket prices for your show, site by site."],
   ["/artists", "Tracked artists"],
   ["/cities", "Concerts by city"],
   ["/on-sale", "Concert tickets going on sale"],
@@ -1619,7 +1619,7 @@ assert(
   "homepage search order must not depend on the order events-index.json happens to be in",
 );
 assert(!ttcHomeJs.includes("main.replaceChildren") && !ttcHomeJs.includes('getElementById("ttc-main").innerHTML'), "homepage enhancement must not replace the server-rendered visual DOM");
-assert(ttcHomeJs.includes("Compare ticket prices for the show you want."), "homepage should lead with the comparison intent");
+assert(ttcHomeJs.includes("Compare resale ticket prices for your show, site by site."), "homepage should lead with the comparison intent");
 assert(ttcHomeJs.includes("then check the final total on the ticket site."), "homepage should tell fans where the final total is confirmed");
 assert(!ttcHomeJs.includes("human-checked") && !ttcHomeJs.includes("reviewed by a human"), "homepage should not claim every automated verification is performed by a human");
 assert(!ttcHomeJs.includes("statsSection(DATA)"), "homepage should not render the stale statistics strip");

@@ -760,7 +760,7 @@ async function resolveRoute(pathname, env) {
       type: "onsale-calendar",
       path,
       indexable: calendar.indexable,
-      title: "Concert Tickets Going On Sale Soon | TourTicketCompare",
+      title: "Concert Tickets On Sale This Week and Soon | TourTicketCompare",
       description:
         "Upcoming public on-sale dates and times from Ticketmaster for tracked concert tours, plus dates that went on sale in the last week.",
       calendar,
@@ -6073,7 +6073,7 @@ export function renderOnsaleCalendarBody(route) {
     : "";
   return `<main id="mainContent"><section class="content-page" aria-labelledby="onsaleTitle">${renderBreadcrumbHtml(
     route
-  )}<h1 id="onsaleTitle">Concert tickets going on sale</h1><p class="lead">${escapeHtml(lead)}</p>${route.onsalePriceHtml || ""}${presaleHtml}<section aria-labelledby="onsaleUpcomingTitle"><h2 id="onsaleUpcomingTitle">Going on sale</h2><p>Before its on-sale time, a date's artist page shows the time and no Ticketmaster button. Resale sites can list tickets earlier, and those listings can sit above face value.</p>${upcomingHtml}</section>${recentHtml}${collapsedGroupHtml(
+  )}<h1 id="onsaleTitle">Concert tickets going on sale</h1><p class="lead">${escapeHtml(lead)}</p>${route.thisWeekHtml || ""}${route.onsalePriceHtml || ""}${presaleHtml}<section aria-labelledby="onsaleUpcomingTitle"><h2 id="onsaleUpcomingTitle">Going on sale</h2><p>Before its on-sale time, a date's artist page shows the time and no Ticketmaster button. Resale sites can list tickets earlier, and those listings can sit above face value.</p>${upcomingHtml}</section>${recentHtml}${collapsedGroupHtml(
     "About this calendar",
     `<section class="nested-panel"><h2>Where these times come from</h2><div class="card-grid"><article class="info-card"><h3>Ticketmaster's public on-sale</h3><p>Each time is the public on-sale Ticketmaster lists for that exact date, carried on the same reviewed event record the artist page uses. Nothing is estimated.</p></article><article class="info-card"><h3>Presales from Ticketmaster</h3><p>Fan-club, card and venue presales are listed where Ticketmaster's record for a date names them, with their start and end times. Codes are never shown: they come from the artist, the card issuer or the venue.</p></article><article class="info-card"><h3>Times can change</h3><p>Promoters move on-sales. Confirm the time on Ticketmaster before the sale, and be signed in and ready a few minutes early.</p></article></div><div class="mini-link-grid">${anchor(
       "How to prepare for a ticket on-sale",
@@ -9290,15 +9290,24 @@ async function renderRequest(context) {
   }
   // Links to artists with an on-sale or presale in the next 7 days (home:
   // presales only, since the "Going on sale soon" strip already lists on-sales).
-  if (events.length && (route.path === "/" || THIS_WEEK_GUIDE_PATHS.has(route.path))) {
+  if (events.length && (route.path === "/" || route.path === ONSALE_CALENDAR_PATH || THIS_WEEK_GUIDE_PATHS.has(route.path))) {
     const meta = await loadArtistsMeta(env);
     const linkable = new Set(
       meta
         .filter((artist) => artist && !artist.demoted && artistPageIndexable(artist, events, slugify(artist.slug)))
         .map((artist) => slugify(artist.slug))
     );
+    const nowMs = Date.now();
+    const onCalendar = route.path === ONSALE_CALENDAR_PATH;
     const thisWeekHtml = renderThisWeekHtml(
-      deriveThisWeek(events, linkable, Date.now(), route.path === "/" ? { kinds: ["presale"] } : {})
+      deriveThisWeek(
+        events,
+        linkable,
+        nowMs,
+        route.path === "/" ? { kinds: ["presale"] } : onCalendar ? { maxItems: 12 } : {}
+      ),
+      "thisWeekOnsaleTitle",
+      onCalendar ? { checkedAt: nowMs, onCalendar: true } : {}
     );
     if (thisWeekHtml) renderRoute = { ...renderRoute, thisWeekHtml };
   }

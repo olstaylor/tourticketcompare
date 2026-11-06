@@ -52,7 +52,7 @@ const expectedTitle = new Map([
   ["/", "Compare Concert Ticket Prices | TourTicketCompare"],
   ["/artists", "Artists | TourTicketCompare"],
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
-  ["/on-sale", "Concert Tickets Going On Sale Soon | TourTicketCompare"],
+  ["/on-sale", "Concert Tickets On Sale This Week and Soon | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
   ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Which Is Better?"],
   ["/blog", "Ticket Research Blog | TourTicketCompare"],

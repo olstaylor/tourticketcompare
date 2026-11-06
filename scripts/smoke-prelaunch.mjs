@@ -4405,11 +4405,13 @@ console.log("artist-city landing-page verification passed");
   const rssXml = await rss.text();
   assert(rss.status === 200, "/blog/rss.xml should return 200");
   assert(rss.headers.get("Content-Type")?.includes("application/rss+xml"), "the feed should be served as RSS");
+  // The feed lists the newest 50 indexable posts (MAX_ITEMS in functions/blog/rss.xml.js).
+  const feedPaths = new Set(allPosts.filter((post) => blogModule.postIndexable(post)).slice(0, 50).map((post) => post.path));
   for (const post of allPosts) {
     const present = rssXml.includes(`<link>https://tourticketcompare.com${post.path}</link>`);
     assert(
-      present === blogModule.postIndexable(post),
-      `the feed should carry ${post.path} only when the site would index it`
+      present === feedPaths.has(post.path),
+      `the feed should carry ${post.path} only when the site would index it and it is among the newest 50`
     );
   }
   for (const slug of draftSlugs) {

@@ -3128,7 +3128,14 @@ code {
 @media (max-width: 640px) {
   .artist-page, .event-page { padding: 18px; gap: 22px; }
   .show-card .provider-cta-group { grid-template-columns: minmax(0, 1fr); }
-  .show-card .provider-cta { min-height: 62px; }
+  /* Compact rows (site structure review, 2026-11-06): name and price on one
+     44px line, and the generic "Resale marketplace" subtitle hidden. The
+     subtitles that change what a button means stay: Ticketmaster's primary
+     seller note, SeatGeek's ticket-type note and any "not this date". Cuts
+     a 6-site date card from ~700px to ~600px on a phone. */
+  .show-card .provider-cta { min-height: 44px; padding: 8px 12px; gap: 0 12px; align-items: center; }
+  .show-card .provider-cta:not(.provider-cta-primary):not(.provider-cta-general):not([data-cta-provider="seatgeek"]) .provider-cta-role { display: none; }
+  .show-card .provider-cta-group { gap: 6px; }
   .show-card .show-card-actions { gap: 8px 14px; }
   .event-page .show-card { padding: 12px; }
   .show-filter-bar input, .show-filter-bar select, .show-filter-bar button { min-height: 44px; }

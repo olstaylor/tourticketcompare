@@ -2189,7 +2189,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-milwaukee-wisconsin-06-25-2027/event/0700655EE80C1262",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2244,18 +2244,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353155/Death-Cab-for-Cutie-tickets-Fri-Jun-25-2027-BMO-Pavilion",
     "organizer_names": [
       "SUMMERFEST PRODUCTIONS"
-    ],
-    "presales": [
-      {
-        "name": "ARTIST PRESALE",
-        "start": "2026-11-04T16:00:00Z",
-        "end": "2026-11-06T04:00:00Z"
-      },
-      {
-        "name": "VENUE PRESALE",
-        "start": "2026-11-05T16:00:00Z",
-        "end": "2026-11-06T04:00:00Z"
-      }
     ]
   },
   {

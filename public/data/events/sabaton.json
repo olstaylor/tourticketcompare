@@ -243,7 +243,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-hollywood-california-11-12-2026/event/09006455C0F6592F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -303,13 +303,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410008",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410008/Sabaton-tickets-Thu-Nov-12-2026-Hollywood-Palladium",
     "stubhub_international_url": "https://www.stubhub.ie/sabaton-hollywood-tickets-11-12-2026/event/107455670",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-05T16:00:00Z",
-        "end": "2026-11-06T06:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -330,7 +323,7 @@
     "vividseats_url": "https://www.vividseats.com/sabaton-tickets-pittsburgh-citizens-live-at-the-wylie-12-3-2026--concerts-hard-rock/production/6789538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-pittsburgh-pennsylvania-12-03-2026/event/1600646C889A529C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -383,11 +376,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808973",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808973/Sabaton-tickets-Thu-Dec-3-2026-Citizens-Live-at-The-Wylie",
     "presales": [
-      {
-        "name": "Verizon Access Select Seats",
-        "start": "2026-03-20T14:00:00Z",
-        "end": "2026-11-06T03:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-03-20T14:00:00Z",

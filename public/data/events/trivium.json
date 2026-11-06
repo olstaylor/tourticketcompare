@@ -1487,7 +1487,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-san-francisco-california-12-05-2026/event/1C0064F09CBAA0EB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1540,11 +1540,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151262",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151262/Trivium-tickets-Sat-Dec-5-2026-The-Masonic-San-Francisco",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-07-24T17:00:00Z",
-        "end": "2026-11-06T06:00:00Z"
-      },
       {
         "name": "In Flames VIP Packages Onsale",
         "start": "2026-07-24T17:00:00Z",

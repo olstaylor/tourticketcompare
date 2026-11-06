@@ -153,7 +153,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-elizabeth-ritz-theatre---nj-11-28-2026/production/7063215",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-tapy-quintero-elizabeth-new-jersey-11-28-2026/event/000064AC0DD26DD0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,7 +204,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8109393",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8109393/Los-Tucanes-De-Tijuana-tickets-Sat-Nov-28-2026-Ritz-Theatre-NJ"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8109393/Los-Tucanes-De-Tijuana-tickets-Sat-Nov-28-2026-Ritz-Theatre-NJ",
+    "presales": [
+      {
+        "name": "Veterans Day Special",
+        "start": "2026-11-03T15:00:00Z",
+        "end": "2026-11-16T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-austin-z7r9jz1aazgav",
@@ -397,7 +404,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-glendale-desert-diamond-arena-2-12-2027/production/7349666",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-glendale-arizona-02-12-2027/event/190064F8CD45786E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448,7 +455,14 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165995",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8165995/Los-Tucanes-De-Tijuana-tickets-Fri-Feb-12-2027-Desert-Diamond-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8165995/Los-Tucanes-De-Tijuana-tickets-Fri-Feb-12-2027-Desert-Diamond-Arena",
+    "presales": [
+      {
+        "name": "Black Friday",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-08T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2027-inglewood-vvg10z_udzwaf3",

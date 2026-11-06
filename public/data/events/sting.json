@@ -329,7 +329,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-wallingford-toyota-oakdale-theatre-11-9-2026--concerts-adult-contemporary/production/6727894",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-wallingford-connecticut-11-09-2026/event/1D0064599CCEDDD8",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -383,13 +383,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772524/Sting-tickets-Mon-Nov-9-2026-Toyota-Oakdale-Theatre",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-06T15:00:00Z",
-        "end": "2026-11-05T17:00:00Z"
-      }
     ]
   },
   {

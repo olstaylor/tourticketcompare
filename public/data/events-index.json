@@ -51473,7 +51473,7 @@
     "datetime_iso": "2027-03-07T04:00:00Z",
     "timezone": "Pacific/Auckland",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-illenium-2026-las-vegas-z7r9jz1aaz7qs",
@@ -53057,7 +53057,7 @@
     "datetime_iso": "2027-03-05T06:00:00Z",
     "timezone": "Pacific/Auckland",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-dropkick-murphys-2027-albuquerque-z7r9jz1aae80p",
@@ -55097,7 +55097,7 @@
     "datetime_iso": "2027-04-26T17:30:00Z",
     "timezone": "Europe/Stockholm",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-u2-2027-stockholm-z698xzq2z16v_p7i1a",
@@ -55109,7 +55109,7 @@
     "datetime_iso": "2027-04-28T17:30:00Z",
     "timezone": "Europe/Stockholm",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz16v0jupoj",
@@ -55121,7 +55121,7 @@
     "datetime_iso": "2027-06-05T17:30:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz16v7bpzfv",
@@ -55133,7 +55133,7 @@
     "datetime_iso": "2027-06-06T17:30:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-cardiff-1adfz_4gklat6o4",
@@ -57677,7 +57677,7 @@
     "datetime_iso": "2027-06-18T18:00:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-dublin-1avoz_fgktpkxi7",
@@ -58805,7 +58805,7 @@
     "datetime_iso": "2027-06-18T16:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-u2-2027-london-1adfz_4gkszafjm",
@@ -58817,7 +58817,7 @@
     "datetime_iso": "2027-06-19T16:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-rod-stewart-2027-london-1agzkfzgkdu5qoy",
@@ -58829,7 +58829,7 @@
     "datetime_iso": "2027-05-15T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1adbz_4gkmvnhoa",
@@ -58841,7 +58841,7 @@
     "datetime_iso": "2027-05-18T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-role-model-2027-manchester-g5vhz_u1kkyot",
@@ -58853,7 +58853,7 @@
     "datetime_iso": "2027-02-28T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-valencia-z698xz2qz16vfzvzrf",
@@ -58865,7 +58865,7 @@
     "datetime_iso": "2027-06-21T18:30:00Z",
     "timezone": "Europe/Madrid",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-pordenone-zg9rmiynyzfa6e",
@@ -58877,7 +58877,7 @@
     "datetime_iso": "2027-06-27T19:00:00Z",
     "timezone": "Europe/Rome",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-shania-twain-2027-scarborough-1agzkfugkdob_wu",
@@ -58889,7 +58889,7 @@
     "datetime_iso": "2027-06-16T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-shania-twain-2027-glasgow-1adbz_fgkuptsoi",
@@ -58901,7 +58901,7 @@
     "datetime_iso": "2027-06-17T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-shania-twain-2027-cardiff-g5vhz_kljqj-d",
@@ -58913,7 +58913,7 @@
     "datetime_iso": "2027-06-22T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-shania-twain-2027-exeter-g5vhz_kjtg0ag",
@@ -58925,7 +58925,7 @@
     "datetime_iso": "2027-06-24T13:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-shania-twain-2027-dublin-1abzk4pgkenqubp",
@@ -58937,7 +58937,7 @@
     "datetime_iso": "2027-06-26T15:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-shania-twain-2027-belfast-1adoz_4gksdrodo",
@@ -58949,7 +58949,7 @@
     "datetime_iso": "2027-06-27T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-shania-twain-2027-woodstock-1amzk4agkdk2pnt",
@@ -58961,7 +58961,7 @@
     "datetime_iso": "2027-06-29T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-dom-dolla-2026-las-vegas-z7r9jz1a7p3c3",
@@ -60221,7 +60221,7 @@
     "datetime_iso": "2027-02-13T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-fort-worth-vvg1yz_4bmn9we",
@@ -60233,7 +60233,7 @@
     "datetime_iso": "2027-02-14T02:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-rosemont-vv1a7zk4kgkdecl8m",
@@ -60245,7 +60245,7 @@
     "datetime_iso": "2027-03-21T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-miami-vvg1vz_fxmchil",
@@ -60257,7 +60257,7 @@
     "datetime_iso": "2027-03-27T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-atlantic-city-vv17fz_4gkmu5cz_",
@@ -60269,7 +60269,7 @@
     "datetime_iso": "2027-04-17T00:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-duluth-vvg1zz_fq51ps_",
@@ -60281,7 +60281,7 @@
     "datetime_iso": "2027-04-24T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-charlotte-g5evz_fqspq1u",
@@ -60293,7 +60293,7 @@
     "datetime_iso": "2027-04-25T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-seattle-vvg1hz_4zy3kxo",
@@ -60305,7 +60305,7 @@
     "datetime_iso": "2027-05-22T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-portland-vvg1hz_flv5i1r",
@@ -60377,7 +60377,7 @@
     "datetime_iso": "2026-12-04T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-interrupters-2027-london-g5vhz_4d3nbns",
@@ -60389,7 +60389,7 @@
     "datetime_iso": "2027-06-01T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-interrupters-2027-k-benhavn-v-z698xzc4z1k8bb3pe",
@@ -60401,7 +60401,7 @@
     "datetime_iso": "2027-06-21T18:00:00Z",
     "timezone": "Europe/Copenhagen",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-jake-bugg-2027-ayr-1auzk4xgkerybal",
@@ -60413,7 +60413,7 @@
     "datetime_iso": "2027-02-12T19:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-jake-bugg-2027-stirling-1auzk4xgkd61qqs",
@@ -60425,7 +60425,7 @@
     "datetime_iso": "2027-02-13T19:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-gary-allan-2026-catoosa-z7r9jz1aaza0p",
@@ -60665,7 +60665,7 @@
     "datetime_iso": "2027-01-18T19:00:00Z",
     "timezone": "Europe/Brussels",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-meshuggah-2027-toronto-1a8zk4fgkepjpte",
@@ -61289,7 +61289,7 @@
     "datetime_iso": "2027-04-02T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-los-angeles-z7r9jz1aa7mao",
@@ -61313,7 +61313,7 @@
     "datetime_iso": "2027-04-18T00:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-u2-2027-london-1adfz_4gkb4kzby",
@@ -61325,7 +61325,7 @@
     "datetime_iso": "2027-06-22T16:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-koe-wetzel-2027-rohnert-park-z7r9jz1aa7zjf",
@@ -61481,7 +61481,7 @@
     "datetime_iso": "2027-06-09T17:30:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mercyme-2027-salisbury-z7r9jz1aa7_aj",
@@ -62177,7 +62177,7 @@
     "datetime_iso": "2027-06-25T16:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-bon-jovi-2027-toronto-1avzz_4gki76ms5",

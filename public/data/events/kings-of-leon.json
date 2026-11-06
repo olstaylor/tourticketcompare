@@ -183,7 +183,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-hamburg-barclays-arena---hamburg-6-18-2027/production/7807082",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/kings-of-leon-2027-tickets/728525017?language=en-us",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-06",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -225,22 +225,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kjIfPZ9",
     "timezone": "Europe/Berlin",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation GmbH"
-    ],
-    "presales": [
-      {
-        "name": "Album Presale",
-        "start": "2026-11-04T10:00:00Z",
-        "end": "2026-11-06T10:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-05T10:00:00Z",
-        "end": "2026-11-06T10:00:00Z"
-      }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-hamburg-barclays-arena-hamburg-18-6-2027/event/107679573"
   },

@@ -5315,8 +5315,6 @@ function enrichEventAsShow(ev) {
     dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
     organizer_names: organizerNames(ev.organizer_names, [ev.artist_name, ev.venue]),
     end_datetime_iso: eventEndDate(ev),
-    ticket_limit: validTicketLimit(ev.ticket_limit),
-    legal_age_enforced: ev.legal_age_enforced === true,
     previous_start_date: eventPreviousStartDate(ev),
     previous_start_timezone: String(ev.previous_start_timezone || "").trim(),
     // Required to render dateTimeISO at the venue rather than in UTC — see
@@ -5330,6 +5328,10 @@ function enrichEventAsShow(ev) {
     public_onsale_at: String(ev.public_onsale_at || "").trim(),
     [TICKETMASTER_STATUS_FIELD]: String(ev[TICKETMASTER_STATUS_FIELD] || "").trim(),
     lifecycle: eventLifecycle(ev),
+    // Buying facts only when present, so pages that embed show records are
+    // unchanged for dates without them.
+    ...(validTicketLimit(ev.ticket_limit) ? { ticket_limit: validTicketLimit(ev.ticket_limit) } : {}),
+    ...(ev.legal_age_enforced === true ? { legal_age_enforced: true } : {}),
     seatgeek_url: String(ev.seatgeek_url || "").trim(),
     vividseats_url: String(ev.vividseats_url || "").trim(),
     ticketnetwork_url: String(ev.ticketnetwork_url || "").trim(),

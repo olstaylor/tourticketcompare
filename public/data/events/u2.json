@@ -840,7 +840,7 @@
     "ticketmaster_event_id": "3500655E954F8639",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-22-06-2027/event/3500655E954F8639",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-22-2027--concerts-rock/production/7810409",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-22-06-2027/event/3500655E954F8639",
     "last_verified_at": "2026-11-05",
@@ -862,11 +862,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7810409,
+        "url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-22-2027--concerts-rock/production/7810409",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

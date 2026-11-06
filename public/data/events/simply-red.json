@@ -268,7 +268,7 @@
     "ticketmaster_event_id": "1684589224",
     "ticketmaster_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1684589224?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-fulda-domplatz-fulda-6-30-2027/production/7590767",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1684589224?language=en-us",
     "last_verified_at": "2026-11-01",
@@ -290,11 +290,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7590767,
-        "url": "https://www.vividseats.com/simply-red-tickets-fulda-domplatz-fulda-6-30-2027/production/7590767",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -357,7 +357,7 @@
         "event_id": 7590805,
         "url": "https://www.vividseats.com/simply-red-tickets-aurich-mehrzweckgelande-tannenhausen-7-2-2027/production/7590805",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -421,7 +421,7 @@
         "event_id": 7590791,
         "url": "https://www.vividseats.com/simply-red-tickets-hemer-sauerlandpark-hemer-7-3-2027/production/7590791",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -589,7 +589,7 @@
         "event_id": 7590783,
         "url": "https://www.vividseats.com/simply-red-tickets-chester-chester-racecourse-8-7-2027/production/7590783",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -642,7 +642,7 @@
         "event_id": 7590761,
         "url": "https://www.vividseats.com/simply-red-tickets-halifax-piece-hall-8-9-2027/production/7590761",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -698,7 +698,7 @@
         "event_id": 7590847,
         "url": "https://www.vividseats.com/simply-red-tickets-halifax-piece-hall-8-10-2027/production/7590847",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -810,7 +810,7 @@
         "event_id": 7590795,
         "url": "https://www.vividseats.com/simply-red-tickets-london-gunnersbury-park-8-13-2027/production/7590795",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -874,7 +874,7 @@
         "event_id": 7594224,
         "url": "https://www.vividseats.com/simply-red-tickets-margate-scenic-stage-at-dreamland-margate-8-14-2027/production/7594224",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -938,7 +938,7 @@
         "event_id": 7590785,
         "url": "https://www.vividseats.com/simply-red-tickets-scarborough-scarborough-open-air-theatre-8-17-2027/production/7590785",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1003,7 +1003,7 @@
         "event_id": 7590789,
         "url": "https://www.vividseats.com/simply-red-tickets-colchester-colchester-castle-park-8-18-2027/production/7590789",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1075,7 +1075,7 @@
         "event_id": 7590849,
         "url": "https://www.vividseats.com/simply-red-tickets-swansea-singleton-park-8-20-2027/production/7590849",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {

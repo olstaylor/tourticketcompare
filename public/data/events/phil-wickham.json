@@ -143,7 +143,7 @@
         "event_id": 7745000,
         "url": "https://www.vividseats.com/phil-wickham-tickets-san-diego-maranatha-chapel-san-diego-12-3-2026--concerts-adult-contemporary/production/7745000",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -187,7 +187,7 @@
     "ticketmaster_event_id": "14344884",
     "ticketmaster_url": "https://www.ticketweb.com/event/sold-out-southern-california-christmas-maranatha-chapel-tickets/14344884",
     "seatgeek_url": "https://seatgeek.com/phil-wickham-tickets/san-diego-california-maranatha-chapel-2026-12-04-7-pm/concert/18694096",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/phil-wickham-tickets-san-diego-maranatha-chapel-san-diego-12-4-2026/production/7816330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/sold-out-southern-california-christmas-maranatha-chapel-tickets/14344884",
     "last_verified_at": null,
@@ -209,11 +209,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7816330,
+        "url": "https://www.vividseats.com/phil-wickham-tickets-san-diego-maranatha-chapel-san-diego-12-4-2026/production/7816330",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

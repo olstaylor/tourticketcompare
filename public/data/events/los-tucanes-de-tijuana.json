@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "150064AEB5EF809A",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-fairfax-virginia-11-27-2026/event/150064AEB5EF809A",
     "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/fairfax-virginia-eaglebank-arena-2026-11-27-8-pm/concert/18251692",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-fairfax-eaglebank-arena-11-27-2026/production/7048655",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-fairfax-virginia-11-27-2026/event/150064AEB5EF809A",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7048655,
+        "url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-fairfax-eaglebank-arena-11-27-2026/production/7048655",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "000064AC0DD26DD0",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-tapy-quintero-elizabeth-new-jersey-11-28-2026/event/000064AC0DD26DD0",
     "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/elizabeth-new-jersey-ritz-theatre-performing-arts-center-2026-11-28-8-pm/concert/18252126",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-elizabeth-ritz-theatre---nj-11-28-2026/production/7063215",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-tapy-quintero-elizabeth-new-jersey-11-28-2026/event/000064AC0DD26DD0",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7063215,
+        "url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-elizabeth-ritz-theatre---nj-11-28-2026/production/7063215",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZgaV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgaV",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-austin-austin-city-limits-live-at-the-moody-theater-12-3-2026/production/7447111",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgaV",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7447111,
+        "url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-austin-austin-city-limits-live-at-the-moody-theater-12-3-2026/production/7447111",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZ9fb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ9fb",
     "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-04-8-pm/concert/18398232",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-12-4-2026/production/7348008",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ9fb",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7348008,
+        "url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-12-4-2026/production/7348008",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "190064F8CD45786E",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-glendale-arizona-02-12-2027/event/190064F8CD45786E",
     "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/glendale-arizona-desert-diamond-arena-2027-02-12-8-pm/concert/18405269",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-glendale-desert-diamond-arena-2-12-2027/production/7349666",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-glendale-arizona-02-12-2027/event/190064F8CD45786E",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7349666,
+        "url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-glendale-desert-diamond-arena-2-12-2027/production/7349666",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "090064DEC0F49512",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-inglewood-california-02-13-2027/event/090064DEC0F49512",
     "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/inglewood-california-intuit-dome-2027-02-13-8-pm/concert/18354983",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-inglewood-intuit-dome-2-13-2027/production/7254774",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-inglewood-california-02-13-2027/event/090064DEC0F49512",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7254774,
+        "url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-inglewood-intuit-dome-2-13-2027/production/7254774",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "04006508DA59570E",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-rosemont-illinois-02-20-2027/event/04006508DA59570E",
     "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/rosemont-illinois-rosemont-theatre-2027-02-20-8-pm/concert/18472484",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-rosemont-rosemont-theatre-2-20-2027--concerts-latin-music/production/7412457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-rosemont-illinois-02-20-2027/event/04006508DA59570E",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7412457,
+        "url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-rosemont-rosemont-theatre-2-20-2027--concerts-latin-music/production/7412457",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -171,7 +171,7 @@
     "id": "tm-kings-of-leon-2027-hamburg-z698xzc2z1kjifpz9",
     "artist_slug": "kings-of-leon",
     "artist_name": "Kings Of Leon",
-    "event_name": "Kings Of Leon 2027",
+    "event_name": "Kings Of Leon - World Tour",
     "city": "Hamburg",
     "country": "Germany",
     "venue": "Barclays Arena",
@@ -180,10 +180,10 @@
     "ticketmaster_event_id": "728525017",
     "ticketmaster_url": "https://www.ticketmaster.de/event/kings-of-leon-2027-tickets/728525017?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-hamburg-barclays-arena---hamburg-6-18-2027/production/7807082",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/kings-of-leon-2027-tickets/728525017?language=en-us",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-04",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -202,11 +202,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807082,
+        "url": "https://www.vividseats.com/kings-of-leon-tickets-hamburg-barclays-arena---hamburg-6-18-2027/production/7807082",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -214,6 +214,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679573",
+        "url": "https://www.stubhub.ie/kings-of-leon-tickets-hamburg-barclays-arena-hamburg-18-6-2027/event/107679573",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kjIfPZ9",
@@ -234,7 +241,8 @@
         "start": "2026-11-05T10:00:00Z",
         "end": "2026-11-06T10:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-hamburg-barclays-arena-hamburg-18-6-2027/event/107679573"
   },
   {
     "id": "tm-kings-of-leon-2027-dublin-1avoz_fgktpkxi7",
@@ -331,7 +339,7 @@
         "event_id": 7755406,
         "url": "https://www.vividseats.com/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-6-27-2027/production/7755406",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -395,7 +403,7 @@
         "event_id": 7654318,
         "url": "https://www.vividseats.com/kings-of-leon-tickets-london-the-o2---london-7-2-2027/production/7654318",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -459,7 +467,7 @@
         "event_id": 7657333,
         "url": "https://www.vividseats.com/kings-of-leon-tickets-london-the-o2---london-7-3-2027/production/7657333",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -149,7 +149,7 @@
         "event_id": 7631977,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-boston-agganis-arena-11-6-2026/production/7631977",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -229,7 +229,7 @@
         "event_id": 7619492,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-boston-agganis-arena-11-7-2026/production/7619492",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -408,14 +408,14 @@
         "event_id": 18629264,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/toronto-canada-scotiabank-arena-2026-11-28-8-pm/concert/18629264",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620477,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-toronto-scotiabank-arena-11-28-2026/production/7620477",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -474,14 +474,14 @@
         "event_id": 18662770,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/orlando-florida-central-florida-fairgrounds-2026-12-05-8-pm/concert/18662770",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623178,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-orlando-orlando-amphitheater-at-central-florida-fairgrounds-12-5-2026/production/7623178",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -543,14 +543,14 @@
         "event_id": 18631720,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-12-12-8-pm/concert/18631720",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619726,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-minneapolis-armory---minneapolis-12-12-2026/production/7619726",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -615,14 +615,14 @@
         "event_id": 18639406,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/hartford-connecticut-peoplesbank-arena-2026-12-19-8-pm/concert/18639406",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620829,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-hartford-peoplesbank-arena-12-19-2026/production/7620829",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -652,5 +652,59 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293968/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-19-2026-PeoplesBank-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293968"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2026-new-york-k7vgf_p5e9_go",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "Power 105.1 Power Sessions",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Manhattan Center Hammerstein Ballroom",
+    "datetime_iso": "2026-12-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006562C25D9320",
+    "ticketmaster_url": "https://www.ticketmaster.com/power-1051-power-sessions-new-york-new-york-12-13-2026/event/00006562C25D9320",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/power-1051-power-sessions-new-york-new-york-12-13-2026/event/00006562C25D9320",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006562C25D9320",
+        "discovery_event_id": "k7vGF_p5e9_GO",
+        "url": "https://www.ticketmaster.com/power-1051-power-sessions-new-york-new-york-12-13-2026/event/00006562C25D9320",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_p5e9_GO",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-06T15:00:00Z"
   }
 ]

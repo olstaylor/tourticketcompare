@@ -187,7 +187,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "090064B43E17B4D1",
     "ticketmaster_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tom-jones-tickets/los-angeles-california-the-greek-theatre-los-angeles-2026-11-04-8-pm/concert/18266701",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
@@ -224,11 +224,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7997398",
-        "url": "https://www.ticketliquidator.com/tickets/7997398/Tom-Jones-tickets-Wed-Nov-4-2026-Greek-Theatre-Los-Angeles-CA",
-        "verified": true,
-        "last_verified_at": "2026-10-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -238,22 +238,22 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7997398",
-        "url": "https://www.ticketnetwork.com/en/p/7997398",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_58XADKo",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997398/Tom-Jones-tickets-Wed-Nov-4-2026-Greek-Theatre-Los-Angeles-CA",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997398",
+    "ticketnetwork_url": "",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-10-27T03:00:00Z",
     "previous_start_timezone": "America/Los_Angeles"
@@ -307,11 +307,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7997399",
-        "url": "https://www.ticketliquidator.com/tickets/7997399/Tom-Jones-tickets-Tue-Nov-3-2026-The-Rady-Shell-at-Jacobs-Park",
-        "verified": true,
-        "last_verified_at": "2026-10-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -321,22 +321,22 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7997399",
-        "url": "https://www.ticketnetwork.com/en/p/7997399",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_5GQCfyd",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997399/Tom-Jones-tickets-Tue-Nov-3-2026-The-Rady-Shell-at-Jacobs-Park",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997399",
+    "ticketnetwork_url": "",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-10-28T03:00:00Z",
     "previous_start_timezone": "America/Los_Angeles"

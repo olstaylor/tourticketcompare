@@ -604,7 +604,7 @@
         "event_id": 7415962,
         "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-12-11-2026/production/7415962",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -684,7 +684,7 @@
         "event_id": 7415944,
         "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-12-12-2026/production/7415944",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -757,14 +757,14 @@
         "event_id": 18409857,
         "url": "https://seatgeek.com/earth-wind-fire-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-31-8-pm/concert/18409857",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7375754,
         "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-12-31-2026/production/7375754",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -826,7 +826,7 @@
         "event_id": 18689366,
         "url": "https://seatgeek.com/earth-wind-fire-tickets/west-palm-beach-florida-kravis-center-dreyfoos-hall-2027-03-06-7-pm/concert/18689366",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -894,7 +894,7 @@
         "event_id": 7653292,
         "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-brandon-brandon-amphitheater-4-17-2027/production/7653292",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -981,7 +981,7 @@
         "event_id": 7653362,
         "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-southaven-bankplus-amphitheater-at-snowden-grove-4-20-2027/production/7653362",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1052,7 +1052,7 @@
         "event_id": 7653342,
         "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-huntsville-orion-amphitheater-4-21-2027/production/7653342",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1121,7 +1121,7 @@
         "event_id": 7653609,
         "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-4-23-2027/production/7653609",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1279,7 +1279,7 @@
         "event_id": 7653384,
         "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-columbia-township-auditorium-4-27-2027/production/7653384",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1450,7 +1450,7 @@
         "event_id": 7653448,
         "url": "https://www.vividseats.com/earth-wind-and-fire-tickets-charlotte-skyla-credit-union-amphitheatre-4-30-2027/production/7653448",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1628,5 +1628,74 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-saint-augustine-tickets-4-14-2027/event/107672614"
+  },
+  {
+    "id": "tm-earth-wind-fire-2027-pompano-beach-z7r9jz1aaazue",
+    "artist_slug": "earth-wind-fire",
+    "artist_name": "Earth, Wind & Fire",
+    "event_name": "Earth Wind & Fire",
+    "city": "Pompano Beach",
+    "country": "United States Of America",
+    "venue": "Pompano Beach Amphitheatre",
+    "datetime_iso": "2027-04-13T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAZuE",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZuE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZuE",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAZuE",
+        "discovery_event_id": "Z7r9jZ1AAAZuE",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZuE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8355694",
+        "url": "https://www.ticketnetwork.com/en/p/8355694",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8355694",
+        "url": "https://www.ticketliquidator.com/tickets/8355694/Earth-Wind-and-Fire-tickets-Tue-Apr-13-2027-Pompano-Beach-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZuE",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8355694",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8355694/Earth-Wind-and-Fire-tickets-Tue-Apr-13-2027-Pompano-Beach-Amphitheatre"
   }
 ]

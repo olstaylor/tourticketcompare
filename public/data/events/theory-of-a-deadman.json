@@ -309,14 +309,14 @@
         "event_id": 18570534,
         "url": "https://seatgeek.com/theory-of-a-deadman-tickets/halifax-canada-light-house-arts-centre-2027-03-05-8-pm/concert/18570534",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7534936,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-halifax-light-house-arts-centre-3-5-2027/production/7534936",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -385,7 +385,7 @@
         "event_id": 7532261,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-moncton-molson-canadian-centre-at-casino-new-brunswick-3-6-2027/production/7532261",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -465,7 +465,7 @@
         "event_id": 7532222,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-quebec-city-capitole-theatre-3-8-2027/production/7532222",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -534,7 +534,7 @@
         "event_id": 7532210,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-montreal-mtelus-3-9-2027/production/7532210",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -581,7 +581,7 @@
     "ticketmaster_event_id": "31006523BBD99024",
     "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-ottawa-ontario-03-11-2027/event/31006523BBD99024",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-gloucester-hard-rock-hotel-and-casino-ottawa-3-11-2027/production/7532230",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-ottawa-ontario-03-11-2027/event/31006523BBD99024",
     "last_verified_at": "2026-11-01",
@@ -603,11 +603,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7532230,
-        "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-gloucester-hard-rock-hotel-and-casino-ottawa-3-11-2027/production/7532230",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -664,14 +664,14 @@
         "event_id": 18570545,
         "url": "https://seatgeek.com/theory-of-a-deadman-tickets/rama-canada-casino-rama-resort-2027-03-12-9-pm/concert/18570545",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7532425,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-rama-casino-rama-3-12-2027/production/7532425",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -724,7 +724,7 @@
         "event_id": 18570546,
         "url": "https://seatgeek.com/theory-of-a-deadman-tickets/toronto-canada-the-theatre-at-great-canadian-casino-resort-toronto-2027-03-13-8-pm/concert/18570546",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -783,14 +783,14 @@
         "event_id": 18560921,
         "url": "https://seatgeek.com/theory-of-a-deadman-tickets/windsor-canada-the-colosseum-at-caesars-windsor-2027-03-17-7-pm/concert/18560921",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7519353,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-windsor-the-colosseum-at-caesars-windsor-3-17-2027/production/7519353",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -820,7 +820,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000651BD646578D",
     "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadmanthe-northern-chaos-thunder-bay-ontario-03-19-2027/event/1000651BD646578D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/thunder-bay-canada-thunder-bay-community-auditorium-2027-03-19-7-30-pm/concert/18570548",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadmanthe-northern-chaos-thunder-bay-ontario-03-19-2027/event/1000651BD646578D",
@@ -892,14 +892,14 @@
         "event_id": 18570549,
         "url": "https://seatgeek.com/theory-of-a-deadman-tickets/winnipeg-canada-burton-cummings-theatre-2027-03-20-8-pm/concert/18570549",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7532259,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-winnipeg-burton-cummings-theatre-3-20-2027/production/7532259",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -974,7 +974,7 @@
         "event_id": 18570554,
         "url": "https://seatgeek.com/theory-of-a-deadman-tickets/regina-canada-conexus-arts-centre-2027-03-22-8-pm/concert/18570554",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1034,7 +1034,7 @@
         "event_id": 7534783,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-enoch-river-cree-casino-3-24-2027/production/7534783",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1094,7 +1094,7 @@
         "event_id": 7532257,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-calgary-southern-alberta-jubilee-auditorium-3-25-2027/production/7532257",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1169,7 +1169,7 @@
         "event_id": 7532010,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-dawson-creek-ovintiv-events-centre-3-27-2027/production/7532010",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1222,7 +1222,7 @@
         "event_id": 7532178,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-vancouver-queen-elizabeth-theatre---vancouver-3-31-2027/production/7532178",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -167,7 +167,7 @@
         "event_id": 6579002,
         "url": "https://www.vividseats.com/zac-brown-band-tickets-buffalo-keybank-center-11-5-2026--concerts-country-and-folk/production/6579002",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -178,18 +178,18 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107136161",
-        "url": "https://www.stubhub.ie/zac-brown-band-buffalo-tickets-11-5-2026/event/107136161",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7703260",
-        "url": "https://www.ticketliquidator.com/tickets/7703260/Zac-Brown-Band-tickets-Thu-Nov-5-2026-KeyBank-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7703260",
@@ -202,8 +202,8 @@
     "ticketmaster_discovery_event_id": "k7vGF_dh65dyO",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-buffalo-tickets-11-5-2026/event/107136161",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703260/Zac-Brown-Band-tickets-Thu-Nov-5-2026-KeyBank-Center",
+    "stubhub_international_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
     ],
@@ -247,7 +247,7 @@
         "event_id": 6579006,
         "url": "https://www.vividseats.com/zac-brown-band-tickets-detroit-little-caesars-arena-11-6-2026--concerts-country-and-folk/production/6579006",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -328,7 +328,7 @@
         "event_id": 6579008,
         "url": "https://www.vividseats.com/zac-brown-band-tickets-lincoln-pinnacle-bank-arena-11-19-2026--concerts-country-and-folk/production/6579008",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -405,7 +405,7 @@
         "event_id": 18032035,
         "url": "https://seatgeek.com/zac-brown-band-tickets/des-moines-iowa-casey-s-center-2026-11-20-7-pm/concert/18032035",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -474,14 +474,14 @@
         "event_id": 18032037,
         "url": "https://seatgeek.com/zac-brown-band-tickets/rosemont-illinois-allstate-arena-2026-11-21-7-pm/concert/18032037",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6579013,
         "url": "https://www.vividseats.com/zac-brown-band-tickets-rosemont-allstate-arena-11-21-2026--concerts-country-and-folk/production/6579013",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -554,7 +554,7 @@
         "event_id": 18571701,
         "url": "https://seatgeek.com/zac-brown-band-tickets/milwaukee-wisconsin-american-family-insurance-amphitheater-summerfest-grounds-2027-06-25-7-pm/concert/18571701",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -624,7 +624,7 @@
         "event_id": 7795177,
         "url": "https://www.vividseats.com/zac-brown-band-tickets-sparks-nugget-event-center-5-1-2027/production/7795177",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {

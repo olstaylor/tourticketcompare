@@ -509,11 +509,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107417251",
-        "url": "https://www.stubhub.ie/sleeping-with-sirens-boston-tickets-11-3-2026/event/107417251",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8053941",
@@ -533,7 +533,7 @@
     "ticketmaster_discovery_event_id": "vvG17Z_GmBZ9_J",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-boston-tickets-11-3-2026/event/107417251",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053941/Sleeping-With-Sirens-tickets-Tue-Nov-3-2026-Citizens-House-Of-Blues-Boston",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -552,7 +552,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7P_A7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_A7",
-    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/sayreville-new-jersey-starland-ballroom-2026-11-04-7-pm/concert/18327314",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_A7",
@@ -568,11 +568,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18327314,
-        "url": "https://seatgeek.com/sleeping-with-sirens-tickets/sayreville-new-jersey-starland-ballroom-2026-11-04-7-pm/concert/18327314",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -589,11 +589,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8053971",
-        "url": "https://www.ticketliquidator.com/tickets/8053971/Sleeping-With-Sirens-tickets-Wed-Nov-4-2026-Starland-Ballroom",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8053971",
@@ -606,7 +606,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P_A7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053971/Sleeping-With-Sirens-tickets-Wed-Nov-4-2026-Starland-Ballroom",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053971"
   },
   {
@@ -647,7 +647,7 @@
         "event_id": 7163761,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-philadelphia-the-fillmore-philadelphia-11-6-2026/production/7163761",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -719,7 +719,7 @@
         "event_id": 7163785,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-new-york-manhattan-center-hammerstein-ballroom-11-7-2026/production/7163785",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -750,7 +750,7 @@
     "ticketmaster_event_id": "150064C8BFE8B9F5",
     "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-baltimore-maryland-11-08-2026/event/150064C8BFE8B9F5",
     "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/baltimore-maryland-nevermore-hall-2026-11-08-7-pm/concert/18312278",
-    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-baltimore-nevermore-hall-11-8-2026/production/7163672",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-baltimore-maryland-11-08-2026/event/150064C8BFE8B9F5",
     "last_verified_at": "2026-11-02",
@@ -772,11 +772,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7163672,
-        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-baltimore-nevermore-hall-11-8-2026/production/7163672",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -825,7 +825,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-charlotte-the-fillmore-charlotte-11-11-2026/production/7163534",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-charlotte-north-carolina-11-11-2026/event/2D0064CA8DE39EB5",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -847,7 +847,7 @@
         "event_id": 7163534,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-charlotte-the-fillmore-charlotte-11-11-2026/production/7163534",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -878,13 +878,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053964/Sleeping-With-Sirens-tickets-Wed-Nov-11-2026-The-Fillmore-Charlotte",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-18T14:00:00Z",
-        "end": "2026-11-05T03:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053964"
   },
@@ -919,14 +912,14 @@
         "event_id": 18327312,
         "url": "https://seatgeek.com/sleeping-with-sirens-tickets/atlanta-georgia-the-eastern-atlanta-2026-11-12-7-30-pm/concert/18327312",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7165467,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-atlanta-the-eastern-11-12-2026/production/7165467",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1269,7 +1262,7 @@
         "event_id": 7131884,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-london-o2-academy-brixton-3-7-2027/production/7131884",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {

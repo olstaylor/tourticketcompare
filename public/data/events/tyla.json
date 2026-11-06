@@ -710,11 +710,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107460123",
+        "url": "https://www.stubhub.ie/tyla-san-francisco-tickets-11-13-2026/event/107460123",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_2fIMqin",
@@ -722,7 +722,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164817",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164817/Tyla-tickets-Fri-Nov-13-2026-Fox-Theater-Oakland",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-san-francisco-tickets-11-13-2026/event/107460123",
     "presales": [
       {
         "name": "VIP Packages Onsale",
@@ -772,7 +772,7 @@
         "event_id": 7347496,
         "url": "https://www.vividseats.com/tyla-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-15-2026--concerts-pop/production/7347496",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -832,7 +832,7 @@
     "city": "Seattle",
     "country": "United States Of America",
     "venue": "Paramount Theatre",
-    "datetime_iso": "2026-12-18T04:00:00Z",
+    "datetime_iso": "2026-11-18T04:00:00Z",
     "tour_name": "The A*POP World Tour",
     "ticketmaster_event_id": "0F0064F74C015417",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F0064F74C015417",
@@ -840,7 +840,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F0064F74C015417",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-05",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -873,11 +873,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8164824",
-        "url": "https://www.ticketnetwork.com/en/p/8164824",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -897,7 +897,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_2qGZ489",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164824",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "",
     "stubhub_international_url": "",
     "presales": [
@@ -952,7 +952,7 @@
         "event_id": 7347439,
         "url": "https://www.vividseats.com/tyla-tickets-denver-fillmore-auditorium-denver-11-20-2026--concerts-pop/production/7347439",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1015,7 +1015,7 @@
         "event_id": 7347441,
         "url": "https://www.vividseats.com/tyla-tickets-chicago-aragon-ballroom-11-22-2026--concerts-pop/production/7347441",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1102,7 +1102,7 @@
         "event_id": 7347443,
         "url": "https://www.vividseats.com/tyla-tickets-boston-mgm-music-hall-at-fenway-11-25-2026--concerts-pop/production/7347443",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1182,14 +1182,14 @@
         "event_id": 18404308,
         "url": "https://seatgeek.com/tyla-tickets/toronto-canada-coca-cola-coliseum-2026-11-26-8-pm/concert/18404308",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7347498,
         "url": "https://www.vividseats.com/tyla-tickets-toronto-coca-cola-coliseum-11-26-2026--concerts-pop/production/7347498",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1255,7 +1255,7 @@
         "event_id": 7347445,
         "url": "https://www.vividseats.com/tyla-tickets-brooklyn-brooklyn-paramount-11-28-2026--concerts-pop/production/7347445",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1342,7 +1342,7 @@
         "event_id": 7367910,
         "url": "https://www.vividseats.com/tyla-tickets-brooklyn-brooklyn-paramount-11-29-2026--concerts-pop/production/7367910",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1429,7 +1429,7 @@
         "event_id": 7347447,
         "url": "https://www.vividseats.com/tyla-tickets-washington-dc-the-anthem-12-2-2026--concerts-pop/production/7347447",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1513,7 +1513,7 @@
         "event_id": 7347449,
         "url": "https://www.vividseats.com/tyla-tickets-tampa-yuengling-center-12-5-2026--concerts-pop/production/7347449",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1600,7 +1600,7 @@
         "event_id": 7347451,
         "url": "https://www.vividseats.com/tyla-tickets-atlanta-coca-cola-roxy-theatre-12-6-2026--concerts-pop/production/7347451",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1687,7 +1687,7 @@
         "event_id": 7347453,
         "url": "https://www.vividseats.com/tyla-tickets-irving-pavilion-at-toyota-music-factory-12-9-2026--concerts-pop/production/7347453",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1774,7 +1774,7 @@
         "event_id": 7347456,
         "url": "https://www.vividseats.com/tyla-tickets-houston-713-music-hall-12-10-2026--concerts-pop/production/7347456",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1861,7 +1861,7 @@
         "event_id": 7347458,
         "url": "https://www.vividseats.com/tyla-tickets-austin-moody-center-atx-12-11-2026--concerts-pop/production/7347458",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1948,7 +1948,7 @@
         "event_id": 7347462,
         "url": "https://www.vividseats.com/tyla-tickets-phoenix-arizona-financial-theatre-12-14-2026--concerts-pop/production/7347462",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2028,7 +2028,7 @@
         "event_id": 18404300,
         "url": "https://seatgeek.com/tyla-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-12-15-8-pm/concert/18404300",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2114,7 +2114,7 @@
         "event_id": 7347466,
         "url": "https://www.vividseats.com/tyla-tickets-inglewood-youtube-theater-12-16-2026--concerts-pop/production/7347466",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2194,14 +2194,14 @@
         "event_id": 18404302,
         "url": "https://seatgeek.com/tyla-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-12-19-9-pm/concert/18404302",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7347468,
         "url": "https://www.vividseats.com/tyla-tickets-las-vegas-fontainebleau-las-vegas-12-19-2026--concerts-pop/production/7347468",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {

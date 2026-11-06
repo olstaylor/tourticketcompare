@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "170064E18A2B80F1",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-04-2026/event/170064E18A2B80F1",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-4-2026/production/7256784",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-04-2026/event/170064E18A2B80F1",
     "last_verified_at": "2026-10-16",
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7256784,
-        "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-4-2026/production/7256784",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -48,11 +48,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8113675",
-        "url": "https://www.ticketnetwork.com/en/p/8113675",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8113675",
@@ -72,7 +72,7 @@
     "ticketmaster_discovery_event_id": "17AYv0G6Ck11zds",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113675",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113675/Santana-tickets-Wed-Nov-4-2026-House-Of-Blues-Las-Vegas",
     "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-4-2026/event/107469464",
     "organizer_names": [
@@ -117,7 +117,7 @@
         "event_id": 7256820,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-5-2026/production/7256820",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -197,7 +197,7 @@
         "event_id": 7256822,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-7-2026/production/7256822",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -277,7 +277,7 @@
         "event_id": 7256798,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-8-2026/production/7256798",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -357,7 +357,7 @@
         "event_id": 7256786,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-11-2026/production/7256786",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -437,7 +437,7 @@
         "event_id": 7256808,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-12-2026/production/7256808",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -517,7 +517,7 @@
         "event_id": 7256792,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-14-2026/production/7256792",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -597,7 +597,7 @@
         "event_id": 7256832,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-15-2026/production/7256832",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -670,14 +670,14 @@
         "event_id": 18628819,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-20-7-pm/concert/18628819",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619530,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-20-2027/production/7619530",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -757,14 +757,14 @@
         "event_id": 18628820,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-21-7-pm/concert/18628820",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619678,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-21-2027/production/7619678",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -844,14 +844,14 @@
         "event_id": 18628821,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-23-7-pm/concert/18628821",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619574,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-23-2027/production/7619574",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -931,14 +931,14 @@
         "event_id": 18628822,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-24-7-pm/concert/18628822",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619550,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-24-2027/production/7619550",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1018,14 +1018,14 @@
         "event_id": 18628823,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-27-7-pm/concert/18628823",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619552,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-27-2027/production/7619552",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1105,14 +1105,14 @@
         "event_id": 18628824,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-28-7-pm/concert/18628824",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619586,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-28-2027/production/7619586",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1192,14 +1192,14 @@
         "event_id": 18628831,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-30-7-pm/concert/18628831",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619548,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-30-2027/production/7619548",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1279,14 +1279,14 @@
         "event_id": 18628832,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-01-31-7-pm/concert/18628832",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619584,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-31-2027/production/7619584",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1366,14 +1366,14 @@
         "event_id": 18628833,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-12-7-pm/concert/18628833",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619572,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-12-2027/production/7619572",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1453,14 +1453,14 @@
         "event_id": 18628834,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-13-7-pm/concert/18628834",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619528,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-13-2027/production/7619528",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1540,14 +1540,14 @@
         "event_id": 18628836,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-15-7-pm/concert/18628836",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619680,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-15-2027/production/7619680",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1627,14 +1627,14 @@
         "event_id": 18628837,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-16-7-pm/concert/18628837",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619532,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-16-2027/production/7619532",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1714,14 +1714,14 @@
         "event_id": 18628843,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-19-7-pm/concert/18628843",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619660,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-19-2027/production/7619660",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1801,14 +1801,14 @@
         "event_id": 18628844,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-20-7-pm/concert/18628844",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619638,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-20-2027/production/7619638",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1888,14 +1888,14 @@
         "event_id": 18628845,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-22-7-pm/concert/18628845",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619526,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-22-2027/production/7619526",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1975,14 +1975,14 @@
         "event_id": 18628846,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-05-23-7-pm/concert/18628846",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619556,
         "url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-23-2027/production/7619556",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2069,7 +2069,7 @@
         "event_id": 7770678,
         "url": "https://www.vividseats.com/santana-tickets-london-the-o2---london-6-30-2027--concerts-rock/production/7770678",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {

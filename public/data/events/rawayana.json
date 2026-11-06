@@ -62,11 +62,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107482965",
-        "url": "https://www.stubhub.ie/rawayana-national-harbor-tickets-11-4-2026/event/107482965",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_kGkw9bb9h",
@@ -74,7 +74,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808621",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808621/Rawayana-tickets-Wed-Nov-4-2026-The-Theater-at-MGM-National-Harbor",
-    "stubhub_international_url": "https://www.stubhub.ie/rawayana-national-harbor-tickets-11-4-2026/event/107482965",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -95,7 +95,7 @@
     "vividseats_url": "https://www.vividseats.com/rawayana-tickets-chicago-byline-bank-aragon-ballroom-11-7-2026--concerts-pop/production/6791757",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-chicago-illinois-11-07-2026/event/0400646BC9C67504",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -117,7 +117,7 @@
         "event_id": 6791757,
         "url": "https://www.vividseats.com/rawayana-tickets-chicago-byline-bank-aragon-ballroom-11-7-2026--concerts-pop/production/6791757",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -157,13 +157,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/rawayana-chicago-tickets-11-7-2026/event/107482968",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-19T15:00:00Z",
-        "end": "2026-11-03T18:00:00Z"
-      }
     ]
   },
   {
@@ -204,7 +197,7 @@
         "event_id": 6790737,
         "url": "https://www.vividseats.com/rawayana-tickets-inglewood-kia-forum-11-15-2026/production/6790737",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -291,7 +284,7 @@
         "event_id": 6791762,
         "url": "https://www.vividseats.com/rawayana-tickets-houston-713-music-hall-11-18-2026--concerts-pop/production/6791762",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -383,7 +376,7 @@
         "event_id": 6983149,
         "url": "https://www.vividseats.com/rawayana-tickets-houston-713-music-hall-11-19-2026--concerts-pop/production/6983149",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -470,7 +463,7 @@
         "event_id": 6790753,
         "url": "https://www.vividseats.com/rawayana-tickets-irving-pavilion-at-toyota-music-factory-11-21-2026/production/6790753",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -562,7 +555,7 @@
         "event_id": 6790777,
         "url": "https://www.vividseats.com/rawayana-tickets-orlando-kia-center-12-3-2026/production/6790777",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -649,7 +642,7 @@
         "event_id": 7667398,
         "url": "https://www.vividseats.com/rawayana-tickets-miami-kaseya-center-12-4-2026--concerts-pop/production/7667398",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -736,7 +729,7 @@
         "event_id": 6790780,
         "url": "https://www.vividseats.com/rawayana-tickets-miami-kaseya-center-12-5-2026/production/6790780",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -823,7 +816,7 @@
         "event_id": 6802298,
         "url": "https://www.vividseats.com/rawayana-tickets-miami-kaseya-center-12-6-2026/production/6802298",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {

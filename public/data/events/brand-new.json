@@ -518,25 +518,25 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8062599",
-        "url": "https://www.ticketliquidator.com/tickets/8062599/Brand-New-tickets-Mon-Nov-2-2026-The-Mission-Ballroom",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8062599",
-        "url": "https://www.ticketnetwork.com/en/p/8062599",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PtJo",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062599/Brand-New-tickets-Mon-Nov-2-2026-The-Mission-Ballroom",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062599"
+    "ticketliquidator_url": "",
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-brand-new-2026-las-vegas-z7r9jz1a7jdfs",
@@ -569,14 +569,14 @@
         "event_id": 18319859,
         "url": "https://seatgeek.com/brand-new-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-11-06-8-pm/concert/18319859",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7212821,
         "url": "https://www.vividseats.com/brand-new-tickets-las-vegas-the-theater-at-virgin-hotels-las-vegas-11-6-2026/production/7212821",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -645,7 +645,7 @@
         "event_id": 7183430,
         "url": "https://www.vividseats.com/brand-new-tickets-anaheim-honda-center-11-7-2026/production/7183430",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -725,7 +725,7 @@
         "event_id": 7183374,
         "url": "https://www.vividseats.com/brand-new-tickets-san-francisco-bill-graham-civic-auditorium-11-11-2026/production/7183374",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -805,7 +805,7 @@
         "event_id": 7183306,
         "url": "https://www.vividseats.com/brand-new-tickets-phoenix-arizona-financial-theatre-11-14-2026/production/7183306",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {

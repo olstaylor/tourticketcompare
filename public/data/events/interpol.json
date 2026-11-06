@@ -37,7 +37,7 @@
         "event_id": 6274790,
         "url": "https://www.vividseats.com/interpol-tickets-cardiff-utilita-arena-cardiff-11-21-2026--concerts-rock/production/6274790",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -271,7 +271,7 @@
     "ticketmaster_event_id": "0A006550C6E493B7",
     "ticketmaster_url": "https://www.ticketmaster.com/interpol-san-diego-california-12-11-2026/event/0A006550C6E493B7",
     "seatgeek_url": "https://seatgeek.com/interpol-tickets/san-diego-california-soma-san-diego-2026-12-11-8-pm/concert/18700629",
-    "vividseats_url": "https://www.vividseats.com/interpol-tickets-san-diego-soma-12-11-2026/production/7722601",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-san-diego-california-12-11-2026/event/0A006550C6E493B7",
     "last_verified_at": "2026-11-01",
@@ -289,15 +289,15 @@
         "event_id": 18700629,
         "url": "https://seatgeek.com/interpol-tickets/san-diego-california-soma-san-diego-2026-12-11-8-pm/concert/18700629",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7722601,
-        "url": "https://www.vividseats.com/interpol-tickets-san-diego-soma-12-11-2026/production/7722601",
-        "verified": true,
-        "last_verified_at": "2026-11-01",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -369,14 +369,14 @@
         "event_id": 18710343,
         "url": "https://seatgeek.com/interpol-tickets/hidalgo-texas-payne-arena-2027-03-19-8-pm/concert/18710343",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7745164,
         "url": "https://www.vividseats.com/interpol-tickets-hidalgo-payne-arena-3-19-2027/production/7745164",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -449,14 +449,14 @@
         "event_id": 18710346,
         "url": "https://seatgeek.com/interpol-tickets/memphis-tennessee-satellite-music-hall-2027-03-22-7-pm/concert/18710346",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7745553,
         "url": "https://www.vividseats.com/interpol-tickets-memphis-satellite-music-hall-3-22-2027--concerts-rock/production/7745553",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -528,7 +528,7 @@
         "event_id": 7745555,
         "url": "https://www.vividseats.com/interpol-tickets-asheville-harrahs-cherokee-center-asheville-3-23-2027--concerts-rock/production/7745555",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -584,7 +584,7 @@
         "event_id": 7745557,
         "url": "https://www.vividseats.com/interpol-tickets-washington-dc-the-anthem-3-24-2027--concerts-rock/production/7745557",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -733,14 +733,14 @@
         "event_id": 18710347,
         "url": "https://seatgeek.com/interpol-tickets/dallas-texas-the-bomb-factory-dallas-2027-03-20-8-pm/concert/18710347",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7745551,
         "url": "https://www.vividseats.com/interpol-tickets-dallas-the-bomb-factory-3-20-2027--concerts-rock/production/7745551",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -802,7 +802,7 @@
         "event_id": 18710345,
         "url": "https://seatgeek.com/interpol-tickets/san-antonio-texas-the-espee-2027-03-18-7-30-pm/concert/18710345",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -878,7 +878,7 @@
         "event_id": 7745559,
         "url": "https://www.vividseats.com/interpol-tickets-sayreville-starland-ballroom-3-27-2027--concerts-rock/production/7745559",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -925,7 +925,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/interpol-london-04-12-2026/event/37006562CF0652B5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -961,6 +961,16 @@
     "ticketmaster_discovery_event_id": "1AMZk4xGkd2vP1g",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "presales": [
+      {
+        "name": "Interpol Past Bookers Presale",
+        "start": "2026-11-05T09:00:00Z",
+        "end": "2026-11-06T08:00:00Z"
+      }
+    ]
   }
 ]

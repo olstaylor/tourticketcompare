@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100647AD2C52B9C",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-medford-massachusetts-11-05-2026/event/0100647AD2C52B9C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/medford-massachusetts-chevalier-theatre-2026-11-05-8-pm/concert/18155216",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-medford-massachusetts-11-05-2026/event/0100647AD2C52B9C",
@@ -84,7 +84,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70AFY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AFY",
     "seatgeek_url": "https://seatgeek.com/air-supply-tickets/easton-pennsylvania-state-theatre-easton-2026-11-06-7-30-pm/concert/18355665",
-    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-easton-state-theatre-easton-11-6-2026--concerts-pop/production/6961235",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70AFY",
     "last_verified_at": null,
@@ -102,15 +102,15 @@
         "event_id": 18355665,
         "url": "https://seatgeek.com/air-supply-tickets/easton-pennsylvania-state-theatre-easton-2026-11-06-7-30-pm/concert/18355665",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6961235,
-        "url": "https://www.vividseats.com/air-supply-tickets-easton-state-theatre-easton-11-6-2026--concerts-pop/production/6961235",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
         "event_id": 18126968,
         "url": "https://seatgeek.com/air-supply-tickets/stamford-connecticut-the-palace-theatre-stamford-2026-11-07-8-pm/concert/18126968",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -231,7 +231,7 @@
         "event_id": 7199199,
         "url": "https://www.vividseats.com/air-supply-tickets-oxon-hill-the-theater-at-mgm-national-harbor-11-13-2026/production/7199199",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -303,14 +303,14 @@
         "event_id": 18206347,
         "url": "https://seatgeek.com/air-supply-tickets/westbury-new-york-flagstar-at-westbury-music-fair-2026-11-14-8-pm/concert/18206347",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6956190,
         "url": "https://www.vividseats.com/air-supply-tickets-westbury-flagstar-at-westbury-music-fair-11-14-2026/production/6956190",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -378,7 +378,7 @@
         "event_id": 7079634,
         "url": "https://www.vividseats.com/air-supply-tickets-red-bank-hackensack-meridian-health-theatre-at-the-count-basie-center-11-15-2026/production/7079634",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -447,7 +447,7 @@
         "event_id": 18355666,
         "url": "https://seatgeek.com/air-supply-tickets/orlando-florida-dr-phillips-center-for-performing-arts-2026-11-19-8-pm/concert/18355666",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -500,14 +500,14 @@
         "event_id": 18289135,
         "url": "https://seatgeek.com/air-supply-tickets/clearwater-florida-ruth-eckerd-hall-2026-11-21-8-pm/concert/18289135",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7104803,
         "url": "https://www.vividseats.com/air-supply-tickets-clearwater-ruth-eckerd-hall-11-21-2026/production/7104803",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -569,14 +569,14 @@
         "event_id": 18355667,
         "url": "https://seatgeek.com/air-supply-tickets/jacksonville-florida-florida-theatre-jacksonville-2026-11-22-7-pm/concert/18355667",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047661,
         "url": "https://www.vividseats.com/air-supply-tickets-jacksonville-florida-theatre-jacksonville-11-22-2026/production/7047661",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -701,7 +701,7 @@
         "event_id": 7411746,
         "url": "https://www.vividseats.com/air-supply-tickets-fort-pierce-sunrise-theatre-1-21-2027--concerts-pop/production/7411746",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -820,14 +820,14 @@
         "event_id": 18355670,
         "url": "https://seatgeek.com/air-supply-tickets/sarasota-florida-van-wezel-performing-arts-hall-2027-01-24-7-pm/concert/18355670",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7163566,
         "url": "https://www.vividseats.com/air-supply-tickets-sarasota-van-wezel-performing-arts-hall-1-24-2027/production/7163566",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -896,7 +896,7 @@
         "event_id": 7619872,
         "url": "https://www.vividseats.com/air-supply-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-1-29-2027/production/7619872",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1043,7 +1043,7 @@
         "event_id": 7411024,
         "url": "https://www.vividseats.com/air-supply-tickets-rockford-hard-rock-live---rockford-2-5-2027/production/7411024",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1112,14 +1112,14 @@
         "event_id": 18200030,
         "url": "https://seatgeek.com/air-supply-tickets/wisconsin-dells-wisconsin-crystal-grand-music-theatre-2027-02-06-8-pm/concert/18200030",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6939186,
         "url": "https://www.vividseats.com/air-supply-tickets-wisconsin-dells-crystal-grand-music-theatre-2-6-2027/production/6939186",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1172,7 +1172,7 @@
         "event_id": 7474307,
         "url": "https://www.vividseats.com/air-supply-tickets-waukegan-genesee-theatre-2-7-2027/production/7474307",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1248,7 +1248,7 @@
         "event_id": 7479852,
         "url": "https://www.vividseats.com/air-supply-tickets-rancho-mirage-the-show---agua-caliente-casino-2-13-2027/production/7479852",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1324,7 +1324,7 @@
         "event_id": 7559666,
         "url": "https://www.vividseats.com/air-supply-tickets-abbotsford-rogers-forum-2-18-2027--concerts-pop/production/7559666",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1398,7 +1398,7 @@
         "event_id": 18646928,
         "url": "https://seatgeek.com/air-supply-tickets/dawson-creek-canada-ovintiv-events-centre-2027-02-22-7-30-pm/concert/18646928",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1451,7 +1451,7 @@
         "event_id": 18594382,
         "url": "https://seatgeek.com/air-supply-tickets/calgary-canada-grey-eagle-event-centre-2027-02-24-7-pm/concert/18594382",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1511,7 +1511,7 @@
         "event_id": 7564237,
         "url": "https://www.vividseats.com/air-supply-tickets-moose-jaw-temple-gardens-centre-2-26-2027--concerts-pop/production/7564237",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1557,14 +1557,14 @@
         "event_id": 18593527,
         "url": "https://seatgeek.com/air-supply-tickets/winnipeg-canada-canada-life-centre-2027-02-28-7-30-pm/concert/18593527",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7559672,
         "url": "https://www.vividseats.com/air-supply-tickets-winnipeg-canada-life-centre-2-28-2027--concerts-pop/production/7559672",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1640,7 +1640,7 @@
         "event_id": 7559686,
         "url": "https://www.vividseats.com/air-supply-tickets-gloucester-hard-rock-hotel-and-casino-ottawa-3-3-2027--concerts-pop/production/7559686",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1702,7 +1702,7 @@
         "event_id": 18618284,
         "url": "https://seatgeek.com/air-supply-tickets/rama-canada-casino-rama-resort-2027-03-05-9-pm/concert/18618284",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1767,7 +1767,7 @@
         "event_id": 18594770,
         "url": "https://seatgeek.com/air-supply-tickets/toronto-canada-the-theatre-at-great-canadian-casino-resort-toronto-2027-03-06-8-pm/concert/18594770",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1833,14 +1833,14 @@
         "event_id": 18593816,
         "url": "https://seatgeek.com/air-supply-tickets/windsor-canada-the-colosseum-at-caesars-windsor-2027-03-07-7-pm/concert/18593816",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7559692,
         "url": "https://www.vividseats.com/air-supply-tickets-windsor-the-colosseum-at-caesars-windsor-3-7-2027--concerts-pop/production/7559692",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1924,5 +1924,143 @@
         "end": "2027-05-17T03:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-air-supply-2027-penticton-z7r9jz1aa7o-a",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply w/ Glass Tiger",
+    "city": "Penticton",
+    "country": "Canada",
+    "venue": "South Okanagan Events Centre",
+    "datetime_iso": "2027-02-20T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7o-a",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7o-a",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/penticton-canada-south-okanagan-events-centre-2027-02-19-6-30-pm/concert/18646927",
+    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-penticton-south-okanagan-events-centre-2-19-2027/production/7559511",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7o-a",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7o-a",
+        "discovery_event_id": "Z7r9jZ1AA7o-a",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7o-a",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18646927,
+        "url": "https://seatgeek.com/air-supply-tickets/penticton-canada-south-okanagan-events-centre-2027-02-19-6-30-pm/concert/18646927",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7559511,
+        "url": "https://www.vividseats.com/air-supply-tickets-penticton-south-okanagan-events-centre-2-19-2027/production/7559511",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8269067",
+        "url": "https://www.ticketnetwork.com/en/p/8269067",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8269067",
+        "url": "https://www.ticketliquidator.com/tickets/8269067/Air-Supply-tickets-Fri-Feb-19-2027-South-Okanagan-Events-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7o-a",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8269067",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8269067/Air-Supply-tickets-Fri-Feb-19-2027-South-Okanagan-Events-Centre"
+  },
+  {
+    "id": "tm-air-supply-2027-prince-george-z7r9jz1aaek-z",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply",
+    "city": "Prince George",
+    "country": "Canada",
+    "venue": "CN Centre",
+    "datetime_iso": "2027-02-22T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeK-Z",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeK-Z",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/prince-george-canada-cn-centre-2027-02-21-6-30-pm/concert/18736469",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeK-Z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeK-Z",
+        "discovery_event_id": "Z7r9jZ1AAeK-Z",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeK-Z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18736469,
+        "url": "https://seatgeek.com/air-supply-tickets/prince-george-canada-cn-centre-2027-02-21-6-30-pm/concert/18736469",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8355435",
+        "url": "https://www.ticketnetwork.com/en/p/8355435",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8355435",
+        "url": "https://www.ticketliquidator.com/tickets/8355435/Air-Supply-tickets-Sun-Feb-21-2027-CN-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeK-Z",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8355435",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8355435/Air-Supply-tickets-Sun-Feb-21-2027-CN-Centre"
   }
 ]

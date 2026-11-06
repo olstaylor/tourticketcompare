@@ -113,6 +113,9 @@ PREMIUM_LISTING_NAME_RE = re.compile(r"\b(?:venue premium|premium priced seat(?:
 # concert. Mirrors TICKET_NOT_INCLUDED_RE in functions/_event-pages.js.
 TICKET_NOT_INCLUDED_RE = re.compile(r"\bticket not included\b", re.IGNORECASE)
 
+# A named listening event does not establish a live performance by the artist.
+LISTENING_EVENT_RE = re.compile(r"\blistening\s+(?:experience|party|session)\b", re.IGNORECASE)
+
 PLACEHOLDER_MARKERS = ("localhost", "example.com", "placeholder", "replace-me", "tbd")
 AFFILIATE_WRAPPER_HOSTS = {"ticketmaster.evyy.net"}
 
@@ -143,6 +146,7 @@ WITHHOLD_REASON_CODES = {
     "placeholder_url": "URL matches a placeholder marker (localhost, example.com, ...).",
     "travel_package_listing": "Listing looks like a travel/hotel/parking/hospitality/premium-seat upsell package.",
     "attraction_identity_mismatch": "Event attractions do not include the registry's verified attraction ID.",
+    "listening_event": "Listing is a listening experience, party or session rather than a verified artist performance.",
     "not_primary_attraction": "Registry attraction is not the primary attraction (support act / festival lineup).",
     "duplicate_existing_event_id": "Same Ticketmaster event id as an existing events.json row.",
     "duplicate_existing_venue_date": "Same venue and venue-local date as an existing events.json row.",
@@ -691,6 +695,12 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
         withhold(
             "travel_package_listing",
             f"likely travel/upsell package listing (matched: {', '.join(travel_hits)})",
+        )
+
+    if LISTENING_EVENT_RE.search(event_name):
+        withhold(
+            "listening_event",
+            "listening event requires human review; artist metadata does not prove a live performance",
         )
 
     event_attraction_ids = [
@@ -1471,6 +1481,11 @@ def self_test():
           and "travel_package_listing" not in codes_for(make_event(name="Premium Suite Tour")))
     check("plain concert at an ordinary venue emits no travel_package_listing",
           "travel_package_listing" not in codes_for(make_event(name="RAYE: This Tour May Contain New Music")))
+    for listening_name in ("Chris Brown & Usher Listening Experience", "RAYE Listening Party", "RAYE: Listening Session"):
+        check(f"listening event '{listening_name}' is withheld",
+              "listening_event" in codes_for(make_event(name=listening_name)))
+    check("ordinary concert title is not a listening event",
+          "listening_event" not in codes_for(make_event(name="RAYE: This Tour May Contain New Music")))
     check("mismatched attraction emits attraction_identity_mismatch",
           "attraction_identity_mismatch" in codes_for(wrong_attraction))
     check("support-act appearance emits not_primary_attraction",

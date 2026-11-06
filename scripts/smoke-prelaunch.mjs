@@ -4405,10 +4405,13 @@ console.log("artist-city landing-page verification passed");
   const rssXml = await rss.text();
   assert(rss.status === 200, "/blog/rss.xml should return 200");
   assert(rss.headers.get("Content-Type")?.includes("application/rss+xml"), "the feed should be served as RSS");
+  // The feed carries the newest MAX_ITEMS indexable posts, so an older
+  // indexable post past the cap is correctly absent.
+  const feedPaths = new Set(allPosts.filter(blogModule.postIndexable).slice(0, rssModule.MAX_ITEMS).map((post) => post.path));
   for (const post of allPosts) {
     const present = rssXml.includes(`<link>https://tourticketcompare.com${post.path}</link>`);
     assert(
-      present === blogModule.postIndexable(post),
+      present === feedPaths.has(post.path),
       `the feed should carry ${post.path} only when the site would index it`
     );
   }

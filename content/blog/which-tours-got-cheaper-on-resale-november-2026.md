@@ -55,9 +55,9 @@ These are the tours with 8 or more US dates in the comparison where the typical 
 
 "Lower" and "Higher" count site-and-date comparisons, so a date listed on three sites counts up to three times.
 
-The biggest move was Greta Van Fleet's 2027 tour. Every one of its 69 comparisons was lower. On Vivid Seats, the median lowest listed price across its 35 dates went from $123 to $65, and on TicketNetwork across 34 dates from $140 to $86 (USD, listed prices, medians of 5 to 7 October and 3 to 5 November 2026).
+The biggest move was Greta Van Fleet's 2027 tour. Every one of its 69 comparisons was lower. On Vivid Seats, the median lowest listed price across its 35 dates was $123 in early October and $65 in early November, and on TicketNetwork across 34 dates $140 and $86 respectively (USD, listed prices, medians of 5 to 7 October and 3 to 5 November 2026).
 
-Gracie Abrams dates, which run from December 2026 to March 2027, were lower at 86 of 99 comparisons. On Vivid Seats the median across 33 dates went from $63 to $46.
+Gracie Abrams dates, which run from December 2026 to March 2027, were lower at 86 of 99 comparisons. On Vivid Seats the median across 33 dates was $63 in early October and $46 in early November.
 
 ## The tours that got dearer
 
@@ -67,7 +67,7 @@ Gracie Abrams dates, which run from December 2026 to March 2027, were lower at 8
 | [Don Omar](/artists/don-omar) | 15 | 8 | 30 | +13% |
 | [Luke Combs](/artists/luke-combs) | 10 | 3 | 15 | +5% |
 
-John Summit's dates, from mid-November to mid-December 2026, rose on all three sites. On Vivid Seats the median across 11 dates went from $61 to $75.
+John Summit's dates, from mid-November to mid-December 2026, rose on all three sites. On Vivid Seats the median across 11 dates was $61 in early October and $75 in early November.
 
 ## Big tours that barely moved
 

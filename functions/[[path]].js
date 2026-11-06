@@ -760,7 +760,7 @@ async function resolveRoute(pathname, env) {
       type: "onsale-calendar",
       path,
       indexable: calendar.indexable,
-      title: "Concert Tickets On Sale This Week and Soon | TourTicketCompare",
+      title: "Concert Tickets On Sale This Week | TourTicketCompare",
       description:
         "Upcoming public on-sale dates and times from Ticketmaster for tracked concert tours, plus dates that went on sale in the last week.",
       calendar,

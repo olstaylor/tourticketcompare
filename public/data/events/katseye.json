@@ -1500,5 +1500,58 @@
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ]
+  },
+  {
+    "id": "tm-katseye-2027-auckland-1ae8z_4gkwr-wk2",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2027-03-06T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2400655C9E87218F",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/katseye-the-wildworld-tour-auckland-06-03-2027/event/2400655C9E87218F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/katseye-the-wildworld-tour-auckland-06-03-2027/event/2400655C9E87218F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2400655C9E87218F",
+        "discovery_event_id": "1Ae8Z_4Gkwr-wk2",
+        "url": "https://www.ticketmaster.co.nz/katseye-the-wildworld-tour-auckland-06-03-2027/event/2400655C9E87218F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae8Z_4Gkwr-wk2",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
   }
 ]

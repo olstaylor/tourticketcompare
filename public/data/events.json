@@ -372076,5 +372076,165 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAvbz",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-hamburg-z698xzc2z16vxb1oag",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart - \"The Final Encore\"",
+    "city": "Hamburg",
+    "country": "Germany",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2027-07-25T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1898291275",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/1898291275?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/1898291275?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1898291275",
+        "discovery_event_id": "Z698xZC2Z16vxb1oag",
+        "url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/1898291275?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vxb1oag",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-11-10T09:00:00Z"
+  },
+  {
+    "id": "tm-katseye-2027-auckland-1ae8z_4gkwr-wk2",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "KATSEYE: THE WILDWORLD TOUR",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2027-03-06T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2400655C9E87218F",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/katseye-the-wildworld-tour-auckland-06-03-2027/event/2400655C9E87218F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/katseye-the-wildworld-tour-auckland-06-03-2027/event/2400655C9E87218F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2400655C9E87218F",
+        "discovery_event_id": "1Ae8Z_4Gkwr-wk2",
+        "url": "https://www.ticketmaster.co.nz/katseye-the-wildworld-tour-auckland-06-03-2027/event/2400655C9E87218F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae8Z_4Gkwr-wk2",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-u2-2027-amsterdam-z698xzbpz1k7zpzb4",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2027-06-11T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100580615",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/100580615?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/100580615?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100580615",
+        "discovery_event_id": "Z698xZbpZ1k7ZpZb4",
+        "url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/100580615?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1k7ZpZb4",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
   }
 ]

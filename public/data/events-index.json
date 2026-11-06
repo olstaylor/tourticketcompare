@@ -62214,5 +62214,41 @@
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-hamburg-z698xzc2z16vxb1oag",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "country": "Germany",
+    "city": "Hamburg",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2027-07-25T18:00:00Z",
+    "timezone": "Europe/Berlin",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-katseye-2027-auckland-1ae8z_4gkwr-wk2",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "country": "New Zealand",
+    "city": "Auckland",
+    "venue": "Spark Arena",
+    "datetime_iso": "2027-03-06T06:00:00Z",
+    "timezone": "Pacific/Auckland",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-u2-2027-amsterdam-z698xzbpz1k7zpzb4",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2027-06-11T17:30:00Z",
+    "timezone": "Europe/Amsterdam",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

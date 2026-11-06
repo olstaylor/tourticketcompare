@@ -24,8 +24,8 @@ const P = {
   out: path.join(root, "functions/api/out.js"),
   registry: path.join(root, "data/provider-identities.json"),
 };
-export const MAX_PER_DAY = 8;
-export const MAX_PER_WEEK = 56;
+export const MAX_PER_DAY = 12;
+export const MAX_PER_WEEK = 84;
 const MAX_TITLE = 60;
 const MAX_DESCRIPTION = 160;
 const PLACEHOLDER = /\[OWNER COPY|placeholder|lorem|tbd|todo|example\.com/i;
@@ -80,7 +80,7 @@ export function shellProblems(record, catalog) {
   return problems;
 }
 
-/** How many more auto promotions today's run may make (8/day, 56/rolling week; owner-approved 2026-10-25, was 6 and 40). */
+/** How many more auto promotions today's run may make (12/day, 84/rolling week; owner-approved 2026-11-06, was 8 and 56). */
 export function remainingQuota(artists, today) {
   const since = (days) => new Date(Date.parse(`${today}T00:00:00Z`) - days * 86400000).toISOString().slice(0, 10);
   const auto = artists.filter((a) => a.promotion_source === "auto" && a.auto_promoted_at);

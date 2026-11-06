@@ -1,0 +1,792 @@
+{
+  "storyType": "city-index",
+  "asOf": "2026-11-03",
+  "source": "provider_pricing_daily (D1), low_price_last per event x provider x UTC day, read 2026-11-03; values outside $5-$1,200 excluded as placeholders or outliers",
+  "method": "US shows after the window. Per show: median daily lowest listed price over the window (oct = 1-31 Oct 2026, sep = 1-30 Sep 2026). Per tour (artist with 5+ priced US shows on that site): each metro's median / the tour's median show price. Per metro: median of those ratios across tours; metros need 12+ tours (oct) or 10+ (sep). Nearby venues are counted with their metro (e.g. Inglewood with Los Angeles, East Rutherford and Brooklyn with New York). Each site compared only with itself.",
+  "metroMap": {
+    "Brooklyn": "New York",
+    "Elmont": "New York",
+    "Belmont Park": "New York",
+    "East Rutherford": "New York",
+    "Inglewood": "Los Angeles",
+    "Arlington": "Dallas",
+    "Foxborough": "Boston",
+    "Paradise": "Las Vegas",
+    "Rosemont": "Chicago",
+    "Tinley Park": "Chicago",
+    "Uniondale": "New York",
+    "Newark": "New York",
+    "Sunrise": "Miami",
+    "Santa Clara": "San Francisco",
+    "Oakland": "San Francisco",
+    "San Jose": "San Francisco",
+    "Highland Park": "Chicago",
+    "Irvine": "Los Angeles",
+    "Anaheim": "Los Angeles",
+    "Fort Worth": "Dallas"
+  },
+  "readings": {
+    "vivid-seats:oct": {
+      "tours": 105,
+      "shows": 1651,
+      "largestTourShows": 49
+    },
+    "vivid-seats:sep": {
+      "tours": 44,
+      "shows": 781,
+      "largestTourShows": 52
+    },
+    "ticketnetwork:oct": {
+      "tours": 116,
+      "shows": 1849,
+      "largestTourShows": 52
+    },
+    "ticketnetwork:sep": {
+      "tours": 52,
+      "shows": 931,
+      "largestTourShows": 52
+    }
+  },
+  "cities": [
+    {
+      "city": "Atlanta",
+      "vivid-seats:oct": {
+        "tours": 40,
+        "medianVsTourPct": 2.0,
+        "belowTourMedian": 17
+      },
+      "vivid-seats:sep": {
+        "tours": 20,
+        "medianVsTourPct": 0.2,
+        "belowTourMedian": 9
+      },
+      "ticketnetwork:oct": {
+        "tours": 46,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 20
+      },
+      "ticketnetwork:sep": {
+        "tours": 23,
+        "medianVsTourPct": -10.0,
+        "belowTourMedian": 16
+      }
+    },
+    {
+      "city": "Austin",
+      "vivid-seats:oct": {
+        "tours": 31,
+        "medianVsTourPct": -6.3,
+        "belowTourMedian": 18
+      },
+      "vivid-seats:sep": {
+        "tours": 17,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 7
+      },
+      "ticketnetwork:oct": {
+        "tours": 32,
+        "medianVsTourPct": 2.5,
+        "belowTourMedian": 13
+      },
+      "ticketnetwork:sep": {
+        "tours": 19,
+        "medianVsTourPct": 0.4,
+        "belowTourMedian": 9
+      }
+    },
+    {
+      "city": "Baltimore",
+      "vivid-seats:oct": {
+        "tours": 15,
+        "medianVsTourPct": 1.3,
+        "belowTourMedian": 6
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 16,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 7
+      },
+      "ticketnetwork:sep": null
+    },
+    {
+      "city": "Boston",
+      "vivid-seats:oct": {
+        "tours": 46,
+        "medianVsTourPct": 3.1,
+        "belowTourMedian": 18
+      },
+      "vivid-seats:sep": {
+        "tours": 24,
+        "medianVsTourPct": 0.4,
+        "belowTourMedian": 12
+      },
+      "ticketnetwork:oct": {
+        "tours": 51,
+        "medianVsTourPct": 2.4,
+        "belowTourMedian": 22
+      },
+      "ticketnetwork:sep": {
+        "tours": 28,
+        "medianVsTourPct": 1.6,
+        "belowTourMedian": 12
+      }
+    },
+    {
+      "city": "Charlotte",
+      "vivid-seats:oct": {
+        "tours": 30,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 13
+      },
+      "vivid-seats:sep": {
+        "tours": 19,
+        "medianVsTourPct": -3.8,
+        "belowTourMedian": 11
+      },
+      "ticketnetwork:oct": {
+        "tours": 34,
+        "medianVsTourPct": -2.0,
+        "belowTourMedian": 19
+      },
+      "ticketnetwork:sep": {
+        "tours": 19,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 9
+      }
+    },
+    {
+      "city": "Chicago",
+      "vivid-seats:oct": {
+        "tours": 43,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 20
+      },
+      "vivid-seats:sep": {
+        "tours": 24,
+        "medianVsTourPct": 7.5,
+        "belowTourMedian": 9
+      },
+      "ticketnetwork:oct": {
+        "tours": 53,
+        "medianVsTourPct": 4.0,
+        "belowTourMedian": 17
+      },
+      "ticketnetwork:sep": {
+        "tours": 27,
+        "medianVsTourPct": 1.4,
+        "belowTourMedian": 10
+      }
+    },
+    {
+      "city": "Cleveland",
+      "vivid-seats:oct": {
+        "tours": 13,
+        "medianVsTourPct": -9.6,
+        "belowTourMedian": 10
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 17,
+        "medianVsTourPct": -9.5,
+        "belowTourMedian": 11
+      },
+      "ticketnetwork:sep": null
+    },
+    {
+      "city": "Columbus",
+      "vivid-seats:oct": {
+        "tours": 19,
+        "medianVsTourPct": -1.0,
+        "belowTourMedian": 11
+      },
+      "vivid-seats:sep": {
+        "tours": 10,
+        "medianVsTourPct": -2.1,
+        "belowTourMedian": 6
+      },
+      "ticketnetwork:oct": {
+        "tours": 23,
+        "medianVsTourPct": -11.7,
+        "belowTourMedian": 17
+      },
+      "ticketnetwork:sep": {
+        "tours": 10,
+        "medianVsTourPct": -12.5,
+        "belowTourMedian": 8
+      }
+    },
+    {
+      "city": "Dallas",
+      "vivid-seats:oct": {
+        "tours": 37,
+        "medianVsTourPct": 0.3,
+        "belowTourMedian": 16
+      },
+      "vivid-seats:sep": {
+        "tours": 21,
+        "medianVsTourPct": 5.4,
+        "belowTourMedian": 7
+      },
+      "ticketnetwork:oct": {
+        "tours": 47,
+        "medianVsTourPct": 3.3,
+        "belowTourMedian": 19
+      },
+      "ticketnetwork:sep": {
+        "tours": 26,
+        "medianVsTourPct": 9.5,
+        "belowTourMedian": 8
+      }
+    },
+    {
+      "city": "Denver",
+      "vivid-seats:oct": {
+        "tours": 33,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 15
+      },
+      "vivid-seats:sep": {
+        "tours": 20,
+        "medianVsTourPct": -3.7,
+        "belowTourMedian": 13
+      },
+      "ticketnetwork:oct": {
+        "tours": 31,
+        "medianVsTourPct": -2.1,
+        "belowTourMedian": 16
+      },
+      "ticketnetwork:sep": {
+        "tours": 19,
+        "medianVsTourPct": -2.9,
+        "belowTourMedian": 12
+      }
+    },
+    {
+      "city": "Detroit",
+      "vivid-seats:oct": {
+        "tours": 27,
+        "medianVsTourPct": -5.6,
+        "belowTourMedian": 18
+      },
+      "vivid-seats:sep": {
+        "tours": 10,
+        "medianVsTourPct": -7.0,
+        "belowTourMedian": 6
+      },
+      "ticketnetwork:oct": {
+        "tours": 32,
+        "medianVsTourPct": -10.5,
+        "belowTourMedian": 24
+      },
+      "ticketnetwork:sep": {
+        "tours": 12,
+        "medianVsTourPct": -1.2,
+        "belowTourMedian": 6
+      }
+    },
+    {
+      "city": "Grand Rapids",
+      "vivid-seats:oct": {
+        "tours": 14,
+        "medianVsTourPct": 1.2,
+        "belowTourMedian": 7
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 15,
+        "medianVsTourPct": -2.1,
+        "belowTourMedian": 9
+      },
+      "ticketnetwork:sep": null
+    },
+    {
+      "city": "Houston",
+      "vivid-seats:oct": {
+        "tours": 36,
+        "medianVsTourPct": -1.3,
+        "belowTourMedian": 21
+      },
+      "vivid-seats:sep": {
+        "tours": 17,
+        "medianVsTourPct": -3.6,
+        "belowTourMedian": 10
+      },
+      "ticketnetwork:oct": {
+        "tours": 42,
+        "medianVsTourPct": -3.2,
+        "belowTourMedian": 25
+      },
+      "ticketnetwork:sep": {
+        "tours": 21,
+        "medianVsTourPct": 8.0,
+        "belowTourMedian": 7
+      }
+    },
+    {
+      "city": "Indianapolis",
+      "vivid-seats:oct": {
+        "tours": 17,
+        "medianVsTourPct": -5.0,
+        "belowTourMedian": 12
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 18,
+        "medianVsTourPct": -3.0,
+        "belowTourMedian": 11
+      },
+      "ticketnetwork:sep": {
+        "tours": 10,
+        "medianVsTourPct": -5.3,
+        "belowTourMedian": 7
+      }
+    },
+    {
+      "city": "Kansas City",
+      "vivid-seats:oct": {
+        "tours": 20,
+        "medianVsTourPct": -6.5,
+        "belowTourMedian": 15
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 22,
+        "medianVsTourPct": -9.6,
+        "belowTourMedian": 14
+      },
+      "ticketnetwork:sep": null
+    },
+    {
+      "city": "Las Vegas",
+      "vivid-seats:oct": {
+        "tours": 30,
+        "medianVsTourPct": 0.5,
+        "belowTourMedian": 11
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 34,
+        "medianVsTourPct": 1.1,
+        "belowTourMedian": 9
+      },
+      "ticketnetwork:sep": {
+        "tours": 15,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 6
+      }
+    },
+    {
+      "city": "Los Angeles",
+      "vivid-seats:oct": {
+        "tours": 46,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 21
+      },
+      "vivid-seats:sep": {
+        "tours": 22,
+        "medianVsTourPct": 7.2,
+        "belowTourMedian": 10
+      },
+      "ticketnetwork:oct": {
+        "tours": 53,
+        "medianVsTourPct": -1.8,
+        "belowTourMedian": 27
+      },
+      "ticketnetwork:sep": {
+        "tours": 30,
+        "medianVsTourPct": 4.3,
+        "belowTourMedian": 13
+      }
+    },
+    {
+      "city": "Miami",
+      "vivid-seats:oct": {
+        "tours": 13,
+        "medianVsTourPct": -6.8,
+        "belowTourMedian": 7
+      },
+      "vivid-seats:sep": {
+        "tours": 10,
+        "medianVsTourPct": -10.2,
+        "belowTourMedian": 7
+      },
+      "ticketnetwork:oct": {
+        "tours": 16,
+        "medianVsTourPct": -5.5,
+        "belowTourMedian": 13
+      },
+      "ticketnetwork:sep": {
+        "tours": 10,
+        "medianVsTourPct": -7.6,
+        "belowTourMedian": 7
+      }
+    },
+    {
+      "city": "Milwaukee",
+      "vivid-seats:oct": {
+        "tours": 15,
+        "medianVsTourPct": 8.9,
+        "belowTourMedian": 4
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 16,
+        "medianVsTourPct": -1.1,
+        "belowTourMedian": 8
+      },
+      "ticketnetwork:sep": null
+    },
+    {
+      "city": "Minneapolis",
+      "vivid-seats:oct": {
+        "tours": 17,
+        "medianVsTourPct": 2.2,
+        "belowTourMedian": 7
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 25,
+        "medianVsTourPct": 5.9,
+        "belowTourMedian": 9
+      },
+      "ticketnetwork:sep": {
+        "tours": 13,
+        "medianVsTourPct": 11.4,
+        "belowTourMedian": 4
+      }
+    },
+    {
+      "city": "Nashville",
+      "vivid-seats:oct": {
+        "tours": 39,
+        "medianVsTourPct": -4.7,
+        "belowTourMedian": 24
+      },
+      "vivid-seats:sep": {
+        "tours": 15,
+        "medianVsTourPct": -3.6,
+        "belowTourMedian": 9
+      },
+      "ticketnetwork:oct": {
+        "tours": 42,
+        "medianVsTourPct": -9.2,
+        "belowTourMedian": 26
+      },
+      "ticketnetwork:sep": {
+        "tours": 21,
+        "medianVsTourPct": -22.3,
+        "belowTourMedian": 14
+      }
+    },
+    {
+      "city": "New York",
+      "vivid-seats:oct": {
+        "tours": 53,
+        "medianVsTourPct": 2.8,
+        "belowTourMedian": 17
+      },
+      "vivid-seats:sep": {
+        "tours": 26,
+        "medianVsTourPct": 12.6,
+        "belowTourMedian": 2
+      },
+      "ticketnetwork:oct": {
+        "tours": 56,
+        "medianVsTourPct": 3.3,
+        "belowTourMedian": 24
+      },
+      "ticketnetwork:sep": {
+        "tours": 31,
+        "medianVsTourPct": 13.3,
+        "belowTourMedian": 9
+      }
+    },
+    {
+      "city": "Orlando",
+      "vivid-seats:oct": {
+        "tours": 24,
+        "medianVsTourPct": 0.9,
+        "belowTourMedian": 8
+      },
+      "vivid-seats:sep": {
+        "tours": 13,
+        "medianVsTourPct": -2.7,
+        "belowTourMedian": 9
+      },
+      "ticketnetwork:oct": {
+        "tours": 29,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 13
+      },
+      "ticketnetwork:sep": {
+        "tours": 14,
+        "medianVsTourPct": -1.6,
+        "belowTourMedian": 8
+      }
+    },
+    {
+      "city": "Philadelphia",
+      "vivid-seats:oct": {
+        "tours": 31,
+        "medianVsTourPct": 3.4,
+        "belowTourMedian": 12
+      },
+      "vivid-seats:sep": {
+        "tours": 20,
+        "medianVsTourPct": 1.5,
+        "belowTourMedian": 9
+      },
+      "ticketnetwork:oct": {
+        "tours": 38,
+        "medianVsTourPct": -1.6,
+        "belowTourMedian": 19
+      },
+      "ticketnetwork:sep": {
+        "tours": 21,
+        "medianVsTourPct": 10.7,
+        "belowTourMedian": 9
+      }
+    },
+    {
+      "city": "Phoenix",
+      "vivid-seats:oct": {
+        "tours": 29,
+        "medianVsTourPct": 3.4,
+        "belowTourMedian": 12
+      },
+      "vivid-seats:sep": {
+        "tours": 14,
+        "medianVsTourPct": 4.3,
+        "belowTourMedian": 6
+      },
+      "ticketnetwork:oct": {
+        "tours": 37,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 16
+      },
+      "ticketnetwork:sep": {
+        "tours": 18,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 6
+      }
+    },
+    {
+      "city": "Pittsburgh",
+      "vivid-seats:oct": {
+        "tours": 20,
+        "medianVsTourPct": -6.1,
+        "belowTourMedian": 13
+      },
+      "vivid-seats:sep": {
+        "tours": 11,
+        "medianVsTourPct": -5.2,
+        "belowTourMedian": 6
+      },
+      "ticketnetwork:oct": {
+        "tours": 23,
+        "medianVsTourPct": -9.8,
+        "belowTourMedian": 17
+      },
+      "ticketnetwork:sep": {
+        "tours": 11,
+        "medianVsTourPct": -8.3,
+        "belowTourMedian": 8
+      }
+    },
+    {
+      "city": "Portland",
+      "vivid-seats:oct": {
+        "tours": 26,
+        "medianVsTourPct": 8.6,
+        "belowTourMedian": 7
+      },
+      "vivid-seats:sep": {
+        "tours": 13,
+        "medianVsTourPct": 4.9,
+        "belowTourMedian": 5
+      },
+      "ticketnetwork:oct": {
+        "tours": 31,
+        "medianVsTourPct": 11.4,
+        "belowTourMedian": 11
+      },
+      "ticketnetwork:sep": {
+        "tours": 19,
+        "medianVsTourPct": -2.6,
+        "belowTourMedian": 10
+      }
+    },
+    {
+      "city": "Raleigh",
+      "vivid-seats:oct": {
+        "tours": 13,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 6
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 14,
+        "medianVsTourPct": 1.6,
+        "belowTourMedian": 6
+      },
+      "ticketnetwork:sep": null
+    },
+    {
+      "city": "Sacramento",
+      "vivid-seats:oct": {
+        "tours": 14,
+        "medianVsTourPct": -2.2,
+        "belowTourMedian": 8
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 17,
+        "medianVsTourPct": 0.7,
+        "belowTourMedian": 7
+      },
+      "ticketnetwork:sep": null
+    },
+    {
+      "city": "Salt Lake City",
+      "vivid-seats:oct": {
+        "tours": 16,
+        "medianVsTourPct": 18.3,
+        "belowTourMedian": 4
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 16,
+        "medianVsTourPct": 25.1,
+        "belowTourMedian": 5
+      },
+      "ticketnetwork:sep": null
+    },
+    {
+      "city": "San Antonio",
+      "vivid-seats:oct": {
+        "tours": 12,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 4
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 18,
+        "medianVsTourPct": -14.2,
+        "belowTourMedian": 11
+      },
+      "ticketnetwork:sep": {
+        "tours": 10,
+        "medianVsTourPct": -8.8,
+        "belowTourMedian": 6
+      }
+    },
+    {
+      "city": "San Diego",
+      "vivid-seats:oct": {
+        "tours": 13,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 5
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 26,
+        "medianVsTourPct": -5.8,
+        "belowTourMedian": 15
+      },
+      "ticketnetwork:sep": {
+        "tours": 15,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 7
+      }
+    },
+    {
+      "city": "San Francisco",
+      "vivid-seats:oct": {
+        "tours": 36,
+        "medianVsTourPct": 2.8,
+        "belowTourMedian": 13
+      },
+      "vivid-seats:sep": {
+        "tours": 14,
+        "medianVsTourPct": 10.6,
+        "belowTourMedian": 3
+      },
+      "ticketnetwork:oct": {
+        "tours": 41,
+        "medianVsTourPct": 14.7,
+        "belowTourMedian": 14
+      },
+      "ticketnetwork:sep": {
+        "tours": 19,
+        "medianVsTourPct": 11.1,
+        "belowTourMedian": 6
+      }
+    },
+    {
+      "city": "Seattle",
+      "vivid-seats:oct": {
+        "tours": 41,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 20
+      },
+      "vivid-seats:sep": {
+        "tours": 19,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 9
+      },
+      "ticketnetwork:oct": {
+        "tours": 48,
+        "medianVsTourPct": -1.7,
+        "belowTourMedian": 25
+      },
+      "ticketnetwork:sep": {
+        "tours": 24,
+        "medianVsTourPct": -3.0,
+        "belowTourMedian": 15
+      }
+    },
+    {
+      "city": "Tampa",
+      "vivid-seats:oct": {
+        "tours": 13,
+        "medianVsTourPct": -0.9,
+        "belowTourMedian": 7
+      },
+      "vivid-seats:sep": null,
+      "ticketnetwork:oct": {
+        "tours": 14,
+        "medianVsTourPct": 0.0,
+        "belowTourMedian": 6
+      },
+      "ticketnetwork:sep": {
+        "tours": 10,
+        "medianVsTourPct": -7.7,
+        "belowTourMedian": 6
+      }
+    },
+    {
+      "city": "Washington",
+      "vivid-seats:oct": {
+        "tours": 22,
+        "medianVsTourPct": -0.4,
+        "belowTourMedian": 11
+      },
+      "vivid-seats:sep": {
+        "tours": 12,
+        "medianVsTourPct": 11.5,
+        "belowTourMedian": 4
+      },
+      "ticketnetwork:oct": {
+        "tours": 31,
+        "medianVsTourPct": 9.0,
+        "belowTourMedian": 9
+      },
+      "ticketnetwork:sep": {
+        "tours": 14,
+        "medianVsTourPct": 20.3,
+        "belowTourMedian": 4
+      }
+    }
+  ]
+}

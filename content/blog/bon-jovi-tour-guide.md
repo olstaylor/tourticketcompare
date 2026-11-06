@@ -4,7 +4,7 @@ seo_title: "Bon Jovi tour dates and prices"
 description: "Where each ticket site listed its lowest Bon Jovi prices by city on 2026-11-06, with dates, venues and how to compare your own date."
 summary: "Listed prices captured on 2026-11-06 for Bon Jovi in East Rutherford, Chicago, Foxborough and Toronto, set out by city and site so you can choose a show and compare the exact date before paying."
 date: 2026-11-06
-status: draft
+status: published
 tags: [tour-buying]
 related_artists: [bon-jovi]
 related_guides: [how-to-read-a-ticket-listing, primary-vs-resale-concert-tickets, ticket-delivery-and-transfer-timing]
@@ -17,6 +17,10 @@ sources:
     url: "https://www.ticketmaster.com/bon-jovi-forever-tour-foxborough-massachusetts-07-28-2027/event/01006550A128B0D0"
   - label: "Ticketmaster: Bon Jovi, Rogers Stadium, Toronto, 2027-08-04"
     url: "https://www.ticketmaster.ca/bon-jovi-toronto-ontario-08-04-2027/event/10006550982280F5"
+  - label: "Ticketmaster: Bon Jovi, Rogers Stadium, Toronto, 2027-08-07"
+    url: "https://www.ticketmaster.ca/bon-jovi-forever-tour-toronto-ontario-08-07-2027/event/1000655B041F7CCB"
+  - label: "Ticketmaster: Bon Jovi, Notre Dame Stadium, South Bend, 2027-10-02"
+    url: "https://www.ticketmaster.com/bon-jovi-forever-tour-south-bend-indiana-10-02-2027/event/050065640B452301"
 ---
 
 On 2026-11-06, StubHub International's lowest listed price among these dates was USD 80 for East Rutherford, TicketNetwork's was USD 116 for Foxborough, and Vivid Seats' was USD 97 for Toronto. The captured data holds no 30-day movement for any of these dates, so treat this as one day's picture rather than a trend.
@@ -34,7 +38,7 @@ Each site is its own separate listing. The figures sit side by side so you can s
 | Foxborough | [2027-07-28, Gillette Stadium](https://www.ticketmaster.com/bon-jovi-forever-tour-foxborough-massachusetts-07-28-2027/event/01006550A128B0D0) | USD 92 | USD 116 | USD 112 |
 | Toronto | [2027-08-04, Rogers Stadium](https://www.ticketmaster.ca/bon-jovi-toronto-ontario-08-04-2027/event/10006550982280F5) | no figure captured | no figure captured | USD 97 |
 
-This table carries one date per city, so it is not the full list. The [Bon Jovi artist board](/artists/bon-jovi) has other tracked dates, both in these cities and elsewhere.
+Two more dates are not in this table because they are not on general sale yet: Toronto on 2027-08-07 (Rogers Stadium) and South Bend on 2027-10-02 (Notre Dame Stadium). Ticketmaster lists their public on-sale for 2026-11-13 at 15:00 UTC. This table carries one date per city, so it is not the full list. The [Bon Jovi artist board](/artists/bon-jovi) has other tracked dates, both in these cities and elsewhere.
 
 Reading down each site's column tells you where that site's lowest listing landed.
 

@@ -2420,7 +2420,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/meshuggah-the-forty-year-anomaly-w-periphery--vildhjarta-tickets/325258569?language=en-us",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-06",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2455,27 +2455,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1kGPab4t",
     "timezone": "Europe/Warsaw",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T11:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation sp. z o.o."
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-03T11:00:00Z",
-        "end": "2026-11-06T11:00:00Z"
-      },
-      {
-        "name": "Pekao Mastercard® Presale",
-        "start": "2026-11-04T11:00:00Z",
-        "end": "2026-11-06T11:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-05T11:00:00Z",
-        "end": "2026-11-06T10:30:00Z"
-      }
     ]
   },
   {
@@ -2494,7 +2476,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/meshuggah-the-forty-year-anomaly-dublin-27-10-2027/event/1800655CAF2540DD",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2529,28 +2511,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvOZ_4GkwRafdq",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T11:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "DME PROMOTIONS LTD",
       "MCD PRODUCTIONS"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-03T11:00:00Z",
-        "end": "2026-11-06T10:00:00Z"
-      },
-      {
-        "name": "Three+ Presale",
-        "start": "2026-11-04T11:00:00Z",
-        "end": "2026-11-06T10:00:00Z"
-      },
-      {
-        "name": "MCD Presale",
-        "start": "2026-11-05T11:00:00Z",
-        "end": "2026-11-06T10:00:00Z"
-      }
     ]
   },
   {
@@ -2569,7 +2533,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/meshuggah-the-fortyyear-anomaly-manchester-29-10-2027/event/3500655D036AE3B9",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2604,25 +2568,7 @@
     },
     "ticketmaster_discovery_event_id": "1AdfZ_4GkVdQmCy",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T11:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-03T11:00:00Z",
-        "end": "2026-11-06T10:00:00Z"
-      },
-      {
-        "name": "Priority from O2",
-        "start": "2026-11-04T11:00:00Z",
-        "end": "2026-11-06T10:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-05T11:00:00Z",
-        "end": "2026-11-06T10:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-meshuggah-2027-london-1adjz_4gkbbdf9c",
@@ -2640,7 +2586,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/meshuggah-the-fortyyear-anomaly-london-30-10-2027/event/3700655E980D45CE",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2682,15 +2628,7 @@
     },
     "ticketmaster_discovery_event_id": "1AdjZ_4GkBbdf9C",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T11:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-03T11:00:00Z",
-        "end": "2026-11-06T10:00:00Z"
-      }
-    ],
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/meshuggah-tickets-london-ovo-arena-wembley-30-10-2027/event/107679704"
   }
 ]

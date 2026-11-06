@@ -61,7 +61,7 @@ import { deriveEventContext, EVENT_CITY_NEIGHBOUR_DAYS, EVENT_VENUE_NEIGHBOUR_DA
 import { deriveEventPriceRange, fetchEventPriceRange, isRicherEventPilot } from "./_event-price-range.js";
 import { venueFactsFor } from "./_venue-facts.js";
 import { EVENT_INDEXED_COHORT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
-import { organizerNames, eventEndDate } from "./_event-metadata.js";
+import { organizerNames, eventEndDate, validTicketLimit } from "./_event-metadata.js";
 import { eventPreviousStartDate } from "./_event-reschedule.js";
 import {
   BLOG_INDEX_PATH,
@@ -5315,6 +5315,8 @@ function enrichEventAsShow(ev) {
     dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
     organizer_names: organizerNames(ev.organizer_names, [ev.artist_name, ev.venue]),
     end_datetime_iso: eventEndDate(ev),
+    ticket_limit: validTicketLimit(ev.ticket_limit),
+    legal_age_enforced: ev.legal_age_enforced === true,
     previous_start_date: eventPreviousStartDate(ev),
     previous_start_timezone: String(ev.previous_start_timezone || "").trim(),
     // Required to render dateTimeISO at the venue rather than in UTC — see
@@ -7646,6 +7648,10 @@ function renderEventPageBody(route, events, env) {
     ["Date", `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(dateLabel)}</time>`],
     localTime ? ["Start time", `${escapeHtml(localTime)} local time`] : null,
     status ? ["Status", escapeHtml(status)] : null,
+    // Buying facts from this date's own Ticketmaster record (owner pick
+    // 2026-11-06). Absent facts show nothing; false is never shown as all-ages.
+    show.ticket_limit ? ["Ticket limit", escapeHtml(`${show.ticket_limit} per buyer on Ticketmaster`)] : null,
+    show.legal_age_enforced ? ["Age rule", "Age-restricted: Ticketmaster lists a legal-age rule for this date. Check the venue's ID policy."] : null,
     previousDate ? ["Previously scheduled", `<time datetime="${escapeAttr(previousDate)}">${escapeHtml(formatShowDateServer(previousDate, show.previous_start_timezone))}</time>`] : null,
     verified ? ["Details last checked", escapeHtml(verified)] : null
   ].filter(Boolean);

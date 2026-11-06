@@ -360,6 +360,11 @@ def run_self_test() -> int:
         {"name": "venue account is not an organizer", "mutate": lambda event: event.__setitem__("organizer_names", ["TEST-ARENA"]), "expect": "organizer_names: must contain plain official organization names"},
         {"name": "anonymous promoter label", "mutate": lambda event: event.__setitem__("organizer_names", ["PROMOTED BY VENUE"]), "expect": "organizer_names: must contain plain official organization names"},
         {"name": "internal promoter price label", "mutate": lambda event: event.__setitem__("organizer_names", ["MONDIAL PRICE 1"]), "expect": "organizer_names: must contain plain official organization names"},
+        {"name": "ticket limit out of range", "mutate": lambda event: event.__setitem__("ticket_limit", 0), "expect": "ticket_limit: must be a whole number"},
+        {"name": "ticket limit as text", "mutate": lambda event: event.__setitem__("ticket_limit", "4"), "expect": "ticket_limit: must be a whole number"},
+        {"name": "legal age false is not stored", "mutate": lambda event: event.__setitem__("legal_age_enforced", False), "expect": "legal_age_enforced: only an explicit true"},
+        {"name": "placeholder genre", "mutate": lambda event: event.__setitem__("genre", "Undefined"), "expect": "genre: must be a plain genre name"},
+        {"name": "unsafe genre", "mutate": lambda event: event.__setitem__("genre", "<b>Rock</b>"), "expect": "genre: must be a plain genre name"},
         {"name": "unsafe organizer", "mutate": lambda event: event.__setitem__("organizer_names", ["<script>"]), "expect": "organizer_names: must contain plain official organization names"},
         {"name": "event end before start", "mutate": lambda event: event.__setitem__("end_datetime_iso", "2026-06-01T19:00:00Z"), "expect": "end_datetime_iso: requires an explicit event end after the known event start"},
         {"name": "naive event end", "mutate": lambda event: event.__setitem__("end_datetime_iso", "2026-06-01T23:00:00"), "expect": "end_datetime_iso: requires an explicit event end after the known event start"},
@@ -490,6 +495,7 @@ def run_self_test() -> int:
     ]
     positive_cases = [
         {"name": "official organizer and event end", "mutate": lambda event: event.update(organizer_names=["Official Promoter"], end_datetime_iso="2026-06-01T23:00:00Z")},
+        {"name": "ticketmaster buying facts", "mutate": lambda event: event.update(ticket_limit=4, legal_age_enforced=True, genre="R&B")},
         {"name": "event end with venue local start", "mutate": lambda event: event.update(datetime_iso="2026-06-01T20:00:00", timezone="America/New_York", end_datetime_iso="2026-06-02T03:00:00Z")},
         {
             "name": "recorded Ticketmaster lifecycle status",
@@ -880,6 +886,17 @@ def main() -> int:
                     start = None
             if not isinstance(end_value, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2}(?:\.\d+)?)?(?:Z|[+-]\d{2}:?\d{2})", end_value) or not end or not end.tzinfo or not start or not start.tzinfo or end <= start:
                 errors.append(f"{prefix}.end_datetime_iso: requires an explicit event end after the known event start")
+
+        # Optional Ticketmaster buying facts (owner pick 2026-11-06).
+        ticket_limit = event.get("ticket_limit")
+        if ticket_limit is not None and (isinstance(ticket_limit, bool) or not isinstance(ticket_limit, int) or not 1 <= ticket_limit <= 50):
+            errors.append(f"{prefix}.ticket_limit: must be a whole number from 1 to 50")
+        if "legal_age_enforced" in event and event.get("legal_age_enforced") is not True:
+            errors.append(f"{prefix}.legal_age_enforced: only an explicit true is stored")
+        genre = event.get("genre")
+        if genre is not None and (not isinstance(genre, str) or not genre.strip() or len(genre) > 40 or genre != " ".join(genre.split())
+                or not re.fullmatch(r"[\w &'/.,-]+", genre) or re.fullmatch(r"(?i)undefined|other|miscellaneous|n/a|none|tba|tbd", genre)):
+            errors.append(f"{prefix}.genre: must be a plain genre name")
 
         # Rescheduling history may be unknown; never accept naive datetimes.
         previous_start_date = event.get("previous_start_date")

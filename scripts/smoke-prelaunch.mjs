@@ -1620,7 +1620,7 @@ assert(
 );
 assert(!ttcHomeJs.includes("main.replaceChildren") && !ttcHomeJs.includes('getElementById("ttc-main").innerHTML'), "homepage enhancement must not replace the server-rendered visual DOM");
 assert(ttcHomeJs.includes("Compare resale ticket prices for your show, site by site."), "homepage should lead with the comparison intent");
-assert(ttcHomeJs.includes("then check the final total on the ticket site."), "homepage should tell fans where the final total is confirmed");
+assert(ttcHomeJs.includes("then confirm the total on the ticket site."), "homepage should tell fans where the final total is confirmed");
 assert(!ttcHomeJs.includes("human-checked") && !ttcHomeJs.includes("reviewed by a human"), "homepage should not claim every automated verification is performed by a human");
 assert(!ttcHomeJs.includes("statsSection(DATA)"), "homepage should not render the stale statistics strip");
 assert(!ttcHomeJs.includes("never show live prices"), "homepage should not make an absolute no-price claim that contradicts approved snapshot support");

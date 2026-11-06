@@ -828,8 +828,8 @@ async function resolveRoute(pathname, env) {
       type: "worth-waiting",
       path,
       indexable: worth.indexable,
-      title: "Is It Worth Waiting for Cheaper Concert Tickets? | TourTicketCompare",
-      description: "How often resale ticket prices fell after a tour's first day on our records, and whether each US tour's listed prices have gone down or up lately. Counts and sample sizes, not a forecast.",
+      title: "Is It Worth Waiting to Buy Tickets? | TourTicketCompare",
+      description: "How often resale ticket prices fell after a tour's first recorded day, and which US tours have seen listed prices fall or rise lately. Counts, not a forecast.",
       worth,
       breadcrumb: [{ name: "Is it worth waiting?", path }]
     };

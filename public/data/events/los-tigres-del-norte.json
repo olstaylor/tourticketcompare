@@ -1650,12 +1650,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357209",
+        "url": "https://www.ticketnetwork.com/en/p/8357209",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7zF8",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-05T17:00:00Z"
+    "public_onsale_at": "2026-11-05T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357209"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-los-angeles-z7r9jz1aa7mao",

@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048520",
+        "url": "https://www.ticketnetwork.com/en/p/8048520",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_GEDaABt",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048520"
   },
   {
     "id": "tm-lenny-pearce-2026-austin-g5diz_uux5j8i",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048522",
+        "url": "https://www.ticketnetwork.com/en/p/8048522",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_G0P_MtS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048522"
   },
   {
     "id": "tm-lenny-pearce-2026-houston-g5diz_geaxmd2",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048523",
+        "url": "https://www.ticketnetwork.com/en/p/8048523",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_GEaXmD2",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048523"
   },
   {
     "id": "tm-lenny-pearce-2026-orlando-17fov0g6g3w_f1c",
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048524",
+        "url": "https://www.ticketnetwork.com/en/p/8048524",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G6G3w_f1c",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048524"
   },
   {
     "id": "tm-lenny-pearce-2026-fort-lauderdale-z7r9jz1a7ppo0",
@@ -364,11 +396,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048526",
+        "url": "https://www.ticketnetwork.com/en/p/8048526",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_GCD9HPh",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048526"
   },
   {
     "id": "tm-lenny-pearce-2026-atlanta-z7r9jz1a7pnza",
@@ -417,11 +457,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048842",
+        "url": "https://www.ticketnetwork.com/en/p/8048842",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNZA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048842"
   },
   {
     "id": "tm-lenny-pearce-2026-nashville-z7r9jz1a7p0bp",
@@ -470,11 +518,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048527",
+        "url": "https://www.ticketnetwork.com/en/p/8048527",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0bp",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048527"
   },
   {
     "id": "tm-lenny-pearce-2026-norfolk-z7r9jz1a7ptxe",
@@ -523,11 +579,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048656",
+        "url": "https://www.ticketnetwork.com/en/p/8048656",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ptxe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048656"
   },
   {
     "id": "tm-lenny-pearce-2026-richmond-z7r9jz1a7ptxv",
@@ -576,11 +640,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048843",
+        "url": "https://www.ticketnetwork.com/en/p/8048843",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ptxv",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048843"
   },
   {
     "id": "tm-lenny-pearce-2026-pittsburgh-z7r9jz1a7pnqd",
@@ -629,11 +701,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048659",
+        "url": "https://www.ticketnetwork.com/en/p/8048659",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNqd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048659"
   },
   {
     "id": "tm-lenny-pearce-2026-silver-spring-17a8v0g6gpl1zid",
@@ -682,11 +762,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048528",
+        "url": "https://www.ticketnetwork.com/en/p/8048528",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6GpL1ziD",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048528"
   },
   {
     "id": "tm-lenny-pearce-2026-new-york-k7vgf_gmumtdg",

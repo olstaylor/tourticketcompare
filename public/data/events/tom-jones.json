@@ -238,11 +238,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7997398",
-        "url": "https://www.ticketnetwork.com/en/p/7997398",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_58XADKo",
@@ -253,7 +253,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997398",
+    "ticketnetwork_url": "",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-10-27T03:00:00Z",
     "previous_start_timezone": "America/Los_Angeles"

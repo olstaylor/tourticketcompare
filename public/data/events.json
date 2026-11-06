@@ -126735,11 +126735,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8047966",
-        "url": "https://www.ticketnetwork.com/en/p/8047966",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8047966",
@@ -126752,7 +126752,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PK0e",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8047966",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8047966/Sienna-Spiro-tickets-Wed-Nov-4-2026-Vogue-Theatre-BC"
   },
   {
@@ -149162,11 +149162,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8268850",
-        "url": "https://www.ticketnetwork.com/en/p/8268850",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8268850",
@@ -149179,7 +149179,7 @@
     "ticketmaster_discovery_event_id": "1Av0Z_3GkSHQv4X",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268850",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268850/Dylan-Scott-tickets-Sat-Feb-27-2027-Gila-River-Hotels-Casinos-Wild-Horse-Pass",
     "presales": [
       {
@@ -236911,11 +236911,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7874793",
-        "url": "https://www.ticketnetwork.com/en/p/7874793",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_FGkn7svza",
@@ -236923,7 +236923,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874793/Noah-Kahan-tickets-Thu-Nov-5-2026-OVO-Hydro",
     "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-glasgow-ovo-hydro-arena-glasgow-5-11-2026/event/107155374",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874793",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "DF CONCERTS",
       "SCOTTISH EVENT CAMPUS LIMITED"
@@ -250240,11 +250240,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8113675",
-        "url": "https://www.ticketnetwork.com/en/p/8113675",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8113675",
@@ -250264,7 +250264,7 @@
     "ticketmaster_discovery_event_id": "17AYv0G6Ck11zds",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113675",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113675/Santana-tickets-Wed-Nov-4-2026-House-Of-Blues-Las-Vegas",
     "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-4-2026/event/107469464",
     "organizer_names": [
@@ -274723,11 +274723,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7997398",
-        "url": "https://www.ticketnetwork.com/en/p/7997398",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_58XADKo",
@@ -274738,7 +274738,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997398",
+    "ticketnetwork_url": "",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-10-27T03:00:00Z",
     "previous_start_timezone": "America/Los_Angeles"
@@ -283097,11 +283097,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7999841",
-        "url": "https://www.ticketnetwork.com/en/p/7999841",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5rA8fba",
@@ -283112,7 +283112,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7999841",
+    "ticketnetwork_url": "",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-03T04:30:00Z",
     "previous_start_timezone": "America/Los_Angeles"
@@ -314278,11 +314278,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8308713",
-        "url": "https://www.ticketnetwork.com/en/p/8308713",
-        "verified": true,
-        "last_verified_at": "2026-10-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -314295,7 +314295,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe__3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308713",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -318546,12 +318546,20 @@
         "verified": true,
         "last_verified_at": "2026-11-05",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8351215",
+        "url": "https://www.ticketnetwork.com/en/p/8351215",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeoPK",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8351215/Dropkick-Murphys-tickets-Fri-Feb-12-2027-PNE-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8351215/Dropkick-Murphys-tickets-Fri-Feb-12-2027-PNE-Forum",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8351215"
   },
   {
     "id": "tm-dropkick-murphys-2027-penticton-z7r9jz1aae8_9",
@@ -351715,11 +351723,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7800005",
-        "url": "https://www.ticketnetwork.com/en/p/7800005",
-        "verified": true,
-        "last_verified_at": "2026-11-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7800005",
@@ -351732,7 +351740,7 @@
     "ticketmaster_discovery_event_id": "1avOZ_73704Zd85a",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7800005",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7800005/Cody-Johnson-tickets-Thu-Nov-5-2026-3Arena-Dublin",
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
@@ -367208,12 +367216,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357209",
+        "url": "https://www.ticketnetwork.com/en/p/8357209",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7zF8",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-05T17:00:00Z"
+    "public_onsale_at": "2026-11-05T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357209"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-los-angeles-z7r9jz1aa7mao",
@@ -368149,6 +368165,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357120",
+        "url": "https://www.ticketnetwork.com/en/p/8357120",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kb9Z4vI",
@@ -368164,7 +368187,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-05T21:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357120"
   },
   {
     "id": "tm-mercyme-2027-salisbury-z7r9jz1aa7_aj",
@@ -368213,11 +368237,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8332038",
+        "url": "https://www.ticketnetwork.com/en/p/8332038",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_aJ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332038"
   },
   {
     "id": "tm-lenny-pearce-2026-san-antonio-g5diz_gedaabt",
@@ -368266,11 +368298,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048520",
+        "url": "https://www.ticketnetwork.com/en/p/8048520",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_GEDaABt",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048520"
   },
   {
     "id": "tm-lenny-pearce-2026-austin-g5diz_uux5j8i",
@@ -368372,11 +368412,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048522",
+        "url": "https://www.ticketnetwork.com/en/p/8048522",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_G0P_MtS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048522"
   },
   {
     "id": "tm-lenny-pearce-2026-houston-g5diz_geaxmd2",
@@ -368425,11 +368473,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048523",
+        "url": "https://www.ticketnetwork.com/en/p/8048523",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_GEaXmD2",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048523"
   },
   {
     "id": "tm-lenny-pearce-2026-orlando-17fov0g6g3w_f1c",
@@ -368478,11 +368534,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048524",
+        "url": "https://www.ticketnetwork.com/en/p/8048524",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G6G3w_f1c",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048524"
   },
   {
     "id": "tm-lenny-pearce-2026-fort-lauderdale-z7r9jz1a7ppo0",
@@ -368584,11 +368648,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048526",
+        "url": "https://www.ticketnetwork.com/en/p/8048526",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_GCD9HPh",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048526"
   },
   {
     "id": "tm-lenny-pearce-2026-atlanta-z7r9jz1a7pnza",
@@ -368637,11 +368709,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048842",
+        "url": "https://www.ticketnetwork.com/en/p/8048842",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNZA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048842"
   },
   {
     "id": "tm-lenny-pearce-2026-nashville-z7r9jz1a7p0bp",
@@ -368690,11 +368770,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048527",
+        "url": "https://www.ticketnetwork.com/en/p/8048527",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0bp",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048527"
   },
   {
     "id": "tm-lenny-pearce-2026-norfolk-z7r9jz1a7ptxe",
@@ -368743,11 +368831,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048656",
+        "url": "https://www.ticketnetwork.com/en/p/8048656",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ptxe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048656"
   },
   {
     "id": "tm-lenny-pearce-2026-richmond-z7r9jz1a7ptxv",
@@ -368796,11 +368892,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048843",
+        "url": "https://www.ticketnetwork.com/en/p/8048843",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ptxv",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048843"
   },
   {
     "id": "tm-lenny-pearce-2026-pittsburgh-z7r9jz1a7pnqd",
@@ -368849,11 +368953,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048659",
+        "url": "https://www.ticketnetwork.com/en/p/8048659",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNqd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048659"
   },
   {
     "id": "tm-lenny-pearce-2026-silver-spring-17a8v0g6gpl1zid",
@@ -368902,11 +369014,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048528",
+        "url": "https://www.ticketnetwork.com/en/p/8048528",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6GpL1ziD",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048528"
   },
   {
     "id": "tm-lenny-pearce-2026-new-york-k7vgf_gmumtdg",
@@ -369167,11 +369287,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8027310",
+        "url": "https://www.ticketnetwork.com/en/p/8027310",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Paao",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8027310"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-fairfax-17a8v0g61bgdzeq",
@@ -369220,11 +369348,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977722",
+        "url": "https://www.ticketnetwork.com/en/p/7977722",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61BgDzeQ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977722"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-elizabeth-k7vgf_1yuvjm8",
@@ -369273,11 +369409,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8109393",
+        "url": "https://www.ticketnetwork.com/en/p/8109393",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_1YuVJM8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8109393"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-austin-z7r9jz1aazgav",
@@ -369379,11 +369523,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8174820",
+        "url": "https://www.ticketnetwork.com/en/p/8174820",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ9fb",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8174820"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-catoosa-z7r9jz1aaef8-",
@@ -369485,11 +369637,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8165995",
+        "url": "https://www.ticketnetwork.com/en/p/8165995",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G62Nuo9-m",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165995"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2027-inglewood-vvg10z_udzwaf3",
@@ -369538,11 +369698,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8112228",
+        "url": "https://www.ticketnetwork.com/en/p/8112228",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_uDZWaf3",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8112228"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2027-rosemont-vv1a7zkffgkdqp4jc",
@@ -369591,11 +369759,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8213428",
+        "url": "https://www.ticketnetwork.com/en/p/8213428",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfFGkdQp4jC",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8213428"
   },
   {
     "id": "tm-mat-kearney-2027-kalispell-z7r9jz1aazpfi",
@@ -369644,11 +369820,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8065313",
+        "url": "https://www.ticketnetwork.com/en/p/8065313",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZpfI",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8065313"
   },
   {
     "id": "tm-mat-kearney-2027-durham-z7r9jz1aa7tga",
@@ -369697,11 +369881,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344161",
+        "url": "https://www.ticketnetwork.com/en/p/8344161",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7tGA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344161"
   },
   {
     "id": "tm-mat-kearney-2027-charlotte-g5evz_ftdyo7x",
@@ -369750,11 +369942,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344163",
+        "url": "https://www.ticketnetwork.com/en/p/8344163",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fTDYo7X",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344163"
   },
   {
     "id": "tm-mat-kearney-2027-washington-1a4zk49gkdhkrsu",
@@ -369803,11 +370003,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344165",
+        "url": "https://www.ticketnetwork.com/en/p/8344165",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk49Gkdhkrsu",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344165"
   },
   {
     "id": "tm-mat-kearney-2027-atlantic-city-vv1aezk48gkd-q-0n",
@@ -369962,11 +370170,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344155",
+        "url": "https://www.ticketnetwork.com/en/p/8344155",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16dZk44G3ZAuv5eA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344155"
   },
   {
     "id": "tm-mat-kearney-2027-portland-vv177z_fgkbwdmul",
@@ -370015,11 +370231,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344175",
+        "url": "https://www.ticketnetwork.com/en/p/8344175",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_fGkBWdmUL",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344175"
   },
   {
     "id": "tm-mat-kearney-2027-mckees-rocks-1avbz_fgkh6lcsf",
@@ -370121,11 +370345,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344179",
+        "url": "https://www.ticketnetwork.com/en/p/8344179",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16pZk48jVZACdGGk",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344179"
   },
   {
     "id": "tm-mat-kearney-2027-austin-z7r9jz1aa7t0p",
@@ -370174,11 +370406,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344157",
+        "url": "https://www.ticketnetwork.com/en/p/8344157",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t0p",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344157"
   },
   {
     "id": "tm-mat-kearney-2027-dallas-z7r9jz1aa7s_b",
@@ -370227,11 +370467,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344158",
+        "url": "https://www.ticketnetwork.com/en/p/8344158",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7s_b",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344158"
   },
   {
     "id": "tm-mat-kearney-2027-denver-g5vzz_44x-wom",
@@ -370280,11 +370528,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344239",
+        "url": "https://www.ticketnetwork.com/en/p/8344239",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_44X-woM",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344239"
   },
   {
     "id": "tm-mat-kearney-2027-phoenix-1av0z_4gknhdgeg",
@@ -370333,11 +370589,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344241",
+        "url": "https://www.ticketnetwork.com/en/p/8344241",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_4GknHdgeG",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344241"
   },
   {
     "id": "tm-mat-kearney-2027-san-diego-vvg1iz_fdgrqma",
@@ -370386,11 +370650,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344243",
+        "url": "https://www.ticketnetwork.com/en/p/8344243",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_fDgRQma",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344243"
   },
   {
     "id": "tm-mat-kearney-2027-cerritos-vvg1iz_4z4bvmr",
@@ -370492,11 +370764,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344245",
+        "url": "https://www.ticketnetwork.com/en/p/8344245",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4l700eI",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344245"
   },
   {
     "id": "tm-mat-kearney-2027-spokane-g5vzz_4p1-wsc",
@@ -370545,11 +370825,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344247",
+        "url": "https://www.ticketnetwork.com/en/p/8344247",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_4p1-wSC",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344247"
   },
   {
     "id": "tm-mat-kearney-2027-boise-z7r9jz1aa7yr7",
@@ -370598,11 +370886,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344260",
+        "url": "https://www.ticketnetwork.com/en/p/8344260",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Yr7",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344260"
   },
   {
     "id": "tm-mat-kearney-2027-grand-junction-g5vzz_fmzp1a6",
@@ -370651,11 +370947,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344249",
+        "url": "https://www.ticketnetwork.com/en/p/8344249",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fMZp1A6",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344249"
   },
   {
     "id": "tm-mat-kearney-2027-madison-vv1a6zk48gkehsz0t",
@@ -370757,11 +371061,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344159",
+        "url": "https://www.ticketnetwork.com/en/p/8344159",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t8k",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344159"
   },
   {
     "id": "tm-mat-kearney-2027-cleveland-vv1aazk4fgkdoxqwy",
@@ -370810,11 +371122,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344251",
+        "url": "https://www.ticketnetwork.com/en/p/8344251",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4fGkdoXQWy",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344251"
   },
   {
     "id": "tm-mat-kearney-2027-omaha-1aozk4kgkes-kce",
@@ -370863,11 +371183,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344252",
+        "url": "https://www.ticketnetwork.com/en/p/8344252",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4KGkes-kCe",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344252"
   },
   {
     "id": "tm-mat-kearney-2027-saint-louis-vv1kvovp4agag9idz",
@@ -371022,11 +371350,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284552",
+        "url": "https://www.ticketnetwork.com/en/p/8284552",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAevq0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284552"
   },
   {
     "id": "tm-u2-2027-barcelona-z698xz2qz16vasca3z",
@@ -371183,12 +371519,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357092",
+        "url": "https://www.ticketnetwork.com/en/p/8357092",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k0eFyqs",
     "timezone": "Europe/Madrid",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T09:00:00Z"
+    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357092"
   },
   {
     "id": "tm-u2-2027-london-1adfz_4gkbq3_od",

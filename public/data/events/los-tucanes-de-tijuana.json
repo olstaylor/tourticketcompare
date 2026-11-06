@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8027310",
+        "url": "https://www.ticketnetwork.com/en/p/8027310",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Paao",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8027310"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-fairfax-17a8v0g61bgdzeq",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977722",
+        "url": "https://www.ticketnetwork.com/en/p/7977722",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61BgDzeQ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977722"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-elizabeth-k7vgf_1yuvjm8",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8109393",
+        "url": "https://www.ticketnetwork.com/en/p/8109393",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_1YuVJM8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8109393"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-austin-z7r9jz1aazgav",
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8174820",
+        "url": "https://www.ticketnetwork.com/en/p/8174820",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ9fb",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8174820"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-catoosa-z7r9jz1aaef8-",
@@ -364,11 +396,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8165995",
+        "url": "https://www.ticketnetwork.com/en/p/8165995",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G62Nuo9-m",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165995"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2027-inglewood-vvg10z_udzwaf3",
@@ -417,11 +457,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8112228",
+        "url": "https://www.ticketnetwork.com/en/p/8112228",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_uDZWaf3",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8112228"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2027-rosemont-vv1a7zkffgkdqp4jc",
@@ -470,10 +518,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8213428",
+        "url": "https://www.ticketnetwork.com/en/p/8213428",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfFGkdQp4jC",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8213428"
   }
 ]

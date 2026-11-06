@@ -1,0 +1,630 @@
+{
+  "description": "Priority events whose price comparisons are watched daily by scripts/report-price-coverage.mjs (roadmap pillar 1). Picked 2026-11-06: indexable artist, on sale, 7+ days out, 2+ fresh priced sellers, ranked by artist search impressions x priced sellers x expected revenue. Refresh monthly; past dates drop off on their own. 2026-11-06 evening: added U2 London 22 Jun 2027 and Greta Van Fleet Salt Lake City, Green Bay and Cleveland once each had 2 fresh prices.",
+  "selected_at": "2026-11-06",
+  "events": [
+    {
+      "id": "tm-metallica-2026-uncasville-g5vvz_6n-zpjb",
+      "artist": "metallica",
+      "date": "2026-11-22",
+      "city": "Uncasville"
+    },
+    {
+      "id": "tm-metallica-2026-uncasville-g5vvz_6nrigot",
+      "artist": "metallica",
+      "date": "2026-11-20",
+      "city": "Uncasville"
+    },
+    {
+      "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f",
+      "artist": "olivia-rodrigo",
+      "date": "2026-11-19",
+      "city": "Sunrise"
+    },
+    {
+      "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo",
+      "artist": "olivia-rodrigo",
+      "date": "2026-11-24",
+      "city": "Nashville"
+    },
+    {
+      "id": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b",
+      "artist": "olivia-rodrigo",
+      "date": "2026-12-12",
+      "city": "Oakland"
+    },
+    {
+      "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv44jjl",
+      "artist": "olivia-rodrigo",
+      "date": "2027-02-16",
+      "city": "Brooklyn"
+    },
+    {
+      "id": "tm-rod-wave-2026-atlanta-vvg1zz_uzryhlw",
+      "artist": "rod-wave",
+      "date": "2026-11-19",
+      "city": "Atlanta"
+    },
+    {
+      "id": "tm-backstreet-boys-2026-las-vegas-17ayv0g62thvzyn",
+      "artist": "backstreet-boys",
+      "date": "2026-12-30",
+      "city": "Las Vegas"
+    },
+    {
+      "id": "tm-katseye-2026-los-angeles-g5eyz_52cssfl",
+      "artist": "katseye",
+      "date": "2026-11-23",
+      "city": "Los Angeles"
+    },
+    {
+      "id": "tm-katseye-2026-las-vegas-z7r9jz1a70ouv",
+      "artist": "katseye",
+      "date": "2026-11-15",
+      "city": "Las Vegas"
+    },
+    {
+      "id": "tm-katseye-2026-phoenix-17k8v0g61m4tf9t",
+      "artist": "katseye",
+      "date": "2026-11-25",
+      "city": "Phoenix"
+    },
+    {
+      "id": "tm-metallica-2027-las-vegas-16vjz_kk3g7ndxr",
+      "artist": "metallica",
+      "date": "2027-01-31",
+      "city": "Las Vegas"
+    },
+    {
+      "id": "tm-rod-wave-2026-atlanta-vvg1zz_uqszfce",
+      "artist": "rod-wave",
+      "date": "2026-11-20",
+      "city": "Atlanta"
+    },
+    {
+      "id": "tm-metallica-2027-las-vegas-1fayv0b_z4z7ggvk",
+      "artist": "metallica",
+      "date": "2027-01-29",
+      "city": "Las Vegas"
+    },
+    {
+      "id": "tm-rod-wave-2026-sunrise-z7r9jz1a7ppag",
+      "artist": "rod-wave",
+      "date": "2026-11-15",
+      "city": "Sunrise"
+    },
+    {
+      "id": "tm-katseye-2026-los-angeles-g5eyz_1rkf-rx",
+      "artist": "katseye",
+      "date": "2026-11-22",
+      "city": "Los Angeles"
+    },
+    {
+      "id": "tm-john-summit-2026-brooklyn-17gzv0g65ttxsbe",
+      "artist": "john-summit",
+      "date": "2026-11-30",
+      "city": "Brooklyn"
+    },
+    {
+      "id": "tm-rod-wave-2026-sunrise-z7r9jz1aazfq4",
+      "artist": "rod-wave",
+      "date": "2026-11-16",
+      "city": "Sunrise"
+    },
+    {
+      "id": "tm-sienna-spiro-2027-edinburgh-g5dzz_g3xlvct",
+      "artist": "sienna-spiro",
+      "date": "2027-02-22",
+      "city": "Edinburgh"
+    },
+    {
+      "id": "tm-sienna-spiro-2027-manchester-17uov0g6ghevqqt",
+      "artist": "sienna-spiro",
+      "date": "2027-03-01",
+      "city": "Manchester"
+    },
+    {
+      "id": "tm-sienna-spiro-2027-berlin-z698xzc2z16v0n7t_u",
+      "artist": "sienna-spiro",
+      "date": "2027-03-24",
+      "city": "Berlin"
+    },
+    {
+      "id": "tm-sienna-spiro-2027-austin-g5diz_47ytekn",
+      "artist": "sienna-spiro",
+      "date": "2027-08-06",
+      "city": "Austin"
+    },
+    {
+      "id": "tm-u2-2027-london-1adfz_4qdzvzd55v",
+      "artist": "u2",
+      "date": "2027-06-18",
+      "city": "London"
+    },
+    {
+      "id": "tm-u2-2027-london-1adfz_4gkszafjm",
+      "artist": "u2",
+      "date": "2027-06-19",
+      "city": "London"
+    },
+    {
+      "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62thois9",
+      "artist": "backstreet-boys",
+      "date": "2027-01-02",
+      "city": "Las Vegas"
+    },
+    {
+      "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62th2fwx",
+      "artist": "backstreet-boys",
+      "date": "2027-01-01",
+      "city": "Las Vegas"
+    },
+    {
+      "id": "tm-saint-levant-2027-brooklyn-k7vgf_ocsz0pi",
+      "artist": "saint-levant",
+      "date": "2027-04-01",
+      "city": "Brooklyn"
+    },
+    {
+      "id": "tm-role-model-2027-london-17uyv0g6ueic0m_",
+      "artist": "role-model",
+      "date": "2027-02-24",
+      "city": "London"
+    },
+    {
+      "id": "tm-zach-bryan-2027-indianapolis-vv17fz_fgkwtxpko",
+      "artist": "zach-bryan",
+      "date": "2027-05-01",
+      "city": "Indianapolis"
+    },
+    {
+      "id": "tm-zach-bryan-2027-green-bay-vv17jz_fgkshdkie",
+      "artist": "zach-bryan",
+      "date": "2027-05-05",
+      "city": "Green Bay"
+    },
+    {
+      "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fsxrnwp",
+      "artist": "zach-bryan",
+      "date": "2027-05-14",
+      "city": "East Rutherford"
+    },
+    {
+      "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fs0cbhd",
+      "artist": "zach-bryan",
+      "date": "2027-05-15",
+      "city": "East Rutherford"
+    },
+    {
+      "id": "tm-don-omar-2027-sacramento-g5vyz_u1sfm0b",
+      "artist": "don-omar",
+      "date": "2027-02-06",
+      "city": "Sacramento"
+    },
+    {
+      "id": "tm-don-omar-2027-seattle-vvg1hz_u4jzxck",
+      "artist": "don-omar",
+      "date": "2027-02-08",
+      "city": "Seattle"
+    },
+    {
+      "id": "tm-don-omar-2027-fresno-g5vyz_u5k7ws7",
+      "artist": "don-omar",
+      "date": "2027-02-12",
+      "city": "Fresno"
+    },
+    {
+      "id": "tm-don-omar-2027-inglewood-vvg10z_u2a3ul3",
+      "artist": "don-omar",
+      "date": "2027-02-13",
+      "city": "Inglewood"
+    },
+    {
+      "id": "tm-def-leppard-2027-newark-vv1aezk4kgkdvinob",
+      "artist": "def-leppard",
+      "date": "2027-03-14",
+      "city": "Newark"
+    },
+    {
+      "id": "tm-def-leppard-2027-boston-vv1a8vp88ga16tl3",
+      "artist": "def-leppard",
+      "date": "2027-03-17",
+      "city": "Boston"
+    },
+    {
+      "id": "tm-def-leppard-2027-washington-17a8v0g62pvh_yy",
+      "artist": "def-leppard",
+      "date": "2027-03-21",
+      "city": "Washington"
+    },
+    {
+      "id": "tm-def-leppard-2027-chicago-vv1k8z_fgkg7dl8f",
+      "artist": "def-leppard",
+      "date": "2027-03-26",
+      "city": "Chicago"
+    },
+    {
+      "id": "tm-backstreet-boys-2026-las-vegas-17ayv0g62tqwir3",
+      "artist": "backstreet-boys",
+      "date": "2026-12-27",
+      "city": "Las Vegas"
+    },
+    {
+      "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxrs0",
+      "artist": "eagles",
+      "date": "2027-01-16",
+      "city": "Las Vegas"
+    },
+    {
+      "id": "tm-nickelback-2027-chicago-vv1a7zk4agkexo6el",
+      "artist": "nickelback",
+      "date": "2027-02-19",
+      "city": "Chicago"
+    },
+    {
+      "id": "tm-nickelback-2027-nashville-g5viz_frya27y",
+      "artist": "nickelback",
+      "date": "2027-02-22",
+      "city": "Nashville"
+    },
+    {
+      "id": "tm-nickelback-2027-hollywood-vvg1vz_fpmhiza",
+      "artist": "nickelback",
+      "date": "2027-02-26",
+      "city": "Hollywood"
+    },
+    {
+      "id": "tm-nickelback-2027-atlanta-vvg1zz_f9i_ugh",
+      "artist": "nickelback",
+      "date": "2027-03-02",
+      "city": "Atlanta"
+    },
+    {
+      "id": "tm-sam-fender-2027-newcastle-upon-tyne-1agzk4fgkd88g8t",
+      "artist": "sam-fender",
+      "date": "2027-06-03",
+      "city": "Newcastle Upon Tyne"
+    },
+    {
+      "id": "tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj",
+      "artist": "sam-fender",
+      "date": "2027-06-05",
+      "city": "Newcastle Upon Tyne"
+    },
+    {
+      "id": "tm-sam-fender-2027-london-16nzk4f00zauv12c",
+      "artist": "sam-fender",
+      "date": "2027-06-18",
+      "city": "London"
+    },
+    {
+      "id": "tm-sam-fender-2027-london-1anzk4fgkdp88g6",
+      "artist": "sam-fender",
+      "date": "2027-06-20",
+      "city": "London"
+    },
+    {
+      "id": "tm-harry-styles-2027-pasadena-vvg1iz_3npi4df",
+      "artist": "harry-styles",
+      "date": "2027-04-24",
+      "city": "Pasadena"
+    },
+    {
+      "id": "tm-harry-styles-2027-pasadena-vvg1iz_3ntnu7b",
+      "artist": "harry-styles",
+      "date": "2027-04-25",
+      "city": "Pasadena"
+    },
+    {
+      "id": "tm-harry-styles-2027-atlanta-vvg1zz_3nnlppu",
+      "artist": "harry-styles",
+      "date": "2027-05-21",
+      "city": "Atlanta"
+    },
+    {
+      "id": "tm-harry-styles-2027-atlanta-vvg1zz_3ef8eqn",
+      "artist": "harry-styles",
+      "date": "2027-05-22",
+      "city": "Atlanta"
+    },
+    {
+      "id": "tm-steve-lacy-2026-las-vegas-169zkfdovza26a51",
+      "artist": "steve-lacy",
+      "date": "2026-11-14",
+      "city": "Las Vegas"
+    },
+    {
+      "id": "tm-doja-cat-2026-tampa-vvg1vzbslmpvjz",
+      "artist": "doja-cat",
+      "date": "2026-11-14",
+      "city": "Tampa"
+    },
+    {
+      "id": "tm-doja-cat-2026-orlando-1aefzbsgklnlnmt",
+      "artist": "doja-cat",
+      "date": "2026-11-15",
+      "city": "Orlando"
+    },
+    {
+      "id": "tm-doja-cat-2026-atlanta-vvg1zzbsle3ugd",
+      "artist": "doja-cat",
+      "date": "2026-11-18",
+      "city": "Atlanta"
+    },
+    {
+      "id": "tm-doja-cat-2026-charlotte-g5evzbsemdalv",
+      "artist": "doja-cat",
+      "date": "2026-11-19",
+      "city": "Charlotte"
+    },
+    {
+      "id": "tm-sombr-2026-buffalo-k7v17_f0kg7ij1e",
+      "artist": "sombr",
+      "date": "2026-11-15",
+      "city": "Buffalo"
+    },
+    {
+      "id": "tm-sombr-2026-boston-vv1avzk36gkdfnkex",
+      "artist": "sombr",
+      "date": "2026-11-19",
+      "city": "Boston"
+    },
+    {
+      "id": "tm-sombr-2026-philadelphia-1kgzv0xbga5zeae",
+      "artist": "sombr",
+      "date": "2026-11-20",
+      "city": "Philadelphia"
+    },
+    {
+      "id": "tm-sombr-2026-newark-vv1aezk3fgkdhlmuf",
+      "artist": "sombr",
+      "date": "2026-11-22",
+      "city": "Newark"
+    },
+    {
+      "id": "tm-malcolm-todd-2027-birmingham-g5dzz_3nh3wrn",
+      "artist": "malcolm-todd",
+      "date": "2027-02-27",
+      "city": "Birmingham"
+    },
+    {
+      "id": "tm-bon-jovi-2027-east-rutherford-k7vgf_4evgqwy",
+      "artist": "bon-jovi",
+      "date": "2027-07-15",
+      "city": "East Rutherford"
+    },
+    {
+      "id": "tm-bon-jovi-2027-chicago-vv178z_fgkh_n5td",
+      "artist": "bon-jovi",
+      "date": "2027-07-21",
+      "city": "Chicago"
+    },
+    {
+      "id": "tm-bon-jovi-2027-foxborough-vv1avzk48gke-15d8",
+      "artist": "bon-jovi",
+      "date": "2027-07-28",
+      "city": "Foxborough"
+    },
+    {
+      "id": "tm-greta-van-fleet-2027-tampa-vvg1vz_kmcwtil",
+      "artist": "greta-van-fleet",
+      "date": "2027-02-06",
+      "city": "Tampa"
+    },
+    {
+      "id": "tm-greta-van-fleet-2027-jacksonville-1aefz_kgkdyuafx",
+      "artist": "greta-van-fleet",
+      "date": "2027-02-07",
+      "city": "Jacksonville"
+    },
+    {
+      "id": "tm-greta-van-fleet-2027-atlanta-vvg1zz_kmneaip",
+      "artist": "greta-van-fleet",
+      "date": "2027-02-10",
+      "city": "Atlanta"
+    },
+    {
+      "id": "tm-greta-van-fleet-2027-nashville-g5viz_kzhjzwy",
+      "artist": "greta-van-fleet",
+      "date": "2027-02-11",
+      "city": "Nashville"
+    },
+    {
+      "id": "tm-weezer-2027-manchester-1amzkf7gkderotz",
+      "artist": "weezer",
+      "date": "2027-05-15",
+      "city": "Manchester"
+    },
+    {
+      "id": "tm-weezer-2027-london-g5vhz_83wtacz",
+      "artist": "weezer",
+      "date": "2027-05-22",
+      "city": "London"
+    },
+    {
+      "id": "tm-gracie-abrams-2026-denver-g5vzz_55eui2w",
+      "artist": "gracie-abrams",
+      "date": "2026-12-03",
+      "city": "Denver"
+    },
+    {
+      "id": "tm-gracie-abrams-2026-denver-g5vzz_5lhxedg",
+      "artist": "gracie-abrams",
+      "date": "2026-12-04",
+      "city": "Denver"
+    },
+    {
+      "id": "tm-gracie-abrams-2026-oakland-g5vyz_1udxfhx",
+      "artist": "gracie-abrams",
+      "date": "2026-12-07",
+      "city": "Oakland"
+    },
+    {
+      "id": "tm-gracie-abrams-2026-oakland-g5vyz_5mq0w7n",
+      "artist": "gracie-abrams",
+      "date": "2026-12-08",
+      "city": "Oakland"
+    },
+    {
+      "id": "tm-lizzy-mcalpine-2027-houston-g5diz_kko6pz2",
+      "artist": "lizzy-mcalpine",
+      "date": "2027-05-02",
+      "city": "Houston"
+    },
+    {
+      "id": "tm-lizzy-mcalpine-2027-nashville-g5viz_kqsm0og",
+      "artist": "lizzy-mcalpine",
+      "date": "2027-06-17",
+      "city": "Nashville"
+    },
+    {
+      "id": "tm-lizzy-mcalpine-2027-philadelphia-1ayzkfsgkdubyxp",
+      "artist": "lizzy-mcalpine",
+      "date": "2027-06-18",
+      "city": "Philadelphia"
+    },
+    {
+      "id": "tm-lizzy-mcalpine-2027-new-york-g5diz_kr8e3se",
+      "artist": "lizzy-mcalpine",
+      "date": "2027-06-24",
+      "city": "New York"
+    },
+    {
+      "id": "tm-andrea-bocelli-2026-boston-vv1k7z_dz6g7ymm-",
+      "artist": "andrea-bocelli",
+      "date": "2026-12-11",
+      "city": "Boston"
+    },
+    {
+      "id": "tm-andrea-bocelli-2026-buffalo-k7vgf_dlhwxlk",
+      "artist": "andrea-bocelli",
+      "date": "2026-12-12",
+      "city": "Buffalo"
+    },
+    {
+      "id": "tm-andrea-bocelli-2026-new-york-g5diz_drrs_4p",
+      "artist": "andrea-bocelli",
+      "date": "2026-12-17",
+      "city": "New York"
+    },
+    {
+      "id": "tm-andrea-bocelli-2026-new-york-g5diz_drrgy4q",
+      "artist": "andrea-bocelli",
+      "date": "2026-12-18",
+      "city": "New York"
+    },
+    {
+      "id": "tm-oasis-2027-glasgow-1adfz_3gknft-og",
+      "artist": "oasis",
+      "date": "2027-05-21",
+      "city": "Glasgow"
+    },
+    {
+      "id": "tm-oasis-2027-glasgow-1agzkfwgkd1ybno",
+      "artist": "oasis",
+      "date": "2027-05-23",
+      "city": "Glasgow"
+    },
+    {
+      "id": "tm-oasis-2027-glasgow-1agzkfwgkd5kfpx",
+      "artist": "oasis",
+      "date": "2027-05-25",
+      "city": "Glasgow"
+    },
+    {
+      "id": "tm-oasis-2027-manchester-g5dzz_3lwzpdp",
+      "artist": "oasis",
+      "date": "2027-06-04",
+      "city": "Manchester"
+    },
+    {
+      "id": "tm-kenny-chesney-2027-tampa-vvg1vz_3xhd4sr",
+      "artist": "kenny-chesney",
+      "date": "2027-04-24",
+      "city": "Tampa"
+    },
+    {
+      "id": "tm-kenny-chesney-2027-pittsburgh-1apzkfxgkdbuj3l",
+      "artist": "kenny-chesney",
+      "date": "2027-05-29",
+      "city": "Pittsburgh"
+    },
+    {
+      "id": "tm-kenny-chesney-2027-philadelphia-vv1aezkfigkdubjp8",
+      "artist": "kenny-chesney",
+      "date": "2027-06-12",
+      "city": "Philadelphia"
+    },
+    {
+      "id": "tm-kenny-chesney-2027-chicago-vv1f8z_3ao7xzd2g1",
+      "artist": "kenny-chesney",
+      "date": "2027-06-26",
+      "city": "Chicago"
+    },
+    {
+      "id": "tm-john-summit-2026-charlotte-g5evz_52qpkue",
+      "artist": "john-summit",
+      "date": "2026-11-15",
+      "city": "Charlotte"
+    },
+    {
+      "id": "tm-john-summit-2026-atlanta-vvg1zz_527ymui",
+      "artist": "john-summit",
+      "date": "2026-11-16",
+      "city": "Atlanta"
+    },
+    {
+      "id": "tm-john-summit-2026-miami-vvg1vz_51zozkr",
+      "artist": "john-summit",
+      "date": "2026-11-21",
+      "city": "Miami"
+    },
+    {
+      "id": "tm-tyla-2026-vancouver-1778v0g62hxtorg",
+      "artist": "tyla",
+      "date": "2026-11-16",
+      "city": "Vancouver"
+    },
+    {
+      "id": "tm-tyla-2026-chicago-vvg18z_2o77qju",
+      "artist": "tyla",
+      "date": "2026-11-23",
+      "city": "Chicago"
+    },
+    {
+      "id": "tm-tyla-2026-boston-vvg17z_2pblciw",
+      "artist": "tyla",
+      "date": "2026-11-26",
+      "city": "Boston"
+    },
+    {
+      "id": "tm-tyla-2026-brooklyn-k7vgf_2xiqkw5",
+      "artist": "tyla",
+      "date": "2026-11-29",
+      "city": "Brooklyn"
+    },
+    {
+      "id": "tm-greta-van-fleet-2027-green-bay-z7r9jz1aae44u",
+      "artist": "greta-van-fleet",
+      "date": "2027-02-18",
+      "city": "Green Bay"
+    },
+    {
+      "id": "tm-greta-van-fleet-2027-cleveland-z7r9jz1aae44m",
+      "artist": "greta-van-fleet",
+      "date": "2027-03-04",
+      "city": "Cleveland"
+    },
+    {
+      "id": "tm-greta-van-fleet-2027-salt-lake-city-z7r9jz1aae44z",
+      "artist": "greta-van-fleet",
+      "date": "2027-03-30",
+      "city": "Salt Lake City"
+    },
+    {
+      "id": "tm-u2-2027-london-1adfz_4gkb4kzby",
+      "artist": "u2",
+      "date": "2027-06-22",
+      "city": "London"
+    }
+  ]
+}

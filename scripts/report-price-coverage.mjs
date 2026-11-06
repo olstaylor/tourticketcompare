@@ -35,6 +35,13 @@
 //   node scripts/report-price-coverage.mjs [--base-url URL] [--json] [--markdown FILE]
 //   node scripts/report-price-coverage.mjs --issue     # also rewrite the rolling issue
 //   node scripts/report-price-coverage.mjs --self-test
+//   node scripts/report-price-coverage.mjs --priority data/priority-events.json
+//
+// --priority adds a watch on the priority events (roadmap pillar 1, added
+// 2026-11-06). Each watched date is checked for fresh prices from at least
+// PRIORITY_MIN_SELLERS sellers, for missing from the payload, and for being
+// held. A watched on-sale date with no fresh price at all fails the run; fewer
+// sellers than the minimum is listed on the issue without failing it.
 
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
@@ -69,6 +76,7 @@ function parseArgs(argv) {
     else if (arg === "--issue") options.issue = true;
     else if (arg === "--self-test") options.selfTest = true;
     else if (arg === "--base-url") options.baseUrl = String(argv[++i] || "").replace(/\/+$/, "");
+    else if (arg === "--priority") options.priority = String(argv[++i] || "");
     else if (arg === "--markdown") options.markdown = String(argv[++i] || "");
     else if (arg === "--min-share") options.minShare = Number(argv[++i]);
     else if (arg === "--max-stale-share") options.maxStaleShare = Number(argv[++i]);
@@ -126,6 +134,44 @@ function mappedPriceLanes(show) {
   return PRICE_LANES.filter((lane) => (lane.slug !== "seatgeek" || pricedLanes(show).some((priced) => priced.provider === lane.name)) && show?.provider_links?.[lane.slug]?.verified === true && safeLaneUrl(show, laneBySlug(lane.slug)));
 }
 
+export const PRIORITY_MIN_SELLERS = 2;
+
+function freshPricedLanes(show, now) {
+  return pricedLanes(show).filter((lane) => {
+    const age = (now - Date.parse(String(lane.fetchedAt || ""))) / 3600000;
+    return Number.isFinite(age) && age <= PRICE_STALE_AFTER_HOURS;
+  });
+}
+
+/**
+ * Checks the watched priority events against the live payload. Past dates are
+ * dropped; every other watched id is placed in exactly one bucket.
+ */
+export function analysePriority(shows, watched, now = Date.now()) {
+  const byId = new Map(shows.map((show) => [String(show?.id || ""), show]));
+  const result = { watched: 0, healthy: 0, thin: [], unpriced: [], missing: [], held: [], pre_onsale: 0 };
+  for (const entry of Array.isArray(watched) ? watched : []) {
+    const id = String(entry?.id || "");
+    if (!id) continue;
+    const show = byId.get(id);
+    const date = String(show?.dateTimeISO || entry?.date || "").slice(0, 10);
+    const when = Date.parse(String(show?.dateTimeISO || (entry?.date ? `${entry.date}T23:59:59Z` : "")));
+    if (Number.isFinite(when) && when <= now) continue;
+    result.watched += 1;
+    const row = { id, artist: show?.artist_slug || entry?.artist || "", date, city: show?.city || entry?.city || "" };
+    if (!show) { result.missing.push(row); continue; }
+    const kind = classifyShow(show, now);
+    if (kind === "held") { result.held.push(row); continue; }
+    if (kind === "pre_onsale") { result.pre_onsale += 1; continue; }
+    const fresh = freshPricedLanes(show, now);
+    row.sellers = fresh.map((lane) => lane.provider);
+    if (!fresh.length) result.unpriced.push(row);
+    else if (fresh.length < PRIORITY_MIN_SELLERS) result.thin.push(row);
+    else result.healthy += 1;
+  }
+  return result;
+}
+
 export function classifyShow(show, now = Date.now()) {
   if (eventLifecycleHeld(show)) return "held";
   if (publicOnsalePending(show, now)) return "pre_onsale";
@@ -138,7 +184,7 @@ export function classifyShow(show, now = Date.now()) {
 const increment = (map, key) => map.set(key, (map.get(key) || 0) + 1);
 const sortedCounts = (map) => [...map.entries()].sort((a, b) => b[1] - a[1] || String(a[0]).localeCompare(String(b[0])));
 
-export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE, maxStaleShare = DEFAULT_MAX_STALE_SHARE } = {}) {
+export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE, maxStaleShare = DEFAULT_MAX_STALE_SHARE, priority = null } = {}) {
   const upcoming = shows.filter((show) => Date.parse(String(show?.dateTimeISO || "")) > now);
   const counts = { priced: 0, pre_onsale: 0, mapped: 0, seatgeek_only: 0, unmapped: 0, held: 0 };
   let preOnsalePriced = 0;
@@ -192,8 +238,16 @@ export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE,
   if (ages.length && staleShare > maxStaleShare) {
     problems.push(`${(staleShare * 100).toFixed(1)}% of displayed prices are older than ${PRICE_STALE_AFTER_HOURS}h (gate ${(maxStaleShare * 100).toFixed(0)}%) — check the snapshot writers' delivered runs`);
   }
+  const priorityReport = priority ? analysePriority(shows, priority, now) : null;
+  if (priorityReport?.unpriced.length) {
+    problems.push(`${priorityReport.unpriced.length} priority event${priorityReport.unpriced.length === 1 ? "" : "s"} on sale with no fresh price (watch list data/priority-events.json)`);
+  }
+  if (priorityReport?.missing.length) {
+    problems.push(`${priorityReport.missing.length} priority event${priorityReport.missing.length === 1 ? " is" : "s are"} missing from the live payload (removed, or the id changed)`);
+  }
   return {
     generated_at: new Date(now).toISOString(),
+    priority: priorityReport,
     upcoming: upcoming.length,
     counts,
     pre_onsale_priced: preOnsalePriced,
@@ -268,6 +322,24 @@ export function renderMarkdown(report, baseUrl = "") {
     );
     if (report.mapped_unpriced.length > 40) lines.push(`| …${report.mapped_unpriced.length - 40} more | | | | |`);
     lines.push("");
+  }
+  if (report.priority) {
+    const p = report.priority;
+    const issues = [
+      ...p.unpriced.map((row) => ({ ...row, problem: "no fresh price" })),
+      ...p.missing.map((row) => ({ ...row, problem: "missing from payload" })),
+      ...p.thin.map((row) => ({ ...row, problem: `only ${row.sellers.join(", ")}` })),
+      ...p.held.map((row) => ({ ...row, problem: "held (cancelled/postponed)" }))
+    ];
+    lines.push(
+      "### Priority events",
+      "",
+      `${p.healthy} of ${p.watched} watched upcoming dates show fresh prices (≤ ${PRICE_STALE_AFTER_HOURS}h) from ${PRIORITY_MIN_SELLERS}+ sellers; ${p.pre_onsale} are pre-on-sale. Watch list: \`data/priority-events.json\`.`,
+      ""
+    );
+    if (issues.length) {
+      lines.push("| Date | Artist | City | Problem | Event |", "|---|---|---|---|---|", ...issues.map((row) => `| ${row.date} | ${row.artist} | ${row.city} | ${row.problem} | \`${row.id}\` |`), "");
+    }
   }
   return lines.join("\n");
 }
@@ -382,7 +454,37 @@ function selfTest() {
   assert.match(md, /\| 9 \| 3 \| 2 \| 1 \| 1 \| 2 \|/);
   assert.match(md, /Mapped and on sale, but no price/);
   assert.throws(() => parseArgs(["--min-share", "2"]));
-  return 26;
+  assert.equal(report.priority, null, "no watch list, no priority section");
+  {
+    const tn = (fetchedAt) => ({ provider: "TicketNetwork", status: "ok", price: 140, fetchedAt });
+    const watchShows = [
+      { ...base, ...vivid, id: "w-ok", prices: [okLane("2026-09-24T10:00:00Z"), tn("2026-09-24T11:00:00Z")] },
+      { ...base, ...vivid, id: "w-thin", prices: [okLane("2026-09-24T10:00:00Z"), tn("2026-09-23T10:00:00Z")] },
+      { ...base, ...vivid, id: "w-none", prices: [okLane("2026-09-23T10:00:00Z")] },
+      { ...base, ...vivid, id: "w-held", ticketmaster_status_code: "cancelled", prices: [] },
+      { ...base, ...vivid, id: "w-pre", public_onsale_at: "2026-10-01T00:00:00Z", prices: [] },
+      { ...base, id: "w-past", dateTimeISO: "2026-09-01T00:00:00Z", prices: [] }
+    ];
+    const watch = ["w-ok", "w-thin", "w-none", "w-held", "w-pre", "w-past"].map((id) => ({ id }))
+      .concat([{ id: "w-gone", date: "2026-12-01" }, { id: "w-gone-past", date: "2026-09-01" }]);
+    const p = analysePriority(watchShows, watch, now);
+    assert.equal(p.watched, 6, "past dates leave the watch, whether in the payload or not");
+    assert.equal(p.healthy, 1);
+    assert.deepEqual(p.thin.map((row) => row.id), ["w-thin"], "a stale second seller does not count");
+    assert.deepEqual(p.unpriced.map((row) => row.id), ["w-none"], "only stale prices means unpriced");
+    assert.deepEqual(p.missing.map((row) => row.id), ["w-gone"]);
+    assert.deepEqual(p.held.map((row) => row.id), ["w-held"]);
+    assert.equal(p.pre_onsale, 1);
+    const watched = analyse(watchShows, { now, priority: watch });
+    assert.equal(watched.problems.filter((problem) => /priority event/.test(problem)).length, 2, "unpriced and missing priority events fail the run; thin ones do not");
+    const watchedMd = renderMarkdown(watched);
+    assert.match(watchedMd, /### Priority events/);
+    assert.match(watchedMd, /1 of 6 watched upcoming dates/);
+    assert.match(watchedMd, /only Vivid Seats/);
+    const clean = analyse([watchShows[0]], { now, priority: [{ id: "w-ok" }] });
+    assert.equal(clean.problems.some((problem) => /priority/.test(problem)), false);
+  }
+  return 41;
 }
 
 async function main() {
@@ -399,7 +501,8 @@ async function main() {
     process.exitCode = 2;
     return;
   }
-  const report = analyse(shows, { minShare: options.minShare, maxStaleShare: options.maxStaleShare });
+  const priority = options.priority ? JSON.parse(await fs.readFile(options.priority, "utf8")).events : null;
+  const report = analyse(shows, { minShare: options.minShare, maxStaleShare: options.maxStaleShare, priority });
   const markdown = renderMarkdown(report, options.baseUrl);
   if (options.markdown) await fs.writeFile(options.markdown, `${markdown}\n`);
   if (options.issue) await upsertIssue(markdown);

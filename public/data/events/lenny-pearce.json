@@ -76,7 +76,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-austin-texas-11-06-2026/event/3A0064DDBE2DC42C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -111,7 +111,10 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_uUX5j8i",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lenny-pearce-2026-irving-vvg1yz_g0p_mts",
@@ -129,7 +132,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-irving-pavilion-at-toyota-music-factory-11-7-2026/production/7155404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-irving-texas-11-07-2026/event/0C0064C925677A73",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -188,7 +191,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048522",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048522/Lenny-Pearce-tickets-Sat-Nov-7-2026-The-Pavilion-at-Toyota-Music-Factory",
-    "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-irving-tickets-11-7-2026/event/107455569"
+    "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-irving-tickets-11-7-2026/event/107455569",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lenny-pearce-2026-houston-g5diz_geaxmd2",
@@ -206,7 +212,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-houston-bayou-music-center-11-8-2026/production/7155390",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-houston-texas-11-08-2026/event/3A0064C9C9FAEECF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -265,7 +271,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048523",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048523/Lenny-Pearce-tickets-Sun-Nov-8-2026-Bayou-Music-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-houston-tickets-11-8-2026/event/107455614"
+    "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-houston-tickets-11-8-2026/event/107455614",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lenny-pearce-2026-orlando-17fov0g6g3w_f1c",
@@ -283,7 +292,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-orlando-hard-rock-live---orlando-11-10-2026/production/7155384",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-orlando-florida-11-10-2026/event/220064C4B26542AD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -342,7 +351,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048524",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048524/Lenny-Pearce-tickets-Tue-Nov-10-2026-Hard-Rock-Live-Orlando",
-    "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-orlando-tickets-11-10-2026/event/107554502"
+    "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-orlando-tickets-11-10-2026/event/107554502",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lenny-pearce-2026-fort-lauderdale-z7r9jz1a7ppo0",
@@ -360,7 +372,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-fort-lauderdale-war-memorial-auditorium-fl-11-11-2026/production/7155811",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PpO0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -395,7 +407,10 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PpO0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lenny-pearce-2026-st-petersburg-vvg1vz_gcd9hph",
@@ -413,7 +428,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-st-petersburg-florida-11-12-2026/event/0D0064C3BB5FC95B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -464,7 +479,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048526",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048526/Lenny-Pearce-tickets-Thu-Nov-12-2026-Mahaffey-Theater-At-The-Duke-Energy-Center-for-the-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048526/Lenny-Pearce-tickets-Thu-Nov-12-2026-Mahaffey-Theater-At-The-Duke-Energy-Center-for-the-Arts",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-lenny-pearce-2026-atlanta-z7r9jz1a7pnza",
@@ -827,7 +845,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-silver-spring-maryland-11-21-2026/event/150064C59F2B8B3B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -878,7 +896,17 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048528",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048528/Lenny-Pearce-tickets-Sat-Nov-21-2026-The-Fillmore-Silver-Spring"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048528/Lenny-Pearce-tickets-Sat-Nov-21-2026-The-Fillmore-Silver-Spring",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T14:00:00Z",
+        "end": "2026-11-15T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lenny-pearce-2026-new-york-k7vgf_gmumtdg",
@@ -896,7 +924,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-new-york-manhattan-center-hammerstein-ballroom-11-22-2026/production/7155396",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-new-york-new-york-11-22-2026/event/000064CBB6BBF0F5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -931,7 +959,17 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_GmUmTdg",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T14:00:00Z",
+        "end": "2026-11-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lenny-pearce-2027-auckland-17azv0g6uncrehf",
@@ -949,7 +987,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/lennys-toddler-rave-world-tour-auckland-auckland-27-02-2027/event/240064D8CEBC26D4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -984,7 +1022,10 @@
     },
     "ticketmaster_discovery_event_id": "17aZv0G6uNCRehf",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AUCKLAND LIVE"
+    ]
   },
   {
     "id": "tm-lenny-pearce-2027-townsville-city-1avgz_ogkn2n3_q",

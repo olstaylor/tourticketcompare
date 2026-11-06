@@ -84,7 +84,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tGA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +135,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344161",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344161/Mat-Kearney-tickets-Fri-Apr-16-2027-Carolina-Theatre-Durham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344161/Mat-Kearney-tickets-Fri-Apr-16-2027-Carolina-Theatre-Durham",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-charlotte-g5evz_ftdyo7x",
@@ -153,7 +156,7 @@
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-charlotte-the-fillmore-charlotte-4-18-2027/production/7762656",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-charlotte-north-carolina-04-18-2027/event/2D00654FFBC1113E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,7 +207,22 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344163",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344163/Mat-Kearney-tickets-Sun-Apr-18-2027-The-Fillmore-Charlotte"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344163/Mat-Kearney-tickets-Sun-Apr-18-2027-The-Fillmore-Charlotte",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "VIP Sales",
+        "start": "2026-10-28T14:00:00Z",
+        "end": "2027-04-12T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T20:00:00Z",
+        "end": "2027-03-19T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-washington-1a4zk49gkdhkrsu",
@@ -222,7 +240,7 @@
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-washington-dc-lincoln-theatre-dc-4-22-2027/production/7762740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-washington-district-of-columbia-04-22-2027/event/15006557DB19EC4D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273,7 +291,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344165",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344165/Mat-Kearney-tickets-Thu-Apr-22-2027-Lincoln-Theatre-DC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344165/Mat-Kearney-tickets-Thu-Apr-22-2027-Lincoln-Theatre-DC",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-10-28T14:00:00Z",
+        "end": "2027-04-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-atlantic-city-vv1aezk48gkd-q-0n",
@@ -397,7 +422,7 @@
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-new-york-town-hall-new-york-4-27-2027/production/7762667",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-new-york-new-york-04-27-2027/event/03006555312C0A14",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448,7 +473,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344155",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344155/Mat-Kearney-tickets-Tue-Apr-27-2027-Town-Hall-Theatre-NY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344155/Mat-Kearney-tickets-Tue-Apr-27-2027-Town-Hall-Theatre-NY",
+    "organizer_names": [
+      "BOWERY PRESENTS"
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-portland-vv177z_fgkbwdmul",
@@ -466,7 +494,7 @@
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-portland-state-theatre-portland-4-28-2027/production/7762724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-portland-maine-04-28-2027/event/0100654EBD0EED9F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -517,7 +545,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344175",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344175/Mat-Kearney-tickets-Wed-Apr-28-2027-State-Theatre-ME"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344175/Mat-Kearney-tickets-Wed-Apr-28-2027-State-Theatre-ME",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-10-28T14:00:00Z",
+        "end": "2027-04-28T07:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-mckees-rocks-1avbz_fgkh6lcsf",
@@ -535,7 +570,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-mckees-rocks-pennsylvania-04-30-2027/event/1600654F07ACECD4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -570,7 +605,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvbZ_fGkH6lCSf",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-cincinnati-16pzk48jvzacdggk",
@@ -787,7 +825,7 @@
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-denver-paramount-theatre-denver-8-17-2027/production/7762744",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-denver-colorado-08-17-2027/event/1E0065557E872477",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -838,7 +876,10 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344239",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344239/Mat-Kearney-tickets-Tue-Aug-17-2027-Paramount-Theatre-Denver"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344239/Mat-Kearney-tickets-Tue-Aug-17-2027-Paramount-Theatre-Denver",
+    "organizer_names": [
+      "AEG LIVE"
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-phoenix-1av0z_4gknhdgeg",
@@ -856,7 +897,7 @@
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-phoenix-the-van-buren-8-19-2027/production/7762628",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-phoenix-arizona-08-19-2027/event/1900655ABC0F508C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -907,7 +948,27 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344241",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344241/Mat-Kearney-tickets-Thu-Aug-19-2027-The-Van-Buren"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344241/Mat-Kearney-tickets-Thu-Aug-19-2027-The-Van-Buren",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Acoustic VIP Experience-Package Onsale",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-08-13T05:00:00Z"
+      },
+      {
+        "name": "EARLY ENTRY VIP-Package Onsale",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-08-13T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-08-17T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-san-diego-vvg1iz_fdgrqma",
@@ -925,7 +986,7 @@
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-san-diego-humphreys-concerts-by-the-bay-8-20-2027/production/7762622",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-san-diego-california-08-20-2027/event/0A00654EF5BDAB89",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -976,7 +1037,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344243",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344243/Mat-Kearney-tickets-Fri-Aug-20-2027-Humphreys-Concerts-By-The-Bay"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344243/Mat-Kearney-tickets-Fri-Aug-20-2027-Humphreys-Concerts-By-The-Bay",
+    "presales": [
+      {
+        "name": "VIP Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-08-14T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-cerritos-vvg1iz_4z4bvmr",
@@ -1047,7 +1115,7 @@
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-sacramento-ace-of-spades-8-24-2027/production/7763264",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-sacramento-california-08-24-2027/event/1C00655AC49240A8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1098,7 +1166,10 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344245",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344245/Mat-Kearney-tickets-Tue-Aug-24-2027-Ace-of-Spades"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344245/Mat-Kearney-tickets-Tue-Aug-24-2027-Ace-of-Spades",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-spokane-g5vzz_4p1-wsc",
@@ -1116,7 +1187,7 @@
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-spokane-knitting-factory-concert-house-spokane-8-31-2027/production/7762666",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-spokane-washington-08-31-2027/event/1E0065558A872CCE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1167,7 +1238,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344247",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344247/Mat-Kearney-tickets-Tue-Aug-31-2027-Knitting-Factory-Spokane"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344247/Mat-Kearney-tickets-Tue-Aug-31-2027-Knitting-Factory-Spokane",
+    "presales": [
+      {
+        "name": "VIP",
+        "start": "2026-10-28T17:00:00Z",
+        "end": "2027-08-26T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-boise-z7r9jz1aa7yr7",
@@ -1254,7 +1332,7 @@
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-grand-junction-avalon-theatre---co-9-3-2027/production/7762710",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-grand-junction-colorado-09-03-2027/event/1E00654DC058A147",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1305,7 +1383,27 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344249",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344249/Mat-Kearney-tickets-Fri-Sep-3-2027-The-Avalon-Theatre-CO"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344249/Mat-Kearney-tickets-Fri-Sep-3-2027-The-Avalon-Theatre-CO",
+    "organizer_names": [
+      "PEPPER ENTERTAINMENT INC"
+    ],
+    "presales": [
+      {
+        "name": "Acoustic VIP Experience",
+        "start": "2026-10-28T20:00:00Z",
+        "end": "2027-08-28T04:00:00Z"
+      },
+      {
+        "name": "Early Entry VIP",
+        "start": "2026-10-28T20:00:00Z",
+        "end": "2027-08-28T04:00:00Z"
+      },
+      {
+        "name": "Aisle Offer",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-09-04T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-madison-vv1a6zk48gkehsz0t",
@@ -1323,7 +1421,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-madison-wisconsin-11-06-2027/event/07006550BCC78929",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1358,7 +1456,11 @@
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk48GkeHsz0t",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-shipshewana-z7r9jz1aa7t8k",
@@ -1445,7 +1547,7 @@
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-cleveland-house-of-blues-cleveland-11-10-2027/production/7762644",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-cleveland-ohio-11-10-2027/event/05006554D1F9AF79",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1496,7 +1598,27 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344251",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344251/Mat-Kearney-tickets-Wed-Nov-10-2027-House-Of-Blues-Cleveland"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344251/Mat-Kearney-tickets-Wed-Nov-10-2027-House-Of-Blues-Cleveland",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-10-14T02:00:00Z"
+      },
+      {
+        "name": "VIP PACKAGES",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-11-02T02:00:00Z"
+      },
+      {
+        "name": "T-MOBILE CONCERT PERKS + FAST LANE",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-11-08T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-omaha-1aozk4kgkes-kce",
@@ -1514,7 +1636,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-omaha-nebraska-11-12-2027/event/20006553B1846382",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1565,7 +1687,10 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344252",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344252/Mat-Kearney-tickets-Fri-Nov-12-2027-Steelhouse-Omaha"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344252/Mat-Kearney-tickets-Fri-Nov-12-2027-Steelhouse-Omaha",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-saint-louis-vv1kvovp4agag9idz",
@@ -1583,7 +1708,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-saint-louis-missouri-11-13-2027/event/060065549C5E80C0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1618,7 +1743,10 @@
     },
     "ticketmaster_discovery_event_id": "vv1kvOvP4aGAG9IdZ",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-mat-kearney-2027-atlanta-vvg1zz_4golpzd",
@@ -1636,7 +1764,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-atlanta-georgia-11-19-2027/event/0E006553207E5E3B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1671,6 +1799,21 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_4GOLPzD",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-10-23T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-30T15:00:00Z",
+        "end": "2027-11-13T03:00:00Z"
+      }
+    ]
   }
 ]

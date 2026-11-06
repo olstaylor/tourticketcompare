@@ -87,7 +87,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-vancouver-rogers-arena-11-7-2026/production/7394177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pentatonix-christmas-in-the-city-tour-vancouver-british-columbia-11-07-2026/event/110065058A055491",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -147,13 +147,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184455",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184455/Pentatonix-tickets-Sat-Nov-7-2026-Rogers-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-tickets-vancouver-rogers-arena-11-7-2026/event/107476100",
-    "presales": [
-      {
-        "name": "Spooky Christmas Deal",
-        "start": "2026-10-30T17:00:00Z",
-        "end": "2026-11-06T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -315,7 +308,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-lincoln-pinnacle-bank-arena-11-12-2026/production/7393462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-lincoln-nebraska-11-12-2026/event/06006504D65B3730",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -367,13 +360,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184413",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184413/Pentatonix-tickets-Thu-Nov-12-2026-Pinnacle-Bank-Arena",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-14T15:00:00Z",
-        "end": "2026-11-06T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

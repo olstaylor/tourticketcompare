@@ -2222,7 +2222,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-milwaukee-fiserv-forum-11-12-2027--concerts-pop/production/7599710",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-milwaukee-wisconsin-11-12-2027/event/07006535EF0E6E27",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2283,11 +2283,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284568",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-milwaukee-tickets-11-12-2027/event/107669010",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-10-02T15:00:00Z",
-        "end": "2026-11-06T04:00:00Z"
-      },
       {
         "name": "Verizon Shine Select Seats",
         "start": "2026-10-02T15:00:00Z",

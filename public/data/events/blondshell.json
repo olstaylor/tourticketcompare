@@ -1684,7 +1684,7 @@
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-cleveland-the-odeon-concert-club-5-18-2027/production/7799914",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-cleveland-ohio-05-18-2027/event/05006556CD03BF70",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1722,21 +1722,6 @@
     "status": "announced",
     "public_onsale_at": "2026-11-06T15:00:00Z",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-04T15:00:00Z",
-        "end": "2026-11-06T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-04T15:00:00Z",
-        "end": "2026-11-06T03:00:00Z"
-      },
-      {
-        "name": "The Odeon Presale",
-        "start": "2026-11-05T15:00:00Z",
-        "end": "2026-11-06T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-06T15:00:00Z",

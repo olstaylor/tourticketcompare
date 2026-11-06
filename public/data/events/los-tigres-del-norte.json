@@ -807,7 +807,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-oklahoma-city-paycom-center-2-12-2027/production/7794871",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-oklahoma-city-oklahoma-02-12-2027/event/0C006542D1ADD76D",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -856,8 +856,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f5olqqc",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-05T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353584",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353584/Los-Tigres-del-Norte-tickets-Fri-Feb-12-2027-Paycom-Center",
     "organizer_names": [
@@ -880,7 +879,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-fort-worth-ariat-arena-2-13-2027/production/7794885",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-fort-worth-texas-02-13-2027/event/0C00655EAEA97F67",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -936,16 +935,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4Bmn9WE",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-05T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353583",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353583/Los-Tigres-del-Norte-tickets-Sat-Feb-13-2027-Ariat-Arena",
     "presales": [
-      {
-        "name": "Presales",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T16:45:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-11-05T17:00:00Z",
@@ -970,7 +963,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-rosemont-allstate-arena-3-20-2027/production/7794809",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-rosemont-illinois-03-20-2027/event/04006546C23AB42E",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1019,8 +1012,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4kGkdeCl8m",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-05T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "ZAMORA LIVE"
     ],
@@ -1050,7 +1042,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-miami-james-knight-center-3-26-2027/production/7794817",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-miami-florida-03-26-2027/event/0D006548B73BCA1F",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1099,31 +1091,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fxMCHIL",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-05T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353585",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353585/Los-Tigres-del-Norte-tickets-Fri-Mar-26-2027-James-L-Knight-Center",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T16:59:00Z"
-      },
-      {
-        "name": "Ticketmaster Mobile App",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T16:59:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T16:59:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T16:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-05T17:00:00Z",
@@ -1147,7 +1118,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-4-16-2027/production/7794805",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-atlantic-city-new-jersey-04-16-2027/event/0200655DF62CE019",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1196,19 +1167,11 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_4GkMU5CZ_",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-05T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353586",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353586/Los-Tigres-del-Norte-tickets-Fri-Apr-16-2027-Hard-Rock-Live-At-Etess-Arena",
     "organizer_names": [
       "ZAMORA LIVE"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T16:59:00Z"
-      }
     ]
   },
   {
@@ -1227,7 +1190,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-duluth-gas-south-arena-4-23-2027/production/7794847",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-duluth-georgia-04-23-2027/event/0E0065468B296CD9",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1276,21 +1239,10 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_fQ51pS_",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-05T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353587",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353587/Los-Tigres-del-Norte-tickets-Fri-Apr-23-2027-Gas-South-Arena",
     "presales": [
-      {
-        "name": "Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T17:00:00Z"
-      },
-      {
-        "name": "VIP Presale",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-05T17:00:00Z"
-      },
       {
         "name": "VIP Onsale",
         "start": "2026-11-05T17:00:00Z",
@@ -1314,7 +1266,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-charlotte-spectrum-center-4-24-2027/production/7794948",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-charlotte-north-carolina-04-24-2027/event/2D006546B359D28D",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1363,8 +1315,7 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fQSpq1u",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-05T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353588",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353588/Los-Tigres-del-Norte-tickets-Sat-Apr-24-2027-Spectrum-Center",
     "organizer_names": [
@@ -1394,7 +1345,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-seattle-wamu-theater---seattle-5-21-2027/production/7794956",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-seattle-washington-05-21-2027/event/0F00655E394938A0",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1443,8 +1394,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4zy3KxO",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-05T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353589",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353589/Los-Tigres-del-Norte-tickets-Fri-May-21-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
     "organizer_names": [
@@ -1619,7 +1569,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7zF8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1661,8 +1611,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7zF8",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-05T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357209"
   },
   {
@@ -1758,7 +1707,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-hartford-peoplesbank-arena-4-17-2027/production/7799310",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ18",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1807,8 +1756,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZ18",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-05T18:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356363",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8356363/Los-Tigres-del-Norte-tickets-Sat-Apr-17-2027-PeoplesBank-Arena"
   }

@@ -1421,7 +1421,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/queens-of-the-stone-age-perfecth-world-tour-tickets/1238040788?language=en-us",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-06",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1463,17 +1463,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vFzvZrF",
     "timezone": "Europe/Madrid",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation España Golden Age SL"
-    ],
-    "presales": [
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-05T09:00:00Z",
-        "end": "2026-11-06T08:00:00Z"
-      }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-tickets-valencia-roig-arena-21-6-2027/event/107679055"
   },
@@ -1493,7 +1485,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/queens-of-the-stone-age-pordenone-27-06-2027/event/rpght2pnsldw",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1528,7 +1520,6 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZFa6e",
     "timezone": "Europe/Rome",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "status": "on-sale"
   }
 ]

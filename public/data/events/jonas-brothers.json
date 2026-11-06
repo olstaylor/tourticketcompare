@@ -1014,7 +1014,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-oklahoma-city-paycom-center-11-9-2026--concerts-pop/production/7446282",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-oklahoma-city-oklahoma-11-09-2026/event/0C00650DEAE7F49C",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1068,13 +1068,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214354/Jonas-Brothers-tickets-Mon-Nov-9-2026-Paycom-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T15:00:00Z",
-        "end": "2026-11-05T18:00:00Z"
-      }
     ]
   },
   {
@@ -2098,7 +2091,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-seattle-climate-pledge-arena-12-5-2026--concerts-pop/production/7446334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-seattle-washington-12-05-2026/event/0F00650D9D7768D8",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2162,11 +2155,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-11-06T06:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-21T17:00:00Z",
@@ -2346,7 +2334,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-lincoln-pinnacle-bank-arena-12-10-2026--concerts-pop/production/7446344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lincoln-nebraska-12-10-2026/event/0600650DED6F1F8D",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2411,6 +2399,26 @@
         "name": "VIP Packages Onsale",
         "start": "2026-08-21T15:00:00Z",
         "end": "2026-12-06T18:00:00Z"
+      },
+      {
+        "name": "Sucker For A Giveaway Contest",
+        "start": "2026-11-05T23:45:00Z",
+        "end": "2026-11-09T05:59:00Z"
+      },
+      {
+        "name": "4-Pack Offer",
+        "start": "2026-11-05T23:45:00Z",
+        "end": "2026-12-11T02:00:00Z"
+      },
+      {
+        "name": "2-Pack Offer",
+        "start": "2026-11-06T00:00:00Z",
+        "end": "2026-12-11T02:00:00Z"
+      },
+      {
+        "name": "35 ALL-IN Offer",
+        "start": "2026-11-06T00:00:00Z",
+        "end": "2026-12-11T02:00:00Z"
       }
     ]
   },

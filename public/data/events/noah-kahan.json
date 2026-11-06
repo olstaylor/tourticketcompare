@@ -1481,7 +1481,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-houston-reliant-stadium-5-12-2027--concerts-pop/production/7773118",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-houston-texas-05-12-2027/event/3A00655C86F94494",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1558,11 +1558,6 @@
       },
       {
         "name": "Reserved by Spotify",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T15:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
         "start": "2026-11-11T15:00:00Z",
         "end": "2026-11-12T15:00:00Z"
       },
@@ -1702,7 +1697,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-las-vegas-allegiant-stadium-5-21-2027--concerts-pop/production/7773130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-las-vegas-nevada-05-21-2027/event/1700655BEE9D1DA4",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1779,11 +1774,6 @@
       },
       {
         "name": "Reserved by Spotify",
-        "start": "2026-11-11T17:00:00Z",
-        "end": "2026-11-12T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
         "start": "2026-11-11T17:00:00Z",
         "end": "2026-11-12T17:00:00Z"
       },
@@ -1918,7 +1908,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-detroit-ford-field-6-10-2027--concerts-pop/production/7773185",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-10-2027/event/0800653792B43D27",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1999,11 +1989,6 @@
         "end": "2026-11-12T14:00:00Z"
       },
       {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-11T14:00:00Z",
-        "end": "2026-11-12T14:00:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-06-05T21:00:00Z"
@@ -2026,7 +2011,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-orchard-park-highmark-stadium-6-12-2027--concerts-pop/production/7773189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-orchard-park-new-york-06-12-2027/event/0300655CDD312E2B",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2103,11 +2088,6 @@
       },
       {
         "name": "Reserved by Spotify",
-        "start": "2026-11-11T14:00:00Z",
-        "end": "2026-11-12T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
         "start": "2026-11-11T14:00:00Z",
         "end": "2026-11-12T14:00:00Z"
       },
@@ -2253,7 +2233,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-east-rutherford-metlife-stadium-6-18-2027--concerts-pop/production/7773195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-18-2027/event/0000655BA74A5861",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2316,7 +2296,7 @@
     "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-east-rutherford-tickets-6-18-2027/event/107678751",
     "presales": [
       {
-        "name": "Citi Field Past Purchaser Presale",
+        "name": "Citi Field Past Purchaser Pre sale",
         "start": "2026-11-10T14:00:00Z",
         "end": "2026-11-10T16:00:00Z"
       },

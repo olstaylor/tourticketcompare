@@ -555,7 +555,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961638"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961638",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-katseye-2026-minneapolis-vvg1bz_1syoq0j",
@@ -635,7 +636,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961641"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961641",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-katseye-2026-austin-g5diz_1lv8_jd",
@@ -1460,7 +1462,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/katseye-the-wildworld-tour-auckland-05-03-2027/event/2400655BE73C411D",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1495,8 +1497,7 @@
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_4GkRE277q",
     "timezone": "Pacific/Auckland",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T01:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ]
@@ -1517,7 +1518,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/katseye-the-wildworld-tour-auckland-06-03-2027/event/2400655C9E87218F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1552,6 +1553,9 @@
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_4Gkwr-wk2",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ]
   }
 ]

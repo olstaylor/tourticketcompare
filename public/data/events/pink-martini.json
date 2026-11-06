@@ -643,7 +643,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-ft-lauderdale-florida-01-17-2027/event/0D00649CD8F15C3E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -678,7 +678,14 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_aSbH4YX",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2027-01-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-pink-martini-2027-athens-z7r9jz1a7pv8_",

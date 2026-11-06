@@ -1787,7 +1787,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-interrupters-london-01-06-2027/event/1F00655ED28D88F1",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1822,8 +1822,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_4D3NbNs",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
     ]
@@ -1844,7 +1843,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.dk/event/the-interrupters-us--tickets/418612942?language=en-us",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-06",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1879,8 +1878,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC4Z1k8bb3Pe",
     "timezone": "Europe/Copenhagen",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "VEGA Musikkens Hus"
     ]

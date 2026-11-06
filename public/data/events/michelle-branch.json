@@ -1011,7 +1011,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-lexington-manchester-music-hall-11-13-2026/production/7291696",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-lexington-kentucky-11-13-2026/event/160064EED101A73B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1063,13 +1063,6 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135386/Michelle-Branch-tickets-Fri-Nov-13-2026-Manchester-Music-Hall",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135386",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-17T14:00:00Z",
-        "end": "2026-11-06T04:55:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

@@ -7939,10 +7939,34 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       vividSeatsAvailable,
       marketplaceAvailability
     }, { preferPriced: true }) : "";
+    // The cheapest of the dates' own lowest listed prices, with its site, date and
+    // check time, right under the intro so it sits on a phone's first screen.
+    // Same component, gates and wording as the price guide's "Cheapest <artist>
+    // tickets" panel (owner decision 2026-10-30); shown only when two or more
+    // dates have a price, so it never reads as a bare "from <price>".
+    const showCityById = new Map(shows.map((show) => [String(show.id || ""), show.city || ""]));
+    const cheapestPanelHtml = isIndexableArtist && shows.length
+      ? renderCheapestAcrossDatesHtml(
+          artist,
+          deriveCityDatePrices(shows, {
+            ctaSpecsFor: (show) => serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }),
+            wasChecked: pricesWereChecked
+          }).rows,
+          {
+            heading: `Cheapest ${artist.name} tickets`,
+            titleId: "artistCheapestTitle",
+            placeFor: (row) => {
+              const city = showCityById.get(row.showId);
+              return city ? `${city} (${row.venue})` : row.venue;
+            },
+            ctaLocation: "artist_cheapest"
+          }
+        )
+      : "";
     const nextDatesHtml = `${shows.length ? `<p class="artist-dates-jump">${anchor(`Find your date · ${shows.length} listed`, "#artistShowBoard", "text-link")}</p>` : ""}${nextDatesTableHtml}`;
     const leadHtml = `<div data-artist-lead><h1 id="artistTitle">${escapeHtml(
       shows.length ? `${artist.name} tickets and tour dates` : `${artist.name} tickets`
-    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${priceGuideLinkHtml}${presaleLinkHtml}${renderCityReportLinkHtml(artist, route.cityReport)}${nextDatesHtml}${nextDatesTableHtml ? `<p class="artist-embed-link">${anchor("Embed these prices on your site", `/api/embed?artist=${encodeURIComponent(artist.slug)}&view=builder`, "text-link", "rel=\"nofollow\"")}</p>` : ""}</div>`;
+    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${cheapestPanelHtml}${priceGuideLinkHtml}${presaleLinkHtml}${renderCityReportLinkHtml(artist, route.cityReport)}${nextDatesHtml}${nextDatesTableHtml ? `<p class="artist-embed-link">${anchor("Embed these prices on your site", `/api/embed?artist=${encodeURIComponent(artist.slug)}&view=builder`, "text-link", "rel=\"nofollow\"")}</p>` : ""}</div>`;
     const showBoardHtml = renderShowBoardServerHtml(
       shows,
       seatGeekAvailable,

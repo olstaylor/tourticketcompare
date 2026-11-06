@@ -1233,5 +1233,59 @@
     "organizer_names": [
       "Mojo Concerts"
     ]
+  },
+  {
+    "id": "tm-u2-2027-stockholm-z698xzq2z16vvejtvk",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "venue": "Strawberry Arena",
+    "datetime_iso": "2027-04-30T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1067729046",
+    "ticketmaster_url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1067729046?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1067729046?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1067729046",
+        "discovery_event_id": "Z698xZq2Z16vvEjtvk",
+        "url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1067729046?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZq2Z16vvEjtvk",
+    "timezone": "Europe/Stockholm",
+    "status": "announced",
+    "public_onsale_at": "2026-11-10T11:00:00Z"
   }
 ]

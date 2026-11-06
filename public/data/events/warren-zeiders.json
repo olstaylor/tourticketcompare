@@ -1601,5 +1601,58 @@
     "organizer_names": [
       "Auditorium AS (Rockefeller / John Dee / Sentrum Scene)"
     ]
+  },
+  {
+    "id": "tm-warren-zeiders-2027-charlotte-z7r9jz1aaeb7u",
+    "artist_slug": "warren-zeiders",
+    "artist_name": "Warren Zeiders",
+    "event_name": "Warren Zeiders (18+ Event)",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Coyote Joes",
+    "datetime_iso": "2027-05-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeb7U",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7U",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7U",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeb7U",
+        "discovery_event_id": "Z7r9jZ1AAeb7U",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7U",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb7U",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

@@ -778,5 +778,111 @@
         "end": "2026-12-08T04:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-gary-allan-2026-newkirk-z7r9jz1aavecf",
+    "artist_slug": "gary-allan",
+    "artist_name": "Gary Allan",
+    "event_name": "Gary Allan",
+    "city": "Newkirk",
+    "country": "United States Of America",
+    "venue": "7 Clans First Council Casino Hotel",
+    "datetime_iso": "2026-11-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAveCF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAveCF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAveCF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAveCF",
+        "discovery_event_id": "Z7r9jZ1AAveCF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAveCF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAveCF",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gary-allan-2027-thackerville-z7r9jz1aaaz4v",
+    "artist_slug": "gary-allan",
+    "artist_name": "Gary Allan",
+    "event_name": "Gary Allan",
+    "city": "Thackerville",
+    "country": "United States Of America",
+    "venue": "WinStar World Casino",
+    "datetime_iso": "2027-02-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAZ4V",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ4V",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ4V",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAZ4V",
+        "discovery_event_id": "Z7r9jZ1AAAZ4V",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ4V",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZ4V",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

@@ -479,5 +479,1571 @@
     "organizer_names": [
       "SJM LIMITED (NEW)"
     ]
+  },
+  {
+    "id": "tm-kings-of-leon-2027-bristow-1ka8vp__gaurfu5",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Bristow",
+    "country": "United States Of America",
+    "venue": "Jiffy Lube Live",
+    "datetime_iso": "2027-05-08T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150065659D794D8B",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-bristow-virginia-05-08-2027/event/150065659D794D8B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-bristow-virginia-05-08-2027/event/150065659D794D8B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150065659D794D8B",
+        "discovery_event_id": "1kA8vP__GAurfU5",
+        "url": "https://www.ticketmaster.com/kings-of-leon-bristow-virginia-05-08-2027/event/150065659D794D8B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kA8vP__GAurfU5",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-philadelphia-vv1aezk4xgkdfbii2",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "TD Pavilion at Highmark Mann",
+    "datetime_iso": "2027-05-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006562C8EA8A0F",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-philadelphia-pennsylvania-05-12-2027/event/02006562C8EA8A0F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-philadelphia-pennsylvania-05-12-2027/event/02006562C8EA8A0F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006562C8EA8A0F",
+        "discovery_event_id": "vv1AeZk4xGkdFBII2",
+        "url": "https://www.ticketmaster.com/kings-of-leon-philadelphia-pennsylvania-05-12-2027/event/02006562C8EA8A0F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4xGkdFBII2",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-cuyahoga-falls-vv16azk4nouzac7agu",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Cuyahoga Falls",
+    "country": "United States Of America",
+    "venue": "Blossom Music Center",
+    "datetime_iso": "2027-05-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006563836D34BC",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-cuyahoga-falls-ohio-05-14-2027/event/05006563836D34BC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-cuyahoga-falls-ohio-05-14-2027/event/05006563836D34BC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006563836D34BC",
+        "discovery_event_id": "vv16AZk4NOUZAC7AGu",
+        "url": "https://www.ticketmaster.com/kings-of-leon-cuyahoga-falls-ohio-05-14-2027/event/05006563836D34BC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16AZk4NOUZAC7AGu",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-noblesville-vv1aazk4ngkdiu1bn",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Noblesville",
+    "country": "United States Of America",
+    "venue": "Ruoff Music Center",
+    "datetime_iso": "2027-05-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006563E8D8A623",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-noblesville-indiana-05-15-2027/event/05006563E8D8A623",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-noblesville-indiana-05-15-2027/event/05006563E8D8A623",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006563E8D8A623",
+        "discovery_event_id": "vv1AAZk4NGkdIU1bN",
+        "url": "https://www.ticketmaster.com/kings-of-leon-noblesville-indiana-05-15-2027/event/05006563E8D8A623",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4NGkdIU1bN",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-grand-rapids-vv1afzk4xgkdurf5s",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "Acrisure Amphitheater",
+    "datetime_iso": "2027-05-18T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006562F67882F1",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-grand-rapids-michigan-05-18-2027/event/08006562F67882F1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-grand-rapids-michigan-05-18-2027/event/08006562F67882F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006562F67882F1",
+        "discovery_event_id": "vv1AFZk4xGkdUrF5s",
+        "url": "https://www.ticketmaster.com/kings-of-leon-grand-rapids-michigan-05-18-2027/event/08006562F67882F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk4xGkdUrF5s",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-clarkston-vv1afzk4pgkdf_fbn",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Clarkston",
+    "country": "United States Of America",
+    "venue": "Pine Knob Music Theatre",
+    "datetime_iso": "2027-05-23T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006565C8654EA3",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-clarkston-michigan-05-23-2027/event/08006565C8654EA3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-clarkston-michigan-05-23-2027/event/08006565C8654EA3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006565C8654EA3",
+        "discovery_event_id": "vv1AFZk4PGkdF_fBN",
+        "url": "https://www.ticketmaster.com/kings-of-leon-clarkston-michigan-05-23-2027/event/08006565C8654EA3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk4PGkdF_fBN",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-bridgeport-g5vvz_pclhssb",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Bridgeport",
+    "country": "United States Of America",
+    "venue": "Hartford HealthCare Amphitheater",
+    "datetime_iso": "2027-05-25T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D0065639FF31CFA",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-bridgeport-connecticut-05-25-2027/event/1D0065639FF31CFA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-bridgeport-connecticut-05-25-2027/event/1D0065639FF31CFA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D0065639FF31CFA",
+        "discovery_event_id": "G5vVZ_pCLHsSB",
+        "url": "https://www.ticketmaster.com/kings-of-leon-bridgeport-connecticut-05-25-2027/event/1D0065639FF31CFA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_pCLHsSB",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-saratoga-springs-k7vgf_p52u5pn",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Saratoga Springs",
+    "country": "United States Of America",
+    "venue": "Albany Med Health System at SPAC",
+    "datetime_iso": "2027-05-27T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006562CFD8B5A3",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-saratoga-springs-new-york-05-27-2027/event/00006562CFD8B5A3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-saratoga-springs-new-york-05-27-2027/event/00006562CFD8B5A3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006562CFD8B5A3",
+        "discovery_event_id": "k7vGF_p52U5pN",
+        "url": "https://www.ticketmaster.com/kings-of-leon-saratoga-springs-new-york-05-27-2027/event/00006562CFD8B5A3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_p52U5pN",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-bangor-vv1a8vpbygagbkh_",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Bangor",
+    "country": "United States Of America",
+    "venue": "Maine Savings Amphitheater",
+    "datetime_iso": "2027-05-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065639C6066D9",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-bangor-maine-05-29-2027/event/010065639C6066D9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-bangor-maine-05-29-2027/event/010065639C6066D9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065639C6066D9",
+        "discovery_event_id": "vv1A8vPbyGAGbkh_",
+        "url": "https://www.ticketmaster.com/kings-of-leon-bangor-maine-05-29-2027/event/010065639C6066D9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vPbyGAGbkh_",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-bethel-k7vgf_pkjzmnn",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Bethel",
+    "country": "United States Of America",
+    "venue": "Bethel Woods Center for the Arts",
+    "datetime_iso": "2027-05-30T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006564DCE2EAA3",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-bethel-new-york-05-30-2027/event/00006564DCE2EAA3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-bethel-new-york-05-30-2027/event/00006564DCE2EAA3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006564DCE2EAA3",
+        "discovery_event_id": "k7vGF_pKjzmnN",
+        "url": "https://www.ticketmaster.com/kings-of-leon-bethel-new-york-05-30-2027/event/00006564DCE2EAA3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_pKjzmnN",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-toronto-16vzz_poyg7venm",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "RBC Amphitheatre",
+    "datetime_iso": "2027-06-02T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000656470D028EE",
+    "ticketmaster_url": "https://www.ticketmaster.ca/kings-of-leon-toronto-ontario-06-02-2027/event/1000656470D028EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/kings-of-leon-toronto-ontario-06-02-2027/event/1000656470D028EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000656470D028EE",
+        "discovery_event_id": "16vZZ_poYG7VeNm",
+        "url": "https://www.ticketmaster.ca/kings-of-leon-toronto-ontario-06-02-2027/event/1000656470D028EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vZZ_poYG7VeNm",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-shakopee-16-zk40-tza2vg27",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Shakopee",
+    "country": "United States Of America",
+    "venue": "Mystic Lake Amphitheater",
+    "datetime_iso": "2027-06-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "21006564869E0BE3",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-shakopee-minnesota-06-05-2027/event/21006564869E0BE3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-shakopee-minnesota-06-05-2027/event/21006564869E0BE3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21006564869E0BE3",
+        "discovery_event_id": "16-Zk40-tZA2vG27",
+        "url": "https://www.ticketmaster.com/kings-of-leon-shakopee-minnesota-06-05-2027/event/21006564869E0BE3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16-Zk40-tZA2vG27",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-tinley-park-vv1kvzvpbygacp7l6",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Tinley Park",
+    "country": "United States Of America",
+    "venue": "Credit Union 1 Amphitheatre",
+    "datetime_iso": "2027-06-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040065639E5847C7",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-tinley-park-illinois-06-06-2027/event/040065639E5847C7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-tinley-park-illinois-06-06-2027/event/040065639E5847C7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040065639E5847C7",
+        "discovery_event_id": "vv1kvZvPbyGACp7L6",
+        "url": "https://www.ticketmaster.com/kings-of-leon-tinley-park-illinois-06-06-2027/event/040065639E5847C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvZvPbyGACp7L6",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-west-valley-city-g5vzz_p2iqpnf",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "West Valley City",
+    "country": "United States Of America",
+    "venue": "Utah First Credit Union Amphitheatre",
+    "datetime_iso": "2027-09-12T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006563EC6968C8",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-west-valley-city-utah-09-11-2027/event/1E006563EC6968C8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-west-valley-city-utah-09-11-2027/event/1E006563EC6968C8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006563EC6968C8",
+        "discovery_event_id": "G5vzZ_p2iQpNF",
+        "url": "https://www.ticketmaster.com/kings-of-leon-west-valley-city-utah-09-11-2027/event/1E006563EC6968C8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_p2iQpNF",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T16:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-vancouver-16v7z_ppfg7nnqo",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-09-15T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100656588AA3760",
+    "ticketmaster_url": "https://www.ticketmaster.ca/kings-of-leon-vancouver-british-columbia-09-14-2027/event/1100656588AA3760",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/kings-of-leon-vancouver-british-columbia-09-14-2027/event/1100656588AA3760",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100656588AA3760",
+        "discovery_event_id": "16v7Z_ppFG7nNqO",
+        "url": "https://www.ticketmaster.ca/kings-of-leon-vancouver-british-columbia-09-14-2027/event/1100656588AA3760",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16v7Z_ppFG7nNqO",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T16:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-seattle-vvg1hz_p57x6w0",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-09-16T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006562C4887F64",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-seattle-washington-09-15-2027/event/0F006562C4887F64",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-seattle-washington-09-15-2027/event/0F006562C4887F64",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006562C4887F64",
+        "discovery_event_id": "vvG1HZ_p57x6W0",
+        "url": "https://www.ticketmaster.com/kings-of-leon-seattle-washington-09-15-2027/event/0F006562C4887F64",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_p57x6W0",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T17:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-mountain-view-g5vyz_p1j_6oc",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Mountain View",
+    "country": "United States Of America",
+    "venue": "Shoreline Amphitheatre",
+    "datetime_iso": "2027-09-18T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0065629C64780E",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-mountain-view-california-09-17-2027/event/1C0065629C64780E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-mountain-view-california-09-17-2027/event/1C0065629C64780E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0065629C64780E",
+        "discovery_event_id": "G5vYZ_p1j_6OC",
+        "url": "https://www.ticketmaster.com/kings-of-leon-mountain-view-california-09-17-2027/event/1C0065629C64780E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_p1j_6OC",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T17:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-inglewood-vv1aazk4ngkdyvvz_",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2027-09-19T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006563F0D01019",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-inglewood-california-09-18-2027/event/09006563F0D01019",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-inglewood-california-09-18-2027/event/09006563F0D01019",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006563F0D01019",
+        "discovery_event_id": "vv1AaZk4NGkdYVvZ_",
+        "url": "https://www.ticketmaster.com/kings-of-leon-inglewood-california-09-18-2027/event/09006563F0D01019",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZk4NGkdYVvZ_",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T17:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-phoenix-1a_zk4xgkewyfnx",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Talking Stick Resort Amphitheatre",
+    "datetime_iso": "2027-09-25T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006562BDE54AA2",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-phoenix-arizona-09-24-2027/event/19006562BDE54AA2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-phoenix-arizona-09-24-2027/event/19006562BDE54AA2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006562BDE54AA2",
+        "discovery_event_id": "1A_Zk4xGkeWyfnx",
+        "url": "https://www.ticketmaster.com/kings-of-leon-phoenix-arizona-09-24-2027/event/19006562BDE54AA2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zk4xGkeWyfnx",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T16:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-austin-g5diz_pk2f12g",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2027-09-27T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006564CF50A3CC",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-austin-texas-09-26-2027/event/3A006564CF50A3CC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-austin-texas-09-26-2027/event/3A006564CF50A3CC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006564CF50A3CC",
+        "discovery_event_id": "G5dIZ_pK2f12G",
+        "url": "https://www.ticketmaster.com/kings-of-leon-austin-texas-09-26-2027/event/3A006564CF50A3CC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_pK2f12G",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-fort-worth-vvg1yz_4lzyuso",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Ariat Arena",
+    "datetime_iso": "2027-09-29T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00655AC0E76CD1",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-fort-worth-texas-09-28-2027/event/0C00655AC0E76CD1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-fort-worth-texas-09-28-2027/event/0C00655AC0E76CD1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00655AC0E76CD1",
+        "discovery_event_id": "vvG1YZ_4lZyUSo",
+        "url": "https://www.ticketmaster.com/kings-of-leon-fort-worth-texas-09-28-2027/event/0C00655AC0E76CD1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_4lZyUSo",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-alpharetta-vvg1zz_pch0zpt",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Alpharetta",
+    "country": "United States Of America",
+    "venue": "Ameris Bank Amphitheatre",
+    "datetime_iso": "2027-09-30T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0065639B9385BF",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-alpharetta-georgia-09-30-2027/event/0E0065639B9385BF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-alpharetta-georgia-09-30-2027/event/0E0065639B9385BF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0065639B9385BF",
+        "discovery_event_id": "vvG1zZ_pCh0zpT",
+        "url": "https://www.ticketmaster.com/kings-of-leon-alpharetta-georgia-09-30-2027/event/0E0065639B9385BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_pCh0zpT",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-orlando-1axzk40gkdkpvf2",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2027-10-01T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006564C65B420F",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-orlando-florida-10-01-2027/event/22006564C65B420F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-orlando-florida-10-01-2027/event/22006564C65B420F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006564C65B420F",
+        "discovery_event_id": "1AxZk40GkdkpVF2",
+        "url": "https://www.ticketmaster.com/kings-of-leon-orlando-florida-10-01-2027/event/22006564C65B420F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZk40GkdkpVF2",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-raleigh-g5evz_p3nejt5",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Coastal Credit Union Music Park at Walnut Creek",
+    "datetime_iso": "2027-10-03T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006564A39E6FCB",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-raleigh-north-carolina-10-03-2027/event/2D006564A39E6FCB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-raleigh-north-carolina-10-03-2027/event/2D006564A39E6FCB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006564A39E6FCB",
+        "discovery_event_id": "G5eVZ_p3NEJT5",
+        "url": "https://www.ticketmaster.com/kings-of-leon-raleigh-north-carolina-10-03-2027/event/2D006564A39E6FCB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_p3NEJT5",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-charlotte-g5evz_p5ab5ro",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Truliant Amphitheater",
+    "datetime_iso": "2027-10-06T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006562C5E8B791",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-charlotte-north-carolina-10-06-2027/event/2D006562C5E8B791",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-charlotte-north-carolina-10-06-2027/event/2D006562C5E8B791",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006562C5E8B791",
+        "discovery_event_id": "G5eVZ_p5AB5ro",
+        "url": "https://www.ticketmaster.com/kings-of-leon-charlotte-north-carolina-10-06-2027/event/2D006562C5E8B791",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_p5AB5ro",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-franklin-g5viz_p28lhsa",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Franklin",
+    "country": "United States Of America",
+    "venue": "FirstBank Amphitheater",
+    "datetime_iso": "2027-10-09T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006563D07FCC45",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-franklin-tennessee-10-08-2027/event/1B006563D07FCC45",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-franklin-tennessee-10-08-2027/event/1B006563D07FCC45",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006563D07FCC45",
+        "discovery_event_id": "G5viZ_p28LHsA",
+        "url": "https://www.ticketmaster.com/kings-of-leon-franklin-tennessee-10-08-2027/event/1B006563D07FCC45",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_p28LHsA",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-cincinnati-1apzk4ngkdmfbs-",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "The Farmer Music Center",
+    "datetime_iso": "2027-10-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006563EE23AC61",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-cincinnati-ohio-10-12-2027/event/16006563EE23AC61",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-cincinnati-ohio-10-12-2027/event/16006563EE23AC61",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006563EE23AC61",
+        "discovery_event_id": "1ApZk4NGkdmFBs-",
+        "url": "https://www.ticketmaster.com/kings-of-leon-cincinnati-ohio-10-12-2027/event/16006563EE23AC61",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZk4NGkdmFBs-",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-mansfield-vv1avzk40gkelbik2",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Mansfield",
+    "country": "United States Of America",
+    "venue": "Xfinity Center",
+    "datetime_iso": "2027-10-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006564AB6284CF",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-mansfield-massachusetts-10-14-2027/event/01006564AB6284CF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-mansfield-massachusetts-10-14-2027/event/01006564AB6284CF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006564AB6284CF",
+        "discovery_event_id": "vv1AvZk40GkelbIK2",
+        "url": "https://www.ticketmaster.com/kings-of-leon-mansfield-massachusetts-10-14-2027/event/01006564AB6284CF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk40GkelbIK2",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-new-york-g5diz_4_hy-cs",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Madison Square Garden",
+    "datetime_iso": "2027-10-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B0065567CC21B71",
+    "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-new-york-new-york-10-15-2027/event/3B0065567CC21B71",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kings-of-leon-new-york-new-york-10-15-2027/event/3B0065567CC21B71",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B0065567CC21B71",
+        "discovery_event_id": "G5diZ_4_HY-cs",
+        "url": "https://www.ticketmaster.com/kings-of-leon-new-york-new-york-10-15-2027/event/3B0065567CC21B71",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_4_HY-cs",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T14:00:00Z"
   }
 ]

@@ -2630,5 +2630,58 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/meshuggah-tickets-london-ovo-arena-wembley-30-10-2027/event/107679704"
+  },
+  {
+    "id": "tm-meshuggah-2027-new-haven-z7r9jz1aa7t0i",
+    "artist_slug": "meshuggah",
+    "artist_name": "Meshuggah",
+    "event_name": "Meshuggah ??? The Forty-Year Anomaly Tour",
+    "city": "New Haven",
+    "country": "United States Of America",
+    "venue": "College Street Music Hall",
+    "datetime_iso": "2027-03-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7t0I",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t0I",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t0I",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7t0I",
+        "discovery_event_id": "Z7r9jZ1AA7t0I",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t0I",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t0I",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

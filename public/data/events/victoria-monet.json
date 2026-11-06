@@ -175,7 +175,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvPbJ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbJ",
-    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/atlanta-georgia-fox-theatre-atlanta-2026-11-04-8-pm/concert/18579808",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-atlanta-fox-theatre---atlanta-11-4-2026--concerts-pop/production/7540422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPbJ",
@@ -191,11 +191,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18579808,
-        "url": "https://seatgeek.com/victoria-monet-tickets/atlanta-georgia-fox-theatre-atlanta-2026-11-04-8-pm/concert/18579808",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7540422,
@@ -323,7 +323,7 @@
         "event_id": 18556120,
         "url": "https://seatgeek.com/victoria-monet-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-11-07-8-pm/concert/18556120",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1305,7 +1305,7 @@
         "event_id": 18579809,
         "url": "https://seatgeek.com/victoria-monet-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2026-12-02-8-pm/concert/18579809",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {

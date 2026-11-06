@@ -944,11 +944,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107482316",
-        "url": "https://www.stubhub.ie/steve-lacy-irving-tickets-11-5-2026/event/107482316",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_8n-3VDR",
@@ -956,7 +956,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199804",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199804/Steve-Lacy-tickets-Thu-Nov-5-2026-The-Pavilion-at-Toyota-Music-Factory",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-irving-tickets-11-5-2026/event/107482316",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]

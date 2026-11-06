@@ -533,11 +533,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107169132",
-        "url": "https://www.stubhub.ie/katseye-chicago-tickets-11-5-2026/event/107169132",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7961638",
@@ -551,7 +551,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961638/Katseye-tickets-Thu-Nov-5-2026-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-chicago-tickets-11-5-2026/event/107169132",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

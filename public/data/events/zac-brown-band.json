@@ -178,11 +178,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107136161",
-        "url": "https://www.stubhub.ie/zac-brown-band-buffalo-tickets-11-5-2026/event/107136161",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -202,7 +202,7 @@
     "ticketmaster_discovery_event_id": "k7vGF_dh65dyO",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-buffalo-tickets-11-5-2026/event/107136161",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"

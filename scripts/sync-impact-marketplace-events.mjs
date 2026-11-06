@@ -255,14 +255,27 @@ function decideOutcome({ storedUrl, storedVerified, storedCandidate, passing, ca
 // with `outcomeToCause` in scripts/report-link-coverage.mjs, which reads it
 // back as a coverage cause: "not checked" = unprocessed, "no qualifying" =
 // not listed, "ambiguous:" = ambiguous. A "-" note is not a cause.
-function outcomeNote(action, { ambiguousListing = false, storedListed = false, catalogComplete = false, stopReason = "" } = {}) {
+// Diagnostic only (2026-11-06): of the listings that name this artist on this
+// venue-local date, the checks the closest one failed, so a matcher near-miss
+// (a venue or city spelled differently) is visible in the log instead of
+// reading as "not listed". It never changes an outcome.
+export function closestMiss(evaluations) {
+  const sameDate = (evaluations || []).filter((row) => !row.ok && !row.reasons.includes("artist name mismatch") && !row.reasons.includes("venue-local date mismatch"));
+  if (!sameDate.length) return "";
+  const best = sameDate.reduce((a, b) => (b.reasons.length < a.reasons.length ? b : a));
+  return best.reasons.join(", ");
+}
+
+function outcomeNote(action, { ambiguousListing = false, storedListed = false, catalogComplete = false, stopReason = "", nearMiss = "" } = {}) {
   if (ambiguousListing) return "ambiguous: one listing passes for performances at different start times";
   if (action === "conflict") return "ambiguous: several qualifying listings for this event";
   if (["verify", "add", "correct"].includes(action)) return "-";
   if (["clear", "unverify"].includes(action)) return "no qualifying listing (the complete catalog no longer lists the stored link)";
   if (storedListed) return "-";
   if (!catalogComplete) return `not checked: catalog incomplete (${stopReason || "unknown"})`;
-  return "no qualifying listing (complete catalog checked)";
+  return nearMiss
+    ? `no qualifying listing (complete catalog checked; closest same-date listing: ${nearMiss})`
+    : "no qualifying listing (complete catalog checked)";
 }
 
 function markdownCell(value) {
@@ -526,10 +539,12 @@ async function run(options, deps = {}) {
       const link = event?.provider_links?.[config.linkKey] || {};
       const storedUrl = normalizeProviderUrl(config, event?.[config.urlField]);
       const storedId = clean(link?.event_id, 255);
-      const passing = catalog.candidates.map((candidate) => ({ candidate, evaluated: evaluateCandidate(event, artistName, candidate, { matchStartTime: false }) })).filter((row) => row.evaluated.ok).map((row) => ({ ...row.evaluated, ...row.candidate }));
+      const evaluatedAll = catalog.candidates.map((candidate) => ({ candidate, evaluated: evaluateCandidate(event, artistName, candidate, { matchStartTime: false }) }));
+      const passing = evaluatedAll.filter((row) => row.evaluated.ok).map((row) => ({ ...row.evaluated, ...row.candidate }));
+      const nearMiss = closestMiss(evaluatedAll.map((row) => row.evaluated));
       const exactStored = catalog.candidates.find((candidate) => (storedId && candidate.externalId === storedId) || (storedUrl && candidate.normalizedUrl === storedUrl));
       const storedCandidate = exactStored ? { ...evaluateCandidate(event, artistName, exactStored, { matchStartTime: false }), ...exactStored } : null;
-      return { event, link, storedUrl, storedId, passing, storedCandidate };
+      return { event, link, storedUrl, storedId, passing, storedCandidate, nearMiss };
     });
     // A narrow discovery miss is not proof of removal. Recheck the stored ID
     // in its own catalog, under the same call/time budgets and auth guards.
@@ -600,7 +615,7 @@ async function run(options, deps = {}) {
       }
     }
     const ambiguous = listingsMatchingSeveralDates(evaluations);
-    for (const { event, link, storedUrl, storedId, passing, untimedPassing, storedCandidate, exactIdComplete, exactIdStopReason, unresolvedStart, storedStartUnresolved } of evaluations) {
+    for (const { event, link, storedUrl, storedId, passing, untimedPassing, storedCandidate, exactIdComplete, exactIdStopReason, unresolvedStart, storedStartUnresolved, nearMiss } of evaluations) {
       let outcome = decideOutcome({ storedUrl, storedVerified: link?.verified === true, storedCandidate, passing, catalogComplete: catalog.complete, preserveAbsentStored: catalog.narrowed === true && !exactIdComplete });
       const unresolvedComplete = catalog.complete && unresolvedStart;
       const preserveUnresolved = unresolvedComplete && storedStartUnresolved && Boolean(storedUrl) && link?.verified === true;
@@ -618,7 +633,7 @@ async function run(options, deps = {}) {
         ? `not checked: exact-ID verification incomplete (${exactIdStopReason || "missing_stored_id"}); stored link preserved`
         : unresolvedComplete && (outcome.action === "conflict" || preserveUnresolved)
         ? "ambiguous: missing or conflicting performance start evidence"
-        : outcomeNote(outcome.action, { ambiguousListing, storedListed: Boolean(storedCandidate?.ok || preserveUnresolved), catalogComplete: catalog.complete, stopReason: catalog.stopReason });
+        : outcomeNote(outcome.action, { ambiguousListing, storedListed: Boolean(storedCandidate?.ok || preserveUnresolved), catalogComplete: catalog.complete, stopReason: catalog.stopReason, nearMiss });
       // Name the listings an ambiguity is between, with the start times each
       // one states, so the log shows what a tie-break would have to tell apart.
       const tied = outcome.action === "conflict" ? (untimedPassing || passing) : [];
@@ -784,6 +799,9 @@ async function selfTest() {
   const late = await fetchCatalog(config, "RAYE", { delayMs: 0, deadline: 1000, now: () => 2000 }, { apiCalls: 0 }, tnEnv, async () => pageOf(1, 1));
   assert.deepEqual([late.complete, late.stopReason], [false, "runtime_limit"]);
   assert.equal(outcomeNote("none", { catalogComplete: false, stopReason: "runtime_limit" }), "not checked: catalog incomplete (runtime_limit)");
+  assert.equal(outcomeNote("none", { catalogComplete: true, nearMiss: "venue mismatch" }), "no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch)");
+  assert.equal(closestMiss([{ ok: false, reasons: ["artist name mismatch"] }, { ok: false, reasons: ["venue-local date mismatch"] }]), "", "other acts and other nights are not near-misses");
+  assert.equal(closestMiss([{ ok: false, reasons: ["city mismatch", "venue mismatch"] }, { ok: false, reasons: ["venue mismatch"] }]), "venue mismatch");
   // The same 404 without the proxy stays an ordinary incomplete catalog.
   const directNotFound = await fetchCatalog(
     config, "RAYE", { delayMs: 0 }, { apiCalls: 0 },

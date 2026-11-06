@@ -44,7 +44,7 @@ export function snapshotFields(data) {
     },
     _embedded: {
       venues: list(data._embedded?.venues, (v) => ({ name: raw(v?.name), timezone: raw(v?.timezone), city: { name: raw(v?.city?.name) }, country: { name: raw(v?.country?.name) } })),
-      attractions: list(data._embedded?.attractions, (a) => ({ name: raw(a?.name) }))
+      attractions: list(data._embedded?.attractions, (a) => ({ id: raw(a?.id), name: raw(a?.name) }))
     }
   };
 }

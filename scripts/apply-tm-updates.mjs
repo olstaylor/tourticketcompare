@@ -307,6 +307,69 @@ function safeTicketmasterUrl(url, eventId) {
   return parsed.toString();
 }
 
+// Owner decision 2026-11-06: a needs_recheck row is upgraded to
+// machine_high_confidence when this night's Discovery record for the same
+// event proves what ingestion could not: the artist's registry-verified
+// attraction is on it, its storefront link is the full canonical form for the
+// same event id, and the date, time, venue and city are all present. The
+// canonical forms are /<slug>/event/<id> (North America) and
+// /event/<event-name-slug>/<numeric-id> (international storefronts; the shape
+// validate-events.py already accepts). A short /event/<id> link stays flagged:
+// those have 404'd in browsers. Discovery may hand back its link wrapped in an
+// affiliate redirect; it is only read to compare the inner storefront link,
+// never stored. No URL or other field is written by this rule.
+export function canonicalStorefrontPath(url, eventId) {
+  let parsed;
+  try {
+    parsed = new URL(clean(url));
+  } catch {
+    return null;
+  }
+  if (parsed.protocol !== 'https:' || !hostAllowed(parsed.hostname)) return null;
+  const id = clean(eventId).toLowerCase();
+  if (!id) return null;
+  const segments = parsed.pathname.split('/').filter(Boolean);
+  const at = segments.findIndex((segment) => segment.toLowerCase() === 'event');
+  if (at < 0) return null;
+  const northAmerican = at > 0 && segments.length === at + 2 && segments[at + 1].toLowerCase() === id;
+  const international = at === 0 && segments.length === 3 && /^\d+$/.test(segments[2]) && segments[2].toLowerCase() === id;
+  if (!northAmerican && !international) return null;
+  return `${parsed.hostname.toLowerCase().replace(/^www\./, '')}/${segments.join('/').toLowerCase()}`;
+}
+
+function discoveryStorefrontUrl(url) {
+  try {
+    const parsed = new URL(clean(url));
+    if (/(^|\.)evyy\.net$/i.test(parsed.hostname)) return clean(parsed.searchParams.get('u'));
+    return parsed.toString();
+  } catch {
+    return '';
+  }
+}
+
+export function recheckPromotion(event, data, attractionId) {
+  if (clean(event?.verification_status) !== 'needs_recheck' || clean(event?.source_type) !== 'ticketmaster') return null;
+  const wanted = clean(attractionId);
+  if (!wanted || !(data?._embedded?.attractions || []).some((attraction) => clean(attraction?.id) === wanted)) return null;
+  const stored = canonicalStorefrontPath(event.ticketmaster_url, event.ticketmaster_event_id);
+  if (!stored || stored !== canonicalStorefrontPath(discoveryStorefrontUrl(data?.url), event.ticketmaster_event_id)) return null;
+  if (!/T\d{2}:\d{2}/.test(clean(event.datetime_iso)) || !clean(data?.dates?.start?.dateTime)) return null;
+  if (data?.dates?.start?.noSpecificTime === true || data?.dates?.start?.timeTBA === true) return null;
+  if (!clean(event.venue) || !clean(event.city)) return null;
+  const code = clean(data?.dates?.status?.code).toLowerCase();
+  if (!['onsale', 'offsale', 'rescheduled'].includes(code)) return null;
+  return { field: 'verification_status', from: 'needs_recheck', to: 'machine_high_confidence' };
+}
+
+async function loadAttractionIds() {
+  const identities = await readJson(new URL('../data/provider-identities.json', import.meta.url));
+  const map = new Map();
+  for (const artist of identities?.artists || []) {
+    if (artist?.review_status === 'verified' && clean(artist.ticketmaster_attraction_id)) map.set(clean(artist.slug), clean(artist.ticketmaster_attraction_id));
+  }
+  return map;
+}
+
 async function readJson(url) {
   const raw = await fs.readFile(url, 'utf8');
   return JSON.parse(raw);
@@ -742,7 +805,7 @@ function computeLifecycleChange(event, remote) {
 //     now lists", which is only true once the new date itself has applied.
 //   - A recorded hold is also surfaced for review, because only a human
 //     decides whether the row is removed and tombstoned.
-export function planEventSync(event, remote, discoveryId) {
+export function planEventSync(event, remote, discoveryId, { attractionId = null } = {}) {
   const intendedChanges = computeIntendedUpdates(event, remote);
   const blockers = attachIntendedChanges(computeReviewBlockers(event, remote), intendedChanges);
   const lifecycleChange = computeLifecycleChange(event, remote);
@@ -754,6 +817,8 @@ export function planEventSync(event, remote, discoveryId) {
   }
   if (!blockers.length) {
     applied.push(...intendedChanges, ...wrongNightLinkChanges(event, intendedChanges));
+    const promotion = lifecycleChange && HOLD_LIFECYCLE_CODES.has(lifecycleChange.to) ? null : recheckPromotion(event, remote?.data, attractionId);
+    if (promotion) applied.push(promotion);
     // Keep the verified date we previously published when Discovery confirms
     // a reschedule. A first-seen rescheduled record has no known previous date.
     // Repeated syncs preserve the original date; cosmetic UTC/local changes
@@ -925,6 +990,38 @@ async function runSelfTest() {
   const ev = (o) => ({ datetime_iso: '', timezone: '', venue: '', city: '', country: '', ticketmaster_event_id: 'X', ticketmaster_url: '', ...o });
   const remote = (o) => ({ data: { id: 'X', dates: { start: {}, timezone: '' }, _embedded: { venues: [{ name: '', city: { name: '' }, country: { name: '' } }] }, ...o } });
   const fieldsOf = (e, r) => computeIntendedUpdates(e, r).map((c) => c.field);
+
+  {
+    // needs_recheck promotion (owner decision 2026-11-06).
+    const intlUrl = 'https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1852040169?language=en-us';
+    const row = (o = {}) => ({ id: 'tm-u2-x', artist_slug: 'u2', artist_name: 'U2', source_type: 'ticketmaster', verification_status: 'needs_recheck',
+      ticketmaster_discovery_event_id: 'Z698xZq2Z16v-3vZAt', ticketmaster_event_id: '1852040169', ticketmaster_url: intlUrl,
+      datetime_iso: '2027-04-26T17:30:00Z', timezone: 'Europe/Stockholm', venue: 'Strawberry Arena', city: 'Stockholm', country: 'Sweden', event_name: 'U2', ...o });
+    const wrapped = `https://ticketmaster.evyy.net/c/1/2/3?u=${encodeURIComponent(intlUrl)}&utm_medium=affiliate`;
+    const resp = (o = {}) => ({ data: { id: 'Z698xZq2Z16v-3vZAt', name: 'U2', url: wrapped,
+      dates: { status: { code: 'onsale' }, start: { dateTime: '2027-04-26T17:30:00Z' }, timezone: 'Europe/Stockholm' },
+      _embedded: { venues: [{ name: 'Strawberry Arena', city: { name: 'Stockholm' }, country: { name: 'Sweden' } }], attractions: [{ id: 'K8vZ91712W7', name: 'U2' }, { id: 'K1', name: 'Wolf Alice' }] }, ...o } });
+    const promoted = (e, r, attractionId = 'K8vZ91712W7') => planEventSync(e, r, 'Z698xZq2Z16v-3vZAt', { attractionId }).applied.find((c) => c.field === 'verification_status');
+    const p0 = planEventSync(row(), resp(), 'Z698xZq2Z16v-3vZAt', { attractionId: 'K8vZ91712W7' });
+    assert('a confirmed international storefront link upgrades needs_recheck', p0.applied.some((c) => c.field === 'verification_status' && c.to === 'machine_high_confidence'));
+    assert('the upgrade writes no URL, least of all an affiliate one', !p0.applied.some((c) => c.field === 'ticketmaster_url') && !JSON.stringify(p0.applied).includes('evyy'));
+    const na = 'https://www.ticketmaster.com/olivia-rodrigo-unwind-tour-boston-ma-07-01-2026/event/01006297A1B2C3D4';
+    assert('a confirmed North American long-form link upgrades', promoted(row({ ticketmaster_url: na, ticketmaster_event_id: '01006297A1B2C3D4' }), resp({ url: na })));
+    assert('a short /event/<id> link stays flagged', !promoted(row({ ticketmaster_url: 'https://www.ticketmaster.com/event/01006297A1B2C3D4', ticketmaster_event_id: '01006297A1B2C3D4' }), resp({ url: 'https://www.ticketmaster.com/event/01006297A1B2C3D4' })));
+    assert('no verified attraction on the record: stays flagged', !promoted(row(), resp(), 'K-other'));
+    assert('no registry attraction id: stays flagged', !promoted(row(), resp(), null));
+    assert('a snapshot without attraction ids: stays flagged', !promoted(row(), resp({ _embedded: { venues: [{ name: 'Strawberry Arena', city: { name: 'Stockholm' }, country: { name: 'Sweden' } }], attractions: [{ name: 'U2' }] } })));
+    assert('Discovery naming a different storefront event: stays flagged', !promoted(row(), resp({ url: intlUrl.replace('1852040169', '1656128289') })));
+    assert('a stored id that is not in the link: stays flagged', !promoted(row({ ticketmaster_event_id: '999' }), resp()));
+    assert('a date-only row: stays flagged', !promoted(row({ datetime_iso: '2027-04-26' }), resp()));
+    assert('a time-TBA record: stays flagged', !promoted(row(), resp({ dates: { status: { code: 'onsale' }, start: { dateTime: '2027-04-26T17:30:00Z', noSpecificTime: true }, timezone: 'Europe/Stockholm' } })));
+    assert('a postponed record: stays flagged', !promoted(row(), resp({ dates: { status: { code: 'postponed' }, start: { dateTime: '2027-04-26T17:30:00Z' }, timezone: 'Europe/Stockholm' } })));
+    assert('a non-Ticketmaster host: stays flagged', !promoted(row({ ticketmaster_url: intlUrl.replace('ticketmaster.se', 'example.se') }), resp({ url: intlUrl.replace('ticketmaster.se', 'example.se') })));
+    assert('an identity mismatch blocks the upgrade', !promoted(row({ artist_name: 'Somebody Else' }), resp()));
+    assert('an already-confident row is untouched', !promoted(row({ verification_status: 'machine_high_confidence' }), resp()));
+    assert('a human-verified row is untouched', !promoted(row({ verification_status: 'human_verified' }), resp()));
+    assert('a non-Ticketmaster source is untouched', !promoted(row({ source_type: 'manual' }), resp()));
+  }
 
   assert('a throttled fetch alone does not veto other events\' updates', tmCommitSafe(2, [{ status: 429 }, { status: 503 }, { status: null }]));
   assert('a 401/403 error still vetoes the commit', !tmCommitSafe(2, [{ status: 429 }, { status: 403 }]));
@@ -1374,6 +1471,7 @@ async function main() {
   const snapshot = await loadSnapshot(snapshotPath, base);
   const sweep = createSnapshotSweep({ base, snapshot, secrets: [apiKey] });
   const indexed = await loadIndexedArtistSlugs();
+  const attractionIds = await loadAttractionIds();
   const events = await readJson(eventsPath);
   const includePast = includePastFromEnv();
   const { targets, skippedPast } = selectSyncTargets(events, indexed, { includePast });
@@ -1426,7 +1524,7 @@ async function main() {
         recommendedAction: 'Retry on the next run. A throttled or unavailable event is left untouched; other events in the run are unaffected.'
       });
     } else {
-      const plan = planEventSync(event, result, id);
+      const plan = planEventSync(event, result, id, { attractionId: attractionIds.get(clean(event.artist_slug)) });
       planned.push({ event, remote: result, discoveryId: id, plan });
     }
     if (result.source === 'direct' && requestDelayMs > 0) await sleep(requestDelayMs);

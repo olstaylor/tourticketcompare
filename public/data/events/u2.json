@@ -938,6 +938,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357120",
+        "url": "https://www.ticketnetwork.com/en/p/8357120",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kb9Z4vI",
@@ -953,7 +960,8 @@
         "start": "2026-11-05T09:00:00Z",
         "end": "2026-11-05T21:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357120"
   },
   {
     "id": "tm-u2-2027-barcelona-z698xz2qz16vasca3z",
@@ -1110,12 +1118,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357092",
+        "url": "https://www.ticketnetwork.com/en/p/8357092",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k0eFyqs",
     "timezone": "Europe/Madrid",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T09:00:00Z"
+    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357092"
   },
   {
     "id": "tm-u2-2027-london-1adfz_4gkbq3_od",

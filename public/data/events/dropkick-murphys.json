@@ -438,12 +438,20 @@
         "verified": true,
         "last_verified_at": "2026-11-05",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8351215",
+        "url": "https://www.ticketnetwork.com/en/p/8351215",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeoPK",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8351215/Dropkick-Murphys-tickets-Fri-Feb-12-2027-PNE-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8351215/Dropkick-Murphys-tickets-Fri-Feb-12-2027-PNE-Forum",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8351215"
   },
   {
     "id": "tm-dropkick-murphys-2027-penticton-z7r9jz1aae8_9",

@@ -3863,5 +3863,111 @@
     "organizer_names": [
       "OCESA"
     ]
+  },
+  {
+    "id": "tm-niall-horan-2026-dublin-z7r9jz1a7-mpd",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena - Dublin",
+    "datetime_iso": "2026-11-09T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-Mpd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Mpd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Mpd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-Mpd",
+        "discovery_event_id": "Z7r9jZ1A7-Mpd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Mpd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Mpd",
+    "timezone": "Etc/GMT",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2026-dublin-z7r9jz1a7-m4y",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena - Dublin",
+    "datetime_iso": "2026-11-10T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-M4y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-M4y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-M4y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-M4y",
+        "discovery_event_id": "Z7r9jZ1A7-M4y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-M4y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-M4y",
+    "timezone": "Etc/GMT",
+    "status": "on-sale"
   }
 ]

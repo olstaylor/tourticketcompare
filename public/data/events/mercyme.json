@@ -2321,5 +2321,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332038",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332038/MercyMe-tickets-Sat-Apr-3-2027-Wicomico-Civic-Center"
+  },
+  {
+    "id": "tm-mercyme-2027-johnson-city-z7r9jz1aa7mot",
+    "artist_slug": "mercyme",
+    "artist_name": "MercyMe",
+    "event_name": "MercyMe w/ Ben Fuller",
+    "city": "Johnson City",
+    "country": "United States Of America",
+    "venue": "Freedom Hall Civic Center-TN",
+    "datetime_iso": "2027-04-11T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7Mot",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Mot",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Mot",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7Mot",
+        "discovery_event_id": "Z7r9jZ1AA7Mot",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Mot",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Mot",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

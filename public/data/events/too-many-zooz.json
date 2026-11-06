@@ -1019,5 +1019,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284743",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284743/Too-Many-Zooz-tickets-Mon-May-3-2027-Beer-City-Music-Hall"
+  },
+  {
+    "id": "tm-too-many-zooz-2027-frisco-z7r9jz1aaeep4",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz",
+    "city": "Frisco",
+    "country": "United States Of America",
+    "venue": "10 Mile Music Hall",
+    "datetime_iso": "2027-03-19T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeeP4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeP4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeP4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeeP4",
+        "discovery_event_id": "Z7r9jZ1AAeeP4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeP4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeeP4",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

@@ -818,7 +818,12 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const artistPath = `/artists/${ARTIST.slug}`;
   const page = await render(artistPath);
   assert(page.status === 200, "the artist page renders");
-  const lead = (page.main.match(/<div data-artist-lead>[\s\S]*?<\/section>(?:<p class="artist-embed-link">[\s\S]*?<\/p>)?<\/div>/) || [])[0] || "";
+  // 2026-11-06: the lead also opens with the owner-approved "Cheapest <artist>
+  // tickets" panel (its own wording and gates, tested in price-guides.test.mjs);
+  // the checks below are about the next-dates table, so take the panel out first.
+  assert(page.main.includes('id="artistCheapestTitle"'), "the artist lead carries the cheapest panel when two dates are priced");
+  const mainWithoutCheapest = page.main.replace(/<section class="nested-panel price-cheapest"[\s\S]*?<\/section>/, "");
+  const lead = (mainWithoutCheapest.match(/<div data-artist-lead>[\s\S]*?<\/section>(?:<p class="artist-embed-link">[\s\S]*?<\/p>)?<\/div>/) || [])[0] || "";
   assert(lead.includes('id="artistNextDatesTitle"'), "the next-dates table sits inside the transplanted lead");
   assert(page.main.indexOf("artistNextDatesTitle") < page.main.indexOf(`id="artistShowBoard"`), "the next-dates table renders above the board");
   const body = text(lead);

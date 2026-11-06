@@ -511,13 +511,21 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107452007",
+        "url": "https://www.stubhub.ie/los-tucanes-de-tijuana-inglewood-tickets-2-13-2027/event/107452007",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_uDZWaf3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8112228",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8112228/Los-Tucanes-De-Tijuana-tickets-Sat-Feb-13-2027-Intuit-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8112228/Los-Tucanes-De-Tijuana-tickets-Sat-Feb-13-2027-Intuit-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/los-tucanes-de-tijuana-inglewood-tickets-2-13-2027/event/107452007"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2027-rosemont-vv1a7zkffgkdqp4jc",

@@ -572,11 +572,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107154370",
-        "url": "https://www.stubhub.ie/young-miko-brooklyn-tickets-11-5-2026/event/107154370",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7860535",
@@ -596,7 +596,7 @@
     "ticketmaster_discovery_event_id": "16dZZ_F13G7DSYs",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/young-miko-brooklyn-tickets-11-5-2026/event/107154370",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7860535/Young-Miko-tickets-Thu-Nov-5-2026-Barclays-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"

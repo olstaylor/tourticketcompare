@@ -198,11 +198,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8018448",
-        "url": "https://www.ticketliquidator.com/tickets/8018448/Motionless-In-White-tickets-Thu-Nov-5-2026-Kia-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107325078",
@@ -216,7 +216,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018448",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018448/Motionless-In-White-tickets-Thu-Nov-5-2026-Kia-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-orlando-tickets-11-5-2026/event/107325078",
     "organizer_names": [
       "LIVE NATION MUSIC"

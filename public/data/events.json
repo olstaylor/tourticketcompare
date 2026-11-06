@@ -57938,7 +57938,7 @@
         "event_id": "7827975",
         "url": "https://www.ticketliquidator.com/tickets/7827975/Blue-October-tickets-Fri-Nov-27-2026-The-Pavilion-at-Toyota-Music-Factory",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       }
     },
@@ -67187,18 +67187,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8151244",
-        "url": "https://www.ticketliquidator.com/tickets/8151244/Trivium-tickets-Thu-Nov-5-2026-Jannus-Live",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_CBh66Cw",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151244",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151244/Trivium-tickets-Thu-Nov-5-2026-Jannus-Live",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC",
       "NO CLUBS"
@@ -274709,11 +274709,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7997398",
-        "url": "https://www.ticketliquidator.com/tickets/7997398/Tom-Jones-tickets-Wed-Nov-4-2026-Greek-Theatre-Los-Angeles-CA",
-        "verified": true,
-        "last_verified_at": "2026-10-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -274733,7 +274733,7 @@
     "ticketmaster_discovery_event_id": "vvG10Z_58XADKo",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997398/Tom-Jones-tickets-Wed-Nov-4-2026-Greek-Theatre-Los-Angeles-CA",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -283090,11 +283090,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7999841",
-        "url": "https://www.ticketliquidator.com/tickets/7999841/The-Chicks-tickets-Wed-Nov-4-2026-Dolby-Theatre",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -283108,7 +283108,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "stubhub_international_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7999841/The-Chicks-tickets-Wed-Nov-4-2026-Dolby-Theatre",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -283987,11 +283987,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7703260",
-        "url": "https://www.ticketliquidator.com/tickets/7703260/Zac-Brown-Band-tickets-Thu-Nov-5-2026-KeyBank-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7703260",
@@ -284005,7 +284005,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-buffalo-tickets-11-5-2026/event/107136161",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703260/Zac-Brown-Band-tickets-Thu-Nov-5-2026-KeyBank-Center",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
     ],
@@ -295565,7 +295565,7 @@
         "event_id": "8238819",
         "url": "https://www.ticketliquidator.com/tickets/8238819/Billy-Strings-tickets-Fri-Feb-12-2027-Gas-South-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       }
     },
@@ -295703,7 +295703,7 @@
         "event_id": "8238823",
         "url": "https://www.ticketliquidator.com/tickets/8238823/Billy-Strings-tickets-Fri-Feb-19-2027-Bridgestone-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       }
     },
@@ -308591,7 +308591,7 @@
         "event_id": "8311023",
         "url": "https://www.ticketliquidator.com/tickets/8311023/Phish-tickets-Wed-Dec-30-2026-Madison-Square-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       }
     },
@@ -320101,7 +320101,7 @@
         "event_id": "8319720",
         "url": "https://www.ticketliquidator.com/tickets/8319720/Dropkick-Murphys-tickets-Sat-Mar-13-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       }
     },
@@ -345821,7 +345821,7 @@
         "event_id": "8034649",
         "url": "https://www.ticketliquidator.com/tickets/8034649/Lady-A-Country-Group-tickets-Mon-Dec-21-2026-Ryman-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       }
     },
@@ -351730,18 +351730,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7800005",
-        "url": "https://www.ticketliquidator.com/tickets/7800005/Cody-Johnson-tickets-Thu-Nov-5-2026-3Arena-Dublin",
-        "verified": true,
-        "last_verified_at": "2026-11-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1avOZ_73704Zd85a",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7800005/Cody-Johnson-tickets-Thu-Nov-5-2026-3Arena-Dublin",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
@@ -353285,11 +353285,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8018448",
-        "url": "https://www.ticketliquidator.com/tickets/8018448/Motionless-In-White-tickets-Thu-Nov-5-2026-Kia-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107325078",
@@ -353303,7 +353303,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018448",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018448/Motionless-In-White-tickets-Thu-Nov-5-2026-Kia-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-orlando-tickets-11-5-2026/event/107325078",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -368244,12 +368244,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332038",
+        "url": "https://www.ticketliquidator.com/tickets/8332038/MercyMe-tickets-Sat-Apr-3-2027-Wicomico-Civic-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7_aJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332038"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332038",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332038/MercyMe-tickets-Sat-Apr-3-2027-Wicomico-Civic-Center"
   },
   {
     "id": "tm-lenny-pearce-2026-san-antonio-g5diz_gedaabt",
@@ -368419,12 +368427,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048522",
+        "url": "https://www.ticketliquidator.com/tickets/8048522/Lenny-Pearce-tickets-Sat-Nov-7-2026-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_G0P_MtS",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048522"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048522",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048522/Lenny-Pearce-tickets-Sat-Nov-7-2026-The-Pavilion-at-Toyota-Music-Factory"
   },
   {
     "id": "tm-lenny-pearce-2026-houston-g5diz_geaxmd2",
@@ -368480,12 +368496,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048523",
+        "url": "https://www.ticketliquidator.com/tickets/8048523/Lenny-Pearce-tickets-Sun-Nov-8-2026-Bayou-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_GEaXmD2",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048523"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048523",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048523/Lenny-Pearce-tickets-Sun-Nov-8-2026-Bayou-Music-Center"
   },
   {
     "id": "tm-lenny-pearce-2026-orlando-17fov0g6g3w_f1c",
@@ -368541,12 +368565,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048524",
+        "url": "https://www.ticketliquidator.com/tickets/8048524/Lenny-Pearce-tickets-Tue-Nov-10-2026-Hard-Rock-Live-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G6G3w_f1c",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048524"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048524",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048524/Lenny-Pearce-tickets-Tue-Nov-10-2026-Hard-Rock-Live-Orlando"
   },
   {
     "id": "tm-lenny-pearce-2026-fort-lauderdale-z7r9jz1a7ppo0",
@@ -368655,12 +368687,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048526",
+        "url": "https://www.ticketliquidator.com/tickets/8048526/Lenny-Pearce-tickets-Thu-Nov-12-2026-Mahaffey-Theater-At-The-Duke-Energy-Center-for-the-Arts",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_GCD9HPh",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048526"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048526",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048526/Lenny-Pearce-tickets-Thu-Nov-12-2026-Mahaffey-Theater-At-The-Duke-Energy-Center-for-the-Arts"
   },
   {
     "id": "tm-lenny-pearce-2026-atlanta-z7r9jz1a7pnza",
@@ -368716,12 +368756,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048842",
+        "url": "https://www.ticketliquidator.com/tickets/8048842/Lenny-Pearce-tickets-Sat-Nov-14-2026-The-Eastern-GA",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNZA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048842"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048842",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048842/Lenny-Pearce-tickets-Sat-Nov-14-2026-The-Eastern-GA"
   },
   {
     "id": "tm-lenny-pearce-2026-nashville-z7r9jz1a7p0bp",
@@ -368777,12 +368825,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048527",
+        "url": "https://www.ticketliquidator.com/tickets/8048527/Lenny-Pearce-tickets-Sun-Nov-15-2026-Marathon-Music-Works",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0bp",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048527"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048527",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048527/Lenny-Pearce-tickets-Sun-Nov-15-2026-Marathon-Music-Works"
   },
   {
     "id": "tm-lenny-pearce-2026-norfolk-z7r9jz1a7ptxe",
@@ -368838,12 +368894,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048656",
+        "url": "https://www.ticketliquidator.com/tickets/8048656/Lenny-Pearce-tickets-Tue-Nov-17-2026-The-Norva",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ptxe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048656"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048656",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048656/Lenny-Pearce-tickets-Tue-Nov-17-2026-The-Norva"
   },
   {
     "id": "tm-lenny-pearce-2026-richmond-z7r9jz1a7ptxv",
@@ -368899,12 +368963,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048843",
+        "url": "https://www.ticketliquidator.com/tickets/8048843/Lenny-Pearce-tickets-Wed-Nov-18-2026-The-National-VA",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ptxv",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048843"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048843",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048843/Lenny-Pearce-tickets-Wed-Nov-18-2026-The-National-VA"
   },
   {
     "id": "tm-lenny-pearce-2026-pittsburgh-z7r9jz1a7pnqd",
@@ -368960,12 +369032,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048659",
+        "url": "https://www.ticketliquidator.com/tickets/8048659/Lenny-Pearce-tickets-Thu-Nov-19-2026-Stage-AE",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNqd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048659"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048659",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048659/Lenny-Pearce-tickets-Thu-Nov-19-2026-Stage-AE"
   },
   {
     "id": "tm-lenny-pearce-2026-silver-spring-17a8v0g6gpl1zid",
@@ -369021,12 +369101,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048528",
+        "url": "https://www.ticketliquidator.com/tickets/8048528/Lenny-Pearce-tickets-Sat-Nov-21-2026-The-Fillmore-Silver-Spring",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6GpL1ziD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048528"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048528",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048528/Lenny-Pearce-tickets-Sat-Nov-21-2026-The-Fillmore-Silver-Spring"
   },
   {
     "id": "tm-lenny-pearce-2026-new-york-k7vgf_gmumtdg",
@@ -369294,12 +369382,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8027310",
+        "url": "https://www.ticketliquidator.com/tickets/8027310/Los-Tucanes-De-Tijuana-tickets-Tue-Nov-24-2026-Yaamava-Theater-at-Yaamava-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Paao",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8027310"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8027310",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8027310/Los-Tucanes-De-Tijuana-tickets-Tue-Nov-24-2026-Yaamava-Theater-at-Yaamava-Resort-Casino"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-fairfax-17a8v0g61bgdzeq",
@@ -369355,12 +369451,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977722",
+        "url": "https://www.ticketliquidator.com/tickets/7977722/Los-Tucanes-De-Tijuana-tickets-Fri-Nov-27-2026-EagleBank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61BgDzeQ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977722"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977722",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977722/Los-Tucanes-De-Tijuana-tickets-Fri-Nov-27-2026-EagleBank-Arena"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-elizabeth-k7vgf_1yuvjm8",
@@ -369416,12 +369520,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8109393",
+        "url": "https://www.ticketliquidator.com/tickets/8109393/Los-Tucanes-De-Tijuana-tickets-Sat-Nov-28-2026-Ritz-Theatre-NJ",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_1YuVJM8",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8109393"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8109393",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8109393/Los-Tucanes-De-Tijuana-tickets-Sat-Nov-28-2026-Ritz-Theatre-NJ"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-austin-z7r9jz1aazgav",
@@ -369530,12 +369642,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8174820",
+        "url": "https://www.ticketliquidator.com/tickets/8174820/Los-Tucanes-De-Tijuana-tickets-Fri-Dec-4-2026-Lucas-Oil-Live-At-WinStar-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ9fb",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8174820"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8174820",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8174820/Los-Tucanes-De-Tijuana-tickets-Fri-Dec-4-2026-Lucas-Oil-Live-At-WinStar-Casino"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-catoosa-z7r9jz1aaef8-",
@@ -369644,12 +369764,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8165995",
+        "url": "https://www.ticketliquidator.com/tickets/8165995/Los-Tucanes-De-Tijuana-tickets-Fri-Feb-12-2027-Desert-Diamond-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G62Nuo9-m",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165995"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165995",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8165995/Los-Tucanes-De-Tijuana-tickets-Fri-Feb-12-2027-Desert-Diamond-Arena"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2027-inglewood-vvg10z_udzwaf3",
@@ -369705,12 +369833,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8112228",
+        "url": "https://www.ticketliquidator.com/tickets/8112228/Los-Tucanes-De-Tijuana-tickets-Sat-Feb-13-2027-Intuit-Dome",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_uDZWaf3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8112228"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8112228",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8112228/Los-Tucanes-De-Tijuana-tickets-Sat-Feb-13-2027-Intuit-Dome"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2027-rosemont-vv1a7zkffgkdqp4jc",
@@ -369766,12 +369902,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8213428",
+        "url": "https://www.ticketliquidator.com/tickets/8213428/Los-Tucanes-De-Tijuana-tickets-Sat-Feb-20-2027-Rosemont-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfFGkdQp4jC",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8213428"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8213428",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8213428/Los-Tucanes-De-Tijuana-tickets-Sat-Feb-20-2027-Rosemont-Theatre"
   },
   {
     "id": "tm-mat-kearney-2027-kalispell-z7r9jz1aazpfi",
@@ -369827,12 +369971,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8065313",
+        "url": "https://www.ticketliquidator.com/tickets/8065313/Mat-Kearney-tickets-Fri-Feb-5-2027-McClaren-Hall-At-Wachholz-College-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZpfI",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8065313"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8065313",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8065313/Mat-Kearney-tickets-Fri-Feb-5-2027-McClaren-Hall-At-Wachholz-College-Center"
   },
   {
     "id": "tm-mat-kearney-2027-durham-z7r9jz1aa7tga",
@@ -369888,12 +370040,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344161",
+        "url": "https://www.ticketliquidator.com/tickets/8344161/Mat-Kearney-tickets-Fri-Apr-16-2027-Carolina-Theatre-Durham",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7tGA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344161"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344161",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344161/Mat-Kearney-tickets-Fri-Apr-16-2027-Carolina-Theatre-Durham"
   },
   {
     "id": "tm-mat-kearney-2027-charlotte-g5evz_ftdyo7x",
@@ -369949,12 +370109,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344163",
+        "url": "https://www.ticketliquidator.com/tickets/8344163/Mat-Kearney-tickets-Sun-Apr-18-2027-The-Fillmore-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fTDYo7X",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344163"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344163",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344163/Mat-Kearney-tickets-Sun-Apr-18-2027-The-Fillmore-Charlotte"
   },
   {
     "id": "tm-mat-kearney-2027-washington-1a4zk49gkdhkrsu",
@@ -370010,12 +370178,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344165",
+        "url": "https://www.ticketliquidator.com/tickets/8344165/Mat-Kearney-tickets-Thu-Apr-22-2027-Lincoln-Theatre-DC",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk49Gkdhkrsu",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344165"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344165",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344165/Mat-Kearney-tickets-Thu-Apr-22-2027-Lincoln-Theatre-DC"
   },
   {
     "id": "tm-mat-kearney-2027-atlantic-city-vv1aezk48gkd-q-0n",
@@ -370177,12 +370353,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344155",
+        "url": "https://www.ticketliquidator.com/tickets/8344155/Mat-Kearney-tickets-Tue-Apr-27-2027-Town-Hall-Theatre-NY",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16dZk44G3ZAuv5eA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344155"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344155",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344155/Mat-Kearney-tickets-Tue-Apr-27-2027-Town-Hall-Theatre-NY"
   },
   {
     "id": "tm-mat-kearney-2027-portland-vv177z_fgkbwdmul",
@@ -370238,12 +370422,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344175",
+        "url": "https://www.ticketliquidator.com/tickets/8344175/Mat-Kearney-tickets-Wed-Apr-28-2027-State-Theatre-ME",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_fGkBWdmUL",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344175"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344175",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344175/Mat-Kearney-tickets-Wed-Apr-28-2027-State-Theatre-ME"
   },
   {
     "id": "tm-mat-kearney-2027-mckees-rocks-1avbz_fgkh6lcsf",
@@ -370352,12 +370544,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344179",
+        "url": "https://www.ticketliquidator.com/tickets/8344179/Mat-Kearney-tickets-Sat-May-1-2027-Taft-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16pZk48jVZACdGGk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344179"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344179",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344179/Mat-Kearney-tickets-Sat-May-1-2027-Taft-Theatre"
   },
   {
     "id": "tm-mat-kearney-2027-austin-z7r9jz1aa7t0p",
@@ -370474,12 +370674,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344158",
+        "url": "https://www.ticketliquidator.com/tickets/8344158/Mat-Kearney-tickets-Sat-Aug-14-2027-Majestic-Theatre-Dallas",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7s_b",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344158"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344158",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344158/Mat-Kearney-tickets-Sat-Aug-14-2027-Majestic-Theatre-Dallas"
   },
   {
     "id": "tm-mat-kearney-2027-denver-g5vzz_44x-wom",
@@ -370535,12 +370743,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344239",
+        "url": "https://www.ticketliquidator.com/tickets/8344239/Mat-Kearney-tickets-Tue-Aug-17-2027-Paramount-Theatre-Denver",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_44X-woM",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344239"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344239",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344239/Mat-Kearney-tickets-Tue-Aug-17-2027-Paramount-Theatre-Denver"
   },
   {
     "id": "tm-mat-kearney-2027-phoenix-1av0z_4gknhdgeg",
@@ -370596,12 +370812,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344241",
+        "url": "https://www.ticketliquidator.com/tickets/8344241/Mat-Kearney-tickets-Thu-Aug-19-2027-The-Van-Buren",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_4GknHdgeG",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344241"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344241",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344241/Mat-Kearney-tickets-Thu-Aug-19-2027-The-Van-Buren"
   },
   {
     "id": "tm-mat-kearney-2027-san-diego-vvg1iz_fdgrqma",
@@ -370657,12 +370881,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344243",
+        "url": "https://www.ticketliquidator.com/tickets/8344243/Mat-Kearney-tickets-Fri-Aug-20-2027-Humphreys-Concerts-By-The-Bay",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_fDgRQma",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344243"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344243",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344243/Mat-Kearney-tickets-Fri-Aug-20-2027-Humphreys-Concerts-By-The-Bay"
   },
   {
     "id": "tm-mat-kearney-2027-cerritos-vvg1iz_4z4bvmr",
@@ -370771,12 +371003,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344245",
+        "url": "https://www.ticketliquidator.com/tickets/8344245/Mat-Kearney-tickets-Tue-Aug-24-2027-Ace-of-Spades",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4l700eI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344245"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344245",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344245/Mat-Kearney-tickets-Tue-Aug-24-2027-Ace-of-Spades"
   },
   {
     "id": "tm-mat-kearney-2027-spokane-g5vzz_4p1-wsc",
@@ -370832,12 +371072,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344247",
+        "url": "https://www.ticketliquidator.com/tickets/8344247/Mat-Kearney-tickets-Tue-Aug-31-2027-Knitting-Factory-Spokane",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_4p1-wSC",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344247"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344247",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344247/Mat-Kearney-tickets-Tue-Aug-31-2027-Knitting-Factory-Spokane"
   },
   {
     "id": "tm-mat-kearney-2027-boise-z7r9jz1aa7yr7",
@@ -370893,12 +371141,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344260",
+        "url": "https://www.ticketliquidator.com/tickets/8344260/Mat-Kearney-tickets-Wed-Sep-1-2027-Treefort-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Yr7",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344260"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344260",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344260/Mat-Kearney-tickets-Wed-Sep-1-2027-Treefort-Music-Hall"
   },
   {
     "id": "tm-mat-kearney-2027-grand-junction-g5vzz_fmzp1a6",
@@ -370954,12 +371210,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344249",
+        "url": "https://www.ticketliquidator.com/tickets/8344249/Mat-Kearney-tickets-Fri-Sep-3-2027-The-Avalon-Theatre-CO",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fMZp1A6",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344249"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344249",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344249/Mat-Kearney-tickets-Fri-Sep-3-2027-The-Avalon-Theatre-CO"
   },
   {
     "id": "tm-mat-kearney-2027-madison-vv1a6zk48gkehsz0t",
@@ -371068,12 +371332,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344159",
+        "url": "https://www.ticketliquidator.com/tickets/8344159/Mat-Kearney-tickets-Mon-Nov-8-2027-Blue-Gate-Performing-Arts-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t8k",
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344159"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344159",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344159/Mat-Kearney-tickets-Mon-Nov-8-2027-Blue-Gate-Performing-Arts-Center"
   },
   {
     "id": "tm-mat-kearney-2027-cleveland-vv1aazk4fgkdoxqwy",
@@ -371129,12 +371401,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344251",
+        "url": "https://www.ticketliquidator.com/tickets/8344251/Mat-Kearney-tickets-Wed-Nov-10-2027-House-Of-Blues-Cleveland",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4fGkdoXQWy",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344251"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344251",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344251/Mat-Kearney-tickets-Wed-Nov-10-2027-House-Of-Blues-Cleveland"
   },
   {
     "id": "tm-mat-kearney-2027-omaha-1aozk4kgkes-kce",
@@ -371190,12 +371470,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344252",
+        "url": "https://www.ticketliquidator.com/tickets/8344252/Mat-Kearney-tickets-Fri-Nov-12-2027-Steelhouse-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4KGkes-kCe",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344252"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344252",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344252/Mat-Kearney-tickets-Fri-Nov-12-2027-Steelhouse-Omaha"
   },
   {
     "id": "tm-mat-kearney-2027-saint-louis-vv1kvovp4agag9idz",

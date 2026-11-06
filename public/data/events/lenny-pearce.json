@@ -167,12 +167,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048522",
+        "url": "https://www.ticketliquidator.com/tickets/8048522/Lenny-Pearce-tickets-Sat-Nov-7-2026-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_G0P_MtS",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048522"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048522",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048522/Lenny-Pearce-tickets-Sat-Nov-7-2026-The-Pavilion-at-Toyota-Music-Factory"
   },
   {
     "id": "tm-lenny-pearce-2026-houston-g5diz_geaxmd2",
@@ -228,12 +236,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048523",
+        "url": "https://www.ticketliquidator.com/tickets/8048523/Lenny-Pearce-tickets-Sun-Nov-8-2026-Bayou-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_GEaXmD2",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048523"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048523",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048523/Lenny-Pearce-tickets-Sun-Nov-8-2026-Bayou-Music-Center"
   },
   {
     "id": "tm-lenny-pearce-2026-orlando-17fov0g6g3w_f1c",
@@ -289,12 +305,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048524",
+        "url": "https://www.ticketliquidator.com/tickets/8048524/Lenny-Pearce-tickets-Tue-Nov-10-2026-Hard-Rock-Live-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G6G3w_f1c",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048524"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048524",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048524/Lenny-Pearce-tickets-Tue-Nov-10-2026-Hard-Rock-Live-Orlando"
   },
   {
     "id": "tm-lenny-pearce-2026-fort-lauderdale-z7r9jz1a7ppo0",
@@ -403,12 +427,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048526",
+        "url": "https://www.ticketliquidator.com/tickets/8048526/Lenny-Pearce-tickets-Thu-Nov-12-2026-Mahaffey-Theater-At-The-Duke-Energy-Center-for-the-Arts",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_GCD9HPh",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048526"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048526",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048526/Lenny-Pearce-tickets-Thu-Nov-12-2026-Mahaffey-Theater-At-The-Duke-Energy-Center-for-the-Arts"
   },
   {
     "id": "tm-lenny-pearce-2026-atlanta-z7r9jz1a7pnza",
@@ -464,12 +496,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048842",
+        "url": "https://www.ticketliquidator.com/tickets/8048842/Lenny-Pearce-tickets-Sat-Nov-14-2026-The-Eastern-GA",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNZA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048842"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048842",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048842/Lenny-Pearce-tickets-Sat-Nov-14-2026-The-Eastern-GA"
   },
   {
     "id": "tm-lenny-pearce-2026-nashville-z7r9jz1a7p0bp",
@@ -525,12 +565,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048527",
+        "url": "https://www.ticketliquidator.com/tickets/8048527/Lenny-Pearce-tickets-Sun-Nov-15-2026-Marathon-Music-Works",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0bp",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048527"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048527",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048527/Lenny-Pearce-tickets-Sun-Nov-15-2026-Marathon-Music-Works"
   },
   {
     "id": "tm-lenny-pearce-2026-norfolk-z7r9jz1a7ptxe",
@@ -586,12 +634,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048656",
+        "url": "https://www.ticketliquidator.com/tickets/8048656/Lenny-Pearce-tickets-Tue-Nov-17-2026-The-Norva",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ptxe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048656"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048656",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048656/Lenny-Pearce-tickets-Tue-Nov-17-2026-The-Norva"
   },
   {
     "id": "tm-lenny-pearce-2026-richmond-z7r9jz1a7ptxv",
@@ -647,12 +703,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048843",
+        "url": "https://www.ticketliquidator.com/tickets/8048843/Lenny-Pearce-tickets-Wed-Nov-18-2026-The-National-VA",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ptxv",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048843"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048843",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048843/Lenny-Pearce-tickets-Wed-Nov-18-2026-The-National-VA"
   },
   {
     "id": "tm-lenny-pearce-2026-pittsburgh-z7r9jz1a7pnqd",
@@ -708,12 +772,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048659",
+        "url": "https://www.ticketliquidator.com/tickets/8048659/Lenny-Pearce-tickets-Thu-Nov-19-2026-Stage-AE",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PNqd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048659"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048659",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048659/Lenny-Pearce-tickets-Thu-Nov-19-2026-Stage-AE"
   },
   {
     "id": "tm-lenny-pearce-2026-silver-spring-17a8v0g6gpl1zid",
@@ -769,12 +841,20 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048528",
+        "url": "https://www.ticketliquidator.com/tickets/8048528/Lenny-Pearce-tickets-Sat-Nov-21-2026-The-Fillmore-Silver-Spring",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6GpL1ziD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048528"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048528",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048528/Lenny-Pearce-tickets-Sat-Nov-21-2026-The-Fillmore-Silver-Spring"
   },
   {
     "id": "tm-lenny-pearce-2026-new-york-k7vgf_gmumtdg",

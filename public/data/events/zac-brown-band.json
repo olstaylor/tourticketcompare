@@ -185,11 +185,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7703260",
-        "url": "https://www.ticketliquidator.com/tickets/7703260/Zac-Brown-Band-tickets-Thu-Nov-5-2026-KeyBank-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7703260",
@@ -203,7 +203,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-buffalo-tickets-11-5-2026/event/107136161",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703260/Zac-Brown-Band-tickets-Thu-Nov-5-2026-KeyBank-Center",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
     ],

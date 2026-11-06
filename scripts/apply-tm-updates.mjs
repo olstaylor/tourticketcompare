@@ -55,7 +55,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { createSnapshotSweep, loadSnapshot, quotaHeaders, safeFetchError, reportSnapshotStats } from './lib/tm-event-snapshot.mjs';
+import { createSnapshotSweep, loadSnapshot, quotaHeaders, safeFetchError, reportSnapshotStats, snapshotFields } from './lib/tm-event-snapshot.mjs';
 import { includePastFromEnv, skipInSweep, PAST_RECHECK_DAYS } from './lib/tm-sweep-window.mjs';
 import { normalizePresaleWindows } from '../functions/_presales.js';
 import { PROVIDER_LANES } from './lib/event-link-coverage.mjs';
@@ -354,7 +354,7 @@ export function recheckPromotion(event, data, attractionId) {
   const stored = canonicalStorefrontPath(event.ticketmaster_url, event.ticketmaster_event_id);
   if (!stored || stored !== canonicalStorefrontPath(discoveryStorefrontUrl(data?.url), event.ticketmaster_event_id)) return null;
   if (!/T\d{2}:\d{2}/.test(clean(event.datetime_iso)) || !clean(data?.dates?.start?.dateTime)) return null;
-  if (data?.dates?.start?.noSpecificTime === true || data?.dates?.start?.timeTBA === true) return null;
+  if (data?.dates?.start?.noSpecificTime === true || data?.dates?.start?.timeTBA === true || data?.dates?.start?.dateTBA === true) return null;
   if (!clean(event.venue) || !clean(event.city)) return null;
   const code = clean(data?.dates?.status?.code).toLowerCase();
   if (!['onsale', 'offsale', 'rescheduled'].includes(code)) return null;
@@ -1015,6 +1015,11 @@ async function runSelfTest() {
     assert('a stored id that is not in the link: stays flagged', !promoted(row({ ticketmaster_event_id: '999' }), resp()));
     assert('a date-only row: stays flagged', !promoted(row({ datetime_iso: '2027-04-26' }), resp()));
     assert('a time-TBA record: stays flagged', !promoted(row(), resp({ dates: { status: { code: 'onsale' }, start: { dateTime: '2027-04-26T17:30:00Z', noSpecificTime: true }, timezone: 'Europe/Stockholm' } })));
+    for (const flag of ['timeTBA', 'noSpecificTime', 'dateTBA']) {
+      const raw = resp({ dates: { status: { code: 'onsale' }, start: { dateTime: '2027-04-26T17:30:00Z', [flag]: true }, timezone: 'Europe/Stockholm' } });
+      assert(`a ${flag} record stays flagged after the shared snapshot projection`, !promoted(row(), { data: snapshotFields(raw.data) }));
+    }
+    assert('a projected confirmed record still upgrades', promoted(row(), { data: snapshotFields(resp().data) }));
     assert('a postponed record: stays flagged', !promoted(row(), resp({ dates: { status: { code: 'postponed' }, start: { dateTime: '2027-04-26T17:30:00Z' }, timezone: 'Europe/Stockholm' } })));
     assert('a non-Ticketmaster host: stays flagged', !promoted(row({ ticketmaster_url: intlUrl.replace('ticketmaster.se', 'example.se') }), resp({ url: intlUrl.replace('ticketmaster.se', 'example.se') })));
     assert('an identity mismatch blocks the upgrade', !promoted(row({ artist_name: 'Somebody Else' }), resp()));

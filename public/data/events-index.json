@@ -62250,5 +62250,17 @@
     "timezone": "Europe/Amsterdam",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkr8gcov",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "country": "Canada",
+    "city": "Hamilton",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2026-12-04T00:30:00Z",
+    "timezone": "America/Toronto",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

@@ -13,6 +13,7 @@ import { eventIndexingPilotFor } from "./[[path]].js";
 import { eventLifecycleHeld } from "./_route-indexability.js";
 import { deriveToursHub, TOURS_HUB_PATH } from "./_tours-hub.js";
 import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
+import { WORTH_WAITING_PATH, WORTH_WAITING_INDEXABLE } from "./_worth-waiting.js";
 
 // llms.txt (https://llmstxt.org) — a curated index for answer engines and AI
 // crawlers. Derived from _route-metadata.js and the artist data files (the
@@ -335,6 +336,10 @@ Key facts:
 }${
   rumoured?.indexable
     ? `\n${linkLine(origin, RUMOURED_TOURS_PATH, "Rumoured 2027 tours", `${rumoured.entryCount} ${rumoured.entryCount === 1 ? "artist" : "artists"} rumoured to be planning a 2027 tour, each marked unconfirmed with the report it comes from. No dates or tickets.`)}`
+    : ""
+}${
+  WORTH_WAITING_INDEXABLE
+    ? `\n${linkLine(origin, WORTH_WAITING_PATH, "Is it worth waiting for cheaper tickets?", "How often resale prices fell after a tour's first recorded day, with sample sizes, and recent price direction for US tours. Counts, not a forecast.")}`
     : ""
 }
 - [Editorial policy](${origin}/editorial-policy): See what the site publishes, withholds, and corrects.

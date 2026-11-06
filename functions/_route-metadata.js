@@ -375,7 +375,7 @@ export const TRUST_ROUTES = {
       "Facts, a short description and logos for writing about TourTicketCompare, the independent ticket research site for major live music tours.",
     indexable: true,
     breadcrumb: [{ name: "Press", path: "/press" }],
-    lastmod: "2026-10-09"
+    lastmod: "2026-11-06"
   },
   "/editorial-policy": {
     title: "Editorial Policy | TourTicketCompare",

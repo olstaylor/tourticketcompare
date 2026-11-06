@@ -1938,7 +1938,7 @@
       "description": "For 10 big tours, one resale site's lowest listed price for the next date in each city. On 8 of them the highest city was at least twice the lowest.",
       "summary": "Lowest listed resale prices for the same tour in different cities, one site per tour, each figure with the time it was captured. Snapshots up to 18 October 2026.",
       "datePublished": "2026-10-18",
-      "dateModified": "2026-11-01",
+      "dateModified": "2026-11-05",
       "status": "published",
       "author": "TourTicketCompare",
       "tags": [
@@ -1948,7 +1948,7 @@
         "primary-vs-resale-concert-tickets"
       ],
       "relatedArtists": [],
-      "wordCount": 1931,
+      "wordCount": 1933,
       "sections": [
         {
           "type": "intro",
@@ -1997,7 +1997,7 @@
         {
           "type": "section",
           "title": "Trivium: Crown In The Grave World Tour",
-          "content": "On TicketNetwork, the lowest listed price for the next date in each of 23 cities in the United States was $35.65 in Atlanta at the low end and $105.80 in Tulsa at the high end, 2.9 times as much.\n\n| City | Next date | Venue | Lowest listed | Site | Captured |\n|---|---|---|---|---|---|\n| Atlanta | 6 November 2026 | The Eastern-GA | $35.65 | TicketNetwork | 18 October, 05:57 UTC |\n| Houston | 28 November 2026 | Bayou Music Center | $37.95 | TicketNetwork | 18 October, 05:57 UTC |\n| Denver | 13 December 2026 | Mission Ballroom | $42.55 | TicketNetwork | 18 October, 05:57 UTC |\n| St Petersburg | 5 November 2026 | Jannus Live | $95.45 | TicketNetwork | 18 October, 05:57 UTC |\n| New Haven | 11 November 2026 | College Street Music Hall | $103.50 | TicketNetwork | 18 October, 05:57 UTC |\n| Tulsa | 15 December 2026 | Tulsa Theater | $105.80 | TicketNetwork | 18 October, 05:57 UTC |\n\nThe 17 cities in between are on the [Trivium page](/artists/trivium/ticket-prices)."
+          "content": "On TicketNetwork, the lowest listed price for the next date in each of 23 cities in the United States was $35.65 in Atlanta at the low end and $105.80 in Tulsa at the high end, 2.9 times as much.\n\n| City | Next date | Venue | Lowest listed | Site | Captured |\n|---|---|---|---|---|---|\n| Atlanta | 6 November 2026 | The Eastern-GA | $35.65 | TicketNetwork | 18 October, 05:57 UTC |\n| Houston | 28 November 2026 | Bayou Music Center | $37.95 | TicketNetwork | 18 October, 05:57 UTC |\n| Denver | 13 December 2026 | Mission Ballroom | $42.55 | TicketNetwork | 18 October, 05:57 UTC |\n| St Petersburg | 5 November 2026 (has passed) | Jannus Live | $95.45 | TicketNetwork | 18 October, 05:57 UTC |\n| New Haven | 11 November 2026 | College Street Music Hall | $103.50 | TicketNetwork | 18 October, 05:57 UTC |\n| Tulsa | 15 December 2026 | Tulsa Theater | $105.80 | TicketNetwork | 18 October, 05:57 UTC |\n\nThe 17 cities in between are on the [Trivium page](/artists/trivium/ticket-prices)."
         },
         {
           "type": "section",

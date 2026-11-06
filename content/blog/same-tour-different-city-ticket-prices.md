@@ -5,7 +5,7 @@ description: "For 10 big tours, one resale site's lowest listed price for the ne
 summary: "Lowest listed resale prices for the same tour in different cities, one site per tour, each figure with the time it was captured. Snapshots up to 18 October 2026."
 date: 2026-10-18
 status: published
-updated: 2026-11-01
+updated: 2026-11-05
 tags:
   - tour-data
 related_guides:
@@ -160,7 +160,7 @@ On TicketNetwork, the lowest listed price for the next date in each of 23 cities
 | Atlanta | 6 November 2026 | The Eastern-GA | $35.65 | TicketNetwork | 18 October, 05:57 UTC |
 | Houston | 28 November 2026 | Bayou Music Center | $37.95 | TicketNetwork | 18 October, 05:57 UTC |
 | Denver | 13 December 2026 | Mission Ballroom | $42.55 | TicketNetwork | 18 October, 05:57 UTC |
-| St Petersburg | 5 November 2026 | Jannus Live | $95.45 | TicketNetwork | 18 October, 05:57 UTC |
+| St Petersburg | 5 November 2026 (has passed) | Jannus Live | $95.45 | TicketNetwork | 18 October, 05:57 UTC |
 | New Haven | 11 November 2026 | College Street Music Hall | $103.50 | TicketNetwork | 18 October, 05:57 UTC |
 | Tulsa | 15 December 2026 | Tulsa Theater | $105.80 | TicketNetwork | 18 October, 05:57 UTC |
 

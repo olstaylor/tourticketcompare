@@ -805,6 +805,16 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const optionHrefs = [...partialSection.matchAll(/href="([^"]+)"[^>]*>See ticket options</g)].map((m) => m[1]);
   assert(optionHrefs.length === 1 && optionHrefs[0].startsWith(`/artists/${ARTIST.slug}#`), `an unpriced presale row links to the artist page card: ${optionHrefs}`);
   assert(!/href="#/.test(partialSection), "the presale table has no same-page anchor");
+  // With no presale listed, the page opens with the artist's next dates, and
+  // those dates are priced like the artist page's (until 2026-11-06 they were
+  // never queried, so the table showed no price and no ticket button).
+  const noPresaleEvents = EVENTS.map((event) => ({ ...event, presales: undefined }));
+  const noPresale = await render(presalePath, { events: noPresaleEvents });
+  assert(noPresale.status === 200, "a presale page with no presale still renders");
+  const noPresaleNext = (noPresale.main.match(/<section[^>]*aria-labelledby="artistNextDatesTitle"[\s\S]*?<\/section>/) || [])[0] || "";
+  const noPresaleOut = [...noPresaleNext.matchAll(/href="(\/api\/out\?[^"]+)"/g)].map((m) => m[1]);
+  assert(text(noPresaleNext).includes("USD 182"), "a no-presale page shows the next date's own lowest listed price");
+  assert(noPresaleOut.length >= 1 && noPresaleOut.every((href) => href.includes("ctaLocation=presale_page")), "a no-presale page's priced dates carry tracked presale_page buttons");
   // An artist under review shows no ticket buttons anywhere, presale page included.
   const reviewArtists = artistsMeta.map((artist) =>
     String(artist?.slug) === ARTIST.slug ? { ...artist, indexing_status: "review_required" } : artist

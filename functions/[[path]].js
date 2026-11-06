@@ -9225,10 +9225,18 @@ async function renderRequest(context) {
       priceCandidates = futureShowsForArtist(events, route.artist.slug);
     } else if (route.type === "presale") {
       // The dates the page lists: those under a presale window or with an
-      // upcoming public on-sale (presaleListedShowIds).
+      // upcoming public on-sale (presaleListedShowIds). With none listed, the
+      // page opens with the artist's next dates instead (renderPresaleNextDates),
+      // so those are the ones to price. Until 2026-11-06 they were never
+      // queried, so a no-presale page (Shania Twain, Role Model) showed dates
+      // with no price and no ticket button at all.
       // An artist under review gets no table (renderPresaleResaleTable), so no read.
-      const listedIds = route.artist.indexing_status === "indexable_with_substantial_content" ? presaleListedShowIds(route.presales) : new Set();
-      priceCandidates = futureShowsForArtist(events, route.artist.slug).filter((show) => listedIds.has(String(show.id || "")));
+      const indexable = route.artist.indexing_status === "indexable_with_substantial_content";
+      const listedIds = indexable ? presaleListedShowIds(route.presales) : new Set();
+      const upcoming = indexable ? futureShowsForArtist(events, route.artist.slug) : [];
+      priceCandidates = listedIds.size
+        ? upcoming.filter((show) => listedIds.has(String(show.id || "")))
+        : upcoming.slice(0, ARTIST_NEXT_DATES_LIMIT);
     } else if (route.type === "artist-city") {
       const cityShowIds = artistCityShowIdSet(route.artistCity || {});
       priceCandidates = futureShowsForArtist(events, route.artist.slug)

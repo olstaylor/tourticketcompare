@@ -380,7 +380,7 @@
     "ticketmaster_event_id": "090064B785414609",
     "ticketmaster_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-2-2026--concerts-country-and-folk/production/7084783",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
     "last_verified_at": "2026-11-03",
@@ -402,11 +402,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7084783,
-        "url": "https://www.vividseats.com/the-chicks-tickets-hollywood-dolby-theatre-11-2-2026--concerts-country-and-folk/production/7084783",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

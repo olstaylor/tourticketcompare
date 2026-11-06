@@ -98,7 +98,7 @@
         "event_id": 7720574,
         "url": "https://www.vividseats.com/bon-jovi-tickets-east-rutherford-metlife-stadium-7-15-2027/production/7720574",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -190,7 +190,7 @@
         "event_id": 7720572,
         "url": "https://www.vividseats.com/bon-jovi-tickets-chicago-soldier-field-7-21-2027/production/7720572",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -282,7 +282,7 @@
         "event_id": 7720570,
         "url": "https://www.vividseats.com/bon-jovi-tickets-foxborough-gillette-stadium-7-28-2027/production/7720570",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -374,7 +374,7 @@
         "event_id": 7720693,
         "url": "https://www.vividseats.com/bon-jovi-tickets-toronto-rogers-stadium---toronto-8-4-2027/production/7720693",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -474,7 +474,7 @@
     "ticketmaster_event_id": "050065640B452301",
     "ticketmaster_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-south-bend-indiana-10-02-2027/event/050065640B452301",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-south-bend-notre-dame-stadium-10-2-2027--concerts-rock/production/7816464",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-south-bend-indiana-10-02-2027/event/050065640B452301",
     "last_verified_at": null,
@@ -496,11 +496,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7816464,
+        "url": "https://www.vividseats.com/bon-jovi-tickets-south-bend-notre-dame-stadium-10-2-2027--concerts-rock/production/7816464",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

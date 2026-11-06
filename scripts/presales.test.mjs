@@ -225,6 +225,7 @@ const text = (html) =>
   const page = await render("/artists/oasis/presale", EVENTS.filter((event) => !event.presales));
   assert(page.status === 200 && page.robots.startsWith("noindex"), "with nothing listed the page renders noindex");
   assert(text(page.main).includes("There's no upcoming presale"), "with nothing listed the page says so");
+  assert(/Next Oasis dates/.test(text(page.main)), "with nothing listed the page still opens its next dates, so a late visitor can reach the sale");
 }
 
 {

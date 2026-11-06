@@ -5941,8 +5941,13 @@ function renderPresaleNextDates(route, events, env) {
   const artist = route.artist;
   if (artist.indexing_status !== "indexable_with_substantial_content") return "";
   const listedIds = presaleListedShowIds(route.presales);
-  if (!listedIds.size || !Array.isArray(events) || !events.length) return "";
-  const shows = futureShowsForArtist(events, artist.slug).filter((show) => listedIds.has(String(show.id || "")));
+  if (!Array.isArray(events) || !events.length) return "";
+  // With no presale listed, the page used to end in two links. People still land
+  // here after the presale has passed ("role model presale manchester"), and what
+  // they need next is the sale itself: show the artist's next dates with each
+  // site's listed price, as the artist page does.
+  const upcomingShows = futureShowsForArtist(events, artist.slug);
+  const shows = listedIds.size ? upcomingShows.filter((show) => listedIds.has(String(show.id || ""))) : upcomingShows;
   return renderArtistNextDatesPriceAnswer(
     artist,
     shows,

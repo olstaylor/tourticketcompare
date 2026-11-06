@@ -183,6 +183,35 @@ export function selectTourGuides(source, artistSlugs, { now = Date.now(), prs = 
   return { selected: candidates[0] || null, candidates, rejected, week: weekOf(now) };
 }
 
+// New-tour pass (2026-11-06): the scheduled run also considers a tour guide for
+// every artist the auto-promote lane added in the last NEW_TOUR_DAYS days, so a
+// just-announced tour gets a guide without anyone naming it. Same gates as a
+// named guide (fresh, verified, three cities, no existing guide or PR) and the
+// same spend limits; drafts still open as draft PRs for review. Selection is
+// free, so every recent artist is considered and merit decides the order.
+export const NEW_TOUR_DAYS = 21;
+
+export function recentTourArtists(source, now = Date.now()) {
+  const since = new Date(now - NEW_TOUR_DAYS * DAY).toISOString().slice(0, 10);
+  return (source.artists || [])
+    .filter((a) => a.promotion_source === 'auto' && !a.demoted && /^\d{4}-\d{2}-\d{2}$/.test(a.auto_promoted_at || '') && a.auto_promoted_at >= since)
+    .sort((a, b) => b.auto_promoted_at.localeCompare(a.auto_promoted_at) || a.slug.localeCompare(b.slug))
+    .map((a) => a.slug);
+}
+
+// Merge the weekly ideas with new-tour guides: best merit first, one article
+// per artist per run.
+export function withNewTourGuides(selection, source, { now = Date.now(), prs = [], priority = new Map() } = {}) {
+  const slugs = recentTourArtists(source, now);
+  if (!slugs.length) return selection;
+  const tours = selectTourGuides(source, slugs, { now, prs, priority });
+  const seen = new Set();
+  const candidates = [...selection.candidates, ...tours.candidates]
+    .sort((a, b) => b.merit - a.merit || a.topic.localeCompare(b.topic))
+    .filter((c) => !seen.has(c.artist) && seen.add(c.artist));
+  return { ...selection, selected: candidates[0] || null, candidates, rejected: [...selection.rejected, ...tours.rejected] };
+}
+
 export function draftMarker(body) {
   const match = /<!-- ttc-blog-draft:v1 (\{.*?\}) -->/.exec(String(body || ''));
   if (!match) return null;

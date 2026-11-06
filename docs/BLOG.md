@@ -114,6 +114,15 @@ $0.50, and a draft that fails a check after the model call is saved in the run's
 spend can be inspected. A failed manual run may use a numbered branch
 (`-2` up to `-9`) for the next attempt.
 
+Scheduled runs also add new tours by themselves (2026-11-06). Every artist the
+auto-promote lane added in the last 21 days (`recentTourArtists`,
+`withNewTourGuides` in `scripts/lib/blog-drafting.mjs`) is offered as a tour-guide
+candidate beside the weekly ideas, under the same gates. Candidates are ranked
+by merit, with at most one article per artist per run, and the usual spend and
+open-draft limits apply. A just-announced tour usually clears the three-city gate
+only once its dates have been re-verified (`needs_recheck` cleared), so it is
+drafted at the first run after that.
+
 Tour guides are price-led. Where the artist has recent daily price snapshots
 (`provider_pricing_daily`, read through the same Cloudflare secrets as the show
 priority), the evidence carries each site's lowest listed price per city, the

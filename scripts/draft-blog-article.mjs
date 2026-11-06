@@ -6,7 +6,7 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { readSource, githubClient } from './propose-blog-ideas.mjs';
 import { splitDocument } from './lib/content-markdown.mjs';
-import { MAX_RUN_USD, selectArticle, selectTourGuides, buildEvidence, researchEvidence, anthropicClient, generateArticle, listEditorialPrs, reserveTopic, prBody, spentUsd,
+import { MAX_RUN_USD, selectArticle, selectTourGuides, withNewTourGuides, buildEvidence, researchEvidence, anthropicClient, generateArticle, listEditorialPrs, reserveTopic, prBody, spentUsd,
   MAX_DRAFTS_PER_RUN, MAX_OPEN_DRAFTS, PREFIX } from './lib/blog-drafting.mjs';
 import { readPriorityRows } from './lib/show-priority-store.mjs';
 import { readDraftPrices } from './lib/draft-prices.mjs';
@@ -49,7 +49,8 @@ export async function draftOnce({ source, issue, gh, mode, snapshot, rules, apiK
   priority = new Map(), maxDrafts = MAX_DRAFTS_PER_RUN, artists = null, readPrices = async () => [] }) {
   if (!['preview', 'mock', 'live'].includes(mode)) throw new Error('Invalid drafting mode');
   const prs = mode === 'live' ? await listEditorialPrs(gh) : [];
-  const selection = artists?.length ? selectTourGuides(source, artists, { now, prs, priority }) : selectArticle(source, issue, { now, prs, priority });
+  const selection = artists?.length ? selectTourGuides(source, artists, { now, prs, priority })
+    : withNewTourGuides(selectArticle(source, issue, { now, prs, priority }), source, { now, prs, priority });
   if (!selection.selected) return { mode, outcome: 'no-worthy-opportunity', ...selection };
   if (mode === 'preview') {
     const evidence = await researchEvidence(buildEvidence(selection.selected, { now, snapshot, prices: await readPrices(selection.selected.artist) }), { apiKey: tmKey, fetchImpl, now });

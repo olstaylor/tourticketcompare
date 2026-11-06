@@ -7,7 +7,7 @@ import { execFileSync } from 'node:child_process';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 import { parse as parseYaml } from 'yaml';
 import { selectArticle, spentUsd, selectTourGuides, remoteMismatches, buildEvidence, checkArticle, generateArticle, anthropicClient, researchEvidence, verifyRemoteEvent,
-  reserveTopic, listEditorialPrs, boundedOverlap, PRICED_OVERLAP_CHARS, MODEL, EFFORT, OUTPUT_LIMITS, MAX_ESTIMATED_USD, MAX_OPEN_DRAFTS, prBody } from './lib/blog-drafting.mjs';
+  reserveTopic, listEditorialPrs, boundedOverlap, recentTourArtists, withNewTourGuides, NEW_TOUR_DAYS, PRICED_OVERLAP_CHARS, MODEL, EFFORT, OUTPUT_LIMITS, MAX_ESTIMATED_USD, MAX_OPEN_DRAFTS, prBody } from './lib/blog-drafting.mjs';
 import { draftOnce, prepareContent, readDraftRules } from './draft-blog-article.mjs';
 import { createMockClient, mockMarkdown } from './fixtures/blog-draft-model.mjs';
 import { githubClient } from './propose-blog-ideas.mjs';
@@ -515,6 +515,25 @@ test('named tour guides cite one date per city, skip unknown artists and never u
     assert(c.links.includes(`/artists/${c.artist}`));
   }
   assert.equal(selectTourGuides(fixture, ['not-a-real-artist'], { now }).selected, null);
+});
+
+test('scheduled runs add tour guides for artists auto-promoted in the last three weeks, one article per artist', () => {
+  const source = clone(fixture);
+  const day = (offset) => new Date(now - offset * 86400000).toISOString().slice(0, 10);
+  source.artists = source.artists.map((a, i) => i === 0 ? { ...a, promotion_source: 'auto', auto_promoted_at: day(2) }
+    : i === 1 ? { ...a, promotion_source: 'auto', auto_promoted_at: day(NEW_TOUR_DAYS + 5) }
+    : i === 2 ? { ...a, promotion_source: 'auto', auto_promoted_at: day(1), demoted: true } : a);
+  assert.deepEqual(recentTourArtists(source, now), [source.artists[0].slug]);
+  assert.deepEqual(recentTourArtists(fixture, now), [], 'owner-promoted artists are left to the weekly ideas');
+  const base = selectArticle(source, issue, { now });
+  const merged = withNewTourGuides(base, source, { now });
+  const slug = source.artists[0].slug;
+  const tourGate = selectTourGuides(source, [slug], { now });
+  if (tourGate.candidates.length) assert(merged.candidates.some((c) => c.kind === 'tour' && c.artist === slug));
+  else assert(merged.rejected.some((r) => r.key === `${slug}:tour`));
+  assert.equal(new Set(merged.candidates.map((c) => c.artist)).size, merged.candidates.length);
+  for (let i = 1; i < merged.candidates.length; i++) assert(merged.candidates[i - 1].merit >= merged.candidates[i].merit);
+  assert.equal(withNewTourGuides(selectArticle(fixture, issue, { now }), fixture, { now }).selected?.topic, selectArticle(fixture, issue, { now }).selected?.topic);
 });
 
 test('a rejected Anthropic request reports its error type and message, costs nothing and never echoes the key', async () => {

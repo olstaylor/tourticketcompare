@@ -8499,7 +8499,27 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "artists page",
       "/artists",
       "text-link"
-    )}, and every artist with ${TOURS_HUB_YEAR} dates is on the ${anchor(`${TOURS_HUB_YEAR} tours page`, TOURS_HUB_PATH, "text-link")}.</li></ul></section><section class="nested-panel"><h2>What makes it different</h2><ul class="check-list"><li>Every price names its ticket site and the time it was captured.</li><li>Links are checked against the exact show, so a fan does not land on the wrong night or a lookalike listing.</li><li>One page per tour, with every date and the ticket sites that list it, instead of five open tabs.</li><li>It says what it does not know: a listed price is not the checkout total, and fees and availability change.</li></ul></section><section class="nested-panel"><h2>Logos and images</h2><ul class="check-list"><li>${anchor(
+    )}, and every artist with ${TOURS_HUB_YEAR} dates is on the ${anchor(`${TOURS_HUB_YEAR} tours page`, TOURS_HUB_PATH, "text-link")}.</li></ul></section><section class="nested-panel"><h2>Data for journalists</h2><p>TourTicketCompare keeps a daily record of the lowest listed resale price per ticket site for the shows it tracks. These studies use it. Each one names its ticket sites, dates and sample size, and you are welcome to quote the figures with credit to TourTicketCompare.</p><ul class="check-list"><li>${anchor(
+      "Do concert ticket prices drop in the last week?",
+      "/blog/do-concert-ticket-prices-drop-in-the-last-week",
+      "text-link"
+    )} The day before a show, the lowest listed price was lower than a week earlier at about 6 in 10 of 421 US shows.</li><li>${anchor(
+      "Should you rush to buy resale tickets for a new tour?",
+      "/blog/do-resale-ticket-prices-drop-after-a-tour-goes-on-sale",
+      "text-link"
+    )} Two weeks after a show's first recorded price, it was lower at 49% of 1,608 US shows and higher at 24%.</li><li>${anchor(
+      "Which US cities are cheapest for seeing a touring show?",
+      "/blog/cheapest-us-cities-to-see-a-concert-tour",
+      "text-link"
+    )} Across 100+ tours, Pittsburgh, Nashville and Miami came in below the tour's typical price, and New York and San Francisco above it.</li><li>${anchor(
+      "How much do resale prices move from day to day?",
+      "/blog/how-often-do-resale-ticket-prices-change",
+      "text-link"
+    )} About half of US shows saw the cheapest listing move 20% or more overnight at least once.</li><li>${anchor(
+      "Which US tours have the highest ticket prices?",
+      "/blog/which-us-tours-have-the-highest-ticket-prices",
+      "text-link"
+    )} 124 US tours ranked by their typical lowest listed resale price.</li></ul><p>All figures are listed resale prices, not checkout totals or face value. For numbers on a specific tour, city or date, email the address below.</p></section><section class="nested-panel"><h2>What makes it different</h2><ul class="check-list"><li>Every price names its ticket site and the time it was captured.</li><li>Links are checked against the exact show, so a fan does not land on the wrong night or a lookalike listing.</li><li>One page per tour, with every date and the ticket sites that list it, instead of five open tabs.</li><li>It says what it does not know: a listed price is not the checkout total, and fees and availability change.</li></ul></section><section class="nested-panel"><h2>Logos and images</h2><ul class="check-list"><li>${anchor(
       "Square logo (PNG, 512 × 512)",
       "/logo.png",
       "text-link"

@@ -28,7 +28,7 @@ export function snapshotFields(data) {
     dates: {
       timezone: raw(data.dates?.timezone),
       end: { dateTime: raw(data.dates?.end?.dateTime), approximate: raw(data.dates?.end?.approximate), noSpecificTime: raw(data.dates?.end?.noSpecificTime) },
-      start: { dateTime: raw(data.dates?.start?.dateTime), localDate: raw(data.dates?.start?.localDate), timeZone: raw(data.dates?.start?.timeZone) },
+      start: { dateTime: raw(data.dates?.start?.dateTime), localDate: raw(data.dates?.start?.localDate), timeZone: raw(data.dates?.start?.timeZone), noSpecificTime: raw(data.dates?.start?.noSpecificTime), timeTBA: raw(data.dates?.start?.timeTBA), dateTBA: raw(data.dates?.start?.dateTBA) },
       status: { code: raw(data.dates?.status?.code) }
     },
     sales: {
@@ -44,7 +44,7 @@ export function snapshotFields(data) {
     },
     _embedded: {
       venues: list(data._embedded?.venues, (v) => ({ name: raw(v?.name), timezone: raw(v?.timezone), city: { name: raw(v?.city?.name) }, country: { name: raw(v?.country?.name) } })),
-      attractions: list(data._embedded?.attractions, (a) => ({ name: raw(a?.name) }))
+      attractions: list(data._embedded?.attractions, (a) => ({ id: raw(a?.id), name: raw(a?.name) }))
     }
   };
 }

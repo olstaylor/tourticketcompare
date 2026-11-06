@@ -63,7 +63,8 @@ ignored, so the file doubles as a record of what was asked for.
 - **Automatic discovery.** The same two jobs build the day's list in this
   order: watchlist acts that now have a tour, open requests, then up to 10
   just-announced tours (forecast acts with 3+ headline dates whose public
-  on-sale started in the last 7 days or is still to come, biggest run first),
+  on-sale started in the last 7 days or is still to come, playing enough
+  arenas or stadiums to score 3+, biggest rooms first),
   then the 10 highest-demand touring headliners on
   SeatGeek with no page (`scripts/report-demand-candidates.mjs`, events sorted
   by SeatGeek's demand score; owner-approved 2026-10-09), then Ticketmaster's

@@ -98,8 +98,9 @@ jobs:
           # (owner-approved 2026-10-09); full screen, same caps. Non-fatal on failure.
           node scripts/report-demand-candidates.mjs --merge artifacts/auto/names.txt --top 10
           # Just-announced tours (forecast rows with >=3 headline dates whose public
-          # on-sale is recent or still to come) go ahead of the demand names: a new
-          # tour is when fans search. Same screen and caps. Non-fatal on failure.
+          # on-sale is recent or still to come, in arenas/stadiums) go ahead of the
+          # demand names: a big new tour is when fans search. Same screen and caps.
+          # Non-fatal on failure.
           if [ "$FORECAST_OK" = true ]; then node scripts/report-roster-forecast.mjs --fresh-first artifacts/auto/forecast.json artifacts/auto/names.txt || true; fi
           node scripts/artist-requests.mjs --merge artifacts/auto/names.txt --limit 20
           # Watchlist acts (data/artist-watchlist.json) go first once Ticketmaster lists a

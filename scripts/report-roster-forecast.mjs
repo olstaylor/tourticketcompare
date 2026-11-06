@@ -107,7 +107,8 @@
 // second pass asks Discovery, per country, for music events whose public
 // on-sale starts on or after (now - --announce-days). An act with
 // >= FRESH_MIN_SHOWS such dates billed first is "just announced" and ranks
-// ahead of the coverage order, biggest tour first. Same screens, same caps.
+// ahead of the coverage order, biggest rooms first (venueTier). Same screens,
+// same caps.
 //
 // Environment:
 //   TICKETMASTER_API_KEY  Required only for --candidates
@@ -138,6 +139,28 @@ export const FRESH_MIN_SHOWS = 3;
 // At most this many just-announced acts jump the demand names, so the
 // 20-name list still carries demand picks on a busy announcement day.
 export const FRESH_FIRST_MAX = 10;
+
+// Room size is the demand signal a fresh announcement already carries:
+// promoters book stadiums and arenas for acts they expect to sell. Ticketmaster
+// gives no capacity, so the tier is read off the venue name: 3 = stadium, 2 =
+// arena, 1 = anything else (theatres, clubs, casinos, O2 Academy-type rooms).
+// An act's demand score is its fresh headline dates weighted by tier (stadium
+// 2, arena 1, other 0). Only acts scoring >= FRESH_FIRST_MIN_SCORE jump the
+// demand names; smaller new tours keep their forecast place.
+const SMALL_VENUE =
+  /\b(theat(?:re|er)|academy|institute|apollo|ritz|empire|hall|club|casino|ballroom|house of blues|auditorium|rooms?|observatory|fillmore|van buren|lounge|bar|cabaret|chapel|church|forum|limelight|live)\b/i;
+const STADIUM_VENUE = /\b(stadium|stadio|estadio|field|bowl|dome|showground|racecourse|park)\b/i;
+const ARENA_VENUE = /\b(arena|cent(?:er|re)|garden|amphitheat(?:re|er)|pavilion|coliseum|hydro)\b|^the o2$|\bo2 arena\b/i;
+export const FRESH_FIRST_MIN_SCORE = 3;
+export function venueTier(name) {
+  const venue = String(name || "").trim();
+  if (SMALL_VENUE.test(venue)) return 1;
+  if (STADIUM_VENUE.test(venue)) return 3;
+  if (ARENA_VENUE.test(venue)) return 2;
+  return 1;
+}
+const TIER_WEIGHT = { 1: 0, 2: 1, 3: 2 };
+
 export const ANNOUNCE_COUNTRIES = Object.freeze(["US", "GB", "CA", "IE", "AU"]);
 
 // Ticketmaster requires an ISO country code on city-scoped queries. Keys are
@@ -643,7 +666,9 @@ export function scoreCandidates(events, candidates, baseNow, horizonDays) {
   scored.sort(
     (a, b) =>
       fresh(b) - fresh(a) ||
-      (fresh(a) && fresh(b) ? (b.freshCount || 0) - (a.freshCount || 0) : 0) ||
+      (fresh(a) && fresh(b)
+        ? (b.freshDemand || 0) - (a.freshDemand || 0) || (b.freshCount || 0) - (a.freshCount || 0)
+        : 0) ||
       b.coverageScore - a.coverageScore ||
       b.flipScore - a.flipScore ||
       (b.upcomingTotal || 0) - (a.upcomingTotal || 0) ||
@@ -845,7 +870,11 @@ async function discoverCandidates({ markets, apiKey, pagesPerCity, delayMs, scan
 export function freshFirst(rows, existingText) {
   const key = (name) => String(name || "").toLowerCase().replace(/\s+/g, " ").trim();
   const lines = (rows || [])
-    .filter((row) => (row.just_announced_shows || 0) >= FRESH_MIN_SHOWS)
+    .filter(
+      (row) =>
+        (row.just_announced_shows || 0) >= FRESH_MIN_SHOWS &&
+        (row.just_announced_demand || 0) >= FRESH_FIRST_MIN_SCORE
+    )
     .slice(0, FRESH_FIRST_MAX)
     .map((row) => `${row.name}\t${row.ticketmaster_attraction_id || ""}`);
   const seen = new Set(lines.map((line) => key(line.split("\t")[0])));
@@ -897,7 +926,10 @@ export function addAnnouncedEvents(byAttraction, rawEvents, { sinceMs, now }) {
       const key = `${venueSlug(event.venue, event.city)}|${event.datetime_iso}`;
       if (index === 0) {
         record.freshKeys = record.freshKeys || new Set();
-        record.freshKeys.add(key);
+        if (!record.freshKeys.has(key)) {
+          record.freshKeys.add(key);
+          record.freshDemand = (record.freshDemand || 0) + TIER_WEIGHT[venueTier(event.venue)];
+        }
       }
       if (record.eventKeys.has(key)) return;
       record.eventKeys.add(key);
@@ -1499,6 +1531,7 @@ function runSelfTest() {
     { sinceMs, now: annNow }
   );
   assert("announced pass credits each fresh headline date", announced.get("big")?.freshKeys?.size === 3);
+  assert("arena dates score one demand point each", announced.get("big")?.freshDemand === 3);
   assert("support acts get the date but no fresh credit", announced.get("sup")?.events.length === 3 && !announced.get("sup")?.freshKeys);
   assert("on-sales before the window are ignored", !announced.has("old"));
   assert("the 1900 'no on-sale' placeholder is ignored", !announced.has("tba"));
@@ -1513,11 +1546,29 @@ function runSelfTest() {
     "fresh-first puts just-announced acts ahead of demand names, once each",
     freshFirst(
       [
-        { name: "New Tour", ticketmaster_attraction_id: "K1", just_announced_shows: 5 },
+        { name: "New Tour", ticketmaster_attraction_id: "K1", just_announced_shows: 5, just_announced_demand: 6 },
+        { name: "Theatre Tour", ticketmaster_attraction_id: "K3", just_announced_shows: 20, just_announced_demand: 0 },
         { name: "Old Coverage", ticketmaster_attraction_id: "K2", just_announced_shows: 0 }
       ],
-      "Demand Act\t\nNew Tour\tK1\nOld Coverage\tK2\n"
-    ) === "New Tour\tK1\nDemand Act\nOld Coverage\tK2\n"
+      "Demand Act\t\nNew Tour\tK1\nTheatre Tour\tK3\nOld Coverage\tK2\n"
+    ) === "New Tour\tK1\nDemand Act\nTheatre Tour\tK3\nOld Coverage\tK2\n"
+  );
+  assert(
+    "venue tiers read room size off the name",
+    venueTier("MetLife Stadium") === 3 &&
+      venueTier("Heaton Park") === 3 &&
+      venueTier("The O2") === 2 &&
+      venueTier("OVO Hydro") === 2 &&
+      venueTier("O2 Academy Bristol") === 1 &&
+      venueTier("Bath Forum") === 1 &&
+      venueTier("The Observatory North Park") === 1 &&
+      venueTier("Payne Arena") === 2 &&
+      venueTier("Smart Financial Centre at Sugar Land") === 2 &&
+      venueTier("Greenfield Lake Amphitheater") === 2 &&
+      venueTier("The Louisville Palace") === 1 &&
+      venueTier("House of Blues Houston") === 1 &&
+      venueTier("The Venetian Theatre at The Venetian Resort") === 1 &&
+      venueTier("Hard Rock Live Bristol") === 1
   );
   assert("1900 placeholder reads as unknown", Number.isNaN(publicOnsaleMs({ sales: { public: { startDateTime: "1900-01-01T06:00:00Z" } } })));
 
@@ -1525,15 +1576,15 @@ function runSelfTest() {
     [],
     [
       { name: "Coverage Act", slug: "coverage-act", events: [], marketCount: 9, upcomingTotal: 50, freshCount: 0 },
-      { name: "Small New", slug: "small-new", events: [], marketCount: 1, upcomingTotal: 9, freshCount: 3 },
-      { name: "Big New", slug: "big-new", events: [], marketCount: 1, upcomingTotal: 9, freshCount: 12 },
+      { name: "Small New", slug: "small-new", events: [], marketCount: 1, upcomingTotal: 9, freshCount: 30, freshDemand: 0 },
+      { name: "Big New", slug: "big-new", events: [], marketCount: 1, upcomingTotal: 9, freshCount: 3, freshDemand: 6 },
       { name: "Two Dates", slug: "two-dates", events: [], marketCount: 1, upcomingTotal: 99, freshCount: 2 }
     ],
     annNow,
     90
   );
   assert(
-    "just-announced acts rank first, biggest fresh run first",
+    "just-announced acts rank first, largest rooms first",
     ranked.map((r) => r.slug).join(",") === "big-new,small-new,two-dates,coverage-act"
   );
 }
@@ -1558,8 +1609,8 @@ async function main() {
     const existing = await fs.readFile(namesFile, "utf8").catch(() => "");
     const next = freshFirst(forecast?.candidates?.rows || [], existing);
     await fs.writeFile(namesFile, next);
-    const moved = Math.min(FRESH_FIRST_MAX, (forecast?.candidates?.rows || []).filter((r) => (r.just_announced_shows || 0) >= FRESH_MIN_SHOWS).length);
-    console.error(`Moved ${moved} just-announced act(s) ahead of the demand names.`);
+    const moved = next.split("\n").length - 1 - existing.split("\n").filter((l) => l.trim() && !l.trim().startsWith("#")).length;
+    console.error(`Placed just-announced arena/stadium acts ahead of the demand names (${Math.max(0, moved)} new line(s)).`);
     return;
   }
 
@@ -1649,7 +1700,8 @@ async function main() {
           marketCount: record.markets.size,
           primaryCount: record.primaryCount,
           primaryRate,
-          freshCount
+          freshCount,
+          freshDemand: record.freshDemand || 0
         });
       }
       if (screenedOutAsSupport) {
@@ -1666,6 +1718,7 @@ async function main() {
       eligible.sort(
         (a, b) =>
           isFresh(b) - isFresh(a) ||
+          isFresh(b) * (b.freshDemand - a.freshDemand) ||
           b.freshCount - a.freshCount ||
           b.marketCount - a.marketCount ||
           b.events.length - a.events.length ||
@@ -1722,6 +1775,7 @@ async function main() {
           upcoming_shows_in_tracked_markets: r.events.length,
           showsAfterHorizon: r.showsAfterHorizon,
           just_announced_shows: r.freshCount || 0,
+          just_announced_demand: r.freshDemand || 0,
           marketCount: r.marketCount,
           coverageScore: r.coverageScore,
           coveredCities: r.coveredCities,

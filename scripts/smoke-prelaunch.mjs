@@ -70,7 +70,7 @@ const homepageDescription = "Compare ticket prices for the show you want. Choose
 const APP_ASSET_VERSION = "20261102a";
 const TTC_HOME_ASSET_VERSION = "20261023b";
 const TTC_HOME_JS_ASSET_VERSION = "20261025a";
-const TTC_SHELL_ASSET_VERSION = "20261023b";
+const TTC_SHELL_ASSET_VERSION = "20261107a";
 const SHELL_SCRIPT_ASSET_VERSION = "20261023b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-kHeWCj29Ws6APptXbU360N2/swJwl7jTRo//eaLVdFc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
@@ -1000,7 +1000,7 @@ assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must 
 assert(!indexHtml.includes("googletagmanager.com/gtm.js"), "index.html must not load Google Tag Manager before consent");
 assert(!indexHtml.includes("googletagmanager.com/ns.html"), "index.html must not include the no-JavaScript GTM frame, which would load without consent");
 assert(!indexHtml.includes("/impact-publisher-tag.js"), "index.html must not load the Impact publisher tag before consent");
-assert(indexHtml.includes('<script src="/consent.js?v=20260925a" defer></script>'), "index.html must load the consent manager");
+assert(indexHtml.includes('<script src="/consent.js?v=20261107a" defer></script>'), "index.html must load the consent manager");
 assert(
   indexHtml.indexOf("/consent.js?v=") < indexHtml.indexOf("/app.js?v="),
   "the consent manager must run before the app bundle"
@@ -1023,7 +1023,7 @@ assert(/<button[^>]*data-consent-open[^>]*>Cookie settings<\/button>/.test(index
     (consentJs.match(/button button-secondary cookie-consent__button/g) || []).length === 1,
     "Reject and Accept share one button style, so rejecting is as easy as accepting"
   );
-  const bannerCopy = consentJs.match(/"TourTicketCompare would like[^"]*"/)?.[0] || "";
+  const bannerCopy = consentJs.match(/"Allow Google Analytics[^"]*"/)?.[0] || "";
   assert(bannerCopy && findFirstPersonPlural(bannerCopy).length === 0, "the banner copy follows the site voice");
 }
 assert(
@@ -1057,7 +1057,7 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   assert(csp === EXPECTED_CSP, `${pathname} CSP should match expected value, got: ${csp}`);
   assert(!csp.includes("'unsafe-inline'"), `${pathname} CSP must not contain 'unsafe-inline'`);
   assert(csp.includes("https://utt.impactcdn.com"), `${pathname} CSP must allow the account Publisher Tag loader`);
-  assert(text.includes('<script src="/consent.js?v=20260925a" defer></script>'), `${pathname} must load the consent manager`);
+  assert(text.includes('<script src="/consent.js?v=20261107a" defer></script>'), `${pathname} must load the consent manager`);
   assert(!text.includes("/impact-publisher-tag.js"), `${pathname} must not load the Impact publisher tag before consent`);
   assert(!text.includes("googletagmanager.com/gtm.js"), `${pathname} must not load Google Tag Manager before consent`);
   // Every rendered route keeps the browser revalidating, so a deploy that bumps

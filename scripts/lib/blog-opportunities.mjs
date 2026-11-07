@@ -79,6 +79,14 @@ export function validateSources({ events, artists, catalog, documents }, now) {
   }
 }
 
+// North American links end /event/<id>; international storefronts use
+// /event/<name-slug>/<numeric-id> (same forms as eventUrlId in blog-drafting).
+function ticketmasterPathId(pathname) {
+  const path = pathname.toLowerCase().replace(/\/$/, "");
+  const international = path.match(/^\/event\/[^/]+\/(\d+)$/)?.[1];
+  return international ?? path.split("/event/")[1];
+}
+
 function ticketmasterEvidence(event, allowedHosts) {
   try {
     const url = new URL(event.ticketmaster_url);
@@ -86,7 +94,7 @@ function ticketmasterEvidence(event, allowedHosts) {
     const id = event.ticketmaster_event_id;
     return text(id) && url.protocol === "https:" && !url.username && !url.password && !url.hash
       && allowedHosts.includes(url.hostname.replace(/^www\./, ""))
-      && url.pathname.toLowerCase().split("/event/")[1]?.replace(/\/$/, "") === id.toLowerCase()
+      && ticketmasterPathId(url.pathname) === id.toLowerCase()
       && event.source_type === "ticketmaster" && event.source_url === event.ticketmaster_url;
   } catch { return false; }
 }

@@ -368,7 +368,7 @@ const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, TWO_PRICE_LANES, 
 
 // ─── rendered pages: flag off, not in the pilot (23–27) ─────────────────────
 
-const ASSET_FILES = ["index.html", "data/catalog.json", "data/artists.json", "data/guides-content.json", "data/blog-content.json", "data/provider-configs.json"];
+const ASSET_FILES = ["index.html", "data/catalog.json", "data/artists.json", "data/guides-content.json", "data/blog-content.json"];
 const assets = new Map();
 for (const file of ASSET_FILES) assets.set(`/${file}`, fs.readFileSync(path.join(ROOT, "public", file), "utf8"));
 assets.set("/", assets.get("/index.html"));

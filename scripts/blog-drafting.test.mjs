@@ -6,7 +6,7 @@ import os from 'node:os';
 import { execFileSync } from 'node:child_process';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 import { parse as parseYaml } from 'yaml';
-import { selectArticle, spentUsd, selectTourGuides, remoteMismatches, buildEvidence, checkArticle, generateArticle, anthropicClient, researchEvidence, verifyRemoteEvent,
+import { selectArticle, spentUsd, selectTourGuides, remoteMismatches, buildEvidence, SALE_OVERLAP_CHARS, checkArticle, generateArticle, anthropicClient, researchEvidence, verifyRemoteEvent,
   reserveTopic, listEditorialPrs, boundedOverlap, recentTourArtists, withNewTourGuides, NEW_TOUR_DAYS, PRICED_OVERLAP_CHARS, MODEL, EFFORT, OUTPUT_LIMITS, MAX_ESTIMATED_USD, MAX_OPEN_DRAFTS, prBody } from './lib/blog-drafting.mjs';
 import { draftOnce, prepareContent, readDraftRules } from './draft-blog-article.mjs';
 import { createMockClient, mockMarkdown } from './fixtures/blog-draft-model.mjs';
@@ -554,6 +554,26 @@ test('offline replay: a tour guide runs the whole drafting path with no API call
   assert(JSON.stringify({ evidence, rules: 'rules' }).length < 48000);
 });
 
+test('a tour guide can go live before the public sale, with the on-sale time checked', () => {
+  const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))];
+  const tour = selectTourGuides(fixture, slugs, { now }).selected;
+  const future = new Date(now + 5 * 86400000).toISOString().replace(/\.\d{3}Z$/, 'Z');
+  const past = new Date(now - 5 * 86400000).toISOString();
+  const rows = tour.rows.map((row, i) => ({ ...row, evidence: { ...row.evidence, publicOnsaleAt: undefined }, event: { ...row.event, public_onsale_at: i === 0 ? future : past } }));
+  const evidence = buildEvidence({ ...tour, rows }, { now, snapshot });
+  const [pre, ...onSale] = evidence.events;
+  assert.equal(pre.publicOnsaleAt, future, 'a date before its public sale carries the on-sale time');
+  assert(onSale.every((e) => e.publicOnsaleAt === null), 'dates already on sale carry none');
+  assert(evidence.limitations.some((l) => /Sale and presale times are what Ticketmaster listed/.test(l)), 'the sale-time rule is supplied');
+  const remote = (status, start) => ({ id: pre.discoveryId, url: pre.sourceUrl, _embedded: { venues: [{ name: pre.venue, city: { name: pre.city }, timezone: pre.timezone || undefined }], attractions: [{ name: pre.artist }] },
+    dates: { start: { localDate: pre.date }, status: { code: status }, timezone: pre.timezone || undefined }, sales: { public: { startDateTime: start } } });
+  assert.deepEqual(remoteMismatches(pre, remote('offsale', future), now), [], 'pre-sale offsale passes when the on-sale time matches');
+  assert(remoteMismatches(pre, remote('offsale', past), now).includes('publicOnsale'), 'a changed on-sale time is caught');
+  assert(remoteMismatches(onSale[0], remote('offsale', past), now).includes('status'), 'a date with no future sale still needs onsale');
+  const plain = buildEvidence(tour, { now, snapshot });
+  assert(!plain.limitations.some((l) => /Sale and presale times/.test(l)) || plain.events.some((e) => e.publicOnsaleAt), 'no sale-time rule without sale times');
+});
+
 test('a paid draft that fails a check is kept and the stray date is named', async () => {
   const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))];
   const tour = selectTourGuides(fixture, slugs, { now }).selected;
@@ -576,7 +596,10 @@ test('worst case: a 12-city guide with a 1,150-word draft and the real rules fit
   evidence.events = Array.from({ length: 12 }, (_, i) => ({ ...template, id: `e${i}`, city: `City ${i}`, venue: `Venue ${i}`, date: `2027-06-${String(i + 1).padStart(2, '0')}`,
     sourceUrl: `${template.sourceUrl.replace(/\/?$/, '')}-${i}`, external: { kind: 'current-ticketmaster-api', checkedFields: ['name', 'date', 'venue', 'city', 'url', 'status'] } }));
   evidence.overlap = Array.from({ length: 8 }, (_, i) => ({ file: `content/blog/${i}.md`, title: String(i), body: 'x'.repeat(9000) })).slice(0, 2);
-  evidence.overlap = [{ file: 'a', title: 'a', body: 'y'.repeat(6500) }, { file: 'b', title: 'b', body: 'y'.repeat(5500) }];
+  // The largest context buildEvidence allows for this evidence: sale times
+  // (the fixture's first date is before its public sale) take a smaller share.
+  const budget = evidence.events.some((e) => e.publicOnsaleAt) ? SALE_OVERLAP_CHARS : 12000;
+  evidence.overlap = [{ file: 'a', title: 'a', body: 'y'.repeat(6500) }, { file: 'b', title: 'b', body: 'y'.repeat(budget - 6500) }];
   const rules = await readDraftRules();
   const bodies = [];
   const fetchImpl = async (_url, init) => {

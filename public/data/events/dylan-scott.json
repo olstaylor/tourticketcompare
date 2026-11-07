@@ -1329,18 +1329,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8268850",
-        "url": "https://www.ticketliquidator.com/tickets/8268850/Dylan-Scott-tickets-Sat-Feb-27-2027-Gila-River-Hotels-Casinos-Wild-Horse-Pass",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3GkSHQv4X",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268850/Dylan-Scott-tickets-Sat-Feb-27-2027-Gila-River-Hotels-Casinos-Wild-Horse-Pass",
+    "ticketliquidator_url": "",
     "presales": [
       {
         "name": "VIP Packages Public Onsale",

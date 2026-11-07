@@ -937,11 +937,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8199804",
-        "url": "https://www.ticketliquidator.com/tickets/8199804/Steve-Lacy-tickets-Thu-Nov-5-2026-The-Pavilion-at-Toyota-Music-Factory",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -955,7 +955,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199804",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199804/Steve-Lacy-tickets-Thu-Nov-5-2026-The-Pavilion-at-Toyota-Music-Factory",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"

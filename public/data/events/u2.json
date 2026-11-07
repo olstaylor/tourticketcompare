@@ -897,6 +897,13 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8357120",
+        "url": "https://www.ticketliquidator.com/tickets/8357120/U2-tickets-Wed-Jun-9-2027-Johan-Cruijff-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kb9Z4vI",
@@ -905,7 +912,8 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357120"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357120",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357120/U2-tickets-Wed-Jun-9-2027-Johan-Cruijff-Arena"
   },
   {
     "id": "tm-u2-2027-barcelona-z698xz2qz16vasca3z",
@@ -1099,6 +1107,13 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8357092",
+        "url": "https://www.ticketliquidator.com/tickets/8357092/U2-tickets-Sat-May-22-2027-Estadio-La-Cartuja",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k0eFyqs",
@@ -1120,7 +1135,8 @@
         "start": "2026-11-11T09:00:00Z",
         "end": "2026-11-11T21:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357092/U2-tickets-Sat-May-22-2027-Estadio-La-Cartuja"
   },
   {
     "id": "tm-u2-2027-london-1adfz_4gkbq3_od",
@@ -1225,6 +1241,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359472",
+        "url": "https://www.ticketliquidator.com/tickets/8359472/U2-tickets-Fri-Jun-11-2027-Johan-Cruijff-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k7ZpZb4",
@@ -1232,7 +1255,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Mojo Concerts"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359472/U2-tickets-Fri-Jun-11-2027-Johan-Cruijff-Arena"
   },
   {
     "id": "tm-u2-2027-stockholm-z698xzq2z16vvejtvk",
@@ -1281,11 +1305,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359466",
+        "url": "https://www.ticketliquidator.com/tickets/8359466/U2-tickets-Fri-Apr-30-2027-Strawberry-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z16vvEjtvk",
     "timezone": "Europe/Stockholm",
     "status": "announced",
-    "public_onsale_at": "2026-11-10T11:00:00Z"
+    "public_onsale_at": "2026-11-10T11:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359466/U2-tickets-Fri-Apr-30-2027-Strawberry-Arena"
   }
 ]

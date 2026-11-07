@@ -1841,11 +1841,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883115",
-        "url": "https://www.ticketliquidator.com/tickets/7883115/Teddy-Swims-tickets-Thu-Nov-5-2026-Climate-Pledge-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107158275",
@@ -1859,7 +1859,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883115",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883115/Teddy-Swims-tickets-Thu-Nov-5-2026-Climate-Pledge-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-seattle-tickets-11-5-2026/event/107158275",
     "organizer_names": [
       "AEG LIVE"

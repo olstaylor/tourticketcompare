@@ -55,18 +55,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7965233",
-        "url": "https://www.ticketliquidator.com/tickets/7965233/MercyMe-tickets-Thu-Nov-5-2026-Broadmoor-World-Arena",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70NZ_",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7965233",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965233/MercyMe-tickets-Thu-Nov-5-2026-Broadmoor-World-Arena"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-mercyme-2026-park-city-vvg1bz_135gz80",
@@ -2369,10 +2369,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8329958",
+        "url": "https://www.ticketliquidator.com/tickets/8329958/MercyMe-tickets-Sun-Apr-11-2027-Freedom-Hall-Civic-Center-TN",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Mot",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329958/MercyMe-tickets-Sun-Apr-11-2027-Freedom-Hall-Civic-Center-TN"
   }
 ]

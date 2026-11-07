@@ -1258,11 +1258,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359823",
+        "url": "https://www.ticketliquidator.com/tickets/8359823/Mei-Semones-tickets-Thu-May-6-2027-The-Burl",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeK09",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359823/Mei-Semones-tickets-Thu-May-6-2027-The-Burl"
   },
   {
     "id": "tm-mei-semones-2027-columbus-z7r9jz1aaef7k",

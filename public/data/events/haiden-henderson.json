@@ -1527,7 +1527,7 @@
         "event_id": "8284338",
         "url": "https://www.ticketliquidator.com/tickets/8284338/Haiden-Henderson-tickets-Wed-May-12-2027-Hawthorne-Lounge-at-Hawthorne-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       }
     },
@@ -1729,11 +1729,19 @@
         "verified": true,
         "last_verified_at": "2026-11-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284552",
+        "url": "https://www.ticketliquidator.com/tickets/8284552/Haiden-Henderson-tickets-Fri-Apr-16-2027-The-Beacham",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAevq0",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284552"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284552",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284552/Haiden-Henderson-tickets-Fri-Apr-16-2027-The-Beacham"
   }
 ]

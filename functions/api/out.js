@@ -3800,6 +3800,34 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-mat-kearney",
     redirectUrl: "https://seatgeek.com/mat-kearney-tickets",
     verified: true
+  },
+  "breaking-benjamin:ticketmaster": {
+    artistSlug: "breaking-benjamin",
+    provider: "ticketmaster",
+    linkId: "tm-artist-breaking-benjamin",
+    redirectUrl: "https://www.ticketmaster.com/breaking-benjamin-tickets/artist/841686",
+    verified: true
+  },
+  "breaking-benjamin:seatgeek": {
+    artistSlug: "breaking-benjamin",
+    provider: "seatgeek",
+    linkId: "sg-artist-breaking-benjamin",
+    redirectUrl: "https://seatgeek.com/breaking-benjamin-tickets",
+    verified: true
+  },
+  "feid:ticketmaster": {
+    artistSlug: "feid",
+    provider: "ticketmaster",
+    linkId: "tm-artist-feid",
+    redirectUrl: "https://www.ticketmaster.com/feid-tickets/artist/2826011",
+    verified: true
+  },
+  "feid:seatgeek": {
+    artistSlug: "feid",
+    provider: "seatgeek",
+    linkId: "sg-artist-feid",
+    redirectUrl: "https://seatgeek.com/feid-tickets",
+    verified: true
   }
 };
 

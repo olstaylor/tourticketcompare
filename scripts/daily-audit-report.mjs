@@ -64,17 +64,33 @@ function linkFindings(links) {
   };
 }
 
+// The nightly field sync records these Ticketmaster lifecycle codes itself
+// (SAFE_PUBLISHING_RULES.md, sanctioned path A; a row it cannot record goes to
+// the automation:data-sync review issue). The audit runs hours before it, so a
+// status-only move into one of them is pending, not a finding: gating on it
+// kept this issue and Site health red on 2026-11-06 for a postponement the
+// nightly sync recorded two hours later.
+const NIGHTLY_RECORDED_STATUSES = new Set(['cancelled', 'canceled', 'postponed', 'rescheduled']);
+function pendingNightlyRecord(item) {
+  const diffs = Array.isArray(item?.diffs) ? item.diffs : [];
+  return diffs.length > 0 && diffs.every((d) => d?.field === 'status' && NIGHTLY_RECORDED_STATUSES.has(String(d.remote || '').toLowerCase()));
+}
+
 function tmFindings(tm) {
   const current = { missing: [], changed: [], errors: [] };
   const historical = { missing: [], changed: [], errors: [] };
+  const pending = [];
   for (const artist of Array.isArray(tm?.artists) ? tm.artists : []) {
     for (const kind of Object.keys(current)) {
       for (const item of Array.isArray(artist?.[kind]) ? artist[kind] : []) {
-        (isActionable(item) ? current : historical)[kind].push({ ...item, artistSlug: artist.slug });
+        const entry = { ...item, artistSlug: artist.slug };
+        if (!isActionable(item)) historical[kind].push(entry);
+        else if (kind === 'changed' && pendingNightlyRecord(item)) pending.push(entry);
+        else current[kind].push(entry);
       }
     }
   }
-  return { current, historical };
+  return { current, historical, pending };
 }
 
 function renderLinks(links) {
@@ -147,7 +163,7 @@ function renderTmActions(tm) {
     }
   }
   const statusLine = Object.entries(statusCounts).map(([status, count]) => `${status}: ${count}`).join(', ') || 'none reported';
-  return `- Ticketmaster lifecycle status changes requiring human review: **${statusLine}**\n- Ambiguous or blocked records remain review-only; do not auto-edit dates, venues, or event names without confirmation.\n- Missing 404/410 records can be considered for removal only after checking duplicate coverage and independent provider links.\n`;
+  return `- Ticketmaster lifecycle status changes requiring human review (beyond those the nightly sync records): **${statusLine}**\n- Ambiguous or blocked records remain review-only; do not auto-edit dates, venues, or event names without confirmation.\n- Missing 404/410 records can be considered for removal only after checking duplicate coverage and independent provider links.\n`;
 }
 
 function renderTm(tm) {
@@ -161,10 +177,11 @@ function renderTm(tm) {
   out += `- ❌ Current missing on TM (404/410): **${currentTotals.missing}**\n`;
   out += `- ⚠️ Current changed (date/venue/status): **${currentTotals.changed}**\n`;
   out += `- 🔁 Current transient errors: **${currentTotals.errors}**\n`;
+  out += `- 🌙 Lifecycle changes the nightly sync records itself (not a finding): **${findings.pending.length}**\n`;
   out += `- ⏭️ Unresolvable id (website/international code — not checked, **not** a failure): **${totals.unresolvable || 0}**\n\n`;
   for (const artist of artists) {
     const missing = (artist.missing || []).filter(isActionable);
-    const changed = (artist.changed || []).filter(isActionable);
+    const changed = (artist.changed || []).filter((item) => isActionable(item) && !pendingNightlyRecord(item));
     const errors = (artist.errors || []).filter(isActionable);
     if (!missing.length && !changed.length && !errors.length) continue;
     out += `### ${artist.slug}\n\n`;
@@ -186,6 +203,14 @@ function renderTm(tm) {
     if (errors.length) {
       out += `**Transient errors (likely retry next run):** ${errors.length}\n\n`;
     }
+  }
+  if (findings.pending.length > 0) {
+    out += `### Pending nightly record\n\n`;
+    out += `The nightly Ticketmaster sync records these codes (links and prices for a cancelled or postponed date are withheld once recorded). A row it cannot record appears in the \`automation:data-sync\` issue.\n\n`;
+    for (const c of findings.pending.slice(0, 50)) {
+      out += `- \`${c.id}\` — ${c.diffs.map((d) => `\`${d.field}\`: \`${d.local}\` → \`${d.remote}\``).join('; ')}\n`;
+    }
+    out += '\n';
   }
   if (historicalTotal > 0) {
     out += `### Historical findings\n\n`;
@@ -315,6 +340,19 @@ function runSelfTest() {
 
   // Absent report must not fabricate a finding or a clean bill of health.
   assert.match(buildBody(links, tm, null).body, /No guide-source check ran/);
+
+  // A status-only move into a code the nightly sync records is pending, not a
+  // finding; a date or venue move, or a move to any other status, still is.
+  const lifecycle = (diffs) => ({ checked: 1, artists: [{ slug: 'a', missing: [], errors: [], changed: [{ id: 'future-show', actionable: true, diffs }] }] });
+  const postponed = buildBody(links, lifecycle([{ field: 'status', local: 'on-sale', remote: 'postponed' }]));
+  assert.equal(postponed.hasFindings, false, 'a postponement the nightly sync records does not keep the audit red');
+  assert.match(postponed.body, /Pending nightly record/);
+  assert.match(postponed.body, /`future-show` — `status`: `on-sale` → `postponed`/);
+  assert.equal(buildBody(links, lifecycle([{ field: 'status', local: 'on-sale', remote: 'Cancelled' }])).hasFindings, false);
+  assert.equal(buildBody(links, lifecycle([{ field: 'status', local: 'postponed', remote: 'onsale' }])).hasFindings, true, 'a return to sale is still reviewed');
+  assert.equal(buildBody(links, lifecycle([{ field: 'status', local: 'on-sale', remote: 'postponed' }, { field: 'venue', local: 'A', remote: 'B' }])).hasFindings, true, 'a venue move still gates');
+  assert.equal(buildBody(links, lifecycle([{ field: 'datetime_iso', local: '2026-12-01', remote: '2026-12-02' }])).hasFindings, true);
+  assert.equal(buildBody(links, lifecycle([])).hasFindings, true, 'a change with no diffs is not silently pending');
 
   console.log('daily-audit-report self-test passed');
 }

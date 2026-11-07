@@ -933,4 +933,22 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(!none.main.includes("onsaleDate0"), "no events, no priced block");
 }
 
+// ── the artist page snippet quotes its next date, never a tour-wide minimum ──
+{
+  const ARTIST_PATH = `/artists/${ARTIST.slug}`;
+  const page = await render(ARTIST_PATH);
+  assert(page.description.includes("Starting from US$182.00 listed at Vivid Seats"), `the artist snippet answers with the next date's listed price (got ${page.description})`);
+  assert(/next (date )?.*Sep 10, 2026|Sep 10, 2026/.test(page.description) && page.description.includes(RUN_CITY), "the artist snippet names the next date and its city");
+  assert(page.description.includes("checked 2026-08-09 09:00 UTC. Check fees."), "the artist snippet carries capture time and a fee caveat");
+  assert(page.description.length <= 160, `the artist description stays within budget (was ${page.description.length})`);
+  const schemaBlock = [...page.html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]).join("");
+  assert(!/Starting from|US\$182/.test(schemaBlock), "the artist snippet price never reaches structured data");
+  const cheaperLater = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === SOLO.id ? { ...row, low_price: 50 } : row) });
+  assert(!cheaperLater.description.includes("US$50.00"), "a cheaper later date never becomes the artist's starting price");
+  const noNextPrice = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.filter((row) => row.event_id !== RUN_A.id) });
+  assert(!/Starting from/.test(noNextPrice.description), "a missing price on the next date does not borrow another date's price");
+  const noDb = await render(ARTIST_PATH, { withDb: false });
+  assert(!/Starting from/.test(noDb.description) && noDb.description.length > 0, "a cache outage keeps the price-free artist description");
+}
+
 console.log(`artist-city-prices: ${passed} checks passed`);

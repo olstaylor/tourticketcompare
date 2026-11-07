@@ -1848,11 +1848,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107158275",
-        "url": "https://www.stubhub.ie/teddy-swims-seattle-tickets-11-5-2026/event/107158275",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FUJPIyp",
@@ -1860,7 +1860,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883115",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-seattle-tickets-11-5-2026/event/107158275",
+    "stubhub_international_url": "",
     "organizer_names": [
       "AEG LIVE"
     ]

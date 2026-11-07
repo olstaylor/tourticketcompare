@@ -2685,11 +2685,19 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678637",
+        "url": "https://www.stubhub.ie/meshuggah-new-haven-tickets-3-5-2027/event/107678637",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t0I",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343270/Meshuggah-tickets-Fri-Mar-5-2027-College-Street-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343270/Meshuggah-tickets-Fri-Mar-5-2027-College-Street-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-new-haven-tickets-3-5-2027/event/107678637"
   }
 ]

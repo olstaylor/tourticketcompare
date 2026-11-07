@@ -44842,7 +44842,7 @@
         "event_id": "107669953",
         "url": "https://www.stubhub.ie/metallica-uncasville-tickets-11-19-2026/event/107669953",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       }
     },
@@ -44995,7 +44995,7 @@
         "event_id": "107132084",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-28-2027/event/107132084",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       }
     },
@@ -45169,7 +45169,7 @@
         "event_id": "107133087",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-4-2027/event/107133087",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       }
     },
@@ -45343,7 +45343,7 @@
         "event_id": "107133091",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-18-2027/event/107133091",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       }
     },
@@ -45517,7 +45517,7 @@
         "event_id": "107133093",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-25-2027/event/107133093",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       }
     },
@@ -48309,11 +48309,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107158275",
-        "url": "https://www.stubhub.ie/teddy-swims-seattle-tickets-11-5-2026/event/107158275",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FUJPIyp",
@@ -48321,7 +48321,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883115",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-seattle-tickets-11-5-2026/event/107158275",
+    "stubhub_international_url": "",
     "organizer_names": [
       "AEG LIVE"
     ]
@@ -137793,11 +137793,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107132081",
-        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-5-2026/event/107132081",
-        "verified": true,
-        "last_verified_at": "2026-11-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv048reZ72a62",
@@ -137808,7 +137808,7 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775510",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-5-2026/event/107132081"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rez72afa",
@@ -138043,7 +138043,7 @@
         "event_id": "107133097",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-4-2027/event/107133097",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       }
     },
@@ -138217,7 +138217,7 @@
         "event_id": "107133099",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-11-2027/event/107133099",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       }
     },
@@ -225240,11 +225240,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107638078",
-        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-oslo-oslo-spektrum-6-11-2026/event/107638078",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8326646",
@@ -225264,7 +225264,7 @@
     "ticketmaster_discovery_event_id": "Z698xZb_Z16vFtPOjP",
     "timezone": "Europe/Oslo",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-oslo-oslo-spektrum-6-11-2026/event/107638078",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Oslo Spektrum AS (FKP Scorpio)"
     ],
@@ -232506,17 +232506,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107185115",
-        "url": "https://www.stubhub.ie/the-smashing-pumpkins-tickets-vancouver-rogers-arena-11-5-2026/event/107185115",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G61BaDSWR",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-tickets-vancouver-rogers-arena-11-5-2026/event/107185115",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -236959,11 +236959,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107155375",
-        "url": "https://www.stubhub.ie/noah-kahan-tickets-glasgow-ovo-hydro-arena-glasgow-6-11-2026/event/107155375",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7874794",
@@ -236977,7 +236977,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-glasgow-ovo-hydro-arena-glasgow-6-11-2026/event/107155375",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874794",
     "organizer_names": [
       "DF CONCERTS",
@@ -250308,11 +250308,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107472158",
-        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-5-2026/event/107472158",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1GFdB",
@@ -250320,7 +250320,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113676",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-5-2026/event/107472158",
+    "stubhub_international_url": "",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ]
@@ -284052,11 +284052,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107138124",
-        "url": "https://www.stubhub.ie/zac-brown-band-detroit-tickets-11-6-2026/event/107138124",
-        "verified": true,
-        "last_verified_at": "2026-10-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7703261",
@@ -284076,7 +284076,7 @@
     "ticketmaster_discovery_event_id": "vv1AFZk8VGkdI6E86",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-detroit-tickets-11-6-2026/event/107138124",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703261/Zac-Brown-Band-tickets-Fri-Nov-6-2026-Little-Caesars-Arena",
     "organizer_names": [
       "AEG LIVE",
@@ -289703,11 +289703,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107449616",
-        "url": "https://www.stubhub.ie/gavin-adcock-boston-tickets-11-6-2026/event/107449616",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7806869",
@@ -289721,7 +289721,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806869/Gavin-Adcock-tickets-Fri-Nov-6-2026-MGM-Music-Hall-at-Fenway-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/gavin-adcock-boston-tickets-11-6-2026/event/107449616",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -308562,7 +308562,7 @@
         "event_id": "107672199",
         "url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -361236,6 +361236,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679708",
+        "url": "https://www.stubhub.ie/interpol-tickets-london-british-airways-arc-4-12-2026/event/107679708",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4xGkd2vP1g",
@@ -361243,7 +361250,8 @@
     "status": "on-sale",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-tickets-london-british-airways-arc-4-12-2026/event/107679708"
   },
   {
     "id": "tm-the-interrupters-2027-london-g5vhz_4d3nbns",
@@ -361292,6 +361300,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679853",
+        "url": "https://www.stubhub.ie/the-interrupters-tickets-london-the-roundhouse-1-6-2027/event/107679853",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_4D3NbNs",
@@ -361299,7 +361314,8 @@
     "status": "on-sale",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/the-interrupters-tickets-london-the-roundhouse-1-6-2027/event/107679853"
   },
   {
     "id": "tm-the-interrupters-2027-k-benhavn-v-z698xzc4z1k8bb3pe",
@@ -362366,11 +362382,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107155199",
-        "url": "https://www.stubhub.ie/mon-laferte-las-vegas-tickets-11-5-2026/event/107155199",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Sud",
@@ -362378,7 +362394,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827794",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-las-vegas-tickets-11-5-2026/event/107155199"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-mon-laferte-2026-san-jose-g5vyz_kmf8y1d",
@@ -367497,6 +367513,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679895",
+        "url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-9-6-2027/event/107679895",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kb9Z4vI",
@@ -367506,7 +367529,8 @@
       "Mojo Concerts"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357120",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357120/U2-tickets-Wed-Jun-9-2027-Johan-Cruijff-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357120/U2-tickets-Wed-Jun-9-2027-Johan-Cruijff-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-9-6-2027/event/107679895"
   },
   {
     "id": "tm-mercyme-2027-salisbury-z7r9jz1aa7_aj",
@@ -371478,6 +371502,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680492",
+        "url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-25-6-2027/event/107680492",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_4GkBq3_od",
@@ -371485,7 +371516,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LNM - VIP NATION UK"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-25-6-2027/event/107680492"
   },
   {
     "id": "tm-bon-jovi-2027-toronto-1avzz_4gki76ms5",
@@ -374484,11 +374516,19 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678637",
+        "url": "https://www.stubhub.ie/meshuggah-new-haven-tickets-3-5-2027/event/107678637",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t0I",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343270/Meshuggah-tickets-Fri-Mar-5-2027-College-Street-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343270/Meshuggah-tickets-Fri-Mar-5-2027-College-Street-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-new-haven-tickets-3-5-2027/event/107678637"
   }
 ]

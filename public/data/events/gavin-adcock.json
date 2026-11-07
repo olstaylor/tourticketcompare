@@ -393,11 +393,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107449616",
-        "url": "https://www.stubhub.ie/gavin-adcock-boston-tickets-11-6-2026/event/107449616",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7806869",
@@ -411,7 +411,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806869/Gavin-Adcock-tickets-Fri-Nov-6-2026-MGM-Music-Hall-at-Fenway-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/gavin-adcock-boston-tickets-11-6-2026/event/107449616",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

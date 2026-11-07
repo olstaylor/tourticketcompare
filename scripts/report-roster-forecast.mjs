@@ -1609,8 +1609,14 @@ async function main() {
     const existing = await fs.readFile(namesFile, "utf8").catch(() => "");
     const next = freshFirst(forecast?.candidates?.rows || [], existing);
     await fs.writeFile(namesFile, next);
-    const moved = next.split("\n").length - 1 - existing.split("\n").filter((l) => l.trim() && !l.trim().startsWith("#")).length;
-    console.error(`Placed just-announced arena/stadium acts ahead of the demand names (${Math.max(0, moved)} new line(s)).`);
+    const lead = next.split("\n").slice(0, FRESH_FIRST_MAX).map((l) => l.split("\t")[0]);
+    const fresh = new Set(
+      (forecast?.candidates?.rows || [])
+        .filter((r) => (r.just_announced_shows || 0) >= FRESH_MIN_SHOWS && (r.just_announced_demand || 0) >= FRESH_FIRST_MIN_SCORE)
+        .map((r) => r.name)
+    );
+    const placed = lead.filter((name) => fresh.has(name));
+    console.error(`Just-announced arena/stadium acts placed first: ${placed.length ? placed.join(", ") : "none"}.`);
     return;
   }
 

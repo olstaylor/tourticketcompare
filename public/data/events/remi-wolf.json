@@ -417,7 +417,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006547EB618514",
     "ticketmaster_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-05-2027/event/10006547EB618514",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/toronto-canada-massey-hall-2027-03-05-8-pm/concert/18664754",
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-toronto-massey-hall---allied-music-centre-3-5-2027--concerts-pop/production/7679350",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-05-2027/event/10006547EB618514",
@@ -476,7 +476,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006547EB638527",
     "ticketmaster_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-06-2027/event/10006547EB638527",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/toronto-canada-massey-hall-2027-03-06-8-pm/concert/18693184",
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-toronto-massey-hall---allied-music-centre-3-6-2027/production/7713965",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-06-2027/event/10006547EB638527",
@@ -554,7 +554,7 @@
         "event_id": 18664757,
         "url": "https://seatgeek.com/remi-wolf-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2027-03-07-7-pm/concert/18664757",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1412,7 +1412,7 @@
         "event_id": 18664784,
         "url": "https://seatgeek.com/remi-wolf-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-05-10-8-pm/concert/18664784",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1465,7 +1465,7 @@
         "event_id": 18664787,
         "url": "https://seatgeek.com/remi-wolf-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-05-11-8-pm/concert/18664787",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1534,7 +1534,7 @@
         "event_id": 18664791,
         "url": "https://seatgeek.com/remi-wolf-tickets/west-des-moines-iowa-val-air-ballroom-2027-05-12-8-pm/concert/18664791",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1603,7 +1603,7 @@
         "event_id": 18664789,
         "url": "https://seatgeek.com/remi-wolf-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-16-7-pm/concert/18664789",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1672,7 +1672,7 @@
         "event_id": 18664792,
         "url": "https://seatgeek.com/remi-wolf-tickets/bonner-montana-kettlehouse-amphitheater-2027-05-19-8-pm/concert/18664792",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1733,7 +1733,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7kAf",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7kAf",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/vancouver-canada-pne-forum-vancouver-2027-05-21-8-pm/concert/18664793",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-vancouver-pne-forum-5-21-2027--concerts-pop/production/7679383",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7kAf",
     "last_verified_at": null,
@@ -1751,15 +1751,15 @@
         "event_id": 18664793,
         "url": "https://seatgeek.com/remi-wolf-tickets/vancouver-canada-pne-forum-vancouver-2027-05-21-8-pm/concert/18664793",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679383,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-vancouver-pne-forum-5-21-2027--concerts-pop/production/7679383",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1820,7 +1820,7 @@
         "event_id": 18664798,
         "url": "https://seatgeek.com/remi-wolf-tickets/seattle-washington-wamu-theater-2027-05-22-8-pm/concert/18664798",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {

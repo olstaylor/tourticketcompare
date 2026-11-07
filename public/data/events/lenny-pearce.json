@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064C9FB245EA9",
     "ticketmaster_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-san-antonio-texas-11-05-2026/event/3A0064C9FB245EA9",
-    "seatgeek_url": "https://seatgeek.com/lenny-pearce-tickets/san-antonio-texas-aztec-theatre-2026-11-05-6-pm/concert/18305062",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-san-antonio-aztec-theatre---san-antonio-11-5-2026/production/7155400",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-san-antonio-texas-11-05-2026/event/3A0064C9FB245EA9",
@@ -31,7 +31,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7155400,
@@ -88,11 +88,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18305061,
+        "url": "https://seatgeek.com/lenny-pearce-tickets/austin-texas-stubb-s-waller-creek-amphitheater-2026-11-06-6-pm/concert/18305061",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -144,11 +144,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18305069,
+        "url": "https://seatgeek.com/lenny-pearce-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-07-5-pm/concert/18305069",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7155404,
@@ -224,11 +224,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18305070,
+        "url": "https://seatgeek.com/lenny-pearce-tickets/houston-texas-bayou-music-center-2026-11-08-12-30-pm/concert/18305070",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7155390,
@@ -304,11 +304,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18305071,
+        "url": "https://seatgeek.com/lenny-pearce-tickets/orlando-florida-hard-rock-live-orlando-2026-11-10-6-pm/concert/18305071",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7155384,
@@ -384,11 +384,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18283469,
+        "url": "https://seatgeek.com/lenny-pearce-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-11-11-6-pm/concert/18283469",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7155811,
@@ -512,11 +512,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18305101,
+        "url": "https://seatgeek.com/lenny-pearce-tickets/atlanta-georgia-the-eastern-atlanta-2026-11-14-12-30-pm/concert/18305101",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7155926,
@@ -565,7 +565,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7P0bp",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0bp",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lenny-pearce-tickets/nashville-tennessee-marathon-music-works-2026-11-15-5-30-pm/concert/18305074",
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-nashville-marathon-music-works-11-15-2026/production/7155600",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0bp",
@@ -581,11 +581,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18305074,
+        "url": "https://seatgeek.com/lenny-pearce-tickets/nashville-tennessee-marathon-music-works-2026-11-15-5-30-pm/concert/18305074",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7155600,
@@ -634,7 +634,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Ptxe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptxe",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lenny-pearce-tickets/norfolk-virginia-the-norva-norfolk-2026-11-17-6-pm/concert/18305106",
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-norfolk-the-norva-11-17-2026/production/7155940",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptxe",
@@ -650,11 +650,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18305106,
+        "url": "https://seatgeek.com/lenny-pearce-tickets/norfolk-virginia-the-norva-norfolk-2026-11-17-6-pm/concert/18305106",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7155940,
@@ -703,7 +703,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Ptxv",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptxv",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lenny-pearce-tickets/richmond-virginia-the-national-richmond-2026-11-18-6-pm/concert/18305105",
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-richmond-the-national-11-18-2026/production/7155938",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptxv",
@@ -719,11 +719,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18305105,
+        "url": "https://seatgeek.com/lenny-pearce-tickets/richmond-virginia-the-national-richmond-2026-11-18-6-pm/concert/18305105",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7155938,
@@ -772,7 +772,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PNqd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNqd",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lenny-pearce-tickets/pittsburgh-pennsylvania-stage-ae-2026-11-19-6-pm/concert/18305107",
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-pittsburgh-stage-ae-11-19-2026/production/7155956",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNqd",
@@ -788,11 +788,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18305107,
+        "url": "https://seatgeek.com/lenny-pearce-tickets/pittsburgh-pennsylvania-stage-ae-2026-11-19-6-pm/concert/18305107",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7155956,
@@ -888,7 +888,7 @@
         "event_id": "8048528",
         "url": "https://www.ticketliquidator.com/tickets/8048528/Lenny-Pearce-tickets-Sat-Nov-21-2026-The-Fillmore-Silver-Spring",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       }
     },
@@ -920,7 +920,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "000064CBB6BBF0F5",
     "ticketmaster_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-new-york-new-york-11-22-2026/event/000064CBB6BBF0F5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lenny-pearce-tickets/new-york-new-york-manhattan-center-hammerstein-ballroom-2026-11-22-12-30-pm/concert/18305081",
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-new-york-manhattan-center-hammerstein-ballroom-11-22-2026/production/7155396",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-new-york-new-york-11-22-2026/event/000064CBB6BBF0F5",
@@ -936,11 +936,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18305081,
+        "url": "https://seatgeek.com/lenny-pearce-tickets/new-york-new-york-manhattan-center-hammerstein-ballroom-2026-11-22-12-30-pm/concert/18305081",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7155396,

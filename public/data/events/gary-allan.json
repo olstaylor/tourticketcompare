@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZa0p",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZa0p",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-catoosa-hard-rock-hotel-and-casino-tulsa-11-6-2026/production/7342534",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZa0p",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7342534,
-        "url": "https://www.vividseats.com/gary-allan-tickets-catoosa-hard-rock-hotel-and-casino-tulsa-11-6-2026/production/7342534",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -106,7 +106,7 @@
         "event_id": 7227855,
         "url": "https://www.vividseats.com/gary-allan-tickets-dodge-city-united-wireless-arena-11-13-2026/production/7227855",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -171,14 +171,14 @@
         "event_id": 18391791,
         "url": "https://seatgeek.com/gary-allan-tickets/lake-charles-louisiana-grand-event-center-golden-nugget-lake-charles-2026-11-20-8-30-pm/concert/18391791",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7326627,
         "url": "https://www.vividseats.com/gary-allan-tickets-lake-charles-grand-event-center---golden-nugget-lake-charles-11-20-2026/production/7326627",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -247,7 +247,7 @@
         "event_id": 7410942,
         "url": "https://www.vividseats.com/gary-allan-tickets-biloxi-beau-rivage-theatre-11-21-2026/production/7410942",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -290,7 +290,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvf1F",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvf1F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gary-allan-tickets/las-vegas-nevada-resorts-world-theatre-2026-12-04-8-30-pm/concert/18744930",
     "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-las-vegas-resorts-world-theatre-12-4-2026/production/7504429",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvf1F",
@@ -306,17 +306,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18744930,
+        "url": "https://seatgeek.com/gary-allan-tickets/las-vegas-nevada-resorts-world-theatre-2026-12-04-8-30-pm/concert/18744930",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7504429,
         "url": "https://www.vividseats.com/gary-allan-tickets-las-vegas-resorts-world-theatre-12-4-2026/production/7504429",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -393,7 +393,7 @@
         "event_id": 7565101,
         "url": "https://www.vividseats.com/gary-allan-tickets-napa-uptown-theatre-napa-12-5-2026/production/7565101",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -455,7 +455,7 @@
         "event_id": 18639145,
         "url": "https://seatgeek.com/gary-allan-tickets/bakersfield-california-historic-bakersfield-fox-theater-2026-12-06-7-pm/concert/18639145",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -602,7 +602,7 @@
         "event_id": 7400781,
         "url": "https://www.vividseats.com/gary-allan-tickets-greensboro-steven-tanger-center-for-the-performing-arts-2-19-2027/production/7400781",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -671,7 +671,7 @@
         "event_id": 7400779,
         "url": "https://www.vividseats.com/gary-allan-tickets-spartanburg-spartanburg-memorial-auditorium-2-20-2027/production/7400779",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -778,5 +778,119 @@
         "end": "2026-12-08T04:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-gary-allan-2026-newkirk-z7r9jz1aavecf",
+    "artist_slug": "gary-allan",
+    "artist_name": "Gary Allan",
+    "event_name": "Gary Allan",
+    "city": "Newkirk",
+    "country": "United States Of America",
+    "venue": "7 Clans First Council Casino Hotel",
+    "datetime_iso": "2026-11-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAveCF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAveCF",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-newkirk-7-clans-first-council-casino-hotel-11-7-2026/production/7452487",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAveCF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAveCF",
+        "discovery_event_id": "Z7r9jZ1AAveCF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAveCF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7452487,
+        "url": "https://www.vividseats.com/gary-allan-tickets-newkirk-7-clans-first-council-casino-hotel-11-7-2026/production/7452487",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8225143",
+        "url": "https://www.ticketliquidator.com/tickets/8225143/Gary-Allan-tickets-Sat-Nov-7-2026-7-Clans-First-Council-Casino-Hotel",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAveCF",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8225143/Gary-Allan-tickets-Sat-Nov-7-2026-7-Clans-First-Council-Casino-Hotel"
+  },
+  {
+    "id": "tm-gary-allan-2027-thackerville-z7r9jz1aaaz4v",
+    "artist_slug": "gary-allan",
+    "artist_name": "Gary Allan",
+    "event_name": "Gary Allan",
+    "city": "Thackerville",
+    "country": "United States Of America",
+    "venue": "WinStar World Casino",
+    "datetime_iso": "2027-02-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAZ4V",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ4V",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-2-12-2027/production/7794239",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ4V",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAZ4V",
+        "discovery_event_id": "Z7r9jZ1AAAZ4V",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ4V",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7794239,
+        "url": "https://www.vividseats.com/gary-allan-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-2-12-2027/production/7794239",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAZ4V",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

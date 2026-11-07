@@ -546,6 +546,8 @@ function computeIntendedUpdates(event, remote, now = Date.now()) {
     if (JSON.stringify(retained) !== JSON.stringify(event.organizer_names)) metadata.organizer_names = retained.length ? retained : null;
   }
   for (const [field, value] of Object.entries(metadata)) {
+    // A cleared fact (null) on a row that never had it is not a change.
+    if (value === null && (event[field] ?? null) === null) continue;
     if (JSON.stringify(event[field]) !== JSON.stringify(value)) changes.push({ field, from: event[field] ?? null, to: value });
   }
 
@@ -1038,6 +1040,10 @@ async function runSelfTest() {
   assert('ambiguous stored names are cleared without dropping genuine co-organizers', JSON.stringify(computeIntendedUpdates(ev({ artist_name: 'Artist', venue: 'Hall', organizer_names: ['ARTIST', 'HALL', 'Real Promoter'] }), remote({})).find((c) => c.field === 'organizer_names')?.to) === JSON.stringify(['Real Promoter']));
   assert('a verified venue change clears a newly ambiguous organizer name', computeIntendedUpdates(ev({ venue: 'Old Hall', organizer_names: ['New Hall'] }), remote({ _embedded: { venues: [{ name: 'New Hall' }] } })).some((c) => c.field === 'organizer_names' && c.to === null));
 
+  assert('a stated ticket limit, legal-age flag and genre are stored', ['ticket_limit', 'legal_age_enforced', 'genre'].every((f) => fieldsOf(ev({}), remote({ ticketLimit: { info: 'There is a 4 Ticket Limit on this event' }, ageRestrictions: { legalAgeEnforced: true }, classifications: [{ primary: true, segment: { name: 'Music' }, genre: { name: 'Rock' } }] })).includes(f)));
+  assert('unusable buying facts on a row without them are not changes', !fieldsOf(ev({}), remote({ ticketLimit: { info: 'See box office' }, ageRestrictions: { legalAgeEnforced: false }, classifications: [] })).some((f) => ['ticket_limit', 'legal_age_enforced', 'genre'].includes(f)));
+  assert('a dropped legal-age flag clears the stored fact', computeIntendedUpdates(ev({ legal_age_enforced: true }), remote({ ageRestrictions: { legalAgeEnforced: false } })).some((c) => c.field === 'legal_age_enforced' && c.to === null));
+  assert('old snapshots do not erase buying facts', !fieldsOf(ev({ ticket_limit: 4, legal_age_enforced: true, genre: 'Rock' }), remote({})).some((f) => ['ticket_limit', 'legal_age_enforced', 'genre'].includes(f)));
   assert('official promoter names are stored', fieldsOf(ev({}), remote({ promoters: [{ name: 'Official Promoter' }] })).includes('organizer_names'));
   assert('old snapshots do not erase organizers', !fieldsOf(ev({ organizer_names: ['Official Promoter'] }), remote({})).includes('organizer_names'));
   assert('a changed start clears an unsupported old event end', computeIntendedUpdates(ev({ datetime_iso: '2026-10-01T18:00:00Z', end_datetime_iso: '2026-10-01T21:00:00Z' }), remote({ dates: { start: { dateTime: '2026-10-02T18:00:00Z' } } })).some((c) => c.field === 'end_datetime_iso' && c.to === null));

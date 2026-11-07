@@ -61,7 +61,7 @@ import { deriveEventContext, EVENT_CITY_NEIGHBOUR_DAYS, EVENT_VENUE_NEIGHBOUR_DA
 import { deriveEventPriceRange, fetchEventPriceRange, isRicherEventPilot } from "./_event-price-range.js";
 import { venueFactsFor } from "./_venue-facts.js";
 import { EVENT_INDEXED_COHORT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
-import { organizerNames, eventEndDate } from "./_event-metadata.js";
+import { organizerNames, eventEndDate, validTicketLimit } from "./_event-metadata.js";
 import { eventPreviousStartDate } from "./_event-reschedule.js";
 import {
   BLOG_INDEX_PATH,
@@ -3497,11 +3497,26 @@ function weeklyChangeSentence(change) {
 // dates' own lowest listed prices, one line per currency, as the same tracked
 // button that date's row prints, with its date, place and check time. It says
 // which sites it covers, because the site never sees the whole market.
-function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFor, ctaLocation }) {
+// `regional` (artist page only, added 2026-11-07): most visitors are in the US
+// and Canada, so when the overall pick is a date elsewhere, a second line names
+// the cheapest of the regional dates too. Same picker, gates and button; it
+// needs two or more priced regional dates in the same currency, like the main
+// line, and is omitted when the overall pick is already a regional date.
+function isUsOrCanada(country) {
+  return /^(united states( of america)?|usa|us|canada|ca)$/i.test(String(country || "").trim());
+}
+
+function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFor, ctaLocation, regional = null }) {
   const picks = cheapestAcrossDates(rows).slice(0, 2);
   if (!picks.length) return "";
-  const items = picks
-    .map(({ row, lane, pricedDates }) => {
+  const lines = picks.map((pick) => ({ ...pick, prefix: `Cheapest listed price of ${pick.pricedDates} priced dates` }));
+  if (regional && regional.rows.length && !picks.some((pick) => regional.rows.includes(pick.row))) {
+    const regionalPick = cheapestAcrossDates(regional.rows)[0];
+    if (regionalPick) lines.splice(1, 0, { ...regionalPick, prefix: `${regional.label}, ${regionalPick.pricedDates} priced dates` });
+  }
+  const items = lines
+    .slice(0, 2)
+    .map(({ row, lane, prefix }) => {
       const amount = formatServerPrice(lane.price, lane.currency);
       const date = formatShowDateServer(row.datetimeISO, row.timezone);
       if (!amount || !date) return "";
@@ -3513,7 +3528,7 @@ function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFo
         ctaLocation
       });
       return `<p>${escapeHtml(
-        `Cheapest listed price of ${pricedDates} priced dates: ${amount} on ${lane.name} for ${date}${place ? ` in ${place}` : ""}.`
+        `${prefix}: ${amount} on ${lane.name} for ${date}${place ? ` in ${place}` : ""}.`
       )} <span class="muted">${checkedTimeHtml(lane.fetchedAt, formatServerSnapshotTime(lane.fetchedAt))}</span></p><div class="action-row">${button}</div>`;
     })
     .join("");
@@ -5328,6 +5343,10 @@ function enrichEventAsShow(ev) {
     public_onsale_at: String(ev.public_onsale_at || "").trim(),
     [TICKETMASTER_STATUS_FIELD]: String(ev[TICKETMASTER_STATUS_FIELD] || "").trim(),
     lifecycle: eventLifecycle(ev),
+    // Buying facts only when present, so pages that embed show records are
+    // unchanged for dates without them.
+    ...(validTicketLimit(ev.ticket_limit) ? { ticket_limit: validTicketLimit(ev.ticket_limit) } : {}),
+    ...(ev.legal_age_enforced === true ? { legal_age_enforced: true } : {}),
     seatgeek_url: String(ev.seatgeek_url || "").trim(),
     vividseats_url: String(ev.vividseats_url || "").trim(),
     ticketnetwork_url: String(ev.ticketnetwork_url || "").trim(),
@@ -7646,6 +7665,10 @@ function renderEventPageBody(route, events, env) {
     ["Date", `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(dateLabel)}</time>`],
     localTime ? ["Start time", `${escapeHtml(localTime)} local time`] : null,
     status ? ["Status", escapeHtml(status)] : null,
+    // Buying facts from this date's own Ticketmaster record (owner pick
+    // 2026-11-06). Absent facts show nothing; false is never shown as all-ages.
+    show.ticket_limit ? ["Ticket limit", escapeHtml(`${show.ticket_limit} per buyer on Ticketmaster`)] : null,
+    show.legal_age_enforced ? ["Age rule", "Age-restricted: Ticketmaster lists a legal-age rule for this date. Check the venue's ID policy."] : null,
     previousDate ? ["Previously scheduled", `<time datetime="${escapeAttr(previousDate)}">${escapeHtml(formatShowDateServer(previousDate, show.previous_start_timezone))}</time>`] : null,
     verified ? ["Details last checked", escapeHtml(verified)] : null
   ].filter(Boolean);
@@ -7945,14 +7968,20 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // tickets" panel (owner decision 2026-10-30); shown only when two or more
     // dates have a price, so it never reads as a bare "from <price>".
     const showCityById = new Map(shows.map((show) => [String(show.id || ""), show.city || ""]));
-    const cheapestPanelHtml = isIndexableArtist && shows.length
+    const northAmericanIds = new Set(shows.filter((show) => isUsOrCanada(show.country)).map((show) => String(show.id || "")));
+    const cheapestRows = isIndexableArtist && shows.length
+      ? deriveCityDatePrices(shows, {
+          ctaSpecsFor: (show) => serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }),
+          wasChecked: pricesWereChecked
+        }).rows
+      : [];
+    const regionalRows = cheapestRows.filter((row) => northAmericanIds.has(row.showId));
+    const cheapestPanelHtml = cheapestRows.length
       ? renderCheapestAcrossDatesHtml(
           artist,
-          deriveCityDatePrices(shows, {
-            ctaSpecsFor: (show) => serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }),
-            wasChecked: pricesWereChecked
-          }).rows,
+          cheapestRows,
           {
+            regional: { rows: regionalRows, label: "Cheapest in the US and Canada" },
             heading: `Cheapest ${artist.name} tickets`,
             titleId: "artistCheapestTitle",
             placeFor: (row) => {

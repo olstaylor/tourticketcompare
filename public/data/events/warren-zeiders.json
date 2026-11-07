@@ -771,7 +771,7 @@
         "event_id": 18649754,
         "url": "https://seatgeek.com/warren-zeiders-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2027-04-15-7-pm/concert/18649754",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -855,7 +855,7 @@
         "event_id": 18649755,
         "url": "https://seatgeek.com/warren-zeiders-tickets/chicago-illinois-the-salt-shed-indoors-2027-04-17-7-pm/concert/18649755",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -915,7 +915,7 @@
         "event_id": 18649760,
         "url": "https://seatgeek.com/warren-zeiders-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-04-22-7-pm/concert/18649760",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -999,7 +999,7 @@
         "event_id": 18649761,
         "url": "https://seatgeek.com/warren-zeiders-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2027-04-23-7-pm/concert/18649761",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1083,7 +1083,7 @@
         "event_id": 18649764,
         "url": "https://seatgeek.com/warren-zeiders-tickets/cincinnati-ohio-andrew-j-brady-music-center-2027-04-24-7-pm/concert/18649764",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1332,7 +1332,7 @@
         "event_id": 7655011,
         "url": "https://www.vividseats.com/warren-zeiders-tickets-kansas-city-the-midland-theatre-4-1-2027--concerts-country-and-folk/production/7655011",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1394,7 +1394,7 @@
         "event_id": 18649744,
         "url": "https://seatgeek.com/warren-zeiders-tickets/fort-worth-texas-billy-bob-s-texas-2027-04-09-7-pm/concert/18649744",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1447,7 +1447,7 @@
         "event_id": 18649752,
         "url": "https://seatgeek.com/warren-zeiders-tickets/helotes-texas-john-t-floore-country-store-2027-04-10-7-pm/concert/18649752",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1516,7 +1516,7 @@
         "event_id": 18649753,
         "url": "https://seatgeek.com/warren-zeiders-tickets/louisville-kentucky-old-forester-s-paristown-hall-2027-04-16-7-pm/concert/18649753",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1601,5 +1601,66 @@
     "organizer_names": [
       "Auditorium AS (Rockefeller / John Dee / Sentrum Scene)"
     ]
+  },
+  {
+    "id": "tm-warren-zeiders-2027-charlotte-z7r9jz1aaeb7u",
+    "artist_slug": "warren-zeiders",
+    "artist_name": "Warren Zeiders",
+    "event_name": "Warren Zeiders (18+ Event)",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Coyote Joes",
+    "datetime_iso": "2027-05-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeb7U",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7U",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-charlotte-coyote-joes-5-1-2027--concerts-country-and-folk/production/7655025",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7U",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeb7U",
+        "discovery_event_id": "Z7r9jZ1AAeb7U",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7U",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7655025,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-charlotte-coyote-joes-5-1-2027--concerts-country-and-folk/production/7655025",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307501",
+        "url": "https://www.ticketliquidator.com/tickets/8307501/Warren-Zeiders-tickets-Sat-May-1-2027-Coyote-Joes-NC",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb7U",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307501/Warren-Zeiders-tickets-Sat-May-1-2027-Coyote-Joes-NC"
   }
 ]

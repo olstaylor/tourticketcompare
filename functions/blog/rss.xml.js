@@ -10,7 +10,7 @@ import { derivePosts, postIndexable, blogLastmod } from "../_blog.js";
 // Item bodies are the authored summary, not the full post. A feed reader gets
 // enough to decide, and the canonical copy stays on the site.
 
-export const MAX_ITEMS = 50;
+const MAX_ITEMS = 50;
 
 function escapeXml(value) {
   return String(value ?? "")

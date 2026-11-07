@@ -64,8 +64,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-Sud",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Sud",
-    "seatgeek_url": "https://seatgeek.com/mon-laferte-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2026-11-05-8-pm/concert/18140310",
-    "vividseats_url": "https://www.vividseats.com/mon-laferte-tickets-las-vegas-pearl-concert-theater-at-palms-casino-resort-11-5-2026/production/6822790",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Sud",
     "last_verified_at": null,
@@ -80,18 +80,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18140310,
-        "url": "https://seatgeek.com/mon-laferte-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2026-11-05-8-pm/concert/18140310",
-        "verified": true,
-        "last_verified_at": "2026-11-05",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 6822790,
-        "url": "https://www.vividseats.com/mon-laferte-tickets-las-vegas-pearl-concert-theater-at-palms-casino-resort-11-5-2026/production/6822790",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -108,11 +108,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7827794",
-        "url": "https://www.ticketliquidator.com/tickets/7827794/Mon-Laferte-tickets-Thu-Nov-5-2026-Pearl-Concert-Theater-At-Palms-Casino-Resort",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107155199",
@@ -126,7 +126,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827794",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827794/Mon-Laferte-tickets-Thu-Nov-5-2026-Pearl-Concert-Theater-At-Palms-Casino-Resort",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-las-vegas-tickets-11-5-2026/event/107155199"
   },
   {
@@ -223,7 +223,7 @@
         "event_id": 6822796,
         "url": "https://www.vividseats.com/mon-laferte-tickets-inglewood-kia-forum-11-7-2026/production/6822796",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -303,7 +303,7 @@
         "event_id": 7164376,
         "url": "https://www.vividseats.com/mon-laferte-tickets-inglewood-kia-forum-11-8-2026--concerts-rock/production/7164376",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -492,7 +492,7 @@
         "event_id": 7250274,
         "url": "https://www.vividseats.com/mon-laferte-tickets-madrid-movistar-arena---madrid-1-13-2027/production/7250274",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {

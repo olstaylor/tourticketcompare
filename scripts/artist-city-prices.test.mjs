@@ -832,6 +832,21 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // tickets" panel (its own wording and gates, tested in price-guides.test.mjs);
   // the checks below are about the next-dates table, so take the panel out first.
   assert(page.main.includes('id="artistCheapestTitle"'), "the artist lead carries the cheapest panel when two dates are priced");
+  // 2026-11-07: most visitors are in the US and Canada, so when the cheapest
+  // date is elsewhere the panel also names the cheapest US/Canada date.
+  {
+    const panelOf = (main) => (main.match(/<section class="nested-panel price-cheapest"[\s\S]*?<\/section>/) || [])[0] || "";
+    const showIdsOf = (panel) => [...panel.replace(/&amp;/g, "&").matchAll(/showId=([^&"]+)/g)].map((m) => decodeURIComponent(m[1]));
+    const basePanel = panelOf(page.main);
+    assert(!/US and Canada/.test(basePanel), "an all-US board needs no regional line");
+    const [cheapestId] = showIdsOf(basePanel);
+    const abroad = EVENTS.map((event) => (String(event.id) === cheapestId ? { ...event, country: "United Kingdom" } : event));
+    const regionalPanel = panelOf((await render(artistPath, { events: abroad })).main);
+    const ids = showIdsOf(regionalPanel);
+    assert(/Cheapest listed price of \d+ priced dates: USD/.test(text(regionalPanel)) && /Cheapest in the US and Canada, \d+ priced dates: USD/.test(text(regionalPanel)), `a non-US cheapest date gains a US and Canada line (got ${text(regionalPanel).slice(0, 400)})`);
+    assert(ids.length === 2 && ids[0] === cheapestId && ids[1] !== cheapestId, `each line is its own date's tracked button (got ${ids})`);
+    assert(regionalPanel.replace(/&amp;/g, "&").split("ctaLocation=artist_cheapest").length === 3, "both lines keep the artist_cheapest location");
+  }
   const mainWithoutCheapest = page.main.replace(/<section class="nested-panel price-cheapest"[\s\S]*?<\/section>/, "");
   const lead = (mainWithoutCheapest.match(/<div data-artist-lead>[\s\S]*?<\/section>(?:<p class="artist-embed-link">[\s\S]*?<\/p>)?<\/div>/) || [])[0] || "";
   assert(lead.includes('id="artistNextDatesTitle"'), "the next-dates table sits inside the transplanted lead");

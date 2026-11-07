@@ -240,6 +240,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284473",
+        "url": "https://www.ticketnetwork.com/en/p/8284473",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_31y4afW",
@@ -247,7 +254,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284473"
   },
   {
     "id": "tm-yacht-rock-revue-2027-huntington-k7vgf_31ykyfq",
@@ -296,6 +304,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284474",
+        "url": "https://www.ticketnetwork.com/en/p/8284474",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_31yKyfq",
@@ -303,7 +318,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284474"
   },
   {
     "id": "tm-yacht-rock-revue-2027-huntington-k7vgf_31y3tkt",
@@ -352,6 +368,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284475",
+        "url": "https://www.ticketnetwork.com/en/p/8284475",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_31y3tKt",
@@ -359,7 +382,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284475"
   },
   {
     "id": "tm-yacht-rock-revue-2027-key-west-z7r9jz1aaeefv",
@@ -807,6 +831,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284486",
+        "url": "https://www.ticketnetwork.com/en/p/8284486",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_3GkBlhlRj",
@@ -814,7 +845,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284486"
   },
   {
     "id": "tm-yacht-rock-revue-2027-nashville-vv17fz_3gktkih3j",

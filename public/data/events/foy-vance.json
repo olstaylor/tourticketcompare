@@ -829,11 +829,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748037",
+        "url": "https://www.ticketnetwork.com/en/p/7748037",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_AkYQnB8",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748037"
   },
   {
     "id": "tm-foy-vance-2026-englewood-z7r9jz1a7--ke",
@@ -1217,11 +1225,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748051",
+        "url": "https://www.ticketnetwork.com/en/p/7748051",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-K1v",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748051"
   },
   {
     "id": "tm-foy-vance-2027-saint-paul-z7r9jz1a7jfgw",

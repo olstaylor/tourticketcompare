@@ -1264,6 +1264,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359472",
+        "url": "https://www.ticketnetwork.com/en/p/8359472",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k7ZpZb4",
@@ -1272,7 +1279,8 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359472/U2-tickets-Fri-Jun-11-2027-Johan-Cruijff-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359472/U2-tickets-Fri-Jun-11-2027-Johan-Cruijff-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359472"
   },
   {
     "id": "tm-u2-2027-stockholm-z698xzq2z16vvejtvk",
@@ -1328,12 +1336,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359466",
+        "url": "https://www.ticketnetwork.com/en/p/8359466",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z16vvEjtvk",
     "timezone": "Europe/Stockholm",
     "status": "announced",
     "public_onsale_at": "2026-11-10T11:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359466/U2-tickets-Fri-Apr-30-2027-Strawberry-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359466/U2-tickets-Fri-Apr-30-2027-Strawberry-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359466"
   }
 ]

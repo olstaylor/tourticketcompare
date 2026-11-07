@@ -781,6 +781,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7551671",
+        "url": "https://www.ticketnetwork.com/en/p/7551671",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbU3R_nwH",
@@ -800,7 +807,8 @@
         "start": "2026-03-24T23:00:00Z",
         "end": "2026-11-19T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551671"
   },
   {
     "id": "tm-three-days-grace-2026-san-diego-vvg1izbuciwp5c",

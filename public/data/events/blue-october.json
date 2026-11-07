@@ -995,11 +995,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7828057",
+        "url": "https://www.ticketnetwork.com/en/p/7828057",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZwby",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828057"
   },
   {
     "id": "tm-blue-october-2026-red-bank-g5vvz_kudtusm",
@@ -1617,6 +1625,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7827974",
+        "url": "https://www.ticketnetwork.com/en/p/7827974",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_6ddzDk3",
@@ -1624,7 +1639,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827974"
   },
   {
     "id": "tm-blue-october-2026-nashville-g5viz_kskltsv",
@@ -4087,11 +4103,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7957278",
+        "url": "https://www.ticketnetwork.com/en/p/7957278",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1RcVq7P",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957278"
   },
   {
     "id": "tm-blue-october-2027-salt-lake-city-z7r9jz1a70te4",

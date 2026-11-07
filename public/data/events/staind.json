@@ -875,6 +875,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308769",
+        "url": "https://www.ticketnetwork.com/en/p/8308769",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4vGkeShnYh",
@@ -894,7 +901,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308769"
   },
   {
     "id": "tm-staind-2027-huntington-1kaovp8iga2ivff",

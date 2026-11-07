@@ -1536,6 +1536,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7996248",
+        "url": "https://www.ticketnetwork.com/en/p/7996248",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G65QRt_Qd",
@@ -1543,7 +1550,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996248"
   },
   {
     "id": "tm-nothing-but-thieves-2027-philadelphia-vvg1fz_5qfmzvi",

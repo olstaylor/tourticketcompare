@@ -1040,6 +1040,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8012962",
+        "url": "https://www.ticketnetwork.com/en/p/8012962",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_59Up5bx",
@@ -1054,7 +1061,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012962"
   },
   {
     "id": "tm-fkj-2027-houston-g5diz_5msvufk",

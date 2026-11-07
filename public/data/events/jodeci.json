@@ -883,6 +883,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8167874",
+        "url": "https://www.ticketnetwork.com/en/p/8167874",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G629rlldO",
@@ -897,7 +904,8 @@
         "start": "2026-07-31T14:00:00Z",
         "end": "2026-11-16T04:55:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167874"
   },
   {
     "id": "tm-jodeci-2026-memphis-g5viz_2h5lx5n",
@@ -946,6 +954,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8167876",
+        "url": "https://www.ticketnetwork.com/en/p/8167876",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_2h5LX5n",
@@ -960,7 +975,8 @@
         "start": "2026-07-31T15:00:00Z",
         "end": "2026-11-18T05:55:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167876"
   },
   {
     "id": "tm-jodeci-2026-thackerville-z7r9jz1aaz3ae",

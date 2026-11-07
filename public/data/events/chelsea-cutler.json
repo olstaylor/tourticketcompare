@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300999",
+        "url": "https://www.ticketnetwork.com/en/p/8300999",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KBudUlQ",
@@ -61,7 +68,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300999"
   },
   {
     "id": "tm-chelsea-cutler-2027-charlotte-g5evz_kukxezh",
@@ -1124,6 +1132,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301012",
+        "url": "https://www.ticketnetwork.com/en/p/8301012",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KSxZvBS",
@@ -1135,7 +1150,8 @@
         "start": "2026-10-09T16:00:00Z",
         "end": "2027-03-04T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301012"
   },
   {
     "id": "tm-chelsea-cutler-2027-saint-petersburg-z7r9jz1aae_gk",

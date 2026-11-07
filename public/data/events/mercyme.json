@@ -1291,6 +1291,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326566",
+        "url": "https://www.ticketnetwork.com/en/p/8326566",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkS27zYe",
@@ -1298,7 +1305,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326566"
   },
   {
     "id": "tm-mercyme-2027-portland-vv177z_fgkxgyxqn",
@@ -1560,6 +1568,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326569",
+        "url": "https://www.ticketnetwork.com/en/p/8326569",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fIumnTg",
@@ -1567,7 +1582,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326569"
   },
   {
     "id": "tm-mercyme-2027-bossier-city-g5viz_fdsgolb",
@@ -2376,11 +2392,19 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8329958",
+        "url": "https://www.ticketnetwork.com/en/p/8329958",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Mot",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329958/MercyMe-tickets-Sun-Apr-11-2027-Freedom-Hall-Civic-Center-TN"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329958/MercyMe-tickets-Sun-Apr-11-2027-Freedom-Hall-Civic-Center-TN",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329958"
   }
 ]

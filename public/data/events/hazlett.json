@@ -507,6 +507,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8054733",
+        "url": "https://www.ticketnetwork.com/en/p/8054733",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_GS3K6Br",
@@ -515,7 +522,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054733"
   },
   {
     "id": "tm-hazlett-2027-portland-vvg17z_grwzm6s",

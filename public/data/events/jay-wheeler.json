@@ -868,6 +868,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307362",
+        "url": "https://www.ticketnetwork.com/en/p/8307362",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkBLt_5x",
@@ -882,7 +889,8 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307362"
   },
   {
     "id": "tm-jay-wheeler-2027-boston-vv1avzk4agkejxnem",
@@ -1087,6 +1095,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307364",
+        "url": "https://www.ticketnetwork.com/en/p/8307364",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_f20_jhu",
@@ -1101,7 +1116,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307364"
   },
   {
     "id": "tm-jay-wheeler-2027-irving-vvg1yz_f8nrws_",

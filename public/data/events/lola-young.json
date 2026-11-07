@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307847",
+        "url": "https://www.ticketnetwork.com/en/p/8307847",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebv0",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307847"
   },
   {
     "id": "tm-lola-young-2027-atlanta-vvg1zz_f7qhai6",
@@ -778,11 +786,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307849",
+        "url": "https://www.ticketnetwork.com/en/p/8307849",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebvE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307849"
   },
   {
     "id": "tm-lola-young-2027-denver-g5vzz_f11k7mj",
@@ -831,6 +847,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307257",
+        "url": "https://www.ticketnetwork.com/en/p/8307257",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_f11k7mj",
@@ -850,7 +873,8 @@
         "start": "2026-10-09T16:00:00Z",
         "end": "2027-04-12T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307257"
   },
   {
     "id": "tm-lola-young-2027-salt-lake-city-g5vzz_fk8daho",

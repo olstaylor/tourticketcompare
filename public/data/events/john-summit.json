@@ -1457,6 +1457,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982966",
+        "url": "https://www.ticketnetwork.com/en/p/7982966",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_5CTEjox",
@@ -1465,7 +1472,8 @@
     "organizer_names": [
       "LIVE NATION GLOBAL TOURING",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982966"
   },
   {
     "id": "tm-john-summit-2026-brooklyn-17gzv0g655ozaay",

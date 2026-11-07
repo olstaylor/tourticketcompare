@@ -457,6 +457,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8286283",
+        "url": "https://www.ticketnetwork.com/en/p/8286283",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KQ-E_YF",
@@ -471,7 +478,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286283"
   },
   {
     "id": "tm-lukas-graham-2027-boston-vv1k7z_k8xg7ihpb",

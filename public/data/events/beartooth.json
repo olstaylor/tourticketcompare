@@ -1266,6 +1266,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7980227",
+        "url": "https://www.ticketnetwork.com/en/p/7980227",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70IGy",
@@ -1273,7 +1280,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980227"
   },
   {
     "id": "tm-beartooth-2026-new-orleans-g5viz_1lu2gm0",
@@ -1493,6 +1501,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7980235",
+        "url": "https://www.ticketnetwork.com/en/p/7980235",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1SIgr2S",
@@ -1507,7 +1522,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980235"
   },
   {
     "id": "tm-beartooth-2026-salt-lake-city-g5vzz_1w63kam",

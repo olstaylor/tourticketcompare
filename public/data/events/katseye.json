@@ -621,11 +621,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7961641",
-        "url": "https://www.ticketnetwork.com/en/p/7961641",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1SyOq0j",
@@ -636,7 +636,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961641",
+    "ticketnetwork_url": "",
     "ticketmaster_status_code": "postponed"
   },
   {

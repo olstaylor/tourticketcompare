@@ -139,8 +139,55 @@ function cityMatches(text, city) {
   return (METROS.get(normalizeText(city)) || []).some((alias) => containsNormalized(text, alias));
 }
 
+// Ticketmaster venue names carry sponsor and disambiguation tails that resale
+// catalogs drop: "Tabernacle Presented by iTHINK Financial", "Criterion
+// Theater - Oklahoma City", "Fillmore Auditorium (Denver)", "War Memorial
+// Auditorium-FL", "Smart Financial Centre at Sugar Land". Each variant is
+// still a phrase the listing must contain whole, next to the artist, the
+// venue-local date and the city, so it narrows nothing else. A variant must
+// keep two words besides "the", or one word of eight letters or more, so
+// "The O2" never shrinks to "o2" (O2 Academy Brixton is also in London).
+const VENUE_TAIL_PATTERNS = [
+  /\s+(?:presented|powered|sponsored)\s+by\s+.+$/i,
+  /\s+in\s+concert\s+with\s+.+$/i,
+  /\s*\([^)]*\)\s*$/,
+  /\s+-\s+[^-]+$/,
+  /-[A-Z]{2}$/
+];
+
+const VENUE_NOUN = /\b(?:theater|theatre|hall|arena|center|centre|stadium|ballroom|amphitheater|amphitheatre|pavilion|auditorium|club|coliseum|forum|garden|gardens|bowl|dome|field|park)\b/;
+
+const collapseInitials = (value) => value.replace(/\b([a-z0-9]) (?=[a-z0-9]\b)/g, "$1");
+
+function distinctiveVenue(normalized) {
+  const words = normalized.split(" ").filter((word) => word && word !== "the");
+  return words.length >= 2 || (words.length === 1 && words[0].length >= 8);
+}
+
+export function venueVariants(venue) {
+  const base = clean(venue, 300);
+  const variants = new Set([normalizeText(base)]);
+  const stripped = VENUE_TAIL_PATTERNS.reduce((value, pattern) => value.replace(pattern, "").trim(), base);
+  const add = (value) => {
+    const normalized = normalizeText(value);
+    if (normalized && distinctiveVenue(normalized)) variants.add(normalized);
+  };
+  add(stripped);
+  const at = stripped.split(/\s+at\s+/i);
+  // The half after "at" is often the town ("SAP Center at San Jose"), which
+  // the listing always contains, so it counts only when it names a room.
+  if (at.length === 2) {
+    add(at[0]);
+    if (VENUE_NOUN.test(normalizeText(at[1]))) add(at[1]);
+  }
+  for (const value of [...variants]) if (value.startsWith("the ")) add(value.slice(4));
+  return [...variants].filter(Boolean);
+}
+
 function venueMatches(text, venue) {
-  return containsNormalized(text, venue) || diceSimilarity(text, venue) >= 0.35;
+  if (containsNormalized(text, venue) || diceSimilarity(text, venue) >= 0.35) return true;
+  const haystack = ` ${collapseInitials(normalizeText(text))} `;
+  return venueVariants(venue).some((variant) => haystack.includes(` ${collapseInitials(variant)} `));
 }
 
 function dateMatches(text, date) {
@@ -802,6 +849,24 @@ async function selfTest() {
   assert.equal(outcomeNote("none", { catalogComplete: true, nearMiss: "venue mismatch" }), "no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch)");
   assert.equal(closestMiss([{ ok: false, reasons: ["artist name mismatch"] }, { ok: false, reasons: ["venue-local date mismatch"] }]), "", "other acts and other nights are not near-misses");
   assert.equal(closestMiss([{ ok: false, reasons: ["city mismatch", "venue mismatch"] }, { ok: false, reasons: ["venue mismatch"] }]), "venue mismatch");
+
+  // Venue tails Ticketmaster adds and resale catalogs drop.
+  assert.ok(venueMatches("Blue October The Tabernacle Atlanta GA 11/22/2026", "Tabernacle Presented by iTHINK Financial"));
+  assert.ok(venueMatches("Blue October Criterion Theater Oklahoma City", "Criterion Theater - Oklahoma City"));
+  assert.ok(venueMatches("Act Fillmore Auditorium Denver CO", "Fillmore Auditorium (Denver)"));
+  assert.ok(venueMatches("Act War Memorial Auditorium Fort Lauderdale", "War Memorial Auditorium-FL"));
+  assert.ok(venueMatches("Act Smart Financial Centre Sugar Land TX", "Smart Financial Centre at Sugar Land"));
+  assert.ok(venueMatches("Act ACL Live at The Moody Theater Austin", "Austin City Limits Live at The Moody Theater"));
+  assert.ok(venueMatches("Act Irving Plaza New York", "Irving Plaza Powered By Verizon 5G"));
+  assert.ok(venueMatches("Blue October FM Kirby Center Wilkes-Barre", "F.M. Kirby Center"));
+  assert.ok(venueMatches("Act HEB Center Cedar Park", "H-E-B Center at Cedar Park"));
+  assert.ok(venueMatches("Act Charleston Music Hall Charleston SC", "The Charleston Music Hall"));
+  assert.ok(!venueMatches("Act O2 Academy Brixton London", "The O2"), "The O2 never shrinks to o2");
+  assert.ok(!venueMatches("Act Sphere Las Vegas", "The Venetian Theatre at The Venetian Resort"));
+  assert.ok(!venueMatches("Act tickets at the Grand Theater in Durant, OK on November 14, 2026; see seating chart and event details", "Choctaw Grand Theater"));
+  assert.deepEqual(venueVariants("SAP Center at San Jose"), ["sap center at san jose", "sap center"], "the town after \"at\" is not a venue");
+  assert.deepEqual(venueVariants("The Venetian Theatre at The Venetian Resort"), ["the venetian theatre at the venetian resort", "the venetian theatre", "venetian theatre at the venetian resort", "venetian theatre"]);
+  assert.deepEqual(venueVariants("The O2"), ["the o2"], "The O2 never shrinks to o2");
   // The same 404 without the proxy stays an ordinary incomplete catalog.
   const directNotFound = await fetchCatalog(
     config, "RAYE", { delayMs: 0 }, { apiCalls: 0 },

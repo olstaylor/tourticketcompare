@@ -504,6 +504,17 @@ test('a different Discovery URL slug still matches when the event id is the same
   assert(remoteMismatches(e, data, now).includes('sourceUrl'));
 });
 
+test('an international Ticketmaster link matches Discovery by storefront and numeric id, not slug', () => {
+  const e = { ...evidence.events[0], sourceUrl: 'https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1852040169?language=en-us' };
+  const data = remote(e);
+  data.url = 'https://ticketmaster.evyy.net/c/6059518/2038747/23885?u=' + encodeURIComponent('https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-biljetter/1852040169') + '&utm_medium=affiliate';
+  assert(!remoteMismatches(e, data, now).includes('sourceUrl'));
+  data.url = 'https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-biljetter/1852040170';
+  assert(remoteMismatches(e, data, now).includes('sourceUrl'));
+  data.url = 'https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1852040169';
+  assert(remoteMismatches(e, data, now).includes('sourceUrl'));
+});
+
 test('named tour guides cite one date per city, skip unknown artists and never use the ideas issue', () => {
   const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))].concat('not-a-real-artist');
   const result = selectTourGuides(fixture, slugs, { now });

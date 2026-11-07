@@ -171,7 +171,7 @@
         "event_id": 18391791,
         "url": "https://seatgeek.com/gary-allan-tickets/lake-charles-louisiana-grand-event-center-golden-nugget-lake-charles-2026-11-20-8-30-pm/concert/18391791",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -290,7 +290,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvf1F",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvf1F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gary-allan-tickets/las-vegas-nevada-resorts-world-theatre-2026-12-04-8-30-pm/concert/18744930",
     "vividseats_url": "https://www.vividseats.com/gary-allan-tickets-las-vegas-resorts-world-theatre-12-4-2026/production/7504429",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvf1F",
@@ -306,11 +306,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18744930,
+        "url": "https://seatgeek.com/gary-allan-tickets/las-vegas-nevada-resorts-world-theatre-2026-12-04-8-30-pm/concert/18744930",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7504429,
@@ -455,7 +455,7 @@
         "event_id": 18639145,
         "url": "https://seatgeek.com/gary-allan-tickets/bakersfield-california-historic-bakersfield-fox-theater-2026-12-06-7-pm/concert/18639145",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {

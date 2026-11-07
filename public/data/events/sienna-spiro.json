@@ -905,7 +905,7 @@
     "tour_name": "My House Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7Pa4e",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pa4e",
-    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/vancouver-canada-vogue-theatre-bc-1-2026-11-05-8-pm/concert/18297303",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1A7Pa4e",
@@ -921,11 +921,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18297303,
-        "url": "https://seatgeek.com/sienna-spiro-tickets/vancouver-canada-vogue-theatre-bc-1-2026-11-05-8-pm/concert/18297303",
-        "verified": true,
-        "last_verified_at": "2026-11-05",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -993,7 +993,7 @@
         "event_id": 18318283,
         "url": "https://seatgeek.com/sienna-spiro-tickets/portland-oregon-mcmenamins-crystal-ballroom-2026-11-07-8-pm/concert/18318283",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3396,7 +3396,7 @@
         "event_id": 18702034,
         "url": "https://seatgeek.com/sienna-spiro-tickets/morrison-colorado-red-rocks-amphitheatre-2027-08-30-7-pm/concert/18702034",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3465,7 +3465,7 @@
         "event_id": 18702009,
         "url": "https://seatgeek.com/sienna-spiro-tickets/nashville-tennessee-grand-ole-opry-house-2027-08-08-7-pm/concert/18702009",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3542,7 +3542,7 @@
         "event_id": 18702010,
         "url": "https://seatgeek.com/sienna-spiro-tickets/atlanta-georgia-fox-theatre-atlanta-2027-08-10-7-pm/concert/18702010",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {

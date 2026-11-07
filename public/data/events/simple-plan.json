@@ -720,11 +720,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18655727,
+        "url": "https://seatgeek.com/simple-plan-tickets/kingston-canada-slush-puppie-place-2027-02-09-7-pm/concert/18655727",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7658700,
@@ -903,7 +903,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "31006539CEFE907F",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-moncton-new-brunswick-02-14-2027/event/31006539CEFE907F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/moncton-canada-avenir-centre-2027-02-14-7-pm/concert/18656907",
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-moncton-avenir-centre-2-14-2027/production/7658583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-moncton-new-brunswick-02-14-2027/event/31006539CEFE907F",
@@ -919,11 +919,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18656907,
+        "url": "https://seatgeek.com/simple-plan-tickets/moncton-canada-avenir-centre-2027-02-14-7-pm/concert/18656907",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7658583,
@@ -979,7 +979,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "31006545BE3C6548",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-the-bigger-than-you-sydney-nova-scotia-02-15-2027/event/31006545BE3C6548",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/sydney-canada-centre-200-2027-02-15-7-pm/concert/18656127",
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-sydney-centre-200-2-15-2027/production/7658581",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-the-bigger-than-you-sydney-nova-scotia-02-15-2027/event/31006545BE3C6548",
@@ -995,11 +995,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18656127,
+        "url": "https://seatgeek.com/simple-plan-tickets/sydney-canada-centre-200-2027-02-15-7-pm/concert/18656127",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7658581,
@@ -1049,7 +1049,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3100653DE09B9102",
     "ticketmaster_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-halifax-nova-scotia-02-16-2027/event/3100653DE09B9102",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/simple-plan-tickets/halifax-canada-scotiabank-centre-2027-02-16-7-pm/concert/18655677",
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-halifax-scotiabank-centre-2-16-2027/production/7658579",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-halifax-nova-scotia-02-16-2027/event/3100653DE09B9102",
@@ -1065,11 +1065,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18655677,
+        "url": "https://seatgeek.com/simple-plan-tickets/halifax-canada-scotiabank-centre-2027-02-16-7-pm/concert/18655677",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7658579,

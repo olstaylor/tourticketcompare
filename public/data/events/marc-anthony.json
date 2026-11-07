@@ -159,7 +159,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700652DEDBDFD01",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-12-2027/event/1700652DEDBDFD01",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-12-9-pm/concert/18608820",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-2-12-2027--concerts-latin-music/production/7587483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-12-2027/event/1700652DEDBDFD01",
@@ -175,11 +175,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608820,
+        "url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-12-9-pm/concert/18608820",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587483,
@@ -240,7 +240,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700652DEDC5FD09",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-13-2027/event/1700652DEDC5FD09",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-13-9-pm/concert/18608822",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-2-13-2027--concerts-latin-music/production/7587485",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-13-2027/event/1700652DEDC5FD09",
@@ -256,11 +256,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608822,
+        "url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-13-9-pm/concert/18608822",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587485,
@@ -321,7 +321,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700652DEDCDFD1A",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-17-2027/event/1700652DEDCDFD1A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-17-9-pm/concert/18608838",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-2-17-2027--concerts-latin-music/production/7587487",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-17-2027/event/1700652DEDCDFD1A",
@@ -337,11 +337,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608838,
+        "url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-17-9-pm/concert/18608838",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587487,
@@ -402,7 +402,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700652DEDD5FD35",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-19-2027/event/1700652DEDD5FD35",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-19-9-pm/concert/18608821",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-2-19-2027--concerts-latin-music/production/7587489",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-19-2027/event/1700652DEDD5FD35",
@@ -418,11 +418,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608821,
+        "url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-19-9-pm/concert/18608821",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587489,
@@ -483,7 +483,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700652DEDDDFD3D",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-20-2027/event/1700652DEDDDFD3D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-20-9-pm/concert/18608827",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-2-20-2027--concerts-latin-music/production/7587493",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-02-20-2027/event/1700652DEDDDFD3D",
@@ -499,11 +499,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608827,
+        "url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-20-9-pm/concert/18608827",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587493,

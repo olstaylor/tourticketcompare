@@ -1247,7 +1247,7 @@
         "event_id": 18266350,
         "url": "https://seatgeek.com/nothing-but-thieves-tickets/denver-colorado-mission-ballroom-2027-04-09-8-pm/concert/18266350",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2124,7 +2124,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14941383",
     "ticketmaster_url": "https://www.ticketweb.com/event/nothing-but-thieves-the-stray-soma-mainstage-tickets/14941383",
-    "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/san-diego-california-soma-san-diego-2027-04-06-8-pm/concert/18266339",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/nothing-but-thieves-the-stray-soma-mainstage-tickets/14941383",
@@ -2144,7 +2144,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

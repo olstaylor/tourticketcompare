@@ -290,7 +290,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAeAP",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAeAP",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2027-03-13-8-pm/concert/18592206",
     "vividseats_url": "https://www.vividseats.com/zach-top-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-3-13-2027/production/7654148",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAeAP",
@@ -306,11 +306,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18592206,
+        "url": "https://seatgeek.com/zach-top-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2027-03-13-8-pm/concert/18592206",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7654148,

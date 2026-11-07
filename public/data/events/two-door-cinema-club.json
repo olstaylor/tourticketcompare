@@ -730,7 +730,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "07006544B7BA32BE",
     "ticketmaster_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-milwaukee-wisconsin-05-08-2027/event/07006544B7BA32BE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-door-cinema-club-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-05-08-7-30-pm/concert/18711332",
     "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-milwaukee-landmark-credit-union-live-5-8-2027--concerts-alternative/production/7748031",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-milwaukee-wisconsin-05-08-2027/event/07006544B7BA32BE",
@@ -746,11 +746,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18711332,
+        "url": "https://seatgeek.com/two-door-cinema-club-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-05-08-7-30-pm/concert/18711332",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7748031,
@@ -1433,7 +1433,7 @@
         "event_id": 18711333,
         "url": "https://seatgeek.com/two-door-cinema-club-tickets/chicago-illinois-riviera-theatre-chicago-2027-05-06-7-30-pm/concert/18711333",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1565,7 +1565,7 @@
         "event_id": 18711220,
         "url": "https://seatgeek.com/two-door-cinema-club-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-11-7-30-pm/concert/18711220",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1635,7 +1635,7 @@
         "event_id": 18711344,
         "url": "https://seatgeek.com/two-door-cinema-club-tickets/austin-texas-united-heritage-hall-2027-05-27-8-pm/concert/18711344",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1705,7 +1705,7 @@
         "event_id": 18711349,
         "url": "https://seatgeek.com/two-door-cinema-club-tickets/dallas-texas-the-bomb-factory-dallas-2027-05-29-8-pm/concert/18711349",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

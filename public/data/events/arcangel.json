@@ -498,7 +498,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C0064B4F97758BF",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-irving-texas-11-06-2026/event/0C0064B4F97758BF",
-    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-06-8-pm/concert/18266326",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-irving-pavilion-at-toyota-music-factory-11-6-2026--concerts-rap-hip-hop/production/7079432",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-irving-texas-11-06-2026/event/0C0064B4F97758BF",
@@ -514,11 +514,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18266326,
-        "url": "https://seatgeek.com/arcangel-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-06-8-pm/concert/18266326",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7079432,

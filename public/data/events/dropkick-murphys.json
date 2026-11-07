@@ -30,7 +30,7 @@
         "event_id": 18633525,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/albuquerque-new-mexico-revel-entertainment-center-2027-02-05-7-pm/concert/18633525",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -423,7 +423,7 @@
         "event_id": 18633528,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/vancouver-canada-pne-forum-vancouver-2027-02-12-7-pm/concert/18633528",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -493,7 +493,7 @@
         "event_id": 18633535,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/penticton-canada-penticton-trade-convention-centre-2027-02-13-7-pm/concert/18633535",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -609,7 +609,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "11006539B3EFC4E3",
     "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-edmonton-alberta-02-16-2027/event/11006539B3EFC4E3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/edmonton-canada-edmonton-convention-centre-2027-02-16-7-pm/concert/18633539",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-edmonton-edmonton-convention-centre-2-16-2027/production/7624222",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-edmonton-alberta-02-16-2027/event/11006539B3EFC4E3",
@@ -625,11 +625,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633539,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/edmonton-canada-edmonton-convention-centre-2027-02-16-7-pm/concert/18633539",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624222,
@@ -689,7 +689,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "11006537A4668D96",
     "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-saskatoon-saskatchewan-02-17-2027/event/11006537A4668D96",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/saskatoon-canada-sasktel-centre-2027-02-17-7-pm/concert/18633540",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-saskatoon-sasktel-centre-2-17-2027/production/7624308",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-saskatoon-saskatchewan-02-17-2027/event/11006537A4668D96",
@@ -705,11 +705,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633540,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/saskatoon-canada-sasktel-centre-2027-02-17-7-pm/concert/18633540",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624308,
@@ -951,7 +951,7 @@
         "event_id": 18633547,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/green-bay-wisconsin-epic-event-center-green-bay-2027-02-21-7-pm/concert/18633547",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1021,7 +1021,7 @@
         "event_id": 18633548,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/fort-wayne-indiana-the-clyde-theatre-fort-wayne-in-2027-02-22-7-pm/concert/18633548",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1514,7 +1514,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "31006538635811BA",
     "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-st-patricks-day-2027-quebec-quebec-03-04-2027/event/31006538635811BA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/quebec-city-canada-theatre-capitole-2027-03-04-7-pm/concert/18633563",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-quebec-city-capitole-theatre-3-4-2027--concerts-alternative/production/7625262",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-st-patricks-day-2027-quebec-quebec-03-04-2027/event/31006538635811BA",
@@ -1530,11 +1530,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633563,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/quebec-city-canada-theatre-capitole-2027-03-04-7-pm/concert/18633563",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625262,
@@ -1752,7 +1752,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "02006537A2779C78",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-wilmington-delaware-03-08-2027/event/02006537A2779C78",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/wilmington-delaware-the-queen-wilmington-2027-03-08-7-pm/concert/18633568",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-wilmington-the-queen-3-8-2027/production/7624110",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-wilmington-delaware-03-08-2027/event/02006537A2779C78",
@@ -1768,11 +1768,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633568,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/wilmington-delaware-the-queen-wilmington-2027-03-08-7-pm/concert/18633568",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624110,
@@ -1830,7 +1830,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100653CC5CA1AB3",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-portland-maine-03-11-2027/event/0100653CC5CA1AB3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/portland-maine-state-theatre-portland-me-2027-03-11-7-pm/concert/18633572",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-portland-state-theatre-portland-3-11-2027/production/7624117",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-portland-maine-03-11-2027/event/0100653CC5CA1AB3",
@@ -1846,11 +1846,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633572,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/portland-maine-state-theatre-portland-me-2027-03-11-7-pm/concert/18633572",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624117,

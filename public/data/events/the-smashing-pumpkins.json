@@ -983,7 +983,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F0064AF79DC5465",
     "ticketmaster_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-seattle-washington-11-06-2026/event/0F0064AF79DC5465",
-    "seatgeek_url": "https://seatgeek.com/the-smashing-pumpkins-tickets/seattle-washington-climate-pledge-arena-2026-11-06-8-pm/concert/18250170",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-seattle-washington-11-06-2026/event/0F0064AF79DC5465",
@@ -999,11 +999,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18250170,
-        "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/seattle-washington-climate-pledge-arena-2026-11-06-8-pm/concert/18250170",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1066,7 +1066,7 @@
         "event_id": 18250171,
         "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/san-jose-california-sap-center-at-san-jose-2026-11-08-8-pm/concert/18250171",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1124,7 +1124,7 @@
         "event_id": 18250172,
         "url": "https://seatgeek.com/the-smashing-pumpkins-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-11-8-pm/concert/18250172",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

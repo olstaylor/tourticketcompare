@@ -239,7 +239,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "20006365E2345B88",
     "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-tulsa-oklahoma-11-06-2026/event/20006365E2345B88",
-    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/tulsa-oklahoma-bok-center-2026-11-06-7-pm/concert/17895159",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-tulsa-bok-center-11-6-2026--concerts-hard-rock/production/6276960",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-tulsa-oklahoma-11-06-2026/event/20006365E2345B88",
@@ -255,11 +255,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 17895159,
-        "url": "https://seatgeek.com/three-days-grace-tickets/tulsa-oklahoma-bok-center-2026-11-06-7-pm/concert/17895159",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6276960,
@@ -330,7 +330,7 @@
         "event_id": 17895158,
         "url": "https://seatgeek.com/three-days-grace-tickets/saint-louis-missouri-enterprise-center-2026-11-07-7-pm/concert/17895158",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -388,7 +388,7 @@
         "event_id": 17895165,
         "url": "https://seatgeek.com/three-days-grace-tickets/kansas-city-missouri-t-mobile-center-2026-11-09-7-pm/concert/17895165",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -476,7 +476,7 @@
         "event_id": 17895166,
         "url": "https://seatgeek.com/three-days-grace-tickets/denver-colorado-ball-arena-2026-11-11-7-pm/concert/17895166",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -1305,7 +1305,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D00655BEB4CAA79",
     "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-tampa-florida-04-29-2027/event/0D00655BEB4CAA79",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/noah-kahan-tickets/tampa-florida-raymond-james-stadium-2027-04-29-6-30-pm/concert/18728707",
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-tampa-raymond-james-stadium-4-29-2027--concerts-pop/production/7773110",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-tampa-florida-04-29-2027/event/0D00655BEB4CAA79",
@@ -1321,11 +1321,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18728707,
+        "url": "https://seatgeek.com/noah-kahan-tickets/tampa-florida-raymond-james-stadium-2027-04-29-6-30-pm/concert/18728707",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7773110,
@@ -1419,7 +1419,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D00655BD235D7A9",
     "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-charlotte-north-carolina-05-06-2027/event/2D00655BD235D7A9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/noah-kahan-tickets/charlotte-north-carolina-bank-of-america-stadium-2027-05-06-6-30-pm/concert/18728703",
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-charlotte-bank-of-america-stadium-5-6-2027--concerts-pop/production/7773114",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-charlotte-north-carolina-05-06-2027/event/2D00655BD235D7A9",
@@ -1435,11 +1435,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18728703,
+        "url": "https://seatgeek.com/noah-kahan-tickets/charlotte-north-carolina-bank-of-america-stadium-2027-05-06-6-30-pm/concert/18728703",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7773114,

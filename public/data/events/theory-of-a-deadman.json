@@ -317,7 +317,7 @@
         "event_id": 18570534,
         "url": "https://seatgeek.com/theory-of-a-deadman-tickets/halifax-canada-light-house-arts-centre-2027-03-05-8-pm/concert/18570534",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -368,7 +368,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3100652299F85372",
     "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-moncton-new-brunswick-03-06-2027/event/3100652299F85372",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/moncton-canada-molson-canadian-centre-at-casino-new-brunswick-2027-03-06-8-pm/concert/18570536",
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-moncton-molson-canadian-centre-at-casino-new-brunswick-3-6-2027/production/7532261",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-moncton-new-brunswick-03-06-2027/event/3100652299F85372",
@@ -384,11 +384,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570536,
+        "url": "https://seatgeek.com/theory-of-a-deadman-tickets/moncton-canada-molson-canadian-centre-at-casino-new-brunswick-2027-03-06-8-pm/concert/18570536",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7532261,
@@ -450,7 +450,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "31006524568510B5",
     "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-quebec-quebec-03-08-2027/event/31006524568510B5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/quebec-city-canada-theatre-capitole-2027-03-08-8-pm/concert/18570535",
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-quebec-city-capitole-theatre-3-8-2027/production/7532222",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-quebec-quebec-03-08-2027/event/31006524568510B5",
@@ -466,11 +466,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570535,
+        "url": "https://seatgeek.com/theory-of-a-deadman-tickets/quebec-city-canada-theatre-capitole-2027-03-08-8-pm/concert/18570535",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7532222,
@@ -521,7 +521,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "31006522AF016E47",
     "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-montreal-quebec-03-09-2027/event/31006522AF016E47",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/montreal-canada-mtelus-2027-03-09-8-pm/concert/18570537",
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-montreal-mtelus-3-9-2027/production/7532210",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-montreal-quebec-03-09-2027/event/31006522AF016E47",
@@ -537,11 +537,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570537,
+        "url": "https://seatgeek.com/theory-of-a-deadman-tickets/montreal-canada-mtelus-2027-03-09-8-pm/concert/18570537",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7532210,
@@ -844,7 +844,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000651BD646578D",
     "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadmanthe-northern-chaos-thunder-bay-ontario-03-19-2027/event/1000651BD646578D",
-    "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/thunder-bay-canada-thunder-bay-community-auditorium-2027-03-19-7-30-pm/concert/18570548",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadmanthe-northern-chaos-thunder-bay-ontario-03-19-2027/event/1000651BD646578D",
@@ -1002,7 +1002,7 @@
         "event_id": 18570554,
         "url": "https://seatgeek.com/theory-of-a-deadman-tickets/regina-canada-conexus-arts-centre-2027-03-22-8-pm/concert/18570554",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

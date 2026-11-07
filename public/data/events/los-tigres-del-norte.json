@@ -829,7 +829,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C006542D1ADD76D",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-oklahoma-city-oklahoma-02-12-2027/event/0C006542D1ADD76D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/oklahoma-city-oklahoma-paycom-center-2027-02-12-8-pm/concert/18738645",
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-oklahoma-city-paycom-center-2-12-2027/production/7794871",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-oklahoma-city-oklahoma-02-12-2027/event/0C006542D1ADD76D",
@@ -845,11 +845,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738645,
+        "url": "https://seatgeek.com/los-tigres-del-norte-tickets/oklahoma-city-oklahoma-paycom-center-2027-02-12-8-pm/concert/18738645",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7794871,
@@ -988,7 +988,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "04006546C23AB42E",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-rosemont-illinois-03-20-2027/event/04006546C23AB42E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/rosemont-illinois-allstate-arena-2027-03-20-8-pm/concert/18738294",
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-rosemont-allstate-arena-3-20-2027/production/7794809",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-rosemont-illinois-03-20-2027/event/04006546C23AB42E",
@@ -1004,11 +1004,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738294,
+        "url": "https://seatgeek.com/los-tigres-del-norte-tickets/rosemont-illinois-allstate-arena-2027-03-20-8-pm/concert/18738294",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7794809,
@@ -1069,7 +1069,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006548B73BCA1F",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-miami-florida-03-26-2027/event/0D006548B73BCA1F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/miami-florida-james-l-knight-center-2027-03-26-8-pm/concert/18738296",
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-miami-james-knight-center-3-26-2027/production/7794817",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-miami-florida-03-26-2027/event/0D006548B73BCA1F",
@@ -1085,11 +1085,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738296,
+        "url": "https://seatgeek.com/los-tigres-del-norte-tickets/miami-florida-james-l-knight-center-2027-03-26-8-pm/concert/18738296",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7794817,
@@ -1146,7 +1146,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0200655DF62CE019",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-atlantic-city-new-jersey-04-16-2027/event/0200655DF62CE019",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/atlantic-city-new-jersey-hard-rock-live-at-etess-arena-2027-04-16-8-30-pm/concert/18738298",
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-4-16-2027/production/7794805",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-atlantic-city-new-jersey-04-16-2027/event/0200655DF62CE019",
@@ -1162,11 +1162,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738298,
+        "url": "https://seatgeek.com/los-tigres-del-norte-tickets/atlantic-city-new-jersey-hard-rock-live-at-etess-arena-2027-04-16-8-30-pm/concert/18738298",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7794805,
@@ -1220,7 +1220,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E0065468B296CD9",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-duluth-georgia-04-23-2027/event/0E0065468B296CD9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/duluth-georgia-gas-south-arena-2027-04-23-8-pm/concert/18738682",
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-duluth-gas-south-arena-4-23-2027/production/7794847",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-duluth-georgia-04-23-2027/event/0E0065468B296CD9",
@@ -1236,11 +1236,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738682,
+        "url": "https://seatgeek.com/los-tigres-del-norte-tickets/duluth-georgia-gas-south-arena-2027-04-23-8-pm/concert/18738682",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7794847,
@@ -1298,7 +1298,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006546B359D28D",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-charlotte-north-carolina-04-24-2027/event/2D006546B359D28D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-04-24-8-pm/concert/18738300",
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-charlotte-spectrum-center-4-24-2027/production/7794948",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-charlotte-north-carolina-04-24-2027/event/2D006546B359D28D",
@@ -1314,11 +1314,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738300,
+        "url": "https://seatgeek.com/los-tigres-del-norte-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-04-24-8-pm/concert/18738300",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7794948,
@@ -1536,7 +1536,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAZ8e",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ8e",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/denver-colorado-bellco-theatre-2027-02-27-8-pm/concert/18747096",
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-denver-bellco-theatre-at-colorado-convention-center-2-27-2027--concerts-latin-music/production/7795251",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ8e",
@@ -1552,11 +1552,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18747096,
+        "url": "https://seatgeek.com/los-tigres-del-norte-tickets/denver-colorado-bellco-theatre-2027-02-27-8-pm/concert/18747096",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7795251,
@@ -1606,7 +1606,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7zF8",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7zF8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/montreal-canada-place-des-arts-2027-04-01-8-pm/concert/18747973",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7zF8",
@@ -1622,11 +1622,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18747973,
+        "url": "https://seatgeek.com/los-tigres-del-norte-tickets/montreal-canada-place-des-arts-2027-04-01-8-pm/concert/18747973",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1668,7 +1668,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7MAO",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7MAO",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/los-angeles-california-crypto-com-arena-2027-04-10-8-pm/concert/18739614",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7MAO",
@@ -1684,11 +1684,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18739614,
+        "url": "https://seatgeek.com/los-tigres-del-norte-tickets/los-angeles-california-crypto-com-arena-2027-04-10-8-pm/concert/18739614",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1746,7 +1746,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAZ18",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ18",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/hartford-connecticut-peoplesbank-arena-2027-04-17-8-30-pm/concert/18747975",
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-hartford-peoplesbank-arena-4-17-2027/production/7799310",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZ18",
@@ -1762,11 +1762,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18747975,
+        "url": "https://seatgeek.com/los-tigres-del-norte-tickets/hartford-connecticut-peoplesbank-arena-2027-04-17-8-30-pm/concert/18747975",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7799310,

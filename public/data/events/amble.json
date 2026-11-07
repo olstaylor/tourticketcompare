@@ -884,7 +884,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100649CBC0A3C05",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-boston-massachusetts-11-06-2026/event/0100649CBC0A3C05",
-    "seatgeek_url": "https://seatgeek.com/amble-tickets/boston-massachusetts-citizens-house-of-blues-boston-2026-11-06-7-pm/concert/18222463",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/amble-tickets-boston-citizens-house-of-blues-boston-11-6-2026--concerts-alternative/production/6982394",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-boston-massachusetts-11-06-2026/event/0100649CBC0A3C05",
@@ -900,11 +900,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18222463,
-        "url": "https://seatgeek.com/amble-tickets/boston-massachusetts-citizens-house-of-blues-boston-2026-11-06-7-pm/concert/18222463",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6982394,
@@ -975,7 +975,7 @@
         "event_id": 18223366,
         "url": "https://seatgeek.com/amble-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-07-7-pm/concert/18223366",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1056,7 +1056,7 @@
         "event_id": 18222479,
         "url": "https://seatgeek.com/amble-tickets/philadelphia-pennsylvania-theatre-of-living-arts-2026-11-10-8-pm/concert/18222479",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1114,7 +1114,7 @@
         "event_id": 18222468,
         "url": "https://seatgeek.com/amble-tickets/washington-district-of-columbia-9-30-club-2026-11-11-7-pm/concert/18222468",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

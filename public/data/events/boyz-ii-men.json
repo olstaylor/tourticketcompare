@@ -271,7 +271,7 @@
         "event_id": 18320946,
         "url": "https://seatgeek.com/boyz-ii-men-tickets/norman-oklahoma-riverwind-casino-2026-12-18-8-pm/concert/18320946",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -341,7 +341,7 @@
         "event_id": 18211756,
         "url": "https://seatgeek.com/boyz-ii-men-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-19-8-pm/concert/18211756",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -677,7 +677,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "150065489BB763FF",
     "ticketmaster_url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-13-2027/event/150065489BB763FF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/boyz-ii-men-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2027-02-13-8-pm/concert/18687410",
     "vividseats_url": "https://www.vividseats.com/boyz-ii-men-tickets-oxon-hill-the-theater-at-mgm-national-harbor-2-13-2027/production/7688476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-13-2027/event/150065489BB763FF",
@@ -693,11 +693,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18687410,
+        "url": "https://seatgeek.com/boyz-ii-men-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2027-02-13-8-pm/concert/18687410",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7688476,

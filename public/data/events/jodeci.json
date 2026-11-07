@@ -74,7 +74,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "080064F7F586B80E",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-detroit-michigan-11-06-2026/event/080064F7F586B80E",
-    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/detroit-michigan-fox-theatre-detroit-2026-11-06-8-pm/concert/18407238",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-detroit-fox-theatre-detroit-11-6-2026/production/7353261",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-detroit-michigan-11-06-2026/event/080064F7F586B80E",
@@ -90,11 +90,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18407238,
-        "url": "https://seatgeek.com/jodeci-tickets/detroit-michigan-fox-theatre-detroit-2026-11-06-8-pm/concert/18407238",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7353261,
@@ -165,7 +165,7 @@
         "event_id": 18407239,
         "url": "https://seatgeek.com/jodeci-tickets/chicago-illinois-arie-crown-theater-2026-11-07-8-pm/concert/18407239",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -238,7 +238,7 @@
         "event_id": 18407240,
         "url": "https://seatgeek.com/jodeci-tickets/indianapolis-indiana-murat-theatre-at-old-national-centre-2026-11-08-7-30-pm/concert/18407240",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -312,7 +312,7 @@
         "event_id": 18407241,
         "url": "https://seatgeek.com/jodeci-tickets/cincinnati-ohio-andrew-j-brady-music-center-2026-11-10-8-pm/concert/18407241",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -452,7 +452,7 @@
         "event_id": 18407243,
         "url": "https://seatgeek.com/jodeci-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-11-12-8-pm/concert/18407243",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1934,7 +1934,7 @@
         "event_id": 18407288,
         "url": "https://seatgeek.com/jodeci-tickets/jacksonville-florida-florida-theatre-jacksonville-2026-12-15-8-pm/concert/18407288",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -2335,7 +2335,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7Mot",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Mot",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mercyme-tickets-johnson-city-freedom-hall-civic-center-tn-4-11-2027/production/7717397",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Mot",
     "last_verified_at": null,
@@ -2357,11 +2357,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7717397,
+        "url": "https://www.vividseats.com/mercyme-tickets-johnson-city-freedom-hall-civic-center-tn-4-11-2027/production/7717397",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

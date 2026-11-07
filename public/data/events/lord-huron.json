@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZbfY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfY",
     "seatgeek_url": "https://seatgeek.com/lord-huron-tickets/nashville-tennessee-ryman-auditorium-2026-12-01-8-pm/concert/18421956",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-nashville-ryman-auditorium-12-1-2026--concerts-country-and-folk/production/7382289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfY",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7382289,
+        "url": "https://www.vividseats.com/lord-huron-tickets-nashville-ryman-auditorium-12-1-2026--concerts-country-and-folk/production/7382289",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -18,6 +18,9 @@
 //   provider_redirect_missing a provider got beacons but no redirect receipts
 //   no_clicks                 visitors but no real redirects at all
 //   beacon_gap                many beacons never became a redirect receipt
+//   click_drop                real redirects fell far below both the previous
+//                             week's median and the same weekday last week
+//   search_drop               search visitors fell the same way (amber)
 //   no_sales                  no Impact action for 14 days
 //   impact_unavailable        Impact could not be read, so sales are unknown
 //   attribution_gap           orders cannot all be joined to recorded clicks
@@ -66,8 +69,33 @@ export const THRESHOLDS = Object.freeze({
   noClicksMinVisitors: 20,
   beaconGapMinBeacons: 10,
   beaconGapMinShare: 0.7,  // real redirects per beacon
-  noSalesDays: 14
+  noSalesDays: 14,
+  // Drops: the latest day against the median of the days before it AND the
+  // same weekday a week earlier, so a normal quiet Sunday does not alarm.
+  clickDropMinMedian: 10,
+  clickDropShare: 0.3,
+  searchDropMinMedian: 20,
+  searchDropShare: 0.5
 });
+
+const median = (values) => {
+  const sorted = [...values].sort((a, b) => a - b);
+  if (!sorted.length) return 0;
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+};
+
+// A fall below `share` of both baselines, with enough volume to mean something.
+// Needs a full week of history; a shorter window never reports a drop.
+export function dropAgainstBaseline(days, key, minMedian, share) {
+  if (days.length < 8) return null;
+  const latest = days.at(-1)[key];
+  const before = days.slice(-8, -1).map((d) => d[key]);
+  const typical = median(before);
+  const sameWeekday = days.at(-8)[key];
+  if (typical < minMedian || sameWeekday < minMedian) return null;
+  return latest < share * typical && latest < share * sameWeekday ? { latest, typical, sameWeekday } : null;
+}
 
 // The last `days` complete UTC days before `now`.
 export function dayWindow(now, days) {
@@ -162,6 +190,16 @@ export function evaluateFlags(funnel, t = THRESHOLDS) {
   if (y.visitors >= t.noClicksMinVisitors && y.realClicks === 0) {
     add("no_clicks", "red", `${y.visitors} visitors on ${y.day} and no real ticket redirect at all.`);
   }
+  // When no_clicks already fired, a drop alert would repeat it.
+  const noClicks = y.visitors >= t.noClicksMinVisitors && y.realClicks === 0;
+  const clickDrop = !noClicks ? dropAgainstBaseline(funnel.days, "realClicks", t.clickDropMinMedian, t.clickDropShare) : null;
+  if (clickDrop) {
+    add("click_drop", "red", `${clickDrop.latest} real ticket redirects on ${y.day}, against a typical ${clickDrop.typical} a day this week and ${clickDrop.sameWeekday} on the same weekday last week. Check the price buttons and /api/out.`);
+  }
+  const searchDrop = dropAgainstBaseline(funnel.days, "searchVisitors", t.searchDropMinMedian, t.searchDropShare);
+  if (searchDrop) {
+    add("search_drop", "amber", `${searchDrop.latest} visitors from search on ${y.day}, against a typical ${searchDrop.typical} a day this week and ${searchDrop.sameWeekday} on the same weekday last week. Check Search Console and the site-health crawl.`);
+  }
   if (y.beacons >= t.beaconGapMinBeacons && y.realClicks < t.beaconGapMinShare * y.beacons) {
     add("beacon_gap", "amber", `${y.beacons} button clicks on ${y.day} but only ${y.realClicks} real redirects.`);
   }
@@ -180,6 +218,10 @@ export function evaluateFlags(funnel, t = THRESHOLDS) {
     }
   }
   return flags;
+}
+
+function healthyFunnelShape(days) {
+  return { generatedAt: days.at(-1).day, days, latest: days.at(-1), providers: {} };
 }
 
 export function renderFunnel(funnel, flags) {
@@ -406,6 +448,22 @@ function selfTest() {
   assert.deepEqual(evaluateFlags(exactFunnel), []);
   assert.ok(renderFunnel(exactFunnel, []).includes("by Sub ID: 1 of 1"));
   assert.deepEqual(evaluateFlags(buildFunnel(healthyResults, range, summarizeImpact([], []))).map(f => f.id), ["no_sales"]);
+
+  // Sharp falls against a full week, never against a short window or low volume.
+  const week = (clicks, search) => clicks.map((c, i) => ({ realClicks: c, searchVisitors: search[i] }));
+  assert.deepEqual(dropAgainstBaseline(week([20, 22, 18, 25, 21, 19, 23, 4], [60, 55, 58, 62, 50, 57, 61, 20]), "realClicks", 10, 0.3), { latest: 4, typical: 21, sameWeekday: 20 });
+  assert.ok(dropAgainstBaseline(week([20, 22, 18, 25, 21, 19, 23, 4], [60, 55, 58, 62, 50, 57, 61, 20]), "searchVisitors", 20, 0.5), "search falling by two thirds is a drop");
+  assert.equal(dropAgainstBaseline(week([20, 22, 18, 25, 21, 19, 23, 9], []), "realClicks", 10, 0.3), null, "a 57% day is not a drop");
+  assert.equal(dropAgainstBaseline(week([5, 22, 18, 25, 21, 19, 23, 4], []), "realClicks", 10, 0.3), null, "same weekday last week was also quiet");
+  assert.equal(dropAgainstBaseline(week([3, 4, 2, 5, 3, 4, 3, 0], []), "realClicks", 10, 0.3), null, "too little volume to call");
+  assert.equal(dropAgainstBaseline(week([20, 22, 4], []), "realClicks", 10, 0.3), null, "a short window never reports");
+  assert.ok(dropAgainstBaseline(week([...Array(23).fill(1), 100, 100, 100, 100, 100, 100, 100, 10], []), "realClicks", 10, 0.3), "a longer report window does not dilute the 7-day baseline");
+  const dropDays = [20, 22, 18, 25, 21, 19, 23, 4].map((c, i) => ({ day: `2026-10-${15 + i}`, visitors: 200, searchVisitors: 60, clickers: 20, beacons: c, redirects: c, realClicks: c, unbacked: 0 }));
+  const dropFlags = evaluateFlags({ ...healthyFunnelShape(dropDays), impact: summarizeImpact([{ state: "PENDING", payout: 1, currency: "GBP", day: "2026-10-22" }], [{ provider: "vivid-seats" }]) });
+  assert.deepEqual(dropFlags.map((f) => f.id), ["click_drop"], "a sharp fall is red, nothing else fires");
+  const outageDays = dropDays.map((d, i) => (i === 7 ? { ...d, visitors: 0, searchVisitors: 0, beacons: 0, redirects: 0, realClicks: 0 } : d));
+  const outageFlags = evaluateFlags({ ...healthyFunnelShape(outageDays), impact: summarizeImpact([{ state: "PENDING", payout: 1, currency: "GBP", day: "2026-10-22" }], [{ provider: "vivid-seats" }]) });
+  assert.ok(outageFlags.some((f) => f.id === "click_drop"), "a zero day with too few visitors for no_clicks still raises click_drop");
 
   // Notify once per new red flag, not nightly.
   assert.deepEqual(newRedFlags(md, flags).map((f) => f.id), []);

@@ -1,0 +1,568 @@
+{
+  "storyType": "monthly-tour-movers",
+  "asOf": "2026-11-06",
+  "source": "provider_pricing_daily (D1), low_price_last per event x provider x UTC day, read 2026-11-06 through the Cloudflare D1 API",
+  "scope": "US dates (country from events.json; city slugs shared by US and non-US cities excluded), USD, event_date >= 2026-11-13; base = median of daily last low 2026-10-05..07, end = median 2026-11-03..05, each needing 2+ of 3 days; same event + same site only; prices >= $1,000 excluded as placeholders; within 2% = about the same",
+  "naming": "artist listed when 8+ dates, |median change| >= 5%, 2+ sites with 5+ dates, and every site with 5+ dates has a median change of the same sign",
+  "totals": {
+    "comparisons": 2344,
+    "dates": 1072,
+    "artists": 71,
+    "lower": 1201,
+    "higher": 621,
+    "within2": 522,
+    "medianChangePct": -2.4,
+    "excluded": {
+      "nonUS": 544,
+      "ambiguousCity": 114,
+      "thinWindow": 80,
+      "placeholder": 5
+    }
+  },
+  "sites": [
+    {
+      "site": "vivid-seats",
+      "dates": 965,
+      "artists": 68,
+      "lower": 475,
+      "higher": 251,
+      "medianChangePct": -1.7
+    },
+    {
+      "site": "ticketnetwork",
+      "dates": 981,
+      "artists": 71,
+      "lower": 526,
+      "higher": 233,
+      "medianChangePct": -3.1
+    },
+    {
+      "site": "stubhub-international",
+      "dates": 398,
+      "artists": 49,
+      "lower": 200,
+      "higher": 137,
+      "medianChangePct": -2.3
+    }
+  ],
+  "named": [
+    {
+      "artist": "greta-van-fleet",
+      "dates": 35,
+      "comparisons": 69,
+      "lower": 69,
+      "higher": 0,
+      "medianChangePct": -43.2,
+      "bySite": {
+        "ticketnetwork": {
+          "dates": 34,
+          "medianChangePct": -39.7,
+          "medianLowUsdStart": 140,
+          "medianLowUsdEnd": 86
+        },
+        "vivid-seats": {
+          "dates": 35,
+          "medianChangePct": -46.7,
+          "medianLowUsdStart": 123,
+          "medianLowUsdEnd": 65
+        }
+      }
+    },
+    {
+      "artist": "gracie-abrams",
+      "dates": 33,
+      "comparisons": 99,
+      "lower": 86,
+      "higher": 11,
+      "medianChangePct": -27.1,
+      "bySite": {
+        "stubhub-international": {
+          "dates": 33,
+          "medianChangePct": -23.2,
+          "medianLowUsdStart": 53,
+          "medianLowUsdEnd": 42
+        },
+        "ticketnetwork": {
+          "dates": 33,
+          "medianChangePct": -28.2,
+          "medianLowUsdStart": 69,
+          "medianLowUsdEnd": 62
+        },
+        "vivid-seats": {
+          "dates": 33,
+          "medianChangePct": -28.9,
+          "medianLowUsdStart": 63,
+          "medianLowUsdEnd": 46
+        }
+      }
+    },
+    {
+      "artist": "beartooth",
+      "dates": 19,
+      "comparisons": 36,
+      "lower": 25,
+      "higher": 7,
+      "medianChangePct": -19.7,
+      "bySite": {
+        "stubhub-international": {
+          "dates": 3,
+          "medianChangePct": -44.6,
+          "medianLowUsdStart": 50,
+          "medianLowUsdEnd": 38
+        },
+        "ticketnetwork": {
+          "dates": 16,
+          "medianChangePct": -19.7,
+          "medianLowUsdStart": 76,
+          "medianLowUsdEnd": 56
+        },
+        "vivid-seats": {
+          "dates": 17,
+          "medianChangePct": -14.3,
+          "medianLowUsdStart": 71,
+          "medianLowUsdEnd": 61
+        }
+      }
+    },
+    {
+      "artist": "carly-rae-jepsen",
+      "dates": 17,
+      "comparisons": 36,
+      "lower": 29,
+      "higher": 6,
+      "medianChangePct": -16.5,
+      "bySite": {
+        "ticketnetwork": {
+          "dates": 17,
+          "medianChangePct": -16.4,
+          "medianLowUsdStart": 131,
+          "medianLowUsdEnd": 102
+        },
+        "vivid-seats": {
+          "dates": 15,
+          "medianChangePct": -16.7,
+          "medianLowUsdStart": 103,
+          "medianLowUsdEnd": 80
+        },
+        "stubhub-international": {
+          "dates": 4,
+          "medianChangePct": -12.4,
+          "medianLowUsdStart": 79,
+          "medianLowUsdEnd": 68
+        }
+      }
+    },
+    {
+      "artist": "stella-lefty",
+      "dates": 21,
+      "comparisons": 42,
+      "lower": 39,
+      "higher": 2,
+      "medianChangePct": -15.2,
+      "bySite": {
+        "stubhub-international": {
+          "dates": 3,
+          "medianChangePct": -19.2,
+          "medianLowUsdStart": 66,
+          "medianLowUsdEnd": 54
+        },
+        "ticketnetwork": {
+          "dates": 20,
+          "medianChangePct": -14.2,
+          "medianLowUsdStart": 81,
+          "medianLowUsdEnd": 68
+        },
+        "vivid-seats": {
+          "dates": 19,
+          "medianChangePct": -14.1,
+          "medianLowUsdStart": 97,
+          "medianLowUsdEnd": 83
+        }
+      }
+    },
+    {
+      "artist": "michelle-branch",
+      "dates": 17,
+      "comparisons": 34,
+      "lower": 28,
+      "higher": 5,
+      "medianChangePct": -14.6,
+      "bySite": {
+        "stubhub-international": {
+          "dates": 2,
+          "medianChangePct": -26.2,
+          "medianLowUsdStart": 111,
+          "medianLowUsdEnd": 92
+        },
+        "ticketnetwork": {
+          "dates": 16,
+          "medianChangePct": -21.1,
+          "medianLowUsdStart": 75,
+          "medianLowUsdEnd": 76
+        },
+        "vivid-seats": {
+          "dates": 16,
+          "medianChangePct": -9.8,
+          "medianLowUsdStart": 91,
+          "medianLowUsdEnd": 76
+        }
+      }
+    },
+    {
+      "artist": "chelsea-cutler",
+      "dates": 12,
+      "comparisons": 20,
+      "lower": 20,
+      "higher": 0,
+      "medianChangePct": -11.9,
+      "bySite": {
+        "ticketnetwork": {
+          "dates": 10,
+          "medianChangePct": -10.2,
+          "medianLowUsdStart": 89,
+          "medianLowUsdEnd": 79
+        },
+        "vivid-seats": {
+          "dates": 9,
+          "medianChangePct": -15.5,
+          "medianLowUsdStart": 80,
+          "medianLowUsdEnd": 68
+        },
+        "stubhub-international": {
+          "dates": 1,
+          "medianChangePct": -14.2,
+          "medianLowUsdStart": 67,
+          "medianLowUsdEnd": 58
+        }
+      }
+    },
+    {
+      "artist": "trivium",
+      "dates": 17,
+      "comparisons": 33,
+      "lower": 23,
+      "higher": 8,
+      "medianChangePct": -11.1,
+      "bySite": {
+        "ticketnetwork": {
+          "dates": 17,
+          "medianChangePct": -12.9,
+          "medianLowUsdStart": 71,
+          "medianLowUsdEnd": 70
+        },
+        "vivid-seats": {
+          "dates": 15,
+          "medianChangePct": -9.5,
+          "medianLowUsdStart": 74,
+          "medianLowUsdEnd": 60
+        },
+        "stubhub-international": {
+          "dates": 1,
+          "medianChangePct": -63,
+          "medianLowUsdStart": 44,
+          "medianLowUsdEnd": 16
+        }
+      }
+    },
+    {
+      "artist": "sombr",
+      "dates": 8,
+      "comparisons": 22,
+      "lower": 16,
+      "higher": 4,
+      "medianChangePct": -10.9,
+      "bySite": {
+        "stubhub-international": {
+          "dates": 6,
+          "medianChangePct": -10.8,
+          "medianLowUsdStart": 81,
+          "medianLowUsdEnd": 77
+        },
+        "ticketnetwork": {
+          "dates": 8,
+          "medianChangePct": -15.8,
+          "medianLowUsdStart": 97,
+          "medianLowUsdEnd": 89
+        },
+        "vivid-seats": {
+          "dates": 8,
+          "medianChangePct": -7.9,
+          "medianLowUsdStart": 87,
+          "medianLowUsdEnd": 82
+        }
+      }
+    },
+    {
+      "artist": "harry-styles",
+      "dates": 18,
+      "comparisons": 49,
+      "lower": 32,
+      "higher": 15,
+      "medianChangePct": -8.7,
+      "bySite": {
+        "stubhub-international": {
+          "dates": 18,
+          "medianChangePct": -10.5,
+          "medianLowUsdStart": 82,
+          "medianLowUsdEnd": 73
+        },
+        "ticketnetwork": {
+          "dates": 18,
+          "medianChangePct": -5.4,
+          "medianLowUsdStart": 92,
+          "medianLowUsdEnd": 89
+        },
+        "vivid-seats": {
+          "dates": 13,
+          "medianChangePct": -7.1,
+          "medianLowUsdStart": 97,
+          "medianLowUsdEnd": 80
+        }
+      }
+    },
+    {
+      "artist": "pentatonix",
+      "dates": 23,
+      "comparisons": 57,
+      "lower": 33,
+      "higher": 13,
+      "medianChangePct": -8.3,
+      "bySite": {
+        "stubhub-international": {
+          "dates": 12,
+          "medianChangePct": -11,
+          "medianLowUsdStart": 60,
+          "medianLowUsdEnd": 51
+        },
+        "ticketnetwork": {
+          "dates": 23,
+          "medianChangePct": -5.9,
+          "medianLowUsdStart": 67,
+          "medianLowUsdEnd": 67
+        },
+        "vivid-seats": {
+          "dates": 22,
+          "medianChangePct": -10.4,
+          "medianLowUsdStart": 66,
+          "medianLowUsdEnd": 51
+        }
+      }
+    },
+    {
+      "artist": "the-red-clay-strays",
+      "dates": 24,
+      "comparisons": 48,
+      "lower": 40,
+      "higher": 2,
+      "medianChangePct": -8.2,
+      "bySite": {
+        "stubhub-international": {
+          "dates": 2,
+          "medianChangePct": -8.2,
+          "medianLowUsdStart": 56,
+          "medianLowUsdEnd": 51
+        },
+        "ticketnetwork": {
+          "dates": 23,
+          "medianChangePct": -11.5,
+          "medianLowUsdStart": 112,
+          "medianLowUsdEnd": 94
+        },
+        "vivid-seats": {
+          "dates": 23,
+          "medianChangePct": -8.1,
+          "medianLowUsdStart": 89,
+          "medianLowUsdEnd": 81
+        }
+      }
+    },
+    {
+      "artist": "tyla",
+      "dates": 18,
+      "comparisons": 47,
+      "lower": 29,
+      "higher": 16,
+      "medianChangePct": -6,
+      "bySite": {
+        "stubhub-international": {
+          "dates": 14,
+          "medianChangePct": -5.9,
+          "medianLowUsdStart": 64,
+          "medianLowUsdEnd": 62
+        },
+        "ticketnetwork": {
+          "dates": 17,
+          "medianChangePct": -2.2,
+          "medianLowUsdStart": 92,
+          "medianLowUsdEnd": 84
+        },
+        "vivid-seats": {
+          "dates": 16,
+          "medianChangePct": -7.7,
+          "medianLowUsdStart": 76,
+          "medianLowUsdEnd": 72
+        }
+      }
+    },
+    {
+      "artist": "niall-horan",
+      "dates": 21,
+      "comparisons": 56,
+      "lower": 32,
+      "higher": 10,
+      "medianChangePct": -5.8,
+      "bySite": {
+        "stubhub-international": {
+          "dates": 14,
+          "medianChangePct": -3.7,
+          "medianLowUsdStart": 78,
+          "medianLowUsdEnd": 69
+        },
+        "ticketnetwork": {
+          "dates": 21,
+          "medianChangePct": -1,
+          "medianLowUsdStart": 106,
+          "medianLowUsdEnd": 90
+        },
+        "vivid-seats": {
+          "dates": 21,
+          "medianChangePct": -9.8,
+          "medianLowUsdStart": 88,
+          "medianLowUsdEnd": 80
+        }
+      }
+    },
+    {
+      "artist": "missio",
+      "dates": 17,
+      "comparisons": 29,
+      "lower": 17,
+      "higher": 3,
+      "medianChangePct": -5.3,
+      "bySite": {
+        "ticketnetwork": {
+          "dates": 17,
+          "medianChangePct": -5.3,
+          "medianLowUsdStart": 60,
+          "medianLowUsdEnd": 61
+        },
+        "vivid-seats": {
+          "dates": 12,
+          "medianChangePct": -4.9,
+          "medianLowUsdStart": 52,
+          "medianLowUsdEnd": 51
+        }
+      }
+    },
+    {
+      "artist": "luke-combs",
+      "dates": 10,
+      "comparisons": 25,
+      "lower": 3,
+      "higher": 15,
+      "medianChangePct": 5,
+      "bySite": {
+        "stubhub-international": {
+          "dates": 8,
+          "medianChangePct": 3.8,
+          "medianLowUsdStart": 104,
+          "medianLowUsdEnd": 107
+        },
+        "ticketnetwork": {
+          "dates": 9,
+          "medianChangePct": 9.2,
+          "medianLowUsdStart": 113,
+          "medianLowUsdEnd": 110
+        },
+        "vivid-seats": {
+          "dates": 8,
+          "medianChangePct": 2.5,
+          "medianLowUsdStart": 115,
+          "medianLowUsdEnd": 117
+        }
+      }
+    },
+    {
+      "artist": "don-omar",
+      "dates": 15,
+      "comparisons": 40,
+      "lower": 8,
+      "higher": 30,
+      "medianChangePct": 13.1,
+      "bySite": {
+        "stubhub-international": {
+          "dates": 11,
+          "medianChangePct": 18.6,
+          "medianLowUsdStart": 88,
+          "medianLowUsdEnd": 106
+        },
+        "ticketnetwork": {
+          "dates": 14,
+          "medianChangePct": 1.9,
+          "medianLowUsdStart": 127,
+          "medianLowUsdEnd": 122
+        },
+        "vivid-seats": {
+          "dates": 15,
+          "medianChangePct": 21.2,
+          "medianLowUsdStart": 97,
+          "medianLowUsdEnd": 116
+        }
+      }
+    },
+    {
+      "artist": "john-summit",
+      "dates": 12,
+      "comparisons": 33,
+      "lower": 3,
+      "higher": 28,
+      "medianChangePct": 31.1,
+      "bySite": {
+        "stubhub-international": {
+          "dates": 10,
+          "medianChangePct": 26.7,
+          "medianLowUsdStart": 55,
+          "medianLowUsdEnd": 70
+        },
+        "ticketnetwork": {
+          "dates": 12,
+          "medianChangePct": 36.2,
+          "medianLowUsdStart": 78,
+          "medianLowUsdEnd": 102
+        },
+        "vivid-seats": {
+          "dates": 11,
+          "medianChangePct": 38,
+          "medianLowUsdStart": 61,
+          "medianLowUsdEnd": 75
+        }
+      }
+    }
+  ],
+  "notNamed": {
+    "olivia-rodrigo": {
+      "dates": 35,
+      "medianChangePct": 0
+    },
+    "metallica": {
+      "dates": 18,
+      "medianChangePct": -1.7,
+      "sitesAgree": false
+    },
+    "hans-zimmer": {
+      "dates": 26,
+      "medianChangePct": 4.6,
+      "sitesAgree": true
+    },
+    "fontaines-d-c": {
+      "dates": 10,
+      "medianChangePct": -17.8,
+      "note": "one site only"
+    },
+    "valley": {
+      "dates": 14,
+      "medianChangePct": -8.2,
+      "note": "one site only"
+    }
+  }
+}

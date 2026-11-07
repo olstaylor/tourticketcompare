@@ -2,9 +2,9 @@
 title: "Riley Green tour tickets: listed prices city by city"
 seo_title: "Riley Green tour ticket prices by city"
 description: "Riley Green's tour in the United States: the lowest listed price for the next date in 22 cities, $66 in Tulsa at the low end, $162 in Brandon at the high end."
-summary: "Vivid Seats' lowest listed price for the next Riley Green date in each of 22 cities, each figure with the time it was captured. Snapshots 6 November 2026."
+summary: "Vivid Seats' lowest listed price for the next Riley Green date in each of 22 cities, each figure with the time it was captured. Snapshots 7 November 2026."
 date: 2026-10-26
-updated: 2026-11-06
+updated: 2026-11-07
 status: published
 tags:
   - tour-data
@@ -20,28 +20,28 @@ Riley Green's That's Just Me Tour has 33 dates that TourTicketCompare tracks. In
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Tulsa](/artists/riley-green/tickets/tulsa-united-states) | 20 May 2027 | BOK Center | $66 | Vivid Seats | 6 November, 11:35 UTC |
-| [Clarkston](/artists/riley-green/tickets/clarkston-united-states) | 25 June 2027 | Pine Knob Music Theatre | $67 | Vivid Seats | 6 November, 11:35 UTC |
-| [Syracuse](/artists/riley-green/tickets/syracuse-united-states) | 15 July 2027 | Empower Federal Credit Union Amphitheater at Lakeview | $69 | Vivid Seats | 6 November, 11:35 UTC |
-| [Dallas](/artists/riley-green/tickets/dallas-united-states) | 21 May 2027 | Dos Equis Pavilion | $74 | Vivid Seats | 6 November, 11:35 UTC |
-| [Milwaukee](/artists/riley-green/tickets/milwaukee-united-states) | 31 July 2027 | American Family Insurance Amphitheater - Summerfest Grounds | $74 | Vivid Seats | 6 November, 11:35 UTC |
-| [Mansfield](/artists/riley-green/tickets/mansfield-united-states) | 24 July 2027 | Xfinity Center | $80 | Vivid Seats | 6 November, 11:35 UTC |
-| [Wichita](/artists/riley-green/tickets/wichita-united-states) | 7 May 2027 | INTRUST Bank Arena | $80 | Vivid Seats | 6 November, 11:35 UTC |
-| [Bethel](/artists/riley-green/tickets/bethel-united-states) | 23 July 2027 | Bethel Woods Center for the Arts | $81 | Vivid Seats | 6 November, 11:35 UTC |
-| [Columbia](/artists/riley-green/tickets/columbia-united-states) | 22 July 2027 | Merriweather Post Pavilion | $87 | Vivid Seats | 6 November, 11:35 UTC |
-| [Knoxville](/artists/riley-green/tickets/knoxville-united-states) | 30 April 2027 | Food City Center | $87 | Vivid Seats | 6 November, 11:35 UTC |
-| [Spokane](/artists/riley-green/tickets/spokane-united-states) | 1 April 2027 | Numerica Veterans Arena | $89 | Vivid Seats | 6 November, 11:35 UTC |
-| [Evansville](/artists/riley-green/tickets/evansville-united-states) | 29 July 2027 | Ford Center | $90 | Vivid Seats | 6 November, 11:35 UTC |
-| [Allentown](/artists/riley-green/tickets/allentown-united-states) | 16 July 2027 | PPL Center | $92 | Vivid Seats | 6 November, 11:35 UTC |
-| [Raleigh](/artists/riley-green/tickets/raleigh-united-states) | 29 April 2027 | Coastal Credit Union Music Park at Walnut Creek | $94 | Vivid Seats | 6 November, 11:35 UTC |
-| [Gilford](/artists/riley-green/tickets/gilford-united-states) | 18 June 2027 | BankNH Pavilion | $95 | Vivid Seats | 6 November, 11:35 UTC |
-| [Seattle](/artists/riley-green/tickets/seattle-united-states) | 2 April 2027 | Climate Pledge Arena | $96 | Vivid Seats | 6 November, 11:35 UTC |
-| [Orange Beach](/artists/riley-green/tickets/orange-beach-united-states) | 4 June 2027 | The Wharf Amphitheater | $105 | Vivid Seats | 6 November, 11:35 UTC |
-| [Rogers](/artists/riley-green/tickets/rogers-united-states) | 8 May 2027 | Walmart AMP | $106 | Vivid Seats | 6 November, 11:35 UTC |
-| [Mount Pleasant](/artists/riley-green/tickets/mount-pleasant-united-states) | 10 June 2027 | Soaring Eagle Casino & Resort | $108 | Vivid Seats | 6 November, 11:35 UTC |
-| [Eugene](/artists/riley-green/tickets/eugene-united-states) | 3 April 2027 | Matthew Knight Arena | $124 | Vivid Seats | 6 November, 11:35 UTC |
-| [Greenville](/artists/riley-green/tickets/greenville-united-states) | 1 May 2027 | Bon Secours Wellness Arena | $137 | Vivid Seats | 6 November, 11:35 UTC |
-| [Brandon](/artists/riley-green/tickets/brandon-united-states) | 3 June 2027 | Brandon Amphitheater | $162 | Vivid Seats | 6 November, 11:35 UTC |
+| [Tulsa](/artists/riley-green/tickets/tulsa-united-states) | 20 May 2027 | BOK Center | $66 | Vivid Seats | 7 November, 16:40 UTC |
+| [Clarkston](/artists/riley-green/tickets/clarkston-united-states) | 25 June 2027 | Pine Knob Music Theatre | $67 | Vivid Seats | 7 November, 16:40 UTC |
+| [Syracuse](/artists/riley-green/tickets/syracuse-united-states) | 15 July 2027 | Empower Federal Credit Union Amphitheater at Lakeview | $69 | Vivid Seats | 7 November, 16:40 UTC |
+| [Dallas](/artists/riley-green/tickets/dallas-united-states) | 21 May 2027 | Dos Equis Pavilion | $74 | Vivid Seats | 7 November, 16:40 UTC |
+| [Milwaukee](/artists/riley-green/tickets/milwaukee-united-states) | 31 July 2027 | American Family Insurance Amphitheater - Summerfest Grounds | $74 | Vivid Seats | 7 November, 16:40 UTC |
+| [Wichita](/artists/riley-green/tickets/wichita-united-states) | 7 May 2027 | INTRUST Bank Arena | $80 | Vivid Seats | 7 November, 16:40 UTC |
+| [Bethel](/artists/riley-green/tickets/bethel-united-states) | 23 July 2027 | Bethel Woods Center for the Arts | $81 | Vivid Seats | 7 November, 16:40 UTC |
+| [Mansfield](/artists/riley-green/tickets/mansfield-united-states) | 24 July 2027 | Xfinity Center | $82 | Vivid Seats | 7 November, 16:40 UTC |
+| [Columbia](/artists/riley-green/tickets/columbia-united-states) | 22 July 2027 | Merriweather Post Pavilion | $87 | Vivid Seats | 7 November, 16:40 UTC |
+| [Knoxville](/artists/riley-green/tickets/knoxville-united-states) | 30 April 2027 | Food City Center | $87 | Vivid Seats | 7 November, 16:40 UTC |
+| [Spokane](/artists/riley-green/tickets/spokane-united-states) | 1 April 2027 | Numerica Veterans Arena | $89 | Vivid Seats | 7 November, 16:40 UTC |
+| [Evansville](/artists/riley-green/tickets/evansville-united-states) | 29 July 2027 | Ford Center | $90 | Vivid Seats | 7 November, 16:40 UTC |
+| [Allentown](/artists/riley-green/tickets/allentown-united-states) | 16 July 2027 | PPL Center | $92 | Vivid Seats | 7 November, 16:40 UTC |
+| [Raleigh](/artists/riley-green/tickets/raleigh-united-states) | 29 April 2027 | Coastal Credit Union Music Park at Walnut Creek | $94 | Vivid Seats | 7 November, 16:40 UTC |
+| [Gilford](/artists/riley-green/tickets/gilford-united-states) | 18 June 2027 | BankNH Pavilion | $95 | Vivid Seats | 7 November, 16:40 UTC |
+| [Seattle](/artists/riley-green/tickets/seattle-united-states) | 2 April 2027 | Climate Pledge Arena | $96 | Vivid Seats | 7 November, 16:40 UTC |
+| [Orange Beach](/artists/riley-green/tickets/orange-beach-united-states) | 4 June 2027 | The Wharf Amphitheater | $104 | Vivid Seats | 7 November, 16:40 UTC |
+| [Rogers](/artists/riley-green/tickets/rogers-united-states) | 8 May 2027 | Walmart AMP | $106 | Vivid Seats | 7 November, 16:40 UTC |
+| [Mount Pleasant](/artists/riley-green/tickets/mount-pleasant-united-states) | 10 June 2027 | Soaring Eagle Casino & Resort | $120 | Vivid Seats | 7 November, 16:40 UTC |
+| [Eugene](/artists/riley-green/tickets/eugene-united-states) | 3 April 2027 | Matthew Knight Arena | $124 | Vivid Seats | 7 November, 16:40 UTC |
+| [Greenville](/artists/riley-green/tickets/greenville-united-states) | 1 May 2027 | Bon Secours Wellness Arena | $131 | Vivid Seats | 7 November, 16:40 UTC |
+| [Brandon](/artists/riley-green/tickets/brandon-united-states) | 3 June 2027 | Brandon Amphitheater | $162 | Vivid Seats | 7 November, 16:40 UTC |
 
 Each figure is the lowest listed price on Vivid Seats for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
@@ -51,25 +51,25 @@ TicketNetwork also had a recent listed price for the next date in 19 of these ci
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Spokane](/artists/riley-green/tickets/spokane-united-states) | 1 April 2027 | Numerica Veterans Arena | $110.40 | TicketNetwork | 6 November, 18:02 UTC |
-| [Seattle](/artists/riley-green/tickets/seattle-united-states) | 2 April 2027 | Climate Pledge Arena | $81.65 | TicketNetwork | 6 November, 18:02 UTC |
-| [Eugene](/artists/riley-green/tickets/eugene-united-states) | 3 April 2027 | Matthew Knight Arena | $110.40 | TicketNetwork | 6 November, 18:02 UTC |
-| [Raleigh](/artists/riley-green/tickets/raleigh-united-states) | 29 April 2027 | Coastal Credit Union Music Park at Walnut Creek | $86.25 | TicketNetwork | 6 November, 18:02 UTC |
-| [Knoxville](/artists/riley-green/tickets/knoxville-united-states) | 30 April 2027 | Food City Center | $97.75 | TicketNetwork | 6 November, 18:02 UTC |
-| [Greenville](/artists/riley-green/tickets/greenville-united-states) | 1 May 2027 | Bon Secours Wellness Arena | $127.65 | TicketNetwork | 6 November, 18:02 UTC |
-| [Wichita](/artists/riley-green/tickets/wichita-united-states) | 7 May 2027 | INTRUST Bank Arena | $81.65 | TicketNetwork | 6 November, 18:02 UTC |
-| [Rogers](/artists/riley-green/tickets/rogers-united-states) | 8 May 2027 | Walmart AMP | $89.70 | TicketNetwork | 6 November, 18:02 UTC |
-| [Tulsa](/artists/riley-green/tickets/tulsa-united-states) | 20 May 2027 | BOK Center | $81.65 | TicketNetwork | 6 November, 18:02 UTC |
-| [Dallas](/artists/riley-green/tickets/dallas-united-states) | 21 May 2027 | Dos Equis Pavilion | $88.55 | TicketNetwork | 6 November, 18:02 UTC |
-| [Brandon](/artists/riley-green/tickets/brandon-united-states) | 3 June 2027 | Brandon Amphitheater | $174.80 | TicketNetwork | 6 November, 18:02 UTC |
-| [Mount Pleasant](/artists/riley-green/tickets/mount-pleasant-united-states) | 10 June 2027 | Soaring Eagle Casino & Resort | $88.55 | TicketNetwork | 6 November, 18:02 UTC |
-| [Clarkston](/artists/riley-green/tickets/clarkston-united-states) | 25 June 2027 | Pine Knob Music Theatre | $82.80 | TicketNetwork | 6 November, 18:02 UTC |
-| [Syracuse](/artists/riley-green/tickets/syracuse-united-states) | 15 July 2027 | Empower Federal Credit Union Amphitheater at Lakeview | $58.65 | TicketNetwork | 6 November, 18:02 UTC |
-| [Allentown](/artists/riley-green/tickets/allentown-united-states) | 16 July 2027 | PPL Center | $93.15 | TicketNetwork | 6 November, 18:02 UTC |
-| [Columbia](/artists/riley-green/tickets/columbia-united-states) | 22 July 2027 | Merriweather Post Pavilion | $105.80 | TicketNetwork | 6 November, 18:02 UTC |
-| [Bethel](/artists/riley-green/tickets/bethel-united-states) | 23 July 2027 | Bethel Woods Center for the Arts | $77.05 | TicketNetwork | 6 November, 18:02 UTC |
-| [Mansfield](/artists/riley-green/tickets/mansfield-united-states) | 24 July 2027 | Xfinity Center | $101.20 | TicketNetwork | 6 November, 18:02 UTC |
-| [Evansville](/artists/riley-green/tickets/evansville-united-states) | 29 July 2027 | Ford Center | $83.95 | TicketNetwork | 6 November, 18:02 UTC |
+| [Spokane](/artists/riley-green/tickets/spokane-united-states) | 1 April 2027 | Numerica Veterans Arena | $110.40 | TicketNetwork | 7 November, 16:04 UTC |
+| [Seattle](/artists/riley-green/tickets/seattle-united-states) | 2 April 2027 | Climate Pledge Arena | $81.65 | TicketNetwork | 7 November, 16:04 UTC |
+| [Eugene](/artists/riley-green/tickets/eugene-united-states) | 3 April 2027 | Matthew Knight Arena | $110.40 | TicketNetwork | 7 November, 16:04 UTC |
+| [Raleigh](/artists/riley-green/tickets/raleigh-united-states) | 29 April 2027 | Coastal Credit Union Music Park at Walnut Creek | $86.25 | TicketNetwork | 7 November, 16:04 UTC |
+| [Knoxville](/artists/riley-green/tickets/knoxville-united-states) | 30 April 2027 | Food City Center | $97.75 | TicketNetwork | 7 November, 16:04 UTC |
+| [Greenville](/artists/riley-green/tickets/greenville-united-states) | 1 May 2027 | Bon Secours Wellness Arena | $119.60 | TicketNetwork | 7 November, 16:04 UTC |
+| [Wichita](/artists/riley-green/tickets/wichita-united-states) | 7 May 2027 | INTRUST Bank Arena | $81.65 | TicketNetwork | 7 November, 16:04 UTC |
+| [Rogers](/artists/riley-green/tickets/rogers-united-states) | 8 May 2027 | Walmart AMP | $89.70 | TicketNetwork | 7 November, 16:04 UTC |
+| [Tulsa](/artists/riley-green/tickets/tulsa-united-states) | 20 May 2027 | BOK Center | $81.65 | TicketNetwork | 7 November, 16:04 UTC |
+| [Dallas](/artists/riley-green/tickets/dallas-united-states) | 21 May 2027 | Dos Equis Pavilion | $88.55 | TicketNetwork | 7 November, 16:04 UTC |
+| [Brandon](/artists/riley-green/tickets/brandon-united-states) | 3 June 2027 | Brandon Amphitheater | $174.80 | TicketNetwork | 7 November, 16:04 UTC |
+| [Mount Pleasant](/artists/riley-green/tickets/mount-pleasant-united-states) | 10 June 2027 | Soaring Eagle Casino & Resort | $94.30 | TicketNetwork | 7 November, 16:04 UTC |
+| [Clarkston](/artists/riley-green/tickets/clarkston-united-states) | 25 June 2027 | Pine Knob Music Theatre | $82.80 | TicketNetwork | 7 November, 16:04 UTC |
+| [Syracuse](/artists/riley-green/tickets/syracuse-united-states) | 15 July 2027 | Empower Federal Credit Union Amphitheater at Lakeview | $58.65 | TicketNetwork | 7 November, 16:04 UTC |
+| [Allentown](/artists/riley-green/tickets/allentown-united-states) | 16 July 2027 | PPL Center | $93.15 | TicketNetwork | 7 November, 16:04 UTC |
+| [Columbia](/artists/riley-green/tickets/columbia-united-states) | 22 July 2027 | Merriweather Post Pavilion | $105.80 | TicketNetwork | 7 November, 16:04 UTC |
+| [Bethel](/artists/riley-green/tickets/bethel-united-states) | 23 July 2027 | Bethel Woods Center for the Arts | $77.05 | TicketNetwork | 7 November, 16:04 UTC |
+| [Mansfield](/artists/riley-green/tickets/mansfield-united-states) | 24 July 2027 | Xfinity Center | $101.20 | TicketNetwork | 7 November, 16:04 UTC |
+| [Evansville](/artists/riley-green/tickets/evansville-united-states) | 29 July 2027 | Ford Center | $83.95 | TicketNetwork | 7 November, 16:04 UTC |
 
 ## How this was worked out
 

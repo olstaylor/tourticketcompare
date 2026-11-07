@@ -281,3 +281,14 @@ test("scheduled workflow grants only repository read and issue write with no pro
   assert.ok(!/--apply|--auto-merge|wrangler|deploy|git (push|commit)|blog:build|guides:build/.test(runs));
   assert.equal(LABEL, "automation:blog-ideas");
 });
+
+test("international Ticketmaster storefront links with the stored numeric id count as exact-event evidence", () => {
+  const intl = (id, host = "ticketmaster.se") => {
+    const url = `https://www.${host}/event/alpha-act-tickets/${id}?language=en-us`;
+    return event(id, "alpha-act", { ticketmaster_url: url, source_url: url });
+  };
+  const allowed = (rows) => { const s = source(rows); s.catalog.providers[0].allowed_destination_hosts = ["ticketmaster.com", "ticketmaster.se"]; return s; };
+  assert.equal(report(allowed([intl(1852040169), intl(1656128289)])).recommendations.length, 1);
+  // A slug segment must not stand in for the id, and a mismatched id is still rejected.
+  assert.equal(report(allowed([event(123, "alpha-act", { ticketmaster_url: "https://www.ticketmaster.se/event/alpha-act/999", source_url: "https://www.ticketmaster.se/event/alpha-act/999" }), event(456)])).recommendations.length, 0);
+});

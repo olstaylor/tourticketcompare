@@ -323,7 +323,7 @@
         "event_id": 18556120,
         "url": "https://seatgeek.com/victoria-monet-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-11-07-8-pm/concert/18556120",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -463,11 +463,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18579771,
+        "url": "https://seatgeek.com/victoria-monet-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-11-12-8-pm/concert/18579771",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1298,7 +1298,7 @@
         "event_id": 18579809,
         "url": "https://seatgeek.com/victoria-monet-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2026-12-02-8-pm/concert/18579809",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {

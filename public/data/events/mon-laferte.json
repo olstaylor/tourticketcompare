@@ -64,7 +64,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-Sud",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Sud",
-    "seatgeek_url": "https://seatgeek.com/mon-laferte-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2026-11-05-8-pm/concert/18140310",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/mon-laferte-tickets-las-vegas-pearl-concert-theater-at-palms-casino-resort-11-5-2026/production/6822790",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Sud",
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18140310,
-        "url": "https://seatgeek.com/mon-laferte-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2026-11-05-8-pm/concert/18140310",
-        "verified": true,
-        "last_verified_at": "2026-11-05",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6822790,

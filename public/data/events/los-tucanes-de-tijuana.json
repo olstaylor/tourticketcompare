@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18288551,
+        "url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2026-11-24-8-pm/concert/18288551",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -96,11 +96,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251692,
+        "url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/fairfax-virginia-eaglebank-arena-2026-11-27-8-pm/concert/18251692",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7048655,
@@ -165,11 +165,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18252126,
+        "url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/elizabeth-new-jersey-ritz-theatre-performing-arts-center-2026-11-28-8-pm/concert/18252126",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7063215,
@@ -294,11 +294,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18398232,
+        "url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-04-8-pm/concert/18398232",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7348008,

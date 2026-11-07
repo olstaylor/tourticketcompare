@@ -1216,7 +1216,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70EqS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EqS",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/las-vegas-nevada-michelob-ultra-arena-at-mandalay-bay-resort-casino-2026-11-11-8-pm/concert/18250878",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EqS",
@@ -1232,11 +1232,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18250878,
+        "url": "https://seatgeek.com/don-omar-tickets/las-vegas-nevada-michelob-ultra-arena-at-mandalay-bay-resort-casino-2026-11-11-8-pm/concert/18250878",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1849,7 +1849,7 @@
         "event_id": 18333383,
         "url": "https://seatgeek.com/don-omar-tickets/san-diego-california-pechanga-arena-san-diego-2027-02-10-8-pm/concert/18333383",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2302,7 +2302,7 @@
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "300064D28B372102",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-belmont-park-new-york-02-28-2027/event/300064D28B372102",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/elmont-new-york-ubs-arena-2027-02-28-8-pm/concert/18326568",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-elmont-ubs-arena-2-28-2027/production/7198512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-belmont-park-new-york-02-28-2027/event/300064D28B372102",

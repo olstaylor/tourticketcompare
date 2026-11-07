@@ -517,7 +517,7 @@
         "event_id": 18407250,
         "url": "https://seatgeek.com/jodeci-tickets/cleveland-ohio-keybank-state-theatre-at-playhouse-square-2026-11-14-8-pm/concert/18407250",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -719,7 +719,7 @@
         "event_id": 18407255,
         "url": "https://seatgeek.com/jodeci-tickets/bensalem-pennsylvania-xcite-center-at-parx-casino-2026-11-19-8-pm/concert/18407255",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -993,7 +993,7 @@
         "event_id": 18395809,
         "url": "https://seatgeek.com/jodeci-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-11-27-8-pm/concert/18395809",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1062,7 +1062,7 @@
         "event_id": 18350138,
         "url": "https://seatgeek.com/jodeci-tickets/norman-oklahoma-riverwind-casino-2026-11-28-8-pm/concert/18350138",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1286,7 +1286,7 @@
         "event_id": 18406111,
         "url": "https://seatgeek.com/jodeci-tickets/new-orleans-louisiana-saenger-theatre-new-orleans-2026-12-02-7-30-pm/concert/18406111",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1557,7 +1557,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E0064F6ADE5B208",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-savannah-georgia-12-08-2026/event/0E0064F6ADE5B208",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/savannah-georgia-savannah-civic-center-johnny-mercer-theatre-2026-12-08-8-pm/concert/18407269",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-savannah-savannah-civic-center---johnny-mercer-theatre-12-8-2026/production/7353314",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-savannah-georgia-12-08-2026/event/0E0064F6ADE5B208",
@@ -1573,11 +1573,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407269,
+        "url": "https://seatgeek.com/jodeci-tickets/savannah-georgia-savannah-civic-center-johnny-mercer-theatre-2026-12-08-8-pm/concert/18407269",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7353314,
@@ -1881,7 +1881,7 @@
         "event_id": 18407288,
         "url": "https://seatgeek.com/jodeci-tickets/jacksonville-florida-florida-theatre-jacksonville-2026-12-15-8-pm/concert/18407288",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {

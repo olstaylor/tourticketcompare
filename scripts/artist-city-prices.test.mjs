@@ -936,21 +936,40 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
 // ─── artist page: "Compare … ticket prices" needs two sellers' prices ──────
 // Owner decision 2026-11-07: verified links alone do not earn the comparison
 // wording. Some upcoming date must show listed prices from two or more sellers
-// in this render's price read.
+// in this render's price read. The wording lives in route.description, which
+// feeds the JSON-LD and the meta tag whenever no next-date price snippet wins.
 {
   const ARTIST_PATH = `/artists/${ARTIST.slug}`;
-  const compares = (description) => /^Compare .* ticket prices by date across checked ticket sites/.test(description);
+  const ld = (html) => [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]).join("");
+  const compares = (text) => /Compare [^"]* ticket prices by date across checked ticket sites/.test(text);
   const twoSellers = await render(ARTIST_PATH);
   assert(twoSellers.status === 200, "the artist page renders");
-  assert(compares(twoSellers.description), "a date with two sellers' prices keeps the compare wording");
+  assert(compares(ld(twoSellers.html)), "a date with two sellers' prices keeps the compare wording");
   const oneSeller = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.filter((row) => row.provider === "vivid-seats") });
-  assert(!compares(oneSeller.description), "one seller's price per date drops the compare wording");
+  assert(!compares(ld(oneSeller.html)) && !compares(oneSeller.description), "one seller's price per date drops the compare wording");
   assert(oneSeller.description.length > 0, "a description is still written");
   const expiredRows = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.map((row) => ({ ...row, expires_at: "2026-08-01T00:00:00Z" })) });
-  assert(!compares(expiredRows.description), "expired prices drop the compare wording");
+  assert(!compares(ld(expiredRows.html)) && !compares(expiredRows.description), "expired prices drop the compare wording");
   const noDb = await render(ARTIST_PATH, { withDb: false });
-  assert(!compares(noDb.description), "no price read drops the compare wording");
-  assert(!/across checked ticket sites/.test(oneSeller.html.match(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g)?.join("") || ""), "the JSON-LD description follows the snippet");
+  assert(!compares(ld(noDb.html)) && !compares(noDb.description), "no price read drops the compare wording");
+}
+
+// ── the artist page snippet quotes its next date, never a tour-wide minimum ──
+{
+  const ARTIST_PATH = `/artists/${ARTIST.slug}`;
+  const page = await render(ARTIST_PATH);
+  assert(page.description.includes("Starting from US$182.00 listed at Vivid Seats"), `the artist snippet answers with the next date's listed price (got ${page.description})`);
+  assert(/next (date )?.*Sep 10, 2026|Sep 10, 2026/.test(page.description) && page.description.includes(RUN_CITY), "the artist snippet names the next date and its city");
+  assert(page.description.includes("checked 2026-08-09 09:00 UTC. Check fees."), "the artist snippet carries capture time and a fee caveat");
+  assert(page.description.length <= 160, `the artist description stays within budget (was ${page.description.length})`);
+  const schemaBlock = [...page.html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]).join("");
+  assert(!/Starting from|US\$182/.test(schemaBlock), "the artist snippet price never reaches structured data");
+  const cheaperLater = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === SOLO.id ? { ...row, low_price: 50 } : row) });
+  assert(!cheaperLater.description.includes("US$50.00"), "a cheaper later date never becomes the artist's starting price");
+  const noNextPrice = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.filter((row) => row.event_id !== RUN_A.id) });
+  assert(!/Starting from/.test(noNextPrice.description), "a missing price on the next date does not borrow another date's price");
+  const noDb = await render(ARTIST_PATH, { withDb: false });
+  assert(!/Starting from/.test(noDb.description) && noDb.description.length > 0, "a cache outage keeps the price-free artist description");
 }
 
 console.log(`artist-city-prices: ${passed} checks passed`);

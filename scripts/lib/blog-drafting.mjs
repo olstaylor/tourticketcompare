@@ -240,6 +240,9 @@ const OVERLAP_TOTAL_CHARS = 12000;
 // A price block adds up to ~6 KB of evidence, so context shrinks to match
 // (the 2026-10-31 Olivia run was refused for exceeding the input bound).
 export const PRICED_OVERLAP_CHARS = 2000;
+// Sale times add two fields per date, so a 12-city pre-sale guide gives up a
+// little context to stay inside the same input bound.
+export const SALE_OVERLAP_CHARS = 10000;
 export function boundedOverlap(docs, total = OVERLAP_TOTAL_CHARS) {
   let left = total;
   const out = [];
@@ -260,7 +263,13 @@ export function buildEvidence(selected, { now = Date.now(), snapshot, prices = [
     const timezone = event.timezone || '';
     const presales = kind === 'presale' ? (evidence.presales || []).map((w) => ({ name: w.name, start: w.start, end: w.end,
       startLocal: localSaleTime(w.start, timezone), endLocal: localSaleTime(w.end, timezone) })).filter((w) => w.startLocal && w.endLocal) : [];
-    const publicOnsaleAt = saleKind ? (evidence.publicOnsaleAt || event.public_onsale_at || null) : null;
+    // A tour guide may go live before the public sale (2026-11-07: pages that
+    // appeared on sale day missed the demand). Its dates then carry their
+    // future public on-sale time, so the current check accepts Ticketmaster's
+    // pre-sale "offsale" status only with that exact time confirmed.
+    const storedOnsaleAt = evidence.publicOnsaleAt || event.public_onsale_at || null;
+    const tourPreSale = kind === 'tour' && Date.parse(storedOnsaleAt) > now;
+    const publicOnsaleAt = saleKind || tourPreSale ? storedOnsaleAt : null;
     return { id: event.id, artist: selected.artistName,
       date: eventLocalDateIso(event), dayOfWeek: new Intl.DateTimeFormat('en-GB', { weekday: 'long', timeZone: 'UTC' }).format(new Date(`${eventLocalDateIso(event)}T12:00:00Z`)),
       venue: event.venue, city: event.city, timezone,
@@ -277,10 +286,10 @@ export function buildEvidence(selected, { now = Date.now(), snapshot, prices = [
     requireCurrent: saleKind,
     limitations: ['Repository verification is not a current external check.', 'Provider records are not live inventory, checkout totals or proof of production credentials.',
       ...(kind === 'tour' ? ['The events listed are one date per city, for cities with fresh verified dates well ahead. The artist board lists other tracked dates, in these cities and in others, so the article may say the table is not the full list.'] : []),
-      ...(saleKind ? ['Sale and presale times are what Ticketmaster listed when checked. Organisers can change them; readers must confirm on the official event page.'] : []),
+      ...(saleKind || events.some((e) => e.publicOnsaleAt) ? ['Sale and presale times are what Ticketmaster listed when checked. Organisers can change them; readers must confirm on the official event page.'] : []),
       priceFacts ? 'The only prices authorised are the strings in the prices block, quoted exactly as supplied and attributed to the named site. No codes, eligibility rules, fees, savings, scarcity or last-chance claims, tour branding or price predictions are authorised.'
         : 'No codes, eligibility rules, claims that a site, date or seat is cheapest, prices, scarcity or last-chance claims, tour branding or price predictions are authorised.'],
-    overlap: boundedOverlap(selected.overlap, priceFacts ? PRICED_OVERLAP_CHARS : OVERLAP_TOTAL_CHARS) };
+    overlap: boundedOverlap(selected.overlap, priceFacts ? PRICED_OVERLAP_CHARS : events.some((e) => e.publicOnsaleAt) ? SALE_OVERLAP_CHARS : OVERLAP_TOTAL_CHARS) };
 }
 
 // Discovery returns its own URL slug and, for affiliate-enabled keys, wraps the

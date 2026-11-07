@@ -7353,13 +7353,17 @@ function artistComparisonLive(route, events, env) {
 
 function startingPriceMetaDescription(route, events, env) {
   if (route.type === "price-guide") return priceGuideSnippet(route, events, env);
-  if (route.type !== "artist-city" && route.type !== "event") return "";
+  if (route.type !== "artist-city" && route.type !== "event" && route.type !== "artist") return "";
   if (route.type === "event" && !route.eventState?.commerciallyLive) return "";
+  // The artist page quotes its next date only, like the artist-city page: one
+  // date, one site, one capture time, never a tour-wide minimum. Artist pages
+  // hold most search impressions at positions 7-12 with a price-free snippet
+  // (Search Console, 2026-10-07..11-04).
   const ids = route.type === "event"
     ? new Set([String(route.event.id)])
-    : artistCityShowIdSet(route.artistCity);
+    : route.type === "artist-city" ? artistCityShowIdSet(route.artistCity) : null;
   const shows = futureShowsForArtist(events, route.artist.slug)
-    .filter((show) => ids.has(String(show.id)));
+    .filter((show) => !ids || ids.has(String(show.id)));
   const availability = {
     seatGeekAvailable: isSeatGeekConfigured(env),
     vividSeatsAvailable: isVividSeatsConfigured(env),
@@ -7378,14 +7382,22 @@ function startingPriceMetaDescription(route, events, env) {
   const checked = `${captured.toISOString().slice(0, 16).replace("T", " ")} UTC`;
   const amount = new Intl.NumberFormat("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(lane.price);
   const money = `${lane.currency === "USD" ? "US$" : `${lane.currency} `}${amount}`;
-  const city = route.type === "artist-city" ? route.artistCity.label : route.event.city;
+  const city = route.type === "artist-city"
+    ? route.artistCity.label
+    : route.type === "event" ? route.event.city : String(shows.find((show) => String(show.id) === row.showId)?.city || "").trim();
+  if (!city) return "";
   const date = formatShortDateServer(row.datetimeISO, row.timezone);
   const startingPrice = ["Starting from", money].join(" ");
   const tail = `${startingPrice} listed at ${lane.name}; checked ${checked}. Check fees.`;
-  const candidates = [
-    `${route.artist.name} tickets in ${city} on ${date}. ${tail}`,
-    `${route.artist.name} ${city} tickets · ${date}. ${tail}`
-  ];
+  const candidates = route.type === "artist"
+    ? [
+        `${route.artist.name} tickets: next date ${date} in ${city}. ${tail}`,
+        `${route.artist.name} tickets · next ${city}, ${date}. ${tail}`
+      ]
+    : [
+        `${route.artist.name} tickets in ${city} on ${date}. ${tail}`,
+        `${route.artist.name} ${city} tickets · ${date}. ${tail}`
+      ];
   return candidates.find((candidate) => candidate.length <= META_DESCRIPTION_LENGTH_LIMIT) || "";
 }
 

@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { officialEventMetadata, eventEndDate, organizerNames } from '../functions/_event-metadata.js';
+import { officialEventMetadata, eventEndDate, organizerNames, ticketLimitFromText, genreFromClassifications, buyingFacts } from '../functions/_event-metadata.js';
 import { snapshotFields } from './lib/tm-event-snapshot.mjs';
 const source = { promoters: [{ name: 'Official Promoter' }, { name: 'Official Promoter' }], dates: { start: { dateTime: '2026-10-20T18:00:00Z' }, end: { dateTime: '2026-10-20T21:00:00Z', approximate: false, noSpecificTime: false } }, sales: { public: { endDateTime: '2026-10-20T20:00:00Z' } } };
 assert.deepEqual(officialEventMetadata(snapshotFields(source)), { organizer_names: ['Official Promoter'], end_datetime_iso: '2026-10-20T21:00:00Z' });
@@ -56,3 +56,26 @@ const artistVenueSource = snapshotFields({ promoters: [{ name: 'FONTAINES D.C.' 
 assert.deepEqual(officialEventMetadata(artistVenueSource, { artist_name: 'Fontaines D.C.', venue: 'Co-op Live' }), { organizer_names: ['SJM LIMITED'] });
 assert.deepEqual(organizerNames(['OASIS', 'Melkweg', 'SJM'], ['Oasis', 'Mélkweg']), ['SJM']);
 console.log('PASS artist/venue identities are withheld while independent co-organizers remain');
+
+// Buying facts (owner pick 2026-11-06), from real Discovery wording.
+assert.equal(ticketLimitFromText('There is a 4 Ticket Limit on this event'), 4);
+assert.equal(ticketLimitFromText('Please note: There is a ticket limit of 4 tickets per person and per credit card on this event.'), 4);
+assert.equal(ticketLimitFromText('Please note: There is a ticket limit of 20 tickets per person and per credit card on this event. Raiders PSL Member Presale has a ticket limit of 4'), null, 'two different limits are not one limit');
+assert.equal(ticketLimitFromText('Tickets are limited to 8 tickets per household.'), 8);
+assert.equal(ticketLimitFromText('There is an overall 6 ticket limit for this event.'), 6);
+assert.equal(ticketLimitFromText('Limit 999 tickets'), null);
+assert.equal(ticketLimitFromText('No limit stated'), null);
+assert.equal(ticketLimitFromText(null), null);
+const music = (genre, extra = {}) => ({ primary: true, segment: { name: 'Music' }, genre: { name: genre }, ...extra });
+assert.equal(genreFromClassifications([music('Rock')]), 'Rock');
+assert.equal(genreFromClassifications([music('R&B')]), 'R&B');
+assert.equal(genreFromClassifications([music('Undefined')]), '');
+assert.equal(genreFromClassifications([{ ...music('Rock'), segment: { name: 'Sports' } }]), '');
+assert.equal(genreFromClassifications([music('Rock'), music('Pop')]), '', 'two primaries are ambiguous');
+assert.equal(genreFromClassifications([music('<b>Rock</b>')]), '');
+assert.deepEqual(buyingFacts({}), {}, 'an older snapshot without the fields changes nothing');
+assert.deepEqual(buyingFacts(snapshotFields({ ticketLimit: { info: 'There is a 4 Ticket Limit on this event' }, ageRestrictions: { legalAgeEnforced: true }, classifications: [music('Country')], pleaseNote: 'free text is not kept' })), { ticket_limit: 4, legal_age_enforced: true, genre: 'Country' });
+assert.deepEqual(buyingFacts(snapshotFields({ ticketLimit: { info: 'Call the box office' }, ageRestrictions: { legalAgeEnforced: false }, classifications: [] })), { ticket_limit: null, legal_age_enforced: null, genre: null }, 'present fields without a usable value clear stored facts');
+assert.equal(snapshotFields({ pleaseNote: 'x', info: 'y' }).pleaseNote, undefined, 'snapshot keeps no free-text notes');
+assert.deepEqual(officialEventMetadata(snapshotFields({ ticketLimit: { info: 'There is a 6 Ticket Limit on this event' } })), { ticket_limit: 6 });
+console.log('PASS ticket limit, legal-age and genre facts: single stated limit only, explicit true only, primary music genre only, absent fields preserved');

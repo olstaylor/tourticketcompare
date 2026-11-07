@@ -933,4 +933,24 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(!none.main.includes("onsaleDate0"), "no events, no priced block");
 }
 
+// ─── artist page: "Compare … ticket prices" needs two sellers' prices ──────
+// Owner decision 2026-11-07: verified links alone do not earn the comparison
+// wording. Some upcoming date must show listed prices from two or more sellers
+// in this render's price read.
+{
+  const ARTIST_PATH = `/artists/${ARTIST.slug}`;
+  const compares = (description) => /^Compare .* ticket prices by date across checked ticket sites/.test(description);
+  const twoSellers = await render(ARTIST_PATH);
+  assert(twoSellers.status === 200, "the artist page renders");
+  assert(compares(twoSellers.description), "a date with two sellers' prices keeps the compare wording");
+  const oneSeller = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.filter((row) => row.provider === "vivid-seats") });
+  assert(!compares(oneSeller.description), "one seller's price per date drops the compare wording");
+  assert(oneSeller.description.length > 0, "a description is still written");
+  const expiredRows = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.map((row) => ({ ...row, expires_at: "2026-08-01T00:00:00Z" })) });
+  assert(!compares(expiredRows.description), "expired prices drop the compare wording");
+  const noDb = await render(ARTIST_PATH, { withDb: false });
+  assert(!compares(noDb.description), "no price read drops the compare wording");
+  assert(!/across checked ticket sites/.test(oneSeller.html.match(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g)?.join("") || ""), "the JSON-LD description follows the snippet");
+}
+
 console.log(`artist-city-prices: ${passed} checks passed`);

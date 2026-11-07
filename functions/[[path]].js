@@ -31,7 +31,7 @@ import { cheapestAcrossDates, deriveCityDatePrices } from "./_artist-city-prices
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import { relatedArtistsBySharedCity } from "./_related-artists.js";
-import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, EVENT_LIFECYCLE, PRESALE_PAGE_FRESH_DAYS, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
+import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, COMPARISON_MIN_PRICE_PROVIDERS, EVENT_LIFECYCLE, PRESALE_PAGE_FRESH_DAYS, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import { deriveThisWeek, renderThisWeekHtml, THIS_WEEK_GUIDE_PATHS } from "./_this-week.js";
 import { deriveToursHub, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
@@ -1039,10 +1039,18 @@ async function resolveRoute(pathname, env) {
       }
       relatedArtists = relatedArtistsBySharedCity(allEvents, artist.slug, linkable);
     }
+    // The wording a board without a live comparison gets. The page swaps to it
+    // after the price read when no date has two sellers' prices right now
+    // (artistComparisonLive), so a snippet never promises a comparison of
+    // verified links whose prices are missing or expired.
+    const unpricedDescription = artist.meta_description ||
+      `Every upcoming ${artist.name} date verified so far, with the checked ticket links for each one.`;
     return {
       type: "artist",
       path,
       relatedArtists,
+      comparisonPromised: hasUpcoming && priced,
+      unpricedDescription,
       indexable: artistPageIndexable(enrichedArtist, artistEvents, artist.slug),
       title: artistPageTitle(artist, yearLabel, tourLabel, { priced }),
       // The authored description promises dates, which is right while the board
@@ -1059,8 +1067,7 @@ async function resolveRoute(pathname, env) {
               `Compare ${artist.name} ticket prices by date across checked ticket sites, with each listed price, its check time and the link for each date.`,
               `Compare ${artist.name} ticket prices by date across checked ticket sites.`
             )
-          : artist.meta_description ||
-            `Every upcoming ${artist.name} date verified so far, with the checked ticket links for each one.`
+          : unpricedDescription
         : `No upcoming ${artist.name} dates are listed right now. See where to find ${artist.name} tickets and get told when dates are confirmed.`,
       artist: enrichedArtist,
       catalog,
@@ -7326,6 +7333,24 @@ function priceGuideCheapestTitle(route, events, env) {
   ].find((candidate) => candidate.length <= TITLE_LENGTH_LIMIT) || "";
 }
 
+// Does any upcoming date on this artist's board show listed prices from two or
+// more sellers right now? Same lanes and gates as the price cards, so the
+// snippet and the board agree.
+function artistComparisonLive(route, events, env) {
+  const availability = {
+    seatGeekAvailable: isSeatGeekConfigured(env),
+    vividSeatsAvailable: isVividSeatsConfigured(env),
+    marketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map(
+      (provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]
+    ))
+  };
+  const { rows } = deriveCityDatePrices(futureShowsForArtist(events, route.artist.slug), {
+    ctaSpecsFor: (show) => serverShowCtaSpecs(show, availability),
+    wasChecked: pricesWereChecked
+  });
+  return rows.some((row) => row.comparedCount >= COMPARISON_MIN_PRICE_PROVIDERS);
+}
+
 function startingPriceMetaDescription(route, events, env) {
   if (route.type === "price-guide") return priceGuideSnippet(route, events, env);
   if (route.type !== "artist-city" && route.type !== "event") return "";
@@ -9396,6 +9421,12 @@ async function renderRequest(context) {
       onCalendar ? { checkedAt: nowMs, onCalendar: true } : {}
     );
     if (thisWeekHtml) renderRoute = { ...renderRoute, thisWeekHtml };
+  }
+  // "Compare <artist> ticket prices" is kept only while some upcoming date
+  // shows two or more sellers' prices from this render's price read (owner
+  // decision 2026-11-07). Verified links alone are not a comparison.
+  if (route.type === "artist" && route.comparisonPromised && !artistComparisonLive(route, renderEvents, env)) {
+    renderRoute = { ...renderRoute, description: route.unpricedDescription };
   }
   if (route.type === "artist") {
     const allBlogPosts = deriveBlogPosts(await loadBlogContent(env));

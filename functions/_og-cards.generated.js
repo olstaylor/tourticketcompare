@@ -786,6 +786,7 @@ export const OG_CARDS = {
   "/blog/gracie-abrams-tour-guide": {"url":"/og/blog-gracie-abrams-tour-guide.png","alt":"Blog: Gracie Abrams tour: dates, cities and how to choose"},
   "/blog/gracie-abrams-tour-ticket-prices-by-city": {"url":"/og/blog-gracie-abrams-tour-ticket-prices-by-city.png","alt":"Blog: Gracie Abrams tour tickets: listed prices city by city"},
   "/blog/greta-van-fleet-tour-ticket-prices-by-city": {"url":"/og/blog-greta-van-fleet-tour-ticket-prices-by-city.png","alt":"Blog: Greta Van Fleet tour tickets: listed prices city by city"},
+  "/blog/hans-zimmer-tour-guide": {"url":"/og/blog-hans-zimmer-tour-guide.png","alt":"Blog: Hans Zimmer tour: dates, cities and how to choose"},
   "/blog/hans-zimmer-tour-ticket-prices-by-city": {"url":"/og/blog-hans-zimmer-tour-ticket-prices-by-city.png","alt":"Blog: Hans Zimmer tour tickets: listed prices city by city"},
   "/blog/harry-styles-tour-guide": {"url":"/og/blog-harry-styles-tour-guide.png","alt":"Blog: Harry Styles tour: dates, cities and how to choose"},
   "/blog/hilary-duff-lucky-me-tour-2027-on-sale": {"url":"/og/blog-hilary-duff-lucky-me-tour-2027-on-sale.png","alt":"Blog: Hilary Duff's lucky me tour: how the 2027 dates went on sale"},

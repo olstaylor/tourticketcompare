@@ -129,11 +129,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7874794",
-        "url": "https://www.ticketliquidator.com/tickets/7874794/Noah-Kahan-tickets-Fri-Nov-6-2026-OVO-Hydro",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107155375",
@@ -153,7 +153,7 @@
     "ticketmaster_discovery_event_id": "1AUZk3aGkdn-bUh",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874794/Noah-Kahan-tickets-Fri-Nov-6-2026-OVO-Hydro",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-glasgow-ovo-hydro-arena-glasgow-6-11-2026/event/107155375",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874794",
     "organizer_names": [

@@ -902,6 +902,13 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359735",
+        "url": "https://www.ticketliquidator.com/tickets/8359735/Simple-Minds-tickets-Mon-May-10-2027-Motorpoint-Arena-Nottingham",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1adfZ_31K14Zduv5",
@@ -910,7 +917,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/simple-minds-tickets-nottingham-motorpoint-arena-nottingham-10-5-2027/event/107665744",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359735/Simple-Minds-tickets-Mon-May-10-2027-Motorpoint-Arena-Nottingham"
   },
   {
     "id": "tm-simple-minds-2027-leeds-g5vhz_31k8si9",

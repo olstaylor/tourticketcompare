@@ -108,11 +108,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7827794",
-        "url": "https://www.ticketliquidator.com/tickets/7827794/Mon-Laferte-tickets-Thu-Nov-5-2026-Pearl-Concert-Theater-At-Palms-Casino-Resort",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107155199",
@@ -126,7 +126,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827794",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827794/Mon-Laferte-tickets-Thu-Nov-5-2026-Pearl-Concert-Theater-At-Palms-Casino-Resort",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-las-vegas-tickets-11-5-2026/event/107155199"
   },
   {

@@ -135,11 +135,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8113676",
-        "url": "https://www.ticketliquidator.com/tickets/8113676/Santana-tickets-Thu-Nov-5-2026-House-Of-Blues-Las-Vegas",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107472158",
@@ -153,7 +153,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113676",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113676/Santana-tickets-Thu-Nov-5-2026-House-Of-Blues-Las-Vegas",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-5-2026/event/107472158",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"

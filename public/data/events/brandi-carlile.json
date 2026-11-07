@@ -55,18 +55,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8293661",
-        "url": "https://www.ticketliquidator.com/tickets/8293661/Brandi-Carlile-tickets-Thu-Nov-5-2026-Revolution-Hall-Portland",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAea4M",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293661",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293661/Brandi-Carlile-tickets-Thu-Nov-5-2026-Revolution-Hall-Portland"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-brandi-carlile-2026-oakland-g5vyz_k55sumi",

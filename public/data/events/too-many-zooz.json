@@ -1067,10 +1067,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284739",
+        "url": "https://www.ticketliquidator.com/tickets/8284739/Too-Many-Zooz-tickets-Thu-Mar-18-2027-10-Mile-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeeP4",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284739/Too-Many-Zooz-tickets-Thu-Mar-18-2027-10-Mile-Music-Hall"
   }
 ]

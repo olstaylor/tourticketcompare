@@ -783,6 +783,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8264659",
+        "url": "https://www.ticketnetwork.com/en/p/8264659",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3mnVFjD",
@@ -803,7 +810,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264659"
   },
   {
     "id": "tm-the-warning-2027-oklahoma-city-z7r9jz1aavtgp",

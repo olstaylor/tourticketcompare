@@ -403,6 +403,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048525",
+        "url": "https://www.ticketnetwork.com/en/p/8048525",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PpO0",
@@ -410,7 +417,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048525"
   },
   {
     "id": "tm-lenny-pearce-2026-st-petersburg-vvg1vz_gcd9hph",

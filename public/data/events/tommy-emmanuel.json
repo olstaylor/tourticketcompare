@@ -293,6 +293,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7939252",
+        "url": "https://www.ticketnetwork.com/en/p/7939252",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_aBOYxr9",
@@ -308,7 +315,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7939252"
   },
   {
     "id": "tm-tommy-emmanuel-2026-newberry-z7r9jz1aavs4z",
@@ -426,6 +434,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7941596",
+        "url": "https://www.ticketnetwork.com/en/p/7941596",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_aU3sWZr",
@@ -437,7 +452,8 @@
         "start": "2026-05-08T14:00:00Z",
         "end": "2026-11-29T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941596"
   },
   {
     "id": "tm-tommy-emmanuel-2026-durham-z7r9jz1a70f-w",
@@ -749,11 +765,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7941513",
+        "url": "https://www.ticketnetwork.com/en/p/7941513",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70b-E",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941513"
   },
   {
     "id": "tm-tommy-emmanuel-2026-clearwater-z7r9jz1aav8__",
@@ -1282,6 +1306,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268026",
+        "url": "https://www.ticketnetwork.com/en/p/8268026",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfNGkd53yOK",
@@ -1296,7 +1327,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268026"
   },
   {
     "id": "tm-tommy-emmanuel-2027-grand-rapids-z7r9jz1aavspe",
@@ -1589,11 +1621,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268048",
+        "url": "https://www.ticketnetwork.com/en/p/8268048",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpk",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268048"
   },
   {
     "id": "tm-tommy-emmanuel-2027-fairfield-z7r9jz1aavsp6",
@@ -1711,11 +1751,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268055",
+        "url": "https://www.ticketnetwork.com/en/p/8268055",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpF",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268055"
   },
   {
     "id": "tm-tommy-emmanuel-2027-vancouver-1aozkfugkdvinj7",
@@ -2252,6 +2300,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333068",
+        "url": "https://www.ticketnetwork.com/en/p/8333068",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA791k",
@@ -2259,6 +2314,7 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333068"
   }
 ]

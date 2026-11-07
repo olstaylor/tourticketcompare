@@ -878,6 +878,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297647",
+        "url": "https://www.ticketnetwork.com/en/p/8297647",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KYXOckk",
@@ -892,7 +899,8 @@
     ],
     "organizer_names": [
       "ANOTHER PLANET"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297647"
   },
   {
     "id": "tm-mei-semones-2027-vancouver-1178vpcbx94gv5",
@@ -1265,12 +1273,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359823",
+        "url": "https://www.ticketnetwork.com/en/p/8359823",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeK09",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359823/Mei-Semones-tickets-Thu-May-6-2027-The-Burl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359823/Mei-Semones-tickets-Thu-May-6-2027-The-Burl",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359823"
   },
   {
     "id": "tm-mei-semones-2027-columbus-z7r9jz1aaef7k",

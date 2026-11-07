@@ -466,6 +466,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977701",
+        "url": "https://www.ticketnetwork.com/en/p/7977701",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_1HjlW79",
@@ -474,7 +481,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977701"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-boston-vvg17z_1qyxhxi",
@@ -523,6 +531,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977954",
+        "url": "https://www.ticketnetwork.com/en/p/7977954",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1Qyxhxi",
@@ -531,7 +546,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977954"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-cleveland-vvg1fz_1qxxiit",
@@ -1367,12 +1383,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977515",
+        "url": "https://www.ticketnetwork.com/en/p/7977515",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70IjM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977515"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-menlo-park-z7r9jz1a7pj3f",
@@ -1421,11 +1445,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7978453",
+        "url": "https://www.ticketnetwork.com/en/p/7978453",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PJ3f",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978453"
   }
 ]

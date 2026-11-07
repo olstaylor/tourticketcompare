@@ -121,11 +121,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8151274",
-        "url": "https://www.ticketnetwork.com/en/p/8151274",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8151274",
@@ -138,7 +138,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbY",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151274",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151274/Trivium-tickets-Fri-Nov-6-2026-The-Eastern-GA"
   },
   {
@@ -600,11 +600,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8151279",
+        "url": "https://www.ticketnetwork.com/en/p/8151279",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbg",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151279"
   },
   {
     "id": "tm-trivium-2026-laval-17g8v0g6cubsshb",
@@ -1046,11 +1054,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8151281",
+        "url": "https://www.ticketnetwork.com/en/p/8151281",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbM",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151281"
   },
   {
     "id": "tm-trivium-2026-saint-louis-17f8v0g6cy863b6",
@@ -1969,10 +1985,10 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8151287",
-        "url": "https://www.ticketnetwork.com/en/p/8151287",
+        "event_id": "8359228",
+        "url": "https://www.ticketnetwork.com/en/p/8359228",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1986,7 +2002,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZd_Z",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151287",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359228",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151287/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater"
   },
   {

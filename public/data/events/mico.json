@@ -1839,6 +1839,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315049",
+        "url": "https://www.ticketnetwork.com/en/p/8315049",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fxR2vBf",
@@ -1847,7 +1854,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315049"
   },
   {
     "id": "tm-mico-2027-ft-lauderdale-vvg1vz_fqxgdhj",

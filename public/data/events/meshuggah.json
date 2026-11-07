@@ -188,11 +188,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343267",
+        "url": "https://www.ticketnetwork.com/en/p/8343267",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t8-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343267"
   },
   {
     "id": "tm-meshuggah-2027-chicago-vv1a7zk49gkdpmbhc",
@@ -2316,6 +2324,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343257",
+        "url": "https://www.ticketnetwork.com/en/p/8343257",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7IAx",
@@ -2323,7 +2338,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343257"
   },
   {
     "id": "tm-meshuggah-2027-greensboro-g5evz_4knt1ei",
@@ -2692,12 +2708,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8343270",
+        "url": "https://www.ticketnetwork.com/en/p/8343270",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t0I",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343270/Meshuggah-tickets-Fri-Mar-5-2027-College-Street-Music-Hall",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-new-haven-tickets-3-5-2027/event/107678637"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-new-haven-tickets-3-5-2027/event/107678637",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343270"
   }
 ]

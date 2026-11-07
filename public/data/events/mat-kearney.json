@@ -400,11 +400,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344257",
+        "url": "https://www.ticketnetwork.com/en/p/8344257",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7s83",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344257"
   },
   {
     "id": "tm-mat-kearney-2027-new-york-vv16dzk44g3zauv5ea",
@@ -601,6 +609,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344177",
+        "url": "https://www.ticketnetwork.com/en/p/8344177",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_fGkH6lCSf",
@@ -608,7 +623,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344177"
   },
   {
     "id": "tm-mat-kearney-2027-cincinnati-16pzk48jvzacdggk",
@@ -1795,6 +1811,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344254",
+        "url": "https://www.ticketnetwork.com/en/p/8344254",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_4GOLPzD",
@@ -1814,6 +1837,7 @@
         "start": "2026-10-30T15:00:00Z",
         "end": "2027-11-13T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344254"
   }
 ]

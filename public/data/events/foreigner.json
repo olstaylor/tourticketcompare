@@ -913,6 +913,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8324848",
+        "url": "https://www.ticketnetwork.com/en/p/8324848",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16djZ_37gG7HHXi",
@@ -920,7 +927,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LNM - VIP NATION UK"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324848"
   },
   {
     "id": "tm-foreigner-2027-new-york-g5diz_oohwwkw",
@@ -1121,6 +1129,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8243093",
+        "url": "https://www.ticketnetwork.com/en/p/8243093",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_oNY3-gO",
@@ -1140,7 +1155,8 @@
         "start": "2026-09-03T14:00:00Z",
         "end": "2027-04-27T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243093"
   },
   {
     "id": "tm-foreigner-2027-westbury-k7vgf_ocs3r5v",

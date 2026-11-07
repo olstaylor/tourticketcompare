@@ -872,6 +872,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284327",
+        "url": "https://www.ticketnetwork.com/en/p/8284327",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K9Pms1B",
@@ -886,7 +893,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284327"
   },
   {
     "id": "tm-haiden-henderson-2027-boston-vv1avzkfygkegtmcp",

@@ -479,6 +479,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266294",
+        "url": "https://www.ticketnetwork.com/en/p/8266294",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_35jHJdG",
@@ -490,7 +497,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-04-11T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266294"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-norfolk-z7r9jz1aavs4p",
@@ -687,6 +695,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266273",
+        "url": "https://www.ticketnetwork.com/en/p/8266273",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_3GkmKNaPk",
@@ -701,7 +716,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266273"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-red-bank-g5vvz_3ilcqvm",
@@ -826,6 +842,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266298",
+        "url": "https://www.ticketnetwork.com/en/p/8266298",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3N_ASME",
@@ -845,7 +868,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266298"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-northfield-vv17fz_ogkhgkwao",

@@ -240,6 +240,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7957527",
+        "url": "https://www.ticketnetwork.com/en/p/7957527",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1RaOGQA",
@@ -247,7 +254,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957527"
   },
   {
     "id": "tm-tobymac-2026-greensboro-g5evz_1nayk4t",
@@ -1020,11 +1028,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239109",
+        "url": "https://www.ticketnetwork.com/en/p/8239109",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8Op",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239109"
   },
   {
     "id": "tm-tobymac-2027-grand-prairie-z7r9jz1aav8of",

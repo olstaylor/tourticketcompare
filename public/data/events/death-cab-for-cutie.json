@@ -1431,6 +1431,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271397",
+        "url": "https://www.ticketnetwork.com/en/p/8271397",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3iO8WKm",
@@ -1438,7 +1445,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271397"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-atlanta-z7r9jz1aavufx",
@@ -1747,11 +1755,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271409",
+        "url": "https://www.ticketnetwork.com/en/p/8271409",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeefP",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271409"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-huntsville-z7r9jz1aavu_y",

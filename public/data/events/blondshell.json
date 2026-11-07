@@ -486,6 +486,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295777",
+        "url": "https://www.ticketnetwork.com/en/p/8295777",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KNJLGim",
@@ -500,7 +507,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295777"
   },
   {
     "id": "tm-blondshell-2027-madison-vv1kvyvpc_ga55f1w",
@@ -913,6 +921,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7976573",
+        "url": "https://www.ticketnetwork.com/en/p/7976573",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1m0MWVc",
@@ -928,7 +943,8 @@
     ],
     "organizer_names": [
       "ANOTHER PLANET"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976573"
   },
   {
     "id": "tm-blondshell-2027-seattle-z7r9jz1a70ere",

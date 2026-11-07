@@ -400,11 +400,11 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "7806869",
-        "url": "https://www.ticketnetwork.com/en/p/7806869",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_kGkmR1OOO",
@@ -415,7 +415,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806869"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-gavin-adcock-2026-reading-vv1aezkotgkeivbwv",
@@ -464,6 +464,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7806870",
+        "url": "https://www.ticketnetwork.com/en/p/7806870",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkotGkeIvbWV",
@@ -471,7 +478,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806870"
   },
   {
     "id": "tm-gavin-adcock-2026-detroit-z7r9jz1a7-yus",
@@ -520,11 +528,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7806927",
+        "url": "https://www.ticketnetwork.com/en/p/7806927",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Yus",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806927"
   },
   {
     "id": "tm-gavin-adcock-2026-grand-rapids-z7r9jz1a7-yut",

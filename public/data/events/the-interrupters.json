@@ -1118,6 +1118,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284373",
+        "url": "https://www.ticketnetwork.com/en/p/8284373",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GkTIMCNy",
@@ -1132,7 +1139,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284373"
   },
   {
     "id": "tm-the-interrupters-2027-detroit-vv1afzkfxgkesf0dw",

@@ -665,11 +665,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8053942",
-        "url": "https://www.ticketnetwork.com/en/p/8053942",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_Gm9cQxe",
@@ -679,7 +679,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053942"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-sleeping-with-sirens-2026-new-york-k7vgf_gnebmkt",

@@ -954,6 +954,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8164825",
+        "url": "https://www.ticketnetwork.com/en/p/8164825",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_2QDTig-",
@@ -968,7 +975,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164825"
   },
   {
     "id": "tm-tyla-2026-chicago-vvg18z_2o77qju",

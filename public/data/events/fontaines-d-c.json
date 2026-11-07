@@ -2491,11 +2491,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303824",
+        "url": "https://www.ticketnetwork.com/en/p/8303824",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAepkF",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303824"
   },
   {
     "id": "tm-fontaines-d-c-2027-morrison-z7r9jz1aaepka",
@@ -2686,11 +2694,11 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8326646",
-        "url": "https://www.ticketnetwork.com/en/p/8326646",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -2707,7 +2715,7 @@
     "organizer_names": [
       "Oslo Spektrum AS (FKP Scorpio)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326646",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": ""
   },
   {

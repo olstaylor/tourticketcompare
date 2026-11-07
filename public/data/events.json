@@ -39689,11 +39689,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7874876",
-        "url": "https://www.ticketnetwork.com/en/p/7874876",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7874876",
@@ -39706,7 +39706,7 @@
     "ticketmaster_discovery_event_id": "vv1aAZk3aPba_Ze8u",
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874876",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874876/sombr-tickets-Fri-Nov-6-2026-Gainbridge-Fieldhouse",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -42163,6 +42163,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982966",
+        "url": "https://www.ticketnetwork.com/en/p/7982966",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_5CTEjox",
@@ -42171,7 +42178,8 @@
     "organizer_names": [
       "LIVE NATION GLOBAL TOURING",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982966"
   },
   {
     "id": "tm-john-summit-2026-brooklyn-17gzv0g655ozaay",
@@ -57169,11 +57177,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7828057",
+        "url": "https://www.ticketnetwork.com/en/p/7828057",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZwby",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828057"
   },
   {
     "id": "tm-blue-october-2026-red-bank-g5vvz_kudtusm",
@@ -57791,6 +57807,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7827974",
+        "url": "https://www.ticketnetwork.com/en/p/7827974",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_6ddzDk3",
@@ -57798,7 +57821,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827974"
   },
   {
     "id": "tm-blue-october-2026-nashville-g5viz_kskltsv",
@@ -60261,11 +60285,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7957278",
+        "url": "https://www.ticketnetwork.com/en/p/7957278",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1RcVq7P",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957278"
   },
   {
     "id": "tm-blue-october-2027-salt-lake-city-z7r9jz1a70te4",
@@ -63881,6 +63913,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8164825",
+        "url": "https://www.ticketnetwork.com/en/p/8164825",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_2QDTig-",
@@ -63895,7 +63934,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164825"
   },
   {
     "id": "tm-tyla-2026-chicago-vvg18z_2o77qju",
@@ -66699,6 +66739,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7996248",
+        "url": "https://www.ticketnetwork.com/en/p/7996248",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G65QRt_Qd",
@@ -66706,7 +66753,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996248"
   },
   {
     "id": "tm-nothing-but-thieves-2027-philadelphia-vvg1fz_5qfmzvi",
@@ -67232,11 +67280,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8151274",
-        "url": "https://www.ticketnetwork.com/en/p/8151274",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8151274",
@@ -67249,7 +67297,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbY",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151274",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151274/Trivium-tickets-Fri-Nov-6-2026-The-Eastern-GA"
   },
   {
@@ -67711,11 +67759,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8151279",
+        "url": "https://www.ticketnetwork.com/en/p/8151279",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbg",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151279"
   },
   {
     "id": "tm-trivium-2026-laval-17g8v0g6cubsshb",
@@ -68157,11 +68213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8151281",
+        "url": "https://www.ticketnetwork.com/en/p/8151281",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbM",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151281"
   },
   {
     "id": "tm-trivium-2026-saint-louis-17f8v0g6cy863b6",
@@ -69080,10 +69144,10 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8151287",
-        "url": "https://www.ticketnetwork.com/en/p/8151287",
+        "event_id": "8359228",
+        "url": "https://www.ticketnetwork.com/en/p/8359228",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -69097,7 +69161,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZd_Z",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151287",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359228",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151287/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater"
   },
   {
@@ -70253,6 +70317,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7409995",
+        "url": "https://www.ticketnetwork.com/en/p/7409995",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Oqe",
@@ -70260,7 +70331,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7409995"
   },
   {
     "id": "tm-sabaton-2027-glasgow-17uov0g6g3si1v4",
@@ -71747,6 +71819,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7980227",
+        "url": "https://www.ticketnetwork.com/en/p/7980227",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70IGy",
@@ -71754,7 +71833,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980227"
   },
   {
     "id": "tm-beartooth-2026-new-orleans-g5viz_1lu2gm0",
@@ -71974,6 +72054,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7980235",
+        "url": "https://www.ticketnetwork.com/en/p/7980235",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1SIgr2S",
@@ -71988,7 +72075,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980235"
   },
   {
     "id": "tm-beartooth-2026-salt-lake-city-g5vzz_1w63kam",
@@ -72373,12 +72461,20 @@
         "verified": true,
         "last_verified_at": "2026-09-01",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8203741",
+        "url": "https://www.ticketnetwork.com/en/p/8203741",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZgx6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/luke-combs-minneapolis-tickets-4-10-2027/event/107482402"
+    "stubhub_international_url": "https://www.stubhub.ie/luke-combs-minneapolis-tickets-4-10-2027/event/107482402",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203741"
   },
   {
     "id": "tm-sombr-2027-hamburg-z698xzc2z1k-yjfqj",
@@ -74586,6 +74682,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056769",
+        "url": "https://www.ticketnetwork.com/en/p/8056769",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_oE6FCeI",
@@ -74605,7 +74708,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056769"
   },
   {
     "id": "tm-polyphia-2027-minneapolis-vv16kzkfbfazacg5v8",
@@ -76716,6 +76820,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8231137",
+        "url": "https://www.ticketnetwork.com/en/p/8231137",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_olG43WY",
@@ -76730,7 +76841,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231137"
   },
   {
     "id": "tm-stella-lefty-2027-dallas-vvg1yz_o8qf6xm",
@@ -77096,6 +77208,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8231127",
+        "url": "https://www.ticketnetwork.com/en/p/8231127",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_o3iVhXH",
@@ -77110,7 +77229,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231127"
   },
   {
     "id": "tm-stella-lefty-2027-chicago-vv1a7zkf3ovc9zec5",
@@ -77615,6 +77735,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7957527",
+        "url": "https://www.ticketnetwork.com/en/p/7957527",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1RaOGQA",
@@ -77622,7 +77749,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957527"
   },
   {
     "id": "tm-tobymac-2026-greensboro-g5evz_1nayk4t",
@@ -81631,11 +81759,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8200528",
+        "url": "https://www.ticketnetwork.com/en/p/8200528",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvp",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200528"
   },
   {
     "id": "tm-missio-2026-denver-g5vzz_8l-vdn4",
@@ -84637,6 +84773,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8217759",
+        "url": "https://www.ticketnetwork.com/en/p/8217759",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_8w8tpXK",
@@ -84652,7 +84795,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217759"
   },
   {
     "id": "tm-michelle-branch-2027-atlanta-vvg1zz_8qvo7-q",
@@ -84701,6 +84845,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8217760",
+        "url": "https://www.ticketnetwork.com/en/p/8217760",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_8Qvo7-Q",
@@ -84720,7 +84871,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217760"
   },
   {
     "id": "tm-michelle-branch-2027-dallas-vvg1yz_8by9itm",
@@ -86772,6 +86924,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8012962",
+        "url": "https://www.ticketnetwork.com/en/p/8012962",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_59Up5bx",
@@ -86786,7 +86945,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012962"
   },
   {
     "id": "tm-fkj-2027-houston-g5diz_5msvufk",
@@ -90201,11 +90361,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8043657",
+        "url": "https://www.ticketnetwork.com/en/p/8043657",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pp4b",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043657"
   },
   {
     "id": "tm-pink-martini-2027-chicago-z7r9jz1aaz6g7",
@@ -90254,11 +90422,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7847496",
+        "url": "https://www.ticketnetwork.com/en/p/7847496",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ6G7",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7847496"
   },
   {
     "id": "tm-pink-martini-2027-minneapolis-vv1akzkfagkes0irs",
@@ -95060,11 +95236,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239109",
+        "url": "https://www.ticketnetwork.com/en/p/8239109",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8Op",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239109"
   },
   {
     "id": "tm-tobymac-2027-grand-prairie-z7r9jz1aav8of",
@@ -96698,6 +96882,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252890",
+        "url": "https://www.ticketnetwork.com/en/p/8252890",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_oXVXYmL",
@@ -96717,7 +96908,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252890"
   },
   {
     "id": "tm-yuridia-2027-palm-desert-vvg1iz_35qkx8b",
@@ -102287,11 +102479,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255071",
+        "url": "https://www.ticketnetwork.com/en/p/8255071",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv08P",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255071"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-grand-rapids-vv17oz_8gksfqipn",
@@ -105395,11 +105595,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265285",
+        "url": "https://www.ticketnetwork.com/en/p/8265285",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvt47",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265285"
   },
   {
     "id": "tm-alan-walker-2027-raleigh-g5evz_31nnqnu",
@@ -105527,6 +105735,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265282",
+        "url": "https://www.ticketnetwork.com/en/p/8265282",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3nuc_Ky",
@@ -105542,7 +105757,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265282"
   },
   {
     "id": "tm-alan-walker-2027-washington-1a4zkftgkdat1lk",
@@ -107214,6 +107430,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266294",
+        "url": "https://www.ticketnetwork.com/en/p/8266294",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_35jHJdG",
@@ -107225,7 +107448,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-04-11T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266294"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-norfolk-z7r9jz1aavs4p",
@@ -107422,6 +107646,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266273",
+        "url": "https://www.ticketnetwork.com/en/p/8266273",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_3GkmKNaPk",
@@ -107436,7 +107667,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266273"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-red-bank-g5vvz_3ilcqvm",
@@ -107561,6 +107793,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266298",
+        "url": "https://www.ticketnetwork.com/en/p/8266298",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3N_ASME",
@@ -107580,7 +107819,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266298"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-northfield-vv17fz_ogkhgkwao",
@@ -108534,6 +108774,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8264659",
+        "url": "https://www.ticketnetwork.com/en/p/8264659",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3mnVFjD",
@@ -108554,7 +108801,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264659"
   },
   {
     "id": "tm-the-warning-2027-oklahoma-city-z7r9jz1aavtgp",
@@ -110702,11 +110950,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8210508",
+        "url": "https://www.ticketnetwork.com/en/p/8210508",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-ZJ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8210508"
   },
   {
     "id": "tm-oasis-2027-munich-z698xzc2z16vca8yqu",
@@ -113359,6 +113615,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265774",
+        "url": "https://www.ticketnetwork.com/en/p/8265774",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkf0Gkdyrnq8",
@@ -113373,7 +113636,8 @@
     ],
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265774"
   },
   {
     "id": "tm-kenny-chesney-2027-pittsburgh-1apzkfxgkdbuj3l",
@@ -115743,6 +116007,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271397",
+        "url": "https://www.ticketnetwork.com/en/p/8271397",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3iO8WKm",
@@ -115750,7 +116021,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271397"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-ridgefield-z7r9jz1aavuq6",
@@ -116054,11 +116326,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277970",
+        "url": "https://www.ticketnetwork.com/en/p/8277970",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KkMEtDo",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277970"
   },
   {
     "id": "tm-atmosphere-2027-bozeman-g5vzz_k6poibm",
@@ -120295,6 +120575,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8255326",
+        "url": "https://www.ticketnetwork.com/en/p/8255326",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_32HchTd",
@@ -120303,7 +120590,8 @@
     "ticketliquidator_url": "",
     "organizer_names": [
       "TRANSPARENT PRODUCTIONS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255326"
   },
   {
     "id": "tm-josiah-queen-2027-fort-worth-vvg1yz_35oahaq",
@@ -122109,6 +122397,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8286283",
+        "url": "https://www.ticketnetwork.com/en/p/8286283",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KQ-E_YF",
@@ -122123,7 +122418,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286283"
   },
   {
     "id": "tm-lukas-graham-2027-boston-vv1k7z_k8xg7ihpb",
@@ -126754,11 +127050,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8047967",
-        "url": "https://www.ticketnetwork.com/en/p/8047967",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -126771,7 +127067,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pa4e",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8047967",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -126890,6 +127186,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8038343",
+        "url": "https://www.ticketnetwork.com/en/p/8038343",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GKW-EWe",
@@ -126897,7 +127200,8 @@
     "status": "on-sale",
     "organizer_names": [
       "ANOTHER PLANET"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038343"
   },
   {
     "id": "tm-sienna-spiro-2026-los-angeles-vvg10z_gpwxv_j",
@@ -133434,6 +133738,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284373",
+        "url": "https://www.ticketnetwork.com/en/p/8284373",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GkTIMCNy",
@@ -133448,7 +133759,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284373"
   },
   {
     "id": "tm-the-interrupters-2027-detroit-vv1afzkfxgkesf0dw",
@@ -135380,11 +135692,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8256068",
+        "url": "https://www.ticketnetwork.com/en/p/8256068",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8-U",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256068"
   },
   {
     "id": "tm-dinosaur-jr-2027-athens-z7r9jz1aavk1o",
@@ -137779,11 +138099,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7775510",
-        "url": "https://www.ticketnetwork.com/en/p/7775510",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -137806,7 +138126,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775510",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "",
     "stubhub_international_url": ""
   },
@@ -142228,6 +142548,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8290981",
+        "url": "https://www.ticketnetwork.com/en/p/8290981",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kd9sQW9",
@@ -142242,7 +142569,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290981"
   },
   {
     "id": "tm-needtobreathe-2027-chattanooga-g5viz_kepfq3l",
@@ -143633,11 +143961,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748037",
+        "url": "https://www.ticketnetwork.com/en/p/7748037",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_AkYQnB8",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748037"
   },
   {
     "id": "tm-foy-vance-2026-englewood-z7r9jz1a7--ke",
@@ -144021,11 +144357,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748051",
+        "url": "https://www.ticketnetwork.com/en/p/7748051",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-K1v",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748051"
   },
   {
     "id": "tm-foy-vance-2027-saint-paul-z7r9jz1a7jfgw",
@@ -145287,6 +145631,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7939252",
+        "url": "https://www.ticketnetwork.com/en/p/7939252",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_aBOYxr9",
@@ -145302,7 +145653,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7939252"
   },
   {
     "id": "tm-tommy-emmanuel-2026-newberry-z7r9jz1aavs4z",
@@ -145420,6 +145772,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7941596",
+        "url": "https://www.ticketnetwork.com/en/p/7941596",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_aU3sWZr",
@@ -145431,7 +145790,8 @@
         "start": "2026-05-08T14:00:00Z",
         "end": "2026-11-29T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941596"
   },
   {
     "id": "tm-tommy-emmanuel-2026-durham-z7r9jz1a70f-w",
@@ -145743,11 +146103,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7941513",
+        "url": "https://www.ticketnetwork.com/en/p/7941513",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70b-E",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941513"
   },
   {
     "id": "tm-tommy-emmanuel-2026-clearwater-z7r9jz1aav8__",
@@ -146276,6 +146644,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268026",
+        "url": "https://www.ticketnetwork.com/en/p/8268026",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfNGkd53yOK",
@@ -146290,7 +146665,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268026"
   },
   {
     "id": "tm-tommy-emmanuel-2027-grand-rapids-z7r9jz1aavspe",
@@ -146583,11 +146959,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268048",
+        "url": "https://www.ticketnetwork.com/en/p/8268048",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpk",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268048"
   },
   {
     "id": "tm-tommy-emmanuel-2027-fairfield-z7r9jz1aavsp6",
@@ -146705,11 +147089,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268055",
+        "url": "https://www.ticketnetwork.com/en/p/8268055",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpF",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268055"
   },
   {
     "id": "tm-haiden-henderson-2027-dublin-1abzkfigkeweheg",
@@ -147584,6 +147976,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284327",
+        "url": "https://www.ticketnetwork.com/en/p/8284327",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K9Pms1B",
@@ -147598,7 +147997,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284327"
   },
   {
     "id": "tm-haiden-henderson-2027-boston-vv1avzkfygkegtmcp",
@@ -149335,11 +149735,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8268854",
+        "url": "https://www.ticketnetwork.com/en/p/8268854",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvS7Z",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268854"
   },
   {
     "id": "tm-valley-2027-quebec-z7r9jz1aavzfi",
@@ -150068,6 +150476,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272765",
+        "url": "https://www.ticketnetwork.com/en/p/8272765",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkB3CpP6",
@@ -150085,7 +150500,8 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272765"
   },
   {
     "id": "tm-valley-2027-victoria-z7r9jz1aavgoz",
@@ -151983,6 +152399,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284473",
+        "url": "https://www.ticketnetwork.com/en/p/8284473",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_31y4afW",
@@ -151990,7 +152413,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284473"
   },
   {
     "id": "tm-yacht-rock-revue-2027-huntington-k7vgf_31ykyfq",
@@ -152039,6 +152463,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284474",
+        "url": "https://www.ticketnetwork.com/en/p/8284474",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_31yKyfq",
@@ -152046,7 +152477,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284474"
   },
   {
     "id": "tm-yacht-rock-revue-2027-huntington-k7vgf_31y3tkt",
@@ -152095,6 +152527,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284475",
+        "url": "https://www.ticketnetwork.com/en/p/8284475",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_31y3tKt",
@@ -152102,7 +152541,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284475"
   },
   {
     "id": "tm-yacht-rock-revue-2027-key-west-z7r9jz1aaeefv",
@@ -152550,6 +152990,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284486",
+        "url": "https://www.ticketnetwork.com/en/p/8284486",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_3GkBlhlRj",
@@ -152557,7 +153004,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284486"
   },
   {
     "id": "tm-yacht-rock-revue-2027-nashville-vv17fz_3gktkih3j",
@@ -154114,11 +154562,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7930665",
-        "url": "https://www.ticketnetwork.com/en/p/7930665",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7930665",
@@ -154131,7 +154579,7 @@
     "ticketmaster_discovery_event_id": "vv177Z_aGkwHeNYA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930665",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930665/Amble-tickets-Fri-Nov-6-2026-Citizens-House-Of-Blues-Boston",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -159750,6 +160198,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300999",
+        "url": "https://www.ticketnetwork.com/en/p/8300999",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KBudUlQ",
@@ -159765,7 +160220,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300999"
   },
   {
     "id": "tm-chelsea-cutler-2027-charlotte-g5evz_kukxezh",
@@ -160828,6 +161284,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301012",
+        "url": "https://www.ticketnetwork.com/en/p/8301012",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KSxZvBS",
@@ -160839,7 +161302,8 @@
         "start": "2026-10-09T16:00:00Z",
         "end": "2027-03-04T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301012"
   },
   {
     "id": "tm-the-red-clay-strays-2026-pittsburgh-1avbz_fgklj6-n0",
@@ -166817,6 +167281,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295490",
+        "url": "https://www.ticketnetwork.com/en/p/8295490",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AOvPG_GA5LjZY",
@@ -166831,7 +167302,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295490"
   },
   {
     "id": "tm-daughtry-2027-charleston-g5evz_keoc7ae",
@@ -166880,6 +167352,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295491",
+        "url": "https://www.ticketnetwork.com/en/p/8295491",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KEoC7ae",
@@ -166895,7 +167374,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295491"
   },
   {
     "id": "tm-daughtry-2027-nashville-g5viz_khosea-",
@@ -167028,6 +167508,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295494",
+        "url": "https://www.ticketnetwork.com/en/p/8295494",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KLWyFXU",
@@ -167047,7 +167534,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295494"
   },
   {
     "id": "tm-andrea-bocelli-2027-chorzow-z698xzqpz16v7kfvze",
@@ -167378,6 +167866,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295777",
+        "url": "https://www.ticketnetwork.com/en/p/8295777",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KNJLGim",
@@ -167392,7 +167887,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295777"
   },
   {
     "id": "tm-blondshell-2027-madison-vv1kvyvpc_ga55f1w",
@@ -167652,11 +168148,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271409",
+        "url": "https://www.ticketnetwork.com/en/p/8271409",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeefP",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271409"
   },
   {
     "id": "tm-hilary-duff-2027-sunrise-z7r9jz1aaeve7",
@@ -170692,11 +171196,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295559",
+        "url": "https://www.ticketnetwork.com/en/p/8295559",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83F",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295559"
   },
   {
     "id": "tm-greta-van-fleet-2027-savannah-vvg1zz_kdabkfs",
@@ -184681,6 +185193,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308769",
+        "url": "https://www.ticketnetwork.com/en/p/8308769",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4vGkeShnYh",
@@ -184700,7 +185219,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308769"
   },
   {
     "id": "tm-staind-2027-huntington-1kaovp8iga2ivff",
@@ -187370,6 +187890,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303651",
+        "url": "https://www.ticketnetwork.com/en/p/8303651",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KDP4j6Z",
@@ -187385,7 +187912,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303651"
   },
   {
     "id": "tm-dylan-gossett-2027-north-myrtle-beach-g5evz_kuxkrl8",
@@ -191832,11 +192360,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266229",
+        "url": "https://www.ticketnetwork.com/en/p/8266229",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvV7w",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266229"
   },
   {
     "id": "tm-fontaines-d-c-2027-boston-vv1avzkfggkedloqr",
@@ -195494,12 +196030,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8310164",
+        "url": "https://www.ticketnetwork.com/en/p/8310164",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KxgyNUt",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-13T17:00:00Z"
+    "public_onsale_at": "2026-10-13T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310164"
   },
   {
     "id": "tm-dancing-with-the-stars-2027-san-diego-vvg1iz_kxrbyxe",
@@ -204349,6 +204893,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307362",
+        "url": "https://www.ticketnetwork.com/en/p/8307362",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkBLt_5x",
@@ -204363,7 +204914,8 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307362"
   },
   {
     "id": "tm-jay-wheeler-2027-boston-vv1avzk4agkejxnem",
@@ -204568,6 +205120,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307364",
+        "url": "https://www.ticketnetwork.com/en/p/8307364",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_f20_jhu",
@@ -204582,7 +205141,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307364"
   },
   {
     "id": "tm-jay-wheeler-2027-irving-vvg1yz_f8nrws_",
@@ -206740,6 +207300,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315049",
+        "url": "https://www.ticketnetwork.com/en/p/8315049",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fxR2vBf",
@@ -206748,7 +207315,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315049"
   },
   {
     "id": "tm-mico-2027-ft-lauderdale-vvg1vz_fqxgdhj",
@@ -208855,11 +209423,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303824",
+        "url": "https://www.ticketnetwork.com/en/p/8303824",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAepkF",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303824"
   },
   {
     "id": "tm-fontaines-d-c-2027-morrison-z7r9jz1aaepka",
@@ -217132,6 +217708,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977701",
+        "url": "https://www.ticketnetwork.com/en/p/7977701",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_1HjlW79",
@@ -217140,7 +217723,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977701"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-boston-vvg17z_1qyxhxi",
@@ -217189,6 +217773,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977954",
+        "url": "https://www.ticketnetwork.com/en/p/7977954",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1Qyxhxi",
@@ -217197,7 +217788,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977954"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-cleveland-vvg1fz_1qxxiit",
@@ -218033,12 +218625,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977515",
+        "url": "https://www.ticketnetwork.com/en/p/7977515",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70IjM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977515"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-menlo-park-z7r9jz1a7pj3f",
@@ -218087,12 +218687,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7978453",
+        "url": "https://www.ticketnetwork.com/en/p/7978453",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PJ3f",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978453"
   },
   {
     "id": "tm-andrea-bocelli-2026-abu-dhabi-z698xz52z1k7pedfx",
@@ -220410,6 +221018,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7976573",
+        "url": "https://www.ticketnetwork.com/en/p/7976573",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1m0MWVc",
@@ -220425,7 +221040,8 @@
     ],
     "organizer_names": [
       "ANOTHER PLANET"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976573"
   },
   {
     "id": "tm-blondshell-2027-seattle-z7r9jz1a70ere",
@@ -224094,11 +224710,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266219",
+        "url": "https://www.ticketnetwork.com/en/p/8266219",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1A4ZzjN",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266219"
   },
   {
     "id": "tm-the-lemonheads-2027-chicago-rz7hnez1afgof7",
@@ -225247,11 +225871,11 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8326646",
-        "url": "https://www.ticketnetwork.com/en/p/8326646",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -225268,7 +225892,7 @@
     "organizer_names": [
       "Oslo Spektrum AS (FKP Scorpio)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326646",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -225766,6 +226390,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8054733",
+        "url": "https://www.ticketnetwork.com/en/p/8054733",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_GS3K6Br",
@@ -225774,7 +226405,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054733"
   },
   {
     "id": "tm-hazlett-2027-portland-vvg17z_grwzm6s",
@@ -235151,6 +235783,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297647",
+        "url": "https://www.ticketnetwork.com/en/p/8297647",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KYXOckk",
@@ -235165,7 +235804,8 @@
     ],
     "organizer_names": [
       "ANOTHER PLANET"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297647"
   },
   {
     "id": "tm-mei-semones-2027-vancouver-1178vpcbx94gv5",
@@ -235538,12 +236178,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359823",
+        "url": "https://www.ticketnetwork.com/en/p/8359823",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeK09",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359823/Mei-Semones-tickets-Thu-May-6-2027-The-Burl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359823/Mei-Semones-tickets-Thu-May-6-2027-The-Burl",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359823"
   },
   {
     "id": "tm-mei-semones-2027-columbus-z7r9jz1aaef7k",
@@ -236966,11 +237614,11 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "7874794",
-        "url": "https://www.ticketnetwork.com/en/p/7874794",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk3aGkdn-bUh",
@@ -236978,7 +237626,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "",
     "stubhub_international_url": "",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874794",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "DF CONCERTS",
       "SCOTTISH EVENT CAMPUS LIMITED"
@@ -244227,11 +244875,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307184",
+        "url": "https://www.ticketnetwork.com/en/p/8307184",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkS7LiFe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307184"
   },
   {
     "id": "tm-rod-stewart-2027-niagara-falls-16vzzbmcag7m0q9",
@@ -253107,6 +253763,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359735",
+        "url": "https://www.ticketnetwork.com/en/p/8359735",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1adfZ_31K14Zduv5",
@@ -253116,7 +253779,8 @@
     "organizer_names": [
       "SJM LIMITED (NEW)"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359735/Simple-Minds-tickets-Mon-May-10-2027-Motorpoint-Arena-Nottingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359735/Simple-Minds-tickets-Mon-May-10-2027-Motorpoint-Arena-Nottingham",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359735"
   },
   {
     "id": "tm-simple-minds-2027-leeds-g5vhz_31k8si9",
@@ -274464,6 +275128,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7810663",
+        "url": "https://www.ticketnetwork.com/en/p/7810663",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_kGkwWYiaI",
@@ -274472,7 +275143,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7810663"
   },
   {
     "id": "tm-tom-jones-2026-las-vegas-17ayv0g61xuaqyn",
@@ -275359,11 +276031,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303912",
+        "url": "https://www.ticketnetwork.com/en/p/8303912",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkeiNqMd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303912"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkecacwb",
@@ -275412,11 +276092,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8276916",
+        "url": "https://www.ticketnetwork.com/en/p/8276916",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkecacWB",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276916"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-toronto-168zkfspyzauf8v5",
@@ -278328,11 +279016,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7961641",
-        "url": "https://www.ticketnetwork.com/en/p/7961641",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1SyOq0j",
@@ -278343,7 +279031,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961641",
+    "ticketnetwork_url": "",
     "ticketmaster_status_code": "postponed"
   },
   {
@@ -282588,11 +283276,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8286352",
+        "url": "https://www.ticketnetwork.com/en/p/8286352",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K6cIDVV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286352"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-temecula-vvg1iz_km0aey4",
@@ -284066,11 +284762,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7703261",
-        "url": "https://www.ticketnetwork.com/en/p/7703261",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk8VGkdI6E86",
@@ -284082,7 +284778,7 @@
       "AEG LIVE",
       "THE MESSINA GROUP (TMG)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7703261"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-zac-brown-band-2026-lincoln-vv16kzk8wakzacfeeu",
@@ -285046,11 +285742,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8053942",
-        "url": "https://www.ticketnetwork.com/en/p/8053942",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_Gm9cQxe",
@@ -285060,7 +285756,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053942"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-sleeping-with-sirens-2026-new-york-k7vgf_gnebmkt",
@@ -287031,11 +287727,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8121811",
+        "url": "https://www.ticketnetwork.com/en/p/8121811",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JFjS",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8121811"
   },
   {
     "id": "tm-cece-winans-2026-sacramento-g5vyz_cr1cmnb",
@@ -289710,11 +290414,11 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "7806869",
-        "url": "https://www.ticketnetwork.com/en/p/7806869",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_kGkmR1OOO",
@@ -289725,7 +290429,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806869"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-gavin-adcock-2026-reading-vv1aezkotgkeivbwv",
@@ -289774,6 +290478,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7806870",
+        "url": "https://www.ticketnetwork.com/en/p/7806870",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkotGkeIvbWV",
@@ -289781,7 +290492,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806870"
   },
   {
     "id": "tm-gavin-adcock-2026-detroit-z7r9jz1a7-yus",
@@ -289830,11 +290542,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7806927",
+        "url": "https://www.ticketnetwork.com/en/p/7806927",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Yus",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806927"
   },
   {
     "id": "tm-gavin-adcock-2026-grand-rapids-z7r9jz1a7-yut",
@@ -290973,11 +291693,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8322379",
+        "url": "https://www.ticketnetwork.com/en/p/8322379",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Kad",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322379"
   },
   {
     "id": "tm-zach-bryan-2027-chicago-z7r9jz1aa7pvj",
@@ -291462,6 +292190,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8333068",
+        "url": "https://www.ticketnetwork.com/en/p/8333068",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA791k",
@@ -291469,7 +292204,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333068"
   },
   {
     "id": "tm-riley-green-2026-manchester-vv177z_fgkwnh6_i",
@@ -295273,11 +296009,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238813",
+        "url": "https://www.ticketnetwork.com/en/p/8238813",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_omwlG3b",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238813"
   },
   {
     "id": "tm-billy-strings-2027-asheville-g5evz_omwlh3-",
@@ -295326,11 +296070,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238814",
+        "url": "https://www.ticketnetwork.com/en/p/8238814",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_omwlH3-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238814"
   },
   {
     "id": "tm-billy-strings-2027-asheville-g5evz_omwig3e",
@@ -295379,11 +296131,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238815",
+        "url": "https://www.ticketnetwork.com/en/p/8238815",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_omwiG3E",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238815"
   },
   {
     "id": "tm-billy-strings-2027-asheville-g5evz_omwii3v",
@@ -295432,11 +296192,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238816",
+        "url": "https://www.ticketnetwork.com/en/p/8238816",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_omwii3V",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238816"
   },
   {
     "id": "tm-billy-strings-2027-asheville-g5evz_omwcg3b",
@@ -295485,11 +296253,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238817",
+        "url": "https://www.ticketnetwork.com/en/p/8238817",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_omwcG3B",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238817"
   },
   {
     "id": "tm-billy-strings-2027-duluth-vvg1zz_oinx98f",
@@ -296261,11 +297037,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7743647",
+        "url": "https://www.ticketnetwork.com/en/p/7743647",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-f4V",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7743647"
   },
   {
     "id": "tm-cristian-castro-2027-denver-z7r9jz1a7-boz",
@@ -296641,11 +297425,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7756939",
+        "url": "https://www.ticketnetwork.com/en/p/7756939",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_AK4-aew",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756939"
   },
   {
     "id": "tm-cristian-castro-2027-orlando-1kfov0fzgac5wgd",
@@ -300942,6 +301734,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8258104",
+        "url": "https://www.ticketnetwork.com/en/p/8258104",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvPbE",
@@ -300949,7 +301748,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258104"
   },
   {
     "id": "tm-victoria-monet-2026-tampa-vvg1vz_3nvhqgr",
@@ -303558,11 +304358,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8293661",
-        "url": "https://www.ticketnetwork.com/en/p/8293661",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -303575,7 +304375,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAea4M",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293661",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -304117,6 +304917,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293185",
+        "url": "https://www.ticketnetwork.com/en/p/8293185",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfUGkdJvl2T",
@@ -304124,7 +304931,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293185"
   },
   {
     "id": "tm-brandi-carlile-2026-louisville-1apzkfugkdjal8x",
@@ -304173,6 +304981,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293186",
+        "url": "https://www.ticketnetwork.com/en/p/8293186",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfUGkdJAl8x",
@@ -304180,7 +304995,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293186"
   },
   {
     "id": "tm-brandi-carlile-2026-kansas-city-vv1akzkfzgkd6vlxs",
@@ -304301,6 +305117,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293187",
+        "url": "https://www.ticketnetwork.com/en/p/8293187",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_Kx-SKxh",
@@ -304315,7 +305138,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2026-11-18T01:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293187"
   },
   {
     "id": "tm-brandi-carlile-2026-port-chester-g5vvz_kx-vnxl",
@@ -304364,6 +305188,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293188",
+        "url": "https://www.ticketnetwork.com/en/p/8293188",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_Kx-VNxL",
@@ -304378,7 +305209,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2026-11-19T01:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293188"
   },
   {
     "id": "tm-brandi-carlile-2026-port-chester-g5vvz_kx-gsxn",
@@ -304427,6 +305259,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293189",
+        "url": "https://www.ticketnetwork.com/en/p/8293189",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_Kx-gSxN",
@@ -304441,7 +305280,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2026-11-20T01:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293189"
   },
   {
     "id": "tm-brandi-carlile-2027-seattle-vvg1hz_44goz5b",
@@ -306490,6 +307330,13 @@
         "verified": true,
         "last_verified_at": "2026-10-28",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7542483",
+        "url": "https://www.ticketnetwork.com/en/p/7542483",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbgWDgxYl",
@@ -306499,7 +307346,8 @@
     "organizer_names": [
       "S.J.M. LTD",
       "THE BRIGHTON CENTRE (BRIGHTON & HOVE CITY COUNCIL)"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7542483"
   },
   {
     "id": "tm-interpol-2026-dublin-1abzkuogkdez9hd",
@@ -306853,6 +307701,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8337025",
+        "url": "https://www.ticketnetwork.com/en/p/8337025",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_4oZ4dPM",
@@ -306860,7 +307715,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337025"
   },
   {
     "id": "tm-interpol-2027-washington-1a4zk4kgkd5cf0g",
@@ -309702,11 +310558,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307847",
+        "url": "https://www.ticketnetwork.com/en/p/8307847",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebv0",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307847"
   },
   {
     "id": "tm-lola-young-2027-atlanta-vvg1zz_f7qhai6",
@@ -310434,11 +311298,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307849",
+        "url": "https://www.ticketnetwork.com/en/p/8307849",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebvE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307849"
   },
   {
     "id": "tm-lola-young-2027-denver-g5vzz_f11k7mj",
@@ -310487,6 +311359,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307257",
+        "url": "https://www.ticketnetwork.com/en/p/8307257",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_f11k7mj",
@@ -310506,7 +311385,8 @@
         "start": "2026-10-09T16:00:00Z",
         "end": "2027-04-12T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307257"
   },
   {
     "id": "tm-lola-young-2027-salt-lake-city-g5vzz_fk8daho",
@@ -319089,11 +319969,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297141",
+        "url": "https://www.ticketnetwork.com/en/p/8297141",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeoP4",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297141"
   },
   {
     "id": "tm-dropkick-murphys-2027-grand-rapids-vv1afzkfggketsgvf",
@@ -333359,11 +334247,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8180367",
+        "url": "https://www.ticketnetwork.com/en/p/8180367",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZPF4",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180367"
   },
   {
     "id": "tm-lord-huron-2026-grand-rapids-vvg1oz_2sbbhp3",
@@ -333659,6 +334555,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8180371",
+        "url": "https://www.ticketnetwork.com/en/p/8180371",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_2D6R7wd",
@@ -333670,7 +334573,8 @@
         "start": "2026-08-07T14:00:00Z",
         "end": "2026-12-05T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180371"
   },
   {
     "id": "tm-lord-huron-2026-philadelphia-vvg1fz_2mgblql",
@@ -335556,11 +336460,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315229",
+        "url": "https://www.ticketnetwork.com/en/p/8315229",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7K0M",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315229"
   },
   {
     "id": "tm-remi-wolf-2027-chicago-vv1a7zk4fgkdb7-a0",
@@ -339694,6 +340606,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8324848",
+        "url": "https://www.ticketnetwork.com/en/p/8324848",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16djZ_37gG7HHXi",
@@ -339701,7 +340620,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LNM - VIP NATION UK"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324848"
   },
   {
     "id": "tm-foreigner-2027-new-york-g5diz_oohwwkw",
@@ -339902,6 +340822,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8243093",
+        "url": "https://www.ticketnetwork.com/en/p/8243093",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_oNY3-gO",
@@ -339921,7 +340848,8 @@
         "start": "2026-09-03T14:00:00Z",
         "end": "2027-04-27T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243093"
   },
   {
     "id": "tm-foreigner-2027-westbury-k7vgf_ocs3r5v",
@@ -340649,11 +341577,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8338946",
+        "url": "https://www.ticketnetwork.com/en/p/8338946",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7P8o",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338946"
   },
   {
     "id": "tm-two-door-cinema-club-2027-morrison-z7r9jz1aa7p83",
@@ -343402,11 +344338,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294993",
+        "url": "https://www.ticketnetwork.com/en/p/8294993",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8_-",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294993"
   },
   {
     "id": "tm-black-stone-cherry-2026-sauget-rz7hnez1afggzf",
@@ -344698,6 +345642,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8270729",
+        "url": "https://www.ticketnetwork.com/en/p/8270729",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_38PzTCe",
@@ -344712,7 +345663,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-26T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270729"
   },
   {
     "id": "tm-kings-of-leon-2027-auckland-1kazvpfagago3z7",
@@ -351078,6 +352030,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7551671",
+        "url": "https://www.ticketnetwork.com/en/p/7551671",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbU3R_nwH",
@@ -351097,7 +352056,8 @@
         "start": "2026-03-24T23:00:00Z",
         "end": "2026-11-19T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551671"
   },
   {
     "id": "tm-three-days-grace-2026-san-diego-vvg1izbuciwp5c",
@@ -355660,6 +356620,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8167874",
+        "url": "https://www.ticketnetwork.com/en/p/8167874",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G629rlldO",
@@ -355674,7 +356641,8 @@
         "start": "2026-07-31T14:00:00Z",
         "end": "2026-11-16T04:55:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167874"
   },
   {
     "id": "tm-jodeci-2026-memphis-g5viz_2h5lx5n",
@@ -355723,6 +356691,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8167876",
+        "url": "https://www.ticketnetwork.com/en/p/8167876",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_2h5LX5n",
@@ -355737,7 +356712,8 @@
         "start": "2026-07-31T15:00:00Z",
         "end": "2026-11-18T05:55:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167876"
   },
   {
     "id": "tm-jodeci-2026-thackerville-z7r9jz1aaz3ae",
@@ -358621,6 +359597,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326566",
+        "url": "https://www.ticketnetwork.com/en/p/8326566",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkS27zYe",
@@ -358628,7 +359611,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326566"
   },
   {
     "id": "tm-mercyme-2027-portland-vv177z_fgkxgyxqn",
@@ -358890,6 +359874,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326569",
+        "url": "https://www.ticketnetwork.com/en/p/8326569",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fIumnTg",
@@ -358897,7 +359888,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326569"
   },
   {
     "id": "tm-mercyme-2027-bossier-city-g5viz_fdsgolb",
@@ -362368,11 +363360,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7827794",
-        "url": "https://www.ticketnetwork.com/en/p/7827794",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -362392,7 +363384,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Sud",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827794",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "",
     "stubhub_international_url": ""
   },
@@ -362443,6 +363435,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7827829",
+        "url": "https://www.ticketnetwork.com/en/p/7827829",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_kmf8y1D",
@@ -362450,7 +363449,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827829"
   },
   {
     "id": "tm-mon-laferte-2026-inglewood-vv170z_kgksmomdw",
@@ -363030,11 +364030,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343267",
+        "url": "https://www.ticketnetwork.com/en/p/8343267",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t8-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343267"
   },
   {
     "id": "tm-meshuggah-2027-chicago-vv1a7zk49gkdpmbhc",
@@ -365158,6 +366166,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343257",
+        "url": "https://www.ticketnetwork.com/en/p/8343257",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7IAx",
@@ -365165,7 +366180,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343257"
   },
   {
     "id": "tm-meshuggah-2027-greensboro-g5evz_4knt1ei",
@@ -368005,6 +369021,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8048525",
+        "url": "https://www.ticketnetwork.com/en/p/8048525",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PpO0",
@@ -368012,7 +369035,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048525"
   },
   {
     "id": "tm-lenny-pearce-2026-st-petersburg-vvg1vz_gcd9hph",
@@ -369747,11 +370771,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344257",
+        "url": "https://www.ticketnetwork.com/en/p/8344257",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7s83",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344257"
   },
   {
     "id": "tm-mat-kearney-2027-new-york-vv16dzk44g3zauv5ea",
@@ -369948,6 +370980,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344177",
+        "url": "https://www.ticketnetwork.com/en/p/8344177",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_fGkH6lCSf",
@@ -369955,7 +370994,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344177"
   },
   {
     "id": "tm-mat-kearney-2027-cincinnati-16pzk48jvzacdggk",
@@ -371142,6 +372182,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344254",
+        "url": "https://www.ticketnetwork.com/en/p/8344254",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_4GOLPzD",
@@ -371161,7 +372208,8 @@
         "start": "2026-10-30T15:00:00Z",
         "end": "2027-11-13T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344254"
   },
   {
     "id": "tm-haiden-henderson-2027-orlando-z7r9jz1aaevq0",
@@ -371762,11 +372810,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8360005",
+        "url": "https://www.ticketnetwork.com/en/p/8360005",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAvbz",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8360005"
   },
   {
     "id": "tm-rod-stewart-2027-hamburg-z698xzc2z16vxb1oag",
@@ -371947,6 +373003,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359472",
+        "url": "https://www.ticketnetwork.com/en/p/8359472",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k7ZpZb4",
@@ -371955,7 +373018,8 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359472/U2-tickets-Fri-Jun-11-2027-Johan-Cruijff-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359472/U2-tickets-Fri-Jun-11-2027-Johan-Cruijff-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359472"
   },
   {
     "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkr8gcov",
@@ -372117,12 +373181,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7831758",
+        "url": "https://www.ticketnetwork.com/en/p/7831758",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-M4y",
     "timezone": "Etc/GMT",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831758/Niall-Horan-tickets-Tue-Nov-10-2026-3Arena-Dublin"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831758/Niall-Horan-tickets-Tue-Nov-10-2026-3Arena-Dublin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831758"
   },
   {
     "id": "tm-the-interrupters-2027-glasgow-1adbz_4gkd6f167",
@@ -372231,12 +373303,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284739",
+        "url": "https://www.ticketnetwork.com/en/p/8284739",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeeP4",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284739/Too-Many-Zooz-tickets-Thu-Mar-18-2027-10-Mile-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284739/Too-Many-Zooz-tickets-Thu-Mar-18-2027-10-Mile-Music-Hall",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284739"
   },
   {
     "id": "tm-fontaines-d-c-2027-asheville-z7r9jz1aae84b",
@@ -372513,13 +373593,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359466",
+        "url": "https://www.ticketnetwork.com/en/p/8359466",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z16vvEjtvk",
     "timezone": "Europe/Stockholm",
     "status": "announced",
     "public_onsale_at": "2026-11-10T11:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359466/U2-tickets-Fri-Apr-30-2027-Strawberry-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359466/U2-tickets-Fri-Apr-30-2027-Strawberry-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359466"
   },
   {
     "id": "tm-kings-of-leon-2027-bristow-1ka8vp__gaurfu5",
@@ -372575,13 +373663,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359338",
+        "url": "https://www.ticketnetwork.com/en/p/8359338",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kA8vP__GAurfU5",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359338/Kings-Of-Leon-tickets-Sat-May-8-2027-Jiffy-Lube-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359338/Kings-Of-Leon-tickets-Sat-May-8-2027-Jiffy-Lube-Live",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359338"
   },
   {
     "id": "tm-kings-of-leon-2027-philadelphia-vv1aezk4xgkdfbii2",
@@ -372691,13 +373787,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359343",
+        "url": "https://www.ticketnetwork.com/en/p/8359343",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16AZk4NOUZAC7AGu",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359343/Kings-Of-Leon-tickets-Fri-May-14-2027-Blossom-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359343/Kings-Of-Leon-tickets-Fri-May-14-2027-Blossom-Music-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359343"
   },
   {
     "id": "tm-kings-of-leon-2027-noblesville-vv1aazk4ngkdiu1bn",
@@ -372753,13 +373857,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359344",
+        "url": "https://www.ticketnetwork.com/en/p/8359344",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4NGkdIU1bN",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359344/Kings-Of-Leon-tickets-Sat-May-15-2027-Ruoff-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359344/Kings-Of-Leon-tickets-Sat-May-15-2027-Ruoff-Music-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359344"
   },
   {
     "id": "tm-kings-of-leon-2027-grand-rapids-vv1afzk4xgkdurf5s",
@@ -372815,13 +373927,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359345",
+        "url": "https://www.ticketnetwork.com/en/p/8359345",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4xGkdUrF5s",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359345/Kings-Of-Leon-tickets-Tue-May-18-2027-Acrisure-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359345/Kings-Of-Leon-tickets-Tue-May-18-2027-Acrisure-Amphitheater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359345"
   },
   {
     "id": "tm-kings-of-leon-2027-clarkston-vv1afzk4pgkdf_fbn",
@@ -372877,13 +373997,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359346",
+        "url": "https://www.ticketnetwork.com/en/p/8359346",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4PGkdF_fBN",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359346/Kings-Of-Leon-tickets-Sun-May-23-2027-Pine-Knob-Music-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359346/Kings-Of-Leon-tickets-Sun-May-23-2027-Pine-Knob-Music-Theatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359346"
   },
   {
     "id": "tm-kings-of-leon-2027-bridgeport-g5vvz_pclhssb",
@@ -372939,13 +374067,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359347",
+        "url": "https://www.ticketnetwork.com/en/p/8359347",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_pCLHsSB",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359347/Kings-Of-Leon-tickets-Tue-May-25-2027-Hartford-HealthCare-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359347/Kings-Of-Leon-tickets-Tue-May-25-2027-Hartford-HealthCare-Amphitheater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359347"
   },
   {
     "id": "tm-kings-of-leon-2027-saratoga-springs-k7vgf_p52u5pn",
@@ -373001,13 +374137,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359348",
+        "url": "https://www.ticketnetwork.com/en/p/8359348",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_p52U5pN",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359348/Kings-Of-Leon-tickets-Thu-May-27-2027-Albany-Med-Health-System-at-SPAC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359348/Kings-Of-Leon-tickets-Thu-May-27-2027-Albany-Med-Health-System-at-SPAC",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359348"
   },
   {
     "id": "tm-kings-of-leon-2027-bangor-vv1a8vpbygagbkh_",
@@ -373063,13 +374207,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359349",
+        "url": "https://www.ticketnetwork.com/en/p/8359349",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPbyGAGbkh_",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359349/Kings-Of-Leon-tickets-Sat-May-29-2027-Maine-Savings-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359349/Kings-Of-Leon-tickets-Sat-May-29-2027-Maine-Savings-Amphitheater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359349"
   },
   {
     "id": "tm-kings-of-leon-2027-bethel-k7vgf_pkjzmnn",
@@ -373125,13 +374277,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359350",
+        "url": "https://www.ticketnetwork.com/en/p/8359350",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pKjzmnN",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359350/Kings-Of-Leon-tickets-Sun-May-30-2027-Bethel-Woods-Center-For-The-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359350/Kings-Of-Leon-tickets-Sun-May-30-2027-Bethel-Woods-Center-For-The-Arts",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359350"
   },
   {
     "id": "tm-kings-of-leon-2027-toronto-16vzz_poyg7venm",
@@ -373295,13 +374455,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359352",
+        "url": "https://www.ticketnetwork.com/en/p/8359352",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvZvPbyGACp7L6",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359352/Kings-Of-Leon-tickets-Sun-Jun-6-2027-Credit-Union-1-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359352/Kings-Of-Leon-tickets-Sun-Jun-6-2027-Credit-Union-1-Amphitheatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359352"
   },
   {
     "id": "tm-kings-of-leon-2027-west-valley-city-g5vzz_p2iqpnf",
@@ -373411,13 +374579,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359372",
+        "url": "https://www.ticketnetwork.com/en/p/8359372",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v7Z_ppFG7nNqO",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-11-13T16:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359372/Kings-Of-Leon-tickets-Tue-Sep-14-2027-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359372/Kings-Of-Leon-tickets-Tue-Sep-14-2027-Rogers-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359372"
   },
   {
     "id": "tm-kings-of-leon-2027-seattle-vvg1hz_p57x6w0",
@@ -373473,13 +374649,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359354",
+        "url": "https://www.ticketnetwork.com/en/p/8359354",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_p57x6W0",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-13T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359354/Kings-Of-Leon-tickets-Wed-Sep-15-2027-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359354/Kings-Of-Leon-tickets-Wed-Sep-15-2027-Climate-Pledge-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359354"
   },
   {
     "id": "tm-kings-of-leon-2027-mountain-view-g5vyz_p1j_6oc",
@@ -373535,13 +374719,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359355",
+        "url": "https://www.ticketnetwork.com/en/p/8359355",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p1j_6OC",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-13T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359355/Kings-Of-Leon-tickets-Fri-Sep-17-2027-Shoreline-Amphitheatre-CA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359355/Kings-Of-Leon-tickets-Fri-Sep-17-2027-Shoreline-Amphitheatre-CA",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359355"
   },
   {
     "id": "tm-kings-of-leon-2027-inglewood-vv1aazk4ngkdyvvz_",
@@ -373597,13 +374789,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359356",
+        "url": "https://www.ticketnetwork.com/en/p/8359356",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4NGkdYVvZ_",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-13T17:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359356/Kings-Of-Leon-tickets-Sat-Sep-18-2027-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359356/Kings-Of-Leon-tickets-Sat-Sep-18-2027-The-Kia-Forum",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359356"
   },
   {
     "id": "tm-kings-of-leon-2027-phoenix-1a_zk4xgkewyfnx",
@@ -373659,13 +374859,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359358",
+        "url": "https://www.ticketnetwork.com/en/p/8359358",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4xGkeWyfnx",
     "timezone": "America/Phoenix",
     "status": "announced",
     "public_onsale_at": "2026-11-13T16:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359358/Kings-Of-Leon-tickets-Fri-Sep-24-2027-Talking-Stick-Resort-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359358/Kings-Of-Leon-tickets-Fri-Sep-24-2027-Talking-Stick-Resort-Amphitheatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359358"
   },
   {
     "id": "tm-kings-of-leon-2027-austin-g5diz_pk2f12g",
@@ -373721,13 +374929,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359359",
+        "url": "https://www.ticketnetwork.com/en/p/8359359",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pK2f12G",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359359/Kings-Of-Leon-tickets-Sun-Sep-26-2027-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359359/Kings-Of-Leon-tickets-Sun-Sep-26-2027-Moody-Center-ATX",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359359"
   },
   {
     "id": "tm-kings-of-leon-2027-fort-worth-vvg1yz_4lzyuso",
@@ -373783,13 +374999,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359360",
+        "url": "https://www.ticketnetwork.com/en/p/8359360",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4lZyUSo",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359360/Kings-Of-Leon-tickets-Tue-Sep-28-2027-Ariat-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359360/Kings-Of-Leon-tickets-Tue-Sep-28-2027-Ariat-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359360"
   },
   {
     "id": "tm-kings-of-leon-2027-alpharetta-vvg1zz_pch0zpt",
@@ -373845,13 +375069,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359361",
+        "url": "https://www.ticketnetwork.com/en/p/8359361",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pCh0zpT",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359361/Kings-Of-Leon-tickets-Thu-Sep-30-2027-Ameris-Bank-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359361/Kings-Of-Leon-tickets-Thu-Sep-30-2027-Ameris-Bank-Amphitheatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359361"
   },
   {
     "id": "tm-kings-of-leon-2027-orlando-1axzk40gkdkpvf2",
@@ -373907,13 +375139,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359362",
+        "url": "https://www.ticketnetwork.com/en/p/8359362",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk40GkdkpVF2",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359362/Kings-Of-Leon-tickets-Fri-Oct-1-2027-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359362/Kings-Of-Leon-tickets-Fri-Oct-1-2027-Kia-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359362"
   },
   {
     "id": "tm-kings-of-leon-2027-raleigh-g5evz_p3nejt5",
@@ -373969,13 +375209,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359364",
+        "url": "https://www.ticketnetwork.com/en/p/8359364",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_p3NEJT5",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359364/Kings-Of-Leon-tickets-Sun-Oct-3-2027-Coastal-Credit-Union-Music-Park-at-Walnut-Creek"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359364/Kings-Of-Leon-tickets-Sun-Oct-3-2027-Coastal-Credit-Union-Music-Park-at-Walnut-Creek",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359364"
   },
   {
     "id": "tm-kings-of-leon-2027-charlotte-g5evz_p5ab5ro",
@@ -374031,13 +375279,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359365",
+        "url": "https://www.ticketnetwork.com/en/p/8359365",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_p5AB5ro",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359365/Kings-Of-Leon-tickets-Wed-Oct-6-2027-Truliant-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359365/Kings-Of-Leon-tickets-Wed-Oct-6-2027-Truliant-Amphitheater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359365"
   },
   {
     "id": "tm-kings-of-leon-2027-franklin-g5viz_p28lhsa",
@@ -374093,13 +375349,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359366",
+        "url": "https://www.ticketnetwork.com/en/p/8359366",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_p28LHsA",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359366/Kings-Of-Leon-tickets-Fri-Oct-8-2027-FirstBank-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359366/Kings-Of-Leon-tickets-Fri-Oct-8-2027-FirstBank-Amphitheater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359366"
   },
   {
     "id": "tm-kings-of-leon-2027-cincinnati-1apzk4ngkdmfbs-",
@@ -374155,13 +375419,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359367",
+        "url": "https://www.ticketnetwork.com/en/p/8359367",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk4NGkdmFBs-",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359367/Kings-Of-Leon-tickets-Tue-Oct-12-2027-The-Farmer-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359367/Kings-Of-Leon-tickets-Tue-Oct-12-2027-The-Farmer-Music-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359367"
   },
   {
     "id": "tm-kings-of-leon-2027-mansfield-vv1avzk40gkelbik2",
@@ -374217,13 +375489,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359368",
+        "url": "https://www.ticketnetwork.com/en/p/8359368",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk40GkelbIK2",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359368/Kings-Of-Leon-tickets-Thu-Oct-14-2027-Xfinity-Center-MA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359368/Kings-Of-Leon-tickets-Thu-Oct-14-2027-Xfinity-Center-MA",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359368"
   },
   {
     "id": "tm-kings-of-leon-2027-new-york-g5diz_4_hy-cs",
@@ -374279,13 +375559,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359370",
+        "url": "https://www.ticketnetwork.com/en/p/8359370",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_4_HY-cs",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359370/Kings-Of-Leon-tickets-Fri-Oct-15-2027-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359370/Kings-Of-Leon-tickets-Fri-Oct-15-2027-Madison-Square-Garden",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359370"
   },
   {
     "id": "tm-mercyme-2027-johnson-city-z7r9jz1aa7mot",
@@ -374341,12 +375629,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8329958",
+        "url": "https://www.ticketnetwork.com/en/p/8329958",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Mot",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329958/MercyMe-tickets-Sun-Apr-11-2027-Freedom-Hall-Civic-Center-TN"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329958/MercyMe-tickets-Sun-Apr-11-2027-Freedom-Hall-Civic-Center-TN",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329958"
   },
   {
     "id": "tm-gary-allan-2026-newkirk-z7r9jz1aavecf",
@@ -374523,12 +375819,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8343270",
+        "url": "https://www.ticketnetwork.com/en/p/8343270",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t0I",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343270/Meshuggah-tickets-Fri-Mar-5-2027-College-Street-Music-Hall",
-    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-new-haven-tickets-3-5-2027/event/107678637"
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-new-haven-tickets-3-5-2027/event/107678637",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343270"
   }
 ]

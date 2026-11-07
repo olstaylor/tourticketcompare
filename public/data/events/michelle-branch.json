@@ -1114,6 +1114,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8217759",
+        "url": "https://www.ticketnetwork.com/en/p/8217759",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_8w8tpXK",
@@ -1129,7 +1136,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217759"
   },
   {
     "id": "tm-michelle-branch-2027-atlanta-vvg1zz_8qvo7-q",
@@ -1178,6 +1186,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8217760",
+        "url": "https://www.ticketnetwork.com/en/p/8217760",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_8Qvo7-Q",
@@ -1197,7 +1212,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217760"
   },
   {
     "id": "tm-michelle-branch-2027-dallas-vvg1yz_8by9itm",

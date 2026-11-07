@@ -624,6 +624,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7409995",
+        "url": "https://www.ticketnetwork.com/en/p/7409995",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Oqe",
@@ -631,7 +638,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7409995"
   },
   {
     "id": "tm-sabaton-2027-glasgow-17uov0g6g3si1v4",

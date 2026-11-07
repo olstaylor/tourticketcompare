@@ -886,6 +886,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303651",
+        "url": "https://www.ticketnetwork.com/en/p/8303651",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KDP4j6Z",
@@ -901,7 +908,8 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303651"
   },
   {
     "id": "tm-dylan-gossett-2027-north-myrtle-beach-g5evz_kuxkrl8",

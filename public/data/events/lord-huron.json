@@ -183,11 +183,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8180367",
+        "url": "https://www.ticketnetwork.com/en/p/8180367",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZPF4",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180367"
   },
   {
     "id": "tm-lord-huron-2026-grand-rapids-vvg1oz_2sbbhp3",
@@ -483,6 +491,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8180371",
+        "url": "https://www.ticketnetwork.com/en/p/8180371",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_2D6R7wd",
@@ -494,7 +509,8 @@
         "start": "2026-08-07T14:00:00Z",
         "end": "2026-12-05T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180371"
   },
   {
     "id": "tm-lord-huron-2026-philadelphia-vvg1fz_2mgblql",

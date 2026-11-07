@@ -143,11 +143,11 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "7874794",
-        "url": "https://www.ticketnetwork.com/en/p/7874794",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk3aGkdn-bUh",
@@ -155,7 +155,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "",
     "stubhub_international_url": "",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874794",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "DF CONCERTS",
       "SCOTTISH EVENT CAMPUS LIMITED"

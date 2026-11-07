@@ -3594,5 +3594,33 @@
     "last_verified_at": "2026-11-05",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-11-05"
+  },
+  {
+    "slug": "breaking-benjamin",
+    "name": "Breaking Benjamin",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-07",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-07"
+  },
+  {
+    "slug": "feid",
+    "name": "FEID",
+    "short_description": "Latin act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-07",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-07"
   }
 ]

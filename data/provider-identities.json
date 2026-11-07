@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05",
+  "updated_at": "2026-11-07",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -2889,6 +2889,28 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-11-05 (sanctioned path D): SeatGeek performer 1206 and Ticketmaster attraction K8vZ9175z5f captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "breaking-benjamin",
+      "ticketmaster_attraction_id": "K8vZ91758b7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/breaking-benjamin-tickets/artist/841686",
+      "seatgeek_performer_id": 4274,
+      "seatgeek_artist_url": "https://seatgeek.com/breaking-benjamin-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-07 (sanctioned path D): SeatGeek performer 4274 and Ticketmaster attraction K8vZ91758b7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "feid",
+      "ticketmaster_attraction_id": "K8vZ917_cQ7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/feid-tickets/artist/2826011",
+      "seatgeek_performer_id": 800142,
+      "seatgeek_artist_url": "https://seatgeek.com/feid-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-07 (sanctioned path D): SeatGeek performer 800142 and Ticketmaster attraction K8vZ917_cQ7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

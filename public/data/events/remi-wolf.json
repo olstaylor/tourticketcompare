@@ -1733,7 +1733,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7kAf",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7kAf",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/vancouver-canada-pne-forum-vancouver-2027-05-21-8-pm/concert/18664793",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-vancouver-pne-forum-5-21-2027--concerts-pop/production/7679383",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7kAf",
     "last_verified_at": null,
@@ -1755,11 +1755,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679383,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-vancouver-pne-forum-5-21-2027--concerts-pop/production/7679383",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

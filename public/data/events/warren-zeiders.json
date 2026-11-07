@@ -1332,7 +1332,7 @@
         "event_id": 7655011,
         "url": "https://www.vividseats.com/warren-zeiders-tickets-kansas-city-the-midland-theatre-4-1-2027--concerts-country-and-folk/production/7655011",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1615,7 +1615,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeb7U",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7U",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-charlotte-coyote-joes-5-1-2027--concerts-country-and-folk/production/7655025",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7U",
     "last_verified_at": null,
@@ -1637,11 +1637,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7655025,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-charlotte-coyote-joes-5-1-2027--concerts-country-and-folk/production/7655025",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

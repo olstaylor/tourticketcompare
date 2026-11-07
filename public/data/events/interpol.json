@@ -956,6 +956,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679708",
+        "url": "https://www.stubhub.ie/interpol-tickets-london-british-airways-arc-4-12-2026/event/107679708",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4xGkd2vP1g",
@@ -963,6 +970,7 @@
     "status": "on-sale",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-tickets-london-british-airways-arc-4-12-2026/event/107679708"
   }
 ]

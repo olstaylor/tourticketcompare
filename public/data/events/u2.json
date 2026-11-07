@@ -904,6 +904,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679895",
+        "url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-9-6-2027/event/107679895",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kb9Z4vI",
@@ -913,7 +920,8 @@
       "Mojo Concerts"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357120",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357120/U2-tickets-Wed-Jun-9-2027-Johan-Cruijff-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357120/U2-tickets-Wed-Jun-9-2027-Johan-Cruijff-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-9-6-2027/event/107679895"
   },
   {
     "id": "tm-u2-2027-barcelona-z698xz2qz16vasca3z",
@@ -1185,6 +1193,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680492",
+        "url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-25-6-2027/event/107680492",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_4GkBq3_od",
@@ -1192,7 +1207,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LNM - VIP NATION UK"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-25-6-2027/event/107680492"
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz1k7zpzb4",

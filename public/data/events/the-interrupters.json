@@ -1818,6 +1818,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679853",
+        "url": "https://www.stubhub.ie/the-interrupters-tickets-london-the-roundhouse-1-6-2027/event/107679853",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_4D3NbNs",
@@ -1825,7 +1832,8 @@
     "status": "on-sale",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/the-interrupters-tickets-london-the-roundhouse-1-6-2027/event/107679853"
   },
   {
     "id": "tm-the-interrupters-2027-k-benhavn-v-z698xzc4z1k8bb3pe",

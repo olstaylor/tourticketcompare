@@ -2679,11 +2679,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107638078",
-        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-oslo-oslo-spektrum-6-11-2026/event/107638078",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8326646",
@@ -2703,7 +2703,7 @@
     "ticketmaster_discovery_event_id": "Z698xZb_Z16vFtPOjP",
     "timezone": "Europe/Oslo",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-oslo-oslo-spektrum-6-11-2026/event/107638078",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Oslo Spektrum AS (FKP Scorpio)"
     ],

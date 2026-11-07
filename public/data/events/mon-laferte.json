@@ -115,11 +115,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107155199",
-        "url": "https://www.stubhub.ie/mon-laferte-las-vegas-tickets-11-5-2026/event/107155199",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Sud",
@@ -127,7 +127,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827794",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-las-vegas-tickets-11-5-2026/event/107155199"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-mon-laferte-2026-san-jose-g5vyz_kmf8y1d",

@@ -24,6 +24,11 @@ ALLOWED_STATUSES = {"draft", "announced", "on-sale", "past"}
 # (one-off / non-tour dates whose official listing has no tour label). These are
 # excluded from the blank-tour_name content warning. Never add an id here to
 # silence a genuinely missing label — only owner-confirmed intentional blanks.
+TRANSIENT_EVENT_NAME_RE = re.compile(
+    r"\b(?:sold[\s-]*out|rescheduled|postponed|cancel+ed|low tickets|few tickets left|selling fast)\b",
+    re.IGNORECASE,
+)
+
 OWNER_ACCEPTED_BLANK_TOUR_NAME_IDS = {
     # JAY-Z one-off 2026 shows — official listings are "JAY-Z30" / "JAY-Z - 30"
     # with no tour name; owner-accepted 2026-07-15.
@@ -518,6 +523,16 @@ def run_self_test() -> int:
             "expect_in_stderr": "WARNING: blank tour_name on indexed artist events",
         },
         {
+            "name": "sold-out text in event_name warns but passes",
+            "mutate": lambda event: event.__setitem__("event_name", "SOLD OUT! Self Test Artist"),
+            "expect_in_stderr": "WARNING: transient status text in event_name",
+        },
+        {
+            "name": "rescheduled prefix in event_name warns but passes",
+            "mutate": lambda event: event.__setitem__("event_name", "Rescheduled - Self Test Artist"),
+            "expect_in_stderr": "WARNING: transient status text in event_name",
+        },
+        {
             "name": "blank tour_name on indexed artist fails in strict mode",
             "mutate": lambda event: event.__setitem__("tour_name", ""),
             "strict_tour_name": True,
@@ -717,6 +732,12 @@ def main() -> int:
     # error — see issue #172. We group by artist_slug for a single tidy summary
     # so a hundred-event artist doesn't spam the validator output.
     blank_tour_name_by_slug: dict[str, list[str]] = {}
+    # Ticketmaster sometimes bakes a transient status into the listing title
+    # ("SOLD OUT! ...", "Rescheduled - ..."). The title is stored verbatim as
+    # the official name, but the event page shows it as "Billed as", where a
+    # sold-out claim goes stale and a rescheduled prefix can contradict the
+    # recorded lifecycle. A warning, not an error: the source title is real.
+    transient_event_names: list[str] = []
 
     # Artist-reference integrity (events must point at a real artist record).
     # Enforced only under --for-production so default runs stay lenient.
@@ -798,6 +819,11 @@ def main() -> int:
                 errors.append(f"{prefix}.tour_name: must be a string when present (use \"\" if unknown)")
 
         event_id = event.get("id")
+        event_name_value = event.get("event_name")
+        if isinstance(event_name_value, str) and TRANSIENT_EVENT_NAME_RE.search(event_name_value):
+            transient_event_names.append(
+                f"{event_id if isinstance(event_id, str) and event_id.strip() else f'index {i}'}: {event_name_value.strip()[:80]}"
+            )
         if isinstance(event_id, str) and event_id.strip():
             if event_id in ids:
                 errors.append(f"{prefix}.id: duplicate id '{event_id}'")
@@ -1183,6 +1209,18 @@ def main() -> int:
                 value = event.get(url_field)
                 if not isinstance(value, str) or value.strip() == "":
                     errors.append(f"{prefix}.{url_field}: required when --require-affiliate-urls is set")
+
+    if transient_event_names:
+        print(
+            f"WARNING: transient status text in event_name ({len(transient_event_names)} event(s)). "
+            "The page shows it as \"Billed as\"; a sold-out or rescheduled claim goes stale. "
+            "Refresh from Ticketmaster or handle at render time; never edit the name by hand.",
+            file=sys.stderr,
+        )
+        for line in transient_event_names[:20]:
+            print(f"  - {line}", file=sys.stderr)
+        if len(transient_event_names) > 20:
+            print(f"  - +{len(transient_event_names) - 20} more", file=sys.stderr)
 
     if blank_tour_name_by_slug:
         total_blank = sum(len(v) for v in blank_tour_name_by_slug.values())

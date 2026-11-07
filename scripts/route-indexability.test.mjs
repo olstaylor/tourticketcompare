@@ -451,8 +451,7 @@ const priced = {
     "data/catalog.json",
     "data/artists.json",
     "data/events.json",
-    "data/guides-content.json",
-    "data/provider-configs.json"
+    "data/guides-content.json"
   ]) {
     assetMap.set(`/${file}`, await fs.readFile(path.join(root, "public", file), "utf8"));
   }

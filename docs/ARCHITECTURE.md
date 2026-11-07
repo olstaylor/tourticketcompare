@@ -24,7 +24,6 @@ public/
     artists.json             Artist records and indexing state
     catalog.json             Provider metadata, artist links, and tours
     fallback-catalog.json    Client fallback if catalog loading fails
-    provider-configs.json    Provider display/cache/safety configuration
     guides-content.json      Guide content keyed by route
     events.json              Reviewed event records
     events/                  Generated per-artist partitions

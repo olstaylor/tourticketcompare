@@ -5,7 +5,6 @@
  *
  * Checks:
  * - catalog.json v3 provider definitions are complete
- * - provider-configs.json has all required providers
  * - events.json has provider_links scaffolding
  * - No contradictory settings (e.g., public_enabled but no hosts)
  *
@@ -16,7 +15,6 @@ import fs from "fs";
 import path from "path";
 
 const CATALOG_FILE = path.join(process.cwd(), "public/data/catalog.json");
-const CONFIG_FILE = path.join(process.cwd(), "public/data/provider-configs.json");
 const EVENTS_FILE = path.join(process.cwd(), "public/data/events.json");
 
 let errorCount = 0;
@@ -100,42 +98,6 @@ async function validateCatalog() {
   }
 }
 
-async function validateProviderConfigs() {
-  info("Validating provider-configs.json...");
-
-  try {
-    const content = fs.readFileSync(CONFIG_FILE, "utf8");
-    const data = JSON.parse(content);
-
-    if (data.version !== 1) {
-      warning(`provider-configs.json version is ${data.version}, expected 1`);
-    }
-
-    if (!data.provider_credentials || typeof data.provider_credentials !== "object") {
-      error("provider-configs.json.provider_credentials is missing or not an object");
-      return;
-    }
-
-    if (!data.pricing_display_rules) {
-      warning("provider-configs.json.pricing_display_rules is missing");
-    }
-
-    if (!data.cache_settings) {
-      warning("provider-configs.json.cache_settings is missing");
-    }
-
-    const configProviders = new Set(Object.keys(data.provider_credentials));
-    info(`✓ Config valid: ${configProviders.size} provider configs`);
-
-    // Check that pricing is disabled (safety)
-    if (data.pricing_display_rules?.enabled === true) {
-      error("Pricing display is enabled! This should only be true after verification.");
-    }
-  } catch (error) {
-    error(`Failed to read/parse provider-configs.json: ${error.message}`);
-  }
-}
-
 async function validateEvents() {
   info("Validating events.json provider_links...");
 
@@ -188,7 +150,6 @@ async function main() {
   await validateCatalog();
   console.log();
 
-  await validateProviderConfigs();
   console.log();
 
   await validateEvents();

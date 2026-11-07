@@ -5,7 +5,7 @@ description: "For 10 big tours, one resale site's lowest listed price for the ne
 summary: "Lowest listed resale prices for the same tour in different cities, one site per tour, each figure with the time it was captured. Snapshots up to 18 October 2026."
 date: 2026-10-18
 status: published
-updated: 2026-11-05
+updated: 2026-11-06
 tags:
   - tour-data
 related_guides:
@@ -84,7 +84,7 @@ On Vivid Seats, the lowest listed price for the next date in each of 28 cities i
 |---|---|---|---|---|---|
 | Birmingham | 31 October 2026 (has passed) | Legacy Arena at the BJCC | $47 | Vivid Seats | 18 October, 06:39 UTC |
 | Knoxville | 28 October 2026 (has passed) | Food City Center | $49 | Vivid Seats | 18 October, 06:39 UTC |
-| Bossier City | 6 November 2026 | Brookshire Grocery Arena | $50 | Vivid Seats | 18 October, 06:39 UTC |
+| Bossier City | 6 November 2026 (has passed) | Brookshire Grocery Arena | $50 | Vivid Seats | 18 October, 06:39 UTC |
 | Mobile | 25 March 2027 | Regions Arena | $106 | Vivid Seats | 18 October, 06:39 UTC |
 | Bend | 21 August 2027 | Hayden Homes Amphitheater | $125 | Vivid Seats | 18 October, 06:39 UTC |
 | Uncasville | 18 March 2027 | Mohegan Sun Arena | $141 | Vivid Seats | 18 October, 06:39 UTC |
@@ -157,7 +157,7 @@ On TicketNetwork, the lowest listed price for the next date in each of 23 cities
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| Atlanta | 6 November 2026 | The Eastern-GA | $35.65 | TicketNetwork | 18 October, 05:57 UTC |
+| Atlanta | 6 November 2026 (has passed) | The Eastern-GA | $35.65 | TicketNetwork | 18 October, 05:57 UTC |
 | Houston | 28 November 2026 | Bayou Music Center | $37.95 | TicketNetwork | 18 October, 05:57 UTC |
 | Denver | 13 December 2026 | Mission Ballroom | $42.55 | TicketNetwork | 18 October, 05:57 UTC |
 | St Petersburg | 5 November 2026 (has passed) | Jannus Live | $95.45 | TicketNetwork | 18 October, 05:57 UTC |

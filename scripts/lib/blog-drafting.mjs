@@ -143,7 +143,7 @@ export function selectArticle(source, issue, { now = Date.now(), prs = [], prior
 // issue. Same eligibility as the ideas report (fresh, verified, Ticketmaster
 // evidenced); the guide cites one date per city, the earliest, up to TOUR_MAX_DATES.
 export function selectTourGuides(source, artistSlugs, { now = Date.now(), prs = [], priority = new Map() } = {}) {
-  const { indexable, eligible } = eligibleEvents(source, { now });
+  const { indexable, eligible } = eligibleEvents(source, { now, preSaleUnstamped: true });
   const markers = prs.map((p) => draftMarker(p.body)).filter(Boolean);
   const rejected = [];
   const candidates = [];
@@ -166,7 +166,7 @@ export function selectTourGuides(source, artistSlugs, { now = Date.now(), prs = 
     const picked = [...byCity.values()].sort((a, b) => a.at - b.at || a.id.localeCompare(b.id)).slice(0, TOUR_MAX_DATES);
     if (picked.length < TOUR_MIN_CITIES) { reject('Fewer than three fresh, verified cities to write a tour guide about.'); continue; }
     const rows = picked.map((event) => ({ event, evidence: { id: event.id, date: eventLocalDateIso(event), venue: event.venue, city: event.city,
-      verified: event.last_verified_at, checkedProviders: event.lanes } }));
+      verified: event.last_verified_at, checkedProviders: event.lanes, ...(event.unstamped ? { requireCurrent: true } : {}) } }));
     const links = [`/artists/${slug}`];
     if (priceGuideRegistered(slug)) links.push(`/artists/${slug}/ticket-prices`);
     for (const link of guidePaths) if (source.documents.some((d) => d.path === link && d.status === 'published')) links.push(link);
@@ -277,7 +277,8 @@ export function buildEvidence(selected, { now = Date.now(), snapshot, prices = [
       checkedProviders: evidence.checkedProviders, discoveryId: discoveryIdFor(event)?.id || null,
       // Sale times only for sale/presale articles, each rechecked against the
       // official API below; other articles get none and may not mention them.
-      publicOnsaleAt, publicOnsaleLocal: publicOnsaleAt ? localSaleTime(publicOnsaleAt, timezone) : null, presales, external: null };
+      publicOnsaleAt, publicOnsaleLocal: publicOnsaleAt ? localSaleTime(publicOnsaleAt, timezone) : null, presales, external: null,
+      ...(evidence.requireCurrent ? { requireCurrent: true } : {}) };
   });
   const priceFacts = kind === 'tour' ? buildPriceFacts(prices, events) : null;
   return { version: 2, kind, snapshot, capturedAt: new Date(now).toISOString(), artist: selected.artistName,
@@ -349,7 +350,8 @@ export async function researchEvidence(evidence, { apiKey, fetchImpl = fetch, no
     if (!apiKey || !event.discoveryId) {
       event.external = { kind: 'not-checked', reason: !apiKey ? 'Ticketmaster API credential missing' : 'No resolvable Discovery identity' };
       // Sale times are only written from a current check, never the snapshot.
-      if (apiKey && result.requireCurrent) result.dropped.push({ id: event.id, fields: ['discoveryId'] });
+      // A date with no repository verification date is kept only on a current check.
+      if ((apiKey && result.requireCurrent) || event.requireCurrent) result.dropped.push({ id: event.id, fields: ['discoveryId'] });
       else kept.push(event);
       continue;
     }

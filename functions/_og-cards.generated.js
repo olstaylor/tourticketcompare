@@ -804,6 +804,7 @@ export const OG_CARDS = {
   "/blog/olivia-rodrigo-unraveled-tour-ticket-types": {"url":"/og/blog-olivia-rodrigo-unraveled-tour-ticket-types.png","alt":"Blog: Three kinds of Olivia Rodrigo ticket, and what each one means"},
   "/blog/pentatonix-tour-ticket-prices-by-city": {"url":"/og/blog-pentatonix-tour-ticket-prices-by-city.png","alt":"Blog: Pentatonix tour tickets: listed prices city by city"},
   "/blog/queens-of-the-stone-age-tour-guide": {"url":"/og/blog-queens-of-the-stone-age-tour-guide.png","alt":"Blog: Queens Of The Stone Age tour: dates, cities and how to choose"},
+  "/blog/riley-green-tour-guide": {"url":"/og/blog-riley-green-tour-guide.png","alt":"Blog: Riley Green tour: dates, cities and how to choose"},
   "/blog/riley-green-tour-ticket-prices-by-city": {"url":"/og/blog-riley-green-tour-ticket-prices-by-city.png","alt":"Blog: Riley Green tour tickets: listed prices city by city"},
   "/blog/same-tour-different-city-ticket-prices": {"url":"/og/blog-same-tour-different-city-ticket-prices.png","alt":"Blog: Same tour, different city: how listed ticket prices vary"},
   "/blog/shania-twain-tour-guide": {"url":"/og/blog-shania-twain-tour-guide.png","alt":"Blog: Shania Twain 2027 dates: listed prices by city"},

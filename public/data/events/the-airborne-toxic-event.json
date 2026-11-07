@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_Pw",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -67,7 +67,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978102",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978102/The-Airborne-Toxic-Event-tickets-Wed-May-19-2027-Keswick-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978102/The-Airborne-Toxic-Event-tickets-Wed-May-19-2027-Keswick-Theatre",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-chicago-z7r9jz1aazbfj",
@@ -85,7 +86,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfJ",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -136,7 +137,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978141",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978141/The-Airborne-Toxic-Event-tickets-Wed-May-26-2027-Vic-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978141/The-Airborne-Toxic-Event-tickets-Wed-May-26-2027-Vic-Theatre",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-englewood-z7r9jz1aazgov",
@@ -154,7 +156,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZgov",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -205,7 +207,8 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978059",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978059/The-Airborne-Toxic-Event-tickets-Tue-Jun-8-2027-Gothic-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978059/The-Airborne-Toxic-Event-tickets-Tue-Jun-8-2027-Gothic-Theatre",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-portland-z7r9jz1aazfzx",
@@ -223,7 +226,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZfZx",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -274,7 +277,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977696/The-Airborne-Toxic-Event-tickets-Fri-Jun-11-2027-Revolution-Hall-Portland",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977696"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977696",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-charlotte-g5evz_1nj2twb",
@@ -292,7 +296,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-charlotte-north-carolina-05-18-2027/event/2D0064A8E63FFCBA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -347,7 +351,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977707/The-Airborne-Toxic-Event-tickets-Tue-May-18-2027-The-Underground-Charlotte",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-washington-17a8v0g61rlmtti",
@@ -365,7 +371,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-washington-district-of-columbia-05-20-2027/event/150064A79FBA9A6C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417,7 +423,9 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977704",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977704/The-Airborne-Toxic-Event-tickets-Thu-May-20-2027-930-Club"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977704/The-Airborne-Toxic-Event-tickets-Thu-May-20-2027-930-Club",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-new-york-k7vgf_1hjlw79",
@@ -435,7 +443,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-new-york-new-york-05-21-2027/event/000064AF1CAFD117",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -482,7 +490,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977701"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977701",
+    "genre": "Rock"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-boston-vvg17z_1qyxhxi",
@@ -500,7 +509,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-boston-massachusetts-05-22-2027/event/010064A6B989B8AC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -547,7 +556,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977954"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977954",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-cleveland-vvg1fz_1qxxiit",
@@ -565,7 +576,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-cleveland-ohio-05-24-2027/event/050064A6A2FACB29",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -620,7 +631,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977705/The-Airborne-Toxic-Event-tickets-Mon-May-24-2027-House-Of-Blues-Cleveland",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-detroit-vv17oz_agkmoc3ug",
@@ -638,7 +651,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-detroit-michigan-05-25-2027/event/0800649DE0392D8C",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -677,7 +690,9 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-minneapolis-vvg1bz_1fhethg",
@@ -695,7 +710,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-minneapolis-minnesota-05-27-2027/event/060064A51B9FF6F5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -741,7 +756,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-las-vegas-17ayv0g61avjbwz",
@@ -759,7 +776,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-las-vegas-nevada-06-03-2027/event/170064A274718CB8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -822,7 +839,9 @@
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/the-airborne-toxic-event-las-vegas-tickets-6-3-2027/event/107676279"
+    "stubhub_international_url": "https://www.stubhub.ie/the-airborne-toxic-event-las-vegas-tickets-6-3-2027/event/107676279",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-san-diego-vvg1iz_a0ap_1u",
@@ -840,7 +859,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-san-diego-california-06-05-2027/event/0A006459059592B6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -895,7 +914,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7791670/The-Airborne-Toxic-Event-tickets-Sat-Jun-5-2027-Humphreys-Concerts-By-The-Bay",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 12,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-phoenix-17k8v0g61nr_nrj",
@@ -913,7 +934,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-phoenix-arizona-06-06-2027/event/190064A8EF66A79C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -975,7 +996,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977708/The-Airborne-Toxic-Event-tickets-Sun-Jun-6-2027-The-Van-Buren",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-salt-lake-city-g5vzz_1rps_y3",
@@ -993,7 +1016,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-salt-lake-city-utah-06-09-2027/event/1E0064A7A5C59E52",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1048,7 +1071,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977706/The-Airborne-Toxic-Event-tickets-Wed-Jun-9-2027-The-Depot-Salt-Lake-City",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-seattle-z7r9jz1a70ybz",
@@ -1066,7 +1091,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70ybZ",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1118,7 +1143,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977952",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977952/The-Airborne-Toxic-Event-tickets-Sun-Jun-13-2027-The-Showbox"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977952/The-Airborne-Toxic-Event-tickets-Sun-Jun-13-2027-The-Showbox",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-sacramento-g5vyz_1xif7y2",
@@ -1136,7 +1162,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-sacramento-california-06-15-2027/event/1C0064A8AC204C0F",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1191,7 +1217,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978064/The-Airborne-Toxic-Event-tickets-Tue-Jun-15-2027-Ace-of-Spades",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-san-luis-obispo-z7r9jz1a70w-f",
@@ -1209,7 +1237,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70w-f",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1261,7 +1289,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978076",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978076/The-Airborne-Toxic-Event-tickets-Wed-Jun-16-2027-Fremont-Theater-CA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978076/The-Airborne-Toxic-Event-tickets-Wed-Jun-16-2027-Fremont-Theater-CA",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-los-angeles-vvg10z_1rtqiih",
@@ -1279,7 +1308,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-los-angeles-california-06-17-2027/event/090064A7A976CA3C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1334,7 +1363,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977702/The-Airborne-Toxic-Event-tickets-Thu-Jun-17-2027-The-Wiltern",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-menlo-park-z7r9jz1a70ijm",
@@ -1352,7 +1383,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IjM",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1396,7 +1427,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977515"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977515",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-menlo-park-z7r9jz1a7pj3f",
@@ -1414,7 +1446,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ3f",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1458,6 +1490,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978453"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978453",
+    "genre": "Alternative"
   }
 ]

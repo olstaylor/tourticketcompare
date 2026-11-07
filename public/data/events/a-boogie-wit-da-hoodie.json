@@ -207,7 +207,7 @@
     "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-boston-agganis-arena-11-7-2026/production/7619492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-boston-massachusetts-11-07-2026/event/010065318DD99789",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -269,7 +269,9 @@
       "THE TOURING CO"
     ],
     "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-7-2026/event/107677507",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293621"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293621",
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkeinqmd",
@@ -287,7 +289,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-philadelphia-pennsylvania-11-13-2026/event/02006530AC8DDDC3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -330,7 +332,8 @@
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkeiNqMd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303912"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303912",
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkecacwb",
@@ -348,7 +351,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-philadelphia-pennsylvania-11-14-2026/event/02006530AD26DF7A",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391,7 +394,8 @@
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkecacWB",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276916"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276916",
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-toronto-168zkfspyzauf8v5",
@@ -409,7 +413,7 @@
     "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-toronto-scotiabank-arena-11-28-2026/production/7620477",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-boogie-wit-da-hoodie-10-toronto-ontario-11-28-2026/event/10006531970C7F0A",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -457,7 +461,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2026-11-22T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-orlando-z7r9jz1aaef4e",
@@ -544,7 +550,7 @@
     "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-minneapolis-armory---minneapolis-12-12-2026/production/7619726",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-minneapolis-minnesota-12-12-2026/event/06006530D92511EF",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -598,7 +604,9 @@
     "organizer_names": [
       "THE TOURING CO"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294956"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294956",
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-hartford-z7r9jz1aaea_k",
@@ -685,7 +693,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/power-1051-power-sessions-new-york-new-york-12-13-2026/event/00006562C25D9320",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -720,7 +728,8 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_p5e9_GO",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T15:00:00Z"
+    "status": "on-sale",
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   }
 ]

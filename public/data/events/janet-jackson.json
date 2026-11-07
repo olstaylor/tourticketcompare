@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/janet-jackson-tickets-sunrise-amerant-bank-arena-12-12-2026/production/7439329",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZz43",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -74,6 +74,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8225038",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8225038/Janet-Jackson-tickets-Sat-Dec-12-2026-Amerant-Bank-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/janet-jackson-sunrise-tickets-12-12-2026/event/107665901"
+    "stubhub_international_url": "https://www.stubhub.ie/janet-jackson-sunrise-tickets-12-12-2026/event/107665901",
+    "genre": "Pop"
   }
 ]

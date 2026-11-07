@@ -191,7 +191,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-los-angeles-california-10-26-2026/event/090064B43E17B4D1",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -256,7 +256,9 @@
     "ticketnetwork_url": "",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-10-27T03:00:00Z",
-    "previous_start_timezone": "America/Los_Angeles"
+    "previous_start_timezone": "America/Los_Angeles",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-tom-jones-2026-san-diego-vvg1iz_5gqcfyd",
@@ -274,7 +276,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tom-jones-come-gather-round-tour-san-diego-california-10-27-2026/event/0A0064B31A394E43",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -339,7 +341,9 @@
     "ticketnetwork_url": "",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-10-28T03:00:00Z",
-    "previous_start_timezone": "America/Los_Angeles"
+    "previous_start_timezone": "America/Los_Angeles",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-tom-jones-2026-highland-z7r9jz1a7p6r4",
@@ -357,7 +361,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P6r4",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -409,7 +413,8 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8003601/Tom-Jones-tickets-Fri-Nov-6-2026-Yaamava-Theater-at-Yaamava-Resort-Casino",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8003601",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "genre": "Pop"
   },
   {
     "id": "tm-tom-jones-2026-wheatland-g5vyz_1uw3ukc",

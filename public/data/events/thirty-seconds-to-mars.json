@@ -15,8 +15,8 @@
     "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-madrid-movistar-arena---madrid-4-8-2027--concerts-rock/production/6900043",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/65562275?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "65562275",
@@ -77,7 +77,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-madrid-movistar-arena-palacio-de-los-deportes-8-4-2027/event/107154484",
     "organizer_names": [
       "Live Nation España Blue Lane, SL"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-valencia-z698xz2qz16vuf8kq4",
@@ -95,8 +96,8 @@
     "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-valencia-roig-arena-4-9-2027--concerts-rock/production/6900059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1354406695?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1354406695",
@@ -157,7 +158,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-valencia-roig-arena-9-4-2027/event/107154485",
     "organizer_names": [
       "Live Nation España Blue Lane, SL"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-assago-zg9rmiynyzeadk",
@@ -175,7 +177,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/thirty-seconds-to-mars-assago-11-04-2027/event/ffzf8mag7ggv",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -210,7 +212,8 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZeAdk",
     "timezone": "Europe/Rome",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-munich-z698xzc2z16vfvofpp",
@@ -228,8 +231,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1534454956?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1534454956",
@@ -290,7 +293,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-munich-olympiahalle-munich-12-4-2027/event/107156408",
     "organizer_names": [
       "Live Nation GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-vienna-z698xz5rz1k-suw-g",
@@ -308,8 +312,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/873372875?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "873372875",
@@ -362,7 +366,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877285/Thirty-Seconds-To-Mars-tickets-Wed-Apr-14-2027-Wiener-Stadthalle-Halle-D",
     "organizer_names": [
       "Live Nation Austria GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-krakow-z698xzqpz1ke8f3ad",
@@ -380,8 +385,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/90512143?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "90512143",
@@ -418,7 +423,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation sp. z o.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-hannover-z698xzc2z16vqp_xfz",
@@ -436,8 +442,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1765662538?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1765662538",
@@ -498,7 +504,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-hannover-zag-arena-20-4-2027/event/107156422",
     "organizer_names": [
       "Live Nation GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-merksem-antwerpen-z698xzg2z1k-8asf4",
@@ -516,8 +523,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/850171215",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "850171215",
@@ -554,7 +561,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-london-1agzk3agkdevn9u",
@@ -572,7 +580,7 @@
     "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-london-the-o2---london-4-28-2027--concerts-rock/production/6899989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-london-28-04-2027/event/35006489E7D2A5CD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -618,7 +626,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-london-the-o2-arena-28-4-2027/event/107158077",
     "organizer_names": [
       "S.J.M. LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-manchester-1amzk3agkeyexfs",
@@ -636,7 +646,7 @@
     "vividseats_url": "https://www.vividseats.com/thirty-seconds-to-mars-tickets-manchester-co-op-live-4-29-2027--concerts-rock/production/6892010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/thirty-seconds-to-mars-presents-a-manchester-29-04-2027/event/37006489B09E2233",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -699,7 +709,9 @@
     "organizer_names": [
       "S.J.M. LTD",
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-dublin-1abzk36gkeuawhf",
@@ -717,7 +729,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/thirty-seconds-to-mars-presents-a-dublin-01-05-2027/event/18006487B617DF14",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -772,7 +784,9 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-nurnberg-z698xzc2z16vqofzv8",
@@ -790,8 +804,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1691238050?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1691238050",
@@ -836,7 +850,8 @@
     "organizer_names": [
       "Live Nation GmbH"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-nurnberg-psd-bank-nurnberg-arena-5-5-2027/event/107676064"
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-nurnberg-psd-bank-nurnberg-arena-5-5-2027/event/107676064",
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-casalecchio-di-reno-bologna-zg9rmiynyzffde",
@@ -854,7 +869,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-casalecchio-di-reno-bologna-08-05-2027/event/59jdmitw5833",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -889,7 +904,8 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZFFde",
     "timezone": "Europe/Rome",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-praha-9-z698xzu0z1k788y-z",
@@ -907,8 +923,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/110430840?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "110430840",
@@ -945,7 +961,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-helsinki-z698xz8kz16v7so3fa",
@@ -963,8 +980,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-%7C-vip-tickets/1131452209?language=en-us",
-    "last_verified_at": "2026-10-27",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1131452209",
@@ -1001,7 +1018,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation Finland Oy"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-tallinn-z698xz8kz16vpf_d-9",
@@ -1019,8 +1037,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
-    "last_verified_at": "2026-11-05",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1588643857",
@@ -1057,6 +1075,7 @@
     "status": "on-sale",
     "organizer_names": [
       "Wizard Live Oy"
-    ]
+    ],
+    "genre": "Rock"
   }
 ]

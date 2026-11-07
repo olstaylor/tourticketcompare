@@ -698,7 +698,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/phoebe-bridgers-dublin-23-11-2026/event/180064BBC954ED41",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -753,7 +753,8 @@
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8134619"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8134619",
+    "genre": "Rock"
   },
   {
     "id": "tm-phoebe-bridgers-2026-dublin-17kzv0g65ra4mgk",
@@ -771,7 +772,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/phoebe-bridgers-dublin-24-11-2026/event/180064BBC956ED46",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -826,7 +827,8 @@
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329498"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329498",
+    "genre": "Rock"
   },
   {
     "id": "tm-phoebe-bridgers-2026-manchester-17uyv0g6gcqzprx",
@@ -844,7 +846,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-manchester-co-op-live-11-26-2026--concerts-adult-contemporary/production/7123290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-manchester-26-11-2026/event/370064C39DE257BE",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -907,7 +909,9 @@
       "COMMUNION ONE LTD",
       "WHATEVER MOM MUSIC, INC ON BEHALF OF PHOEBE BRIDGERS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8028496"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8028496",
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-phoebe-bridgers-2026-glasgow-17uov0g6gor33_x",
@@ -925,7 +929,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-glasgow-ovo-hydro-11-27-2026--concerts-rock/production/7123296",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-glasgow-27-11-2026/event/360064C46F49267E",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -988,7 +992,9 @@
       "SCOTTISH EVENT CAMPUS LIMITED",
       "WHATEVER MOM MUSIC, INC ON BEHALF OF PHOEBE BRIDGERS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090638"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090638",
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-phoebe-bridgers-2026-birmingham-17fyv0g6g2_ps5a",
@@ -1006,7 +1012,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-11-28-2026--concerts-rock/production/7123299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-birmingham-28-11-2026/event/230064C3D99712C5",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1069,7 +1075,9 @@
       "COMMUNION ONE LTD",
       "WHATEVER MOM MUSIC, INC ON BEHALF OF PHOEBE BRIDGERS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090634"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090634",
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-phoebe-bridgers-2026-london-17u8v0g6gpqo1c-",
@@ -1087,7 +1095,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-london-the-o2---london-12-1-2026--concerts-rock/production/7123304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-the-lost-tour-london-01-12-2026/event/350064C59A44A3A1",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1134,7 +1142,9 @@
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD",
       "WHATEVER MOM MUSIC, INC ON BEHALF OF PHOEBE BRIDGERS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-phoebe-bridgers-2026-london-17u8v0g6gnyjt5y",
@@ -1152,7 +1162,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-london-the-o2---london-12-2-2026--concerts-rock/production/7132311",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-the-lost-tour-london-02-12-2026/event/350064CAB07292F9",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1199,7 +1209,9 @@
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD",
       "WHATEVER MOM MUSIC, INC ON BEHALF OF PHOEBE BRIDGERS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-phoebe-bridgers-2026-forest-brussels-z698xzg2z16ezpgzqe",
@@ -1217,8 +1229,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/phoebe-bridgers-the-lost-tour-%7C-beat-premium-bistronomy-experience-tickets/2016338742",
-    "last_verified_at": "2026-10-20",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2016338742",

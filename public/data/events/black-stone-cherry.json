@@ -129,8 +129,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/black-stone-cherrys-bonfire-nights-pops-concert-venue-tickets/14335014",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "14335014",
@@ -164,7 +164,8 @@
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGgZf",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2026-birmingham-rz7hnez1afuf1f",
@@ -182,8 +183,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/black-stone-cherry-bonfire-nights-the-fennec-main-tickets/14348294",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "14348294",
@@ -217,7 +218,8 @@
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfuF1f",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2026-nashville-z7r9jz1aaeapk",
@@ -288,7 +290,7 @@
     "vividseats_url": "https://www.vividseats.com/black-stone-cherry-tickets-lexington-manchester-music-hall-11-27-2026/production/7620989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/black-stone-cherry-lexington-kentucky-11-27-2026/event/1600653AEDC6D8AB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -339,7 +341,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294989",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294989/Black-Stone-Cherry-tickets-Fri-Nov-27-2026-Manchester-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294989/Black-Stone-Cherry-tickets-Fri-Nov-27-2026-Manchester-Music-Hall",
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2026-toronto-16tzkfzkozagevde",
@@ -357,8 +360,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/blackstone-cherrys-bonfire-nights-an-the-ritz-theater-scranton-tickets/14342404?REFERRAL_ID=tmfeed",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "14342404",
@@ -392,7 +395,8 @@
     },
     "ticketmaster_discovery_event_id": "16tZkfzkoZAGevde",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2026-hartford-z7r9jz1aaea0z",
@@ -548,7 +552,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-bournemouth-14-01-2027/event/3E0064C5E846735A",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -594,7 +598,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/black-stone-cherry-tickets-bournemouth-o2-academy-bournemouth-14-1-2027/event/107356092",
     "organizer_names": [
       "ACADEMY MUSIC GROUP (O2 ACADEMY BOURNEMOUTH)"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2027-london-g5dzzbzpu7g4_",
@@ -612,7 +617,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-london-22-01-2027/event/3E006385B6135559",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -660,7 +665,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "ACADEMY MUSIC GROUP (O2 FORUM KENTISH TOWN)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2027-london-g5dzzbz9kujcl",
@@ -678,7 +685,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-london-23-01-2027/event/3E006385D3DA6B5F",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -726,7 +733,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "ACADEMY MUSIC GROUP (O2 FORUM KENTISH TOWN)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2027-margate-16dfzbzp7g7r7jo",
@@ -744,7 +753,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-margate-25-01-2027/event/3500638584BC4711",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -783,7 +792,9 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2027-nottingham-g5vhzbzpq5krb",
@@ -801,7 +812,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-nottingham-26-01-2027/event/1F0063859D2C6BD8",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -848,7 +859,9 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2027-manchester-g5vhzbzkgpts1",
@@ -866,7 +879,7 @@
     "vividseats_url": "https://www.vividseats.com/black-stone-cherry-tickets-manchester-manchester-academy---3-2-2-2027/production/7151056",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-manchester-02-02-2027/event/1F006384F55A9CCA",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -913,7 +926,9 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2027-norwich-g5vhzbzpkx4ut",
@@ -931,7 +946,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-norwich-03-02-2027/event/1F00638593F95DA9",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -978,7 +993,9 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2027-edinburgh-g5dzzbzk-605z",
@@ -996,7 +1013,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-edinburgh-06-02-2027/event/3E006381A11E42C0",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1044,7 +1061,9 @@
     "organizer_names": [
       "TRIPLE G MUSIC LTD",
       "AMG - EDINBURGH CORN EXCHANGE"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2027-aberdeen-1auzkcagkdnsiac",
@@ -1062,7 +1081,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-aberdeen-08-02-2027/event/36006385E3C6C16D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1125,7 +1144,9 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "TRIPLE G EVENTS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2027-newcastle-upon-tyne-g5dzz_g10kk11",
@@ -1143,7 +1164,7 @@
     "vividseats_url": "https://www.vividseats.com/black-stone-cherry-tickets-newcastle-upon-tyne-o2-city-hall-2-9-2027--concerts-rock/production/7139448",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-newcastle-upon-tyne-09-02-2027/event/3E0064C2A44D328A",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1182,7 +1203,9 @@
     "organizer_names": [
       "TRIPLE G MUSIC LTD",
       "AMG- NEWCASTLE CITY HALLS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2027-belfast-1kczvno9gacmss6",
@@ -1200,7 +1223,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/black-stone-cherry-belfast-11-02-2027/event/380063817EDF1C47",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1240,7 +1263,8 @@
     "organizer_names": [
       "LIMELIGHT BELFAST LTD",
       "SD EVENT MANAGEMENT LTD"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2027-dublin-1avozbmgkwn1n87",
@@ -1258,7 +1282,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/black-stone-cherry-dublin-12-02-2027/event/1800637CAA2A3404",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1297,7 +1321,9 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-black-stone-cherry-2027-cork-1avozbzgklkguax",
@@ -1315,7 +1341,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/black-stone-cherry-cork-13-02-2027/event/1800638AC630D162",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1354,6 +1380,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "SECLUSION PROPERTIES LTD"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Rock"
   }
 ]

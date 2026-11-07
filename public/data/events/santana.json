@@ -175,7 +175,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-7-2026/production/7256822",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-07-2026/event/170064E18A358103",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -237,7 +237,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-7-2026/event/107469465",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1cz73",
@@ -255,7 +257,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-8-2026/production/7256798",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-08-2026/event/170064E18A3B8112",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -317,7 +319,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-8-2026/event/107472159",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck18f79",
@@ -335,7 +339,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-11-2026/production/7256786",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-11-2026/event/170064E18A408117",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -397,7 +401,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-11-2026/event/107472160",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1oi7r",
@@ -415,7 +421,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-12-2026/production/7256808",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-12-2026/event/170064E18A46811E",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -477,7 +483,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-12-2026/event/107469466",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck13z7p",
@@ -495,7 +503,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-14-2026/production/7256792",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-14-2026/event/170064E18A4B8125",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -557,7 +565,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-14-2026/event/107472161",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2026-las-vegas-17ayv0g6ck1fb7i",
@@ -575,7 +585,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-15-2026/production/7256832",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-15-2026/event/170064E18A51812C",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -637,7 +647,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-15-2026/event/107472162",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau5vmo",
@@ -655,7 +667,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-20-2027/production/7619530",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-20-2027/event/170065264D2C1DD1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -724,7 +736,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-20-2027/event/107676182"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-20-2027/event/107676182",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaugomb",
@@ -742,7 +756,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-21-2027/production/7619678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-21-2027/event/170065264D311DFA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -811,7 +825,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-21-2027/event/107676183"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-21-2027/event/107676183",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauu-zk",
@@ -829,7 +845,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-23-2027/production/7619574",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-23-2027/event/170065264D361E06",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -898,7 +914,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-23-2027/event/107676185"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-23-2027/event/107676185",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaucsz4",
@@ -916,7 +934,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-24-2027/production/7619550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-24-2027/event/170065264D3B1E15",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -985,7 +1003,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-24-2027/event/107676186"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-24-2027/event/107676186",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau8vze",
@@ -1003,7 +1023,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-27-2027/production/7619552",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-27-2027/event/170065264D401E27",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1072,7 +1092,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-27-2027/event/107676188"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-27-2027/event/107676188",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauoozw",
@@ -1090,7 +1112,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-28-2027/production/7619586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-28-2027/event/170065264D451E32",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1159,7 +1181,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-28-2027/event/107676189"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-28-2027/event/107676189",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau3-y4",
@@ -1177,7 +1201,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-30-2027/production/7619548",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-30-2027/event/170065264D4A1E55",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1246,7 +1270,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-30-2027/event/107676190"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-30-2027/event/107676190",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauksyx",
@@ -1264,7 +1290,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-1-31-2027/production/7619584",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-01-31-2027/event/170065264D4F1E62",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1333,7 +1359,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-31-2027/event/107676191"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-1-31-2027/event/107676191",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau4vyt",
@@ -1351,7 +1379,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-12-2027/production/7619572",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-12-2027/event/170065264D541E69",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1420,7 +1448,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-12-2027/event/107676246"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-12-2027/event/107676246",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaupoyr",
@@ -1438,7 +1468,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-13-2027/production/7619528",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-13-2027/event/170065264D591E6F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1507,7 +1537,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-13-2027/event/107676247"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-13-2027/event/107676247",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gau9-ys",
@@ -1525,7 +1557,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-15-2027/production/7619680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-15-2027/event/170065264D5E1E73",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1594,7 +1626,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-15-2027/event/107676252"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-15-2027/event/107676252",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaubsyw",
@@ -1612,7 +1646,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-16-2027/production/7619532",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-16-2027/event/170065264D631E7D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1681,7 +1715,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-16-2027/event/107676254"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-16-2027/event/107676254",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauq-b9",
@@ -1699,7 +1735,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-19-2027/production/7619660",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-19-2027/event/170065264D6A1E97",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1768,7 +1804,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-19-2027/event/107676260"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-19-2027/event/107676260",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaujvbi",
@@ -1786,7 +1824,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-20-2027/production/7619638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-20-2027/event/170065264D701EAC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1855,7 +1893,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-20-2027/event/107676262"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-20-2027/event/107676262",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gauq-bb",
@@ -1873,7 +1913,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-22-2027/production/7619526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-22-2027/event/170065264D761EBA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1942,7 +1982,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-22-2027/event/107676264"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-22-2027/event/107676264",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-las-vegas-1kayvpa0gaursdv",
@@ -1960,7 +2002,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-5-23-2027/production/7619556",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-05-23-2027/event/170065264D7B1EC1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2029,7 +2071,9 @@
         "end": "2027-01-01T06:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-23-2027/event/107676265"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-5-23-2027/event/107676265",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-london-1agzk4pgkemmuru",
@@ -2047,7 +2091,7 @@
     "vividseats_url": "https://www.vividseats.com/santana-tickets-london-the-o2---london-6-30-2027--concerts-rock/production/7770678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/santana-planet-of-free-will-global-london-30-06-2027/event/35006556AEDF6BF6",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2093,7 +2137,9 @@
     "organizer_names": [
       "SJM LIMITED (NEW)"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-tickets-london-the-o2-arena-30-6-2027/event/107678203"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-tickets-london-the-o2-arena-30-6-2027/event/107678203",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-krakow-z698xzqpz16va4pvo4",
@@ -2111,8 +2157,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/santana-planet-of-free-will-tour-2027-tickets/1255941455?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1255941455",
@@ -2149,7 +2195,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation sp. z o.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-santana-2027-oslo-z698xzb_z16v43vmbv",
@@ -2167,8 +2214,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/santana-planet-of-free-will-global-tour-2027-tickets/1552077634?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1552077634",
@@ -2213,6 +2260,7 @@
     "organizer_names": [
       "Live Nation Norway AS"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/santana-tickets-oslo-oslo-spektrum-28-7-2027/event/107678304"
+    "stubhub_international_url": "https://www.stubhub.ie/santana-tickets-oslo-oslo-spektrum-28-7-2027/event/107678304",
+    "genre": "Rock"
   }
 ]

@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-torrensville-03-02-2027/event/13006535DDD5CEEA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -53,7 +53,8 @@
     "status": "on-sale",
     "organizer_names": [
       "FRONTIER TOURING COMPANY"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-brisbane-1akzkfugkeggjy4",
@@ -71,7 +72,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-brisbane-12-02-2027/event/13006536B5326C15",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -109,7 +110,8 @@
     "status": "on-sale",
     "organizer_names": [
       "FRONTIER TOURING COMPANY"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-warsaw-z698xzqpz16vfyab0p",
@@ -127,8 +129,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/lizzy-mcalpine-support-worthitpurchase-%7C-the-over-country-tour-tickets/1230158916?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1230158916",
@@ -165,7 +167,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Fource Entertainment sp. z o.o."
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-glasgow-g5dzz_krfm-83",
@@ -183,7 +186,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-4-9-2027--concerts-alternative/production/7606722",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-glasgow-09-04-2027/event/3E00653788BA1412",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -231,7 +234,9 @@
       "AEG PRESENTS",
       "ACADEMY MUSIC GROUP (O2 ACADEMY GLASGOW)",
       "SONY MUSIC ON BEHALF OF LIZZY MCALPINE"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-dublin-16bzkfw-sza81kca",
@@ -249,7 +254,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/lizzy-mcalpine-the-over-country-tour-dublin-12-04-2027/event/18006532873F95D4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -289,7 +294,8 @@
       "AMPHITHEATRE IRELAND",
       "SINGULAR ARTISTS",
       "SONY MUSIC ON BEHALF OF LIZZY MCALPINE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-houston-g5diz_kko6pz2",
@@ -307,7 +313,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-houston-713-music-hall-5-1-2027/production/7606570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-houston-texas-05-01-2027/event/3A006531911D6E0F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -376,7 +382,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-durham-g5evz_klljeql",
@@ -394,7 +401,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-durham-north-carolina-05-04-2027/event/2D006537DF9A769F",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -444,7 +451,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-detroit-vv1afzkfmgkdd0jd5",
@@ -462,7 +470,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-detroit-fox-theatre-detroit-5-7-2027/production/7606574",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-detroit-michigan-05-07-2027/event/08006537FB91CECB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -528,7 +536,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-indianapolis-vv1aazkfggkeu7rbe",
@@ -546,7 +555,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-indianapolis-clowes-memorial-hall-5-9-2027/production/7606576",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-indianapolis-indiana-05-09-2027/event/05006535B611EE82",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -612,7 +621,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-minneapolis-vv1akzkfsgkdlvc7g",
@@ -630,7 +640,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-12-2027/production/7606578",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-12-2027/event/06006531EBD2D135",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -696,7 +706,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-saint-louis-vv1kvovpu_ga2r6bf",
@@ -714,7 +725,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-saint-louis-missouri-05-15-2027/event/060065359F787E88",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -764,7 +775,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-nashville-g5viz_kqsm0og",
@@ -782,7 +794,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-nashville-bridgestone-arena-6-16-2027/production/7606584",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-nashville-tennessee-06-16-2027/event/1B00653773DE4835",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -856,7 +868,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-philadelphia-1ayzkfsgkdubyxp",
@@ -874,7 +887,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-philadelphia-xfinity-mobile-arena-6-18-2027/production/7606586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wxpn-welcomes-lizzy-mcalpine-the-over-philadelphia-pennsylvania-06-18-2027/event/30006531F6639F96",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -948,7 +961,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-boston-vv1a8vpuzga1bapr",
@@ -966,7 +980,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-20-2027/production/7606590",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-20-2027/event/010065378A60995E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1032,7 +1046,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-new-york-g5diz_kr8e3se",
@@ -1050,7 +1065,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-new-york-madison-square-garden-6-24-2027/production/7606580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-new-york-new-york-06-24-2027/event/3B006537909D2CC2",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1129,7 +1144,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-columbia-1a4zkfmgkejxp8r",
@@ -1147,7 +1163,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-columbia-maryland-06-25-2027/event/15006537A689641E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1213,7 +1229,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-toronto-1a8zkfwgke-nzw8",
@@ -1231,7 +1248,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-toronto-scotiabank-arena-6-27-2027--concerts-alternative/production/7606716",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/lizzy-mcalpine-the-over-country-tour-toronto-ontario-06-27-2027/event/10006532A18F8C90",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1276,7 +1293,8 @@
     ],
     "organizer_names": [
       "AEG LIVE (CANADA)"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-chicago-vv1a7zkfggkenm_sz",
@@ -1294,7 +1312,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-chicago-united-center-6-29-2027--concerts-alternative/production/7606600",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-chicago-illinois-06-29-2027/event/04006535AADD9CC0",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1368,7 +1386,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-austin-g5diz_k1qabc1",
@@ -1386,7 +1405,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-austin-moody-center-atx-7-2-2027--concerts-alternative/production/7606604",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-austin-texas-07-02-2027/event/3A0065329D25838A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1460,7 +1479,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-san-diego-vvg1iz_k_8qjmi",
@@ -1478,7 +1498,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-diego-the-rady-shell-at-jacobs-park-7-9-2027--concerts-alternative/production/7606606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-diego-california-07-09-2027/event/0A0065365069CDEC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1544,7 +1564,9 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-inglewood-vv1aazkfugkdnwr6l",
@@ -1562,7 +1584,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-inglewood-kia-forum-7-10-2027/production/7606614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-inglewood-california-07-10-2027/event/09006536E3C9E1DF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1636,7 +1658,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-san-francisco-g5vyz_k6tphz4",
@@ -1654,7 +1677,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-francisco-chase-center-7-13-2027/production/7606620",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-francisco-california-07-13-2027/event/1C006531E959B015",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1728,7 +1751,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-portland-vvg1hz_kpe4n79",
@@ -1746,7 +1770,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-portland-moda-center-7-15-2027/production/7606624",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-portland-oregon-07-15-2027/event/0F00653582563117",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1812,7 +1836,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-seattle-vvg1hz_kf6i_hn",
@@ -1830,7 +1855,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-seattle-climate-pledge-arena-7-17-2027/production/7606630",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-seattle-washington-07-17-2027/event/0F00653207A196E3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1904,7 +1929,9 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-torrensville-1akzkfggkepdplf",
@@ -1922,7 +1949,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-torrensville-02-02-2027/event/13006535A5ED6AC8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1960,7 +1987,8 @@
     "status": "on-sale",
     "organizer_names": [
       "FRONTIER TOURING COMPANY"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-london-g5dzz_krvbn6w",
@@ -1978,7 +2006,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-3-31-2027--concerts-alternative/production/7606823",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-31-03-2027/event/3E006537B4EA31F2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2042,7 +2070,8 @@
       "AEG PRESENTS",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)",
       "SONY MUSIC ON BEHALF OF LIZZY MCALPINE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kslx95p",
@@ -2060,7 +2089,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-4-1-2027/production/7628968",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-01-04-2027/event/3E00653CDFF972D6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2124,7 +2153,9 @@
       "AEG PRESENTS",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)",
       "SONY MUSIC ON BEHALF OF LIZZY MCALPINE"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kscgmsk",
@@ -2142,7 +2173,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-4-2-2027/production/7636984",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-02-04-2027/event/3E00653CED337C46",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2206,7 +2237,9 @@
       "AEG PRESENTS",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)",
       "SONY MUSIC ON BEHALF OF LIZZY MCALPINE"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-birmingham-g5dzz_kkek096",
@@ -2224,7 +2257,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-birmingham-o2-academy---birmingham-4-7-2027--concerts-alternative/production/7606720",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-birmingham-07-04-2027/event/3E006531A74E45C7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2272,7 +2305,8 @@
       "AEG PRESENTS",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)",
       "SONY MUSIC ON BEHALF OF LIZZY MCALPINE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-glasgow-g5dzz_kwtjarb",
@@ -2290,7 +2324,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-4-10-2027/production/7637404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-glasgow-10-04-2027/event/3E00653CBF9857BA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2354,7 +2388,8 @@
       "AEG PRESENTS",
       "ACADEMY MUSIC GROUP (O2 ACADEMY GLASGOW)",
       "SONY MUSIC ON BEHALF OF LIZZY MCALPINE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3",
@@ -2648,7 +2683,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-13-2027/production/7631653",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2714,7 +2749,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-kansas-city-z7r9jz1aaekqk",
@@ -2854,7 +2890,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-21-2027--concerts-alternative/production/7631927",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2920,7 +2956,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6",
@@ -3015,8 +3052,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/lizzy-mcalpine-the-over-country-tour-tickets/348631183?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "348631183",
@@ -3053,6 +3090,7 @@
     "status": "on-sale",
     "organizer_names": [
       "Fource Entertainment s.r.o."
-    ]
+    ],
+    "genre": "Alternative"
   }
 ]

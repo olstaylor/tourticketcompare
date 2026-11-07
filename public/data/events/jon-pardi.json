@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-biloxi-mississippi-10-29-2026/event/1B0064EFC2FBEF49",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -67,7 +67,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149211",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149211/Jon-Pardi-tickets-Thu-Oct-29-2026-Mississippi-Coast-Coliseum",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "genre": "Country"
   },
   {
     "id": "tm-jon-pardi-2026-macon-vvg1zz_cbiziyi",
@@ -85,7 +86,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-macon-georgia-10-30-2026/event/0E0064EEA8E28C2C",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -137,7 +138,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149210",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149210/Jon-Pardi-tickets-Fri-Oct-30-2026-Atrium-Health-Amphitheater",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "genre": "Country"
   },
   {
     "id": "tm-jon-pardi-2026-laredo-g5diz_ctprcyh",
@@ -293,7 +295,7 @@
     "vividseats_url": "https://www.vividseats.com/jon-pardi-tickets-round-rock-round-rock-amp-11-7-2026/production/7321198",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZd8O",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -344,7 +346,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149248",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149248/Jon-Pardi-tickets-Sat-Nov-7-2026-Round-Rock-Amp"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149248/Jon-Pardi-tickets-Sat-Nov-7-2026-Round-Rock-Amp",
+    "genre": "Country"
   },
   {
     "id": "tm-jon-pardi-2026-cedar-rapids-vvg1bz_ctazgrx",
@@ -362,7 +365,7 @@
     "vividseats_url": "https://www.vividseats.com/jon-pardi-tickets-cedar-rapids-alliant-energy-powerhouse-11-12-2026--concerts-country-and-folk/production/7320585",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-cedar-rapids-iowa-11-12-2026/event/060064EFC5035BE2",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416,7 +419,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149215/Jon-Pardi-tickets-Thu-Nov-12-2026-Alliant-Energy-PowerHouse",
     "organizer_names": [
       "VENUWORKS CORPORATE"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-jon-pardi-2026-peoria-vvg1jz_cjyd3ia",
@@ -434,7 +438,7 @@
     "vividseats_url": "https://www.vividseats.com/jon-pardi-tickets-peoria-peoria-civic-center---carver-arena-11-13-2026--concerts-country-and-folk/production/7320595",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-peoria-illinois-11-13-2026/event/070064E9B90D2B09",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -492,7 +496,9 @@
         "start": "2026-11-03T22:15:00Z",
         "end": "2026-11-14T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-jon-pardi-2026-independence-vvg1bz_cu03zzw",
@@ -510,7 +516,7 @@
     "vividseats_url": "https://www.vividseats.com/jon-pardi-tickets-independence-cable-dahmer-arena-11-14-2026--concerts-country-and-folk/production/7320599",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-independence-missouri-11-14-2026/event/060064EDA44B8E3D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -561,7 +567,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149217",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149217/Jon-Pardi-tickets-Sat-Nov-14-2026-Cable-Dahmer-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149217/Jon-Pardi-tickets-Sat-Nov-14-2026-Cable-Dahmer-Arena",
+    "genre": "Country"
   },
   {
     "id": "tm-jon-pardi-2026-saint-louis-16e7z_obyg7v9-3",
@@ -579,7 +586,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-intimate-evening-with-jon-pardi-saint-louis-missouri-12-19-2026/event/2100651630D17852",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -614,7 +621,8 @@
     },
     "ticketmaster_discovery_event_id": "16e7Z_obYG7V9-3",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-jon-pardi-2027-durant-vvg1yz_ksrbiue",
@@ -632,7 +640,7 @@
     "vividseats_url": "https://www.vividseats.com/jon-pardi-tickets-durant-choctaw-grand-theater-3-20-2027/production/7653948",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-durant-oklahoma-03-20-2027/event/0C00653CEF62CDA7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -667,7 +675,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KSRbiUE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-jon-pardi-2027-nampa-z7r9jz1aazeqe",
@@ -685,7 +694,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeQe",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -721,7 +730,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZeQe",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "genre": "Country"
   },
   {
     "id": "tm-jon-pardi-2027-loveland-z7r9jz1aazeb3",
@@ -739,7 +749,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeb3",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -775,7 +785,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZeb3",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "genre": "Country"
   },
   {
     "id": "tm-jon-pardi-2027-west-valley-city-g5vzz_2evjpcf",
@@ -793,7 +804,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-west-valley-city-utah-05-20-2027/event/1E0064F081725388",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -829,6 +840,8 @@
     "ticketmaster_discovery_event_id": "G5vzZ_2evjPCF",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticket_limit": 8,
+    "genre": "Country"
   }
 ]

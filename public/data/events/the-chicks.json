@@ -383,7 +383,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-chicks-taking-the-long-way-hollywood-california-11-02-2026/event/090064B785414609",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448,7 +448,8 @@
     "ticketnetwork_url": "",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-03T04:30:00Z",
-    "previous_start_timezone": "America/Los_Angeles"
+    "previous_start_timezone": "America/Los_Angeles",
+    "genre": "Country"
   },
   {
     "id": "tm-the-chicks-2026-hollywood-vvg10z_5rao7bc",

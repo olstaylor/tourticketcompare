@@ -306,7 +306,7 @@
     "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-lincoln-pinnacle-bank-arena-11-19-2026--concerts-country-and-folk/production/6579008",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-lincoln-nebraska-11-19-2026/event/06006432246D711C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -369,16 +369,17 @@
       {
         "name": "Last Chance Offer",
         "start": "2026-11-02T16:00:00Z",
-        "end": "2026-11-09T04:00:00Z"
+        "end": "2026-11-12T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7703262"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7703262",
+    "genre": "Country"
   },
   {
     "id": "tm-zac-brown-band-2026-des-moines-z7r9jz1a7osk3",
     "artist_slug": "zac-brown-band",
     "artist_name": "Zac Brown Band",
-    "event_name": "Zac Brown Band w/ Grace Potter",
+    "event_name": "Zac Brown Band: Love & Fear Tour",
     "city": "Des Moines",
     "country": "United States Of America",
     "venue": "Casey's Center",
@@ -390,7 +391,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OSk3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -441,7 +442,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7705909/Zac-Brown-Band-tickets-Fri-Nov-20-2026-Caseys-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7705909"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7705909",
+    "genre": "Blues"
   },
   {
     "id": "tm-zac-brown-band-2026-rosemont-vv1a7zk8sgkdldbon",
@@ -459,7 +461,7 @@
     "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-rosemont-allstate-arena-11-21-2026--concerts-country-and-folk/production/6579013",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-rosemont-illinois-11-21-2026/event/04006431DF0D8823",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -521,7 +523,9 @@
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7703263"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7703263",
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-zac-brown-band-2027-milwaukee-vv1a6zkf0gkdpf9tr",
@@ -539,7 +543,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-milwaukee-wisconsin-06-25-2027/event/07006524D6217A6F",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -584,7 +588,9 @@
         "start": "2026-09-11T15:00:00Z",
         "end": "2027-06-15T22:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-zac-brown-band-2027-sparks-1avjz_4gkrmjou6",
@@ -602,7 +608,7 @@
     "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-sparks-nugget-event-center-5-1-2027/production/7795177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-sparks-nevada-05-01-2027/event/1700655BEE711D87",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -651,12 +657,13 @@
     },
     "ticketmaster_discovery_event_id": "1AvjZ_4GkRmjoU6",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T18:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353403",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353403/Zac-Brown-Band-tickets-Sat-May-1-2027-Nugget-Event-Center-At-Nugget-Casino-Resort",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   }
 ]

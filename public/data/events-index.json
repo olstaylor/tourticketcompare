@@ -50162,7 +50162,7 @@
     "country": "Canada",
     "city": "Toronto",
     "venue": "Coca-Cola Coliseum",
-    "datetime_iso": "2026-11-22T01:00:00Z",
+    "datetime_iso": "2026-11-22T02:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -50270,7 +50270,7 @@
     "country": "United States Of America",
     "city": "Las Vegas",
     "venue": "Fontainebleau Las Vegas",
-    "datetime_iso": "2026-12-10T04:00:00Z",
+    "datetime_iso": "2026-12-10T05:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
@@ -52997,7 +52997,7 @@
     "datetime_iso": "2026-12-05T01:00:00Z",
     "timezone": "America/Toronto",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkre8jcm",
@@ -53009,7 +53009,7 @@
     "datetime_iso": "2026-12-06T01:00:00Z",
     "timezone": "America/Toronto",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-interpol-2027-dallas-z7r9jz1aa7sce",
@@ -60113,7 +60113,7 @@
     "datetime_iso": "2027-02-07T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-blondshell-2027-cleveland-vv1aazk4pgkduzdwy",
@@ -60125,7 +60125,7 @@
     "datetime_iso": "2027-05-19T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-milwaukee-vv17jz_4gkdidvax",
@@ -60137,7 +60137,7 @@
     "datetime_iso": "2027-06-26T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-austin-z7r9jz1aa7ug0",
@@ -60197,7 +60197,7 @@
     "datetime_iso": "2027-06-24T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-flans-2027-las-vegas-z7r9jz1aaeaov",
@@ -60329,7 +60329,7 @@
     "datetime_iso": "2027-05-02T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-jack-johnson-2027-las-vegas-1avjz_fgkthyfka",
@@ -60341,7 +60341,7 @@
     "datetime_iso": "2027-06-03T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-jack-johnson-2027-las-vegas-1avjz_fgkthbfkc",
@@ -60353,7 +60353,7 @@
     "datetime_iso": "2027-06-04T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-koe-wetzel-2027-durant-vvg1yz_4wsdj6f",
@@ -60365,7 +60365,7 @@
     "datetime_iso": "2027-01-30T01:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-interpol-2026-london-1amzk4xgkd2vp1g",
@@ -61133,7 +61133,7 @@
     "datetime_iso": "2026-12-06T19:00:00Z",
     "timezone": "America/Toronto",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-new-york-k7vgf_p5e9_go",
@@ -61145,7 +61145,7 @@
     "datetime_iso": "2026-12-14T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-air-supply-2027-penticton-z7r9jz1aa7o-a",

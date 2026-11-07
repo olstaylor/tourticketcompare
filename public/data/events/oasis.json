@@ -210,7 +210,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-21-2027--concerts-alternative/production/7553045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-21-05-2027/event/3500652A88FE1835",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -272,7 +272,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-21-5-2027/event/107666276",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd1ybno",
@@ -290,7 +292,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-23-2027--concerts-alternative/production/7553047",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-23-05-2027/event/35006532CAE588E0",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -352,7 +354,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-23-5-2027/event/107666277",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd5kfpx",
@@ -370,7 +374,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-25-2027--concerts-alternative/production/7553051",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-25-05-2027/event/35006532CB4C8962",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -432,7 +436,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-25-5-2027/event/107666278",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkd5pben",
@@ -450,7 +456,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-28-2027--concerts-alternative/production/7553053",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-28-05-2027/event/35006532CB9589E3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -504,7 +510,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264754/Oasis-tickets-Fri-May-28-2027-Celtic-Park",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkdu5imb",
@@ -522,7 +530,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-glasgow-celtic-park-5-29-2027--concerts-alternative/production/7553055",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-glasgow-29-05-2027/event/35006532CD2E8B98",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -584,7 +592,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-29-5-2027/event/107666280",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lwzpdp",
@@ -602,7 +612,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-4-2027--concerts-alternative/production/7553273",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-04-06-2027/event/3E00652AF20160D6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -664,7 +674,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-4-6-2027/event/107667903",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lmyj87",
@@ -682,7 +694,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-6-2027--concerts-alternative/production/7553275",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-06-06-2027/event/3E00652AF7E66404",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -744,7 +756,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-6-6-2027/event/107667904",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lbuu4c",
@@ -762,7 +776,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-8-2027--concerts-alternative/production/7553277",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-08-06-2027/event/3E00652AFA37656D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -824,7 +838,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-8-6-2027/event/107666273",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lwcjqy",
@@ -842,7 +858,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-11-2027--concerts-alternative/production/7553281",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-11-06-2027/event/3E00652AFD3A6770",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -896,7 +912,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264759/Oasis-tickets-Fri-Jun-11-2027-Etihad-Stadium",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lxmu-j",
@@ -914,7 +932,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-12-2027--concerts-alternative/production/7553282",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-12-06-2027/event/3E00652AFEBB6866",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -976,7 +994,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-12-6-2027/event/107667906",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3nq9ecb",
@@ -994,7 +1014,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-15-2027--concerts-alternative/production/7553285",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-15-06-2027/event/3E00652A9A5C2B58",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1056,7 +1076,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-15-6-2027/event/107666274",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lv67ao",
@@ -1074,7 +1096,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-18-2027--concerts-alternative/production/7553289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-18-06-2027/event/3E00652AC11C4260",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1128,7 +1150,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264762/Oasis-tickets-Fri-Jun-18-2027-Etihad-Stadium",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3l--ppl",
@@ -1146,7 +1170,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-19-2027--concerts-alternative/production/7553291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-19-06-2027/event/3E00652AE186559F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1208,7 +1232,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-19-6-2027/event/107667908",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3l0pglg",
@@ -1226,7 +1252,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-22-2027--concerts-alternative/production/7553293",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-22-06-2027/event/3E00652AE49757CC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1288,7 +1314,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-22-6-2027/event/107667909",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3ljog0t",
@@ -1306,7 +1334,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-25-2027--concerts-alternative/production/7553295",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-25-06-2027/event/3E00652AE6835929",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1360,7 +1388,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264765/Oasis-tickets-Fri-Jun-25-2027-Etihad-Stadium",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lnpprv",
@@ -1378,7 +1408,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-manchester-etihad-stadium-6-26-2027--concerts-alternative/production/7553297",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-manchester-26-06-2027/event/3E00652AEA965BC1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1440,7 +1470,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-26-6-2027/event/107667910",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-co-meath-1avoz_3gkrnpmuo",
@@ -1458,7 +1490,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/oasis-live-27-co-meath-04-09-2027/event/1800652BEA5AE351",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1496,7 +1528,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-co-meath-1avoz_3gkrn9ru4",
@@ -1514,7 +1548,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/oasis-live-27-co-meath-05-09-2027/event/1800652BEA5DE355",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1552,7 +1586,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gklfny3e",
@@ -1570,7 +1606,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-11-09-2027/event/3700652AD4AB9482",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1616,7 +1652,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-11-9-2027/event/107666281",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkrrmy7n",
@@ -1634,7 +1672,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-12-09-2027/event/3700652BDEBB9123",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1680,7 +1718,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-12-9-2027/event/107666282",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkrnjt4_",
@@ -1698,7 +1738,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-18-09-2027/event/3700652BE39A9559",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1744,7 +1784,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-18-9-2027/event/107666283",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkreiyj0",
@@ -1762,7 +1804,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-19-09-2027/event/3700652BE7A399A4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1808,7 +1850,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-19-9-2027/event/107666284",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkrs3n_k",
@@ -1826,7 +1870,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-25-09-2027/event/3700652BF34AA653",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1872,7 +1916,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-25-9-2027/event/107669975",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-stevenage-1adjz_3gkrz1qva",
@@ -1890,7 +1936,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/oasis-live-27-stevenage-26-09-2027/event/3700652BF829AD09",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1936,7 +1982,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-26-9-2027/event/107669976",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-barcelona-z698xz2qz1kosq3xa",
@@ -2220,7 +2268,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-foxborough-gillette-stadium-8-10-2027--concerts-alternative/production/7553369",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-10-2027/event/01006529BCAA6867",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2289,7 +2337,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-foxborough-vv1avzkfggke0ghpz",
@@ -2307,7 +2357,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-foxborough-gillette-stadium-8-13-2027--concerts-alternative/production/7553367",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-13-2027/event/01006535A431B940",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2376,7 +2426,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-foxborough-vv1avzkfggke08hpi",
@@ -2394,7 +2446,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-foxborough-gillette-stadium-8-14-2027--concerts-alternative/production/7553365",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-14-2027/event/01006535A441B96C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2463,7 +2515,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga25ajz",
@@ -2481,7 +2535,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-las-vegas-allegiant-stadium-8-20-2027--concerts-alternative/production/7553373",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-20-2027/event/170065119F2C9700",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2550,7 +2604,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga2gaje",
@@ -2568,7 +2623,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-las-vegas-allegiant-stadium-8-21-2027--concerts-alternative/production/7553375",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-21-2027/event/170065119F309702",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2637,7 +2692,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga2u_jk",
@@ -2655,7 +2712,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-las-vegas-allegiant-stadium-8-24-2027--concerts-alternative/production/7553379",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-24-2027/event/170065119F359706",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2724,6 +2781,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   }
 ]

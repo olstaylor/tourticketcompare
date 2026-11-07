@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvxjs",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -69,7 +69,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255032",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255032/Trans-Siberian-Orchestra-tickets-Thu-Nov-19-2026-Resch-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255032/Trans-Siberian-Orchestra-tickets-Thu-Nov-19-2026-Resch-Center",
+    "genre": "Classical"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-council-bluffs-vv17bz_8gkr7r5-j",
@@ -87,7 +88,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-council-bluffs-mid-america-center-11-19-2026/production/7536253",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-council-bluffs-iowa-11-19-2026/event/0600650BC4BCB866",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -150,7 +151,9 @@
         "end": "2026-11-20T01:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255034/Trans-Siberian-Orchestra-tickets-Thu-Nov-19-2026-Mid-America-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255034/Trans-Siberian-Orchestra-tickets-Thu-Nov-19-2026-Mid-America-Center",
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-cincinnati-1apzkffgkdggxqt",
@@ -168,7 +171,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-cincinnati-ohio-11-21-2026/event/16006514CCD7E77F",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -229,7 +232,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255035",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255035/Trans-Siberian-Orchestra-tickets-Sat-Nov-21-2026-Heritage-Bank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255035/Trans-Siberian-Orchestra-tickets-Sat-Nov-21-2026-Heritage-Bank-Center",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-denver-g5vzz_o66yljp",
@@ -247,7 +251,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C7C2B996",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -308,7 +312,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255039",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255039/Trans-Siberian-Orchestra-tickets-Sat-Nov-21-2026-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255039/Trans-Siberian-Orchestra-tickets-Sat-Nov-21-2026-Ball-Arena",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-youngstown-vv1aazkfagkd2zwpt",
@@ -326,7 +331,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-youngstown-ohio-11-22-2026/event/05006505CF0325BF",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387,7 +392,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255040",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255040/Trans-Siberian-Orchestra-tickets-Sun-Nov-22-2026-Covelli-Centre-Youngstown"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255040/Trans-Siberian-Orchestra-tickets-Sun-Nov-22-2026-Covelli-Centre-Youngstown",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-salt-lake-city-z7r9jz1aavpc_",
@@ -405,7 +411,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvpC_",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -456,7 +462,8 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255044",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255044/Trans-Siberian-Orchestra-tickets-Tue-Nov-24-2026-Delta-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255044/Trans-Siberian-Orchestra-tickets-Tue-Nov-24-2026-Delta-Center",
+    "genre": "Classical"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-wilkes-barre-vv17fz_8gku2vdcc",
@@ -474,7 +481,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-wilkes-barre-mohegan-arena-at-casey-plaza-11-24-2026/production/7536513",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-wilkes-barre-pennsylvania-11-24-2026/event/0200650D8FD3BB4E",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -532,7 +539,9 @@
         "end": "2026-11-11T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255046/Trans-Siberian-Orchestra-tickets-Tue-Nov-24-2026-Mohegan-Arena-at-Casey-Plaza"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255046/Trans-Siberian-Orchestra-tickets-Tue-Nov-24-2026-Mohegan-Arena-at-Casey-Plaza",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-manchester-vv1avzkffgkecconl",
@@ -550,7 +559,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-manchester-new-hampshire-11-27-2026/event/01006514AD3A08EB",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -611,7 +620,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255047",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255047/Trans-Siberian-Orchestra-tickets-Fri-Nov-27-2026-SNHU-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255047/Trans-Siberian-Orchestra-tickets-Fri-Nov-27-2026-SNHU-Arena",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-boise-g5vzz_8l3-m4c",
@@ -629,7 +639,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-boise-idaho-11-27-2026/event/1E006507D287756D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -679,7 +689,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-worcester-vv1avzkf7gkd6__c-",
@@ -697,7 +708,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-worcester-massachusetts-11-28-2026/event/01006504C76593A1",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -751,7 +762,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255052",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255052/Trans-Siberian-Orchestra-tickets-Sat-Nov-28-2026-DCU-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255052/Trans-Siberian-Orchestra-tickets-Sat-Nov-28-2026-DCU-Center",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-portland-vvg1hz_8rkn5r8",
@@ -769,7 +782,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-portland-oregon-11-28-2026/event/0F00650BD3A8B790",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -830,7 +843,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255054",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255054/Trans-Siberian-Orchestra-tickets-Sat-Nov-28-2026-Moda-Center-at-the-Rose-Quarter"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255054/Trans-Siberian-Orchestra-tickets-Sat-Nov-28-2026-Moda-Center-at-the-Rose-Quarter",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-uncasville-g5vvz_8ebyjdo",
@@ -848,7 +862,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-uncasville-connecticut-11-29-2026/event/1D006509FAC26ED1",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -899,7 +913,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255056",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255056/Trans-Siberian-Orchestra-tickets-Sun-Nov-29-2026-Mohegan-Sun-Arena-CT"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255056/Trans-Siberian-Orchestra-tickets-Sun-Nov-29-2026-Mohegan-Sun-Arena-CT",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-seattle-vvg1hz_8bxdfpp",
@@ -917,7 +932,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-seattle-washington-11-29-2026/event/0F00650EA2EC8956",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -978,7 +993,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255058",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255058/Trans-Siberian-Orchestra-tickets-Sun-Nov-29-2026-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255058/Trans-Siberian-Orchestra-tickets-Sun-Nov-29-2026-Climate-Pledge-Arena",
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-sacramento-g5vyz_8hivhsq",
@@ -996,7 +1013,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-sacramento-california-12-02-2026/event/1C006506ECD3CC5A",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1057,7 +1074,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255061",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255061/Trans-Siberian-Orchestra-tickets-Wed-Dec-2-2026-Golden-1-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255061/Trans-Siberian-Orchestra-tickets-Wed-Dec-2-2026-Golden-1-Center",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-nashville-g5viz_oinlsr4",
@@ -1075,7 +1094,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-nashville-bridgestone-arena-12-2-2026/production/7536635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-nashville-tennessee-12-02-2026/event/1B00651B2A7F1795",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1151,7 +1170,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255062/Trans-Siberian-Orchestra-tickets-Wed-Dec-2-2026-Bridgestone-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-charleston-1avbz_8gkwouueg",
@@ -1169,7 +1189,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-charleston-charleston-coliseum-and-convention-center-12-3-2026/production/7536609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charleston-west-virginia-12-03-2026/event/1600650CA03760B5",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1235,7 +1255,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-fresno-g5vyz_o5rjusr",
@@ -1253,7 +1275,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-fresno-save-mart-center-12-3-2026/production/7536621",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-fresno-california-12-03-2026/event/1C006512EF98DC6F",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1307,7 +1329,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255064/Trans-Siberian-Orchestra-tickets-Thu-Dec-3-2026-Save-Mart-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-toledo-vv1kezvpv_gacwg13",
@@ -1325,7 +1349,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-toledo-ohio-12-04-2026/event/080065059ECB5292",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1375,18 +1399,12 @@
     "ticketmaster_discovery_event_id": "vv1keZvPv_GACwg13",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-07T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255065",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255065/Trans-Siberian-Orchestra-tickets-Fri-Dec-4-2026-Huntington-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255065/Trans-Siberian-Orchestra-tickets-Fri-Dec-4-2026-Huntington-Center",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-columbus-vv17fz_8gkuihkxu",
@@ -1404,7 +1422,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-columbus-ohio-12-05-2026/event/0500650DA86C688D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1465,7 +1483,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255068",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255068/Trans-Siberian-Orchestra-tickets-Sat-Dec-5-2026-Nationwide-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255068/Trans-Siberian-Orchestra-tickets-Sat-Dec-5-2026-Nationwide-Arena",
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-ontario-z7r9jz1aav08p",
@@ -1483,7 +1503,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08P",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1526,7 +1546,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv08P",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255071"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255071",
+    "genre": "Classical"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-grand-rapids-vv17oz_8gksfqipn",
@@ -1544,7 +1565,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-grand-rapids-michigan-12-06-2026/event/0800650CD46A85A3",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1605,7 +1626,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255072",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255072/Trans-Siberian-Orchestra-tickets-Sun-Dec-6-2026-Van-Andel-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255072/Trans-Siberian-Orchestra-tickets-Sun-Dec-6-2026-Van-Andel-Arena",
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-phoenix-1av0z_8gks2uk5t",
@@ -1623,7 +1646,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-phoenix-arizona-12-06-2026/event/1900650CCFD932FF",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1684,7 +1707,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255079",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255079/Trans-Siberian-Orchestra-tickets-Sun-Dec-6-2026-Mortgage-Matchup-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255079/Trans-Siberian-Orchestra-tickets-Sun-Dec-6-2026-Mortgage-Matchup-Center",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-allentown-17gzv0g62dv8e6s",
@@ -1702,7 +1726,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-allentown-ppl-center-12-9-2026/production/7536797",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-allentown-pennsylvania-12-09-2026/event/300064FEC14271F1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1763,7 +1787,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255080/Trans-Siberian-Orchestra-tickets-Wed-Dec-9-2026-PPL-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-austin-g5diz_od7g9c0",
@@ -1781,7 +1807,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-austin-moody-center-atx-12-9-2026/production/7536643",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-austin-texas-12-09-2026/event/3A006510C43173A4",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1855,7 +1881,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255081/Trans-Siberian-Orchestra-tickets-Wed-Dec-9-2026-Moody-Center-ATX",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-raleigh-g5evz_2wee5m0",
@@ -1873,7 +1900,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-raleigh-lenovo-center-12-10-2026--concerts-world-music/production/7536791",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-raleigh-north-carolina-12-10-2026/event/2D0064FCA708BBA4",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1947,7 +1974,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255082/Trans-Siberian-Orchestra-tickets-Thu-Dec-10-2026-Lenovo-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-bossier-city-g5viz_8b0hcmp",
@@ -1965,7 +1994,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-bossier-city-brookshire-grocery-arena-12-10-2026--concerts-world-music/production/7536807",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-bossier-city-louisiana-12-10-2026/event/1B00650EA46CEDD6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2026,7 +2055,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255084/Trans-Siberian-Orchestra-tickets-Thu-Dec-10-2026-Brookshire-Grocery-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-greenville-g5evz_o2s2bkg",
@@ -2044,7 +2074,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-greenville-south-carolina-12-11-2026/event/2D006513F33FA1B5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2105,7 +2135,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256376",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8256376/Trans-Siberian-Orchestra-tickets-Fri-Dec-11-2026-Bon-Secours-Wellness-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8256376/Trans-Siberian-Orchestra-tickets-Fri-Dec-11-2026-Bon-Secours-Wellness-Arena",
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-houston-z7r9jz1aavnas",
@@ -2123,7 +2155,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNAS",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2177,7 +2209,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255087",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255087/Trans-Siberian-Orchestra-tickets-Fri-Dec-11-2026-Toyota-Center-TX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255087/Trans-Siberian-Orchestra-tickets-Fri-Dec-11-2026-Toyota-Center-TX",
+    "genre": "Classical"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-charlotte-g5evz_o6l3kkc",
@@ -2195,7 +2228,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlotte-north-carolina-12-12-2026/event/2D006511DF4864ED",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2261,7 +2294,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255089",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255089/Trans-Siberian-Orchestra-tickets-Sat-Dec-12-2026-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255089/Trans-Siberian-Orchestra-tickets-Sat-Dec-12-2026-Spectrum-Center",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-san-antonio-g5diz_8q4vky5",
@@ -2279,7 +2313,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-san-antonio-texas-12-12-2026/event/3A00650695046E4B",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2340,7 +2374,8 @@
       "COMMUNITY ARENA MANAGEMENT"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255092",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255092/Trans-Siberian-Orchestra-tickets-Sat-Dec-12-2026-Frost-Bank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255092/Trans-Siberian-Orchestra-tickets-Sat-Dec-12-2026-Frost-Bank-Center",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-duluth-vvg1zz_8rk7fyq",
@@ -2358,7 +2393,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-duluth-georgia-12-13-2026/event/0E00650786114C1D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2419,7 +2454,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255093",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255093/Trans-Siberian-Orchestra-tickets-Sun-Dec-13-2026-Gas-South-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255093/Trans-Siberian-Orchestra-tickets-Sun-Dec-13-2026-Gas-South-Arena",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-dallas-vvg1yz_8bgba0q",
@@ -2437,7 +2473,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-dallas-texas-12-13-2026/event/0C00650E8C60591D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2503,7 +2539,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255097",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255097/Trans-Siberian-Orchestra-tickets-Sun-Dec-13-2026-American-Airlines-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255097/Trans-Siberian-Orchestra-tickets-Sun-Dec-13-2026-American-Airlines-Center",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-charlottesville-vv177z_ogksqlpte",
@@ -2521,7 +2558,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-charlottesville-john-paul-jones-arena-12-16-2026--concerts-world-music/production/7536731",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlottesville-virginia-12-16-2026/event/0100651CDD7E5A42",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2587,7 +2624,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255100/Trans-Siberian-Orchestra-tickets-Wed-Dec-16-2026-John-Paul-Jones-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-birmingham-1aezz_ockcvzdcau",
@@ -2605,7 +2643,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-birmingham-legacy-arena-at-the-bjcc-12-16-2026/production/7536607",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-birmingham-alabama-12-16-2026/event/2000651393381D8C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2668,7 +2706,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC",
       "RED MOUNTAIN ENTERTAINMENT"
-    ]
+    ],
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-jacksonville-1aefz_ogkwzigon",
@@ -2686,7 +2726,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-jacksonville-vystar-veterans-memorial-arena-12-17-2026/production/7536615",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-jacksonville-florida-12-17-2026/event/2200651CB8B35463",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2752,7 +2792,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255102/Trans-Siberian-Orchestra-tickets-Thu-Dec-17-2026-VyStar-Veterans-Memorial-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-albany-k7vgf_8uqsipg",
@@ -2770,7 +2812,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-albany-mvp-arena-12-17-2026--concerts-world-music/production/7536715",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-albany-new-york-12-17-2026/event/0000650D9ACEC58C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2833,7 +2875,9 @@
         "end": "2026-12-04T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255103/Trans-Siberian-Orchestra-tickets-Thu-Dec-17-2026-MVP-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255103/Trans-Siberian-Orchestra-tickets-Thu-Dec-17-2026-MVP-Arena",
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-hershey-vv1aovpkfgau5bfb",
@@ -2851,7 +2895,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-hershey-pennsylvania-12-18-2026/event/020065188D2D8218",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2922,7 +2966,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255105",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255105/Trans-Siberian-Orchestra-tickets-Fri-Dec-18-2026-Giant-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255105/Trans-Siberian-Orchestra-tickets-Fri-Dec-18-2026-Giant-Center",
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-sunrise-z7r9jz1aavnag",
@@ -2940,7 +2986,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-sunrise-amerant-bank-arena-12-18-2026/production/7536583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNAg",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3002,7 +3048,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255106/Trans-Siberian-Orchestra-tickets-Fri-Dec-18-2026-Amerant-Bank-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Classical"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-orlando-1aefz_8gkmasnhq",
@@ -3020,7 +3067,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-orlando-florida-12-19-2026/event/2200650DC5CE36DD",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3081,7 +3128,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255108",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255108/Trans-Siberian-Orchestra-tickets-Sat-Dec-19-2026-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255108/Trans-Siberian-Orchestra-tickets-Sat-Dec-19-2026-Kia-Center",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-pittsburgh-1apzkfdgkej_ji6",
@@ -3099,7 +3147,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-pittsburgh-pennsylvania-12-19-2026/event/16006503A6666A07",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3160,7 +3208,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255109",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255109/Trans-Siberian-Orchestra-tickets-Sat-Dec-19-2026-PPG-Paints-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255109/Trans-Siberian-Orchestra-tickets-Sat-Dec-19-2026-PPG-Paints-Arena",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-philadelphia-1adzz_8gkbpbarl",
@@ -3178,7 +3228,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-philadelphia-pennsylvania-12-20-2026/event/3000650EA5605BDF",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3244,7 +3294,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255113",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255113/Trans-Siberian-Orchestra-tickets-Sun-Dec-20-2026-Xfinity-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255113/Trans-Siberian-Orchestra-tickets-Sun-Dec-20-2026-Xfinity-Mobile-Arena",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-tampa-vvg1vz_oku2sug",
@@ -3262,7 +3313,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-tampa-florida-12-20-2026/event/0D0065118D3F3D8C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3328,7 +3379,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255112",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255112/Trans-Siberian-Orchestra-tickets-Sun-Dec-20-2026-Benchmark-International-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255112/Trans-Siberian-Orchestra-tickets-Sun-Dec-20-2026-Benchmark-International-Arena",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-cleveland-z7r9jz1aavx-d",
@@ -3346,7 +3398,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvx-d",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3400,7 +3452,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255116",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255116/Trans-Siberian-Orchestra-tickets-Tue-Dec-22-2026-Rocket-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255116/Trans-Siberian-Orchestra-tickets-Tue-Dec-22-2026-Rocket-Arena",
+    "genre": "Classical"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-indianapolis-vv17fz_8gkiwqjq1",
@@ -3418,7 +3471,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-indianapolis-indiana-12-22-2026/event/0500650B3269C68A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3484,7 +3537,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255117",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255117/Trans-Siberian-Orchestra-tickets-Tue-Dec-22-2026-Gainbridge-Fieldhouse"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255117/Trans-Siberian-Orchestra-tickets-Tue-Dec-22-2026-Gainbridge-Fieldhouse",
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-detroit-vv17oz_8gkyvghou",
@@ -3502,7 +3557,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-detroit-michigan-12-23-2026/event/0800650C01D5B80D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3568,7 +3623,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255120",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255120/Trans-Siberian-Orchestra-tickets-Wed-Dec-23-2026-Little-Caesars-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255120/Trans-Siberian-Orchestra-tickets-Wed-Dec-23-2026-Little-Caesars-Arena",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-rosemont-vv1a7zkffgkdsxaxx",
@@ -3586,7 +3642,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-rosemont-illinois-12-23-2026/event/04006514F18898A2",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3657,7 +3713,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255121",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255121/Trans-Siberian-Orchestra-tickets-Wed-Dec-23-2026-Allstate-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255121/Trans-Siberian-Orchestra-tickets-Wed-Dec-23-2026-Allstate-Arena",
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-newark-vv1aezkf_gkdmwuvf",
@@ -3675,7 +3733,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-newark-new-jersey-12-26-2026/event/02006519F7F4D054",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3733,7 +3791,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255124",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255124/Trans-Siberian-Orchestra-tickets-Sat-Dec-26-2026-Prudential-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255124/Trans-Siberian-Orchestra-tickets-Sat-Dec-26-2026-Prudential-Center",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-milwaukee-vv1a6zkfogkdqpudv",
@@ -3751,7 +3810,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-milwaukee-wisconsin-12-26-2026/event/07006511DA5B60C1",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3813,7 +3872,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255125",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255125/Trans-Siberian-Orchestra-tickets-Sat-Dec-26-2026-Fiserv-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255125/Trans-Siberian-Orchestra-tickets-Sat-Dec-26-2026-Fiserv-Forum",
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-washington-17a8v0g62bwqi08",
@@ -3831,7 +3892,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-washington-district-of-columbia-12-27-2026/event/150064F6326AC910",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3902,7 +3963,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255128",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255128/Trans-Siberian-Orchestra-tickets-Sun-Dec-27-2026-Capital-One-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255128/Trans-Siberian-Orchestra-tickets-Sun-Dec-27-2026-Capital-One-Arena",
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-minneapolis-vv1akzkfbgkelyd6x",
@@ -3920,7 +3983,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-minneapolis-minnesota-12-27-2026/event/06006518ABE7B1FE",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3986,7 +4049,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255130",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255130/Trans-Siberian-Orchestra-tickets-Sun-Dec-27-2026-Target-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255130/Trans-Siberian-Orchestra-tickets-Sun-Dec-27-2026-Target-Center",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-colorado-springs-z7r9jz1aavnz9",
@@ -4004,7 +4068,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZ9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4058,7 +4122,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255043",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255043/Trans-Siberian-Orchestra-tickets-Sun-Nov-22-2026-Broadmoor-World-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255043/Trans-Siberian-Orchestra-tickets-Sun-Nov-22-2026-Broadmoor-World-Arena",
+    "genre": "Classical"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-las-vegas-z7r9jz1aavnzs",
@@ -4076,7 +4141,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-las-vegas-michelob-ultra-arena-at-mandalay-bay-resort-and-casino-12-4-2026/production/7536729",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvNZS",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4138,7 +4203,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-las-vegas-tickets-12-4-2026/event/107667930"
+    "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-las-vegas-tickets-12-4-2026/event/107667930",
+    "genre": "Classical"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-toronto-1avzz_8gkmdenjm",
@@ -4156,7 +4222,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/transsiberian-orchestra-the-ghosts-of-christmas-toronto-ontario-12-29-2026/event/1000650DC30A3737",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4197,7 +4263,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 14,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-kansas-city-vv1kvovpkbgacwdwu",
@@ -4215,7 +4283,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-kansas-city-missouri-12-29-2026/event/060065198EC83CB6",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4286,7 +4354,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255134",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255134/Trans-Siberian-Orchestra-tickets-Tue-Dec-29-2026-T-Mobile-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255134/Trans-Siberian-Orchestra-tickets-Tue-Dec-29-2026-T-Mobile-Center",
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-buffalo-k7vgf_okhdtog",
@@ -4304,7 +4373,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-buffalo-new-york-12-30-2026/event/00006514DBEFF80C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4362,7 +4431,9 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255136",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255136/Trans-Siberian-Orchestra-tickets-Wed-Dec-30-2026-KeyBank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255136/Trans-Siberian-Orchestra-tickets-Wed-Dec-30-2026-KeyBank-Center",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-saint-louis-vv1akzkfbgkdrsdgs",
@@ -4380,7 +4451,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-saint-louis-missouri-12-30-2026/event/06006518DECC3331",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4430,6 +4501,7 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   }
 ]

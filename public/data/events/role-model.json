@@ -15,8 +15,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/role-model-presents-chuck-on-tour-tickets/1729904609?language=en-us",
-    "last_verified_at": "2026-10-24",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1729904609",
@@ -61,7 +61,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-berlin-tempodrom-11-2-2027/event/107417498",
     "organizer_names": [
       "Trinity Music GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-role-model-2027-forest-brussels-z698xzg2z1k8kjzbp",
@@ -79,8 +80,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/role-model-presents-chuck-on-tour-tickets/413738616",
-    "last_verified_at": "2026-10-24",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "413738616",
@@ -117,7 +118,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-role-model-2027-dusseldorf-z698xzc2z1ka6aaoi",
@@ -135,8 +137,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/role-model-presents-chuck-on-tour-tickets/147249828?language=en-us",
-    "last_verified_at": "2026-10-24",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "147249828",
@@ -181,7 +183,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-dusseldorf-mitsubishi-electric-halle-17-2-2027/event/107417499",
     "organizer_names": [
       "prime entertainment GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-role-model-2027-dublin-17kzv0g6uvbpba3",
@@ -199,7 +202,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/role-model-presents-chuck-on-tour-dublin-22-02-2027/event/180064D07A5BA252",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -238,7 +241,9 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-role-model-2027-london-17uyv0g6ueic0m_",
@@ -256,7 +261,7 @@
     "vividseats_url": "https://www.vividseats.com/role-model-tickets-london-ovo-arena-wembley-2-24-2027--concerts-rb/production/7183428",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +320,9 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8074604/Role-Model-tickets-Wed-Feb-24-2027-OVO-Arena-Wembley",
     "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-london-ovo-arena-wembley-24-2-2027/event/107447294",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8074604"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8074604",
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-role-model-2027-manchester-g5vhz_u1kkyot",
@@ -333,7 +340,7 @@
     "vividseats_url": "https://www.vividseats.com/role-model-tickets-manchester-ao-arena-2-28-2027/production/7799542",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -380,6 +387,8 @@
       "LIVE NATION MUSIC UK LTD",
       "ASM T-A AO ARENA"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-manchester-manchester-ao-arena-28-2-2027/event/107679710"
+    "stubhub_international_url": "https://www.stubhub.ie/role-model-tickets-manchester-manchester-ao-arena-28-2-2027/event/107679710",
+    "ticket_limit": 6,
+    "genre": "Pop"
   }
 ]

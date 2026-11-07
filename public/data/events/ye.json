@@ -99,7 +99,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv0vV",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -158,7 +158,8 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245565/Kanye-West-tickets-Sat-Nov-7-2026-ATT-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/ye-arlington-tickets-11-7-2026/event/107665792",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245565"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245565",
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-ye-2026-glendale-z7r9jz1aav08u",
@@ -176,7 +177,7 @@
     "vividseats_url": "https://www.vividseats.com/kanye-west-tickets-glendale-state-farm-stadium-11-21-2026/production/7507748",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08U",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -235,6 +236,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244532/Kanye-West-tickets-Sat-Nov-21-2026-State-Farm-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/ye-glendale-tickets-11-21-2026/event/107666750",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244532"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244532",
+    "genre": "Hip-Hop/Rap"
   }
 ]

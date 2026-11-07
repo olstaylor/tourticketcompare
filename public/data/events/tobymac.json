@@ -209,7 +209,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-cleveland-wolstein-center-at-csu-11-7-2026/production/7024282",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-cleveland-ohio-11-07-2026/event/050064ABC980C685",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -255,7 +255,8 @@
     "organizer_names": [
       "AWAKENING EVENTS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957527"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957527",
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2026-greensboro-g5evz_1nayk4t",
@@ -273,7 +274,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-11-8-2026--concerts-adult-contemporary/production/7024078",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-greensboro-north-carolina-11-08-2026/event/2D0064A8C9C06569",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -327,7 +328,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957529",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-fayetteville-g5evz_ojlfi-_",
@@ -345,7 +347,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fayetteville-crown-complex---crown-coliseum-1-28-2027/production/7491901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fayetteville-north-carolina-01-28-2027/event/2D0065199F228859",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -399,7 +401,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239058/TobyMac-tickets-Thu-Jan-28-2027-Crown-Coliseum-The-Crown-Center",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-lexington-1apzkfbgker-a4j",
@@ -417,7 +420,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-lexington-rupp-arena-1-29-2027/production/7491831",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lexington-kentucky-01-29-2027/event/16006518AF849566",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -478,7 +481,8 @@
     ],
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-huntsville-1aozkfbgkdezfqd",
@@ -496,7 +500,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-huntsville-propst-arena-at-the-von-braun-center-1-30-2027/production/7491903",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-huntsville-alabama-01-30-2027/event/20006518E7E1477B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -534,7 +538,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-lafayette-g5viz_2bfz904",
@@ -552,7 +557,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lafayette-louisiana-01-31-2027/event/1B0064FE94017915",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -590,7 +595,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-tampa-vvg1vz_oe_5n5h",
@@ -608,7 +614,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-tampa-benchmark-international-arena-2-4-2027/production/7491804",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tampa-florida-02-04-2027/event/0D006519D92EA2FC",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -670,7 +676,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/tobymac-tampa-tickets-2-4-2027/event/107666769",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-sunrise-z7r9jz1aav8xe",
@@ -688,7 +695,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-sunrise-amerant-bank-arena-2-5-2027--concerts-adult-contemporary/production/7492544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8xe",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -747,7 +754,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239108",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239108/TobyMac-tickets-Fri-Feb-5-2027-Amerant-Bank-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/tobymac-sunrise-tickets-2-5-2027/event/107666770"
+    "stubhub_international_url": "https://www.stubhub.ie/tobymac-sunrise-tickets-2-5-2027/event/107666770",
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-tobymac-2027-orlando-1axzkf_gkdtkgpv",
@@ -765,7 +773,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-orlando-kia-center-2-6-2027--concerts-adult-contemporary/production/7492512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-orlando-florida-02-06-2027/event/22006519E94F5941",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -827,7 +835,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/tobymac-orlando-tickets-2-6-2027/event/107666375",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-estero-vvg1vz_onusnh8",
@@ -845,7 +854,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-estero-hertz-arena-2-7-2027/production/7491829",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-estero-florida-02-07-2027/event/0D006518CDC6A6D0",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -907,7 +916,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/tobymac-estero-tickets-2-7-2027/event/107666771",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-pensacola-g5viz_o9zokbz",
@@ -925,7 +935,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-pensacola-pensacola-bay-center-2-11-2027--concerts-adult-contemporary/production/7492515",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-pensacola-florida-02-11-2027/event/1B006515C0806638",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -979,7 +989,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239087/TobyMac-tickets-Thu-Feb-11-2027-Pensacola-Bay-Center",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-sugar-land-z7r9jz1aav8op",
@@ -997,7 +1008,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8Op",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1040,7 +1051,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8Op",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239109"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239109",
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-tobymac-2027-grand-prairie-z7r9jz1aav8of",
@@ -1058,7 +1070,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-2-13-2027--concerts-adult-contemporary/production/7492554",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8Of",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1109,7 +1121,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239110",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239110/TobyMac-tickets-Sat-Feb-13-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239110/TobyMac-tickets-Sat-Feb-13-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie",
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-tobymac-2027-columbus-vv1aazkfbgkdjr-4o",
@@ -1127,7 +1140,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-columbus-nationwide-arena-2-18-2027/production/7491821",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-columbus-ohio-02-18-2027/event/05006518DC7A1551",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1181,7 +1194,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239088/TobyMac-tickets-Thu-Feb-18-2027-Nationwide-Arena",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-norfolk-z7r9jz1aav8r3",
@@ -1199,7 +1213,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8r3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1250,7 +1264,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239111",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239111/TobyMac-tickets-Sun-Feb-21-2027-Chartway-Arena-at-Ted-Constant-Convocation-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239111/TobyMac-tickets-Sun-Feb-21-2027-Chartway-Arena-at-Ted-Constant-Convocation-Center",
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-tobymac-2027-jacksonville-1axzkf_gkdts4j7",
@@ -1268,7 +1283,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-jacksonville-vystar-veterans-memorial-arena-2-25-2027/production/7491823",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-jacksonville-florida-02-25-2027/event/22006519E9C55984",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1322,7 +1337,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239091/TobyMac-tickets-Thu-Feb-25-2027-VyStar-Veterans-Memorial-Arena",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-nashville-g5viz_oeqedtw",
@@ -1340,7 +1356,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-nashville-bridgestone-arena-2-26-2027/production/7491819",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-nashville-tennessee-02-26-2027/event/1B006519DD083A72",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1394,7 +1410,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239092/TobyMac-tickets-Fri-Feb-26-2027-Bridgestone-Arena",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-duluth-vvg1zz_oxyi5ps",
@@ -1412,7 +1429,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-duluth-gas-south-arena-2-27-2027/production/7491815",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-duluth-georgia-02-27-2027/event/0E006518B0A0B5B3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1466,7 +1483,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239093/TobyMac-tickets-Sat-Feb-27-2027-Gas-South-Arena",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-knoxville-g5viz_oeoyvqw",
@@ -1484,7 +1502,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-knoxville-thompson-boling-arena-at-food-city-center-2-28-2027--concerts-adult-contemporary/production/7492562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-knoxville-tennessee-02-28-2027/event/1B006519D1C0177D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1545,7 +1563,8 @@
     ],
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-toledo-vv1afzkf_gkeg66aj",
@@ -1563,7 +1582,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-toledo-huntington-center-3-4-2027/production/7491810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-campseph-schlueter-katy-toledo-ohio-03-04-2027/event/08006519B51C715C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1617,7 +1636,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239097/TobyMac-tickets-Thu-Mar-4-2027-Huntington-Center",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-fishers-vv1aazkf4gkdkqmmm",
@@ -1635,7 +1655,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fishers-fishers-event-center-3-5-2027--concerts-adult-contemporary/production/7492523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fishers-indiana-03-05-2027/event/05006515C676EDEE",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1689,7 +1709,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239099/TobyMac-tickets-Fri-Mar-5-2027-Fishers-Event-Center",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-cape-girardeau-z7r9jz1aav8-f",
@@ -1707,7 +1729,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-cape-girardeau-show-me-center-3-6-2027--concerts-adult-contemporary/production/7492564",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8-F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1758,7 +1780,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239112",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239112/TobyMac-tickets-Sat-Mar-6-2027-Show-Me-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239112/TobyMac-tickets-Sat-Mar-6-2027-Show-Me-Center",
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-tobymac-2027-grand-rapids-vv1afzkfbgkdx_n_v",
@@ -1776,7 +1799,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-grand-rapids-van-andel-arena-3-7-2027--concerts-adult-contemporary/production/7492525",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-grand-rapids-michigan-03-07-2027/event/08006518E266A674",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1830,7 +1853,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239100/TobyMac-tickets-Sun-Mar-7-2027-Van-Andel-Arena",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-austin-g5diz_oelxrxd",
@@ -1848,7 +1872,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-austin-moody-center-atx-3-11-2027/production/7491794",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-austin-texas-03-11-2027/event/3A006519DF89EF83",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1917,7 +1941,8 @@
     ],
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-lubbock-z7r9jz1aav8o_",
@@ -1935,7 +1960,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-lubbock-united-supermarkets-arena-3-13-2027--concerts-adult-contemporary/production/7492566",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8O_",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1986,7 +2011,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239113",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239113/TobyMac-tickets-Sat-Mar-13-2027-United-Supermarkets-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239113/TobyMac-tickets-Sat-Mar-13-2027-United-Supermarkets-Arena",
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-tobymac-2027-rockford-vv1a7zkfpgkdtiktq",
@@ -2004,7 +2030,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-rockford-bmo-center-3-19-2027/production/7491873",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-rockford-illinois-03-19-2027/event/04006516FFA13A5D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2058,7 +2084,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238872/TobyMac-tickets-Fri-Mar-19-2027-BMO-Center-Rockford",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-saint-louis-vv1akzkf_gkdu8agp",
@@ -2076,7 +2103,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-saint-louis-missouri-03-20-2027/event/06006519CD409316",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2114,7 +2141,9 @@
     "status": "on-sale",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "ticket_limit": 24,
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-fairfax-1a4zkf_gkd7dmjf",
@@ -2132,7 +2161,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fairfax-eaglebank-arena-2-19-2027/production/7491817",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fairfax-virginia-02-19-2027/event/15006519C4EF7714",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2186,7 +2215,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239089/TobyMac-tickets-Fri-Feb-19-2027-EagleBank-Arena",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-fairfax-1a4zkf_gkdgvwvn",
@@ -2204,7 +2234,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fairfax-eaglebank-arena-2-20-2027/production/7491825",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fairfax-virginia-02-20-2027/event/15006519F5D3DD2A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2258,7 +2288,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239090/TobyMac-tickets-Sat-Feb-20-2027-EagleBank-Arena",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-san-antonio-g5diz_olf8jri",
@@ -2276,7 +2307,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-san-antonio-freeman-coliseum-3-12-2027/production/7491869",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-san-antonio-texas-03-12-2027/event/3A00651AC841CBE8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2330,7 +2361,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239103/TobyMac-tickets-Fri-Mar-12-2027-Freeman-Coliseum",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-fargo-vv1akzkf_gkd8vyo-",
@@ -2348,7 +2380,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fargo-fargodome-3-17-2027/production/7491806",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fargo-north-dakota-03-17-2027/event/06006519D0D39821",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2402,7 +2434,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239104/TobyMac-tickets-Wed-Mar-17-2027-Fargodome",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-tulsa-1aozkf_gkdn-dht",
@@ -2420,7 +2453,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-tulsa-bok-center-3-21-2027/production/7491758",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tulsa-oklahoma-03-21-2027/event/20006519E3843F3F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2474,7 +2507,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239106/TobyMac-tickets-Sun-Mar-21-2027-BOK-Center",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   },
   {
     "id": "tm-tobymac-2027-sioux-falls-vv1akzkg_gkd7w414",
@@ -2492,7 +2526,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-sioux-falls-south-dakota-03-16-2027/event/06006319C4C95295",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2547,6 +2581,7 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7376289/TobyMac-tickets-Tue-Mar-16-2027-Denny-Sanford-Premier-Center",
     "organizer_names": [
       "AWAKENING EVENTS"
-    ]
+    ],
+    "genre": "Religious"
   }
 ]

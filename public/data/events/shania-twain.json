@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/shania-twain-tickets-scarborough-scarborough-open-air-theatre-6-16-2027/production/7797147",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-scarborough-16-06-2027/event/35006536D1E99CB6",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -62,7 +62,9 @@
       "CUFFE & TAYLOR (NEW)",
       "LIVE NATION MUSIC UK LTD"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-scarborough-scarborough-open-air-theatre-16-6-2027/event/107679678"
+    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-scarborough-scarborough-open-air-theatre-16-6-2027/event/107679678",
+    "ticket_limit": 6,
+    "genre": "Country"
   },
   {
     "id": "tm-shania-twain-2027-glasgow-1adbz_fgkuptsoi",
@@ -80,7 +82,7 @@
     "vividseats_url": "https://www.vividseats.com/shania-twain-tickets-glasgow-bellahouston-park-6-17-2027/production/7797154",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/glasgow-summer-sessions-shania-twain-the-glasgow-17-06-2027/event/3600654DA5FF3468",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -120,7 +122,9 @@
       "DF CONCERTS LIMITED",
       "GIGS IN SCOTLAND",
       "SUMMER SESSIONS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Country"
   },
   {
     "id": "tm-shania-twain-2027-cardiff-g5vhz_kljqj-d",
@@ -138,7 +142,7 @@
     "vividseats_url": "https://www.vividseats.com/shania-twain-tickets-cardiff-blackweir-fields-6-22-2027/production/7797143",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-cardiff-22-06-2027/event/1F006537E676687B",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -177,7 +181,9 @@
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)",
       "DEPOT MARKETING LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Country"
   },
   {
     "id": "tm-shania-twain-2027-exeter-g5vhz_kjtg0ag",
@@ -195,7 +201,7 @@
     "vividseats_url": "https://www.vividseats.com/shania-twain-tickets-exeter-powderham-castle-6-24-2027/production/7797141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-exeter-24-06-2027/event/1F006539A9D64275",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241,7 +247,9 @@
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-exeter-powderham-castle-24-6-2027/event/107679687"
+    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-exeter-powderham-castle-24-6-2027/event/107679687",
+    "ticket_limit": 6,
+    "genre": "Country"
   },
   {
     "id": "tm-shania-twain-2027-dublin-1abzk4pgkenqubp",
@@ -259,7 +267,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/shania-twain-the-places-ill-go-dublin-26-06-2027/event/18006556AA68D625",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -297,7 +305,8 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-shania-twain-2027-belfast-1adoz_4gksdrodo",
@@ -315,7 +324,7 @@
     "vividseats_url": "https://www.vividseats.com/shania-twain-tickets-belfast-ormeau-park-6-27-2027/production/7797152",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/shania-twain-the-places-ill-go-belfast-27-06-2027/event/3800655C7BBD10E0",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -361,7 +370,8 @@
     "organizer_names": [
       "BELSONIC LTD"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-belfast-ormeau-park-27-6-2027/event/107679686"
+    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-belfast-ormeau-park-27-6-2027/event/107679686",
+    "genre": "Country"
   },
   {
     "id": "tm-shania-twain-2027-woodstock-1amzk4agkdk2pnt",
@@ -379,7 +389,7 @@
     "vividseats_url": "https://www.vividseats.com/shania-twain-tickets-woodstock-blenheim-palace-6-29-2027/production/7797137",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-woodstock-29-06-2027/event/37006545C63E58FF",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -427,6 +437,7 @@
       "PWR EVENTS",
       "CUFFE & TAYLOR (NEW)"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-woodstock-blenheim-palace-29-6-2027/event/107679154"
+    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-woodstock-blenheim-palace-29-6-2027/event/107679154",
+    "genre": "Country"
   }
 ]

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-nashville-ryman-auditorium-12-1-2026--concerts-country-and-folk/production/7382289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbfY",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8181767",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8181767/Lord-Huron-tickets-Tue-Dec-1-2026-Ryman-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8181767/Lord-Huron-tickets-Tue-Dec-1-2026-Ryman-Auditorium",
+    "genre": "Alternative"
   },
   {
     "id": "tm-lord-huron-2026-cincinnati-17aov0g62ysdsyk",
@@ -84,7 +85,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-cincinnati-andrew-j-brady-music-center-12-2-2026--concerts-country-and-folk/production/7382302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-cincinnati-ohio-12-02-2026/event/160064FE73EF3C06",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -134,7 +135,8 @@
         "start": "2026-08-07T14:00:00Z",
         "end": "2026-11-26T03:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2026-detroit-z7r9jz1aazpf4",
@@ -152,7 +154,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPF4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -195,7 +197,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZPF4",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180367"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180367",
+    "genre": "Alternative"
   },
   {
     "id": "tm-lord-huron-2026-grand-rapids-vvg1oz_2sbbhp3",
@@ -213,7 +216,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-grand-rapids-glc-live-at-20-monroe-12-6-2026--concerts-country-and-folk/production/7382340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-grand-rapids-michigan-12-06-2026/event/080064FCD861B592",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274,7 +277,8 @@
         "start": "2026-08-07T14:00:00Z",
         "end": "2026-11-30T03:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2026-chicago-vvg1jz_2u-es7s",
@@ -292,7 +296,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-chicago-illinois-12-08-2026/event/070064FDA19F3131",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -358,7 +362,8 @@
         "start": "2026-08-07T15:00:00Z",
         "end": "2026-12-09T03:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2026-chicago-vvg1jz_2u-jk7l",
@@ -376,7 +381,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-chicago-illinois-12-09-2026/event/070064FDA199312B",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -442,7 +447,8 @@
         "start": "2026-08-07T15:00:00Z",
         "end": "2026-12-10T03:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2026-albany-k7vgf_2d6r7wd",
@@ -460,7 +466,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-albany-new-york-12-11-2026/event/000064FEC7BC4C83",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -510,7 +516,8 @@
         "end": "2026-12-05T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180371"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180371",
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2026-philadelphia-vvg1fz_2mgblql",
@@ -528,7 +535,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-philadelphia-pennsylvania-12-12-2026/event/020064FBB561F75F",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -594,7 +601,9 @@
         "start": "2026-08-07T14:00:00Z",
         "end": "2026-12-06T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2026-boston-vvg17z_2wsvfp-",
@@ -612,7 +621,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-boston-mgm-music-hall-at-fenway-12-13-2026--concerts-country-and-folk/production/7382386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-boston-massachusetts-12-13-2026/event/010064FCB3D08961",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -681,7 +690,8 @@
         "start": "2026-08-07T14:00:00Z",
         "end": "2026-12-07T03:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2026-montreal-17g8v0g62wrdz3v",
@@ -699,7 +709,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-montreal-mtelus-12-15-2026--concerts-country-and-folk/production/7382392",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-montreal-quebec-12-15-2026/event/310064FCAF0F8481",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -768,7 +778,9 @@
         "start": "2026-08-07T14:00:00Z",
         "end": "2026-12-09T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2026-montreal-17g8v0g62wr7i3a",
@@ -786,7 +798,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-montreal-mtelus-12-16-2026--concerts-country-and-folk/production/7382402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-montreal-quebec-12-16-2026/event/310064FCAF128489",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -855,7 +867,9 @@
         "start": "2026-08-07T14:00:00Z",
         "end": "2026-12-10T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2026-brooklyn-z7r9jz1aazpf3",
@@ -873,7 +887,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-brooklyn-kings-theatre-brooklyn-12-18-2026--concerts-country-and-folk/production/7382416",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPF3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -932,7 +946,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180376",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180376/Lord-Huron-tickets-Fri-Dec-18-2026-Kings-Theatre-NY",
-    "stubhub_international_url": "https://www.stubhub.ie/lord-huron-brooklyn-tickets-12-18-2026/event/107476117"
+    "stubhub_international_url": "https://www.stubhub.ie/lord-huron-brooklyn-tickets-12-18-2026/event/107476117",
+    "genre": "Alternative"
   },
   {
     "id": "tm-lord-huron-2026-brooklyn-z7r9jz1aazbbi",
@@ -950,7 +965,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-brooklyn-kings-theatre-brooklyn-12-19-2026--concerts-country-and-folk/production/7382426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbbI",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1009,7 +1024,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180377",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180377/Lord-Huron-tickets-Sat-Dec-19-2026-Kings-Theatre-NY",
-    "stubhub_international_url": "https://www.stubhub.ie/lord-huron-brooklyn-tickets-12-19-2026/event/107476118"
+    "stubhub_international_url": "https://www.stubhub.ie/lord-huron-brooklyn-tickets-12-19-2026/event/107476118",
+    "genre": "Alternative"
   },
   {
     "id": "tm-lord-huron-2027-sacramento-g5vyz_2wpd5xx",
@@ -1027,7 +1043,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-sacramento-channel-24-1-1-2027--concerts-country-and-folk/production/7382436",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-sacramento-california-01-01-2027/event/1C0064FCA5ECBFBE",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1096,7 +1112,9 @@
         "start": "2026-08-07T17:00:00Z",
         "end": "2026-12-26T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2027-las-vegas-z7r9jz1aazbo8",
@@ -1114,7 +1132,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-las-vegas-the-theater-at-virgin-hotels-las-vegas-1-2-2027--concerts-country-and-folk/production/7382442",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZbo8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1165,7 +1183,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180380",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180380/Lord-Huron-tickets-Sat-Jan-2-2027-The-Theater-at-Virgin-Hotels-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180380/Lord-Huron-tickets-Sat-Jan-2-2027-The-Theater-at-Virgin-Hotels-Las-Vegas",
+    "genre": "Alternative"
   },
   {
     "id": "tm-lord-huron-2027-oakland-g5vyz_2mrsp3q",
@@ -1183,7 +1202,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-oakland-fox-theater-oakland-1-3-2027--concerts-country-and-folk/production/7382450",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-oakland-california-01-03-2027/event/1C0064FDDECE549A",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1244,7 +1263,8 @@
         "start": "2026-08-07T17:00:00Z",
         "end": "2026-12-28T06:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2027-vancouver-1778v0g62bp9vz3",
@@ -1262,7 +1282,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-vancouver-orpheum-theatre---vancouver-1-5-2027/production/7382806",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-vancouver-british-columbia-01-05-2027/event/110064FE965F4E12",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1326,7 +1346,9 @@
         "start": "2026-08-07T17:00:00Z",
         "end": "2026-12-30T05:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2027-vancouver-1778v0g62bpn7yz",
@@ -1344,7 +1366,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-vancouver-orpheum-theatre---vancouver-1-6-2027/production/7382804",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-vancouver-british-columbia-01-06-2027/event/110064FE968C4E40",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1408,7 +1430,9 @@
         "start": "2026-08-07T17:00:00Z",
         "end": "2026-12-31T05:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2027-seattle-vvg1hz_2t-gnc5",
@@ -1426,7 +1450,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-seattle-paramount-theatre-seattle-1-7-2027--concerts-country-and-folk/production/7382476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-seattle-washington-01-07-2027/event/0F0064FFE1D63B4B",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1484,7 +1508,9 @@
         "start": "2026-08-07T17:00:00Z",
         "end": "2027-01-01T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2027-seattle-vvg1hz_2t-uscj",
@@ -1502,7 +1528,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-seattle-paramount-theatre-seattle-1-8-2027--concerts-country-and-folk/production/7382486",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-seattle-washington-01-08-2027/event/0F0064FFE1DB3B5C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1560,7 +1586,9 @@
         "start": "2026-08-07T17:00:00Z",
         "end": "2027-01-02T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2027-los-angeles-vvg10z_2ug7bzu",
@@ -1578,7 +1606,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-los-angeles-the-wiltern-1-10-2027--concerts-country-and-folk/production/7382502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-los-angeles-california-01-10-2027/event/090064FDB5118E0D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1652,7 +1680,8 @@
         "start": "2026-08-07T17:00:00Z",
         "end": "2027-01-11T05:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2027-los-angeles-vvg10z_2ugkfzf",
@@ -1670,7 +1699,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-los-angeles-the-wiltern-1-11-2027--concerts-country-and-folk/production/7382516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-los-angeles-california-01-11-2027/event/090064FDB5188E14",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1744,7 +1773,8 @@
         "start": "2026-08-07T17:00:00Z",
         "end": "2027-01-12T05:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-lord-huron-2027-los-angeles-vvg10z_2d_gilx",
@@ -1762,7 +1792,7 @@
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-los-angeles-the-wiltern-1-12-2027/production/7416931",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-los-angeles-california-01-12-2027/event/090064FED932CAE2",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1823,6 +1853,8 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2027-01-06T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   }
 ]

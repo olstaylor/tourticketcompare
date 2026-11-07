@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-23-02-2027/event/14006549B9C6C87F",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -84,7 +84,8 @@
         "end": "2027-02-24T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329176/U2-tickets-Tue-Feb-23-2027-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329176/U2-tickets-Tue-Feb-23-2027-Estadio-GNP-Seguros-Mexico-City",
+    "genre": "Rock"
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebeind",
@@ -102,7 +103,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-26-02-2027/event/14006549BA9ECA83",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -171,7 +172,8 @@
         "end": "2027-02-27T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329177/U2-tickets-Fri-Feb-26-2027-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329177/U2-tickets-Fri-Feb-26-2027-Estadio-GNP-Seguros-Mexico-City",
+    "genre": "Rock"
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebeina",
@@ -189,7 +191,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-28-02-2027/event/14006549BA9ECA85",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -258,7 +260,8 @@
         "end": "2027-03-01T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337104/U2-tickets-Sun-Feb-28-2027-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337104/U2-tickets-Sun-Feb-28-2027-Estadio-GNP-Seguros-Mexico-City",
+    "genre": "Rock"
   },
   {
     "id": "tm-u2-2027-ciudad-de-mexico-1afzk4agkebign2",
@@ -276,7 +279,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/u2-the-greatest-show-on-earth-ciudad-de-mexico-02-03-2027/event/14006549BAA0CA8F",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -345,7 +348,8 @@
     ],
     "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-2-3-2027/event/107678105",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344350",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344350/U2-tickets-Tue-Mar-2-2027-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344350/U2-tickets-Tue-Mar-2-2027-Estadio-GNP-Seguros-Mexico-City",
+    "genre": "Rock"
   },
   {
     "id": "tm-u2-2027-stockholm-z698xzq2z16v-3vzat",
@@ -363,8 +367,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1852040169?language=en-us",
-    "last_verified_at": "2026-11-06",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1852040169",
@@ -425,7 +429,8 @@
     "organizer_names": [
       "Nationalarenan i Solna AB"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-26-4-2027/event/107679468"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-26-4-2027/event/107679468",
+    "genre": "Rock"
   },
   {
     "id": "tm-u2-2027-stockholm-z698xzq2z16v_p7i1a",
@@ -443,8 +448,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1656128289?language=en-us",
-    "last_verified_at": "2026-11-06",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1656128289",
@@ -505,7 +510,8 @@
     "organizer_names": [
       "Nationalarenan i Solna AB"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-28-4-2027/event/107679469"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-28-4-2027/event/107679469",
+    "genre": "Rock"
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz16v0jupoj",
@@ -523,8 +529,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1926365826?language=en-us",
-    "last_verified_at": "2026-11-06",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1926365826",
@@ -577,7 +583,8 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-5-6-2027/event/107679471"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-5-6-2027/event/107679471",
+    "genre": "Alternative"
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz16v7bpzfv",
@@ -595,8 +602,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1118978501?language=en-us",
-    "last_verified_at": "2026-11-06",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1118978501",
@@ -649,7 +656,8 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-6-6-2027/event/107679472"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-6-6-2027/event/107679472",
+    "genre": "Alternative"
   },
   {
     "id": "tm-u2-2027-london-1adfz_4qdzvzd55v",
@@ -667,7 +675,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-18-2027--concerts-rock/production/7772985",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-18-06-2027/event/3500655683001AA0",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -713,7 +721,9 @@
     "organizer_names": [
       "LNM - VIP NATION UK"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-18-6-2027/event/107678744"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-18-6-2027/event/107678744",
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-u2-2027-london-1adfz_4gkszafjm",
@@ -731,7 +741,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-19-2027--concerts-rock/production/7772989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-19-06-2027/event/3500655CC0148737",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -777,7 +787,9 @@
     "organizer_names": [
       "LNM - VIP NATION UK"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-19-6-2027/event/107679467"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-19-6-2027/event/107679467",
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-u2-2027-london-1adfz_4gkb4kzby",
@@ -795,7 +807,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-22-2027--concerts-rock/production/7810409",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-22-06-2027/event/3500655E954F8639",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -841,7 +853,9 @@
     "organizer_names": [
       "LNM - VIP NATION UK"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-22-6-2027/event/107679891"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-22-6-2027/event/107679891",
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz1kb9z4vi",
@@ -859,8 +873,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/617015068?language=en-us",
-    "last_verified_at": "2026-11-06",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "617015068",
@@ -921,7 +935,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357120",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357120/U2-tickets-Wed-Jun-9-2027-Johan-Cruijff-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-9-6-2027/event/107679895"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-9-6-2027/event/107679895",
+    "genre": "Alternative"
   },
   {
     "id": "tm-u2-2027-barcelona-z698xz2qz16vasca3z",
@@ -939,8 +954,8 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-barcelona-estadi-olimpic-lluis-companys-5-13-2027--concerts-rock/production/7817710",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1271385480?language=en-us",
-    "last_verified_at": "2026-11-06",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1271385480",
@@ -990,7 +1005,8 @@
         "start": "2026-11-11T09:00:00Z",
         "end": "2026-11-11T21:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-u2-2027-barcelona-z698xz2qz1kkzqe8t",
@@ -1008,8 +1024,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/180682429?language=en-us",
-    "last_verified_at": "2026-11-06",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "180682429",
@@ -1059,7 +1075,8 @@
         "start": "2026-11-11T09:00:00Z",
         "end": "2026-11-11T21:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-u2-2027-sevilla-z698xz2qz1k0efyqs",
@@ -1077,8 +1094,8 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-sevilla-estadio-la-cartuja-de-sevilla-5-22-2027--concerts-rock/production/7817726",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/902239771?language=en-us",
-    "last_verified_at": "2026-11-06",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "902239771",
@@ -1144,7 +1161,8 @@
         "end": "2026-11-11T21:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357092/U2-tickets-Sat-May-22-2027-Estadio-La-Cartuja"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357092/U2-tickets-Sat-May-22-2027-Estadio-La-Cartuja",
+    "genre": "Rock"
   },
   {
     "id": "tm-u2-2027-london-1adfz_4gkbq3_od",
@@ -1162,7 +1180,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-london-tottenham-hotspur-stadium-6-25-2027/production/7819509",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/u2-the-greatest-show-on-earth-london-25-06-2027/event/3500655E9D499443",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1208,7 +1226,9 @@
     "organizer_names": [
       "LNM - VIP NATION UK"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-25-6-2027/event/107680492"
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-25-6-2027/event/107680492",
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz1k7zpzb4",
@@ -1226,8 +1246,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/100580615?language=en-us",
-    "last_verified_at": "2026-11-06",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "100580615",
@@ -1280,7 +1300,8 @@
       "Mojo Concerts"
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359472/U2-tickets-Fri-Jun-11-2027-Johan-Cruijff-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359472"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359472",
+    "genre": "Alternative"
   },
   {
     "id": "tm-u2-2027-stockholm-z698xzq2z16vvejtvk",
@@ -1298,8 +1319,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1067729046?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1067729046",
@@ -1350,6 +1371,10 @@
     "status": "announced",
     "public_onsale_at": "2026-11-10T11:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359466/U2-tickets-Fri-Apr-30-2027-Strawberry-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359466"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359466",
+    "organizer_names": [
+      "Nationalarenan i Solna AB"
+    ],
+    "genre": "Rock"
   }
 ]

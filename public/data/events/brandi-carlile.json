@@ -84,7 +84,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-oakland-california-11-07-2026/event/1C006532CBC76BA8",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -138,7 +138,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293180/Brandi-Carlile-tickets-Sat-Nov-7-2026-Fox-Theater-Oakland",
     "organizer_names": [
       "ANOTHER PLANET"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2026-tucson-1a_zkfygkdorlne",
@@ -156,7 +157,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-tucson-rialto-theatre-tucson-11-9-2026/production/7618216",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-tucson-arizona-11-09-2026/event/19006539E07AB8C2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -207,7 +208,9 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293181",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293181/Brandi-Carlile-tickets-Mon-Nov-9-2026-Rialto-Theatre-Tucson"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293181/Brandi-Carlile-tickets-Mon-Nov-9-2026-Rialto-Theatre-Tucson",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2026-tucson-1a_zkfygkdoyl04",
@@ -225,7 +228,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-tucson-rialto-theatre-tucson-11-10-2026/production/7618214",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-tucson-arizona-11-10-2026/event/19006539E0E6B915",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276,7 +279,9 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293182",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293182/Brandi-Carlile-tickets-Tue-Nov-10-2026-Rialto-Theatre-Tucson"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293182/Brandi-Carlile-tickets-Tue-Nov-10-2026-Rialto-Theatre-Tucson",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2026-milwaukee-z7r9jz1aaeajv",
@@ -294,7 +299,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-milwaukee-pabst-theater-11-14-2026/production/7618676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeajv",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -345,7 +350,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293191",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293191/Brandi-Carlile-tickets-Sat-Nov-14-2026-Pabst-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293191/Brandi-Carlile-tickets-Sat-Nov-14-2026-Pabst-Theater",
+    "genre": "Country"
   },
   {
     "id": "tm-brandi-carlile-2026-milwaukee-z7r9jz1aaeaje",
@@ -363,7 +369,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-milwaukee-pabst-theater-11-15-2026/production/7618672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaje",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -414,7 +420,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293192",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293192/Brandi-Carlile-tickets-Sun-Nov-15-2026-Pabst-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293192/Brandi-Carlile-tickets-Sun-Nov-15-2026-Pabst-Theater",
+    "genre": "Country"
   },
   {
     "id": "tm-brandi-carlile-2026-minneapolis-vv1akzkfmgkdnqpgx",
@@ -432,7 +439,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-minneapolis-state-theatre-minneapolis-11-17-2026/production/7618208",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-minneapolis-minnesota-11-17-2026/event/06006537E376533E",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -486,7 +493,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293183/Brandi-Carlile-tickets-Tue-Nov-17-2026-State-Theatre-MN",
     "organizer_names": [
       "HENNEPIN THEATRE TRUST"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2026-minneapolis-vv1akzkfmgkdnrguf",
@@ -504,7 +513,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-minneapolis-state-theatre-minneapolis-11-18-2026/production/7618206",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-minneapolis-minnesota-11-18-2026/event/06006537E37B5348",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -558,7 +567,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293184/Brandi-Carlile-tickets-Wed-Nov-18-2026-State-Theatre-MN",
     "organizer_names": [
       "HENNEPIN THEATRE TRUST"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2026-louisville-1apzkfugkdjvl2t",
@@ -576,7 +587,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-louisville-louisville-palace-11-20-2026/production/7618184",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-louisville-kentucky-11-20-2026/event/16006536E606B3FF",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -622,7 +633,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293185"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293185",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2026-louisville-1apzkfugkdjal8x",
@@ -640,7 +653,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-louisville-louisville-palace-11-21-2026/production/7618174",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-louisville-kentucky-11-21-2026/event/16006536E616B422",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -686,7 +699,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293186"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293186",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2026-kansas-city-vv1akzkfzgkd6vlxs",
@@ -704,7 +719,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-kansas-city-uptown-theater-kansas-city-11-22-2026/production/7618230",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-tour-kansas-city-missouri-11-22-2026/event/06006538C7D2B8B1",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -758,7 +773,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293193/Brandi-Carlile-tickets-Sun-Nov-22-2026-Uptown-Theater-KC",
     "organizer_names": [
       "MAMMOTH INC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2026-port-chester-g5vvz_kx-skxh",
@@ -776,7 +793,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-port-chester-new-york-12-15-2026/event/1D006538A1CD389B",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -829,7 +846,10 @@
         "end": "2026-11-18T01:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293187"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293187",
+    "ticket_limit": 4,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2026-port-chester-g5vvz_kx-vnxl",
@@ -847,7 +867,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-port-chester-new-york-12-16-2026/event/1D006538A1D2389F",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -900,7 +920,10 @@
         "end": "2026-11-19T01:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293188"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293188",
+    "ticket_limit": 4,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2026-port-chester-g5vvz_kx-gsxn",
@@ -918,7 +941,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-port-chester-new-york-12-17-2026/event/1D006538A1D738A3",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -971,7 +994,10 @@
         "end": "2026-11-20T01:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293189"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293189",
+    "ticket_limit": 4,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2027-seattle-vvg1hz_44goz5b",
@@ -989,7 +1015,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-seattle-paramount-theatre-seattle-1-5-2027--concerts-rock/production/7757235",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-seattle-washington-01-05-2027/event/0F0065554C8382D8",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1040,7 +1066,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343664",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343664/Brandi-Carlile-tickets-Tue-Jan-5-2027-Paramount-Theatre-Seattle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343664/Brandi-Carlile-tickets-Tue-Jan-5-2027-Paramount-Theatre-Seattle",
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2027-seattle-vvg1hz_44gxf5-",
@@ -1058,7 +1085,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-seattle-paramount-theatre-seattle-1-6-2027--concerts-rock/production/7757237",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-seattle-washington-01-06-2027/event/0F0065554C8882E1",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1109,7 +1136,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343665",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343665/Brandi-Carlile-tickets-Wed-Jan-6-2027-Paramount-Theatre-Seattle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343665/Brandi-Carlile-tickets-Wed-Jan-6-2027-Paramount-Theatre-Seattle",
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2027-seattle-vvg1hz_44gnb5t",
@@ -1127,7 +1155,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-seattle-paramount-theatre-seattle-1-9-2027--concerts-rock/production/7757239",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-seattle-washington-01-09-2027/event/0F0065554C8D82E9",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1178,7 +1206,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343666",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343666/Brandi-Carlile-tickets-Sat-Jan-9-2027-Paramount-Theatre-Seattle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343666/Brandi-Carlile-tickets-Sat-Jan-9-2027-Paramount-Theatre-Seattle",
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2027-seattle-vvg1hz_44g0z5w",
@@ -1196,7 +1225,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-seattle-paramount-theatre-seattle-1-10-2027--concerts-rock/production/7757243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-seattle-washington-01-10-2027/event/0F0065554C9382F2",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1247,7 +1276,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343667",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343667/Brandi-Carlile-tickets-Sun-Jan-10-2027-Paramount-Theatre-Seattle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343667/Brandi-Carlile-tickets-Sun-Jan-10-2027-Paramount-Theatre-Seattle",
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2027-dublin-1abzku4gkdpubm4",
@@ -1265,7 +1295,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/brandi-carlile-the-human-tour-dublin-04-04-2027/event/18006355D637AB95",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1321,7 +1351,9 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "AIKEN PROMOTIONS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2027-glasgow-16dbz_8p8g7is9u",
@@ -1339,7 +1371,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-glasgow-sec-armadillo-4-6-2027--concerts-rock/production/7418155",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-glasgow-06-04-2027/event/3600650590B315CD",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1386,7 +1418,9 @@
     "organizer_names": [
       "AEG PRESENTS",
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2027-glasgow-1auzkfagkeeywvx",
@@ -1404,7 +1438,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-glasgow-sec-armadillo-4-7-2027--concerts-rock/production/7418157",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-glasgow-07-04-2027/event/36006505A7C3207E",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1451,7 +1485,9 @@
     "organizer_names": [
       "AEG PRESENTS",
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2027-manchester-16dbz_8qkg7xvln",
@@ -1469,7 +1505,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-manchester-o2-apollo-manchester-4-9-2027--concerts-rock/production/7418163",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-manchester-09-04-2027/event/3600650693F81AEA",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1516,7 +1552,9 @@
     "organizer_names": [
       "AEG PRESENTS",
       "LIVE NATION MUSIC (VENUES) LTD (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2027-manchester-1auzkfkgkd0yvnl",
@@ -1534,7 +1572,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-manchester-o2-apollo-manchester-4-10-2027--concerts-rock/production/7418169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-manchester-10-04-2027/event/36006506E4E74AAB",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1581,7 +1619,9 @@
     "organizer_names": [
       "AEG PRESENTS",
       "LIVE NATION MUSIC (VENUES) LTD (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2027-wolverhampton-g5vhz_8ni4sv1",
@@ -1599,7 +1639,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-vip-soundcheck-does-not-wolverhampton-11-04-2027/event/1F00650AAC57304A",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1637,7 +1677,9 @@
     "status": "on-sale",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2027-london-16dbz_8rdg7g-dj",
@@ -1655,7 +1697,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-london-eventim-apollo-4-13-2027--concerts-rock/production/7416240",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-london-13-04-2027/event/3600650783D610DC",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1701,7 +1743,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/brandi-carlile-tickets-london-eventim-apollo-13-4-2027/event/107473172",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-brandi-carlile-2027-london-16uzkf6-7za5ev8a",
@@ -1719,7 +1763,7 @@
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-london-eventim-apollo-4-14-2027--concerts-rock/production/7416247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-london-14-04-2027/event/36006507844A10F8",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1765,6 +1809,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/brandi-carlile-tickets-london-eventim-apollo-14-4-2027/event/107473171",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   }
 ]

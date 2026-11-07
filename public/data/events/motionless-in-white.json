@@ -238,7 +238,7 @@
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-nashville-the-truth-11-7-2026/production/7108866",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-nashville-tennessee-11-07-2026/event/1B0064BAA093AF4E",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292,7 +292,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018449/Motionless-In-White-tickets-Sat-Nov-7-2026-The-Truth",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-motionless-in-white-2026-peoria-vvg1jz_5wcknnp",
@@ -310,7 +312,7 @@
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-peoria-peoria-civic-center---carver-arena-11-8-2026/production/7108802",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-peoria-illinois-11-08-2026/event/070064BCAD1A38D6",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364,7 +366,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018450/Motionless-In-White-tickets-Sun-Nov-8-2026-Carver-Arena-At-Peoria-Civic-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-motionless-in-white-2026-minneapolis-vvg1bz_5wlfjnl",
@@ -382,7 +386,7 @@
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-minneapolis-target-center-11-10-2026/production/7108726",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-minneapolis-minnesota-11-10-2026/event/060064BC9F226AAB",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -443,7 +447,8 @@
         "start": "2026-06-05T15:00:00Z",
         "end": "2026-11-11T00:30:00Z"
       }
-    ]
+    ],
+    "genre": "Metal"
   },
   {
     "id": "tm-motionless-in-white-2026-omaha-vvg1bz_5sqsgj6",
@@ -461,7 +466,7 @@
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-omaha-chi-health-center-omaha-11-11-2026/production/7108792",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-omaha-nebraska-11-11-2026/event/060064BCDDC4C987",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -515,7 +520,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018452/Motionless-In-White-tickets-Wed-Nov-11-2026-CHI-Health-Center-Omaha",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Metal"
   },
   {
     "id": "tm-motionless-in-white-2026-milwaukee-vvg1jz_5myjgaa",
@@ -533,7 +539,7 @@
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-milwaukee-fiserv-forum-11-13-2026/production/7108776",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-milwaukee-wisconsin-11-13-2026/event/070064BBB9735249",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -588,7 +594,9 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-motionless-in-white-2026-albany-k7vgf_5wspmvj",
@@ -606,7 +614,7 @@
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-albany-mvp-arena-11-15-2026/production/7108774",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-albany-new-york-11-15-2026/event/000064BCB15AED26",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -675,7 +683,9 @@
         "start": "2026-06-05T14:00:00Z",
         "end": "2026-11-16T00:30:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-motionless-in-white-2026-portland-vvg17z_5r6traw",
@@ -693,7 +703,7 @@
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-portland-cross-insurance-arena-11-18-2026/production/7108788",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-portland-maine-11-18-2026/event/010064BBC7FDE27D",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -748,7 +758,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC",
       "WATERFRONT CONCERTS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-motionless-in-white-2026-newark-vvg1fz_5s7fn3l",
@@ -766,7 +778,7 @@
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-newark-prudential-center-11-19-2026/production/7108780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-newark-new-jersey-11-19-2026/event/020064BCC422349F",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -835,7 +847,9 @@
         "start": "2026-06-05T14:00:00Z",
         "end": "2026-11-19T23:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-motionless-in-white-2026-pittsburgh-17aov0g65mh-tzb",
@@ -853,7 +867,7 @@
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-pittsburgh-ppg-paints-arena-11-20-2026/production/7108782",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-pittsburgh-pennsylvania-11-20-2026/event/160064BBBC86903A",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -915,7 +929,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-pittsburgh-tickets-11-20-2026/event/107258879",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Metal"
   },
   {
     "id": "tm-motionless-in-white-2027-dubendorf-z698xzu3z16ezmoj16",
@@ -933,8 +948,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ch/event/motionless-in-white-tickets/2037466287?language=en-us",
-    "last_verified_at": "2026-11-03",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2037466287",
@@ -971,6 +986,7 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation Schweiz AG"
-    ]
+    ],
+    "genre": "Rock"
   }
 ]

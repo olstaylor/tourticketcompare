@@ -262,7 +262,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-charleston-charleston-music-hall-12-3-2026/production/6999445",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-charleston-south-carolina-12-03-2026/event/2D00649EA0C22797",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -316,7 +316,8 @@
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7939252"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7939252",
+    "genre": "Jazz"
   },
   {
     "id": "tm-tommy-emmanuel-2026-newberry-z7r9jz1aavs4z",
@@ -334,7 +335,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4z",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -385,7 +386,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7942280",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7942280/Tommy-Emmanuel-tickets-Fri-Dec-4-2026-Newberry-Opera-House"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7942280/Tommy-Emmanuel-tickets-Fri-Dec-4-2026-Newberry-Opera-House",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2026-chattanooga-g5viz_au3swzr",
@@ -403,7 +405,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-chattanooga-walker-theatre---tn-12-5-2026/production/6996770",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-chattanooga-tennessee-12-05-2026/event/1B00649D92C7D01E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453,7 +455,9 @@
         "end": "2026-11-29T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941596"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941596",
+    "ticket_limit": 6,
+    "genre": "Jazz"
   },
   {
     "id": "tm-tommy-emmanuel-2026-durham-z7r9jz1a70f-w",
@@ -471,7 +475,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-w",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -525,7 +529,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7942282/Tommy-Emmanuel-tickets-Sun-Dec-6-2026-Carolina-Theatre-Durham",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2026-charlotte-z7r9jz1a70f-s",
@@ -543,7 +548,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70F-s",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -578,7 +583,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70F-s",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2026-atlanta-z7r9jz1a70b-i",
@@ -596,7 +602,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-atlanta-variety-playhouse-12-9-2026/production/6999576",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-I",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -647,7 +653,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941629",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7941629/Tommy-Emmanuel-tickets-Wed-Dec-9-2026-Variety-Playhouse"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7941629/Tommy-Emmanuel-tickets-Wed-Dec-9-2026-Variety-Playhouse",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2026-ponte-vedra-beach-z7r9jz1a70kze",
@@ -665,7 +672,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-ponte-vedra-beach-ponte-vedra-concert-hall-12-10-2026/production/6998536",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70KZe",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -716,7 +723,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941593",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7941593/Tommy-Emmanuel-tickets-Thu-Dec-10-2026-Ponte-Vedra-Concert-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7941593/Tommy-Emmanuel-tickets-Thu-Dec-10-2026-Ponte-Vedra-Concert-Hall",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2026-orlando-z7r9jz1a70b-e",
@@ -734,7 +742,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-orlando-the-plaza-live-theatre-orlando-12-11-2026/production/6997686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -777,7 +785,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70b-E",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941513"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941513",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2026-clearwater-z7r9jz1aav8__",
@@ -795,7 +804,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-clearwater-nancy-and-david-bilheimer-capitol-theatre-12-12-2026/production/7004129",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8__",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -846,7 +855,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7942284",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7942284/Tommy-Emmanuel-tickets-Sat-Dec-12-2026-Nancy-and-David-Bilheimer-Capitol-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7942284/Tommy-Emmanuel-tickets-Sat-Dec-12-2026-Nancy-and-David-Bilheimer-Capitol-Theatre",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2027-saint-louis-z7r9jz1aavs4y",
@@ -864,7 +874,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4y",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -899,7 +909,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvS4y",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2027-saint-louis-z7r9jz1aavspz",
@@ -917,7 +928,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpZ",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -952,7 +963,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpZ",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2027-des-moines-vv1kbz_3jvg7w7g3",
@@ -970,7 +982,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-des-moines-hoyt-sherman-place-1-23-2027/production/7562573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-des-moines-iowa-01-23-2027/event/0600652981F44312",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1028,7 +1040,9 @@
         "start": "2026-09-18T15:00:00Z",
         "end": "2027-01-17T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Jazz"
   },
   {
     "id": "tm-tommy-emmanuel-2027-madison-vv17jz_ogks7bgcu",
@@ -1046,7 +1060,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-madison-wisconsin-01-24-2027/event/0700651CC4EB538D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1108,7 +1122,9 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Jazz"
   },
   {
     "id": "tm-tommy-emmanuel-2027-skokie-vv1a6zkfpgkegwg7a",
@@ -1126,7 +1142,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-skokie-illinois-01-25-2027/event/07006525B5CB5105",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1188,7 +1204,8 @@
     "organizer_names": [
       "VENUWORKS CORPORATE",
       "PLEASE & THANK YOU LLC"
-    ]
+    ],
+    "genre": "Jazz"
   },
   {
     "id": "tm-tommy-emmanuel-2027-champaign-z7r9jz1aavspv",
@@ -1206,7 +1223,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-champaign-virginia-theatre-1-26-2027--concerts-blues-and-jazz/production/7565009",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpv",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1257,7 +1274,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268012",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268012/Tommy-Emmanuel-tickets-Tue-Jan-26-2027-Virginia-Theatre-Il"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268012/Tommy-Emmanuel-tickets-Tue-Jan-26-2027-Virginia-Theatre-Il",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2027-mckees-rocks-1apzkfngkd53yok",
@@ -1275,7 +1293,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-mckees-rocks-pennsylvania-01-28-2027/event/16006523CB4B9813",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1328,7 +1346,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268026"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268026",
+    "ticket_limit": 8,
+    "genre": "Jazz"
   },
   {
     "id": "tm-tommy-emmanuel-2027-grand-rapids-z7r9jz1aavspe",
@@ -1346,7 +1366,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-grand-rapids-st-cecilia-music-center---royce-auditorium-1-29-2027/production/7563751",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpe",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1381,7 +1401,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2027-buffalo-z7r9jz1aavspd",
@@ -1399,7 +1420,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-buffalo-asbury-hall-at-babeville-buffalo-1-31-2027/production/7564199",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpd",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1450,7 +1471,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266792",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266792/Tommy-Emmanuel-tickets-Sun-Jan-31-2027-Asbury-Hall-at-Babeville"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266792/Tommy-Emmanuel-tickets-Sun-Jan-31-2027-Asbury-Hall-at-Babeville",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2027-rochester-z7r9jz1aavsp7",
@@ -1468,7 +1490,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1503,7 +1525,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSp7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2027-albany-z7r9jz1aavspa",
@@ -1521,7 +1544,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-albany-the-egg---hart-theatre-2-3-2027/production/7563755",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1572,7 +1595,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268041",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268041/Tommy-Emmanuel-tickets-Wed-Feb-3-2027-Hart-Theatre-At-The-Egg"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268041/Tommy-Emmanuel-tickets-Wed-Feb-3-2027-Hart-Theatre-At-The-Egg",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2027-derry-z7r9jz1aavspk",
@@ -1590,7 +1614,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpk",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1633,7 +1657,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268048"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268048",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2027-fairfield-z7r9jz1aavsp6",
@@ -1651,7 +1676,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-fairfield-shu-community-theatre-2-5-2027/production/7566401",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1702,7 +1727,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268049",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268049/Tommy-Emmanuel-tickets-Fri-Feb-5-2027-SHU-Community-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268049/Tommy-Emmanuel-tickets-Fri-Feb-5-2027-SHU-Community-Theatre",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2027-charlottesville-z7r9jz1aavspf",
@@ -1720,7 +1746,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-charlottesville-paramount-theater-charlottesville-2-6-2027/production/7563398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1763,7 +1789,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpF",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268055"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268055",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2027-vancouver-1aozkfugkdvinj7",
@@ -1781,7 +1808,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-vancouver-queen-elizabeth-theatre---vancouver-3-12-2027/production/7627291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-vancouver-british-columbia-03-12-2027/event/11006536C1B2A704",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1823,7 +1850,9 @@
         "start": "2026-10-02T18:00:00Z",
         "end": "2027-03-06T05:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Jazz"
   },
   {
     "id": "tm-tommy-emmanuel-2027-calgary-1k78vpuega13dcp",
@@ -1841,7 +1870,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-calgary-southern-alberta-jubilee-auditorium-3-14-2027/production/7626969",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-calgary-alberta-03-14-2027/event/110065367A483B65",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1899,7 +1928,9 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8318327/Tommy-Emmanuel-tickets-Sun-Mar-14-2027-Southern-Alberta-Jubilee-Auditorium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318327"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8318327",
+    "ticket_limit": 8,
+    "genre": "Jazz"
   },
   {
     "id": "tm-tommy-emmanuel-2027-winnipeg-1k78vpupga1vvti",
@@ -1917,7 +1948,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-winnipeg-burton-cummings-theatre-3-17-2027/production/7648393",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-winnipeg-manitoba-03-17-2027/event/110065356A041A68",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1975,7 +2006,9 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8306364",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8306364/Tommy-Emmanuel-tickets-Wed-Mar-17-2027-Burton-Cummings-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8306364/Tommy-Emmanuel-tickets-Wed-Mar-17-2027-Burton-Cummings-Theatre",
+    "ticket_limit": 8,
+    "genre": "Jazz"
   },
   {
     "id": "tm-tommy-emmanuel-2027-ottawa-1aszkfgjd0vzecc",
@@ -1993,7 +2026,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-ottawa-national-arts-centre-3-20-2027/production/7648498",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-ottawa-ontario-03-20-2027/event/31006535983934DD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2038,7 +2071,9 @@
     ],
     "organizer_names": [
       "NATIONAL ARTS CENTRE (CANADA)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Jazz"
   },
   {
     "id": "tm-tommy-emmanuel-2027-toronto-z7r9jz1aaeox3",
@@ -2056,7 +2091,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-toronto-massey-hall---allied-music-centre-3-21-2027/production/7628828",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeox3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2091,7 +2126,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeox3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-tommy-emmanuel-2027-grand-junction-g5vzz_fdgnqkn",
@@ -2109,7 +2145,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-grand-junction-avalon-theatre---co-2-24-2027/production/7729000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-grand-junction-colorado-02-24-2027/event/1E00654ECC8DA4E3",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2171,7 +2207,9 @@
         "end": "2027-02-18T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333067"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333067",
+    "ticket_limit": 8,
+    "genre": "Jazz"
   },
   {
     "id": "tm-tommy-emmanuel-2027-virginia-beach-vv177z_fgkxnvih0",
@@ -2189,7 +2227,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-virginia-beach-sandler-center-for-the-performing-arts-6-2-2027/production/7728901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-virginia-beach-virginia-06-02-2027/event/0100654FAAD2CF24",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2251,7 +2289,8 @@
         "end": "2027-05-27T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333070"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333070",
+    "genre": "Jazz"
   },
   {
     "id": "tm-tommy-emmanuel-2027-loveland-z7r9jz1aa791k",
@@ -2269,7 +2308,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-loveland-rialto-theater-center-2-25-2027/production/7728937",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA791k",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2315,6 +2354,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333068"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333068",
+    "genre": "Country"
   }
 ]

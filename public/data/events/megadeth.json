@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-belfast-the-o2---belfast-3-9-2027--concerts-hard-rock/production/7380710",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/megadeth-breakout-hibernation-of-the-nations-belfast-09-03-2027/event/380064F5B47C10D0",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -70,7 +70,9 @@
     "organizer_names": [
       "MCD PRODUCTIONS",
       "O2"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Metal"
   },
   {
     "id": "tm-megadeth-2027-london-17uyv0g62ffnale",
@@ -88,7 +90,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-london-ovo-arena-wembley-3-11-2027--concerts-hard-rock/production/7375139",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-london-11-03-2027/event/370064F508A857C2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -147,7 +149,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8179322",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8179322/Megadeth-tickets-Thu-Mar-11-2027-OVO-Arena-Wembley",
-    "stubhub_international_url": "https://www.stubhub.ie/megadeth-tickets-london-ovo-arena-wembley-11-3-2027/event/107471083"
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-tickets-london-ovo-arena-wembley-11-3-2027/event/107471083",
+    "ticket_limit": 6,
+    "genre": "Metal"
   },
   {
     "id": "tm-megadeth-2027-nottingham-17u8v0g62r_1dp-",
@@ -165,7 +169,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-nottingham-motorpoint-arena---nottingham-3-12-2027--concerts-hard-rock/production/7375141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-nottingham-12-03-2027/event/350064F799283961",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -224,7 +228,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8179324",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8179324/Megadeth-tickets-Fri-Mar-12-2027-Motorpoint-Arena-Nottingham",
-    "stubhub_international_url": "https://www.stubhub.ie/megadeth-tickets-nottingham-motorpoint-arena-nottingham-12-3-2027/event/107471084"
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-tickets-nottingham-motorpoint-arena-nottingham-12-3-2027/event/107471084",
+    "ticket_limit": 6,
+    "genre": "Metal"
   },
   {
     "id": "tm-megadeth-2027-manchester-17uyv0g62wxq-cs",
@@ -242,7 +248,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-manchester-co-op-live-3-13-2027--concerts-hard-rock/production/7375143",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-manchester-13-03-2027/event/370064FCBE761B71",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -304,7 +310,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/megadeth-tickets-manchester-co-op-live-13-3-2027/event/107469088",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Metal"
   },
   {
     "id": "tm-megadeth-2027-cardiff-17uov0g62hgl_w2",
@@ -322,7 +330,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-cardiff-15-03-2027/event/360064F6CCAD9F4F",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -369,7 +377,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "LIVE NATION MUSIC (VENUES) LTD (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Metal"
   },
   {
     "id": "tm-megadeth-2027-glasgow-17uov0g62mgifrs",
@@ -387,7 +397,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-glasgow-ovo-hydro-3-16-2027--concerts-hard-rock/production/7375147",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-glasgow-16-03-2027/event/360064FDCCA08BF3",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -434,7 +444,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Metal"
   },
   {
     "id": "tm-megadeth-2027-birmingham-17fyv0g62qpke7_",
@@ -452,7 +464,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-3-18-2027--concerts-hard-rock/production/7375149",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-birmingham-18-03-2027/event/230064F6A51A7119",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -495,7 +507,9 @@
     "ticketmaster_discovery_event_id": "17FYv0G62QPkE7_",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/megadeth-tickets-birmingham-bp-pulse-live-18-3-2027/event/107471086"
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-tickets-birmingham-bp-pulse-live-18-3-2027/event/107471086",
+    "ticket_limit": 6,
+    "genre": "Metal"
   },
   {
     "id": "tm-megadeth-2027-leeds-g5vhz_2hqzflr",
@@ -513,7 +527,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-leeds-first-direct-arena---leeds-3-19-2027--concerts-hard-rock/production/7375155",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-leeds-19-03-2027/event/1F0064F6DA0147EF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -548,7 +562,9 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_2hQZfLR",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 6,
+    "genre": "Metal"
   },
   {
     "id": "tm-megadeth-2027-forest-brussels-z698xzg2z1k1kjboj",
@@ -566,8 +582,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/megadeth-breakout-hibernation-of-the-nations-europe-tour-2027-tickets/286998826",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "286998826",
@@ -604,7 +620,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-megadeth-2027-dusseldorf-z698xzc2z1a-7kfe",
@@ -622,8 +639,8 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-dusseldorf-mitsubishi-electric-halle-3-25-2027--concerts-hard-rock/production/7380763",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/megadeth-breakout-hibernation-of-the-nations-europe-tour-2027-tickets/21113202?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "21113202",
@@ -668,7 +685,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/megadeth-tickets-dusseldorf-mitsubishi-electric-halle-25-3-2027/event/107469095",
     "organizer_names": [
       "prime entertainment GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-megadeth-2027-oslo-z698xzb_z16vo9vpvy",
@@ -686,8 +704,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/megadeth-breakout-hibernation-of-the-nations-europe-tour-2027-tickets/1457065070?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1457065070",
@@ -748,6 +766,7 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326648/Megadeth-tickets-Sun-Mar-28-2027-Oslo-Spektrum",
     "organizer_names": [
       "Oslo Spektrum AS (ATLNO)"
-    ]
+    ],
+    "genre": "Alternative"
   }
 ]

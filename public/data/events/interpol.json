@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/interpol-tickets-cardiff-utilita-arena-cardiff-11-21-2026--concerts-rock/production/6274790",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-cardiff-21-11-2026/event/36006363A8207024",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -62,7 +62,9 @@
     "organizer_names": [
       "S.J.M. LTD",
       "LIVE NATION (MUSIC) UK LTD (VENUES)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-interpol-2026-manchester-1adfzbggkdjtldr",
@@ -80,7 +82,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-manchester-24-11-2026/event/3500635EDCFEBEDE",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -118,7 +120,9 @@
     "status": "on-sale",
     "organizer_names": [
       "S.J.M. LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-interpol-2026-brighton-g5dzzbgwdgxyl",
@@ -136,7 +140,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/interpol-bloc-party-coheadline-tour-brighton-27-11-2026/event/3E00635F7BD62C2B",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -191,7 +195,8 @@
       "S.J.M. LTD",
       "THE BRIGHTON CENTRE (BRIGHTON & HOVE CITY COUNCIL)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7542483"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7542483",
+    "genre": "Rock"
   },
   {
     "id": "tm-interpol-2026-dublin-1abzkuogkdez9hd",
@@ -209,7 +214,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/interpol-bloc-party-coheadline-tour-dublin-30-11-2026/event/18006351C20176C3",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -264,7 +269,8 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-interpol-2026-san-diego-vvg1iz_4dkyacm",
@@ -282,7 +288,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-san-diego-california-12-11-2026/event/0A006550C6E493B7",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -344,7 +350,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/interpol-san-diego-tickets-12-11-2026/event/107675935",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-interpol-2027-hidalgo-g5diz_4kwcels",
@@ -362,7 +370,7 @@
     "vividseats_url": "https://www.vividseats.com/interpol-tickets-hidalgo-payne-arena-3-19-2027/production/7745164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-hidalgo-texas-03-19-2027/event/3A006554F23A7AF3",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424,7 +432,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/interpol-hidalgo-tickets-3-19-2027/event/107675936",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-interpol-2027-memphis-g5viz_4agmgrr",
@@ -442,7 +451,7 @@
     "vividseats_url": "https://www.vividseats.com/interpol-tickets-memphis-satellite-music-hall-3-22-2027--concerts-rock/production/7745553",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-memphis-tennessee-03-22-2027/event/1B0065524CDCC79E",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -496,7 +505,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337024/Interpol-tickets-Mon-Mar-22-2027-Satellite-Music-Hall",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-interpol-2027-asheville-g5evz_4oz4dpm",
@@ -514,7 +525,7 @@
     "vividseats_url": "https://www.vividseats.com/interpol-tickets-asheville-harrahs-cherokee-center-asheville-3-23-2027--concerts-rock/production/7745555",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-asheville-north-carolina-03-23-2027/event/2D00655440543977",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -560,7 +571,8 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337025"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337025",
+    "genre": "Rock"
   },
   {
     "id": "tm-interpol-2027-washington-1a4zk4kgkd5cf0g",
@@ -578,7 +590,7 @@
     "vividseats_url": "https://www.vividseats.com/interpol-tickets-washington-dc-the-anthem-3-24-2027--concerts-rock/production/7745557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-washington-district-of-columbia-03-24-2027/event/15006553CB38890C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -637,7 +649,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337026",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337026/Interpol-tickets-Wed-Mar-24-2027-The-Anthem-DC",
-    "stubhub_international_url": "https://www.stubhub.ie/interpol-washington-tickets-3-24-2027/event/107675937"
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-washington-tickets-3-24-2027/event/107675937",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-interpol-2027-philadelphia-vv1aezk4fgkevbabi",
@@ -655,7 +669,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-philadelphia-pennsylvania-03-26-2027/event/02006554B460962C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -716,7 +730,9 @@
         "start": "2026-10-30T14:00:00Z",
         "end": "2027-02-27T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-interpol-2027-dallas-z7r9jz1aa7sce",
@@ -734,7 +750,7 @@
     "vividseats_url": "https://www.vividseats.com/interpol-tickets-dallas-the-bomb-factory-3-20-2027--concerts-rock/production/7745551",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7sCe",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -785,7 +801,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338176",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338176/Interpol-tickets-Sat-Mar-20-2027-The-Bomb-Factory"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338176/Interpol-tickets-Sat-Mar-20-2027-The-Bomb-Factory",
+    "genre": "Alternative"
   },
   {
     "id": "tm-interpol-2027-san-antonio-z7r9jz1aa70ja",
@@ -803,7 +820,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70jA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -854,7 +871,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338175",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338175/Interpol-tickets-Thu-Mar-18-2027-The-Espee-St-Paul-Square"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338175/Interpol-tickets-Thu-Mar-18-2027-The-Espee-St-Paul-Square",
+    "genre": "Alternative"
   },
   {
     "id": "tm-interpol-2027-sayreville-z7r9jz1aa70_y",
@@ -872,7 +890,7 @@
     "vividseats_url": "https://www.vividseats.com/interpol-tickets-sayreville-starland-ballroom-3-27-2027--concerts-rock/production/7745559",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA70_y",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -923,7 +941,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338177",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338177/Interpol-tickets-Sat-Mar-27-2027-Starland-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338177/Interpol-tickets-Sat-Mar-27-2027-Starland-Ballroom",
+    "genre": "Alternative"
   },
   {
     "id": "tm-interpol-2026-london-1amzk4xgkd2vp1g",
@@ -941,7 +960,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/interpol-london-04-12-2026/event/37006562CF0652B5",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -987,6 +1006,8 @@
     "organizer_names": [
       "SJM LIMITED (NEW)"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/interpol-tickets-london-british-airways-arc-4-12-2026/event/107679708"
+    "stubhub_international_url": "https://www.stubhub.ie/interpol-tickets-london-british-airways-arc-4-12-2026/event/107679708",
+    "ticket_limit": 6,
+    "genre": "Rock"
   }
 ]

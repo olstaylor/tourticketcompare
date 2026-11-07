@@ -196,8 +196,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/fontaines-dc-tickets/1099800134",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1099800134",
@@ -234,7 +234,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-fontaines-d-c-2026-liverpool-1adjz_8gkv_dtbp",
@@ -252,7 +253,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-liverpool-20-11-2026/event/3700650D190E9616",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -287,7 +288,9 @@
     },
     "ticketmaster_discovery_event_id": "1AdjZ_8GkV_dtbp",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2026-leeds-g5vhz_8b5sfcc",
@@ -305,7 +308,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-leeds-24-11-2026/event/1F00650E8BCD43AD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -340,7 +343,9 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_8B5SfCc",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2026-birmingham-1aegz_8gkdxxlc2",
@@ -358,7 +363,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-birmingham-25-11-2026/event/2300650EFEF9F38F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417,7 +422,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243928",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243928/Fontaines-DC-tickets-Wed-Nov-25-2026-Utilita-Arena-Birmingham",
-    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-birmingham-utilita-arena-birmingham-25-11-2026/event/107554687"
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-birmingham-utilita-arena-birmingham-25-11-2026/event/107554687",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2026-london-1agzkfogkenxxaj",
@@ -435,7 +442,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-london-27-11-2026/event/35006511A3FA225C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -478,7 +485,9 @@
     "ticketmaster_discovery_event_id": "1AgZkfoGkeNXxaj",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-london-the-o2-arena-27-11-2026/event/107636077"
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-london-the-o2-arena-27-11-2026/event/107636077",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-boston-vv1avzkfggkedosqi",
@@ -496,7 +505,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-boston-massachusetts-04-23-2027/event/01006535BB8316A8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -558,7 +567,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-23-2027/event/107671881",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-philadelphia-vv17fz_kgks-xsxp",
@@ -576,7 +587,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-philadelphia-pennsylvania-04-24-2027/event/0200653CE1FB18A5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -614,7 +625,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-detroit-vv17oz_kgksew9wu",
@@ -632,7 +645,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wdzh-presents-fontaines-dc-detroit-michigan-04-27-2027/event/0800653CE7F57F4D",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -694,7 +707,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-detroit-tickets-4-27-2027/event/107672469",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-chicago-vv1k8z_fkfg7zjno",
@@ -712,7 +727,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-chicago-illinois-04-28-2027/event/0400654194E26A91",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -747,7 +762,9 @@
     },
     "ticketmaster_discovery_event_id": "vv1k8Z_fkfG7zJno",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-milwaukee-vv17jz_kgkloizcl",
@@ -765,7 +782,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-milwaukee-wisconsin-04-30-2027/event/0700653AD1B3839F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -819,7 +836,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303812/Fontaines-DC-tickets-Fri-Apr-30-2027-Landmark-Credit-Union-Live",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-minneapolis-vv17bz_kgkijqu5x",
@@ -837,7 +856,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-minneapolis-minnesota-05-01-2027/event/0600653B1C7762FE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -891,7 +910,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303813/Fontaines-DC-tickets-Sat-May-1-2027-The-Armory-Minneapolis",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1av7z_kgkupzetr",
@@ -909,7 +930,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fontaines-dc-vancouver-british-columbia-05-05-2027/event/1100653DA5E27FDE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -964,7 +985,9 @@
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-seattle-vvg1hz_kbr3b0c",
@@ -982,7 +1005,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-seattle-washington-05-08-2027/event/0F00653EAF4BA90E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1041,7 +1064,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303814",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303814/Fontaines-DC-tickets-Sat-May-8-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-seattle-tickets-5-8-2027/event/107672464"
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-seattle-tickets-5-8-2027/event/107672464",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-sacramento-g5vyz_kmgztid",
@@ -1059,7 +1084,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-sacramento-california-05-11-2027/event/1C00653DCCE3FB3B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1121,7 +1146,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-sacramento-tickets-5-11-2027/event/107672016",
     "organizer_names": [
       "ANOTHER PLANET"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-san-francisco-g5vyz_k9cdguj",
@@ -1139,7 +1166,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-san-francisco-california-05-12-2027/event/1C006535CE0F535C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1208,7 +1235,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-san-francisco-tickets-5-12-2027/event/107672467",
     "organizer_names": [
       "ANOTHER PLANET"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-milano-zg9rmiynyzd1ve",
@@ -1226,7 +1255,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/fontaines-dc-milano-19-06-2027/event/dcnhtck68uuk",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1261,7 +1290,8 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZd1ve",
     "timezone": "Europe/Rome",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-fontaines-d-c-2027-co-meath-1avoz_ogkwypefm",
@@ -1279,7 +1309,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/fontaines-dc-co-meath-26-06-2027/event/1800651F79582237",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1317,7 +1347,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-co-meath-1avoz_ogkw7fwfl",
@@ -1335,7 +1367,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/fontaines-dc-co-meath-27-06-2027/event/1800651F4453222B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1373,7 +1405,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-cardiff-g5vhz_oiinrjk",
@@ -1391,7 +1425,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-cardiff-29-06-2027/event/1F00651B2C8DE986",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1430,7 +1464,9 @@
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)",
       "DEPOT MARKETING LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-newcastle-upon-tyne-1adfz_ogkm3hlfk",
@@ -1448,7 +1484,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-newcastle-upon-tyne-01-07-2027/event/3500651DD2F2B513",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1507,7 +1543,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271586",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271586/Fontaines-DC-tickets-Thu-Jul-1-2027-St-James-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-newcastle-upon-tyne-st-james-park-1-7-2027/event/107665864"
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-newcastle-upon-tyne-st-james-park-1-7-2027/event/107665864",
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-manchester-g5dzz_omjzv0z",
@@ -1525,7 +1563,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-manchester-03-07-2027/event/3E00651BA6E01938",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1571,7 +1609,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-manchester-heaton-park-3-7-2027/event/107665865",
     "organizer_names": [
       "THE WAREHOUSE PROJECT (MANCH) LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-manchester-g5dzz_osdpprt",
@@ -1589,7 +1629,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-manchester-04-07-2027/event/3E00651CC35A57A9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1635,7 +1675,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-manchester-heaton-park-4-7-2027/event/107667263",
     "organizer_names": [
       "THE WAREHOUSE PROJECT (MANCH) LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-glasgow-1adbz_ogkrs74cl",
@@ -1653,7 +1695,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-glasgow-06-07-2027/event/3600651BF31153AB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1700,7 +1742,9 @@
     "organizer_names": [
       "DF CONCERTS LIMITED",
       "GIGS IN SCOTLAND"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-london-1ku8vpf_ga19knu",
@@ -1718,7 +1762,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-london-09-07-2027/event/350065219A5D38CD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1780,7 +1824,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-london-london-stadium-9-7-2027/event/107665867",
     "organizer_names": [
       "LONDON STADIUM 185 LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-toronto-1avzz_kgkmdxopu",
@@ -1798,7 +1844,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fontaines-dc-toronto-ontario-09-26-2027/event/1000653DFBFA0976",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1839,7 +1885,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-columbia-16vfz_fkag7mpc7",
@@ -1857,7 +1905,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-columbia-maryland-09-30-2027/event/1500654189DE5384",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1908,7 +1956,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303818",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303818/Fontaines-DC-tickets-Thu-Sep-30-2027-Merriweather-Post-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303818/Fontaines-DC-tickets-Thu-Sep-30-2027-Merriweather-Post-Pavilion",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-atlanta-vvg1zz_keib7ia",
@@ -1926,7 +1976,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-atlanta-georgia-10-08-2027/event/0E006539E8604B09",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1980,7 +2030,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303820/Fontaines-DC-tickets-Fri-Oct-8-2027-Synovus-Bank-Amphitheater-at-Chastain-Park",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-inglewood-vv1ke8vpuyga5p1et",
@@ -1998,7 +2050,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-inglewood-california-10-15-2027/event/090065370B94A9E9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2060,7 +2112,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-inglewood-tickets-10-15-2027/event/107671885",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-boston-vv1avzkfggkedloqr",
@@ -2078,7 +2132,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-boston-massachusetts-04-22-2027/event/01006535BB7D169E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2140,7 +2194,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-22-2027/event/107672109",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1aozk4v0aa_zegf",
@@ -2158,7 +2214,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fontaines-dc-vancouver-british-columbia-05-06-2027/event/11006541909259B7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2213,7 +2269,9 @@
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-columbus-z7r9jz1aaepk6",
@@ -2734,7 +2792,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-24-03-2027/event/1400651D97096B52",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2780,7 +2838,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-24-3-2027/event/107670888",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-mexico-1av8z_ogkxugz79",
@@ -2798,7 +2857,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-25-03-2027/event/1400651FB6D78117",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2844,7 +2903,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-25-3-2027/event/107669312",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2026-manchester-g5vhz_okyh0m1",
@@ -2862,7 +2922,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-manchester-21-11-2026/event/1F006511B96E4B8A",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2924,7 +2984,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-manchester-manchester-ao-arena-21-11-2026/event/107554686",
     "organizer_names": [
       "ASM T-A AO ARENA"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2026-glasgow-1adbz_8gkucuwyw",
@@ -2942,7 +3004,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-glasgow-22-11-2026/event/3600650DADDB2C32",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3005,7 +3067,8 @@
     "organizer_names": [
       "DF CONCERTS LIMITED",
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-fontaines-d-c-2027-nashville-z7r9jz1aa7vxe",

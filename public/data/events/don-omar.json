@@ -1140,7 +1140,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-ontario-california-10-29-2026/event/090064AFE55AB260",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1202,7 +1202,9 @@
     "stubhub_international_url": "",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-10-30T03:00:00Z",
-    "previous_start_timezone": "America/Los_Angeles"
+    "previous_start_timezone": "America/Los_Angeles",
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2026-las-vegas-z7r9jz1a70eqs",
@@ -1220,7 +1222,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EqS",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1280,7 +1282,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976499",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976499/Don-Omar-tickets-Wed-Nov-11-2026-Michelob-ULTRA-Arena-At-Mandalay-Bay",
     "stubhub_international_url": "",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "genre": "World"
   },
   {
     "id": "tm-don-omar-2026-salt-lake-city-z7r9jz1a70efv",
@@ -1501,7 +1504,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-phoenix-mortgage-matchup-center-11-8-2026/production/7047748",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-phoenix-arizona-11-08-2026/event/190064AFC8167E0A",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1563,7 +1566,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-phoenix-tickets-11-8-2026/event/107189122",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-denver-g5vzz_u2hqxbt",
@@ -1581,7 +1586,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-denver-ball-arena-2-3-2027/production/7198540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-denver-colorado-02-03-2027/event/1E0064D3DB77EEBF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1642,7 +1647,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-sacramento-g5vyz_u1sfm0b",
@@ -1660,7 +1667,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-sacramento-golden-1-center-2-5-2027/production/7198548",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-sacramento-california-02-05-2027/event/1C0064D2B152E93A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1729,7 +1736,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-seattle-vvg1hz_u4jzxck",
@@ -1747,7 +1756,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-seattle-climate-pledge-arena-2-7-2027/production/7198538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-seattle-washington-02-07-2027/event/0F0064D566E22386",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1816,7 +1825,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-san-diego-z7r9jz1a7pggy",
@@ -1834,7 +1845,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-san-diego-pechanga-arena-2-10-2027/production/7198606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PgGY",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1885,7 +1896,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8086304",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8086304/Don-Omar-tickets-Wed-Feb-10-2027-Pechanga-Arena-San-Diego"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8086304/Don-Omar-tickets-Wed-Feb-10-2027-Pechanga-Arena-San-Diego",
+    "genre": "World"
   },
   {
     "id": "tm-don-omar-2027-fresno-g5vyz_u5k7ws7",
@@ -1903,7 +1915,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-fresno-save-mart-center-2-11-2027/production/7198544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fresno-california-02-11-2027/event/1C0064D2C6132CC4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1972,7 +1984,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-inglewood-vvg10z_u2a3ul3",
@@ -1990,7 +2004,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-inglewood-intuit-dome-2-12-2027/production/7198550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-inglewood-california-02-12-2027/event/090064D3C948DAD2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2059,7 +2073,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-toronto-177zv0g6u2fwanb",
@@ -2077,7 +2093,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-toronto-scotiabank-arena-2-17-2027/production/7201125",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-toronto-ontario-02-17-2027/event/100064D3C8F45ABA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2122,7 +2138,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-montreal-17g8v0g6ucxtixy",
@@ -2140,7 +2158,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-montreal-bell-centre-2-21-2027/production/7198935",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/don-omar-the-last-king-world-montreal-quebec-02-21-2027/event/310064D3BEFE88B9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2201,7 +2219,9 @@
     ],
     "organizer_names": [
       "EVENKO CO-PRO NON-LN"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-rosemont-vvg18z_u5mkrgh",
@@ -2219,7 +2239,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-rosemont-allstate-arena-2-26-2027/production/7198546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-02-26-2027/event/040064D2F74DED5B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2288,7 +2308,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-belmont-park-17gzv0g6u15uw7e",
@@ -2306,7 +2328,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-elmont-ubs-arena-2-28-2027/production/7198512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-belmont-park-new-york-02-28-2027/event/300064D28B372102",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2351,7 +2373,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-newark-vvg1fz_u5xkezy",
@@ -2369,7 +2393,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-newark-prudential-center-3-3-2027/production/7198530",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-newark-new-jersey-03-03-2027/event/020064D2FE182E30",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2438,7 +2462,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-baltimore-17a8v0g6ukar9g1",
@@ -2456,7 +2482,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-baltimore-cfg-bank-arena-3-4-2027/production/7198516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-baltimore-maryland-03-04-2027/event/150064D4C9797D4A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2517,7 +2543,8 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-fort-worth-vvg1yz_u1_ouro",
@@ -2535,7 +2562,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-fort-worth-texas-03-06-2027/event/0C0064D2994767A0",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2604,7 +2631,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-austin-g5diz_u3mkhzt",
@@ -2622,7 +2651,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-austin-moody-center-atx-3-7-2027/production/7198526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-austin-texas-03-07-2027/event/3A0064D4B74DB03F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2691,7 +2720,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-tampa-vvg1vz_uc-buha",
@@ -2709,7 +2740,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-tampa-benchmark-international-arena-3-10-2027/production/7198528",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-tampa-florida-03-10-2027/event/0D0064D3A1EB66C9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2778,7 +2809,8 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-miami-vvg1vz_uk8ovtf",
@@ -2796,7 +2828,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-miami-kaseya-center-3-12-2027/production/7198520",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-miami-florida-03-12-2027/event/0D0064D190834A54",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2865,7 +2897,8 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-don-omar-2027-orlando-17fov0g6u6m7kw6",
@@ -2883,7 +2916,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-orlando-kia-center-3-14-2027/production/7198514",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-orlando-florida-03-14-2027/event/220064D1F7106C87",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2952,6 +2985,8 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   }
 ]

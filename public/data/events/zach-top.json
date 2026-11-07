@@ -294,7 +294,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-top-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-3-13-2027/production/7654148",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAeAP",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -329,6 +329,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAeAP",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   }
 ]

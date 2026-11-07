@@ -145,7 +145,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-04-2026/event/1B006486F1987016",
-    "last_verified_at": "2026-10-26",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -199,7 +199,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843538/Billy-Strings-tickets-Fri-Dec-4-2026-Saenger-Theatre-New-Orleans",
     "organizer_names": [
       "MARCHONE MUSIC"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-billy-strings-2026-new-orleans-g5viz_6n0bmge",
@@ -217,7 +218,7 @@
     "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-new-orleans-smoothie-king-center-12-5-2026/production/6850482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-new-orleans-louisiana-12-05-2026/event/1B00647AA462ED67",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -268,7 +269,9 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843524",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843524/Billy-Strings-tickets-Sat-Dec-5-2026-Smoothie-King-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843524/Billy-Strings-tickets-Sat-Dec-5-2026-Smoothie-King-Center",
+    "ticket_limit": 4,
+    "genre": "Country"
   },
   {
     "id": "tm-billy-strings-2026-sugar-land-z7r9jz1a7xvj-",
@@ -347,7 +350,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-fort-worth-texas-12-11-2026/event/0C00647BAD4B9754",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -406,7 +409,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843525",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843525/Billy-Strings-tickets-Fri-Dec-11-2026-Ariat-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/billy-strings-fort-worth-tickets-12-11-2026/event/107155188"
+    "stubhub_international_url": "https://www.stubhub.ie/billy-strings-fort-worth-tickets-12-11-2026/event/107155188",
+    "ticket_limit": 4,
+    "genre": "Country"
   },
   {
     "id": "tm-billy-strings-2026-austin-g5diz_ub5bart",
@@ -424,7 +429,7 @@
     "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-austin-moody-center-atx-12-12-2026/production/7250307",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-austin-texas-12-12-2026/event/3A0064DE8BE85BE9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -483,7 +488,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8108535",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8108535/Billy-Strings-tickets-Sat-Dec-12-2026-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/billy-strings-austin-tickets-12-12-2026/event/107452001"
+    "stubhub_international_url": "https://www.stubhub.ie/billy-strings-austin-tickets-12-12-2026/event/107452001",
+    "ticket_limit": 4,
+    "genre": "Country"
   },
   {
     "id": "tm-billy-strings-2027-asheville-g5evz_omwlg3b",
@@ -501,7 +508,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-04-2027/event/2D00651BB2ACC498",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -544,7 +551,9 @@
     "ticketmaster_discovery_event_id": "G5eVZ_omwlG3b",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238813"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238813",
+    "ticket_limit": 4,
+    "genre": "Country"
   },
   {
     "id": "tm-billy-strings-2027-asheville-g5evz_omwlh3-",
@@ -562,7 +571,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-05-2027/event/2D00651BB2AFC4A1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -605,7 +614,9 @@
     "ticketmaster_discovery_event_id": "G5eVZ_omwlH3-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238814"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238814",
+    "ticket_limit": 4,
+    "genre": "Country"
   },
   {
     "id": "tm-billy-strings-2027-asheville-g5evz_omwig3e",
@@ -623,7 +634,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-06-2027/event/2D00651BB2B0C4A7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -666,7 +677,9 @@
     "ticketmaster_discovery_event_id": "G5eVZ_omwiG3E",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238815"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238815",
+    "ticket_limit": 4,
+    "genre": "Country"
   },
   {
     "id": "tm-billy-strings-2027-asheville-g5evz_omwii3v",
@@ -684,7 +697,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-08-2027/event/2D00651BB2B2C4B4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -727,7 +740,9 @@
     "ticketmaster_discovery_event_id": "G5eVZ_omwii3V",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238816"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238816",
+    "ticket_limit": 4,
+    "genre": "Country"
   },
   {
     "id": "tm-billy-strings-2027-asheville-g5evz_omwcg3b",
@@ -745,7 +760,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-asheville-north-carolina-02-09-2027/event/2D00651BB2B4C4BA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -788,7 +803,9 @@
     "ticketmaster_discovery_event_id": "G5eVZ_omwcG3B",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238817"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238817",
+    "ticket_limit": 4,
+    "genre": "Country"
   },
   {
     "id": "tm-billy-strings-2027-duluth-vvg1zz_oinx98f",
@@ -806,7 +823,7 @@
     "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-duluth-gas-south-arena-2-12-2027/production/7490339",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-12-2027/event/0E00651B23F97408",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -857,7 +874,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238819",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238819/Billy-Strings-tickets-Fri-Feb-12-2027-Gas-South-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238819/Billy-Strings-tickets-Fri-Feb-12-2027-Gas-South-Arena",
+    "ticket_limit": 4,
+    "genre": "Country"
   },
   {
     "id": "tm-billy-strings-2027-duluth-vvg1zz_ointe8l",
@@ -875,7 +894,7 @@
     "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-duluth-gas-south-arena-2-13-2027--concerts-country-and-folk/production/7490211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-duluth-georgia-02-13-2027/event/0E00651B23FE741F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -926,7 +945,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238820",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238820/Billy-Strings-tickets-Sat-Feb-13-2027-Gas-South-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238820/Billy-Strings-tickets-Sat-Feb-13-2027-Gas-South-Arena",
+    "ticket_limit": 4,
+    "genre": "Country"
   },
   {
     "id": "tm-billy-strings-2027-nashville-g5viz_on579po",
@@ -944,7 +965,7 @@
     "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-nashville-bridgestone-arena-2-19-2027--concerts-country-and-folk/production/7490213",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-19-2027/event/1B00651A8B1175A0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -995,7 +1016,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238823",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238823/Billy-Strings-tickets-Fri-Feb-19-2027-Bridgestone-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238823/Billy-Strings-tickets-Fri-Feb-19-2027-Bridgestone-Arena",
+    "genre": "Country"
   },
   {
     "id": "tm-billy-strings-2027-nashville-g5viz_on5a9pr",
@@ -1013,7 +1035,7 @@
     "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-nashville-bridgestone-arena-2-20-2027--concerts-country-and-folk/production/7490217",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-nashville-tennessee-02-20-2027/event/1B00651A8B1575AF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1064,6 +1086,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238824",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238824/Billy-Strings-tickets-Sat-Feb-20-2027-Bridgestone-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238824/Billy-Strings-tickets-Sat-Feb-20-2027-Bridgestone-Arena",
+    "genre": "Country"
   }
 ]

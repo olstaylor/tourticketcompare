@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-savannah-enmarket-arena-2-3-2027/production/7642178",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-savannah-georgia-02-03-2027/event/0E00653EC5E93533",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -76,7 +76,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-tampa-vvg1vz_kmcwtil",
@@ -94,7 +96,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-tampa-benchmark-international-arena-2-5-2027/production/7642170",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-tampa-florida-02-05-2027/event/0D00653DEDCBFA2B",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -163,7 +165,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tampa-tickets-2-5-2027/event/107670988",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-jacksonville-1aefz_kgkdyuafx",
@@ -181,7 +185,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-jacksonville-vystar-veterans-memorial-arena-2-6-2027/production/7642110",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-jacksonville-florida-02-06-2027/event/2200653EF0D8953E",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -250,7 +254,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-jacksonville-tickets-2-6-2027/event/107670989",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-atlanta-vvg1zz_kmneaip",
@@ -268,7 +274,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-atlanta-state-farm-arena-2-9-2027/production/7642152",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-atlanta-georgia-02-09-2027/event/0E00653DEA089A25",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -337,7 +343,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-atlanta-tickets-2-9-2027/event/107671897",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-nashville-g5viz_kzhjzwy",
@@ -355,7 +363,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-nashville-bridgestone-arena-2-10-2027/production/7642172",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-nashville-tennessee-02-10-2027/event/1B00653E3C980F70",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424,7 +432,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-nashville-tickets-2-10-2027/event/107671898",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-rosemont-vv178z_kgkmrjctr",
@@ -442,7 +452,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-rosemont-allstate-arena-2-12-2027/production/7642180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-rosemont-illinois-02-12-2027/event/0400653DDE98EA5E",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -511,7 +521,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-rosemont-tickets-2-12-2027/event/107671861",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-omaha-vv17bz_kgkmgzcnp",
@@ -529,7 +541,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-omaha-chi-health-center-omaha-2-13-2027/production/7642102",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-omaha-nebraska-02-13-2027/event/0600653DCC02D8E5",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -590,7 +602,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-minneapolis-vv17bz_kgku0ofzs",
@@ -608,7 +621,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-minneapolis-target-center-2-15-2027/production/7642158",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-minneapolis-minnesota-02-15-2027/event/0600653DA4808031",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -677,7 +690,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-minneapolis-tickets-2-15-2027/event/107671899",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-louisville-1avbz_kgkbymb5h",
@@ -695,7 +709,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-louisville-kfc-yum-center-2-19-2027/production/7642122",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-louisville-kentucky-02-19-2027/event/1600653EB0DD82DB",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -756,7 +770,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-pittsburgh-1avbz_kgkmosrsz",
@@ -774,7 +790,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-pittsburgh-ppg-paints-arena-2-20-2027/production/7642136",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-pittsburgh-pennsylvania-02-20-2027/event/1600653DE0C5EC78",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -835,7 +851,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-detroit-vv17oz_kgkwt_pf2",
@@ -853,7 +871,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-detroit-little-caesars-arena-3-2-2027/production/7642148",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-detroit-michigan-03-02-2027/event/0800653CBF66550F",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -914,7 +932,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-boston-vv177z_kgknm09yr",
@@ -932,7 +952,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-boston-td-garden-3-5-2027/production/7642108",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-boston-massachusetts-03-05-2027/event/0100653AB7917C1E",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1001,7 +1021,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-boston-tickets-3-5-2027/event/107671865",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-albany-k7vgf_kbmaa9o",
@@ -1019,7 +1041,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-albany-mvp-arena-3-6-2027/production/7642140",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-albany-new-york-03-06-2027/event/0000653EAE1495D1",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1080,7 +1102,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-brooklyn-1adzz_kgkljmams",
@@ -1098,7 +1122,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-brooklyn-barclays-center-3-8-2027/production/7642146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-brooklyn-new-york-03-08-2027/event/3000653AE6DC9BB1",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1167,7 +1191,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-brooklyn-tickets-3-8-2027/event/107671868",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-philadelphia-1adzz_kgkv_zy6y",
@@ -1185,7 +1211,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-philadelphia-xfinity-mobile-arena-3-10-2027/production/7642134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-philadelphia-pennsylvania-03-10-2027/event/3000653D190391F0",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1254,7 +1280,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-philadelphia-tickets-3-10-2027/event/107671869",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-charlotte-g5evz_kd5pkxs",
@@ -1272,7 +1300,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-charlotte-spectrum-center-3-12-2027/production/7642096",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-charlotte-north-carolina-03-12-2027/event/2D00653ECB946FB3",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1333,7 +1361,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-knoxville-g5viz_fat50pa",
@@ -1351,7 +1380,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-knoxville-thompson-boling-arena-at-food-city-center-3-13-2027/production/7642114",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-knoxville-tennessee-03-13-2027/event/1B006541692E4585",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1412,7 +1441,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-fort-worth-vvg1yz_f6vci7r",
@@ -1430,7 +1460,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/971-the-eagle-presents-greta-van-fort-worth-texas-03-15-2027/event/0C006541C1B6C11E",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1499,7 +1529,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-fort-worth-tickets-3-15-2027/event/107671871",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-tulsa-1aezz_kgkdnv4sg",
@@ -1517,7 +1549,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-tulsa-bok-center-3-16-2027/production/7642162",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-tulsa-oklahoma-03-16-2027/event/2000653EEA055CCC",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1578,7 +1610,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-anaheim-vv170z_kgkm7preh",
@@ -1596,7 +1630,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-anaheim-honda-center-3-19-2027/production/7642130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-anaheim-california-03-19-2027/event/0900653DC495E09B",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1665,7 +1699,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-anaheim-tickets-3-19-2027/event/107671872",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-phoenix-1av0z_kgkbck9ok",
@@ -1683,7 +1719,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-phoenix-mortgage-matchup-center-3-20-2027/production/7642092",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-phoenix-arizona-03-20-2027/event/1900653EAD4D7806",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1744,7 +1780,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-reno-1avjz_kgkmchefe",
@@ -1762,7 +1800,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-reno-reno-events-center-3-22-2027/production/7642168",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-reno-nevada-03-22-2027/event/1700653DCEF02227",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1823,7 +1861,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-seattle-vvg1hz_km-zrdh",
@@ -1841,7 +1881,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-seattle-climate-pledge-arena-3-24-2027/production/7642094",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-seattle-washington-03-24-2027/event/0F00653DE1E2F0DB",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1910,7 +1950,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-seattle-tickets-3-24-2027/event/107671873",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-portland-vvg1hz_kle7js7",
@@ -1928,7 +1970,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-portland-moda-center-3-25-2027/production/7642126",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-portland-oregon-03-25-2027/event/0F00653AC211CC44",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1989,7 +2031,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-boise-g5vzz_fkffj8x",
@@ -2007,7 +2050,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-boise-extramile-arena-3-27-2027/production/7642160",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-boise-idaho-03-27-2027/event/1E00654194226422",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2068,7 +2111,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-denver-g5vzz_kbjtioy",
@@ -2086,7 +2131,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-denver-ball-arena-3-30-2027/production/7642098",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-denver-colorado-03-30-2027/event/1E00653EA6A68470",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2155,7 +2200,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-denver-tickets-3-30-2027/event/107670990",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-munich-z698xzc2z16v70efz3",
@@ -2173,8 +2220,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/greta-van-fleet-into-the-beginning-tickets/1124094012?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1124094012",
@@ -2219,7 +2266,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-munich-olympiahalle-munich-15-5-2027/event/107670991",
     "organizer_names": [
       "Live Nation GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-assago-zg9rmiynyz7k7a",
@@ -2237,7 +2285,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/greta-van-fleet-assago-16-05-2027/event/f5l9e9a0fsq1",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2272,7 +2320,8 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZ7k7A",
     "timezone": "Europe/Rome",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-hamburg-z698xzc2z1k83jea7",
@@ -2290,8 +2339,8 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-hamburg-barclays-arena---hamburg-5-18-2027--concerts-rock/production/7643045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/greta-van-fleet-into-the-beginning-tickets/412982144?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "412982144",
@@ -2336,7 +2385,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-hamburg-barclays-arena-hamburg-18-5-2027/event/107671901",
     "organizer_names": [
       "Live Nation GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-berlin-z698xzc2z1kfv0zvs",
@@ -2354,8 +2404,8 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-berlin-uber-arena-5-21-2027--concerts-rock/production/7643051",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/greta-van-fleet-into-the-beginning-tickets/501900073?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "501900073",
@@ -2400,7 +2450,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-berlin-uber-arena-21-5-2027/event/107670992",
     "organizer_names": [
       "Live Nation GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-amsterdam-z698xzbpz1kpzobgo",
@@ -2418,8 +2469,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/greta-van-fleet-into-the-beginning-tickets/978458311?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "978458311",
@@ -2480,7 +2531,8 @@
       "Mojo Concerts"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326626",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326626/Greta-Van-Fleet-tickets-Mon-May-24-2027-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326626/Greta-Van-Fleet-tickets-Mon-May-24-2027-Ziggo-Dome",
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-forest-brussels-z698xzg2z16ez30gvn",
@@ -2498,8 +2550,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/greta-van-fleet--into-the-beginning-tickets/2012935063",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2012935063",
@@ -2536,7 +2588,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-london-1adfz_kgkmuet5g",
@@ -2554,7 +2607,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-london-the-o2---london-5-28-2027--concerts-rock/production/7643061",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-london-28-05-2027/event/3500653DF69FF2F5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2597,7 +2650,9 @@
     "ticketmaster_discovery_event_id": "1AdfZ_KGkMUET5g",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-london-the-o2-arena-28-5-2027/event/107671665"
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-london-the-o2-arena-28-5-2027/event/107671665",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-birmingham-1aegz_kgkmz0sov",
@@ -2615,7 +2670,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-birmingham-30-05-2027/event/2300653DF8931441",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2658,7 +2713,9 @@
     "ticketmaster_discovery_event_id": "1AeGZ_KGkMz0sov",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-birmingham-utilita-arena-birmingham-30-5-2027/event/107671666"
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-birmingham-utilita-arena-birmingham-30-5-2027/event/107671666",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-manchester-1adjz_kgkbyud70",
@@ -2676,7 +2733,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-manchester-co-op-live-6-1-2027--concerts-rock/production/7643065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-manchester-01-06-2027/event/3700653EB0D83124",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2738,7 +2795,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-manchester-co-op-live-1-6-2027/event/107671667",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-dublin-1abzkfmgkes3wyd",
@@ -2756,7 +2815,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/greta-van-fleet-into-the-beginning-dublin-04-06-2027/event/18006537B34BDC03",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2811,7 +2870,8 @@
       "MCD PRODUCTIONS"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341562",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341562/Greta-Van-Fleet-tickets-Fri-Jun-4-2027-3Arena-Dublin"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341562/Greta-Van-Fleet-tickets-Fri-Jun-4-2027-3Arena-Dublin",
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-vancouver-1av7z_kgkw_ogty",
@@ -2829,7 +2889,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-vancouver-rogers-arena-7-5-2027/production/7642176",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-vancouver-british-columbia-07-05-2027/event/1100653C99835FF0",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2898,7 +2958,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-edmonton-1av7z_kgkmfujae",
@@ -2916,7 +2978,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-edmonton-rogers-place-7-7-2027/production/7642106",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-edmonton-alberta-07-07-2027/event/1100653DC8D9C167",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2980,7 +3042,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-calgary-1av7z_kgkum7iwv",
@@ -2998,7 +3062,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-calgary-scotiabank-saddledome-7-8-2027/production/7642090",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-calgary-alberta-07-08-2027/event/1100653DAE128CB4",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3062,7 +3126,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-winnipeg-1av7z_kgkmeitov",
@@ -3080,7 +3146,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-winnipeg-canada-life-centre-7-10-2027/production/7642164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-winnipeg-manitoba-07-10-2027/event/1100653DE7A3F441",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3144,7 +3210,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-kansas-city-vv1akzk4vgkdr0kg1",
@@ -3162,7 +3230,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-kansas-city-t-mobile-center-7-13-2027/production/7642120",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-kansas-city-missouri-07-13-2027/event/06006541DE906D4A",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3231,7 +3299,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-kansas-city-tickets-7-13-2027/event/107671900",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-saint-louis-vv17bz_kgkm_stkv",
@@ -3249,7 +3318,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-saint-louis-missouri-07-14-2027/event/0600653DD9C7F1B4",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3294,7 +3363,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-columbus-vv1aazk4vgkexl1ix",
@@ -3312,7 +3383,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-columbus-nationwide-arena-7-16-2027/production/7642116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-columbus-ohio-07-16-2027/event/05006541BEACAA22",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3373,7 +3444,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-noblesville-vv17fz_kgkmuku1m",
@@ -3391,7 +3464,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-noblesville-ruoff-music-center-7-17-2027/production/7642100",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-noblesville-indiana-07-17-2027/event/0500653DCD4CD2AE",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3457,7 +3530,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-raleigh-g5evz_f6z0uw6",
@@ -3475,7 +3550,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-raleigh-lenovo-center-7-20-2027/production/7642150",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-raleigh-north-carolina-07-20-2027/event/2D006541C0936C87",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3536,7 +3611,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-columbia-1avfz_kgkss_xxt",
@@ -3554,7 +3631,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-columbia-merriweather-post-pavilion-7-21-2027/production/7642117",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-columbia-maryland-07-21-2027/event/1500653CF16628BF",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3615,7 +3692,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-hershey-vv17fz_kgkdofs3p",
@@ -3633,7 +3712,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-hershey-giant-center-7-23-2027/production/7642132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-hershey-pennsylvania-07-23-2027/event/0200653EE0231496",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3694,7 +3773,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-uncasville-g5vvz_kwzs711",
@@ -3712,7 +3793,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-uncasville-mohegan-sun-arena-ct-7-24-2027/production/7642174",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-uncasville-connecticut-07-24-2027/event/1D00653CB8CC428A",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3770,7 +3851,9 @@
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-07-17T03:55:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-gilford-vv177z_kgkni4das",
@@ -3788,7 +3871,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-gilford-banknh-pavilion-7-26-2027/production/7642112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-gilford-new-hampshire-07-26-2027/event/0100653AAC543171",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3833,7 +3916,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-laval-1ad7z_kgksakup4",
@@ -3851,7 +3936,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-laval-place-bell-7-28-2027/production/7642144",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-laval-quebec-07-28-2027/event/3100653CC94F6595",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3915,7 +4000,9 @@
       "LIVE NATION CANADA (LN)",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-toronto-1avzz_kgkswyehx",
@@ -3933,7 +4020,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-toronto-rbc-amphitheatre-7-29-2027/production/7642156",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-toronto-ontario-07-29-2027/event/1000653CF2C026FE",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3981,7 +4068,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-grand-rapids-vv17oz_kgkwlsfog",
@@ -3999,7 +4088,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-grand-rapids-acrisure-amphitheater-7-31-2027/production/7642128",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-grand-rapids-michigan-07-31-2027/event/0800653CABC5444C",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4060,7 +4149,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-praha-9-z698xzu0z1k0yg9c_",
@@ -4078,8 +4169,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/greta-van-fleet-into-the-beginning-tickets/930317399?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "930317399",
@@ -4116,7 +4207,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-glasgow-1auzkfugkd_hipm",
@@ -4134,7 +4226,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-glasgow-ovo-hydro-6-2-2027--concerts-rock/production/7643067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-glasgow-02-06-2027/event/36006536D9F285AE",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4197,7 +4289,9 @@
       "SCOTTISH EVENT CAMPUS LIMITED"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341908",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341908/Greta-Van-Fleet-tickets-Wed-Jun-2-2027-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341908/Greta-Van-Fleet-tickets-Wed-Jun-2-2027-OVO-Hydro",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-greta-van-fleet-2027-green-bay-z7r9jz1aae44u",

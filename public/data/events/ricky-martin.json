@@ -281,7 +281,7 @@
     "vividseats_url": "https://www.vividseats.com/ricky-martin-tickets-temecula-pechanga-resort-casino-11-8-2026/production/7200560",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ricky-martin-temecula-california-11-08-2026/event/0A0064C3CAF6BA38",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -327,6 +327,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072742/Ricky-Martin-tickets-Sun-Nov-8-2026-Summit-At-Pechanga-Resort-Casino",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   }
 ]

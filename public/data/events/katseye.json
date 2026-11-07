@@ -655,7 +655,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-austin-moody-center-atx-11-10-2026--concerts-pop/production/7027959",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-austin-texas-11-10-2026/event/3A0064AAC1419703",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -724,7 +724,9 @@
         "end": "2026-11-11T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961642"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961642",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-katseye-2026-dallas-vvg1yz_1jrlmao",
@@ -742,7 +744,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-dallas-american-airlines-center---tx-11-11-2026--concerts-pop/production/7027961",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-dallas-texas-11-11-2026/event/0C0064A99EAF7251",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -804,7 +806,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961644"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961644",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-katseye-2026-las-vegas-z7r9jz1a70ouv",
@@ -822,7 +826,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-las-vegas-mgm-grand-garden-arena-11-14-2026--concerts-pop/production/7027963",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OuV",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -884,7 +888,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961834"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961834",
+    "genre": "Pop"
   },
   {
     "id": "tm-katseye-2026-seattle-vvg1hz_1e8gggs",
@@ -902,7 +907,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-seattle-climate-pledge-arena-11-17-2026--concerts-pop/production/7027965",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-seattle-washington-11-17-2026/event/0F0064A9D030C333",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -964,7 +969,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961840"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961840",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-katseye-2026-oakland-g5vyz_1m-ew1q",
@@ -982,7 +989,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-oakland-oakland-arena-11-19-2026--concerts-pop/production/7027967",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-oakland-california-11-19-2026/event/1C0064ABA10BD29D",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1044,7 +1051,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961842"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961842",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-katseye-2026-los-angeles-g5eyz_1rkf-rx",
@@ -1062,7 +1071,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-los-angeles-california-11-21-2026/event/2C0064ABC62217BE",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1124,7 +1133,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961846"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961846",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-katseye-2026-los-angeles-g5eyz_52cssfl",
@@ -1142,7 +1153,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-los-angeles-california-11-22-2026/event/2C0064B3CEC7151F",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1204,7 +1215,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7984757"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7984757",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-katseye-2026-phoenix-17k8v0g61m4tf9t",
@@ -1222,7 +1235,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-phoenix-mortgage-matchup-center-11-24-2026--concerts-pop/production/7027973",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-phoenix-arizona-11-24-2026/event/190064AB95A545E9",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1284,7 +1297,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961848"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961848",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61mujevj",
@@ -1302,7 +1317,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/katseye-the-wildworld-tour-ciudad-de-mexico-27-11-2026/event/140064AB8D982D1C",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1364,7 +1379,8 @@
     "organizer_names": [
       "OCESA"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7983201"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7983201",
+    "genre": "Pop"
   },
   {
     "id": "tm-katseye-2026-ciudad-de-mexico-17azv0g61m2a3xe",
@@ -1382,7 +1398,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/katseye-the-wildworld-tour-ciudad-de-mexico-28-11-2026/event/140064AB8F152FA7",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1444,7 +1460,8 @@
     "organizer_names": [
       "OCESA"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7990930"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7990930",
+    "genre": "Pop"
   },
   {
     "id": "tm-katseye-2027-auckland-1ae8z_4gkre277q",
@@ -1462,7 +1479,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/katseye-the-wildworld-tour-auckland-05-03-2027/event/2400655BE73C411D",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1500,7 +1517,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-katseye-2027-auckland-1ae8z_4gkwr-wk2",
@@ -1518,7 +1537,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/katseye-the-wildworld-tour-auckland-06-03-2027/event/2400655C9E87218F",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1556,6 +1575,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   }
 ]

@@ -1050,7 +1050,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-indianapolis-lucas-oil-stadium-5-1-2027/production/7706921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-indianapolis-indiana-05-01-2027/event/0500654CA98964E0",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1112,7 +1112,9 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-indianapolis-tickets-5-1-2027/event/107675676"
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-indianapolis-tickets-5-1-2027/event/107675676",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-green-bay-vv17jz_fgkshdkie",
@@ -1130,7 +1132,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-green-bay-lambeau-field-5-4-2027--concerts-country-and-folk/production/7706945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-green-bay-wisconsin-05-04-2027/event/0700654CDB0C6B27",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1192,7 +1194,9 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-green-bay-tickets-5-4-2027/event/107675677"
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-green-bay-tickets-5-4-2027/event/107675677",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fsxrnwp",
@@ -1210,7 +1214,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-east-rutherford-metlife-stadium-5-14-2027/production/7706905",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-14-2027/event/0000654CE2BEAC96",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1272,7 +1276,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-14-2027/event/107674278",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-east-rutherford-k7vgf_fs0cbhd",
@@ -1290,7 +1295,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-east-rutherford-metlife-stadium-5-15-2027/production/7706909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-15-2027/event/0000654CE4B7AF3B",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1352,7 +1357,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-15-2027/event/107674279",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-philadelphia-vv17fz_fgksiy1rz",
@@ -1370,7 +1376,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-philadelphia-lincoln-financial-field-5-25-2027/production/7706915",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-philadelphia-pennsylvania-05-25-2027/event/0200654CE8E4ABC0",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1432,7 +1438,9 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-philadelphia-tickets-5-25-2027/event/107674280"
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-philadelphia-tickets-5-25-2027/event/107674280",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-atlanta-vvg1zz_fwy55os",
@@ -1450,7 +1458,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-atlanta-mercedes-benz-stadium-5-29-2027/production/7706911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-atlanta-georgia-05-29-2027/event/0E00654CB92CB473",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1512,7 +1520,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-atlanta-tickets-5-29-2027/event/107674281",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-orchard-park-vv17gz_fgksis3fj",
@@ -1530,7 +1540,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-orchard-park-highmark-stadium-6-2-2027--concerts-country-and-folk/production/7706949",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-orchard-park-new-york-06-02-2027/event/0300654CE8C52226",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1592,7 +1602,9 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-orchard-park-tickets-6-2-2027/event/107674282"
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-orchard-park-tickets-6-2-2027/event/107674282",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-las-vegas-1avjz_fgkwbrzg6",
@@ -1610,7 +1622,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-las-vegas-allegiant-stadium-7-16-2027--concerts-country-and-folk/production/7706953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-las-vegas-nevada-07-16-2027/event/1700654C987B8307",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1672,7 +1684,8 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-las-vegas-tickets-7-16-2027/event/107674226"
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-las-vegas-tickets-7-16-2027/event/107674226",
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-inglewood-vvg1iz_frht9v6",
@@ -1690,7 +1703,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-inglewood-sofi-stadium-7-20-2027--concerts-country-and-folk/production/7706957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-inglewood-california-07-20-2027/event/0A0065479BA57D07",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1752,7 +1765,8 @@
     "organizer_names": [
       "AEG - TICKETING"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-inglewood-tickets-7-20-2027/event/107674901"
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-inglewood-tickets-7-20-2027/event/107674901",
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-seattle-vvg1hz_fytloed",
@@ -1770,7 +1784,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-seattle-lumen-field-7-24-2027/production/7706907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-seattle-washington-07-24-2027/event/0F00654C3F7D1083",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1839,7 +1853,9 @@
         "end": "2027-07-25T03:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-seattle-tickets-7-24-2027/event/107674230"
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-seattle-tickets-7-24-2027/event/107674230",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-vancouver-1av7z_fgks885w5",
@@ -1857,7 +1873,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-vancouver-bc-place-stadium-7-28-2027--concerts-country-and-folk/production/7706961",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/zach-bryan-vancouver-british-columbia-07-28-2027/event/1100654CD040BC8B",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1919,7 +1935,9 @@
     "organizer_names": [
       "AEG LIVE (CANADA)"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-tickets-vancouver-bc-place-stadium-7-28-2027/event/107675680"
+    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-tickets-vancouver-bc-place-stadium-7-28-2027/event/107675680",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-edmonton-1av7z_fgkw2fvlh",
@@ -1937,7 +1955,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/zach-bryan-edmonton-alberta-08-01-2027/event/1100654C8F234ADB",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1976,7 +1994,9 @@
     "organizer_names": [
       "AEG LIVE (CANADA)",
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-boise-g5vzz_fsbnh4h",
@@ -1994,7 +2014,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-boise-albertsons-stadium-8-6-2027--concerts-country-and-folk/production/7706959",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-boise-idaho-08-06-2027/event/1E00654CFAA9B55B",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2048,7 +2068,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322376/Zach-Bryan-tickets-Fri-Aug-6-2027-Albertsons-Stadium",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-vancouver-1k78vp4fgacgpjm",
@@ -2066,7 +2087,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-vancouver-bc-place-stadium-7-27-2027--concerts-country-and-folk/production/7746559",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/zach-bryan-vancouver-british-columbia-07-27-2027/event/110065548ED5672E",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2120,7 +2141,9 @@
     "organizer_names": [
       "AEG LIVE (CANADA)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338720"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338720",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-edmonton-16v7z_43bg7l9tm",
@@ -2138,7 +2161,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/zach-bryan-edmonton-alberta-07-31-2027/event/1100655498AD7FF7",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2177,7 +2200,9 @@
     "organizer_names": [
       "AEG LIVE (CANADA)",
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-zach-bryan-2027-minneapolis-z7r9jz1aa7kad",

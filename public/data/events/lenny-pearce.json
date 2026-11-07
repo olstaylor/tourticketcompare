@@ -132,7 +132,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-irving-pavilion-at-toyota-music-factory-11-7-2026/production/7155404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-irving-texas-11-07-2026/event/0C0064C925677A73",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -194,7 +194,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-irving-tickets-11-7-2026/event/107455569",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2026-houston-g5diz_geaxmd2",
@@ -212,7 +213,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-houston-bayou-music-center-11-8-2026/production/7155390",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-houston-texas-11-08-2026/event/3A0064C9C9FAEECF",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274,7 +275,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-houston-tickets-11-8-2026/event/107455614",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2026-orlando-17fov0g6g3w_f1c",
@@ -292,7 +295,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-orlando-hard-rock-live---orlando-11-10-2026/production/7155384",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-orlando-florida-11-10-2026/event/220064C4B26542AD",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -354,7 +357,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-orlando-tickets-11-10-2026/event/107554502",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2026-fort-lauderdale-z7r9jz1a7ppo0",
@@ -372,7 +377,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-fort-lauderdale-war-memorial-auditorium-fl-11-11-2026/production/7155811",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PpO0",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -418,7 +423,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048525"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048525",
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2026-st-petersburg-vvg1vz_gcd9hph",
@@ -436,7 +442,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-st-petersburg-florida-11-12-2026/event/0D0064C3BB5FC95B",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -490,7 +496,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048526/Lenny-Pearce-tickets-Thu-Nov-12-2026-Mahaffey-Theater-At-The-Duke-Energy-Center-for-the-Arts",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2026-atlanta-z7r9jz1a7pnza",
@@ -508,7 +516,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-atlanta-the-eastern-11-14-2026/production/7155926",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNZA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -559,7 +567,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048842",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048842/Lenny-Pearce-tickets-Sat-Nov-14-2026-The-Eastern-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048842/Lenny-Pearce-tickets-Sat-Nov-14-2026-The-Eastern-GA",
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2026-nashville-z7r9jz1a7p0bp",
@@ -577,7 +586,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-nashville-marathon-music-works-11-15-2026/production/7155600",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0bp",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -628,7 +637,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048527",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048527/Lenny-Pearce-tickets-Sun-Nov-15-2026-Marathon-Music-Works"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048527/Lenny-Pearce-tickets-Sun-Nov-15-2026-Marathon-Music-Works",
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2026-norfolk-z7r9jz1a7ptxe",
@@ -646,7 +656,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-norfolk-the-norva-11-17-2026/production/7155940",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptxe",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -697,7 +707,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048656",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048656/Lenny-Pearce-tickets-Tue-Nov-17-2026-The-Norva"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048656/Lenny-Pearce-tickets-Tue-Nov-17-2026-The-Norva",
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2026-richmond-z7r9jz1a7ptxv",
@@ -715,7 +726,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-richmond-the-national-11-18-2026/production/7155938",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ptxv",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -766,7 +777,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048843",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048843/Lenny-Pearce-tickets-Wed-Nov-18-2026-The-National-VA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048843/Lenny-Pearce-tickets-Wed-Nov-18-2026-The-National-VA",
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2026-pittsburgh-z7r9jz1a7pnqd",
@@ -784,7 +796,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-pittsburgh-stage-ae-11-19-2026/production/7155956",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNqd",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -835,7 +847,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048659",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048659/Lenny-Pearce-tickets-Thu-Nov-19-2026-Stage-AE"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048659/Lenny-Pearce-tickets-Thu-Nov-19-2026-Stage-AE",
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2026-silver-spring-17a8v0g6gpl1zid",
@@ -853,7 +866,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-silver-spring-maryland-11-21-2026/event/150064C59F2B8B3B",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -914,7 +927,9 @@
         "start": "2026-06-19T14:00:00Z",
         "end": "2026-11-15T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2026-new-york-k7vgf_gmumtdg",
@@ -932,7 +947,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-new-york-manhattan-center-hammerstein-ballroom-11-22-2026/production/7155396",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-new-york-new-york-11-22-2026/event/000064CBB6BBF0F5",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -977,7 +992,9 @@
         "start": "2026-06-19T14:00:00Z",
         "end": "2026-11-16T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2027-auckland-17azv0g6uncrehf",
@@ -995,7 +1012,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/lennys-toddler-rave-world-tour-auckland-auckland-27-02-2027/event/240064D8CEBC26D4",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1033,7 +1050,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AUCKLAND LIVE"
-    ]
+    ],
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2027-townsville-city-1avgz_ogkn2n3_q",
@@ -1051,7 +1069,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/lennys-toddler-rave-world-tour-townsville-city-14-03-2027/event/1300651A8F8D265D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1086,7 +1104,9 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_oGkn2N3_q",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 10,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-lenny-pearce-2027-hobart-1k7yvp7_gactwpw",
@@ -1104,7 +1124,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/lennys-toddler-rave-world-tour-hobart-24-04-2027/event/130065119EA725BD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1139,6 +1159,8 @@
     },
     "ticketmaster_discovery_event_id": "1k7YvP7_GACtwpW",
     "timezone": "Australia/Hobart",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 10,
+    "genre": "Dance/Electronic"
   }
 ]

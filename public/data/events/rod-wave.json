@@ -992,7 +992,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-orlando-kia-center-11-9-2026--concerts-rap-hip-hop/production/7185781",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-orlando-florida-11-09-2026/event/220064D1D802540F",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1054,7 +1054,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/rod-wave-orlando-tickets-11-9-2026/event/107447270",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-rod-wave-2026-orlando-17fov0g6uhspnas",
@@ -1072,7 +1074,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-orlando-kia-center-11-10-2026--concerts-rap-hip-hop/production/7367259",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-orlando-florida-11-10-2026/event/220064D6F3963271",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1132,16 +1134,11 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173585",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173585/Rod-Wave-tickets-Tue-Nov-10-2026-Kia-Center",
     "stubhub_international_url": "https://www.stubhub.ie/rod-wave-orlando-tickets-11-10-2026/event/107472165",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-07-31T04:00:00Z",
-        "end": "2026-11-07T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-rod-wave-2026-sunrise-z7r9jz1a7ppag",
@@ -1319,7 +1316,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-atlanta-state-farm-arena-11-18-2026--concerts-rap-hip-hop/production/7185786",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-atlanta-georgia-11-18-2026/event/0E0064D01EE7C7F2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1388,7 +1385,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-rod-wave-2026-atlanta-vvg1zz_uqszfce",
@@ -1406,7 +1405,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-atlanta-state-farm-arena-11-19-2026/production/7367127",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-atlanta-georgia-11-19-2026/event/0E0064D6B1008B42",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1475,6 +1474,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   }
 ]

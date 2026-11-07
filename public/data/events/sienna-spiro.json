@@ -978,7 +978,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-portland-mcmenamins-crystal-ballroom-11-7-2026/production/7143026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-q3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1029,7 +1029,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8047968",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8047968/Sienna-Spiro-tickets-Sat-Nov-7-2026-McMenamins-Crystal-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8047968/Sienna-Spiro-tickets-Sat-Nov-7-2026-McMenamins-Crystal-Ballroom",
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2026-san-francisco-g5vyz_gkw-ewe",
@@ -1047,7 +1048,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-san-francisco-castro-theatre-11-9-2026/production/7139535",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-san-francisco-california-11-09-2026/event/1C0064C4FD867F42",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1093,7 +1094,9 @@
     "organizer_names": [
       "ANOTHER PLANET"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038343"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038343",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2026-los-angeles-vvg10z_gpwxv_j",
@@ -1111,7 +1114,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-the-wiltern-11-10-2026/production/7139420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-10-2026/event/090064C5BDF81666",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1173,7 +1176,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-los-angeles-tickets-11-10-2026/event/107259056"
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-los-angeles-tickets-11-10-2026/event/107259056",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2026-los-angeles-vvg10z_udz2l-k",
@@ -1191,7 +1196,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-orpheum-theatre---los-angeles-11-12-2026--concerts-pop/production/7175301",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-los-angeles-california-11-12-2026/event/090064D0C03EB846",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1246,7 +1251,8 @@
     "organizer_names": [
       "GOLDENVOICE (AEG)",
       "WME AGENCY"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-west-melbourne-177yv0g6gecffyz",
@@ -1264,7 +1270,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/sienna-spiro-my-house-tour-west-melbourne-19-01-2027/event/130064C9CE214C00",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1299,7 +1305,9 @@
     },
     "ticketmaster_discovery_event_id": "177Yv0G6GECFfYZ",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-west-melbourne-177yv0g6gmjpde2",
@@ -1317,7 +1325,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/sienna-spiro-my-house-tour-west-melbourne-20-01-2027/event/130064CBA65839CF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1352,7 +1360,9 @@
     },
     "ticketmaster_discovery_event_id": "177Yv0G6GmJpdE2",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-brisbane-177yv0g6gjxxnip",
@@ -1370,7 +1380,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/sienna-spiro-my-house-tour-brisbane-25-01-2027/event/130064C9BEFA3A25",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1408,7 +1418,9 @@
     "status": "on-sale",
     "organizer_names": [
       "FRONTIER TOURING COMPANY"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-edinburgh-g5dzz_g3xlvct",
@@ -1426,7 +1438,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-2-22-2027--concerts-pop/production/7166302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-edinburgh-22-02-2027/event/3E0064C4A2AF43A9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1489,7 +1501,9 @@
     "organizer_names": [
       "DF CONCERTS",
       "AMG - EDINBURGH CORN EXCHANGE"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-edinburgh-g5dzz_g3jtvqc",
@@ -1507,7 +1521,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-edinburgh-23-02-2027/event/3E0064C4A6FF476D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1570,7 +1584,9 @@
     "organizer_names": [
       "DF CONCERTS",
       "AMG - EDINBURGH CORN EXCHANGE"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-manchester-17uov0g6ghevqqt",
@@ -1588,7 +1604,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-manchester-o2-apollo-manchester-3-1-2027--concerts-pop/production/7146243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-01-03-2027/event/360064C6E7D1D769",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1653,7 +1669,9 @@
       "LIVE NATION MUSIC (VENUES) LTD (NEW)",
       "SJM LIMITED (NEW)",
       "UNIVERSAL MUSIC ON BEHALF OF SIENNA SPIRO"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-manchester-17uov0g6gnyji_e",
@@ -1671,7 +1689,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-manchester-o2-apollo-manchester-3-2-2027--concerts-pop/production/7175309",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sienna-spiro-my-house-tour-manchester-02-03-2027/event/360064C8F09AC667",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1736,7 +1754,9 @@
       "LIVE NATION MUSIC (VENUES) LTD (NEW)",
       "SJM LIMITED (NEW)",
       "UNIVERSAL MUSIC ON BEHALF OF SIENNA SPIRO"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-forest-brussels-z698xzg2z1kk3-m-y",
@@ -1754,8 +1774,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/sienna-spiro-my-house-tour-tickets/192877870",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "192877870",
@@ -1792,7 +1812,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sienna-spiro-2027-berlin-z698xzc2z16v0n7t_u",
@@ -1810,8 +1831,8 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-berlin-tempodrom-3-24-2027/production/7168401",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sienna-spiro-my-house-tour-tickets/1923129676?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1923129676",
@@ -1872,7 +1893,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-tickets-berlin-tempodrom-24-3-2027/event/107447255",
     "organizer_names": [
       "Trinity Music GmbH"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-milano-zg9rmiynyzef6a",
@@ -1890,7 +1912,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/sienna-spiro-my-house-tour-milano-27-03-2027/event/3podtgphpz4m",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1925,7 +1947,8 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZeF6a",
     "timezone": "Europe/Rome",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-barcelona-z698xz2qz16evg76uk",
@@ -1943,8 +1966,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/sienna-spiro-my-house-tour-tickets/2075107353?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2075107353",
@@ -2005,7 +2028,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-tickets-barcelona-sala-paral-lel-62-29-3-2027/event/107356077",
     "organizer_names": [
       "Live Nation España S.A.U."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sienna-spiro-2027-madrid-z698xz2qz16v4sjdu3",
@@ -2023,8 +2047,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/sienna-spiro-my-house-tour-tickets/1571703352?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1571703352",
@@ -2085,7 +2109,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-tickets-madrid-la-riviera-30-3-2027/event/107356078",
     "organizer_names": [
       "Live Nation España S.A.U."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sienna-spiro-2027-dublin-17kzv0g6gpq41un",
@@ -2103,7 +2128,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/sienna-spiro-dublin-15-06-2027/event/180064C59D54A36A",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2141,7 +2166,8 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2026-salt-lake-city-z7r9jz1aaef49",
@@ -2212,7 +2238,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/sienna-spiro-my-house-tour-auckland-27-01-2027/event/240064C8EB033111",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2250,7 +2276,9 @@
     "status": "on-sale",
     "organizer_names": [
       "AUCKLAND LIVE"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-austin-g5diz_47ytekn",
@@ -2268,7 +2296,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-austin-moody-amphitheater-8-5-2027--concerts-pop/production/7726788",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-austin-texas-08-05-2027/event/3A00655130FE71AA",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2331,7 +2359,9 @@
       "WME AGENCY"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332299",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-austin-tickets-8-5-2027/event/107678123"
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-austin-tickets-8-5-2027/event/107678123",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-washington-1avfz_fgksa-bdm",
@@ -2349,7 +2379,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-washington-dc-the-anthem-8-12-2027--concerts-pop/production/7726796",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-washington-district-of-columbia-08-12-2027/event/1500654CC5858EF7",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2408,7 +2438,9 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332313/Sienna-Spiro-tickets-Thu-Aug-12-2027-The-Anthem-DC",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332313",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-washington-tickets-8-12-2027/event/107678109"
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-washington-tickets-8-12-2027/event/107678109",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-philadelphia-vv17fz_fgkuhzdr4",
@@ -2426,7 +2458,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-philadelphia-pennsylvania-08-14-2027/event/0200654DBCE3BBD5",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2480,7 +2512,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332317"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332317",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-boston-vv177z_fgkd_e0km",
@@ -2498,7 +2532,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-boston-mgm-music-hall-at-fenway-8-15-2027--concerts-pop/production/7726800",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-boston-massachusetts-08-15-2027/event/0100654ED90A44F7",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2560,7 +2594,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332320",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-boston-tickets-8-15-2027/event/107675899"
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-boston-tickets-8-15-2027/event/107675899",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-new-york-g5dyz_46da3nv",
@@ -2578,7 +2614,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-17-2027--concerts-pop/production/7726802",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-17-2027/event/3C006551FB1528C1",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2657,7 +2693,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332325",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-new-york-tickets-8-17-2027/event/107678122"
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-new-york-tickets-8-17-2027/event/107678122",
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-detroit-vv1afzk48gkebo40x",
@@ -2675,7 +2712,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-detroit-fox-theatre-detroit-8-23-2027--concerts-pop/production/7726810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-detroit-michigan-08-23-2027/event/08006550BA81593E",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2737,7 +2774,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332344",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-detroit-tickets-8-23-2027/event/107678127"
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-detroit-tickets-8-23-2027/event/107678127",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlgu6j",
@@ -2755,7 +2794,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-25-2027/event/0700654FAB3361DC",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2821,7 +2860,9 @@
         "end": "2027-08-26T01:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332347"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332347",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlcj6o",
@@ -2839,7 +2880,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-chicago-illinois-08-26-2027/event/0700654FAB3A61E0",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2905,7 +2946,9 @@
         "end": "2027-08-27T01:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332348"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332348",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-minneapolis-vv17bz_fgktexhi7",
@@ -2923,7 +2966,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-armory---minneapolis-8-28-2027--concerts-pop/production/7726818",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-minneapolis-minnesota-08-28-2027/event/0600654FC2FBCB04",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2985,7 +3028,9 @@
       "FIRST AVENUE"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332354",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-minneapolis-tickets-8-28-2027/event/107678113"
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-minneapolis-tickets-8-28-2027/event/107678113",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-seattle-vvg1hz_4ediyof",
@@ -3003,7 +3048,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-seattle-wamu-theater---seattle-9-2-2027--concerts-pop/production/7726822",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-seattle-washington-09-02-2027/event/0F006550BBB39814",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3065,7 +3110,9 @@
       "AEG LIVE"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332362",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-seattle-tickets-9-2-2027/event/107678118"
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-seattle-tickets-9-2-2027/event/107678118",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-vancouver-1av7z_fgkxqzaez",
@@ -3083,7 +3130,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-9-4-2027--concerts-pop/production/7726824",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sienna-spiro-my-house-tour-extended-vancouver-british-columbia-09-04-2027/event/1100654F9A0099F8",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3138,7 +3185,9 @@
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332368"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332368",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-berkeley-g5vyz_fbwbrn7",
@@ -3156,7 +3205,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-berkeley-greek-theatre---berkeley-9-7-2027--concerts-pop/production/7726828",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-berkeley-california-09-07-2027/event/1C00654EBD61E8C4",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3210,7 +3259,9 @@
     "organizer_names": [
       "ANOTHER PLANET"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332372"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332372",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-mexico-1afzk4ogkeyuq9e",
@@ -3228,7 +3279,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/sienna-spiro-mexico-14-09-2027/event/14006551B935A5C2",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3274,7 +3325,8 @@
     "organizer_names": [
       "OCESA"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-tickets-mexico-city-pepsi-center-wtc-14-9-2027/event/107675741"
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-tickets-mexico-city-pepsi-center-wtc-14-9-2027/event/107675741",
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd",
@@ -3292,7 +3344,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-18-2027/production/7729242",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-18-2027/event/3C006551FB1F28C3",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3371,7 +3423,8 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333456/Sienna-Spiro-tickets-Wed-Aug-18-2027-Radio-City-Music-Hall",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333456",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-new-york-tickets-8-18-2027/event/107675974"
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-new-york-tickets-8-18-2027/event/107675974",
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-morrison-z7r9jz1aa7-1d",
@@ -3389,7 +3442,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-morrison-red-rocks-amphitheatre-8-30-2027--concerts-pop/production/7726820",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1d",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3440,7 +3493,8 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332358",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332358/Sienna-Spiro-tickets-Mon-Aug-30-2027-Red-Rocks-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332358/Sienna-Spiro-tickets-Mon-Aug-30-2027-Red-Rocks-Amphitheatre",
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-nashville-z7r9jz1aa7bjy",
@@ -3458,7 +3512,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-nashville-grand-ole-opry-house-8-8-2027--concerts-pop/production/7726792",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7bjy",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3517,7 +3571,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332305",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332305/Sienna-Spiro-tickets-Sun-Aug-8-2027-Grand-Ole-Opry-House",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-nashville-tickets-8-8-2027/event/107675966"
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-nashville-tickets-8-8-2027/event/107675966",
+    "genre": "Pop"
   },
   {
     "id": "tm-sienna-spiro-2027-atlanta-z7r9jz1aa7oab",
@@ -3535,7 +3590,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-atlanta-fox-theatre---atlanta-8-10-2027--concerts-pop/production/7726794",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Oab",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3586,6 +3641,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332309",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332309/Sienna-Spiro-tickets-Tue-Aug-10-2027-Fabulous-Fox-Theatre-Atlanta"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332309/Sienna-Spiro-tickets-Tue-Aug-10-2027-Fabulous-Fox-Theatre-Atlanta",
+    "genre": "Pop"
   }
 ]

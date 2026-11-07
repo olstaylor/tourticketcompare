@@ -493,7 +493,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-manchester-co-op-live-11-8-2026--concerts-adult-contemporary/production/7530345",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-manchester-08-11-2026/event/3700651AD8C07B99",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -555,7 +555,9 @@
     "organizer_names": [
       "LNM - VIP NATION UK"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252674"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252674",
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-stevie-wonder-2026-glasgow-1adbz_ogkw2mz1l",
@@ -573,7 +575,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-glasgow-ovo-hydro-11-11-2026--concerts-adult-contemporary/production/7530347",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/stevie-wonder-songs-in-the-key-glasgow-11-11-2026/event/3600651C8FBB82AB",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -636,7 +638,9 @@
       "LIVE NATION MUSIC UK LTD",
       "SCOTTISH EVENT CAMPUS LIMITED"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252675"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252675",
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-stevie-wonder-2026-new-york-g5diz_gpossvv",
@@ -654,7 +658,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-new-york-madison-square-garden-11-19-2026--concerts-adult-contemporary/production/7530311",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-new-york-new-york-11-19-2026/event/3B0064C5A0CF3D01",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -723,7 +727,8 @@
         "end": "2026-11-20T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252655"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252655",
+    "genre": "R&B"
   },
   {
     "id": "tm-stevie-wonder-2026-chicago-vv1a7zkfngkd8ke_p",
@@ -741,7 +746,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-chicago-united-center-11-21-2026--concerts-adult-contemporary/production/7530315",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-chicago-illinois-11-21-2026/event/04006523D04E7665",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -803,7 +808,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252656"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252656",
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-stevie-wonder-2026-washington-1a4zkfxgkdptcca",
@@ -821,7 +828,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-washington-capital-one-arena-11-23-2026--concerts-adult-contemporary/production/7530316",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-washington-district-of-columbia-11-23-2026/event/15006522E5FCE389",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -883,7 +890,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252657"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252657",
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-stevie-wonder-2026-detroit-vv1kezvpa-gaukuph",
@@ -901,7 +910,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-detroit-fox-theatre-detroit-12-8-2026--concerts-adult-contemporary/production/7530317",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-08-2026/event/080065261D18D5BC",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -963,7 +972,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252658"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252658",
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-stevie-wonder-2026-detroit-vv1koz_3bxg7sqna",
@@ -981,7 +992,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-detroit-fox-theatre-detroit-12-9-2026--concerts-adult-contemporary/production/7530319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-09-2026/event/0800652622C5DA85",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1043,7 +1054,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252659"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252659",
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-stevie-wonder-2026-inglewood-vv1aazkf0onvvzeug",
@@ -1061,7 +1074,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-inglewood-intuit-dome-12-19-2026--concerts-adult-contemporary/production/7530323",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-inglewood-california-12-19-2026/event/09006524823041CB",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1123,6 +1136,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252660"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252660",
+    "ticket_limit": 6,
+    "genre": "R&B"
   }
 ]

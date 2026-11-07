@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-11-2026/production/7349331",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-11-2026/event/170064F4CBE0D992",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -68,7 +68,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165327",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lionel-richie-2026-las-vegas-17ayv0g62k5zcj9",
@@ -86,7 +87,7 @@
     "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-13-2026/production/7349329",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-13-2026/event/170064F4CBE2D997",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -139,7 +140,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165328",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lionel-richie-2026-las-vegas-17ayv0g62k5yqjh",
@@ -157,7 +159,7 @@
     "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-14-2026/production/7349335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-14-2026/event/170064F4CBE5D99B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -210,7 +212,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165329",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lionel-richie-2027-las-vegas-17ayv0g62k5uqjk",
@@ -228,7 +231,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-01-08-2027/event/170064F4CBD9D986",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -275,7 +278,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165325",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lionel-richie-2027-las-vegas-17ayv0g62k5muj2",
@@ -293,7 +297,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-01-09-2027/event/170064F4CBDCD98F",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -340,7 +344,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165326",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-lionel-richie-2027-thackerville-z7r9jz1aav_-z",
@@ -358,7 +363,7 @@
     "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-thackerville-lucas-oil-live-at-winstar-world-casino-1-30-2027/production/7474309",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv_-z",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -409,6 +414,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237289/Lionel-Richie-tickets-Sat-Jan-30-2027-Lucas-Oil-Live-At-WinStar-Casino",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237289"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237289",
+    "genre": "R&B"
   }
 ]

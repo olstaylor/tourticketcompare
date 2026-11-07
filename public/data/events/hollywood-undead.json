@@ -15,8 +15,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/hollywood-undead-tickets/1394575367?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1394575367",
@@ -53,7 +53,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Fource Entertainment s.r.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-hollywood-undead-2027-warsaw-z698xzqpz1kf0av8y",
@@ -71,8 +72,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/hollywood-undead-eu-uk-2027-tickets/224274430?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "224274430",
@@ -109,7 +110,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation sp. z o.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-hollywood-undead-2027-johanneshov-z698xzq2z1kgnffx_",
@@ -127,8 +129,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/hollywood-undead-eu-uk-2027-tickets/323208899?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "323208899",
@@ -165,7 +167,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation Sweden AB"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-hollywood-undead-2027-goteborg-z698xzq2z1k_fbiog",
@@ -183,8 +186,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/hollywood-undead-eu-uk-2027-tickets/654628475?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "654628475",
@@ -221,7 +224,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation Sweden AB"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-hollywood-undead-2027-k-benhavn-v-z698xzc4z1k_44ijf",
@@ -239,8 +243,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.dk/event/hollywood-undead-eu-uk-2027-tickets/655568994?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "655568994",
@@ -277,7 +281,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation / Vega"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-hollywood-undead-2027-birmingham-g5dzz_k9em7do",
@@ -295,7 +300,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-birmingham-23-02-2027/event/3E006535C2B84ED1",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -343,7 +348,9 @@
       "LIVE NATION MUSIC UK LTD",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)",
       "ACADEMY EVENTS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-hollywood-undead-2027-london-g5dzz_kxga-ng",
@@ -361,7 +368,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hollywood-undead-london-24-02-2027/event/3E0065388C2618CC",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -409,7 +416,9 @@
       "LIVE NATION MUSIC UK LTD",
       "ACADEMY MUSIC GROUP (O2 FORUM KENTISH TOWN)",
       "ACADEMY EVENTS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-hollywood-undead-2027-manchester-g5vhz_kjdvnwu",
@@ -427,7 +436,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-manchester-26-02-2027/event/1F0065373B06AC8D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -470,7 +479,9 @@
     "ticketmaster_discovery_event_id": "G5vHZ_KjDvnwu",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/hollywood-undead-tickets-manchester-manchester-academy-26-2-2027/event/107673130"
+    "stubhub_international_url": "https://www.stubhub.ie/hollywood-undead-tickets-manchester-manchester-academy-26-2-2027/event/107673130",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-hollywood-undead-2027-glasgow-g5dzz_kpssdt2",
@@ -488,7 +499,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-glasgow-27-02-2027/event/3E006535B1C43FCF",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -536,7 +547,9 @@
       "LIVE NATION MUSIC UK LTD",
       "ACADEMY MUSIC GROUP (O2 ACADEMY GLASGOW)",
       "ACADEMY EVENTS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-hollywood-undead-2027-leeds-g5dzz_krmlxyq",
@@ -554,7 +567,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hollywood-undead-euuk-2027-leeds-28-02-2027/event/3E006537AE7E2E5A",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,6 +615,8 @@
       "LIVE NATION MUSIC UK LTD",
       "ACADEMY MUSIC GROUP (O2 ACADEMY LEEDS)",
       "ACADEMY EVENTS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   }
 ]

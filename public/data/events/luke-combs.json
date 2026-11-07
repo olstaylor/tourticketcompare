@@ -92,7 +92,7 @@
     "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-detroit-ford-field-4-17-2027--concerts-country-and-folk/production/7429035",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-detroit-michigan-04-17-2027/event/08006507B172631F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -154,7 +154,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/luke-combs-detroit-tickets-4-17-2027/event/107482403",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-luke-combs-2027-philadelphia-vv17fz_8gklpk2ll",
@@ -172,7 +173,7 @@
     "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-philadelphia-lincoln-financial-field-4-24-2027--concerts-country-and-folk/production/7429037",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-philadelphia-pennsylvania-04-24-2027/event/0200650AD64CFAEB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -234,7 +235,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/luke-combs-philadelphia-tickets-4-24-2027/event/107495114",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-luke-combs-2027-foxborough-vv177z_8gkinn93w",
@@ -252,7 +254,7 @@
     "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-foxborough-gillette-stadium-5-1-2027--concerts-country-and-folk/production/7429039",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-foxborough-massachusetts-05-01-2027/event/0100650A23A974B2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -314,7 +316,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/luke-combs-foxborough-tickets-5-1-2027/event/107495115",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-luke-combs-2027-pittsburgh-1avbz_8gkd1oiqd",
@@ -332,7 +335,7 @@
     "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-pittsburgh-acrisure-stadium-5-8-2027--concerts-country-and-folk/production/7429041",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-pittsburgh-pennsylvania-05-08-2027/event/1600650ECA46C743",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395,7 +398,8 @@
     "organizer_names": [
       "AEG - TICKETING",
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-luke-combs-2027-kansas-city-vv1akzkf6gkesjbxu",
@@ -413,7 +417,7 @@
     "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-kansas-city-arrowhead-stadium-5-15-2027--concerts-country-and-folk/production/7429043",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-kansas-city-missouri-05-15-2027/event/06006507B373A88D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -467,7 +471,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203731/Luke-Combs-tickets-Sat-May-15-2027-Arrowhead-Stadium",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-luke-combs-2027-edmonton-1av7z_8gkw3oea5",
@@ -485,7 +490,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/luke-combs-my-kinda-saturday-night-edmonton-alberta-05-29-2027/event/1100650C9282714B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -526,7 +531,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-luke-combs-2027-vancouver-1av7z_8gkwig5fh",
@@ -544,7 +551,7 @@
     "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-vancouver-bc-place-stadium-6-5-2027--concerts-country-and-folk/production/7429051",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/luke-combs-my-kinda-saturday-night-vancouver-british-columbia-06-05-2027/event/1100650CACD4B21B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -609,7 +616,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-luke-combs-2027-boise-g5vzz_8lfjx4v",
@@ -627,7 +636,7 @@
     "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-boise-albertsons-stadium-6-12-2027--concerts-country-and-folk/production/7429053",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-boise-idaho-06-12-2027/event/1E00650AC873E574",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -681,7 +690,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203732/Luke-Combs-tickets-Sat-Jun-12-2027-Albertsons-Stadium",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-luke-combs-2027-denver-g5vzz_8l39sxz",
@@ -699,7 +709,7 @@
     "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-denver-empower-field-at-mile-high-6-19-2027--concerts-country-and-folk/production/7429055",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-denver-colorado-06-19-2027/event/1E00650AD25F18B8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -761,7 +771,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/luke-combs-denver-tickets-6-19-2027/event/107495118",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-luke-combs-2027-san-diego-vvg1iz_8l9y-6a",
@@ -779,7 +790,7 @@
     "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-san-diego-petco-park-6-26-2027--concerts-country-and-folk/production/7429059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-san-diego-california-06-26-2027/event/0A00650AD7C211C9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -841,7 +852,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/luke-combs-san-diego-tickets-6-26-2027/event/107495119",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-luke-combs-2027-minneapolis-z7r9jz1aazgx6",

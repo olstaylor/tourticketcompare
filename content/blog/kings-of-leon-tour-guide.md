@@ -4,7 +4,7 @@ seo_title: "Kings Of Leon tour dates and prices"
 description: "Listed prices captured for Kings Of Leon in London and Scarborough, plus verified dates in Auckland, Bowen Hills, Flemington and Dublin."
 summary: "Captured on 2026-11-07, StubHub International and Vivid Seats listed lowest prices for Kings Of Leon at The O2 in London and Scarborough Open Air Theatre. The four other verified dates have no captured prices. Compare your exact date before paying."
 date: 2026-11-07
-status: draft
+status: published
 tags: [tour-buying]
 related_artists: [kings-of-leon]
 related_guides: [how-to-read-a-ticket-listing, primary-vs-resale-concert-tickets, ticket-delivery-and-transfer-timing]
@@ -23,7 +23,7 @@ sources:
     url: "https://www.ticketmaster.co.uk/kings-of-leon-london-02-07-2027/event/35006542B306A287"
 ---
 
-TourTicketCompare captured listed prices for two Kings Of Leon dates on 2026-11-07. For [The O2 in London on 2027-07-02](https://www.ticketmaster.co.uk/kings-of-leon-london-02-07-2027/event/35006542B306A287), StubHub International listed USD 144 and Vivid Seats listed USD 147. For [Scarborough Open Air Theatre on 2027-06-27](https://www.ticketmaster.co.uk/kings-of-leon-scarborough-27-06-2027/event/35006554A4B027DF), StubHub International listed USD 227 and Vivid Seats listed USD 273. The site's data has no 30-day history for these listings yet, so it cannot show what has moved.
+TourTicketCompare captured listed prices for two Kings Of Leon dates on 2026-11-07. For [The O2 in London on 2027-07-02](https://www.ticketmaster.co.uk/kings-of-leon-london-02-07-2027/event/35006542B306A287), StubHub International listed USD 144 and Vivid Seats listed USD 147. For [Scarborough Open Air Theatre on 2027-06-27](https://www.ticketmaster.co.uk/kings-of-leon-scarborough-27-06-2027/event/35006554A4B027DF), StubHub International listed USD 227 and Vivid Seats listed USD 290. The site's data has no 30-day history for these listings yet, so it cannot show what has moved.
 
 Each figure is one site's lowest listed price for that date when it was captured. It is not a checkout total. Fees, delivery and the final amount are set by the ticket site, so confirm them there before you pay. The two sites are separate listings, so read each figure on its own.
 
@@ -36,7 +36,7 @@ All figures were captured on 2026-11-07.
 | London | [The O2, 2027-07-02](https://www.ticketmaster.co.uk/kings-of-leon-london-02-07-2027/event/35006542B306A287) | StubHub International | USD 144 |
 | London | [The O2, 2027-07-02](https://www.ticketmaster.co.uk/kings-of-leon-london-02-07-2027/event/35006542B306A287) | Vivid Seats | USD 147 |
 | Scarborough | [Scarborough Open Air Theatre, 2027-06-27](https://www.ticketmaster.co.uk/kings-of-leon-scarborough-27-06-2027/event/35006554A4B027DF) | StubHub International | USD 227 |
-| Scarborough | [Scarborough Open Air Theatre, 2027-06-27](https://www.ticketmaster.co.uk/kings-of-leon-scarborough-27-06-2027/event/35006554A4B027DF) | Vivid Seats | USD 273 |
+| Scarborough | [Scarborough Open Air Theatre, 2027-06-27](https://www.ticketmaster.co.uk/kings-of-leon-scarborough-27-06-2027/event/35006554A4B027DF) | Vivid Seats | USD 290 |
 
 The site's data flags none of these four listings as unusually low.
 

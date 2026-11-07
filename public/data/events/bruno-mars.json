@@ -3756,7 +3756,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-13-02-2027/event/25006518EA3F49F3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3810,7 +3810,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245500/Bruno-Mars-tickets-Sat-Feb-13-2027-Optus-Stadium",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-burswood-1aefz_ogklrp4vu",
@@ -3828,7 +3830,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-14-02-2027/event/2500651ADE595D36",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3866,7 +3868,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-docklands-1aefz_o37vvzdckk",
@@ -3884,7 +3888,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-19-02-2027/event/2500651484041D55",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3930,7 +3934,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-19-2-2027/event/107666002",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-docklands-1aefz_ogknww0xk",
@@ -3948,7 +3954,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-20-02-2027/event/2500651ABDF64886",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3994,7 +4000,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-20-2-2027/event/107666003",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-docklands-1aefz_ogknwx7x5",
@@ -4012,7 +4020,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-23-02-2027/event/2500651ABDF8488B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4058,7 +4066,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-23-2-2027/event/107666004",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-docklands-1aefz_ogknwx0x2",
@@ -4076,7 +4086,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-24-02-2027/event/2500651ABDFA488F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4122,7 +4132,9 @@
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-24-2-2027/event/107667338"
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-24-2-2027/event/107667338",
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-milton-1akzkf3gkdacg5v",
@@ -4140,7 +4152,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-28-02-2027/event/13006512C5B752F4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4178,7 +4190,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-milton-1avgz_ogklamkhm",
@@ -4196,7 +4210,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-01-03-2027/event/1300651AC9B86F2E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4234,7 +4248,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_o3ezszduv6",
@@ -4252,7 +4268,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-04-03-2027/event/2500651482031C06",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4306,7 +4322,9 @@
     "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknavvld",
@@ -4324,7 +4342,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-05-03-2027/event/2500651A89041AC3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4378,7 +4396,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264032/Bruno-Mars-tickets-Fri-Mar-5-2027-Accor-Stadium",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxvi7",
@@ -4396,7 +4416,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-08-03-2027/event/2500651A89881B04",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4450,7 +4470,9 @@
     "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxoik",
@@ -4468,7 +4490,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-09-03-2027/event/2500651A89891B06",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4522,7 +4544,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264033/Bruno-Mars-tickets-Tue-Mar-9-2027-Accor-Stadium",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkesyi9m",
@@ -4540,7 +4564,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-03-12-2026/event/14006453B3E6C5F7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4602,7 +4626,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-3-12-2026/event/107129518",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfcxu",
@@ -4620,7 +4645,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-04-12-2026/event/14006453BC22D8B6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4682,7 +4707,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-4-12-2026/event/107133105",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxy",
@@ -4700,7 +4726,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-07-12-2026/event/14006453BC23D8B9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4762,7 +4788,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-7-12-2026/event/107133106",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxd",
@@ -4780,7 +4807,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-08-12-2026/event/14006453BC23D8BB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4842,7 +4869,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-8-12-2026/event/107133107",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehaqnd",
@@ -4860,7 +4888,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-11-12-2026/event/14006453BC25D8C3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4922,7 +4950,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-11-12-2026/event/107554343",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1a0zkfkgkeslw-y",
@@ -4940,7 +4969,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/bruno-mars-the-romantic-tour-auckland-13-03-2027/event/24006513B1AF2879",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5002,7 +5031,9 @@
       "LIVE NATION AUSTRALIA"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244830",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-13-3-2027/event/107667645"
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-13-3-2027/event/107667645",
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1ae8z_ogkiuunsj",
@@ -5020,7 +5051,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/bruno-mars-the-romantic-tour-auckland-14-03-2027/event/2400651B0D363CE6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5082,7 +5113,9 @@
       "LIVE NATION AUSTRALIA"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244848",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-14-3-2027/event/107666025"
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-14-3-2027/event/107666025",
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1ae8z_ogksqr0wn",
@@ -5100,7 +5133,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/bruno-mars-the-romantic-tour-auckland-16-03-2027/event/2400651CDA7A4CA3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5146,6 +5179,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-16-3-2027/event/107666026",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   }
 ]

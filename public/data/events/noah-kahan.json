@@ -177,7 +177,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-manchester-ao-arena-11-9-2026--concerts-pop/production/6888793",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-09-11-2026/event/1F0064C8AC7C60CB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241,7 +241,9 @@
       "COMMUNION ONE LTD",
       "ASM T-A AO ARENA",
       "UNIVERSAL MUSIC ON BEHALF OF NOAH KAHAN"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2026-manchester-g5vhz_gxiljdj",
@@ -259,7 +261,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-manchester-ao-arena-11-10-2026--concerts-pop/production/6888795",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-10-11-2026/event/1F0064C8AC7E60E6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -323,7 +325,9 @@
       "COMMUNION ONE LTD",
       "ASM T-A AO ARENA",
       "UNIVERSAL MUSIC ON BEHALF OF NOAH KAHAN"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2026-london-1ku8v0x_gag10y_",
@@ -341,7 +345,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-london-the-o2---london-11-13-2026--concerts-pop/production/6888807",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-13-11-2026/event/350064899C2A4C19",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -388,7 +392,9 @@
     "organizer_names": [
       "COMMUNION ONE LTD",
       "UNIVERSAL MUSIC ON BEHALF OF NOAH KAHAN"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2026-london-1ku8v0x_gag57yq",
@@ -406,7 +412,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-london-the-o2---london-11-14-2026--concerts-pop/production/6888809",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-14-11-2026/event/350064899C2C4C1D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453,7 +459,9 @@
     "organizer_names": [
       "COMMUNION ONE LTD",
       "UNIVERSAL MUSIC ON BEHALF OF NOAH KAHAN"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2026-dublin-1avoz_fgkn52bxo",
@@ -471,7 +479,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-19-11-2026/event/1800648A8B3FA8A0",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -526,7 +534,8 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2026-dublin-1kkzv0x9ga2yvxh",
@@ -544,7 +553,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-21-11-2026/event/180064897FC34F9B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -599,7 +608,8 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2026-dublin-1abzk3agkdihdnu",
@@ -617,7 +627,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-22-11-2026/event/18006489ECF3B8F6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -672,7 +682,8 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2026-munich-z698xzc2z1k3fveos",
@@ -690,8 +701,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/noah-kahan-the-great-divide-tour-tickets/488042471?language=en-us",
-    "last_verified_at": "2026-10-24",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "488042471",
@@ -752,7 +763,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877198",
     "organizer_names": [
       "Live Nation GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-glasgow-1adbz_8gkufqoce",
@@ -770,7 +782,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-glasgow-13-07-2027/event/3600650D94751B67",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -810,7 +822,9 @@
       "SCOTTISH EVENT CAMPUS LTD (NEW)",
       "DF CONCERTS LIMITED",
       "UNIVERSAL MUSIC ON BEHALF OF NOAH KAHAN"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-dublin-1abzkffgkeyrrov",
@@ -828,7 +842,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-17-07-2027/event/18006514B0BDE441",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -867,7 +881,8 @@
     "organizer_names": [
       "MCD PRODUCTIONS",
       "UNIVERSAL MUSIC ON BEHALF OF NOAH KAHAN"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-dublin-1abzkfbgkd7h5py",
@@ -885,7 +900,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-18-07-2027/event/18006518C46CB979",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -924,7 +939,8 @@
     "organizer_names": [
       "MCD PRODUCTIONS",
       "UNIVERSAL MUSIC ON BEHALF OF NOAH KAHAN"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-london-1anzkf3gkd7-b4s",
@@ -942,7 +958,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-london-wembley-stadium-7-23-2027--concerts-pop/production/7461173",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-23-07-2027/event/23006512C487A573",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1005,7 +1021,9 @@
     "organizer_names": [
       "COMMUNION ONE LTD",
       "UNIVERSAL MUSIC ON BEHALF OF NOAH KAHAN"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-london-1anzkf4gkexwogg",
@@ -1023,7 +1041,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-london-wembley-stadium-7-24-2027/production/7464529",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-24-07-2027/event/23006515BECA0D4C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1086,7 +1104,9 @@
     "organizer_names": [
       "COMMUNION ONE LTD",
       "UNIVERSAL MUSIC ON BEHALF OF NOAH KAHAN"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-london-1anzkf4gkddlzu_",
@@ -1104,7 +1124,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-london-wembley-stadium-7-25-2027--concerts-pop/production/7506432",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-25-07-2027/event/23006515C37C0D99",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1167,7 +1187,9 @@
     "organizer_names": [
       "COMMUNION ONE LTD",
       "UNIVERSAL MUSIC ON BEHALF OF NOAH KAHAN"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-birmingham-1aezz_4gkwloexg",
@@ -1185,7 +1207,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-birmingham-protective-stadium-4-27-2027--concerts-pop/production/7773108",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-birmingham-alabama-04-27-2027/event/2000655CAB442FB5",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1248,11 +1270,28 @@
         "end": "2026-11-11T05:59:00Z"
       },
       {
+        "name": "Artist Presale VIP Packages",
+        "start": "2026-11-10T18:00:00Z",
+        "end": "2026-11-11T05:59:00Z"
+      },
+      {
         "name": "Reserved by Spotify",
         "start": "2026-11-11T15:00:00Z",
         "end": "2026-11-12T15:00:00Z"
+      },
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2027-04-14T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2027-04-22T22:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-tampa-vvg1vz_4rlk1ty",
@@ -1270,7 +1309,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-tampa-raymond-james-stadium-4-29-2027--concerts-pop/production/7773110",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-tampa-florida-04-29-2027/event/0D00655BEB4CAA79",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1356,7 +1395,7 @@
         "end": "2026-11-12T14:00:00Z"
       },
       {
-        "name": "Mastercard Preferred Tickets",
+        "name": "Mastercard Collection Preferred Tickets",
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-04-16T02:00:00Z"
       },
@@ -1365,7 +1404,8 @@
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-04-24T21:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-charlotte-g5evz_4r3uqrt",
@@ -1383,7 +1423,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-charlotte-bank-of-america-stadium-5-6-2027--concerts-pop/production/7773114",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-charlotte-north-carolina-05-06-2027/event/2D00655BD235D7A9",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1454,6 +1494,11 @@
         "end": "2026-11-11T04:59:00Z"
       },
       {
+        "name": "Artist Presale VIP Packages",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-11T04:59:00Z"
+      },
+      {
         "name": "Reserved by Spotify",
         "start": "2026-11-11T14:00:00Z",
         "end": "2026-11-12T14:00:00Z"
@@ -1462,8 +1507,15 @@
         "name": "Mastercard Collection Preferred Tickets",
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-04-23T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2027-05-01T21:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-houston-g5diz_4wkxf3f",
@@ -1481,7 +1533,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-houston-reliant-stadium-5-12-2027--concerts-pop/production/7773118",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-houston-texas-05-12-2027/event/3A00655C86F94494",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1571,7 +1623,9 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-05-07T22:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-santa-clara-g5vyz_4rfk6c7",
@@ -1589,7 +1643,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-santa-clara-california-05-19-2027/event/1C00655BC8187B44",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1679,7 +1733,9 @@
         "start": "2026-11-12T20:00:00Z",
         "end": "2027-05-15T00:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-las-vegas-1avjz_4gkrmeou0",
@@ -1697,7 +1753,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-las-vegas-allegiant-stadium-5-21-2027--concerts-pop/production/7773130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-las-vegas-nevada-05-21-2027/event/1700655BEE9D1DA4",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1782,7 +1838,8 @@
         "start": "2026-11-12T20:00:00Z",
         "end": "2027-05-08T05:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-columbus-vv17fz_4gkshkqmo",
@@ -1800,7 +1857,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-columbus-ohio-stadium-6-5-2027--concerts-pop/production/7773179",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-columbus-ohio-06-05-2027/event/0500655CFC19DBA0",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1881,16 +1938,13 @@
         "end": "2026-11-12T14:00:00Z"
       },
       {
-        "name": "VIP Package Presale",
-        "start": "2026-11-11T14:00:00Z",
-        "end": "2026-11-12T14:00:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-05-31T21:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-detroit-vv1koz_kr3g7cdve",
@@ -1908,7 +1962,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-detroit-ford-field-6-10-2027--concerts-pop/production/7773185",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-10-2027/event/0800653792B43D27",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1989,11 +2043,17 @@
         "end": "2026-11-12T14:00:00Z"
       },
       {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2027-05-28T02:00:00Z"
+      },
+      {
         "name": "VIP Packages Onsale",
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-06-05T21:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-orchard-park-vv17gz_4gksqg3zl",
@@ -2011,7 +2071,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-orchard-park-highmark-stadium-6-12-2027--concerts-pop/production/7773189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-orchard-park-new-york-06-12-2027/event/0300655CDD312E2B",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2092,7 +2152,7 @@
         "end": "2026-11-12T14:00:00Z"
       },
       {
-        "name": "Mastercard Preferred Tickets",
+        "name": "Mastercard Collection Preferred Tickets",
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-05-30T02:00:00Z"
       },
@@ -2101,7 +2161,9 @@
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-06-07T21:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-montreal-1aszk4pgkdjhrvf",
@@ -2119,7 +2181,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-montreal-parc-jean-drapeau-6-15-2027--concerts-pop/production/7773197",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/noah-kahan-the-last-of-the-montreal-quebec-06-15-2027/event/31006556E6F1ED08",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2200,11 +2262,6 @@
         "end": "2026-11-12T14:00:00Z"
       },
       {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-11T14:00:00Z",
-        "end": "2026-11-12T14:00:00Z"
-      },
-      {
         "name": "Mastercard Collection Preferred Tickets",
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-06-02T02:00:00Z"
@@ -2215,7 +2272,9 @@
         "end": "2027-06-10T21:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-montreal-parc-jean-drapeau-6-15-2027/event/107679153"
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-montreal-parc-jean-drapeau-6-15-2027/event/107679153",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-east-rutherford-k7vgf_4me3p--",
@@ -2233,7 +2292,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-east-rutherford-metlife-stadium-6-18-2027--concerts-pop/production/7773195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-18-2027/event/0000655BA74A5861",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2316,11 +2375,6 @@
         "end": "2026-11-12T14:00:00Z"
       },
       {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-11T14:00:00Z",
-        "end": "2026-11-12T14:00:00Z"
-      },
-      {
         "name": "Mastercard Collection Preferred Tickets",
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-06-05T02:00:00Z"
@@ -2333,7 +2387,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-berlin-z698xzc2z16vgkoop-",
@@ -2351,8 +2406,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/noah-kahan-the-last-of-the-bugs-world-tour-tickets/1306451961?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1306451961",
@@ -2407,7 +2462,8 @@
         "start": "2026-11-10T11:00:00Z",
         "end": "2026-11-12T11:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-milano-zg9rmiynyzfa6d",
@@ -2425,7 +2481,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/noah-kahan-i-days-milano-2027-milano-04-07-2027/event/be8ty4t1yux2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2461,7 +2517,8 @@
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZFa6d",
     "timezone": "Europe/Rome",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z"
+    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "genre": "Rock"
   },
   {
     "id": "tm-noah-kahan-2027-sevilla-z698xz2qz16v3duzrf",
@@ -2479,7 +2536,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/noah-kahan-iconica-santalucia-sevilla-fest-tickets/1483340788?language=en-us",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2518,6 +2575,7 @@
     "public_onsale_at": "2026-11-12T11:00:00Z",
     "organizer_names": [
       "Live Nation España S.A.U."
-    ]
+    ],
+    "genre": "Rock"
   }
 ]

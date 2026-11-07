@@ -323,8 +323,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/bryan-adams-roll-with-the-punches-tickets/1355842649?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1355842649",
@@ -361,7 +361,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-brescia-zg9rmiynyzffda",
@@ -379,7 +380,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/bryan-adams-bare-bones-brescia-31-01-2027/event/znstrpbw7lkb",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -414,7 +415,8 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZFFdA",
     "timezone": "Europe/Rome",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-padova-zg9rmiynyzffdv",
@@ -432,7 +434,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/bryan-adams-bare-bones-padova-05-02-2027/event/01xtkx4g45oc",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -467,7 +469,8 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZFFdv",
     "timezone": "Europe/Rome",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-auckland-17azv0g6cjvbo_i",
@@ -485,7 +488,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/bryan-adams-roll-with-the-punches-auckland-10-03-2027/event/240064E981E9166C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -536,7 +539,9 @@
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173258",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173258/Bryan-Adams-tickets-Wed-Mar-10-2027-Spark-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173258/Bryan-Adams-tickets-Wed-Mar-10-2027-Spark-Arena",
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-christchurch-17azv0g6cuuuvxf",
@@ -554,7 +559,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/bryan-adams-roll-with-the-punches-christchurch-12-03-2027/event/240064EDB6D81F88",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -605,7 +610,9 @@
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8180247",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180247/Bryan-Adams-tickets-Fri-Mar-12-2027-Wolfbrook-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8180247/Bryan-Adams-tickets-Fri-Mar-12-2027-Wolfbrook-Arena",
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-wellington-central-1ae8z_fgkxwzsx6",
@@ -623,7 +630,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/bryan-adams-bare-bones-wellington-central-15-03-2027/event/2400654FB2033F87",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -658,7 +665,8 @@
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_fGkXwZSX6",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-malmo-z698xzq2z1k-ga_fv",
@@ -676,8 +684,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/bryan-adams-roll-with-the-punches-tickets/875259501?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "875259501",
@@ -711,7 +719,8 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z1k-ga_fv",
     "timezone": "Europe/Stockholm",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-oslo-z698xzb_z16vq6qw4z",
@@ -729,8 +738,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/bryan-adams-roll-with-the-punches-tickets/1687772540?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1687772540",
@@ -775,7 +784,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bryan-adams-tickets-oslo-oslo-spektrum-3-5-2027/event/107670969",
     "organizer_names": [
       "Live Nation Norway AS"
-    ]
+    ],
+    "genre": "Alternative"
   },
   {
     "id": "tm-bryan-adams-2027-helsinki-z698xz8kz1kuaq6jf",
@@ -793,8 +803,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.fi/event/bryan-adams-roll-with-the-punches-tour-%7C-legazy-seat-ticket-tickets/345687708?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "345687708",
@@ -839,7 +849,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bryan-adams-tickets-helsinki-veikkaus-arena-7-5-2027/event/107671837",
     "organizer_names": [
       "Veikkaus Arena VN Helsinki Oy"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-nurnberg-z698xzc2z16vv6jt_f",
@@ -857,8 +868,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1047729654?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1047729654",
@@ -895,7 +906,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Concertbüro Franken GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-fulda-z698xzc2z1k86g-_z",
@@ -913,8 +925,8 @@
     "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-fulda-domplatz-fulda-6-29-2027/production/7664696",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/407321678?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "407321678",
@@ -959,7 +971,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/bryan-adams-tickets-fulda-domplatz-fulda-29-6-2027/event/107671713",
     "organizer_names": [
       "Provinztour Konzert- und Theateragentur GmbH & Co.KG"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-halle-westfalen-z698xzc2z16voo4puj",
@@ -977,8 +990,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1460556366?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1460556366",
@@ -1015,7 +1028,8 @@
     "status": "on-sale",
     "organizer_names": [
       "HockeyPark Betriebs GmbH & Co. KG"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-hemer-z698xzc2z1k_buyvn",
@@ -1033,8 +1047,8 @@
     "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-hemer-sauerlandpark-hemer-7-4-2027/production/7661320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/658370063?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "658370063",
@@ -1071,7 +1085,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Goldrush Productions GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-bonn-z698xzc2z16v89qo0p",
@@ -1089,8 +1104,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1417751916?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1417751916",
@@ -1127,7 +1142,8 @@
     "status": "on-sale",
     "organizer_names": [
       "E.L. Hartz Promotion GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-rosenheim-z698xzc2z16eva4pqp",
@@ -1145,8 +1161,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/2049556696?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2049556696",
@@ -1183,7 +1199,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Rosenheim Event GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-baunatal-z698xzc2z1kxv_kf3",
@@ -1201,8 +1218,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/881653212?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "881653212",
@@ -1239,7 +1256,8 @@
     "status": "on-sale",
     "organizer_names": [
       "COFO Entertainment GmbH & Co.KG"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-erfurt-z698xzc2z1kczab8v",
@@ -1257,8 +1275,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/380158434?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "380158434",
@@ -1295,7 +1313,8 @@
     "status": "on-sale",
     "organizer_names": [
       "MAWI Concert GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-magdeburg-z698xzc2z16vb8r7pg",
@@ -1313,8 +1332,8 @@
     "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-magdeburg-domplatz-magdeburg-8-13-2027/production/7661286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1610784975?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1610784975",
@@ -1351,7 +1370,8 @@
     "status": "on-sale",
     "organizer_names": [
       "MAWI Concert GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-deggendorf-z698xzc2z1kaap_ay",
@@ -1369,8 +1389,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/249599279?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "249599279",
@@ -1407,7 +1427,8 @@
     "status": "on-sale",
     "organizer_names": [
       "COFO Entertainment GmbH & Co.KG"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-bryan-adams-2027-wellington-central-1ae8z_fgktxpjky",
@@ -1425,7 +1446,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/bryan-adams-bare-bones-wellington-central-16-03-2027/event/2400654FFE5A64F0",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1460,6 +1481,7 @@
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_fGkTXpJKY",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   }
 ]

@@ -406,7 +406,7 @@
     "vividseats_url": "https://www.vividseats.com/kacey-musgraves-tickets-glasgow-ovo-hydro-2-22-2027--concerts-country-and-folk/production/7021538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kacey-musgraves-glasgow-22-02-2027/event/3600649EDD1A3FCF",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -470,7 +470,9 @@
       "AEG PRESENTS",
       "SCOTTISH EVENT CAMPUS LIMITED",
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Country"
   },
   {
     "id": "tm-kacey-musgraves-2027-manchester-g5vhz_gkaityt",
@@ -488,7 +490,7 @@
     "vividseats_url": "https://www.vividseats.com/kacey-musgraves-tickets-manchester-ao-arena-2-24-2027--concerts-country-and-folk/production/7021540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kacey-musgraves-manchester-24-02-2027/event/1F0064C4C9B29E69",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -552,7 +554,9 @@
       "AEG PRESENTS",
       "ASM T-A AO ARENA",
       "S.J.M. LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Country"
   },
   {
     "id": "tm-kacey-musgraves-2027-london-1adjz_agkmwrf6s",
@@ -570,7 +574,7 @@
     "vividseats_url": "https://www.vividseats.com/kacey-musgraves-tickets-london-ovo-arena-wembley-2-26-2027--concerts-country-and-folk/production/7021542",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kacey-musgraves-london-26-02-2027/event/3700649DF2BC81F3",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -632,6 +636,8 @@
     "organizer_names": [
       "AEG PRESENTS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7964279"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7964279",
+    "ticket_limit": 6,
+    "genre": "Country"
   }
 ]

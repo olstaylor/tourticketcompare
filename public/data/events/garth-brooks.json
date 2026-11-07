@@ -247,7 +247,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-13-2026--concerts-country-and-folk/production/7704177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-13-2026/event/0F00654CE926A625",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -309,7 +309,9 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8321626"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8321626",
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_fghqxgl",
@@ -327,7 +329,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-14-2026--concerts-country-and-folk/production/7704179",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-14-2026/event/0F00654D7C6A2D6B",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389,7 +391,9 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8321627"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8321627",
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_4dkzhpm",
@@ -407,7 +411,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-15-2026--concerts-country-and-folk/production/7740302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-15-2026/event/0F006550D301B5B7",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -469,7 +473,9 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8335342/Garth-Brooks-tickets-Sun-Nov-15-2026-Climate-Pledge-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8335342",
-    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-15-2026/event/107678063"
+    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-15-2026/event/107678063",
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2026-seattle-vvg1hz_4dkkd9j",
@@ -487,7 +493,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-12-2026--concerts-country-and-folk/production/7748436",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-12-2026/event/0F006550D31BB5DC",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -549,7 +555,9 @@
       "AEG LIVE"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338947",
-    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-12-2026/event/107676173"
+    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-12-2026/event/107676173",
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkrzxgxw",
@@ -567,7 +575,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-4-2026--concerts-country-and-folk/production/7767692",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-04-2026/event/1000655BC088C8B2",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,11 +610,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_4GkRZxGxw",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE (CANADA)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkre8jcm",
@@ -624,7 +633,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-5-2026--concerts-country-and-folk/production/7767695",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-05-2026/event/1000655BC241CB77",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -659,11 +668,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_4GkRe8jcM",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE (CANADA)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkr__tfz",
@@ -681,7 +691,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-6-2026--concerts-country-and-folk/production/7802677",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-06-2026/event/1000655BD967F538",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -716,11 +726,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_4GkR__Tfz",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE (CANADA)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-belfast-16doz_p8zg7ggqn",
@@ -738,7 +749,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-belfast-21-05-2027/event/3800656438D756A3",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -777,7 +788,9 @@
     "public_onsale_at": "2026-11-12T08:00:00Z",
     "organizer_names": [
       "AIKEN PROMOTIONS"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-belfast-16doz_p8zg7uaqj",
@@ -795,7 +808,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-belfast-22-05-2027/event/3800656438D856A6",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -834,7 +847,9 @@
     "public_onsale_at": "2026-11-12T08:00:00Z",
     "organizer_names": [
       "AIKEN PROMOTIONS"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-co-galway-16bzk403zza86av1",
@@ -852,7 +867,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-co-galway-29-05-2027/event/18006564480F6409",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -891,7 +906,9 @@
     "public_onsale_at": "2026-11-12T08:00:00Z",
     "organizer_names": [
       "AIKEN PROMOTIONS"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-co-galway-15voz_pof7p89",
@@ -909,7 +926,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-co-galway-30-05-2027/event/1800656448116417",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -948,7 +965,9 @@
     "public_onsale_at": "2026-11-12T08:00:00Z",
     "organizer_names": [
       "AIKEN PROMOTIONS"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-kilkenny-15voz_pod_pcp",
@@ -966,7 +985,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-kilkenny-04-06-2027/event/1800656443665396",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1005,7 +1024,9 @@
     "public_onsale_at": "2026-11-12T08:00:00Z",
     "organizer_names": [
       "AIKEN PROMOTIONS"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-kilkenny-1abzk408u-kze5v",
@@ -1023,7 +1044,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-kilkenny-05-06-2027/event/18006564436853A0",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1062,7 +1083,9 @@
     "public_onsale_at": "2026-11-12T08:00:00Z",
     "organizer_names": [
       "AIKEN PROMOTIONS"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-limerick-city-1kkzvp_dgaumnjq",
@@ -1080,7 +1103,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-limerick-city-11-06-2027/event/180065643DDE371D",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1119,7 +1142,9 @@
     "public_onsale_at": "2026-11-12T08:00:00Z",
     "organizer_names": [
       "AIKEN PROMOTIONS"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-limerick-city-1kkzvp_dgauzdjl",
@@ -1137,7 +1162,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-limerick-city-12-06-2027/event/180065643DE0372B",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1176,7 +1201,9 @@
     "public_onsale_at": "2026-11-12T08:00:00Z",
     "organizer_names": [
       "AIKEN PROMOTIONS"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-cork-16voz_pozg7t0-b",
@@ -1194,7 +1221,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-cork-18-06-2027/event/1800656440A6487A",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1233,7 +1260,9 @@
     "public_onsale_at": "2026-11-12T08:00:00Z",
     "organizer_names": [
       "AIKEN PROMOTIONS"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-cork-16voz_pozg7nfxm",
@@ -1251,7 +1280,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-cork-19-06-2027/event/1800656440A948B7",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1290,7 +1319,9 @@
     "public_onsale_at": "2026-11-12T08:00:00Z",
     "organizer_names": [
       "AIKEN PROMOTIONS"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2026-hamilton-1avzz_4gkr8gcov",
@@ -1308,7 +1339,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-3-2026/production/7824946",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-03-2026/event/1000655BD0D4E474",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1343,6 +1374,11 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_4GkR8gCoV",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE (CANADA)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   }
 ]

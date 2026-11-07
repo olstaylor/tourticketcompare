@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/kings-of-leon-live-at-the-auckland-24-02-2027/event/240065509C812E04",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -53,7 +53,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 10,
+    "genre": "Rock"
   },
   {
     "id": "tm-kings-of-leon-2027-bowen-hills-1avgz_fgkxy2l3h",
@@ -71,7 +73,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/kings-of-leon-bowen-hills-03-03-2027/event/1300654FB93EB49B",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -109,7 +111,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 10,
+    "genre": "Rock"
   },
   {
     "id": "tm-kings-of-leon-2027-flemington-1aefz_fgkxtcmb-",
@@ -127,7 +131,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/kings-of-leon-flemington-05-03-2027/event/2500654FA93B7EA1",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -165,7 +169,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 10,
+    "genre": "Rock"
   },
   {
     "id": "tm-kings-of-leon-2027-hamburg-z698xzc2z1kjifpz9",
@@ -183,7 +189,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-hamburg-barclays-arena---hamburg-6-18-2027/production/7807082",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/kings-of-leon-2027-tickets/728525017?language=en-us",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -229,7 +235,8 @@
     "organizer_names": [
       "Live Nation GmbH"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-hamburg-barclays-arena-hamburg-18-6-2027/event/107679573"
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-hamburg-barclays-arena-hamburg-18-6-2027/event/107679573",
+    "genre": "Rock"
   },
   {
     "id": "tm-kings-of-leon-2027-dublin-1avoz_fgktpkxi7",
@@ -247,7 +254,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/kings-of-leon-dublin-22-06-2027/event/1800654FD61BEA04",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -286,7 +293,9 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-kings-of-leon-2027-scarborough-1agzk4fgke0iell",
@@ -304,7 +313,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-6-27-2027/production/7755406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kings-of-leon-scarborough-27-06-2027/event/35006554A4B027DF",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350,7 +359,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-27-6-2027/event/107676167",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-kings-of-leon-2027-london-1agzk4egkesvn16",
@@ -368,7 +379,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-london-the-o2---london-7-2-2027/production/7654318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kings-of-leon-london-02-07-2027/event/35006542B306A287",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -414,7 +425,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-2-7-2027/event/107671680",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-kings-of-leon-2027-london-1agzk4egkdt5lpe",
@@ -432,7 +445,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-london-the-o2---london-7-3-2027/production/7657333",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kings-of-leon-london-03-07-2027/event/35006542FF2DF582",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -478,7 +491,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-3-7-2027/event/107672737",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-kings-of-leon-2027-bristow-1ka8vp__gaurfu5",
@@ -496,7 +511,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-bristow-jiffy-lube-live-5-8-2027/production/7824368",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-bristow-virginia-05-08-2027/event/150065659D794D8B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -548,7 +563,44 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359338/Kings-Of-Leon-tickets-Sat-May-8-2027-Jiffy-Lube-Live",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359338"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359338",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-04-11T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-philadelphia-vv1aezk4xgkdfbii2",
@@ -566,7 +618,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-philadelphia-td-pavilion-at-the-mann-5-12-2027/production/7824366",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-philadelphia-pennsylvania-05-12-2027/event/02006562C8EA8A0F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,7 +654,49 @@
     "ticketmaster_discovery_event_id": "vv1AeZk4xGkdFBII2",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z"
+    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "TD Bank Presale",
+        "start": "2026-11-12T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-04-13T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-cuyahoga-falls-vv16azk4nouzac7agu",
@@ -620,7 +714,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-cuyahoga-falls-blossom-music-center-5-14-2027/production/7824370",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-cuyahoga-falls-ohio-05-14-2027/event/05006563836D34BC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -672,7 +766,59 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359343/Kings-Of-Leon-tickets-Fri-May-14-2027-Blossom-Music-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359343"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359343",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Blossom Music Center Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-04-15T02:00:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks + Fast Lane",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-05-12T02:00:00Z"
+      },
+      {
+        "name": "Global Poverty Project",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-05-14T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-noblesville-vv1aazk4ngkdiu1bn",
@@ -690,7 +836,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-noblesville-ruoff-music-center-5-15-2027/production/7824350",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-noblesville-indiana-05-15-2027/event/05006563E8D8A623",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -742,7 +888,49 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359344/Kings-Of-Leon-tickets-Sat-May-15-2027-Ruoff-Music-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359344"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359344",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Ruoff Employee Offer",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-04-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-grand-rapids-vv1afzk4xgkdurf5s",
@@ -760,7 +948,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-grand-rapids-acrisure-amphitheater-5-18-2027/production/7824346",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-grand-rapids-michigan-05-18-2027/event/08006562F67882F1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -812,7 +1000,54 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359345/Kings-Of-Leon-tickets-Tue-May-18-2027-Acrisure-Amphitheater",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359345"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359345",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Local Presales",
+        "start": "2026-11-12T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-04-19T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-clarkston-vv1afzk4pgkdf_fbn",
@@ -830,7 +1065,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-clarkston-pine-knob-music-theatre-5-23-2027/production/7824352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-clarkston-michigan-05-23-2027/event/08006565C8654EA3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -882,7 +1117,43 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359346/Kings-Of-Leon-tickets-Sun-May-23-2027-Pine-Knob-Music-Theatre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359346"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359346",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-04-26T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-bridgeport-g5vvz_pclhssb",
@@ -900,7 +1171,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-bridgeport-hartford-healthcare-amphitheater-5-25-2027/production/7824336",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-bridgeport-connecticut-05-25-2027/event/1D0065639FF31CFA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -952,7 +1223,54 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359347/Kings-Of-Leon-tickets-Tue-May-25-2027-Hartford-HealthCare-Amphitheater",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359347"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359347",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Global Citizens",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2027-05-25T18:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-04-26T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-saratoga-springs-k7vgf_p52u5pn",
@@ -970,7 +1288,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-saratoga-springs-albany-med-health-system-at-saratoga-performing-arts-center-5-27-2027/production/7824374",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-saratoga-springs-new-york-05-27-2027/event/00006562CFD8B5A3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1022,7 +1340,69 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359348/Kings-Of-Leon-tickets-Thu-May-27-2027-Albany-Med-Health-System-at-SPAC",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359348"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359348",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "SPAC Level 1 Member Offer",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "SPAC Level 2 Member Offer",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "SPAC Level 3 Member Offer",
+        "start": "2026-11-11T20:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "SPAC Level 4 Member Offer",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "SPAC Level 5 Member Offer",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-04-28T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-bangor-vv1a8vpbygagbkh_",
@@ -1040,7 +1420,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-bangor-maine-savings-amphitheater-5-29-2027/production/7824344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-bangor-maine-05-29-2027/event/010065639C6066D9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1092,7 +1472,55 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359349/Kings-Of-Leon-tickets-Sat-May-29-2027-Maine-Savings-Amphitheater",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359349"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359349",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "WATERFRONT CONCERTS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Maine Savings Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-12T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-12T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-04-30T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-bethel-k7vgf_pkjzmnn",
@@ -1110,7 +1538,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-bethel-bethel-woods-center-for-the-arts-5-30-2027/production/7824408",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-bethel-new-york-05-30-2027/event/00006564DCE2EAA3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1162,7 +1590,49 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359350/Kings-Of-Leon-tickets-Sun-May-30-2027-Bethel-Woods-Center-For-The-Arts",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359350"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359350",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Bethel Woods Center for the Arts Presale",
+        "start": "2026-11-12T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-05-03T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-toronto-16vzz_poyg7venm",
@@ -1180,7 +1650,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-toronto-rbc-amphitheatre-6-2-2027/production/7824372",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/kings-of-leon-toronto-ontario-06-02-2027/event/1000656470D028EE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1216,7 +1686,47 @@
     "ticketmaster_discovery_event_id": "16vZZ_poYG7VeNm",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z"
+    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Front Of The Line® Amex Presale Tickets",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Live INSIDER Presale",
+        "start": "2026-11-12T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-shakopee-16-zk40-tza2vg27",
@@ -1234,7 +1744,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-shakopee-mystic-lake-amphitheater---shakopee-6-5-2027/production/7824340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-shakopee-minnesota-06-05-2027/event/21006564869E0BE3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1270,7 +1780,49 @@
     "ticketmaster_discovery_event_id": "16-Zk40-tZA2vG27",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T15:00:00Z",
+        "end": "2026-11-10T14:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Mystic Lake Amp Sponsor Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-05-08T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-tinley-park-vv1kvzvpbygacp7l6",
@@ -1288,7 +1840,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-tinley-park-credit-union-1-amphitheatre-6-6-2027/production/7824332",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-tinley-park-illinois-06-06-2027/event/040065639E5847C7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1340,7 +1892,49 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359352/Kings-Of-Leon-tickets-Sun-Jun-6-2027-Credit-Union-1-Amphitheatre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359352"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359352",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T15:00:00Z",
+        "end": "2026-11-10T14:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Credit Union 1 Local Sponsor Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-05-08T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-west-valley-city-g5vzz_p2iqpnf",
@@ -1358,7 +1952,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-west-valley-city-utah-09-11-2027/event/1E006563EC6968C8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1394,7 +1988,59 @@
     "ticketmaster_discovery_event_id": "G5vzZ_p2iQpNF",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T16:00:00Z"
+    "public_onsale_at": "2026-11-13T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T16:00:00Z",
+        "end": "2026-11-10T15:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-12T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Utah First Credit Union Presale",
+        "start": "2026-11-12T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-08-13T04:00:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks + Fast Lane",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-09-09T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-vancouver-16v7z_ppfg7nnqo",
@@ -1412,7 +2058,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/kings-of-leon-vancouver-british-columbia-09-14-2027/event/1100656588AA3760",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1464,7 +2110,52 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T16:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359372/Kings-Of-Leon-tickets-Tue-Sep-14-2027-Rogers-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359372"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359372",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T16:00:00Z",
+        "end": "2026-11-10T15:00:00Z"
+      },
+      {
+        "name": "Artist (Seated) Presale",
+        "start": "2026-11-10T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-11-10T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Amex Preferred Tickets",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-09-01T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-seattle-vvg1hz_p57x6w0",
@@ -1482,7 +2173,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-seattle-climate-pledge-arena-9-15-2027--concerts-rock/production/7824362",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-seattle-washington-09-15-2027/event/0F006562C4887F64",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1534,7 +2225,49 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359354/Kings-Of-Leon-tickets-Wed-Sep-15-2027-Climate-Pledge-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359354"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359354",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T17:00:00Z",
+        "end": "2026-11-10T16:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-08-17T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-mountain-view-g5vyz_p1j_6oc",
@@ -1552,7 +2285,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-mountain-view-shoreline-amphitheatre---ca-9-17-2027/production/7824356",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-mountain-view-california-09-17-2027/event/1C0065629C64780E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1604,7 +2337,49 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359355/Kings-Of-Leon-tickets-Fri-Sep-17-2027-Shoreline-Amphitheatre-CA",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359355"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359355",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T17:00:00Z",
+        "end": "2026-11-10T16:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-08-19T05:00:00Z"
+      },
+      {
+        "name": "T-Mobile Concert Perks",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-09-15T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-inglewood-vv1aazk4ngkdyvvz_",
@@ -1622,7 +2397,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-inglewood-kia-forum-9-18-2027/production/7824348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-inglewood-california-09-18-2027/event/09006563F0D01019",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1674,7 +2449,49 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T17:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359356/Kings-Of-Leon-tickets-Sat-Sep-18-2027-The-Kia-Forum",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359356"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359356",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T17:00:00Z",
+        "end": "2026-11-10T16:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Kia Forum Presale",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-08-20T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-phoenix-1a_zk4xgkewyfnx",
@@ -1692,7 +2509,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-phoenix-talking-stick-resort-amphitheatre-9-24-2027/production/7824354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-phoenix-arizona-09-24-2027/event/19006562BDE54AA2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1744,7 +2561,49 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T16:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359358/Kings-Of-Leon-tickets-Fri-Sep-24-2027-Talking-Stick-Resort-Amphitheatre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359358"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359358",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T16:00:00Z",
+        "end": "2026-11-10T15:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Talking Stick Resort Presale",
+        "start": "2026-11-12T16:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-08-26T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-austin-g5diz_pk2f12g",
@@ -1762,7 +2621,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-austin-moody-center-atx-9-26-2027--concerts-rock/production/7824360",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-austin-texas-09-26-2027/event/3A006564CF50A3CC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1814,7 +2673,59 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359359/Kings-Of-Leon-tickets-Sun-Sep-26-2027-Moody-Center-ATX",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359359"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359359",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T15:00:00Z",
+        "end": "2026-11-10T14:00:00Z"
+      },
+      {
+        "name": "Global Poverty Project",
+        "start": "2026-11-09T15:00:00Z",
+        "end": "2027-09-26T19:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Partner Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-08-30T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-fort-worth-vvg1yz_4lzyuso",
@@ -1832,7 +2743,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-fort-worth-ariat-arena-9-28-2027/production/7824422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-fort-worth-texas-09-28-2027/event/0C00655AC0E76CD1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1884,7 +2795,49 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359360/Kings-Of-Leon-tickets-Tue-Sep-28-2027-Ariat-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359360"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359360",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T15:00:00Z",
+        "end": "2026-11-10T14:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Ariat Arena Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-08-30T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-alpharetta-vvg1zz_pch0zpt",
@@ -1902,7 +2855,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-alpharetta-ameris-bank-amphitheatre-9-30-2027/production/7824330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-alpharetta-georgia-09-30-2027/event/0E0065639B9385BF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1954,7 +2907,49 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359361/Kings-Of-Leon-tickets-Thu-Sep-30-2027-Ameris-Bank-Amphitheatre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359361"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359361",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Ameris Bank Sponsor Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-09-01T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-orlando-1axzk40gkdkpvf2",
@@ -1972,7 +2967,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-orlando-kia-center-10-1-2027/production/7824342",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-orlando-florida-10-01-2027/event/22006564C65B420F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2024,7 +3019,49 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359362/Kings-Of-Leon-tickets-Fri-Oct-1-2027-Kia-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359362"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359362",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-09-02T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-raleigh-g5evz_p3nejt5",
@@ -2042,7 +3079,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-10-3-2027/production/7824436",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-raleigh-north-carolina-10-03-2027/event/2D006564A39E6FCB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2094,7 +3131,49 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359364/Kings-Of-Leon-tickets-Sun-Oct-3-2027-Coastal-Credit-Union-Music-Park-at-Walnut-Creek",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359364"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359364",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Coastal Credit Union Member Presale",
+        "start": "2026-11-12T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-09-04T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-charlotte-g5evz_p5ab5ro",
@@ -2112,7 +3191,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-charlotte-truliant-amphitheater-10-6-2027/production/7824406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-charlotte-north-carolina-10-06-2027/event/2D006562C5E8B791",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2164,7 +3243,44 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359365/Kings-Of-Leon-tickets-Wed-Oct-6-2027-Truliant-Amphitheater",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359365"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359365",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-09-07T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-franklin-g5viz_p28lhsa",
@@ -2182,7 +3298,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-franklin-firstbank-amphitheater-10-8-2027/production/7824438",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-franklin-tennessee-10-08-2027/event/1B006563D07FCC45",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2234,7 +3350,49 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359366/Kings-Of-Leon-tickets-Fri-Oct-8-2027-FirstBank-Amphitheater",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359366"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359366",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T15:00:00Z",
+        "end": "2026-11-10T14:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "FirstBank Presale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-09-12T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-cincinnati-1apzk4ngkdmfbs-",
@@ -2252,7 +3410,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-cincinnati-the-farmer-music-center-10-12-2027/production/7824430",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-cincinnati-ohio-10-12-2027/event/16006563EE23AC61",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2304,7 +3462,44 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359367/Kings-Of-Leon-tickets-Tue-Oct-12-2027-The-Farmer-Music-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359367"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359367",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Radio and Venue Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Global Citizens/Global Poverty Project",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-10-12T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-mansfield-vv1avzk40gkelbik2",
@@ -2322,7 +3517,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-mansfield-xfinity-center---ma-10-14-2027/production/7824364",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-mansfield-massachusetts-10-14-2027/event/01006564AB6284CF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2374,7 +3569,49 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359368/Kings-Of-Leon-tickets-Thu-Oct-14-2027-Xfinity-Center-MA",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359368"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359368",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Xfinity Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-09-17T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kings-of-leon-2027-new-york-g5diz_4_hy-cs",
@@ -2392,7 +3629,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-new-york-madison-square-garden-10-15-2027/production/7824410",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-new-york-new-york-10-15-2027/event/3B0065567CC21B71",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2444,6 +3681,57 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359370/Kings-Of-Leon-tickets-Fri-Oct-15-2027-Madison-Square-Garden",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359370"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359370",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-09T14:00:00Z",
+        "end": "2026-11-10T13:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-11T14:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2026-11-28T03:00:00Z"
+      },
+      {
+        "name": "Citi ® Cardmember Preferred Tickets",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-09-18T02:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Seating",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2027-10-16T01:00:00Z"
+      }
+    ]
   }
 ]

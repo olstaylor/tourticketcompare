@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-sacramento-california-11-07-2026/event/1C00652BA1D6AEB7",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -80,7 +80,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267874",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-08T04:00:00Z",
-    "previous_start_timezone": "America/Los_Angeles"
+    "previous_start_timezone": "America/Los_Angeles",
+    "ticket_limit": 10,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-karan-aujla-2026-los-angeles-g5eyz_3lgqzvb",
@@ -98,7 +100,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-los-angeles-california-11-09-2026/event/2C00652AF5740D18",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -163,7 +165,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267866",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-10T04:00:00Z",
-    "previous_start_timezone": "America/Los_Angeles"
+    "previous_start_timezone": "America/Los_Angeles",
+    "ticket_limit": 10,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-karan-aujla-2026-dallas-vvg1yz_3r_e2at",
@@ -181,7 +185,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-dallas-texas-11-13-2026/event/0C00652BD99CF27F",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -253,7 +257,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267876",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-14T02:00:00Z",
-    "previous_start_timezone": "America/Chicago"
+    "previous_start_timezone": "America/Chicago",
+    "ticket_limit": 10,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-karan-aujla-2026-atlanta-vvg1zz_3myjgwo",
@@ -271,7 +277,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-atlanta-georgia-11-16-2026/event/0E00652BB098CCA0",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -343,7 +349,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267877",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-17T01:00:00Z",
-    "previous_start_timezone": "America/New_York"
+    "previous_start_timezone": "America/New_York",
+    "ticket_limit": 10,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-karan-aujla-2026-new-york-g5diz_3ivacnr",
@@ -361,7 +369,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-new-york-new-york-11-18-2026/event/3B00652A0114E8EF",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -438,7 +446,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267865",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-19T01:00:00Z",
-    "previous_start_timezone": "America/New_York"
+    "previous_start_timezone": "America/New_York",
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-karan-aujla-2026-washington-1a4zkftgkdhkud5",
@@ -456,7 +465,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-washington-district-of-columbia-11-20-2026/event/15006529DB4CD0CB",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -528,6 +537,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267878",
     "ticketmaster_status_code": "rescheduled",
     "previous_start_date": "2026-11-21T01:00:00Z",
-    "previous_start_timezone": "America/New_York"
+    "previous_start_timezone": "America/New_York",
+    "ticket_limit": 10,
+    "genre": "Hip-Hop/Rap"
   }
 ]

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-riverside-fox-performing-arts-center-11-11-2026/production/7333970",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-riverside-california-11-11-2026/event/0B0064EE98DA3701",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -69,7 +69,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8234745/The-Psychedelic-Furs-tickets-Wed-Nov-11-2026-Fox-Performing-Arts-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-austin-z7r9jz1aavso0",
@@ -87,7 +89,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvso0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -122,7 +124,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvso0",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-saint-louis-1ae7z_3gkmwkki0",
@@ -140,7 +143,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-saint-louis-missouri-03-30-2027/event/2100652BBD4D3A24",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -185,7 +188,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-waukegan-vv166zkf-0ozagdv5d",
@@ -203,7 +207,7 @@
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-waukegan-genesee-theatre-4-1-2027--concerts-pop/production/7558897",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-w-special-guest-waukegan-illinois-04-01-2027/event/07006521911B20A2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -261,7 +265,9 @@
         "end": "2027-03-26T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266290/The-Psychedelic-Furs-tickets-Thu-Apr-1-2027-Genesee-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266290/The-Psychedelic-Furs-tickets-Thu-Apr-1-2027-Genesee-Theatre",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-tallahassee-z7r9jz1aavsop",
@@ -279,7 +285,7 @@
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-tallahassee-the-moon---fl-4-7-2027/production/7565851",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsoP",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -314,7 +320,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsoP",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-saint-petersburg-z7r9jz1aavsof",
@@ -332,7 +339,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsoF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -367,7 +374,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvsoF",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-miami-beach-vvg1vz_3egjcmc",
@@ -385,7 +393,7 @@
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-4-10-2027--concerts-pop/production/7558937",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-miami-beach-florida-04-10-2027/event/0D006529CC72DDED",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -430,7 +438,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-asheville-g5evz_35jhjdg",
@@ -448,7 +458,7 @@
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-asheville-harrahs-cherokee-center-asheville-4-17-2027/production/7565248",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-asheville-north-carolina-04-17-2027/event/2D006522DCF260CC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -498,7 +508,8 @@
         "end": "2027-04-11T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266294"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266294",
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-norfolk-z7r9jz1aavs4p",
@@ -516,7 +527,7 @@
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-norfolk-the-norva-4-20-2027/production/7559237",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvs4p",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -567,7 +578,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268317",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268317/The-Psychedelic-Furs-tickets-Tue-Apr-20-2027-The-Norva"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268317/The-Psychedelic-Furs-tickets-Tue-Apr-20-2027-The-Norva",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-baltimore-1avfz_ogktjo5z-",
@@ -585,7 +597,7 @@
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-baltimore-nevermore-hall-4-23-2027--concerts-pop/production/7558977",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-baltimore-maryland-04-23-2027/event/1500651FDC80B021",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -646,7 +658,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266296/The-Psychedelic-Furs-tickets-Fri-Apr-23-2027-Nevermore-Hall",
     "organizer_names": [
       "LIVE NATION - NO LN CONCERTS BRANDING"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-bethlehem-vv17fz_3gkmknapk",
@@ -664,7 +678,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-bethlehem-pennsylvania-04-24-2027/event/0200652B938C9946",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -717,7 +731,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266273"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266273",
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-red-bank-g5vvz_3ilcqvm",
@@ -735,7 +750,7 @@
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-red-bank-hackensack-meridian-health-theatre-at-the-count-basie-center-4-27-2027--concerts-pop/production/7559009",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-red-bank-new-jersey-04-27-2027/event/1D00652A1FB5A077",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -793,7 +808,9 @@
         "end": "2027-04-21T02:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266297/The-Psychedelic-Furs-tickets-Tue-Apr-27-2027-Hackensack-Meridian-Health-Theatre-at-the-Count-Basie-Center-for-the-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266297/The-Psychedelic-Furs-tickets-Tue-Apr-27-2027-Hackensack-Meridian-Health-Theatre-at-the-Count-Basie-Center-for-the-Arts",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-huntington-k7vgf_3n_asme",
@@ -811,7 +828,7 @@
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-huntington-the-paramount-in-concert-with-northwell-4-28-2027--concerts-pop/production/7559015",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-huntington-new-york-04-28-2027/event/00006528D9173DE7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -869,7 +886,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266298"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266298",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-northfield-vv17fz_ogkhgkwao",
@@ -887,7 +906,7 @@
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-northfield-northfield-park-racino---center-stage-5-1-2027--concerts-pop/production/7559023",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-northfield-ohio-05-01-2027/event/0500651F0C1B2151",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -958,7 +977,10 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-ridgefield-z7r9jz1aavuq6",
@@ -976,7 +998,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUQ6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1027,7 +1049,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314924",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314924/The-Psychedelic-Furs-tickets-Fri-Jan-15-2027-The-Ridgefield-Playhouse"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314924/The-Psychedelic-Furs-tickets-Fri-Jan-15-2027-The-Ridgefield-Playhouse",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-birmingham-g5dzz_kk-v07y",
@@ -1045,7 +1068,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-birmingham-26-01-2027/event/3E006531A1D24130",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1084,7 +1107,8 @@
     "organizer_names": [
       "AEG PRESENTS",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-london-1amzkfwgkeiysgf",
@@ -1102,7 +1126,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-london-29-01-2027/event/37006532ACE73314",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1140,7 +1164,9 @@
     "status": "on-sale",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-nashville-z7r9jz1aavpq_",
@@ -1158,7 +1184,7 @@
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-nashville-ryman-auditorium-4-2-2027--concerts-pop/production/7558924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvPQ_",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1212,7 +1238,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266292/The-Psychedelic-Furs-tickets-Fri-Apr-2-2027-Ryman-Auditorium",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-psychedelic-furs-2026-rocklin-z7r9jz1a7--1k",
@@ -1230,7 +1257,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--1k",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1266,7 +1293,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7--1k",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-psychedelic-furs-2026-napa-g5vyz_aulujn5",
@@ -1284,7 +1312,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-napa-california-10-30-2026/event/1C0064536BDA6A8B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1336,7 +1364,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": ""
+    "ticketliquidator_url": "",
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2026-menlo-park-z7r9jz1a7p90y",
@@ -1354,7 +1383,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P90y",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1390,7 +1419,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P90y",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-psychedelic-furs-2026-menlo-park-z7r9jz1a7p9pd",
@@ -1408,7 +1438,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P9Pd",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1444,7 +1474,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P9Pd",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-psychedelic-furs-2026-fresno-g5vyz_aupip7f",
@@ -1462,7 +1493,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-fresno-california-11-04-2026/event/1C00645365A16108",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1498,7 +1529,9 @@
     "ticketmaster_discovery_event_id": "G5vYZ_AuPIp7F",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticket_limit": 10,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2026-del-mar-vvg1iz_a3sju3n",
@@ -1516,7 +1549,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-del-mar-california-11-08-2026/event/0A006454B370D4AA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1568,7 +1601,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756933",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756933/The-Psychedelic-Furs-tickets-Sun-Nov-8-2026-The-Sound-At-The-Del-Mar-Fairgrounds"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756933/The-Psychedelic-Furs-tickets-Sun-Nov-8-2026-The-Sound-At-The-Del-Mar-Fairgrounds",
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2026-san-luis-obispo-z7r9jz1a7-o8k",
@@ -1586,7 +1620,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-O8k",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1638,7 +1672,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7757970",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7757970/The-Psychedelic-Furs-tickets-Mon-Nov-16-2026-Fremont-Theater-CA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7757970/The-Psychedelic-Furs-tickets-Mon-Nov-16-2026-Fremont-Theater-CA",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-psychedelic-furs-2026-phoenix-z7r9jz1a70kx4",
@@ -1656,7 +1691,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Kx4",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1708,7 +1743,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7757967",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7757967/The-Psychedelic-Furs-tickets-Thu-Nov-19-2026-Celebrity-Theatre-AZ"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7757967/The-Psychedelic-Furs-tickets-Thu-Nov-19-2026-Celebrity-Theatre-AZ",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-rancho-mirage-z7r9jz1a7-n8k",
@@ -1726,7 +1762,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-N8K",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1762,7 +1798,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-N8K",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-san-antonio-g5diz_a6js1qk",
@@ -1780,7 +1817,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-san-antonio-texas-03-24-2027/event/3A006451E6C4A746",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1842,7 +1879,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756931/The-Psychedelic-Furs-tickets-Wed-Mar-24-2027-The-Aztec-Theatre",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-houston-g5diz_a5ghu6h",
@@ -1860,7 +1899,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-houston-texas-03-27-2027/event/3A006452F56CD1FC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1927,7 +1966,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756930/The-Psychedelic-Furs-tickets-Sat-Mar-27-2027-House-Of-Blues-Houston",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-dallas-vvg1yz_a29lq69",
@@ -1945,7 +1986,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-dallas-texas-03-28-2027/event/0C006453D77DD1D7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2007,7 +2048,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756928/The-Psychedelic-Furs-tickets-Sun-Mar-28-2027-House-Of-Blues-Dallas",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-new-orleans-g5viz_ad68eh6",
@@ -2025,7 +2068,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-new-orleans-louisiana-04-04-2027/event/1B00649EC74276C7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2087,7 +2130,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7938331/The-Psychedelic-Furs-tickets-Sun-Apr-4-2027-The-Fillmore-New-Orleans",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-orlando-1aefz_agku_10hc",
@@ -2105,7 +2150,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-orlando-florida-04-11-2027/event/2200649D992A46CE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2164,7 +2209,9 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7938332",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7938332/The-Psychedelic-Furs-tickets-Sun-Apr-11-2027-Hard-Rock-Live-Orlando"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7938332/The-Psychedelic-Furs-tickets-Sun-Apr-11-2027-Hard-Rock-Live-Orlando",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-jacksonville-z7r9jz1a703oe",
@@ -2182,7 +2229,7 @@
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-jacksonville-florida-theatre-jacksonville-4-14-2027/production/7567193",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A703Oe",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2234,7 +2281,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7938698",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7938698/The-Psychedelic-Furs-tickets-Wed-Apr-14-2027-Florida-Theatre-Jacksonville"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7938698/The-Psychedelic-Furs-tickets-Wed-Apr-14-2027-Florida-Theatre-Jacksonville",
+    "genre": "Alternative"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-charlotte-g5evz_ausriiu",
@@ -2252,7 +2300,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-charlotte-north-carolina-04-16-2027/event/2D00649DB37A8A0D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2319,6 +2367,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7938330/The-Psychedelic-Furs-tickets-Fri-Apr-16-2027-The-Fillmore-Charlotte",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   }
 ]

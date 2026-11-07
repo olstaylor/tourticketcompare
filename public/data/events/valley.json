@@ -84,7 +84,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-montreal-le-studio-td-2-5-2027--concerts-rock/production/7579939",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-montreal-quebec-02-05-2027/event/3100652EAB806F3B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -145,7 +145,9 @@
     ],
     "organizer_names": [
       "EVENKO CO-PRO NON-LN"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-ottawa-1ad7z_3gkv11nuz",
@@ -163,7 +165,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-ottawa-ontario-02-06-2027/event/3100652D0A2AA378",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +211,9 @@
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-waterloo-z7r9jz1aavzft",
@@ -280,7 +284,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-london-london-music-hall---ontario-2-10-2027--concerts-rock/production/7579426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-london-ontario-02-10-2027/event/1000652FD632ADB4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -322,7 +326,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-02-03T04:55:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-chicago-z7r9jz1aavzfy",
@@ -478,7 +484,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-winnipeg-park-theatre---mb-2-16-2027--concerts-rock/production/7579430",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-winnipeg-manitoba-02-16-2027/event/1100652E91186703",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -542,7 +548,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-regina-z7r9jz1aavzfw",
@@ -629,7 +637,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -677,7 +685,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-calgary-1av7z_3gkb3cpp6",
@@ -695,7 +705,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-calgary-the-palace-theatre-calgary-2-20-2027--concerts-rock/production/7579440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-calgary-alberta-02-20-2027/event/1100652E92396947",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -751,7 +761,10 @@
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272765"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272765",
+    "ticket_limit": 4,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-victoria-z7r9jz1aavgoz",
@@ -838,7 +851,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-vancouver-commodore-ballroom-2-24-2027--concerts-rock/production/7579442",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -917,7 +930,10 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-seattle-vvg1hz_3nsltnp",
@@ -935,7 +951,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-seattle-the-neptune-theatre-2-26-2027--concerts-rock/production/7579376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-seattle-washington-02-26-2027/event/0F00652AB1AE98D6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -993,7 +1009,9 @@
         "start": "2026-09-25T17:00:00Z",
         "end": "2027-02-19T07:55:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-portland-z7r9jz1aavzfs",
@@ -1149,7 +1167,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-los-angeles-the-bellwether-3-2-2027/production/7580204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-los-angeles-california-03-02-2027/event/09006521DDBFCEF5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1210,7 +1228,9 @@
     ],
     "organizer_names": [
       "ANOTHER PLANET"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-phoenix-z7r9jz1aavzfg",
@@ -1297,7 +1317,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-salt-lake-city-the-depot---ut-3-5-2027--concerts-rock/production/7579390",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-salt-lake-city-utah-03-05-2027/event/1E00652EA3D363D8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1363,7 +1383,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-denver-z7r9jz1aavzfu",
@@ -1434,7 +1456,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-saint-louis-missouri-03-09-2027/event/06006528946B8E73",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1479,7 +1501,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-nashville-g5viz_3rrquu4",
@@ -1497,7 +1521,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-nashville-brooklyn-bowl---nashville-3-10-2027--concerts-rock/production/7579396",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-nashville-tennessee-03-10-2027/event/1B00652BDE776355",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1563,7 +1587,10 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-atlanta-vvg1zz_32aklli",
@@ -1581,7 +1608,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-atlanta-the-masquerade---hell-3-12-2027--concerts-rock/production/7579398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-atlanta-georgia-03-12-2027/event/0E006523C519F7E8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1623,7 +1650,8 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-03-05T04:55:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-charlotte-g5evz_3nrncxj",
@@ -1641,7 +1669,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-charlotte-the-underground-at-the-fillmore-charlotte-3-13-2027--concerts-rock/production/7579404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-charlotte-north-carolina-03-13-2027/event/2D00652A9E8EDFA6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1702,7 +1730,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-washington-16vfz_333g7mktl",
@@ -1720,7 +1750,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-washington-district-of-columbia-03-14-2027/event/1500652492B86FDF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1778,7 +1808,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-03-07T04:55:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-philadelphia-vv1aezkfygkdw6utw",
@@ -1796,7 +1828,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-philadelphia-brooklyn-bowl-philadelphia-3-16-2027--concerts-rock/production/7579418",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-philadelphia-pennsylvania-03-16-2027/event/02006530F21CDFF2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1857,7 +1889,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-new-york-z7r9jz1aavzfm",
@@ -1944,7 +1978,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-boston-paradise-rock-club-3-18-2027--concerts-rock/production/7579422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-dyntbe-the-tour-boston-massachusetts-03-18-2027/event/0100652BB45A30E3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2005,7 +2039,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-toronto-1avzz_3gkdexa9o",
@@ -2023,7 +2058,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-toronto-massey-hall---allied-music-centre-3-20-2027--concerts-rock/production/7579953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-toronto-ontario-03-20-2027/event/1000652EE7F895D1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2071,7 +2106,8 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-amsterdam-z698xzbpz1kuzjpzo",
@@ -2089,8 +2125,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/valley-tickets/340716011?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "340716011",
@@ -2124,7 +2160,8 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kuZjpZo",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-bristol-g5vhz_3zkbafq",
@@ -2142,7 +2179,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-bristol-10-05-2027/event/1F00652E06E8551D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2180,7 +2217,9 @@
     "status": "on-sale",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-birmingham-g5dzz_36osp2q",
@@ -2198,7 +2237,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-birmingham-11-05-2027/event/3E006521D1CE53DD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2237,7 +2276,9 @@
     "organizer_names": [
       "S.J.M. LTD",
       "ACADEMY MUSIC GROUP (O2 INSTITUTE BIRMINGHAM)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-manchester-g5vhz_ohdx77o",
@@ -2255,7 +2296,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-manchester-12-05-2027/event/1F00651F3B884120",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2293,7 +2334,9 @@
     "status": "on-sale",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-london-g5dzz_3vpsj3z",
@@ -2311,7 +2354,7 @@
     "vividseats_url": "https://www.vividseats.com/valley---pop-band-tickets-london-o2-forum-kentish-town-5-14-2027/production/7604561",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-london-14-05-2027/event/3E00652D16C664B8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2350,7 +2393,9 @@
     "organizer_names": [
       "S.J.M. LTD",
       "ACADEMY MUSIC GROUP (O2 FORUM KENTISH TOWN)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-valley-2027-leeds-1adfz_3gkihrzjf",
@@ -2368,7 +2413,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-leeds-16-05-2027/event/3500652A3CBC0988",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2406,6 +2451,8 @@
     "status": "on-sale",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   }
 ]

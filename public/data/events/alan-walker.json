@@ -76,7 +76,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-irving-pavilion-at-toyota-music-factory-1-22-2027--concerts-dance-electronica/production/7554678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-irving-texas-01-22-2027/event/0C006528D83FB866",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -145,7 +145,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-houston-g5diz_3no4w3_",
@@ -163,7 +164,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-houston-713-music-hall-1-23-2027--concerts-dance-electronica/production/7554680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-houston-texas-01-23-2027/event/3A006528D157D499",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -232,7 +233,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-saint-louis-1a-zkf0gkdapg7j",
@@ -250,7 +253,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-saint-louis-missouri-01-26-2027/event/21006524C55B511C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292,7 +295,8 @@
         "start": "2026-09-18T15:00:00Z",
         "end": "2027-01-22T18:00:00Z"
       }
-    ]
+    ],
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-nashville-z7r9jz1aavt47",
@@ -371,7 +375,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-raleigh-the-ritz---raleigh-1-30-2027--concerts-dance-electronica/production/7554686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-raleigh-north-carolina-01-30-2027/event/2D006522A38DA8CD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -432,7 +436,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-charleston-g5evz_3nuc_ky",
@@ -450,7 +456,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-charleston-charleston-music-hall-1-31-2027--concerts-dance-electronica/production/7554693",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-charleston-south-carolina-01-31-2027/event/2D00652A8DB594F9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -504,7 +510,8 @@
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265282"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265282",
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-washington-1a4zkftgkdat1lk",
@@ -522,7 +529,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-washington-dc-the-anthem-2-6-2027--concerts-dance-electronica/production/7554676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-washington-district-of-columbia-02-06-2027/event/15006529C9FCAAD3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -588,7 +595,9 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-02-02T17:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-philadelphia-vv1aezkfxgkdmhfsx",
@@ -606,7 +615,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-philadelphia-the-fillmore-philadelphia-2-9-2027/production/7553129",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-philadelphia-pennsylvania-02-09-2027/event/02006522EEF08C7E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -680,7 +689,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-philadelphia-tickets-2-9-2027/event/107668178"
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-philadelphia-tickets-2-9-2027/event/107668178",
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-boston-vv1a8vpfzgauaajv",
@@ -698,7 +709,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-boston-mgm-music-hall-at-fenway-2-10-2027--concerts-dance-electronica/production/7554695",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-boston-massachusetts-02-10-2027/event/010065238D249734",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -767,7 +778,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-new-york-z7r9jz1aavt4a",
@@ -923,7 +936,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-montreal-mtelus-2-16-2027--concerts-dance-electronica/production/7554703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-16-2027/event/31006523ABBD7874",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -992,7 +1005,9 @@
     ],
     "organizer_names": [
       "EVENKO CO-PRO NON-LN"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-toronto-1avzz_3gkilb6g_",
@@ -1010,7 +1025,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-toronto-history-toronto-2-18-2027--concerts-dance-electronica/production/7554707",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-18-2027/event/1000652A2B607319",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1056,7 +1071,10 @@
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-toronto-1avzz_3gkilbmgn",
@@ -1074,7 +1092,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-toronto-history-toronto-2-19-2027--concerts-dance-electronica/production/7554711",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-19-2027/event/1000652A2B637323",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1120,7 +1138,10 @@
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-ottawa-16d7z_3qeg7dn9t",
@@ -1138,7 +1159,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-ottawa-history-ottawa-2-21-2027--concerts-dance-electronica/production/7554715",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-ottawa-ontario-02-21-2027/event/3100652742EEA5E9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1184,7 +1205,10 @@
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-pittsburgh-z7r9jz1aavt46",
@@ -1340,7 +1364,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-2-25-2027--concerts-dance-electronica/production/7554697",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-indianapolis-indiana-02-25-2027/event/05006527BDFF7AE3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1401,7 +1425,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-chicago-vv1k8z_3gyg7zohx",
@@ -1419,7 +1444,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-chicago-aragon-ballroom-2-26-2027--concerts-dance-electronica/production/7554699",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-chicago-illinois-02-26-2027/event/0400652330E20F3E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1493,7 +1518,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-seattle-z7r9jz1aavt4a",
@@ -1649,7 +1676,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-los-angeles-the-torch-at-la-coliseum-3-6-2027--concerts-dance-electronica/production/7554701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/insomniac-presents-alan-walker-legend-of-los-angeles-california-03-06-2027/event/0A00652AA478707C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1694,7 +1721,10 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-alan-walker-2027-montreal-1aszkfngkely6-x",
@@ -1712,7 +1742,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-montreal-mtelus-2-17-2027--concerts-dance-electronica/production/7699411",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-17-2027/event/31006523ABC0787E",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1773,6 +1803,8 @@
         "start": "2026-10-14T14:00:00Z",
         "end": "2027-02-14T17:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic"
   }
 ]

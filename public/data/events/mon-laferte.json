@@ -209,7 +209,7 @@
     "vividseats_url": "https://www.vividseats.com/mon-laferte-tickets-inglewood-kia-forum-11-7-2026/production/6822796",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mon-laferte-femme-fatale-tour-inglewood-california-11-07-2026/event/0900646CEE46EEFD",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -271,7 +271,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-7-2026/event/107151207",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-mon-laferte-2026-inglewood-vvg10z_gloruht",
@@ -289,7 +291,7 @@
     "vividseats_url": "https://www.vividseats.com/mon-laferte-tickets-inglewood-kia-forum-11-8-2026--concerts-rock/production/7164376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mon-laferte-femme-fatale-tour-inglewood-california-11-08-2026/event/090064C7E0BCDF3F",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -351,7 +353,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-8-2026/event/107455665",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-mon-laferte-2026-monterrey-17azv0g6cxrk0bt",
@@ -369,7 +373,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/mon-laferte-monterrey-16-11-2026/event/140064EF9E4E4EBF",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -407,7 +411,8 @@
     "status": "on-sale",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-mon-laferte-2026-monterrey-17azv0g61m-mqwh",
@@ -425,7 +430,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/mon-laferte-monterrey-17-11-2026/event/140064ADE1DDDC9B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -460,7 +465,8 @@
     },
     "ticketmaster_discovery_event_id": "17AZv0G61M-Mqwh",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-mon-laferte-2027-madrid-z698xz2qz16vquuz7t",
@@ -478,8 +484,8 @@
     "vividseats_url": "https://www.vividseats.com/mon-laferte-tickets-madrid-movistar-arena---madrid-1-13-2027/production/7250274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/mon-laferte-tickets/1776378129?language=en-us",
-    "last_verified_at": "2026-11-04",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1776378129",
@@ -524,7 +530,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-1-2027/event/107447688",
     "organizer_names": [
       "BERIN IGLESIAS S.L.U."
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-mon-laferte-2027-brussels-z698xzg2z1kbx0fgb",
@@ -542,8 +549,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/mon-laferte-tickets/622908318",
-    "last_verified_at": "2026-11-06",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "622908318",
@@ -580,6 +587,7 @@
     "status": "on-sale",
     "organizer_names": [
       "Gracia Live"
-    ]
+    ],
+    "genre": "Latin"
   }
 ]

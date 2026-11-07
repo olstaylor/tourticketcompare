@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-niagara-falls-olg-stage-at-fallsview-casino-12-19-2026/production/6956832",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-niagara-falls-ontario-12-19-2026/event/10006498AC42541D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,9 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk3bGkei8P8q",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-vancouver-16v7z_f1bg7wmex",
@@ -68,7 +70,7 @@
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-vancouver-rogers-arena-1-27-2027/production/7658722",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-vancouver-british-columbia-01-27-2027/event/1100654298F770A2",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -125,7 +127,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-victoria-z7r9jz1aae__3",
@@ -143,7 +147,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAe__3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -194,7 +198,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": ""
+    "ticketliquidator_url": "",
+    "genre": "Alternative"
   },
   {
     "id": "tm-simple-plan-2027-edmonton-1av7z_kgkmptc0p",
@@ -212,7 +217,7 @@
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-edmonton-rogers-place-1-29-2027/production/7658547",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-edmonton-alberta-01-29-2027/event/1100653DD6A6D925",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -269,7 +274,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-calgary-1av7z_kgkd2pi5n",
@@ -287,7 +294,7 @@
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-calgary-scotiabank-saddledome-1-31-2027/production/7658543",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-calgary-alberta-01-31-2027/event/1100653ECF5AC2E3",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -344,7 +351,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-saskatoon-1av7z_kgkmkzc1-",
@@ -362,7 +371,7 @@
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-saskatoon-sasktel-centre-2-1-2027/production/7658273",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-saskatoon-saskatchewan-02-01-2027/event/1100653DD302D2A1",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -426,7 +435,9 @@
         "start": "2026-10-09T16:00:00Z",
         "end": "2027-01-19T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-winnipeg-16ozk4eozza27k28",
@@ -444,7 +455,7 @@
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-winnipeg-canada-life-centre-2-2-2027/production/7658692",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-winnipeg-manitoba-02-02-2027/event/11006542800E35EF",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -501,7 +512,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-toronto-1a8zk4e0eqizeug",
@@ -519,7 +532,7 @@
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-toronto-scotiabank-arena-2-5-2027/production/7658702",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-toronto-ontario-02-05-2027/event/10006542927768CB",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -560,7 +573,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-kitchener-1a8zk4agketqbtj",
@@ -578,7 +593,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kitchener-ontario-02-06-2027/event/10006545A9698FDC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -613,7 +628,8 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk4AGketQbTj",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-london-1f7zvp8wqzz7ufv6",
@@ -631,7 +647,7 @@
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-london-canada-life-place-2-7-2027/production/7658718",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-london-ontario-02-07-2027/event/100065432680C706",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -672,7 +688,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-kingston-1a8zk4vgkdbqsjy",
@@ -690,7 +708,7 @@
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-kingston-slush-puppie-place-2-9-2027/production/7658700",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kingston-ontario-02-09-2027/event/10006541D8773739",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -731,7 +749,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-kanata-1ad7z_kgkb3adut",
@@ -749,7 +769,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-kanata-ontario-02-11-2027/event/3100653E92243369",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -790,7 +810,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-montreal-1ad7z_kgkd-eypy",
@@ -808,7 +830,7 @@
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-montreal-bell-centre-2-12-2027/production/7658696",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-montreal-quebec-02-12-2027/event/3100653EE19F95B9",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -865,7 +887,9 @@
       "LIVE NATION CANADA (LN)",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-moncton-1aszkfygkdcttvt",
@@ -883,7 +907,7 @@
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-moncton-avenir-centre-2-14-2027/production/7658583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-moncton-new-brunswick-02-14-2027/event/31006539CEFE907F",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -939,7 +963,9 @@
       "EVENKO CO-PRO WITH LIVE NATION",
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-sydney-1aszk4agkex2k4f",
@@ -957,7 +983,7 @@
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-sydney-centre-200-2-15-2027/production/7658581",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-the-bigger-than-you-sydney-nova-scotia-02-15-2027/event/31006545BE3C6548",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1008,7 +1034,8 @@
     "timezone": "America/Halifax",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308725",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308725/Simple-Plan-tickets-Mon-Feb-15-2027-Centre-200"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308725/Simple-Plan-tickets-Mon-Feb-15-2027-Centre-200",
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-halifax-1ad7z_kgkmojy7e",
@@ -1026,7 +1053,7 @@
     "vividseats_url": "https://www.vividseats.com/simple-plan-tickets-halifax-scotiabank-centre-2-16-2027/production/7658579",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/simple-plan-bigger-than-you-think-halifax-nova-scotia-02-16-2027/event/3100653DE09B9102",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1088,7 +1115,8 @@
         "start": "2026-10-09T13:00:00Z",
         "end": "2027-02-03T02:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-simple-plan-2027-sesto-san-giovanni-zg9rmiynyzff6k",
@@ -1106,7 +1134,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/slam-dunk-italy-2027-con-simple-plan-the-interrupters-billy-talent-the-suicide-machines-and-more-sesto-san-giovanni-11-06-2027/event/tnk6onleyhtk",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1141,6 +1169,7 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZFF6k",
     "timezone": "Europe/Rome",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   }
 ]

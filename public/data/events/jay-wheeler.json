@@ -15,8 +15,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/512986909?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "512986909",
@@ -53,7 +53,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION ESPAÑA ETERNAL WAVES SL"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2026-valencia-z698xz2qz16v4e4u-v",
@@ -71,8 +72,8 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-valencia-roig-arena-12-8-2026--concerts-pop/production/7655495",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/1542576841?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1542576841",
@@ -117,7 +118,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-valencia-roig-arena-8-12-2026/event/107671915",
     "organizer_names": [
       "LIVE NATION ESPAÑA ETERNAL WAVES SL"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2026-bilbao-z698xz2qz1kvb7mek",
@@ -135,8 +137,8 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-bizkaia-bilbao-arena-miribilla-12-10-2026--concerts-pop/production/7655497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/58137086?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "58137086",
@@ -181,7 +183,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-bilbao-bilbao-arena-miribilla-10-12-2026/event/107671917",
     "organizer_names": [
       "LIVE NATION ESPAÑA ETERNAL WAVES SL"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2026-madrid-z698xz2qz16va4ba8-",
@@ -199,8 +202,8 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-madrid-movistar-arena---madrid-12-13-2026--concerts-pop/production/7655499",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/1155605421?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1155605421",
@@ -245,7 +248,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-12-2026/event/107671918",
     "organizer_names": [
       "LIVE NATION ESPAÑA ETERNAL WAVES SL"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2026-barcelona-z698xz2qz1k-ngufw",
@@ -263,8 +267,8 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-barcelona-palau-sant-jordi-12-19-2026--concerts-pop/production/7655503",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/863336232?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "863336232",
@@ -309,7 +313,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-barcelona-palau-sant-jordi-19-12-2026/event/107670995",
     "organizer_names": [
       "LIVE NATION ESPAÑA ETERNAL WAVES SL"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-miami-vvg1vz_f7_l-6l",
@@ -327,7 +332,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-miami-kaseya-center-3-11-2027/production/7653858",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-miami-florida-03-11-2027/event/0D00654119AE11EB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389,7 +394,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-miami-tickets-3-11-2027/event/107671870",
     "organizer_names": [
       "LOUD AND LIVE"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-atlanta-vvg1zz_f288dbv",
@@ -407,7 +413,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-atlanta-coca-cola-roxy-theatre-3-12-2027/production/7654288",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-atlanta-georgia-03-12-2027/event/0E006543D0403EB4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -462,7 +468,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC",
       "COLLECTIVE CONCERTS"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-charlotte-g5evz_f75dxcp",
@@ -480,7 +487,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-charlotte-ovens-auditorium-3-14-2027/production/7653891",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-charlotte-north-carolina-03-14-2027/event/2D0065410BEFEB65",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -531,7 +538,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307354",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307354/Jay-Wheeler-tickets-Sun-Mar-14-2027-Ovens-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307354/Jay-Wheeler-tickets-Sun-Mar-14-2027-Ovens-Auditorium",
+    "ticket_limit": 12,
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-washington-1a4zk4egkd30m3a",
@@ -549,7 +558,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-washington-dar-constitution-hall-3-18-2027/production/7653895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-washington-district-of-columbia-03-18-2027/event/15006542D2937489",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -610,7 +619,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-atlantic-city-vv1aezk4vgkduqubi",
@@ -628,7 +639,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-3-19-2027/production/7654058",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-atlantic-city-new-jersey-03-19-2027/event/02006541CD68DEAC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -679,7 +690,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307356",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307356/Jay-Wheeler-tickets-Fri-Mar-19-2027-Hard-Rock-Live-At-Etess-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307356/Jay-Wheeler-tickets-Fri-Mar-19-2027-Hard-Rock-Live-At-Etess-Arena",
+    "ticket_limit": 8,
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-mashantucket-g5vvz_fp_melk",
@@ -697,7 +710,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-mashantucket-premier-theater-at-foxwoods-resort-casino-3-20-2027/production/7654002",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-tour-mashantucket-connecticut-03-20-2027/event/1D00654599DC27D3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -732,7 +745,8 @@
     },
     "ticketmaster_discovery_event_id": "G5vVZ_fp_MeLK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-brooklyn-1ayzk4vgkebxenn",
@@ -750,7 +764,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-brooklyn-barclays-center-3-24-2027/production/7653992",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-brooklyn-new-york-03-24-2027/event/30006541BAFA78EA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -819,7 +833,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-reading-vv17fz_kgkblt_5x",
@@ -837,7 +853,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-reading-santander-arena-3-25-2027/production/7653970",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-reading-pennsylvania-03-25-2027/event/0200653E9FA592E2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -890,7 +906,9 @@
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307362"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307362",
+    "ticket_limit": 8,
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-boston-vv1avzk4agkejxnem",
@@ -908,7 +926,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-boston-mgm-music-hall-at-fenway-3-27-2027/production/7656372",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-boston-massachusetts-03-27-2027/event/01006545A6FAA9EE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -970,7 +988,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-boston-tickets-3-27-2027/event/107672213",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-rosemont-vv178z_kgkbjdkxl",
@@ -988,7 +1007,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-rosemont-rosemont-theatre-4-2-2027/production/7654062",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-rosemont-illinois-04-02-2027/event/0400653E9C0C6FAB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1046,7 +1065,9 @@
         "start": "2026-10-09T16:00:00Z",
         "end": "2027-03-26T22:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-denver-g5vzz_f20_jhu",
@@ -1064,7 +1085,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-denver-fillmore-auditorium-denver-4-4-2027/production/7653984",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-denver-colorado-04-04-2027/event/1E006543E465C6CD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1117,7 +1138,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307364"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307364",
+    "ticket_limit": 8,
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-irving-vvg1yz_f8nrws_",
@@ -1135,7 +1158,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-irving-pavilion-at-toyota-music-factory-4-6-2027/production/7654066",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-irving-irving-texas-04-06-2027/event/0C006544237B2CD9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1189,7 +1212,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307366/Jay-Wheeler-tickets-Tue-Apr-6-2027-The-Pavilion-at-Toyota-Music-Factory",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-houston-g5diz_f62ij1f",
@@ -1207,7 +1232,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-houston-713-music-hall-4-7-2027/production/7654072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-houston-houston-texas-04-07-2027/event/3A006541CFA26294",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1269,7 +1294,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-houston-tickets-4-7-2027/event/107671877",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-inglewood-vvg1iz_f8af9cn",
@@ -1287,7 +1314,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-inglewood-youtube-theater-4-10-2027/production/7654128",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-tour-inglewood-california-04-10-2027/event/0A00654405517B6A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1349,7 +1376,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-inglewood-tickets-4-10-2027/event/107671878"
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-inglewood-tickets-4-10-2027/event/107671878",
+    "ticket_limit": 8,
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-orlando-1axzk4vgkd6tfj5",
@@ -1367,7 +1396,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-orlando-kia-center-4-15-2027/production/7654104",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-orlando-florida-04-15-2027/event/22006541C7FD498B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1433,7 +1462,9 @@
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-04-08T21:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-estero-vvg1vz9zkibwmk",
@@ -1451,7 +1482,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-estero-hertz-arena-3-7-2027/production/7653850",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-estero-florida-03-07-2027/event/0D005F81A8632DC6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1506,7 +1537,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/6151204/Jay-Wheeler-tickets-Sun-Mar-7-2027-Hertz-Arena",
     "organizer_names": [
       "LOUD AND LIVE"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-jay-wheeler-2027-mexico-16fzkfupgza8kga7",
@@ -1524,7 +1556,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/jay-wheeler-mexico-16-05-2027/event/14006536975F5B43",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1570,6 +1602,7 @@
     "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-mexico-city-pepsi-center-wtc-16-5-2027/event/107672154",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   }
 ]

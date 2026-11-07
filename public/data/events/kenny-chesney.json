@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-tampa-raymond-james-stadium-4-24-2027--concerts-country-and-folk/production/7557268",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-tampa-florida-04-24-2027/event/0D0065289B0D5C6F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -89,7 +89,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-greenville-z7r9jz1aavsad",
@@ -107,7 +108,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-greenville-dowdy-ficklen-stadium-5-1-2027--concerts-country-and-folk/production/7557272",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsAd",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -158,7 +159,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265769",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265769/Kenny-Chesney-tickets-Sat-May-1-2027-Dowdy-Ficklen-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265769/Kenny-Chesney-tickets-Sat-May-1-2027-Dowdy-Ficklen-Stadium",
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-arlington-z7r9jz1aavsa7",
@@ -176,7 +178,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsA7",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -235,7 +237,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265770",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265770/Kenny-Chesney-tickets-Sat-May-8-2027-ATT-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-arlington-tickets-5-8-2027/event/107668526"
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-arlington-tickets-5-8-2027/event/107668526",
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-saint-louis-vv1kvovpfigaupvvy",
@@ -253,7 +256,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-saint-louis-missouri-05-15-2027/event/060065228D5B4D30",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -303,7 +306,9 @@
     ],
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-minneapolis-vv1akzkf0gkdyrnq8",
@@ -321,7 +326,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-minneapolis-us-bank-stadium-5-22-2027/production/7557276",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-minneapolis-minnesota-05-22-2027/event/06006524F97AA750",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -374,7 +379,8 @@
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265774"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265774",
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-pittsburgh-1apzkfxgkdbuj3l",
@@ -392,7 +398,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-pittsburgh-acrisure-stadium-5-29-2027/production/7557270",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-pittsburgh-pennsylvania-05-29-2027/event/16006522D835C49F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -466,7 +472,8 @@
     ],
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-ames-vv1kbz_3x6g7cusy",
@@ -484,7 +491,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-ames-midamerican-energy-field-at-jack-trice-stadium-6-5-2027--concerts-country-and-folk/production/7557294",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-ames-iowa-06-05-2027/event/0600652887B76C70",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -526,7 +533,8 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-05-15T22:00:00Z"
       }
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-philadelphia-vv1aezkfigkdubjp8",
@@ -544,7 +552,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-philadelphia-lincoln-financial-field-6-12-2027/production/7557292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-philadelphia-pennsylvania-06-12-2027/event/02006528CD61C950",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -628,7 +636,9 @@
     ],
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-orchard-park-vv1adzkfngkd3refj",
@@ -646,7 +656,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-orchard-park-highmark-stadium-6-19-2027/production/7557365",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-orchard-park-new-york-06-19-2027/event/03006523D2BC221C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -707,7 +717,9 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-chicago-vv1f8z_3ao7xzd2g1",
@@ -725,7 +737,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-chicago-soldier-field-6-26-2027/production/7557266",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-chicago-illinois-06-26-2027/event/0400652251122EB9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -796,7 +808,9 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-06-26T22:30:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-nashville-z7r9jz1aavsaa",
@@ -814,7 +828,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-nashville-nissan-stadium-7-3-2027/production/7557280",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvsAA",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -865,7 +879,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265780",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265780/Kenny-Chesney-tickets-Sat-Jul-3-2027-New-Nissan-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265780/Kenny-Chesney-tickets-Sat-Jul-3-2027-New-Nissan-Stadium",
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-milwaukee-vv1a6zkftgkdfvyq7",
@@ -883,7 +898,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-milwaukee-american-family-field-7-10-2027/production/7557296",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-milwaukee-wisconsin-07-10-2027/event/07006529C8079684",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -950,7 +965,9 @@
     "organizer_names": [
       "THE MESSINA GROUP (TMG)",
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-denver-g5vzz_3k6u08y",
@@ -968,7 +985,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-denver-empower-field-at-mile-high-7-17-2027/production/7557284",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-denver-colorado-07-17-2027/event/1E006524C7364439",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1025,11 +1042,17 @@
         "name": "VIP Packages Onsale",
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-06-26T23:00:00Z"
+      },
+      {
+        "name": "Ticket Deals",
+        "start": "2026-11-27T17:00:00Z",
+        "end": "2027-01-01T05:00:00Z"
       }
     ],
     "organizer_names": [
       "AEG - TICKETING"
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-kansas-city-vv1akzkfxgkdkijos",
@@ -1047,7 +1070,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-kansas-city-arrowhead-stadium-7-24-2027/production/7557278",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-kansas-city-missouri-07-24-2027/event/06006522C6B1C471",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1108,7 +1131,9 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-atlanta-vvg1zz_3x03by9",
@@ -1126,7 +1151,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-atlanta-mercedes-benz-stadium-7-31-2027/production/7557282",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-atlanta-georgia-07-31-2027/event/0E006528A4498C17",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1197,7 +1222,9 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-07-27T03:45:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-east-rutherford-k7vgf_3cwtd0z",
@@ -1215,7 +1242,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-east-rutherford-metlife-stadium-8-7-2027/production/7557286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-east-rutherford-new-jersey-08-07-2027/event/00006523B2A43938",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1281,7 +1308,9 @@
         "end": "2027-07-17T21:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-east-rutherford-tickets-7-7-2027/event/107668126"
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-east-rutherford-tickets-7-7-2027/event/107668126",
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-detroit-vv17oz_8gkmnwpji",
@@ -1299,7 +1328,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-detroit-ford-field-8-14-2027/production/7557288",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-detroit-michigan-08-14-2027/event/0800650BAAF6572C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1357,7 +1386,8 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-07-24T21:00:00Z"
       }
-    ]
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-charlotte-g5evz_3c19bfo",
@@ -1375,7 +1405,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-charlotte-bank-of-america-stadium-8-21-2027/production/7557298",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-charlotte-north-carolina-08-21-2027/event/2D0065238A5D8520",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1436,7 +1466,9 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-foxborough-vv177z_3gkt1lkmv",
@@ -1454,7 +1486,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-foxborough-gillette-stadium-8-27-2027--concerts-country-and-folk/production/7587267",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-foxborough-massachusetts-08-27-2027/event/0100652FCAAD3B81",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1523,7 +1555,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-27-2027/event/107672442",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-kenny-chesney-2027-foxborough-vv1avzkfxgkdu8gfo",
@@ -1541,7 +1575,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-foxborough-gillette-stadium-8-28-2027/production/7557260",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-foxborough-massachusetts-08-28-2027/event/01006522CD435520",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1610,6 +1644,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   }
 ]

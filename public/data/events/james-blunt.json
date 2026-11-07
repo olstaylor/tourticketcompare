@@ -15,8 +15,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/james-blunt-tickets/1466204350",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1466204350",
@@ -53,7 +53,8 @@
     "status": "on-sale",
     "organizer_names": [
       "FKP Scorpio Belgium"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-praha-9-z698xzu0z1ague3f",
@@ -71,8 +72,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/james-blunt-tickets/35342494?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "35342494",
@@ -109,7 +110,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Bestsport, a.s."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-oslo-z698xzb_z16vojuapy",
@@ -127,8 +129,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/james-blunt-tickets/1466349979?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1466349979",
@@ -173,7 +175,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-oslo-oslo-spektrum-16-3-2027/event/107665757",
     "organizer_names": [
       "Oslo Spektrum AS (FKP Scorpio)"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-leeds-g5vhz_8rglm2f",
@@ -191,7 +194,7 @@
     "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-leeds-first-direct-arena---leeds-3-26-2027--concerts-pop/production/7534516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-leeds-26-03-2027/event/1F00650BF57F73D4",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -229,7 +232,9 @@
     "status": "on-sale",
     "organizer_names": [
       "DAYBROOK HOUSE LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-birmingham-16nzkfo03zag7vec",
@@ -247,7 +252,7 @@
     "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-3-27-2027/production/7528674",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-birmingham-27-03-2027/event/23006511912B301D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -309,7 +314,9 @@
       "DAYBROOK HOUSE LIMITED"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356240",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8356240/James-Blunt-tickets-Sat-Mar-27-2027-bp-pulse-LIVE"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8356240/James-Blunt-tickets-Sat-Mar-27-2027-bp-pulse-LIVE",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-newcastle-upon-tyne-g5vhz_8jzh5mu",
@@ -327,7 +334,7 @@
     "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-newcastle-upon-tyne-utilita-arena-newcastle-3-28-2027/production/7530268",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-newcastle-upon-tyne-28-03-2027/event/1F006507386CBDF6",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365,7 +372,9 @@
     "status": "on-sale",
     "organizer_names": [
       "DAYBROOK HOUSE LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-dublin-16bzkf7x3zaufauu",
@@ -383,7 +392,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/james-blunt-dublin-30-03-2027/event/18006504892C74CC",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422,7 +431,9 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "SINGULAR ARTISTS"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-belfast-16doz_oxog7v-fd",
@@ -440,7 +451,7 @@
     "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-belfast-the-o2---belfast-3-31-2027--concerts-pop/production/7534518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/james-blunt-belfast-31-03-2027/event/3800651891D21203",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -495,7 +506,9 @@
     "organizer_names": [
       "SINGULAR ARTISTS",
       "O2"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-glasgow-1auzkfkgkdju5kw",
@@ -513,7 +526,7 @@
     "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-glasgow-ovo-hydro-4-2-2027/production/7530133",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-glasgow-02-04-2027/event/36006513DCD8B1BD",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -576,7 +589,9 @@
     "organizer_names": [
       "REGULAR LIMITED",
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-manchester-1amzkfkgkdv2srk",
@@ -594,7 +609,7 @@
     "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-manchester-co-op-live-4-3-2027--concerts-pop/production/7514723",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-manchester-03-04-2027/event/37006506C13F1BD3",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -656,7 +671,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-manchester-co-op-live-3-4-2027/event/107665852",
     "organizer_names": [
       "DAYBROOK HOUSE LIMITED"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-london-1agzkf6gkdpobqq",
@@ -674,7 +690,7 @@
     "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-london-the-o2---london-4-4-2027/production/7528612",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-london-04-04-2027/event/35006507E545875A",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -720,7 +736,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-london-the-o2-arena-4-4-2027/event/107665853",
     "organizer_names": [
       "DAYBROOK HOUSE LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-cardiff-16dbz_8pkg7i-jy",
@@ -738,7 +756,7 @@
     "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-cardiff-utilita-arena-cardiff-4-6-2027/production/7530135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-cardiff-06-04-2027/event/3600650593B21739",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -785,7 +803,9 @@
     "organizer_names": [
       "DH PROMOTIONS",
       "LIVE NATION MUSIC (VENUES) LTD (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-bournemouth-16uzkf6oaza5auua",
@@ -803,7 +823,7 @@
     "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-bournemouth-bournemouth-international-centre-4-7-2027/production/7530270",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-bournemouth-07-04-2027/event/36006507449A8CC8",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -849,7 +869,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-bournemouth-bournemouth-international-centre-7-4-2027/event/107665855",
     "organizer_names": [
       "DAYBROOK HOUSE LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-brighton-g5dzz_8l-leuz",
@@ -867,7 +889,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-brighton-08-04-2027/event/3E006507E1AC2378",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -914,6 +936,8 @@
     "organizer_names": [
       "DH PROMOTIONS",
       "THE BRIGHTON CENTRE (BRIGHTON & HOVE CITY COUNCIL)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   }
 ]

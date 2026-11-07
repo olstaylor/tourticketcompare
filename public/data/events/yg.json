@@ -84,7 +84,7 @@
     "vividseats_url": "https://www.vividseats.com/yg---keenon-jackson-tickets-honolulu-the-republik---honolulu-11-7-2026--concerts-rap-hip-hop/production/7331146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAjy",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +135,8 @@
     "timezone": "Pacific/Honolulu",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8159331",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8159331/YG-tickets-Sat-Nov-7-2026-The-Republik-Honolulu"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8159331/YG-tickets-Sat-Nov-7-2026-The-Republik-Honolulu",
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-yg-2026-oakland-g5vyz_u2lcdvy",
@@ -153,7 +154,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yg-the-gentlemens-club-tour-oakland-california-12-19-2026/event/1C0064D3DF3BB079",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -208,6 +209,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Hip-Hop/Rap"
   }
 ]

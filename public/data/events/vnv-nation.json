@@ -368,7 +368,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/vnv-nation-limerick-city-30-01-2027/event/1800636A9D4FC64B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -407,7 +407,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "DOLANS PUB & RESTAURANT"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-glasgow-16dbzbuq4g7ljkl",
@@ -425,7 +426,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/vnv-nation-glasgow-01-02-2027/event/3600636695AE61AB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -464,7 +465,9 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "SENBLA LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-nashville-rz7hnez1affnz0",
@@ -482,8 +485,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/vnv-nation-an-exitin-tickets/14223024",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "14223024",
@@ -533,7 +536,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8095650",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8095650/VNV-Nation-tickets-Tue-Mar-9-2027-Exit-In"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8095650/VNV-Nation-tickets-Tue-Mar-9-2027-Exit-In",
+    "genre": "Alternative"
   },
   {
     "id": "tm-vnv-nation-2027-ft-lauderdale-vvg1vzbvdf3u-x",
@@ -551,7 +555,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-ft-lauderdale-florida-03-12-2027/event/0D00634ED44B687E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -587,7 +591,8 @@
     "ticketmaster_discovery_event_id": "vvG1VZbVDf3U-X",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-mesa-z7r9jz1a7qp8u",
@@ -662,7 +667,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-san-diego-california-03-19-2027/event/0A00634AB6C469D2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -717,7 +722,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7610204/VNV-Nation-tickets-Fri-Mar-19-2027-House-Of-Blues-San-Diego",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-los-angeles-vv170zbvgklj1kgc",
@@ -735,7 +742,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-los-angeles-california-03-20-2027/event/0900634AE6286D6D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -774,7 +781,9 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-san-francisco-g5vyzbvdfhbds",
@@ -792,7 +801,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-san-francisco-california-03-21-2027/event/1C00634EC8F3AEF3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -854,7 +863,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7493673/VNV-Nation-tickets-Sun-Mar-21-2027-August-Hall",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-seattle-vvg1hzbvl3-6jq",
@@ -872,7 +882,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-seattle-washington-03-24-2027/event/0F00634AD284799A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -927,7 +937,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7496081/VNV-Nation-tickets-Wed-Mar-24-2027-The-Neptune-Theatre",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-omaha-z7r9jz1a7q0ef",
@@ -1015,7 +1027,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-detroit-michigan-04-02-2027/event/08006349A26A1BA2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1061,7 +1073,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-cleveland-vv1kfzbv0wg7mfd6",
@@ -1079,7 +1093,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-cleveland-ohio-04-03-2027/event/0500634932B88EC7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1134,7 +1148,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7493671/VNV-Nation-tickets-Sat-Apr-3-2027-House-Of-Blues-Cleveland",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-toronto-1avzzbvgkvjgkmw",
@@ -1152,7 +1168,7 @@
     "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-toronto-the-danforth-music-hall-4-4-2027/production/7237610",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/vnv-nation-an-evening-with-toronto-ontario-04-04-2027/event/1000634D26306DF2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1192,7 +1208,10 @@
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-montreal-1ad7zbvgklrkbrt",
@@ -1210,7 +1229,7 @@
     "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-montreal-beanfield-theatre-4-6-2027/production/7237583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/vnv-nation-montreal-quebec-04-06-2027/event/3100634ADE4D87A9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1265,7 +1284,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7498713/VNV-Nation-tickets-Tue-Apr-6-2027-Theatre-Beanfield",
     "organizer_names": [
       "EVENKO CO-PRO NON-LN"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-boston-vv177zbvgkmc0qfx",
@@ -1283,7 +1304,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-vnv-nation-18-boston-massachusetts-04-07-2027/event/0100634DED91D53E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1338,7 +1359,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7503826/VNV-Nation-tickets-Wed-Apr-7-2027-Paradise-Rock-Club-Presented-by-Citizens",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-brooklyn-k7vgfbvbkdnzs",
@@ -1356,7 +1378,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-brooklyn-new-york-04-09-2027/event/0000634E930E3E33",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1411,7 +1433,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7495786/VNV-Nation-tickets-Fri-Apr-9-2027-Warsaw",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-baltimore-1avfzbvgklmrqky",
@@ -1429,7 +1453,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-baltimore-maryland-04-10-2027/event/1500634AEE79A4F0",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1481,7 +1505,9 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7665363",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7665363/VNV-Nation-tickets-Sat-Apr-10-2027-Baltimore-Soundstage"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7665363/VNV-Nation-tickets-Sat-Apr-10-2027-Baltimore-Soundstage",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-vnv-nation-2027-millvale-rz7hnez1afbaps",
@@ -1499,8 +1525,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/rescheduled-an-evening-mr-smalls-theatre-tickets/14609973",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "14609973",

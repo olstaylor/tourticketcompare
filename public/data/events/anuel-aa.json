@@ -71,7 +71,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/anuel-aa-monterrey-08-04-2027/event/3D0064778E0D356F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -114,7 +114,8 @@
     "ticketmaster_discovery_event_id": "G5dVZ_6rCdK4R",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/anuel-aa-tickets-monterrey-estadio-borregos-estadio-banorte-8-4-2027/event/107167139"
+    "stubhub_international_url": "https://www.stubhub.ie/anuel-aa-tickets-monterrey-estadio-borregos-estadio-banorte-8-4-2027/event/107167139",
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-anuel-aa-2027-zapopan-g5dvz_6raf6md",
@@ -132,7 +133,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/anuel-aa-zapopan-15-04-2027/event/3D00647BC5207BBB",
-    "last_verified_at": "2026-10-26",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178,6 +179,7 @@
     "stubhub_international_url": "https://www.stubhub.ie/anuel-aa-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-15-4-2027/event/107162864",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Hip-Hop/Rap"
   }
 ]

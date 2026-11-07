@@ -697,7 +697,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-new-york-manhattan-center-hammerstein-ballroom-11-7-2026/production/7163785",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-new-york-new-york-11-07-2026/event/000064CAA762E1A9",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -735,7 +735,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-baltimore-17a8v0g6gxtb5eg",
@@ -753,7 +755,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-baltimore-maryland-11-08-2026/event/150064C8BFE8B9F5",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -807,7 +809,9 @@
     "organizer_names": [
       "LIVE NATION - NO LN CONCERTS BRANDING"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053963"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053963",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-charlotte-g5evz_gnuzybg",
@@ -825,7 +829,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-charlotte-the-fillmore-charlotte-11-11-2026/production/7163534",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-charlotte-north-carolina-11-11-2026/event/2D0064CA8DE39EB5",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -879,7 +883,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053964"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053964",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-sleeping-with-sirens-2026-atlanta-z7r9jz1a7p_aa",
@@ -897,7 +903,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-atlanta-the-eastern-11-12-2026/production/7165467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P_AA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -948,7 +954,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8053972/Sleeping-With-Sirens-tickets-Thu-Nov-12-2026-The-Eastern-GA",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053972"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8053972",
+    "genre": "Rock"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-bristol-17u8v0g6gfkrxfj",
@@ -966,7 +973,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-bristol-02-03-2027/event/350064C206BFE21C",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1012,7 +1019,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-bristol-the-prospect-building-2-3-2027/event/107300077",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-glasgow-g5dzz_g5isp0f",
@@ -1030,7 +1039,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-glasgow-03-03-2027/event/3E0064C2E8CD6908",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1078,7 +1087,8 @@
       "KILIMANJARO",
       "ACADEMY MUSIC GROUP (O2 ACADEMY GLASGOW)",
       "TRIPLE G MUSIC LTD"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-manchester-g5vhz_gfgtq6v",
@@ -1096,7 +1106,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-manchester-05-03-2027/event/1F0064C20CA5D1F4",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1142,7 +1152,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/sleeping-with-sirens-tickets-manchester-manchester-academy-5-3-2027/event/107301078",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-birmingham-g5dzz_5wuo0od",
@@ -1160,7 +1172,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-birmingham-06-03-2027/event/3E0064BCB6824443",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1222,7 +1234,8 @@
     "organizer_names": [
       "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127272"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127272",
+    "genre": "Rock"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-london-g5dzz_g5cip1i",
@@ -1240,7 +1253,7 @@
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-london-o2-academy-brixton-3-7-2027/production/7131884",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-london-07-03-2027/event/3E0064C2CEA252AC",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1303,7 +1316,8 @@
       "KILIMANJARO",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8050887"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8050887",
+    "genre": "Rock"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-brisbane-1akzkfygkeprtzf",
@@ -1321,7 +1335,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/an-ending-in-itself-tour-sleeping-brisbane-03-04-2027/event/13006539A57A9E14",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1359,7 +1373,8 @@
     "status": "on-sale",
     "organizer_names": [
       "DESTROY ALL LINES"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sleeping-with-sirens-2027-west-melbourne-1avgz_kgkwtduwz",
@@ -1377,7 +1392,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/an-ending-in-itself-tour-sleeping-west-melbourne-06-04-2027/event/1300653CBFEF6F40",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1415,6 +1430,8 @@
     "status": "on-sale",
     "organizer_names": [
       "DESTROY ALL LINES"
-    ]
+    ],
+    "ticket_limit": 2,
+    "genre": "Rock"
   }
 ]

@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-nottingham-05-02-2027/event/1F0064ADA4A74246",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -53,7 +53,9 @@
     "status": "on-sale",
     "organizer_names": [
       "DAYBROOK HOUSE LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-glasgow-17uov0g61uju3tk",
@@ -71,7 +73,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-glasgow-06-02-2027/event/360064AD9CD92A53",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -109,7 +111,9 @@
     "status": "on-sale",
     "organizer_names": [
       "TRIPLE G EVENTS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-manchester-g5dzz_1mez0ds",
@@ -127,7 +131,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-manchester-09-02-2027/event/3E0064ADC2E24EF1",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -166,7 +170,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "ACADEMY MUSIC GROUP (O2 RITZ MANCHESTER)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-london-g5dzz_1tbseag",
@@ -184,7 +190,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/theory-of-a-deadman-london-11-02-2027/event/3E0064AFFACE724C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -223,7 +229,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "ACADEMY MUSIC GROUP (O2 SHEPHERD'S BUSH EMPIRE)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-amsterdam-z698xzbpz16vffqn4a",
@@ -241,8 +249,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/theory-of-a-deadman-tickets/1508763549?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1508763549",
@@ -294,7 +302,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-halifax-light-house-arts-centre-3-5-2027/production/7534936",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAv0Ak",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -345,7 +353,8 @@
     "timezone": "America/Halifax",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255029",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255029/Theory-Of-A-Deadman-tickets-Fri-Mar-5-2027-Light-House-Arts-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255029/Theory-Of-A-Deadman-tickets-Fri-Mar-5-2027-Light-House-Arts-Centre",
+    "genre": "Alternative"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-moncton-16d7z_31_g7xauw",
@@ -363,7 +372,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-moncton-molson-canadian-centre-at-casino-new-brunswick-3-6-2027/production/7532261",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-moncton-new-brunswick-03-06-2027/event/3100652299F85372",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -425,7 +434,9 @@
         "start": "2026-09-11T13:00:00Z",
         "end": "2027-02-21T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-quebec-1aszkf04if8zegk",
@@ -443,7 +454,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-quebec-city-capitole-theatre-3-8-2027/production/7532222",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-quebec-quebec-03-08-2027/event/31006524568510B5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -494,7 +505,9 @@
     "timezone": "America/Toronto",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254013",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8254013/Theory-Of-A-Deadman-tickets-Mon-Mar-8-2027-Le-Theatre-Capitole"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8254013/Theory-Of-A-Deadman-tickets-Mon-Mar-8-2027-Le-Theatre-Capitole",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-montreal-1aszkfxgkerzpy6",
@@ -512,7 +525,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-montreal-mtelus-3-9-2027/production/7532210",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-montreal-quebec-03-09-2027/event/31006522AF016E47",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -566,7 +579,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8254014/Theory-Of-A-Deadman-tickets-Tue-Mar-9-2027-MTelus",
     "organizer_names": [
       "EVENKO CO-PRO NON-LN"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-ottawa-1aszkfngkedu_z0",
@@ -584,7 +599,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-gloucester-hard-rock-hotel-and-casino-ottawa-3-11-2027/production/7532230",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-ottawa-ontario-03-11-2027/event/31006523BBD99024",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -631,7 +646,10 @@
         "start": "2026-09-11T14:00:00Z",
         "end": "2027-02-26T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-rama-1a8zkfngkeitbvf",
@@ -649,7 +667,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-rama-casino-rama-3-12-2027/production/7532425",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-rama-ontario-03-12-2027/event/10006523A8A58D08",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -691,7 +709,9 @@
         "start": "2026-11-27T15:00:00Z",
         "end": "2027-01-01T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-toronto-1a8zkfngked-56c",
@@ -709,7 +729,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-toronto-ontario-03-13-2027/event/10006523BB84B1ED",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -750,7 +770,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-windsor-1avzz_ogktpe4kz",
@@ -768,7 +790,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-windsor-the-colosseum-at-caesars-windsor-3-17-2027/production/7519353",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-windsor-ontario-03-17-2027/event/1000651FD69D54F8",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -806,7 +828,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-thunder-bay-1avzz_ogkrpopru",
@@ -824,7 +848,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadmanthe-northern-chaos-thunder-bay-ontario-03-19-2027/event/1000651BD646578D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -859,7 +883,9 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_oGkRpoPru",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-winnipeg-1av7z_ogkxutibu",
@@ -877,7 +903,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-winnipeg-burton-cummings-theatre-3-20-2027/production/7532259",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-winnipeg-manitoba-03-20-2027/event/1100651FB6A68E8D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -941,7 +967,9 @@
         "start": "2026-09-11T15:00:00Z",
         "end": "2027-03-07T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-regina-z7r9jz1aavxpg",
@@ -959,7 +987,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvxPg",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -994,7 +1022,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvxPg",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-enoch-1aozkfngkdgjwil",
@@ -1012,7 +1041,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-enoch-river-cree-casino-3-24-2027/production/7534783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-enoch-alberta-03-24-2027/event/11006523F59BDB1F",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1054,7 +1083,10 @@
         "start": "2026-09-09T16:00:00Z",
         "end": "2027-03-25T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-calgary-1av7z_ogkn_kbte",
@@ -1072,7 +1104,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-calgary-southern-alberta-jubilee-auditorium-3-25-2027/production/7532257",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-calgary-alberta-03-25-2027/event/1100651A99198FE7",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1129,7 +1161,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-dawson-creek-z7r9jz1aavxjp",
@@ -1147,7 +1181,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-dawson-creek-ovintiv-events-centre-3-27-2027/production/7532010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvxJp",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1182,7 +1216,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvxJp",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-vancouver-1av7z_ogknc7mrb",
@@ -1200,7 +1235,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-vancouver-queen-elizabeth-theatre---vancouver-3-31-2027/production/7532178",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-vancouver-british-columbia-03-31-2027/event/1100651A8E137798",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1257,6 +1292,8 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   }
 ]

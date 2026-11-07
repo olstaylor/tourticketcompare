@@ -1961,7 +1961,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-portland-moda-center-11-8-2026--concerts-rb/production/6912006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-portland-oregon-11-08-2026/event/0F00648E91EC6BD7",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2030,7 +2030,9 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2026-san-francisco-g5vyz_fnhi2ez",
@@ -2048,7 +2050,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-san-francisco-chase-center-11-10-2026--concerts-rb/production/6912010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-san-francisco-california-11-10-2026/event/1C00648ABCA0F080",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2123,7 +2125,8 @@
     "organizer_names": [
       "AEG LIVE",
       "ANOTHER PLANET"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2026-sacramento-g5vyz_fmsnbtg",
@@ -2141,7 +2144,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-sacramento-golden-1-center-11-11-2026--concerts-rb/production/6912016",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-sacramento-california-11-11-2026/event/1C00648DF18D8FCC",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2210,7 +2213,9 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2026-san-diego-z7r9jz1a7xpf-",
@@ -2374,7 +2379,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-phoenix-mortgage-matchup-center-11-16-2026--concerts-rb/production/6912020",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-phoenix-arizona-11-16-2026/event/1900648EA3255E97",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2436,7 +2441,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-phoenix-tickets-11-16-2026/event/107158280",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2026-inglewood-vv170z_fgkmxw1os",
@@ -2454,7 +2461,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-inglewood-kia-forum-11-18-2026--concerts-rb/production/6912024",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-inglewood-california-11-18-2026/event/0900648DE2F4A831",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2528,7 +2535,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2027-berlin-z698xzc2z16v8g0v0d",
@@ -2546,8 +2554,8 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-berlin-uber-arena-3-11-2027--concerts-rb/production/7348582",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/teddy-swims-the-ugly-tour-tickets/1435901903?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1435901903",
@@ -2608,7 +2616,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-berlin-uber-arena-11-3-2027/event/107458277",
     "organizer_names": [
       "Live Nation GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-teddy-swims-2027-amsterdam-z698xzbpz16vajo8c6",
@@ -2626,8 +2635,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/teddy-swims-the-ugly-tour-tickets/1166810387?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1166810387",
@@ -2688,7 +2697,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-16-3-2027/event/107455905",
     "organizer_names": [
       "Mojo Concerts"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-teddy-swims-2027-amsterdam-z698xzbpz1kb300fz",
@@ -2706,8 +2716,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/teddy-swims-the-ugly-tour-tickets/612924200?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "612924200",
@@ -2768,7 +2778,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-17-3-2027/event/107460175",
     "organizer_names": [
       "Mojo Concerts"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-teddy-swims-2027-amsterdam-z698xzbpz16vckf4-9",
@@ -2786,8 +2797,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/teddy-swims-the-ugly-tour-tickets/1393515857?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1393515857",
@@ -2832,7 +2843,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-18-3-2027/event/107460176",
     "organizer_names": [
       "Mojo Concerts"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z1kf7vp3p",
@@ -2850,8 +2862,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/teddy-swims-the-ugly-tour-tickets/204056496",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "204056496",
@@ -2888,7 +2900,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z16v_sztub",
@@ -2906,8 +2919,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/teddy-swims-the-ugly-tour-tickets/1671029358",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1671029358",
@@ -2944,7 +2957,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-teddy-swims-2027-glasgow-17uov0g62qlspvu",
@@ -2962,7 +2976,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-glasgow-ovo-hydro-4-13-2027/production/7347709",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-glasgow-13-04-2027/event/360064F69FC65D0D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3025,7 +3039,9 @@
     "organizer_names": [
       "METROPOLIS MUSIC",
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2027-manchester-17uyv0g62pcoosz",
@@ -3043,7 +3059,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-manchester-co-op-live-4-16-2027/production/7346474",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-16-04-2027/event/370064F5AD451CF8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3105,7 +3121,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-16-4-2027/event/107455914",
     "organizer_names": [
       "METROPOLIS MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2027-manchester-17uyv0g62m2z8vc",
@@ -3123,7 +3141,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-manchester-co-op-live-4-17-2027/production/7367121",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-17-04-2027/event/370064FB8FE10D2D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3185,7 +3203,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8230821/Teddy-Swims-tickets-Sat-Apr-17-2027-Co-Op-Live",
     "organizer_names": [
       "METROPOLIS MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2027-london-17u8v0g6253xeaz",
@@ -3203,7 +3223,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-21-2027/production/7346470",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-21-04-2027/event/350064F2D28A7140",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3246,7 +3266,9 @@
     "ticketmaster_discovery_event_id": "17u8v0G6253xEAZ",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-21-4-2027/event/107455915"
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-21-4-2027/event/107455915",
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2027-london-17u8v0g623cnnvk",
@@ -3264,7 +3286,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-22-2027/production/7367117",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-22-04-2027/event/350064F4AD8E3046",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3307,7 +3329,9 @@
     "ticketmaster_discovery_event_id": "17u8v0G623cNNvk",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-22-4-2027/event/107460173"
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-22-4-2027/event/107460173",
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2027-london-17u8v0g623yvkkm",
@@ -3325,7 +3349,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-24-2027--concerts-rb/production/7393273",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-24-04-2027/event/350064F4B00531B7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3368,7 +3392,9 @@
     "ticketmaster_discovery_event_id": "17u8v0G623YvKkM",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-24-4-2027/event/107469438"
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-24-4-2027/event/107469438",
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2027-manchester-17uyv0g62mo98gp",
@@ -3386,7 +3412,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-manchester-co-op-live-4-18-2027--concerts-rb/production/7473826",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-manchester-18-04-2027/event/370064FB915D0D56",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3448,7 +3474,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-18-4-2027/event/107482769",
     "organizer_names": [
       "METROPOLIS MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2027-greenwich-z7r9jz1aav0v4",
@@ -3572,7 +3600,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-08-04-2027/event/180064F1E3D686DC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3627,7 +3655,9 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2027-dublin-17kzv0g6260hbxf",
@@ -3645,7 +3675,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/teddy-swims-the-ugly-tour-dublin-09-04-2027/event/180064F1E46D8F94",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3700,7 +3730,9 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2027-london-17u8v0g623nj3ov",
@@ -3718,7 +3750,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-london-the-o2---london-4-25-2027/production/7598530",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-london-25-04-2027/event/350064F4A3712441",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3761,7 +3793,9 @@
     "ticketmaster_discovery_event_id": "17u8v0G623Nj3ov",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-25-4-2027/event/107669573"
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-25-4-2027/event/107669573",
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-teddy-swims-2027-hamburg-z698xzc2z16vpvz6g3",
@@ -3779,8 +3813,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/teddy-swims-the-ugly-tour-tickets/1581007312?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1581007312",
@@ -3841,7 +3875,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-hamburg-barclays-arena-hamburg-10-3-2027/event/107458276",
     "organizer_names": [
       "Live Nation GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-teddy-swims-2027-fornebu-z698xzb_z1aakf8y",
@@ -3859,8 +3894,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/teddy-swims-the-ugly-tour-tickets/5194439?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "5194439",
@@ -3913,7 +3948,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167502/Teddy-Swims-tickets-Tue-Mar-2-2027-Unity-Arena",
     "organizer_names": [
       "Live Nation Norway AS"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-teddy-swims-2027-praha-9-z698xzu0z1kq9x78k",
@@ -3931,8 +3967,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/teddy-swims--the-ugly-tour-tickets/697884406?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "697884406",
@@ -3969,6 +4005,7 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
-    ]
+    ],
+    "genre": "Rock"
   }
 ]

@@ -68,7 +68,7 @@
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-atlanta-coca-cola-roxy-theatre-12-19-2026/production/7505946",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yacht-rock-revue-the-18th-annual-atlanta-georgia-12-19-2026/event/0E006519CE44EF8B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -122,7 +122,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244362/Yacht-Rock-Revue-tickets-Sat-Dec-19-2026-Coca-Cola-Roxy",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-yacht-rock-revue-2027-englewood-k7vgf_k9ovli-",
@@ -140,7 +141,7 @@
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-englewood-bergen-performing-arts-center-1-7-2027/production/7593530",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-englewood-new-jersey-01-07-2027/event/00006535E0D1FB21",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -191,7 +192,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284472",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284472/Yacht-Rock-Revue-tickets-Thu-Jan-7-2027-Bergen-Performing-Arts-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284472/Yacht-Rock-Revue-tickets-Thu-Jan-7-2027-Bergen-Performing-Arts-Center",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-yacht-rock-revue-2027-huntington-k7vgf_31y4afw",
@@ -209,7 +212,7 @@
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-8-2027/production/7593536",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-08-2027/event/00006522B954953D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -255,7 +258,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284473"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284473",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-yacht-rock-revue-2027-huntington-k7vgf_31ykyfq",
@@ -273,7 +278,7 @@
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-9-2027/production/7593532",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-09-2027/event/00006522B94F951D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -319,7 +324,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284474"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284474",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-yacht-rock-revue-2027-huntington-k7vgf_31y3tkt",
@@ -337,7 +344,7 @@
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-10-2027/production/7593540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-10-2027/event/00006522B94A94E9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -383,7 +390,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284475"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284475",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-yacht-rock-revue-2027-key-west-z7r9jz1aaeefv",
@@ -473,7 +482,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-ft-lauderdale-florida-01-21-2027/event/0D00652FD79BE28E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -508,7 +517,9 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3T9JX1C",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-yacht-rock-revue-2027-fort-myers-z7r9jz1aaevr7",
@@ -728,7 +739,7 @@
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-3-5-2027/production/7593544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-atlantic-city-new-jersey-03-05-2027/event/02006531A7EDEA8C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -782,7 +793,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284485/Yacht-Rock-Revue-tickets-Fri-Mar-5-2027-Hard-Rock-Live-At-Etess-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-yacht-rock-revue-2027-bethlehem-vv17fz_3gkblhlrj",
@@ -800,7 +813,7 @@
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-bethlehem-wind-creek-event-center-3-6-2027/production/7593550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yacht-rock-revue-primetime-bethlehem-pennsylvania-03-06-2027/event/0200652EAB6EBBDC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -846,7 +859,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284486"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284486",
+    "genre": "Rock"
   },
   {
     "id": "tm-yacht-rock-revue-2027-nashville-vv17fz_3gktkih3j",
@@ -864,7 +878,7 @@
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-nashville-brown-county-music-center-3-12-2027/production/7593197",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yacht-rock-revue-primetime-nashville-indiana-03-12-2027/event/0500652FC6A3C49C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -918,7 +932,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284487/Yacht-Rock-Revue-tickets-Fri-Mar-12-2027-Brown-County-Music-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-yacht-rock-revue-2027-nashville-g5viz_k26z3ab",
@@ -936,7 +951,7 @@
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-nashville-the-truth-3-13-2027/production/7593554",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-nashville-tennessee-03-13-2027/event/1B006533C7012158",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -997,7 +1012,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-yacht-rock-revue-2027-chicago-vv178z_3gkmzl562",
@@ -1015,7 +1032,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yacht-rock-revue-2-day-pass-chicago-illinois-06-25-2027/event/0400652BB8ACB1CF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1050,7 +1067,9 @@
     },
     "ticketmaster_discovery_event_id": "vv178Z_3Gkmzl562",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-yacht-rock-revue-2027-jacksonville-z7r9jz1aaeebg",

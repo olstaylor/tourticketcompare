@@ -165,7 +165,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/cody-johnson-belfast-04-11-2026/event/38006443FABA2604",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -221,7 +221,8 @@
       "MCD PRODUCTIONS",
       "O2"
     ],
-    "ticketmaster_status_code": "cancelled"
+    "ticketmaster_status_code": "cancelled",
+    "genre": "Country"
   },
   {
     "id": "tm-cody-johnson-2026-dublin-1avoz_73704zd85a",
@@ -239,7 +240,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/cody-johnson-dublin-05-11-2026/event/1800644484915FA8",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -295,7 +296,9 @@
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
     ],
-    "ticketmaster_status_code": "cancelled"
+    "ticketmaster_status_code": "cancelled",
+    "ticket_limit": 6,
+    "genre": "Country"
   },
   {
     "id": "tm-cody-johnson-2027-austin-g5diz_43sxhzn",
@@ -313,7 +316,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-austin-moody-center-atx-2-19-2027--concerts-country-and-folk/production/7745720",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-austin-texas-02-19-2027/event/3A006554B3FBC02A",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -382,7 +385,9 @@
         "start": "2026-10-23T15:00:00Z",
         "end": "2027-02-20T01:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-cody-johnson-2027-austin-g5diz_46xjfxh",
@@ -400,7 +405,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-austin-moody-center-atx-2-20-2027--concerts-country-and-folk/production/7721395",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-austin-texas-02-20-2027/event/3A006551E27088BC",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -462,6 +467,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/cody-johnson-austin-tickets-2-20-2027/event/107677325",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   }
 ]

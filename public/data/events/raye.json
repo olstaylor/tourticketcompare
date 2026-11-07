@@ -76,7 +76,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/raye-dublin-24-06-2027/event/18006545E5410D1C",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -127,6 +127,7 @@
         "start": "2026-11-09T10:00:00Z",
         "end": "2026-11-10T09:00:00Z"
       }
-    ]
+    ],
+    "genre": "Pop"
   }
 ]

@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/tash-sultana-dublin-11-03-2027/event/18006313EF7B833E",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -71,7 +71,9 @@
     "organizer_names": [
       "SINGULAR ARTISTS",
       "AMPHITHEATRE IRELAND"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-tash-sultana-2027-london-1adjzbsgkmupg8h",
@@ -89,7 +91,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tash-sultana-london-13-03-2027/event/3700631DCD5B543C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -152,7 +154,9 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-tash-sultana-2027-merksem-antwerpen-z698xzg2z1kjpqofb",
@@ -170,8 +174,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/tash-sultana-tickets/716691218",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "716691218",
@@ -208,7 +212,8 @@
     "status": "on-sale",
     "organizer_names": [
       "FKP Scorpio Belgium"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-tash-sultana-2027-amsterdam-z698xzbpz16vawaob0",
@@ -226,8 +231,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/tash-sultana-return-to-the-roots-eu-uk-tour-2027-tickets/1172151624?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1172151624",
@@ -289,7 +294,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "Mojo Concerts"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-tash-sultana-2027-auckland-1a0zkfggkee4ejk",
@@ -307,7 +313,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/tash-sultana-auckland-22-04-2027/event/24006535A7542713",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -342,7 +348,8 @@
     },
     "ticketmaster_discovery_event_id": "1A0ZkfgGkeE4ejK",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-tash-sultana-2027-auckland-1kazvpgigacnerq",
@@ -360,7 +367,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/tash-sultana-auckland-23-04-2027/event/240065328E8C2BDD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395,7 +402,8 @@
     },
     "ticketmaster_discovery_event_id": "1kaZvPGIGACNeRq",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-tash-sultana-2027-thirroul-1akzkfggkdlsqdl",
@@ -413,7 +421,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/tash-sultana-thirroul-01-05-2027/event/13006535DFCDD0EB",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452,6 +460,8 @@
     "organizer_names": [
       "FRONTIER TOURING COMPANY",
       "MUSHROOM GROUP AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   }
 ]

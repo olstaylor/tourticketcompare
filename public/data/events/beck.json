@@ -430,7 +430,7 @@
     "vividseats_url": "https://www.vividseats.com/beck-tickets-seattle-benaroya-hall---taper-auditorium-11-8-2026/production/7558616",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beck-ride-lonesome-tour-seattle-washington-11-08-2026/event/0F00652BE288F5B7",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -476,7 +476,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265867",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-beck-2026-vancouver-1aozk3a0babze8k",
@@ -494,7 +496,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/beck-ride-lonesome-tour-vancouver-british-columbia-11-09-2026/event/11006489918258F5",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -552,7 +554,9 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896101/Beck-tickets-Mon-Nov-9-2026-Queen-Elizabeth-Theatre-Vancouver",
     "previous_start_date": "2026-11-10T03:30:00Z",
-    "previous_start_timezone": "America/Los_Angeles"
+    "previous_start_timezone": "America/Los_Angeles",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-beck-2026-portland-z7r9jz1a7xffk",
@@ -570,7 +574,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xfFk",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -625,6 +629,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896028/Beck-tickets-Tue-Nov-10-2026-Keller-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896028/Beck-tickets-Tue-Nov-10-2026-Keller-Auditorium",
+    "genre": "Alternative"
   }
 ]

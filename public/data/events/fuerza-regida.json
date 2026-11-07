@@ -792,7 +792,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/fuerza-regida-ciudad-de-mexico-28-01-2027/event/140065278EA82ABE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -845,7 +845,8 @@
     "organizer_names": [
       "OCESA"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-28-1-2027/event/107671520"
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-28-1-2027/event/107671520",
+    "genre": "Latin"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdlzcpt",
@@ -863,7 +864,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/fuerza-regida-ciudad-de-mexico-29-01-2027/event/14006542DF02D5BF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -916,7 +917,8 @@
     ],
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdowrar",
@@ -934,7 +936,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/fuerza-regida-ciudad-de-mexico-30-01-2027/event/14006542E0F5E26F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -987,7 +989,8 @@
     ],
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4vgkdxsfp_",
@@ -1005,7 +1008,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/fuerza-regida-ciudad-de-mexico-31-01-2027/event/14006541E2CC8959",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1051,7 +1054,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-31-1-2027/event/107671608",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4vgkdn9bgh",
@@ -1069,7 +1073,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/fuerza-regida-ciudad-de-mexico-01-02-2027/event/14006541E35D8D7C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1115,7 +1119,8 @@
     "organizer_names": [
       "OCESA"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-1-2-2027/event/107671609"
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-1-2-2027/event/107671609",
+    "genre": "Latin"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacn3ld",
@@ -1133,7 +1138,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/fuerza-regida-ciudad-de-mexico-03-02-2027/event/140065278EA92AC3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1186,7 +1191,8 @@
     ],
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgauwxey",
@@ -1204,7 +1210,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/fuerza-regida-ciudad-de-mexico-04-02-2027/event/140065278DCA29F9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1250,7 +1256,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-4-2-2027/event/107670885",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnxl1",
@@ -1268,7 +1275,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/fuerza-regida-ciudad-de-mexico-05-02-2027/event/140065278EAA2ACA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1337,7 +1344,8 @@
     ],
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnwlg",
@@ -1355,7 +1363,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/fuerza-regida-ciudad-de-mexico-06-02-2027/event/140065278EAB2ACC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1417,7 +1425,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-6-2-2027/event/107670886",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgaclelp",
@@ -1435,7 +1444,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/fuerza-regida-ciudad-de-mexico-07-02-2027/event/140065278EAC2AD6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1497,6 +1506,7 @@
     "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-7-2-2027/event/107670887",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   }
 ]

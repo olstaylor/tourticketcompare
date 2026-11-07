@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-washington-capital-one-arena-2-5-2027--concerts-rb/production/7621348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-washington-district-of-columbia-02-05-2027/event/150065360DEA4BAF",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -77,7 +77,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-washington-tickets-2-5-2027/event/107671382",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-norfolk-vv1avzkfmgkdn5kye",
@@ -95,7 +97,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-norfolk-norfolk-scope-arena-2-6-2027--concerts-rb/production/7621352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-norfolk-virginia-02-06-2027/event/01006537EA2C6E67",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -149,7 +151,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293964/The-Love-of-Soul-Tour-tickets-Sat-Feb-6-2027-Scope-Arena",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-belmont-park-1ayzkfugkdwafjv",
@@ -167,7 +170,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-elmont-ubs-arena-2-12-2027--concerts-rb/production/7621358",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-belmont-park-new-york-02-12-2027/event/30006536FD148981",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -205,7 +208,9 @@
     "status": "on-sale",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-atlantic-city-vv1aezkfmgkegjgo6",
@@ -223,7 +228,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-atlantic-city-boardwalk-hall-2-13-2027/production/7620565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlantic-city-new-jersey-02-13-2027/event/02006537B598C447",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -281,7 +286,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-02-14T02:00:00Z"
       }
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-new-orleans-g5viz_k6css2k",
@@ -299,7 +305,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-new-orleans-smoothie-king-center-2-19-2027/production/7620697",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-new-orleans-louisiana-02-19-2027/event/1B006531CEC733D3",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -361,7 +367,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-new-orleans-tickets-2-19-2027/event/107670734",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-biloxi-g5viz_kxokyjj",
@@ -379,7 +387,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-biloxi-mississippi-coast-coliseum-2-20-2027--concerts-rb/production/7621374",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-biloxi-mississippi-02-20-2027/event/1B006538911B999C",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -433,7 +441,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293969/The-Love-of-Soul-Tour-tickets-Sat-Feb-20-2027-Mississippi-Coast-Coliseum",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-ontario-vv1aazkfzgketkqbz",
@@ -451,7 +460,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-ontario-toyota-arena---ca-3-5-2027--concerts-rb/production/7621376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-ontario-california-03-05-2027/event/09006538BF19D600",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -513,7 +522,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-ontario-tickets-3-5-2027/event/107671383",
     "organizer_names": [
       "SMG"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-oakland-g5vyz_krz5jaf",
@@ -531,7 +541,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-oakland-oakland-arena-3-6-2027/production/7621690",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-oakland-california-03-06-2027/event/1C006537B82E6148",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -582,7 +592,9 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294733",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294733/The-Love-of-Soul-Tour-tickets-Sat-Mar-6-2027-Oakland-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294733/The-Love-of-Soul-Tour-tickets-Sat-Mar-6-2027-Oakland-Arena",
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-fort-worth-vvg1yz_kbtlwh3",
@@ -600,7 +612,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-fort-worth-texas-03-13-2027/event/0C0065363F7FDF12",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -662,7 +674,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-fort-worth-tickets-3-13-2027/event/107671384",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-atlanta-vvg1zz_kqs5ty6",
@@ -680,7 +694,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-atlanta-state-farm-arena-3-26-2027--concerts-rb/production/7621388",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlanta-georgia-03-26-2027/event/0E006536B12E9C07",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -742,7 +756,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-atlanta-tickets-3-26-2027/event/107670735",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-orlando-1aefz_3gkx--7oo",
@@ -760,7 +775,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-orlando-addition-financial-arena-3-27-2027--concerts-rb/production/7621390",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-orlando-florida-03-27-2027/event/2200652FA1844811",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -814,7 +829,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293972/The-Love-of-Soul-Tour-tickets-Sat-Mar-27-2027-Addition-Financial-Arena",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-saint-louis-vv17bz_3gktv8xq0",
@@ -832,7 +848,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-saint-louis-missouri-04-09-2027/event/0600652FF4422764",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -870,7 +886,8 @@
     "status": "on-sale",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-southaven-g5viz_krb7nuq",
@@ -888,7 +905,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-southaven-landers-center-4-10-2027/production/7620711",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-southaven-mississippi-04-10-2027/event/1B0065379812A35A",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -942,7 +959,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293975/The-Love-of-Soul-Tour-tickets-Sat-Apr-10-2027-Landers-Center",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-jacksonville-1axzkfwgkeynp6z",
@@ -960,7 +979,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-jacksonville-vystar-veterans-memorial-arena-4-16-2027--concerts-rb/production/7621400",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-jacksonville-florida-04-16-2027/event/22006532B98E51F8",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1014,7 +1033,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293976/The-Love-of-Soul-Tour-tickets-Fri-Apr-16-2027-VyStar-Veterans-Memorial-Arena",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-hollywood-vvg1vz_k9lsilt",
@@ -1032,7 +1052,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-4-17-2027--concerts-rb/production/7621402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-hollywood-florida-04-17-2027/event/0D006535EBCEC7FF",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1094,7 +1114,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-hollywood-tickets-4-17-2027/event/107670736",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-phoenix-1a_zkfmgke0qgen",
@@ -1112,7 +1134,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-phoenix-mortgage-matchup-center-4-23-2027--concerts-rb/production/7621404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-phoenix-arizona-04-23-2027/event/19006537A46B50A3",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1166,7 +1188,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294734/The-Love-of-Soul-Tour-tickets-Fri-Apr-23-2027-Mortgage-Matchup-Center",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 10,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-charlotte-g5evz_k5a0ajy",
@@ -1184,7 +1208,7 @@
     "vividseats_url": "https://www.vividseats.com/the-art-of-love-and-soul-tickets-charlotte-spectrum-center-5-7-2027/production/7621606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-charlotte-north-carolina-05-07-2027/event/2D006532C59099B9",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1246,7 +1270,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-charlotte-tickets-5-7-2027/event/107671385",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-raleigh-g5evz_kx4nbzb",
@@ -1264,7 +1289,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-tickets-raleigh-lenovo-center-5-8-2027--concerts-dance-electronica/production/7621653",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-raleigh-north-carolina-05-08-2027/event/2D00653895A98E3A",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1318,7 +1343,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293979/The-Love-of-Soul-Tour-tickets-Sat-May-8-2027-Lenovo-Center",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-chicago-vv1a7zkfugkdbhxkp",
@@ -1336,7 +1363,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-chicago-united-center-5-14-2027/production/7620703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-chicago-illinois-05-14-2027/event/04006536FA6FE196",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1398,7 +1425,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-chicago-tickets-5-14-2027/event/107670737",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-detroit-vv1afzkfsgkdkxfme",
@@ -1416,7 +1445,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-detroit-little-caesars-arena-5-15-2027--concerts-rb/production/7621413",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-detroit-michigan-05-15-2027/event/08006533C6F88B82",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1478,7 +1507,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-detroit-tickets-5-15-2027/event/107671386",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-providence-vv1avzkfygkdtqjz9",
@@ -1496,7 +1527,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-providence-amica-mutual-pavilion-5-21-2027--concerts-rb/production/7621417",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-providence-rhode-island-05-21-2027/event/01006530E96A6017",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1550,7 +1581,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293982/The-Love-of-Soul-Tour-tickets-Fri-May-21-2027-Amica-Mutual-Pavilion",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-newark-vv1aezkfugke-q6sn",
@@ -1568,7 +1600,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-newark-prudential-center-5-22-2027--concerts-rb/production/7621441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-newark-new-jersey-05-22-2027/event/02006536A1747C63",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1630,7 +1662,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-newark-tickets-5-22-2027/event/107670738",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-las-vegas-z7r9jz1aaef4j",
@@ -1648,7 +1682,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4J",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1699,7 +1733,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294558",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294558/The-Love-of-Soul-Tour-tickets-Sat-Apr-24-2027-MGM-Grand-Garden-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294558/The-Love-of-Soul-Tour-tickets-Sat-Apr-24-2027-MGM-Grand-Garden-Arena",
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-houston-z7r9jz1aa74o6",
@@ -1717,7 +1752,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-tickets-houston-toyota-center---tx-3-12-2027/production/7622837",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA74O6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1768,6 +1803,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297853",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297853/The-Love-of-Soul-Tour-tickets-Fri-Mar-12-2027-Toyota-Center-TX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297853/The-Love-of-Soul-Tour-tickets-Fri-Mar-12-2027-Toyota-Center-TX",
+    "genre": "R&B"
   }
 ]

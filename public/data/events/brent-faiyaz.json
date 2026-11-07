@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/brent-faiyaz-tickets-chicago-united-center-11-30-2026--concerts-rb/production/7603104",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brent-faiyaz-live-i-spent-the-chicago-illinois-11-30-2026/event/04006532C9853AC1",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -77,7 +77,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/brent-faiyaz-chicago-tickets-11-30-2026/event/107669129",
     "organizer_names": [
       "ENCORE LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-brent-faiyaz-2026-brooklyn-1adzz_3gkxkyvwj",
@@ -95,7 +97,7 @@
     "vividseats_url": "https://www.vividseats.com/brent-faiyaz-tickets-brooklyn-barclays-center-12-3-2026--concerts-rb/production/7603112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brent-faiyaz-live-i-spent-the-brooklyn-new-york-12-03-2026/event/3000652F86C01F5C",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -157,7 +159,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/brent-faiyaz-brooklyn-tickets-12-3-2026/event/107669131",
     "organizer_names": [
       "ENCORE LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-brent-faiyaz-2026-los-angeles-z7r9jz1aae7ub",

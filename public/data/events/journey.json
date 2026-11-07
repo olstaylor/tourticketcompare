@@ -1036,7 +1036,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-uniondale-new-york-11-07-2026/event/000064A4C567895B",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1097,7 +1097,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956780",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-journey-2026-boston-vvg17z_19ipadt",
@@ -1115,7 +1117,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-boston-td-garden-11-10-2026--concerts-rock/production/7021953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1184,7 +1186,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956781",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-journey-2026-cleveland-z7r9jz1a70_7k",
@@ -1202,7 +1206,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-cleveland-rocket-arena-11-12-2026/production/7022526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7K",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1253,7 +1257,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956853/Journey-tickets-Thu-Nov-12-2026-Rocket-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956853"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956853",
+    "genre": "Rock"
   },
   {
     "id": "tm-journey-2026-greenville-g5evz_1k1vuwb",
@@ -1271,7 +1276,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-greenville-bon-secours-wellness-arena-11-14-2026--concerts-rock/production/7022065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-greenville-south-carolina-11-14-2026/event/2D0064A4CA04DC98",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1325,7 +1330,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956782",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-journey-2026-saint-louis-vvg1bz_1qqkifj",
@@ -1343,7 +1350,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-saint-louis-missouri-11-16-2026/event/060064A69A4EC226",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1381,7 +1388,9 @@
     "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-journey-2026-houston-z7r9jz1a70_fz",
@@ -1399,7 +1408,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-houston-toyota-center---tx-11-18-2026/production/7022543",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_fz",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1450,7 +1459,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956854/Journey-tickets-Wed-Nov-18-2026-Toyota-Center-TX",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956854"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956854",
+    "genre": "Rock"
   },
   {
     "id": "tm-journey-2026-dallas-vvg1yz_14w7vrn",
@@ -1468,7 +1478,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-dallas-american-airlines-center---tx-11-20-2026--concerts-rock/production/7022113",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-dallas-texas-11-20-2026/event/0C0064A57D1347A3",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1530,7 +1540,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956784",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-journey-2026-denver-g5vzz_1kxjfbe",
@@ -1548,7 +1559,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-denver-ball-arena-11-22-2026--concerts-rock/production/7022115",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-denver-colorado-11-22-2026/event/1E0064A4E2714602",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1609,7 +1620,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956785",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-journey-2026-anaheim-vvg10z_1q4chn3",
@@ -1627,7 +1640,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-anaheim-honda-center-11-24-2026--concerts-rock/production/7022141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1701,7 +1714,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956786",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-journey-2026-las-vegas-z7r9jz1a70_7f",
@@ -1719,7 +1734,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-las-vegas-mgm-grand-garden-arena-11-27-2026/production/7023785",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7f",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1778,7 +1793,8 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956855/Journey-tickets-Fri-Nov-27-2026-MGM-Grand-Garden-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/journey-las-vegas-tickets-11-27-2026/event/107170293",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956855"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956855",
+    "genre": "Rock"
   },
   {
     "id": "tm-journey-2026-san-francisco-g5vyz_aeock9c",
@@ -1796,7 +1812,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-san-francisco-chase-center-11-28-2026--concerts-rock/production/7022156",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-san-francisco-california-11-28-2026/event/1C006499E0B535ED",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1865,6 +1881,7 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956787",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "genre": "Rock"
   }
 ]

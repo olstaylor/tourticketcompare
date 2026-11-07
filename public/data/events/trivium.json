@@ -157,7 +157,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbs",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -200,7 +200,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbs",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151275/Trivium-tickets-Sat-Nov-7-2026-Old-Foresters-Paristown-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151275/Trivium-tickets-Sat-Nov-7-2026-Old-Foresters-Paristown-Hall",
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-grand-rapids-vvg1oz_cnishwh",
@@ -218,7 +219,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-grand-rapids-michigan-11-08-2026/event/080064E8ECCDBF7C",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -272,7 +273,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151245/Trivium-tickets-Sun-Nov-8-2026-GLC-Live-at-20-Monroe",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-silver-spring-17a8v0g6cngp9y6",
@@ -290,7 +293,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-silver-spring-the-fillmore-silver-spring-11-10-2026--concerts-rock/production/7325330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-silver-spring-maryland-11-10-2026/event/150064EAB5597C07",
-    "last_verified_at": "2026-11-04",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -344,7 +347,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151248/Trivium-tickets-Tue-Nov-10-2026-The-Fillmore-Silver-Spring",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-new-haven-z7r9jz1aazdbw",
@@ -362,7 +367,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-new-haven-college-street-music-hall-11-11-2026--concerts-rock/production/7325688",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbw",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -413,7 +418,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151276",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151276/Trivium-tickets-Wed-Nov-11-2026-College-Street-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151276/Trivium-tickets-Wed-Nov-11-2026-College-Street-Music-Hall",
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-new-york-z7r9jz1aazdbs",
@@ -431,7 +437,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-new-york-terminal-5-11-12-2026--concerts-rock/production/7325587",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbS",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -482,7 +488,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151277",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151277/Trivium-tickets-Thu-Nov-12-2026-Terminal-5"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151277/Trivium-tickets-Thu-Nov-12-2026-Terminal-5",
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-philadelphia-z7r9jz1aazdbv",
@@ -500,7 +507,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-philadelphia-franklin-music-hall-11-14-2026/production/7325410",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbV",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -551,7 +558,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151278",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151278/Trivium-tickets-Sat-Nov-14-2026-Franklin-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151278/Trivium-tickets-Sat-Nov-14-2026-Franklin-Music-Hall",
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-worcester-z7r9jz1aazdbg",
@@ -569,7 +577,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbg",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -612,7 +620,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbg",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151279"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151279",
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-laval-17g8v0g6cubsshb",
@@ -630,7 +639,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-laval-place-bell-11-17-2026--concerts-rock/production/7325404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-laval-quebec-11-17-2026/event/310064ED98CF36FA",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -701,7 +710,9 @@
     ],
     "organizer_names": [
       "EVENKO ONLY"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-toronto-177zv0g62er1iat",
@@ -719,7 +730,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-toronto-ontario-11-18-2026/event/100064F09E2A8269",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -767,7 +778,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-royal-oak-z7r9jz1aazdbu",
@@ -785,7 +798,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-royal-oak-royal-oak-music-theatre-11-20-2026--concerts-rock/production/7325593",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbU",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -836,7 +849,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151280",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151280/Trivium-tickets-Fri-Nov-20-2026-Royal-Oak-Music-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151280/Trivium-tickets-Fri-Nov-20-2026-Royal-Oak-Music-Theatre",
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-chicago-vvg18z_cnmg_i8",
@@ -854,7 +868,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-chicago-aragon-ballroom-11-21-2026--concerts-rock/production/7325332",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-chicago-illinois-11-21-2026/event/040064E8F7D59A10",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -920,7 +934,10 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-madison-vvg1jz_cbaz-zj",
@@ -938,7 +955,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-madison-the-sylvee-11-22-2026--concerts-rock/production/7325334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-madison-wisconsin-11-22-2026/event/070064EE89E21E1C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1005,7 +1022,9 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-nashville-z7r9jz1aazdbm",
@@ -1023,7 +1042,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbM",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1066,7 +1085,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbM",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151281"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151281",
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-saint-louis-17f8v0g6cy863b6",
@@ -1084,7 +1104,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-saint-louis-missouri-11-25-2026/event/210064EE501D2E87",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1131,7 +1151,9 @@
         "start": "2026-07-24T15:00:00Z",
         "end": "2026-11-19T05:55:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-houston-g5diz_cdfyhi_",
@@ -1149,7 +1171,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-houston-bayou-music-center-11-28-2026--concerts-rock/production/7325340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-houston-texas-11-28-2026/event/3A0064EEC8C1BA19",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1220,7 +1242,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-dallas-vvg1yz_cdoxznj",
@@ -1238,7 +1262,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-dallas-south-side-ballroom-11-29-2026--concerts-rock/production/7325342",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-dallas-texas-11-29-2026/event/0C0064EED1FB8AA6",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1309,7 +1333,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-phoenix-17k8v0g62douihb",
@@ -1327,7 +1352,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-phoenix-arizona-financial-theatre-12-2-2026--concerts-rock/production/7325306",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-phoenix-arizona-12-02-2026/event/190064F0E0368F3A",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1393,7 +1418,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-inglewood-vvg1iz_ceqwhij",
@@ -1411,7 +1438,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-inglewood-youtube-theater-12-4-2026--concerts-rock/production/7325352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-inglewood-california-12-04-2026/event/0A0064E9DDF7CB1C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1485,7 +1512,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-san-francisco-g5vyz_2ejmndl",
@@ -1503,7 +1532,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-san-francisco-california-12-05-2026/event/1C0064F09CBAA0EB",
-    "last_verified_at": "2026-11-06",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1569,7 +1598,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-penticton-z7r9jz1aazdbz",
@@ -1587,7 +1618,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAZdbz",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1638,7 +1669,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151283",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151283/Trivium-tickets-Mon-Dec-7-2026-Penticton-Trade-Convention-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151283/Trivium-tickets-Mon-Dec-7-2026-Penticton-Trade-Convention-Centre",
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-vancouver-1778v0g626krqj1",
@@ -1656,7 +1688,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-12-8-2026--concerts-rock/production/7325476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-vancouver-british-columbia-12-08-2026/event/110064F1C6BDA98A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1719,7 +1751,9 @@
         "start": "2026-07-24T17:00:00Z",
         "end": "2026-12-02T06:55:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-seattle-vvg1hz_2dp1x5t",
@@ -1737,7 +1771,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-seattle-paramount-theatre-seattle-12-9-2026--concerts-rock/production/7325366",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-seattle-washington-12-09-2026/event/0F0064F0E52BE2E9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1800,7 +1834,9 @@
         "start": "2026-07-24T17:00:00Z",
         "end": "2026-12-03T07:55:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-reno-17ayv0g6cnaivry",
@@ -1818,7 +1854,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-reno-nevada-12-11-2026/event/170064E8C9A01BF9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1865,7 +1901,9 @@
         "start": "2026-07-24T17:00:00Z",
         "end": "2026-12-05T07:55:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-denver-z7r9jz1aazdby",
@@ -1883,7 +1921,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-denver-mission-ballroom-12-13-2026--concerts-rock/production/7325601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdby",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1934,7 +1972,8 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151286",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151286/Trivium-tickets-Sun-Dec-13-2026-The-Mission-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151286/Trivium-tickets-Sun-Dec-13-2026-The-Mission-Ballroom",
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-tulsa-z7r9jz1aazd_z",
@@ -1952,7 +1991,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-tulsa-tulsa-theater-12-15-2026--concerts-rock/production/7325713",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZd_Z",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2003,7 +2042,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359228",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151287/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151287/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater",
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-omaha-17fzv0g6cxxpndr",
@@ -2021,7 +2061,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-omaha-nebraska-12-16-2026/event/200064EFBE5A30EF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2087,7 +2127,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-pittsburgh-17aov0g6cymqerk",
@@ -2105,7 +2147,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-pittsburgh-citizens-live-at-the-wylie-12-18-2026--concerts-rock/production/7325398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-pittsburgh-pennsylvania-12-18-2026/event/160064EE77742BD3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2171,7 +2213,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-charlotte-g5evz_cufmier",
@@ -2189,7 +2233,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-charlotte-the-fillmore-charlotte-12-19-2026--concerts-rock/production/7325402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-charlotte-north-carolina-12-19-2026/event/2D0064ED94BA89EF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2260,7 +2304,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2027-glasgow-1auzkfpgken_hpc",
@@ -2278,7 +2324,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-glasgow-ovo-hydro-3-31-2027--concerts-rock/production/7477502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/trivium-glasgow-31-03-2027/event/36006516A365B96D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2325,7 +2371,9 @@
     "organizer_names": [
       "DF CONCERTS LIMITED",
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2027-manchester-1amzkffgkdkmgfp",
@@ -2343,7 +2391,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-manchester-co-op-live-4-2-2027--concerts-rock/production/7477504",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/trivium-manchester-02-04-2027/event/37006514C6DCC225",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2405,7 +2453,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/trivium-tickets-manchester-co-op-live-2-4-2027/event/107482875",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2027-london-g5vhz_o63ceuv",
@@ -2423,7 +2473,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-london-alexandra-palace-4-3-2027--concerts-rock/production/7477506",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/trivium-london-03-04-2027/event/1F006511D23A7DB4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2466,7 +2516,9 @@
     "ticketmaster_discovery_event_id": "G5vHZ_o63CEUV",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/trivium-tickets-london-alexandra-palace-3-4-2027/event/107532082"
+    "stubhub_international_url": "https://www.stubhub.ie/trivium-tickets-london-alexandra-palace-3-4-2027/event/107532082",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2027-cardiff-1kuovpa6gacrw-h",
@@ -2484,7 +2536,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-cardiff-utilita-arena-cardiff-4-4-2027--concerts-rock/production/7477508",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/trivium-cardiff-04-04-2027/event/360065147E7B287C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2531,7 +2583,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "LIVE NATION MUSIC (VENUES) LTD (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2027-dublin-1abzkffgkdvsqon",
@@ -2549,7 +2603,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/trivium-in-flames-paleface-swiss-vola-dublin-29-03-2027/event/18006514C1CDA46A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2588,7 +2642,9 @@
     "organizer_names": [
       "DME PROMOTIONS LTD",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-san-antonio-z7r9jz1aazdco",
@@ -2606,7 +2662,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-san-antonio-boeing-center-at-tech-port-11-27-2026/production/7325671",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdCo",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2660,7 +2716,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151010/Trivium-tickets-Fri-Nov-27-2026-Boeing-Center-at-Tech-Port",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-trivium-2026-las-vegas-z7r9jz1a7j_4j",
@@ -2678,7 +2735,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-las-vegas-pearl-concert-theater-at-palms-casino-resort-12-3-2026--concerts-rock/production/7325346",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J_4J",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2729,6 +2786,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151259",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151259/Trivium-tickets-Thu-Dec-3-2026-Pearl-Concert-Theater-At-Palms-Casino-Resort"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151259/Trivium-tickets-Thu-Dec-3-2026-Pearl-Concert-Theater-At-Palms-Casino-Resort",
+    "genre": "Rock"
   }
 ]

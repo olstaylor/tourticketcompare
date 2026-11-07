@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-washington-dc-the-anthem-2-23-2027--concerts-pop/production/7679280",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-23-2027/event/15006547A9CD67C5",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -73,7 +73,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-01-27T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-philadelphia-vv1aovpotga2njys",
@@ -91,7 +93,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-philadelphia-pennsylvania-02-26-2027/event/020065469FAA6E71",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -152,7 +154,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-01-30T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-new-york-g5dyz_fqhrymh",
@@ -170,7 +174,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-new-york-radio-city-music-hall-2-27-2027--concerts-pop/production/7679286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-new-york-new-york-02-27-2027/event/3C0065477C7B0DDB",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -236,7 +240,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-28T02:00:00Z"
       }
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-boston-vv1avzk4kgkdrztka",
@@ -254,7 +259,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-boston-mgm-music-hall-at-fenway-3-2-2027--concerts-pop/production/7679291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-02-2027/event/01006546DEE3F4C9",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -323,7 +328,9 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-03T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-boston-vv1avzk4kgkdrwrfa",
@@ -341,7 +348,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-boston-mgm-music-hall-at-fenway-3-3-2027--concerts-pop/production/7713782",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-03-2027/event/01006546DEF6F505",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403,7 +410,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/remi-wolf-boston-tickets-3-3-2027/event/107677326",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-toronto-1a8zk46gkdlbbff",
@@ -421,7 +430,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-toronto-massey-hall---allied-music-centre-3-5-2027--concerts-pop/production/7679350",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-05-2027/event/10006547EB618514",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -462,7 +471,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-toronto-1a8zk46gkdlbzfe",
@@ -480,7 +491,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-toronto-massey-hall---allied-music-centre-3-6-2027/production/7713965",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-06-2027/event/10006547EB638527",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -521,7 +532,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-detroit-z7r9jz1aa7k0m",
@@ -600,7 +613,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-09-2027/event/04006548D8121164",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -645,7 +658,10 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-03-10T05:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "legal_age_enforced": true,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-chicago-vv1a7zk4fgkdbs-1k",
@@ -663,7 +679,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-10-2027/event/04006548D8C61293",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -701,7 +717,10 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "legal_age_enforced": true,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-minneapolis-vv1akzk46gkdn_2lp",
@@ -719,7 +738,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-minneapolis-armory---minneapolis-3-12-2027--concerts-pop/production/7679372",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-minneapolis-minnesota-03-12-2027/event/06006547E364FAD6",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -780,7 +799,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-02-13T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-milwaukee-vv1a6zk4kgkei14ha",
@@ -798,7 +819,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-milwaukee-landmark-credit-union-live-3-13-2027--concerts-pop/production/7679297",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-milwaukee-wisconsin-03-13-2027/event/07006546AC2956C5",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -859,7 +880,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-02-14T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-saint-louis-16-zk46uyzag1a76",
@@ -877,7 +900,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-saint-louis-missouri-03-16-2027/event/21006547370B9836",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -922,7 +945,8 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-02-17T04:00:00Z"
       }
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-cincinnati-1kaovpo_gagbfxb",
@@ -940,7 +964,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-cincinnati-andrew-j-brady-music-center-3-17-2027--concerts-pop/production/7679320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-cincinnati-ohio-03-17-2027/event/160065459C6148BA",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -986,7 +1010,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315076",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-nashville-g5viz_fni20_x",
@@ -1004,7 +1030,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-nashville-the-truth-3-19-2027--concerts-pop/production/7679324",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-nashville-tennessee-03-19-2027/event/1B006548E83E4662",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1070,7 +1096,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-02-20T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-atlanta-vvg1zz_fj5-2nn",
@@ -1088,7 +1116,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-atlanta-coca-cola-roxy-theatre-3-20-2027--concerts-pop/production/7679330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-atlanta-georgia-03-20-2027/event/0E0065470B84F8EA",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1149,7 +1177,8 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-02-21T03:00:00Z"
       }
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-austin-g5diz_fncgjpo",
@@ -1167,7 +1196,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-austin-moody-amphitheater-5-6-2027--concerts-pop/production/7679377",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-austin-texas-05-06-2027/event/3A006548ED31C5A0",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1228,7 +1257,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-09T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-houston-g5diz_f9ubux3",
@@ -1246,7 +1277,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-houston-713-music-hall-5-7-2027--concerts-pop/production/7679340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-houston-texas-05-07-2027/event/3A006545CDEB6F92",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1308,7 +1339,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/remi-wolf-houston-tickets-5-7-2027/event/107672957",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-irving-vvg1yz_frdgzb6",
@@ -1326,7 +1359,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-irving-pavilion-at-toyota-music-factory-5-8-2027--concerts-pop/production/7679344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-irving-texas-05-08-2027/event/0C006547BBD78E87",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1387,7 +1420,9 @@
         "start": "2026-10-16T15:00:00Z",
         "end": "2027-04-09T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-tulsa-z7r9jz1aa7ar_",
@@ -1665,7 +1700,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-bonner-kettlehouse-amphitheater-5-19-2027--concerts-pop/production/7679346",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-bonner-montana-05-19-2027/event/1E006547C9A1CD00",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1726,7 +1761,9 @@
         "start": "2026-10-16T16:00:00Z",
         "end": "2027-04-29T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-remi-wolf-2027-vancouver-z7r9jz1aa7kaf",
@@ -1813,7 +1850,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-seattle-wamu-theater---seattle-5-22-2027--concerts-pop/production/7679348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-seattle-washington-05-22-2027/event/0F006546BCCB95AB",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1874,6 +1911,8 @@
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-04-25T05:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   }
 ]

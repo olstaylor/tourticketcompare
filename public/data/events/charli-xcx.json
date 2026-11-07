@@ -780,7 +780,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -788,7 +788,7 @@
         "discovery_event_id": "17k8v0G6G9pu_YT",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-11-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -843,7 +843,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketmaster_status_code": "cancelled"
+    "ticketmaster_status_code": "cancelled",
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-charli-xcx-2027-dublin-16voz_3jvg7sk3f",
@@ -861,7 +863,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/charli-xcx-music-fashion-film-tour-dublin-13-02-2027/event/1800652981CD3494",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -900,7 +902,9 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-charli-xcx-2027-glasgow-1auzkftgkez7jxt",
@@ -918,7 +922,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-glasgow-ovo-hydro-2-15-2027--concerts-pop/production/7552865",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/venue-premium-charli-xcx-music-fashion-glasgow-15-02-2027/event/36006529B81268A9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -981,7 +985,8 @@
     "organizer_names": [
       "DF CONCERTS LIMITED",
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-charli-xcx-2027-manchester-1amzkfegkdf5asp",
@@ -999,7 +1004,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-manchester-co-op-live-2-17-2027--concerts-pop/production/7546088",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-manchester-17-02-2027/event/37006527D42C5C65",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1061,7 +1066,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-manchester-co-op-live-17-2-2027/event/107668439",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-charli-xcx-2027-london-1agzkfigkenre1t",
@@ -1079,7 +1086,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-london-the-o2---london-2-19-2027--concerts-pop/production/7552863",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-london-19-02-2027/event/35006528AA7822A9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1122,7 +1129,8 @@
     "ticketmaster_discovery_event_id": "1AgZkfIGkenre1t",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-19-2-2027/event/107668441"
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-19-2-2027/event/107668441",
+    "genre": "Pop"
   },
   {
     "id": "tm-charli-xcx-2027-london-1adfz_3gknni7-u",
@@ -1140,7 +1148,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-london-the-o2---london-2-20-2027/production/7577279",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/charli-xcx-music-fashion-film-tour-london-20-02-2027/event/3500652AA3A04876",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1183,7 +1191,8 @@
     "ticketmaster_discovery_event_id": "1AdfZ_3GknNI7-U",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-20-2-2027/event/107669390"
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-20-2-2027/event/107669390",
+    "genre": "Pop"
   },
   {
     "id": "tm-charli-xcx-2027-amsterdam-z698xzbpz1kqn76of",
@@ -1201,8 +1210,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/charli-xcx-music-fashion-film-tour-tickets/763107448?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "763107448",
@@ -1263,7 +1272,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-amsterdam-ziggo-dome-22-2-2027/event/107666206",
     "organizer_names": [
       "Mojo Concerts"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-charli-xcx-2026-las-vegas-z7r9jz1a7p8v-",

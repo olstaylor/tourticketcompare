@@ -1096,8 +1096,8 @@
     "vividseats_url": "https://www.vividseats.com/karol-g-tickets-barcelona-estadi-olimpic-lluis-companys-6-3-2027--concerts-pop/production/6929157",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/843841286?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "843841286",
@@ -1134,7 +1134,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation España Black Star S.L"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2027-barcelona-z698xz2qz1k8n04vk",
@@ -1152,8 +1153,8 @@
     "vividseats_url": "https://www.vividseats.com/karol-g-tickets-barcelona-estadi-olimpic-lluis-companys-6-4-2027--concerts-pop/production/6956926",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/423915053?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "423915053",
@@ -1190,7 +1191,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation España Black Star S.L"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2027-sevilla-z698xz2qz1kp4_vuk",
@@ -1208,8 +1210,8 @@
     "vividseats_url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-11-2027--concerts-pop/production/6929163",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/955641346?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "955641346",
@@ -1262,7 +1264,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896500/Karol-G-tickets-Fri-Jun-11-2027-Estadio-La-Cartuja",
     "organizer_names": [
       "Live Nation España Black Star S.L"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2027-sevilla-z698xz2qz16vvepfuz",
@@ -1280,8 +1283,8 @@
     "vividseats_url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-12-2027--concerts-pop/production/6956928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1042594340?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1042594340",
@@ -1334,7 +1337,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7912285/Karol-G-tickets-Sat-Jun-12-2027-Estadio-La-Cartuja",
     "organizer_names": [
       "Live Nation España Black Star S.L"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2027-sevilla-z698xz2qz16v_a-6fw",
@@ -1352,8 +1356,8 @@
     "vividseats_url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-13-2027--concerts-pop/production/6969565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1649847232?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1649847232",
@@ -1406,7 +1410,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921229/Karol-G-tickets-Sun-Jun-13-2027-Estadio-La-Cartuja",
     "organizer_names": [
       "Live Nation España Black Star S.L"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2027-madrid-z698xz2qz16vq8a4f7",
@@ -1424,8 +1429,8 @@
     "vividseats_url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-24-2027--concerts-pop/production/6929171",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1690155204?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1690155204",
@@ -1462,7 +1467,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation España Black Star S.L"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2027-madrid-z698xz2qz1kpmzkfn",
@@ -1480,8 +1486,8 @@
     "vividseats_url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-25-2027--concerts-pop/production/6956930",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/977013223?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "977013223",
@@ -1518,7 +1524,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation España Black Star S.L"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2027-madrid-z698xz2qz16v8zxv0i",
@@ -1536,8 +1543,8 @@
     "vividseats_url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-26-2027--concerts-pop/production/6969569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1438881928?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1438881928",
@@ -1574,7 +1581,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation España Black Star S.L"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2027-madrid-z698xz2qz1koujx1f",
@@ -1592,8 +1600,8 @@
     "vividseats_url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-27-2027--concerts-pop/production/6969571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/476722288?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "476722288",
@@ -1630,7 +1638,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation España Black Star S.L"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2027-london-1agzk3ogkddbuhf",
@@ -1648,7 +1657,7 @@
     "vividseats_url": "https://www.vividseats.com/karol-g-tickets-london-tottenham-hotspur-stadium-7-6-2027--concerts-pop/production/6929173",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/karol-g-viajando-por-el-mundo-london-06-07-2027/event/35006491FBEB66D4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1695,7 +1704,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "LNM - VIP NATION UK"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2027-amsterdam-z698xzbpz16vc_bwjy",
@@ -1713,8 +1724,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/karol-g-viajando-por-el-mundo-tropitour-tickets/1399632739?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1399632739",
@@ -1864,7 +1875,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-07-11-2026/event/3D00648EE617740E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1917,7 +1928,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-7-11-2026/event/107162453",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2026-guadalupe-g5dvz_fdjk688",
@@ -1935,7 +1947,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-08-11-2026/event/3D00648EE6187410",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1988,7 +2000,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-8-11-2026/event/107164563",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknv53if",
@@ -2006,7 +2019,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-13-11-2026/event/1400646A812D2A08",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2075,7 +2088,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-13-11-2026/event/107161135",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefxra",
@@ -2093,7 +2107,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-14-11-2026/event/1400646A82522BC9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2162,7 +2176,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-14-11-2026/event/107162454",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefwr5",
@@ -2180,7 +2195,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-15-11-2026/event/1400646A82532BCB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2249,6 +2264,7 @@
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-15-11-2026/event/107165371",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   }
 ]

@@ -79,7 +79,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-greenville-south-carolina-10-24-2026/event/2D006470CBC63D48",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -134,7 +134,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": ""
+    "ticketnetwork_url": "",
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-lil-wayne-2026-lexington-1avbz_kgkyr04kw",
@@ -152,7 +154,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-lexington-kentucky-12-04-2026/event/1600646C2F9154F2",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,17 +211,14 @@
     ],
     "presales": [
       {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-03-20T14:00:00Z",
-        "end": "2026-11-07T03:00:00Z"
-      },
-      {
         "name": "Black Friday/Cyber Monday Offer",
         "start": "2026-11-23T15:00:00Z",
         "end": "2026-12-01T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7810684"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7810684",
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-lil-wayne-2026-savannah-vvg1zz_3n_vz4w",
@@ -237,7 +236,7 @@
     "vividseats_url": "https://www.vividseats.com/lil-wayne-tickets-savannah-enmarket-arena-12-5-2026--concerts-rap-hip-hop/production/7654768",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-savannah-georgia-12-05-2026/event/0E00652A99D38572",
-    "last_verified_at": "2026-11-05",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -298,7 +297,9 @@
         "end": "2026-12-03T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307423"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307423",
+    "ticket_limit": 8,
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-lil-wayne-2027-reading-vv17fz_kgkwwyiai",
@@ -316,7 +317,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lil-wayne-20-years-of-carter-reading-pennsylvania-02-26-2027/event/0200646CBDC2C268",
-    "last_verified_at": "2026-10-21",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363,6 +364,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7810663"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7810663",
+    "ticket_limit": 6,
+    "genre": "Hip-Hop/Rap"
   }
 ]

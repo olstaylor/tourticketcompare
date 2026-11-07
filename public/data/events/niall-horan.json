@@ -1124,7 +1124,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-detroit-little-caesars-arena-3-19-2027/production/7017219",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-detroit-michigan-03-19-2027/event/080064A7B4549CE9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1198,7 +1198,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-columbus-vvg1fz_1x9ig7q",
@@ -1216,7 +1218,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-columbus-nationwide-arena-3-20-2027/production/7017191",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-columbus-ohio-03-20-2027/event/050064A897A0C11D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1282,7 +1284,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-chicago-vvg18z_1llyajb",
@@ -1300,7 +1304,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-chicago-united-center-3-23-2027/production/7017215",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-chicago-illinois-03-23-2027/event/040064A7DFC05998",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1374,7 +1378,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-indianapolis-vvg1fz_1htnybv",
@@ -1392,7 +1398,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-indianapolis-gainbridge-fieldhouse-3-26-2027/production/7017203",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-indianapolis-indiana-03-26-2027/event/050064A6E98F9E81",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1458,7 +1464,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-saint-louis-vvg1bz_1qy32om",
@@ -1476,7 +1484,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-saint-louis-missouri-03-27-2027/event/060064A6B048F46E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1526,7 +1534,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-toronto-177zv0g61h1eoxc",
@@ -1544,7 +1554,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-toronto-scotiabank-arena-3-30-2027/production/7017201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-toronto-ontario-03-30-2027/event/100064A6CA091FAD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1592,7 +1602,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-montreal-17g8v0g61rtd60v",
@@ -1610,7 +1622,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-montreal-bell-centre-4-2-2027--concerts-pop/production/7017243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-montreal-quebec-04-02-2027/event/310064A7A90C7934",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1674,7 +1686,9 @@
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-brooklyn-17gzv0g61hpqmr1",
@@ -1692,7 +1706,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-brooklyn-barclays-center-4-4-2027/production/7017205",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-brooklyn-new-york-04-04-2027/event/300064A6D66AE78A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1766,7 +1780,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-baltimore-17a8v0g61lfcmsv",
@@ -1784,7 +1800,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-baltimore-cfg-bank-arena-4-8-2027/production/7017207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-baltimore-maryland-04-08-2027/event/150064A7C83AECF4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1850,7 +1866,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-boston-vvg17z_1qxbhwy",
@@ -1868,7 +1885,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-boston-td-garden-4-12-2027/production/7017199",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-boston-massachusetts-04-12-2027/event/010064A6BEEBCCB9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1937,7 +1954,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-raleigh-g5evz_1r802la",
@@ -1955,7 +1974,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-raleigh-lenovo-center-4-15-2027--concerts-pop/production/7017239",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-raleigh-north-carolina-04-15-2027/event/2D0064A79090FAC5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2021,7 +2040,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-orlando-17fov0g61xk1ezu",
@@ -2039,7 +2060,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-orlando-kia-center-4-17-2027--concerts-pop/production/7017237",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-orlando-florida-04-17-2027/event/220064A886282E36",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2113,7 +2134,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-atlanta-vvg1zz_1hoxudt",
@@ -2131,7 +2154,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-atlanta-state-farm-arena-4-28-2027/production/7017229",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-atlanta-georgia-04-28-2027/event/0E0064A6D18B6EFF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2205,7 +2228,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-new-orleans-g5viz_1xkcnon",
@@ -2223,7 +2248,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-new-orleans-smoothie-king-center-4-29-2027/production/7017193",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-new-orleans-louisiana-04-29-2027/event/1B0064A893B6A823",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2297,7 +2322,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-houston-z7r9jz1a709uy",
@@ -2387,7 +2414,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-fort-worth-texas-05-02-2027/event/0C0064A78A72709E",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2461,7 +2488,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-austin-g5diz_1lpaglw",
@@ -2479,7 +2508,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-austin-moody-center-atx-5-14-2027--concerts-pop/production/7017231",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-austin-texas-05-14-2027/event/3A0064A7E5175AFD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2553,7 +2582,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-denver-g5vzz_1lspoiu",
@@ -2571,7 +2602,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-denver-ball-arena-5-16-2027/production/7017223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-denver-colorado-05-16-2027/event/1E0064A7F3960B36",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2645,7 +2676,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-west-valley-city-g5vzz_1xafaiw",
@@ -2663,7 +2696,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-west-valley-city-utah-05-18-2027/event/1E0064A885205B3D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2713,7 +2746,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-phoenix-17k8v0g61ruofyr",
@@ -2731,7 +2765,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-phoenix-mortgage-matchup-center-5-20-2027/production/7017195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-phoenix-arizona-05-20-2027/event/190064A78D814E6F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2800,7 +2834,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-inglewood-vvg10z_1jzwise",
@@ -2818,7 +2853,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-inglewood-kia-forum-5-22-2027--concerts-pop/production/7017187",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-inglewood-california-05-22-2027/event/090064A700F6CCC2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2892,7 +2927,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-san-francisco-g5vyz_195tivo",
@@ -2910,7 +2947,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-san-francisco-chase-center-5-25-2027--concerts-pop/production/7017185",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-san-francisco-california-05-25-2027/event/1C0064A5CBFECD20",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2984,7 +3021,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-seattle-vvg1hz_1hqc03-",
@@ -3002,7 +3040,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-seattle-climate-pledge-arena-5-27-2027--concerts-pop/production/7017183",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-seattle-washington-05-27-2027/event/0F0064A6DAB644A1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3076,7 +3114,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-vancouver-1778v0g61qodyye",
@@ -3094,7 +3134,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-vancouver-british-columbia-05-29-2027/event/110064A6A00F9E42",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3171,7 +3211,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2026-dublin-1avoz_6rofpzd5ed",
@@ -3189,7 +3231,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-12-11-2026/event/1800647791216A12",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3228,7 +3270,9 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2026-dublin-1avoz_6rofjzd576",
@@ -3246,7 +3290,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-dublin-13-11-2026/event/1800647791226A36",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3301,7 +3345,9 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2026-belfast-1adoz_kgkuhawcy",
@@ -3319,7 +3365,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-15-11-2026/event/3800646DBC2723B0",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3374,7 +3420,8 @@
     "organizer_names": [
       "AIKEN PROMOTIONS",
       "O2"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2026-belfast-1adoz_6gkmwqvwh",
@@ -3392,7 +3439,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/niall-horan-dinner-party-live-on-belfast-16-11-2026/event/3800647BBD741CBC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3447,7 +3494,8 @@
     "organizer_names": [
       "AIKEN PROMOTIONS",
       "O2"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-hartford-z7r9jz1a709uz",
@@ -3675,7 +3723,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-07-05-2027/event/14006527E3D2ABF5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3728,7 +3776,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-7-5-2027/event/107670791",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdpr1hq",
@@ -3746,7 +3795,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-08-05-2027/event/14006527E578AF1A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3799,7 +3848,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-8-5-2027/event/107672844",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2027-tlajomulco-de-zuniga-g5dvz_31eksvx",
@@ -3817,7 +3867,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/niall-horan-tlajomulco-de-zuniga-11-05-2027/event/3D006522821B107E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3862,7 +3912,8 @@
     ],
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-niall-horan-2026-dublin-z7r9jz1a7-mpd",

@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/erasure-radio-radio-tour-cardiff-25-04-2027/event/36006538AD53678B",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -54,7 +54,9 @@
     "organizer_names": [
       "KILIMANJARO",
       "LIVE NATION MUSIC (VENUES) LTD (NEW)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-erasure-2027-bournemouth-15dbz_kx7jxjo",
@@ -72,7 +74,7 @@
     "vividseats_url": "https://www.vividseats.com/erasure-tickets-bournemouth-bournemouth-international-centre-4-26-2027/production/7632431",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/erasure-radio-radio-tour-bournemouth-26-04-2027/event/3600653884722711",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -118,7 +120,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/erasure-tickets-bournemouth-bournemouth-international-centre-26-4-2027/event/107671328",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-erasure-2027-liverpool-1amzkfugkdiq68r",
@@ -136,7 +140,7 @@
     "vividseats_url": "https://www.vividseats.com/erasure-tickets-liverpool-ms-bank-arena-liverpool-4-28-2027/production/7636060",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/erasure-radio-radio-tour-liverpool-28-04-2027/event/37006536E868742F",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -174,7 +178,9 @@
     "status": "on-sale",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-erasure-2027-birmingham-1anzkfzgkdmiv17",
@@ -192,7 +198,7 @@
     "vividseats_url": "https://www.vividseats.com/erasure-tickets-birmingham-utilita-arena-birmingham-4-30-2027/production/7636490",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/erasure-radio-radio-tour-birmingham-30-04-2027/event/23006538F7B01284",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -238,7 +244,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/erasure-tickets-birmingham-utilita-arena-birmingham-30-4-2027/event/107670585",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-erasure-2027-manchester-g5vhz_k6qxkzy",
@@ -256,7 +264,7 @@
     "vividseats_url": "https://www.vividseats.com/erasure-tickets-manchester-ao-arena-5-1-2027/production/7630274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/erasure-radio-radio-tour-manchester-01-05-2027/event/1F006531DAF93E30",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -303,7 +311,9 @@
     "organizer_names": [
       "KILIMANJARO",
       "ASM T-A AO ARENA"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-erasure-2027-dublin-15voz_kqav4z0",
@@ -321,7 +331,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/erasure-dublin-03-05-2027/event/1800653689055024",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -360,7 +370,9 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-erasure-2027-nottingham-1agzkfmgkd2kzuu",
@@ -378,7 +390,7 @@
     "vividseats_url": "https://www.vividseats.com/erasure-tickets-nottingham-motorpoint-arena---nottingham-5-5-2027/production/7636791",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/erasure-radio-radio-tour-nottingham-05-05-2027/event/35006537CF1B834D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416,7 +428,9 @@
     "status": "on-sale",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-erasure-2027-hull-1auzkfygkey3bob",
@@ -434,7 +448,7 @@
     "vividseats_url": "https://www.vividseats.com/erasure-tickets-hull-connexin-live-5-6-2027/production/7632465",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/erasure-radio-radio-tour-hull-06-05-2027/event/36006539B049847A",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -480,7 +494,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/erasure-tickets-hull-connexin-live-6-5-2027/event/107670586",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-erasure-2027-leeds-g5vhz_kldd9ue",
@@ -498,7 +514,7 @@
     "vividseats_url": "https://www.vividseats.com/erasure-tickets-leeds-first-direct-arena---leeds-5-8-2027/production/7632443",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/erasure-radio-radio-tour-leeds-08-05-2027/event/1F006537FBED7DA7",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -536,7 +552,9 @@
     "status": "on-sale",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-erasure-2027-glasgow-1auzkfzgkds5h6i",
@@ -554,7 +572,7 @@
     "vividseats_url": "https://www.vividseats.com/erasure-tickets-glasgow-ovo-hydro-5-9-2027/production/7630270",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/erasure-radio-radio-tour-glasgow-09-05-2027/event/36006538F12FC1EC",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -601,7 +619,9 @@
     "organizer_names": [
       "KILIMANJARO LIVE",
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-erasure-2027-brighton-g5dzz_kwfhs5r",
@@ -619,7 +639,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/erasure-brighton-11-05-2027/event/3E00653C94F332DE",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -658,7 +678,9 @@
     "organizer_names": [
       "KILIMANJARO LIVE",
       "THE BRIGHTON CENTRE (BRIGHTON & HOVE CITY COUNCIL)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-erasure-2027-london-1agzkfmgkdxoix5",
@@ -676,7 +698,7 @@
     "vividseats_url": "https://www.vividseats.com/erasure-tickets-london-the-o2---london-5-12-2027/production/7636488",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/erasure-radio-radio-tour-london-12-05-2027/event/35006537E2828F8B",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -722,6 +744,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/erasure-tickets-london-the-o2-arena-12-5-2027/event/107671326",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   }
 ]

@@ -1167,7 +1167,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70p_N",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_N",
     "seatgeek_url": "https://seatgeek.com/amble-tickets/atlanta-georgia-terminal-west-2026-11-13-8-pm/concert/18322791",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-atlanta-terminal-west-11-13-2026/production/6985031",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_N",
     "last_verified_at": "2026-11-07",
@@ -1189,11 +1189,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6985031,
+        "url": "https://www.vividseats.com/amble-tickets-atlanta-terminal-west-11-13-2026/production/6985031",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1237,7 +1237,7 @@
     "ticketmaster_event_id": "1B0064CABED5F446",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
     "seatgeek_url": "https://seatgeek.com/amble-tickets/nashville-tennessee-brooklyn-bowl-nashville-2026-11-14-8-pm/concert/18312209",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-nashville-brooklyn-bowl---nashville-11-14-2026/production/7165441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
     "last_verified_at": "2026-11-07",
@@ -1259,11 +1259,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7165441,
+        "url": "https://www.vividseats.com/amble-tickets-nashville-brooklyn-bowl---nashville-11-14-2026/production/7165441",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -978,6 +978,7 @@ export const OG_CARDS = {
   "/venues/bon-secours-wellness-arena-greenville": {"url":"/og/venues-bon-secours-wellness-arena-greenville.png","alt":"Concerts at: Bon Secours Wellness Arena"},
   "/venues/bp-pulse-live-birmingham": {"url":"/og/venues-bp-pulse-live-birmingham.png","alt":"Concerts at: bp pulse LIVE"},
   "/venues/bridgestone-arena-nashville": {"url":"/og/venues-bridgestone-arena-nashville.png","alt":"Concerts at: Bridgestone Arena"},
+  "/venues/brooklyn-bowl-nashville-nashville": {"url":"/og/venues-brooklyn-bowl-nashville-nashville.png","alt":"Concerts at: Brooklyn Bowl Nashville"},
   "/venues/brooklyn-paramount-brooklyn": {"url":"/og/venues-brooklyn-paramount-brooklyn.png","alt":"Concerts at: Brooklyn Paramount"},
   "/venues/burton-cummings-theatre-winnipeg": {"url":"/og/venues-burton-cummings-theatre-winnipeg.png","alt":"Concerts at: Burton Cummings Theatre"},
   "/venues/canada-life-centre-winnipeg": {"url":"/og/venues-canada-life-centre-winnipeg.png","alt":"Concerts at: Canada Life Centre"},

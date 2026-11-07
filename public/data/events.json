@@ -135328,7 +135328,7 @@
     "ticketmaster_event_id": "10006531EF199858",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-interrupters-toronto-ontario-04-10-2027/event/10006531EF199858",
     "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/toronto-canada-history-2027-04-10-6-pm/concert/18613159",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-toronto-history-toronto-4-10-2027--concerts-rock/production/7592484",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-interrupters-toronto-ontario-04-10-2027/event/10006531EF199858",
     "last_verified_at": "2026-11-07",
@@ -135350,11 +135350,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7592484,
+        "url": "https://www.vividseats.com/the-interrupters-tickets-toronto-history-toronto-4-10-2027--concerts-rock/production/7592484",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -156964,7 +156964,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70p_N",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_N",
     "seatgeek_url": "https://seatgeek.com/amble-tickets/atlanta-georgia-terminal-west-2026-11-13-8-pm/concert/18322791",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-atlanta-terminal-west-11-13-2026/production/6985031",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_N",
     "last_verified_at": "2026-11-07",
@@ -156986,11 +156986,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6985031,
+        "url": "https://www.vividseats.com/amble-tickets-atlanta-terminal-west-11-13-2026/production/6985031",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -157034,7 +157034,7 @@
     "ticketmaster_event_id": "1B0064CABED5F446",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
     "seatgeek_url": "https://seatgeek.com/amble-tickets/nashville-tennessee-brooklyn-bowl-nashville-2026-11-14-8-pm/concert/18312209",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-nashville-brooklyn-bowl---nashville-11-14-2026/production/7165441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
     "last_verified_at": "2026-11-07",
@@ -157056,11 +157056,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7165441,
+        "url": "https://www.vividseats.com/amble-tickets-nashville-brooklyn-bowl---nashville-11-14-2026/production/7165441",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -321214,7 +321214,7 @@
     "ticketmaster_event_id": "1684589224",
     "ticketmaster_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1684589224?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-fulda-domplatz-fulda-6-30-2027/production/7590767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1684589224?language=en-us",
     "last_verified_at": "2026-11-07",
@@ -321236,11 +321236,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7590767,
+        "url": "https://www.vividseats.com/simply-red-tickets-fulda-domplatz-fulda-6-30-2027/production/7590767",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -358624,7 +358624,7 @@
     "ticketmaster_event_id": "3600655DF4ABC445",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-18-05-2027/event/3600655DF4ABC445",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-5-18-2027/production/7799440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-18-05-2027/event/3600655DF4ABC445",
     "last_verified_at": "2026-11-07",
@@ -358646,11 +358646,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7799440,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-5-18-2027/production/7799440",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383188,7 +383188,7 @@
     "ticketmaster_event_id": "06006557CA84127C",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-cedar-rapids-iowa-02-16-2027/event/06006557CA84127C",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/cedar-rapids-iowa-alliant-energy-powerhouse-2027-02-16-6-30-pm/concert/18742671",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-cedar-rapids-alliant-energy-powerhouse-2-16-2027/production/7807508",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-cedar-rapids-iowa-02-16-2027/event/06006557CA84127C",
     "last_verified_at": null,
@@ -383210,11 +383210,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807508,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-cedar-rapids-alliant-energy-powerhouse-2-16-2027/production/7807508",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383241,7 +383241,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7Mr3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Mr3",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/kalamazoo-michigan-wings-event-center-2027-02-18-6-30-pm/concert/18742686",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-kalamazoo-wings-event-center-2-18-2027/production/7807510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Mr3",
     "last_verified_at": null,
@@ -383263,11 +383263,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807510,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-kalamazoo-wings-event-center-2-18-2027/production/7807510",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383294,7 +383294,7 @@
     "ticketmaster_event_id": "05006556E7550FB8",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-fort-wayne-indiana-02-19-2027/event/05006556E7550FB8",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/fort-wayne-indiana-allen-county-war-memorial-coliseum-2027-02-19-6-30-pm/concert/18742688",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-fort-wayne-allen-county-war-memorial-coliseum-2-19-2027/production/7807512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-fort-wayne-indiana-02-19-2027/event/05006556E7550FB8",
     "last_verified_at": null,
@@ -383316,11 +383316,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807512,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-fort-wayne-allen-county-war-memorial-coliseum-2-19-2027/production/7807512",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383347,7 +383347,7 @@
     "ticketmaster_event_id": "05006557AA3068A7",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-evansville-indiana-02-20-2027/event/05006557AA3068A7",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/evansville-indiana-ford-center-in-2027-02-20-6-30-pm/concert/18742693",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-evansville-ford-center-evansville-2-20-2027/production/7807516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-evansville-indiana-02-20-2027/event/05006557AA3068A7",
     "last_verified_at": null,
@@ -383369,11 +383369,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807516,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-evansville-ford-center-evansville-2-20-2027/production/7807516",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383400,7 +383400,7 @@
     "ticketmaster_event_id": "070065579F5E59C0",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-peoria-illinois-02-22-2027/event/070065579F5E59C0",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/peoria-illinois-peoria-civic-center-arena-2027-02-22-6-30-pm/concert/18742700",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-peoria-peoria-civic-center---prairie-home-alliance-theater-2-22-2027/production/7807712",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-peoria-illinois-02-22-2027/event/070065579F5E59C0",
     "last_verified_at": null,
@@ -383422,11 +383422,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807712,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-peoria-peoria-civic-center---prairie-home-alliance-theater-2-22-2027/production/7807712",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383453,7 +383453,7 @@
     "ticketmaster_event_id": "160065578DB24F47",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-louisville-kentucky-02-23-2027/event/160065578DB24F47",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/louisville-kentucky-kfc-yum-center-2027-02-23-6-30-pm/concert/18742710",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-louisville-kfc-yum-center-2-23-2027/production/7807642",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-louisville-kentucky-02-23-2027/event/160065578DB24F47",
     "last_verified_at": null,
@@ -383475,11 +383475,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807642,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-louisville-kfc-yum-center-2-23-2027/production/7807642",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383506,7 +383506,7 @@
     "ticketmaster_event_id": "05006557B6727C70",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-columbus-ohio-02-25-2027/event/05006557B6727C70",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/columbus-ohio-nationwide-arena-2027-02-25-6-30-pm/concert/18742717",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-columbus-nationwide-arena-2-25-2027/production/7807662",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-columbus-ohio-02-25-2027/event/05006557B6727C70",
     "last_verified_at": null,
@@ -383528,11 +383528,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807662,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-columbus-nationwide-arena-2-25-2027/production/7807662",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383559,7 +383559,7 @@
     "ticketmaster_event_id": "02006556F82E8146",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-university-park-pennsylvania-02-26-2027/event/02006556F82E8146",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/university-park-pennsylvania-bryce-jordan-center-2027-02-26-6-30-pm/concert/18742722",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-university-park-bryce-jordan-center-2-26-2027/production/7807492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-university-park-pennsylvania-02-26-2027/event/02006556F82E8146",
     "last_verified_at": null,
@@ -383581,11 +383581,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807492,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-university-park-bryce-jordan-center-2-26-2027/production/7807492",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383612,7 +383612,7 @@
     "ticketmaster_event_id": "1D006557C7A846FD",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-uncasville-connecticut-02-28-2027/event/1D006557C7A846FD",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/uncasville-connecticut-mohegan-sun-arena-2027-02-28-6-30-pm/concert/18742724",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-uncasville-mohegan-sun-arena-ct-2-28-2027/production/7807638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-uncasville-connecticut-02-28-2027/event/1D006557C7A846FD",
     "last_verified_at": null,
@@ -383634,11 +383634,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807638,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-uncasville-mohegan-sun-arena-ct-2-28-2027/production/7807638",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383665,7 +383665,7 @@
     "ticketmaster_event_id": "00006556CCBACD92",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-syracuse-new-york-03-02-2027/event/00006556CCBACD92",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/syracuse-new-york-upstate-medical-university-arena-at-the-oncenter-war-memorial-2027-03-02-6-30-pm/concert/18742726",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-syracuse-oncenter---upstate-medical-university-arena-3-2-2027/production/7807734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-syracuse-new-york-03-02-2027/event/00006556CCBACD92",
     "last_verified_at": null,
@@ -383687,11 +383687,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807734,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-syracuse-oncenter---upstate-medical-university-arena-3-2-2027/production/7807734",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383718,7 +383718,7 @@
     "ticketmaster_event_id": "00006557CDAFE39C",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-albany-new-york-03-03-2027/event/00006557CDAFE39C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-albany-mvp-arena-3-3-2027/production/7807736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-albany-new-york-03-03-2027/event/00006557CDAFE39C",
     "last_verified_at": null,
@@ -383740,11 +383740,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807736,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-albany-mvp-arena-3-3-2027/production/7807736",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383771,7 +383771,7 @@
     "ticketmaster_event_id": "02006557B1BEB6C2",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-hershey-pennsylvania-03-05-2027/event/02006557B1BEB6C2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-hershey-giant-center-3-5-2027/production/7807490",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-hershey-pennsylvania-03-05-2027/event/02006557B1BEB6C2",
     "last_verified_at": null,
@@ -383793,11 +383793,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807490,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-hershey-giant-center-3-5-2027/production/7807490",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383824,7 +383824,7 @@
     "ticketmaster_event_id": "16006557AF1A9991",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-charleston-west-virginia-03-06-2027/event/16006557AF1A9991",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-charleston-charleston-coliseum-and-convention-center-3-6-2027/production/7807498",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-charleston-west-virginia-03-06-2027/event/16006557AF1A9991",
     "last_verified_at": null,
@@ -383846,11 +383846,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807498,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-charleston-charleston-coliseum-and-convention-center-3-6-2027/production/7807498",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383877,7 +383877,7 @@
     "ticketmaster_event_id": "2D0065561D247A14",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-greenville-south-carolina-03-08-2027/event/2D0065561D247A14",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-greenville-bon-secours-wellness-arena-3-8-2027/production/7807496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-greenville-south-carolina-03-08-2027/event/2D0065561D247A14",
     "last_verified_at": null,
@@ -383899,11 +383899,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807496,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-greenville-bon-secours-wellness-arena-3-8-2027/production/7807496",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383930,7 +383930,7 @@
     "ticketmaster_event_id": "0E006556D1B220BB",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-savannah-georgia-03-09-2027/event/0E006556D1B220BB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-savannah-enmarket-arena-3-9-2027/production/7807660",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-savannah-georgia-03-09-2027/event/0E006556D1B220BB",
     "last_verified_at": null,
@@ -383952,11 +383952,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807660,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-savannah-enmarket-arena-3-9-2027/production/7807660",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383983,7 +383983,7 @@
     "ticketmaster_event_id": "02006557EE8B48A1",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-atlantic-city-new-jersey-03-12-2027/event/02006557EE8B48A1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-atlantic-city-ovation-hall-at-ocean-casino-resort-3-12-2027--concerts-alternative/production/7807740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-atlantic-city-new-jersey-03-12-2027/event/02006557EE8B48A1",
     "last_verified_at": null,
@@ -384005,11 +384005,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807740,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-atlantic-city-ovation-hall-at-ocean-casino-resort-3-12-2027--concerts-alternative/production/7807740",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384036,7 +384036,7 @@
     "ticketmaster_event_id": "22006562D6B54087",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-orlando-florida-02-05-2027/event/22006562D6B54087",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-orlando-kia-center-2-5-2027/production/7824670",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-orlando-florida-02-05-2027/event/22006562D6B54087",
     "last_verified_at": null,
@@ -384058,11 +384058,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824670,
+        "url": "https://www.vividseats.com/feid-tickets-orlando-kia-center-2-5-2027/production/7824670",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384090,7 +384090,7 @@
     "ticketmaster_event_id": "0D006563E3E1990B",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-tampa-florida-02-06-2027/event/0D006563E3E1990B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-tampa-benchmark-international-arena-2-6-2027/production/7824724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-tampa-florida-02-06-2027/event/0D006563E3E1990B",
     "last_verified_at": null,
@@ -384112,11 +384112,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824724,
+        "url": "https://www.vividseats.com/feid-tickets-tampa-benchmark-international-arena-2-6-2027/production/7824724",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384144,7 +384144,7 @@
     "ticketmaster_event_id": "0D006562D90BAFAB",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-miami-florida-02-11-2027/event/0D006562D90BAFAB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-miami-kaseya-center-2-11-2027/production/7824740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-miami-florida-02-11-2027/event/0D006562D90BAFAB",
     "last_verified_at": null,
@@ -384166,11 +384166,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824740,
+        "url": "https://www.vividseats.com/feid-tickets-miami-kaseya-center-2-11-2027/production/7824740",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384198,7 +384198,7 @@
     "ticketmaster_event_id": "0E006562ABC17E09",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-duluth-georgia-02-18-2027/event/0E006562ABC17E09",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-duluth-gas-south-arena-2-18-2027/production/7824734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-duluth-georgia-02-18-2027/event/0E006562ABC17E09",
     "last_verified_at": null,
@@ -384220,11 +384220,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824734,
+        "url": "https://www.vividseats.com/feid-tickets-duluth-gas-south-arena-2-18-2027/production/7824734",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384252,7 +384252,7 @@
     "ticketmaster_event_id": "2D006562B21A8E27",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-charlotte-north-carolina-02-20-2027/event/2D006562B21A8E27",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-charlotte-spectrum-center-2-20-2027/production/7824738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-charlotte-north-carolina-02-20-2027/event/2D006562B21A8E27",
     "last_verified_at": null,
@@ -384274,11 +384274,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824738,
+        "url": "https://www.vividseats.com/feid-tickets-charlotte-spectrum-center-2-20-2027/production/7824738",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384306,7 +384306,7 @@
     "ticketmaster_event_id": "010065639CD167A2",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-boston-massachusetts-02-23-2027/event/010065639CD167A2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-boston-td-garden-2-23-2027/production/7824764",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-boston-massachusetts-02-23-2027/event/010065639CD167A2",
     "last_verified_at": null,
@@ -384328,11 +384328,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824764,
+        "url": "https://www.vividseats.com/feid-tickets-boston-td-garden-2-23-2027/production/7824764",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384360,7 +384360,7 @@
     "ticketmaster_event_id": "1500654538915859",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-washington-district-of-columbia-02-25-2027/event/1500654538915859",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-washington-capital-one-arena-2-25-2027/production/7824742",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-washington-district-of-columbia-02-25-2027/event/1500654538915859",
     "last_verified_at": null,
@@ -384382,11 +384382,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824742,
+        "url": "https://www.vividseats.com/feid-tickets-washington-capital-one-arena-2-25-2027/production/7824742",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384414,7 +384414,7 @@
     "ticketmaster_event_id": "30006565AB1E4D1C",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-philadelphia-pennsylvania-02-26-2027/event/30006565AB1E4D1C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-philadelphia-xfinity-mobile-arena-2-26-2027/production/7824744",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-philadelphia-pennsylvania-02-26-2027/event/30006565AB1E4D1C",
     "last_verified_at": null,
@@ -384436,11 +384436,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824744,
+        "url": "https://www.vividseats.com/feid-tickets-philadelphia-xfinity-mobile-arena-2-26-2027/production/7824744",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384468,7 +384468,7 @@
     "ticketmaster_event_id": "3000656491B9295F",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-03-2027/event/3000656491B9295F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-brooklyn-barclays-center-3-3-2027/production/7824704",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-03-2027/event/3000656491B9295F",
     "last_verified_at": null,
@@ -384490,11 +384490,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824704,
+        "url": "https://www.vividseats.com/feid-tickets-brooklyn-barclays-center-3-3-2027/production/7824704",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384522,7 +384522,7 @@
     "ticketmaster_event_id": "10006562AA635702",
     "ticketmaster_url": "https://www.ticketmaster.ca/feid-ferxxo-the-green-star-tour-toronto-ontario-03-11-2027/event/10006562AA635702",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-toronto-scotiabank-arena-3-11-2027/production/7825006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/feid-ferxxo-the-green-star-tour-toronto-ontario-03-11-2027/event/10006562AA635702",
     "last_verified_at": null,
@@ -384544,11 +384544,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7825006,
+        "url": "https://www.vividseats.com/feid-tickets-toronto-scotiabank-arena-3-11-2027/production/7825006",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384576,7 +384576,7 @@
     "ticketmaster_event_id": "3100655EE403C5D4",
     "ticketmaster_url": "https://www.ticketmaster.ca/feid-ferxxo-the-green-star-tour-montreal-quebec-03-13-2027/event/3100655EE403C5D4",
     "seatgeek_url": "https://seatgeek.com/feid-tickets/montreal-canada-centre-bell-2027-03-13-8-pm/concert/18746768",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-montreal-bell-centre-3-13-2027/production/7825008",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/feid-ferxxo-the-green-star-tour-montreal-quebec-03-13-2027/event/3100655EE403C5D4",
     "last_verified_at": null,
@@ -384598,11 +384598,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7825008,
+        "url": "https://www.vividseats.com/feid-tickets-montreal-bell-centre-3-13-2027/production/7825008",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384630,7 +384630,7 @@
     "ticketmaster_event_id": "04006562DB9A783D",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-18-2027/event/04006562DB9A783D",
     "seatgeek_url": "https://seatgeek.com/feid-tickets/chicago-illinois-united-center-2027-03-18-8-pm/concert/18746737",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-chicago-united-center-3-18-2027/production/7824746",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-18-2027/event/04006562DB9A783D",
     "last_verified_at": null,
@@ -384652,11 +384652,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824746,
+        "url": "https://www.vividseats.com/feid-tickets-chicago-united-center-3-18-2027/production/7824746",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384684,7 +384684,7 @@
     "ticketmaster_event_id": "0C006564F7C6328A",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-dallas-texas-03-24-2027/event/0C006564F7C6328A",
     "seatgeek_url": "https://seatgeek.com/feid-tickets/dallas-texas-american-airlines-center-2027-03-24-8-pm/concert/18746738",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-dallas-american-airlines-center---tx-3-24-2027/production/7824994",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-dallas-texas-03-24-2027/event/0C006564F7C6328A",
     "last_verified_at": null,
@@ -384706,11 +384706,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824994,
+        "url": "https://www.vividseats.com/feid-tickets-dallas-american-airlines-center---tx-3-24-2027/production/7824994",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384738,7 +384738,7 @@
     "ticketmaster_event_id": "3A006564EF1BCEC3",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-austin-texas-03-26-2027/event/3A006564EF1BCEC3",
     "seatgeek_url": "https://seatgeek.com/feid-tickets/austin-texas-moody-center-atx-2027-03-26-8-pm/concert/18746739",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-austin-moody-center-atx-3-26-2027/production/7824956",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-austin-texas-03-26-2027/event/3A006564EF1BCEC3",
     "last_verified_at": null,
@@ -384760,11 +384760,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824956,
+        "url": "https://www.vividseats.com/feid-tickets-austin-moody-center-atx-3-26-2027/production/7824956",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384792,7 +384792,7 @@
     "ticketmaster_event_id": "1E006564EF7D6507",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-denver-colorado-03-31-2027/event/1E006564EF7D6507",
     "seatgeek_url": "https://seatgeek.com/feid-tickets/denver-colorado-ball-arena-2027-03-31-8-pm/concert/18746743",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-denver-ball-arena-3-31-2027/production/7824752",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-denver-colorado-03-31-2027/event/1E006564EF7D6507",
     "last_verified_at": null,
@@ -384814,11 +384814,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824752,
+        "url": "https://www.vividseats.com/feid-tickets-denver-ball-arena-3-31-2027/production/7824752",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384846,7 +384846,7 @@
     "ticketmaster_event_id": "0F006564C16194A1",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-seattle-washington-04-04-2027/event/0F006564C16194A1",
     "seatgeek_url": "https://seatgeek.com/feid-tickets/seattle-washington-climate-pledge-arena-2027-04-04-8-pm/concert/18746746",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-seattle-climate-pledge-arena-4-4-2027/production/7824756",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-seattle-washington-04-04-2027/event/0F006564C16194A1",
     "last_verified_at": null,
@@ -384868,11 +384868,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824756,
+        "url": "https://www.vividseats.com/feid-tickets-seattle-climate-pledge-arena-4-4-2027/production/7824756",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384900,7 +384900,7 @@
     "ticketmaster_event_id": "0F00656393D54DDB",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-portland-oregon-04-06-2027/event/0F00656393D54DDB",
     "seatgeek_url": "https://seatgeek.com/feid-tickets/portland-oregon-moda-center-2027-04-06-8-pm/concert/18746749",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-portland-moda-center-4-6-2027/production/7824758",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-portland-oregon-04-06-2027/event/0F00656393D54DDB",
     "last_verified_at": null,
@@ -384922,11 +384922,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824758,
+        "url": "https://www.vividseats.com/feid-tickets-portland-moda-center-4-6-2027/production/7824758",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -384954,7 +384954,7 @@
     "ticketmaster_event_id": "1C006562D6EED4DC",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-sacramento-california-04-08-2027/event/1C006562D6EED4DC",
     "seatgeek_url": "https://seatgeek.com/feid-tickets/sacramento-california-golden-1-center-2027-04-08-8-pm/concert/18746750",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-sacramento-golden-1-center-4-8-2027/production/7824646",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-sacramento-california-04-08-2027/event/1C006562D6EED4DC",
     "last_verified_at": null,
@@ -384976,11 +384976,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824646,
+        "url": "https://www.vividseats.com/feid-tickets-sacramento-golden-1-center-4-8-2027/production/7824646",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -385008,7 +385008,7 @@
     "ticketmaster_event_id": "1C006562B549A19D",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-san-francisco-california-04-10-2027/event/1C006562B549A19D",
     "seatgeek_url": "https://seatgeek.com/feid-tickets/san-francisco-california-chase-center-2027-04-10-8-pm/concert/18746753",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-san-francisco-chase-center-4-10-2027/production/7824650",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-san-francisco-california-04-10-2027/event/1C006562B549A19D",
     "last_verified_at": null,
@@ -385030,11 +385030,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824650,
+        "url": "https://www.vividseats.com/feid-tickets-san-francisco-chase-center-4-10-2027/production/7824650",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -385116,7 +385116,7 @@
     "ticketmaster_event_id": "1C006563A7F4983E",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-fresno-california-04-13-2027/event/1C006563A7F4983E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-fresno-save-mart-center-4-13-2027/production/7824652",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-fresno-california-04-13-2027/event/1C006563A7F4983E",
     "last_verified_at": null,
@@ -385138,11 +385138,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824652,
+        "url": "https://www.vividseats.com/feid-tickets-fresno-save-mart-center-4-13-2027/production/7824652",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -385170,7 +385170,7 @@
     "ticketmaster_event_id": "19006563CAE45F83",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-phoenix-arizona-04-15-2027/event/19006563CAE45F83",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-phoenix-mortgage-matchup-center-4-15-2027/production/7824768",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-phoenix-arizona-04-15-2027/event/19006563CAE45F83",
     "last_verified_at": null,
@@ -385192,11 +385192,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824768,
+        "url": "https://www.vividseats.com/feid-tickets-phoenix-mortgage-matchup-center-4-15-2027/production/7824768",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -385224,7 +385224,7 @@
     "ticketmaster_event_id": "0A006563E2498813",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-san-diego-california-04-23-2027/event/0A006563E2498813",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-san-diego-pechanga-arena-4-23-2027/production/7824636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-san-diego-california-04-23-2027/event/0A006563E2498813",
     "last_verified_at": null,
@@ -385246,11 +385246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824636,
+        "url": "https://www.vividseats.com/feid-tickets-san-diego-pechanga-arena-4-23-2027/production/7824636",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -385278,7 +385278,7 @@
     "ticketmaster_event_id": "09006563CA7AD7D6",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-anaheim-california-04-25-2027/event/09006563CA7AD7D6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-anaheim-honda-center-4-25-2027/production/7824654",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-anaheim-california-04-25-2027/event/09006563CA7AD7D6",
     "last_verified_at": null,
@@ -385300,11 +385300,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824654,
+        "url": "https://www.vividseats.com/feid-tickets-anaheim-honda-center-4-25-2027/production/7824654",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -385332,7 +385332,7 @@
     "ticketmaster_event_id": "09006563CCD6DA6F",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-29-2027/event/09006563CCD6DA6F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/feid-tickets-inglewood-intuit-dome-4-29-2027/production/7824619",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-29-2027/event/09006563CCD6DA6F",
     "last_verified_at": null,
@@ -385354,11 +385354,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824619,
+        "url": "https://www.vividseats.com/feid-tickets-inglewood-intuit-dome-4-29-2027/production/7824619",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

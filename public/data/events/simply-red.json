@@ -272,7 +272,7 @@
     "ticketmaster_event_id": "1684589224",
     "ticketmaster_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1684589224?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-fulda-domplatz-fulda-6-30-2027/production/7590767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1684589224?language=en-us",
     "last_verified_at": "2026-11-07",
@@ -294,11 +294,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7590767,
+        "url": "https://www.vividseats.com/simply-red-tickets-fulda-domplatz-fulda-6-30-2027/production/7590767",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

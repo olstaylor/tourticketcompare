@@ -95,7 +95,9 @@ async function renderOnsale(ASSETS) {
     env: { ASSETS },
     next: () => new Response("unexpected pass-through", { status: 500 })
   });
-  return { status: response.status, html: (await response.text()).replace(/\d{4}-\d{2}-\d{2}T[\d:.]+Z/g, "") };
+  return { status: response.status, html: (await response.text()).replace(/\d{4}-\d{2}-\d{2}T[\d:.]+Z/g, "")
+    // The visible "Checked YYYY-MM-DD HH:MM UTC" stamp changes when two renders straddle a minute.
+    .replace(/\d{4}-\d{2}-\d{2} \d{2}:\d{2} UTC/g, "") };
 }
 
 const aggregateOnly = assetsThatCount();

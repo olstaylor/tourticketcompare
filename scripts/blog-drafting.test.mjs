@@ -574,6 +574,30 @@ test('a tour guide can go live before the public sale, with the on-sale time che
   assert(!plain.limitations.some((l) => /Sale and presale times/.test(l)) || plain.events.some((e) => e.publicOnsaleAt), 'no sale-time rule without sale times');
 });
 
+test('a pre-sale date the sync never stamped joins a tour guide only through a current check', async () => {
+  const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))];
+  const tour = selectTourGuides(fixture, slugs, { now }).selected;
+  const future = new Date(now + 5 * 86400000).toISOString().replace(/\.\d{3}Z$/, 'Z');
+  const target = tour.rows[0].event;
+  const unstamp = (extra) => ({ ...fixture, events: fixture.events.map((e) => e.id === target.id ? { ...e, last_verified_at: null, ...extra } : e) });
+  const has = (src) => selectTourGuides(src, [target.artist_slug], { now }).candidates.some((c) => c.rows.some((r) => r.event.id === target.id));
+  const stale = new Date(now - 60 * 86400000).toISOString().slice(0, 10);
+  assert(!has(unstamp({ public_onsale_at: new Date(now - 86400000).toISOString() })), 'an unstamped date with no future sale stays out');
+  assert(!has(unstamp({ last_verified_at: stale, public_onsale_at: future })), 'a stale date stays out even before its sale');
+  assert(!has(unstamp({ public_onsale_at: future, ticketmaster_discovery_event_id: '' })), 'no Discovery identity, no entry');
+  const src = unstamp({ public_onsale_at: future });
+  assert(has(src), 'an unstamped date before its public sale is eligible');
+  const picked = selectTourGuides(src, [target.artist_slug], { now }).candidates[0];
+  const evidence = buildEvidence(picked, { now, snapshot });
+  const row = evidence.events.find((e) => e.id === target.id);
+  assert.equal(row.requireCurrent, true);
+  assert.equal(row.repositoryVerified, null);
+  assert.equal(row.publicOnsaleAt, future);
+  const offline = await researchEvidence(structuredClone(evidence), { now, pauseMs: 0 });
+  assert(!offline.events.some((e) => e.id === target.id), 'without a current check the date is dropped');
+  assert(offline.events.every((e) => e.external?.kind === 'not-checked'), 'stamped dates keep the old behaviour');
+});
+
 test('a paid draft that fails a check is kept and the stray date is named', async () => {
   const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))];
   const tour = selectTourGuides(fixture, slugs, { now }).selected;

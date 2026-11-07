@@ -821,6 +821,7 @@ export const OG_CARDS = {
   "/blog/sombr-tour-ticket-prices-by-city": {"url":"/og/blog-sombr-tour-ticket-prices-by-city.png","alt":"Blog: Sombr tour tickets: listed prices city by city"},
   "/blog/trans-siberian-orchestra-2026-matinee-or-evening": {"url":"/og/blog-trans-siberian-orchestra-2026-matinee-or-evening.png","alt":"Blog: Trans-Siberian Orchestra 2026: matinee or evening tickets?"},
   "/blog/trivium-tour-ticket-prices-by-city": {"url":"/og/blog-trivium-tour-ticket-prices-by-city.png","alt":"Blog: Trivium tour tickets: listed prices city by city"},
+  "/blog/u2-tour-guide": {"url":"/og/blog-u2-tour-guide.png","alt":"Blog: U2 tour: dates, cities and how to choose"},
   "/blog/what-a-price-snapshot-actually-is": {"url":"/og/blog-what-a-price-snapshot-actually-is.png","alt":"Blog: What a price on this site actually means"},
   "/blog/where-the-big-concert-tours-are-playing-in-2027": {"url":"/og/blog-where-the-big-concert-tours-are-playing-in-2027.png","alt":"Blog: Where the big concert tours are playing in 2027"},
   "/blog/which-tours-got-cheaper-on-resale-november-2026": {"url":"/og/blog-which-tours-got-cheaper-on-resale-november-2026.png","alt":"Blog: Which US tours got cheaper on resale this month? November 2026"},

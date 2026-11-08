@@ -797,6 +797,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7551671",
+        "url": "https://www.ticketliquidator.com/tickets/7551671/Three-Days-Grace-tickets-Wed-Nov-18-2026-SAP-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbU3R_nwH",
@@ -819,7 +826,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551671",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551671/Three-Days-Grace-tickets-Wed-Nov-18-2026-SAP-Center"
   },
   {
     "id": "tm-three-days-grace-2026-san-diego-vvg1izbuciwp5c",

@@ -209,6 +209,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252890",
+        "url": "https://www.ticketliquidator.com/tickets/8252890/Yuridia-tickets-Sun-Feb-7-2027-SAP-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_oXVXYmL",
@@ -231,7 +238,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252890",
     "ticket_limit": 6,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252890/Yuridia-tickets-Sun-Feb-7-2027-SAP-Center"
   },
   {
     "id": "tm-yuridia-2027-palm-desert-vvg1iz_35qkx8b",
@@ -1556,13 +1564,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252910",
+        "url": "https://www.ticketliquidator.com/tickets/8252910/Yuridia-tickets-Thu-Mar-11-2027-Smart-Financial-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-_t",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252910",
-    "genre": "World"
+    "genre": "World",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252910/Yuridia-tickets-Thu-Mar-11-2027-Smart-Financial-Centre"
   },
   {
     "id": "tm-yuridia-2027-edinburg-z7r9jz1aav-_y",

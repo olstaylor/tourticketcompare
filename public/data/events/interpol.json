@@ -185,6 +185,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7542483",
+        "url": "https://www.ticketliquidator.com/tickets/7542483/Bloc-Party-tickets-Fri-Nov-27-2026-Brighton-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbgWDgxYl",
@@ -196,7 +203,8 @@
       "THE BRIGHTON CENTRE (BRIGHTON & HOVE CITY COUNCIL)"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7542483",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7542483/Bloc-Party-tickets-Fri-Nov-27-2026-Brighton-Centre"
   },
   {
     "id": "tm-interpol-2026-dublin-1abzkuogkdez9hd",
@@ -563,6 +571,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337025",
+        "url": "https://www.ticketliquidator.com/tickets/8337025/Interpol-tickets-Tue-Mar-23-2027-Thomas-Wolfe-Auditorium-at-Harrahs-Cherokee-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_4oZ4dPM",
@@ -572,7 +587,8 @@
       "AEG LIVE"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337025",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337025/Interpol-tickets-Tue-Mar-23-2027-Thomas-Wolfe-Auditorium-at-Harrahs-Cherokee-Center"
   },
   {
     "id": "tm-interpol-2027-washington-1a4zk4kgkd5cf0g",

@@ -106,12 +106,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294993",
+        "url": "https://www.ticketliquidator.com/tickets/8294993/Black-Stone-Cherry-tickets-Wed-Nov-18-2026-The-Waiting-Room-Lounge-NE",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8_-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294993"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294993",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294993/Black-Stone-Cherry-tickets-Wed-Nov-18-2026-The-Waiting-Room-Lounge-NE"
   },
   {
     "id": "tm-black-stone-cherry-2026-sauget-rz7hnez1afggzf",

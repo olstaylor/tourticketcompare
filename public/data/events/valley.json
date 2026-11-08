@@ -743,6 +743,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272765",
+        "url": "https://www.ticketliquidator.com/tickets/8272765/Valley-Band-tickets-Sat-Feb-20-2027-Palace-Theatre-Calgary",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkB3CpP6",
@@ -764,7 +771,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272765",
     "ticket_limit": 4,
     "legal_age_enforced": true,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272765/Valley-Band-tickets-Sat-Feb-20-2027-Palace-Theatre-Calgary"
   },
   {
     "id": "tm-valley-2027-victoria-z7r9jz1aavgoz",

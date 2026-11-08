@@ -496,6 +496,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266294",
+        "url": "https://www.ticketliquidator.com/tickets/8266294/The-Psychedelic-Furs-tickets-Sat-Apr-17-2027-Thomas-Wolfe-Auditorium-at-Harrahs-Cherokee-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_35jHJdG",
@@ -509,7 +516,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266294",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266294/The-Psychedelic-Furs-tickets-Sat-Apr-17-2027-Thomas-Wolfe-Auditorium-at-Harrahs-Cherokee-Center"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-norfolk-z7r9jz1aavs4p",
@@ -716,6 +724,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266273",
+        "url": "https://www.ticketliquidator.com/tickets/8266273/The-Psychedelic-Furs-tickets-Sat-Apr-24-2027-Wind-Creek-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_3GkmKNaPk",
@@ -732,7 +747,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266273",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266273/The-Psychedelic-Furs-tickets-Sat-Apr-24-2027-Wind-Creek-Event-Center"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-red-bank-g5vvz_3ilcqvm",
@@ -866,6 +882,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266298",
+        "url": "https://www.ticketliquidator.com/tickets/8266298/The-Psychedelic-Furs-tickets-Wed-Apr-28-2027-Paramount-Theatre-Huntington",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3N_ASME",
@@ -888,7 +911,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266298",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266298/The-Psychedelic-Furs-tickets-Wed-Apr-28-2027-Paramount-Theatre-Huntington"
   },
   {
     "id": "tm-the-psychedelic-furs-2027-northfield-vv17fz_ogkhgkwao",

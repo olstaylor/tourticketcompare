@@ -1315,6 +1315,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326566",
+        "url": "https://www.ticketliquidator.com/tickets/8326566/MercyMe-tickets-Sun-Apr-4-2027-Santander-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkS27zYe",
@@ -1324,7 +1331,8 @@
       "AWAKENING EVENTS"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326566",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326566/MercyMe-tickets-Sun-Apr-4-2027-Santander-Arena"
   },
   {
     "id": "tm-mercyme-2027-portland-vv177z_fgkxgyxqn",
@@ -1596,6 +1604,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326569",
+        "url": "https://www.ticketliquidator.com/tickets/8326569/MercyMe-tickets-Sat-Apr-17-2027-HEB-Center-at-Cedar-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fIumnTg",
@@ -1605,7 +1620,8 @@
       "AWAKENING EVENTS"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326569",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326569/MercyMe-tickets-Sat-Apr-17-2027-HEB-Center-at-Cedar-Park"
   },
   {
     "id": "tm-mercyme-2027-bossier-city-g5viz_fdsgolb",

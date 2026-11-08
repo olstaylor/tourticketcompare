@@ -504,6 +504,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7103874",
+        "url": "https://www.ticketliquidator.com/tickets/7103874/Eros-Ramazzotti-tickets-Wed-Oct-13-2027-Smart-Financial-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A74UO8",
@@ -511,7 +518,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7103874",
-    "genre": "World"
+    "genre": "World",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7103874/Eros-Ramazzotti-tickets-Wed-Oct-13-2027-Smart-Financial-Centre"
   },
   {
     "id": "tm-eros-ramazzotti-2027-inglewood-vvg1izbiyf5ko0",

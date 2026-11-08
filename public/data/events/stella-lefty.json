@@ -1757,6 +1757,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231137",
+        "url": "https://www.ticketliquidator.com/tickets/8231137/Stella-Lefty-tickets-Tue-Jan-26-2027-The-Tabernacle-GA",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_olG43WY",
@@ -1774,7 +1781,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231137",
     "ticket_limit": 4,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231137/Stella-Lefty-tickets-Tue-Jan-26-2027-The-Tabernacle-GA"
   },
   {
     "id": "tm-stella-lefty-2027-dallas-vvg1yz_o8qf6xm",
@@ -2154,6 +2162,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231127",
+        "url": "https://www.ticketliquidator.com/tickets/8231127/Stella-Lefty-tickets-Sat-Feb-13-2027-Fillmore-Auditorium-Colorado",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_o3iVhXH",
@@ -2171,7 +2186,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231127",
     "ticket_limit": 4,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231127/Stella-Lefty-tickets-Sat-Feb-13-2027-Fillmore-Auditorium-Colorado"
   },
   {
     "id": "tm-stella-lefty-2027-chicago-vv1a7zkf3ovc9zec5",

@@ -1041,18 +1041,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8097391",
-        "url": "https://www.ticketliquidator.com/tickets/8097391/Dinosaur-Jr-tickets-Fri-Nov-6-2026-Paper-Tiger",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7J7J_",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8097391/Dinosaur-Jr-tickets-Fri-Nov-6-2026-Paper-Tiger"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-dinosaur-jr-2026-new-orleans-z7r9jz1a7pu-o",
@@ -1383,13 +1383,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8256068",
+        "url": "https://www.ticketliquidator.com/tickets/8256068/Dinosaur-Jr-tickets-Tue-Feb-23-2027-The-Plaza-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8-U",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256068",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8256068/Dinosaur-Jr-tickets-Tue-Feb-23-2027-The-Plaza-Live"
   },
   {
     "id": "tm-dinosaur-jr-2027-athens-z7r9jz1aavk1o",

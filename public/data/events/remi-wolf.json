@@ -590,12 +590,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315229",
+        "url": "https://www.ticketliquidator.com/tickets/8315229/Remi-Wolf-tickets-Sun-Mar-7-2027-Masonic-Temple-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7K0M",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315229"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315229",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315229/Remi-Wolf-tickets-Sun-Mar-7-2027-Masonic-Temple-Theatre"
   },
   {
     "id": "tm-remi-wolf-2027-chicago-vv1a7zk4fgkdb7-a0",

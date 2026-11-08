@@ -53,13 +53,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359374",
+        "url": "https://www.ticketliquidator.com/tickets/8359374/Feid-tickets-Fri-Feb-5-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4xGkdpcfe6",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359374"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359374",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359374/Feid-tickets-Fri-Feb-5-2027-Kia-Center"
   },
   {
     "id": "tm-feid-2027-tampa-vvg1vz_p2nz_05",
@@ -115,13 +123,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359375",
+        "url": "https://www.ticketliquidator.com/tickets/8359375/Feid-tickets-Sat-Feb-6-2027-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_p2Nz_05",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359375"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359375",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359375/Feid-tickets-Sat-Feb-6-2027-Benchmark-International-Arena"
   },
   {
     "id": "tm-feid-2027-miami-vvg1vz_p5_ebxl",
@@ -177,13 +193,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359376",
+        "url": "https://www.ticketliquidator.com/tickets/8359376/Feid-tickets-Thu-Feb-11-2027-Kaseya-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_p5_eBXl",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359376"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359376",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359376/Feid-tickets-Thu-Feb-11-2027-Kaseya-Center"
   },
   {
     "id": "tm-feid-2027-duluth-vvg1zz_p1ly9za",
@@ -239,13 +263,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359379",
+        "url": "https://www.ticketliquidator.com/tickets/8359379/Feid-tickets-Thu-Feb-18-2027-Gas-South-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_p1lY9za",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359379"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359379",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359379/Feid-tickets-Thu-Feb-18-2027-Gas-South-Arena"
   },
   {
     "id": "tm-feid-2027-charlotte-g5evz_p1wkize",
@@ -301,13 +333,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359380",
+        "url": "https://www.ticketliquidator.com/tickets/8359380/Feid-tickets-Sat-Feb-20-2027-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_p1wkIzE",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359380"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359380",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359380/Feid-tickets-Sat-Feb-20-2027-Spectrum-Center"
   },
   {
     "id": "tm-feid-2027-boston-vv1a8vpbygagvprx",
@@ -363,13 +403,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359381",
+        "url": "https://www.ticketliquidator.com/tickets/8359381/Feid-tickets-Tue-Feb-23-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPbyGAGVprx",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359381"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359381",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359381/Feid-tickets-Tue-Feb-23-2027-TD-Garden"
   },
   {
     "id": "tm-feid-2027-washington-15vfz_ffz04-_",
@@ -425,13 +473,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359382",
+        "url": "https://www.ticketliquidator.com/tickets/8359382/Feid-tickets-Thu-Feb-25-2027-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15vfZ_ffz04-_",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359382"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359382",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359382/Feid-tickets-Thu-Feb-25-2027-Capital-One-Arena"
   },
   {
     "id": "tm-feid-2027-philadelphia-1ayzk4pgkel60vj",
@@ -487,13 +543,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359383",
+        "url": "https://www.ticketliquidator.com/tickets/8359383/Feid-tickets-Fri-Feb-26-2027-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4PGkel60Vj",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359383"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359383",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359383/Feid-tickets-Fri-Feb-26-2027-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-feid-2027-brooklyn-16dzz_p3og7m3pl",
@@ -549,13 +613,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359386",
+        "url": "https://www.ticketliquidator.com/tickets/8359386/Feid-tickets-Wed-Mar-3-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dZZ_p3oG7m3PL",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359386"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359386",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359386/Feid-tickets-Wed-Mar-3-2027-Barclays-Center"
   },
   {
     "id": "tm-feid-2027-toronto-1a8zk4xgkenbgje",
@@ -665,13 +737,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359414",
+        "url": "https://www.ticketliquidator.com/tickets/8359414/Feid-tickets-Sat-Mar-13-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_4GkD0ZH9f",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359414"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359414",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359414/Feid-tickets-Sat-Mar-13-2027-Centre-Bell"
   },
   {
     "id": "tm-feid-2027-chicago-vv1a7zk4xgkdhjeow",
@@ -727,13 +807,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359388",
+        "url": "https://www.ticketliquidator.com/tickets/8359388/Feid-tickets-Thu-Mar-18-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4xGkdhJEOW",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-12T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359388"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359388",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359388/Feid-tickets-Thu-Mar-18-2027-United-Center"
   },
   {
     "id": "tm-feid-2027-dallas-vvg1yz_pkmsn11",
@@ -789,13 +877,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359389",
+        "url": "https://www.ticketliquidator.com/tickets/8359389/Feid-tickets-Wed-Mar-24-2027-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pKMsN11",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-12T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359389"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359389",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359389/Feid-tickets-Wed-Mar-24-2027-American-Airlines-Center"
   },
   {
     "id": "tm-feid-2027-austin-g5diz_pkrkhdd",
@@ -851,13 +947,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359391",
+        "url": "https://www.ticketliquidator.com/tickets/8359391/Feid-tickets-Fri-Mar-26-2027-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pKRkHDd",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-12T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359391"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359391",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359391/Feid-tickets-Fri-Mar-26-2027-Moody-Center-ATX"
   },
   {
     "id": "tm-feid-2027-denver-g5vzz_pkrlpf6",
@@ -913,13 +1017,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359392",
+        "url": "https://www.ticketliquidator.com/tickets/8359392/Feid-tickets-Wed-Mar-31-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pKRLpf6",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359392"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359392",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359392/Feid-tickets-Wed-Mar-31-2027-Ball-Arena"
   },
   {
     "id": "tm-feid-2027-seattle-vvg1hz_pkvb_3-",
@@ -975,13 +1087,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359396",
+        "url": "https://www.ticketliquidator.com/tickets/8359396/Feid-tickets-Sun-Apr-4-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pKvb_3-",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359396"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359396",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359396/Feid-tickets-Sun-Apr-4-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-feid-2027-portland-vvg1hz_pckgfmh",
@@ -1037,13 +1157,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359399",
+        "url": "https://www.ticketliquidator.com/tickets/8359399/Feid-tickets-Tue-Apr-6-2027-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pCKgfMh",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359399"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359399",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359399/Feid-tickets-Tue-Apr-6-2027-Moda-Center-at-the-Rose-Quarter"
   },
   {
     "id": "tm-feid-2027-sacramento-g5vyz_p5pdckj",
@@ -1099,13 +1227,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359400",
+        "url": "https://www.ticketliquidator.com/tickets/8359400/Feid-tickets-Thu-Apr-8-2027-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p5pDcKj",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359400"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359400",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359400/Feid-tickets-Thu-Apr-8-2027-Golden-1-Center"
   },
   {
     "id": "tm-feid-2027-san-francisco-g5vyz_p1g3qkq",
@@ -1161,13 +1297,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359401",
+        "url": "https://www.ticketliquidator.com/tickets/8359401/Feid-tickets-Sat-Apr-10-2027-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p1g3Qkq",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359401"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359401",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359401/Feid-tickets-Sat-Apr-10-2027-Chase-Center"
   },
   {
     "id": "tm-feid-2027-san-jose-g5vyz_p5keuz1",
@@ -1223,13 +1367,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359402",
+        "url": "https://www.ticketliquidator.com/tickets/8359402/Feid-tickets-Sun-Apr-11-2027-SAP-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p5KeuZ1",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359402"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359402",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359402/Feid-tickets-Sun-Apr-11-2027-SAP-Center"
   },
   {
     "id": "tm-feid-2027-fresno-g5vyz_pcewaox",
@@ -1285,13 +1437,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359407",
+        "url": "https://www.ticketliquidator.com/tickets/8359407/Feid-tickets-Tue-Apr-13-2027-Save-Mart-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pCEWaOX",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359407"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359407",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359407/Feid-tickets-Tue-Apr-13-2027-Save-Mart-Center"
   },
   {
     "id": "tm-feid-2027-phoenix-1a_zk4ngkd1yaxd",
@@ -1347,13 +1507,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359408",
+        "url": "https://www.ticketliquidator.com/tickets/8359408/Feid-tickets-Thu-Apr-15-2027-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4NGkd1yAXd",
     "timezone": "America/Phoenix",
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359408"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359408",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359408/Feid-tickets-Thu-Apr-15-2027-Mortgage-Matchup-Center"
   },
   {
     "id": "tm-feid-2027-san-diego-vvg1iz_p2x3bok",
@@ -1409,13 +1577,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359410",
+        "url": "https://www.ticketliquidator.com/tickets/8359410/Feid-tickets-Fri-Apr-23-2027-Pechanga-Arena-San-Diego",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_p2x3bOK",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359410"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359410",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359410/Feid-tickets-Fri-Apr-23-2027-Pechanga-Arena-San-Diego"
   },
   {
     "id": "tm-feid-2027-anaheim-vv1aazk4ngkd1rclp",
@@ -1471,13 +1647,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359411",
+        "url": "https://www.ticketliquidator.com/tickets/8359411/Feid-tickets-Sun-Apr-25-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4NGkd1rcLp",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359411"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359411",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359411/Feid-tickets-Sun-Apr-25-2027-Honda-Center"
   },
   {
     "id": "tm-feid-2027-inglewood-vv1aazk4ngkdggctr",
@@ -1533,13 +1717,21 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359412",
+        "url": "https://www.ticketliquidator.com/tickets/8359412/Feid-tickets-Thu-Apr-29-2027-Intuit-Dome",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4NGkdGgctR",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359412"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359412",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359412/Feid-tickets-Thu-Apr-29-2027-Intuit-Dome"
   },
   {
     "id": "tm-feid-2027-tlajomulco-de-zuniga-g5dvz_p310vkr",

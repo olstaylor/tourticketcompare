@@ -1859,6 +1859,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315049",
+        "url": "https://www.ticketliquidator.com/tickets/8315049/Mico-tickets-Sun-Feb-21-2027-Charleston-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fxR2vBf",
@@ -1869,7 +1876,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315049",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315049/Mico-tickets-Sun-Feb-21-2027-Charleston-Music-Hall"
   },
   {
     "id": "tm-mico-2027-ft-lauderdale-vvg1vz_fqxgdhj",

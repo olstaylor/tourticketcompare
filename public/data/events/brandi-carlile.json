@@ -625,6 +625,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293185",
+        "url": "https://www.ticketliquidator.com/tickets/8293185/Brandi-Carlile-tickets-Fri-Nov-20-2026-Louisville-Palace",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfUGkdJvl2T",
@@ -635,7 +642,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293185",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293185/Brandi-Carlile-tickets-Fri-Nov-20-2026-Louisville-Palace"
   },
   {
     "id": "tm-brandi-carlile-2026-louisville-1apzkfugkdjal8x",
@@ -691,6 +699,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293186",
+        "url": "https://www.ticketliquidator.com/tickets/8293186/Brandi-Carlile-tickets-Sat-Nov-21-2026-Louisville-Palace",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfUGkdJAl8x",
@@ -701,7 +716,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293186",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293186/Brandi-Carlile-tickets-Sat-Nov-21-2026-Louisville-Palace"
   },
   {
     "id": "tm-brandi-carlile-2026-kansas-city-vv1akzkfzgkd6vlxs",
@@ -831,6 +847,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293187",
+        "url": "https://www.ticketliquidator.com/tickets/8293187/Brandi-Carlile-tickets-Tue-Dec-15-2026-Capitol-Theatre-Port-Chester",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_Kx-SKxh",
@@ -849,7 +872,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293187",
     "ticket_limit": 4,
     "legal_age_enforced": true,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293187/Brandi-Carlile-tickets-Tue-Dec-15-2026-Capitol-Theatre-Port-Chester"
   },
   {
     "id": "tm-brandi-carlile-2026-port-chester-g5vvz_kx-vnxl",
@@ -905,6 +929,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293188",
+        "url": "https://www.ticketliquidator.com/tickets/8293188/Brandi-Carlile-tickets-Wed-Dec-16-2026-Capitol-Theatre-Port-Chester",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_Kx-VNxL",
@@ -923,7 +954,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293188",
     "ticket_limit": 4,
     "legal_age_enforced": true,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293188/Brandi-Carlile-tickets-Wed-Dec-16-2026-Capitol-Theatre-Port-Chester"
   },
   {
     "id": "tm-brandi-carlile-2026-port-chester-g5vvz_kx-gsxn",
@@ -979,6 +1011,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293189",
+        "url": "https://www.ticketliquidator.com/tickets/8293189/Brandi-Carlile-tickets-Thu-Dec-17-2026-Capitol-Theatre-Port-Chester",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_Kx-gSxN",
@@ -997,7 +1036,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293189",
     "ticket_limit": 4,
     "legal_age_enforced": true,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293189/Brandi-Carlile-tickets-Thu-Dec-17-2026-Capitol-Theatre-Port-Chester"
   },
   {
     "id": "tm-brandi-carlile-2027-seattle-vvg1hz_44goz5b",

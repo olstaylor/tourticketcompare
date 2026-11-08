@@ -948,13 +948,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8043657",
+        "url": "https://www.ticketliquidator.com/tickets/8043657/Pink-Martini-tickets-Thu-Feb-11-2027-Anderson-Theater-At-Cincinnati-Memorial-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pp4b",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043657",
-    "genre": "Blues"
+    "genre": "Blues",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043657/Pink-Martini-tickets-Thu-Feb-11-2027-Anderson-Theater-At-Cincinnati-Memorial-Hall"
   },
   {
     "id": "tm-pink-martini-2027-chicago-z7r9jz1aaz6g7",
@@ -1010,13 +1018,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7847496",
+        "url": "https://www.ticketliquidator.com/tickets/7847496/Pink-Martini-tickets-Fri-Feb-12-2027-Orchestra-Hall-At-Chicago-Symphony-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ6G7",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7847496",
-    "genre": "Blues"
+    "genre": "Blues",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7847496/Pink-Martini-tickets-Fri-Feb-12-2027-Orchestra-Hall-At-Chicago-Symphony-Center"
   },
   {
     "id": "tm-pink-martini-2027-minneapolis-vv1akzkfagkes0irs",
@@ -1615,13 +1631,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8210508",
+        "url": "https://www.ticketliquidator.com/tickets/8210508/Pink-Martini-tickets-Sun-Mar-21-2027-Paramount-Theater-Of-Charlottesville",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-ZJ",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8210508",
-    "genre": "Blues"
+    "genre": "Blues",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8210508/Pink-Martini-tickets-Sun-Mar-21-2027-Paramount-Theater-Of-Charlottesville"
   },
   {
     "id": "tm-pink-martini-2027-liverpool-g5vhz_fpr6w_w",

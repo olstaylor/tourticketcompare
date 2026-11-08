@@ -470,12 +470,20 @@
         "verified": true,
         "last_verified_at": "2026-09-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7983752",
+        "url": "https://www.ticketliquidator.com/tickets/7983752/Morat-tickets-Sat-Mar-13-2027-Smart-Financial-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Iu-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7983752"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7983752",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7983752/Morat-tickets-Sat-Mar-13-2027-Smart-Financial-Centre"
   },
   {
     "id": "tm-morat-2027-hidalgo-g5diz_1bprewh",

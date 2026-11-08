@@ -899,6 +899,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8297647",
+        "url": "https://www.ticketliquidator.com/tickets/8297647/Mei-Semones-tickets-Sat-Apr-24-2027-Castro-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KYXOckk",
@@ -916,7 +923,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297647",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297647/Mei-Semones-tickets-Sat-Apr-24-2027-Castro-Theatre"
   },
   {
     "id": "tm-mei-semones-2027-vancouver-1178vpcbx94gv5",

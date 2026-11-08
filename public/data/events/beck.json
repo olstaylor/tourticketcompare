@@ -398,11 +398,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8301187",
-        "url": "https://www.ticketliquidator.com/tickets/8301187/Beck-tickets-Fri-Nov-6-2026-First-Interstate-Center-for-the-Arts",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe87Y",
@@ -412,7 +412,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301187/Beck-tickets-Fri-Nov-6-2026-First-Interstate-Center-for-the-Arts"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-beck-2026-seattle-vvg1hz_3rxx2pm",

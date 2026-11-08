@@ -471,6 +471,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7806870",
+        "url": "https://www.ticketliquidator.com/tickets/7806870/Gavin-Adcock-tickets-Sat-Nov-7-2026-Santander-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkotGkeIvbWV",
@@ -480,7 +487,8 @@
       "AEG PRESENTS"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806870",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806870/Gavin-Adcock-tickets-Sat-Nov-7-2026-Santander-Arena"
   },
   {
     "id": "tm-gavin-adcock-2026-detroit-z7r9jz1a7-yus",
@@ -536,13 +544,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7806927",
+        "url": "https://www.ticketliquidator.com/tickets/7806927/Gavin-Adcock-tickets-Fri-Nov-13-2026-Masonic-Temple-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Yus",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806927",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806927/Gavin-Adcock-tickets-Fri-Nov-13-2026-Masonic-Temple-Theatre"
   },
   {
     "id": "tm-gavin-adcock-2026-grand-rapids-z7r9jz1a7-yut",

@@ -348,6 +348,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8258104",
+        "url": "https://www.ticketliquidator.com/tickets/8258104/Victoria-Monet-tickets-Sat-Nov-7-2026-FTL-War-Memorial-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvPbE",
@@ -356,7 +363,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258104"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258104",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258104/Victoria-Monet-tickets-Sat-Nov-7-2026-FTL-War-Memorial-Auditorium"
   },
   {
     "id": "tm-victoria-monet-2026-tampa-vvg1vz_3nvhqgr",

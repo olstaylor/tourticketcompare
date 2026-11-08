@@ -1126,6 +1126,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056769",
+        "url": "https://www.ticketliquidator.com/tickets/8056769/Polyphia-tickets-Sat-Feb-20-2027-Fillmore-Auditorium-Colorado",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_oE6FCeI",
@@ -1148,7 +1155,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056769",
     "ticket_limit": 4,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056769/Polyphia-tickets-Sat-Feb-20-2027-Fillmore-Auditorium-Colorado"
   },
   {
     "id": "tm-polyphia-2027-minneapolis-vv16kzkfbfazacg5v8",

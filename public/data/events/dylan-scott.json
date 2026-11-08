@@ -1574,11 +1574,19 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268854",
+        "url": "https://www.ticketliquidator.com/tickets/8268854/Dylan-Scott-tickets-Sat-Mar-6-2027-Town-Toyota-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvS7Z",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268854"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268854",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268854/Dylan-Scott-tickets-Sat-Mar-6-2027-Town-Toyota-Center"
   }
 ]

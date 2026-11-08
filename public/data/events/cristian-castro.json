@@ -55,18 +55,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7744413",
-        "url": "https://www.ticketliquidator.com/tickets/7744413/Cristian-Castro-tickets-Fri-Nov-6-2026-Desert-Diamond-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zko8GkeBJA4T",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7744413/Cristian-Castro-tickets-Fri-Nov-6-2026-Desert-Diamond-Arena",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "AMPLIFY ENTERTAINMENT"
     ]
@@ -273,13 +273,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7743647",
+        "url": "https://www.ticketliquidator.com/tickets/7743647/Cristian-Castro-tickets-Sat-Nov-28-2026-Peacock-Theater-Los-Angeles",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-f4V",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7743647",
-    "genre": "World"
+    "genre": "World",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7743647/Cristian-Castro-tickets-Sat-Nov-28-2026-Peacock-Theater-Los-Angeles"
   },
   {
     "id": "tm-cristian-castro-2027-denver-z7r9jz1a7-boz",
@@ -670,13 +678,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7756939",
+        "url": "https://www.ticketliquidator.com/tickets/7756939/Cristian-Castro-tickets-Sun-Feb-28-2027-HEB-Center-at-Cedar-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_AK4-aew",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756939",
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756939/Cristian-Castro-tickets-Sun-Feb-28-2027-HEB-Center-at-Cedar-Park"
   },
   {
     "id": "tm-cristian-castro-2027-orlando-1kfov0fzgac5wgd",

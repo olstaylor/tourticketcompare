@@ -1150,6 +1150,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284373",
+        "url": "https://www.ticketliquidator.com/tickets/8284373/The-Interrupters-tickets-Wed-Apr-14-2027-Roxian-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GkTIMCNy",
@@ -1167,7 +1174,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284373",
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284373/The-Interrupters-tickets-Wed-Apr-14-2027-Roxian-Theatre"
   },
   {
     "id": "tm-the-interrupters-2027-detroit-vv1afzkfxgkesf0dw",

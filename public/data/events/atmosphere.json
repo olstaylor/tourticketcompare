@@ -128,6 +128,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277970",
+        "url": "https://www.ticketliquidator.com/tickets/8277970/Atmosphere-tickets-Fri-Jan-22-2027-Knitting-Factory-Concert-House-Boise",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KkMEtDo",
@@ -135,7 +142,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277970",
     "ticket_limit": 6,
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277970/Atmosphere-tickets-Fri-Jan-22-2027-Knitting-Factory-Concert-House-Boise"
   },
   {
     "id": "tm-atmosphere-2027-bozeman-g5vzz_k6poibm",

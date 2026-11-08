@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300999",
+        "url": "https://www.ticketliquidator.com/tickets/8300999/Chelsea-Cutler-tickets-Mon-Feb-1-2027-Charleston-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KBudUlQ",
@@ -70,7 +77,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300999",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300999/Chelsea-Cutler-tickets-Mon-Feb-1-2027-Charleston-Music-Hall"
   },
   {
     "id": "tm-chelsea-cutler-2027-charlotte-g5evz_kukxezh",
@@ -1164,6 +1172,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301012",
+        "url": "https://www.ticketliquidator.com/tickets/8301012/Chelsea-Cutler-tickets-Wed-Mar-10-2027-Knitting-Factory-Concert-House-Boise",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KSxZvBS",
@@ -1178,7 +1193,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301012",
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301012/Chelsea-Cutler-tickets-Wed-Mar-10-2027-Knitting-Factory-Concert-House-Boise"
   },
   {
     "id": "tm-chelsea-cutler-2027-saint-petersburg-z7r9jz1aae_gk",

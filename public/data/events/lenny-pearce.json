@@ -415,6 +415,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8048525",
+        "url": "https://www.ticketliquidator.com/tickets/8048525/Lenny-Pearce-tickets-Wed-Nov-11-2026-FTL-War-Memorial-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PpO0",
@@ -424,7 +431,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048525",
-    "genre": "Dance/Electronic"
+    "genre": "Dance/Electronic",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048525/Lenny-Pearce-tickets-Wed-Nov-11-2026-FTL-War-Memorial-Auditorium"
   },
   {
     "id": "tm-lenny-pearce-2026-st-petersburg-vvg1vz_gcd9hph",
@@ -909,7 +917,7 @@
         "event_id": "8048528",
         "url": "https://www.ticketliquidator.com/tickets/8048528/Lenny-Pearce-tickets-Sat-Nov-21-2026-The-Fillmore-Silver-Spring",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       }
     },

@@ -801,6 +801,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264659",
+        "url": "https://www.ticketliquidator.com/tickets/8264659/The-Warning-tickets-Wed-Apr-28-2027-Fillmore-Auditorium-Colorado",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3mnVFjD",
@@ -824,7 +831,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264659",
     "ticket_limit": 4,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264659/The-Warning-tickets-Wed-Apr-28-2027-Fillmore-Auditorium-Colorado"
   },
   {
     "id": "tm-the-warning-2027-oklahoma-city-z7r9jz1aavtgp",

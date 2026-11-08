@@ -53,13 +53,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307847",
+        "url": "https://www.ticketliquidator.com/tickets/8307847/Lola-Young-tickets-Tue-Apr-6-2027-The-Pinnacle-At-Nashville-Yards",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebv0",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307847",
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307847/Lola-Young-tickets-Tue-Apr-6-2027-The-Pinnacle-At-Nashville-Yards"
   },
   {
     "id": "tm-lola-young-2027-atlanta-vvg1zz_f7qhai6",
@@ -810,13 +818,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307849",
+        "url": "https://www.ticketliquidator.com/tickets/8307849/Lola-Young-tickets-Fri-Apr-23-2027-The-Palace-Theatre-St-Paul",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebvE",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307849",
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307849/Lola-Young-tickets-Fri-Apr-23-2027-The-Palace-Theatre-St-Paul"
   },
   {
     "id": "tm-lola-young-2027-denver-g5vzz_f11k7mj",
@@ -872,6 +888,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307257",
+        "url": "https://www.ticketliquidator.com/tickets/8307257/Lola-Young-tickets-Sun-Apr-25-2027-Fillmore-Auditorium-Colorado",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_f11k7mj",
@@ -894,7 +917,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307257",
     "ticket_limit": 8,
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307257/Lola-Young-tickets-Sun-Apr-25-2027-Fillmore-Auditorium-Colorado"
   },
   {
     "id": "tm-lola-young-2027-salt-lake-city-g5vzz_fk8daho",

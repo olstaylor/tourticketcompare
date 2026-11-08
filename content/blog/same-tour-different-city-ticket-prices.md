@@ -5,7 +5,7 @@ description: "For 10 big tours, one resale site's lowest listed price for the ne
 summary: "Lowest listed resale prices for the same tour in different cities, one site per tour, each figure with the time it was captured. Snapshots up to 18 October 2026."
 date: 2026-10-18
 status: published
-updated: 2026-11-06
+updated: 2026-11-08
 tags:
   - tour-data
 related_guides:
@@ -42,7 +42,7 @@ On Vivid Seats, the lowest listed price for the next date in each of 47 cities i
 | Detroit | 30 October 2026 | The Fillmore Detroit | $42 | Vivid Seats | 18 October, 06:38 UTC |
 | Philadelphia | 15 November 2026 | The Fillmore Philadelphia | $110 | Vivid Seats | 18 October, 06:38 UTC |
 | Sacramento | 19 February 2027 | Channel 24 | $110 | Vivid Seats | 18 October, 06:38 UTC |
-| Cleveland | 7 November 2026 | Agora Theatre | $123 | Vivid Seats | 18 October, 06:38 UTC |
+| Cleveland | 7 November 2026 (has passed) | Agora Theatre | $123 | Vivid Seats | 18 October, 06:38 UTC |
 
 The 41 cities in between are on the [Blue October page](/artists/blue-october/ticket-prices).
 

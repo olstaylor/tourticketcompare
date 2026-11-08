@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "artistSlug": "hans-zimmer",
   "artist": "Hans Zimmer",
   "artistPageIndexable": true,
@@ -11,8 +11,8 @@
   "siteLabel": "TicketNetwork",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-11-07T16:02:10.793Z",
-  "capturedTo": "2026-11-07T16:03:15.572Z",
+  "capturedFrom": "2026-11-08T00:38:27.079Z",
+  "capturedTo": "2026-11-08T14:51:36.228Z",
   "tourDates": 30,
   "coverage": {
     "marketCities": 26,
@@ -37,7 +37,7 @@
     "localDate": "2027-03-11",
     "price": 54.05,
     "currency": "USD",
-    "capturedAt": "2026-11-07T16:02:13.561Z"
+    "capturedAt": "2026-11-08T14:51:31.446Z"
   },
   "high": {
     "city": "Salt Lake City",
@@ -47,7 +47,7 @@
     "localDate": "2027-03-27",
     "price": 363.4,
     "currency": "USD",
-    "capturedAt": "2026-11-07T16:03:15.363Z"
+    "capturedAt": "2026-11-08T00:38:27.843Z"
   },
   "median": 154.1,
   "ratio": 6.7,
@@ -60,7 +60,7 @@
       "localDate": "2027-03-11",
       "price": 54.05,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:13.561Z",
+      "capturedAt": "2026-11-08T14:51:31.446Z",
       "path": "/artists/hans-zimmer/tickets/orlando-united-states"
     },
     {
@@ -71,7 +71,7 @@
       "localDate": "2027-02-17",
       "price": 86.25,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:03:14.588Z",
+      "capturedAt": "2026-11-08T00:38:27.079Z",
       "path": "/artists/hans-zimmer/tickets/hartford-united-states"
     },
     {
@@ -80,9 +80,9 @@
       "venue": "Kaseya Center",
       "eventId": "tm-hans-zimmer-2027-miami-vvg1vz_3gotwd8",
       "localDate": "2027-03-13",
-      "price": 87.4,
+      "price": 88.55,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:13.772Z",
+      "capturedAt": "2026-11-08T14:51:31.712Z",
       "path": "/artists/hans-zimmer/tickets/miami-united-states"
     },
     {
@@ -93,7 +93,7 @@
       "localDate": "2027-03-07",
       "price": 92,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:12.554Z",
+      "capturedAt": "2026-11-08T14:51:30.942Z",
       "path": "/artists/hans-zimmer/tickets/cincinnati-united-states"
     },
     {
@@ -104,7 +104,7 @@
       "localDate": "2027-04-05",
       "price": 105.8,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:16.238Z",
+      "capturedAt": "2026-11-08T14:51:35.414Z",
       "path": "/artists/hans-zimmer/tickets/sacramento-united-states"
     },
     {
@@ -115,7 +115,7 @@
       "localDate": "2027-03-21",
       "price": 110.4,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:03:15.145Z",
+      "capturedAt": "2026-11-08T00:38:27.604Z",
       "path": "/artists/hans-zimmer/tickets/oklahoma-city-united-states"
     },
     {
@@ -126,7 +126,7 @@
       "localDate": "2027-03-14",
       "price": 124.2,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:14.044Z",
+      "capturedAt": "2026-11-08T14:51:31.982Z",
       "path": "/artists/hans-zimmer/tickets/tampa-united-states"
     },
     {
@@ -137,7 +137,7 @@
       "localDate": "2027-03-17",
       "price": 127.65,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:14.492Z",
+      "capturedAt": "2026-11-08T14:51:32.544Z",
       "path": "/artists/hans-zimmer/tickets/nashville-united-states"
     },
     {
@@ -148,7 +148,7 @@
       "localDate": "2027-02-23",
       "price": 128.8,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:11.139Z",
+      "capturedAt": "2026-11-08T14:51:29.417Z",
       "path": "/artists/hans-zimmer/tickets/philadelphia-united-states"
     },
     {
@@ -159,7 +159,7 @@
       "localDate": "2027-03-30",
       "price": 128.8,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:15.354Z",
+      "capturedAt": "2026-11-08T14:51:34.561Z",
       "path": "/artists/hans-zimmer/tickets/phoenix-united-states"
     },
     {
@@ -170,7 +170,7 @@
       "localDate": "2027-04-11",
       "price": 132.25,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:16.919Z",
+      "capturedAt": "2026-11-08T14:51:36.228Z",
       "path": "/artists/hans-zimmer/tickets/portland-united-states"
     },
     {
@@ -181,7 +181,7 @@
       "localDate": "2027-03-03",
       "price": 135.7,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:12.052Z",
+      "capturedAt": "2026-11-08T14:51:30.335Z",
       "path": "/artists/hans-zimmer/tickets/detroit-united-states"
     },
     {
@@ -192,7 +192,7 @@
       "localDate": "2027-03-19",
       "price": 154.1,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:03:14.911Z",
+      "capturedAt": "2026-11-08T00:38:27.325Z",
       "path": "/artists/hans-zimmer/tickets/kansas-city-united-states"
     },
     {
@@ -203,7 +203,7 @@
       "localDate": "2027-03-09",
       "price": 156.4,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:12.907Z",
+      "capturedAt": "2026-11-08T14:51:31.200Z",
       "path": "/artists/hans-zimmer/tickets/charlotte-united-states"
     },
     {
@@ -214,7 +214,7 @@
       "localDate": "2027-04-09",
       "price": 185.15,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:16.699Z",
+      "capturedAt": "2026-11-08T14:51:35.967Z",
       "path": "/artists/hans-zimmer/tickets/seattle-united-states"
     },
     {
@@ -225,7 +225,7 @@
       "localDate": "2027-03-25",
       "price": 186.3,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:15.048Z",
+      "capturedAt": "2026-11-08T14:51:33.954Z",
       "path": "/artists/hans-zimmer/tickets/denver-united-states"
     },
     {
@@ -236,7 +236,7 @@
       "localDate": "2027-02-24",
       "price": 194.35,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:11.408Z",
+      "capturedAt": "2026-11-08T14:51:29.689Z",
       "path": "/artists/hans-zimmer/tickets/boston-united-states"
     },
     {
@@ -247,7 +247,7 @@
       "localDate": "2027-03-22",
       "price": 195.5,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:14.722Z",
+      "capturedAt": "2026-11-08T14:51:32.927Z",
       "path": "/artists/hans-zimmer/tickets/fort-worth-united-states"
     },
     {
@@ -258,7 +258,7 @@
       "localDate": "2027-03-16",
       "price": 213.9,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:14.292Z",
+      "capturedAt": "2026-11-08T14:51:32.274Z",
       "path": "/artists/hans-zimmer/tickets/atlanta-united-states"
     },
     {
@@ -269,7 +269,7 @@
       "localDate": "2027-02-21",
       "price": 213.9,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:10.793Z",
+      "capturedAt": "2026-11-08T14:51:29.157Z",
       "path": "/artists/hans-zimmer/tickets/newark-united-states"
     },
     {
@@ -280,7 +280,7 @@
       "localDate": "2027-04-04",
       "price": 218.5,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:15.908Z",
+      "capturedAt": "2026-11-08T14:51:35.126Z",
       "path": "/artists/hans-zimmer/tickets/san-francisco-united-states"
     },
     {
@@ -291,7 +291,7 @@
       "localDate": "2027-04-01",
       "price": 223.1,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:03:15.572Z",
+      "capturedAt": "2026-11-08T00:38:28.101Z",
       "path": "/artists/hans-zimmer/tickets/los-angeles-united-states"
     },
     {
@@ -302,7 +302,7 @@
       "localDate": "2027-03-05",
       "price": 265.65,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:12.340Z",
+      "capturedAt": "2026-11-08T14:51:30.660Z",
       "path": "/artists/hans-zimmer/tickets/chicago-united-states"
     },
     {
@@ -313,7 +313,7 @@
       "localDate": "2027-04-02",
       "price": 315.1,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:02:15.567Z",
+      "capturedAt": "2026-11-08T14:51:34.863Z",
       "path": "/artists/hans-zimmer/tickets/anaheim-united-states"
     },
     {
@@ -324,7 +324,7 @@
       "localDate": "2027-03-27",
       "price": 363.4,
       "currency": "USD",
-      "capturedAt": "2026-11-07T16:03:15.363Z",
+      "capturedAt": "2026-11-08T00:38:27.843Z",
       "path": "/artists/hans-zimmer/tickets/salt-lake-city-united-states"
     }
   ],
@@ -340,7 +340,7 @@
         "localDate": "2027-02-17",
         "price": 100,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/hartford-united-states"
       },
       {
@@ -351,7 +351,7 @@
         "localDate": "2027-02-21",
         "price": 166,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/newark-united-states"
       },
       {
@@ -362,7 +362,7 @@
         "localDate": "2027-02-23",
         "price": 147,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/philadelphia-united-states"
       },
       {
@@ -373,7 +373,7 @@
         "localDate": "2027-02-24",
         "price": 153,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/boston-united-states"
       },
       {
@@ -384,7 +384,7 @@
         "localDate": "2027-03-03",
         "price": 136,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/detroit-united-states"
       },
       {
@@ -393,9 +393,9 @@
         "venue": "United Center",
         "eventId": "tm-hans-zimmer-2027-chicago-vv178z_3gkta7u7g",
         "localDate": "2027-03-05",
-        "price": 203,
+        "price": 207,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/chicago-united-states"
       },
       {
@@ -406,7 +406,7 @@
         "localDate": "2027-03-09",
         "price": 126,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/charlotte-united-states"
       },
       {
@@ -417,7 +417,7 @@
         "localDate": "2027-03-11",
         "price": 130,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/orlando-united-states"
       },
       {
@@ -426,9 +426,9 @@
         "venue": "Kaseya Center",
         "eventId": "tm-hans-zimmer-2027-miami-vvg1vz_3gotwd8",
         "localDate": "2027-03-13",
-        "price": 94,
+        "price": 95,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/miami-united-states"
       },
       {
@@ -439,7 +439,7 @@
         "localDate": "2027-03-14",
         "price": 121,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/tampa-united-states"
       },
       {
@@ -450,7 +450,7 @@
         "localDate": "2027-03-16",
         "price": 167,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/atlanta-united-states"
       },
       {
@@ -459,9 +459,9 @@
         "venue": "Bridgestone Arena",
         "eventId": "tm-hans-zimmer-2027-nashville-g5viz_3pzfvfc",
         "localDate": "2027-03-17",
-        "price": 104,
+        "price": 102,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/nashville-united-states"
       },
       {
@@ -472,7 +472,7 @@
         "localDate": "2027-03-19",
         "price": 112,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/kansas-city-united-states"
       },
       {
@@ -483,7 +483,7 @@
         "localDate": "2027-03-21",
         "price": 83,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/oklahoma-city-united-states"
       },
       {
@@ -494,7 +494,7 @@
         "localDate": "2027-03-25",
         "price": 130,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/denver-united-states"
       },
       {
@@ -505,7 +505,7 @@
         "localDate": "2027-03-27",
         "price": 339,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/salt-lake-city-united-states"
       },
       {
@@ -516,7 +516,7 @@
         "localDate": "2027-03-30",
         "price": 122,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/phoenix-united-states"
       },
       {
@@ -527,7 +527,7 @@
         "localDate": "2027-04-02",
         "price": 260,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/anaheim-united-states"
       },
       {
@@ -538,7 +538,7 @@
         "localDate": "2027-04-04",
         "price": 172,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/san-francisco-united-states"
       },
       {
@@ -547,9 +547,9 @@
         "venue": "Golden 1 Center",
         "eventId": "tm-hans-zimmer-2027-sacramento-g5vyz_3nnpqvc",
         "localDate": "2027-04-05",
-        "price": 104,
+        "price": 106,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/sacramento-united-states"
       },
       {
@@ -560,7 +560,7 @@
         "localDate": "2027-04-09",
         "price": 148,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/seattle-united-states"
       },
       {
@@ -571,7 +571,7 @@
         "localDate": "2027-04-11",
         "price": 104,
         "currency": "USD",
-        "capturedAt": "2026-11-07T16:39:29.724Z",
+        "capturedAt": "2026-11-08T13:55:39.043Z",
         "path": "/artists/hans-zimmer/tickets/portland-united-states"
       }
     ]

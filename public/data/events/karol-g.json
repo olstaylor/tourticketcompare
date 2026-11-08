@@ -1837,11 +1837,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107162152",
-        "url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-6-11-2026/event/107162152",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_FD0l9GE",
@@ -1854,7 +1854,7 @@
         "end": "2026-11-07T03:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-6-11-2026/event/107162152",
+    "stubhub_international_url": "",
     "organizer_names": [
       "OCESA"
     ]

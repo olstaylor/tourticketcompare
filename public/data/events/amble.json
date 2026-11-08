@@ -1007,11 +1007,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107478110",
-        "url": "https://www.stubhub.ie/amble-brooklyn-tickets-11-7-2026/event/107478110",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_aD7J_qa",
@@ -1019,7 +1019,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930669",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930669/Amble-tickets-Sat-Nov-7-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-brooklyn-tickets-11-7-2026/event/107478110",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

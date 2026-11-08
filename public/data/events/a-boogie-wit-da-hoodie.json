@@ -247,11 +247,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107677507",
-        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-7-2026/event/107677507",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8293621",
@@ -268,7 +268,7 @@
     "organizer_names": [
       "THE TOURING CO"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-7-2026/event/107677507",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293621",
     "ticket_limit": 8,
     "genre": "Hip-Hop/Rap"
@@ -334,6 +334,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675674",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-philadelphia-tickets-11-13-2026/event/107675674",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkeiNqMd",
@@ -341,7 +348,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303912",
     "genre": "Hip-Hop/Rap",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303912/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Nov-13-2026-Liacouras-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303912/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Nov-13-2026-Liacouras-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-philadelphia-tickets-11-13-2026/event/107675674"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkecacwb",
@@ -404,6 +412,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675673",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-philadelphia-tickets-11-14-2026/event/107675673",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkecacWB",
@@ -411,7 +426,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276916",
     "genre": "Hip-Hop/Rap",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8276916/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Nov-14-2026-Liacouras-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8276916/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Nov-14-2026-Liacouras-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-philadelphia-tickets-11-14-2026/event/107675673"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-toronto-168zkfspyzauf8v5",

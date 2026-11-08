@@ -1870,11 +1870,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106957108",
-        "url": "https://www.stubhub.ie/ed-sheeran-tampa-tickets-11-7-2026/event/106957108",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbS6peNtB",
@@ -1883,7 +1883,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418601",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418601/Ed-Sheeran-tickets-Sat-Nov-7-2026-Raymond-James-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-tampa-tickets-11-7-2026/event/106957108",
+    "stubhub_international_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],

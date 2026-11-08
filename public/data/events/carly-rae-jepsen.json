@@ -1720,6 +1720,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671809",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-chicago-tickets-5-21-2027/event/107671809",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_KGkBBDISc",
@@ -1748,7 +1755,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-chicago-tickets-5-21-2027/event/107671809"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-detroit-vv17oz_kgkdnnigp",

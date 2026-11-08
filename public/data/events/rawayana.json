@@ -142,11 +142,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107482968",
-        "url": "https://www.stubhub.ie/rawayana-chicago-tickets-11-7-2026/event/107482968",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_kGkRasEf7",
@@ -154,7 +154,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808622",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808622/Rawayana-tickets-Sat-Nov-7-2026-Byline-Bank-Aragon-Ballroom",
-    "stubhub_international_url": "https://www.stubhub.ie/rawayana-chicago-tickets-11-7-2026/event/107482968",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

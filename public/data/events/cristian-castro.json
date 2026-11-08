@@ -280,6 +280,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107138182",
+        "url": "https://www.stubhub.ie/cristian-castro-los-angeles-tickets-11-28-2026/event/107138182",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-f4V",
@@ -287,7 +294,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7743647",
     "genre": "World",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7743647/Cristian-Castro-tickets-Sat-Nov-28-2026-Peacock-Theater-Los-Angeles"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7743647/Cristian-Castro-tickets-Sat-Nov-28-2026-Peacock-Theater-Los-Angeles",
+    "stubhub_international_url": "https://www.stubhub.ie/cristian-castro-los-angeles-tickets-11-28-2026/event/107138182"
   },
   {
     "id": "tm-cristian-castro-2027-denver-z7r9jz1a7-boz",

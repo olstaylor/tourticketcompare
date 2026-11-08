@@ -1471,11 +1471,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107198486",
-        "url": "https://www.stubhub.ie/don-omar-inglewood-tickets-11-6-2026/event/107198486",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_56fvyEu",
@@ -1483,7 +1483,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-inglewood-tickets-11-6-2026/event/107198486",
+    "stubhub_international_url": "",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ]

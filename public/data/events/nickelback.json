@@ -4632,6 +4632,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107673010",
+        "url": "https://www.stubhub.ie/nickelback-houston-tickets-4-29-2027/event/107673010",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA774o",
@@ -4642,7 +4649,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-houston-tickets-4-29-2027/event/107673010"
   },
   {
     "id": "tm-nickelback-2027-london-1agzk46gkddli7z",

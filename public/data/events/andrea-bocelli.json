@@ -1840,6 +1840,13 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670723",
+        "url": "https://www.stubhub.ie/andrea-bocelli-houston-tickets-2-7-2027/event/107670723",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvs_v",
@@ -1847,7 +1854,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265103",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265103/Andrea-Bocelli-tickets-Sun-Feb-7-2027-Toyota-Center-TX",
-    "genre": "Classical"
+    "genre": "Classical",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-houston-tickets-2-7-2027/event/107670723"
   },
   {
     "id": "tm-andrea-bocelli-2027-orlando-1axzkfigkdrsgpw",

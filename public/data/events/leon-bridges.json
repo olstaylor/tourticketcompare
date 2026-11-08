@@ -2337,6 +2337,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680645",
+        "url": "https://www.stubhub.ie/leon-bridges-tickets-ciudad-de-mexico-teatro-metropolitan-24-3-2027/event/107680645",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAZvPpaGACNSHA",
@@ -2358,6 +2365,7 @@
         "end": "2026-11-10T05:00:00Z"
       }
     ],
-    "genre": "R&B"
+    "genre": "R&B",
+    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-tickets-ciudad-de-mexico-teatro-metropolitan-24-3-2027/event/107680645"
   }
 ]

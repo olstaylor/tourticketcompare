@@ -2534,6 +2534,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679040",
+        "url": "https://www.stubhub.ie/the-neighbourhood-houston-tickets-3-6-2027/event/107679040",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Ypb",
@@ -2544,6 +2551,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-houston-tickets-3-6-2027/event/107679040"
   }
 ]

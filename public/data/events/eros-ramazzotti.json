@@ -511,6 +511,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107394131",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-sugar-land-tickets-10-13-2027/event/107394131",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A74UO8",
@@ -519,7 +526,8 @@
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7103874",
     "genre": "World",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7103874/Eros-Ramazzotti-tickets-Wed-Oct-13-2027-Smart-Financial-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7103874/Eros-Ramazzotti-tickets-Wed-Oct-13-2027-Smart-Financial-Centre",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-sugar-land-tickets-10-13-2027/event/107394131"
   },
   {
     "id": "tm-eros-ramazzotti-2027-inglewood-vvg1izbiyf5ko0",

@@ -614,6 +614,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107506128",
+        "url": "https://www.stubhub.ie/passenger-tickets-exeter-great-hall-exeter-21-9-2027/event/107506128",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_o2O0IRs",
@@ -623,7 +630,8 @@
       "KMJ ENTERTAINMENT LTD"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-exeter-great-hall-exeter-21-9-2027/event/107506128"
   },
   {
     "id": "tm-passenger-2027-birmingham-g5dzz_2wg0-vu",

@@ -3048,6 +3048,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672251",
+        "url": "https://www.stubhub.ie/dancing-with-the-stars-san-jose-tickets-3-27-2027/event/107672251",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KxgyNUt",
@@ -3055,7 +3062,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-13T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310164",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310164/Dancing-With-The-Stars-tickets-Sat-Mar-27-2027-SAP-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310164/Dancing-With-The-Stars-tickets-Sat-Mar-27-2027-SAP-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/dancing-with-the-stars-san-jose-tickets-3-27-2027/event/107672251"
   },
   {
     "id": "tm-dancing-with-the-stars-2027-san-diego-vvg1iz_kxrbyxe",

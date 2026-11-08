@@ -481,6 +481,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670522",
+        "url": "https://www.stubhub.ie/lukas-graham-new-york-tickets-3-10-2027/event/107670522",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KQ-E_YF",
@@ -498,7 +505,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286283",
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286283/Lukas-Graham-tickets-Wed-Mar-10-2027-Irving-Plaza"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286283/Lukas-Graham-tickets-Wed-Mar-10-2027-Irving-Plaza",
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-new-york-tickets-3-10-2027/event/107670522"
   },
   {
     "id": "tm-lukas-graham-2027-boston-vv1k7z_k8xg7ihpb",

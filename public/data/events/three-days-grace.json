@@ -804,6 +804,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107017185",
+        "url": "https://www.stubhub.ie/three-days-grace-san-jose-tickets-11-18-2026/event/107017185",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbU3R_nwH",
@@ -827,7 +834,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551671",
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551671/Three-Days-Grace-tickets-Wed-Nov-18-2026-SAP-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551671/Three-Days-Grace-tickets-Wed-Nov-18-2026-SAP-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-san-jose-tickets-11-18-2026/event/107017185"
   },
   {
     "id": "tm-three-days-grace-2026-san-diego-vvg1izbuciwp5c",

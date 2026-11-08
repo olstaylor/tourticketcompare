@@ -954,7 +954,15 @@ function expectedMusicEventCount(artistSlug) {
     if (vars.EVENT_PAGES_INDEXING === "pilot" && !pilot.indexed.length) fail("event pilot: the flag is on but no pilot event is active");
     const graphMusicEvents = async (pathname, envValue) => (extractGraph(await (await render(pathname, "tourticketcompare.com", envValue)).text(), pathname) || []).filter((node) => node["@type"] === "MusicEvent");
     let parentsChecked = 0;
+    // A full run takes minutes, so a show can pass its upcoming cutoff between
+    // the pilot read above and its own render (PR #2163's run at 00:08Z on
+    // 2026-11-08: two 7 Nov shows 301'd, correctly). Such a member has left
+    // the pilot, not broken it: skip it here and drop it from the sitemap
+    // comparison below.
+    const { isUpcomingShow } = await import(pathToFileURL(path.join(root, "functions/_upcoming.js")));
+    const agedOut = new Set();
     for (const member of pilot.indexed) {
+      if (!isUpcomingShow(member.event, Date.now())) { agedOut.add(member.path); continue; }
       const node = await checkEventPage(member.event, nameBySlug.get(String(member.event.artist_slug)) || "", pilotEnv, "pilot event page", { indexable: true });
       if (!node) continue;
       const artistPath = `/artists/${member.event.artist_slug}`;
@@ -981,9 +989,15 @@ function expectedMusicEventCount(artistSlug) {
     }
     const sitemapModule = await import(pathToFileURL(path.join(root, "functions/sitemap.xml.js")));
     const listed = [...(await (await sitemapModule.segmentHandler("events")({ request: new Request(`${ORIGIN}/sitemaps/events.xml`), env: pilotEnv })).text()).matchAll(/<loc>https:\/\/tourticketcompare\.com(\/events\/[^<]+)<\/loc>/g)].map((match) => match[1]);
-    const expected = pilot.indexed.map((member) => member.path);
-    if (JSON.stringify([...listed].sort()) !== JSON.stringify([...expected].sort())) fail(`event pilot: the events sitemap lists ${listed.length} URL(s), the active pilot is ${expected.length}`);
-    ok(`event pilot: ${pilot.indexed.length} active pilot page(s) render index,follow with valid MusicEvent nodes; ${parentsChecked} parent artist page(s) carry the event-page identity and are otherwise unchanged; the events sitemap lists exactly the active pilot`);
+    // Read after the sitemap render, so a show that aged out before or during
+    // it is ignored on both sides of the comparison.
+    const sitemapDone = Date.now();
+    for (const member of pilot.indexed) if (!isUpcomingShow(member.event, sitemapDone)) agedOut.add(member.path);
+    const expected = pilot.indexed.map((member) => member.path).filter((memberPath) => !agedOut.has(memberPath));
+    const listedNow = listed.filter((memberPath) => !agedOut.has(memberPath));
+    if (JSON.stringify([...listedNow].sort()) !== JSON.stringify([...expected].sort())) fail(`event pilot: the events sitemap lists ${listedNow.length} URL(s), the active pilot is ${expected.length}`);
+    if (agedOut.size) ok(`event pilot: ${agedOut.size} pilot show(s) passed their upcoming cutoff during this run and were skipped`);
+    ok(`event pilot: ${pilot.indexed.length - agedOut.size} active pilot page(s) render index,follow with valid MusicEvent nodes; ${parentsChecked} parent artist page(s) carry the event-page identity and are otherwise unchanged; the events sitemap lists exactly the active pilot`);
   }
 
   // 8b. Lifecycle, timing and commercial-safety fixtures on a real indexable

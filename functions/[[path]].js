@@ -21,7 +21,7 @@ import { PRICE_GUIDE_FALLBACK_PATH, PRICE_GUIDE_FALLBACK } from "./_guide-routes
 import { OG_CARDS } from "./_og-cards.generated.js";
 import { UPDATES_CONSENT_TEXT } from "./_email-alerts.js";
 import { readingLayout } from "./_reading-layout.js";
-import { relativeShowDay } from "./_relative-day.js";
+import { nextVenueMidnightMs, relativeShowDay } from "./_relative-day.js";
 import { attachApprovedMarketplacePrices, APPROVED_MARKETPLACE_PRICE_LANES } from "./api/shows.js";
 import { deriveEventPriceLow, fetchEventPriceLowSeries, PRICE_LOW_WINDOW_DAYS } from "./_event-price-low.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
@@ -9118,8 +9118,8 @@ const EDGE_EXPIRES_AT_HEADER = "X-TTC-Edge-Expires-At";
 const EDGE_VALID_UNTIL_HEADER = "X-TTC-Edge-Valid-Until";
 
 // The moment a price guide's render stops being what a live render would
-// show: the earliest snapshot expiry, pending public on-sale or show start
-// among the priced shows.
+// show: the earliest snapshot expiry, pending public on-sale, show start or
+// (for shows within two days) venue-local midnight among the priced shows.
 // null when the price read failed, so that render is never stored.
 function edgeValidUntilFor(shows) {
   let until = Number.POSITIVE_INFINITY;
@@ -9127,6 +9127,12 @@ function edgeValidUntilFor(shows) {
     if (show?.priceQueryFailed) return null;
     const starts = showStartMs(show);
     if (Number.isFinite(starts)) until = Math.min(until, starts);
+    // A show within two days may carry "Today"/"Tomorrow", which flips at
+    // the venue's midnight.
+    if (Number.isFinite(starts) && starts - Date.now() < 2 * 86400000) {
+      const midnight = nextVenueMidnightMs(show?.dateTimeISO || show?.datetime_iso || "", show?.timezone);
+      if (Number.isFinite(midnight)) until = Math.min(until, midnight);
+    }
     // A pending public on-sale is stated on the page until it opens.
     const onsale = Date.parse(show?.public_onsale_at || "");
     if (Number.isFinite(onsale) && onsale > Date.now()) until = Math.min(until, onsale);

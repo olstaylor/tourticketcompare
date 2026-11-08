@@ -17,7 +17,7 @@ import {
 } from "../functions/_artist-content.js";
 import { PRICE_DISCLOSURE, UNSUPPORTED_CHEAPEST_CLAIM } from "../functions/_price-wording.js";
 import { readFileSync } from "node:fs";
-import { relativeShowDay } from "../functions/_relative-day.js";
+import { nextVenueMidnightMs, relativeShowDay } from "../functions/_relative-day.js";
 
 let passed = 0;
 function assert(condition, message) {
@@ -114,6 +114,15 @@ assert(relativeShowDay("2026-11-11T03:00:00Z", "America/Phoenix", clock) === "",
 assert(relativeShowDay("2026-11-09T01:00:00Z", "Europe/London", clock) === "Tomorrow", "an early-hours show is the next local day");
 assert(relativeShowDay("2026-11-09T03:00:00Z", "", clock) === "", "no venue zone, no word");
 assert(relativeShowDay("not a date", "UTC", clock) === "", "bad input gets no word");
+// Wall-clock starts keep their own date; "today" is still the venue's today.
+const lateUtc = Date.parse("2026-11-19T00:30:00Z"); // 19:30 on 18 Nov in Sunrise, FL
+assert(relativeShowDay("2026-11-19T19:00:00-05:00", "America/New_York", lateUtc) === "Tomorrow", "an offset start reads today from the venue zone, not UTC");
+assert(relativeShowDay("2026-11-19T19:00:00-05:00", "", lateUtc) === "Tomorrow", "with no zone, the start's own offset sets the venue's today");
+assert(relativeShowDay("2026-11-19T19:00:00", "America/New_York", lateUtc) === "Tomorrow", "a bare wall-clock start uses the venue zone");
+assert(relativeShowDay("2026-11-19T19:00:00", "", lateUtc) === "", "a bare wall-clock start with no zone gets no word");
+assert(nextVenueMidnightMs("2026-11-09T03:00:00Z", "America/Phoenix", clock) === Date.parse("2026-11-09T07:00:00Z"), "next midnight is the venue's midnight");
+assert(nextVenueMidnightMs("2026-11-19T19:00:00-05:00", "", lateUtc) === Date.parse("2026-11-19T05:00:00Z"), "next midnight from the start's own offset");
+assert(Number.isNaN(nextVenueMidnightMs("2026-11-19T19:00:00", "", lateUtc)), "no venue clock, no midnight");
 const dayOptions = { ...options, relativeDay: (iso, tz) => relativeShowDay(iso, tz, Date.parse("2026-09-01T09:00:00Z")) };
 const zonedStatus = deriveArtistBoardStatus([
   show({ id: "z1", city: "London", country: "United Kingdom", venue: "The O2", dateTimeISO: "2026-09-01T19:00:00Z", timezone: "Europe/London" }),

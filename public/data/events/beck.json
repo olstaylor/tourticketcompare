@@ -391,11 +391,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8301187",
-        "url": "https://www.ticketnetwork.com/en/p/8301187",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8301187",
@@ -408,7 +408,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe87Y",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301187",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

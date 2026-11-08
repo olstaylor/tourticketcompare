@@ -667,11 +667,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7982953",
-        "url": "https://www.ticketnetwork.com/en/p/7982953",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107185232",
@@ -691,7 +691,7 @@
     "ticketmaster_discovery_event_id": "G5dIZ_52QGTUZ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982953",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-austin-tickets-11-6-2026/event/107185232",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982953/John-Summit-tickets-Fri-Nov-6-2026-Moody-Center-ATX",
     "organizer_names": [

@@ -111,11 +111,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8167866",
-        "url": "https://www.ticketnetwork.com/en/p/8167866",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8167866",
@@ -128,7 +128,7 @@
     "ticketmaster_discovery_event_id": "vvG1OZ_2Lg-lOC",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167866",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167866/Jodeci-tickets-Fri-Nov-6-2026-Fox-Theatre-Detroit",
     "organizer_names": [
       "LIVE NATION MUSIC"

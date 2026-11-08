@@ -513,7 +513,6 @@ export const OG_CARDS = {
   "/artists/olivia-rodrigo/tickets/nashville-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-nashville-united-states.png","alt":"Tickets: Olivia Rodrigo in Nashville"},
   "/artists/olivia-rodrigo/tickets/oakland-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-oakland-united-states.png","alt":"Tickets: Olivia Rodrigo in Oakland"},
   "/artists/olivia-rodrigo/tickets/orlando-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-orlando-united-states.png","alt":"Tickets: Olivia Rodrigo in Orlando"},
-  "/artists/olivia-rodrigo/tickets/philadelphia-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-philadelphia-united-states.png","alt":"Tickets: Olivia Rodrigo in Philadelphia"},
   "/artists/olivia-rodrigo/tickets/sacramento-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-sacramento-united-states.png","alt":"Tickets: Olivia Rodrigo in Sacramento"},
   "/artists/olivia-rodrigo/tickets/seattle-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-seattle-united-states.png","alt":"Tickets: Olivia Rodrigo in Seattle"},
   "/artists/olivia-rodrigo/tickets/sunrise-united-states": {"url":"/og/artists-olivia-rodrigo-tickets-sunrise-united-states.png","alt":"Tickets: Olivia Rodrigo in Sunrise"},

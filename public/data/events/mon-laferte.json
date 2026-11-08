@@ -178,11 +178,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7827829",
-        "url": "https://www.ticketnetwork.com/en/p/7827829",
-        "verified": true,
-        "last_verified_at": "2026-11-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_kmf8y1D",
@@ -191,7 +191,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827829"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-mon-laferte-2026-inglewood-vv170z_kgksmomdw",

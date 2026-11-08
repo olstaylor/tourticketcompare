@@ -11,7 +11,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "1E0064B2E736C3FD",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-02-2026/event/1E0064B2E736C3FD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/denver-colorado-ball-arena-2026-12-02-8-pm/concert/18270516",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-denver-ball-arena-12-2-2026--concerts-alternative/production/7091509",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-02-2026/event/1E0064B2E736C3FD",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270516,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/denver-colorado-ball-arena-2026-12-02-8-pm/concert/18270516",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091509,
@@ -100,7 +100,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "1E0064BAFCFA70CC",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-03-2026/event/1E0064BAFCFA70CC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/denver-colorado-ball-arena-2026-12-03-8-pm/concert/18270512",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-denver-ball-arena-12-3-2026--concerts-alternative/production/7091517",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-03-2026/event/1E0064BAFCFA70CC",
@@ -116,11 +116,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270512,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/denver-colorado-ball-arena-2026-12-03-8-pm/concert/18270512",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091517,
@@ -189,7 +189,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "1C0064ADBB8886FE",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-06-2026/event/1C0064ADBB8886FE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/oakland-california-oakland-arena-2026-12-06-8-pm/concert/18270513",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-oakland-oakland-arena-12-6-2026--concerts-alternative/production/7091523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-06-2026/event/1C0064ADBB8886FE",
@@ -205,11 +205,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270513,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/oakland-california-oakland-arena-2026-12-06-8-pm/concert/18270513",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091523,
@@ -278,7 +278,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "1C0064BB9D932123",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-07-2026/event/1C0064BB9D932123",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/oakland-california-oakland-arena-2026-12-07-8-pm/concert/18270514",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-oakland-oakland-arena-12-7-2026--concerts-alternative/production/7091527",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-07-2026/event/1C0064BB9D932123",
@@ -294,11 +294,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270514,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/oakland-california-oakland-arena-2026-12-07-8-pm/concert/18270514",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091527,
@@ -367,7 +367,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "190064B3F3DEA73D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-09-2026/event/190064B3F3DEA73D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/glendale-arizona-desert-diamond-arena-2026-12-09-8-pm/concert/18270517",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-glendale-desert-diamond-arena-12-9-2026--concerts-alternative/production/7091529",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-09-2026/event/190064B3F3DEA73D",
@@ -383,11 +383,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270517,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/glendale-arizona-desert-diamond-arena-2026-12-09-8-pm/concert/18270517",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091529,
@@ -455,7 +455,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "190064B4125FDEF3",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-10-2026/event/190064B4125FDEF3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/glendale-arizona-desert-diamond-arena-2026-12-10-8-pm/concert/18270515",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-glendale-desert-diamond-arena-12-10-2026--concerts-alternative/production/7091531",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-10-2026/event/190064B4125FDEF3",
@@ -471,11 +471,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270515,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/glendale-arizona-desert-diamond-arena-2026-12-10-8-pm/concert/18270515",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091531,
@@ -543,7 +543,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "090064B49319A5BE",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-14-2026/event/090064B49319A5BE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-14-8-pm/concert/18270525",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-14-2026--concerts-alternative/production/7091533",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-14-2026/event/090064B49319A5BE",
@@ -559,11 +559,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270525,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-14-8-pm/concert/18270525",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091533,
@@ -651,7 +651,7 @@
         "event_id": 18270524,
         "url": "https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-18-8-pm/concert/18270524",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {

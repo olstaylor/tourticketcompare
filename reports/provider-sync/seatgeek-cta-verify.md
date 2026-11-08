@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-11-07T22:10:52.385Z
+Generated: 2026-11-08T22:24:54.494Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,16 +9,16 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 1967 (needs_recheck: 676, provenance backfill: 34, stale re-check: 1798)
-- Events skipped before API checks: 586
+- Events selected: 2240 (needs_recheck: 662, provenance backfill: 0, stale re-check: 2109)
+- Events skipped before API checks: 601
 - API calls made: 800
-- Verified provenance written: 578
-- URLs added: 6
+- Verified provenance written: 667
+- URLs added: 2
 - URLs corrected: 0
-- URLs cleared: 22
-- Provenance un-verified: 25
+- URLs cleared: 0
+- Provenance un-verified: 0
 - Conflicts (ambiguous, untouched): 2
-- No qualifying listing: 120
+- No qualifying listing: 129
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: api_call_limit_reached
 
@@ -26,147 +26,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 
 | showId | artist | action | SeatGeek id | url | notes |
 | --- | --- | --- | --- | --- | --- |
-| tm-tommy-emmanuel-2026-charlotte-z7r9jz1a70f-s | tommy-emmanuel | verify (applied) | 18225325 | https://seatgeek.com/tommy-emmanuel-tickets/charlotte-north-carolina-knight-theater-at-levine-center-for-the-arts-2026-12-07-7-30-pm/concert/18225325 | - |
-| tm-jonas-brothers-2026-salt-lake-city-z7r9jz1aazwb9 | jonas-brothers | verify (applied) | 18471182 | https://seatgeek.com/jonas-brothers-tickets/salt-lake-city-utah-delta-center-1-2026-12-07-7-30-pm/concert/18471182 | - |
-| tm-trivium-2026-penticton-z7r9jz1aazdbz | trivium | verify (applied) | 18391977 | https://seatgeek.com/trivium-tickets/penticton-canada-penticton-trade-convention-centre-2026-12-07-6-35-pm/concert/18391977 | - |
-| tm-little-big-town-2026-nashville-z7r9jz1a7j8ra | little-big-town | verify (applied) | 18385970 | https://seatgeek.com/little-big-town-tickets/nashville-tennessee-ryman-auditorium-2026-12-08-7-30-pm/concert/18385970 | - |
-| tm-beartooth-2026-austin-z7r9jz1a70i8v | beartooth | verify (applied) | 18253063 | https://seatgeek.com/beartooth-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2026-12-09-6-30-pm/concert/18253063 | - |
-| tm-tommy-emmanuel-2026-atlanta-z7r9jz1a70b-i | tommy-emmanuel | verify (applied) | 18237606 | https://seatgeek.com/tommy-emmanuel-tickets/atlanta-georgia-variety-playhouse-2026-12-09-8-pm/concert/18237606 | - |
-| tm-billy-strings-2026-sugar-land-z7r9jz1a7xvj- | billy-strings | verify (applied) | 18158743 | https://seatgeek.com/billy-strings-tickets/sugar-land-texas-smart-financial-centre-2026-12-09-7-30-pm/concert/18158743 | - |
-| tm-little-big-town-2026-nashville-z7r9jz1a7j8_7 | little-big-town | verify (applied) | 18385972 | https://seatgeek.com/little-big-town-tickets/nashville-tennessee-ryman-auditorium-2026-12-09-7-30-pm/concert/18385972 | - |
-| tm-koe-wetzel-2026-fort-worth-z7r9jz1aa7evf | koe-wetzel | verify (applied) | 18665100 | https://seatgeek.com/koe-wetzel-tickets/fort-worth-texas-billy-bob-s-texas-2026-12-09-9-pm/concert/18665100 | - |
-| tm-tommy-emmanuel-2026-ponte-vedra-beach-z7r9jz1a70kze | tommy-emmanuel | verify (applied) | 18237612 | https://seatgeek.com/tommy-emmanuel-tickets/ponte-vedra-beach-florida-ponte-vedra-concert-hall-2026-12-10-7-pm/concert/18237612 | - |
-| tm-pink-martini-2026-fairfax-z7r9jz1aazojt | pink-martini | verify (applied) | 18701980 | https://seatgeek.com/pink-martini-tickets/fairfax-virginia-center-for-the-arts-george-mason-university-2026-12-10-7-30-pm/concert/18701980 | - |
-| tm-little-big-town-2026-nashville-z7r9jz1a7j_4x | little-big-town | verify (applied) | 18385974 | https://seatgeek.com/little-big-town-tickets/nashville-tennessee-ryman-auditorium-2026-12-10-7-30-pm/concert/18385974 | - |
-| tm-koe-wetzel-2026-fort-worth-z7r9jz1aa7vfe | koe-wetzel | verify (applied) | 18649775 | https://seatgeek.com/koe-wetzel-tickets/fort-worth-texas-billy-bob-s-texas-2026-12-10-9-pm/concert/18649775 | - |
-| tm-riley-green-2026-las-vegas-z7r9jz1a7peq7 | riley-green | verify (applied) | 18282386 | https://seatgeek.com/riley-green-tickets/las-vegas-nevada-resorts-world-theatre-2026-12-10-8-30-pm/concert/18282386 | - |
-| tm-gavin-adcock-2026-las-vegas-z7r9jz1a7paas | gavin-adcock | verify (applied) | 18293611 | https://seatgeek.com/gavin-adcock-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-12-10-8-30-pm/concert/18293611 | - |
-| tm-trans-siberian-orchestra-2026-houston-z7r9jz1aavnas | trans-siberian-orchestra | verify (applied) | 18573440 | https://seatgeek.com/trans-siberian-orchestra-tickets/houston-texas-toyota-center-2026-12-11-3-pm/concert/18573440 | - |
-| tm-tommy-emmanuel-2026-orlando-z7r9jz1a70b-e | tommy-emmanuel | verify (applied) | 18237614 | https://seatgeek.com/tommy-emmanuel-tickets/orlando-florida-the-plaza-live-2026-12-11-8-pm/concert/18237614 | - |
-| tm-blue-october-2026-austin-z7r9jz1a7-v0k | blue-october | verify (applied) | 18147885 | https://seatgeek.com/blue-october-tickets/austin-texas-bass-concert-hall-2026-12-11-7-pm/concert/18147885 | - |
-| tm-brent-faiyaz-2026-los-angeles-z7r9jz1aae7ub | brent-faiyaz | verify (applied) | 18619390 | https://seatgeek.com/brent-faiyaz-tickets/los-angeles-california-crypto-com-arena-2026-12-11-8-pm/concert/18619390 | - |
-| tm-cece-winans-2026-portland-z7r9jz1a7j6jj | cece-winans | verify (applied) | 18499845 | https://seatgeek.com/cece-winans-tickets/portland-oregon-arlene-schnitzer-concert-hall-2026-12-11-8-pm/concert/18499845 | - |
-| tm-black-stone-cherry-2026-columbus-z7r9jz1aae7be | black-stone-cherry | verify (applied) | 18637158 | https://seatgeek.com/black-stone-cherry-tickets/columbus-ohio-the-king-of-clubs-oh-2026-12-12-5-30-pm/concert/18637158 | - |
-| tm-sabaton-2026-fort-lauderdale-z7r9jz1a7-oqe | sabaton | verify (applied) | 17726761 | https://seatgeek.com/sabaton-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-12-7-pm/concert/17726761 | - |
-| tm-pink-martini-2026-lebanon-z7r9jz1a7pwba | pink-martini | verify (applied) | 18670209 | https://seatgeek.com/pink-martini-tickets/lebanon-new-hampshire-lebanon-opera-house-2026-12-12-7-30-pm/concert/18670209 | - |
-| tm-lady-a-2026-shipshewana-z7r9jz1a7pkv6 | lady-a | verify (applied) | 18295863 | https://seatgeek.com/lady-a-tickets/shipshewana-indiana-blue-gate-performing-arts-center-2026-12-12-7-30-pm/concert/18295863 | - |
-| tm-tommy-emmanuel-2026-clearwater-z7r9jz1aav8__ | tommy-emmanuel | verify (applied) | 18237615 | https://seatgeek.com/tommy-emmanuel-tickets/clearwater-florida-bilheimer-capitol-theatre-2026-12-12-7-pm/concert/18237615 | - |
-| tm-janet-jackson-2026-sunrise-z7r9jz1aazz43 | janet-jackson | verify (applied) | 18443314 | https://seatgeek.com/janet-jackson-tickets/sunrise-florida-amerant-bank-arena-2026-12-12-8-pm/concert/18443314 | - |
-| tm-blue-october-2026-san-antonio-z7r9jz1a7-vz7 | blue-october | verify (applied) | 18142024 | https://seatgeek.com/blue-october-tickets/san-antonio-texas-boeing-center-at-tech-port-2026-12-12-8-pm/concert/18142024 | - |
-| tm-missio-2026-vancouver-z7r9jz1aaziv9 | missio | verify (applied) | 18646946 | https://seatgeek.com/missio-tickets/vancouver-canada-the-pearl-bc-2026-12-12-6-pm/concert/18646946 | - |
-| tm-trivium-2026-denver-z7r9jz1aazdby | trivium | verify (applied) | 18391983 | https://seatgeek.com/trivium-tickets/denver-colorado-mission-ballroom-2026-12-13-6-35-pm/concert/18391983 | - |
-| tm-trivium-2026-tulsa-z7r9jz1aazd_z | trivium | verify (applied) | 18391987 | https://seatgeek.com/trivium-tickets/tulsa-oklahoma-tulsa-theater-2026-12-15-6-35-pm/concert/18391987 | - |
-| tm-jodeci-2026-jacksonville-z7r9jz1aaz3fu | jodeci | verify (applied) | 18407288 | https://seatgeek.com/jodeci-tickets/jacksonville-florida-florida-theatre-jacksonville-2026-12-15-8-pm/concert/18407288 | - |
-| tm-beartooth-2026-albuquerque-z7r9jz1a70i3o | beartooth | verify (applied) | 18253073 | https://seatgeek.com/beartooth-tickets/albuquerque-new-mexico-revel-entertainment-center-2026-12-15-6-30-pm/concert/18253073 | - |
-| tm-cece-winans-2026-bakersfield-z7r9jz1a7jfpa | cece-winans | verify (applied) | 18598785 | https://seatgeek.com/cece-winans-tickets/bakersfield-california-dignity-health-theater-2026-12-16-7-pm/concert/18598785 | - |
-| tm-pentatonix-2026-lubbock-z7r9jz1aaz-j6 | pentatonix | verify (applied) | 18427242 | https://seatgeek.com/pentatonix-tickets/lubbock-texas-united-supermarkets-arena-2026-12-17-7-pm/concert/18427242 | - |
-| tm-cece-winans-2026-los-angeles-z7r9jz1a7jfjs | cece-winans | verify (applied) | 18499823 | https://seatgeek.com/cece-winans-tickets/los-angeles-california-peacock-theater-2026-12-17-7-pm/concert/18499823 | - |
-| tm-trans-siberian-orchestra-2026-sunrise-z7r9jz1aavnag | trans-siberian-orchestra | verify (applied) | 18410573 | https://seatgeek.com/trans-siberian-orchestra-tickets/sunrise-florida-amerant-bank-arena-2026-12-18-7-pm/concert/18410573 | - |
-| tm-pink-martini-2026-boston-z7r9jz1a7psqp | pink-martini | verify (applied) | 18668809 | https://seatgeek.com/pink-martini-tickets/boston-massachusetts-berklee-performance-center-2026-12-18-8-pm/concert/18668809 | - |
-| tm-lord-huron-2026-brooklyn-z7r9jz1aazpf3 | lord-huron | verify (applied) | 18421979 | https://seatgeek.com/lord-huron-tickets/brooklyn-new-york-kings-theatre-brooklyn-2026-12-18-8-pm/concert/18421979 | - |
-| tm-lady-a-2026-bensalem-z7r9jz1a7p380 | lady-a | verify (applied) | 18353855 | https://seatgeek.com/lady-a-tickets/bensalem-pennsylvania-xcite-center-at-parx-casino-2026-12-18-8-pm/concert/18353855 | - |
-| tm-boyz-ii-men-2026-norman-z7r9jz1aaed_y | boyz-ii-men | verify (applied) | 18320946 | https://seatgeek.com/boyz-ii-men-tickets/norman-oklahoma-riverwind-casino-2026-12-18-8-pm/concert/18320946 | - |
-| tm-a-boogie-wit-da-hoodie-2026-hartford-z7r9jz1aaea_k | a-boogie-wit-da-hoodie | verify (applied) | 18639406 | https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/hartford-connecticut-peoplesbank-arena-2026-12-19-8-pm/concert/18639406 | - |
-| tm-lord-huron-2026-brooklyn-z7r9jz1aazbbi | lord-huron | verify (applied) | 18421980 | https://seatgeek.com/lord-huron-tickets/brooklyn-new-york-kings-theatre-brooklyn-2026-12-19-8-pm/concert/18421980 | - |
-| tm-boyz-ii-men-2026-thackerville-z7r9jz1a70-f8 | boyz-ii-men | verify (applied) | 18211756 | https://seatgeek.com/boyz-ii-men-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-19-8-pm/concert/18211756 | - |
-| tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk | olivia-rodrigo | verify (applied) | 18211722 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-19-7-pm/concert/18211722 | - |
-| tm-illenium-2026-las-vegas-z7r9jz1aavupe | illenium | verify (applied) | 18643550 | https://seatgeek.com/illenium-tickets/las-vegas-nevada-omnia-las-vegas-2026-12-19-10-30-pm/concert/18643550 | - |
-| tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf | olivia-rodrigo | verify (applied) | 18211723 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723 | - |
-| tm-lady-a-2026-nashville-z7r9jz1a7p0p9 | lady-a | verify (applied) | 18295865 | https://seatgeek.com/lady-a-tickets/nashville-tennessee-ryman-auditorium-2026-12-21-3-pm/concert/18295865 | - |
-| tm-trans-siberian-orchestra-2026-cleveland-z7r9jz1aavx-d | trans-siberian-orchestra | verify (applied) | 18368862 | https://seatgeek.com/trans-siberian-orchestra-tickets/cleveland-ohio-rocket-arena-2026-12-22-3-pm/concert/18368862 | - |
-| tm-earth-wind-fire-2027-thackerville-z7r9jz1aazwqd | earth-wind-fire | verify (applied) | 18409857 | https://seatgeek.com/earth-wind-fire-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-31-8-pm/concert/18409857 | - |
-| tm-post-malone-2027-salt-lake-city-z7r9jz1aa7skb | post-malone | verify (applied) | 18414663 | https://seatgeek.com/post-malone-tickets/salt-lake-city-utah-delta-center-1-2026-12-31-10-pm/concert/18414663 | - |
-| tm-calvin-harris-2027-las-vegas-z7r9jz1aaeaa4 | calvin-harris | verify (applied) | 18701921 | https://seatgeek.com/calvin-harris-tickets/las-vegas-nevada-xs-nightclub-at-encore-5-2026-12-31-10-30-pm/concert/18701921 | - |
-| tm-lord-huron-2027-las-vegas-z7r9jz1aazbo8 | lord-huron | verify (applied) | 18421984 | https://seatgeek.com/lord-huron-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2027-01-02-8-pm/concert/18421984 | - |
-| tm-rufus-du-sol-2027-san-francisco-z7r9jz1aae3qg | rufus-du-sol | verify (applied) | 18639575 | https://seatgeek.com/rufus-du-sol-tickets/san-francisco-california-pier-80-2027-01-03-4-pm/concert/18639575 | - |
-| tm-pink-martini-2027-fort-worth-z7r9jz1a7p6-z | pink-martini | verify (applied) | 18659747 | https://seatgeek.com/pink-martini-tickets/fort-worth-texas-bass-performance-hall-2027-01-08-7-30-pm/concert/18659747 | - |
-| tm-stella-lefty-2027-columbus-z7r9jz1aav7q6 | stella-lefty | verify (applied) | 18527907 | https://seatgeek.com/stella-lefty-tickets/columbus-ohio-kemba-live-2027-01-10-8-pm/concert/18527907 | - |
-| tm-pink-martini-2027-jacksonville-z7r9jz1aazepf | pink-martini | verify (applied) | 18668813 | https://seatgeek.com/pink-martini-tickets/jacksonville-florida-florida-theatre-jacksonville-2027-01-12-7-30-pm/concert/18668813 | - |
-| tm-atmosphere-2027-green-bay-z7r9jz1aavz-e | atmosphere | verify (applied) | 18609071 | https://seatgeek.com/atmosphere-tickets/green-bay-wisconsin-epic-event-center-green-bay-2027-01-14-6-45-pm/concert/18609071 | - |
-| tm-barry-manilow-2027-sunrise-z7r9jz1a7ji0e | barry-manilow | verify (applied) | 17732521 | https://seatgeek.com/barry-manilow-tickets/sunrise-florida-amerant-bank-arena-2027-01-15-7-pm/concert/17732521 | - |
-| tm-the-psychedelic-furs-2027-ridgefield-z7r9jz1aavuq6 | the-psychedelic-furs | verify (applied) | 18670227 | https://seatgeek.com/the-psychedelic-furs-tickets/ridgefield-connecticut-the-ridgefield-playhouse-2027-01-15-8-pm/concert/18670227 | - |
-| tm-atmosphere-2027-west-des-moines-z7r9jz1aaezfw | atmosphere | verify (applied) | 18609072 | https://seatgeek.com/atmosphere-tickets/west-des-moines-iowa-val-air-ballroom-2027-01-16-6-45-pm/concert/18609072 | - |
-| tm-atmosphere-2027-omaha-z7r9jz1aaez39 | atmosphere | verify (applied) | 18609074 | https://seatgeek.com/atmosphere-tickets/omaha-nebraska-the-admiral-omaha-2027-01-17-8-pm/concert/18609074 | - |
-| tm-atmosphere-2027-fort-collins-z7r9jz1aaezpv | atmosphere | verify (applied) | 18609075 | https://seatgeek.com/atmosphere-tickets/fort-collins-colorado-aggie-theatre-2027-01-19-6-45-pm/concert/18609075 | - |
-| tm-yacht-rock-revue-2027-key-west-z7r9jz1aaeefv | yacht-rock-revue | verify (applied) | 18618566 | https://seatgeek.com/yacht-rock-revue-tickets/key-west-florida-coffee-butler-amphitheater-2027-01-20-7-30-pm/concert/18618566 | - |
-| tm-alan-walker-2027-austin-z7r9jz1aavtfx | alan-walker | verify (applied) | 18595131 | https://seatgeek.com/alan-walker-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-01-21-7-pm/concert/18595131 | - |
-| tm-tommy-emmanuel-2027-saint-louis-z7r9jz1aavs4y | tommy-emmanuel | verify (applied) | 18690599 | https://seatgeek.com/tommy-emmanuel-tickets/saint-louis-missouri-sheldon-concert-hall-2027-01-21-8-pm/concert/18690599 | - |
-| tm-yacht-rock-revue-2027-fort-myers-z7r9jz1aaevr7 | yacht-rock-revue | verify (applied) | 18621507 | https://seatgeek.com/yacht-rock-revue-tickets/fort-myers-florida-caloosa-sound-amphitheater-2027-01-22-7-30-pm/concert/18621507 | - |
-| tm-tommy-emmanuel-2027-saint-louis-z7r9jz1aavspz | tommy-emmanuel | verify (applied) | 18690598 | https://seatgeek.com/tommy-emmanuel-tickets/saint-louis-missouri-sheldon-concert-hall-2027-01-22-8-pm/concert/18690598 | - |
-| tm-yacht-rock-revue-2027-clearwater-z7r9jz1aaevfz | yacht-rock-revue | verify (applied) | 18699569 | https://seatgeek.com/yacht-rock-revue-tickets/clearwater-florida-ruth-eckerd-hall-2027-01-23-8-pm/concert/18699569 | - |
-| tm-air-supply-2027-sarasota-z7r9jz1a7p_4p | air-supply | verify (applied) | 18355670 | https://seatgeek.com/air-supply-tickets/sarasota-florida-van-wezel-performing-arts-hall-2027-01-24-7-pm/concert/18355670 | - |
-| tm-pink-martini-2027-bellingham-z7r9jz1aazp-s | pink-martini | verify (applied) | 18668823 | https://seatgeek.com/pink-martini-tickets/bellingham-washington-mount-baker-theatre-2027-01-24-7-pm/concert/18668823 | - |
-| tm-daughtry-2027-melbourne-z7r9jz1aae83v | daughtry | verify (applied) | 18632894 | https://seatgeek.com/daughtry-tickets/melbourne-florida-maxwell-c-king-center-for-the-performing-arts-2027-01-25-7-pm/concert/18632894 | - |
-| tm-tommy-emmanuel-2027-champaign-z7r9jz1aavspv | tommy-emmanuel | verify (applied) | 18690443 | https://seatgeek.com/tommy-emmanuel-tickets/champaign-illinois-virginia-theatre-2027-01-26-7-30-pm/concert/18690443 | - |
-| tm-yacht-rock-revue-2027-melbourne-z7r9jz1aaee4f | yacht-rock-revue | verify (applied) | 18618051 | https://seatgeek.com/yacht-rock-revue-tickets/melbourne-florida-maxwell-c-king-center-for-the-performing-arts-2027-01-27-7-30-pm/concert/18618051 | - |
-| tm-daughtry-2027-clearwater-z7r9jz1aae83e | daughtry | verify (applied) | 18632896 | https://seatgeek.com/daughtry-tickets/clearwater-florida-ruth-eckerd-hall-2027-01-28-7-pm/concert/18632896 | - |
-| tm-alan-walker-2027-nashville-z7r9jz1aavt47 | alan-walker | verify (applied) | 18621798 | https://seatgeek.com/alan-walker-tickets/nashville-tennessee-the-pinnacle-nashville-2027-01-28-8-pm/concert/18621798 | - |
-| tm-atmosphere-2027-eugene-z7r9jz1aaez3b | atmosphere | verify (applied) | 18609088 | https://seatgeek.com/atmosphere-tickets/eugene-oregon-mcdonald-theatre-2027-01-28-8-pm/concert/18609088 | - |
-| tm-yacht-rock-revue-2027-jacksonville-z7r9jz1aaeebg | yacht-rock-revue | verify (applied) | 18621818 | https://seatgeek.com/yacht-rock-revue-tickets/jacksonville-florida-florida-theatre-jacksonville-2027-01-29-7-30-pm/concert/18621818 | - |
-| tm-dylan-scott-2027-bismarck-z7r9jz1aavseb | dylan-scott | verify (applied) | 18603379 | https://seatgeek.com/dylan-scott-tickets/bismarck-north-dakota-bismarck-event-center-2027-01-29-7-30-pm/concert/18603379 | - |
-| tm-blue-october-2027-midland-z7r9jz1a70pjo | blue-october | verify (applied) | 18354266 | https://seatgeek.com/blue-october-tickets/midland-texas-wagner-noel-performing-arts-center-2027-01-29-8-pm/concert/18354266 | - |
-| tm-cristian-castro-2027-denver-z7r9jz1a7-boz | cristian-castro | verify (applied) | 18103535 | https://seatgeek.com/cristian-castro-tickets/denver-colorado-bellco-theatre-2027-01-29-8-pm/concert/18103535 | - |
-| tm-lionel-richie-2027-thackerville-z7r9jz1aav_-z | lionel-richie | verify (applied) | 18424874 | https://seatgeek.com/lionel-richie-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2027-01-30-8-pm/concert/18424874 | - |
-| tm-tommy-emmanuel-2027-buffalo-z7r9jz1aavspd | tommy-emmanuel | verify (applied) | 18690413 | https://seatgeek.com/tommy-emmanuel-tickets/buffalo-new-york-asbury-hall-buffalo-2027-01-31-8-pm/concert/18690413 | - |
-| tm-blue-october-2027-amarillo-z7r9jz1a7pxau | blue-october | verify (applied) | 18655859 | https://seatgeek.com/blue-october-tickets/amarillo-texas-globe-news-center-for-the-performing-arts-2027-01-31-7-30-pm/concert/18655859 | - |
-| tm-stella-lefty-2027-austin-z7r9jz1aav7f6 | stella-lefty | verify (applied) | 18527893 | https://seatgeek.com/stella-lefty-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-01-31-8-pm/concert/18527893 | - |
-| tm-daughtry-2027-austin-z7r9jz1aae83d | daughtry | verify (applied) | 18632906 | https://seatgeek.com/daughtry-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-02-03-7-pm/concert/18632906 | - |
-| tm-the-red-clay-strays-2027-cleveland-z7r9jz1aaefgw | the-red-clay-strays | verify (applied) | 18592284 | https://seatgeek.com/the-red-clay-strays-tickets/cleveland-ohio-rocket-arena-2027-02-04-7-pm/concert/18592284 | - |
-| tm-valley-2027-quebec-z7r9jz1aavzfi | valley | verify (applied) | 18696397 | https://seatgeek.com/valley-tickets/quebec-canada-grizzly-fuzz-2027-02-04-8-pm/concert/18696397 | - |
-| tm-blue-october-2027-albuquerque-z7r9jz1a70pgn | blue-october | verify (applied) | 18239716 | https://seatgeek.com/blue-october-tickets/albuquerque-new-mexico-revel-entertainment-center-2027-02-04-8-pm/concert/18239716 | - |
-| tm-tobymac-2027-sunrise-z7r9jz1aav8xe | tobymac | verify (applied) | 18527954 | https://seatgeek.com/tobymac-tickets/sunrise-florida-amerant-bank-arena-2027-02-05-7-pm/concert/18527954 | - |
-| tm-dropkick-murphys-2027-albuquerque-z7r9jz1aae80p | dropkick-murphys | verify (applied) | 18633525 | https://seatgeek.com/dropkick-murphys-tickets/albuquerque-new-mexico-revel-entertainment-center-2027-02-05-7-pm/concert/18633525 | - |
-| tm-tommy-emmanuel-2027-charlottesville-z7r9jz1aavspf | tommy-emmanuel | verify (applied) | 18690564 | https://seatgeek.com/tommy-emmanuel-tickets/charlottesville-virginia-paramount-theater-charlottesville-2027-02-06-8-pm/concert/18690564 | - |
-| tm-air-supply-2027-wisconsin-dells-z7r9jz1a7x_ez | air-supply | verify (applied) | 18200030 | https://seatgeek.com/air-supply-tickets/wisconsin-dells-wisconsin-crystal-grand-music-theatre-2027-02-06-8-pm/concert/18200030 | - |
-| tm-daughtry-2027-ventura-z7r9jz1aae837 | daughtry | verify (applied) | 18632907 | https://seatgeek.com/daughtry-tickets/ventura-california-the-majestic-ventura-theater-2027-02-06-8-pm/concert/18632907 | - |
-| tm-atmosphere-2027-minneapolis-z7r9jz1aaez4o | atmosphere | verify (applied) | 18609105 | https://seatgeek.com/atmosphere-tickets/minneapolis-minnesota-first-avenue-minneapolis-2027-02-07-6-45-pm/concert/18609105 | - |
-| tm-andrea-bocelli-2027-houston-z7r9jz1aavs_v | andrea-bocelli | verify (applied) | 18581453 | https://seatgeek.com/andrea-bocelli-tickets/houston-texas-toyota-center-2027-02-07-8-pm/concert/18581453 | - |
-| tm-polyphia-2027-san-diego-z7r9jz1aav67j | polyphia | verify (applied) | 18536015 | https://seatgeek.com/polyphia-tickets/san-diego-california-soma-san-diego-2027-02-10-7-30-pm/concert/18536015 | - |
-| tm-don-omar-2027-san-diego-z7r9jz1a7pggy | don-omar | verify (applied) | 18333383 | https://seatgeek.com/don-omar-tickets/san-diego-california-pechanga-arena-san-diego-2027-02-10-8-pm/concert/18333383 | - |
-| tm-blue-october-2027-san-luis-obispo-z7r9jz1a70_f7 | blue-october | verify (applied) | 18245801 | https://seatgeek.com/blue-october-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2027-02-10-8-pm/concert/18245801 | - |
-| tm-dinosaur-jr-2027-brooklyn-z7r9jz1aavk1a | dinosaur-jr | verify (applied) | 18540431 | https://seatgeek.com/dinosaur-jr-tickets/brooklyn-new-york-brooklyn-steel-2027-02-11-8-pm/concert/18540431 | - |
-| tm-alan-walker-2027-new-york-z7r9jz1aavt4a | alan-walker | verify (applied) | 18595137 | https://seatgeek.com/alan-walker-tickets/new-york-new-york-terminal-5-2027-02-11-9-pm/concert/18595137 | - |
-| tm-nickelback-2027-cleveland-z7r9jz1aa774f | nickelback | verify (applied) | 18604483 | https://seatgeek.com/nickelback-tickets/cleveland-ohio-rocket-arena-2027-02-12-6-30-pm/concert/18604483 | - |
-| tm-tobymac-2027-sugar-land-z7r9jz1aav8op | tobymac | verify (applied) | 18548802 | https://seatgeek.com/tobymac-tickets/sugar-land-texas-smart-financial-centre-2027-02-12-7-pm/concert/18548802 | - |
-| tm-dinosaur-jr-2027-brooklyn-z7r9jz1aavk1f | dinosaur-jr | verify (applied) | 18540433 | https://seatgeek.com/dinosaur-jr-tickets/brooklyn-new-york-brooklyn-steel-2027-02-12-8-pm/concert/18540433 | - |
-| tm-valley-2027-chicago-z7r9jz1aavzfy | valley | verify (applied) | 18684172 | https://seatgeek.com/valley-tickets/chicago-illinois-park-west-2027-02-12-7-30-pm/concert/18684172 | - |
-| tm-pink-martini-2027-chicago-z7r9jz1aaz6g7 | pink-martini | verify (applied) | 18396258 | https://seatgeek.com/pink-martini-tickets/chicago-illinois-chicago-symphony-center-2027-02-12-8-pm/concert/18396258 | - |
-| tm-alan-walker-2027-new-york-z7r9jz1aavt4k | alan-walker | verify (applied) | 18595135 | https://seatgeek.com/alan-walker-tickets/new-york-new-york-terminal-5-2027-02-12-9-pm/concert/18595135 | - |
-| tm-dropkick-murphys-2027-vancouver-z7r9jz1aaeopk | dropkick-murphys | verify (applied) | 18633528 | https://seatgeek.com/dropkick-murphys-tickets/vancouver-canada-pne-forum-vancouver-2027-02-12-7-pm/concert/18633528 | - |
-| tm-tobymac-2027-grand-prairie-z7r9jz1aav8of | tobymac | verify (applied) | 18548804 | https://seatgeek.com/tobymac-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-02-13-7-pm/concert/18548804 | - |
-| tm-dinosaur-jr-2027-philadelphia-z7r9jz1aavk18 | dinosaur-jr | verify (applied) | 18540434 | https://seatgeek.com/dinosaur-jr-tickets/philadelphia-pennsylvania-union-transfer-philadelphia-2027-02-13-8-pm/concert/18540434 | - |
-| tm-valley-2027-minneapolis-z7r9jz1aavzfs | valley | verify (applied) | 18684018 | https://seatgeek.com/valley-tickets/minneapolis-minnesota-fine-line-music-cafe-2027-02-13-7-30-pm/concert/18684018 | - |
-| tm-dropkick-murphys-2027-penticton-z7r9jz1aae8_9 | dropkick-murphys | verify (applied) | 18633535 | https://seatgeek.com/dropkick-murphys-tickets/penticton-canada-penticton-trade-convention-centre-2027-02-13-7-pm/concert/18633535 | - |
-| tm-daughtry-2027-cedar-rapids-z7r9jz1aae83a | daughtry | verify (applied) | 18632918 | https://seatgeek.com/daughtry-tickets/cedar-rapids-iowa-paramount-theatre-cedar-rapids-2027-02-15-7-pm/concert/18632918 | - |
-| tm-meshuggah-2027-detroit-z7r9jz1aa7t8- | meshuggah | verify (applied) | 18724637 | https://seatgeek.com/meshuggah-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2027-02-16-6-pm/concert/18724637 | - |
-| tm-hans-zimmer-2027-hartford-z7r9jz1aavvqk | hans-zimmer | verify (applied) | 18601917 | https://seatgeek.com/hans-zimmer-tickets/hartford-connecticut-peoplesbank-arena-2027-02-17-7-30-pm/concert/18601917 | - |
-| tm-greta-van-fleet-2027-green-bay-z7r9jz1aae44u | greta-van-fleet | verify (applied) | 18641961 | https://seatgeek.com/greta-van-fleet-tickets/green-bay-wisconsin-resch-center-2027-02-17-7-pm/concert/18641961 | - |
-| tm-stella-lefty-2027-nashville-z7r9jz1aav7ff | stella-lefty | verify (applied) | 18527898 | https://seatgeek.com/stella-lefty-tickets/nashville-tennessee-ryman-auditorium-2027-02-17-8-pm/concert/18527898 | - |
-| tm-blue-october-2027-bakersfield-z7r9jz1a70_4m | blue-october | verify (applied) | 18653245 | https://seatgeek.com/blue-october-tickets/bakersfield-california-historic-bakersfield-fox-theater-2027-02-17-8-pm/concert/18653245 | - |
-| tm-yuridia-2027-highland-z7r9jz1aav-j_ | yuridia | verify (applied) | 18570387 | https://seatgeek.com/yuridia-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-02-17-8-pm/concert/18570387 | - |
-| tm-the-lemonheads-2027-tampa-z7r9jz1aavwob | the-lemonheads | verify (applied) | 18595315 | https://seatgeek.com/the-lemonheads-tickets/tampa-florida-the-orpheum-tampa-2027-02-18-7-pm/concert/18595315 | - |
-| tm-daughtry-2027-eau-claire-z7r9jz1aae83k | daughtry | verify (applied) | 18632922 | https://seatgeek.com/daughtry-tickets/eau-claire-wisconsin-rcu-theatre-pablo-center-at-the-confluence-2027-02-18-7-pm/concert/18632922 | - |
-| tm-stella-lefty-2027-nashville-z7r9jz1aavffx | stella-lefty | verify (applied) | 18539564 | https://seatgeek.com/stella-lefty-tickets/nashville-tennessee-ryman-auditorium-2027-02-18-8-pm/concert/18539564 | - |
-| tm-dylan-scott-2027-denver-z7r9jz1aavse_ | dylan-scott | verify (applied) | 18603380 | https://seatgeek.com/dylan-scott-tickets/denver-colorado-mission-ballroom-2027-02-18-8-pm/concert/18603380 | - |
-| tm-blue-october-2027-san-francisco-z7r9jz1a70_4z | blue-october | verify (applied) | 18652826 | https://seatgeek.com/blue-october-tickets/san-francisco-california-the-regency-ballroom-2027-02-18-8-pm/concert/18652826 | - |
-| tm-foreigner-2027-pompano-beach-z7r9jz1aav6fn | foreigner | verify (applied) | 18570609 | https://seatgeek.com/foreigner-tickets/pompano-beach-florida-pompano-beach-amphitheater-2027-02-19-8-pm/concert/18570609 | - |
-| tm-air-supply-2027-penticton-z7r9jz1aa7o-a | air-supply | verify (applied) | 18646927 | https://seatgeek.com/air-supply-tickets/penticton-canada-south-okanagan-events-centre-2027-02-19-6-30-pm/concert/18646927 | - |
-| tm-dinosaur-jr-2027-saint-petersburg-z7r9jz1aavk16 | dinosaur-jr | verify (applied) | 18540442 | https://seatgeek.com/dinosaur-jr-tickets/saint-petersburg-florida-jannus-live-2027-02-20-8-pm/concert/18540442 | - |
-| tm-meshuggah-2027-kansas-city-z7r9jz1aa7t8x | meshuggah | verify (applied) | 18724639 | https://seatgeek.com/meshuggah-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-02-20-7-pm/concert/18724639 | - |
-| tm-sylvan-esso-2027-vancouver-z7r9jz1a7pffp | sylvan-esso | verify (applied) | 18299162 | https://seatgeek.com/sylvan-esso-tickets/vancouver-canada-vogue-theatre-bc-1-2027-02-20-8-pm/concert/18299162 | - |
-| tm-tobymac-2027-norfolk-z7r9jz1aav8r3 | tobymac | verify (applied) | 18548806 | https://seatgeek.com/tobymac-tickets/norfolk-virginia-chartway-arena-2027-02-21-6-30-pm/concert/18548806 | - |
-| tm-dropkick-murphys-2027-green-bay-z7r9jz1aaeopf | dropkick-murphys | verify (applied) | 18633547 | https://seatgeek.com/dropkick-murphys-tickets/green-bay-wisconsin-epic-event-center-green-bay-2027-02-21-7-pm/concert/18633547 | - |
-| tm-air-supply-2027-prince-george-z7r9jz1aaek-z | air-supply | verify (applied) | 18736469 | https://seatgeek.com/air-supply-tickets/prince-george-canada-cn-centre-2027-02-21-6-30-pm/concert/18736469 | - |
-| tm-dropkick-murphys-2027-fort-wayne-z7r9jz1aaeop4 | dropkick-murphys | verify (applied) | 18633548 | https://seatgeek.com/dropkick-murphys-tickets/fort-wayne-indiana-the-clyde-theatre-fort-wayne-in-2027-02-22-7-pm/concert/18633548 | - |
-| tm-air-supply-2027-dawson-creek-z7r9jz1aavmfk | air-supply | verify (applied) | 18646928 | https://seatgeek.com/air-supply-tickets/dawson-creek-canada-ovintiv-events-centre-2027-02-22-7-30-pm/concert/18646928 | - |
-| tm-sylvan-esso-2027-portland-z7r9jz1a7pf-d | sylvan-esso | verify (applied) | 18299165 | https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-22-8-30-pm/concert/18299165 | - |
-| tm-dinosaur-jr-2027-orlando-z7r9jz1aav8-u | dinosaur-jr | verify (applied) | 18540443 | https://seatgeek.com/dinosaur-jr-tickets/orlando-florida-the-plaza-live-2027-02-23-7-30-pm/concert/18540443 | - |
-| tm-alan-walker-2027-pittsburgh-z7r9jz1aavt46 | alan-walker | verify (applied) | 18595139 | https://seatgeek.com/alan-walker-tickets/pittsburgh-pennsylvania-stage-ae-2027-02-23-8-pm/concert/18595139 | - |
-| tm-needtobreathe-2027-kansas-city-z7r9jz1aaek_i | needtobreathe | verify (applied) | 18621528 | https://seatgeek.com/needtobreathe-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-02-23-7-pm/concert/18621528 | - |
-| tm-mico-2027-jacksonville-z7r9jz1aa7a4e | mico | verify (applied) | 18685771 | https://seatgeek.com/mico-tickets/jacksonville-florida-five-jacksonville-2027-02-23-8-pm/concert/18685771 | - |
-| tm-valley-2027-victoria-z7r9jz1aavgoz | valley | verify (applied) | 18606164 | https://seatgeek.com/valley-tickets/victoria-canada-capital-ballroom-2027-02-23-8-pm/concert/18606164 | - |
-| tm-sylvan-esso-2027-portland-z7r9jz1a7pf-7 | sylvan-esso | verify (applied) | 18299164 | https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-23-8-30-pm/concert/18299164 | - |
-| tm-alan-walker-2027-columbus-z7r9jz1aavt4f | alan-walker | verify (applied) | 18595141 | https://seatgeek.com/alan-walker-tickets/columbus-ohio-kemba-live-2027-02-24-8-pm/concert/18595141 | - |
 | tm-mei-semones-2027-cambridge-z7r9jz1aaebpz | mei-semones | verify (applied) | 18702716 | https://seatgeek.com/mei-semones-tickets/cambridge-massachusetts-the-sinclair-cambridge-2027-02-24-8-pm/concert/18702716 | - |
 | tm-dinosaur-jr-2027-athens-z7r9jz1aavk1o | dinosaur-jr | verify (applied) | 18540444 | https://seatgeek.com/dinosaur-jr-tickets/athens-georgia-georgia-theatre-2027-02-25-7-pm/concert/18540444 | - |
 | tm-tommy-emmanuel-2027-loveland-z7r9jz1aa791k | tommy-emmanuel | verify (applied) | 18704552 | https://seatgeek.com/tommy-emmanuel-tickets/loveland-colorado-rialto-theater-center-2027-02-25-7-30-pm/concert/18704552 | - |
@@ -175,6 +34,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-yacht-rock-revue-2027-athens-z7r9jz1aa7oam | yacht-rock-revue | verify (applied) | 18686093 | https://seatgeek.com/yacht-rock-revue-tickets/athens-georgia-georgia-theatre-2027-02-26-8-pm/concert/18686093 | - |
 | tm-yacht-rock-revue-2027-atlanta-z7r9jz1aa7oau | yacht-rock-revue | verify (applied) | 18687365 | https://seatgeek.com/yacht-rock-revue-tickets/atlanta-georgia-the-eastern-atlanta-2027-02-27-8-pm/concert/18687365 | - |
 | tm-michelle-branch-2027-nashville-z7r9jz1aazma_ | michelle-branch | verify (applied) | 18508824 | https://seatgeek.com/michelle-branch-tickets/nashville-tennessee-ryman-auditorium-2027-02-27-8-pm/concert/18508824 | - |
+| tm-los-tigres-del-norte-2027-denver-z7r9jz1aaaz8e | los-tigres-del-norte | verify (applied) | 18747096 | https://seatgeek.com/los-tigres-del-norte-tickets/denver-colorado-bellco-theatre-2027-02-27-8-pm/concert/18747096 | - |
 | tm-blue-october-2027-portland-z7r9jz1a70_-u | blue-october | verify (applied) | 18704137 | https://seatgeek.com/blue-october-tickets/portland-oregon-roseland-theater-2027-02-27-8-pm/concert/18704137 | - |
 | tm-valley-2027-portland-z7r9jz1aavzfs | valley | verify (applied) | 18670132 | https://seatgeek.com/valley-tickets/portland-oregon-wonder-ballroom-2027-02-27-8-pm/concert/18670132 | - |
 | tm-michelle-branch-2027-nashville-z7r9jz1aazyfg | michelle-branch | verify (applied) | 18517279 | https://seatgeek.com/michelle-branch-tickets/nashville-tennessee-ryman-auditorium-2027-02-28-8-pm/concert/18517279 | - |
@@ -184,10 +44,12 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-greta-van-fleet-2027-cleveland-z7r9jz1aae44m | greta-van-fleet | verify (applied) | 18611175 | https://seatgeek.com/greta-van-fleet-tickets/cleveland-ohio-rocket-arena-2027-03-03-7-pm/concert/18611175 | - |
 | tm-daughtry-2027-charlottesville-z7r9jz1aae83f | daughtry | verify (applied) | 18632936 | https://seatgeek.com/daughtry-tickets/charlottesville-virginia-paramount-theater-charlottesville-2027-03-03-7-pm/concert/18632936 | - |
 | tm-alan-walker-2027-seattle-z7r9jz1aavt4a | alan-walker | verify (applied) | 18595143 | https://seatgeek.com/alan-walker-tickets/seattle-washington-showbox-sodo-2027-03-03-8-pm/concert/18595143 | - |
+| tm-michelle-branch-2027-tulsa-z7r9jz1aa7vv3 | michelle-branch | verify (applied) | 18517280 | https://seatgeek.com/michelle-branch-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-04-7-pm/concert/18517280 | - |
 | tm-dinosaur-jr-2027-minneapolis-z7r9jz1aav8op | dinosaur-jr | verify (applied) | 18540453 | https://seatgeek.com/dinosaur-jr-tickets/minneapolis-minnesota-first-avenue-minneapolis-2027-03-04-8-pm/concert/18540453 | - |
 | tm-sylvan-esso-2027-salt-lake-city-z7r9jz1a7pxjk | sylvan-esso | verify (applied) | 18299176 | https://seatgeek.com/sylvan-esso-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-04-8-pm/concert/18299176 | - |
 | tm-alan-walker-2027-portland-z7r9jz1aavt48 | alan-walker | verify (applied) | 18595145 | https://seatgeek.com/alan-walker-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-03-04-8-pm/concert/18595145 | - |
 | tm-theory-of-a-deadman-2027-halifax-z7r9jz1aav0ak | theory-of-a-deadman | verify (applied) | 18570534 | https://seatgeek.com/theory-of-a-deadman-tickets/halifax-canada-light-house-arts-centre-2027-03-05-8-pm/concert/18570534 | - |
+| tm-meshuggah-2027-new-haven-z7r9jz1aa7t0i | meshuggah | verify (applied) | 18724663 | https://seatgeek.com/meshuggah-tickets/new-haven-connecticut-college-street-music-hall-2027-03-05-7-pm/concert/18724663 | - |
 | tm-michelle-branch-2027-tulsa-z7r9jz1aazuoa | michelle-branch | verify (applied) | 18508826 | https://seatgeek.com/michelle-branch-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-05-7-30-pm/concert/18508826 | - |
 | tm-pink-martini-2027-colorado-springs-z7r9jz1aaztzk | pink-martini | verify (applied) | 18660140 | https://seatgeek.com/pink-martini-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-05-7-30-pm/concert/18660140 | - |
 | tm-blue-october-2027-salt-lake-city-z7r9jz1a70te4 | blue-october | verify (applied) | 18717561 | https://seatgeek.com/blue-october-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-05-8-pm/concert/18717561 | - |
@@ -216,8 +78,10 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-blondshell-2027-chicago-z7r9jz1a70ubv | blondshell | verify (applied) | 18251049 | https://seatgeek.com/blondshell-tickets/chicago-illinois-vic-theatre-chicago-2027-03-12-8-pm/concert/18251049 | - |
 | tm-fantasia-2027-houston-z7r9jz1aa74o6 | fantasia | verify (applied) | 18643133 | https://seatgeek.com/fantasia-tickets/houston-texas-toyota-center-2027-03-12-8-pm/concert/18643133 | - |
 | tm-chelsea-cutler-2027-seattle-z7r9jz1aae_g9 | chelsea-cutler | verify (applied) | 18639214 | https://seatgeek.com/chelsea-cutler-tickets/seattle-washington-showbox-sodo-2027-03-12-7-pm/concert/18639214 | - |
+| tm-mercyme-2027-chattanooga-z7r9jz1aa7_af | mercyme | verify (applied) | 18692230 | https://seatgeek.com/mercyme-tickets/chattanooga-tennessee-mckenzie-arena-2027-03-13-7-pm/concert/18692230 | - |
 | tm-tobymac-2027-lubbock-z7r9jz1aav8o_ | tobymac | verify (applied) | 18548874 | https://seatgeek.com/tobymac-tickets/lubbock-texas-united-supermarkets-arena-2027-03-13-7-pm/concert/18548874 | - |
 | tm-morat-2027-sugar-land-z7r9jz1a70iu- | morat | verify (applied) | 18259793 | https://seatgeek.com/morat-tickets/sugar-land-texas-smart-financial-centre-2027-03-13-8-pm/concert/18259793 | - |
+| tm-zach-top-2027-thackerville-z7r9jz1aaaeap | zach-top | verify (applied) | 18592206 | https://seatgeek.com/zach-top-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2027-03-13-8-pm/concert/18592206 | - |
 | tm-chelsea-cutler-2027-portland-z7r9jz1aae_gb | chelsea-cutler | verify (applied) | 18639215 | https://seatgeek.com/chelsea-cutler-tickets/portland-oregon-roseland-theater-2027-03-13-7-pm/concert/18639215 | - |
 | tm-vnv-nation-2027-atlanta-z7r9jz1a7jvoo | vnv-nation | verify (applied) | 17912521 | https://seatgeek.com/vnv-nation-tickets/atlanta-georgia-variety-playhouse-2027-03-14-8-pm/concert/17912521 | - |
 | tm-death-cab-for-cutie-2027-atlanta-z7r9jz1aavufx | death-cab-for-cutie | verify (applied) | 18604670 | https://seatgeek.com/death-cab-for-cutie-tickets/atlanta-georgia-the-eastern-atlanta-2027-03-14-8-pm/concert/18604670 | - |
@@ -242,6 +106,9 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-cece-winans-2027-nashville-z7r9jz1aaebzs | cece-winans | verify (applied) | 18237649 | https://seatgeek.com/cece-winans-tickets/nashville-tennessee-grand-ole-opry-house-2027-03-21-7-30-pm/concert/18237649 | - |
 | tm-blondshell-2027-brooklyn-z7r9jz1a70gjw | blondshell | verify (applied) | 18251059 | https://seatgeek.com/blondshell-tickets/brooklyn-new-york-brooklyn-steel-2027-03-22-8-pm/concert/18251059 | - |
 | tm-theory-of-a-deadman-2027-regina-z7r9jz1aavxpg | theory-of-a-deadman | verify (applied) | 18570554 | https://seatgeek.com/theory-of-a-deadman-tickets/regina-canada-conexus-arts-centre-2027-03-22-8-pm/concert/18570554 | - |
+| tm-death-cab-for-cutie-2027-austin-z7r9jz1aa7sc6 | death-cab-for-cutie | verify (applied) | 18715563 | https://seatgeek.com/death-cab-for-cutie-tickets/austin-texas-united-heritage-hall-2027-03-23-7-pm/concert/18715563 | - |
+| tm-los-tigres-del-norte-2027-montreal-z7r9jz1aa7zf8 | los-tigres-del-norte | verify (applied) | 18747973 | https://seatgeek.com/los-tigres-del-norte-tickets/montreal-canada-place-des-arts-2027-04-01-8-pm/concert/18747973 | - |
+| tm-mercyme-2027-salisbury-z7r9jz1aa7_aj | mercyme | verify (applied) | 18692251 | https://seatgeek.com/mercyme-tickets/salisbury-maryland-wicomico-civic-center-2027-04-03-7-pm/concert/18692251 | - |
 | tm-lola-young-2027-nashville-z7r9jz1aaebv0 | lola-young | verify (applied) | 18649730 | https://seatgeek.com/lola-young-tickets/nashville-tennessee-the-pinnacle-nashville-2027-04-06-8-pm/concert/18649730 | - |
 | tm-the-psychedelic-furs-2027-tallahassee-z7r9jz1aavsop | the-psychedelic-furs | verify (applied) | 18592691 | https://seatgeek.com/the-psychedelic-furs-tickets/tallahassee-florida-the-moon-2027-04-07-7-30-pm/concert/18592691 | - |
 | tm-foy-vance-2027-atlanta-z7r9jz1a7--ka | foy-vance | verify (applied) | 18085786 | https://seatgeek.com/foy-vance-tickets/atlanta-georgia-variety-playhouse-2027-04-08-7-pm/concert/18085786 | - |
@@ -253,6 +120,8 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-luke-combs-2027-minneapolis-z7r9jz1aazgx6 | luke-combs | verify (applied) | 18493422 | https://seatgeek.com/luke-combs-tickets/minneapolis-minnesota-u-s-bank-stadium-2027-04-10-5-45-pm/concert/18493422 | - |
 | tm-harry-styles-2027-arlington-z7r9jz1aavp4p | harry-styles | verify (applied) | 18577780 | https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-10-7-45-pm/concert/18577780 | - |
 | tm-warren-zeiders-2027-helotes-z7r9jz1aaeb7v | warren-zeiders | verify (applied) | 18649752 | https://seatgeek.com/warren-zeiders-tickets/helotes-texas-john-t-floore-country-store-2027-04-10-7-pm/concert/18649752 | - |
+| tm-los-tigres-del-norte-2027-los-angeles-z7r9jz1aa7mao | los-tigres-del-norte | verify (applied) | 18739614 | https://seatgeek.com/los-tigres-del-norte-tickets/los-angeles-california-crypto-com-arena-2027-04-10-8-pm/concert/18739614 | - |
+| tm-mercyme-2027-johnson-city-z7r9jz1aa7mot | mercyme | verify (applied) | 18692262 | https://seatgeek.com/mercyme-tickets/johnson-city-tennessee-freedom-hall-civic-center-2027-04-11-7-pm/concert/18692262 | - |
 | tm-niall-horan-2027-hartford-z7r9jz1a709uz | niall-horan | verify (applied) | 18235537 | https://seatgeek.com/niall-horan-tickets/hartford-connecticut-peoplesbank-arena-2027-04-13-7-30-pm/concert/18235537 | - |
 | tm-lola-young-2027-boston-z7r9jz1aaebvp | lola-young | verify (applied) | 18649732 | https://seatgeek.com/lola-young-tickets/boston-massachusetts-roadrunner-boston-2027-04-13-8-pm/concert/18649732 | - |
 | tm-earth-wind-fire-2027-saint-augustine-z7r9jz1aaeb-p | earth-wind-fire | verify (applied) | 18664856 | https://seatgeek.com/earth-wind-fire-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-14-7-30-pm/concert/18664856 | - |
@@ -264,9 +133,11 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-meshuggah-2027-vancouver-z7r9jz1aa7tay | meshuggah | verify (applied) | 18724665 | https://seatgeek.com/meshuggah-tickets/vancouver-canada-pne-forum-vancouver-2027-04-15-7-pm/concert/18724665 | - |
 | tm-staind-2027-cleveland-z7r9jz1aae_q- | staind | verify (applied) | 18589059 | https://seatgeek.com/staind-tickets/cleveland-ohio-rocket-arena-2027-04-16-6-pm/concert/18589059 | - |
 | tm-warren-zeiders-2027-louisville-z7r9jz1aaeb7g | warren-zeiders | verify (applied) | 18649753 | https://seatgeek.com/warren-zeiders-tickets/louisville-kentucky-old-forester-s-paristown-hall-2027-04-16-7-pm/concert/18649753 | - |
+| tm-mat-kearney-2027-durham-z7r9jz1aa7tga | mat-kearney | verify (applied) | 18725770 | https://seatgeek.com/mat-kearney-tickets/durham-north-carolina-carolina-theatre-durham-2027-04-16-7-30-pm/concert/18725770 | - |
 | tm-lola-young-2027-toronto-z7r9jz1aaebvn | lola-young | verify (applied) | 18649736 | https://seatgeek.com/lola-young-tickets/toronto-canada-massey-hall-2027-04-16-8-pm/concert/18649736 | - |
 | tm-harry-styles-2027-arlington-z7r9jz1aavsoa | harry-styles | verify (applied) | 18584157 | https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-16-7-45-pm/concert/18584157 | - |
 | tm-nickelback-2027-las-vegas-z7r9jz1aa7746 | nickelback | verify (applied) | 18664612 | https://seatgeek.com/nickelback-tickets/las-vegas-nevada-t-mobile-arena-2027-04-16-6-30-pm/concert/18664612 | - |
+| tm-los-tigres-del-norte-2027-hartford-z7r9jz1aaaz18 | los-tigres-del-norte | verify (applied) | 18747975 | https://seatgeek.com/los-tigres-del-norte-tickets/hartford-connecticut-peoplesbank-arena-2027-04-17-8-30-pm/concert/18747975 | - |
 | tm-harry-styles-2027-arlington-z7r9jz1aavw00 | harry-styles | verify (applied) | 18584160 | https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-17-7-45-pm/concert/18584160 | - |
 | tm-the-warning-2027-las-vegas-z7r9jz1aavtgx | the-warning | verify (applied) | 18590177 | https://seatgeek.com/the-warning-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2027-04-17-8-pm/concert/18590177 | - |
 | tm-carly-rae-jepsen-2027-portland-z7r9jz1aaekuy | carly-rae-jepsen | verify (applied) | 18639014 | https://seatgeek.com/carly-rae-jepsen-tickets/portland-oregon-arlene-schnitzer-concert-hall-2027-04-19-7-30-pm/concert/18639014 | - |
@@ -372,6 +243,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-the-red-clay-strays-2027-green-bay-z7r9jz1aaef4y | the-red-clay-strays | verify (applied) | 18639102 | https://seatgeek.com/the-red-clay-strays-tickets/green-bay-wisconsin-resch-center-2027-08-05-7-pm/concert/18639102 | - |
 | tm-sienna-spiro-2027-nashville-z7r9jz1aa7bjy | sienna-spiro | verify (applied) | 18702009 | https://seatgeek.com/sienna-spiro-tickets/nashville-tennessee-grand-ole-opry-house-2027-08-08-7-pm/concert/18702009 | - |
 | tm-sienna-spiro-2027-atlanta-z7r9jz1aa7oab | sienna-spiro | verify (applied) | 18702010 | https://seatgeek.com/sienna-spiro-tickets/atlanta-georgia-fox-theatre-atlanta-2027-08-10-7-pm/concert/18702010 | - |
+| tm-mat-kearney-2027-austin-z7r9jz1aa7t0p | mat-kearney | verify (applied) | 18747385 | https://seatgeek.com/mat-kearney-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-08-13-8-pm/concert/18747385 | - |
 | tm-the-red-clay-strays-2027-fresno-z7r9jz1aaefgo | the-red-clay-strays | verify (applied) | 18639106 | https://seatgeek.com/the-red-clay-strays-tickets/fresno-california-save-mart-center-2027-08-13-7-pm/concert/18639106 | - |
 | tm-leon-bridges-2027-vancouver-z7r9jz1aa7dr6 | leon-bridges | verify (applied) | 18662715 | https://seatgeek.com/leon-bridges-tickets/vancouver-canada-freedom-mobile-arch-2027-08-14-7-pm/concert/18662715 | - |
 | tm-the-red-clay-strays-2027-los-angeles-z7r9jz1aaek0t | the-red-clay-strays | verify (applied) | 18639108 | https://seatgeek.com/the-red-clay-strays-tickets/los-angeles-california-the-greek-theatre-los-angeles-2027-08-17-7-pm/concert/18639108 | - |
@@ -389,40 +261,152 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-hilary-duff-2027-sunrise-z7r9jz1aaeve7 | hilary-duff | verify (applied) | 18604684 | https://seatgeek.com/hilary-duff-tickets/sunrise-florida-amerant-bank-arena-2027-10-01-7-30-pm/concert/18604684 | - |
 | tm-fontaines-d-c-2027-nashville-z7r9jz1aa7vxe | fontaines-d-c | verify (applied) | 18658902 | https://seatgeek.com/fontaines-d-c-tickets/nashville-tennessee-the-pinnacle-nashville-2027-10-04-8-pm/concert/18658902 | - |
 | tm-fontaines-d-c-2027-nashville-z7r9jz1aaepkf | fontaines-d-c | verify (applied) | 18642844 | https://seatgeek.com/fontaines-d-c-tickets/nashville-tennessee-the-pinnacle-nashville-2027-10-05-8-pm/concert/18642844 | - |
+| tm-fontaines-d-c-2027-asheville-z7r9jz1aae84b | fontaines-d-c | verify (applied) | 18642845 | https://seatgeek.com/fontaines-d-c-tickets/asheville-north-carolina-hellbenders-by-the-orange-peel-2027-10-07-6-30-pm/concert/18642845 | - |
 | tm-hilary-duff-2027-cleveland-z7r9jz1aaevea | hilary-duff | verify (applied) | 18589799 | https://seatgeek.com/hilary-duff-tickets/cleveland-ohio-rocket-arena-2027-10-13-7-30-pm/concert/18589799 | - |
 | tm-eros-ramazzotti-2027-sugar-land-z7r9jz1a74uo8 | eros-ramazzotti | verify (applied) | 17491601 | https://seatgeek.com/eros-ramazzotti-tickets/sugar-land-texas-smart-financial-centre-2027-10-13-8-pm/concert/17491601 | - |
 | tm-fontaines-d-c-2027-morrison-z7r9jz1aaepka | fontaines-d-c | verify (applied) | 18642850 | https://seatgeek.com/fontaines-d-c-tickets/morrison-colorado-red-rocks-amphitheatre-2027-10-13-7-30-pm/concert/18642850 | - |
 | tm-hilary-duff-2027-des-moines-z7r9jz1aaevep | hilary-duff | verify (applied) | 18613415 | https://seatgeek.com/hilary-duff-tickets/des-moines-iowa-casey-s-center-2027-11-14-7-30-pm/concert/18613415 | - |
-| tm-gary-allan-2026-catoosa-z7r9jz1aaza0p | gary-allan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-tom-jones-2026-highland-z7r9jz1a7p6r4 | tom-jones | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-dinosaur-jr-2026-new-orleans-z7r9jz1a7pu-o | dinosaur-jr | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-gary-allan-2026-newkirk-z7r9jz1aavecf | gary-allan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-calvin-harris-2026-las-vegas-z7r9jz1aav9ui | calvin-harris | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-mercyme-2026-oklahoma-city-vvg1yz_13ofzsb | mercyme | verify (applied) | 18243417 | https://seatgeek.com/mercyme-tickets/oklahoma-city-oklahoma-paycom-center-2026-11-08-7-pm/concert/18243417 | - |
+| tm-victoria-monet-2026-tampa-vvg1vz_3nvhqgr | victoria-monet | verify (applied) | 18579763 | https://seatgeek.com/victoria-monet-tickets/tampa-florida-yuengling-center-2026-11-08-8-pm/concert/18579763 | - |
+| tm-teddy-swims-2026-portland-vvg1hz_fbodkr9 | teddy-swims | verify (applied) | 18185172 | https://seatgeek.com/teddy-swims-tickets/portland-oregon-moda-center-2026-11-08-7-pm/concert/18185172 | - |
+| tm-don-omar-2026-phoenix-17k8v0g61tfaez1 | don-omar | verify (applied) | 18250876 | https://seatgeek.com/don-omar-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-08-8-pm/concert/18250876 | - |
+| tm-santana-2026-las-vegas-17ayv0g6ck1cz73 | santana | verify (applied) | 18355781 | https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2026-11-08-7-pm/concert/18355781 | - |
 | tm-niall-horan-2026-dublin-z7r9jz1a7-mpd | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-my-chemical-romance-2026-singapore-z7r9jz1a7oup6 | my-chemical-romance | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-niall-horan-2026-dublin-z7r9jz1a7-m4y | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-sombr-2026-washington-1a4zk3vgkd85lni | sombr | verify (applied) | 18175602 | https://seatgeek.com/sombr-tickets/washington-district-of-columbia-capital-one-arena-2026-11-10-7-30-pm/concert/18175602 | - |
+| tm-journey-2026-boston-vvg17z_19ipadt | journey | verify (applied) | 18237118 | https://seatgeek.com/journey-tickets/boston-massachusetts-td-garden-2026-11-10-7-30-pm/concert/18237118 | - |
+| tm-jonas-brothers-2026-dallas-vvg1yz_8uftpd5 | jonas-brothers | verify (applied) | 18503900 | https://seatgeek.com/jonas-brothers-tickets/dallas-texas-american-airlines-center-2026-11-10-7-30-pm/concert/18503900 | - |
 | tm-missio-2026-salt-lake-city-z7r9jz1aazivp | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-katseye-2026-austin-g5diz_1lv8_jd | katseye | verify (applied) | 18240150 | https://seatgeek.com/katseye-tickets/austin-texas-moody-center-atx-2026-11-10-8-pm/concert/18240150 | - |
+| tm-teddy-swims-2026-san-francisco-g5vyz_fnhi2ez | teddy-swims | verify (applied) | 18185175 | https://seatgeek.com/teddy-swims-tickets/san-francisco-california-chase-center-2026-11-10-7-pm/concert/18185175 | - |
+| tm-beartooth-2026-boston-vvg17z_1njiezr | beartooth | verify (applied) | 18253043 | https://seatgeek.com/beartooth-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-11-11-6-30-pm/concert/18253043 | - |
+| tm-sting-2026-brooklyn-k7v17_a0ag7nwya | sting | verify (applied) | 18100163 | https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-11-7-pm/concert/18100163 | - |
+| tm-doja-cat-2026-miami-vvg1vzbs0fdfw5 | doja-cat | verify (applied) | 17769338 | https://seatgeek.com/doja-cat-tickets/miami-florida-kaseya-center-2026-11-11-7-30-pm/concert/17769338 | - |
+| tm-teddy-swims-2026-sacramento-g5vyz_fmsnbtg | teddy-swims | verify (applied) | 18185176 | https://seatgeek.com/teddy-swims-tickets/sacramento-california-golden-1-center-2026-11-11-7-pm/concert/18185176 | - |
+| tm-santana-2026-las-vegas-17ayv0g6ck18f79 | santana | verify (applied) | 18355779 | https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2026-11-11-7-pm/concert/18355779 | - |
+| tm-sting-2026-brooklyn-k7v17_a0ag7lcyc | sting | verify (applied) | 18100164 | https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-12-7-pm/concert/18100164 | - |
+| tm-santana-2026-las-vegas-17ayv0g6ck1oi7r | santana | verify (applied) | 18355783 | https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2026-11-12-7-pm/concert/18355783 | - |
+| tm-the-red-clay-strays-2026-atlanta-vvg1zz_7rkxyy- | the-red-clay-strays | verify (applied) | 18085601 | https://seatgeek.com/the-red-clay-strays-tickets/atlanta-georgia-state-farm-arena-1-2026-11-13-6-30-pm/concert/18085601 | - |
+| tm-blue-october-2026-boston-vv177z_kgkw31n77 | blue-october | verify (applied) | 18143448 | https://seatgeek.com/blue-october-tickets/boston-massachusetts-citizens-house-of-blues-boston-2026-11-13-7-pm/concert/18143448 | - |
+| tm-doja-cat-2026-tampa-vvg1vzbslmpvjz | doja-cat | verify (applied) | 17769340 | https://seatgeek.com/doja-cat-tickets/tampa-florida-benchmark-international-arena-2026-11-13-7-30-pm/concert/17769340 | - |
+| tm-jonas-brothers-2026-austin-g5diz_8vesk58 | jonas-brothers | verify (applied) | 18503902 | https://seatgeek.com/jonas-brothers-tickets/austin-texas-moody-center-atx-2026-11-13-7-30-pm/concert/18503902 | - |
+| tm-victoria-monet-2026-boston-vv1avzkfpgkdybxe- | victoria-monet | verify (applied) | 18579770 | https://seatgeek.com/victoria-monet-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-11-13-8-pm/concert/18579770 | - |
+| tm-sombr-2026-buffalo-k7v17_f0kg7ij1e | sombr | verify (applied) | 18175607 | https://seatgeek.com/sombr-tickets/buffalo-new-york-keybank-center-2026-11-14-7-pm/concert/18175607 | - |
+| tm-john-summit-2026-charlotte-g5evz_52qpkue | john-summit | verify (applied) | 18257253 | https://seatgeek.com/john-summit-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-11-14-7-pm/concert/18257253 | - |
+| tm-sting-2026-brooklyn-k7v17_a0ag7icyq | sting | verify (applied) | 18100162 | https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-14-7-pm/concert/18100162 | - |
+| tm-doja-cat-2026-orlando-1aefzbsgklnlnmt | doja-cat | verify (applied) | 17769341 | https://seatgeek.com/doja-cat-tickets/orlando-florida-kia-center-2026-11-14-7-30-pm/concert/17769341 | - |
+| tm-pentatonix-2026-milwaukee-vvg1jz_296mpvg | pentatonix | verify (applied) | 18427195 | https://seatgeek.com/pentatonix-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-14-7-pm/concert/18427195 | - |
+| tm-jonas-brothers-2026-san-antonio-g5diz_8uwwbjr | jonas-brothers | verify (applied) | 18503903 | https://seatgeek.com/jonas-brothers-tickets/san-antonio-texas-frost-bank-center-2026-11-14-7-30-pm/concert/18503903 | - |
+| tm-santana-2026-las-vegas-17ayv0g6ck13z7p | santana | verify (applied) | 18355777 | https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2026-11-14-7-pm/concert/18355777 | - |
+| tm-motionless-in-white-2026-albany-k7vgf_5wspmvj | motionless-in-white | verify (applied) | 18281908 | https://seatgeek.com/motionless-in-white-tickets/albany-new-york-mvp-arena-2026-11-15-6-30-pm/concert/18281908 | - |
+| tm-john-summit-2026-atlanta-vvg1zz_527ymui | john-summit | verify (applied) | 18257254 | https://seatgeek.com/john-summit-tickets/atlanta-georgia-state-farm-arena-1-2026-11-15-7-pm/concert/18257254 | - |
+| tm-sting-2026-brooklyn-k7v17_a0ag7twrb | sting | verify (applied) | 18100165 | https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-15-7-pm/concert/18100165 | - |
+| tm-victoria-monet-2026-detroit-vv1afzkfegkdcyvij | victoria-monet | verify (applied) | 18579772 | https://seatgeek.com/victoria-monet-tickets/detroit-michigan-fox-theatre-detroit-2026-11-15-7-30-pm/concert/18579772 | - |
+| tm-santana-2026-las-vegas-17ayv0g6ck1fb7i | santana | verify (applied) | 18355780 | https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2026-11-15-7-pm/concert/18355780 | - |
+| tm-pentatonix-2026-louisville-1apzkf7gker9zih | pentatonix | verify (applied) | 18427196 | https://seatgeek.com/pentatonix-tickets/louisville-kentucky-kfc-yum-center-2026-11-16-7-pm/concert/18427196 | - |
+| tm-teddy-swims-2026-phoenix-1av0z_fgkbna4b9 | teddy-swims | verify (applied) | 18185182 | https://seatgeek.com/teddy-swims-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-16-7-pm/concert/18185182 | - |
+| tm-sting-2026-brooklyn-k7v17_a0ag7tury | sting | verify (applied) | 18100167 | https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-17-7-pm/concert/18100167 | - |
+| tm-doja-cat-2026-atlanta-vvg1zzbsle3ugd | doja-cat | verify (applied) | 17769342 | https://seatgeek.com/doja-cat-tickets/atlanta-georgia-state-farm-arena-1-2026-11-17-7-30-pm/concert/17769342 | - |
+| tm-blue-october-2026-charlotte-g5evz_kng4bet | blue-october | verify (applied) | 18141165 | https://seatgeek.com/blue-october-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-11-17-8-pm/concert/18141165 | - |
 | tm-beabadoobee-2026-greenwich-z7r9jz1a7ps_a | beabadoobee | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-sombr-2026-boston-vv1avzk36gkdfnkex | sombr | verify (applied) | 18175608 | https://seatgeek.com/sombr-tickets/boston-massachusetts-td-garden-2026-11-18-7-pm/concert/18175608 | - |
+| tm-pentatonix-2026-buffalo-k7vgf_8kru5hf | pentatonix | verify (applied) | 18427203 | https://seatgeek.com/pentatonix-tickets/buffalo-new-york-keybank-center-2026-11-18-7-pm/concert/18427203 | - |
+| tm-sting-2026-brooklyn-k7v17_a0ag7iure | sting | verify (applied) | 18100166 | https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-18-7-pm/concert/18100166 | - |
+| tm-doja-cat-2026-charlotte-g5evzbsemdalv | doja-cat | verify (applied) | 17769343 | https://seatgeek.com/doja-cat-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-11-18-7-30-pm/concert/17769343 | - |
 | tm-sabaton-2026-loveland-z7r9jz1a7-ojz | sabaton | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-teddy-swims-2026-inglewood-vv170z_fgkmxw1os | teddy-swims | verify (applied) | 18185184 | https://seatgeek.com/teddy-swims-tickets/inglewood-california-kia-forum-2026-11-18-7-pm/concert/18185184 | - |
 | tm-missio-2026-detroit-z7r9jz1aaziv8 | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-sombr-2026-philadelphia-1kgzv0xbga5zeae | sombr | verify (applied) | 18175611 | https://seatgeek.com/sombr-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-19-7-30-pm/concert/18175611 | - |
+| tm-beartooth-2026-chicago-vvg18z_1nj0ag4 | beartooth | verify (applied) | 18253045 | https://seatgeek.com/beartooth-tickets/chicago-illinois-byline-bank-aragon-ballroom-2026-11-20-6-pm/concert/18253045 | - |
+| tm-sting-2026-brooklyn-k7v1ako_v_zaccg27 | sting | verify (applied) | 18626602 | https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-20-7-pm/concert/18626602 | - |
+| tm-john-summit-2026-miami-vvg1vz_51zozkr | john-summit | verify (applied) | 18257255 | https://seatgeek.com/john-summit-tickets/miami-florida-kaseya-center-2026-11-20-8-pm/concert/18257255 | - |
+| tm-journey-2026-dallas-vvg1yz_14w7vrn | journey | verify (applied) | 18237127 | https://seatgeek.com/journey-tickets/dallas-texas-american-airlines-center-2026-11-20-7-30-pm/concert/18237127 | - |
+| tm-sombr-2026-newark-vv1aezk3fgkdhlmuf | sombr | verify (applied) | 18175560 | https://seatgeek.com/sombr-tickets/newark-new-jersey-prudential-center-2026-11-21-7-pm/concert/18175560 | - |
+| tm-pentatonix-2026-pittsburgh-1apzkfdgkdrcd8b | pentatonix | verify (applied) | 18427204 | https://seatgeek.com/pentatonix-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-21-7-pm/concert/18427204 | - |
+| tm-sting-2026-brooklyn-k7v1ako_v_za5cgcc | sting | verify (applied) | 18626604 | https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-21-7-pm/concert/18626604 | - |
+| tm-doja-cat-2026-washington-1a4zkgygkdpgprp | doja-cat | verify (applied) | 17769348 | https://seatgeek.com/doja-cat-tickets/washington-district-of-columbia-capital-one-arena-2026-11-21-7-30-pm/concert/17769348 | - |
+| tm-john-summit-2026-miami-vvg1vz_5ctzbz1 | john-summit | verify (applied) | 18257261 | https://seatgeek.com/john-summit-tickets/miami-florida-kaseya-center-2026-11-21-8-pm/concert/18257261 | - |
+| tm-blue-october-2026-orlando-1aefz_kgknmxmnk | blue-october | verify (applied) | 18140980 | https://seatgeek.com/blue-october-tickets/orlando-florida-hard-rock-live-orlando-2026-11-21-8-pm/concert/18140980 | - |
 | tm-beartooth-2026-maplewood-z7r9jz1aava89 | beartooth | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-three-days-grace-2026-phoenix-1a_zku0gkemfp-f | three-days-grace | verify (applied) | 17895178 | https://seatgeek.com/three-days-grace-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2026-11-21-7-pm/concert/17895178 | - |
+| tm-jonas-brothers-2026-san-francisco-g5vyz_8sbxulz | jonas-brothers | verify (applied) | 18503911 | https://seatgeek.com/jonas-brothers-tickets/san-francisco-california-chase-center-2026-11-21-7-30-pm/concert/18503911 | - |
+| tm-tyla-2026-chicago-vvg18z_2o77qju | tyla | verify (applied) | 18404276 | https://seatgeek.com/tyla-tickets/chicago-illinois-byline-bank-aragon-ballroom-2026-11-22-6-30-pm/concert/18404276 | - |
 | tm-black-stone-cherry-2026-nashville-z7r9jz1aaeapk | black-stone-cherry | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-three-days-grace-2026-inglewood-vv1aazkupgkerzcmz | three-days-grace | verify (applied) | 17895177 | https://seatgeek.com/three-days-grace-tickets/inglewood-california-intuit-dome-2026-11-22-7-pm/concert/17895177 | - |
+| tm-jonas-brothers-2026-sacramento-g5vyz_8sde9yz | jonas-brothers | verify (applied) | 18503910 | https://seatgeek.com/jonas-brothers-tickets/sacramento-california-golden-1-center-2026-11-22-7-30-pm/concert/18503910 | - |
+| tm-sombr-2026-new-york-g5diz_flfogz- | sombr | verify (applied) | 18175563 | https://seatgeek.com/sombr-tickets/new-york-new-york-madison-square-garden-2026-11-23-7-pm/concert/18175563 | - |
+| tm-doja-cat-2026-boston-vv1f7zbs09vyzd227 | doja-cat | verify (applied) | 17769352 | https://seatgeek.com/doja-cat-tickets/boston-massachusetts-td-garden-2026-11-23-7-30-pm/concert/17769352 | - |
 | tm-latto-2026-boston-z7r9jz1aae_7z | latto | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-sombr-2026-new-york-g5diz_flffpzi | sombr | verify (applied) | 18176743 | https://seatgeek.com/sombr-tickets/new-york-new-york-madison-square-garden-2026-11-24-7-pm/concert/18176743 | - |
+| tm-john-summit-2026-chicago-vvg18z_52-bljx | john-summit | verify (applied) | 18257260 | https://seatgeek.com/john-summit-tickets/chicago-illinois-united-center-2026-11-24-7-pm/concert/18257260 | - |
+| tm-sting-2026-orlando-1aefz_fgklnyeh_ | sting | verify (applied) | 17898563 | https://seatgeek.com/sting-tickets/orlando-florida-hard-rock-live-orlando-2026-11-24-8-pm/concert/17898563 | - |
+| tm-journey-2026-anaheim-vvg10z_1q4chn3 | journey | verify (applied) | 18237129 | https://seatgeek.com/journey-tickets/anaheim-california-honda-center-2026-11-24-7-30-pm/concert/18237129 | - |
+| tm-tyla-2026-boston-vvg17z_2pblciw | tyla | verify (applied) | 18404277 | https://seatgeek.com/tyla-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-11-25-8-pm/concert/18404277 | - |
+| tm-sting-2026-hollywood-vvg1vz_8wi3ad6 | sting | verify (applied) | 18507833 | https://seatgeek.com/sting-tickets/hollywood-florida-hard-rock-live-hollywood-2026-11-25-8-pm/concert/18507833 | - |
+| tm-john-summit-2026-chicago-vvg18z_52-dlqv | john-summit | verify (applied) | 18257264 | https://seatgeek.com/john-summit-tickets/chicago-illinois-united-center-2026-11-25-7-pm/concert/18257264 | - |
+| tm-john-summit-2026-brooklyn-17gzv0g655ozaay | john-summit | verify (applied) | 18257237 | https://seatgeek.com/john-summit-tickets/brooklyn-new-york-barclays-center-2026-11-28-7-pm/concert/18257237 | - |
+| tm-tyla-2026-brooklyn-k7vgf_2xiqkw5 | tyla | verify (applied) | 18404284 | https://seatgeek.com/tyla-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-28-8-pm/concert/18404284 | - |
+| tm-blue-october-2026-irving-vvg1yz_68kdxnx | blue-october | verify (applied) | 18141903 | https://seatgeek.com/blue-october-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-28-8-pm/concert/18141903 | - |
+| tm-journey-2026-san-francisco-g5vyz_aeock9c | journey | verify (applied) | 18237132 | https://seatgeek.com/journey-tickets/san-francisco-california-chase-center-2026-11-28-7-30-pm/concert/18237132 | - |
+| tm-steve-lacy-2026-seattle-vvg1hz_8pk8e2l | steve-lacy | verify (applied) | 18485955 | https://seatgeek.com/steve-lacy-tickets/seattle-washington-wamu-theater-2026-11-28-7-pm/concert/18485955 | - |
+| tm-pentatonix-2026-albany-k7vgf_2br5dvf | pentatonix | verify (applied) | 18427206 | https://seatgeek.com/pentatonix-tickets/albany-new-york-mvp-arena-2026-11-29-7-pm/concert/18427206 | - |
+| tm-john-summit-2026-brooklyn-17gzv0g65ttxsbe | john-summit | verify (applied) | 18620964 | https://seatgeek.com/john-summit-tickets/brooklyn-new-york-barclays-center-2026-11-29-7-pm/concert/18620964 | - |
+| tm-doja-cat-2026-philadelphia-1adzzbsgkldzvua | doja-cat | verify (applied) | 17769353 | https://seatgeek.com/doja-cat-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-29-7-30-pm/concert/17769353 | - |
+| tm-tyla-2026-brooklyn-k7vgf_2xiquwo | tyla | verify (applied) | 18414938 | https://seatgeek.com/tyla-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-29-9-pm/concert/18414938 | - |
+| tm-doja-cat-2026-new-york-g5dizbsintkzt | doja-cat | verify (applied) | 17769298 | https://seatgeek.com/doja-cat-tickets/new-york-new-york-madison-square-garden-2026-12-01-7-30-pm/concert/17769298 | - |
+| tm-tyla-2026-washington-17a8v0g6267w7kc | tyla | verify (applied) | 18404285 | https://seatgeek.com/tyla-tickets/washington-district-of-columbia-the-anthem-dc-2026-12-02-7-30-pm/concert/18404285 | - |
+| tm-gracie-abrams-2026-denver-g5vzz_55eui2w | gracie-abrams | verify (applied) | 18270516 | https://seatgeek.com/gracie-abrams-tickets/denver-colorado-ball-arena-2026-12-02-8-pm/concert/18270516 | - |
+| tm-pentatonix-2026-baltimore-17a8v0g62urg9es | pentatonix | verify (applied) | 18427209 | https://seatgeek.com/pentatonix-tickets/baltimore-maryland-cfg-bank-arena-2026-12-03-7-pm/concert/18427209 | - |
 | tm-los-tucanes-de-tijuana-2026-austin-z7r9jz1aazgav | los-tucanes-de-tijuana | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-gracie-abrams-2026-denver-g5vzz_5lhxedg | gracie-abrams | verify (applied) | 18270512 | https://seatgeek.com/gracie-abrams-tickets/denver-colorado-ball-arena-2026-12-03-8-pm/concert/18270512 | - |
 | tm-tommy-emmanuel-2026-newberry-z7r9jz1aavs4z | tommy-emmanuel | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-trivium-2026-inglewood-vvg1iz_ceqwhij | trivium | verify (applied) | 18391972 | https://seatgeek.com/trivium-tickets/inglewood-california-youtube-theater-2026-12-04-6-35-pm/concert/18391972 | - |
+| tm-john-summit-2026-oakland-g5vyz_5chdjie | john-summit | verify (applied) | 18257267 | https://seatgeek.com/john-summit-tickets/oakland-california-oakland-arena-2026-12-04-7-pm/concert/18257267 | - |
 | tm-pink-martini-2026-redding-z7r9jz1a7ps3o | pink-martini | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-tyla-2026-tampa-vvg1vz_2xeqp5j | tyla | verify (applied) | 18404289 | https://seatgeek.com/tyla-tickets/tampa-florida-yuengling-center-2026-12-05-8-pm/concert/18404289 | - |
+| tm-john-summit-2026-oakland-g5vyz_5925f5n | john-summit | verify (applied) | 18274896 | https://seatgeek.com/john-summit-tickets/oakland-california-oakland-arena-2026-12-05-7-pm/concert/18274896 | - |
 | tm-los-tucanes-de-tijuana-2026-catoosa-z7r9jz1aaef8- | los-tucanes-de-tijuana | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-tyla-2026-atlanta-vvg1zz_2xnv9ge | tyla | verify (applied) | 18404290 | https://seatgeek.com/tyla-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-12-06-8-pm/concert/18404290 | - |
 | tm-blue-october-2026-oklahoma-city-z7r9jz1a7-v0b | blue-october | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-gracie-abrams-2026-oakland-g5vyz_1udxfhx | gracie-abrams | verify (applied) | 18270513 | https://seatgeek.com/gracie-abrams-tickets/oakland-california-oakland-arena-2026-12-06-8-pm/concert/18270513 | - |
+| tm-gracie-abrams-2026-oakland-g5vyz_5mq0w7n | gracie-abrams | verify (applied) | 18270514 | https://seatgeek.com/gracie-abrams-tickets/oakland-california-oakland-arena-2026-12-07-8-pm/concert/18270514 | - |
+| tm-pentatonix-2026-nashville-g5viz_8pdi7wi | pentatonix | verify (applied) | 18427219 | https://seatgeek.com/pentatonix-tickets/nashville-tennessee-bridgestone-arena-2026-12-09-7-pm/concert/18427219 | - |
+| tm-tyla-2026-irving-vvg1yz_2hhoqxx | tyla | verify (applied) | 18404288 | https://seatgeek.com/tyla-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-12-09-8-pm/concert/18404288 | - |
+| tm-gracie-abrams-2026-glendale-17k8v0g652smnjw | gracie-abrams | verify (applied) | 18270517 | https://seatgeek.com/gracie-abrams-tickets/glendale-arizona-desert-diamond-arena-2026-12-09-8-pm/concert/18270517 | - |
+| tm-pentatonix-2026-atlanta-vvg1zz_8pzyi3r | pentatonix | verify (applied) | 18427220 | https://seatgeek.com/pentatonix-tickets/atlanta-georgia-state-farm-arena-1-2026-12-10-7-pm/concert/18427220 | - |
+| tm-beartooth-2026-dallas-vvg1yz_1mmkrmi | beartooth | verify (applied) | 18253067 | https://seatgeek.com/beartooth-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2026-12-10-6-30-pm/concert/18253067 | - |
+| tm-andrea-bocelli-2026-boston-vv1k7z_dz6g7ymm- | andrea-bocelli | verify (applied) | 18039180 | https://seatgeek.com/andrea-bocelli-tickets/boston-massachusetts-td-garden-2026-12-10-8-pm/concert/18039180 | - |
+| tm-tyla-2026-houston-g5diz_2qrewdk | tyla | verify (applied) | 18404291 | https://seatgeek.com/tyla-tickets/houston-texas-713-music-hall-2026-12-10-8-pm/concert/18404291 | - |
+| tm-gracie-abrams-2026-glendale-17k8v0g65839wds | gracie-abrams | verify (applied) | 18270515 | https://seatgeek.com/gracie-abrams-tickets/glendale-arizona-desert-diamond-arena-2026-12-10-8-pm/concert/18270515 | - |
 | tm-missio-2026-portland-z7r9jz1aazivo | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-sabaton-2026-orlando-16efz_afzg7dbn1 | sabaton | verify (applied) | 18107974 | https://seatgeek.com/sabaton-tickets/orlando-florida-hard-rock-live-orlando-2026-12-11-7-pm/concert/18107974 | - |
+| tm-andrea-bocelli-2026-buffalo-k7vgf_dlhwxlk | andrea-bocelli | verify (applied) | 18039185 | https://seatgeek.com/andrea-bocelli-tickets/buffalo-new-york-keybank-center-2026-12-11-8-pm/concert/18039185 | - |
+| tm-tyla-2026-austin-g5diz_2xjh2vb | tyla | verify (applied) | 18404296 | https://seatgeek.com/tyla-tickets/austin-texas-moody-center-atx-2026-12-11-8-pm/concert/18404296 | - |
 | tm-missio-2026-seattle-z7r9jz1aaziv3 | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-billy-strings-2026-austin-g5diz_ub5bart | billy-strings | verify (applied) | 18353604 | https://seatgeek.com/billy-strings-tickets/austin-texas-moody-center-atx-2026-12-12-7-30-pm/concert/18353604 | - |
+| tm-pink-martini-2026-brooklyn-k7vgf_u53h-yh | pink-martini | verify (applied) | 18326350 | https://seatgeek.com/pink-martini-tickets/brooklyn-new-york-brooklyn-paramount-2026-12-13-7-pm/concert/18326350 | - |
+| tm-lord-huron-2026-boston-vvg17z_2wsvfp- | lord-huron | verify (applied) | 18421970 | https://seatgeek.com/lord-huron-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-12-13-8-pm/concert/18421970 | - |
 | tm-missio-2026-spokane-z7r9jz1aazivk | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-pink-martini-2026-philadelphia-z7r9jz1a70ppv | pink-martini | clear (applied) | - | - | stored URL failed: venue mismatch: 'Marian Anderson Hall - Kimmel Center' vs 'Kimmel Center - Miller Theater'; no qualifying replacement found |
+| tm-pink-martini-2026-philadelphia-z7r9jz1a70ppv | pink-martini | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-tyla-2026-phoenix-17k8v0g62ljff-n | tyla | verify (applied) | 18404297 | https://seatgeek.com/tyla-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-14-8-pm/concert/18404297 | - |
+| tm-gracie-abrams-2026-inglewood-vvg10z_53kkqpx | gracie-abrams | verify (applied) | 18270525 | https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-14-8-pm/concert/18270525 | - |
+| tm-victoria-monet-2026-seattle-vvg1hz_31fteps | victoria-monet | verify (applied) | 18579793 | https://seatgeek.com/victoria-monet-tickets/seattle-washington-wamu-theater-2026-12-14-8-pm/concert/18579793 | - |
+| tm-pentatonix-2026-austin-g5diz_8kmjslp | pentatonix | verify (applied) | 18427227 | https://seatgeek.com/pentatonix-tickets/austin-texas-moody-center-atx-2026-12-15-7-pm/concert/18427227 | - |
+| tm-lord-huron-2026-montreal-17g8v0g62wrdz3v | lord-huron | verify (applied) | 18421973 | https://seatgeek.com/lord-huron-tickets/montreal-canada-mtelus-2026-12-15-8-pm/concert/18421973 | - |
 | tm-missio-2026-boise-z7r9jz1aazivf | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-dom-dolla-2027-miami-z7r9jz1aaavbz | dom-dolla | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-yacht-rock-revue-2027-huntington-k7vgf_31y4afw | yacht-rock-revue | clear (applied) | - | - | stored URL failed: venue mismatch: 'The Paramount in concert with Northwell' vs 'The Paramount - Huntington'; no qualifying replacement found |
+| tm-andrea-bocelli-2026-new-york-g5diz_drrs_4p | andrea-bocelli | verify (applied) | 18039165 | https://seatgeek.com/andrea-bocelli-tickets/new-york-new-york-madison-square-garden-2026-12-16-8-pm/concert/18039165 | - |
+| tm-lord-huron-2026-montreal-17g8v0g62wr7i3a | lord-huron | verify (applied) | 18421974 | https://seatgeek.com/lord-huron-tickets/montreal-canada-mtelus-2026-12-16-8-pm/concert/18421974 | - |
+| tm-tyla-2026-inglewood-vvg1iz_cjqejmf | tyla | verify (applied) | 18404301 | https://seatgeek.com/tyla-tickets/inglewood-california-youtube-theater-2026-12-16-8-pm/concert/18404301 | - |
+| tm-victoria-monet-2026-san-francisco-g5vyz_320sgvq | victoria-monet | verify (applied) | 18579810 | https://seatgeek.com/victoria-monet-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-12-17-8-pm/concert/18579810 | - |
+| tm-alex-warren-2026-las-vegas-1ayzkftgkdvnpgb | alex-warren | verify (applied) | 18590187 | https://seatgeek.com/alex-warren-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2026-12-30-8-pm/concert/18590187 | - |
+| tm-dom-dolla-2027-miami-z7r9jz1aaavbz | dom-dolla | add (applied) | 18750432 | https://seatgeek.com/dom-dolla-tickets/miami-florida-factory-town-2026-12-31-10-pm/concert/18750432 | - |
+| tm-alex-warren-2027-las-vegas-1ayzkftgkdvipgh | alex-warren | verify (applied) | 18590188 | https://seatgeek.com/alex-warren-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2026-12-31-8-pm/concert/18590188 | - |
+| tm-lord-huron-2027-sacramento-g5vyz_2wpd5xx | lord-huron | verify (applied) | 18421983 | https://seatgeek.com/lord-huron-tickets/sacramento-channel-24-sacramento-2027-01-01-8-pm/concert/18421983 | - |
 | tm-koe-wetzel-2027-rohnert-park-z7r9jz1aa7zjf | koe-wetzel | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-yacht-rock-revue-2027-huntington-k7vgf_31ykyfq | yacht-rock-revue | clear (applied) | - | - | stored URL failed: venue mismatch: 'The Paramount in concert with Northwell' vs 'The Paramount - Huntington'; no qualifying replacement found |
-| tm-yacht-rock-revue-2027-huntington-k7vgf_31y3tkt | yacht-rock-revue | clear (applied) | - | - | stored URL failed: venue mismatch: 'The Paramount in concert with Northwell' vs 'The Paramount - Huntington'; no qualifying replacement found |
 | tm-missio-2027-chicago-z7r9jz1aazivb | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-cudahy-z7r9jz1aaziv_ | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-minneapolis-z7r9jz1aazivo | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -430,9 +414,8 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-atmosphere-2027-grand-junction-z7r9jz1aaezfe | atmosphere | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-air-supply-2027-daytona-beach-z7r9jz1a7pozg | air-supply | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-simple-plan-2027-victoria-z7r9jz1aae__3 | simple-plan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-chelsea-cutler-2027-saint-petersburg-z7r9jz1aae_gk | chelsea-cutler | clear (applied) | - | - | stored URL failed: event instants differ by -15.5h (tolerance ±3h) — likely a different night; no qualifying replacement found |
-| tm-tommy-emmanuel-2027-grand-rapids-z7r9jz1aavspe | tommy-emmanuel | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-koe-wetzel-2027-durant-vvg1yz_4wsdj6f | koe-wetzel | verify (applied) | 18738802 | https://seatgeek.com/koe-wetzel-tickets/durant-oklahoma-choctaw-grand-theater-2027-01-29-7-30-pm/concert/18738802 | - |
+| tm-chelsea-cutler-2027-saint-petersburg-z7r9jz1aae_gk | chelsea-cutler | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-tommy-emmanuel-2027-grand-rapids-z7r9jz1aavspe | tommy-emmanuel | add (applied) | 18749653 | https://seatgeek.com/tommy-emmanuel-tickets/grand-rapids-michigan-st-cecilia-music-center-2027-01-29-7-30-pm/concert/18749653 | - |
 | tm-chelsea-cutler-2027-atlanta-z7r9jz1aae_gf | chelsea-cutler | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-tommy-emmanuel-2027-rochester-z7r9jz1aavsp7 | tommy-emmanuel | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-tommy-emmanuel-2027-albany-z7r9jz1aavspa | tommy-emmanuel | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -440,219 +423,82 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-tommy-emmanuel-2027-derry-z7r9jz1aavspk | tommy-emmanuel | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-tommy-emmanuel-2027-fairfield-z7r9jz1aavsp6 | tommy-emmanuel | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-mat-kearney-2027-kalispell-z7r9jz1aazpfi | mat-kearney | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-simple-plan-2027-kingston-1a8zk4vgkdbqsjy | simple-plan | verify (applied) | 18655727 | https://seatgeek.com/simple-plan-tickets/kingston-canada-slush-puppie-place-2027-02-09-7-pm/concert/18655727 | - |
 | tm-valley-2027-waterloo-z7r9jz1aavzft | valley | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-washington-z7r9jz1aaziv- | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-pink-martini-2027-cincinnati-z7r9jz1a7pp4b | pink-martini | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-brooklyn-z7r9jz1aazivx | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-los-tigres-del-norte-2027-oklahoma-city-vvg1yz_f5olqqc | los-tigres-del-norte | verify (applied) | 18738645 | https://seatgeek.com/los-tigres-del-norte-tickets/oklahoma-city-oklahoma-paycom-center-2027-02-12-8-pm/concert/18738645 | - |
-| tm-gary-allan-2027-thackerville-z7r9jz1aaaz4v | gary-allan | add (applied) | 18727084 | https://seatgeek.com/gary-allan-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2027-02-12-8-pm/concert/18727084 | - |
-| tm-los-tucanes-de-tijuana-2027-glendale-17k8v0g62nuo9-m | los-tucanes-de-tijuana | verify (applied) | 18405269 | https://seatgeek.com/los-tucanes-de-tijuana-tickets/glendale-arizona-desert-diamond-arena-2027-02-12-8-pm/concert/18405269 | - |
-| tm-marc-anthony-2027-las-vegas-1avjz_3gkmcrlvv | marc-anthony | verify (applied) | 18608820 | https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-12-9-pm/concert/18608820 | - |
 | tm-chelsea-cutler-2027-boston-z7r9jz1aaefp9 | chelsea-cutler | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5cu2t | boyz-ii-men | verify (applied) | 18687410 | https://seatgeek.com/boyz-ii-men-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2027-02-13-8-pm/concert/18687410 | - |
 | tm-dylan-scott-2026-milwaukee-z7r9jz1aavse9 | dylan-scott | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-air-supply-2027-rancho-mirage-vv1aazkffgkd9xjwx | air-supply | verify (applied) | 18533274 | https://seatgeek.com/air-supply-tickets/rancho-mirage-california-agua-caliente-casino-rancho-mirage-2027-02-13-8-pm/concert/18533274 | - |
-| tm-los-tucanes-de-tijuana-2027-inglewood-vvg10z_udzwaf3 | los-tucanes-de-tijuana | verify (applied) | 18354983 | https://seatgeek.com/los-tucanes-de-tijuana-tickets/inglewood-california-intuit-dome-2027-02-13-8-pm/concert/18354983 | - |
-| tm-marc-anthony-2027-las-vegas-1avjz_3gkmcslva | marc-anthony | verify (applied) | 18608822 | https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-13-9-pm/concert/18608822 | - |
-| tm-simple-plan-2027-moncton-1aszkfygkdcttvt | simple-plan | verify (applied) | 18656907 | https://seatgeek.com/simple-plan-tickets/moncton-canada-avenir-centre-2027-02-14-7-pm/concert/18656907 | - |
-| tm-simple-plan-2027-sydney-1aszk4agkex2k4f | simple-plan | verify (applied) | 18656127 | https://seatgeek.com/simple-plan-tickets/sydney-canada-centre-200-2027-02-15-7-pm/concert/18656127 | - |
 | tm-foreigner-2027-daytona-beach-z7r9jz1aaedca | foreigner | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-simple-plan-2027-halifax-1ad7z_kgkmojy7e | simple-plan | verify (applied) | 18655677 | https://seatgeek.com/simple-plan-tickets/halifax-canada-scotiabank-centre-2027-02-16-7-pm/concert/18655677 | - |
-| tm-breaking-benjamin-2027-cedar-rapids-vv1akzk49gkd1-vah | breaking-benjamin | verify (applied) | 18742671 | https://seatgeek.com/breaking-benjamin-tickets/cedar-rapids-iowa-alliant-energy-powerhouse-2027-02-16-6-30-pm/concert/18742671 | - |
-| tm-dropkick-murphys-2027-edmonton-1aozkfygkesdhkn | dropkick-murphys | verify (applied) | 18633539 | https://seatgeek.com/dropkick-murphys-tickets/edmonton-canada-edmonton-convention-centre-2027-02-16-7-pm/concert/18633539 | - |
-| tm-dropkick-murphys-2027-saskatoon-1aozkfmgke0_iup | dropkick-murphys | verify (applied) | 18633540 | https://seatgeek.com/dropkick-murphys-tickets/saskatoon-canada-sasktel-centre-2027-02-17-7-pm/concert/18633540 | - |
-| tm-marc-anthony-2027-las-vegas-1avjz_3gkmcslvq | marc-anthony | verify (applied) | 18608838 | https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-17-9-pm/concert/18608838 | - |
-| tm-breaking-benjamin-2027-kalamazoo-z7r9jz1aa7mr3 | breaking-benjamin | verify (applied) | 18742686 | https://seatgeek.com/breaking-benjamin-tickets/kalamazoo-michigan-wings-event-center-2027-02-18-6-30-pm/concert/18742686 | - |
 | tm-valley-2027-regina-z7r9jz1aavzfw | valley | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-air-supply-2027-abbotsford-1k78vp18gau9wma | air-supply | verify (applied) | 18593901 | https://seatgeek.com/air-supply-tickets/abbotsford-canada-rogers-forum-2027-02-18-7-30-pm/concert/18593901 | - |
-| tm-breaking-benjamin-2027-fort-wayne-vv1aazk4pgkde48xz | breaking-benjamin | verify (applied) | 18742688 | https://seatgeek.com/breaking-benjamin-tickets/fort-wayne-indiana-allen-county-war-memorial-coliseum-2027-02-19-6-30-pm/concert/18742688 | - |
 | tm-mico-2027-carrboro-z7r9jz1aa73ap | mico | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-marc-anthony-2027-las-vegas-1avjz_3gkmcglvg | marc-anthony | verify (applied) | 18608821 | https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-19-9-pm/concert/18608821 | - |
-| tm-breaking-benjamin-2027-evansville-vv1aazk49gkengkxe | breaking-benjamin | verify (applied) | 18742693 | https://seatgeek.com/breaking-benjamin-tickets/evansville-indiana-ford-center-in-2027-02-20-6-30-pm/concert/18742693 | - |
-| tm-los-tucanes-de-tijuana-2027-rosemont-vv1a7zkffgkdqp4jc | los-tucanes-de-tijuana | verify (applied) | 18472484 | https://seatgeek.com/los-tucanes-de-tijuana-tickets/rosemont-illinois-rosemont-theatre-2027-02-20-8-pm/concert/18472484 | - |
-| tm-marc-anthony-2027-las-vegas-1avjz_3gkmcmlvw | marc-anthony | verify (applied) | 18608827 | https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-20-9-pm/concert/18608827 | - |
-| tm-chelsea-cutler-2027-columbus-z7r9jz1aaef0s | chelsea-cutler | clear (applied) | - | - | stored URL failed: event instants differ by -16.5h (tolerance ±3h) — likely a different night; no qualifying replacement found |
-| tm-breaking-benjamin-2027-peoria-vv1kvyvp4yga29pez | breaking-benjamin | verify (applied) | 18742700 | https://seatgeek.com/breaking-benjamin-tickets/peoria-illinois-peoria-civic-center-arena-2027-02-22-6-30-pm/concert/18742700 | - |
-| tm-breaking-benjamin-2027-louisville-1kaovp4zgaui0w6 | breaking-benjamin | verify (applied) | 18742710 | https://seatgeek.com/breaking-benjamin-tickets/louisville-kentucky-kfc-yum-center-2027-02-23-6-30-pm/concert/18742710 | - |
-| tm-remi-wolf-2027-washington-1a4zk46gketspla | remi-wolf | verify (applied) | 18664756 | https://seatgeek.com/remi-wolf-tickets/washington-district-of-columbia-the-anthem-dc-2027-02-23-7-30-pm/concert/18664756 | - |
-| tm-meshuggah-2027-nashville-g5viz_4l7rl-d | meshuggah | verify (applied) | 18724651 | https://seatgeek.com/meshuggah-tickets/nashville-tennessee-the-truth-nashville-2027-02-24-7-pm/concert/18724651 | - |
-| tm-breaking-benjamin-2027-columbus-vv1aazk49gkeujesy | breaking-benjamin | verify (applied) | 18742717 | https://seatgeek.com/breaking-benjamin-tickets/columbus-ohio-nationwide-arena-2027-02-25-6-30-pm/concert/18742717 | - |
+| tm-chelsea-cutler-2027-columbus-z7r9jz1aaef0s | chelsea-cutler | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-mei-semones-2027-portland-z7r9jz1aaekpv | mei-semones | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-breaking-benjamin-2027-university-park-vv1aezk4pgkdz5iak | breaking-benjamin | verify (applied) | 18742722 | https://seatgeek.com/breaking-benjamin-tickets/university-park-pennsylvania-bryce-jordan-center-2027-02-26-6-30-pm/concert/18742722 | - |
 | tm-air-supply-2027-moose-jaw-z7r9jz1aavsx4 | air-supply | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-chelsea-cutler-2027-austin-z7r9jz1aa7ug0 | chelsea-cutler | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-meshuggah-2027-baltimore-1a4zk4fgkdwfxtt | meshuggah | verify (applied) | 18724653 | https://seatgeek.com/meshuggah-tickets/baltimore-maryland-the-paramount-baltimore-2027-02-27-7-pm/concert/18724653 | - |
-| tm-remi-wolf-2027-new-york-g5dyz_fqhrymh | remi-wolf | verify (applied) | 18664759 | https://seatgeek.com/remi-wolf-tickets/new-york-new-york-radio-city-music-hall-2027-02-27-8-pm/concert/18664759 | - |
-| tm-los-tigres-del-norte-2027-denver-z7r9jz1aaaz8e | los-tigres-del-norte | verify (applied) | 18747096 | https://seatgeek.com/los-tigres-del-norte-tickets/denver-colorado-bellco-theatre-2027-02-27-8-pm/concert/18747096 | - |
-| tm-breaking-benjamin-2027-uncasville-g5vvz_4l6n7hw | breaking-benjamin | verify (applied) | 18742724 | https://seatgeek.com/breaking-benjamin-tickets/uncasville-connecticut-mohegan-sun-arena-2027-02-28-6-30-pm/concert/18742724 | - |
-| tm-meshuggah-2027-pittsburgh-1kaovp4oga2k8sn | meshuggah | verify (applied) | 18724655 | https://seatgeek.com/meshuggah-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2027-02-28-7-pm/concert/18724655 | - |
-| tm-don-omar-2027-belmont-park-17gzv0g6u15uw7e | don-omar | verify (applied) | 18326568 | https://seatgeek.com/don-omar-tickets/elmont-new-york-ubs-arena-2027-02-28-8-pm/concert/18326568 | - |
-| tm-backstreet-boys-2027-toronto-1avzz_kgkz7nuhj | backstreet-boys | verify (applied) | 18657844 | https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-02-28-8-pm/concert/18657844 | - |
-| tm-morat-2027-el-paso-vvg1yz_1xncffn | morat | verify (applied) | 18251588 | https://seatgeek.com/morat-tickets/el-paso-texas-don-haskins-center-2027-02-28-8-pm/concert/18251588 | - |
-| tm-chelsea-cutler-2027-denver-z7r9jz1aae_g4 | chelsea-cutler | clear (applied) | - | - | stored URL failed: event instants differ by -16.5h (tolerance ±3h) — likely a different night; no qualifying replacement found |
+| tm-chelsea-cutler-2027-denver-z7r9jz1aae_g4 | chelsea-cutler | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-daughtry-2027-orono-z7r9jz1aae836 | daughtry | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-breaking-benjamin-2027-syracuse-k7vgf_4hgmiu3 | breaking-benjamin | verify (applied) | 18742726 | https://seatgeek.com/breaking-benjamin-tickets/syracuse-new-york-upstate-medical-university-arena-at-the-oncenter-war-memorial-2027-03-02-6-30-pm/concert/18742726 | - |
-| tm-hans-zimmer-2027-hamilton-1a8zkfigkdxfojj | hans-zimmer | verify (applied) | 18601959 | https://seatgeek.com/hans-zimmer-tickets/hamilton-canada-td-coliseum-2027-03-02-7-30-pm/concert/18601959 | - |
-| tm-rod-stewart-2027-reading-vv17fz_kgks7life | rod-stewart | verify (applied) | 18652809 | https://seatgeek.com/rod-stewart-tickets/reading-pennsylvania-santander-arena-2027-03-02-7-30-pm/concert/18652809 | - |
 | tm-mei-semones-2027-chicago-z7r9jz1aae3ax | mei-semones | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-air-supply-2027-ottawa-1ad7z_3gksa1dub | air-supply | clear (applied) | - | - | stored URL failed: venue mismatch: 'Hard Rock Hotel & Casino Ottawa' vs 'Hard Rock Cafe'; no qualifying replacement found |
-| tm-blue-october-2027-boise-g5vzz_1rcvq7p | blue-october | verify (applied) | 18238525 | https://seatgeek.com/blue-october-tickets/boise-idaho-knitting-factory-concert-house-boise-2027-03-03-8-pm/concert/18238525 | - |
 | tm-valley-2027-phoenix-z7r9jz1aavzfg | valley | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-dropkick-murphys-2027-quebec-1aszkfzbgoozeg5 | dropkick-murphys | verify (applied) | 18633563 | https://seatgeek.com/dropkick-murphys-tickets/quebec-city-canada-theatre-capitole-2027-03-04-7-pm/concert/18633563 | - |
-| tm-michelle-branch-2027-tulsa-z7r9jz1aa7vv3 | michelle-branch | add (applied) | 18517280 | https://seatgeek.com/michelle-branch-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-04-7-pm/concert/18517280 | - |
 | tm-hazlett-2027-oslo-z698xzb_z16v-jveop | hazlett | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-daughtry-2027-charleston-g5evz_keoc7ae | daughtry | verify (applied) | 18632937 | https://seatgeek.com/daughtry-tickets/charleston-south-carolina-charleston-music-hall-2027-03-05-7-pm/concert/18632937 | - |
-| tm-meshuggah-2027-new-haven-z7r9jz1aa7t0i | meshuggah | add (applied) | 18724663 | https://seatgeek.com/meshuggah-tickets/new-haven-connecticut-college-street-music-hall-2027-03-05-7-pm/concert/18724663 | - |
 | tm-mei-semones-2027-philadelphia-z7r9jz1aaebpd | mei-semones | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-backstreet-boys-2027-toronto-1k7zvpotga1oqed | backstreet-boys | verify (applied) | 18665148 | https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-03-05-8-pm/concert/18665148 | - |
-| tm-remi-wolf-2027-toronto-1a8zk46gkdlbbff | remi-wolf | verify (applied) | 18664754 | https://seatgeek.com/remi-wolf-tickets/toronto-canada-massey-hall-2027-03-05-8-pm/concert/18664754 | - |
-| tm-dinosaur-jr-2027-chicago-z7r9jz1aaedov | dinosaur-jr | clear (applied) | - | - | stored URL failed: venue mismatch: 'Vic Theatre' vs 'The WIP Theater'; no qualifying replacement found |
+| tm-dinosaur-jr-2027-chicago-z7r9jz1aaedov | dinosaur-jr | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-flans-2027-kansas-city-z7r9jz1aaevrv | flans | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-theory-of-a-deadman-2027-moncton-16d7z_31_g7xauw | theory-of-a-deadman | verify (applied) | 18570536 | https://seatgeek.com/theory-of-a-deadman-tickets/moncton-canada-molson-canadian-centre-at-casino-new-brunswick-2027-03-06-8-pm/concert/18570536 | - |
-| tm-backstreet-boys-2027-toronto-1k7zvpotga14bio | backstreet-boys | verify (applied) | 18665150 | https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-03-06-8-pm/concert/18665150 | - |
-| tm-remi-wolf-2027-toronto-1a8zk46gkdlbzfe | remi-wolf | verify (applied) | 18693184 | https://seatgeek.com/remi-wolf-tickets/toronto-canada-massey-hall-2027-03-06-8-pm/concert/18693184 | - |
 | tm-mico-2027-lawrence-z7r9jz1aa7a_g | mico | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-valley-2027-denver-z7r9jz1aavzfu | valley | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-chelsea-cutler-2027-san-francisco-z7r9jz1aae_gp | chelsea-cutler | clear (applied) | - | - | stored URL failed: event instants differ by -16.5h (tolerance ±3h) — likely a different night; no qualifying replacement found |
-| tm-dropkick-murphys-2027-wilmington-vv1aezkfmgkexqysz | dropkick-murphys | verify (applied) | 18633568 | https://seatgeek.com/dropkick-murphys-tickets/wilmington-delaware-the-queen-wilmington-2027-03-08-7-pm/concert/18633568 | - |
-| tm-theory-of-a-deadman-2027-quebec-1aszkf04if8zegk | theory-of-a-deadman | verify (applied) | 18570535 | https://seatgeek.com/theory-of-a-deadman-tickets/quebec-city-canada-theatre-capitole-2027-03-08-8-pm/concert/18570535 | - |
+| tm-chelsea-cutler-2027-san-francisco-z7r9jz1aae_gp | chelsea-cutler | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-pink-martini-2027-pittsburgh-z7r9jz1aavjpj | pink-martini | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-theory-of-a-deadman-2027-montreal-1aszkfxgkerzpy6 | theory-of-a-deadman | verify (applied) | 18570537 | https://seatgeek.com/theory-of-a-deadman-tickets/montreal-canada-mtelus-2027-03-09-8-pm/concert/18570537 | - |
 | tm-missio-2027-carrboro-z7r9jz1aazivn | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-dropkick-murphys-2027-portland-vv177z_kgksaw-ns | dropkick-murphys | verify (applied) | 18633572 | https://seatgeek.com/dropkick-murphys-tickets/portland-maine-state-theatre-portland-me-2027-03-11-7-pm/concert/18633572 | - |
 | tm-flans-2027-las-vegas-z7r9jz1aaeaov | flans | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-remi-wolf-2027-minneapolis-vv1akzk46gkdn_2lp | remi-wolf | verify (applied) | 18664767 | https://seatgeek.com/remi-wolf-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-03-12-7-30-pm/concert/18664767 | - |
 | tm-missio-2027-birmingham-z7r9jz1aazivp | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-mercyme-2027-chattanooga-z7r9jz1aa7_af | mercyme | verify (applied) | 18692230 | https://seatgeek.com/mercyme-tickets/chattanooga-tennessee-mckenzie-arena-2027-03-13-7-pm/concert/18692230 | - |
 | tm-vnv-nation-2027-tampa-z7r9jz1a7jv8s | vnv-nation | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-mico-2027-cleveland-rz7hnez1afut40 | mico | verify (applied) | 18746851 | https://seatgeek.com/mico-tickets/cleveland-ohio-globe-iron-2027-03-13-8-pm/concert/18746851 | - |
-| tm-feid-2027-montreal-1ad7z_4gkd0zh9f | feid | verify (applied) | 18746768 | https://seatgeek.com/feid-tickets/montreal-canada-centre-bell-2027-03-13-8-pm/concert/18746768 | - |
-| tm-remi-wolf-2027-milwaukee-vv1a6zk4kgkei14ha | remi-wolf | verify (applied) | 18664770 | https://seatgeek.com/remi-wolf-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-03-13-8-pm/concert/18664770 | - |
-| tm-zach-top-2027-thackerville-z7r9jz1aaaeap | zach-top | add (applied) | 18592206 | https://seatgeek.com/zach-top-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2027-03-13-8-pm/concert/18592206 | - |
 | tm-missio-2027-nashville-z7r9jz1aazivj | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-feid-2027-chicago-vv1a7zk4xgkdhjeow | feid | verify (applied) | 18746737 | https://seatgeek.com/feid-tickets/chicago-illinois-united-center-2027-03-18-8-pm/concert/18746737 | - |
 | tm-too-many-zooz-2027-frisco-z7r9jz1aaeep4 | too-many-zooz | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-theory-of-a-deadman-2027-thunder-bay-1avzz_ogkrpopru | theory-of-a-deadman | clear (applied) | - | - | stored URL failed: venue mismatch: 'The Auditorium' vs 'Thunder Bay Community Auditorium'; no qualifying replacement found |
-| tm-remi-wolf-2027-nashville-g5viz_fni20_x | remi-wolf | verify (applied) | 18664774 | https://seatgeek.com/remi-wolf-tickets/nashville-tennessee-the-truth-nashville-2027-03-19-8-pm/concert/18664774 | - |
 | tm-the-psychedelic-furs-2027-rancho-mirage-z7r9jz1a7-n8k | the-psychedelic-furs | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-mercyme-2027-macon-vvg1zz_fsveixl | mercyme | verify (applied) | 18692238 | https://seatgeek.com/mercyme-tickets/macon-georgia-atrium-health-amphitheater-2027-03-20-7-pm/concert/18692238 | - |
-| tm-remi-wolf-2027-atlanta-vvg1zz_fj5-2nn | remi-wolf | verify (applied) | 18664775 | https://seatgeek.com/remi-wolf-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-03-20-8-pm/concert/18664775 | - |
-| tm-los-tigres-del-norte-2027-rosemont-vv1a7zk4kgkdecl8m | los-tigres-del-norte | verify (applied) | 18738294 | https://seatgeek.com/los-tigres-del-norte-tickets/rosemont-illinois-allstate-arena-2027-03-20-8-pm/concert/18738294 | - |
 | tm-tommy-emmanuel-2027-toronto-z7r9jz1aaeox3 | tommy-emmanuel | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-death-cab-for-cutie-2027-austin-z7r9jz1aa7sc6 | death-cab-for-cutie | verify (applied) | 18715563 | https://seatgeek.com/death-cab-for-cutie-tickets/austin-texas-united-heritage-hall-2027-03-23-7-pm/concert/18715563 | - |
-| tm-mercyme-2027-pensacola-g5viz_fuwn07x | mercyme | verify (applied) | 18692241 | https://seatgeek.com/mercyme-tickets/pensacola-florida-pensacola-bay-center-2027-03-24-7-pm/concert/18692241 | - |
-| tm-feid-2027-dallas-vvg1yz_pkmsn11 | feid | verify (applied) | 18746738 | https://seatgeek.com/feid-tickets/dallas-texas-american-airlines-center-2027-03-24-8-pm/concert/18746738 | - |
-| tm-mercyme-2027-orlando-1kfovp3_ga2o7he | mercyme | verify (applied) | 18692243 | https://seatgeek.com/mercyme-tickets/orlando-florida-addition-financial-arena-2027-03-25-7-pm/concert/18692243 | - |
-| tm-barry-manilow-2027-las-vegas-17ayvxg62dw2ugw | barry-manilow | verify (applied) | 17637123 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-03-25-7-pm/concert/17637123 | - |
-| tm-los-tigres-del-norte-2027-miami-vvg1vz_fxmchil | los-tigres-del-norte | verify (applied) | 18738296 | https://seatgeek.com/los-tigres-del-norte-tickets/miami-florida-james-l-knight-center-2027-03-26-8-pm/concert/18738296 | - |
-| tm-feid-2027-austin-g5diz_pkrkhdd | feid | verify (applied) | 18746739 | https://seatgeek.com/feid-tickets/austin-texas-moody-center-atx-2027-03-26-8-pm/concert/18746739 | - |
-| tm-barry-manilow-2027-las-vegas-17ayvxg62dw8pgt | barry-manilow | verify (applied) | 17637124 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-03-26-8-pm/concert/17637124 | - |
-| tm-vnv-nation-2027-denver-z7r9jz1a7jv8m | vnv-nation | clear (applied) | - | - | stored URL failed: venue mismatch: 'Oriental Theatre-CO' vs 'The Oriental Theater'; no qualifying replacement found |
-| tm-barry-manilow-2027-las-vegas-17ayvxg62dwokuv | barry-manilow | verify (applied) | 17637125 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-03-27-7-pm/concert/17637125 | - |
+| tm-vnv-nation-2027-denver-z7r9jz1a7jv8m | vnv-nation | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-vnv-nation-2027-st-paul-z7r9jz1a7jzvu | vnv-nation | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-feid-2027-denver-g5vzz_pkrlpf6 | feid | verify (applied) | 18746743 | https://seatgeek.com/feid-tickets/denver-colorado-ball-arena-2027-03-31-8-pm/concert/18746743 | - |
-| tm-mercyme-2027-fayetteville-g5evz_frs44wl | mercyme | verify (applied) | 18692247 | https://seatgeek.com/mercyme-tickets/fayetteville-north-carolina-crown-coliseum-crown-complex-2027-04-01-7-pm/concert/18692247 | - |
-| tm-los-tigres-del-norte-2027-montreal-z7r9jz1aa7zf8 | los-tigres-del-norte | add (applied) | 18747973 | https://seatgeek.com/los-tigres-del-norte-tickets/montreal-canada-place-des-arts-2027-04-01-8-pm/concert/18747973 | - |
-| tm-barry-manilow-2027-las-vegas-1avjz_3gkroi64s | barry-manilow | verify (applied) | 18590289 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-01-7-pm/concert/18590289 | - |
-| tm-barry-manilow-2027-las-vegas-1avjz_3gkrocmpa | barry-manilow | verify (applied) | 18590288 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-02-8-pm/concert/18590288 | - |
-| tm-mercyme-2027-salisbury-z7r9jz1aa7_aj | mercyme | verify (applied) | 18692251 | https://seatgeek.com/mercyme-tickets/salisbury-maryland-wicomico-civic-center-2027-04-03-7-pm/concert/18692251 | - |
-| tm-barry-manilow-2027-las-vegas-1avjz_3gkrorept | barry-manilow | verify (applied) | 18590286 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-03-7-pm/concert/18590286 | - |
-| tm-mercyme-2027-reading-vv17fz_fgks27zye | mercyme | verify (applied) | 18692254 | https://seatgeek.com/mercyme-tickets/reading-pennsylvania-santander-arena-2027-04-04-7-pm/concert/18692254 | - |
-| tm-feid-2027-seattle-vvg1hz_pkvb_3- | feid | verify (applied) | 18746746 | https://seatgeek.com/feid-tickets/seattle-washington-climate-pledge-arena-2027-04-04-8-pm/concert/18746746 | - |
-| tm-nothing-but-thieves-2027-san-diego-rz7hnez1afpvcd | nothing-but-thieves | clear (applied) | - | - | stored URL failed: venue mismatch: 'SOMA - Mainstage' vs 'SOMA - San Diego'; no qualifying replacement found |
 | tm-mana-2027-highland-z7r9jz1aa7ngx | mana | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-feid-2027-portland-vvg1hz_pckgfmh | feid | verify (applied) | 18746749 | https://seatgeek.com/feid-tickets/portland-oregon-moda-center-2027-04-06-8-pm/concert/18746749 | - |
 | tm-missio-2027-dallas-z7r9jz1aazive | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-mercyme-2027-portland-vv177z_fgkxgyxqn | mercyme | verify (applied) | 18692256 | https://seatgeek.com/mercyme-tickets/portland-maine-cross-insurance-arena-2027-04-08-7-pm/concert/18692256 | - |
 | tm-mana-2027-highland-z7r9jz1aa7x_k | mana | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-feid-2027-sacramento-g5vyz_p5pdckj | feid | verify (applied) | 18746750 | https://seatgeek.com/feid-tickets/sacramento-california-golden-1-center-2027-04-08-8-pm/concert/18746750 | - |
 | tm-missio-2027-san-antonio-z7r9jz1aazivi | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-austin-z7r9jz1aazivt | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-mercyme-2027-trenton-k7vgf_fedotss | mercyme | verify (applied) | 18692260 | https://seatgeek.com/mercyme-tickets/trenton-new-jersey-cure-insurance-arena-2027-04-10-7-pm/concert/18692260 | - |
 | tm-mei-semones-2027-carrboro-z7r9jz1aaefgv | mei-semones | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-gavin-adcock-2027-university-z7r9jz1a7-y8- | gavin-adcock | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-los-tigres-del-norte-2027-los-angeles-z7r9jz1aa7mao | los-tigres-del-norte | verify (applied) | 18739614 | https://seatgeek.com/los-tigres-del-norte-tickets/los-angeles-california-crypto-com-arena-2027-04-10-8-pm/concert/18739614 | - |
-| tm-feid-2027-san-francisco-g5vyz_p1g3qkq | feid | verify (applied) | 18746753 | https://seatgeek.com/feid-tickets/san-francisco-california-chase-center-2027-04-10-8-pm/concert/18746753 | - |
-| tm-mercyme-2027-johnson-city-z7r9jz1aa7mot | mercyme | verify (applied) | 18692262 | https://seatgeek.com/mercyme-tickets/johnson-city-tennessee-freedom-hall-civic-center-2027-04-11-7-pm/concert/18692262 | - |
 | tm-mei-semones-2027-atlanta-z7r9jz1aaeb46 | mei-semones | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-mana-2027-highland-z7r9jz1aa7x_7 | mana | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-feid-2027-san-jose-g5vyz_p5keuz1 | feid | verify (applied) | 18746754 | https://seatgeek.com/feid-tickets/san-jose-california-sap-center-at-san-jose-2027-04-11-8-pm/concert/18746754 | - |
-| tm-foy-vance-2027-cincinnati-z7r9jz1a7-k1v | foy-vance | clear (applied) | - | - | stored URL failed: venue mismatch: 'Memorial Hall - OH' vs 'Anderson Theater At Cincinnati Memorial Hall'; no qualifying replacement found |
-| tm-calvin-harris-2027-toronto-1a8zk4fgkevlxcb | calvin-harris | verify (applied) | 18674913 | https://seatgeek.com/calvin-harris-tickets/toronto-canada-scotiabank-arena-2027-04-12-8-pm/concert/18674913 | - |
+| tm-foy-vance-2027-cincinnati-z7r9jz1a7-k1v | foy-vance | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-earth-wind-fire-2027-pompano-beach-z7r9jz1aaazue | earth-wind-fire | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-hazlett-2027-nashville-z7r9jz1a7p0ay | hazlett | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-haiden-henderson-2027-orlando-z7r9jz1aaevq0 | haiden-henderson | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-mat-kearney-2027-durham-z7r9jz1aa7tga | mat-kearney | verify (applied) | 18725770 | https://seatgeek.com/mat-kearney-tickets/durham-north-carolina-carolina-theatre-durham-2027-04-16-7-30-pm/concert/18725770 | - |
-| tm-los-tigres-del-norte-2027-atlantic-city-vv17fz_4gkmu5cz_ | los-tigres-del-norte | verify (applied) | 18738298 | https://seatgeek.com/los-tigres-del-norte-tickets/atlantic-city-new-jersey-hard-rock-live-at-etess-arena-2027-04-16-8-30-pm/concert/18738298 | - |
-| tm-calvin-harris-2027-hamilton-1a8zk4agkd5cdnl | calvin-harris | verify (applied) | 18674914 | https://seatgeek.com/calvin-harris-tickets/hamilton-canada-td-coliseum-2027-04-17-8-pm/concert/18674914 | - |
-| tm-mercyme-2027-cedar-park-g5diz_fiumntg | mercyme | verify (applied) | 18692268 | https://seatgeek.com/mercyme-tickets/cedar-park-texas-h-e-b-center-at-cedar-park-2027-04-17-7-pm/concert/18692268 | - |
-| tm-los-tigres-del-norte-2027-hartford-z7r9jz1aaaz18 | los-tigres-del-norte | verify (applied) | 18747975 | https://seatgeek.com/los-tigres-del-norte-tickets/hartford-connecticut-peoplesbank-arena-2027-04-17-8-30-pm/concert/18747975 | - |
-| tm-mercyme-2027-bossier-city-g5viz_fdsgolb | mercyme | verify (applied) | 18692269 | https://seatgeek.com/mercyme-tickets/bossier-city-louisiana-brookshire-grocery-arena-2027-04-18-6-30-pm/concert/18692269 | - |
-| tm-mat-kearney-2027-charlotte-g5evz_ftdyo7x | mat-kearney | verify (applied) | 18725925 | https://seatgeek.com/mat-kearney-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-04-18-8-pm/concert/18725925 | - |
-| tm-meshuggah-2027-salt-lake-city-g5vzz_4r3jsmh | meshuggah | verify (applied) | 18724672 | https://seatgeek.com/meshuggah-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2027-04-19-6-30-pm/concert/18724672 | - |
 | tm-teddy-swims-2027-greenwich-z7r9jz1aav0v4 | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-lola-young-2027-chicago-vv1kvzvpoega5wbhb | lola-young | verify (applied) | 18662116 | https://seatgeek.com/lola-young-tickets/chicago-illinois-the-salt-shed-indoors-2027-04-21-7-30-pm/concert/18662116 | - |
 | tm-mei-semones-2027-san-diego-z7r9jz1aae3k4 | mei-semones | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-teddy-swims-2027-greenwich-z7r9jz1aav0vp | teddy-swims | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-mercyme-2027-tulsa-1aezz_fgkbolkrk | mercyme | verify (applied) | 18692271 | https://seatgeek.com/mercyme-tickets/tulsa-oklahoma-bok-center-2027-04-22-7-pm/concert/18692271 | - |
-| tm-mat-kearney-2027-washington-1a4zk49gkdhkrsu | mat-kearney | verify (applied) | 18726087 | https://seatgeek.com/mat-kearney-tickets/washington-district-of-columbia-lincoln-theatre-dc-2027-04-22-8-pm/concert/18726087 | - |
-| tm-mercyme-2027-lincoln-vv17bz_fgktuaum7 | mercyme | verify (applied) | 18692274 | https://seatgeek.com/mercyme-tickets/lincoln-nebraska-pinnacle-bank-arena-2027-04-23-7-pm/concert/18692274 | - |
-| tm-los-tigres-del-norte-2027-duluth-vvg1zz_fq51ps_ | los-tigres-del-norte | verify (applied) | 18738682 | https://seatgeek.com/los-tigres-del-norte-tickets/duluth-georgia-gas-south-arena-2027-04-23-8-pm/concert/18738682 | - |
-| tm-mat-kearney-2027-atlantic-city-vv1aezk48gkd-q-0n | mat-kearney | verify (applied) | 18726580 | https://seatgeek.com/mat-kearney-tickets/atlantic-city-new-jersey-music-box-at-the-borgata-2027-04-23-8-pm/concert/18726580 | - |
 | tm-lola-young-2027-st-paul-z7r9jz1aaebve | lola-young | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-mercyme-2027-moline-vv17bz_fgkwrzpms | mercyme | verify (applied) | 18692276 | https://seatgeek.com/mercyme-tickets/moline-illinois-vibrant-arena-at-the-mark-2027-04-24-7-pm/concert/18692276 | - |
-| tm-los-tigres-del-norte-2027-charlotte-g5evz_fqspq1u | los-tigres-del-norte | verify (applied) | 18738300 | https://seatgeek.com/los-tigres-del-norte-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-04-24-8-pm/concert/18738300 | - |
-| tm-calvin-harris-2027-fort-worth-vvg1yz_flvwxhm | calvin-harris | verify (applied) | 18674837 | https://seatgeek.com/calvin-harris-tickets/fort-worth-texas-ariat-arena-2027-04-24-8-pm/concert/18674837 | - |
-| tm-mercyme-2027-grand-rapids-vv17oz_fgkmddfhb | mercyme | verify (applied) | 18692277 | https://seatgeek.com/mercyme-tickets/grand-rapids-michigan-van-andel-arena-2027-04-25-7-pm/concert/18692277 | - |
-| tm-lola-young-2027-denver-g5vzz_f11k7mj | lola-young | verify (applied) | 18649718 | https://seatgeek.com/lola-young-tickets/denver-colorado-fillmore-auditorium-denver-2027-04-25-8-pm/concert/18649718 | - |
 | tm-mat-kearney-2027-portsmouth-z7r9jz1aa7s83 | mat-kearney | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-lola-young-2027-salt-lake-city-g5vzz_fk8daho | lola-young | verify (applied) | 18649720 | https://seatgeek.com/lola-young-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2027-04-26-8-pm/concert/18649720 | - |
-| tm-mat-kearney-2027-new-york-vv16dzk44g3zauv5ea | mat-kearney | verify (applied) | 18726039 | https://seatgeek.com/mat-kearney-tickets/new-york-new-york-the-town-hall-new-york-2027-04-27-7-30-pm/concert/18726039 | - |
-| tm-the-psychedelic-furs-2027-huntington-k7vgf_3n_asme | the-psychedelic-furs | clear (applied) | - | - | stored URL failed: venue mismatch: 'The Paramount in concert with Northwell' vs 'The Paramount - Huntington'; no qualifying replacement found |
-| tm-foreigner-2027-montclair-vv1aezkf_gkded4lx | foreigner | verify (applied) | 18550003 | https://seatgeek.com/foreigner-tickets/montclair-new-jersey-the-wellmont-theater-2027-04-28-8-pm/concert/18550003 | - |
-| tm-mat-kearney-2027-portland-vv177z_fgkbwdmul | mat-kearney | verify (applied) | 18725688 | https://seatgeek.com/mat-kearney-tickets/portland-maine-state-theatre-portland-me-2027-04-28-8-pm/concert/18725688 | - |
-| tm-saint-levant-2027-san-diego-rz7hnez1afa7-7 | saint-levant | clear (applied) | - | - | stored URL failed: venue mismatch: 'SOMA - Mainstage' vs 'SOMA - San Diego'; no qualifying replacement found |
-| tm-lola-young-2027-seattle-vvg1hz_falrsfg | lola-young | verify (applied) | 18649719 | https://seatgeek.com/lola-young-tickets/seattle-washington-wamu-theater-2027-04-28-8-pm/concert/18649719 | - |
-| tm-noah-kahan-2027-tampa-vvg1vz_4rlk1ty | noah-kahan | verify (applied) | 18728707 | https://seatgeek.com/noah-kahan-tickets/tampa-florida-raymond-james-stadium-2027-04-29-6-30-pm/concert/18728707 | - |
-| tm-mercyme-2027-milwaukee-vv17jz_fgkboydiq | mercyme | verify (applied) | 18692280 | https://seatgeek.com/mercyme-tickets/milwaukee-wisconsin-uw-milwaukee-panther-arena-2027-04-29-7-pm/concert/18692280 | - |
-| tm-lola-young-2027-vancouver-16ozk4vpyzau66a6 | lola-young | verify (applied) | 18649726 | https://seatgeek.com/lola-young-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2027-04-29-8-pm/concert/18649726 | - |
-| tm-mat-kearney-2027-mckees-rocks-1avbz_fgkh6lcsf | mat-kearney | verify (applied) | 18726607 | https://seatgeek.com/mat-kearney-tickets/mckees-rocks-pennsylvania-roxian-theatre-2027-04-30-6-30-pm/concert/18726607 | - |
-| tm-foreigner-2027-port-chester-g5vvz_ony3-go | foreigner | verify (applied) | 18550006 | https://seatgeek.com/foreigner-tickets/port-chester-new-york-the-capitol-theatre-port-chester-2027-04-30-8-pm/concert/18550006 | - |
-| tm-mercyme-2027-springfield-vv1a6zk4agkeirfgx | mercyme | verify (applied) | 18692282 | https://seatgeek.com/mercyme-tickets/springfield-illinois-bank-of-springfield-center-2027-04-30-7-pm/concert/18692282 | - |
 | tm-mei-semones-2027-boise-z7r9jz1aaekjo | mei-semones | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-mat-kearney-2027-cincinnati-16pzk48jvzacdggk | mat-kearney | verify (applied) | 18725946 | https://seatgeek.com/mat-kearney-tickets/cincinnati-ohio-taft-theatre-2027-05-01-7-30-pm/concert/18725946 | - |
-| tm-the-warning-2027-oklahoma-city-z7r9jz1aavtgp | the-warning | clear (applied) | - | - | stored URL failed: venue mismatch: 'Criterion Theater - Oklahoma City' vs 'The Criterion - OKC'; no qualifying replacement found |
+| tm-the-warning-2027-oklahoma-city-z7r9jz1aavtgp | the-warning | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-haiden-henderson-2027-milwaukee-z7r9jz1aaeea6 | haiden-henderson | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-mei-semones-2027-salt-lake-city-z7r9jz1aaefc8 | mei-semones | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-zac-brown-band-2027-sparks-1avjz_4gkrmjou6 | zac-brown-band | verify (applied) | 18739090 | https://seatgeek.com/zac-brown-band-tickets/sparks-nevada-nugget-event-center-2027-05-01-7-pm/concert/18739090 | - |
 | tm-warren-zeiders-2027-charlotte-z7r9jz1aaeb7u | warren-zeiders | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-foreigner-2027-westbury-k7vgf_ocs3r5v | foreigner | verify (applied) | 18549843 | https://seatgeek.com/foreigner-tickets/westbury-new-york-flagstar-at-westbury-music-fair-2027-05-02-8-pm/concert/18549843 | - |
-| tm-meshuggah-2027-oklahoma-city-z7r9jz1aa7izs | meshuggah | clear (applied) | - | - | stored URL failed: venue mismatch: 'Criterion Theater - Oklahoma City' vs 'The Criterion - OKC'; no qualifying replacement found |
+| tm-meshuggah-2027-oklahoma-city-z7r9jz1aa7izs | meshuggah | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-haiden-henderson-2027-minneapolis-z7r9jz1aaeerb | haiden-henderson | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-mei-semones-2027-denver-z7r9jz1aae37y | mei-semones | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-too-many-zooz-2027-oklahoma-city-z7r9jz1aaee-e | too-many-zooz | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-noah-kahan-2027-charlotte-g5evz_4r3uqrt | noah-kahan | verify (applied) | 18728703 | https://seatgeek.com/noah-kahan-tickets/charlotte-north-carolina-bank-of-america-stadium-2027-05-06-6-30-pm/concert/18728703 | - |
-| tm-meshuggah-2027-new-orleans-g5viz_49c3t4b | meshuggah | verify (applied) | 18724691 | https://seatgeek.com/meshuggah-tickets/new-orleans-louisiana-fillmore-new-orleans-2027-05-06-6-pm/concert/18724691 | - |
 | tm-mei-semones-2027-lexington-z7r9jz1aaek09 | mei-semones | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-remi-wolf-2027-austin-g5diz_fncgjpo | remi-wolf | verify (applied) | 18664777 | https://seatgeek.com/remi-wolf-tickets/austin-texas-moody-amphitheater-2027-05-06-7-pm/concert/18664777 | - |
 | tm-haiden-henderson-2027-salt-lake-city-z7r9jz1aaeefa | haiden-henderson | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-mei-semones-2027-columbus-z7r9jz1aaef7k | mei-semones | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-hazlett-2027-east-cleveland-z7r9jz1a7pe8a | hazlett | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-two-door-cinema-club-2027-milwaukee-vv1a6zk47gkemmn1x | two-door-cinema-club | verify (applied) | 18711332 | https://seatgeek.com/two-door-cinema-club-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-05-08-7-30-pm/concert/18711332 | - |
 | tm-two-door-cinema-club-2027-st-paul-z7r9jz1aa7p8o | two-door-cinema-club | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-haiden-henderson-2027-seattle-z7r9jz1aa79uf | haiden-henderson | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-haiden-henderson-2027-portland-z7r9jz1aaeekk | haiden-henderson | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-jon-pardi-2027-loveland-z7r9jz1aazeb3 | jon-pardi | clear (applied) | - | - | stored URL failed: venue mismatch: 'Blue Arena at The Ranch Events Complex' vs 'Blue Federal Credit Union Arena'; no qualifying replacement found |
+| tm-jon-pardi-2027-loveland-z7r9jz1aazeb3 | jon-pardi | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-too-many-zooz-2027-portland-z7r9jz1aaeerf | too-many-zooz | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-lizzy-mcalpine-2027-oklahoma-city-z7r9jz1aaea-p | lizzy-mcalpine | clear (applied) | - | - | stored URL failed: venue mismatch: 'Thelma Gaylord Performing Arts Theatre' vs 'Thelma Gaylord PAT At Civic Center Music Hall'; no qualifying replacement found |
-| tm-dylan-gossett-2027-oklahoma-city-z7r9jz1aae4ba | dylan-gossett | clear (applied) | - | - | stored URL failed: venue mismatch: 'Criterion Theater - Oklahoma City' vs 'The Criterion - OKC'; no qualifying replacement found |
+| tm-lizzy-mcalpine-2027-oklahoma-city-z7r9jz1aaea-p | lizzy-mcalpine | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-dylan-gossett-2027-oklahoma-city-z7r9jz1aae4ba | dylan-gossett | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-zach-bryan-2027-nashville-z7r9jz1aa7k17 | zach-bryan | conflict | - | - | ambiguous: 2 qualifying SeatGeek events in the window |
 | tm-flans-2027-grand-prairie-z7r9jz1aaeaoe | flans | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-jack-johnson-2027-las-vegas-1avjz_fgkthyfka | jack-johnson | verify (applied) | 18738901 | https://seatgeek.com/jack-johnson-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2027-06-02-8-pm/concert/18738901 | - |
-| tm-jack-johnson-2027-las-vegas-1avjz_fgkthbfkc | jack-johnson | verify (applied) | 18738900 | https://seatgeek.com/jack-johnson-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2027-06-03-8-pm/concert/18738900 | - |
 | tm-kings-of-leon-2027-hamburg-z698xzc2z1kjifpz9 | kings-of-leon | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-death-cab-for-cutie-2027-milwaukee-vv17jz_4gkdidvax | death-cab-for-cutie | verify (applied) | 18738391 | https://seatgeek.com/death-cab-for-cutie-tickets/milwaukee-wisconsin-bmo-pavilion-2027-06-25-7-pm/concert/18738391 | - |
 | tm-oasis-2027-munich-z698xzc2z16vca8yqu | oasis | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-oasis-2027-munich-z698xzc2z16ezoffov | oasis | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-kenny-chesney-2027-nashville-z7r9jz1aavsaa | kenny-chesney | conflict | - | - | ambiguous: 2 qualifying SeatGeek events in the window |
@@ -662,123 +508,324 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-oasis-2027-barcelona-z698xz2qz1kvz7a4m | oasis | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-oasis-2027-amsterdam-z698xzbpz16vrdz-8b | oasis | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-oasis-2027-amsterdam-z698xzbpz1kodp337 | oasis | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-mat-kearney-2027-austin-z7r9jz1aa7t0p | mat-kearney | add (applied) | 18747385 | https://seatgeek.com/mat-kearney-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-08-13-8-pm/concert/18747385 | - |
 | tm-mat-kearney-2027-dallas-z7r9jz1aa7s_b | mat-kearney | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-mat-kearney-2027-cerritos-vvg1iz_4z4bvmr | mat-kearney | verify (applied) | 18725672 | https://seatgeek.com/mat-kearney-tickets/cerritos-california-cerritos-center-2027-08-21-7-30-pm/concert/18725672 | - |
+| tm-mat-kearney-2027-denver-g5vzz_44x-wom | mat-kearney | verify (applied) | 18725982 | https://seatgeek.com/mat-kearney-tickets/denver-colorado-paramount-theatre-co-2027-08-17-7-30-pm/concert/18725982 | - |
+| tm-mat-kearney-2027-san-diego-vvg1iz_fdgrqma | mat-kearney | verify (applied) | 18726046 | https://seatgeek.com/mat-kearney-tickets/san-diego-california-humphreys-concerts-by-the-bay-2027-08-20-7-30-pm/concert/18726046 | - |
+| tm-mat-kearney-2027-sacramento-g5vyz_4l700ei | mat-kearney | verify (applied) | 18725973 | https://seatgeek.com/mat-kearney-tickets/sacramento-california-ace-of-spades-2027-08-24-6-30-pm/concert/18725973 | - |
 | tm-the-red-clay-strays-2027-englewood-z7r9jz1aaef4s | the-red-clay-strays | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-mat-kearney-2027-spokane-g5vzz_4p1-wsc | mat-kearney | verify (applied) | 18725860 | https://seatgeek.com/mat-kearney-tickets/spokane-washington-knitting-factory-spokane-2027-08-31-7-30-pm/concert/18725860 | - |
 | tm-mat-kearney-2027-boise-z7r9jz1aa7yr7 | mat-kearney | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-mana-2027-highland-z7r9jz1aa7x_6 | mana | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-mana-2027-highland-z7r9jz1aa7ng- | mana | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-mat-kearney-2027-grand-junction-g5vzz_fmzp1a6 | mat-kearney | verify (applied) | 18726031 | https://seatgeek.com/mat-kearney-tickets/grand-junction-colorado-avalon-theatre-co-2027-09-03-7-30-pm/concert/18726031 | - |
 | tm-mana-2027-highland-z7r9jz1aa7x_a | mana | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-fontaines-d-c-2027-asheville-z7r9jz1aae84b | fontaines-d-c | verify (applied) | 18642845 | https://seatgeek.com/fontaines-d-c-tickets/asheville-north-carolina-hellbenders-by-the-orange-peel-2027-10-07-6-30-pm/concert/18642845 | - |
-| tm-mat-kearney-2027-madison-vv1a6zk48gkehsz0t | mat-kearney | clear (applied) | - | - | stored URL failed: venue mismatch: 'Orpheum Theater' vs 'Orpheum Theatre - Madison'; no qualifying replacement found |
+| tm-marc-anthony-2027-las-vegas-1avjz_3gkmcylvt | marc-anthony | verify (applied) | 18608826 | https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-09-10-9-pm/concert/18608826 | - |
+| tm-marc-anthony-2027-las-vegas-1avjz_3gkmcdlga | marc-anthony | verify (applied) | 18608828 | https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-09-11-9-pm/concert/18608828 | - |
+| tm-marc-anthony-2027-las-vegas-1avjz_3gkmcwlg2 | marc-anthony | verify (applied) | 18608829 | https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-09-17-9-pm/concert/18608829 | - |
 | tm-mat-kearney-2027-shipshewana-z7r9jz1aa7t8k | mat-kearney | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-mat-kearney-2027-cleveland-vv1aazk4fgkdoxqwy | mat-kearney | verify (applied) | 18725705 | https://seatgeek.com/mat-kearney-tickets/cleveland-ohio-house-of-blues-cleveland-2027-11-10-6-30-pm/concert/18725705 | - |
-| tm-mat-kearney-2027-omaha-1aozk4kgkes-kce | mat-kearney | verify (applied) | 18726697 | https://seatgeek.com/mat-kearney-tickets/omaha-nebraska-steelhouse-omaha-2027-11-12-7-30-pm/concert/18726697 | - |
-| tm-mat-kearney-2027-atlanta-vvg1zz_4golpzd | mat-kearney | verify (applied) | 18725655 | https://seatgeek.com/mat-kearney-tickets/atlanta-georgia-the-tabernacle-atlanta-2027-11-19-7-30-pm/concert/18725655 | - |
-| tm-sombr-2026-indianapolis-vv1aazk3apba_ze8u | sombr | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18175596 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-michelle-branch-2026-asbury-park-k7vgf_c7zp9vt | michelle-branch | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18373504 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-amble-2026-boston-vv177z_agkwhenya | amble | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18222463 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-mico-2026-toronto-177zv0g61sycnt1 | mico | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18252202 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-zac-brown-band-2026-detroit-vv1afzk8vgkdi6e86 | zac-brown-band | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18032030 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-sleeping-with-sirens-2026-philadelphia-vvg1fz_gm9cqxe | sleeping-with-sirens | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18312116 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-little-big-town-2026-durham-g5evz_gplfpyl | little-big-town | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18292628 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-stella-lefty-2026-dallas-vvg1yz_1xpakgv | stella-lefty | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18252621 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-tobymac-2026-evansville-vvg1fz_1ipflre | tobymac | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18239020 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-dylan-scott-2026-westbury-k7vgf_oh3fr0h | dylan-scott | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18529124 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-sabaton-2026-dallas-vvg1yzbwnj2elc | sabaton | unverify (applied) | - | - | stored URL failed: SeatGeek /events/17732671 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-rod-wave-2026-columbia-g5evz_udquqas | rod-wave | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18320065 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-a-boogie-wit-da-hoodie-2026-boston-vv1a8vpgbgaumyrw | a-boogie-wit-da-hoodie | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18637279 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-anuel-aa-2026-belmont-park-1ayzkffgkd4zfkj | anuel-aa | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18579489 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-three-days-grace-2026-tulsa-1aozkupgkdxuamf | three-days-grace | unverify (applied) | - | - | stored URL failed: SeatGeek /events/17895159 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-jodeci-2026-detroit-vvg1oz_2lg-loc | jodeci | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18407238 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-jonas-brothers-2026-birmingham-1aezz_8gkmdc0pi | jonas-brothers | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18503986 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-dave-matthews-band-2026-nashville-g5viz_2znwmqm | dave-matthews-band | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18474895 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-arcangel-2026-irving-vvg1yz_5kyqgxt | arcangel | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18266326 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-dan-shay-2026-anaheim-vvg10z_1damnyd | dan-shay | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18250837 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-cristian-castro-2026-glendale-1a_zko8gkebja4t | cristian-castro | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18078145 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-the-smashing-pumpkins-2026-seattle-vvg1hz_1wymaop | the-smashing-pumpkins | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18250170 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-ricky-martin-2026-lincoln-g5vyz_grrfawg | ricky-martin | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18318163 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-barry-manilow-2026-las-vegas-17ayvxg62dwppux | barry-manilow | unverify (applied) | - | - | stored URL failed: SeatGeek /events/17637145 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-mon-laferte-2026-san-jose-g5vyz_kmf8y1d | mon-laferte | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18140311 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
-| tm-ed-sheeran-2026-tampa-0d006331d60a3a7a | ed-sheeran | verify (applied) | 17738474 | https://seatgeek.com/ed-sheeran-tickets/tampa-florida-raymond-james-stadium-2026-11-07-5-30-pm/concert/17738474 | - |
-| tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzlmmg | olivia-rodrigo | verify (applied) | 18211690 | https://seatgeek.com/olivia-rodrigo-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-07-7-pm/concert/18211690 | - |
-| tm-tobymac-2026-cleveland-vvg1fz_1raogqa | tobymac | verify (applied) | 18238371 | https://seatgeek.com/tobymac-tickets/cleveland-ohio-wolstein-center-2026-11-07-7-pm/concert/18238371 | - |
-| tm-amble-2026-brooklyn-k7vgf_ad7j_qa | amble | verify (applied) | 18223366 | https://seatgeek.com/amble-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-07-7-pm/concert/18223366 | - |
-| tm-mico-2026-toronto-177zv0g659n9upv | mico | verify (applied) | 18260543 | https://seatgeek.com/mico-tickets/toronto-canada-the-danforth-music-hall-2026-11-07-7-pm/concert/18260543 | - |
-| tm-sleeping-with-sirens-2026-new-york-k7vgf_gnebmkt | sleeping-with-sirens | verify (applied) | 18311638 | https://seatgeek.com/sleeping-with-sirens-tickets/new-york-new-york-manhattan-center-hammerstein-ballroom-2026-11-07-7-pm/concert/18311638 | - |
-| tm-gavin-adcock-2026-reading-vv1aezkotgkeivbwv | gavin-adcock | verify (applied) | 18126468 | https://seatgeek.com/gavin-adcock-tickets/reading-pennsylvania-santander-arena-2026-11-07-7-pm/concert/18126468 | - |
-| tm-journey-2026-uniondale-k7vgf_1ka_zph | journey | verify (applied) | 18237083 | https://seatgeek.com/journey-tickets/uniondale-new-york-nassau-coliseum-2026-11-07-7-30-pm/concert/18237083 | - |
-| tm-stella-lefty-2026-houston-g5diz_1ymrkkp | stella-lefty | verify (applied) | 18252613 | https://seatgeek.com/stella-lefty-tickets/houston-texas-the-bronze-peacock-at-house-of-blues-houston-2026-11-07-7-pm/concert/18252613 | - |
-| tm-sabaton-2026-houston-g5dizbwlrp709 | sabaton | verify (applied) | 17732669 | https://seatgeek.com/sabaton-tickets/houston-texas-713-music-hall-2026-11-07-7-pm/concert/17732669 | - |
-| tm-a-boogie-wit-da-hoodie-2026-boston-vv1a8vpgbgauu_ra | a-boogie-wit-da-hoodie | verify (applied) | 18629299 | https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/boston-massachusetts-agganis-arena-2026-11-07-8-pm/concert/18629299 | - |
-| tm-air-supply-2026-stamford-g5vvz_axiecx- | air-supply | verify (applied) | 18126968 | https://seatgeek.com/air-supply-tickets/stamford-connecticut-the-palace-theatre-stamford-2026-11-07-8-pm/concert/18126968 | - |
-| tm-three-days-grace-2026-saint-louis-vv1akzku0gkd5ahjs | three-days-grace | verify (applied) | 17895158 | https://seatgeek.com/three-days-grace-tickets/saint-louis-missouri-enterprise-center-2026-11-07-7-pm/concert/17895158 | - |
-| tm-dave-matthews-band-2026-chicago-vvg18z_cde9wdz | dave-matthews-band | verify (applied) | 18474896 | https://seatgeek.com/dave-matthews-band-tickets/chicago-illinois-united-center-2026-11-07-7-30-pm/concert/18474896 | - |
-| tm-steve-lacy-2026-austin-g5diz_8pb91k2 | steve-lacy | verify (applied) | 18485938 | https://seatgeek.com/steve-lacy-tickets/austin-texas-moody-amphitheater-2026-11-07-8-pm/concert/18485938 | - |
-| tm-rawayana-2026-chicago-vv178z_kgkrasef7 | rawayana | verify (applied) | 18126546 | https://seatgeek.com/rawayana-tickets/chicago-illinois-byline-bank-aragon-ballroom-2026-11-07-8-pm/concert/18126546 | - |
-| tm-jodeci-2026-chicago-vvg1jz_2brfg7b | jodeci | verify (applied) | 18407239 | https://seatgeek.com/jodeci-tickets/chicago-illinois-arie-crown-theater-2026-11-07-8-pm/concert/18407239 | - |
-| tm-dan-shay-2026-mountain-view-g5vyz_1wl9ah6 | dan-shay | verify (applied) | 18250838 | https://seatgeek.com/dan-shay-tickets/mountain-view-california-shoreline-amphitheatre-2026-11-07-7-pm/concert/18250838 | - |
-| tm-cristian-castro-2026-el-paso-vvg1yz_adzeyjf | cristian-castro | verify (applied) | 18078276 | https://seatgeek.com/cristian-castro-tickets/el-paso-texas-el-paso-county-coliseum-2026-11-07-8-pm/concert/18078276 | - |
-| tm-barry-manilow-2026-las-vegas-17ayvxg62dwpuu0 | barry-manilow | verify (applied) | 17637146 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-11-07-7-pm/concert/17637146 | - |
-| tm-mon-laferte-2026-inglewood-vv170z_kgksmomdw | mon-laferte | verify (applied) | 18140313 | https://seatgeek.com/mon-laferte-tickets/inglewood-california-kia-forum-2026-11-07-8-pm/concert/18140313 | - |
-| tm-metallica-2026-las-vegas-1fayv048rez72afa | metallica | verify (applied) | 18103477 | https://seatgeek.com/metallica-tickets/las-vegas-nevada-sphere-2026-11-07-8-30-pm/concert/18103477 | - |
-| tm-trivium-2026-grand-rapids-vvg1oz_cnishwh | trivium | verify (applied) | 18391933 | https://seatgeek.com/trivium-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2026-11-08-5-30-pm/concert/18391933 | - |
-| tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzoemy | olivia-rodrigo | verify (applied) | 18211692 | https://seatgeek.com/olivia-rodrigo-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-08-7-pm/concert/18211692 | - |
-| tm-sombr-2026-columbus-vv1kv8v0xbga57f2- | sombr | verify (applied) | 18175600 | https://seatgeek.com/sombr-tickets/columbus-ohio-nationwide-arena-2026-11-08-7-pm/concert/18175600 | - |
-| tm-tobymac-2026-greensboro-g5evz_1nayk4t | tobymac | verify (applied) | 18238331 | https://seatgeek.com/tobymac-tickets/greensboro-north-carolina-first-horizon-coliseum-2026-11-08-7-pm/concert/18238331 | - |
-| tm-sleeping-with-sirens-2026-baltimore-17a8v0g6gxtb5eg | sleeping-with-sirens | verify (applied) | 18312278 | https://seatgeek.com/sleeping-with-sirens-tickets/baltimore-maryland-nevermore-hall-2026-11-08-7-pm/concert/18312278 | - |
-| tm-blue-october-2026-nashville-vv1aazkosgkezrhqm | blue-october | verify (applied) | 18141852 | https://seatgeek.com/blue-october-tickets/nashville-indiana-brown-county-music-center-2026-11-08-7-30-pm/concert/18141852 | - |
-| tm-the-red-clay-strays-2026-jonesboro-g5viz_f5t3whv | the-red-clay-strays | verify (applied) | 18200020 | https://seatgeek.com/the-red-clay-strays-tickets/jonesboro-arkansas-first-national-bank-arena-2026-11-08-6-30-pm/concert/18200020 | - |
-| tm-jodeci-2026-indianapolis-vvg1fz_2rfzpki | jodeci | verify (applied) | 18407240 | https://seatgeek.com/jodeci-tickets/indianapolis-indiana-murat-theatre-at-old-national-centre-2026-11-08-7-30-pm/concert/18407240 | - |
-| tm-mana-2026-austin-g5dizbmoaqckm | mana | verify (applied) | 17938859 | https://seatgeek.com/mana-tickets/austin-texas-moody-center-atx-2026-11-08-8-30-pm/concert/17938859 | - |
-| tm-beck-2026-seattle-vvg1hz_3rxx2pm | beck | verify (applied) | 18590355 | https://seatgeek.com/beck-tickets/seattle-washington-benaroya-hall-2026-11-08-7-pm/concert/18590355 | - |
-| tm-ricky-martin-2026-temecula-vvg1iz_g21wliz | ricky-martin | verify (applied) | 18325393 | https://seatgeek.com/ricky-martin-tickets/temecula-california-pechanga-resort-casino-2026-11-08-7-30-pm/concert/18325393 | - |
-| tm-daughtry-2026-napa-g5vyz_gnjfn19 | daughtry | verify (applied) | 18316806 | https://seatgeek.com/daughtry-tickets/napa-california-uptown-theatre-napa-2026-11-08-7-pm/concert/18316806 | - |
-| tm-the-psychedelic-furs-2026-del-mar-vvg1iz_a3sju3n | the-psychedelic-furs | verify (applied) | 18091775 | https://seatgeek.com/the-psychedelic-furs-tickets/del-mar-california-the-sound-del-mar-2026-11-08-8-pm/concert/18091775 | - |
-| tm-the-smashing-pumpkins-2026-san-jose-g5vyz_1dhcziz | the-smashing-pumpkins | verify (applied) | 18250171 | https://seatgeek.com/the-smashing-pumpkins-tickets/san-jose-california-sap-center-at-san-jose-2026-11-08-8-pm/concert/18250171 | - |
-| tm-mon-laferte-2026-inglewood-vvg10z_gloruht | mon-laferte | verify (applied) | 18311530 | https://seatgeek.com/mon-laferte-tickets/inglewood-california-kia-forum-2026-11-08-8-pm/concert/18311530 | - |
-| tm-dave-matthews-band-2026-providence-vvg17z_2piw04c | dave-matthews-band | verify (applied) | 18474897 | https://seatgeek.com/dave-matthews-band-tickets/providence-rhode-island-amica-mutual-pavilion-2026-11-09-7-30-pm/concert/18474897 | - |
-| tm-rod-wave-2026-orlando-17fov0g6u6bzp82 | rod-wave | verify (applied) | 18320069 | https://seatgeek.com/rod-wave-tickets/orlando-florida-kia-center-2026-11-09-8-30-pm/concert/18320069 | - |
-| tm-three-days-grace-2026-kansas-city-vv1akzkujgkeirwar | three-days-grace | verify (applied) | 17895165 | https://seatgeek.com/three-days-grace-tickets/kansas-city-missouri-t-mobile-center-2026-11-09-7-pm/concert/17895165 | - |
-| tm-jonas-brothers-2026-oklahoma-city-vvg1yz_8mnyt3j | jonas-brothers | verify (applied) | 18503896 | https://seatgeek.com/jonas-brothers-tickets/oklahoma-city-oklahoma-paycom-center-2026-11-09-7-30-pm/concert/18503896 | - |
-| tm-beck-2026-vancouver-1aozk3a0babze8k | beck | verify (applied) | 18194425 | https://seatgeek.com/beck-tickets/vancouver-canada-queen-elizabeth-theatre-vancouver-2026-11-09-8-pm/concert/18194425 | - |
-| tm-sienna-spiro-2026-san-francisco-g5vyz_gkw-ewe | sienna-spiro | verify (applied) | 18297308 | https://seatgeek.com/sienna-spiro-tickets/san-francisco-california-castro-theatre-2026-11-09-8-pm/concert/18297308 | - |
-| tm-trivium-2026-silver-spring-17a8v0g6cngp9y6 | trivium | verify (applied) | 18391934 | https://seatgeek.com/trivium-tickets/silver-spring-maryland-the-fillmore-silver-spring-2026-11-10-6-35-pm/concert/18391934 | - |
-| tm-stella-lefty-2026-atlanta-vvg1zz_1byaqd- | stella-lefty | verify (applied) | 18251775 | https://seatgeek.com/stella-lefty-tickets/atlanta-georgia-the-masquerade-hell-2026-11-10-7-pm/concert/18251775 | - |
-| tm-the-neighbourhood-2026-atlanta-vvg1zz_73eik7i | the-neighbourhood | verify (applied) | 18085136 | https://seatgeek.com/the-neighbourhood-tickets/atlanta-georgia-state-farm-arena-1-2026-11-10-7-30-pm/concert/18085136 | - |
-| tm-dave-matthews-band-2026-baltimore-1ka8vpevgauw1qw | dave-matthews-band | verify (applied) | 18474899 | https://seatgeek.com/dave-matthews-band-tickets/baltimore-maryland-cfg-bank-arena-2026-11-10-7-30-pm/concert/18474899 | - |
-| tm-michelle-branch-2026-chicago-vvg18z_c6jmind | michelle-branch | verify (applied) | 18373509 | https://seatgeek.com/michelle-branch-tickets/chicago-illinois-house-of-blues-chicago-2026-11-10-8-pm/concert/18373509 | - |
-| tm-amble-2026-philadelphia-vv17fz_agkycvjx3 | amble | verify (applied) | 18222479 | https://seatgeek.com/amble-tickets/philadelphia-pennsylvania-theatre-of-living-arts-2026-11-10-8-pm/concert/18222479 | - |
-| tm-rod-wave-2026-orlando-17fov0g6uhspnas | rod-wave | verify (applied) | 18414835 | https://seatgeek.com/rod-wave-tickets/orlando-florida-kia-center-2026-11-10-8-pm/concert/18414835 | - |
-| tm-jodeci-2026-cincinnati-17aov0g62qly9ie | jodeci | verify (applied) | 18407241 | https://seatgeek.com/jodeci-tickets/cincinnati-ohio-andrew-j-brady-music-center-2026-11-10-8-pm/concert/18407241 | - |
-| tm-pentatonix-2026-casper-g5vzz_2uvfg47 | pentatonix | verify (applied) | 18427194 | https://seatgeek.com/pentatonix-tickets/casper-wyoming-ford-wyoming-center-2026-11-10-7-pm/concert/18427194 | - |
-| tm-sienna-spiro-2026-los-angeles-vvg10z_gpwxv_j | sienna-spiro | verify (applied) | 18297309 | https://seatgeek.com/sienna-spiro-tickets/los-angeles-california-the-wiltern-2026-11-10-8-pm/concert/18297309 | - |
-| tm-daughtry-2026-anaheim-vvg10z_grix-n9 | daughtry | verify (applied) | 18316807 | https://seatgeek.com/daughtry-tickets/anaheim-california-city-national-grove-of-anaheim-2026-11-10-7-pm/concert/18316807 | - |
-| tm-don-omar-2026-ontario-vvg10z_1tpplao | don-omar | verify (applied) | 18250868 | https://seatgeek.com/don-omar-tickets/ontario-california-toyota-arena-ontario-2026-11-10-8-pm/concert/18250868 | - |
-| tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw2ij5 | olivia-rodrigo | verify (applied) | 18211693 | https://seatgeek.com/olivia-rodrigo-tickets/atlanta-georgia-state-farm-arena-1-2026-11-11-7-pm/concert/18211693 | - |
-| tm-amble-2026-washington-1avfz_agkmvpzjt | amble | verify (applied) | 18222468 | https://seatgeek.com/amble-tickets/washington-district-of-columbia-9-30-club-2026-11-11-7-pm/concert/18222468 | - |
-| tm-the-neighbourhood-2026-orlando-1axzkoogkembvjl | the-neighbourhood | verify (applied) | 18085138 | https://seatgeek.com/the-neighbourhood-tickets/orlando-florida-kia-center-2026-11-11-7-30-pm/concert/18085138 | - |
-| tm-sleeping-with-sirens-2026-charlotte-g5evz_gnuzybg | sleeping-with-sirens | verify (applied) | 18311702 | https://seatgeek.com/sleeping-with-sirens-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-11-11-7-pm/concert/18311702 | - |
-| tm-missio-2026-denver-g5vzz_8l-vdn4 | missio | verify (applied) | 18492221 | https://seatgeek.com/missio-tickets/denver-colorado-marquis-theater-denver-2026-11-11-7-pm/concert/18492221 | - |
-| tm-sabaton-2026-phoenix-1av0zbwgkrn_kuq | sabaton | verify (applied) | 17732667 | https://seatgeek.com/sabaton-tickets/phoenix-arizona-arizona-financial-theatre-2026-11-11-7-pm/concert/17732667 | - |
-| tm-katseye-2026-dallas-vvg1yz_1jrlmao | katseye | verify (applied) | 18240151 | https://seatgeek.com/katseye-tickets/dallas-texas-american-airlines-center-2026-11-11-8-pm/concert/18240151 | - |
-| tm-three-days-grace-2026-denver-g5vzzbuiyxc-- | three-days-grace | verify (applied) | 17895166 | https://seatgeek.com/three-days-grace-tickets/denver-colorado-ball-arena-2026-11-11-7-pm/concert/17895166 | - |
-| tm-the-psychedelic-furs-2026-riverside-vvg1iz_cbbunjv | the-psychedelic-furs | verify (applied) | 18394805 | https://seatgeek.com/the-psychedelic-furs-tickets/riverside-california-fox-performing-arts-center-2026-11-11-7-pm/concert/18394805 | - |
-| tm-the-smashing-pumpkins-2026-phoenix-17k8v0g61xa1k9d | the-smashing-pumpkins | verify (applied) | 18250172 | https://seatgeek.com/the-smashing-pumpkins-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-11-8-pm/concert/18250172 | - |
-| tm-lionel-richie-2026-las-vegas-17ayv0g62k5zuj3 | lionel-richie | verify (applied) | 18405684 | https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-11-8-pm/concert/18405684 | - |
-| tm-brand-new-2026-san-francisco-g5vyz_ghzwhnz | brand-new | verify (applied) | 18319858 | https://seatgeek.com/brand-new-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-11-8-pm/concert/18319858 | - |
-| tm-beartooth-2026-new-york-k7vgf_1s1uowe | beartooth | verify (applied) | 18253044 | https://seatgeek.com/beartooth-tickets/new-york-new-york-manhattan-center-hammerstein-ballroom-2026-11-12-6-30-pm/concert/18253044 | - |
-| tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw8bjb | olivia-rodrigo | verify (applied) | 18211698 | https://seatgeek.com/olivia-rodrigo-tickets/atlanta-georgia-state-farm-arena-1-2026-11-12-7-pm/concert/18211698 | - |
-| tm-sombr-2026-pittsburgh-1kaov0xfga560gt | sombr | verify (applied) | 18175603 | https://seatgeek.com/sombr-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-12-7-pm/concert/18175603 | - |
-| tm-stella-lefty-2026-toronto-177zv0g61mkytjo | stella-lefty | verify (applied) | 18252162 | https://seatgeek.com/stella-lefty-tickets/toronto-canada-the-opera-house-toronto-2026-11-12-7-pm/concert/18252162 | - |
-| tm-the-neighbourhood-2026-miami-vvg1vz_7e0samz | the-neighbourhood | verify (applied) | 18085137 | https://seatgeek.com/the-neighbourhood-tickets/miami-florida-kaseya-center-2026-11-12-7-30-pm/concert/18085137 | - |
-| tm-dave-matthews-band-2026-new-york-g5diz_2njwaf8 | dave-matthews-band | verify (applied) | 18474900 | https://seatgeek.com/dave-matthews-band-tickets/new-york-new-york-madison-square-garden-2026-11-12-7-30-pm/concert/18474900 | - |
-| tm-blue-october-2026-red-bank-g5vvz_kudtusm | blue-october | verify (applied) | 18141374 | https://seatgeek.com/blue-october-tickets/red-bank-new-jersey-hackensack-meridian-health-theatre-at-count-basie-center-2026-11-12-8-pm/concert/18141374 | - |
-| tm-pentatonix-2026-lincoln-vv1akzkf7gkdppsjy | pentatonix | verify (applied) | 18427193 | https://seatgeek.com/pentatonix-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-11-12-7-pm/concert/18427193 | - |
-| tm-treaty-oak-revival-2026-austin-g5diz_19twyeh | treaty-oak-revival | verify (applied) | 18229329 | https://seatgeek.com/treaty-oak-revival-tickets/austin-texas-moody-center-atx-2026-11-12-7-pm/concert/18229329 | - |
-| tm-jon-pardi-2026-cedar-rapids-vvg1bz_ctazgrx | jon-pardi | verify (applied) | 18390356 | https://seatgeek.com/jon-pardi-tickets/cedar-rapids-iowa-alliant-energy-powerhouse-2026-11-12-7-pm/concert/18390356 | - |
-| tm-jodeci-2026-national-harbor-164zk3ffyzacfekc | jodeci | verify (applied) | 18407243 | https://seatgeek.com/jodeci-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-11-12-8-pm/concert/18407243 | - |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dw9jut | barry-manilow | verify (applied) | 17637148 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-11-12-7-pm/concert/17637148 | - |
+| tm-garth-brooks-2026-seattle-vvg1hz_4dkkd9j | garth-brooks | verify (applied) | 18715553 | https://seatgeek.com/garth-brooks-tickets/seattle-washington-climate-pledge-arena-2026-11-12-7-30-pm/concert/18715553 | - |
+| tm-tyla-2026-wheatland-g5vyz_2qphiow | tyla | verify (applied) | 18404272 | https://seatgeek.com/tyla-tickets/wheatland-california-hard-rock-live-sacramento-2026-11-12-8-pm/concert/18404272 | - |
+| tm-sienna-spiro-2026-los-angeles-vvg10z_udz2l-k | sienna-spiro | verify (applied) | 18317534 | https://seatgeek.com/sienna-spiro-tickets/los-angeles-california-orpheum-theatre-los-angeles-2026-11-12-8-pm/concert/18317534 | - |
+| tm-the-smashing-pumpkins-2026-inglewood-vvg10z_1t5e4o_ | the-smashing-pumpkins | verify (applied) | 18250173 | https://seatgeek.com/the-smashing-pumpkins-tickets/inglewood-california-kia-forum-2026-11-12-8-pm/concert/18250173 | - |
+| tm-john-summit-2026-columbus-vvg1fz_52gqiba | john-summit | verify (applied) | 18257252 | https://seatgeek.com/john-summit-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2026-11-13-7-pm/concert/18257252 | - |
+| tm-dave-matthews-band-2026-new-york-g5diz_2njdtfa | dave-matthews-band | verify (applied) | 18474898 | https://seatgeek.com/dave-matthews-band-tickets/new-york-new-york-madison-square-garden-2026-11-13-7-30-pm/concert/18474898 | - |
+| tm-michelle-branch-2026-lexington-17aov0g6cdozqjd | michelle-branch | verify (applied) | 18373515 | https://seatgeek.com/michelle-branch-tickets/lexington-kentucky-manchester-music-hall-2026-11-13-8-pm/concert/18373515 | - |
+| tm-daughtry-2026-san-antonio-g5diz_gsupj1v | daughtry | verify (applied) | 18316813 | https://seatgeek.com/daughtry-tickets/san-antonio-texas-aztec-theatre-2026-11-13-8-pm/concert/18316813 | - |
+| tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkeinqmd | a-boogie-wit-da-hoodie | verify (applied) | 18645455 | https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/philadelphia-pennsylvania-liacouras-center-2026-11-13-8-pm/concert/18645455 | - |
+| tm-treaty-oak-revival-2026-the-woodlands-g5diz_1panpuq | treaty-oak-revival | verify (applied) | 18229327 | https://seatgeek.com/treaty-oak-revival-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-11-13-7-pm/concert/18229327 | - |
+| tm-jon-pardi-2026-peoria-vvg1jz_cjyd3ia | jon-pardi | verify (applied) | 18390874 | https://seatgeek.com/jon-pardi-tickets/peoria-illinois-peoria-civic-center-arena-2026-11-13-7-pm/concert/18390874 | - |
+| tm-gary-allan-2026-dodge-city-vvg1bz_gx9hm-8 | gary-allan | verify (applied) | 18344599 | https://seatgeek.com/gary-allan-tickets/dodge-city-kansas-united-wireless-arena-2026-11-13-7-30-pm/concert/18344599 | - |
+| tm-foy-vance-2026-seattle-vvg1hz_7scn270 | foy-vance | verify (applied) | 18084359 | https://seatgeek.com/foy-vance-tickets/seattle-washington-neptune-theatre-wa-2026-11-13-7-pm/concert/18084359 | - |
+| tm-tyla-2026-san-francisco-g5vyz_2fimqin | tyla | verify (applied) | 18404273 | https://seatgeek.com/tyla-tickets/oakland-california-fox-theater-oakland-2026-11-13-8-pm/concert/18404273 | - |
+| tm-steve-lacy-2026-las-vegas-169zkfdovza26a51 | steve-lacy | verify (applied) | 18485946 | https://seatgeek.com/steve-lacy-tickets/las-vegas-nevada-the-cosmopolitan-of-las-vegas-2026-11-13-8-pm/concert/18485946 | - |
+| tm-lionel-richie-2026-las-vegas-17ayv0g62k5zcj9 | lionel-richie | verify (applied) | 18405685 | https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-13-8-pm/concert/18405685 | - |
+| tm-garth-brooks-2026-seattle-vvg1hz_fstanbp | garth-brooks | verify (applied) | 18686081 | https://seatgeek.com/garth-brooks-tickets/seattle-washington-climate-pledge-arena-2026-11-13-8-pm/concert/18686081 | - |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwbkui | barry-manilow | verify (applied) | 17637150 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-11-13-8-pm/concert/17637150 | - |
+| tm-eagles-2026-las-vegas-1a9zk37gkdxvozi | eagles | verify (applied) | 18219945 | https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-13-8-30-pm/concert/18219945 | - |
+| tm-journey-2026-greenville-g5evz_1k1vuwb | journey | verify (applied) | 18237123 | https://seatgeek.com/journey-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-11-14-7-30-pm/concert/18237123 | - |
+| tm-blue-october-2026-wilkes-barre-vv1aezkosgkdamrl_ | blue-october | verify (applied) | 18141441 | https://seatgeek.com/blue-october-tickets/wilkes-barre-pennsylvania-f-m-kirby-center-2026-11-14-8-pm/concert/18141441 | - |
+| tm-daughtry-2026-dallas-vvg1yz_gea3drr | daughtry | verify (applied) | 18316816 | https://seatgeek.com/daughtry-tickets/dallas-texas-majestic-theatre-dallas-2026-11-14-7-pm/concert/18316816 | - |
+| tm-the-neighbourhood-2026-nashville-g5viz_kmzyt_i | the-neighbourhood | verify (applied) | 18126039 | https://seatgeek.com/the-neighbourhood-tickets/nashville-tennessee-the-truth-nashville-2026-11-14-7-30-pm/concert/18126039 | - |
+| tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkecacwb | a-boogie-wit-da-hoodie | verify (applied) | 18629507 | https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/philadelphia-pennsylvania-liacouras-center-2026-11-14-8-pm/concert/18629507 | - |
+| tm-jon-pardi-2026-independence-vvg1bz_cu03zzw | jon-pardi | verify (applied) | 18390529 | https://seatgeek.com/jon-pardi-tickets/independence-missouri-cable-dahmer-arena-2026-11-14-7-pm/concert/18390529 | - |
+| tm-air-supply-2026-westbury-k7vgf_fkzchcp | air-supply | verify (applied) | 18206347 | https://seatgeek.com/air-supply-tickets/westbury-new-york-flagstar-at-westbury-music-fair-2026-11-14-8-pm/concert/18206347 | - |
+| tm-amble-2026-nashville-g5viz_gnxglok | amble | verify (applied) | 18312209 | https://seatgeek.com/amble-tickets/nashville-tennessee-brooklyn-bowl-nashville-2026-11-14-8-pm/concert/18312209 | - |
+| tm-foy-vance-2026-spokane-g5vzz_akiabhz | foy-vance | verify (applied) | 18084166 | https://seatgeek.com/foy-vance-tickets/spokane-washington-knitting-factory-spokane-2026-11-14-7-pm/concert/18084166 | - |
+| tm-sabaton-2026-wheatland-g5vyzbwpukkfz | sabaton | verify (applied) | 17732679 | https://seatgeek.com/sabaton-tickets/wheatland-california-hard-rock-live-sacramento-2026-11-14-7-pm/concert/17732679 | - |
+| tm-brand-new-2026-phoenix-17k8v0g6gh6bhfj | brand-new | verify (applied) | 18319860 | https://seatgeek.com/brand-new-tickets/phoenix-arizona-arizona-financial-theatre-2026-11-14-8-pm/concert/18319860 | - |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwbuur | barry-manilow | verify (applied) | 17637151 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-11-14-7-pm/concert/17637151 | - |
+| tm-lionel-richie-2026-las-vegas-17ayv0g62k5yqjh | lionel-richie | verify (applied) | 18405683 | https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-14-8-pm/concert/18405683 | - |
+| tm-garth-brooks-2026-seattle-vvg1hz_fghqxgl | garth-brooks | verify (applied) | 18686083 | https://seatgeek.com/garth-brooks-tickets/seattle-washington-climate-pledge-arena-2026-11-14-8-pm/concert/18686083 | - |
+| tm-eagles-2026-las-vegas-1a9zk37gkdxg-zv | eagles | verify (applied) | 18219946 | https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-14-8-30-pm/concert/18219946 | - |
+| tm-garth-brooks-2026-seattle-vvg1hz_4dkzhpm | garth-brooks | verify (applied) | 18706524 | https://seatgeek.com/garth-brooks-tickets/seattle-washington-climate-pledge-arena-2026-11-15-2-pm/concert/18706524 | - |
+| tm-pentatonix-2026-grand-rapids-vvg1oz_2h1hwe2 | pentatonix | verify (applied) | 18427197 | https://seatgeek.com/pentatonix-tickets/grand-rapids-michigan-van-andel-arena-2026-11-15-6-pm/concert/18427197 | - |
+| tm-beartooth-2026-national-harbor-17a8v0g61vjcef3 | beartooth | verify (applied) | 18253046 | https://seatgeek.com/beartooth-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-11-15-6-30-pm/concert/18253046 | - |
+| tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj | olivia-rodrigo | verify (applied) | 18211699 | https://seatgeek.com/olivia-rodrigo-tickets/orlando-florida-kia-center-2026-11-15-7-pm/concert/18211699 | - |
+| tm-jodeci-2026-bristol-g5viz_25fd7l0 | jodeci | verify (applied) | 18407251 | https://seatgeek.com/jodeci-tickets/bristol-virginia-hard-rock-hotel-and-casino-bristol-2026-11-15-7-pm/concert/18407251 | - |
+| tm-blue-october-2026-philadelphia-vv1aezkowgkdcmrr7 | blue-october | verify (applied) | 18141766 | https://seatgeek.com/blue-october-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2026-11-15-8-pm/concert/18141766 | - |
+| tm-tyla-2026-vancouver-1778v0g62hxtorg | tyla | verify (applied) | 18404303 | https://seatgeek.com/tyla-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-11-15-8-pm/concert/18404303 | - |
+| tm-arcangel-2026-denver-g5vzz_1bwrqu_ | arcangel | verify (applied) | 18266329 | https://seatgeek.com/arcangel-tickets/denver-colorado-paramount-theatre-co-2026-11-15-8-pm/concert/18266329 | - |
+| tm-rawayana-2026-inglewood-vv170z_kgkuw4lc4 | rawayana | verify (applied) | 18126384 | https://seatgeek.com/rawayana-tickets/inglewood-california-kia-forum-2026-11-15-8-pm/concert/18126384 | - |
+| tm-olivia-rodrigo-2026-orlando-1aefz_agkuwopdf | olivia-rodrigo | verify (applied) | 18211700 | https://seatgeek.com/olivia-rodrigo-tickets/orlando-florida-kia-center-2026-11-16-7-pm/concert/18211700 | - |
+| tm-sombr-2026-toronto-1a8zk36gkdv1i_l | sombr | verify (applied) | 18175613 | https://seatgeek.com/sombr-tickets/toronto-canada-scotiabank-arena-2026-11-16-7-pm/concert/18175613 | - |
+| tm-stella-lefty-2026-new-york-k7vgf_1dgeulr | stella-lefty | verify (applied) | 18251604 | https://seatgeek.com/stella-lefty-tickets/new-york-new-york-bowery-ballroom-2026-11-16-7-pm/concert/18251604 | - |
+| tm-amble-2026-new-orleans-g5viz_aeqhsnh | amble | verify (applied) | 18222773 | https://seatgeek.com/amble-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2026-11-16-7-pm/concert/18222773 | - |
+| tm-the-neighbourhood-2026-kansas-city-vv17bz_7gkr3ru0p | the-neighbourhood | verify (applied) | 18085139 | https://seatgeek.com/the-neighbourhood-tickets/kansas-city-missouri-t-mobile-center-2026-11-16-7-30-pm/concert/18085139 | - |
+| tm-journey-2026-saint-louis-vvg1bz_1qqkifj | journey | verify (applied) | 18237124 | https://seatgeek.com/journey-tickets/saint-louis-missouri-enterprise-center-2026-11-16-7-30-pm/concert/18237124 | - |
+| tm-foy-vance-2026-boise-g5vzz_akyqnb8 | foy-vance | verify (applied) | 18084164 | https://seatgeek.com/foy-vance-tickets/boise-idaho-knitting-factory-concert-house-boise-2026-11-16-7-pm/concert/18084164 | - |
+| tm-trivium-2026-laval-17g8v0g6cubsshb | trivium | verify (applied) | 18391948 | https://seatgeek.com/trivium-tickets/laval-canada-place-bell-2026-11-17-6-35-pm/concert/18391948 | - |
+| tm-amble-2026-austin-g5diz_ahr-flp | amble | verify (applied) | 18222798 | https://seatgeek.com/amble-tickets/austin-texas-emo-s-austin-2026-11-17-7-pm/concert/18222798 | - |
+| tm-sabaton-2026-salt-lake-city-g5vzzbwnvavqo | sabaton | verify (applied) | 17732681 | https://seatgeek.com/sabaton-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-17-7-pm/concert/17732681 | - |
+| tm-brandi-carlile-2026-minneapolis-vv1akzkfmgkdnqpgx | brandi-carlile | verify (applied) | 18626663 | https://seatgeek.com/brandi-carlile-tickets/minneapolis-minnesota-state-theatre-minneapolis-2026-11-17-8-pm/concert/18626663 | - |
+| tm-steve-lacy-2026-phoenix-16_zkf6fzza2g752 | steve-lacy | verify (applied) | 18485948 | https://seatgeek.com/steve-lacy-tickets/phoenix-arizona-arizona-financial-theatre-2026-11-17-8-pm/concert/18485948 | - |
+| tm-three-days-grace-2026-sacramento-g5vyzbu2whwe8 | three-days-grace | verify (applied) | 17895172 | https://seatgeek.com/three-days-grace-tickets/sacramento-california-golden-1-center-2026-11-17-7-pm/concert/17895172 | - |
+| tm-katseye-2026-seattle-vvg1hz_1e8gggs | katseye | verify (applied) | 18240158 | https://seatgeek.com/katseye-tickets/seattle-washington-climate-pledge-arena-2026-11-17-8-pm/concert/18240158 | - |
+| tm-trivium-2026-toronto-177zv0g62er1iat | trivium | verify (applied) | 18391949 | https://seatgeek.com/trivium-tickets/toronto-canada-the-theatre-at-great-canadian-casino-resort-toronto-2026-11-18-6-35-pm/concert/18391949 | - |
+| tm-amble-2026-dallas-vvg1yz_161iqqj | amble | verify (applied) | 18223872 | https://seatgeek.com/amble-tickets/dallas-texas-the-echo-lounge-music-hall-2026-11-18-7-pm/concert/18223872 | - |
+| tm-the-neighbourhood-2026-chicago-vv1a7zkoagkdxvkbx | the-neighbourhood | verify (applied) | 18140881 | https://seatgeek.com/the-neighbourhood-tickets/chicago-illinois-united-center-2026-11-18-7-30-pm/concert/18140881 | - |
+| tm-rod-wave-2026-atlanta-vvg1zz_uzryhlw | rod-wave | verify (applied) | 18320070 | https://seatgeek.com/rod-wave-tickets/atlanta-georgia-state-farm-arena-1-2026-11-18-8-30-pm/concert/18320070 | - |
+| tm-jodeci-2026-jersey-city-vvg1fz_2hzjb2j | jodeci | verify (applied) | 18407254 | https://seatgeek.com/jodeci-tickets/jersey-city-new-jersey-loew-s-jersey-theatre-2026-11-18-8-pm/concert/18407254 | - |
+| tm-victoria-monet-2026-chicago-vv1k8z_3bag7xjoo | victoria-monet | verify (applied) | 18579778 | https://seatgeek.com/victoria-monet-tickets/chicago-illinois-byline-bank-aragon-ballroom-2026-11-18-7-pm/concert/18579778 | - |
+| tm-brandi-carlile-2026-minneapolis-vv1akzkfmgkdnrguf | brandi-carlile | verify (applied) | 18626661 | https://seatgeek.com/brandi-carlile-tickets/minneapolis-minnesota-state-theatre-minneapolis-2026-11-18-8-pm/concert/18626661 | - |
+| tm-rawayana-2026-houston-g5diz_kwowtst | rawayana | verify (applied) | 18127552 | https://seatgeek.com/rawayana-tickets/houston-texas-713-music-hall-2026-11-18-8-pm/concert/18127552 | - |
+| tm-arcangel-2026-salt-lake-city-g5vzz_5343iam | arcangel | verify (applied) | 18266330 | https://seatgeek.com/arcangel-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-18-8-pm/concert/18266330 | - |
+| tm-three-days-grace-2026-san-jose-g5vyzbu3r_nwh | three-days-grace | verify (applied) | 17895175 | https://seatgeek.com/three-days-grace-tickets/san-jose-california-sap-center-at-san-jose-2026-11-18-7-pm/concert/17895175 | - |
+| tm-stella-lefty-2026-washington-17a8v0g61ujpeyi | stella-lefty | verify (applied) | 18252806 | https://seatgeek.com/stella-lefty-tickets/washington-district-of-columbia-the-atlantis-2026-11-19-6-30-pm/concert/18252806 | - |
+| tm-motionless-in-white-2026-newark-vvg1fz_5s7fn3l | motionless-in-white | verify (applied) | 18281913 | https://seatgeek.com/motionless-in-white-tickets/newark-new-jersey-prudential-center-2026-11-19-6-30-pm/concert/18281913 | - |
+| tm-the-neighbourhood-2026-detroit-vv17oz_7gkwiaino | the-neighbourhood | verify (applied) | 18085141 | https://seatgeek.com/the-neighbourhood-tickets/detroit-michigan-little-caesars-arena-2026-11-19-7-30-pm/concert/18085141 | - |
+| tm-metallica-2026-uncasville-g5vvz_6nrigot | metallica | verify (applied) | 18164315 | https://seatgeek.com/metallica-tickets/uncasville-connecticut-mohegan-sun-arena-2026-11-19-8-pm/concert/18164315 | - |
+| tm-trans-siberian-orchestra-2026-council-bluffs-vv17bz_8gkr7r5-j | trans-siberian-orchestra | verify (applied) | 18573355 | https://seatgeek.com/trans-siberian-orchestra-tickets/council-bluffs-iowa-mid-america-center-2026-11-19-7-pm/concert/18573355 | - |
+| tm-rod-wave-2026-atlanta-vvg1zz_uqszfce | rod-wave | verify (applied) | 18414834 | https://seatgeek.com/rod-wave-tickets/atlanta-georgia-state-farm-arena-1-2026-11-19-8-pm/concert/18414834 | - |
+| tm-stevie-wonder-2026-new-york-g5diz_gpossvv | stevie-wonder | verify (applied) | 18570214 | https://seatgeek.com/stevie-wonder-tickets/new-york-new-york-madison-square-garden-2026-11-19-8-pm/concert/18570214 | - |
+| tm-zac-brown-band-2026-lincoln-vv16kzk8wakzacfeeu | zac-brown-band | verify (applied) | 18032031 | https://seatgeek.com/zac-brown-band-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-11-19-7-pm/concert/18032031 | - |
+| tm-rawayana-2026-houston-g5diz_ad2y7sg | rawayana | verify (applied) | 18223585 | https://seatgeek.com/rawayana-tickets/houston-texas-713-music-hall-2026-11-19-8-pm/concert/18223585 | - |
+| tm-steve-lacy-2026-san-diego-vvg1iz_8prddbi | steve-lacy | verify (applied) | 18485949 | https://seatgeek.com/steve-lacy-tickets/san-diego-california-petco-park-2026-11-19-8-pm/concert/18485949 | - |
+| tm-katseye-2026-oakland-g5vyz_1m-ew1q | katseye | verify (applied) | 18240159 | https://seatgeek.com/katseye-tickets/oakland-california-oakland-arena-2026-11-19-8-pm/concert/18240159 | - |
+| tm-missio-2026-toronto-1avzz_8gklvsj7l | missio | verify (applied) | 18492369 | https://seatgeek.com/missio-tickets/toronto-canada-the-garrison-toronto-2026-11-20-6-30-pm/concert/18492369 | - |
+| tm-motionless-in-white-2026-pittsburgh-17aov0g65mh-tzb | motionless-in-white | verify (applied) | 18281916 | https://seatgeek.com/motionless-in-white-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-20-6-30-pm/concert/18281916 | - |
+| tm-doja-cat-2026-baltimore-1avfzbsgknfre1x | doja-cat | verify (applied) | 17769349 | https://seatgeek.com/doja-cat-tickets/baltimore-maryland-cfg-bank-arena-2026-11-20-7-30-pm/concert/17769349 | - |
+| tm-little-big-town-2026-detroit-vvg1oz_g9neqkq | little-big-town | verify (applied) | 18292640 | https://seatgeek.com/little-big-town-tickets/detroit-michigan-fox-theatre-detroit-2026-11-20-7-30-pm/concert/18292640 | - |
+| tm-sabaton-2026-omaha-1aozkgigkedlvji | sabaton | verify (applied) | 17732683 | https://seatgeek.com/sabaton-tickets/omaha-nebraska-steelhouse-omaha-2026-11-20-7-pm/concert/17732683 | - |
+| tm-brandi-carlile-2026-louisville-1apzkfugkdjvl2t | brandi-carlile | verify (applied) | 18626665 | https://seatgeek.com/brandi-carlile-tickets/louisville-kentucky-louisville-palace-2026-11-20-8-pm/concert/18626665 | - |
+| tm-jodeci-2026-baltimore-17a8v0g62qqx1z6 | jodeci | verify (applied) | 18407286 | https://seatgeek.com/jodeci-tickets/baltimore-maryland-the-paramount-baltimore-2026-11-20-8-pm/concert/18407286 | - |
+| tm-tyla-2026-denver-g5vzz_2qdtig- | tyla | verify (applied) | 18404274 | https://seatgeek.com/tyla-tickets/denver-colorado-fillmore-auditorium-denver-2026-11-20-6-30-pm/concert/18404274 | - |
+| tm-ty-myers-2026-austin-g5diz_kuopazl | ty-myers | verify (applied) | 18142345 | https://seatgeek.com/ty-myers-tickets/austin-texas-moody-center-atx-2026-11-20-7-30-pm/concert/18142345 | - |
+| tm-three-days-grace-2026-san-diego-vvg1izbuciwp5c | three-days-grace | verify (applied) | 17895176 | https://seatgeek.com/three-days-grace-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-11-20-7-pm/concert/17895176 | - |
+| tm-arcangel-2026-inglewood-vvg1iz_1r3weok | arcangel | verify (applied) | 18266331 | https://seatgeek.com/arcangel-tickets/inglewood-california-youtube-theater-2026-11-20-8-pm/concert/18266331 | - |
+| tm-trans-siberian-orchestra-2026-cincinnati-1apzkffgkdggxqt | trans-siberian-orchestra | verify (applied) | 18573352 | https://seatgeek.com/trans-siberian-orchestra-tickets/cincinnati-ohio-heritage-bank-center-2026-11-21-3-pm/concert/18573352 | - |
+| tm-trans-siberian-orchestra-2026-denver-g5vzz_o66yljp | trans-siberian-orchestra | verify (applied) | 18573356 | https://seatgeek.com/trans-siberian-orchestra-tickets/denver-colorado-ball-arena-2026-11-21-3-pm/concert/18573356 | - |
+| tm-the-neighbourhood-2026-brooklyn-1ayzkoagkdftezg | the-neighbourhood | verify (applied) | 18085142 | https://seatgeek.com/the-neighbourhood-tickets/brooklyn-new-york-barclays-center-2026-11-21-7-pm/concert/18085142 | - |
+| tm-treaty-oak-revival-2026-tulsa-1aezz_3x88ozdgea | treaty-oak-revival | verify (applied) | 18590276 | https://seatgeek.com/treaty-oak-revival-tickets/tulsa-oklahoma-bok-center-2026-11-21-6-pm/concert/18590276 | - |
+| tm-metallica-2026-uncasville-g5vvz_6n-zpjb | metallica | verify (applied) | 18164313 | https://seatgeek.com/metallica-tickets/uncasville-connecticut-mohegan-sun-arena-2026-11-21-8-pm/concert/18164313 | - |
+| tm-trivium-2026-chicago-vvg18z_cnmg_i8 | trivium | verify (applied) | 18391955 | https://seatgeek.com/trivium-tickets/chicago-illinois-byline-bank-aragon-ballroom-2026-11-21-6-35-pm/concert/18391955 | - |
+| tm-sabaton-2026-milwaukee-vv17jzbvgkusja2a | sabaton | verify (applied) | 17857308 | https://seatgeek.com/sabaton-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-21-7-pm/concert/17857308 | - |
+| tm-los-tigres-del-norte-2026-detroit-vv1kezv0jiga2jpfm | los-tigres-del-norte | verify (applied) | 18138848 | https://seatgeek.com/los-tigres-del-norte-tickets/detroit-michigan-fox-theatre-detroit-2026-11-21-8-pm/concert/18138848 | - |
+| tm-zac-brown-band-2026-rosemont-vv1a7zk8sgkdldbon | zac-brown-band | verify (applied) | 18032037 | https://seatgeek.com/zac-brown-band-tickets/rosemont-illinois-allstate-arena-2026-11-21-7-pm/concert/18032037 | - |
+| tm-brandi-carlile-2026-louisville-1apzkfugkdjal8x | brandi-carlile | verify (applied) | 18626671 | https://seatgeek.com/brandi-carlile-tickets/louisville-kentucky-louisville-palace-2026-11-21-8-pm/concert/18626671 | - |
+| tm-ty-myers-2026-fort-worth-vvg1yz_61djqel | ty-myers | verify (applied) | 18142347 | https://seatgeek.com/ty-myers-tickets/fort-worth-texas-dickies-arena-2026-11-21-7-30-pm/concert/18142347 | - |
+| tm-death-cab-for-cutie-2026-chicago-vvg18z_cej4l_d | death-cab-for-cutie | verify (applied) | 18393602 | https://seatgeek.com/death-cab-for-cutie-tickets/chicago-illinois-the-salt-shed-indoors-2026-11-21-8-pm/concert/18393602 | - |
+| tm-stevie-wonder-2026-chicago-vv1a7zkfngkd8ke_p | stevie-wonder | verify (applied) | 18570213 | https://seatgeek.com/stevie-wonder-tickets/chicago-illinois-united-center-2026-11-21-8-pm/concert/18570213 | - |
+| tm-victoria-monet-2026-toronto-1a8zkf-gkdrpzii | victoria-monet | verify (applied) | 18579799 | https://seatgeek.com/victoria-monet-tickets/toronto-canada-coca-cola-coliseum-2026-11-21-8-pm/concert/18579799 | - |
+| tm-rawayana-2026-irving-vvg1yz_kyui28o | rawayana | verify (applied) | 18127554 | https://seatgeek.com/rawayana-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-21-8-pm/concert/18127554 | - |
+| tm-gary-allan-2026-biloxi-g5viz_889usjk | gary-allan | verify (applied) | 18472669 | https://seatgeek.com/gary-allan-tickets/biloxi-mississippi-beau-rivage-theatre-2026-11-21-8-pm/concert/18472669 | - |
+| tm-arcangel-2026-san-jose-g5vyz_1s5ejmh | arcangel | verify (applied) | 18266334 | https://seatgeek.com/arcangel-tickets/san-jose-california-san-jose-civic-2026-11-21-8-pm/concert/18266334 | - |
+| tm-katseye-2026-los-angeles-g5eyz_1rkf-rx | katseye | verify (applied) | 18240162 | https://seatgeek.com/katseye-tickets/los-angeles-california-crypto-com-arena-2026-11-21-8-pm/concert/18240162 | - |
+| tm-pentatonix-2026-hamilton-1a8zkf7gkdvkv7f | pentatonix | verify (applied) | 18427238 | https://seatgeek.com/pentatonix-tickets/hamilton-canada-td-coliseum-2026-11-22-6-pm/concert/18427238 | - |
+| tm-the-neighbourhood-2026-brooklyn-15dzz_aozvwft | the-neighbourhood | verify (applied) | 18194371 | https://seatgeek.com/the-neighbourhood-tickets/brooklyn-new-york-barclays-center-2026-11-22-6-pm/concert/18194371 | - |
+| tm-missio-2026-boston-vv177z_8gklypyp_ | missio | verify (applied) | 18492289 | https://seatgeek.com/missio-tickets/boston-massachusetts-brighton-music-hall-2026-11-22-7-pm/concert/18492289 | - |
+| tm-trivium-2026-madison-vvg1jz_cbaz-zj | trivium | verify (applied) | 18391957 | https://seatgeek.com/trivium-tickets/madison-wisconsin-the-sylvee-2026-11-22-6-35-pm/concert/18391957 | - |
+| tm-beartooth-2026-omaha-17fzv0g61sq6aec | beartooth | verify (applied) | 18253048 | https://seatgeek.com/beartooth-tickets/omaha-nebraska-steelhouse-omaha-2026-11-22-6-30-pm/concert/18253048 | - |
+| tm-blue-october-2026-atlanta-vvg1zz_6ddzdk3 | blue-october | verify (applied) | 18140880 | https://seatgeek.com/blue-october-tickets/atlanta-georgia-the-tabernacle-atlanta-2026-11-22-8-pm/concert/18140880 | - |
+| tm-sabaton-2026-minneapolis-vv1akzkgtgkd2vkhk | sabaton | verify (applied) | 17732691 | https://seatgeek.com/sabaton-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-11-22-7-pm/concert/17732691 | - |
+| tm-little-big-town-2026-toronto-177zv0g6g2_mkrp | little-big-town | verify (applied) | 18292641 | https://seatgeek.com/little-big-town-tickets/toronto-canada-massey-hall-2026-11-22-8-pm/concert/18292641 | - |
+| tm-jodeci-2026-louisville-17aov0g629rlldo | jodeci | verify (applied) | 18407257 | https://seatgeek.com/jodeci-tickets/louisville-kentucky-louisville-palace-2026-11-22-8-pm/concert/18407257 | - |
+| tm-victoria-monet-2026-pittsburgh-1apzkftgkexngtr | victoria-monet | verify (applied) | 18579779 | https://seatgeek.com/victoria-monet-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2026-11-22-8-pm/concert/18579779 | - |
+| tm-brandi-carlile-2026-kansas-city-vv1akzkfzgkd6vlxs | brandi-carlile | verify (applied) | 18626672 | https://seatgeek.com/brandi-carlile-tickets/kansas-city-missouri-uptown-theater-kc-2026-11-22-8-pm/concert/18626672 | - |
+| tm-journey-2026-denver-g5vzz_1kxjfbe | journey | verify (applied) | 18237128 | https://seatgeek.com/journey-tickets/denver-colorado-ball-arena-2026-11-22-7-30-pm/concert/18237128 | - |
+| tm-katseye-2026-los-angeles-g5eyz_52cssfl | katseye | verify (applied) | 18258420 | https://seatgeek.com/katseye-tickets/los-angeles-california-crypto-com-arena-2026-11-22-8-pm/concert/18258420 | - |
+| tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo | olivia-rodrigo | verify (applied) | 18211703 | https://seatgeek.com/olivia-rodrigo-tickets/nashville-tennessee-bridgestone-arena-2026-11-23-7-pm/concert/18211703 | - |
+| tm-stevie-wonder-2026-washington-1a4zkfxgkdptcca | stevie-wonder | verify (applied) | 18570216 | https://seatgeek.com/stevie-wonder-tickets/washington-district-of-columbia-capital-one-arena-2026-11-23-8-pm/concert/18570216 | - |
+| tm-trans-siberian-orchestra-2026-wilkes-barre-vv17fz_8gku2vdcc | trans-siberian-orchestra | verify (applied) | 18573369 | https://seatgeek.com/trans-siberian-orchestra-tickets/wilkes-barre-pennsylvania-mohegan-sun-arena-at-casey-plaza-2026-11-24-7-30-pm/concert/18573369 | - |
+| tm-olivia-rodrigo-2026-nashville-g5viz_avcebgh | olivia-rodrigo | verify (applied) | 18211705 | https://seatgeek.com/olivia-rodrigo-tickets/nashville-tennessee-bridgestone-arena-2026-11-24-7-pm/concert/18211705 | - |
+| tm-sabaton-2026-chicago-vv178zbwgkltpkse | sabaton | verify (applied) | 17732693 | https://seatgeek.com/sabaton-tickets/chicago-illinois-the-salt-shed-indoors-2026-11-24-7-pm/concert/17732693 | - |
+| tm-victoria-monet-2026-new-york-g5diz_3c1vwav | victoria-monet | verify (applied) | 18579782 | https://seatgeek.com/victoria-monet-tickets/new-york-new-york-the-theater-at-msg-1-2026-11-24-8-pm/concert/18579782 | - |
+| tm-jodeci-2026-memphis-g5viz_2h5lx5n | jodeci | verify (applied) | 18407256 | https://seatgeek.com/jodeci-tickets/memphis-tennessee-orpheum-theatre-memphis-2026-11-24-8-pm/concert/18407256 | - |
+| tm-katseye-2026-phoenix-17k8v0g61m4tf9t | katseye | verify (applied) | 18240163 | https://seatgeek.com/katseye-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-24-8-pm/concert/18240163 | - |
+| tm-steve-lacy-2026-san-francisco-g5vyz_8boyp-m | steve-lacy | verify (applied) | 18485954 | https://seatgeek.com/steve-lacy-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-24-8-pm/concert/18485954 | - |
+| tm-doja-cat-2026-toronto-1k7zvncbgagve_c | doja-cat | verify (applied) | 17769355 | https://seatgeek.com/doja-cat-tickets/toronto-canada-scotiabank-arena-2026-11-25-7-30-pm/concert/17769355 | - |
+| tm-sabaton-2026-waukee-1a-zkgtgkdjdyyw | sabaton | verify (applied) | 17732688 | https://seatgeek.com/sabaton-tickets/waukee-iowa-vibrant-music-hall-2026-11-25-7-pm/concert/17732688 | - |
+| tm-blue-october-2026-nashville-g5viz_kskltsv | blue-october | verify (applied) | 18126041 | https://seatgeek.com/blue-october-tickets/nashville-tennessee-the-truth-nashville-2026-11-25-8-pm/concert/18126041 | - |
+| tm-steve-lacy-2026-san-francisco-g5vyz_8bk7kme | steve-lacy | verify (applied) | 18613496 | https://seatgeek.com/steve-lacy-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-25-8-pm/concert/18613496 | - |
+| tm-tyla-2026-toronto-177zv0g6294fsr8 | tyla | verify (applied) | 18404308 | https://seatgeek.com/tyla-tickets/toronto-canada-coca-cola-coliseum-2026-11-26-8-pm/concert/18404308 | - |
+| tm-trans-siberian-orchestra-2026-manchester-vv1avzkffgkecconl | trans-siberian-orchestra | verify (applied) | 18573376 | https://seatgeek.com/trans-siberian-orchestra-tickets/manchester-new-hampshire-snhu-arena-2026-11-27-2-30-pm/concert/18573376 | - |
+| tm-trans-siberian-orchestra-2026-boise-g5vzz_8l3-m4c | trans-siberian-orchestra | verify (applied) | 18573377 | https://seatgeek.com/trans-siberian-orchestra-tickets/boise-idaho-extramile-arena-2026-11-27-2-pm/concert/18573377 | - |
+| tm-john-summit-2026-philadelphia-vvg1fz_5ctejox | john-summit | verify (applied) | 18257265 | https://seatgeek.com/john-summit-tickets/philadelphia-pennsylvania-liacouras-center-2026-11-27-7-pm/concert/18257265 | - |
+| tm-doja-cat-2026-montreal-1aszkgygkemvjjt | doja-cat | verify (applied) | 17769357 | https://seatgeek.com/doja-cat-tickets/montreal-canada-centre-bell-2026-11-27-7-30-pm/concert/17769357 | - |
+| tm-los-tigres-del-norte-2026-baltimore-164zko9e6zackudg | los-tigres-del-norte | verify (applied) | 18092532 | https://seatgeek.com/los-tigres-del-norte-tickets/baltimore-maryland-cfg-bank-arena-2026-11-27-8-pm/concert/18092532 | - |
+| tm-victoria-monet-2026-washington-1a4zkfigkeu6i0b | victoria-monet | verify (applied) | 18579783 | https://seatgeek.com/victoria-monet-tickets/washington-district-of-columbia-the-anthem-dc-2026-11-27-8-pm/concert/18579783 | - |
+| tm-black-stone-cherry-2026-lexington-1avbz_kgklcscxl | black-stone-cherry | verify (applied) | 18630042 | https://seatgeek.com/black-stone-cherry-tickets/lexington-kentucky-manchester-music-hall-2026-11-27-8-pm/concert/18630042 | - |
+| tm-jonas-brothers-2026-glendale-1av0z_8gkmoa_ep | jonas-brothers | verify (applied) | 18503907 | https://seatgeek.com/jonas-brothers-tickets/glendale-arizona-desert-diamond-arena-2026-11-27-7-30-pm/concert/18503907 | - |
+| tm-eagles-2026-las-vegas-1a9zk37gkdxusyv | eagles | verify (applied) | 18219952 | https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-27-8-30-pm/concert/18219952 | - |
+| tm-trans-siberian-orchestra-2026-worcester-vv1avzkf7gkd6__c- | trans-siberian-orchestra | verify (applied) | 18573384 | https://seatgeek.com/trans-siberian-orchestra-tickets/worcester-massachusetts-dcu-center-2026-11-28-3-pm/concert/18573384 | - |
+| tm-trans-siberian-orchestra-2026-portland-vvg1hz_8rkn5r8 | trans-siberian-orchestra | verify (applied) | 18573385 | https://seatgeek.com/trans-siberian-orchestra-tickets/portland-oregon-moda-center-2026-11-28-3-30-pm/concert/18573385 | - |
+| tm-pentatonix-2026-charlottesville-vv1f7z_8uv7ozdc1c | pentatonix | verify (applied) | 18427205 | https://seatgeek.com/pentatonix-tickets/charlottesville-virginia-john-paul-jones-arena-2026-11-28-7-pm/concert/18427205 | - |
+| tm-sabaton-2026-cincinnati-1avbzbwgkn0vsnb | sabaton | verify (applied) | 17732695 | https://seatgeek.com/sabaton-tickets/cincinnati-ohio-andrew-j-brady-music-center-2026-11-28-7-pm/concert/17732695 | - |
+| tm-beartooth-2026-nashville-g5viz_1sjbpcf | beartooth | verify (applied) | 18253047 | https://seatgeek.com/beartooth-tickets/nashville-tennessee-the-truth-nashville-2026-11-28-6-30-pm/concert/18253047 | - |
+| tm-trivium-2026-houston-g5diz_cdfyhi_ | trivium | verify (applied) | 18391965 | https://seatgeek.com/trivium-tickets/houston-texas-bayou-music-center-2026-11-28-6-35-pm/concert/18391965 | - |
+| tm-a-boogie-wit-da-hoodie-2026-toronto-168zkfspyzauf8v5 | a-boogie-wit-da-hoodie | verify (applied) | 18629264 | https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/toronto-canada-scotiabank-arena-2026-11-28-8-pm/concert/18629264 | - |
+| tm-los-tigres-del-norte-2026-belmont-park-1kgzv0pfgagsn5l | los-tigres-del-norte | verify (applied) | 18093247 | https://seatgeek.com/los-tigres-del-norte-tickets/elmont-new-york-ubs-arena-2026-11-28-8-pm/concert/18093247 | - |
+| tm-eagles-2026-las-vegas-1a9zk37gkdxzvy5 | eagles | verify (applied) | 18219951 | https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-28-8-30-pm/concert/18219951 | - |
+| tm-trans-siberian-orchestra-2026-uncasville-g5vvz_8ebyjdo | trans-siberian-orchestra | verify (applied) | 18573390 | https://seatgeek.com/trans-siberian-orchestra-tickets/uncasville-connecticut-mohegan-sun-arena-2026-11-29-3-pm/concert/18573390 | - |
+| tm-trans-siberian-orchestra-2026-seattle-vvg1hz_8bxdfpp | trans-siberian-orchestra | verify (applied) | 18573391 | https://seatgeek.com/trans-siberian-orchestra-tickets/seattle-washington-climate-pledge-arena-2026-11-29-3-pm/concert/18573391 | - |
+| tm-sabaton-2026-detroit-vv1afzkgpgkdnrjuw | sabaton | verify (applied) | 17732696 | https://seatgeek.com/sabaton-tickets/detroit-michigan-the-fillmore-detroit-2026-11-29-7-pm/concert/17732696 | - |
+| tm-beartooth-2026-atlanta-vvg1zz_1br-um- | beartooth | verify (applied) | 18253055 | https://seatgeek.com/beartooth-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-11-29-6-30-pm/concert/18253055 | - |
+| tm-trivium-2026-dallas-vvg1yz_cdoxznj | trivium | verify (applied) | 18391967 | https://seatgeek.com/trivium-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2026-11-29-6-35-pm/concert/18391967 | - |
+| tm-jodeci-2026-houston-g5diz_2lvp-gm | jodeci | verify (applied) | 18407262 | https://seatgeek.com/jodeci-tickets/houston-texas-arena-theatre-houston-2026-11-29-8-pm/concert/18407262 | - |
+| tm-the-neighbourhood-2026-phoenix-16v0z_ac6g7w4dv | the-neighbourhood | verify (applied) | 18085146 | https://seatgeek.com/the-neighbourhood-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-30-7-30-pm/concert/18085146 | - |
+| tm-brent-faiyaz-2026-chicago-vv1a7zkfwgkda-klv | brent-faiyaz | verify (applied) | 18617422 | https://seatgeek.com/brent-faiyaz-tickets/chicago-illinois-united-center-2026-11-30-8-pm/concert/18617422 | - |
+| tm-steve-lacy-2026-vancouver-1aozkf7gkepzmxx | steve-lacy | verify (applied) | 18485961 | https://seatgeek.com/steve-lacy-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-11-30-8-pm/concert/18485961 | - |
+| tm-victoria-monet-2026-nashville-g5viz_3rdnbd2 | victoria-monet | verify (applied) | 18579785 | https://seatgeek.com/victoria-monet-tickets/nashville-tennessee-the-truth-nashville-2026-11-30-8-pm/concert/18579785 | - |
+| tm-jonas-brothers-2026-san-diego-vvg1iz_8uk3mob | jonas-brothers | verify (applied) | 18503919 | https://seatgeek.com/jonas-brothers-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-11-30-7-30-pm/concert/18503919 | - |
+| tm-beartooth-2026-charlotte-g5evz_1mwgsx1 | beartooth | verify (applied) | 18253056 | https://seatgeek.com/beartooth-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-12-01-6-30-pm/concert/18253056 | - |
+| tm-sabaton-2026-boston-vv1a8vnaygac9fy1 | sabaton | verify (applied) | 17732703 | https://seatgeek.com/sabaton-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-12-01-7-pm/concert/17732703 | - |
+| tm-gavin-adcock-2026-houston-g5diz_3mqabzl | gavin-adcock | verify (applied) | 18701462 | https://seatgeek.com/gavin-adcock-tickets/houston-texas-713-music-hall-2026-12-01-7-30-pm/concert/18701462 | - |
+| tm-jodeci-2026-north-little-rock-g5viz_29tplat | jodeci | verify (applied) | 18407263 | https://seatgeek.com/jodeci-tickets/north-little-rock-arkansas-simmons-bank-arena-2026-12-01-8-30-pm/concert/18407263 | - |
+| tm-olivia-rodrigo-2026-vancouver-1av7z_agkueipzb | olivia-rodrigo | verify (applied) | 18211742 | https://seatgeek.com/olivia-rodrigo-tickets/vancouver-canada-rogers-arena-2026-12-01-7-pm/concert/18211742 | - |
+| tm-trans-siberian-orchestra-2026-sacramento-g5vyz_8hivhsq | trans-siberian-orchestra | verify (applied) | 18573399 | https://seatgeek.com/trans-siberian-orchestra-tickets/sacramento-california-golden-1-center-2026-12-02-3-pm/concert/18573399 | - |
+| tm-sabaton-2026-philadelphia-vv17fzbwgklacdxp | sabaton | verify (applied) | 17732700 | https://seatgeek.com/sabaton-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-12-02-7-pm/concert/17732700 | - |
+| tm-trivium-2026-phoenix-17k8v0g62douihb | trivium | verify (applied) | 18391969 | https://seatgeek.com/trivium-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-02-6-30-pm/concert/18391969 | - |
+| tm-trans-siberian-orchestra-2026-nashville-g5viz_oinlsr4 | trans-siberian-orchestra | verify (applied) | 18573401 | https://seatgeek.com/trans-siberian-orchestra-tickets/nashville-tennessee-bridgestone-arena-2026-12-02-7-30-pm/concert/18573401 | - |
+| tm-olivia-rodrigo-2026-vancouver-1av7z_agkueckzj | olivia-rodrigo | verify (applied) | 18211743 | https://seatgeek.com/olivia-rodrigo-tickets/vancouver-canada-rogers-arena-2026-12-02-7-pm/concert/18211743 | - |
+| tm-the-neighbourhood-2026-san-francisco-g5vyz_a2kv6-_ | the-neighbourhood | verify (applied) | 18085147 | https://seatgeek.com/the-neighbourhood-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-12-02-7-30-pm/concert/18085147 | - |
+| tm-jonas-brothers-2026-anaheim-vv170z_8gkskkuxl | jonas-brothers | verify (applied) | 18503918 | https://seatgeek.com/jonas-brothers-tickets/anaheim-california-honda-center-2026-12-02-7-30-pm/concert/18503918 | - |
+| tm-sabaton-2026-pittsburgh-1avbz_kgkwfjp1j | sabaton | verify (applied) | 18126079 | https://seatgeek.com/sabaton-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2026-12-03-7-pm/concert/18126079 | - |
+| tm-trans-siberian-orchestra-2026-charleston-1avbz_8gkwouueg | trans-siberian-orchestra | verify (applied) | 18573402 | https://seatgeek.com/trans-siberian-orchestra-tickets/charleston-west-virginia-charleston-coliseum-convention-center-2026-12-03-7-30-pm/concert/18573402 | - |
+| tm-tommy-emmanuel-2026-charleston-g5evz_aboyxr9 | tommy-emmanuel | verify (applied) | 18225241 | https://seatgeek.com/tommy-emmanuel-tickets/charleston-south-carolina-charleston-music-hall-2026-12-03-8-pm/concert/18225241 | - |
+| tm-brent-faiyaz-2026-brooklyn-1adzz_3gkxkyvwj | brent-faiyaz | verify (applied) | 18618383 | https://seatgeek.com/brent-faiyaz-tickets/brooklyn-new-york-barclays-center-2026-12-03-8-pm/concert/18618383 | - |
+| tm-rawayana-2026-orlando-1aefz_kgkuqmj8a | rawayana | verify (applied) | 18126388 | https://seatgeek.com/rawayana-tickets/orlando-florida-kia-center-2026-12-03-8-pm/concert/18126388 | - |
+| tm-jodeci-2026-birmingham-17fzv0g62rrj3c3 | jodeci | verify (applied) | 18407266 | https://seatgeek.com/jodeci-tickets/birmingham-alabama-bjcc-concert-hall-2026-12-03-7-30-pm/concert/18407266 | - |
+| tm-trans-siberian-orchestra-2026-fresno-g5vyz_o5rjusr | trans-siberian-orchestra | verify (applied) | 18573408 | https://seatgeek.com/trans-siberian-orchestra-tickets/fresno-california-save-mart-center-2026-12-03-7-pm/concert/18573408 | - |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dw_pus | barry-manilow | verify (applied) | 17637156 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-03-7-pm/concert/17637156 | - |
+| tm-pink-martini-2026-reno-17ayv0g651b0bey | pink-martini | verify (applied) | 18267277 | https://seatgeek.com/pink-martini-tickets/reno-nevada-grand-sierra-resort-2026-12-03-7-30-pm/concert/18267277 | - |
+| tm-trans-siberian-orchestra-2026-toledo-vv1kezvpv_gacwg13 | trans-siberian-orchestra | verify (applied) | 18573409 | https://seatgeek.com/trans-siberian-orchestra-tickets/toledo-ohio-huntington-center-2026-12-04-3-pm/concert/18573409 | - |
+| tm-blue-october-2026-minneapolis-vv1akzkowgkdjzvr0 | blue-october | verify (applied) | 18141993 | https://seatgeek.com/blue-october-tickets/minneapolis-minnesota-fillmore-minneapolis-2026-12-04-7-pm/concert/18141993 | - |
+| tm-garth-brooks-2026-hamilton-1avzz_4gkrzxgxw | garth-brooks | verify (applied) | 18726838 | https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-04-8-pm/concert/18726838 | - |
+| tm-rawayana-2026-miami-vvg1vz_fh4bcfd | rawayana | verify (applied) | 18659426 | https://seatgeek.com/rawayana-tickets/miami-florida-kaseya-center-2026-12-04-8-pm/concert/18659426 | - |
+| tm-lil-wayne-2026-lexington-1avbz_kgkyr04kw | lil-wayne | verify (applied) | 18128388 | https://seatgeek.com/lil-wayne-tickets/lexington-kentucky-rupp-arena-2026-12-04-8-30-pm/concert/18128388 | - |
+| tm-los-tigres-del-norte-2026-nashville-g5viz_an5hweq | los-tigres-del-norte | verify (applied) | 18092545 | https://seatgeek.com/los-tigres-del-norte-tickets/nashville-tennessee-bridgestone-arena-2026-12-04-8-pm/concert/18092545 | - |
+| tm-the-neighbourhood-2026-inglewood-vv1aazkodgkdu9feo | the-neighbourhood | verify (applied) | 18085152 | https://seatgeek.com/the-neighbourhood-tickets/inglewood-california-kia-forum-2026-12-04-7-pm/concert/18085152 | - |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwqkuv | barry-manilow | verify (applied) | 17637157 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-04-8-pm/concert/17637157 | - |
+| tm-eagles-2026-las-vegas-1a9zk3dgkdpxlsb | eagles | verify (applied) | 18355049 | https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-04-8-30-pm/concert/18355049 | - |
+| tm-trans-siberian-orchestra-2026-columbus-vv17fz_8gkuihkxu | trans-siberian-orchestra | verify (applied) | 18573412 | https://seatgeek.com/trans-siberian-orchestra-tickets/columbus-ohio-nationwide-arena-2026-12-05-3-pm/concert/18573412 | - |
+| tm-pentatonix-2026-columbia-g5evz_2t_yqom | pentatonix | verify (applied) | 18427214 | https://seatgeek.com/pentatonix-tickets/columbia-south-carolina-colonial-life-arena-2026-12-05-7-pm/concert/18427214 | - |
+| tm-sabaton-2026-virginia-beach-vv177zbwgklinzle | sabaton | verify (applied) | 17732702 | https://seatgeek.com/sabaton-tickets/virginia-beach-virginia-the-dome-13-2026-12-05-7-pm/concert/17732702 | - |
+| tm-lil-wayne-2026-savannah-vvg1zz_3n_vz4w | lil-wayne | verify (applied) | 18649583 | https://seatgeek.com/lil-wayne-tickets/savannah-georgia-enmarket-arena-2026-12-05-7-pm/concert/18649583 | - |
+| tm-tommy-emmanuel-2026-chattanooga-g5viz_au3swzr | tommy-emmanuel | verify (applied) | 18225539 | https://seatgeek.com/tommy-emmanuel-tickets/chattanooga-tennessee-the-walker-theatre-chattanooga-2026-12-05-7-30-pm/concert/18225539 | - |
+| tm-garth-brooks-2026-hamilton-1avzz_4gkre8jcm | garth-brooks | verify (applied) | 18726837 | https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-05-8-pm/concert/18726837 | - |
+| tm-rawayana-2026-miami-vvg1vz_kwnj_rj | rawayana | verify (applied) | 18126459 | https://seatgeek.com/rawayana-tickets/miami-florida-kaseya-center-2026-12-05-8-pm/concert/18126459 | - |
+| tm-blue-october-2026-la-vista-1aezz_kgks7afny | blue-october | verify (applied) | 18142048 | https://seatgeek.com/blue-october-tickets/la-vista-nebraska-the-astro-theater-la-vista-2026-12-05-8-pm/concert/18142048 | - |
+| tm-the-neighbourhood-2026-inglewood-vv1k0z_a8dg7vtxb | the-neighbourhood | verify (applied) | 18194373 | https://seatgeek.com/the-neighbourhood-tickets/inglewood-california-kia-forum-2026-12-05-6-pm/concert/18194373 | - |
+| tm-los-tigres-del-norte-2026-birmingham-1aozkobgkdkxmhh | los-tigres-del-norte | verify (applied) | 18092802 | https://seatgeek.com/los-tigres-del-norte-tickets/birmingham-alabama-bjcc-concert-hall-2026-12-05-8-pm/concert/18092802 | - |
+| tm-jodeci-2026-lake-charles-g5viz_2mnhtb3 | jodeci | verify (applied) | 18407282 | https://seatgeek.com/jodeci-tickets/lake-charles-louisiana-lake-charles-event-center-2026-12-05-8-pm/concert/18407282 | - |
+| tm-trivium-2026-san-francisco-g5vyz_2ejmndl | trivium | verify (applied) | 18391974 | https://seatgeek.com/trivium-tickets/san-francisco-california-the-masonic-san-francisco-2026-12-05-6-35-pm/concert/18391974 | - |
+| tm-luke-bryan-2026-mescalero-vvg1yz_gw6bfly | luke-bryan | verify (applied) | 18571831 | https://seatgeek.com/luke-bryan-tickets/mescalero-new-mexico-inn-of-the-mountain-gods-resort-and-casino-2026-12-05-8-pm/concert/18571831 | - |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwqjuu | barry-manilow | verify (applied) | 17637159 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-05-7-pm/concert/17637159 | - |
+| tm-jonas-brothers-2026-seattle-vvg1hz_8uqqunb | jonas-brothers | verify (applied) | 18503920 | https://seatgeek.com/jonas-brothers-tickets/seattle-washington-climate-pledge-arena-2026-12-05-7-30-pm/concert/18503920 | - |
+| tm-victoria-monet-2026-phoenix-1fk8vpadufz7ccuc | victoria-monet | verify (applied) | 18579787 | https://seatgeek.com/victoria-monet-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-05-8-pm/concert/18579787 | - |
+| tm-gary-allan-2026-napa-g5vyz_3dfyx0l | gary-allan | verify (applied) | 18593936 | https://seatgeek.com/gary-allan-tickets/napa-california-uptown-theatre-napa-2026-12-05-8-pm/concert/18593936 | - |
+| tm-eagles-2026-las-vegas-1a9zk3dgkdpxrsr | eagles | verify (applied) | 18355050 | https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-05-8-30-pm/concert/18355050 | - |
+| tm-garth-brooks-2026-hamilton-1avzz_4gkr__tfz | garth-brooks | verify (applied) | 18739726 | https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-06-2-pm/concert/18739726 | - |
+| tm-trans-siberian-orchestra-2026-grand-rapids-vv17oz_8gksfqipn | trans-siberian-orchestra | verify (applied) | 18573423 | https://seatgeek.com/trans-siberian-orchestra-tickets/grand-rapids-michigan-van-andel-arena-2026-12-06-3-pm/concert/18573423 | - |
+| tm-trans-siberian-orchestra-2026-phoenix-1av0z_8gks2uk5t | trans-siberian-orchestra | verify (applied) | 18573424 | https://seatgeek.com/trans-siberian-orchestra-tickets/phoenix-arizona-mortgage-matchup-center-2026-12-06-3-pm/concert/18573424 | - |
+| tm-pentatonix-2026-greenville-g5evz_2tznjd_ | pentatonix | verify (applied) | 18427215 | https://seatgeek.com/pentatonix-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-12-06-6-pm/concert/18427215 | - |
+| tm-sabaton-2026-national-harbor-1a4zkgtgkdyjn0o | sabaton | verify (applied) | 17732707 | https://seatgeek.com/sabaton-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-12-06-7-pm/concert/17732707 | - |
+| tm-rawayana-2026-miami-vvg1vz_6kilnkl | rawayana | verify (applied) | 18132184 | https://seatgeek.com/rawayana-tickets/miami-florida-kaseya-center-2026-12-06-8-pm/concert/18132184 | - |
+| tm-jodeci-2026-mobile-g5viz_2rkvisc | jodeci | verify (applied) | 18407267 | https://seatgeek.com/jodeci-tickets/mobile-alabama-saenger-theatre-mobile-2026-12-06-7-30-pm/concert/18407267 | - |
+| tm-victoria-monet-2026-san-diego-vvg1iz_32hzdgh | victoria-monet | verify (applied) | 18579790 | https://seatgeek.com/victoria-monet-tickets/san-diego-california-cal-coast-credit-union-open-air-theatre-at-sdsu-2026-12-06-8-pm/concert/18579790 | - |
+| tm-beartooth-2026-new-orleans-g5viz_1lu2gm0 | beartooth | verify (applied) | 18253062 | https://seatgeek.com/beartooth-tickets/new-orleans-louisiana-fillmore-new-orleans-2026-12-07-5-30-pm/concert/18253062 | - |
+| tm-pentatonix-2026-raleigh-g5evz_2xkfyfh | pentatonix | verify (applied) | 18427217 | https://seatgeek.com/pentatonix-tickets/raleigh-north-carolina-lenovo-center-2026-12-07-7-pm/concert/18427217 | - |
+| tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty | olivia-rodrigo | verify (applied) | 18211710 | https://seatgeek.com/olivia-rodrigo-tickets/seattle-washington-climate-pledge-arena-2026-12-07-7-pm/concert/18211710 | - |
+| tm-sabaton-2026-atlanta-vvg1zzbwjnkk6z | sabaton | verify (applied) | 17732711 | https://seatgeek.com/sabaton-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-12-08-7-pm/concert/17732711 | - |
+| tm-stevie-wonder-2026-detroit-vv1kezvpa-gaukuph | stevie-wonder | verify (applied) | 18570215 | https://seatgeek.com/stevie-wonder-tickets/detroit-michigan-fox-theatre-detroit-2026-12-08-8-pm/concert/18570215 | - |
+| tm-trivium-2026-vancouver-1778v0g626krqj1 | trivium | verify (applied) | 18391979 | https://seatgeek.com/trivium-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-12-08-6-35-pm/concert/18391979 | - |
+| tm-olivia-rodrigo-2026-seattle-vvg1hz_amegpa1 | olivia-rodrigo | verify (applied) | 18211711 | https://seatgeek.com/olivia-rodrigo-tickets/seattle-washington-climate-pledge-arena-2026-12-08-7-pm/concert/18211711 | - |
+| tm-victoria-monet-2026-inglewood-vvg1iz_3xv_aba | victoria-monet | verify (applied) | 18579791 | https://seatgeek.com/victoria-monet-tickets/inglewood-california-youtube-theater-2026-12-08-8-pm/concert/18579791 | - |
+| tm-trans-siberian-orchestra-2026-allentown-17gzv0g62dv8e6s | trans-siberian-orchestra | verify (applied) | 18573432 | https://seatgeek.com/trans-siberian-orchestra-tickets/allentown-pennsylvania-ppl-center-2026-12-09-7-30-pm/concert/18573432 | - |
+| tm-sabaton-2026-nashville-g5viz_kmyac0s | sabaton | verify (applied) | 18126050 | https://seatgeek.com/sabaton-tickets/nashville-tennessee-the-truth-nashville-2026-12-09-7-pm/concert/18126050 | - |
+| tm-trans-siberian-orchestra-2026-austin-g5diz_od7g9c0 | trans-siberian-orchestra | verify (applied) | 18573433 | https://seatgeek.com/trans-siberian-orchestra-tickets/austin-texas-moody-center-atx-2026-12-09-7-pm/concert/18573433 | - |
+| tm-stevie-wonder-2026-detroit-vv1koz_3bxg7sqna | stevie-wonder | verify (applied) | 18570217 | https://seatgeek.com/stevie-wonder-tickets/detroit-michigan-fox-theatre-detroit-2026-12-09-8-pm/concert/18570217 | - |
+| tm-jonas-brothers-2026-denver-g5vzz_8u_uayk | jonas-brothers | verify (applied) | 18503921 | https://seatgeek.com/jonas-brothers-tickets/denver-colorado-ball-arena-2026-12-09-7-30-pm/concert/18503921 | - |
+| tm-trivium-2026-seattle-vvg1hz_2dp1x5t | trivium | verify (applied) | 18391981 | https://seatgeek.com/trivium-tickets/seattle-washington-paramount-theatre-wa-2026-12-09-6-35-pm/concert/18391981 | - |
+| tm-trans-siberian-orchestra-2026-raleigh-g5evz_2wee5m0 | trans-siberian-orchestra | verify (applied) | 18573435 | https://seatgeek.com/trans-siberian-orchestra-tickets/raleigh-north-carolina-lenovo-center-2026-12-10-7-30-pm/concert/18573435 | - |
+| tm-lady-a-2026-northfield-vvg1fz_gkaw2vw | lady-a | verify (applied) | 18295291 | https://seatgeek.com/lady-a-tickets/northfield-ohio-mgm-northfield-park-center-stage-2026-12-10-7-30-pm/concert/18295291 | - |
+| tm-trans-siberian-orchestra-2026-bossier-city-g5viz_8b0hcmp | trans-siberian-orchestra | verify (applied) | 18573436 | https://seatgeek.com/trans-siberian-orchestra-tickets/bossier-city-louisiana-brookshire-grocery-arena-2026-12-10-7-pm/concert/18573436 | - |
+| tm-jonas-brothers-2026-lincoln-vv17bz_8gkmchsxu | jonas-brothers | verify (applied) | 18503923 | https://seatgeek.com/jonas-brothers-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-12-10-7-30-pm/concert/18503923 | - |
+| tm-blue-october-2026-beaumont-g5diz_kmboj7t | blue-october | verify (applied) | 18140959 | https://seatgeek.com/blue-october-tickets/beaumont-texas-jefferson-theatre-2026-12-10-8-pm/concert/18140959 | - |
+| tm-jodeci-2026-nashville-g5viz_2rjh5vs | jodeci | verify (applied) | 18407270 | https://seatgeek.com/jodeci-tickets/nashville-tennessee-the-truth-nashville-2026-12-10-8-pm/concert/18407270 | - |
+| tm-cece-winans-2026-seattle-vvg1hz_c5fehuk | cece-winans | verify (applied) | 18361599 | https://seatgeek.com/cece-winans-tickets/seattle-washington-wamu-theater-2026-12-10-7-pm/concert/18361599 | - |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwhpuz | barry-manilow | verify (applied) | 17637161 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-10-7-pm/concert/17637161 | - |
+| tm-trans-siberian-orchestra-2026-greenville-g5evz_o2s2bkg | trans-siberian-orchestra | verify (applied) | 18573437 | https://seatgeek.com/trans-siberian-orchestra-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-12-11-3-pm/concert/18573437 | - |
+| tm-lord-huron-2026-albany-k7vgf_2d6r7wd | lord-huron | verify (applied) | 18421968 | https://seatgeek.com/lord-huron-tickets/albany-new-york-palace-theatre-albany-2026-12-11-8-pm/concert/18421968 | - |
+| tm-lady-a-2026-gary-vvg1fz_5la2nke | lady-a | verify (applied) | 18295733 | https://seatgeek.com/lady-a-tickets/gary-indiana-hard-rock-live-northern-indiana-2026-12-11-7-pm/concert/18295733 | - |
+| tm-jodeci-2026-columbia-g5evz_2hnfhnt | jodeci | verify (applied) | 18407274 | https://seatgeek.com/jodeci-tickets/columbia-south-carolina-township-auditorium-2026-12-11-8-pm/concert/18407274 | - |
+| tm-trivium-2026-reno-17ayv0g6cnaivry | trivium | verify (applied) | 18391984 | https://seatgeek.com/trivium-tickets/reno-nevada-grand-sierra-resort-2026-12-11-6-35-pm/concert/18391984 | - |
+| tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b | olivia-rodrigo | verify (applied) | 18211712 | https://seatgeek.com/olivia-rodrigo-tickets/oakland-california-oakland-arena-2026-12-11-7-pm/concert/18211712 | - |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwhuub | barry-manilow | verify (applied) | 17637163 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-11-8-pm/concert/17637163 | - |
+| tm-koe-wetzel-2026-las-vegas-1ayzkfkgkdtup_a | koe-wetzel | verify (applied) | 18471843 | https://seatgeek.com/koe-wetzel-tickets/las-vegas-nevada-ph-live-at-planet-hollywood-2026-12-11-8-pm/concert/18471843 | - |
+| tm-interpol-2026-san-diego-vvg1iz_4dkyacm | interpol | verify (applied) | 18700629 | https://seatgeek.com/interpol-tickets/san-diego-california-soma-san-diego-2026-12-11-8-pm/concert/18700629 | - |
+| tm-eagles-2026-las-vegas-1a9zk3dgkdpxrso | eagles | verify (applied) | 18355052 | https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-11-8-30-pm/concert/18355052 | - |
+| tm-turnpike-troubadours-2026-las-vegas-17ayv0g62soqkki | turnpike-troubadours | verify (applied) | 18424535 | https://seatgeek.com/turnpike-troubadours-tickets/las-vegas-nevada-brooklyn-bowl-las-vegas-2026-12-11-9-pm/concert/18424535 | - |
+| tm-trans-siberian-orchestra-2026-charlotte-g5evz_o6l3kkc | trans-siberian-orchestra | verify (applied) | 18573447 | https://seatgeek.com/trans-siberian-orchestra-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-12-12-3-pm/concert/18573447 | - |
+| tm-trans-siberian-orchestra-2026-san-antonio-g5diz_8q4vky5 | trans-siberian-orchestra | verify (applied) | 18573448 | https://seatgeek.com/trans-siberian-orchestra-tickets/san-antonio-texas-frost-bank-center-2026-12-12-3-pm/concert/18573448 | - |
+| tm-beartooth-2026-denver-g5vzz_1sigr2s | beartooth | verify (applied) | 18253068 | https://seatgeek.com/beartooth-tickets/denver-colorado-fillmore-auditorium-denver-2026-12-12-5-pm/concert/18253068 | - |
+| tm-pentatonix-2026-north-little-rock-g5viz_2r0054y | pentatonix | verify (applied) | 18427222 | https://seatgeek.com/pentatonix-tickets/north-little-rock-arkansas-simmons-bank-arena-2026-12-12-7-pm/concert/18427222 | - |
+| tm-jonas-brothers-2026-sioux-falls-vv17bz_8gkdvaovc | jonas-brothers | verify (applied) | 18503922 | https://seatgeek.com/jonas-brothers-tickets/sioux-falls-south-dakota-denny-sanford-premier-center-2026-12-12-7-30-pm/concert/18503922 | - |
+| tm-a-boogie-wit-da-hoodie-2026-minneapolis-vv1akzkfygkd_ao6r | a-boogie-wit-da-hoodie | verify (applied) | 18631720 | https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-12-12-8-pm/concert/18631720 | - |
+| tm-olivia-rodrigo-2026-oakland-g5vyz_ambfsp1 | olivia-rodrigo | verify (applied) | 18211714 | https://seatgeek.com/olivia-rodrigo-tickets/oakland-california-oakland-arena-2026-12-12-7-pm/concert/18211714 | - |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwjjc1 | barry-manilow | verify (applied) | 17637164 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-12-7-pm/concert/17637164 | - |
+| tm-john-summit-2026-los-angeles-vvg1iz_2teslqm | john-summit | verify (applied) | 18494071 | https://seatgeek.com/john-summit-tickets/los-angeles-california-los-angeles-memorial-coliseum-2026-12-12-7-pm/concert/18494071 | - |
+| tm-eagles-2026-las-vegas-1a9zk3dgkdbgzr6 | eagles | verify (applied) | 18355051 | https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-12-8-30-pm/concert/18355051 | - |
+| tm-trans-siberian-orchestra-2026-duluth-vvg1zz_8rk7fyq | trans-siberian-orchestra | verify (applied) | 18573455 | https://seatgeek.com/trans-siberian-orchestra-tickets/duluth-georgia-gas-south-arena-2026-12-13-3-pm/concert/18573455 | - |
+| tm-trans-siberian-orchestra-2026-dallas-vvg1yz_8bgba0q | trans-siberian-orchestra | verify (applied) | 18573458 | https://seatgeek.com/trans-siberian-orchestra-tickets/dallas-texas-american-airlines-center-2026-12-13-3-pm/concert/18573458 | - |
+| tm-pentatonix-2026-bossier-city-g5viz_2gyyd_m | pentatonix | verify (applied) | 18427226 | https://seatgeek.com/pentatonix-tickets/bossier-city-louisiana-brookshire-grocery-arena-2026-12-13-6-pm/concert/18427226 | - |
+| tm-beartooth-2026-salt-lake-city-g5vzz_1w63kam | beartooth | verify (applied) | 18253071 | https://seatgeek.com/beartooth-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-12-13-6-pm/concert/18253071 | - |
+| tm-andrea-bocelli-2026-montreal-1ad7z_dgkclbvf3 | andrea-bocelli | verify (applied) | 18039188 | https://seatgeek.com/andrea-bocelli-tickets/montreal-canada-centre-bell-2026-12-13-8-pm/concert/18039188 | - |
+| tm-blue-october-2026-hidalgo-g5diz_6r53fc7 | blue-october | verify (applied) | 18140941 | https://seatgeek.com/blue-october-tickets/hidalgo-texas-payne-arena-2026-12-13-8-pm/concert/18140941 | - |
+| tm-jonas-brothers-2026-grand-rapids-vv17oz_8gkbyzdvo | jonas-brothers | verify (applied) | 18503930 | https://seatgeek.com/jonas-brothers-tickets/grand-rapids-michigan-van-andel-arena-2026-12-15-7-30-pm/concert/18503930 | - |
+| tm-brandi-carlile-2026-port-chester-g5vvz_kx-skxh | brandi-carlile | verify (applied) | 18626674 | https://seatgeek.com/brandi-carlile-tickets/port-chester-new-york-the-capitol-theatre-port-chester-2026-12-15-8-pm/concert/18626674 | - |
+| tm-cece-winans-2026-phoenix-17k8v0g6ch4_jyt | cece-winans | verify (applied) | 18361639 | https://seatgeek.com/cece-winans-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-15-7-pm/concert/18361639 | - |
+| tm-olivia-rodrigo-2026-sacramento-g5vyz_awltsfi | olivia-rodrigo | verify (applied) | 18211717 | https://seatgeek.com/olivia-rodrigo-tickets/sacramento-california-golden-1-center-2026-12-15-7-pm/concert/18211717 | - |
+| tm-tyla-2026-san-diego-vvg1iz_cilyeb0 | tyla | verify (applied) | 18404300 | https://seatgeek.com/tyla-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-12-15-8-pm/concert/18404300 | - |
+| tm-pink-martini-2026-red-bank-g5vvz_gnt3jau | pink-martini | verify (applied) | 18325734 | https://seatgeek.com/pink-martini-tickets/red-bank-new-jersey-hackensack-meridian-health-theatre-at-count-basie-center-2026-12-16-7-30-pm/concert/18325734 | - |
+| tm-trans-siberian-orchestra-2026-charlottesville-vv177z_ogksqlpte | trans-siberian-orchestra | verify (applied) | 18573461 | https://seatgeek.com/trans-siberian-orchestra-tickets/charlottesville-virginia-john-paul-jones-arena-2026-12-16-7-30-pm/concert/18573461 | - |
+| tm-trivium-2026-omaha-17fzv0g6cxxpndr | trivium | verify (applied) | 18391988 | https://seatgeek.com/trivium-tickets/omaha-nebraska-steelhouse-omaha-2026-12-16-6-35-pm/concert/18391988 | - |
+| tm-trans-siberian-orchestra-2026-birmingham-1aezz_ockcvzdcau | trans-siberian-orchestra | verify (applied) | 18573466 | https://seatgeek.com/trans-siberian-orchestra-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2026-12-16-7-pm/concert/18573466 | - |
+| tm-brandi-carlile-2026-port-chester-g5vvz_kx-vnxl | brandi-carlile | verify (applied) | 18626676 | https://seatgeek.com/brandi-carlile-tickets/port-chester-new-york-the-capitol-theatre-port-chester-2026-12-16-8-pm/concert/18626676 | - |
+| tm-jodeci-2026-miami-beach-vvg1vz_29bl5j9 | jodeci | verify (applied) | 18407278 | https://seatgeek.com/jodeci-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2026-12-16-8-pm/concert/18407278 | - |
+| tm-beartooth-2026-phoenix-17k8v0g61i5gitx | beartooth | verify (applied) | 18253074 | https://seatgeek.com/beartooth-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-16-6-30-pm/concert/18253074 | - |
+| tm-olivia-rodrigo-2026-sacramento-g5vyz_awlnnfy | olivia-rodrigo | verify (applied) | 18211719 | https://seatgeek.com/olivia-rodrigo-tickets/sacramento-california-golden-1-center-2026-12-16-7-pm/concert/18211719 | - |
+| tm-trans-siberian-orchestra-2026-jacksonville-1aefz_ogkwzigon | trans-siberian-orchestra | verify (applied) | 18573467 | https://seatgeek.com/trans-siberian-orchestra-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2026-12-17-7-pm/concert/18573467 | - |
+| tm-trans-siberian-orchestra-2026-albany-k7vgf_8uqsipg | trans-siberian-orchestra | verify (applied) | 18573470 | https://seatgeek.com/trans-siberian-orchestra-tickets/albany-new-york-mvp-arena-2026-12-17-7-30-pm/concert/18573470 | - |
+| tm-andrea-bocelli-2026-new-york-g5diz_drrgy4q | andrea-bocelli | verify (applied) | 18039167 | https://seatgeek.com/andrea-bocelli-tickets/new-york-new-york-madison-square-garden-2026-12-17-8-pm/concert/18039167 | - |
+| tm-brandi-carlile-2026-port-chester-g5vvz_kx-gsxn | brandi-carlile | verify (applied) | 18626680 | https://seatgeek.com/brandi-carlile-tickets/port-chester-new-york-the-capitol-theatre-port-chester-2026-12-17-8-pm/concert/18626680 | - |
+| tm-lady-a-2026-new-york-g5diz_g2zkgbb | lady-a | verify (applied) | 18294956 | https://seatgeek.com/lady-a-tickets/new-york-new-york-beacon-theatre-2026-12-17-8-pm/concert/18294956 | - |
+| tm-blue-october-2026-corpus-christi-g5diz_65ljyy0 | blue-october | verify (applied) | 18140982 | https://seatgeek.com/blue-october-tickets/corpus-christi-texas-selena-auditorium-at-the-american-bank-center-2026-12-17-8-pm/concert/18140982 | - |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwqpcc | barry-manilow | verify (applied) | 17637167 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-17-7-pm/concert/17637167 | - |
+| tm-trans-siberian-orchestra-2026-hershey-vv1aovpkfgau5bfb | trans-siberian-orchestra | verify (applied) | 18573472 | https://seatgeek.com/trans-siberian-orchestra-tickets/hershey-pennsylvania-giant-center-2026-12-18-3-pm/concert/18573472 | - |
+| tm-trivium-2026-pittsburgh-17aov0g6cymqerk | trivium | verify (applied) | 18391991 | https://seatgeek.com/trivium-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2026-12-18-6-35-pm/concert/18391991 | - |
+| tm-blue-october-2026-houston-g5diz_65lrohi | blue-october | verify (applied) | 18141897 | https://seatgeek.com/blue-october-tickets/houston-texas-713-music-hall-2026-12-18-8-pm/concert/18141897 | - |
+| tm-cece-winans-2026-sacramento-g5vyz_cr1cmnb | cece-winans | verify (applied) | 18361612 | https://seatgeek.com/cece-winans-tickets/sacramento-california-sacramento-memorial-auditorium-2026-12-18-7-pm/concert/18361612 | - |
+| tm-gracie-abrams-2026-inglewood-vvg10z_5r0-czu | gracie-abrams | verify (applied) | 18270524 | https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-18-8-pm/concert/18270524 | - |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwrkco | barry-manilow | verify (applied) | 17637169 | https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2026-12-18-8-pm/concert/17637169 | - |
+| tm-trans-siberian-orchestra-2026-orlando-1aefz_8gkmasnhq | trans-siberian-orchestra | verify (applied) | 18573474 | https://seatgeek.com/trans-siberian-orchestra-tickets/orlando-florida-kia-center-2026-12-19-2-30-pm/concert/18573474 | - |
+| tm-trans-siberian-orchestra-2026-pittsburgh-1apzkfdgkej_ji6 | trans-siberian-orchestra | verify (applied) | 18573477 | https://seatgeek.com/trans-siberian-orchestra-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-12-19-2-30-pm/concert/18573477 | - |
+| tm-trivium-2026-charlotte-g5evz_cufmier | trivium | verify (applied) | 18391993 | https://seatgeek.com/trivium-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-12-19-6-35-pm/concert/18391993 | - |
+| tm-jonas-brothers-2026-belmont-park-1adzz_8gku_lwnk | jonas-brothers | verify (applied) | 18503931 | https://seatgeek.com/jonas-brothers-tickets/elmont-new-york-ubs-arena-2026-12-19-7-30-pm/concert/18503931 | - |
+| tm-lady-a-2026-greensboro-g5evz_g5lge4i | lady-a | verify (applied) | 18295539 | https://seatgeek.com/lady-a-tickets/greensboro-north-carolina-steven-tanger-center-for-the-performing-arts-2026-12-19-7-30-pm/concert/18295539 | - |
+| tm-andrea-bocelli-2026-hamilton-1a8zk8vgkel0c3m | andrea-bocelli | verify (applied) | 18039190 | https://seatgeek.com/andrea-bocelli-tickets/hamilton-canada-td-coliseum-2026-12-19-8-pm/concert/18039190 | - |
+| tm-yacht-rock-revue-2026-atlanta-vvg1zz_oecocx5 | yacht-rock-revue | verify (applied) | 18551886 | https://seatgeek.com/yacht-rock-revue-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-12-19-8-pm/concert/18551886 | - |
+| tm-simple-plan-2026-niagara-falls-1a8zk3bgkei8p8q | simple-plan | verify (applied) | 18207565 | https://seatgeek.com/simple-plan-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2026-12-19-8-pm/concert/18207565 | - |
 
 ## Skipped before API checks
 
@@ -1006,10 +1053,12 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-blue-october-2026-detroit-vv17oz_kgkmvfl46 | blue-october | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-blue-october-2026-toronto-1avzz_kgkvawuqh | blue-october | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-blue-october-2026-portland-vv177z_kgkuvxsds | blue-october | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-blue-october-2026-albany-z7r9jz1a7-v0o | blue-october | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-pentatonix-2026-tacoma-vvg1hz_2zdlw0j | pentatonix | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-tyla-2026-forest-brussels-z698xzg2z16vrkgpa9 | tyla | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-tyla-2026-dusseldorf-z698xzc2z16vq4jjgn | tyla | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-tyla-2026-berlin-z698xzc2z16vfognfa | tyla | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-trivium-2026-atlanta-z7r9jz1aazdby | trivium | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-sabaton-2026-vancouver-z7r9jz1a7-ojs | sabaton | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-beartooth-2026-oberhausen-z698xzc2z16v0vue-v | beartooth | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-beartooth-2026-hannover-z698xzc2z16vcpokjv | beartooth | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -1066,6 +1115,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-dinosaur-jr-2026-salt-lake-city-z7r9jz1a7pmzv | dinosaur-jr | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-dinosaur-jr-2026-denver-z7r9jz1a7pu0p | dinosaur-jr | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-dinosaur-jr-2026-houston-g5diz_uj-6tws | dinosaur-jr | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-dinosaur-jr-2026-san-antonio-z7r9jz1a7j7j_ | dinosaur-jr | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-charli-xcx-2026-las-vegas-z7r9jz1a7p8v- | charli-xcx | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-doja-cat-2026-las-vegas-z7r9jz1a7js4u | doja-cat | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-metallica-2026-las-vegas-1a9zko4gkdtfc4w | metallica | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -1077,6 +1127,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-missio-2026-san-francisco-z7r9jz1aazja_ | missio | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-sylvan-esso-2026-asheville-z7r9jz1a7pajj | sylvan-esso | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-sylvan-esso-2026-asheville-z7r9jz1a7paje | sylvan-esso | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-foy-vance-2026-los-angeles-z7r9jz1a7-9fp | foy-vance | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-tommy-emmanuel-2026-anchorage-z7r9jz1a7pdjf | tommy-emmanuel | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-dylan-scott-2026-dallas-z7r9jz1aavsep | dylan-scott | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-amble-2026-san-francisco-g5vyz_gntwbu0 | amble | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -1093,6 +1144,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-the-red-clay-strays-2026-knoxville-g5viz_ae91dt_ | the-red-clay-strays | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-the-red-clay-strays-2026-birmingham-1aozk38gkdpv4cc | the-red-clay-strays | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-the-red-clay-strays-2026-baton-rouge-z7r9jz1a70vj6 | the-red-clay-strays | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-the-red-clay-strays-2026-bossier-city-z7r9jz1a70vjf | the-red-clay-strays | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-daughtry-2026-beverly-z7r9jz1a7pyjj | daughtry | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-daughtry-2026-florence-17aov0g6gj3vrxt | daughtry | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-daughtry-2026-greensburg-z7r9jz1aazman | daughtry | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -1188,6 +1240,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-journey-2026-providence-vvg17z_1fuwpyc | journey | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-journey-2026-detroit-vvg1oz_13slngw | journey | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-journey-2026-toronto-177zv0g6110gajo | journey | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-journey-2026-wilkes-barre-z7r9jz1a70abw | journey | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-leon-bridges-2026-miami-z7r9jz1aaeaqz | leon-bridges | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlk3fc | earth-wind-fire | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdlfwft | earth-wind-fire | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -1215,6 +1268,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-ella-langley-2026-saint-paul-z7r9jz1a7ppo7 | ella-langley | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-mana-2026-portland-vvg1hzbmka2ayz | mana | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-mana-2026-rosemont-vv167zkuuokza2adc5 | mana | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-mana-2026-houston-z7r9jz1a7rbk4 | mana | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-jonas-brothers-2026-cleveland-z7r9jz1aazw4y | jonas-brothers | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-jonas-brothers-2026-rosemont-vv178z_8gkymmwt7 | jonas-brothers | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-jonas-brothers-2026-toronto-1avzz_ogkui9hto | jonas-brothers | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -1237,6 +1291,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-brand-new-2026-independence-vvg1bz_uefy4ji | brand-new | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-brand-new-2026-grand-prairie-z7r9jz1a7pijy | brand-new | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-brand-new-2026-denver-z7r9jz1a7ptjo | brand-new | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-brand-new-2026-las-vegas-z7r9jz1a7jdfs | brand-new | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-kacey-musgraves-2026-los-angeles-z7r9jz1a70kau | kacey-musgraves | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-kacey-musgraves-2026-los-angeles-z7r9jz1a70kag | kacey-musgraves | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-kacey-musgraves-2026-oakland-z7r9jz1a70kkf | kacey-musgraves | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -1273,6 +1328,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-tom-jones-2026-las-vegas-17ayv0g61xukqbd | tom-jones | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-tom-jones-2026-las-vegas-17ayv0g61xu61b0 | tom-jones | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-tom-jones-2026-los-angeles-vvg10z_58xadko | tom-jones | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-tom-jones-2026-highland-z7r9jz1a7p6r4 | tom-jones | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-tom-jones-2026-wheatland-g5vyz_1uw3ukc | tom-jones | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-a-boogie-wit-da-hoodie-2026-belmont-park-1adzz_8gkuljdyg | a-boogie-wit-da-hoodie | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-a-boogie-wit-da-hoodie-2026-belmont-park-17gzv0g6ctu4ij2 | a-boogie-wit-da-hoodie | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -1283,6 +1339,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-katseye-2026-belmont-park-17gzv0g61mqcddn | katseye | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-katseye-2026-montreal-17g8v0g61xoe95k | katseye | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-katseye-2026-hamilton-177zv0g61i6mwwe | katseye | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-katseye-2026-chicago-vvg18z_1mip6i3 | katseye | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-ricky-martin-2026-thackerville-z7r9jz1a7jax9 | ricky-martin | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-ricky-martin-2026-las-vegas-17ayv0g6ubm5h5l | ricky-martin | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-ricky-martin-2026-las-vegas-17ayv0g6ubmuh5y | ricky-martin | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -1342,6 +1399,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-beck-2026-asheville-g5evz_ftjugdd | beck | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-beck-2026-atlanta-vvg1zz_fbor4w0 | beck | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-beck-2026-nashville-g5viz_kspxnlj | beck | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-beck-2026-spokane-z7r9jz1aae87y | beck | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-turnpike-troubadours-2026-saint-augustine-z7r9jz1a7-v0a | turnpike-troubadours | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-turnpike-troubadours-2026-clearwater-z7r9jz1a7-ga_ | turnpike-troubadours | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-billy-strings-2026-baltimore-1avfz_6gkmktg1d | billy-strings | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -1353,6 +1411,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-jon-pardi-2026-biloxi-g5viz_ctexxwa | jon-pardi | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-jon-pardi-2026-macon-vvg1zz_cbiziyi | jon-pardi | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-jon-pardi-2026-laredo-g5diz_ctprcyh | jon-pardi | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-jon-pardi-2026-corpus-christi-z7r9jz1aazdpk | jon-pardi | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-brandi-carlile-2026-portland-z7r9jz1aaea4m | brandi-carlile | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-little-big-town-2026-san-antonio-z7r9jz1a7p8a_ | little-big-town | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-little-big-town-2026-houston-g5diz_g2cmeda | little-big-town | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -1362,11 +1421,14 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-bryan-adams-2026-las-vegas-17ayv0g62mraf38 | bryan-adams | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bryan-adams-2026-las-vegas-17ayv0g62mr173- | bryan-adams | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bryan-adams-2026-las-vegas-17ayv0g62mr1v3m | bryan-adams | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-air-supply-2026-easton-z7r9jz1a70afy | air-supply | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-foreigner-2026-lincoln-g5vyz_66kfcgc | foreigner | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-sting-2026-cincinnati-1apzko9gkelizys | sting | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-three-days-grace-2026-indianapolis-vv11v8vn_af0q_vg | three-days-grace | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-yg-2026-honolulu-z7r9jz1aaz6-d | yg | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-rawayana-2026-national-harbor-1avfz_kgkw9bb9h | rawayana | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-mercyme-2026-colorado-springs-z7r9jz1a70nz_ | mercyme | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-omer-adam-2026-brooklyn-1ayzk4vgkdfutko | omer-adam | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-gary-allan-2026-catoosa-z7r9jz1aaza0p | gary-allan | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-mon-laferte-2026-salt-lake-city-z7r9jz1a70v_v | mon-laferte | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-mon-laferte-2026-las-vegas-z7r9jz1a7-sud | mon-laferte | event is in the past — SeatGeek delists finished shows; nothing to maintain |

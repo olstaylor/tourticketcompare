@@ -441,7 +441,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064DE8BE85BE9",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-austin-texas-12-12-2026/event/3A0064DE8BE85BE9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/austin-texas-moody-center-atx-2026-12-12-7-30-pm/concert/18353604",
     "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-austin-moody-center-atx-12-12-2026/production/7250307",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-austin-texas-12-12-2026/event/3A0064DE8BE85BE9",
@@ -457,11 +457,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18353604,
+        "url": "https://seatgeek.com/billy-strings-tickets/austin-texas-moody-center-atx-2026-12-12-7-30-pm/concert/18353604",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7250307,

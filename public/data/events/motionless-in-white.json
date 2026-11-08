@@ -610,7 +610,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "000064BCB15AED26",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-albany-new-york-11-15-2026/event/000064BCB15AED26",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/motionless-in-white-tickets/albany-new-york-mvp-arena-2026-11-15-6-30-pm/concert/18281908",
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-albany-mvp-arena-11-15-2026/production/7108774",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-albany-new-york-11-15-2026/event/000064BCB15AED26",
@@ -626,11 +626,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18281908,
+        "url": "https://seatgeek.com/motionless-in-white-tickets/albany-new-york-mvp-arena-2026-11-15-6-30-pm/concert/18281908",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7108774,
@@ -793,7 +793,7 @@
         "event_id": 18281913,
         "url": "https://seatgeek.com/motionless-in-white-tickets/newark-new-jersey-prudential-center-2026-11-19-6-30-pm/concert/18281913",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -882,7 +882,7 @@
         "event_id": 18281916,
         "url": "https://seatgeek.com/motionless-in-white-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-20-6-30-pm/concert/18281916",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {

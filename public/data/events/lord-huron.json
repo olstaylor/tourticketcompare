@@ -505,7 +505,7 @@
         "event_id": 18421968,
         "url": "https://seatgeek.com/lord-huron-tickets/albany-new-york-palace-theatre-albany-2026-12-11-8-pm/concert/18421968",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -649,7 +649,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010064FCB3D08961",
     "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-boston-massachusetts-12-13-2026/event/010064FCB3D08961",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lord-huron-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-12-13-8-pm/concert/18421970",
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-boston-mgm-music-hall-at-fenway-12-13-2026--concerts-country-and-folk/production/7382386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-boston-massachusetts-12-13-2026/event/010064FCB3D08961",
@@ -665,11 +665,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421970,
+        "url": "https://seatgeek.com/lord-huron-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-12-13-8-pm/concert/18421970",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382386,
@@ -737,7 +737,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "310064FCAF0F8481",
     "ticketmaster_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-montreal-quebec-12-15-2026/event/310064FCAF0F8481",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lord-huron-tickets/montreal-canada-mtelus-2026-12-15-8-pm/concert/18421973",
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-montreal-mtelus-12-15-2026--concerts-country-and-folk/production/7382392",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-montreal-quebec-12-15-2026/event/310064FCAF0F8481",
@@ -753,11 +753,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421973,
+        "url": "https://seatgeek.com/lord-huron-tickets/montreal-canada-mtelus-2026-12-15-8-pm/concert/18421973",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382392,
@@ -826,7 +826,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "310064FCAF128489",
     "ticketmaster_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-montreal-quebec-12-16-2026/event/310064FCAF128489",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lord-huron-tickets/montreal-canada-mtelus-2026-12-16-8-pm/concert/18421974",
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-montreal-mtelus-12-16-2026--concerts-country-and-folk/production/7382402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/an-evening-with-lord-huron-montreal-quebec-12-16-2026/event/310064FCAF128489",
@@ -842,11 +842,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421974,
+        "url": "https://seatgeek.com/lord-huron-tickets/montreal-canada-mtelus-2026-12-16-8-pm/concert/18421974",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382402,
@@ -1071,7 +1071,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C0064FCA5ECBFBE",
     "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-sacramento-california-01-01-2027/event/1C0064FCA5ECBFBE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lord-huron-tickets/sacramento-channel-24-sacramento-2027-01-01-8-pm/concert/18421983",
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-sacramento-channel-24-1-1-2027--concerts-country-and-folk/production/7382436",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-sacramento-california-01-01-2027/event/1C0064FCA5ECBFBE",
@@ -1087,11 +1087,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421983,
+        "url": "https://seatgeek.com/lord-huron-tickets/sacramento-channel-24-sacramento-2027-01-01-8-pm/concert/18421983",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382436,

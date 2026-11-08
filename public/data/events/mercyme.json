@@ -206,7 +206,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C0064A4A0538C58",
     "ticketmaster_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-oklahoma-city-oklahoma-11-08-2026/event/0C0064A4A0538C58",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mercyme-tickets/oklahoma-city-oklahoma-paycom-center-2026-11-08-7-pm/concert/18243417",
     "vividseats_url": "https://www.vividseats.com/mercyme-tickets-oklahoma-city-paycom-center-11-8-2026/production/7034443",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-jeremy-camp-tim-timmons-sam-oklahoma-city-oklahoma-11-08-2026/event/0C0064A4A0538C58",
@@ -222,11 +222,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18243417,
+        "url": "https://seatgeek.com/mercyme-tickets/oklahoma-city-oklahoma-paycom-center-2026-11-08-7-pm/concert/18243417",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7034443,
@@ -1511,7 +1511,7 @@
         "event_id": 18692264,
         "url": "https://seatgeek.com/mercyme-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-04-15-7-pm/concert/18692264",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2278,7 +2278,7 @@
         "event_id": 18692230,
         "url": "https://seatgeek.com/mercyme-tickets/chattanooga-tennessee-mckenzie-arena-2027-03-13-7-pm/concert/18692230",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2348,7 +2348,7 @@
         "event_id": 18692251,
         "url": "https://seatgeek.com/mercyme-tickets/salisbury-maryland-wicomico-civic-center-2027-04-03-7-pm/concert/18692251",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2418,7 +2418,7 @@
         "event_id": 18692262,
         "url": "https://seatgeek.com/mercyme-tickets/johnson-city-tennessee-freedom-hall-civic-center-2027-04-11-7-pm/concert/18692262",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {

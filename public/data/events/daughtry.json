@@ -1472,7 +1472,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-dallas-majestic-theatre-dallas-11-14-2026--concerts-rock/production/7170034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-dallas-texas-11-14-2026/event/0C0064C9C54BBBEF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1525,11 +1525,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056810",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056810/Daughtry-tickets-Sat-Nov-14-2026-Majestic-Theatre-Dallas",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T15:00:00Z",
-        "end": "2026-11-08T04:00:00Z"
-      },
       {
         "name": "$20 All-In Ticket Offer",
         "start": "2026-10-07T15:00:00Z",

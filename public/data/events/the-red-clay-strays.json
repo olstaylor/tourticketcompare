@@ -2668,7 +2668,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-gilford-banknh-pavilion-7-24-2027/production/7637064",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-gilford-new-hampshire-07-24-2027/event/0100653ADFA074A0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2705,11 +2705,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "Eastern Propane Ticket Offer",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-11-08T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T14:00:00Z",

@@ -1961,7 +1961,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-portland-moda-center-11-8-2026--concerts-rb/production/6912006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-portland-oregon-11-08-2026/event/0F00648E91EC6BD7",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2021,13 +2021,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883117",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883117/Teddy-Swims-tickets-Sun-Nov-8-2026-Moda-Center-at-the-Rose-Quarter",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-portland-tickets-11-8-2026/event/107168140",
-    "presales": [
-      {
-        "name": "T-Mobile Reserved",
-        "start": "2026-10-08T16:00:00Z",
-        "end": "2026-11-08T06:00:00Z"
-      }
-    ],
     "organizer_names": [
       "AEG LIVE"
     ],

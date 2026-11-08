@@ -391,7 +391,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-milwaukee-fiserv-forum-11-14-2026/production/7393456",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451,13 +451,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184416",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184416/Pentatonix-tickets-Sat-Nov-14-2026-Fiserv-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-milwaukee-tickets-11-14-2026/event/107476101",
-    "presales": [
-      {
-        "name": "VIP Packages Public Onsale",
-        "start": "2026-08-14T15:00:00Z",
-        "end": "2026-11-08T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"

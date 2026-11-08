@@ -1020,17 +1020,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107186118",
-        "url": "https://www.stubhub.ie/the-smashing-pumpkins-seattle-tickets-11-6-2026/event/107186118",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1WyMAoP",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-seattle-tickets-11-6-2026/event/107186118",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -1082,6 +1082,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107185112",
+        "url": "https://www.stubhub.ie/the-smashing-pumpkins-san-jose-tickets-11-8-2026/event/107185112",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1DHczIz",
@@ -1091,7 +1098,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/the-smashing-pumpkins-san-jose-tickets-11-8-2026/event/107185112"
   },
   {
     "id": "tm-the-smashing-pumpkins-2026-phoenix-17k8v0g61xa1k9d",

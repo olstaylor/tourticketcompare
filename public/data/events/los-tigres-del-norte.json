@@ -750,6 +750,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670439",
+        "url": "https://www.stubhub.ie/los-tigres-del-norte-san-jose-tickets-2-20-2027/event/107670439",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K6cIDVV",
@@ -757,7 +764,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286352",
     "genre": "Latin",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286352/Los-Tigres-del-Norte-tickets-Sat-Feb-20-2027-SAP-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286352/Los-Tigres-del-Norte-tickets-Sat-Feb-20-2027-SAP-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/los-tigres-del-norte-san-jose-tickets-2-20-2027/event/107670439"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-temecula-vvg1iz_km0aey4",

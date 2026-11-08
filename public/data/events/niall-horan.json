@@ -2387,6 +2387,13 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162729",
+        "url": "https://www.stubhub.ie/niall-horan-houston-tickets-5-1-2027/event/107162729",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A709uy",
@@ -2396,7 +2403,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954218/Niall-Horan-tickets-Sat-May-1-2027-Toyota-Center-TX",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-houston-tickets-5-1-2027/event/107162729"
   },
   {
     "id": "tm-niall-horan-2027-fort-worth-vvg1yz_1r1jeer",

@@ -2397,6 +2397,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678630",
+        "url": "https://www.stubhub.ie/meshuggah-fort-lauderdale-tickets-5-9-2027/event/107678630",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7IAx",
@@ -2407,7 +2414,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343257",
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343257/Meshuggah-tickets-Sun-May-9-2027-FTL-War-Memorial-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343257/Meshuggah-tickets-Sun-May-9-2027-FTL-War-Memorial-Auditorium",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-fort-lauderdale-tickets-5-9-2027/event/107678630"
   },
   {
     "id": "tm-meshuggah-2027-greensboro-g5evz_4knt1ei",

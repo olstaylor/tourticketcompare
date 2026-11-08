@@ -732,13 +732,21 @@
         "verified": true,
         "last_verified_at": "2026-10-12",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668672",
+        "url": "https://www.stubhub.ie/the-warning-tickets-vancouver-vogue-theatre-vancouver-4-25-2027/event/107668672",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvJO7",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264658",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264658/The-Warning-tickets-Sun-Apr-25-2027-Vogue-Theatre-BC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264658/The-Warning-tickets-Sun-Apr-25-2027-Vogue-Theatre-BC",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-vancouver-vogue-theatre-vancouver-4-25-2027/event/107668672"
   },
   {
     "id": "tm-the-warning-2027-denver-g5vzz_3mnvfjd",
@@ -789,11 +797,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107668159",
+        "url": "https://www.stubhub.ie/the-warning-denver-tickets-4-28-2027/event/107668159",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8264659",
@@ -813,7 +821,7 @@
     "ticketmaster_discovery_event_id": "G5vzZ_3mnVFjD",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-denver-tickets-4-28-2027/event/107668159",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",

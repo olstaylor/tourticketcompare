@@ -662,6 +662,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668675",
+        "url": "https://www.stubhub.ie/simply-red-tickets-halifax-piece-hall-halifax-9-8-2027/event/107668675",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15dfZ_3r_Jv8Z",
@@ -671,7 +678,8 @@
       "CUFFE & TAYLOR (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-halifax-piece-hall-halifax-9-8-2027/event/107668675"
   },
   {
     "id": "tm-simply-red-2027-halifax-1adfz_3gkrvea3u",
@@ -720,6 +728,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668964",
+        "url": "https://www.stubhub.ie/simply-red-tickets-halifax-piece-hall-halifax-10-8-2027/event/107668964",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_3GkRveA3u",
@@ -729,7 +744,8 @@
       "CUFFE & TAYLOR (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-halifax-piece-hall-halifax-10-8-2027/event/107668964"
   },
   {
     "id": "tm-simply-red-2027-halifax-1agzkfigkey3exj",

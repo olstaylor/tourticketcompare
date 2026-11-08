@@ -581,6 +581,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669542",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-miami-beach-tickets-3-18-2027/event/107669542",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3lTyqny",
@@ -592,7 +599,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-miami-beach-tickets-3-18-2027/event/107669542"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-orlando-1aefz_3gkr16pfe",

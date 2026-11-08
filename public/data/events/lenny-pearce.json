@@ -179,11 +179,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107455569",
-        "url": "https://www.stubhub.ie/lenny-pearce-irving-tickets-11-7-2026/event/107455569",
-        "verified": true,
-        "last_verified_at": "2026-11-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_G0P_MtS",
@@ -191,7 +191,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048522",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048522/Lenny-Pearce-tickets-Sat-Nov-7-2026-The-Pavilion-at-Toyota-Music-Factory",
-    "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-irving-tickets-11-7-2026/event/107455569",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

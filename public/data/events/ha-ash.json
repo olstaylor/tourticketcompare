@@ -1271,6 +1271,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669710",
+        "url": "https://www.stubhub.ie/ha-ash-miami-beach-tickets-5-22-2027/event/107669710",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_K1-Dzg7",
@@ -1289,7 +1296,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Ballads/Romantic"
+    "genre": "Ballads/Romantic",
+    "stubhub_international_url": "https://www.stubhub.ie/ha-ash-miami-beach-tickets-5-22-2027/event/107669710"
   },
   {
     "id": "tm-ha-ash-2027-portland-z7r9jz1aavz-k",

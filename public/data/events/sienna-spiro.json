@@ -1093,6 +1093,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107259057",
+        "url": "https://www.stubhub.ie/sienna-spiro-san-francisco-tickets-11-9-2026/event/107259057",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GKW-EWe",
@@ -1104,7 +1111,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038343",
     "ticket_limit": 4,
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038343/Sienna-Spiro-tickets-Mon-Nov-9-2026-Castro-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038343/Sienna-Spiro-tickets-Mon-Nov-9-2026-Castro-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-san-francisco-tickets-11-9-2026/event/107259057"
   },
   {
     "id": "tm-sienna-spiro-2026-los-angeles-vvg10z_gpwxv_j",
@@ -2847,6 +2855,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678120",
+        "url": "https://www.stubhub.ie/sienna-spiro-chicago-tickets-8-25-2027/event/107678120",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_fGkXlGU6j",
@@ -2870,7 +2885,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332347",
     "ticket_limit": 4,
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-chicago-tickets-8-25-2027/event/107678120"
   },
   {
     "id": "tm-sienna-spiro-2027-chicago-vv17jz_fgkxlcj6o",
@@ -2933,6 +2949,13 @@
         "verified": true,
         "last_verified_at": "2026-10-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107676040",
+        "url": "https://www.stubhub.ie/sienna-spiro-chicago-tickets-8-26-2027/event/107676040",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_fGkXlCJ6O",
@@ -2956,7 +2979,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332348",
     "ticket_limit": 4,
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-chicago-tickets-8-26-2027/event/107676040"
   },
   {
     "id": "tm-sienna-spiro-2027-minneapolis-vv17bz_fgktexhi7",

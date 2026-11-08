@@ -1061,6 +1061,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666772",
+        "url": "https://www.stubhub.ie/tobymac-sugar-land-tickets-2-12-2027/event/107666772",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8Op",
@@ -1068,7 +1075,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239109",
     "genre": "Hip-Hop/Rap",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239109/TobyMac-tickets-Fri-Feb-12-2027-Smart-Financial-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239109/TobyMac-tickets-Fri-Feb-12-2027-Smart-Financial-Centre",
+    "stubhub_international_url": "https://www.stubhub.ie/tobymac-sugar-land-tickets-2-12-2027/event/107666772"
   },
   {
     "id": "tm-tobymac-2027-grand-prairie-z7r9jz1aav8of",

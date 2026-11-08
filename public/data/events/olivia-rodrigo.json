@@ -1493,11 +1493,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107164279",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-philadelphia-tickets-11-7-2026/event/107164279",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -1506,7 +1506,7 @@
     "ticketmaster_discovery_event_id": "1AdZZ_aGkMZLMMg",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921661",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921661/Olivia-Rodrigo-tickets-Sat-Nov-7-2026-Xfinity-Mobile-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-philadelphia-tickets-11-7-2026/event/107164279",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

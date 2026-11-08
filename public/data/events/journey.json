@@ -1453,6 +1453,13 @@
         "verified": true,
         "last_verified_at": "2026-10-15",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107169148",
+        "url": "https://www.stubhub.ie/journey-houston-tickets-11-18-2026/event/107169148",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_fz",
@@ -1460,7 +1467,8 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956854/Journey-tickets-Wed-Nov-18-2026-Toyota-Center-TX",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956854",
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/journey-houston-tickets-11-18-2026/event/107169148"
   },
   {
     "id": "tm-journey-2026-dallas-vvg1yz_14w7vrn",

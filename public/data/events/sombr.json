@@ -1848,11 +1848,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107667741",
-        "url": "https://www.stubhub.ie/sombr-detroit-tickets-11-7-2026/event/107667741",
-        "verified": true,
-        "last_verified_at": "2026-09-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk3FGkeg5JlZ",
@@ -1860,7 +1860,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874877",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874877/sombr-tickets-Sat-Nov-7-2026-Little-Caesars-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-detroit-tickets-11-7-2026/event/107667741",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

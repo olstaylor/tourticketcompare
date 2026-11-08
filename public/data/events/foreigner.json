@@ -945,6 +945,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666759",
+        "url": "https://www.stubhub.ie/foreigner-tickets-london-london-palladium-14-4-2027/event/107666759",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16djZ_37gG7HHXi",
@@ -956,7 +963,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324848",
     "ticket_limit": 6,
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324848/Foreigner-tickets-Wed-Apr-14-2027-London-Palladium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324848/Foreigner-tickets-Wed-Apr-14-2027-London-Palladium",
+    "stubhub_international_url": "https://www.stubhub.ie/foreigner-tickets-london-london-palladium-14-4-2027/event/107666759"
   },
   {
     "id": "tm-foreigner-2027-new-york-g5diz_oohwwkw",

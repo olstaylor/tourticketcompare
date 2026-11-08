@@ -349,6 +349,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107469574",
+        "url": "https://www.stubhub.ie/lord-huron-chicago-tickets-12-8-2026/event/107469574",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_2U-ES7s",
@@ -371,7 +378,8 @@
         "end": "2026-12-09T03:00:00Z"
       }
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/lord-huron-chicago-tickets-12-8-2026/event/107469574"
   },
   {
     "id": "tm-lord-huron-2026-chicago-vvg1jz_2u-jk7l",
@@ -434,6 +442,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107469575",
+        "url": "https://www.stubhub.ie/lord-huron-chicago-tickets-12-9-2026/event/107469575",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_2U-JK7l",
@@ -456,7 +471,8 @@
         "end": "2026-12-10T03:00:00Z"
       }
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/lord-huron-chicago-tickets-12-9-2026/event/107469575"
   },
   {
     "id": "tm-lord-huron-2026-albany-k7vgf_2d6r7wd",

@@ -4193,6 +4193,13 @@
         "verified": true,
         "last_verified_at": "2026-10-17",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672242",
+        "url": "https://www.stubhub.ie/def-leppard-houston-tickets-6-1-2027/event/107672242",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7eob",
@@ -4203,7 +4210,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-houston-tickets-6-1-2027/event/107672242"
   },
   {
     "id": "tm-def-leppard-2027-cleveland-z7r9jz1aa7eo8",

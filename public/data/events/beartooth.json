@@ -1292,6 +1292,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980227",
+        "url": "https://www.ticketliquidator.com/tickets/7980227/Beartooth-tickets-Sat-Dec-5-2026-FTL-War-Memorial-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70IGy",
@@ -1301,7 +1308,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980227",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980227/Beartooth-tickets-Sat-Dec-5-2026-FTL-War-Memorial-Auditorium"
   },
   {
     "id": "tm-beartooth-2026-new-orleans-g5viz_1lu2gm0",
@@ -1531,6 +1539,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980235",
+        "url": "https://www.ticketliquidator.com/tickets/7980235/Beartooth-tickets-Sat-Dec-12-2026-Fillmore-Auditorium-Colorado",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1SIgr2S",
@@ -1548,7 +1563,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980235",
     "ticket_limit": 8,
-    "genre": "Metal"
+    "genre": "Metal",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980235/Beartooth-tickets-Sat-Dec-12-2026-Fillmore-Auditorium-Colorado"
   },
   {
     "id": "tm-beartooth-2026-salt-lake-city-g5vzz_1w63kam",

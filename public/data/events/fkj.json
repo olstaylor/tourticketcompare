@@ -1067,6 +1067,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012962",
+        "url": "https://www.ticketliquidator.com/tickets/8012962/FKJ-tickets-Wed-Jun-9-2027-The-Tabernacle-GA",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_59Up5bx",
@@ -1084,7 +1091,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012962",
     "ticket_limit": 6,
-    "genre": "Dance/Electronic"
+    "genre": "Dance/Electronic",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012962/FKJ-tickets-Wed-Jun-9-2027-The-Tabernacle-GA"
   },
   {
     "id": "tm-fkj-2027-houston-g5diz_5msvufk",

@@ -247,6 +247,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7957527",
+        "url": "https://www.ticketliquidator.com/tickets/7957527/TobyMac-tickets-Sat-Nov-7-2026-Wolstein-Center-CSU-Convocation-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1RaOGQA",
@@ -256,7 +263,8 @@
       "AWAKENING EVENTS"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957527",
-    "genre": "Religious"
+    "genre": "Religious",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957527/TobyMac-tickets-Sat-Nov-7-2026-Wolstein-Center-CSU-Convocation-Center"
   },
   {
     "id": "tm-tobymac-2026-greensboro-g5evz_1nayk4t",
@@ -1046,13 +1054,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8239109",
+        "url": "https://www.ticketliquidator.com/tickets/8239109/TobyMac-tickets-Fri-Feb-12-2027-Smart-Financial-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8Op",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239109",
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239109/TobyMac-tickets-Fri-Feb-12-2027-Smart-Financial-Centre"
   },
   {
     "id": "tm-tobymac-2027-grand-prairie-z7r9jz1aav8of",

@@ -891,6 +891,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307362",
+        "url": "https://www.ticketliquidator.com/tickets/8307362/Jay-Wheeler-tickets-Thu-Mar-25-2027-Santander-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkBLt_5x",
@@ -908,7 +915,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307362",
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307362/Jay-Wheeler-tickets-Thu-Mar-25-2027-Santander-Arena"
   },
   {
     "id": "tm-jay-wheeler-2027-boston-vv1avzk4agkejxnem",
@@ -1123,6 +1131,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307364",
+        "url": "https://www.ticketliquidator.com/tickets/8307364/Jay-Wheeler-tickets-Sun-Apr-4-2027-Fillmore-Auditorium-Colorado",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_f20_jhu",
@@ -1140,7 +1155,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307364",
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307364/Jay-Wheeler-tickets-Sun-Apr-4-2027-Fillmore-Auditorium-Colorado"
   },
   {
     "id": "tm-jay-wheeler-2027-irving-vvg1yz_f8nrws_",

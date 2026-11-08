@@ -2258,12 +2258,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8322379",
+        "url": "https://www.ticketliquidator.com/tickets/8322379/Zach-Bryan-tickets-Wed-Apr-28-2027-US-Bank-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Kad",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322379"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8322379",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8322379/Zach-Bryan-tickets-Wed-Apr-28-2027-US-Bank-Stadium"
   },
   {
     "id": "tm-zach-bryan-2027-chicago-z7r9jz1aa7pvj",

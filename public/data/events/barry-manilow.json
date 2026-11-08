@@ -135,7 +135,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-11-07-2026/event/170062F0FD5B6364",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -171,15 +171,9 @@
     "ticketmaster_discovery_event_id": "17AYvxG62dWpUu0",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Official Platinum Onsale",
-        "start": "2025-07-25T17:00:00Z",
-        "end": "2026-11-08T04:00:00Z"
-      }
-    ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dw9jut",

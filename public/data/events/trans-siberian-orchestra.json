@@ -171,7 +171,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-cincinnati-ohio-11-21-2026/event/16006514CCD7E77F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -221,13 +221,6 @@
     "ticketmaster_discovery_event_id": "1ApZkffGkdGgXqT",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "T-Mobile Concert Perks",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-08T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -251,7 +244,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C7C2B996",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -301,13 +294,6 @@
     "ticketmaster_discovery_event_id": "G5vzZ_o66YlJp",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "T-Mobile® Concert Perks",
-        "start": "2026-09-18T16:00:00Z",
-        "end": "2026-11-08T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1422,7 +1408,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-columbus-ohio-12-05-2026/event/0500650DA86C688D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1472,13 +1458,6 @@
     "ticketmaster_discovery_event_id": "vv17fZ_8GkUIhkxu",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-08T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

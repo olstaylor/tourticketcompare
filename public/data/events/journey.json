@@ -1820,7 +1820,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-san-francisco-chase-center-11-28-2026--concerts-rock/production/7022156",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-san-francisco-california-11-28-2026/event/1C006499E0B535ED",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1877,13 +1877,6 @@
     "ticketmaster_discovery_event_id": "G5vYZ_aEOcK9c",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-15T17:00:00Z",
-        "end": "2026-11-08T01:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956787/Journey-tickets-Sat-Nov-28-2026-Chase-Center",
     "stubhub_international_url": "https://www.stubhub.ie/journey-san-francisco-tickets-11-28-2026/event/107169142",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956787",

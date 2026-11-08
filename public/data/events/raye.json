@@ -76,7 +76,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/raye-dublin-24-06-2027/event/18006545E5410D1C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -117,11 +117,6 @@
       "MCD PRODUCTIONS"
     ],
     "presales": [
-      {
-        "name": "Bank Of Ireland Mastercard Presale",
-        "start": "2026-11-06T10:00:00Z",
-        "end": "2026-11-08T10:00:00Z"
-      },
       {
         "name": "MCD Presale",
         "start": "2026-11-09T10:00:00Z",

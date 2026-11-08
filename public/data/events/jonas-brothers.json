@@ -1262,7 +1262,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-san-antonio-frost-bank-center-11-14-2026--concerts-pop/production/7446292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-antonio-texas-11-14-2026/event/3A00650DB2F7A71E",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1327,11 +1327,6 @@
       "COMMUNITY ARENA MANAGEMENT"
     ],
     "presales": [
-      {
-        "name": "Global Poverty Project",
-        "start": "2026-08-19T15:00:00Z",
-        "end": "2026-11-08T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-21T15:00:00Z",

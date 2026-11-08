@@ -1368,7 +1368,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "0D006339140D4C8B",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-miami-florida-11-11-2026/event/0D006339140D4C8B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/miami-florida-kaseya-center-2026-11-11-7-30-pm/concert/17769338",
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-miami-kaseya-center-11-11-2026--concerts-rap-hip-hop/production/6091566",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-miami-florida-11-11-2026/event/0D006339140D4C8B",
@@ -1384,11 +1384,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769338,
+        "url": "https://seatgeek.com/doja-cat-tickets/miami-florida-kaseya-center-2026-11-11-7-30-pm/concert/17769338",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091566,
@@ -1450,7 +1450,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "0D00633AEE974980",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-tampa-florida-11-13-2026/event/0D00633AEE974980",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/tampa-florida-benchmark-international-arena-2026-11-13-7-30-pm/concert/17769340",
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-tampa-benchmark-international-arena-11-13-2026--concerts-rap-hip-hop/production/6091568",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-tampa-florida-11-13-2026/event/0D00633AEE974980",
@@ -1466,11 +1466,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769340,
+        "url": "https://seatgeek.com/doja-cat-tickets/tampa-florida-benchmark-international-arena-2026-11-13-7-30-pm/concert/17769340",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091568,
@@ -1538,7 +1538,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "2200633AE37E3BA9",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-orlando-florida-11-14-2026/event/2200633AE37E3BA9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/orlando-florida-kia-center-2026-11-14-7-30-pm/concert/17769341",
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-orlando-kia-center-11-14-2026--concerts-rap-hip-hop/production/6091570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-orlando-florida-11-14-2026/event/2200633AE37E3BA9",
@@ -1554,11 +1554,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769341,
+        "url": "https://seatgeek.com/doja-cat-tickets/orlando-florida-kia-center-2026-11-14-7-30-pm/concert/17769341",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091570,
@@ -1626,7 +1626,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "0E00633AC24B633B",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-atlanta-georgia-11-17-2026/event/0E00633AC24B633B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/atlanta-georgia-state-farm-arena-1-2026-11-17-7-30-pm/concert/17769342",
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-atlanta-state-farm-arena-11-17-2026--concerts-rap-hip-hop/production/6091572",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-atlanta-georgia-11-17-2026/event/0E00633AC24B633B",
@@ -1642,11 +1642,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769342,
+        "url": "https://seatgeek.com/doja-cat-tickets/atlanta-georgia-state-farm-arena-1-2026-11-17-7-30-pm/concert/17769342",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091572,
@@ -1714,7 +1714,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "2D006339EEEC97F4",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-charlotte-north-carolina-11-18-2026/event/2D006339EEEC97F4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-11-18-7-30-pm/concert/17769343",
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-charlotte-spectrum-center-11-18-2026--concerts-rap-hip-hop/production/6091576",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-charlotte-north-carolina-11-18-2026/event/2D006339EEEC97F4",
@@ -1730,11 +1730,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769343,
+        "url": "https://seatgeek.com/doja-cat-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-11-18-7-30-pm/concert/17769343",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091576,
@@ -1821,7 +1821,7 @@
         "event_id": 17769349,
         "url": "https://seatgeek.com/doja-cat-tickets/baltimore-maryland-cfg-bank-arena-2026-11-20-7-30-pm/concert/17769349",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1882,7 +1882,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "15006339E5D65BD6",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-washington-district-of-columbia-11-21-2026/event/15006339E5D65BD6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/washington-district-of-columbia-capital-one-arena-2026-11-21-7-30-pm/concert/17769348",
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-washington-capital-one-arena-11-21-2026--concerts-rap-hip-hop/production/6091579",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-washington-district-of-columbia-11-21-2026/event/15006339E5D65BD6",
@@ -1898,11 +1898,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769348,
+        "url": "https://seatgeek.com/doja-cat-tickets/washington-district-of-columbia-capital-one-arena-2026-11-21-7-30-pm/concert/17769348",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091579,
@@ -1971,7 +1971,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "0100633917079EE3",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-boston-massachusetts-11-23-2026/event/0100633917079EE3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/boston-massachusetts-td-garden-2026-11-23-7-30-pm/concert/17769352",
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-boston-td-garden-11-23-2026--concerts-rap-hip-hop/production/6091580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-boston-massachusetts-11-23-2026/event/0100633917079EE3",
@@ -1987,11 +1987,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769352,
+        "url": "https://seatgeek.com/doja-cat-tickets/boston-massachusetts-td-garden-2026-11-23-7-30-pm/concert/17769352",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091580,
@@ -2078,7 +2078,7 @@
         "event_id": 17769355,
         "url": "https://seatgeek.com/doja-cat-tickets/toronto-canada-scotiabank-arena-2026-11-25-7-30-pm/concert/17769355",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2146,7 +2146,7 @@
         "event_id": 17769357,
         "url": "https://seatgeek.com/doja-cat-tickets/montreal-canada-centre-bell-2026-11-27-7-30-pm/concert/17769357",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2220,7 +2220,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "3000633AC3E34D89",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-philadelphia-pennsylvania-11-29-2026/event/3000633AC3E34D89",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-29-7-30-pm/concert/17769353",
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-philadelphia-xfinity-mobile-arena-11-29-2026--concerts-rap-hip-hop/production/6091581",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-philadelphia-pennsylvania-11-29-2026/event/3000633AC3E34D89",
@@ -2236,11 +2236,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769353,
+        "url": "https://seatgeek.com/doja-cat-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-29-7-30-pm/concert/17769353",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091581,
@@ -2309,7 +2309,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "3B00633A23FD3029",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-new-york-new-york-12-01-2026/event/3B00633A23FD3029",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/new-york-new-york-madison-square-garden-2026-12-01-7-30-pm/concert/17769298",
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-new-york-madison-square-garden-12-1-2026--concerts-rap-hip-hop/production/6091583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-new-york-new-york-12-01-2026/event/3B00633A23FD3029",
@@ -2325,11 +2325,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769298,
+        "url": "https://seatgeek.com/doja-cat-tickets/new-york-new-york-madison-square-garden-2026-12-01-7-30-pm/concert/17769298",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091583,

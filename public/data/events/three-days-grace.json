@@ -685,7 +685,7 @@
         "event_id": 17895172,
         "url": "https://seatgeek.com/three-days-grace-tickets/sacramento-california-golden-1-center-2026-11-17-7-pm/concert/17895172",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -774,7 +774,7 @@
         "event_id": 17895175,
         "url": "https://seatgeek.com/three-days-grace-tickets/san-jose-california-sap-center-at-san-jose-2026-11-18-7-pm/concert/17895175",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -868,7 +868,7 @@
         "event_id": 17895176,
         "url": "https://seatgeek.com/three-days-grace-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-11-20-7-pm/concert/17895176",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -922,7 +922,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "19006364AE216854",
     "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-phoenix-arizona-11-21-2026/event/19006364AE216854",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2026-11-21-7-pm/concert/17895178",
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-phoenix-talking-stick-resort-amphitheatre-11-21-2026--concerts-hard-rock/production/6276810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-phoenix-arizona-11-21-2026/event/19006364AE216854",
@@ -938,11 +938,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17895178,
+        "url": "https://seatgeek.com/three-days-grace-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2026-11-21-7-pm/concert/17895178",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6276810,
@@ -1016,7 +1016,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "09006365AFE0EDC0",
     "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-inglewood-california-11-22-2026/event/09006365AFE0EDC0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/inglewood-california-intuit-dome-2026-11-22-7-pm/concert/17895177",
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-inglewood-intuit-dome-11-22-2026--concerts-hard-rock/production/6276780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-inglewood-california-11-22-2026/event/09006365AFE0EDC0",
@@ -1032,11 +1032,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17895177,
+        "url": "https://seatgeek.com/three-days-grace-tickets/inglewood-california-intuit-dome-2026-11-22-7-pm/concert/17895177",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6276780,

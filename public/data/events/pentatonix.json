@@ -387,7 +387,7 @@
     "tour_name": "Christmas in the City Tour",
     "ticketmaster_event_id": "070064F5C7DE504C",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-14-7-pm/concert/18427195",
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-milwaukee-fiserv-forum-11-14-2026/production/7393456",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C",
@@ -403,11 +403,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18427195,
+        "url": "https://seatgeek.com/pentatonix-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-14-7-pm/concert/18427195",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7393456,
@@ -489,7 +489,7 @@
         "event_id": 18427197,
         "url": "https://seatgeek.com/pentatonix-tickets/grand-rapids-michigan-van-andel-arena-2026-11-15-6-pm/concert/18427197",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -551,7 +551,7 @@
     "tour_name": "Christmas in the City Tour",
     "ticketmaster_event_id": "16006504AF5F8B3C",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-louisville-kentucky-11-16-2026/event/16006504AF5F8B3C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/louisville-kentucky-kfc-yum-center-2026-11-16-7-pm/concert/18427196",
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-louisville-kfc-yum-center-11-16-2026/production/7393515",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-louisville-kentucky-11-16-2026/event/16006504AF5F8B3C",
@@ -567,11 +567,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18427196,
+        "url": "https://seatgeek.com/pentatonix-tickets/louisville-kentucky-kfc-yum-center-2026-11-16-7-pm/concert/18427196",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7393515,
@@ -639,7 +639,7 @@
     "tour_name": "Christmas in the City Tour",
     "ticketmaster_event_id": "000065019E34B6C8",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-buffalo-new-york-11-18-2026/event/000065019E34B6C8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/buffalo-new-york-keybank-center-2026-11-18-7-pm/concert/18427203",
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-buffalo-keybank-center-11-18-2026/production/7393780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-buffalo-new-york-11-18-2026/event/000065019E34B6C8",
@@ -655,11 +655,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18427203,
+        "url": "https://seatgeek.com/pentatonix-tickets/buffalo-new-york-keybank-center-2026-11-18-7-pm/concert/18427203",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7393780,
@@ -800,7 +800,7 @@
     "tour_name": "Christmas in the City Tour",
     "ticketmaster_event_id": "16006503DE3BB43A",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-pittsburgh-pennsylvania-11-21-2026/event/16006503DE3BB43A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-21-7-pm/concert/18427204",
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-pittsburgh-ppg-paints-arena-11-21-2026/production/7393834",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-pittsburgh-pennsylvania-11-21-2026/event/16006503DE3BB43A",
@@ -816,11 +816,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18427204,
+        "url": "https://seatgeek.com/pentatonix-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-21-7-pm/concert/18427204",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7393834,
@@ -908,7 +908,7 @@
         "event_id": 18427238,
         "url": "https://seatgeek.com/pentatonix-tickets/hamilton-canada-td-coliseum-2026-11-22-6-pm/concert/18427238",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -981,7 +981,7 @@
         "event_id": 18427205,
         "url": "https://seatgeek.com/pentatonix-tickets/charlottesville-virginia-john-paul-jones-arena-2026-11-28-7-pm/concert/18427205",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1043,7 +1043,7 @@
     "tour_name": "Christmas in the City Tour",
     "ticketmaster_event_id": "000064FEAF2FBD14",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-albany-new-york-11-29-2026/event/000064FEAF2FBD14",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/albany-new-york-mvp-arena-2026-11-29-7-pm/concert/18427206",
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-albany-mvp-arena-11-29-2026/production/7393828",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-albany-new-york-11-29-2026/event/000064FEAF2FBD14",
@@ -1059,11 +1059,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18427206,
+        "url": "https://seatgeek.com/pentatonix-tickets/albany-new-york-mvp-arena-2026-11-29-7-pm/concert/18427206",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7393828,
@@ -1132,7 +1132,7 @@
     "tour_name": "Christmas in the City Tour",
     "ticketmaster_event_id": "150064FDAF3179F3",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-baltimore-maryland-12-03-2026/event/150064FDAF3179F3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/baltimore-maryland-cfg-bank-arena-2026-12-03-7-pm/concert/18427209",
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-baltimore-cfg-bank-arena-12-3-2026/production/7394001",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-baltimore-maryland-12-03-2026/event/150064FDAF3179F3",
@@ -1148,11 +1148,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18427209,
+        "url": "https://seatgeek.com/pentatonix-tickets/baltimore-maryland-cfg-bank-arena-2026-12-03-7-pm/concert/18427209",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7394001,
@@ -1240,7 +1240,7 @@
         "event_id": 18427214,
         "url": "https://seatgeek.com/pentatonix-tickets/columbia-south-carolina-colonial-life-arena-2026-12-05-7-pm/concert/18427214",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1320,7 +1320,7 @@
         "event_id": 18427215,
         "url": "https://seatgeek.com/pentatonix-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-12-06-6-pm/concert/18427215",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1401,7 +1401,7 @@
         "event_id": 18427217,
         "url": "https://seatgeek.com/pentatonix-tickets/raleigh-north-carolina-lenovo-center-2026-12-07-7-pm/concert/18427217",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1463,7 +1463,7 @@
     "tour_name": "Christmas in the City Tour",
     "ticketmaster_event_id": "1B00650583B04F68",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-nashville-tennessee-12-09-2026/event/1B00650583B04F68",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/nashville-tennessee-bridgestone-arena-2026-12-09-7-pm/concert/18427219",
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-nashville-bridgestone-arena-12-9-2026--concerts-pop/production/7394203",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-nashville-tennessee-12-09-2026/event/1B00650583B04F68",
@@ -1479,11 +1479,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18427219,
+        "url": "https://seatgeek.com/pentatonix-tickets/nashville-tennessee-bridgestone-arena-2026-12-09-7-pm/concert/18427219",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7394203,
@@ -1551,7 +1551,7 @@
     "tour_name": "Christmas in the City Tour",
     "ticketmaster_event_id": "0E006505B8C284AF",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-atlanta-georgia-12-10-2026/event/0E006505B8C284AF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/atlanta-georgia-state-farm-arena-1-2026-12-10-7-pm/concert/18427220",
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-atlanta-state-farm-arena-12-10-2026/production/7393911",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-atlanta-georgia-12-10-2026/event/0E006505B8C284AF",
@@ -1567,11 +1567,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18427220,
+        "url": "https://seatgeek.com/pentatonix-tickets/atlanta-georgia-state-farm-arena-1-2026-12-10-7-pm/concert/18427220",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7393911,
@@ -1659,7 +1659,7 @@
         "event_id": 18427222,
         "url": "https://seatgeek.com/pentatonix-tickets/north-little-rock-arkansas-simmons-bank-arena-2026-12-12-7-pm/concert/18427222",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1740,7 +1740,7 @@
         "event_id": 18427226,
         "url": "https://seatgeek.com/pentatonix-tickets/bossier-city-louisiana-brookshire-grocery-arena-2026-12-13-6-pm/concert/18427226",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1798,7 +1798,7 @@
     "tour_name": "Christmas in the City Tour",
     "ticketmaster_event_id": "3A006504EE731AE5",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-austin-texas-12-15-2026/event/3A006504EE731AE5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/austin-texas-moody-center-atx-2026-12-15-7-pm/concert/18427227",
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-austin-moody-center-atx-12-15-2026/production/7393901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-austin-texas-12-15-2026/event/3A006504EE731AE5",
@@ -1814,11 +1814,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18427227,
+        "url": "https://seatgeek.com/pentatonix-tickets/austin-texas-moody-center-atx-2026-12-15-7-pm/concert/18427227",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7393901,

@@ -1500,7 +1500,7 @@
     "tour_name": "The Last King World Tour",
     "ticketmaster_event_id": "190064AFC8167E0A",
     "ticketmaster_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-phoenix-arizona-11-08-2026/event/190064AFC8167E0A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-08-8-pm/concert/18250876",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-phoenix-mortgage-matchup-center-11-8-2026/production/7047748",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-phoenix-arizona-11-08-2026/event/190064AFC8167E0A",
@@ -1516,11 +1516,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18250876,
+        "url": "https://seatgeek.com/don-omar-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-08-8-pm/concert/18250876",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047748,

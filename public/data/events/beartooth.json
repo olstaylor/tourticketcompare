@@ -361,7 +361,7 @@
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "010064A8E6A0202F",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-boston-massachusetts-11-11-2026/event/010064A8E6A0202F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/beartooth-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-11-11-6-30-pm/concert/18253043",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-boston-mgm-music-hall-at-fenway-11-11-2026/production/7052686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-boston-massachusetts-11-11-2026/event/010064A8E6A0202F",
@@ -377,11 +377,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18253043,
+        "url": "https://seatgeek.com/beartooth-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-11-11-6-30-pm/concert/18253043",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7052686,
@@ -603,7 +603,7 @@
         "event_id": 18253046,
         "url": "https://seatgeek.com/beartooth-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-11-15-6-30-pm/concert/18253046",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -728,7 +728,7 @@
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "040064A8E6905D55",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-chicago-illinois-11-20-2026/event/040064A8E6905D55",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/beartooth-tickets/chicago-illinois-byline-bank-aragon-ballroom-2026-11-20-6-pm/concert/18253045",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-chicago-aragon-ballroom-11-20-2026--concerts-hard-rock/production/7052738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-chicago-illinois-11-20-2026/event/040064A8E6905D55",
@@ -744,11 +744,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18253045,
+        "url": "https://seatgeek.com/beartooth-tickets/chicago-illinois-byline-bank-aragon-ballroom-2026-11-20-6-pm/concert/18253045",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7052738,
@@ -890,7 +890,7 @@
         "event_id": 18253048,
         "url": "https://seatgeek.com/beartooth-tickets/omaha-nebraska-steelhouse-omaha-2026-11-22-6-30-pm/concert/18253048",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -964,7 +964,7 @@
         "event_id": 18253047,
         "url": "https://seatgeek.com/beartooth-tickets/nashville-tennessee-the-truth-nashville-2026-11-28-6-30-pm/concert/18253047",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1045,7 +1045,7 @@
         "event_id": 18253055,
         "url": "https://seatgeek.com/beartooth-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-11-29-6-30-pm/concert/18253055",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1126,7 +1126,7 @@
         "event_id": 18253056,
         "url": "https://seatgeek.com/beartooth-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-12-01-6-30-pm/concert/18253056",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1342,7 +1342,7 @@
         "event_id": 18253062,
         "url": "https://seatgeek.com/beartooth-tickets/new-orleans-louisiana-fillmore-new-orleans-2026-12-07-5-30-pm/concert/18253062",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1404,7 +1404,7 @@
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "0C0064ADF719EBA8",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-dallas-texas-12-10-2026/event/0C0064ADF719EBA8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/beartooth-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2026-12-10-6-30-pm/concert/18253067",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-dallas-south-side-ballroom-12-10-2026--concerts-hard-rock/production/7052880",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-dallas-texas-12-10-2026/event/0C0064ADF719EBA8",
@@ -1420,11 +1420,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18253067,
+        "url": "https://seatgeek.com/beartooth-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2026-12-10-6-30-pm/concert/18253067",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7052880,
@@ -1516,7 +1516,7 @@
         "event_id": 18253068,
         "url": "https://seatgeek.com/beartooth-tickets/denver-colorado-fillmore-auditorium-denver-2026-12-12-5-pm/concert/18253068",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1597,7 +1597,7 @@
         "event_id": 18253071,
         "url": "https://seatgeek.com/beartooth-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-12-13-6-pm/concert/18253071",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1683,7 +1683,7 @@
         "event_id": 18253074,
         "url": "https://seatgeek.com/beartooth-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-16-6-30-pm/concert/18253074",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {

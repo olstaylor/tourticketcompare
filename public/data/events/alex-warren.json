@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "39006529C1AA5D7A",
     "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-30-2026/event/39006529C1AA5D7A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alex-warren-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2026-12-30-8-pm/concert/18590187",
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-las-vegas-the-colosseum-at-caesars-palace-12-30-2026/production/7553175",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-30-2026/event/39006529C1AA5D7A",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590187,
+        "url": "https://seatgeek.com/alex-warren-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2026-12-30-8-pm/concert/18590187",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553175,
@@ -90,7 +90,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "39006529C1B25D7C",
     "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-31-2026/event/39006529C1B25D7C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alex-warren-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2026-12-31-8-pm/concert/18590188",
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-las-vegas-the-colosseum-at-caesars-palace-12-31-2026/production/7553149",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-31-2026/event/39006529C1B25D7C",
@@ -106,11 +106,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590188,
+        "url": "https://seatgeek.com/alex-warren-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2026-12-31-8-pm/concert/18590188",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553149,

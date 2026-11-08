@@ -64,7 +64,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAvbz",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAvbz",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dom-dolla-tickets/miami-florida-factory-town-2026-12-31-10-pm/concert/18750432",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAvbz",
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18750432,
+        "url": "https://seatgeek.com/dom-dolla-tickets/miami-florida-factory-town-2026-12-31-10-pm/concert/18750432",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

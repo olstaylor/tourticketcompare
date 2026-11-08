@@ -401,7 +401,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000645905ABDC05",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-11-2026/event/0000645905ABDC05",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-11-7-pm/concert/18100163",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-11-2026--concerts-adult-contemporary/production/6727899",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-11-2026/event/0000645905ABDC05",
@@ -417,11 +417,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18100163,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-11-7-pm/concert/18100163",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6727899,
@@ -482,7 +482,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000645905AEDC0E",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-12-2026/event/0000645905AEDC0E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-12-7-pm/concert/18100164",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-12-2026--concerts-adult-contemporary/production/6727904",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-12-2026/event/0000645905AEDC0E",
@@ -498,11 +498,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18100164,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-12-7-pm/concert/18100164",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6727904,
@@ -570,7 +570,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000645905B2DC1A",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-14-2026/event/0000645905B2DC1A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-14-7-pm/concert/18100162",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-14-2026--concerts-adult-contemporary/production/6727910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-14-2026/event/0000645905B2DC1A",
@@ -586,11 +586,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18100162,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-14-7-pm/concert/18100162",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6727910,
@@ -658,7 +658,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000645905A7DBFA",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-15-2026/event/0000645905A7DBFA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-15-7-pm/concert/18100165",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-15-2026--concerts-adult-contemporary/production/6727916",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-15-2026/event/0000645905A7DBFA",
@@ -674,11 +674,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18100165,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-15-7-pm/concert/18100165",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6727916,
@@ -746,7 +746,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000645905A4DBF0",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-17-2026/event/0000645905A4DBF0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-17-7-pm/concert/18100167",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-17-2026--concerts-adult-contemporary/production/6727921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-17-2026/event/0000645905A4DBF0",
@@ -762,11 +762,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18100167,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-17-7-pm/concert/18100167",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6727921,
@@ -834,7 +834,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000645905A0DBE7",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-18-2026/event/0000645905A0DBE7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-18-7-pm/concert/18100166",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-18-2026--concerts-adult-contemporary/production/6727928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-18-2026/event/0000645905A0DBE7",
@@ -850,11 +850,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18100166,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-18-7-pm/concert/18100166",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6727928,
@@ -922,7 +922,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006459059DDBE3",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-20-2026/event/00006459059DDBE3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-20-7-pm/concert/18626602",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-20-2026/production/7620571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-20-2026/event/00006459059DDBE3",
@@ -938,11 +938,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626602,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-20-7-pm/concert/18626602",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620571,
@@ -1010,7 +1010,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006459059ADBDD",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-21-2026/event/00006459059ADBDD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-21-7-pm/concert/18626604",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-21-2026/production/7620569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-21-2026/event/00006459059ADBDD",
@@ -1026,11 +1026,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626604,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-21-7-pm/concert/18626604",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620569,
@@ -1098,7 +1098,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2200648AE3E676D9",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-orlando-florida-11-24-2026/event/2200648AE3E676D9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/orlando-florida-hard-rock-live-orlando-2026-11-24-8-pm/concert/17898563",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-orlando-hard-rock-live---orlando-11-24-2026/production/7123382",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-orlando-florida-11-24-2026/event/2200648AE3E676D9",
@@ -1114,11 +1114,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17898563,
+        "url": "https://seatgeek.com/sting-tickets/orlando-florida-hard-rock-live-orlando-2026-11-24-8-pm/concert/17898563",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7123382,
@@ -1255,7 +1255,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D00650CA8485EC7",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-hollywood-florida-11-25-2026/event/0D00650CA8485EC7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/hollywood-florida-hard-rock-live-hollywood-2026-11-25-8-pm/concert/18507833",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-11-25-2026/production/7446988",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-hollywood-florida-11-25-2026/event/0D00650CA8485EC7",
@@ -1271,11 +1271,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18507833,
+        "url": "https://seatgeek.com/sting-tickets/hollywood-florida-hard-rock-live-hollywood-2026-11-25-8-pm/concert/18507833",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446988,

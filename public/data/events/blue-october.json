@@ -1103,7 +1103,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "0100646C922AA104",
     "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-boston-massachusetts-11-13-2026/event/0100646C922AA104",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/boston-massachusetts-citizens-house-of-blues-boston-2026-11-13-7-pm/concert/18143448",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-boston-citizens-house-of-blues-boston-11-13-2026--concerts-rock/production/6823202",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-boston-massachusetts-11-13-2026/event/0100646C922AA104",
@@ -1119,11 +1119,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18143448,
+        "url": "https://seatgeek.com/blue-october-tickets/boston-massachusetts-citizens-house-of-blues-boston-2026-11-13-7-pm/concert/18143448",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6823202,
@@ -1203,7 +1203,7 @@
         "event_id": 18141441,
         "url": "https://seatgeek.com/blue-october-tickets/wilkes-barre-pennsylvania-f-m-kirby-center-2026-11-14-8-pm/concert/18141441",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1257,7 +1257,7 @@
         "event_id": 18141766,
         "url": "https://seatgeek.com/blue-october-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2026-11-15-8-pm/concert/18141766",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1312,7 +1312,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "2D00646A8C5589FF",
     "ticketmaster_url": "https://www.ticketmaster.com/blue-october-charlotte-north-carolina-11-17-2026/event/2D00646A8C5589FF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-11-17-8-pm/concert/18141165",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-charlotte-the-fillmore-charlotte-11-17-2026--concerts-rock/production/6823216",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-charlotte-north-carolina-11-17-2026/event/2D00646A8C5589FF",
@@ -1328,11 +1328,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18141165,
+        "url": "https://seatgeek.com/blue-october-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-11-17-8-pm/concert/18141165",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6823216,
@@ -1534,7 +1534,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "2200646AB78B7A93",
     "ticketmaster_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-orlando-florida-11-21-2026/event/2200646AB78B7A93",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/orlando-florida-hard-rock-live-orlando-2026-11-21-8-pm/concert/18140980",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-orlando-hard-rock-live---orlando-11-21-2026--concerts-rock/production/6823222",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-the-foiled-20th-anniversary-orlando-florida-11-21-2026/event/2200646AB78B7A93",
@@ -1550,11 +1550,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18140980,
+        "url": "https://seatgeek.com/blue-october-tickets/orlando-florida-hard-rock-live-orlando-2026-11-21-8-pm/concert/18140980",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6823222,
@@ -1632,7 +1632,7 @@
         "event_id": 18140880,
         "url": "https://seatgeek.com/blue-october-tickets/atlanta-georgia-the-tabernacle-atlanta-2026-11-22-8-pm/concert/18140880",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1706,7 +1706,7 @@
         "event_id": 18126041,
         "url": "https://seatgeek.com/blue-october-tickets/nashville-tennessee-the-truth-nashville-2026-11-25-8-pm/concert/18126041",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1842,7 +1842,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "0C00647413EE28E2",
     "ticketmaster_url": "https://www.ticketmaster.com/2day-pass-blue-october-foiled-20th-irving-texas-11-28-2026/event/0C00647413EE28E2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-28-8-pm/concert/18141903",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-irving-pavilion-at-toyota-music-factory-11-28-2026--concerts-rock/production/6823236",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/2day-pass-blue-october-foiled-20th-irving-texas-11-28-2026/event/0C00647413EE28E2",
@@ -1858,11 +1858,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18141903,
+        "url": "https://seatgeek.com/blue-october-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-28-8-pm/concert/18141903",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6823236,
@@ -2012,7 +2012,7 @@
         "event_id": 18141993,
         "url": "https://seatgeek.com/blue-october-tickets/minneapolis-minnesota-fillmore-minneapolis-2026-12-04-7-pm/concert/18141993",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2086,7 +2086,7 @@
         "event_id": 18142048,
         "url": "https://seatgeek.com/blue-october-tickets/la-vista-nebraska-the-astro-theater-la-vista-2026-12-05-8-pm/concert/18142048",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2198,7 +2198,7 @@
         "event_id": 18140959,
         "url": "https://seatgeek.com/blue-october-tickets/beaumont-texas-jefferson-theatre-2026-12-10-8-pm/concert/18140959",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2338,7 +2338,7 @@
         "event_id": 18140941,
         "url": "https://seatgeek.com/blue-october-tickets/hidalgo-texas-payne-arena-2026-12-13-8-pm/concert/18140941",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2408,7 +2408,7 @@
         "event_id": 18140982,
         "url": "https://seatgeek.com/blue-october-tickets/corpus-christi-texas-selena-auditorium-at-the-american-bank-center-2026-12-17-8-pm/concert/18140982",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2481,7 +2481,7 @@
         "event_id": 18141897,
         "url": "https://seatgeek.com/blue-october-tickets/houston-texas-713-music-hall-2026-12-18-8-pm/concert/18141897",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4026,7 +4026,7 @@
         "event_id": 18704137,
         "url": "https://seatgeek.com/blue-october-tickets/portland-oregon-roseland-theater-2027-02-27-8-pm/concert/18704137",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4096,7 +4096,7 @@
         "event_id": 18716616,
         "url": "https://seatgeek.com/blue-october-tickets/portland-oregon-roseland-theater-2027-02-28-8-pm/concert/18716616",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4237,7 +4237,7 @@
         "event_id": 18717561,
         "url": "https://seatgeek.com/blue-october-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-05-8-pm/concert/18717561",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4291,7 +4291,7 @@
         "event_id": 18262264,
         "url": "https://seatgeek.com/blue-october-tickets/denver-colorado-mission-ballroom-2027-03-06-8-pm/concert/18262264",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4361,7 +4361,7 @@
         "event_id": 18306113,
         "url": "https://seatgeek.com/blue-october-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-07-8-pm/concert/18306113",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4431,7 +4431,7 @@
         "event_id": 18343763,
         "url": "https://seatgeek.com/blue-october-tickets/chicago-illinois-riviera-theatre-chicago-2027-03-11-8-pm/concert/18343763",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {

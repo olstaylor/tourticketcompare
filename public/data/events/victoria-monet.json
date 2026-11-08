@@ -378,7 +378,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006528C1F1AD5E",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-tampa-florida-11-08-2026/event/0D006528C1F1AD5E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/tampa-florida-yuengling-center-2026-11-08-8-pm/concert/18579763",
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-tampa-yuengling-center-11-8-2026--concerts-pop/production/7540276",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-tampa-florida-11-08-2026/event/0D006528C1F1AD5E",
@@ -394,11 +394,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18579763,
+        "url": "https://seatgeek.com/victoria-monet-tickets/tampa-florida-yuengling-center-2026-11-08-8-pm/concert/18579763",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540276,
@@ -534,7 +534,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006525F9EBE9E1",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-boston-massachusetts-11-13-2026/event/01006525F9EBE9E1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-11-13-8-pm/concert/18579770",
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-boston-mgm-music-hall-at-fenway-11-13-2026--concerts-pop/production/7540280",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-boston-massachusetts-11-13-2026/event/01006525F9EBE9E1",
@@ -550,11 +550,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18579770,
+        "url": "https://seatgeek.com/victoria-monet-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-11-13-8-pm/concert/18579770",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540280,
@@ -616,7 +616,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "08006527CEC34B26",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-detroit-michigan-11-15-2026/event/08006527CEC34B26",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/detroit-michigan-fox-theatre-detroit-2026-11-15-7-30-pm/concert/18579772",
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-detroit-fox-theatre-detroit-11-15-2026--concerts-pop/production/7540283",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-detroit-michigan-11-15-2026/event/08006527CEC34B26",
@@ -632,11 +632,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18579772,
+        "url": "https://seatgeek.com/victoria-monet-tickets/detroit-michigan-fox-theatre-detroit-2026-11-15-7-30-pm/concert/18579772",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540283,
@@ -810,7 +810,7 @@
         "event_id": 18579778,
         "url": "https://seatgeek.com/victoria-monet-tickets/chicago-illinois-byline-bank-aragon-ballroom-2026-11-18-7-pm/concert/18579778",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -901,7 +901,7 @@
         "event_id": 18579799,
         "url": "https://seatgeek.com/victoria-monet-tickets/toronto-canada-coca-cola-coliseum-2026-11-21-8-pm/concert/18579799",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -974,7 +974,7 @@
         "event_id": 18579779,
         "url": "https://seatgeek.com/victoria-monet-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2026-11-22-8-pm/concert/18579779",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1055,7 +1055,7 @@
         "event_id": 18579782,
         "url": "https://seatgeek.com/victoria-monet-tickets/new-york-new-york-the-theater-at-msg-1-2026-11-24-8-pm/concert/18579782",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1148,7 +1148,7 @@
         "event_id": 18579783,
         "url": "https://seatgeek.com/victoria-monet-tickets/washington-district-of-columbia-the-anthem-dc-2026-11-27-8-pm/concert/18579783",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1237,7 +1237,7 @@
         "event_id": 18579785,
         "url": "https://seatgeek.com/victoria-monet-tickets/nashville-tennessee-the-truth-nashville-2026-11-30-8-pm/concert/18579785",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1387,7 +1387,7 @@
         "event_id": 18579787,
         "url": "https://seatgeek.com/victoria-monet-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-05-8-pm/concert/18579787",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1468,7 +1468,7 @@
         "event_id": 18579790,
         "url": "https://seatgeek.com/victoria-monet-tickets/san-diego-california-cal-coast-credit-union-open-air-theatre-at-sdsu-2026-12-06-8-pm/concert/18579790",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1567,7 +1567,7 @@
         "event_id": 18579791,
         "url": "https://seatgeek.com/victoria-monet-tickets/inglewood-california-youtube-theater-2026-12-08-8-pm/concert/18579791",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1832,7 +1832,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F00652294FE75B1",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-seattle-washington-12-14-2026/event/0F00652294FE75B1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/seattle-washington-wamu-theater-2026-12-14-8-pm/concert/18579793",
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-seattle-wamu-theater---seattle-12-14-2026/production/7540335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-seattle-washington-12-14-2026/event/0F00652294FE75B1",
@@ -1848,11 +1848,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18579793,
+        "url": "https://seatgeek.com/victoria-monet-tickets/seattle-washington-wamu-theater-2026-12-14-8-pm/concert/18579793",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540335,
@@ -2022,7 +2022,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006523E4C75D1A",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-francisco-california-12-17-2026/event/1C006523E4C75D1A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-12-17-8-pm/concert/18579810",
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-san-francisco-bill-graham-civic-auditorium-12-17-2026--concerts-pop/production/7540497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-francisco-california-12-17-2026/event/1C006523E4C75D1A",
@@ -2038,11 +2038,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18579810,
+        "url": "https://seatgeek.com/victoria-monet-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-12-17-8-pm/concert/18579810",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540497,

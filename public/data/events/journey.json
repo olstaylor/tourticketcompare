@@ -1113,7 +1113,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010064A5E8949EE9",
     "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/boston-massachusetts-td-garden-2026-11-10-7-30-pm/concert/18237118",
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-boston-td-garden-11-10-2026--concerts-rock/production/7021953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
@@ -1129,11 +1129,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18237118,
+        "url": "https://seatgeek.com/journey-tickets/boston-massachusetts-td-garden-2026-11-10-7-30-pm/concert/18237118",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7021953,
@@ -1291,7 +1291,7 @@
         "event_id": 18237123,
         "url": "https://seatgeek.com/journey-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-11-14-7-30-pm/concert/18237123",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1365,7 +1365,7 @@
         "event_id": 18237124,
         "url": "https://seatgeek.com/journey-tickets/saint-louis-missouri-enterprise-center-2026-11-16-7-30-pm/concert/18237124",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1482,7 +1482,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C0064A57D1347A3",
     "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-dallas-texas-11-20-2026/event/0C0064A57D1347A3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/dallas-texas-american-airlines-center-2026-11-20-7-30-pm/concert/18237127",
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-dallas-american-airlines-center---tx-11-20-2026--concerts-rock/production/7022113",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-dallas-texas-11-20-2026/event/0C0064A57D1347A3",
@@ -1498,11 +1498,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18237127,
+        "url": "https://seatgeek.com/journey-tickets/dallas-texas-american-airlines-center-2026-11-20-7-30-pm/concert/18237127",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022113,
@@ -1582,7 +1582,7 @@
         "event_id": 18237128,
         "url": "https://seatgeek.com/journey-tickets/denver-colorado-ball-arena-2026-11-22-7-30-pm/concert/18237128",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1644,7 +1644,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "090064A695B5BA92",
     "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/anaheim-california-honda-center-2026-11-24-7-30-pm/concert/18237129",
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-anaheim-honda-center-11-24-2026--concerts-rock/production/7022141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92",
@@ -1660,11 +1660,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18237129,
+        "url": "https://seatgeek.com/journey-tickets/anaheim-california-honda-center-2026-11-24-7-30-pm/concert/18237129",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022141,
@@ -1816,7 +1816,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006499E0B535ED",
     "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-san-francisco-california-11-28-2026/event/1C006499E0B535ED",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/san-francisco-california-chase-center-2026-11-28-7-30-pm/concert/18237132",
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-san-francisco-chase-center-11-28-2026--concerts-rock/production/7022156",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-san-francisco-california-11-28-2026/event/1C006499E0B535ED",
@@ -1832,11 +1832,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18237132,
+        "url": "https://seatgeek.com/journey-tickets/san-francisco-california-chase-center-2026-11-28-7-30-pm/concert/18237132",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022156,

@@ -177,18 +177,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7957526",
-        "url": "https://www.ticketnetwork.com/en/p/7957526",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1IPfLre",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957526/TobyMac-tickets-Fri-Nov-6-2026-Ford-Center-IN",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957526",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "AWAKENING EVENTS"
     ]

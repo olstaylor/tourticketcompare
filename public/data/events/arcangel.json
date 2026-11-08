@@ -542,11 +542,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7997053",
-        "url": "https://www.ticketnetwork.com/en/p/7997053",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_5KyqgxT",
@@ -556,7 +556,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997053"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-arcangel-2026-denver-g5vzz_1bwrqu_",

@@ -1457,11 +1457,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976490",
-        "url": "https://www.ticketnetwork.com/en/p/7976490",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7976490",
@@ -1481,7 +1481,7 @@
     "ticketmaster_discovery_event_id": "vvG10Z_56fvyEu",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976490",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976490/Don-Omar-tickets-Fri-Nov-6-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-inglewood-tickets-11-6-2026/event/107198486",
     "organizer_names": [

@@ -174,11 +174,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8298499",
-        "url": "https://www.ticketnetwork.com/en/p/8298499",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPGbGAuMyrW",
@@ -189,7 +189,7 @@
       "THE TOURING CO"
     ],
     "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-boston-tickets-11-6-2026/event/107675658",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8298499"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2026-boston-vv1a8vpgbgauu_ra",

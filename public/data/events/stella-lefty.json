@@ -315,18 +315,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7976584",
-        "url": "https://www.ticketnetwork.com/en/p/7976584",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1XpakgV",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976584/Stella-Lefty-tickets-Fri-Nov-6-2026-Cambridge-Room-at-House-Of-Blues-Dallas",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976584",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ]

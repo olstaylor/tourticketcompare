@@ -2963,7 +2963,7 @@
       "description": "For 10 big tours, one resale site's lowest listed price for the next date in each city. On 8 of them the highest city was at least twice the lowest.",
       "summary": "Lowest listed resale prices for the same tour in different cities, one site per tour, each figure with the time it was captured. Snapshots up to 18 October 2026.",
       "datePublished": "2026-10-18",
-      "dateModified": "2026-11-06",
+      "dateModified": "2026-11-08",
       "status": "published",
       "author": "TourTicketCompare",
       "tags": [
@@ -2973,7 +2973,7 @@
         "primary-vs-resale-concert-tickets"
       ],
       "relatedArtists": [],
-      "wordCount": 1937,
+      "wordCount": 1939,
       "sections": [
         {
           "type": "intro",
@@ -2982,7 +2982,7 @@
         {
           "type": "section",
           "title": "Blue October: The Foiled 20th Anniversary World Tour",
-          "content": "On Vivid Seats, the lowest listed price for the next date in each of 47 cities in the United States was $37 in Irving at the low end and $123 in Cleveland at the high end, 3.3 times as much.\n\n| City | Next date | Venue | Lowest listed | Site | Captured |\n|---|---|---|---|---|---|\n| Irving | 27 November 2026 | The Pavilion at Toyota Music Factory | $37 | Vivid Seats | 18 October, 06:38 UTC |\n| Corpus Christi | 17 December 2026 | Selena Auditorium | $39 | Vivid Seats | 18 October, 06:38 UTC |\n| Detroit | 30 October 2026 | The Fillmore Detroit | $42 | Vivid Seats | 18 October, 06:38 UTC |\n| Philadelphia | 15 November 2026 | The Fillmore Philadelphia | $110 | Vivid Seats | 18 October, 06:38 UTC |\n| Sacramento | 19 February 2027 | Channel 24 | $110 | Vivid Seats | 18 October, 06:38 UTC |\n| Cleveland | 7 November 2026 | Agora Theatre | $123 | Vivid Seats | 18 October, 06:38 UTC |\n\nThe 41 cities in between are on the [Blue October page](/artists/blue-october/ticket-prices)."
+          "content": "On Vivid Seats, the lowest listed price for the next date in each of 47 cities in the United States was $37 in Irving at the low end and $123 in Cleveland at the high end, 3.3 times as much.\n\n| City | Next date | Venue | Lowest listed | Site | Captured |\n|---|---|---|---|---|---|\n| Irving | 27 November 2026 | The Pavilion at Toyota Music Factory | $37 | Vivid Seats | 18 October, 06:38 UTC |\n| Corpus Christi | 17 December 2026 | Selena Auditorium | $39 | Vivid Seats | 18 October, 06:38 UTC |\n| Detroit | 30 October 2026 | The Fillmore Detroit | $42 | Vivid Seats | 18 October, 06:38 UTC |\n| Philadelphia | 15 November 2026 | The Fillmore Philadelphia | $110 | Vivid Seats | 18 October, 06:38 UTC |\n| Sacramento | 19 February 2027 | Channel 24 | $110 | Vivid Seats | 18 October, 06:38 UTC |\n| Cleveland | 7 November 2026 (has passed) | Agora Theatre | $123 | Vivid Seats | 18 October, 06:38 UTC |\n\nThe 41 cities in between are on the [Blue October page](/artists/blue-october/ticket-prices)."
         },
         {
           "type": "section",

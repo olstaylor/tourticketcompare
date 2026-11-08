@@ -42,6 +42,12 @@
 // PRIORITY_MIN_SELLERS sellers, for missing from the payload, and for being
 // held. A watched on-sale date with no fresh price at all fails the run; fewer
 // sellers than the minimum is listed on the issue without failing it.
+//
+// --near-days N (added 2026-11-08) lists every US/Canada date in the next N
+// days with fewer than PRIORITY_MIN_SELLERS fresh prices. Every sale traced to
+// a Sub ID so far was a click on a next-day US show, so these dates are where
+// a missing price costs most. Report-only: it never fails the run, because
+// thin near-term coverage is work to do, not an outage.
 
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
@@ -77,6 +83,7 @@ function parseArgs(argv) {
     else if (arg === "--self-test") options.selfTest = true;
     else if (arg === "--base-url") options.baseUrl = String(argv[++i] || "").replace(/\/+$/, "");
     else if (arg === "--priority") options.priority = String(argv[++i] || "");
+    else if (arg === "--near-days") options.nearDays = Number(argv[++i]);
     else if (arg === "--markdown") options.markdown = String(argv[++i] || "");
     else if (arg === "--min-share") options.minShare = Number(argv[++i]);
     else if (arg === "--max-stale-share") options.maxStaleShare = Number(argv[++i]);
@@ -84,6 +91,7 @@ function parseArgs(argv) {
   }
   if (!(options.minShare >= 0 && options.minShare <= 1)) throw new Error("--min-share must be between 0 and 1");
   if (!(options.maxStaleShare >= 0 && options.maxStaleShare <= 1)) throw new Error("--max-stale-share must be between 0 and 1");
+  if (options.nearDays !== undefined && !(Number.isInteger(options.nearDays) && options.nearDays >= 1 && options.nearDays <= 30)) throw new Error("--near-days must be a whole number from 1 to 30");
   return options;
 }
 
@@ -172,6 +180,23 @@ export function analysePriority(shows, watched, now = Date.now()) {
   return result;
 }
 
+const US_OR_CANADA = /^(united states( of america)?|usa|us|canada|ca)$/i;
+
+/**
+ * Every US/Canada date in the next `days` days, as a watch list for
+ * analysePriority. Read from the live payload, so it follows the data.
+ */
+export function nearTermWatch(shows, days, now = Date.now()) {
+  const until = now + days * 86400000;
+  return shows
+    .filter((show) => {
+      const when = Date.parse(String(show?.dateTimeISO || ""));
+      return Number.isFinite(when) && when > now && when <= until && US_OR_CANADA.test(String(show?.country || "").trim());
+    })
+    .map((show) => ({ id: String(show.id || "") }))
+    .filter((entry) => entry.id);
+}
+
 export function classifyShow(show, now = Date.now()) {
   if (eventLifecycleHeld(show)) return "held";
   if (publicOnsalePending(show, now)) return "pre_onsale";
@@ -184,7 +209,7 @@ export function classifyShow(show, now = Date.now()) {
 const increment = (map, key) => map.set(key, (map.get(key) || 0) + 1);
 const sortedCounts = (map) => [...map.entries()].sort((a, b) => b[1] - a[1] || String(a[0]).localeCompare(String(b[0])));
 
-export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE, maxStaleShare = DEFAULT_MAX_STALE_SHARE, priority = null } = {}) {
+export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE, maxStaleShare = DEFAULT_MAX_STALE_SHARE, priority = null, nearDays = 0 } = {}) {
   const upcoming = shows.filter((show) => Date.parse(String(show?.dateTimeISO || "")) > now);
   const counts = { priced: 0, pre_onsale: 0, mapped: 0, seatgeek_only: 0, unmapped: 0, held: 0 };
   let preOnsalePriced = 0;
@@ -245,9 +270,12 @@ export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE,
   if (priorityReport?.missing.length) {
     problems.push(`${priorityReport.missing.length} priority event${priorityReport.missing.length === 1 ? " is" : "s are"} missing from the live payload (removed, or the id changed)`);
   }
+  // Report-only (see --near-days): never pushed to problems.
+  const nearReport = nearDays ? { days: nearDays, ...analysePriority(shows, nearTermWatch(shows, nearDays, now), now) } : null;
   return {
     generated_at: new Date(now).toISOString(),
     priority: priorityReport,
+    near_term: nearReport,
     upcoming: upcoming.length,
     counts,
     pre_onsale_priced: preOnsalePriced,
@@ -339,6 +367,24 @@ export function renderMarkdown(report, baseUrl = "") {
     );
     if (issues.length) {
       lines.push("| Date | Artist | City | Problem | Event |", "|---|---|---|---|---|", ...issues.map((row) => `| ${row.date} | ${row.artist} | ${row.city} | ${row.problem} | \`${row.id}\` |`), "");
+    }
+  }
+  if (report.near_term) {
+    const n = report.near_term;
+    const issues = [
+      ...n.unpriced.map((row) => ({ ...row, problem: "no fresh price" })),
+      ...n.thin.map((row) => ({ ...row, problem: `only ${row.sellers.join(", ")}` }))
+    ].sort((a, b) => a.date.localeCompare(b.date) || a.artist.localeCompare(b.artist));
+    lines.push(
+      `### US and Canada shows in the next ${n.days} days`,
+      "",
+      `${n.healthy} of ${n.watched} dates show fresh prices (≤ ${PRICE_STALE_AFTER_HOURS}h) from ${PRIORITY_MIN_SELLERS}+ sellers; ${n.pre_onsale} are pre-on-sale, ${n.held.length} held. Every Sub ID sale so far was a next-day US show, so these are fixed first. Report-only: this list never fails the run.`,
+      ""
+    );
+    if (issues.length) {
+      lines.push("| Date | Artist | City | Problem | Event |", "|---|---|---|---|---|", ...issues.slice(0, 60).map((row) => `| ${row.date} | ${row.artist} | ${row.city} | ${row.problem} | \`${row.id}\` |`));
+      if (issues.length > 60) lines.push(`| …${issues.length - 60} more | | | | |`);
+      lines.push("");
     }
   }
   return lines.join("\n");
@@ -483,8 +529,27 @@ function selfTest() {
     assert.match(watchedMd, /only Vivid Seats/);
     const clean = analyse([watchShows[0]], { now, priority: [{ id: "w-ok" }] });
     assert.equal(clean.problems.some((problem) => /priority/.test(problem)), false);
+    // --near-days: US/Canada dates inside the window only, report-only.
+    const soon = (id, days, country, prices) => ({ ...base, ...vivid, id, country, dateTimeISO: new Date(now + days * 86400000).toISOString(), prices });
+    const nearShows = [
+      soon("n-ok", 1, "United States Of America", [okLane("2026-09-24T10:00:00Z"), tn("2026-09-24T11:00:00Z")]),
+      soon("n-none", 2, "Canada", [okLane("2026-09-23T10:00:00Z")]),
+      soon("n-uk", 1, "Great Britain", []),
+      soon("n-far", 20, "United States", [])
+    ];
+    assert.deepEqual(nearTermWatch(nearShows, 7, now).map((entry) => entry.id), ["n-ok", "n-none"], "only US/Canada dates inside the window are watched");
+    const near = analyse(nearShows, { now, nearDays: 7 });
+    assert.equal(near.near_term.watched, 2);
+    assert.equal(near.near_term.healthy, 1);
+    assert.deepEqual(near.near_term.unpriced.map((row) => row.id), ["n-none"]);
+    assert.equal(near.problems.some((problem) => /n-none|near/.test(problem)), false, "the near-term list never fails the run");
+    const nearMd = renderMarkdown(near);
+    assert.match(nearMd, /### US and Canada shows in the next 7 days/);
+    assert.match(nearMd, /1 of 2 dates show fresh prices/);
+    assert.equal(analyse(nearShows, { now }).near_term, null, "no flag, no section");
+    assert.throws(() => parseArgs(["--near-days", "0"]));
   }
-  return 41;
+  return 50;
 }
 
 async function main() {
@@ -502,7 +567,7 @@ async function main() {
     return;
   }
   const priority = options.priority ? JSON.parse(await fs.readFile(options.priority, "utf8")).events : null;
-  const report = analyse(shows, { minShare: options.minShare, maxStaleShare: options.maxStaleShare, priority });
+  const report = analyse(shows, { minShare: options.minShare, maxStaleShare: options.maxStaleShare, priority, nearDays: options.nearDays || 0 });
   const markdown = renderMarkdown(report, options.baseUrl);
   if (options.markdown) await fs.writeFile(options.markdown, `${markdown}\n`);
   if (options.issue) await upsertIssue(markdown);

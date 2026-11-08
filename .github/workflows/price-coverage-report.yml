@@ -58,7 +58,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail
-          node scripts/report-price-coverage.mjs --base-url "$BASE_URL" --issue --priority data/priority-events.json --markdown "$RUNNER_TEMP/price-coverage.md" \
+          node scripts/report-price-coverage.mjs --base-url "$BASE_URL" --issue --priority data/priority-events.json --near-days 7 --markdown "$RUNNER_TEMP/price-coverage.md" \
             | tee "$RUNNER_TEMP/price-coverage.log"
 
       - name: Summarise

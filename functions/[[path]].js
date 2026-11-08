@@ -21,6 +21,7 @@ import { PRICE_GUIDE_FALLBACK_PATH, PRICE_GUIDE_FALLBACK } from "./_guide-routes
 import { OG_CARDS } from "./_og-cards.generated.js";
 import { UPDATES_CONSENT_TEXT } from "./_email-alerts.js";
 import { readingLayout } from "./_reading-layout.js";
+import { relativeShowDay } from "./_relative-day.js";
 import { attachApprovedMarketplacePrices, APPROVED_MARKETPLACE_PRICE_LANES } from "./api/shows.js";
 import { deriveEventPriceLow, fetchEventPriceLowSeries, PRICE_LOW_WINDOW_DAYS } from "./_event-price-low.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
@@ -3056,6 +3057,7 @@ function artistBoardModel(route, events, env) {
     content: buildArtistContentModel(artist, shows, {
       formatDate: (iso, timezone) => formatShowDateServer(iso, timezone),
       formatShortDate: (iso, timezone) => formatShortDateServer(iso, timezone),
+      relativeDay: (iso, timezone) => relativeShowDay(iso, timezone),
       pastShowCount: pastShows.length
     })
   };
@@ -3869,10 +3871,12 @@ function derivePriceGuideView(route, events, env) {
   const checkedCount = priceAnswer.rows.filter((row) => row.checked).length;
   const firstPricedRow = priceAnswer.rows.find((row) => row.lowest);
   const firstPricedShow = firstPricedRow ? guideShowsById.get(firstPricedRow.showId) : null;
+  const soonestWord = firstPricedRow ? relativeShowDay(firstPricedRow.datetimeISO, firstPricedRow.timezone) : "";
+  const soonestDayPrefix = soonestWord ? `${soonestWord}, ` : "";
   // One chronological example, never a minimum across dates. Use the same
   // attributed, timestamped lane as its table row and tracked button.
   const currentAnswer = firstPricedRow && firstPricedShow
-    ? `${priceAnswer.pricedRowCount} of ${guide.showCount} dates show a listed resale price right now. The soonest: ${formatShowDateServer(firstPricedRow.datetimeISO, firstPricedRow.timezone)} in ${firstPricedShow.city} (${firstPricedShow.venue}), ${formatServerPrice(firstPricedRow.lowest.price, firstPricedRow.lowest.currency)} on ${firstPricedRow.lowest.name}, checked ${formatServerSnapshotTime(firstPricedRow.lowest.fetchedAt)}.`
+    ? `${priceAnswer.pricedRowCount} of ${guide.showCount} dates show a listed resale price right now. The soonest: ${soonestDayPrefix}${formatShowDateServer(firstPricedRow.datetimeISO, firstPricedRow.timezone)} in ${firstPricedShow.city} (${firstPricedShow.venue}), ${formatServerPrice(firstPricedRow.lowest.price, firstPricedRow.lowest.currency)} on ${firstPricedRow.lowest.name}, checked ${formatServerSnapshotTime(firstPricedRow.lowest.fetchedAt)}.`
     : checkedCount
       ? "No listed resale price is showing for these dates right now. That doesn't mean tickets are gone: check each date's ticket links."
       : "Prices couldn't be loaded just now. Each date's ticket links still open the ticket sites.";

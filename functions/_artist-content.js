@@ -202,13 +202,19 @@ function joinList(values) {
  *
  * @param {{ name?: string }} artist
  * @param {ArtistBoardStatus} status
- * @param {{ formatDate?: (iso: string, timezone: string) => string }} [options]
+ * @param {{ formatDate?: (iso: string, timezone: string) => string, formatShortDate?: (iso: string, timezone: string) => string, relativeDay?: (iso: string, timezone: string) => string }} [options]
  * @returns {string}
  */
 export function artistSearchIntro(artist, status, options = {}) {
   const name = cleanString(artist?.name) || "this artist";
   const formatDate = typeof options.formatDate === "function" ? options.formatDate : () => "";
   const formatShortDate = typeof options.formatShortDate === "function" ? options.formatShortDate : formatDate;
+  // "Today, " / "Tomorrow, " before the next date (2026-11-08: every traced
+  // sale was a next-day show). Empty when the caller supplies no clock.
+  const dayPrefix = (iso, timezone) => {
+    const word = typeof options.relativeDay === "function" ? options.relativeDay(iso, timezone) : "";
+    return word ? `${word}, ` : "";
+  };
   if (!status || !status.showCount) {
     // P11 (owner-approved 2026-09-24): a page that has never had a date says
     // so once. An ended tour keeps the fuller sentence; its board lists the
@@ -225,7 +231,7 @@ export function artistSearchIntro(artist, status, options = {}) {
     const label = formatDate(only?.iso, only?.timezone);
     const place = [only?.venue, only?.city].filter(Boolean).join(", ");
     sentences.push(
-      `One upcoming ${name} date is verified${label ? `: ${label}` : ""}${place ? ` at ${place}` : ""}.`
+      `One upcoming ${name} date is verified${label ? `: ${dayPrefix(only?.iso, only?.timezone)}${label}` : ""}${place ? ` at ${place}` : ""}.`
     );
   } else {
     const spread = [];
@@ -249,7 +255,7 @@ export function artistSearchIntro(artist, status, options = {}) {
   if (status.showCount > 1) {
     const nextLabel = formatDate(status.next?.iso, status.next?.timezone);
     const nextPlace = [status.next?.venue, status.next?.city].filter(Boolean).join(", ");
-    if (nextLabel && nextPlace) sentences.push(`Next: ${nextLabel} at ${nextPlace}.`);
+    if (nextLabel && nextPlace) sentences.push(`Next: ${dayPrefix(status.next?.iso, status.next?.timezone)}${nextLabel} at ${nextPlace}.`);
   }
 
   if (status.showsWithoutCta > 0 && status.showsWithCta > 0) {

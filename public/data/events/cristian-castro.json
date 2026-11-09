@@ -120,11 +120,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7744415",
-        "url": "https://www.ticketnetwork.com/en/p/7744415",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7744415",
@@ -144,7 +144,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_AdzEyJF",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7744415",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7744415/Cristian-Castro-tickets-Sat-Nov-7-2026-El-Paso-County-Coliseum",
     "stubhub_international_url": "https://www.stubhub.ie/cristian-castro-el-paso-tickets-11-7-2026/event/107446232",
     "genre": "Latin"

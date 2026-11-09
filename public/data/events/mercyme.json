@@ -173,11 +173,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8003827",
-        "url": "https://www.ticketnetwork.com/en/p/8003827",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8003827",
@@ -190,7 +190,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70N7d",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8003827",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8003827/MercyMe-tickets-Sat-Nov-7-2026-Great-Southern-Bank-Arena",
     "genre": "Pop"
   },

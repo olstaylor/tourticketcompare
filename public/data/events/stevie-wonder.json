@@ -540,11 +540,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8252674",
-        "url": "https://www.ticketnetwork.com/en/p/8252674",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_oGklbY6m_",
@@ -555,7 +555,7 @@
     "organizer_names": [
       "LNM - VIP NATION UK"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252674",
+    "ticketnetwork_url": "",
     "ticket_limit": 8,
     "genre": "R&B"
   },

@@ -2704,11 +2704,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7775511",
-        "url": "https://www.ticketnetwork.com/en/p/7775511",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7775511",
@@ -2728,7 +2728,7 @@
     "ticketmaster_discovery_event_id": "1FAYv048reZ72aFA",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775511",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775511/Metallica-tickets-Sat-Nov-7-2026-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-7-2026/event/107120666",
     "organizer_names": [

@@ -671,11 +671,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8062601",
-        "url": "https://www.ticketnetwork.com/en/p/8062601",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_ueuVPcR",
@@ -683,7 +683,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062601/Brand-New-tickets-Sat-Nov-7-2026-Honda-Center",
     "stubhub_international_url": "https://www.stubhub.ie/brand-new-anaheim-tickets-11-7-2026/event/107417868",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062601",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],

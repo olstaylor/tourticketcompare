@@ -37148,11 +37148,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7457641",
-        "url": "https://www.ticketnetwork.com/en/p/7457641",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7457641",
@@ -37165,7 +37165,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jS4g",
     "status": "on-sale",
     "timezone": "America/Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457641",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457641/Doja-Cat-tickets-Sat-Nov-7-2026-Toyota-Center-TX"
   },
   {
@@ -41742,11 +41742,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7982955",
-        "url": "https://www.ticketnetwork.com/en/p/7982955",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -41766,7 +41766,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_522AhQK",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982955",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982955/John-Summit-tickets-Sat-Nov-7-2026-Ariat-Arena",
     "organizer_names": [
@@ -57477,11 +57477,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7828056",
-        "url": "https://www.ticketnetwork.com/en/p/7828056",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7828056",
@@ -57494,7 +57494,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-z0p",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828056",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828056/Blue-October-tickets-Sat-Nov-7-2026-Agora-Theatre",
     "genre": "Alternative"
   },
@@ -61355,11 +61355,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8184455",
-        "url": "https://www.ticketnetwork.com/en/p/8184455",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8184455",
@@ -61379,7 +61379,7 @@
     "ticketmaster_discovery_event_id": "1k78vPvbGA1v43o",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184455",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184455/Pentatonix-tickets-Sat-Nov-7-2026-Rogers-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-tickets-vancouver-rogers-arena-11-7-2026/event/107476100",
     "organizer_names": [
@@ -76367,18 +76367,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7976585",
-        "url": "https://www.ticketnetwork.com/en/p/7976585",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1ymrKKp",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976585/Stella-Lefty-tickets-Sat-Nov-7-2026-Bronze-Peacock-At-The-House-Of-Blues-Houston",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976585",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -129210,11 +129210,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8047968",
-        "url": "https://www.ticketnetwork.com/en/p/8047968",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8047968",
@@ -129227,7 +129227,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P-q3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8047968",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8047968/Sienna-Spiro-tickets-Sat-Nov-7-2026-McMenamins-Crystal-Ballroom",
     "genre": "Pop"
   },
@@ -137656,11 +137656,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8105622",
-        "url": "https://www.ticketnetwork.com/en/p/8105622",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8105622",
@@ -137673,7 +137673,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PU-o",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105622",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8105622/Dinosaur-Jr-tickets-Sat-Nov-7-2026-Tipitinas",
     "genre": "Alternative"
   },
@@ -140453,11 +140453,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7775511",
-        "url": "https://www.ticketnetwork.com/en/p/7775511",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7775511",
@@ -140477,7 +140477,7 @@
     "ticketmaster_discovery_event_id": "1FAYv048reZ72aFA",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775511",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775511/Metallica-tickets-Sat-Nov-7-2026-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-7-2026/event/107120666",
     "organizer_names": [
@@ -146065,11 +146065,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7748034",
-        "url": "https://www.ticketnetwork.com/en/p/7748034",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7748034",
@@ -146082,7 +146082,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7--kd",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748034",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748034/Foy-Vance-tickets-Sat-Nov-7-2026-El-Rey-Theatre-Los-Angeles"
   },
   {
@@ -168714,11 +168714,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8057262",
-        "url": "https://www.ticketnetwork.com/en/p/8057262",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8057262",
@@ -168731,7 +168731,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxAK",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057262",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057262/Daughtry-tickets-Sat-Nov-7-2026-Pearl-Concert-Theater-At-Palms-Casino-Resort",
     "genre": "Alternative"
   },
@@ -216516,11 +216516,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7410004",
-        "url": "https://www.ticketnetwork.com/en/p/7410004",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7410004",
@@ -216541,7 +216541,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410004",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410004/Sabaton-tickets-Sat-Nov-7-2026-713-Music-Hall",
     "stubhub_international_url": "",
     "organizer_names": [
@@ -235540,11 +235540,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8199805",
-        "url": "https://www.ticketnetwork.com/en/p/8199805",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8199805",
@@ -235564,7 +235564,7 @@
     "ticketmaster_discovery_event_id": "G5dIZ_8pB91K2",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199805",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199805/Steve-Lacy-tickets-Sat-Nov-7-2026-Moody-Amphitheater",
     "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-austin-tickets-11-7-2026/event/107486080",
     "organizer_names": [
@@ -245091,11 +245091,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7956780",
-        "url": "https://www.ticketnetwork.com/en/p/7956780",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_1KA_zPh",
@@ -245109,7 +245109,7 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956780/Journey-tickets-Sat-Nov-7-2026-Nassau-Veterans-Memorial-Coliseum",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956780",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -255597,11 +255597,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8113677",
-        "url": "https://www.ticketnetwork.com/en/p/8113677",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8113677",
@@ -255621,7 +255621,7 @@
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1ub7d",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113677",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113677/Santana-tickets-Sat-Nov-7-2026-House-Of-Blues-Las-Vegas",
     "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-7-2026/event/107469465",
     "organizer_names": [
@@ -270870,11 +270870,11 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8245565",
-        "url": "https://www.ticketnetwork.com/en/p/8245565",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv0vV",
@@ -270882,7 +270882,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245565/Kanye-West-tickets-Sat-Nov-7-2026-ATT-Stadium",
     "stubhub_international_url": "",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245565",
+    "ticketnetwork_url": "",
     "genre": "Hip-Hop/Rap"
   },
   {
@@ -271707,11 +271707,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8062601",
-        "url": "https://www.ticketnetwork.com/en/p/8062601",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_ueuVPcR",
@@ -271719,7 +271719,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062601/Brand-New-tickets-Sat-Nov-7-2026-Honda-Center",
     "stubhub_international_url": "https://www.stubhub.ie/brand-new-anaheim-tickets-11-7-2026/event/107417868",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062601",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -279098,11 +279098,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8252674",
-        "url": "https://www.ticketnetwork.com/en/p/8252674",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_oGklbY6m_",
@@ -279113,7 +279113,7 @@
     "organizer_names": [
       "LNM - VIP NATION UK"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252674",
+    "ticketnetwork_url": "",
     "ticket_limit": 8,
     "genre": "R&B"
   },
@@ -280901,11 +280901,11 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8293621",
-        "url": "https://www.ticketnetwork.com/en/p/8293621",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPGbGAuU_ra",
@@ -280916,7 +280916,7 @@
       "THE TOURING CO"
     ],
     "stubhub_international_url": "",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293621",
+    "ticketnetwork_url": "",
     "ticket_limit": 8,
     "genre": "Hip-Hop/Rap"
   },
@@ -287215,11 +287215,11 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8195879",
-        "url": "https://www.ticketnetwork.com/en/p/8195879",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_CDE9wdz",
@@ -287230,7 +287230,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8195879",
+    "ticketnetwork_url": "",
     "ticket_limit": 6,
     "genre": "Rock"
   },
@@ -294083,18 +294083,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8237264",
-        "url": "https://www.ticketnetwork.com/en/p/8237264",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k7Yv0jtGAuDSJe",
     "timezone": "Australia/Brisbane",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237264/Jack-Johnson-tickets-Sun-Nov-8-2026-Riverstage-Brisbane",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237264",
+    "ticketnetwork_url": "",
     "ticket_limit": 10,
     "genre": "Rock"
   },
@@ -302295,11 +302295,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7744415",
-        "url": "https://www.ticketnetwork.com/en/p/7744415",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7744415",
@@ -302319,7 +302319,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_AdzEyJF",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7744415",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7744415/Cristian-Castro-tickets-Sat-Nov-7-2026-El-Paso-County-Coliseum",
     "stubhub_international_url": "https://www.stubhub.ie/cristian-castro-el-paso-tickets-11-7-2026/event/107446232",
     "genre": "Latin"
@@ -307269,11 +307269,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8258104",
-        "url": "https://www.ticketnetwork.com/en/p/8258104",
-        "verified": true,
-        "last_verified_at": "2026-11-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8258104",
@@ -307289,7 +307289,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258104",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258104/Victoria-Monet-tickets-Sat-Nov-7-2026-FTL-War-Memorial-Auditorium"
   },
   {
@@ -309999,11 +309999,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8293180",
-        "url": "https://www.ticketnetwork.com/en/p/8293180",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8293180",
@@ -310016,7 +310016,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_K55sUmI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293180",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293180/Brandi-Carlile-tickets-Sat-Nov-7-2026-Fox-Theater-Oakland",
     "organizer_names": [
       "ANOTHER PLANET"
@@ -313966,11 +313966,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034499",
-        "url": "https://www.ticketnetwork.com/en/p/8034499",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8034499",
@@ -313983,7 +313983,7 @@
     "ticketmaster_discovery_event_id": "G5eVZ_G5h5GI9",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034499",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034499/Little-Big-Town-tickets-Sat-Nov-7-2026-Ovens-Auditorium",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -330264,11 +330264,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8256057",
-        "url": "https://www.ticketnetwork.com/en/p/8256057",
-        "verified": true,
-        "last_verified_at": "2026-10-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8256057",
@@ -330281,7 +330281,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv9uI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256057",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8256057/Calvin-Harris-tickets-Sat-Nov-7-2026-XS-Nightclub-At-Wynn-Las-Vegas",
     "genre": "Dance/Electronic"
   },
@@ -353976,11 +353976,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7827443",
-        "url": "https://www.ticketnetwork.com/en/p/7827443",
-        "verified": true,
-        "last_verified_at": "2026-11-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7827443",
@@ -353993,7 +353993,7 @@
     "ticketmaster_discovery_event_id": "1AvbZ_kGkWSCsDv",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827443",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827443/Sting-tickets-Sat-Nov-7-2026-Citizens-Live-at-The-Wylie",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -360807,11 +360807,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8018449",
-        "url": "https://www.ticketnetwork.com/en/p/8018449",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8018449",
@@ -360824,7 +360824,7 @@
     "ticketmaster_discovery_event_id": "G5viZ_5nO0BWC",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018449",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018449/Motionless-In-White-tickets-Sat-Nov-7-2026-The-Truth",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -361643,11 +361643,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8159331",
-        "url": "https://www.ticketnetwork.com/en/p/8159331",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8159331",
@@ -361660,7 +361660,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZAjy",
     "timezone": "Pacific/Honolulu",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8159331",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8159331/YG-tickets-Sat-Nov-7-2026-The-Republik-Honolulu",
     "genre": "Hip-Hop/Rap"
   },
@@ -361868,11 +361868,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7808622",
-        "url": "https://www.ticketnetwork.com/en/p/7808622",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7808622",
@@ -361892,7 +361892,7 @@
     "ticketmaster_discovery_event_id": "vv178Z_kGkRasEf7",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808622",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808622/Rawayana-tickets-Sat-Nov-7-2026-Byline-Bank-Aragon-Ballroom",
     "stubhub_international_url": "",
     "organizer_names": [
@@ -362805,11 +362805,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8167867",
-        "url": "https://www.ticketnetwork.com/en/p/8167867",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8167867",
@@ -362822,7 +362822,7 @@
     "ticketmaster_discovery_event_id": "vvG1jZ_2brFG7B",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167867",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167867/Jodeci-tickets-Sat-Nov-7-2026-Arie-Crown-Theater",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -365434,11 +365434,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8003827",
-        "url": "https://www.ticketnetwork.com/en/p/8003827",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8003827",
@@ -365451,7 +365451,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70N7d",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8003827",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8003827/MercyMe-tickets-Sat-Nov-7-2026-Great-Southern-Bank-Arena",
     "genre": "Pop"
   },
@@ -370546,11 +370546,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7827830",
-        "url": "https://www.ticketnetwork.com/en/p/7827830",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7827830",
@@ -370570,7 +370570,7 @@
     "ticketmaster_discovery_event_id": "vv170Z_kGkSmomDW",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827830",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827830/Mon-Laferte-tickets-Sat-Nov-7-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-7-2026/event/107151207",
     "organizer_names": [
@@ -376049,11 +376049,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8048523",
-        "url": "https://www.ticketnetwork.com/en/p/8048523",
-        "verified": true,
-        "last_verified_at": "2026-11-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8048523",
@@ -376073,7 +376073,7 @@
     "ticketmaster_discovery_event_id": "G5dIZ_GEaXmD2",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048523",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048523/Lenny-Pearce-tickets-Sun-Nov-8-2026-Bayou-Music-Center",
     "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-houston-tickets-11-8-2026/event/107455614",
     "organizer_names": [

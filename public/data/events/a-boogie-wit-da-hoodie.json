@@ -254,11 +254,11 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8293621",
-        "url": "https://www.ticketnetwork.com/en/p/8293621",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPGbGAuU_ra",
@@ -269,7 +269,7 @@
       "THE TOURING CO"
     ],
     "stubhub_international_url": "",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293621",
+    "ticketnetwork_url": "",
     "ticket_limit": 8,
     "genre": "Hip-Hop/Rap"
   },

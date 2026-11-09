@@ -387,18 +387,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7976585",
-        "url": "https://www.ticketnetwork.com/en/p/7976585",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1ymrKKp",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976585/Stella-Lefty-tickets-Sat-Nov-7-2026-Bronze-Peacock-At-The-House-Of-Blues-Houston",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976585",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],

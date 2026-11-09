@@ -260,11 +260,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107455614",
-        "url": "https://www.stubhub.ie/lenny-pearce-houston-tickets-11-8-2026/event/107455614",
-        "verified": true,
-        "last_verified_at": "2026-11-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_GEaXmD2",
@@ -272,7 +272,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-houston-tickets-11-8-2026/event/107455614",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

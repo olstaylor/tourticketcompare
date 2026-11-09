@@ -297,17 +297,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107671331",
-        "url": "https://www.stubhub.ie/erasure-tickets-manchester-manchester-ao-arena-1-5-2027/event/107671331",
-        "verified": true,
-        "last_verified_at": "2026-11-01",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_K6QXKzY",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/erasure-tickets-manchester-manchester-ao-arena-1-5-2027/event/107671331",
+    "stubhub_international_url": "",
     "organizer_names": [
       "KILIMANJARO",
       "ASM T-A AO ARENA"

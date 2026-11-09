@@ -3622,5 +3622,33 @@
     "last_verified_at": "2026-11-07",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-11-07"
+  },
+  {
+    "slug": "fall-out-boy",
+    "name": "Fall Out Boy",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-09",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-09"
+  },
+  {
+    "slug": "the-dead-south",
+    "name": "The Dead South",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-09",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-09"
   }
 ]

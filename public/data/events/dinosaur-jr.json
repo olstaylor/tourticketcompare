@@ -1110,18 +1110,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8105622",
-        "url": "https://www.ticketliquidator.com/tickets/8105622/Dinosaur-Jr-tickets-Sat-Nov-7-2026-Tipitinas",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PU-o",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8105622/Dinosaur-Jr-tickets-Sat-Nov-7-2026-Tipitinas",
+    "ticketliquidator_url": "",
     "genre": "Alternative"
   },
   {

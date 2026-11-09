@@ -74,7 +74,6 @@ export const OG_CARDS = {
   "/artists/blue-october/ticket-prices": {"url":"/og/artists-blue-october-ticket-prices.png","alt":"Ticket prices: Blue October"},
   "/artists/blue-october/tickets/houston-united-states": {"url":"/og/artists-blue-october-tickets-houston-united-states.png","alt":"Tickets: Blue October in Houston"},
   "/artists/blue-october/tickets/irving-united-states": {"url":"/og/artists-blue-october-tickets-irving-united-states.png","alt":"Tickets: Blue October in Irving"},
-  "/artists/blue-october/tickets/nashville-united-states": {"url":"/og/artists-blue-october-tickets-nashville-united-states.png","alt":"Tickets: Blue October in Nashville"},
   "/artists/blue-october/tickets/phoenix-united-states": {"url":"/og/artists-blue-october-tickets-phoenix-united-states.png","alt":"Tickets: Blue October in Phoenix"},
   "/artists/blue-october/tickets/portland-united-states": {"url":"/og/artists-blue-october-tickets-portland-united-states.png","alt":"Tickets: Blue October in Portland"},
   "/artists/blue-october/tickets/sacramento-united-states": {"url":"/og/artists-blue-october-tickets-sacramento-united-states.png","alt":"Tickets: Blue October in Sacramento"},

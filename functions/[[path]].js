@@ -3635,13 +3635,13 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
   const titleId = surface?.titleId || "artistCityPriceTitle";
   // A one-date panel (event page, home, on-sale) has no date to pick.
   const summary = ticketOptions && rows.length === 1
-    ? `${showPrices ? "Prices are as of the time shown. " : ""}Compare seats, fees and delivery on each ticket site before you pay.`
+    ? (showPrices ? "Prices are as of the time shown. Compare seats, fees and delivery on each ticket site before you pay." : "")
     : ticketOptions
     ? `Pick a date to see its checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}. ${showPrices ? 'Prices are as of the times shown, and "sites priced" is how many sites had a price for that date. ' : ""}Compare seats, fees and delivery on each ticket site before you pay.`
     : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. Seats, quantities and fees can differ between sites. "Sites priced" is how many ticket sites had a price for that date.${surface?.note ? ` ${surface.note}` : ""}`;
   return `<section class="nested-panel artist-city-price-answer" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
     heading
-  )}</h2><p>${escapeHtml(summary)}</p><div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
+  )}</h2>${summary ? `<p>${escapeHtml(summary)}</p>` : ""}<div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
     singleVenue ? "" : '<th scope="col">Venue</th>'
   }${showPrices ? '<th scope="col">Starting price</th>' : ""}<th scope="col">${ticketOptions ? "Ticket links" : "Sites priced"}</th></tr></thead><tbody>${body}</tbody></table></div></section>`;
 }
@@ -4155,7 +4155,7 @@ function renderArtistCityAnswerSummary(artist, artistCity, { datesTabled = false
   return `<section class="nested-panel artist-city-summary" aria-labelledby="artistCityAnswerTitle">${heading}<p class="artist-city-summary__lead">${escapeHtml(
     artistCityIntroSentence(artist, artistCity, { datesTabled })
   )}${escapeHtml(runNote)}</p><p class="disclosure-note">${escapeHtml(
-    `${recency ? `${recency} ` : ""}This page lists ${artist.name} shows only, not every concert in ${artistCity.city}.`
+    `${recency ? `${recency} ` : ""}Lists ${artist.name} shows only.`
   )}</p></section>`;
 }
 
@@ -7163,7 +7163,7 @@ export function renderGuideProviderPair(route, events, env = {}) {
       "artist index",
       "/artists",
       "text-link"
-    )} or ${anchor("event comparison hub", "/compare-concert-ticket-prices", "text-link")} to start with a specific show.</p>${methodology}</section>`;
+    )} or ${anchor("event comparison hub", "/compare-concert-ticket-prices", "text-link")} to start with a specific show.</p></section>`;
   }
   const rows = displayed
     .map((event, index) => {
@@ -8234,7 +8234,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       [],
       null,
       eventPageLinker(route.events || events, [artist])
-    )}<p class="disclosure-note">Before choosing a ticket link, match the local date, venue, seats and quantity. Check the seller's currency, final total and delivery terms. ${anchor("Compare SeatGeek and Ticketmaster", "/guides/seatgeek-vs-ticketmaster", "text-link")} or ${anchor("compare SeatGeek and Vivid Seats", "/guides/vivid-seats-vs-seatgeek", "text-link")} for buying guidance.</p>${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
+    )}<p class="disclosure-note">Match the date, venue, seats and quantity, then check the final total before you pay. Guides: ${anchor("compare SeatGeek and Ticketmaster", "/guides/seatgeek-vs-ticketmaster", "text-link")} · ${anchor("compare SeatGeek and Vivid Seats", "/guides/vivid-seats-vs-seatgeek", "text-link")}.</p>${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
       "How prices and links work, and useful links",
       `${renderArtistTicketHelpHtml(artistTicketHelp())}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,

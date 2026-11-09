@@ -8234,7 +8234,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       [],
       null,
       eventPageLinker(route.events || events, [artist])
-    )}<p class="disclosure-note">Match the date, venue, seats and quantity, then check the final total before you pay. Guides: ${anchor("SeatGeek vs Ticketmaster", "/guides/seatgeek-vs-ticketmaster", "text-link")} · ${anchor("SeatGeek vs Vivid Seats", "/guides/vivid-seats-vs-seatgeek", "text-link")}.</p>${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
+    )}<p class="disclosure-note">Match the date, venue, seats and quantity, then check the final total before you pay. Guides: ${anchor("compare SeatGeek and Ticketmaster", "/guides/seatgeek-vs-ticketmaster", "text-link")} · ${anchor("compare SeatGeek and Vivid Seats", "/guides/vivid-seats-vs-seatgeek", "text-link")}.</p>${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
       "How prices and links work, and useful links",
       `${renderArtistTicketHelpHtml(artistTicketHelp())}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,

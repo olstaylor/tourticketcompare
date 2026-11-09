@@ -388663,5 +388663,383 @@
         "end": "2026-11-12T05:59:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-raye-2027-bergen-z698xzb_z16vgzpeao",
+    "artist_slug": "raye",
+    "artist_name": "RAYE",
+    "event_name": "Bergen Calling: RAYE",
+    "city": "Bergen",
+    "country": "Norway",
+    "venue": "Bergenhus Festning - Koengen",
+    "datetime_iso": "2027-06-28T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1338582260",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/bergen-calling-raye-tickets/1338582260?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/bergen-calling-raye-tickets/1338582260?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1338582260",
+        "discovery_event_id": "Z698xZb_Z16vGzpeaO",
+        "url": "https://www.ticketmaster.no/event/bergen-calling-raye-tickets/1338582260?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16vGzpeaO",
+    "timezone": "Europe/Oslo",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2027-london-1agzk4ngkdo79wi",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A Boogie Wit Da Hoodie",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-01-27T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006563D1117CA8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-london-27-01-2027/event/35006563D1117CA8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-london-27-01-2027/event/35006563D1117CA8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006563D1117CA8",
+        "discovery_event_id": "1AgZk4NGkdo79wI",
+        "url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-london-27-01-2027/event/35006563D1117CA8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4NGkdo79wI",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T10:00:00Z"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2027-manchester-1amzk40gkdjyurt",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A Boogie Wit Da Hoodie",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-01-29T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006564DCC367A9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-manchester-29-01-2027/event/37006564DCC367A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-manchester-29-01-2027/event/37006564DCC367A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006564DCC367A9",
+        "discovery_event_id": "1AMZk40GkdjYUrt",
+        "url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-manchester-29-01-2027/event/37006564DCC367A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk40GkdjYUrt",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T10:00:00Z"
+  },
+  {
+    "id": "tm-mariah-carey-2027-exeter-g5vhz_f0acb90",
+    "artist_slug": "mariah-carey",
+    "artist_name": "Mariah Carey",
+    "event_name": "Mariah Carey Transport",
+    "city": "Exeter",
+    "country": "Great Britain",
+    "venue": "Powderham Castle",
+    "datetime_iso": "2027-06-27T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006549053985E4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-transport-exeter-27-06-2027/event/1F006549053985E4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/mariah-carey-transport-exeter-27-06-2027/event/1F006549053985E4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006549053985E4",
+        "discovery_event_id": "G5vHZ_f0ACb90",
+        "url": "https://www.ticketmaster.co.uk/mariah-carey-transport-exeter-27-06-2027/event/1F006549053985E4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_f0ACb90",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z"
+  },
+  {
+    "id": "tm-mariah-carey-2027-cardiff-g5vhz_feidjq8",
+    "artist_slug": "mariah-carey",
+    "artist_name": "Mariah Carey",
+    "event_name": "Mariah Carey",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Cardiff Castle",
+    "datetime_iso": "2027-06-29T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006549E80E6750",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-cardiff-29-06-2027/event/1F006549E80E6750",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/mariah-carey-cardiff-29-06-2027/event/1F006549E80E6750",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006549E80E6750",
+        "discovery_event_id": "G5vHZ_fEIdJq8",
+        "url": "https://www.ticketmaster.co.uk/mariah-carey-cardiff-29-06-2027/event/1F006549E80E6750",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_fEIdJq8",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z"
+  },
+  {
+    "id": "tm-mariah-carey-2027-woodstock-1amzk4pgkevlzix",
+    "artist_slug": "mariah-carey",
+    "artist_name": "Mariah Carey",
+    "event_name": "The Orangery - Does not include event ticket - Mariah Carey",
+    "city": "Woodstock",
+    "country": "Great Britain",
+    "venue": "Blenheim Palace",
+    "datetime_iso": "2027-07-01T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006556B4AF8B3E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-orangery-does-not-include-event-woodstock-01-07-2027/event/37006556B4AF8B3E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-orangery-does-not-include-event-woodstock-01-07-2027/event/37006556B4AF8B3E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006556B4AF8B3E",
+        "discovery_event_id": "1AMZk4pGkeVlziX",
+        "url": "https://www.ticketmaster.co.uk/the-orangery-does-not-include-event-woodstock-01-07-2027/event/37006556B4AF8B3E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk4pGkeVlziX",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z"
+  },
+  {
+    "id": "tm-mariah-carey-2027-scarborough-1agzk49gkd3hqbt",
+    "artist_slug": "mariah-carey",
+    "artist_name": "Mariah Carey",
+    "event_name": "Mariah Carey",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Open Air Theatre",
+    "datetime_iso": "2027-07-03T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006557D2F1A63F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-scarborough-03-07-2027/event/35006557D2F1A63F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/mariah-carey-scarborough-03-07-2027/event/35006557D2F1A63F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006557D2F1A63F",
+        "discovery_event_id": "1AgZk49Gkd3HQbT",
+        "url": "https://www.ticketmaster.co.uk/mariah-carey-scarborough-03-07-2027/event/35006557D2F1A63F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk49Gkd3HQbT",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z"
   }
 ]

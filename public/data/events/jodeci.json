@@ -565,7 +565,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-bristol-virginia-11-15-2026/event/1B0064F2D4EC4AE4",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,11 +602,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T14:00:00Z",
-        "end": "2026-11-09T04:55:00Z"
-      },
       {
         "name": "Hard Rock Bristol Anniversary Offer",
         "start": "2026-10-22T05:00:00Z",

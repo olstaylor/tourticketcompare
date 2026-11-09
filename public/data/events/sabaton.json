@@ -2357,7 +2357,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-national-harbor-maryland-12-06-2026/event/15006329F9723920",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2408,18 +2408,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2025-09-19T14:00:00Z",
-        "end": "2026-11-09T03:00:00Z"
-      },
-      {
-        "name": "Verizon Access Select Seats",
-        "start": "2025-09-19T14:00:00Z",
-        "end": "2026-11-09T03:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410023",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410023/Sabaton-tickets-Sun-Dec-6-2026-The-Theater-at-MGM-National-Harbor",
     "organizer_names": [

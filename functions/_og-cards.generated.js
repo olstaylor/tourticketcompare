@@ -10,6 +10,7 @@
 
 export const OG_CARDS = {
   "/artists/a-boogie-wit-da-hoodie": {"url":"/og/artists-a-boogie-wit-da-hoodie.png","alt":"Tickets & tour dates: A Boogie Wit Da Hoodie"},
+  "/artists/a-boogie-wit-da-hoodie/presale": {"url":"/og/artists-a-boogie-wit-da-hoodie-presale.png","alt":"Presale: A Boogie Wit Da Hoodie"},
   "/artists/a-boogie-wit-da-hoodie/ticket-prices": {"url":"/og/artists-a-boogie-wit-da-hoodie-ticket-prices.png","alt":"Ticket prices: A Boogie Wit Da Hoodie"},
   "/artists/a-boogie-wit-da-hoodie/tickets/philadelphia-united-states": {"url":"/og/artists-a-boogie-wit-da-hoodie-tickets-philadelphia-united-states.png","alt":"Tickets: A Boogie Wit Da Hoodie in Philadelphia"},
   "/artists/a-perfect-circle": {"url":"/og/artists-a-perfect-circle.png","alt":"Tickets & tour dates: A Perfect Circle"},
@@ -433,6 +434,7 @@ export const OG_CARDS = {
   "/artists/marc-anthony": {"url":"/og/artists-marc-anthony.png","alt":"Tickets & tour dates: Marc Anthony"},
   "/artists/marc-anthony/ticket-prices": {"url":"/og/artists-marc-anthony-ticket-prices.png","alt":"Ticket prices: Marc Anthony"},
   "/artists/mariah-carey": {"url":"/og/artists-mariah-carey.png","alt":"Tickets & tour dates: Mariah Carey"},
+  "/artists/mariah-carey/presale": {"url":"/og/artists-mariah-carey-presale.png","alt":"Presale: Mariah Carey"},
   "/artists/mariah-carey/ticket-prices": {"url":"/og/artists-mariah-carey-ticket-prices.png","alt":"Ticket prices: Mariah Carey"},
   "/artists/mat-kearney": {"url":"/og/artists-mat-kearney.png","alt":"Tickets & tour dates: Mat Kearney"},
   "/artists/mat-kearney/presale": {"url":"/og/artists-mat-kearney-presale.png","alt":"Presale: Mat Kearney"},

@@ -424,7 +424,7 @@
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-akron-akron-civic-theatre-11-12-2026/production/7130405",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-akron-ohio-11-12-2026/event/050064C6E5B53592",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -480,11 +480,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-12T14:00:00Z",
-        "end": "2026-11-09T03:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-06-12T14:00:00Z",

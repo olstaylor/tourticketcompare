@@ -474,7 +474,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-grand-rapids-van-andel-arena-11-15-2026/production/7393509",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-grand-rapids-michigan-11-15-2026/event/080064FF0AF3208F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -526,13 +526,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184418",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184418/Pentatonix-tickets-Sun-Nov-15-2026-Van-Andel-Arena",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-14T14:00:00Z",
-        "end": "2026-11-09T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

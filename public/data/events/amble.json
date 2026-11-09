@@ -1321,7 +1321,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-new-orleans-house-of-blues-new-orleans-11-16-2026--concerts-alternative/production/6982406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-new-orleans-louisiana-11-16-2026/event/1B006499DDF33ABC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1373,13 +1373,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930663",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930663/Amble-tickets-Mon-Nov-16-2026-House-Of-Blues-New-Orleans",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-08T14:00:00Z",
-        "end": "2026-11-09T09:00:00Z"
-      }
-    ],
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],

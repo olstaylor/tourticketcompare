@@ -780,7 +780,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-london-27-01-2027/event/35006563D1117CA8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -816,7 +816,15 @@
     "ticketmaster_discovery_event_id": "1AgZk4NGkdo79wI",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T10:00:00Z"
+    "public_onsale_at": "2026-11-13T10:00:00Z",
+    "genre": "Hip-Hop/Rap",
+    "presales": [
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-12T10:00:00Z",
+        "end": "2026-11-13T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2027-manchester-1amzk40gkdjyurt",
@@ -834,7 +842,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-manchester-29-01-2027/event/37006564DCC367A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -870,6 +878,33 @@
     "ticketmaster_discovery_event_id": "1AMZk40GkdjYUrt",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T10:00:00Z"
+    "public_onsale_at": "2026-11-13T10:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Hip-Hop/Rap",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T10:00:00Z",
+        "end": "2026-11-13T09:00:00Z"
+      },
+      {
+        "name": "Co-op Presale",
+        "start": "2026-11-11T10:00:00Z",
+        "end": "2026-11-13T09:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-11T10:00:00Z",
+        "end": "2026-11-13T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-12T10:00:00Z",
+        "end": "2026-11-13T09:00:00Z"
+      }
+    ]
   }
 ]

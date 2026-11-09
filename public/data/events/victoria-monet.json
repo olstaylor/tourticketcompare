@@ -620,7 +620,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-detroit-fox-theatre-detroit-11-15-2026--concerts-pop/production/7540283",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-detroit-michigan-11-15-2026/event/08006527CEC34B26",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -682,13 +682,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-detroit-tickets-11-15-2026/event/107668356",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Public Onsale",
-        "start": "2026-09-16T14:00:00Z",
-        "end": "2026-11-09T03:00:00Z"
-      }
     ],
     "ticket_limit": 4,
     "genre": "Pop"
@@ -1453,7 +1446,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-san-diego-cal-coast-credit-union-open-air-theatre-at-sdsu-12-6-2026--concerts-pop/production/7540371",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-diego-california-12-06-2026/event/0A006523FC003D7C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1517,16 +1510,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-09T06:00:00Z"
-      },
-      {
-        "name": "Verizon Shine Select Seats",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-09T06:00:00Z"
-      },
       {
         "name": "VIP Packages Public Onsale",
         "start": "2026-09-16T17:00:00Z",

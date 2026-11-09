@@ -48,6 +48,8 @@ sources:
 
 **Short answer:** Vivid Seats isn't owned by Ticketmaster, and neither is better for every event. Ticketmaster is often the official primary seller and also lists labelled resale tickets. Vivid Seats is a resale marketplace. For an official on-sale, start with the seller named by the artist, venue or promoter. For resale, compare the exact event, ticket type, quantity, seats, full total, delivery and buyer protection.
 
+**Check a real show:** [Compare ticket prices by artist, city or venue](/compare-concert-ticket-prices) or [choose your artist](/artists) to see the ticket links TTC has checked for each date, with any recorded starting price shown beside its seller.
+
 ## What is the difference between Ticketmaster and Vivid Seats?
 
 The main difference is the ticket source: Ticketmaster sells primary tickets for many event organisers and also carries labelled resale tickets; Vivid Seats is a resale marketplace where independent resellers set their listing prices. They are separate businesses. A Vivid Seats order can still arrive through a Ticketmaster transfer when Ticketmaster issued the original digital ticket; that does not make it a direct Ticketmaster purchase.

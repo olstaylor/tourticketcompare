@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-09",
   "artistSlug": "niall-horan",
   "artist": "Niall Horan",
   "artistPageIndexable": true,
@@ -11,8 +11,8 @@
   "siteLabel": "TicketNetwork",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-11-08T00:38:22.162Z",
-  "capturedTo": "2026-11-08T07:26:40.127Z",
+  "capturedFrom": "2026-11-09T06:37:33.190Z",
+  "capturedTo": "2026-11-09T06:38:06.406Z",
   "tourDates": 30,
   "coverage": {
     "marketCities": 23,
@@ -48,7 +48,7 @@
     "localDate": "2027-04-08",
     "price": 63.25,
     "currency": "USD",
-    "capturedAt": "2026-11-08T07:26:36.898Z"
+    "capturedAt": "2026-11-09T06:37:34.889Z"
   },
   "high": {
     "city": "New Orleans",
@@ -58,7 +58,7 @@
     "localDate": "2027-04-29",
     "price": 126.5,
     "currency": "USD",
-    "capturedAt": "2026-11-08T07:26:37.999Z"
+    "capturedAt": "2026-11-09T06:37:37.342Z"
   },
   "median": 90.85,
   "ratio": 2,
@@ -71,7 +71,7 @@
       "localDate": "2027-04-08",
       "price": 63.25,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:36.898Z",
+      "capturedAt": "2026-11-09T06:37:34.889Z",
       "path": "/artists/niall-horan/tickets/baltimore-united-states"
     },
     {
@@ -82,7 +82,7 @@
       "localDate": "2027-04-04",
       "price": 66.7,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:36.680Z",
+      "capturedAt": "2026-11-09T06:37:34.655Z",
       "path": "/artists/niall-horan/tickets/brooklyn-united-states"
     },
     {
@@ -93,7 +93,7 @@
       "localDate": "2027-03-23",
       "price": 72.45,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:35.958Z",
+      "capturedAt": "2026-11-09T06:37:33.935Z",
       "path": "/artists/niall-horan/tickets/chicago-united-states"
     },
     {
@@ -104,7 +104,7 @@
       "localDate": "2027-05-14",
       "price": 74.75,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:38.693Z",
+      "capturedAt": "2026-11-09T06:37:38.179Z",
       "path": "/artists/niall-horan/tickets/austin-united-states"
     },
     {
@@ -115,7 +115,7 @@
       "localDate": "2027-03-20",
       "price": 75.9,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:35.388Z",
+      "capturedAt": "2026-11-09T06:37:33.719Z",
       "path": "/artists/niall-horan/tickets/columbus-united-states"
     },
     {
@@ -126,7 +126,7 @@
       "localDate": "2027-05-02",
       "price": 82.8,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:38.454Z",
+      "capturedAt": "2026-11-09T06:37:37.913Z",
       "path": "/artists/niall-horan/tickets/fort-worth-united-states"
     },
     {
@@ -135,9 +135,9 @@
       "venue": "Little Caesars Arena",
       "eventId": "tm-niall-horan-2027-detroit-vvg1oz_1rv4ast",
       "localDate": "2027-03-19",
-      "price": 85.1,
+      "price": 83.95,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:35.170Z",
+      "capturedAt": "2026-11-09T06:37:33.451Z",
       "path": "/artists/niall-horan/tickets/detroit-united-states"
     },
     {
@@ -148,7 +148,7 @@
       "localDate": "2027-03-26",
       "price": 86.25,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:36.206Z",
+      "capturedAt": "2026-11-09T06:37:34.194Z",
       "path": "/artists/niall-horan/tickets/indianapolis-united-states"
     },
     {
@@ -159,7 +159,7 @@
       "localDate": "2027-03-17",
       "price": 86.25,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:34.926Z",
+      "capturedAt": "2026-11-09T06:37:33.190Z",
       "path": "/artists/niall-horan/tickets/saint-paul-united-states"
     },
     {
@@ -170,7 +170,7 @@
       "localDate": "2027-04-17",
       "price": 87.4,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:37.571Z",
+      "capturedAt": "2026-11-09T06:37:35.559Z",
       "path": "/artists/niall-horan/tickets/orlando-united-states"
     },
     {
@@ -181,7 +181,7 @@
       "localDate": "2027-04-28",
       "price": 90.85,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:37.786Z",
+      "capturedAt": "2026-11-09T06:37:36.140Z",
       "path": "/artists/niall-horan/tickets/atlanta-united-states"
     },
     {
@@ -192,7 +192,7 @@
       "localDate": "2027-05-16",
       "price": 92,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:39.023Z",
+      "capturedAt": "2026-11-09T06:37:38.502Z",
       "path": "/artists/niall-horan/tickets/denver-united-states"
     },
     {
@@ -203,7 +203,7 @@
       "localDate": "2027-04-12",
       "price": 94.3,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:37.119Z",
+      "capturedAt": "2026-11-09T06:37:35.095Z",
       "path": "/artists/niall-horan/tickets/boston-united-states"
     },
     {
@@ -214,7 +214,7 @@
       "localDate": "2027-04-13",
       "price": 94.3,
       "currency": "USD",
-      "capturedAt": "2026-11-08T00:38:22.162Z",
+      "capturedAt": "2026-11-09T06:38:06.406Z",
       "path": "/artists/niall-horan/tickets/hartford-united-states"
     },
     {
@@ -225,7 +225,7 @@
       "localDate": "2027-05-22",
       "price": 97.75,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:39.607Z",
+      "capturedAt": "2026-11-09T06:37:44.762Z",
       "path": "/artists/niall-horan/tickets/inglewood-united-states"
     },
     {
@@ -236,7 +236,7 @@
       "localDate": "2027-04-15",
       "price": 103.5,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:37.340Z",
+      "capturedAt": "2026-11-09T06:37:35.330Z",
       "path": "/artists/niall-horan/tickets/raleigh-united-states"
     },
     {
@@ -247,7 +247,7 @@
       "localDate": "2027-05-20",
       "price": 106.95,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:39.380Z",
+      "capturedAt": "2026-11-09T06:37:39.816Z",
       "path": "/artists/niall-horan/tickets/phoenix-united-states"
     },
     {
@@ -258,7 +258,7 @@
       "localDate": "2027-05-27",
       "price": 109.25,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:40.127Z",
+      "capturedAt": "2026-11-09T06:37:46.111Z",
       "path": "/artists/niall-horan/tickets/seattle-united-states"
     },
     {
@@ -269,7 +269,7 @@
       "localDate": "2027-05-25",
       "price": 118.45,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:39.833Z",
+      "capturedAt": "2026-11-09T06:37:45.601Z",
       "path": "/artists/niall-horan/tickets/san-francisco-united-states"
     },
     {
@@ -280,7 +280,7 @@
       "localDate": "2027-05-01",
       "price": 124.2,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:38.209Z",
+      "capturedAt": "2026-11-09T06:37:37.577Z",
       "path": "/artists/niall-horan/tickets/houston-united-states"
     },
     {
@@ -291,7 +291,7 @@
       "localDate": "2027-04-29",
       "price": 126.5,
       "currency": "USD",
-      "capturedAt": "2026-11-08T07:26:37.999Z",
+      "capturedAt": "2026-11-09T06:37:37.342Z",
       "path": "/artists/niall-horan/tickets/new-orleans-united-states"
     }
   ],
@@ -305,9 +305,9 @@
         "venue": "Grand Casino Arena",
         "eventId": "tm-niall-horan-2027-saint-paul-z7r9jz1a704vb",
         "localDate": "2027-03-17",
-        "price": 60,
+        "price": 62,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.860Z",
         "path": "/artists/niall-horan/tickets/saint-paul-united-states"
       },
       {
@@ -316,9 +316,9 @@
         "venue": "Little Caesars Arena",
         "eventId": "tm-niall-horan-2027-detroit-vvg1oz_1rv4ast",
         "localDate": "2027-03-19",
-        "price": 63,
+        "price": 65,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.860Z",
         "path": "/artists/niall-horan/tickets/detroit-united-states"
       },
       {
@@ -327,9 +327,9 @@
         "venue": "Nationwide Arena",
         "eventId": "tm-niall-horan-2027-columbus-vvg1fz_1x9ig7q",
         "localDate": "2027-03-20",
-        "price": 61,
+        "price": 62,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.860Z",
         "path": "/artists/niall-horan/tickets/columbus-united-states"
       },
       {
@@ -340,7 +340,7 @@
         "localDate": "2027-03-23",
         "price": 64,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.860Z",
         "path": "/artists/niall-horan/tickets/chicago-united-states"
       },
       {
@@ -349,9 +349,9 @@
         "venue": "Gainbridge Fieldhouse",
         "eventId": "tm-niall-horan-2027-indianapolis-vvg1fz_1htnybv",
         "localDate": "2027-03-26",
-        "price": 88,
+        "price": 80,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.860Z",
         "path": "/artists/niall-horan/tickets/indianapolis-united-states"
       },
       {
@@ -362,7 +362,7 @@
         "localDate": "2027-04-04",
         "price": 77,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.860Z",
         "path": "/artists/niall-horan/tickets/brooklyn-united-states"
       },
       {
@@ -373,7 +373,7 @@
         "localDate": "2027-04-08",
         "price": 63,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.860Z",
         "path": "/artists/niall-horan/tickets/baltimore-united-states"
       },
       {
@@ -384,7 +384,7 @@
         "localDate": "2027-04-12",
         "price": 91,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.861Z",
         "path": "/artists/niall-horan/tickets/boston-united-states"
       },
       {
@@ -393,9 +393,9 @@
         "venue": "PeoplesBank Arena",
         "eventId": "tm-niall-horan-2027-hartford-z7r9jz1a709uz",
         "localDate": "2027-04-13",
-        "price": 85,
+        "price": 86,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.861Z",
         "path": "/artists/niall-horan/tickets/hartford-united-states"
       },
       {
@@ -406,7 +406,7 @@
         "localDate": "2027-04-15",
         "price": 82,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.861Z",
         "path": "/artists/niall-horan/tickets/raleigh-united-states"
       },
       {
@@ -417,7 +417,7 @@
         "localDate": "2027-04-17",
         "price": 66,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.861Z",
         "path": "/artists/niall-horan/tickets/orlando-united-states"
       },
       {
@@ -426,9 +426,9 @@
         "venue": "State Farm Arena",
         "eventId": "tm-niall-horan-2027-atlanta-vvg1zz_1hoxudt",
         "localDate": "2027-04-28",
-        "price": 68,
+        "price": 73,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.861Z",
         "path": "/artists/niall-horan/tickets/atlanta-united-states"
       },
       {
@@ -437,9 +437,9 @@
         "venue": "Smoothie King Center",
         "eventId": "tm-niall-horan-2027-new-orleans-g5viz_1xkcnon",
         "localDate": "2027-04-29",
-        "price": 97,
+        "price": 95,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.861Z",
         "path": "/artists/niall-horan/tickets/new-orleans-united-states"
       },
       {
@@ -448,9 +448,9 @@
         "venue": "Toyota Center - TX",
         "eventId": "tm-niall-horan-2027-houston-z7r9jz1a709uy",
         "localDate": "2027-05-01",
-        "price": 96,
+        "price": 97,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.861Z",
         "path": "/artists/niall-horan/tickets/houston-united-states"
       },
       {
@@ -459,9 +459,9 @@
         "venue": "Moody Center ATX",
         "eventId": "tm-niall-horan-2027-austin-g5diz_1lpaglw",
         "localDate": "2027-05-14",
-        "price": 59,
+        "price": 61,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.861Z",
         "path": "/artists/niall-horan/tickets/austin-united-states"
       },
       {
@@ -470,9 +470,9 @@
         "venue": "Ball Arena",
         "eventId": "tm-niall-horan-2027-denver-g5vzz_1lspoiu",
         "localDate": "2027-05-16",
-        "price": 87,
+        "price": 90,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.861Z",
         "path": "/artists/niall-horan/tickets/denver-united-states"
       },
       {
@@ -483,7 +483,7 @@
         "localDate": "2027-05-20",
         "price": 93,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.861Z",
         "path": "/artists/niall-horan/tickets/phoenix-united-states"
       },
       {
@@ -494,7 +494,7 @@
         "localDate": "2027-05-22",
         "price": 82,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.861Z",
         "path": "/artists/niall-horan/tickets/inglewood-united-states"
       },
       {
@@ -503,9 +503,9 @@
         "venue": "Chase Center",
         "eventId": "tm-niall-horan-2027-san-francisco-g5vyz_195tivo",
         "localDate": "2027-05-25",
-        "price": 87,
+        "price": 89,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.861Z",
         "path": "/artists/niall-horan/tickets/san-francisco-united-states"
       },
       {
@@ -516,7 +516,7 @@
         "localDate": "2027-05-27",
         "price": 84,
         "currency": "USD",
-        "capturedAt": "2026-11-08T13:55:01.743Z",
+        "capturedAt": "2026-11-09T22:44:45.861Z",
         "path": "/artists/niall-horan/tickets/seattle-united-states"
       }
     ]

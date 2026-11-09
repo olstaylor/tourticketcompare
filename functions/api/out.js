@@ -3828,6 +3828,34 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-feid",
     redirectUrl: "https://seatgeek.com/feid-tickets",
     verified: true
+  },
+  "fall-out-boy:ticketmaster": {
+    artistSlug: "fall-out-boy",
+    provider: "ticketmaster",
+    linkId: "tm-artist-fall-out-boy",
+    redirectUrl: "https://www.ticketmaster.com/fall-out-boy-tickets/artist/854398",
+    verified: true
+  },
+  "fall-out-boy:seatgeek": {
+    artistSlug: "fall-out-boy",
+    provider: "seatgeek",
+    linkId: "sg-artist-fall-out-boy",
+    redirectUrl: "https://seatgeek.com/fall-out-boy-tickets",
+    verified: true
+  },
+  "the-dead-south:ticketmaster": {
+    artistSlug: "the-dead-south",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-dead-south",
+    redirectUrl: "https://www.ticketmaster.com/the-dead-south-tickets/artist/2020797",
+    verified: true
+  },
+  "the-dead-south:seatgeek": {
+    artistSlug: "the-dead-south",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-dead-south",
+    redirectUrl: "https://seatgeek.com/the-dead-south-tickets",
+    verified: true
   }
 };
 

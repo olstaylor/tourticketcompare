@@ -429,11 +429,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107668353",
-        "url": "https://www.stubhub.ie/victoria-monet-tampa-tickets-11-8-2026/event/107668353",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3NvHQgr",
@@ -441,7 +441,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258105",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258105/Victoria-Monet-tickets-Sun-Nov-8-2026-The-Yuengling-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-tampa-tickets-11-8-2026/event/107668353",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

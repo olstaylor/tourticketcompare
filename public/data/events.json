@@ -9799,11 +9799,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107165393",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-philadelphia-tickets-11-8-2026/event/107165393",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -9812,7 +9812,7 @@
     "ticketmaster_discovery_event_id": "1AdZZ_aGkMZOEMy",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921662",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921662/Olivia-Rodrigo-tickets-Sun-Nov-8-2026-Xfinity-Mobile-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-philadelphia-tickets-11-8-2026/event/107165393",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -45179,7 +45179,7 @@
         "event_id": "107669953",
         "url": "https://www.stubhub.ie/metallica-uncasville-tickets-11-19-2026/event/107669953",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       }
     },
@@ -45336,7 +45336,7 @@
         "event_id": "107132084",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-28-2027/event/107132084",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       }
     },
@@ -45514,7 +45514,7 @@
         "event_id": "107133087",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-4-2027/event/107133087",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       }
     },
@@ -45692,7 +45692,7 @@
         "event_id": "107133091",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-18-2027/event/107133091",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       }
     },
@@ -45870,7 +45870,7 @@
         "event_id": "107133093",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-25-2027/event/107133093",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       }
     },
@@ -140467,11 +140467,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107120666",
-        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-7-2026/event/107120666",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FAYv048reZ72aFA",
@@ -140479,7 +140479,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-7-2026/event/107120666",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -140641,7 +140641,7 @@
         "event_id": "107133097",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-4-2027/event/107133097",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       }
     },
@@ -140819,7 +140819,7 @@
         "event_id": "107133099",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-11-2027/event/107133099",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       }
     },
@@ -215360,11 +215360,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107162453",
-        "url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-7-11-2026/event/107162453",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_FDJAM8C",
@@ -215377,7 +215377,7 @@
         "end": "2026-11-08T03:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-7-11-2026/event/107162453",
+    "stubhub_international_url": "",
     "organizer_names": [
       "OCESA"
     ],
@@ -222910,17 +222910,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107154768",
-        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-8-11-2026/event/107154768",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJMU0",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-8-11-2026/event/107154768",
+    "stubhub_international_url": "",
     "genre": "Pop"
   },
   {
@@ -235636,11 +235636,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107486081",
-        "url": "https://www.stubhub.ie/steve-lacy-sugar-land-tickets-11-8-2026/event/107486081",
-        "verified": true,
-        "last_verified_at": "2026-11-08",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZJ8f",
@@ -235648,7 +235648,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199806",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199806/Steve-Lacy-tickets-Sun-Nov-8-2026-Smart-Financial-Centre",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-sugar-land-tickets-11-8-2026/event/107486081"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-steve-lacy-2026-morrison-z7r9jz1aazj84",
@@ -255611,11 +255611,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107469465",
-        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-7-2026/event/107469465",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1ub7d",
@@ -255623,7 +255623,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-7-2026/event/107469465",
+    "stubhub_international_url": "",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],
@@ -271700,11 +271700,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107417868",
-        "url": "https://www.stubhub.ie/brand-new-anaheim-tickets-11-7-2026/event/107417868",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -271718,7 +271718,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/brand-new-anaheim-tickets-11-7-2026/event/107417868",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"
@@ -279091,11 +279091,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107667154",
-        "url": "https://www.stubhub.ie/stevie-wonder-tickets-manchester-co-op-live-8-11-2026/event/107667154",
-        "verified": true,
-        "last_verified_at": "2026-10-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -279109,7 +279109,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-tickets-manchester-co-op-live-8-11-2026/event/107667154",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LNM - VIP NATION UK"
     ],
@@ -302309,11 +302309,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107446232",
-        "url": "https://www.stubhub.ie/cristian-castro-el-paso-tickets-11-7-2026/event/107446232",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_AdzEyJF",
@@ -302321,7 +302321,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/cristian-castro-el-paso-tickets-11-7-2026/event/107446232",
+    "stubhub_international_url": "",
     "genre": "Latin"
   },
   {
@@ -307355,11 +307355,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107668353",
-        "url": "https://www.stubhub.ie/victoria-monet-tampa-tickets-11-8-2026/event/107668353",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3NvHQgr",
@@ -307367,7 +307367,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258105",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258105/Victoria-Monet-tickets-Sun-Nov-8-2026-The-Yuengling-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-tampa-tickets-11-8-2026/event/107668353",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -315150,7 +315150,7 @@
         "event_id": "107672199",
         "url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -349119,17 +349119,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107671331",
-        "url": "https://www.stubhub.ie/erasure-tickets-manchester-manchester-ao-arena-1-5-2027/event/107671331",
-        "verified": true,
-        "last_verified_at": "2026-11-01",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_K6QXKzY",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/erasure-tickets-manchester-manchester-ao-arena-1-5-2027/event/107671331",
+    "stubhub_international_url": "",
     "organizer_names": [
       "KILIMANJARO",
       "ASM T-A AO ARENA"
@@ -365518,11 +365518,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107677681",
-        "url": "https://www.stubhub.ie/mercyme-oklahoma-city-tickets-11-8-2026/event/107677681",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_13Ofzsb",
@@ -365530,7 +365530,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7965219",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965219/MercyMe-tickets-Sun-Nov-8-2026-Paycom-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/mercyme-oklahoma-city-tickets-11-8-2026/event/107677681",
+    "stubhub_international_url": "",
     "organizer_names": [
       "AWAKENING EVENTS"
     ],
@@ -370560,11 +370560,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107151207",
-        "url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-7-2026/event/107151207",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_kGkSmomDW",
@@ -370572,7 +370572,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-7-2026/event/107151207",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -376063,11 +376063,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107455614",
-        "url": "https://www.stubhub.ie/lenny-pearce-houston-tickets-11-8-2026/event/107455614",
-        "verified": true,
-        "last_verified_at": "2026-11-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_GEaXmD2",
@@ -376075,7 +376075,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-houston-tickets-11-8-2026/event/107455614",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

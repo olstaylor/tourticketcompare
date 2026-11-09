@@ -256,11 +256,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107151207",
-        "url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-7-2026/event/107151207",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_kGkSmomDW",
@@ -268,7 +268,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-7-2026/event/107151207",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

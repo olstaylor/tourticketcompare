@@ -222,11 +222,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107469465",
-        "url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-7-2026/event/107469465",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6Ck1ub7d",
@@ -234,7 +234,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-7-2026/event/107469465",
+    "stubhub_international_url": "",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
     ],

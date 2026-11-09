@@ -1794,7 +1794,7 @@
     "ticketmaster_event_id": "3600652AA8E1605E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-glasgow-25-02-2027/event/3600652AA8E1605E",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-glasgow-barrowland-ballroom-2-25-2027/production/7558498",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-glasgow-25-02-2027/event/3600652AA8E1605E",
     "last_verified_at": "2026-11-07",
@@ -1816,11 +1816,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7558498,
-        "url": "https://www.vividseats.com/malcolm-todd-tickets-glasgow-barrowland-ballroom-2-25-2027/production/7558498",
-        "verified": true,
-        "last_verified_at": "2026-11-05",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

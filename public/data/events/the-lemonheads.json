@@ -1286,7 +1286,7 @@
     "ticketmaster_event_id": "14316964",
     "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-rumba-cafe-tickets/14316964",
     "seatgeek_url": "https://seatgeek.com/the-lemonheads-tickets/columbus-ohio-rumba-cafe-columbus-oh-2027-03-27-8-pm/concert/18595355",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-columbus-rumba-cafe-3-27-2027/production/7595234",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-rumba-cafe-tickets/14316964",
     "last_verified_at": "2026-11-07",
@@ -1308,11 +1308,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7595234,
+        "url": "https://www.vividseats.com/the-lemonheads-tickets-columbus-rumba-cafe-3-27-2027/production/7595234",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

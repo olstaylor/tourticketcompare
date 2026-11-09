@@ -2039,7 +2039,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-pittsburgh-ppg-paints-arena-11-12-2026--concerts-alternative/production/6898000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-pittsburgh-pennsylvania-11-12-2026/event/160064888B1E4D69",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2091,13 +2091,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874880",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874880/sombr-tickets-Thu-Nov-12-2026-PPG-Paints-Arena",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-17T14:00:00Z",
-        "end": "2026-11-08T17:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

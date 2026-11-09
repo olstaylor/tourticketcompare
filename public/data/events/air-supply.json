@@ -349,7 +349,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-red-bank-hackensack-meridian-health-theatre-at-the-count-basie-center-11-15-2026/production/7079634",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-red-bank-new-jersey-11-15-2026/event/1D0064AEA693531F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -401,13 +401,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997065",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997065/Air-Supply-tickets-Sun-Nov-15-2026-Hackensack-Meridian-Health-Theatre-at-the-Count-Basie-Center-for-the-Arts",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-29T14:00:00Z",
-        "end": "2026-11-09T03:00:00Z"
-      }
-    ],
     "ticket_limit": 8,
     "genre": "Pop"
   },

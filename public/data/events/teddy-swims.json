@@ -2454,7 +2454,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-inglewood-kia-forum-11-18-2026--concerts-rb/production/6912024",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-inglewood-california-11-18-2026/event/0900648DE2F4A831",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2515,11 +2515,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883127/Teddy-Swims-tickets-Wed-Nov-18-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-inglewood-tickets-11-18-2026/event/107158281",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-04-24T17:00:00Z",
-        "end": "2026-11-09T06:00:00Z"
-      },
       {
         "name": "$30 Ticket",
         "start": "2026-09-18T17:00:00Z",

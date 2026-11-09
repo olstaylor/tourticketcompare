@@ -858,7 +858,7 @@
     "event_name": "Garth Brooks - the Irish Tour 2027",
     "city": "Co. Galway",
     "country": "Ireland",
-    "venue": "Pearse Stadium",
+    "venue": "ECC Pearse Stadium",
     "datetime_iso": "2027-05-29T17:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "18006564480F6409",
@@ -867,7 +867,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-co-galway-29-05-2027/event/18006564480F6409",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -917,7 +917,7 @@
     "event_name": "Garth Brooks - the Irish Tour 2027",
     "city": "Co. Galway",
     "country": "Ireland",
-    "venue": "Pearse Stadium",
+    "venue": "ECC Pearse Stadium",
     "datetime_iso": "2027-05-30T17:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1800656448116417",
@@ -926,7 +926,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-co-galway-30-05-2027/event/1800656448116417",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

@@ -2355,7 +2355,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-lincoln-pinnacle-bank-arena-12-10-2026--concerts-pop/production/7446344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lincoln-nebraska-12-10-2026/event/0600650DED6F1F8D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2420,11 +2420,6 @@
         "name": "VIP Packages Onsale",
         "start": "2026-08-21T15:00:00Z",
         "end": "2026-12-06T18:00:00Z"
-      },
-      {
-        "name": "Sucker For A Giveaway Contest",
-        "start": "2026-11-05T23:45:00Z",
-        "end": "2026-11-09T05:59:00Z"
       },
       {
         "name": "4-Pack Offer",

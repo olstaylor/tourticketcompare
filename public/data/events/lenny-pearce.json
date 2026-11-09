@@ -253,11 +253,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8048523",
-        "url": "https://www.ticketliquidator.com/tickets/8048523/Lenny-Pearce-tickets-Sun-Nov-8-2026-Bayou-Music-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107455614",
@@ -271,7 +271,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048523/Lenny-Pearce-tickets-Sun-Nov-8-2026-Bayou-Music-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/lenny-pearce-houston-tickets-11-8-2026/event/107455614",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -917,7 +917,7 @@
         "event_id": "8048528",
         "url": "https://www.ticketliquidator.com/tickets/8048528/Lenny-Pearce-tickets-Sat-Nov-21-2026-The-Fillmore-Silver-Spring",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       }
     },

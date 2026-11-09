@@ -842,17 +842,17 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8225143",
-        "url": "https://www.ticketliquidator.com/tickets/8225143/Gary-Allan-tickets-Sat-Nov-7-2026-7-Clans-First-Council-Casino-Hotel",
-        "verified": true,
-        "last_verified_at": "2026-11-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAveCF",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8225143/Gary-Allan-tickets-Sat-Nov-7-2026-7-Clans-First-Council-Casino-Hotel",
+    "ticketliquidator_url": "",
     "genre": "Country"
   },
   {

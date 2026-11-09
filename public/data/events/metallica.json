@@ -208,7 +208,7 @@
         "event_id": "7775512",
         "url": "https://www.ticketliquidator.com/tickets/7775512/Metallica-tickets-Thu-Jan-28-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -386,7 +386,7 @@
         "event_id": "7785086",
         "url": "https://www.ticketliquidator.com/tickets/7785086/Metallica-tickets-Thu-Feb-4-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -564,7 +564,7 @@
         "event_id": "7785088",
         "url": "https://www.ticketliquidator.com/tickets/7785088/Metallica-tickets-Thu-Feb-18-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -742,7 +742,7 @@
         "event_id": "7785090",
         "url": "https://www.ticketliquidator.com/tickets/7785090/Metallica-tickets-Thu-Feb-25-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2711,11 +2711,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7775511",
-        "url": "https://www.ticketliquidator.com/tickets/7775511/Metallica-tickets-Sat-Nov-7-2026-Sphere",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107120666",
@@ -2729,7 +2729,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775511/Metallica-tickets-Sat-Nov-7-2026-Sphere",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-7-2026/event/107120666",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -2885,7 +2885,7 @@
         "event_id": "7785868",
         "url": "https://www.ticketliquidator.com/tickets/7785868/Metallica-tickets-Thu-Mar-4-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3063,7 +3063,7 @@
         "event_id": "7785870",
         "url": "https://www.ticketliquidator.com/tickets/7785870/Metallica-tickets-Thu-Mar-11-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-09",
         "availability_status": "listed"
       },
       "stubhub-international": {

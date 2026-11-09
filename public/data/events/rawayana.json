@@ -135,11 +135,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7808622",
-        "url": "https://www.ticketliquidator.com/tickets/7808622/Rawayana-tickets-Sat-Nov-7-2026-Byline-Bank-Aragon-Ballroom",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -153,7 +153,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808622/Rawayana-tickets-Sat-Nov-7-2026-Byline-Bank-Aragon-Ballroom",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"

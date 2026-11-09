@@ -747,11 +747,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7982955",
-        "url": "https://www.ticketnetwork.com/en/p/7982955",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -771,7 +771,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_522AhQK",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982955",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982955/John-Summit-tickets-Sat-Nov-7-2026-Ariat-Arena",
     "organizer_names": [

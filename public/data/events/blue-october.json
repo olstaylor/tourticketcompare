@@ -856,11 +856,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7828056",
-        "url": "https://www.ticketnetwork.com/en/p/7828056",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7828056",
@@ -873,7 +873,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-z0p",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828056",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828056/Blue-October-tickets-Sat-Nov-7-2026-Agora-Theatre",
     "genre": "Alternative"
   },

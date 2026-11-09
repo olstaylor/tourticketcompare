@@ -120,11 +120,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8184455",
-        "url": "https://www.ticketnetwork.com/en/p/8184455",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8184455",
@@ -144,7 +144,7 @@
     "ticketmaster_discovery_event_id": "1k78vPvbGA1v43o",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184455",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184455/Pentatonix-tickets-Sat-Nov-7-2026-Rogers-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-tickets-vancouver-rogers-arena-11-7-2026/event/107476100",
     "organizer_names": [

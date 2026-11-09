@@ -1076,11 +1076,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7956780",
-        "url": "https://www.ticketnetwork.com/en/p/7956780",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_1KA_zPh",
@@ -1094,7 +1094,7 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956780/Journey-tickets-Sat-Nov-7-2026-Nassau-Veterans-Memorial-Coliseum",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956780",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],

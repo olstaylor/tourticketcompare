@@ -185,9 +185,6 @@ export const WATCHED_LANES = [
   // Daily show-priority ranking: one D1 table and its rolling issue. Every
   // reader is fail-open, so it validates nothing against main.
   { file: "show-priority.yml", name: "Show priority", cadence: "daily 17:40", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
-  // Daily price-drop drafts: D1 SELECTs and one comment on its rolling issue;
-  // writes nothing to the repository and validates nothing against main.
-  { file: "price-drop-drafts.yml", name: "Price-drop drafts", cadence: "daily 18:15", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   // Weekly price-history repair: idempotent D1 fills and rollup upserts only;
   // writes nothing to the repository and validates nothing against main.
   { file: "pricing-history-repair.yml", name: "Price history weekly repair", cadence: "weekly Sun 05:23", maxAgeHours: 8 * 24 + 6, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
@@ -198,10 +195,7 @@ export const WATCHED_LANES = [
   // Daily passed-date labeller: edits blog table cells only, opens one PR that merges
   // once Prelaunch Validation passes on its head. A run that stands down for an open
   // labeller PR is green.
-  { file: "label-passed-dates.yml", name: "Label passed dates", cadence: "daily 05:30", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
-  // Weekly Search Console export: Search Console API reads and one rolling issue;
-  // writes nothing to the repository and validates nothing against main.
-  { file: "gsc-export.yml", name: "Search Console export", cadence: "weekly Mon 06:30", maxAgeHours: 8 * 24 + 6, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false }
+  { file: "label-passed-dates.yml", name: "Label passed dates", cadence: "daily 05:30", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false }
 ];
 
 // Whether a lane runs often enough that one failure is absorbed rather than
@@ -748,8 +742,8 @@ if (SELF_TEST) {
   );
   assert.deepEqual(
     WATCHED_LANES.filter((lane) => !lane.sharesMainGate).map((lane) => lane.file).sort(),
-    ["artist-city-reports.yml", "automation-health.yml", "autopublish-digest.yml", "blog-ideas.yml", "funnel-daily.yml", "generated-freshness.yml", "gsc-export.yml", "label-passed-dates.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-drop-drafts.yml", "price-guide-candidates.yml", "pricing-history-repair.yml", "show-priority.yml", "site-health.yml"],
-    "the sensors, digest, editorial screen, coverage report, site health, scoreboard, funnel check, show-priority ranking, price-drop drafts and price-history repair are excluded from writer correlation"
+    ["artist-city-reports.yml", "automation-health.yml", "autopublish-digest.yml", "blog-ideas.yml", "funnel-daily.yml", "generated-freshness.yml", "label-passed-dates.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-guide-candidates.yml", "pricing-history-repair.yml", "show-priority.yml", "site-health.yml"],
+    "the sensors, digest, editorial screen, coverage report, site health, scoreboard, funnel check, show-priority ranking and price-history repair are excluded from writer correlation"
   );
   // GitHub accepts either extension for a workflow file, so the coverage scan
   // below must recognise both or a scheduled `.yaml` lane slips past it.

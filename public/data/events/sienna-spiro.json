@@ -1070,7 +1070,7 @@
         "event_id": 7139535,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-san-francisco-castro-theatre-11-9-2026/production/7139535",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1095,11 +1095,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107259057",
-        "url": "https://www.stubhub.ie/sienna-spiro-san-francisco-tickets-11-9-2026/event/107259057",
-        "verified": true,
-        "last_verified_at": "2026-11-08",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GKW-EWe",
@@ -1112,7 +1112,7 @@
     "ticket_limit": 4,
     "genre": "Pop",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038343/Sienna-Spiro-tickets-Mon-Nov-9-2026-Castro-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-san-francisco-tickets-11-9-2026/event/107259057"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-sienna-spiro-2026-los-angeles-vvg10z_gpwxv_j",
@@ -1152,7 +1152,7 @@
         "event_id": 7139420,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-the-wiltern-11-10-2026/production/7139420",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1234,7 +1234,7 @@
         "event_id": 7175301,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-los-angeles-orpheum-theatre---los-angeles-11-12-2026--concerts-pop/production/7175301",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1476,7 +1476,7 @@
         "event_id": 7166302,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-2-22-2027--concerts-pop/production/7166302",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1642,7 +1642,7 @@
         "event_id": 7146243,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-manchester-o2-apollo-manchester-3-1-2027--concerts-pop/production/7146243",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1727,7 +1727,7 @@
         "event_id": 7175309,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-manchester-o2-apollo-manchester-3-2-2027--concerts-pop/production/7175309",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1869,7 +1869,7 @@
         "event_id": 7168401,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-berlin-tempodrom-3-24-2027/production/7168401",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2334,7 +2334,7 @@
         "event_id": 7726788,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-austin-moody-amphitheater-8-5-2027--concerts-pop/production/7726788",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2417,7 +2417,7 @@
         "event_id": 7726796,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-washington-dc-the-anthem-8-12-2027--concerts-pop/production/7726796",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2570,7 +2570,7 @@
         "event_id": 7726800,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-boston-mgm-music-hall-at-fenway-8-15-2027--concerts-pop/production/7726800",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2652,7 +2652,7 @@
         "event_id": 7726802,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-17-2027--concerts-pop/production/7726802",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2750,7 +2750,7 @@
         "event_id": 7726810,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-detroit-fox-theatre-detroit-8-23-2027--concerts-pop/production/7726810",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3020,7 +3020,7 @@
         "event_id": 7726818,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-minneapolis-armory---minneapolis-8-28-2027--concerts-pop/production/7726818",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3102,7 +3102,7 @@
         "event_id": 7726822,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-seattle-wamu-theater---seattle-9-2-2027--concerts-pop/production/7726822",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3184,7 +3184,7 @@
         "event_id": 7726824,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-9-4-2027--concerts-pop/production/7726824",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3259,7 +3259,7 @@
         "event_id": 7726828,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-berkeley-greek-theatre---berkeley-9-7-2027--concerts-pop/production/7726828",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3398,7 +3398,7 @@
         "event_id": 7729242,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-18-2027/production/7729242",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3496,7 +3496,7 @@
         "event_id": 7726820,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-morrison-red-rocks-amphitheatre-8-30-2027--concerts-pop/production/7726820",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3566,7 +3566,7 @@
         "event_id": 7726792,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-nashville-grand-ole-opry-house-8-8-2027--concerts-pop/production/7726792",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

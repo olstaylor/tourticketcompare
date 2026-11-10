@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "06006557CA84127C",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-cedar-rapids-iowa-02-16-2027/event/06006557CA84127C",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/cedar-rapids-iowa-alliant-energy-powerhouse-2027-02-16-6-30-pm/concert/18742671",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-cedar-rapids-alliant-energy-powerhouse-2-16-2027/production/7807508",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-cedar-rapids-iowa-02-16-2027/event/06006557CA84127C",
     "last_verified_at": "2026-11-08",
@@ -30,15 +30,15 @@
         "event_id": 18742671,
         "url": "https://seatgeek.com/breaking-benjamin-tickets/cedar-rapids-iowa-alliant-energy-powerhouse-2027-02-16-6-30-pm/concert/18742671",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807508,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-cedar-rapids-alliant-energy-powerhouse-2-16-2027/production/7807508",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -98,7 +98,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7Mr3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Mr3",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/kalamazoo-michigan-wings-event-center-2027-02-18-6-30-pm/concert/18742686",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-kalamazoo-wings-event-center-2-18-2027/production/7807510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Mr3",
     "last_verified_at": "2026-11-08",
@@ -116,15 +116,15 @@
         "event_id": 18742686,
         "url": "https://seatgeek.com/breaking-benjamin-tickets/kalamazoo-michigan-wings-event-center-2027-02-18-6-30-pm/concert/18742686",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807510,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-kalamazoo-wings-event-center-2-18-2027/production/7807510",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "05006556E7550FB8",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-fort-wayne-indiana-02-19-2027/event/05006556E7550FB8",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/fort-wayne-indiana-allen-county-war-memorial-coliseum-2027-02-19-6-30-pm/concert/18742688",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-fort-wayne-allen-county-war-memorial-coliseum-2-19-2027/production/7807512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-fort-wayne-indiana-02-19-2027/event/05006556E7550FB8",
     "last_verified_at": "2026-11-08",
@@ -189,15 +189,15 @@
         "event_id": 18742688,
         "url": "https://seatgeek.com/breaking-benjamin-tickets/fort-wayne-indiana-allen-county-war-memorial-coliseum-2027-02-19-6-30-pm/concert/18742688",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807512,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-fort-wayne-allen-county-war-memorial-coliseum-2-19-2027/production/7807512",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -256,7 +256,7 @@
     "ticketmaster_event_id": "05006557AA3068A7",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-evansville-indiana-02-20-2027/event/05006557AA3068A7",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/evansville-indiana-ford-center-in-2027-02-20-6-30-pm/concert/18742693",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-evansville-ford-center-evansville-2-20-2027/production/7807516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-evansville-indiana-02-20-2027/event/05006557AA3068A7",
     "last_verified_at": "2026-11-08",
@@ -274,15 +274,15 @@
         "event_id": 18742693,
         "url": "https://seatgeek.com/breaking-benjamin-tickets/evansville-indiana-ford-center-in-2027-02-20-6-30-pm/concert/18742693",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807516,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-evansville-ford-center-evansville-2-20-2027/production/7807516",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -342,7 +342,7 @@
     "ticketmaster_event_id": "070065579F5E59C0",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-peoria-illinois-02-22-2027/event/070065579F5E59C0",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/peoria-illinois-peoria-civic-center-arena-2027-02-22-6-30-pm/concert/18742700",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-peoria-peoria-civic-center---prairie-home-alliance-theater-2-22-2027/production/7807712",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-peoria-illinois-02-22-2027/event/070065579F5E59C0",
     "last_verified_at": "2026-11-08",
@@ -360,15 +360,15 @@
         "event_id": 18742700,
         "url": "https://seatgeek.com/breaking-benjamin-tickets/peoria-illinois-peoria-civic-center-arena-2027-02-22-6-30-pm/concert/18742700",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807712,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-peoria-peoria-civic-center---prairie-home-alliance-theater-2-22-2027/production/7807712",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -428,7 +428,7 @@
     "ticketmaster_event_id": "160065578DB24F47",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-louisville-kentucky-02-23-2027/event/160065578DB24F47",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/louisville-kentucky-kfc-yum-center-2027-02-23-6-30-pm/concert/18742710",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-louisville-kfc-yum-center-2-23-2027/production/7807642",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-louisville-kentucky-02-23-2027/event/160065578DB24F47",
     "last_verified_at": "2026-11-08",
@@ -446,15 +446,15 @@
         "event_id": 18742710,
         "url": "https://seatgeek.com/breaking-benjamin-tickets/louisville-kentucky-kfc-yum-center-2027-02-23-6-30-pm/concert/18742710",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807642,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-louisville-kfc-yum-center-2-23-2027/production/7807642",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -514,7 +514,7 @@
     "ticketmaster_event_id": "05006557B6727C70",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-columbus-ohio-02-25-2027/event/05006557B6727C70",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/columbus-ohio-nationwide-arena-2027-02-25-6-30-pm/concert/18742717",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-columbus-nationwide-arena-2-25-2027/production/7807662",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-columbus-ohio-02-25-2027/event/05006557B6727C70",
     "last_verified_at": "2026-11-08",
@@ -532,15 +532,15 @@
         "event_id": 18742717,
         "url": "https://seatgeek.com/breaking-benjamin-tickets/columbus-ohio-nationwide-arena-2027-02-25-6-30-pm/concert/18742717",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807662,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-columbus-nationwide-arena-2-25-2027/production/7807662",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -600,7 +600,7 @@
     "ticketmaster_event_id": "02006556F82E8146",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-university-park-pennsylvania-02-26-2027/event/02006556F82E8146",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/university-park-pennsylvania-bryce-jordan-center-2027-02-26-6-30-pm/concert/18742722",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-university-park-bryce-jordan-center-2-26-2027/production/7807492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-university-park-pennsylvania-02-26-2027/event/02006556F82E8146",
     "last_verified_at": "2026-11-08",
@@ -618,15 +618,15 @@
         "event_id": 18742722,
         "url": "https://seatgeek.com/breaking-benjamin-tickets/university-park-pennsylvania-bryce-jordan-center-2027-02-26-6-30-pm/concert/18742722",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807492,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-university-park-bryce-jordan-center-2-26-2027/production/7807492",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -685,7 +685,7 @@
     "ticketmaster_event_id": "1D006557C7A846FD",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-uncasville-connecticut-02-28-2027/event/1D006557C7A846FD",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/uncasville-connecticut-mohegan-sun-arena-2027-02-28-6-30-pm/concert/18742724",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-uncasville-mohegan-sun-arena-ct-2-28-2027/production/7807638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-uncasville-connecticut-02-28-2027/event/1D006557C7A846FD",
     "last_verified_at": "2026-11-08",
@@ -703,15 +703,15 @@
         "event_id": 18742724,
         "url": "https://seatgeek.com/breaking-benjamin-tickets/uncasville-connecticut-mohegan-sun-arena-2027-02-28-6-30-pm/concert/18742724",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807638,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-uncasville-mohegan-sun-arena-ct-2-28-2027/production/7807638",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -763,7 +763,7 @@
     "ticketmaster_event_id": "00006556CCBACD92",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-syracuse-new-york-03-02-2027/event/00006556CCBACD92",
     "seatgeek_url": "https://seatgeek.com/breaking-benjamin-tickets/syracuse-new-york-upstate-medical-university-arena-at-the-oncenter-war-memorial-2027-03-02-6-30-pm/concert/18742726",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-syracuse-oncenter---upstate-medical-university-arena-3-2-2027/production/7807734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-syracuse-new-york-03-02-2027/event/00006556CCBACD92",
     "last_verified_at": "2026-11-08",
@@ -781,15 +781,15 @@
         "event_id": 18742726,
         "url": "https://seatgeek.com/breaking-benjamin-tickets/syracuse-new-york-upstate-medical-university-arena-at-the-oncenter-war-memorial-2027-03-02-6-30-pm/concert/18742726",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807734,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-syracuse-oncenter---upstate-medical-university-arena-3-2-2027/production/7807734",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -840,7 +840,7 @@
     "ticketmaster_event_id": "00006557CDAFE39C",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-albany-new-york-03-03-2027/event/00006557CDAFE39C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-albany-mvp-arena-3-3-2027/production/7807736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-albany-new-york-03-03-2027/event/00006557CDAFE39C",
     "last_verified_at": "2026-11-08",
@@ -862,11 +862,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807736,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-albany-mvp-arena-3-3-2027/production/7807736",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -925,7 +925,7 @@
     "ticketmaster_event_id": "02006557B1BEB6C2",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-hershey-pennsylvania-03-05-2027/event/02006557B1BEB6C2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-hershey-giant-center-3-5-2027/production/7807490",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-hershey-pennsylvania-03-05-2027/event/02006557B1BEB6C2",
     "last_verified_at": "2026-11-08",
@@ -947,11 +947,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807490,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-hershey-giant-center-3-5-2027/production/7807490",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1011,7 +1011,7 @@
     "ticketmaster_event_id": "16006557AF1A9991",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-charleston-west-virginia-03-06-2027/event/16006557AF1A9991",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-charleston-charleston-coliseum-and-convention-center-3-6-2027/production/7807498",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-charleston-west-virginia-03-06-2027/event/16006557AF1A9991",
     "last_verified_at": "2026-11-08",
@@ -1033,11 +1033,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807498,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-charleston-charleston-coliseum-and-convention-center-3-6-2027/production/7807498",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1097,7 +1097,7 @@
     "ticketmaster_event_id": "2D0065561D247A14",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-greenville-south-carolina-03-08-2027/event/2D0065561D247A14",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-greenville-bon-secours-wellness-arena-3-8-2027/production/7807496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-greenville-south-carolina-03-08-2027/event/2D0065561D247A14",
     "last_verified_at": "2026-11-08",
@@ -1119,11 +1119,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807496,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-greenville-bon-secours-wellness-arena-3-8-2027/production/7807496",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1188,7 +1188,7 @@
     "ticketmaster_event_id": "0E006556D1B220BB",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-savannah-georgia-03-09-2027/event/0E006556D1B220BB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-savannah-enmarket-arena-3-9-2027/production/7807660",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-savannah-georgia-03-09-2027/event/0E006556D1B220BB",
     "last_verified_at": "2026-11-08",
@@ -1210,11 +1210,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807660,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-savannah-enmarket-arena-3-9-2027/production/7807660",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1274,7 +1274,7 @@
     "ticketmaster_event_id": "02006557EE8B48A1",
     "ticketmaster_url": "https://www.ticketmaster.com/breaking-benjamin-atlantic-city-new-jersey-03-12-2027/event/02006557EE8B48A1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/breaking-benjamin-tickets-atlantic-city-ovation-hall-at-ocean-casino-resort-3-12-2027--concerts-alternative/production/7807740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/breaking-benjamin-atlantic-city-new-jersey-03-12-2027/event/02006557EE8B48A1",
     "last_verified_at": "2026-11-08",
@@ -1296,11 +1296,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7807740,
+        "url": "https://www.vividseats.com/breaking-benjamin-tickets-atlantic-city-ovation-hall-at-ocean-casino-resort-3-12-2027--concerts-alternative/production/7807740",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

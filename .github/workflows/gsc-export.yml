@@ -8,9 +8,11 @@ name: Search Console export
 # repository or D1, so it takes no writer lock. Without the secret the run step is
 # skipped with a notice and the job stays green. Owner-approved 2026-11-02.
 
+# Schedule PAUSED 2026-11-09 (owner decision): the GSC_SERVICE_ACCOUNT_JSON secret
+# is not valid JSON, so the Monday run exported nothing. Dispatch still works.
+# To resume: fix the secret, restore `schedule: - cron: '30 6 * * 1'` and re-add
+# the lane to WATCHED_LANES in scripts/check-automation-health.mjs.
 on:
-  schedule:
-    - cron: '30 6 * * 1'
   workflow_dispatch:
 
 permissions:

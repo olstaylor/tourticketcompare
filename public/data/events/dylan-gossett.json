@@ -2588,5 +2588,113 @@
     ],
     "ticket_limit": 10,
     "genre": "Country"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-nottingham-g5vhz_ph339p8",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett",
+    "city": "Nottingham",
+    "country": "Great Britain",
+    "venue": "Rock City",
+    "datetime_iso": "2027-05-20T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006566D2497950",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-nottingham-20-05-2027/event/1F006566D2497950",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-nottingham-20-05-2027/event/1F006566D2497950",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006566D2497950",
+        "discovery_event_id": "G5vHZ_ph339P8",
+        "url": "https://www.ticketmaster.co.uk/dylan-gossett-nottingham-20-05-2027/event/1F006566D2497950",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_ph339P8",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T10:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-bournemouth-g5dzz_pjb4swt",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett",
+    "city": "Bournemouth",
+    "country": "Great Britain",
+    "venue": "O2 Academy Bournemouth",
+    "datetime_iso": "2027-07-05T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00656998573CA9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-bournemouth-05-07-2027/event/3E00656998573CA9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-bournemouth-05-07-2027/event/3E00656998573CA9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00656998573CA9",
+        "discovery_event_id": "G5dzZ_pJb4Swt",
+        "url": "https://www.ticketmaster.co.uk/dylan-gossett-bournemouth-05-07-2027/event/3E00656998573CA9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_pJb4Swt",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T10:00:00Z"
   }
 ]

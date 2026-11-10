@@ -78,5 +78,113 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270729",
     "genre": "Folk",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270729/The-Avett-Brothers-tickets-Thu-Dec-31-2026-ExploreAshevillecom-Arena-at-Harrahs-Cherokee-Center"
+  },
+  {
+    "id": "tm-the-avett-brothers-2027-orlando-1axzk4egkex8si1",
+    "artist_slug": "the-avett-brothers",
+    "artist_name": "The Avett Brothers",
+    "event_name": "The Avett Brothers",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "House of Blues Orlando",
+    "datetime_iso": "2027-03-19T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006567BE433B0A",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-19-2027/event/22006567BE433B0A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-19-2027/event/22006567BE433B0A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006567BE433B0A",
+        "discovery_event_id": "1AxZk4EGkeX8Si1",
+        "url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-19-2027/event/22006567BE433B0A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZk4EGkeX8Si1",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
+  },
+  {
+    "id": "tm-the-avett-brothers-2027-orlando-1axzk4egkexosiu",
+    "artist_slug": "the-avett-brothers",
+    "artist_name": "The Avett Brothers",
+    "event_name": "The Avett Brothers",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "House of Blues Orlando",
+    "datetime_iso": "2027-03-20T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006567BE473B0D",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-20-2027/event/22006567BE473B0D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-20-2027/event/22006567BE473B0D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006567BE473B0D",
+        "discovery_event_id": "1AxZk4EGkeXoSiu",
+        "url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-20-2027/event/22006567BE473B0D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZk4EGkeXoSiu",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
   }
 ]

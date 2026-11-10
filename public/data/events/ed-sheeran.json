@@ -1889,5 +1889,58 @@
     ],
     "ticket_limit": 6,
     "genre": "Pop"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-yellow-springs-1faovpbw39z7c5ck",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "Ed Sheeran",
+    "city": "Yellow Springs",
+    "country": "United States Of America",
+    "venue": "YS Firehouse",
+    "datetime_iso": "2026-11-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160065632497DAD5",
+    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-yellow-springs-ohio-11-09-2026/event/160065632497DAD5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/ed-sheeran-yellow-springs-ohio-11-09-2026/event/160065632497DAD5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160065632497DAD5",
+        "discovery_event_id": "1FAOvPbw39Z7C5Ck",
+        "url": "https://www.ticketmaster.com/ed-sheeran-yellow-springs-ohio-11-09-2026/event/160065632497DAD5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FAOvPbw39Z7C5Ck",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

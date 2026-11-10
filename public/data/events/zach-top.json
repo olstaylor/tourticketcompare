@@ -331,5 +331,59 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "genre": "Country"
+  },
+  {
+    "id": "tm-zach-top-2027-george-vvg1hz_p3_wpdn",
+    "artist_slug": "zach-top",
+    "artist_name": "Zach Top",
+    "event_name": "Zach Top & The Red Clay Strays",
+    "city": "George",
+    "country": "United States Of America",
+    "venue": "Gorge Amphitheatre",
+    "datetime_iso": "2027-07-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00656499C96EEA",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-top-the-red-clay-strays-george-washington-07-02-2027/event/0F00656499C96EEA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-top-the-red-clay-strays-george-washington-07-02-2027/event/0F00656499C96EEA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00656499C96EEA",
+        "discovery_event_id": "vvG1HZ_p3_wpDn",
+        "url": "https://www.ticketmaster.com/zach-top-the-red-clay-strays-george-washington-07-02-2027/event/0F00656499C96EEA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_p3_wpDn",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T18:00:00Z"
   }
 ]

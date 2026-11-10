@@ -2294,7 +2294,7 @@
     "event_name": "Andrea Bocelli",
     "city": "Chorzów",
     "country": "Poland",
-    "venue": "Stadion Śląski",
+    "venue": "Superauto.pl Stadion Śląski",
     "datetime_iso": "2027-05-30T18:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1113534002",
@@ -2303,7 +2303,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/andrea-bocelli-tickets/1113534002?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

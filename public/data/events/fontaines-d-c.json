@@ -245,7 +245,7 @@
     "city": "Liverpool",
     "country": "Great Britain",
     "venue": "M&S Bank Arena Liverpool",
-    "datetime_iso": "2026-11-20T18:30:00Z",
+    "datetime_iso": "2026-11-20T19:30:00Z",
     "tour_name": "D.C. EU & UK Tour 2026",
     "ticketmaster_event_id": "3700650D190E9616",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/fontaines-dc-liverpool-20-11-2026/event/3700650D190E9616",
@@ -253,7 +253,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-liverpool-20-11-2026/event/3700650D190E9616",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

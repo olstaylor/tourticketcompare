@@ -348,7 +348,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-top-the-red-clay-strays-george-washington-07-02-2027/event/0F00656499C96EEA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -384,6 +384,38 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_p3_wpDn",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z"
+    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "Verified Diehards Presale",
+        "start": "2026-11-10T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Zach Top Presale",
+        "start": "2026-11-10T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Verified Strays Presale",
+        "start": "2026-11-10T21:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "RCS APP User Presale",
+        "start": "2026-11-11T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      }
+    ]
   }
 ]

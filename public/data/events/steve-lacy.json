@@ -1364,7 +1364,7 @@
     "city": "San Diego",
     "country": "United States Of America",
     "venue": "Petco Park",
-    "datetime_iso": "2026-11-20T04:00:00Z",
+    "datetime_iso": "2026-11-20T03:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0A006505AF0FB62C",
     "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-diego-california-11-19-2026/event/0A006505AF0FB62C",
@@ -1372,7 +1372,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-san-diego-gallagher-square-at-petco-park-11-19-2026--concerts-rb/production/7423386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-diego-california-11-19-2026/event/0A006505AF0FB62C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

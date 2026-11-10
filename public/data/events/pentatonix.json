@@ -548,7 +548,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-louisville-kfc-yum-center-11-16-2026/production/7393515",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-louisville-kentucky-11-16-2026/event/16006504AF5F8B3C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -608,13 +608,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184419",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184419/Pentatonix-tickets-Mon-Nov-16-2026-KFC-Yum-Center",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-louisville-tickets-11-16-2026/event/107469564",
-    "presales": [
-      {
-        "name": "VIP Packages Public Onsale",
-        "start": "2026-08-14T14:00:00Z",
-        "end": "2026-11-10T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

@@ -406,7 +406,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-pittsburgh-acrisure-stadium-5-29-2027/production/7557270",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-pittsburgh-pennsylvania-05-29-2027/event/16006522D835C49F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -476,6 +476,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-05-08T21:00:00Z"
+      },
+      {
+        "name": "Ticket Deals",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2027-01-01T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -1078,7 +1083,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-kansas-city-arrowhead-stadium-7-24-2027/production/7557278",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-kansas-city-missouri-07-24-2027/event/06006522C6B1C471",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1135,6 +1140,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-07-03T22:00:00Z"
+      },
+      {
+        "name": "More Ticket Deals Offer",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T04:00:00Z"
       }
     ],
     "organizer_names": [

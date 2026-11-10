@@ -1500,7 +1500,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bryan-adams-roll-with-the-punches-niagara-falls-ontario-05-22-2027/event/1000656487AB61F5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1536,6 +1536,30 @@
     "ticketmaster_discovery_event_id": "16vZZ_p36G7nU6g",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-05-15T02:00:00Z"
+      }
+    ]
   }
 ]

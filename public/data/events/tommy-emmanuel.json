@@ -413,7 +413,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-chattanooga-walker-theatre---tn-12-5-2026/production/6996770",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-chattanooga-tennessee-12-05-2026/event/1B00649D92C7D01E",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -468,6 +468,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-08T14:00:00Z",
         "end": "2026-11-29T03:00:00Z"
+      },
+      {
+        "name": "Holiday Promotion",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-12-06T00:30:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941596",

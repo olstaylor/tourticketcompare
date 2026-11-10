@@ -2269,7 +2269,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAA0k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0k",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/portland-oregon-providence-park-2027-08-26-5-30-pm/concert/18738316",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-portland-providence-park-8-26-2027--concerts-rock/production/7835334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0k",
@@ -2285,11 +2285,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738316,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/portland-oregon-providence-park-2027-08-26-5-30-pm/concert/18738316",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835334,

@@ -1346,7 +1346,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700653837E1D50D",
     "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-02-2027/event/1700653837E1D50D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-02-8-pm/concert/18659133",
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-2-2027/production/7667172",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-02-2027/event/1700653837E1D50D",
@@ -1362,11 +1362,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18659133,
+        "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-02-8-pm/concert/18659133",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7667172,
@@ -1435,7 +1435,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700653837E2D50F",
     "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-04-2027/event/1700653837E2D50F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-04-8-pm/concert/18659134",
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-4-2027/production/7667164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-04-2027/event/1700653837E2D50F",
@@ -1451,11 +1451,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18659134,
+        "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-04-8-pm/concert/18659134",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7667164,
@@ -1524,7 +1524,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700653837E3D515",
     "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-05-2027/event/1700653837E3D515",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-05-8-pm/concert/18659135",
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-5-2027/production/7667154",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-05-2027/event/1700653837E3D515",
@@ -1540,11 +1540,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18659135,
+        "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-05-8-pm/concert/18659135",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7667154,
@@ -1613,7 +1613,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700653837E3D517",
     "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-09-2027/event/1700653837E3D517",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-09-8-pm/concert/18675251",
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-9-2027/production/7697558",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-09-2027/event/1700653837E3D517",
@@ -1629,11 +1629,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18675251,
+        "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-09-8-pm/concert/18675251",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7697558,
@@ -1702,7 +1702,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700653837E4D519",
     "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-11-2027/event/1700653837E4D519",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-11-8-pm/concert/18675252",
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-11-2027/production/7697562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-11-2027/event/1700653837E4D519",
@@ -1718,11 +1718,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18675252,
+        "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-11-8-pm/concert/18675252",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7697562,
@@ -1791,7 +1791,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700653837E4D51B",
     "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-12-2027/event/1700653837E4D51B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-12-8-pm/concert/18675253",
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-12-2027/production/7697560",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-12-2027/event/1700653837E4D51B",
@@ -1807,11 +1807,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18675253,
+        "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-12-8-pm/concert/18675253",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7697560,

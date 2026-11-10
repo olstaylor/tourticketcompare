@@ -988,7 +988,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "220064D1D802540F",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-orlando-florida-11-09-2026/event/220064D1D802540F",
-    "seatgeek_url": "https://seatgeek.com/rod-wave-tickets/orlando-florida-kia-center-2026-11-09-8-30-pm/concert/18320069",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/rod-wave-tickets-orlando-kia-center-11-9-2026--concerts-rap-hip-hop/production/7185781",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-wave-dont-look-down-tour-orlando-florida-11-09-2026/event/220064D1D802540F",
@@ -1004,11 +1004,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18320069,
-        "url": "https://seatgeek.com/rod-wave-tickets/orlando-florida-kia-center-2026-11-09-8-30-pm/concert/18320069",
-        "verified": true,
-        "last_verified_at": "2026-11-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7185781,
@@ -1089,7 +1089,7 @@
         "event_id": 18414835,
         "url": "https://seatgeek.com/rod-wave-tickets/orlando-florida-kia-center-2026-11-10-8-pm/concert/18414835",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1171,7 +1171,7 @@
         "event_id": 18312360,
         "url": "https://seatgeek.com/rod-wave-tickets/sunrise-florida-amerant-bank-arena-2026-11-14-8-pm/concert/18312360",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1251,7 +1251,7 @@
         "event_id": 18312361,
         "url": "https://seatgeek.com/rod-wave-tickets/sunrise-florida-amerant-bank-arena-2026-11-15-8-pm/concert/18312361",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {

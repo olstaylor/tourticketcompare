@@ -369,7 +369,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "06006366AC7BD15E",
     "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-kansas-city-missouri-11-09-2026/event/06006366AC7BD15E",
-    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/kansas-city-missouri-t-mobile-center-2026-11-09-7-pm/concert/17895165",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-kansas-city-missouri-11-09-2026/event/06006366AC7BD15E",
@@ -385,11 +385,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 17895165,
-        "url": "https://seatgeek.com/three-days-grace-tickets/kansas-city-missouri-t-mobile-center-2026-11-09-7-pm/concert/17895165",
-        "verified": true,
-        "last_verified_at": "2026-11-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -476,7 +476,7 @@
         "event_id": 17895166,
         "url": "https://seatgeek.com/three-days-grace-tickets/denver-colorado-ball-arena-2026-11-11-7-pm/concert/17895166",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -555,7 +555,7 @@
         "event_id": 17895168,
         "url": "https://seatgeek.com/three-days-grace-tickets/nampa-idaho-ford-idaho-center-2026-11-14-7-pm/concert/17895168",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -612,7 +612,7 @@
         "event_id": 17895171,
         "url": "https://seatgeek.com/three-days-grace-tickets/spokane-washington-numerica-veterans-arena-2026-11-15-7-pm/concert/17895171",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {

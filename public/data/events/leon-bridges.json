@@ -1000,7 +1000,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F006546BF749849",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-seattle-washington-08-13-2027/event/0F006546BF749849",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/leon-bridges-tickets/seattle-washington-climate-pledge-arena-2027-08-13-7-30-pm/concert/18662716",
     "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-seattle-climate-pledge-arena-8-13-2027/production/7673679",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-seattle-washington-08-13-2027/event/0F006546BF749849",
@@ -1016,11 +1016,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662716,
+        "url": "https://seatgeek.com/leon-bridges-tickets/seattle-washington-climate-pledge-arena-2027-08-13-7-30-pm/concert/18662716",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7673679,
@@ -2036,7 +2036,7 @@
         "event_id": 18662703,
         "url": "https://seatgeek.com/leon-bridges-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-07-18-7-pm/concert/18662703",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2090,7 +2090,7 @@
         "event_id": 18662713,
         "url": "https://seatgeek.com/leon-bridges-tickets/morrison-colorado-red-rocks-amphitheatre-2027-08-03-7-30-pm/concert/18662713",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2160,7 +2160,7 @@
         "event_id": 18662715,
         "url": "https://seatgeek.com/leon-bridges-tickets/vancouver-canada-freedom-mobile-arch-2027-08-14-7-pm/concert/18662715",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2230,7 +2230,7 @@
         "event_id": 18662732,
         "url": "https://seatgeek.com/leon-bridges-tickets/columbus-ohio-kemba-live-2027-09-14-7-30-pm/concert/18662732",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2300,7 +2300,7 @@
         "event_id": 18662741,
         "url": "https://seatgeek.com/leon-bridges-tickets/nashville-tennessee-ascend-amphitheater-2027-09-21-7-30-pm/concert/18662741",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {

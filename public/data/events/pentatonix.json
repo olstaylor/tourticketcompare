@@ -168,7 +168,7 @@
     "tour_name": "Christmas in the City Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAZ-xZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ-xZ",
-    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/bozeman-montana-brick-breeden-fieldhouse-2026-11-09-7-pm/concert/18506093",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-bozeman-brick-breeden-fieldhouse-11-9-2026--concerts-pop/production/7394197",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ-xZ",
@@ -184,11 +184,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18506093,
-        "url": "https://seatgeek.com/pentatonix-tickets/bozeman-montana-brick-breeden-fieldhouse-2026-11-09-7-pm/concert/18506093",
-        "verified": true,
-        "last_verified_at": "2026-11-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7394197,
@@ -256,7 +256,7 @@
         "event_id": 18427194,
         "url": "https://seatgeek.com/pentatonix-tickets/casper-wyoming-ford-wyoming-center-2026-11-10-7-pm/concert/18427194",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -326,7 +326,7 @@
         "event_id": 18427193,
         "url": "https://seatgeek.com/pentatonix-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-11-12-7-pm/concert/18427193",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -733,7 +733,7 @@
         "event_id": 18385717,
         "url": "https://seatgeek.com/pentatonix-tickets/cleveland-ohio-rocket-arena-2026-11-19-7-pm/concert/18385717",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1986,7 +1986,7 @@
         "event_id": 18427242,
         "url": "https://seatgeek.com/pentatonix-tickets/lubbock-texas-united-supermarkets-arena-2026-12-17-7-pm/concert/18427242",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2055,7 +2055,7 @@
         "event_id": 18427231,
         "url": "https://seatgeek.com/pentatonix-tickets/glendale-arizona-desert-diamond-arena-2026-12-19-7-pm/concert/18427231",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2144,7 +2144,7 @@
         "event_id": 18427232,
         "url": "https://seatgeek.com/pentatonix-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-12-20-6-pm/concert/18427232",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2230,7 +2230,7 @@
         "event_id": 18427236,
         "url": "https://seatgeek.com/pentatonix-tickets/inglewood-california-kia-forum-2026-12-22-7-pm/concert/18427236",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {

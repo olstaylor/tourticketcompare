@@ -1822,5 +1822,167 @@
     ],
     "ticket_limit": 6,
     "genre": "Dance/Electronic"
+  },
+  {
+    "id": "tm-alan-walker-2027-atlanta-vvg1zz_3cjp_wx",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker: Legend of Atlantis Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Roxy",
+    "datetime_iso": "2027-01-30T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0065239C599CA2",
+    "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-atlanta-georgia-01-29-2027/event/0E0065239C599CA2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-atlanta-georgia-01-29-2027/event/0E0065239C599CA2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0065239C599CA2",
+        "discovery_event_id": "vvG1zZ_3Cjp_wx",
+        "url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-atlanta-georgia-01-29-2027/event/0E0065239C599CA2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_3Cjp_wx",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
+  },
+  {
+    "id": "tm-alan-walker-2027-st-petersburg-vvg1vz_phftijy",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "St Petersburg",
+    "country": "United States Of America",
+    "venue": "Jannus Live",
+    "datetime_iso": "2027-02-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006566D4A6C9B9",
+    "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-st-petersburg-florida-02-03-2027/event/0D006566D4A6C9B9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alan-walker-st-petersburg-florida-02-03-2027/event/0D006566D4A6C9B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006566D4A6C9B9",
+        "discovery_event_id": "vvG1VZ_phftiJy",
+        "url": "https://www.ticketmaster.com/alan-walker-st-petersburg-florida-02-03-2027/event/0D006566D4A6C9B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_phftiJy",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
+  },
+  {
+    "id": "tm-alan-walker-2027-orlando-1axzk4vgkeuzkdw",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "House of Blues Orlando",
+    "datetime_iso": "2027-02-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006541B6E13EFD",
+    "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-orlando-florida-02-04-2027/event/22006541B6E13EFD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alan-walker-orlando-florida-02-04-2027/event/22006541B6E13EFD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006541B6E13EFD",
+        "discovery_event_id": "1AxZk4vGkeUzKDW",
+        "url": "https://www.ticketmaster.com/alan-walker-orlando-florida-02-04-2027/event/22006541B6E13EFD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZk4vGkeUzKDW",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
   }
 ]

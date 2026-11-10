@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "id": "tm-mumford-sons-2027-milwaukee-vv1a6zk40gkdo7krz",
+    "artist_slug": "mumford-sons",
+    "artist_name": "Mumford & Sons",
+    "event_name": "Mumford & Sons",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "American Family Insurance Amphitheater - Summerfest Grounds",
+    "datetime_iso": "2027-07-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006564D1106BF8",
+    "ticketmaster_url": "https://www.ticketmaster.com/mumford-sons-milwaukee-wisconsin-07-09-2027/event/07006564D1106BF8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/mumford-sons-milwaukee-wisconsin-07-09-2027/event/07006564D1106BF8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006564D1106BF8",
+        "discovery_event_id": "vv1A6Zk40Gkdo7kRz",
+        "url": "https://www.ticketmaster.com/mumford-sons-milwaukee-wisconsin-07-09-2027/event/07006564D1106BF8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6Zk40Gkdo7kRz",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T16:00:00Z"
+  },
+  {
+    "id": "tm-mumford-sons-2027-calgary-1aozk4pgkd1yzsk",
+    "artist_slug": "mumford-sons",
+    "artist_name": "Mumford & Sons",
+    "event_name": "MUMFORD & SONS - Stampede Concert Series",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Scotiabank Saddledome",
+    "datetime_iso": "2027-07-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006565CAE78CD3",
+    "ticketmaster_url": "https://www.ticketmaster.ca/mumford-sons-stampede-concert-series-calgary-alberta-07-12-2027/event/11006565CAE78CD3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/mumford-sons-stampede-concert-series-calgary-alberta-07-12-2027/event/11006565CAE78CD3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006565CAE78CD3",
+        "discovery_event_id": "1AoZk4PGkd1yzSK",
+        "url": "https://www.ticketmaster.ca/mumford-sons-stampede-concert-series-calgary-alberta-07-12-2027/event/11006565CAE78CD3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4PGkd1yzSK",
+    "timezone": "America/Edmonton",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T16:00:00Z"
+  }
+]

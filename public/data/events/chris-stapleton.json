@@ -127,6 +127,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362337",
+        "url": "https://www.ticketliquidator.com/tickets/8362337/Chris-Stapleton-tickets-Tue-Dec-1-2026-Brooklyn-Bowl-Nashville",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KLeEols",
@@ -136,6 +143,7 @@
       "LIVE NATION MUSIC"
     ],
     "genre": "Country",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362337"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362337",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362337/Chris-Stapleton-tickets-Tue-Dec-1-2026-Brooklyn-Bowl-Nashville"
   }
 ]

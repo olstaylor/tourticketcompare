@@ -880,6 +880,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361500",
+        "url": "https://www.ticketliquidator.com/tickets/8361500/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Jan-29-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk40GkdjYUrt",
@@ -913,6 +920,7 @@
         "end": "2026-11-13T09:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361500"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361500",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361500/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Jan-29-2027-Co-Op-Live"
   }
 ]

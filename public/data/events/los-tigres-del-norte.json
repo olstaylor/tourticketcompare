@@ -1819,5 +1819,59 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356363",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8356363/Los-Tigres-del-Norte-tickets-Sat-Apr-17-2027-PeoplesBank-Arena",
     "genre": "World"
+  },
+  {
+    "id": "tm-los-tigres-del-norte-2027-lincoln-g5vyz_ph5-cbb",
+    "artist_slug": "los-tigres-del-norte",
+    "artist_name": "Los Tigres del Norte",
+    "event_name": "Los Tigres del Norte",
+    "city": "Lincoln",
+    "country": "United States Of America",
+    "venue": "The Venue at Thunder Valley Casino Resort",
+    "datetime_iso": "2027-02-20T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006566CB84EE98",
+    "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-lincoln-california-02-19-2027/event/1C006566CB84EE98",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-lincoln-california-02-19-2027/event/1C006566CB84EE98",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006566CB84EE98",
+        "discovery_event_id": "G5vYZ_ph5-CBb",
+        "url": "https://www.ticketmaster.com/los-tigres-del-norte-lincoln-california-02-19-2027/event/1C006566CB84EE98",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_ph5-CBb",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T18:00:00Z"
   }
 ]

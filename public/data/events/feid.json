@@ -2998,5 +2998,59 @@
         "end": "2027-05-22T02:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-feid-2027-ciudad-de-mexico-1av8z_4gkti0zp7",
+    "artist_slug": "feid",
+    "artist_name": "FEID",
+    "event_name": "Ferxxo The Green Star Tour 2027",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-05-23T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400655FE8938944",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-22-05-2027/event/1400655FE8938944",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-22-05-2027/event/1400655FE8938944",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400655FE8938944",
+        "discovery_event_id": "1Av8Z_4GkTI0zP7",
+        "url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-22-05-2027/event/1400655FE8938944",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8Z_4GkTI0zP7",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z"
   }
 ]

@@ -1144,5 +1144,545 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238824",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238824/Billy-Strings-tickets-Sat-Feb-20-2027-Bridgestone-Arena",
     "genre": "Country"
+  },
+  {
+    "id": "tm-billy-strings-2027-tampa-vvg1vz_pkwq5nj",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2027-04-06T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006564F268B8E6",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-tampa-florida-04-06-2027/event/0D006564F268B8E6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-tampa-florida-04-06-2027/event/0D006564F268B8E6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006564F268B8E6",
+        "discovery_event_id": "vvG1VZ_pKwQ5NJ",
+        "url": "https://www.ticketmaster.com/billy-strings-tampa-florida-04-06-2027/event/0D006564F268B8E6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_pKwQ5NJ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-north-charleston-g5evz_pjlgein",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "North Charleston",
+    "country": "United States Of America",
+    "venue": "North Charleston Coliseum",
+    "datetime_iso": "2027-04-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006569AB327B2A",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-16-2027/event/2D006569AB327B2A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-16-2027/event/2D006569AB327B2A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006569AB327B2A",
+        "discovery_event_id": "G5eVZ_pJlGEin",
+        "url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-16-2027/event/2D006569AB327B2A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pJlGEin",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-north-charleston-g5evz_pjcaeyp",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "North Charleston",
+    "country": "United States Of America",
+    "venue": "North Charleston Coliseum",
+    "datetime_iso": "2027-04-17T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006569AD267E65",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-17-2027/event/2D006569AD267E65",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-17-2027/event/2D006569AD267E65",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006569AD267E65",
+        "discovery_event_id": "G5eVZ_pJcaEyP",
+        "url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-17-2027/event/2D006569AD267E65",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pJcaEyP",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-greenville-g5evz_perum8k",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Greenville",
+    "country": "United States Of America",
+    "venue": "Bon Secours Wellness Arena",
+    "datetime_iso": "2027-04-21T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006569DE36E413",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-greenville-south-carolina-04-21-2027/event/2D006569DE36E413",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-greenville-south-carolina-04-21-2027/event/2D006569DE36E413",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006569DE36E413",
+        "discovery_event_id": "G5eVZ_pErum8K",
+        "url": "https://www.ticketmaster.com/billy-strings-greenville-south-carolina-04-21-2027/event/2D006569DE36E413",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pErum8K",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-greensboro-g5evz_pk9bhy8",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Greensboro",
+    "country": "United States Of America",
+    "venue": "First Horizon Coliseum",
+    "datetime_iso": "2027-04-23T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006564D7EBCE50",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-23-2027/event/2D006564D7EBCE50",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-23-2027/event/2D006564D7EBCE50",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006564D7EBCE50",
+        "discovery_event_id": "G5eVZ_pK9BHy8",
+        "url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-23-2027/event/2D006564D7EBCE50",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pK9BHy8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-greensboro-g5evz_pjyy_fv",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Greensboro",
+    "country": "United States Of America",
+    "venue": "First Horizon Coliseum",
+    "datetime_iso": "2027-04-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006569B9E59501",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-24-2027/event/2D006569B9E59501",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-24-2027/event/2D006569B9E59501",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006569B9E59501",
+        "discovery_event_id": "G5eVZ_pJyy_fv",
+        "url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-24-2027/event/2D006569B9E59501",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pJyy_fv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-birmingham-1aozk4tgkd5-7_e",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2027-06-05T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006569CB844642",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-04-2027/event/20006569CB844642",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-04-2027/event/20006569CB844642",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006569CB844642",
+        "discovery_event_id": "1AOZk4tGkd5-7_e",
+        "url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-04-2027/event/20006569CB844642",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZk4tGkd5-7_e",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-birmingham-1aozk4tgkd5x7_7",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2027-06-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006569CB884644",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-05-2027/event/20006569CB884644",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-05-2027/event/20006569CB884644",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006569CB884644",
+        "discovery_event_id": "1AOZk4tGkd5x7_7",
+        "url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-05-2027/event/20006569CB884644",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZk4tGkd5x7_7",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-louis-vv1kvovpq_ga29ugj",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Chaifetz Arena",
+    "datetime_iso": "2027-06-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060065699F5F6D66",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-saint-louis-missouri-06-10-2027/event/060065699F5F6D66",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-saint-louis-missouri-06-10-2027/event/060065699F5F6D66",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060065699F5F6D66",
+        "discovery_event_id": "vv1kvOvPQ_GA29UgJ",
+        "url": "https://www.ticketmaster.com/billy-strings-saint-louis-missouri-06-10-2027/event/060065699F5F6D66",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvOvPQ_GA29UgJ",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-louis-vv1akzk4tgkdq3l2w",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings 2-Day Ticket (6/10-6/11) Valid Both Days, Cannot Split.",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Chaifetz Arena",
+    "datetime_iso": "2027-06-12T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006569DD49F3F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-2day-ticket-610611-valid-saint-louis-missouri-06-11-2027/event/06006569DD49F3F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-2day-ticket-610611-valid-saint-louis-missouri-06-11-2027/event/06006569DD49F3F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006569DD49F3F2",
+        "discovery_event_id": "vv1AkZk4tGkdq3L2w",
+        "url": "https://www.ticketmaster.com/billy-strings-2day-ticket-610611-valid-saint-louis-missouri-06-11-2027/event/06006569DD49F3F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4tGkdq3L2w",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
   }
 ]

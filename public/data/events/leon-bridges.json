@@ -2388,5 +2388,59 @@
     ],
     "genre": "R&B",
     "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-tickets-ciudad-de-mexico-teatro-metropolitan-24-3-2027/event/107680645"
+  },
+  {
+    "id": "tm-leon-bridges-2027-honolulu-vvg1iz_4bdasgg",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges Presents: The Happiness Anytime Tour",
+    "city": "Honolulu",
+    "country": "United States Of America",
+    "venue": "Tom Moffatt Waikiki Shell",
+    "datetime_iso": "2027-02-21T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00655E83173335",
+    "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-honolulu-hawaii-02-20-2027/event/0A00655E83173335",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-honolulu-hawaii-02-20-2027/event/0A00655E83173335",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00655E83173335",
+        "discovery_event_id": "vvG1IZ_4BdASGg",
+        "url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-honolulu-hawaii-02-20-2027/event/0A00655E83173335",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_4BdASGg",
+    "timezone": "Pacific/Honolulu",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T20:00:00Z"
   }
 ]

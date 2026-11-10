@@ -2327,5 +2327,59 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362651",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362651/Fall-Out-Boy-tickets-Thu-Aug-26-2027-Providence-Park",
     "genre": "Alternative"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-seattle-vvg1hz_p5fubur",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "T-Mobile Park",
+    "datetime_iso": "2027-08-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006562C8D9835E",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-seattle-washington-08-24-2027/event/0F006562C8D9835E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-seattle-washington-08-24-2027/event/0F006562C8D9835E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006562C8D9835E",
+        "discovery_event_id": "vvG1HZ_p5FUbur",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-seattle-washington-08-24-2027/event/0F006562C8D9835E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_p5FUbur",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T18:00:00Z"
   }
 ]

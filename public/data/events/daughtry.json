@@ -3456,5 +3456,59 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295559",
     "genre": "Alternative",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295559/Daughtry-tickets-Wed-Mar-3-2027-Paramount-Theater-Of-Charlottesville"
+  },
+  {
+    "id": "tm-daughtry-2027-columbus-vv1ffz_pq6pszd2kv",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Mershon Auditorium",
+    "datetime_iso": "2027-02-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500656687973E50",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-columbus-ohio-02-24-2027/event/0500656687973E50",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-columbus-ohio-02-24-2027/event/0500656687973E50",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500656687973E50",
+        "discovery_event_id": "vv1FfZ_pQ6PSZd2kv",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-columbus-ohio-02-24-2027/event/0500656687973E50",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1FfZ_pQ6PSZd2kv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
   }
 ]

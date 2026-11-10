@@ -45172,7 +45172,7 @@
         "event_id": "107669953",
         "url": "https://www.stubhub.ie/metallica-uncasville-tickets-11-19-2026/event/107669953",
         "verified": true,
-        "last_verified_at": "2026-11-09",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       }
     },
@@ -45329,7 +45329,7 @@
         "event_id": "107132084",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-28-2027/event/107132084",
         "verified": true,
-        "last_verified_at": "2026-11-09",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       }
     },
@@ -45507,7 +45507,7 @@
         "event_id": "107133087",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-4-2027/event/107133087",
         "verified": true,
-        "last_verified_at": "2026-11-09",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       }
     },
@@ -45685,7 +45685,7 @@
         "event_id": "107133091",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-18-2027/event/107133091",
         "verified": true,
-        "last_verified_at": "2026-11-09",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       }
     },
@@ -45863,7 +45863,7 @@
         "event_id": "107133093",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-25-2027/event/107133093",
         "verified": true,
-        "last_verified_at": "2026-11-09",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       }
     },
@@ -129242,11 +129242,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107259057",
-        "url": "https://www.stubhub.ie/sienna-spiro-san-francisco-tickets-11-9-2026/event/107259057",
-        "verified": true,
-        "last_verified_at": "2026-11-08",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GKW-EWe",
@@ -129259,7 +129259,7 @@
     "ticket_limit": 4,
     "genre": "Pop",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038343/Sienna-Spiro-tickets-Mon-Nov-9-2026-Castro-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-san-francisco-tickets-11-9-2026/event/107259057"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-sienna-spiro-2026-los-angeles-vvg10z_gpwxv_j",
@@ -140589,7 +140589,7 @@
         "event_id": "107133097",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-4-2027/event/107133097",
         "verified": true,
-        "last_verified_at": "2026-11-09",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       }
     },
@@ -140767,7 +140767,7 @@
         "event_id": "107133099",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-11-2027/event/107133099",
         "verified": true,
-        "last_verified_at": "2026-11-09",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       }
     },
@@ -233597,11 +233597,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107447270",
-        "url": "https://www.stubhub.ie/rod-wave-orlando-tickets-11-9-2026/event/107447270",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G6u6bZP82",
@@ -233609,7 +233609,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063457",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063457/Rod-Wave-tickets-Mon-Nov-9-2026-Kia-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-orlando-tickets-11-9-2026/event/107447270",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -241915,11 +241915,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107155376",
-        "url": "https://www.stubhub.ie/noah-kahan-tickets-manchester-manchester-ao-arena-9-11-2026/event/107155376",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -241933,7 +241933,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-manchester-manchester-ao-arena-9-11-2026/event/107155376",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "",
     "organizer_names": [
       "COMMUNION ONE LTD",
@@ -315084,7 +315084,7 @@
         "event_id": "107672199",
         "url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199",
         "verified": true,
-        "last_verified_at": "2026-11-09",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -358377,11 +358377,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107017183",
-        "url": "https://www.stubhub.ie/three-days-grace-kansas-city-tickets-11-9-2026/event/107017183",
-        "verified": true,
-        "last_verified_at": "2026-11-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkuJGkeirWAr",
@@ -358389,7 +358389,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551666",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551666/Three-Days-Grace-tickets-Mon-Nov-9-2026-T-Mobile-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-kansas-city-tickets-11-9-2026/event/107017183",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -390899,13 +390899,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107441078",
+        "url": "https://www.stubhub.ie/the-dead-south-tickets-london-o2-academy-brixton-5-3-2027/event/107441078",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_GJibVci",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324861",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324861/The-Dead-South-tickets-Fri-Mar-5-2027-O2-Academy-Brixton"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324861/The-Dead-South-tickets-Fri-Mar-5-2027-O2-Academy-Brixton",
+    "stubhub_international_url": "https://www.stubhub.ie/the-dead-south-tickets-london-o2-academy-brixton-5-3-2027/event/107441078"
   },
   {
     "id": "tm-the-dead-south-2027-manchester-17u8v0g6gm8i6t0",
@@ -391060,11 +391068,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107442079",
+        "url": "https://www.stubhub.ie/the-dead-south-tickets-cardiff-utilita-arena-cardiff-12-3-2027/event/107442079",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G6GpGz4UF",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-dead-south-tickets-cardiff-utilita-arena-cardiff-12-3-2027/event/107442079"
   },
   {
     "id": "tm-the-dead-south-2027-dublin-17kzv0g6gpgt8iq",

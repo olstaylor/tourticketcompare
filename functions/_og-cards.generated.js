@@ -388,7 +388,6 @@ export const OG_CARDS = {
   "/artists/lenny-pearce": {"url":"/og/artists-lenny-pearce.png","alt":"Tickets & tour dates: Lenny Pearce"},
   "/artists/lenny-pearce/ticket-prices": {"url":"/og/artists-lenny-pearce-ticket-prices.png","alt":"Ticket prices: Lenny Pearce"},
   "/artists/leon-bridges": {"url":"/og/artists-leon-bridges.png","alt":"Tickets & tour dates: Leon Bridges"},
-  "/artists/leon-bridges/presale": {"url":"/og/artists-leon-bridges-presale.png","alt":"Presale: Leon Bridges"},
   "/artists/leon-bridges/ticket-prices": {"url":"/og/artists-leon-bridges-ticket-prices.png","alt":"Ticket prices: Leon Bridges"},
   "/artists/lewis-capaldi": {"url":"/og/artists-lewis-capaldi.png","alt":"Tickets & tour dates: Lewis Capaldi"},
   "/artists/lil-wayne": {"url":"/og/artists-lil-wayne.png","alt":"Tickets & tour dates: Lil Wayne"},

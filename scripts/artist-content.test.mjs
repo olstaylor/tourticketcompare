@@ -17,6 +17,7 @@ import {
 } from "../functions/_artist-content.js";
 import { PRICE_DISCLOSURE, UNSUPPORTED_CHEAPEST_CLAIM } from "../functions/_price-wording.js";
 import { readFileSync } from "node:fs";
+import { nextVenueMidnightMs, relativeShowDay } from "../functions/_relative-day.js";
 
 let passed = 0;
 function assert(condition, message) {
@@ -103,6 +104,36 @@ assert(oneIntro.startsWith("One upcoming Jelly Roll date is verified"), "a singl
 assert(oneIntro.includes("Weidner Field"), "a single date names its venue");
 assert(!/\d+ cities/.test(oneIntro), "a single date must not claim a city spread");
 assertCopySafe(oneIntro, "single-date intro");
+
+// --- Today / Tomorrow on the next date (2026-11-08) ---------------------------
+// Read in the venue's own time zone: 20:00 in Phoenix on 8 Nov is 03:00 UTC on 9 Nov.
+const clock = Date.parse("2026-11-08T12:00:00Z");
+assert(relativeShowDay("2026-11-09T03:00:00Z", "America/Phoenix", clock) === "Today", "an evening show in the venue's zone is today");
+assert(relativeShowDay("2026-11-10T03:00:00Z", "America/Phoenix", clock) === "Tomorrow", "the next venue-local day is tomorrow");
+assert(relativeShowDay("2026-11-11T03:00:00Z", "America/Phoenix", clock) === "", "two days out gets no word");
+assert(relativeShowDay("2026-11-09T01:00:00Z", "Europe/London", clock) === "Tomorrow", "an early-hours show is the next local day");
+assert(relativeShowDay("2026-11-09T03:00:00Z", "", clock) === "", "no venue zone, no word");
+assert(relativeShowDay("not a date", "UTC", clock) === "", "bad input gets no word");
+// Wall-clock starts keep their own date; "today" is still the venue's today.
+const lateUtc = Date.parse("2026-11-19T00:30:00Z"); // 19:30 on 18 Nov in Sunrise, FL
+assert(relativeShowDay("2026-11-19T19:00:00-05:00", "America/New_York", lateUtc) === "Tomorrow", "an offset start reads today from the venue zone, not UTC");
+assert(relativeShowDay("2026-11-19T19:00:00-05:00", "", lateUtc) === "Tomorrow", "with no zone, the start's own offset sets the venue's today");
+assert(relativeShowDay("2026-11-19T19:00:00", "America/New_York", lateUtc) === "Tomorrow", "a bare wall-clock start uses the venue zone");
+assert(relativeShowDay("2026-11-19T19:00:00", "", lateUtc) === "", "a bare wall-clock start with no zone gets no word");
+assert(nextVenueMidnightMs("2026-11-09T03:00:00Z", "America/Phoenix", clock) === Date.parse("2026-11-09T07:00:00Z"), "next midnight is the venue's midnight");
+assert(nextVenueMidnightMs("2026-11-19T19:00:00-05:00", "", lateUtc) === Date.parse("2026-11-19T05:00:00Z"), "next midnight from the start's own offset");
+assert(Number.isNaN(nextVenueMidnightMs("2026-11-19T19:00:00", "", lateUtc)), "no venue clock, no midnight");
+const dayOptions = { ...options, relativeDay: (iso, tz) => relativeShowDay(iso, tz, Date.parse("2026-09-01T09:00:00Z")) };
+const zonedStatus = deriveArtistBoardStatus([
+  show({ id: "z1", city: "London", country: "United Kingdom", venue: "The O2", dateTimeISO: "2026-09-01T19:00:00Z", timezone: "Europe/London" }),
+  show({ id: "z2", city: "Paris", country: "France", venue: "Accor Arena", dateTimeISO: "2026-09-05T19:00:00Z", timezone: "Europe/Paris" })
+]);
+const todayIntro = artistSearchIntro({ name: "Harry Styles" }, zonedStatus, dayOptions);
+assert(todayIntro.includes("Next: Today, 2026-09-01 at The O2, London."), "the next date says Today when it is today at the venue");
+const oneZoned = deriveArtistBoardStatus([show({ id: "z3", city: "Colorado Springs", country: "United States", venue: "Weidner Field", dateTimeISO: "2026-07-30T23:30:00Z", timezone: "America/Denver" })]);
+const oneTomorrow = artistSearchIntro({ name: "Jelly Roll" }, oneZoned, { ...options, relativeDay: (iso, tz) => relativeShowDay(iso, tz, Date.parse("2026-07-29T18:00:00Z")) });
+assert(oneTomorrow.includes("verified: Tomorrow, "), "a single date says Tomorrow when it is tomorrow at the venue");
+assert(!artistSearchIntro({ name: "Harry Styles" }, bigStatus, options).includes("Today"), "no clock, no word");
 
 // --- Weak provider coverage -------------------------------------------------
 const weakStatus = deriveArtistBoardStatus([

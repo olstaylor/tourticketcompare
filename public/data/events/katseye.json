@@ -614,11 +614,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107169133",
-        "url": "https://www.stubhub.ie/katseye-minneapolis-tickets-11-7-2026/event/107169133",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -632,7 +632,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-minneapolis-tickets-11-7-2026/event/107169133",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -651,7 +651,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064AAC1419703",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-austin-texas-11-10-2026/event/3A0064AAC1419703",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/austin-texas-moody-center-atx-2026-11-10-8-pm/concert/18240150",
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-austin-moody-center-atx-11-10-2026--concerts-pop/production/7027959",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-austin-texas-11-10-2026/event/3A0064AAC1419703",
@@ -667,17 +667,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18240150,
+        "url": "https://seatgeek.com/katseye-tickets/austin-texas-moody-center-atx-2026-11-10-8-pm/concert/18240150",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7027959,
         "url": "https://www.vividseats.com/katseye-tickets-austin-moody-center-atx-11-10-2026--concerts-pop/production/7027959",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -759,14 +759,14 @@
         "event_id": 18240151,
         "url": "https://seatgeek.com/katseye-tickets/dallas-texas-american-airlines-center-2026-11-11-8-pm/concert/18240151",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7027961,
         "url": "https://www.vividseats.com/katseye-tickets-dallas-american-airlines-center---tx-11-11-2026--concerts-pop/production/7027961",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -848,7 +848,7 @@
         "event_id": 7027963,
         "url": "https://www.vividseats.com/katseye-tickets-las-vegas-mgm-grand-garden-arena-11-14-2026--concerts-pop/production/7027963",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -922,14 +922,14 @@
         "event_id": 18240158,
         "url": "https://seatgeek.com/katseye-tickets/seattle-washington-climate-pledge-arena-2026-11-17-8-pm/concert/18240158",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7027965,
         "url": "https://www.vividseats.com/katseye-tickets-seattle-climate-pledge-arena-11-17-2026--concerts-pop/production/7027965",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1004,14 +1004,14 @@
         "event_id": 18240159,
         "url": "https://seatgeek.com/katseye-tickets/oakland-california-oakland-arena-2026-11-19-8-pm/concert/18240159",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7027967,
         "url": "https://www.vividseats.com/katseye-tickets-oakland-oakland-arena-11-19-2026--concerts-pop/production/7027967",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1086,7 +1086,7 @@
         "event_id": 18240162,
         "url": "https://seatgeek.com/katseye-tickets/los-angeles-california-crypto-com-arena-2026-11-21-8-pm/concert/18240162",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1168,7 +1168,7 @@
         "event_id": 18258420,
         "url": "https://seatgeek.com/katseye-tickets/los-angeles-california-crypto-com-arena-2026-11-22-8-pm/concert/18258420",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1250,14 +1250,14 @@
         "event_id": 18240163,
         "url": "https://seatgeek.com/katseye-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-24-8-pm/concert/18240163",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7027973,
         "url": "https://www.vividseats.com/katseye-tickets-phoenix-mortgage-matchup-center-11-24-2026--concerts-pop/production/7027973",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

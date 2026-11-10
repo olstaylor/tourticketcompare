@@ -99,14 +99,14 @@
         "event_id": 18229329,
         "url": "https://seatgeek.com/treaty-oak-revival-tickets/austin-texas-moody-center-atx-2026-11-12-7-pm/concert/18229329",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7006221,
         "url": "https://www.vividseats.com/treaty-oak-revival-tickets-austin-moody-center-atx-11-12-2026--concerts-country-and-folk/production/7006221",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -181,7 +181,7 @@
         "event_id": 18229327,
         "url": "https://seatgeek.com/treaty-oak-revival-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-11-13-7-pm/concert/18229327",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -197,6 +197,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162862",
+        "url": "https://www.stubhub.ie/treaty-oak-revival-the-woodlands-tickets-11-13-2026/event/107162862",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1pANpuQ",
@@ -206,7 +213,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Country"
+    "genre": "Country",
+    "stubhub_international_url": "https://www.stubhub.ie/treaty-oak-revival-the-woodlands-tickets-11-13-2026/event/107162862"
   },
   {
     "id": "tm-treaty-oak-revival-2026-tulsa-1aezz_3x88ozdgea",
@@ -239,14 +247,14 @@
         "event_id": 18590276,
         "url": "https://seatgeek.com/treaty-oak-revival-tickets/tulsa-oklahoma-bok-center-2026-11-21-6-pm/concert/18590276",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553279,
         "url": "https://www.vividseats.com/treaty-oak-revival-tickets-tulsa-bok-center-11-21-2026/production/7553279",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

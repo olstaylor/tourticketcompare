@@ -362,7 +362,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "090064AEC5BA3C3B",
     "ticketmaster_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-anaheim-california-11-06-2026/event/090064AEC5BA3C3B",
-    "seatgeek_url": "https://seatgeek.com/dan-shay-tickets/anaheim-california-honda-center-2026-11-06-7-pm/concert/18250837",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dan-shay-the-young-tour-anaheim-california-11-06-2026/event/090064AEC5BA3C3B",
@@ -378,11 +378,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18250837,
-        "url": "https://seatgeek.com/dan-shay-tickets/anaheim-california-honda-center-2026-11-06-7-pm/concert/18250837",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -399,17 +399,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107554500",
-        "url": "https://www.stubhub.ie/dan-shay-anaheim-tickets-11-6-2026/event/107554500",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1DAmNYD",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/dan-shay-anaheim-tickets-11-6-2026/event/107554500",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -445,7 +445,7 @@
         "event_id": 18250838,
         "url": "https://seatgeek.com/dan-shay-tickets/mountain-view-california-shoreline-amphitheatre-2026-11-07-7-pm/concert/18250838",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

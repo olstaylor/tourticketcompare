@@ -277,14 +277,14 @@
         "event_id": 18225241,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/charleston-south-carolina-charleston-music-hall-2026-12-03-8-pm/concert/18225241",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6999445,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-charleston-charleston-music-hall-12-3-2026/production/6999445",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -299,6 +299,13 @@
         "url": "https://www.ticketnetwork.com/en/p/7939252",
         "verified": true,
         "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7939252",
+        "url": "https://www.ticketliquidator.com/tickets/7939252/Tommy-Emmanuel-tickets-Thu-Dec-3-2026-Charleston-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       }
     },
@@ -317,7 +324,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7939252",
-    "genre": "Jazz"
+    "genre": "Jazz",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7939252/Tommy-Emmanuel-tickets-Thu-Dec-3-2026-Charleston-Music-Hall"
   },
   {
     "id": "tm-tommy-emmanuel-2026-newberry-z7r9jz1aavs4z",
@@ -420,14 +428,14 @@
         "event_id": 18225539,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/chattanooga-tennessee-the-walker-theatre-chattanooga-2026-12-05-7-30-pm/concert/18225539",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6996770,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-chattanooga-walker-theatre---tn-12-5-2026/production/6996770",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -443,6 +451,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7941596",
+        "url": "https://www.ticketliquidator.com/tickets/7941596/Tommy-Emmanuel-tickets-Sat-Dec-5-2026-Robert-Kirk-Walker-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_aU3sWZr",
@@ -457,7 +472,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941596",
     "ticket_limit": 6,
-    "genre": "Jazz"
+    "genre": "Jazz",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7941596/Tommy-Emmanuel-tickets-Sat-Dec-5-2026-Robert-Kirk-Walker-Theatre"
   },
   {
     "id": "tm-tommy-emmanuel-2026-durham-z7r9jz1a70f-w",
@@ -563,7 +579,7 @@
         "event_id": 18225325,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/charlotte-north-carolina-knight-theater-at-levine-center-for-the-arts-2026-12-07-7-30-pm/concert/18225325",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -617,14 +633,14 @@
         "event_id": 18237606,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/atlanta-georgia-variety-playhouse-2026-12-09-8-pm/concert/18237606",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6999576,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-atlanta-variety-playhouse-12-9-2026/production/6999576",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -687,14 +703,14 @@
         "event_id": 18237612,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/ponte-vedra-beach-florida-ponte-vedra-concert-hall-2026-12-10-7-pm/concert/18237612",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6998536,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-ponte-vedra-beach-ponte-vedra-concert-hall-12-10-2026/production/6998536",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -757,14 +773,14 @@
         "event_id": 18237614,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/orlando-florida-the-plaza-live-2026-12-11-8-pm/concert/18237614",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6997686,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-orlando-the-plaza-live-theatre-orlando-12-11-2026/production/6997686",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -780,13 +796,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7941513",
+        "url": "https://www.ticketliquidator.com/tickets/7941513/Tommy-Emmanuel-tickets-Fri-Dec-11-2026-The-Plaza-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70b-E",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7941513",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7941513/Tommy-Emmanuel-tickets-Fri-Dec-11-2026-The-Plaza-Live"
   },
   {
     "id": "tm-tommy-emmanuel-2026-clearwater-z7r9jz1aav8__",
@@ -819,14 +843,14 @@
         "event_id": 18237615,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/clearwater-florida-bilheimer-capitol-theatre-2026-12-12-7-pm/concert/18237615",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7004129,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-clearwater-nancy-and-david-bilheimer-capitol-theatre-12-12-2026/production/7004129",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -889,7 +913,7 @@
         "event_id": 18690599,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/saint-louis-missouri-sheldon-concert-hall-2027-01-21-8-pm/concert/18690599",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -943,7 +967,7 @@
         "event_id": 18690598,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/saint-louis-missouri-sheldon-concert-hall-2027-01-22-8-pm/concert/18690598",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -997,14 +1021,14 @@
         "event_id": 18593545,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/des-moines-iowa-hoyt-sherman-place-2027-01-23-7-30-pm/concert/18593545",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7562573,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-des-moines-hoyt-sherman-place-1-23-2027/production/7562573",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1075,7 +1099,7 @@
         "event_id": 18593679,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/madison-wisconsin-barrymore-theatre-madison-2027-01-24-8-pm/concert/18593679",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1157,7 +1181,7 @@
         "event_id": 18594247,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/skokie-illinois-north-shore-center-for-the-performing-arts-van-dusen-theatre-2027-01-25-7-30-pm/concert/18594247",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1238,14 +1262,14 @@
         "event_id": 18690443,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/champaign-illinois-virginia-theatre-2027-01-26-7-30-pm/concert/18690443",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7565009,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-champaign-virginia-theatre-1-26-2027--concerts-blues-and-jazz/production/7565009",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1308,7 +1332,7 @@
         "event_id": 18594658,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/mckees-rocks-pennsylvania-roxian-theatre-2027-01-28-7-pm/concert/18594658",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1331,6 +1355,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268026",
+        "url": "https://www.ticketliquidator.com/tickets/8268026/Tommy-Emmanuel-tickets-Thu-Jan-28-2027-Roxian-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfNGkd53yOK",
@@ -1348,7 +1379,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268026",
     "ticket_limit": 8,
-    "genre": "Jazz"
+    "genre": "Jazz",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268026/Tommy-Emmanuel-tickets-Thu-Jan-28-2027-Roxian-Theatre"
   },
   {
     "id": "tm-tommy-emmanuel-2027-grand-rapids-z7r9jz1aavspe",
@@ -1362,7 +1394,7 @@
     "tour_name": "Living In The Light Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvSpe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpe",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/grand-rapids-michigan-st-cecilia-music-center-2027-01-29-7-30-pm/concert/18749653",
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-grand-rapids-st-cecilia-music-center---royce-auditorium-1-29-2027/production/7563751",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpe",
@@ -1378,17 +1410,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18749653,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/grand-rapids-michigan-st-cecilia-music-center-2027-01-29-7-30-pm/concert/18749653",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7563751,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-grand-rapids-st-cecilia-music-center---royce-auditorium-1-29-2027/production/7563751",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1435,14 +1467,14 @@
         "event_id": 18690413,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/buffalo-new-york-asbury-hall-buffalo-2027-01-31-8-pm/concert/18690413",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7564199,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-buffalo-asbury-hall-at-babeville-buffalo-1-31-2027/production/7564199",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1566,7 +1598,7 @@
         "event_id": 7563755,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-albany-the-egg---hart-theatre-2-3-2027/production/7563755",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1652,13 +1684,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268048",
+        "url": "https://www.ticketliquidator.com/tickets/8268048/Tommy-Emmanuel-tickets-Thu-Feb-4-2027-Tupelo-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpk",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268048",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268048/Tommy-Emmanuel-tickets-Thu-Feb-4-2027-Tupelo-Music-Hall"
   },
   {
     "id": "tm-tommy-emmanuel-2027-fairfield-z7r9jz1aavsp6",
@@ -1698,7 +1738,7 @@
         "event_id": 7566401,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-fairfield-shu-community-theatre-2-5-2027/production/7566401",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1761,14 +1801,14 @@
         "event_id": 18690564,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/charlottesville-virginia-paramount-theater-charlottesville-2027-02-06-8-pm/concert/18690564",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7563398,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-charlottesville-paramount-theater-charlottesville-2-6-2027/production/7563398",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1784,13 +1824,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268055",
+        "url": "https://www.ticketliquidator.com/tickets/8268055/Tommy-Emmanuel-tickets-Sat-Feb-6-2027-Paramount-Theater-Of-Charlottesville",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSpF",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268055",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268055/Tommy-Emmanuel-tickets-Sat-Feb-6-2027-Paramount-Theater-Of-Charlottesville"
   },
   {
     "id": "tm-tommy-emmanuel-2027-vancouver-1aozkfugkdvinj7",
@@ -1823,14 +1871,14 @@
         "event_id": 18633861,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/vancouver-canada-queen-elizabeth-theatre-vancouver-2027-03-12-8-pm/concert/18633861",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7627291,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-vancouver-queen-elizabeth-theatre---vancouver-3-12-2027/production/7627291",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1885,14 +1933,14 @@
         "event_id": 18634114,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/calgary-canada-southern-alberta-jubilee-auditorium-2027-03-14-8-pm/concert/18634114",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7626969,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-calgary-southern-alberta-jubilee-auditorium-3-14-2027/production/7626969",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1963,14 +2011,14 @@
         "event_id": 18633853,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/winnipeg-canada-burton-cummings-theatre-2027-03-17-8-pm/concert/18633853",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7648393,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-winnipeg-burton-cummings-theatre-3-17-2027/production/7648393",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2041,14 +2089,14 @@
         "event_id": 18633859,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/ottawa-canada-national-arts-centre-2027-03-20-8-pm/concert/18633859",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7648498,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-ottawa-national-arts-centre-3-20-2027/production/7648498",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2113,7 +2161,7 @@
         "event_id": 7628828,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-toronto-massey-hall---allied-music-centre-3-21-2027/production/7628828",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2160,14 +2208,14 @@
         "event_id": 18704175,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/grand-junction-colorado-avalon-theatre-co-2027-02-24-7-30-pm/concert/18704175",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7729000,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-grand-junction-avalon-theatre---co-2-24-2027/production/7729000",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2249,7 +2297,7 @@
         "event_id": 7728901,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-virginia-beach-sandler-center-for-the-performing-arts-6-2-2027/production/7728901",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2323,14 +2371,14 @@
         "event_id": 18704552,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/loveland-colorado-rialto-theater-center-2027-02-25-7-30-pm/concert/18704552",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7728937,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-loveland-rialto-theater-center-2-25-2027/production/7728937",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2346,6 +2394,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8333068",
+        "url": "https://www.ticketliquidator.com/tickets/8333068/Tommy-Emmanuel-tickets-Thu-Feb-25-2027-Rialto-Theater-CO",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA791k",
@@ -2355,6 +2410,7 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333068",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8333068/Tommy-Emmanuel-tickets-Thu-Feb-25-2027-Rialto-Theater-CO"
   }
 ]

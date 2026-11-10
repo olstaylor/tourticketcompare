@@ -1118,7 +1118,7 @@
         "event_id": 6929157,
         "url": "https://www.vividseats.com/karol-g-tickets-barcelona-estadi-olimpic-lluis-companys-6-3-2027--concerts-pop/production/6929157",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1175,7 +1175,7 @@
         "event_id": 6956926,
         "url": "https://www.vividseats.com/karol-g-tickets-barcelona-estadi-olimpic-lluis-companys-6-4-2027--concerts-pop/production/6956926",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1232,7 +1232,7 @@
         "event_id": 6929163,
         "url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-11-2027--concerts-pop/production/6929163",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1305,7 +1305,7 @@
         "event_id": 6956928,
         "url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-12-2027--concerts-pop/production/6956928",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1378,7 +1378,7 @@
         "event_id": 6969565,
         "url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-13-2027--concerts-pop/production/6969565",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1451,7 +1451,7 @@
         "event_id": 6929171,
         "url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-24-2027--concerts-pop/production/6929171",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1508,7 +1508,7 @@
         "event_id": 6956930,
         "url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-25-2027--concerts-pop/production/6956930",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1565,7 +1565,7 @@
         "event_id": 6969569,
         "url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-26-2027--concerts-pop/production/6969569",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1622,7 +1622,7 @@
         "event_id": 6969571,
         "url": "https://www.vividseats.com/karol-g-tickets-madrid-riyadh-air-metropolitano-6-27-2027--concerts-pop/production/6969571",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1679,7 +1679,7 @@
         "event_id": 6929173,
         "url": "https://www.vividseats.com/karol-g-tickets-london-tottenham-hotspur-stadium-7-6-2027--concerts-pop/production/6929173",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1837,11 +1837,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107162152",
-        "url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-6-11-2026/event/107162152",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_FD0l9GE",
@@ -1854,7 +1854,7 @@
         "end": "2026-11-07T03:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-6-11-2026/event/107162152",
+    "stubhub_international_url": "",
     "organizer_names": [
       "OCESA"
     ]
@@ -1908,11 +1908,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107162453",
-        "url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-7-11-2026/event/107162453",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_FDJAM8C",
@@ -1925,7 +1925,7 @@
         "end": "2026-11-08T03:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-7-11-2026/event/107162453",
+    "stubhub_international_url": "",
     "organizer_names": [
       "OCESA"
     ],

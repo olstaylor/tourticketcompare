@@ -30,7 +30,7 @@
         "event_id": 18271150,
         "url": "https://seatgeek.com/the-airborne-toxic-event-tickets/glenside-pennsylvania-keswick-theatre-2027-05-19-8-pm/concert/18271150",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -101,7 +101,7 @@
         "event_id": 18653224,
         "url": "https://seatgeek.com/the-airborne-toxic-event-tickets/chicago-illinois-vic-theatre-chicago-2027-05-26-7-30-pm/concert/18653224",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -171,7 +171,7 @@
         "event_id": 18415996,
         "url": "https://seatgeek.com/the-airborne-toxic-event-tickets/englewood-colorado-gothic-theatre-2027-06-08-8-pm/concert/18415996",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -241,7 +241,7 @@
         "event_id": 18722601,
         "url": "https://seatgeek.com/the-airborne-toxic-event-tickets/portland-oregon-revolution-hall-portland-2027-06-11-8-pm/concert/18722601",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -481,6 +481,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977701",
+        "url": "https://www.ticketliquidator.com/tickets/7977701/The-Airborne-Toxic-Event-tickets-Fri-May-21-2027-Irving-Plaza",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_1HjlW79",
@@ -491,7 +498,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977701",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977701/The-Airborne-Toxic-Event-tickets-Fri-May-21-2027-Irving-Plaza"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-boston-vvg17z_1qyxhxi",
@@ -547,6 +555,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977954",
+        "url": "https://www.ticketliquidator.com/tickets/7977954/The-Airborne-Toxic-Event-tickets-Sat-May-22-2027-Orpheum-Theatre-Boston",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1Qyxhxi",
@@ -558,7 +573,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977954",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977954/The-Airborne-Toxic-Event-tickets-Sat-May-22-2027-Orpheum-Theatre-Boston"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-cleveland-vvg1fz_1qxxiit",
@@ -1106,7 +1122,7 @@
         "event_id": 18280592,
         "url": "https://seatgeek.com/the-airborne-toxic-event-tickets/seattle-washington-the-showbox-2027-06-13-8-pm/concert/18280592",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1252,7 +1268,7 @@
         "event_id": 18310983,
         "url": "https://seatgeek.com/the-airborne-toxic-event-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2027-06-16-8-pm/concert/18310983",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1398,7 +1414,7 @@
         "event_id": 18351287,
         "url": "https://seatgeek.com/the-airborne-toxic-event-tickets/menlo-park-california-the-guild-theatre-menlo-park-2027-06-18-8-pm/concert/18351287",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1421,6 +1437,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977515",
+        "url": "https://www.ticketliquidator.com/tickets/7977515/The-Airborne-Toxic-Event-tickets-Fri-Jun-18-2027-The-Guild-Theatre-Menlo-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70IjM",
@@ -1428,7 +1451,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977515",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977515/The-Airborne-Toxic-Event-tickets-Fri-Jun-18-2027-The-Guild-Theatre-Menlo-Park"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-menlo-park-z7r9jz1a7pj3f",
@@ -1461,7 +1485,7 @@
         "event_id": 18482934,
         "url": "https://seatgeek.com/the-airborne-toxic-event-tickets/menlo-park-california-the-guild-theatre-menlo-park-2027-06-19-8-pm/concert/18482934",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1484,6 +1508,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7978453",
+        "url": "https://www.ticketliquidator.com/tickets/7978453/The-Airborne-Toxic-Event-tickets-Sat-Jun-19-2027-The-Guild-Theatre-Menlo-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PJ3f",
@@ -1491,6 +1522,7 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978453",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978453/The-Airborne-Toxic-Event-tickets-Sat-Jun-19-2027-The-Guild-Theatre-Menlo-Park"
   }
 ]

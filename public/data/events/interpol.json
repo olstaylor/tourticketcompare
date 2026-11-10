@@ -37,7 +37,7 @@
         "event_id": 6274790,
         "url": "https://www.vividseats.com/interpol-tickets-cardiff-utilita-arena-cardiff-11-21-2026--concerts-rock/production/6274790",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -185,6 +185,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7542483",
+        "url": "https://www.ticketliquidator.com/tickets/7542483/Bloc-Party-tickets-Fri-Nov-27-2026-Brighton-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbgWDgxYl",
@@ -196,7 +203,8 @@
       "THE BRIGHTON CENTRE (BRIGHTON & HOVE CITY COUNCIL)"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7542483",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7542483/Bloc-Party-tickets-Fri-Nov-27-2026-Brighton-Centre"
   },
   {
     "id": "tm-interpol-2026-dublin-1abzkuogkdez9hd",
@@ -303,7 +311,7 @@
         "event_id": 18700629,
         "url": "https://seatgeek.com/interpol-tickets/san-diego-california-soma-san-diego-2026-12-11-8-pm/concert/18700629",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -385,14 +393,14 @@
         "event_id": 18710343,
         "url": "https://seatgeek.com/interpol-tickets/hidalgo-texas-payne-arena-2027-03-19-8-pm/concert/18710343",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7745164,
         "url": "https://www.vividseats.com/interpol-tickets-hidalgo-payne-arena-3-19-2027/production/7745164",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -466,14 +474,14 @@
         "event_id": 18710346,
         "url": "https://seatgeek.com/interpol-tickets/memphis-tennessee-satellite-music-hall-2027-03-22-7-pm/concert/18710346",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7745553,
         "url": "https://www.vividseats.com/interpol-tickets-memphis-satellite-music-hall-3-22-2027--concerts-rock/production/7745553",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -540,14 +548,14 @@
         "event_id": 18710348,
         "url": "https://seatgeek.com/interpol-tickets/asheville-north-carolina-thomas-wolfe-auditorium-at-harrah-s-cherokee-center-2027-03-23-8-pm/concert/18710348",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7745555,
         "url": "https://www.vividseats.com/interpol-tickets-asheville-harrahs-cherokee-center-asheville-3-23-2027--concerts-rock/production/7745555",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -563,6 +571,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8337025",
+        "url": "https://www.ticketliquidator.com/tickets/8337025/Interpol-tickets-Tue-Mar-23-2027-Thomas-Wolfe-Auditorium-at-Harrahs-Cherokee-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_4oZ4dPM",
@@ -572,7 +587,8 @@
       "AEG LIVE"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337025",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337025/Interpol-tickets-Tue-Mar-23-2027-Thomas-Wolfe-Auditorium-at-Harrahs-Cherokee-Center"
   },
   {
     "id": "tm-interpol-2027-washington-1a4zk4kgkd5cf0g",
@@ -605,14 +621,14 @@
         "event_id": 18710355,
         "url": "https://seatgeek.com/interpol-tickets/washington-district-of-columbia-the-anthem-dc-2027-03-24-7-30-pm/concert/18710355",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7745557,
         "url": "https://www.vividseats.com/interpol-tickets-washington-dc-the-anthem-3-24-2027--concerts-rock/production/7745557",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -765,14 +781,14 @@
         "event_id": 18710347,
         "url": "https://seatgeek.com/interpol-tickets/dallas-texas-the-bomb-factory-dallas-2027-03-20-8-pm/concert/18710347",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7745551,
         "url": "https://www.vividseats.com/interpol-tickets-dallas-the-bomb-factory-3-20-2027--concerts-rock/production/7745551",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -835,7 +851,7 @@
         "event_id": 18710345,
         "url": "https://seatgeek.com/interpol-tickets/san-antonio-texas-the-espee-2027-03-18-7-30-pm/concert/18710345",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -912,7 +928,7 @@
         "event_id": 7745559,
         "url": "https://www.vividseats.com/interpol-tickets-sayreville-starland-ballroom-3-27-2027--concerts-rock/production/7745559",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

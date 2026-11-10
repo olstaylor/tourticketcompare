@@ -448,7 +448,7 @@
         "event_id": 18126468,
         "url": "https://seatgeek.com/gavin-adcock-tickets/reading-pennsylvania-santander-arena-2026-11-07-7-pm/concert/18126468",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -471,6 +471,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7806870",
+        "url": "https://www.ticketliquidator.com/tickets/7806870/Gavin-Adcock-tickets-Sat-Nov-7-2026-Santander-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkotGkeIvbWV",
@@ -480,7 +487,8 @@
       "AEG PRESENTS"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806870",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806870/Gavin-Adcock-tickets-Sat-Nov-7-2026-Santander-Arena"
   },
   {
     "id": "tm-gavin-adcock-2026-detroit-z7r9jz1a7-yus",
@@ -536,13 +544,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7806927",
+        "url": "https://www.ticketliquidator.com/tickets/7806927/Gavin-Adcock-tickets-Fri-Nov-13-2026-Masonic-Temple-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Yus",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7806927",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7806927/Gavin-Adcock-tickets-Fri-Nov-13-2026-Masonic-Temple-Theatre"
   },
   {
     "id": "tm-gavin-adcock-2026-grand-rapids-z7r9jz1a7-yut",
@@ -582,7 +598,7 @@
         "event_id": 6789048,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-grand-rapids-van-andel-arena-11-14-2026--concerts-country-and-folk/production/6789048",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -645,7 +661,7 @@
         "event_id": 18701462,
         "url": "https://seatgeek.com/gavin-adcock-tickets/houston-texas-713-music-hall-2026-12-01-7-30-pm/concert/18701462",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -703,14 +719,14 @@
         "event_id": 18293611,
         "url": "https://seatgeek.com/gavin-adcock-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-12-10-8-30-pm/concert/18293611",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6976694,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-las-vegas-the-theater-at-virgin-hotels-las-vegas-12-10-2026/production/6976694",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -780,7 +796,7 @@
         "event_id": 7688256,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-lexington-commonspirit-health-stage-at-gatton-park-4-1-2027--concerts-country-and-folk/production/7688256",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1060,7 +1076,7 @@
         "event_id": 7688278,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-salem-salem-civic-center-4-29-2027/production/7688278",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1133,7 +1149,7 @@
         "event_id": 18676336,
         "url": "https://seatgeek.com/gavin-adcock-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-05-01-7-pm/concert/18676336",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1187,14 +1203,14 @@
         "event_id": 18676332,
         "url": "https://seatgeek.com/gavin-adcock-tickets/oklahoma-city-oklahoma-the-zoo-amphitheatre-2027-05-07-7-30-pm/concert/18676332",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7688335,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-oklahoma-city-okc-zoo-amphitheatre-5-7-2027--concerts-country-and-folk/production/7688335",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1248,7 +1264,7 @@
         "event_id": 7688229,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-houston-the-lawn-at-white-oak-music-hall-5-8-2027/production/7688229",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1327,14 +1343,14 @@
         "event_id": 18676334,
         "url": "https://seatgeek.com/gavin-adcock-tickets/richmond-virginia-virginia-credit-union-live-at-richmond-raceway-2027-05-13-7-30-pm/concert/18676334",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7691232,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-richmond-virginia-credit-union-live-at-richmond-raceway-5-13-2027/production/7691232",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1404,7 +1420,7 @@
         "event_id": 7688058,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-5-14-2027/production/7688058",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1475,14 +1491,14 @@
         "event_id": 18676333,
         "url": "https://seatgeek.com/gavin-adcock-tickets/baltimore-maryland-pier-six-pavilion-2027-05-15-7-30-pm/concert/18676333",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7688530,
         "url": "https://www.vividseats.com/gavin-adcock-tickets-baltimore-pier-six-pavilion-5-15-2027/production/7688530",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1545,7 +1561,7 @@
         "event_id": 18676335,
         "url": "https://seatgeek.com/gavin-adcock-tickets/helotes-texas-floores-country-store-2027-05-27-7-30-pm/concert/18676335",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1615,7 +1631,7 @@
         "event_id": 18676344,
         "url": "https://seatgeek.com/gavin-adcock-tickets/helotes-texas-floores-country-store-2027-05-28-7-30-pm/concert/18676344",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {

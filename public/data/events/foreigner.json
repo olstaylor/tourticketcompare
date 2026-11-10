@@ -206,14 +206,14 @@
         "event_id": 18570609,
         "url": "https://seatgeek.com/foreigner-tickets/pompano-beach-florida-pompano-beach-amphitheater-2027-02-19-8-pm/concert/18570609",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7483597,
         "url": "https://www.vividseats.com/foreigner-tickets-pompano-beach-pompano-beach-amphitheatre-2-19-2027--concerts-rock/production/7483597",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -438,14 +438,14 @@
         "event_id": 18723998,
         "url": "https://seatgeek.com/foreigner-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2027-03-10-8-pm/concert/18723998",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7755456,
         "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-10-2027/production/7755456",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -508,14 +508,14 @@
         "event_id": 18723999,
         "url": "https://seatgeek.com/foreigner-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2027-03-12-8-pm/concert/18723999",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7755502,
         "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-12-2027/production/7755502",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -578,14 +578,14 @@
         "event_id": 18724000,
         "url": "https://seatgeek.com/foreigner-tickets/las-vegas-nevada-venetian-theatre-at-the-venetian-resort-2027-03-13-8-pm/concert/18724000",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7755492,
         "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-13-2027/production/7755492",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -655,7 +655,7 @@
         "event_id": 7755482,
         "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-17-2027/production/7755482",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -725,7 +725,7 @@
         "event_id": 7755454,
         "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-19-2027/production/7755454",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -795,7 +795,7 @@
         "event_id": 7755538,
         "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-20-2027/production/7755538",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -922,7 +922,7 @@
         "event_id": 7527201,
         "url": "https://www.vividseats.com/foreigner-tickets-london-london-palladium-4-14-2027/production/7527201",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -938,6 +938,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8324848",
+        "url": "https://www.ticketliquidator.com/tickets/8324848/Foreigner-tickets-Wed-Apr-14-2027-London-Palladium",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666759",
+        "url": "https://www.stubhub.ie/foreigner-tickets-london-london-palladium-14-4-2027/event/107666759",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16djZ_37gG7HHXi",
@@ -948,7 +962,9 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324848",
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324848/Foreigner-tickets-Wed-Apr-14-2027-London-Palladium",
+    "stubhub_international_url": "https://www.stubhub.ie/foreigner-tickets-london-london-palladium-14-4-2027/event/107666759"
   },
   {
     "id": "tm-foreigner-2027-new-york-g5diz_oohwwkw",
@@ -988,7 +1004,7 @@
         "event_id": 7500863,
         "url": "https://www.vividseats.com/foreigner-tickets-new-york-beacon-theatre-4-27-2027/production/7500863",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1071,17 +1087,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18550003,
+        "url": "https://seatgeek.com/foreigner-tickets/montclair-new-jersey-the-wellmont-theater-2027-04-28-8-pm/concert/18550003",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7501184,
         "url": "https://www.vividseats.com/foreigner-tickets-montclair-wellmont-theater-4-28-2027/production/7501184",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1133,11 +1149,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18550006,
+        "url": "https://seatgeek.com/foreigner-tickets/port-chester-new-york-the-capitol-theatre-port-chester-2027-04-30-8-pm/concert/18550006",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1158,6 +1174,13 @@
         "url": "https://www.ticketnetwork.com/en/p/8243093",
         "verified": true,
         "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8243093",
+        "url": "https://www.ticketliquidator.com/tickets/8243093/Foreigner-tickets-Fri-Apr-30-2027-Capitol-Theatre-Port-Chester",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       }
     },
@@ -1182,7 +1205,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243093",
     "ticket_limit": 8,
     "legal_age_enforced": true,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243093/Foreigner-tickets-Fri-Apr-30-2027-Capitol-Theatre-Port-Chester"
   },
   {
     "id": "tm-foreigner-2027-westbury-k7vgf_ocs3r5v",
@@ -1212,17 +1236,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18549843,
+        "url": "https://seatgeek.com/foreigner-tickets/westbury-new-york-flagstar-at-westbury-music-fair-2027-05-02-8-pm/concert/18549843",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7501061,
         "url": "https://www.vividseats.com/foreigner-tickets-westbury-flagstar-at-westbury-music-fair-5-2-2027/production/7501061",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

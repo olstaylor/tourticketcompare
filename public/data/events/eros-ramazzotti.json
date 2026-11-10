@@ -37,7 +37,7 @@
         "event_id": 7505558,
         "url": "https://www.vividseats.com/eros-ramazzotti-tickets-new-york-radio-city-music-hall-10-2-2027/production/7505558",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176,7 +176,7 @@
         "event_id": 7484548,
         "url": "https://www.vividseats.com/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/production/7484548",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -481,7 +481,7 @@
         "event_id": 17491601,
         "url": "https://seatgeek.com/eros-ramazzotti-tickets/sugar-land-texas-smart-financial-centre-2027-10-13-8-pm/concert/17491601",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -504,6 +504,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7103874",
+        "url": "https://www.ticketliquidator.com/tickets/7103874/Eros-Ramazzotti-tickets-Wed-Oct-13-2027-Smart-Financial-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107394131",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-sugar-land-tickets-10-13-2027/event/107394131",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A74UO8",
@@ -511,7 +525,9 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7103874",
-    "genre": "World"
+    "genre": "World",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7103874/Eros-Ramazzotti-tickets-Wed-Oct-13-2027-Smart-Financial-Centre",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-sugar-land-tickets-10-13-2027/event/107394131"
   },
   {
     "id": "tm-eros-ramazzotti-2027-inglewood-vvg1izbiyf5ko0",

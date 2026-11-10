@@ -70,7 +70,11 @@ concurrency:
 jobs:
   snapshot:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # A full-roster pass took 5-6 minutes on 2026-11-07 and hit the old
+    # 10-minute cap twice on 2026-11-08 (06:44Z and 12:07Z), each time writing
+    # nothing, so prices aged towards the stale gate. 20 leaves room while
+    # still ending a truly stuck run well inside the hourly cadence.
+    timeout-minutes: 20
     env:
       D1_DATABASE_NAME: ${{ github.event.inputs.database || 'tourticketcompare-demand' }}
       SNAPSHOT_LIMIT: ${{ github.event.inputs.limit || '' }}

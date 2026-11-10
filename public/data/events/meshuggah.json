@@ -30,14 +30,14 @@
         "event_id": 18724635,
         "url": "https://seatgeek.com/meshuggah-tickets/toronto-canada-coca-cola-coliseum-2027-02-12-7-pm/concert/18724635",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761483,
         "url": "https://www.vividseats.com/meshuggah-tickets-toronto-coca-cola-coliseum-2-12-2027--concerts-hard-rock/production/7761483",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -91,14 +91,14 @@
         "event_id": 18724636,
         "url": "https://seatgeek.com/meshuggah-tickets/laval-canada-place-bell-2027-02-13-7-pm/concert/18724636",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761485,
         "url": "https://www.vividseats.com/meshuggah-tickets-laval-place-bell-2-13-2027--concerts-hard-rock/production/7761485",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176,14 +176,14 @@
         "event_id": 18724637,
         "url": "https://seatgeek.com/meshuggah-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2027-02-16-6-pm/concert/18724637",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762219,
         "url": "https://www.vividseats.com/meshuggah-tickets-detroit-masonic-temple---temple-theatre-2-16-2027/production/7762219",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -199,13 +199,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8343267",
+        "url": "https://www.ticketliquidator.com/tickets/8343267/Meshuggah-tickets-Tue-Feb-16-2027-Masonic-Temple-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7t8-",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343267",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343267/Meshuggah-tickets-Tue-Feb-16-2027-Masonic-Temple-Theatre"
   },
   {
     "id": "tm-meshuggah-2027-chicago-vv1a7zk49gkdpmbhc",
@@ -238,7 +246,7 @@
         "event_id": 18724638,
         "url": "https://seatgeek.com/meshuggah-tickets/chicago-illinois-the-salt-shed-indoors-2027-02-17-6-pm/concert/18724638",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -303,14 +311,14 @@
         "event_id": 18724640,
         "url": "https://seatgeek.com/meshuggah-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-02-19-7-pm/concert/18724640",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761387,
         "url": "https://www.vividseats.com/meshuggah-tickets-minneapolis-armory---minneapolis-2-19-2027--concerts-hard-rock/production/7761387",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -392,14 +400,14 @@
         "event_id": 18724639,
         "url": "https://seatgeek.com/meshuggah-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-02-20-7-pm/concert/18724639",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761525,
         "url": "https://www.vividseats.com/meshuggah-tickets-kansas-city-the-midland-theatre-2-20-2027--concerts-hard-rock/production/7761525",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -588,7 +596,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B006557C47AB87B",
     "ticketmaster_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-nashville-tennessee-02-24-2027/event/1B006557C47AB87B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/meshuggah-tickets/nashville-tennessee-the-truth-nashville-2027-02-24-7-pm/concert/18724651",
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-nashville-the-truth-2-24-2027--concerts-hard-rock/production/7761397",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-nashville-tennessee-02-24-2027/event/1B006557C47AB87B",
@@ -604,17 +612,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724651,
+        "url": "https://seatgeek.com/meshuggah-tickets/nashville-tennessee-the-truth-nashville-2027-02-24-7-pm/concert/18724651",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761397,
         "url": "https://www.vividseats.com/meshuggah-tickets-nashville-the-truth-2-24-2027--concerts-hard-rock/production/7761397",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -750,7 +758,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "15006554FD522A69",
     "ticketmaster_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-baltimore-maryland-02-27-2027/event/15006554FD522A69",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/meshuggah-tickets/baltimore-maryland-the-paramount-baltimore-2027-02-27-7-pm/concert/18724653",
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-baltimore-the-paramount-baltimore-2-27-2027--concerts-hard-rock/production/7761407",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-baltimore-maryland-02-27-2027/event/15006554FD522A69",
@@ -766,17 +774,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724653,
+        "url": "https://seatgeek.com/meshuggah-tickets/baltimore-maryland-the-paramount-baltimore-2027-02-27-7-pm/concert/18724653",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761407,
         "url": "https://www.vividseats.com/meshuggah-tickets-baltimore-the-paramount-baltimore-2-27-2027--concerts-hard-rock/production/7761407",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -831,7 +839,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "160065551F4D0CEA",
     "ticketmaster_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-pittsburgh-pennsylvania-02-28-2027/event/160065551F4D0CEA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/meshuggah-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2027-02-28-7-pm/concert/18724655",
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-pittsburgh-citizens-live-at-the-wylie-2-28-2027--concerts-hard-rock/production/7761411",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-pittsburgh-pennsylvania-02-28-2027/event/160065551F4D0CEA",
@@ -847,17 +855,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724655,
+        "url": "https://seatgeek.com/meshuggah-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2027-02-28-7-pm/concert/18724655",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761411,
         "url": "https://www.vividseats.com/meshuggah-tickets-pittsburgh-citizens-live-at-the-wylie-2-28-2027--concerts-hard-rock/production/7761411",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1019,7 +1027,7 @@
         "event_id": 7761319,
         "url": "https://www.vividseats.com/meshuggah-tickets-brooklyn-brooklyn-paramount-3-3-2027/production/7761319",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1108,7 +1116,7 @@
         "event_id": 7761417,
         "url": "https://www.vividseats.com/meshuggah-tickets-boston-mgm-music-hall-at-fenway-3-6-2027--concerts-hard-rock/production/7761417",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1190,7 +1198,7 @@
         "event_id": 18724665,
         "url": "https://seatgeek.com/meshuggah-tickets/vancouver-canada-pne-forum-vancouver-2027-04-15-7-pm/concert/18724665",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1275,7 +1283,7 @@
         "event_id": 7761441,
         "url": "https://www.vividseats.com/meshuggah-tickets-portland-moda-center-4-16-2027--concerts-hard-rock/production/7761441",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1364,7 +1372,7 @@
         "event_id": 7761443,
         "url": "https://www.vividseats.com/meshuggah-tickets-seattle-paramount-theatre-seattle-4-17-2027--concerts-hard-rock/production/7761443",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1427,7 +1435,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E006557929B3B9B",
     "ticketmaster_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-salt-lake-city-utah-04-19-2027/event/1E006557929B3B9B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/meshuggah-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2027-04-19-6-30-pm/concert/18724672",
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-salt-lake-city-the-union-event-center---salt-lake-city-4-19-2027--concerts-hard-rock/production/7761445",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-salt-lake-city-utah-04-19-2027/event/1E006557929B3B9B",
@@ -1443,17 +1451,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724672,
+        "url": "https://seatgeek.com/meshuggah-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2027-04-19-6-30-pm/concert/18724672",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761445,
         "url": "https://www.vividseats.com/meshuggah-tickets-salt-lake-city-the-union-event-center---salt-lake-city-4-19-2027--concerts-hard-rock/production/7761445",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1527,14 +1535,14 @@
         "event_id": 18724675,
         "url": "https://seatgeek.com/meshuggah-tickets/morrison-colorado-red-rocks-amphitheatre-2027-04-21-7-pm/concert/18724675",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761316,
         "url": "https://www.vividseats.com/meshuggah-tickets-morrison-red-rocks-amphitheatre-4-21-2027--concerts-hard-rock/production/7761316",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1615,7 +1623,7 @@
         "event_id": 7761447,
         "url": "https://www.vividseats.com/meshuggah-tickets-oakland-fox-theater-oakland-4-24-2027--concerts-hard-rock/production/7761447",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1697,7 +1705,7 @@
         "event_id": 7761451,
         "url": "https://www.vividseats.com/meshuggah-tickets-inglewood-youtube-theater-4-25-2027--concerts-hard-rock/production/7761451",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1786,7 +1794,7 @@
         "event_id": 7761453,
         "url": "https://www.vividseats.com/meshuggah-tickets-phoenix-arizona-financial-theatre-4-27-2027--concerts-hard-rock/production/7761453",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1875,7 +1883,7 @@
         "event_id": 7761455,
         "url": "https://www.vividseats.com/meshuggah-tickets-houston-bayou-music-center-4-30-2027--concerts-hard-rock/production/7761455",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1957,14 +1965,14 @@
         "event_id": 18724684,
         "url": "https://seatgeek.com/meshuggah-tickets/san-antonio-texas-boeing-center-at-tech-port-2027-05-01-7-pm/concert/18724684",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761459,
         "url": "https://www.vividseats.com/meshuggah-tickets-san-antonio-boeing-center-at-tech-port-5-1-2027--concerts-hard-rock/production/7761459",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2019,7 +2027,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7IZs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7IZs",
-    "seatgeek_url": "https://seatgeek.com/meshuggah-tickets/oklahoma-city-oklahoma-the-criterion-okc-2027-05-02-7-pm/concert/18724686",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7IZs",
@@ -2039,7 +2047,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2102,7 +2110,7 @@
         "event_id": 7761859,
         "url": "https://www.vividseats.com/meshuggah-tickets-irving-pavilion-at-toyota-music-factory-5-4-2027/production/7761859",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2165,7 +2173,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B006555CE4A9558",
     "ticketmaster_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-new-orleans-louisiana-05-06-2027/event/1B006555CE4A9558",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/meshuggah-tickets/new-orleans-louisiana-fillmore-new-orleans-2027-05-06-6-pm/concert/18724691",
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-new-orleans-fillmore-new-orleans-5-6-2027--concerts-hard-rock/production/7761463",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-new-orleans-louisiana-05-06-2027/event/1B006555CE4A9558",
@@ -2181,17 +2189,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724691,
+        "url": "https://seatgeek.com/meshuggah-tickets/new-orleans-louisiana-fillmore-new-orleans-2027-05-06-6-pm/concert/18724691",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761463,
         "url": "https://www.vividseats.com/meshuggah-tickets-new-orleans-fillmore-new-orleans-5-6-2027--concerts-hard-rock/production/7761463",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2272,7 +2280,7 @@
         "event_id": 7761465,
         "url": "https://www.vividseats.com/meshuggah-tickets-atlanta-coca-cola-roxy-theatre-5-7-2027--concerts-hard-rock/production/7761465",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2359,14 +2367,14 @@
         "event_id": 18709209,
         "url": "https://seatgeek.com/meshuggah-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2027-05-09-7-pm/concert/18709209",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761471,
         "url": "https://www.vividseats.com/meshuggah-tickets-fort-lauderdale-war-memorial-auditorium-fl-5-9-2027--concerts-hard-rock/production/7761471",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2382,6 +2390,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8343257",
+        "url": "https://www.ticketliquidator.com/tickets/8343257/Meshuggah-tickets-Sun-May-9-2027-FTL-War-Memorial-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678630",
+        "url": "https://www.stubhub.ie/meshuggah-fort-lauderdale-tickets-5-9-2027/event/107678630",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7IAx",
@@ -2391,7 +2413,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343257",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343257/Meshuggah-tickets-Sun-May-9-2027-FTL-War-Memorial-Auditorium",
+    "stubhub_international_url": "https://www.stubhub.ie/meshuggah-fort-lauderdale-tickets-5-9-2027/event/107678630"
   },
   {
     "id": "tm-meshuggah-2027-greensboro-g5evz_4knt1ei",
@@ -2431,7 +2455,7 @@
         "event_id": 7761479,
         "url": "https://www.vividseats.com/meshuggah-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-5-11-2027--concerts-hard-rock/production/7761479",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2578,6 +2602,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362357",
+        "url": "https://www.ticketnetwork.com/en/p/8362357",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362357",
+        "url": "https://www.ticketliquidator.com/tickets/8362357/Meshuggah-tickets-Wed-Oct-27-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvOZ_4GkwRafdq",
@@ -2588,7 +2626,9 @@
       "MCD PRODUCTIONS"
     ],
     "ticket_limit": 8,
-    "genre": "Metal"
+    "genre": "Metal",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362357",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362357/Meshuggah-tickets-Wed-Oct-27-2027-3Arena-Dublin"
   },
   {
     "id": "tm-meshuggah-2027-manchester-1adfz_4gkvdqmcy",
@@ -2603,7 +2643,7 @@
     "ticketmaster_event_id": "3500655D036AE3B9",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/meshuggah-the-fortyyear-anomaly-manchester-29-10-2027/event/3500655D036AE3B9",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-manchester-the-warehouse-aviva-studios-10-29-2027/production/7801521",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/meshuggah-the-fortyyear-anomaly-manchester-29-10-2027/event/3500655D036AE3B9",
     "last_verified_at": "2026-11-07",
@@ -2625,11 +2665,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7801521,
-        "url": "https://www.vividseats.com/meshuggah-tickets-manchester-the-warehouse-aviva-studios-10-29-2027/production/7801521",
-        "verified": true,
-        "last_verified_at": "2026-11-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -2683,7 +2723,7 @@
         "event_id": 7801519,
         "url": "https://www.vividseats.com/meshuggah-tickets-london-ovo-arena-wembley-10-30-2027/production/7801519",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2720,7 +2760,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7t0I",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t0I",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/meshuggah-tickets/new-haven-connecticut-college-street-music-hall-2027-03-05-7-pm/concert/18724663",
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-new-haven-college-street-music-hall-3-5-2027/production/7762606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t0I",
@@ -2736,17 +2776,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724663,
+        "url": "https://seatgeek.com/meshuggah-tickets/new-haven-connecticut-college-street-music-hall-2027-03-05-7-pm/concert/18724663",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762606,
         "url": "https://www.vividseats.com/meshuggah-tickets-new-haven-college-street-music-hall-3-5-2027/production/7762606",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

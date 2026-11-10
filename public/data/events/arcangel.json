@@ -498,7 +498,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C0064B4F97758BF",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-irving-texas-11-06-2026/event/0C0064B4F97758BF",
-    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-06-8-pm/concert/18266326",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-irving-pavilion-at-toyota-music-factory-11-6-2026--concerts-rap-hip-hop/production/7079432",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-irving-texas-11-06-2026/event/0C0064B4F97758BF",
@@ -514,11 +514,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18266326,
-        "url": "https://seatgeek.com/arcangel-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-06-8-pm/concert/18266326",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7079432,
@@ -535,28 +535,28 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7997053",
-        "url": "https://www.ticketliquidator.com/tickets/7997053/Arcangel-tickets-Fri-Nov-6-2026-The-Pavilion-at-Toyota-Music-Factory",
-        "verified": true,
-        "last_verified_at": "2026-10-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "7997053",
-        "url": "https://www.ticketnetwork.com/en/p/7997053",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_5KyqgxT",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997053/Arcangel-tickets-Fri-Nov-6-2026-The-Pavilion-at-Toyota-Music-Factory",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997053"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-arcangel-2026-denver-g5vzz_1bwrqu_",
@@ -589,14 +589,14 @@
         "event_id": 18266329,
         "url": "https://seatgeek.com/arcangel-tickets/denver-colorado-paramount-theatre-co-2026-11-15-8-pm/concert/18266329",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7079515,
         "url": "https://www.vividseats.com/arcangel-tickets-denver-paramount-theatre-denver-11-15-2026--concerts-rap-hip-hop/production/7079515",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -652,7 +652,7 @@
     "ticketmaster_event_id": "1E0064B4954A8177",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
     "seatgeek_url": "https://seatgeek.com/arcangel-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-18-8-pm/concert/18266330",
-    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-18-2026--concerts-rap-hip-hop/production/7079517",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
     "last_verified_at": "2026-11-07",
@@ -670,15 +670,15 @@
         "event_id": 18266330,
         "url": "https://seatgeek.com/arcangel-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-18-8-pm/concert/18266330",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7079517,
-        "url": "https://www.vividseats.com/arcangel-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-18-2026--concerts-rap-hip-hop/production/7079517",
-        "verified": true,
-        "last_verified_at": "2026-11-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -751,14 +751,14 @@
         "event_id": 18266331,
         "url": "https://seatgeek.com/arcangel-tickets/inglewood-california-youtube-theater-2026-11-20-8-pm/concert/18266331",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7079519,
         "url": "https://www.vividseats.com/arcangel-tickets-inglewood-youtube-theater-11-20-2026--concerts-rap-hip-hop/production/7079519",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -832,14 +832,14 @@
         "event_id": 18266334,
         "url": "https://seatgeek.com/arcangel-tickets/san-jose-california-san-jose-civic-2026-11-21-8-pm/concert/18266334",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7079523,
         "url": "https://www.vividseats.com/arcangel-tickets-san-jose-san-jose-civic-11-21-2026--concerts-rap-hip-hop/production/7079523",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

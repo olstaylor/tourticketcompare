@@ -30,14 +30,14 @@
         "event_id": 18319963,
         "url": "https://seatgeek.com/hazlett-tickets/eugene-oregon-wow-hall-2027-05-29-7-pm/concert/18319963",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7626942,
         "url": "https://www.vividseats.com/hazlett-tickets-eugene-wow-hall-5-29-2027/production/7626942",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -107,7 +107,7 @@
         "event_id": 7634124,
         "url": "https://www.vividseats.com/hazlett-tickets-austin-scoot-inn-6-12-2027/production/7634124",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -364,7 +364,7 @@
         "event_id": 7634585,
         "url": "https://www.vividseats.com/hazlett-tickets-washington-howard-theatre---dc-4-23-2027/production/7634585",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -524,6 +524,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054733",
+        "url": "https://www.ticketliquidator.com/tickets/8054733/Hazlett-tickets-Tue-Apr-27-2027-Irving-Plaza",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_GS3K6Br",
@@ -534,7 +541,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054733",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054733/Hazlett-tickets-Tue-Apr-27-2027-Irving-Plaza"
   },
   {
     "id": "tm-hazlett-2027-portland-vvg17z_grwzm6s",
@@ -987,7 +995,7 @@
         "event_id": 18319957,
         "url": "https://seatgeek.com/hazlett-tickets/minneapolis-minnesota-first-avenue-minneapolis-2027-05-14-7-30-pm/concert/18319957",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1357,7 +1365,7 @@
         "event_id": 18319968,
         "url": "https://seatgeek.com/hazlett-tickets/los-angeles-california-el-rey-theatre-los-angeles-2027-06-02-8-pm/concert/18319968",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1572,7 +1580,7 @@
         "event_id": 18319973,
         "url": "https://seatgeek.com/hazlett-tickets/dallas-texas-the-kessler-theater-2027-06-08-8-pm/concert/18319973",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1933,7 +1941,7 @@
         "event_id": 18319961,
         "url": "https://seatgeek.com/hazlett-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-05-21-7-30-pm/concert/18319961",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {

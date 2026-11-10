@@ -259,11 +259,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8149243",
-        "url": "https://www.ticketnetwork.com/en/p/8149243",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8149243",
@@ -276,7 +276,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdpK",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149243",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149243/Jon-Pardi-tickets-Fri-Nov-6-2026-Concrete-Street-Amphitheater"
   },
   {
@@ -380,14 +380,14 @@
         "event_id": 18390356,
         "url": "https://seatgeek.com/jon-pardi-tickets/cedar-rapids-iowa-alliant-energy-powerhouse-2026-11-12-7-pm/concert/18390356",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7320585,
         "url": "https://www.vividseats.com/jon-pardi-tickets-cedar-rapids-alliant-energy-powerhouse-11-12-2026--concerts-country-and-folk/production/7320585",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -453,14 +453,14 @@
         "event_id": 18390874,
         "url": "https://seatgeek.com/jon-pardi-tickets/peoria-illinois-peoria-civic-center-arena-2026-11-13-7-pm/concert/18390874",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7320595,
         "url": "https://www.vividseats.com/jon-pardi-tickets-peoria-peoria-civic-center---carver-arena-11-13-2026--concerts-country-and-folk/production/7320595",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -531,14 +531,14 @@
         "event_id": 18390529,
         "url": "https://seatgeek.com/jon-pardi-tickets/independence-missouri-cable-dahmer-arena-2026-11-14-7-pm/concert/18390529",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7320599,
         "url": "https://www.vividseats.com/jon-pardi-tickets-independence-cable-dahmer-arena-11-14-2026--concerts-country-and-folk/production/7320599",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -655,14 +655,14 @@
         "event_id": 18652960,
         "url": "https://seatgeek.com/jon-pardi-tickets/durant-oklahoma-choctaw-grand-theater-2027-03-20-8-pm/concert/18652960",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653948,
         "url": "https://www.vividseats.com/jon-pardi-tickets-durant-choctaw-grand-theater-3-20-2027/production/7653948",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -709,7 +709,7 @@
         "event_id": 18391252,
         "url": "https://seatgeek.com/jon-pardi-tickets/nampa-idaho-ford-idaho-center-2027-05-08-7-pm/concert/18391252",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -745,7 +745,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZeb3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeb3",
-    "seatgeek_url": "https://seatgeek.com/jon-pardi-tickets/loveland-colorado-blue-federal-credit-union-arena-2027-05-13-7-pm/concert/18391250",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeb3",

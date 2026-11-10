@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-11-06T23:15:01.966Z
+Generated: 2026-11-10T01:22:42.964Z
 
 ## Run summary
 
@@ -8,40 +8,38 @@ Generated: 2026-11-06T23:15:01.966Z
 - SeatGeek client ID present: true
 - SeatGeek client secret present: false
 - API access with client ID only: HTTP 200
-- Total events in data: 5231
-- Enrichment-eligible events (Ticketmaster-verified, or machine_high_confidence with a Ticketmaster identity): 5231
-- Events already carrying a valid SeatGeek URL: 2843
-- Enrichment-eligible events already carrying a valid SeatGeek URL: 2843
-- Enrichment-eligible events still missing a valid SeatGeek URL before this run: 2388
-- Eligible (upcoming, resolvable local date) after pre-API filtering: 1773
-- Skipped before any API call: 640 (past_event: 640)
+- Total events in data: 5329
+- Enrichment-eligible events (Ticketmaster-verified, or machine_high_confidence with a Ticketmaster identity): 5329
+- Events already carrying a valid SeatGeek URL: 3014
+- Enrichment-eligible events already carrying a valid SeatGeek URL: 3014
+- Enrichment-eligible events still missing a valid SeatGeek URL before this run: 2315
+- Eligible (upcoming, resolvable local date) after pre-API filtering: 1602
+- Skipped before any API call: 715 (past_event: 715)
 - Events this run can check (window size): 160
-- Rotation: window 4 of 12 (key 20763)
-- Runs needed to check every eligible event once: 12
-- Events selected/logged by this run: 160
-- Events checked by this run: 160
-- API calls made: 800
+- Rotation: window 11 of 11 (key 20767)
+- Runs needed to check every eligible event once: 11
+- Events selected/logged by this run: 2
+- Events checked by this run: 2
+- API calls made: 10
 - Rate-limit responses: 0
-- URLs added: 25
-- Events skipped: 135
-- no_candidates_returned: 130
+- URLs added: 2
+- Events skipped: 0
+- no_candidates_returned: 0
 - rate_limited_not_checked: 0
 - Stopped early: no
-- Next resume showId: tm-yacht-rock-revue-2027-bethlehem-vv17fz_3gkblhlrj
-- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 800 --resume-from 'tm-yacht-rock-revue-2027-bethlehem-vv17fz_3gkblhlrj'
-- Accepted venue mismatches: 6
+- Next resume showId:
+- Next recommended resume command:
+- Accepted venue mismatches: 0
 - Conflicts found: 0
 
 ## Skipped reasons
 
-- no_candidates_returned: 130
-- city_or_metro_match_failed: 5
 
 ## Interpretation
 
-- `URLs added: 25` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
-- 2843 event(s) already carried valid SeatGeek URLs before this run, including 2843 enrichment-eligible event(s).
-- This run queried only the 2388 enrichment-eligible event(s) that were still missing a valid `seatgeek_url`.
+- `URLs added: 2` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
+- 3014 event(s) already carried valid SeatGeek URLs before this run, including 3014 enrichment-eligible event(s).
+- This run queried only the 2315 enrichment-eligible event(s) that were still missing a valid `seatgeek_url`.
 - SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.
 
 ## URLs added
@@ -50,184 +48,18 @@ This section lists only URLs newly added by this run. Events that already had va
 
 | showId | artist | date | city | SeatGeek URL |
 | --- | --- | --- | --- | --- |
-| tm-mat-kearney-2027-cerritos-vvg1iz_4z4bvmr | Mat Kearney | 2027-08-21 | Cerritos | https://seatgeek.com/mat-kearney-tickets/cerritos-california-cerritos-center-2027-08-21-7-30-pm/concert/18725672 |
-| tm-fontaines-d-c-2027-asheville-z7r9jz1aae84b | Fontaines D.C. | 2027-10-07 | Asheville | https://seatgeek.com/fontaines-d-c-tickets/asheville-north-carolina-hellbenders-by-the-orange-peel-2027-10-07-6-30-pm/concert/18642845 |
-| tm-mercyme-2026-park-city-vvg1bz_135gz80 | MercyMe | 2026-11-06 | Park City | https://seatgeek.com/mercyme-tickets/park-city-kansas-heartland-credit-union-arena-2026-11-06-7-pm/concert/18243412 |
-| tm-lenny-pearce-2026-new-york-k7vgf_gmumtdg | Lenny Pearce | 2026-11-22 | New York | https://seatgeek.com/lenny-pearce-tickets/new-york-new-york-manhattan-center-hammerstein-ballroom-2026-11-22-12-30-pm/concert/18305081 |
-| tm-latto-2026-philadelphia-vv17fz_4gkux4p4m | Latto | 2026-11-29 | Philadelphia | https://seatgeek.com/doja-cat-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-29-7-30-pm/concert/17769353 |
-| tm-jodeci-2026-savannah-vvg1zz_2qcyhff | Jodeci | 2026-12-08 | Savannah | https://seatgeek.com/jodeci-tickets/savannah-georgia-savannah-civic-center-johnny-mercer-theatre-2026-12-08-8-pm/concert/18407269 |
-| tm-pink-martini-2026-philadelphia-z7r9jz1a70ppv | Pink Martini | 2026-12-14 | Philadelphia | https://seatgeek.com/pink-martini-tickets/philadelphia-pennsylvania-kimmel-center-miller-theater-2026-12-14-7-pm/concert/18364153 |
-| tm-yacht-rock-revue-2027-huntington-k7vgf_31y4afw | Yacht Rock Revue | 2027-01-08 | Huntington | https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-08-8-pm/concert/18612961 |
-| tm-yacht-rock-revue-2027-huntington-k7vgf_31ykyfq | Yacht Rock Revue | 2027-01-09 | Huntington | https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-09-8-pm/concert/18612966 |
-| tm-yacht-rock-revue-2027-huntington-k7vgf_31y3tkt | Yacht Rock Revue | 2027-01-10 | Huntington | https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-10-7-pm/concert/18612962 |
-| tm-chelsea-cutler-2027-saint-petersburg-z7r9jz1aae_gk | Chelsea Cutler | 2027-01-29 | Saint Petersburg | https://seatgeek.com/chelsea-cutler-tickets/saint-petersburg-florida-jannus-live-2027-01-29-3-30-am/concert/18639168 |
-| tm-koe-wetzel-2027-durant-vvg1yz_4wsdj6f | Koe Wetzel | 2027-01-29 | Durant | https://seatgeek.com/koe-wetzel-tickets/durant-oklahoma-choctaw-grand-theater-2027-01-29-7-30-pm/concert/18738802 |
-| tm-simple-plan-2027-kingston-1a8zk4vgkdbqsjy | Simple Plan | 2027-02-09 | Kingston | https://seatgeek.com/simple-plan-tickets/kingston-canada-slush-puppie-place-2027-02-09-7-pm/concert/18655727 |
-| tm-backstreet-boys-2027-toronto-1avzz_kgkz7nuhj | Backstreet Boys | 2027-02-28 | Toronto | https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-02-28-8-pm/concert/18657844 |
-| tm-don-omar-2027-belmont-park-17gzv0g6u15uw7e | Don Omar | 2027-02-28 | Belmont Park | https://seatgeek.com/don-omar-tickets/elmont-new-york-ubs-arena-2027-02-28-8-pm/concert/18326568 |
-| tm-morat-2027-el-paso-vvg1yz_1xncffn | Morat | 2027-02-28 | El Paso | https://seatgeek.com/morat-tickets/el-paso-texas-don-haskins-center-2027-02-28-8-pm/concert/18251588 |
-| tm-hans-zimmer-2027-hamilton-1a8zkfigkdxfojj | Hans Zimmer | 2027-03-02 | Hamilton | https://seatgeek.com/hans-zimmer-tickets/hamilton-canada-td-coliseum-2027-03-02-7-30-pm/concert/18601959 |
-| tm-rod-stewart-2027-reading-vv17fz_kgks7life | Rod Stewart | 2027-03-02 | Reading | https://seatgeek.com/rod-stewart-tickets/reading-pennsylvania-santander-arena-2027-03-02-7-30-pm/concert/18652809 |
-| tm-air-supply-2027-ottawa-1ad7z_3gksa1dub | Air Supply | 2027-03-03 | Ottawa | https://seatgeek.com/air-supply-tickets/ottawa-canada-hard-rock-hotel-and-casino-ottawa-2027-03-03-7-pm/concert/18594799 |
-| tm-blue-october-2027-boise-g5vzz_1rcvq7p | Blue October | 2027-03-03 | Boise | https://seatgeek.com/blue-october-tickets/boise-idaho-knitting-factory-concert-house-boise-2027-03-03-8-pm/concert/18238525 |
-| tm-daughtry-2027-charleston-g5evz_keoc7ae | Daughtry | 2027-03-05 | Charleston | https://seatgeek.com/daughtry-tickets/charleston-south-carolina-charleston-music-hall-2027-03-05-7-pm/concert/18632937 |
-| tm-backstreet-boys-2027-toronto-1k7zvpotga1oqed | Backstreet Boys | 2027-03-05 | Toronto | https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-03-05-8-pm/concert/18665148 |
-| tm-remi-wolf-2027-toronto-1a8zk46gkdlbbff | Remi Wolf | 2027-03-05 | Toronto | https://seatgeek.com/remi-wolf-tickets/toronto-canada-massey-hall-2027-03-05-8-pm/concert/18664754 |
-| tm-backstreet-boys-2027-toronto-1k7zvpotga14bio | Backstreet Boys | 2027-03-06 | Toronto | https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-03-06-8-pm/concert/18665150 |
-| tm-remi-wolf-2027-toronto-1a8zk46gkdlbzfe | Remi Wolf | 2027-03-06 | Toronto | https://seatgeek.com/remi-wolf-tickets/toronto-canada-massey-hall-2027-03-06-8-pm/concert/18693184 |
+| tm-sting-2027-las-vegas-1ayzk4agkec2mbz | Sting | 2027-10-22 | Las Vegas | https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-22-8-pm/concert/18674632 |
+| tm-sting-2027-las-vegas-1ayzk4agkecoebs | Sting | 2027-10-23 | Las Vegas | https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-23-8-pm/concert/18674634 |
 
 ## Events skipped
 
 Skipped rows are only the enrichment-eligible events that were still missing a valid `seatgeek_url` when this run started.
 
-| showId | artist | date | city | reason | best candidate |
-| --- | --- | --- | --- | --- | --- |
-| tm-fontaines-d-c-2027-co-meath-1avoz_ogkw7fwfl | Fontaines D.C. | 2027-06-27 | Co. Meath | no_candidates_returned | - |
-| tm-bryan-adams-2027-nurnberg-z698xzc2z16vv6jt_f | Bryan Adams | 2027-06-27 | Nürnberg | no_candidates_returned | - |
-| tm-queens-of-the-stone-age-2027-pordenone-zg9rmiynyzfa6e | Queens Of The Stone Age | 2027-06-27 | Pordenone | no_candidates_returned | - |
-| tm-fontaines-d-c-2027-cardiff-g5vhz_oiinrjk | Fontaines D.C. | 2027-06-29 | Cardiff | no_candidates_returned | - |
-| tm-amble-2027-glasgow-17uov0g62brrf6b | Amble | 2027-06-29 | Glasgow | no_candidates_returned | - |
-| tm-simply-red-2027-nurnberg-z698xzc2z16v0aozkf | Simply Red | 2027-06-29 | Nürnberg | no_candidates_returned | - |
-| tm-sting-2027-klagenfurt-z698xz5rz1kgyvv34 | Sting | 2027-06-30 | Klagenfurt | no_candidates_returned | - |
-| tm-sam-fender-2027-dublin-1avoz_fgkxvywdt | Sam Fender | 2027-07-01 | Dublin | no_candidates_returned | - |
-| tm-jack-johnson-2027-st-austell-g5vhz_4eimdn_ | Jack Johnson | 2027-07-02 | St Austell | no_candidates_returned | - |
-| tm-bryan-adams-2027-halle-westfalen-z698xzc2z16voo4puj | Bryan Adams | 2027-07-02 | Halle (Westfalen) | no_candidates_returned | - |
-| tm-amble-2027-limerick-city-17kzv0g62sp3q8m | Amble | 2027-07-03 | Limerick City | no_candidates_returned | - |
-| tm-jack-johnson-2027-st-austell-g5vhz_4d63ah_ | Jack Johnson | 2027-07-03 | St Austell | no_candidates_returned | - |
-| tm-pink-martini-2027-liverpool-g5vhz_fpr6w_w | Pink Martini | 2027-07-03 | Liverpool | no_candidates_returned | - |
-| tm-bryan-adams-2027-bonn-z698xzc2z16v89qo0p | Bryan Adams | 2027-07-06 | Bonn | no_candidates_returned | - |
-| tm-sting-2027-verona-zg9rmiynyzf61a | Sting | 2027-07-06 | Verona | no_candidates_returned | - |
-| tm-simply-red-2027-bonn-z698xzc2z1kpoq9-n | Simply Red | 2027-07-07 | Bonn | no_candidates_returned | - |
-| tm-bryan-adams-2027-rosenheim-z698xzc2z16eva4pqp | Bryan Adams | 2027-07-08 | Rosenheim | no_candidates_returned | - |
-| tm-amble-2027-london-g5vhz_8sflgki | Amble | 2027-07-09 | London | no_candidates_returned | - |
-| tm-simply-red-2027-halle-westfalen-z698xzc2z1kj7akbg | Simply Red | 2027-07-09 | Halle (Westfalen) | no_candidates_returned | - |
-| tm-noah-kahan-2027-glasgow-1adbz_8gkufqoce | Noah Kahan | 2027-07-13 | Glasgow | no_candidates_returned | - |
-| tm-the-neighbourhood-2027-firenze-zg9rmiynyzfavv | The Neighbourhood | 2027-07-13 | Firenze | no_candidates_returned | - |
-| tm-sombr-2027-milano-zg9rmiynyzd611 | Sombr | 2027-07-14 | Milano | no_candidates_returned | - |
-| tm-greta-van-fleet-2027-saint-louis-vv17bz_kgkm_stkv | Greta Van Fleet | 2027-07-14 | Saint Louis | city_or_metro_match_failed | https://seatgeek.com/greta-van-fleet-tickets/st-louis-missouri-chaifetz-arena-2027-07-14-7-pm/concert/18642010 |
-| tm-noah-kahan-2027-dublin-1abzkffgkeyrrov | Noah Kahan | 2027-07-17 | Dublin | no_candidates_returned | - |
-| tm-noah-kahan-2027-dublin-1abzkfbgkd7h5py | Noah Kahan | 2027-07-18 | Dublin | no_candidates_returned | - |
-| tm-slipknot-2027-queens-g5vvz_kci8xei | Slipknot | 2027-07-18 | Queens | city_or_metro_match_failed | https://seatgeek.com/slipknot-tickets/flushing-new-york-citi-field-2027-07-18-6-30-pm/concert/18626576 |
-| tm-rod-stewart-2027-krakow-z698xzqpz1kk400qk | Rod Stewart | 2027-07-20 | Krakow | no_candidates_returned | - |
-| tm-santana-2027-krakow-z698xzqpz16va4pvo4 | Santana | 2027-07-24 | Krakow | no_candidates_returned | - |
-| tm-bryan-adams-2027-baunatal-z698xzc2z1kxv_kf3 | Bryan Adams | 2027-08-10 | Baunatal | no_candidates_returned | - |
-| tm-simply-red-2027-halifax-1agzkfigkey3exj | Simply Red | 2027-08-11 | Halifax | no_candidates_returned | - |
-| tm-bryan-adams-2027-erfurt-z698xzc2z1kczab8v | Bryan Adams | 2027-08-11 | Erfurt | no_candidates_returned | - |
-| tm-bryan-adams-2027-deggendorf-z698xzc2z1kaap_ay | Bryan Adams | 2027-08-15 | Deggendorf | no_candidates_returned | - |
-| tm-harry-styles-2027-dublin-1abzkftgkexalp_ | Harry Styles | 2027-08-18 | Dublin | no_candidates_returned | - |
-| tm-harry-styles-2027-dublin-1avoz_3gkn1nb3y | Harry Styles | 2027-08-20 | Dublin | no_candidates_returned | - |
-| tm-simply-red-2027-newmarket-1amzkfygkdj2ef1 | Simply Red | 2027-08-21 | Newmarket | no_candidates_returned | - |
-| tm-harry-styles-2027-dublin-1avoz_3gklibgmq | Harry Styles | 2027-08-21 | Dublin | no_candidates_returned | - |
-| tm-oasis-2027-co-meath-1avoz_3gkrnpmuo | Oasis | 2027-09-04 | Co. Meath | no_candidates_returned | - |
-| tm-oasis-2027-co-meath-1avoz_3gkrn9ru4 | Oasis | 2027-09-05 | Co. Meath | no_candidates_returned | - |
-| tm-passenger-2027-dublin-1avoz_8gkm9ghn7 | Passenger | 2027-09-07 | Dublin | no_candidates_returned | - |
-| tm-passenger-2027-belfast-16zzkfkojzage16c | Passenger | 2027-09-08 | Belfast | no_candidates_returned | - |
-| tm-bon-jovi-2027-south-bend-vv1kv8vp_zga5o3gv | Bon Jovi | 2027-10-02 | South Bend | city_or_metro_match_failed | https://seatgeek.com/bon-jovi-tickets/notre-dame-indiana-notre-dame-stadium-2027-10-02-6-30-pm/concert/18744634 |
-| tm-nickelback-2027-waurn-ponds-1akzk4fgker3psp | Nickelback | 2027-10-09 | Waurn Ponds | no_candidates_returned | - |
-| tm-meshuggah-2027-warsaw-z698xzqpz1kgpab4t | Meshuggah | 2027-10-10 | Warsaw | no_candidates_returned | - |
-| tm-nickelback-2027-pokolbin-1akzk46gkdiziaq | Nickelback | 2027-10-16 | Pokolbin | no_candidates_returned | - |
-| tm-nickelback-2027-pokolbin-1avgz_4c70szdc8v | Nickelback | 2027-10-17 | Pokolbin | no_candidates_returned | - |
-| tm-passenger-2027-brisbane-1avgz_8gkmdlzyi | Passenger | 2027-10-27 | Brisbane | no_candidates_returned | - |
-| tm-meshuggah-2027-dublin-1avoz_4gkwrafdq | Meshuggah | 2027-10-27 | Dublin | no_candidates_returned | - |
-| tm-passenger-2027-st-kilda-1avgz_8gkm6pbt5 | Passenger | 2027-10-29 | St Kilda | no_candidates_returned | - |
-| tm-meshuggah-2027-manchester-1adfz_4gkvdqmcy | Meshuggah | 2027-10-29 | Manchester | no_candidates_returned | - |
-| tm-passenger-2027-sydney-16vgz_oayg7zvfp | Passenger | 2027-10-30 | Sydney | no_candidates_returned | - |
-| tm-mat-kearney-2027-saint-louis-vv1kvovp4agag9idz | Mat Kearney | 2027-11-13 | Saint Louis | city_or_metro_match_failed | https://seatgeek.com/mat-kearney-tickets/st-louis-missouri-the-pageant-st-louis-2027-11-13-7-30-pm/concert/18725685 |
-| tm-morat-2026-ciudad-de-mexico-1afzk3egkebi9id | Morat | 2026-11-06 | Ciudad de México | no_candidates_returned | - |
-| tm-karol-g-2026-guadalupe-g5dvz_fd0l9ge | Karol G | 2026-11-06 | Guadalupe | no_candidates_returned | - |
-| tm-morat-2026-ciudad-de-mexico-1afzk3egkedjeux | Morat | 2026-11-07 | Ciudad de México | no_candidates_returned | - |
-| tm-karol-g-2026-guadalupe-g5dvz_fdjam8c | Karol G | 2026-11-07 | Guadalupe | no_candidates_returned | - |
-| tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmu0 | Morat | 2026-11-08 | Ciudad de México | no_candidates_returned | - |
-| tm-karol-g-2026-guadalupe-g5dvz_fdjk688 | Karol G | 2026-11-08 | Guadalupe | no_candidates_returned | - |
-| tm-saint-levant-2026-utrecht-z698xzbpz16ezo1d8_ | Saint Levant | 2026-11-13 | Utrecht | no_candidates_returned | - |
-| tm-saint-levant-2026-amsterdam-z698xzbpz1kqt7gc_ | Saint Levant | 2026-11-14 | Amsterdam | no_candidates_returned | - |
-| tm-morat-2026-ciudad-de-mexico-1afzk3egkedteut | Morat | 2026-11-14 | Ciudad de México | no_candidates_returned | - |
-| tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmuj | Morat | 2026-11-15 | Ciudad de México | no_candidates_returned | - |
-| tm-beabadoobee-2026-cardiff-17uov0g6uhod1tg | beabadoobee | 2026-11-16 | Cardiff | no_candidates_returned | - |
-| tm-morat-2026-ciudad-de-mexico-1afzk3egkedtmmv | Morat | 2026-11-17 | Ciudad de México | no_candidates_returned | - |
-| tm-beartooth-2026-maplewood-z7r9jz1aava89 | Beartooth | 2026-11-21 | Maplewood | city_or_metro_match_failed | https://seatgeek.com/beartooth-tickets/saint-paul-minnesota-myth-live-2026-11-21-6-pm/concert/18253083 |
-| tm-polyphia-2026-madrid-z698xz2qz1kp_ozf3 | Polyphia | 2026-11-23 | Madrid | no_candidates_returned | - |
-| tm-bryson-tiller-2026-amsterdam-z698xzbpz1kevfzpk | Bryson Tiller | 2026-11-24 | Amsterdam | no_candidates_returned | - |
-| tm-bryson-tiller-2026-dusseldorf-z698xzc2z16vojuk_e | Bryson Tiller | 2026-11-26 | Düsseldorf | no_candidates_returned | - |
-| tm-harry-styles-2026-docklands-1apzk8ugkd2sm8u | Harry Styles | 2026-11-27 | Docklands | no_candidates_returned | - |
-| tm-interpol-2026-brighton-g5dzzbgwdgxyl | Interpol | 2026-11-27 | Brighton | no_candidates_returned | - |
-| tm-fontaines-d-c-2026-london-1agzkfogkenxxaj | Fontaines D.C. | 2026-11-27 | London | no_candidates_returned | - |
-| tm-harry-styles-2026-docklands-16efz_dckg7slsc | Harry Styles | 2026-11-28 | Docklands | no_candidates_returned | - |
-| tm-chris-stapleton-2026-nashville-g5viz_kleeols | Chris Stapleton | 2026-12-01 | Nashville | no_candidates_returned | - |
-| tm-harry-styles-2026-docklands-1apzk8ugkd2mxoc | Harry Styles | 2026-12-02 | Docklands | no_candidates_returned | - |
-| tm-los-tucanes-de-tijuana-2026-austin-z7r9jz1aazgav | Los Tucanes de Tijuana | 2026-12-03 | Austin | no_candidates_returned | - |
-| tm-harry-styles-2026-docklands-1apzk8ugkd2broi | Harry Styles | 2026-12-04 | Docklands | no_candidates_returned | - |
-| tm-bryson-tiller-2026-leeds-g5vhz_5siv57- | Bryson Tiller | 2026-12-04 | Leeds | no_candidates_returned | - |
-| tm-polyphia-2026-berlin-z698xzc2z16vompnuz | Polyphia | 2026-12-05 | Berlin | no_candidates_returned | - |
-| tm-gorillaz-2026-zapopan-g5dvz_8mtgfu6 | Gorillaz | 2026-12-09 | Zapopan | no_candidates_returned | - |
-| tm-blondshell-2026-manchester-g5dzz_anefaed | Blondshell | 2026-12-12 | Manchester | no_candidates_returned | - |
-| tm-polyphia-2026-manchester-g5vhz_gr4jgl2 | Polyphia | 2026-12-12 | Manchester | no_candidates_returned | - |
-| tm-blondshell-2026-glasgow-17uov0g616cnj6j | Blondshell | 2026-12-13 | Glasgow | no_candidates_returned | - |
-| tm-blondshell-2026-london-g5vhz_adn7kja | Blondshell | 2026-12-15 | London | no_candidates_returned | - |
-| tm-koe-wetzel-2027-rohnert-park-z7r9jz1aa7zjf | Koe Wetzel | 2027-01-08 | Rohnert Park | no_candidates_returned | - |
-| tm-black-stone-cherry-2027-bournemouth-g5dzz_g9ioeuq | Black Stone Cherry | 2027-01-14 | Bournemouth | no_candidates_returned | - |
-| tm-hayley-williams-2027-zapopan-17azv0g65ulwtlf | Hayley Williams | 2027-01-17 | Zapopan | no_candidates_returned | - |
-| tm-black-stone-cherry-2027-london-g5dzzbzpu7g4_ | Black Stone Cherry | 2027-01-22 | London | no_candidates_returned | - |
-| tm-black-stone-cherry-2027-london-g5dzzbz9kujcl | Black Stone Cherry | 2027-01-23 | London | no_candidates_returned | - |
-| tm-dancing-with-the-stars-2027-toronto-1avzz_kgks022ry | Dancing With The Stars | 2027-01-24 | Toronto | no_candidates_returned | - |
-| tm-black-stone-cherry-2027-nottingham-g5vhzbzpq5krb | Black Stone Cherry | 2027-01-26 | Nottingham | no_candidates_returned | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnenx | Fuerza Regida | 2027-01-28 | Ciudad de México | no_candidates_returned | - |
-| tm-five-finger-death-punch-2027-odz-z698xzqpz1k-o8yj_ | Five Finger Death Punch | 2027-01-29 | Łódź | no_candidates_returned | - |
-| tm-mico-2027-amsterdam-z698xzbpz16vzefpea | Mico | 2027-01-29 | Amsterdam | no_candidates_returned | - |
-| tm-sylvan-esso-2027-london-g5dzz_fua9vy_ | Sylvan Esso | 2027-01-29 | London | no_candidates_returned | - |
-| tm-aespa-2027-milano-zg9rmiynyzekk1 | aespa | 2027-01-29 | Milano | no_candidates_returned | - |
-| tm-tommy-emmanuel-2027-grand-rapids-z7r9jz1aavspe | Tommy Emmanuel | 2027-01-29 | Grand Rapids | no_candidates_returned | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdlzcpt | Fuerza Regida | 2027-01-29 | Ciudad de México | no_candidates_returned | - |
-| tm-sombr-2027-mexico-1av8z_agkn6tndi | Sombr | 2027-01-29 | México | no_candidates_returned | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdowrar | Fuerza Regida | 2027-01-30 | Ciudad de México | no_candidates_returned | - |
-| tm-sombr-2027-mexico-1av8z_agknaoeux | Sombr | 2027-01-30 | México | no_candidates_returned | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4vgkdxsfp_ | Fuerza Regida | 2027-01-31 | Ciudad de México | no_candidates_returned | - |
-| tm-mico-2027-manchester-g5vhz_flmnkjc | Mico | 2027-02-01 | Manchester | no_candidates_returned | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4vgkdn9bgh | Fuerza Regida | 2027-02-01 | Ciudad de México | no_candidates_returned | - |
-| tm-black-stone-cherry-2027-norwich-g5vhzbzpkx4ut | Black Stone Cherry | 2027-02-03 | Norwich | no_candidates_returned | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacn3ld | Fuerza Regida | 2027-02-03 | Ciudad de México | no_candidates_returned | - |
-| tm-mico-2027-london-g5vhz_fjlqa3s | Mico | 2027-02-04 | London | no_candidates_returned | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgauwxey | Fuerza Regida | 2027-02-04 | Ciudad de México | no_candidates_returned | - |
-| tm-black-stone-cherry-2027-edinburgh-g5dzzbzk-605z | Black Stone Cherry | 2027-02-06 | Edinburgh | no_candidates_returned | - |
-| tm-black-stone-cherry-2027-newcastle-upon-tyne-g5dzz_g10kk11 | Black Stone Cherry | 2027-02-09 | Newcastle Upon Tyne | no_candidates_returned | - |
-| tm-amble-2027-madrid-z698xz2qz1kozfaa3 | Amble | 2027-02-09 | Madrid | no_candidates_returned | - |
-| tm-bts-2027-docklands-17a8v0g65r_eq8g | BTS | 2027-02-10 | Docklands | no_candidates_returned | - |
-| tm-amble-2027-barcelona-z698xz2qz16vb40_3f | Amble | 2027-02-10 | Barcelona | no_candidates_returned | - |
-| tm-role-model-2027-berlin-z698xzc2z16vjt07ba | Role Model | 2027-02-11 | Berlin | no_candidates_returned | - |
-| tm-bts-2027-docklands-17a8v0g659_gumr | BTS | 2027-02-12 | Docklands | no_candidates_returned | - |
-| tm-bts-2027-docklands-17a8v0g65r_ew8m | BTS | 2027-02-13 | Docklands | no_candidates_returned | - |
-| tm-hilary-duff-2027-zapopan-1av8z_fgknzgqjq | Hilary Duff | 2027-02-15 | Zapopan | no_candidates_returned | - |
-| tm-role-model-2027-dusseldorf-z698xzc2z1ka6aaoi | Role Model | 2027-02-17 | Düsseldorf | no_candidates_returned | - |
-| tm-bruno-mars-2027-docklands-1aefz_o37vvzdckk | Bruno Mars | 2027-02-19 | Docklands | no_candidates_returned | - |
-| tm-bruno-mars-2027-docklands-1aefz_ogknww0xk | Bruno Mars | 2027-02-20 | Docklands | no_candidates_returned | - |
-| tm-bruno-mars-2027-docklands-1aefz_ogknwx7x5 | Bruno Mars | 2027-02-23 | Docklands | no_candidates_returned | - |
-| tm-hollywood-undead-2027-birmingham-g5dzz_k9em7do | Hollywood Undead | 2027-02-23 | Birmingham | no_candidates_returned | - |
-| tm-bruno-mars-2027-docklands-1aefz_ogknwx0x2 | Bruno Mars | 2027-02-24 | Docklands | no_candidates_returned | - |
-| tm-dylan-gossett-2027-glasgow-g5dzz_8qwdoqp | Dylan Gossett | 2027-02-24 | Glasgow | no_candidates_returned | - |
-| tm-hollywood-undead-2027-london-g5dzz_kxga-ng | Hollywood Undead | 2027-02-24 | London | no_candidates_returned | - |
-| tm-jake-bugg-2027-london-g5vhz_olkluto | Jake Bugg | 2027-02-25 | London | no_candidates_returned | - |
-| tm-malcolm-todd-2027-glasgow-1adbz_3gknizpvr | Malcolm Todd | 2027-02-25 | Glasgow | no_candidates_returned | - |
-| tm-jake-bugg-2027-london-g5vhz_olvuind | Jake Bugg | 2027-02-26 | London | no_candidates_returned | - |
-| tm-hollywood-undead-2027-manchester-g5vhz_kjdvnwu | Hollywood Undead | 2027-02-26 | Manchester | no_candidates_returned | - |
-| tm-air-supply-2027-moose-jaw-z7r9jz1aavsx4 | Air Supply | 2027-02-26 | Moose Jaw | no_candidates_returned | - |
-| tm-hollywood-undead-2027-glasgow-g5dzz_kpssdt2 | Hollywood Undead | 2027-02-27 | Glasgow | no_candidates_returned | - |
-| tm-hollywood-undead-2027-leeds-g5dzz_krmlxyq | Hollywood Undead | 2027-02-28 | Leeds | no_candidates_returned | - |
-| tm-cage-the-elephant-2027-london-g5vhz_3r6zval | Cage The Elephant | 2027-03-01 | London | no_candidates_returned | - |
-| tm-sleeping-with-sirens-2027-bristol-17u8v0g6gfkrxfj | Sleeping With Sirens | 2027-03-02 | Bristol | no_candidates_returned | - |
-| tm-sleeping-with-sirens-2027-glasgow-g5dzz_g5isp0f | Sleeping With Sirens | 2027-03-03 | Glasgow | no_candidates_returned | - |
-| tm-bon-jovi-2027-docklands-1aefz_fgkxe60v9 | Bon Jovi | 2027-03-04 | Docklands | no_candidates_returned | - |
-| tm-sleeping-with-sirens-2027-manchester-g5vhz_gfgtq6v | Sleeping With Sirens | 2027-03-05 | Manchester | no_candidates_returned | - |
+- None
 
 ## Accepted venue mismatches
 
-| showId | TTC venue | SeatGeek venue | URL |
-| --- | --- | --- | --- |
-| tm-latto-2026-philadelphia-vv17fz_4gkux4p4m | NOTO | Xfinity Mobile Arena | https://seatgeek.com/doja-cat-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-29-7-30-pm/concert/17769353 |
-| tm-pink-martini-2026-philadelphia-z7r9jz1a70ppv | Marian Anderson Hall - Kimmel Center | Kimmel Center - Miller Theater | https://seatgeek.com/pink-martini-tickets/philadelphia-pennsylvania-kimmel-center-miller-theater-2026-12-14-7-pm/concert/18364153 |
-| tm-yacht-rock-revue-2027-huntington-k7vgf_31y4afw | The Paramount in concert with Northwell | The Paramount - Huntington | https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-08-8-pm/concert/18612961 |
-| tm-yacht-rock-revue-2027-huntington-k7vgf_31ykyfq | The Paramount in concert with Northwell | The Paramount - Huntington | https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-09-8-pm/concert/18612966 |
-| tm-yacht-rock-revue-2027-huntington-k7vgf_31y3tkt | The Paramount in concert with Northwell | The Paramount - Huntington | https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-10-7-pm/concert/18612962 |
-| tm-air-supply-2027-ottawa-1ad7z_3gksa1dub | Hard Rock Hotel & Casino Ottawa | Hard Rock Cafe | https://seatgeek.com/air-supply-tickets/ottawa-canada-hard-rock-hotel-and-casino-ottawa-2027-03-03-7-pm/concert/18594799 |
+- None
 
 ## Conflicts found
 
@@ -478,6 +310,7 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-doja-cat-2026-sacramento-g5vyzbsnj9ve1 | doja-cat | 2026-10-21T02:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-doja-cat-2026-austin-g5dizbsl2m6xd | doja-cat | 2026-11-04T01:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-doja-cat-2026-dallas-vvg1yzbstqyohd | doja-cat | 2026-11-05T01:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-doja-cat-2026-san-antonio-g5dizbsnv5jt4 | doja-cat | 2026-11-07T01:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sombr-2026-vancouver-1aozk3agkddnbd1 | sombr | 2026-09-30T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sombr-2026-seattle-vvg1hz_feci1ir | sombr | 2026-10-02T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sombr-2026-portland-vvg1hz_fljtdxu | sombr | 2026-10-03T02:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -490,10 +323,16 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-sombr-2026-austin-g5diz_fem5b0f | sombr | 2026-10-21T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sombr-2026-orlando-1aefz_fgkn1mew3 | sombr | 2026-10-25T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sombr-2026-chicago-vv1a7zk36gkd2hi7b | sombr | 2026-11-05T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-sombr-2026-indianapolis-vv1aazk3apba_ze8u | sombr | 2026-11-07T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-sombr-2026-detroit-vv1afzk3fgkeg5jlz | sombr | 2026-11-08T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-john-summit-2026-chicago-z7r9jz1aazo4o | john-summit | 2026-07-30T22:00:00-05:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-john-summit-2026-champaign-z7r9jz1a70ijb | john-summit | 2026-10-01T19:00:00-05:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-john-summit-2026-montreal-17g8v0g652qqblc | john-summit | 2026-10-23T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-john-summit-2026-washington-1avfz_agklgjntv | john-summit | 2026-10-31T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-john-summit-2026-houston-z7r9jz1a70t74 | john-summit | 2026-11-05T19:00:00-06:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-john-summit-2026-austin-g5diz_52qgtuz | john-summit | 2026-11-07T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-john-summit-2026-fort-worth-vvg1yz_522ahqk | john-summit | 2026-11-08T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-john-summit-2026-fort-worth-vvg1yz_53r5bha | john-summit | 2026-11-09T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bad-bunny-2026-san-juan-z7r9jz1aazgb_ | bad-bunny | 2026-08-22T21:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bad-bunny-2026-san-juan-z7r9jz1aazm40 | bad-bunny | 2026-08-23T21:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-karol-g-2026-santa-clara-g5vyz_anmpkqv | karol-g | 2026-08-23T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -543,6 +382,8 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-teddy-swims-2026-tampa-vvg1vz_fdr-qk6 | teddy-swims | 2026-10-25T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-teddy-swims-2026-houston-z7r9jz1a7x4fs | teddy-swims | 2026-10-28T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-teddy-swims-2026-denver-g5vzz_fuokkc4 | teddy-swims | 2026-11-02T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-teddy-swims-2026-seattle-vvg1hz_fujpiyp | teddy-swims | 2026-11-06T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-teddy-swims-2026-vancouver-1av7z_fgkbd-_xv | teddy-swims | 2026-11-07T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-five-finger-death-punch-2026-auburn-vvg1hz_eppsgpt | five-finger-death-punch | 2026-09-12T01:45:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-five-finger-death-punch-2026-ridgefield-vvg1hz_eq8bvhx | five-finger-death-punch | 2026-09-13T01:45:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-five-finger-death-punch-2026-wheatland-g5vyz_eps2iri | five-finger-death-punch | 2026-09-15T01:45:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -581,9 +422,11 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-don-omar-2026-atlanta-vvg1zz_1unelae | don-omar | 2026-10-18T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-don-omar-2026-el-paso-vvg1yz_1hpge4r | don-omar | 2026-10-26T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-don-omar-2026-salt-lake-city-z7r9jz1a70efv | don-omar | 2026-11-02T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-don-omar-2026-inglewood-vvg10z_56fvyeu | don-omar | 2026-11-07T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-blue-october-2026-wichita-z7r9jz1a7-v0p | blue-october | 2026-10-26T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-blue-october-2026-montreal-1aszkowgke-yptc | blue-october | 2026-11-02T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-blue-october-2026-new-york-city-k7v17_67ag7rfqz | blue-october | 2026-11-05T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-pentatonix-2026-vancouver-1k78vpvbga1v43o | pentatonix | 2026-11-08T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-tyla-2026-london-g5dzz_29jk-dk | tyla | 2026-10-15T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-tyla-2026-london-g5dzz_29jsxep | tyla | 2026-10-16T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-tyla-2026-glasgow-g5dzz_2ebyvny | tyla | 2026-10-18T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -605,7 +448,9 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-in-flames-2026-ft-lauderdale-vvg1vz_3k_p4ju | in-flames | 2026-11-05T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-beartooth-2026-oberhausen-z698xzc2z16voyj3up | beartooth | 2026-09-18T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-stella-lefty-2026-west-hollywood-z7r9jz1a70e4e | stella-lefty | 2026-11-02T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-stella-lefty-2026-dallas-vvg1yz_1xpakgv | stella-lefty | 2026-11-07T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-tobymac-2026-waite-park-vv1akzk3pgkdplazc | tobymac | 2026-09-19T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-tobymac-2026-evansville-vvg1fz_1ipflre | tobymac | 2026-11-07T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-andrea-bocelli-2026-sacramento-g5vyz_d8k3dby | andrea-bocelli | 2026-09-13T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-andrea-bocelli-2026-san-jose-g5vyz_ddjjmmd | andrea-bocelli | 2026-09-14T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-andrea-bocelli-2026-hollywood-vvg1iz_dnrpn0b | andrea-bocelli | 2026-09-16T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -624,6 +469,8 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-michelle-branch-2026-aspen-z7r9jz1a7jfoj | michelle-branch | 2026-10-11T02:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-michelle-branch-2026-boulder-z7r9jz1a7jffk | michelle-branch | 2026-10-12T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-michelle-branch-2026-boston-z7r9jz1a7j4zs | michelle-branch | 2026-11-05T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-michelle-branch-2026-new-york-g5diz_uurkkpj | michelle-branch | 2026-11-06T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-michelle-branch-2026-asbury-park-k7vgf_c7zp9vt | michelle-branch | 2026-11-07T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-fkj-2026-london-g5vhz_g13mdtb | fkj | 2026-10-29T19:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-fkj-2026-london-g5vhz_g1bafoo | fkj | 2026-10-30T19:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sylvan-esso-2026-atlanta-z7r9jz1a7pf-y | sylvan-esso | 2026-10-02T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -650,6 +497,7 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-sienna-spiro-2026-brooklyn-k7vgf_gre9jk_ | sienna-spiro | 2026-10-21T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sienna-spiro-2026-chicago-z7r9jz1a7pxq8 | sienna-spiro | 2026-10-28T00:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sienna-spiro-2026-vancouver-z7r9jz1a7pk0e | sienna-spiro | 2026-11-05T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-sienna-spiro-2026-vancouver-z7r9jz1a7pa4e | sienna-spiro | 2026-11-06T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-malcolm-todd-2026-boston-vvg17z_g1xnurg | malcolm-todd | 2026-09-27T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-malcolm-todd-2026-toronto-177zv0g6gcmrwkt | malcolm-todd | 2026-09-28T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-malcolm-todd-2026-toronto-177zv0g6gcmycf1 | malcolm-todd | 2026-09-29T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -674,6 +522,8 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-dinosaur-jr-2026-menlo-park-z7r9jz1aazmfs | dinosaur-jr | 2026-10-20T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-dinosaur-jr-2026-sacramento-g5vyz_u0dqoo1 | dinosaur-jr | 2026-10-21T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-dinosaur-jr-2026-seattle-vvg1hz_ul9tuc_ | dinosaur-jr | 2026-10-24T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-dinosaur-jr-2026-austin-g5diz_usqkioq | dinosaur-jr | 2026-11-06T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-dinosaur-jr-2026-new-orleans-z7r9jz1a7pu-o | dinosaur-jr | 2026-11-08T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-metallica-2026-las-vegas-1a9zko4gkdtkw4- | metallica | 2026-10-02T03:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-metallica-2026-las-vegas-1a9zko4gkdtfu40 | metallica | 2026-10-04T03:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-metallica-2026-las-vegas-1avjz_agkns9qkh | metallica | 2026-10-09T03:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -694,6 +544,7 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-tommy-emmanuel-2026-kenai-vvg1hz_5wlthim | tommy-emmanuel | 2026-10-10T02:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-tommy-emmanuel-2026-fairbanks-vvg1hz_5i6wuhs | tommy-emmanuel | 2026-10-12T03:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-tommy-emmanuel-2026-dublin-1kkzv0qagauuqvy | tommy-emmanuel | 2026-11-02T20:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-dylan-scott-2026-westbury-k7vgf_oh3fr0h | dylan-scott | 2026-11-07T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-yacht-rock-revue-2026-huntsville-17fzv0g62kqgox0 | yacht-rock-revue | 2026-10-24T00:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-too-many-zooz-2026-brooklyn-k7vgf_opjosbe | too-many-zooz | 2026-10-31T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-amble-2026-sheffield-g5vhz_5sagy5t | amble | 2026-09-28T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -704,12 +555,14 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-amble-2026-cardiff-g5vhz_5sqgbqz | amble | 2026-10-06T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-amble-2026-london-g5dzz_5sz3vmk | amble | 2026-10-08T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-amble-2026-los-angeles-vv170z_agkrleod6 | amble | 2026-10-24T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-amble-2026-boston-vv177z_agkwhenya | amble | 2026-11-07T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-the-red-clay-strays-2026-pittsburgh-1avbz_fgklj6-n0 | the-red-clay-strays | 2026-10-01T22:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-the-red-clay-strays-2026-grand-rapids-z7r9jz1a70vjk | the-red-clay-strays | 2026-10-03T22:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-the-red-clay-strays-2026-fort-worth-vvg1yz_f0exkqy | the-red-clay-strays | 2026-10-07T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-the-red-clay-strays-2026-fort-worth-vvg1yz_f0kf9e_ | the-red-clay-strays | 2026-10-08T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-the-red-clay-strays-2026-orlando-1aefz_fgkvf8_5e | the-red-clay-strays | 2026-10-14T22:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-the-red-clay-strays-2026-charleston-g5evz_akknp14 | the-red-clay-strays | 2026-10-17T22:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-the-red-clay-strays-2026-baton-rouge-z7r9jz1a70vj6 | the-red-clay-strays | 2026-11-06T00:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-daughtry-2026-valley-center-vvg1iz_5rl2h1n | daughtry | 2026-10-04T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-daughtry-2026-troy-k7vgf_grfdn3c | daughtry | 2026-10-12T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-daughtry-2026-uncasville-g5vvz_gld3qfv | daughtry | 2026-10-16T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -748,7 +601,15 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-mico-2026-las-vegas-17ayv0g61m2w1ya | mico | 2026-10-18T02:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-mico-2026-san-diego-vvg1iz_1uivzmh | mico | 2026-10-20T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-mico-2026-austin-g5diz_1wd9gll | mico | 2026-10-23T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-mico-2026-montreal-16szkfk00zagk68g | mico | 2026-11-06T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-mico-2026-toronto-177zv0g61sycnt1 | mico | 2026-11-07T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-karol-g-2026-guadalupe-g5dvz_fd0l9ge | karol-g | 2026-11-07T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-karol-g-2026-guadalupe-g5dvz_fdjam8c | karol-g | 2026-11-08T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-tyla-2026-oslo-z698xzb_z16v-8-pb8 | tyla | 2026-10-30T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-sabaton-2026-dallas-vvg1yzbwnj2elc | sabaton | 2026-11-07T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-morat-2026-ciudad-de-mexico-1afzk3egkebi9id | morat | 2026-11-07T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-morat-2026-ciudad-de-mexico-1afzk3egkedjeux | morat | 2026-11-08T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmu0 | morat | 2026-11-09T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-fkj-2026-k-benhavn-v-z698xzc4z16vvpef0i | fkj | 2026-10-20T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-fkj-2026-praha-1-z698xzu0z16v7kp8r6 | fkj | 2026-10-23T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-the-psychedelic-furs-2026-menlo-park-z7r9jz1a7p90y | the-psychedelic-furs | 2026-11-02T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -756,6 +617,7 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-josiah-queen-2026-westlake-village-rz7hnez1afuekf | josiah-queen | 2026-10-25T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-josiah-queen-2026-trinity-rz7hnez1afuea0 | josiah-queen | 2026-10-29T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-fontaines-d-c-2026-praha-7-z698xzu0z16vouudjv | fontaines-d-c | 2026-10-30T19:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-fontaines-d-c-2026-oslo-z698xzb_z16vftpojp | fontaines-d-c | 2026-11-06T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-warren-zeiders-2026-oslo-z698xzb_z16v4v_kce | warren-zeiders | 2026-11-02T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-def-leppard-2026-ciudad-de-mexico-17azv0g65px_l4r | def-leppard | 2026-10-20T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-def-leppard-2026-tlajomulco-de-zuniga-g5dvz_5361kla | def-leppard | 2026-10-22T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -767,6 +629,7 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-rod-wave-2026-boston-vvg17z_uerk22e | rod-wave | 2026-10-26T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-rod-wave-2026-chicago-vvg18z_udha5ep | rod-wave | 2026-11-01T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-rod-wave-2026-chicago-vvg18z_uqcj0ym | rod-wave | 2026-11-02T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-rod-wave-2026-columbia-g5evz_udquqas | rod-wave | 2026-11-07T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-uicideboy-2026-albuquerque-g5vzz_6ro72lp | uicideboy | 2026-10-12T00:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-uicideboy-2026-tampa-vvg1vz_6rke2ej | uicideboy | 2026-10-17T22:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-uicideboy-2026-birmingham-1aezz_6gkra4gmu | uicideboy | 2026-10-20T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -785,18 +648,22 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-the-smashing-pumpkins-2026-nashville-g5viz_1bbgqqs | the-smashing-pumpkins | 2026-10-23T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-the-smashing-pumpkins-2026-austin-g5diz_1txjp-0 | the-smashing-pumpkins | 2026-10-26T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-the-smashing-pumpkins-2026-portland-vvg1hz_1meesxh | the-smashing-pumpkins | 2026-11-02T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-the-smashing-pumpkins-2026-seattle-vvg1hz_1wymaop | the-smashing-pumpkins | 2026-11-07T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-fuerza-regida-2026-atlanta-vvg1zz_83jdpwc | fuerza-regida | 2026-10-12T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-fuerza-regida-2026-birmingham-1aozkfdgkeytw9q | fuerza-regida | 2026-10-14T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-fuerza-regida-2026-albuquerque-g5vzz_8cnmbuy | fuerza-regida | 2026-10-18T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-fuerza-regida-2026-wheatland-g5vyz_81rrfk3 | fuerza-regida | 2026-10-24T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-fuerza-regida-2026-bakersfield-z7r9jz1aavaxk | fuerza-regida | 2026-10-26T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-noah-kahan-2026-glasgow-1adbz_fgkn7svza | noah-kahan | 2026-11-05T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-noah-kahan-2026-glasgow-1auzk3agkdn-buh | noah-kahan | 2026-11-06T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-journey-2026-sunrise-z7r9jz1a70_73 | journey | 2026-10-16T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-journey-2026-orlando-17fov0g613pzs04 | journey | 2026-10-17T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-twenty-one-pilots-2026-columbus-vvg1fz_1uqt9_r | twenty-one-pilots | 2026-10-17T22:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdl6xfl | earth-wind-fire | 2026-10-18T03:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-earth-wind-fire-2026-las-vegas-1a9zkopgkdl5e46 | earth-wind-fire | 2026-10-24T03:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-santana-2026-las-vegas-17ayv0g6ck11zds | santana | 2026-11-05T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-santana-2026-las-vegas-17ayv0g6ck1gfdb | santana | 2026-11-06T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-santana-2026-las-vegas-17ayv0g6ck1ub7d | santana | 2026-11-08T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-gorillaz-2026-phoenix-1av0z_agknirbye | gorillaz | 2026-10-24T01:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-weezer-2026-houston-z7r9jz1a7-mum | weezer | 2026-10-17T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-weezer-2026-dallas-vvg1yz_kmvonlg | weezer | 2026-10-18T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -811,6 +678,7 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-jonas-brothers-2026-buffalo-k7vgf_8deoygx | jonas-brothers | 2026-10-20T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-jonas-brothers-2026-detroit-vv17oz_8gksd_91x | jonas-brothers | 2026-10-25T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-jonas-brothers-2026-milwaukee-vv17jz_8gkmhf3ll | jonas-brothers | 2026-11-02T01:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-jonas-brothers-2026-birmingham-1aezz_8gkmdc0pi | jonas-brothers | 2026-11-07T01:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-raye-2026-london-g5vhz_frai-ph | raye | 2026-10-23T19:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-morat-2026-valencia-z698xz2qz1aofa18 | morat | 2026-10-23T15:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-morat-2026-sevilla-z698xz2qz16vb7goa0 | morat | 2026-10-25T15:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -819,6 +687,7 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-morat-2026-madrid-z698xz2qz16v0v0ypz | morat | 2026-10-30T16:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-brand-new-2026-boston-z7r9jz1a7ps_m | brand-new | 2026-10-20T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-brand-new-2026-newport-z7r9jz1aaz_o7 | brand-new | 2026-10-22T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-brand-new-2026-anaheim-vvg10z_ueuvpcr | brand-new | 2026-11-08T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-kacey-musgraves-2026-los-angeles-z7r9jz1a70kag | kacey-musgraves | 2026-10-20T02:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-knocked-loose-2026-nashville-z7r9jz1a7pd4s | knocked-loose | 2026-10-20T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-knocked-loose-2026-saint-louis-17f8v0g65e8csoj | knocked-loose | 2026-10-22T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -842,6 +711,7 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-bryson-tiller-2026-vancouver-1778v0g65sqi5ae | bryson-tiller | 2026-10-31T02:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bryson-tiller-2026-seattle-vvg1hz_5llgxaj | bryson-tiller | 2026-11-02T03:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-arcangel-2026-brooklyn-17gzv0g61ux2pkd | arcangel | 2026-10-24T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-arcangel-2026-irving-vvg1yz_5kyqgxt | arcangel | 2026-11-07T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-morat-2026-madrid-z698xz2qz16vqfvsuz | morat | 2026-10-31T16:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-stevie-wonder-2026-fornebu-z698xzb_z1k03fkoa | stevie-wonder | 2026-10-20T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-stevie-wonder-2026-stockholm-z698xzq2z16vqozokb | stevie-wonder | 2026-10-22T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -850,40 +720,77 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-stevie-wonder-2026-dublin-1avoz_ogkmfynew | stevie-wonder | 2026-11-01T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-stevie-wonder-2026-london-1adfz_ogkluzbfe | stevie-wonder | 2026-11-03T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-stevie-wonder-2026-london-1adfz_ogkwbmppe | stevie-wonder | 2026-11-05T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-stevie-wonder-2026-manchester-1adjz_ogklby6m_ | stevie-wonder | 2026-11-08T19:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-tom-jones-2026-san-diego-vvg1iz_5gqcfyd | tom-jones | 2026-11-04T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-tom-jones-2026-highland-z7r9jz1a7p6r4 | tom-jones | 2026-11-07T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-tom-jones-2026-san-francisco-g5vyz_5d9skqu | tom-jones | 2026-11-02T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-a-boogie-wit-da-hoodie-2026-boston-vv1a8vpgbgaumyrw | a-boogie-wit-da-hoodie | 2026-11-07T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-katseye-2026-washington-17a8v0g619llzuk | katseye | 2026-10-23T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-katseye-2026-belmont-park-17gzv0g61mqmkdg | katseye | 2026-10-26T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-katseye-2026-boston-vvg17z_1eilxli | katseye | 2026-10-29T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-katseye-2026-detroit-vvg1oz_1efshc4 | katseye | 2026-11-04T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-katseye-2026-minneapolis-vvg1bz_1syoq0j | katseye | 2026-11-08T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-ricky-martin-2026-lincoln-g5vyz_grrfawg | ricky-martin | 2026-11-07T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-ty-myers-2026-evansville-vv1aazkowgkd1n5gg | ty-myers | 2026-10-24T00:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-dan-shay-2026-rogers-g5viz_1x8yivv | dan-shay | 2026-10-24T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-dan-shay-2026-anaheim-vvg10z_1damnyd | dan-shay | 2026-11-07T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-dave-matthews-band-2026-madison-z7r9jz1aazj8x | dave-matthews-band | 2026-11-05T01:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-dave-matthews-band-2026-nashville-g5viz_2znwmqm | dave-matthews-band | 2026-11-07T01:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-the-chicks-2026-seattle-vvg1hz_52nooej | the-chicks | 2026-10-26T03:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-the-chicks-2026-hollywood-vvg10z_5ljdml9 | the-chicks | 2026-11-02T04:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-the-chicks-2026-hollywood-vvg10z_5ra8fba | the-chicks | 2026-11-05T04:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-zac-brown-band-2026-detroit-vv1afzk8vgkdi6e86 | zac-brown-band | 2026-11-07T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sleeping-with-sirens-2026-chicago-vvg18z_gr6ix5f | sleeping-with-sirens | 2026-10-26T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sleeping-with-sirens-2026-pittsburgh-z7r9jz1a7p_ae | sleeping-with-sirens | 2026-10-27T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sleeping-with-sirens-2026-sayreville-z7r9jz1a7p_a7 | sleeping-with-sirens | 2026-11-05T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-sleeping-with-sirens-2026-philadelphia-vvg1fz_gm9cqxe | sleeping-with-sirens | 2026-11-07T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-jack-johnson-2026-brisbane-1k7yv0jtgaugdpl | jack-johnson | 2026-11-06T06:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-jack-johnson-2026-brisbane-1akzkosgkdpve0m | jack-johnson | 2026-11-07T06:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-jack-johnson-2026-brisbane-1k7yv0jtgaudsje | jack-johnson | 2026-11-08T06:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-gavin-adcock-2026-boston-vv177z_kgkmr1ooo | gavin-adcock | 2026-11-07T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-riley-green-2026-manchester-vv177z_fgkwnh6_i | riley-green | 2026-11-02T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-mico-2026-brooklyn-rz7hnez1afcpa7 | mico | 2026-10-30T16:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-anuel-aa-2026-belmont-park-1ayzkffgkd4zfkj | anuel-aa | 2026-11-07T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-billy-strings-2026-baltimore-1avfz_6gkm3naew | billy-strings | 2026-10-30T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-cristian-castro-2026-glendale-1a_zko8gkebja4t | cristian-castro | 2026-11-07T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwppux | barry-manilow | 2026-11-07T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-koe-wetzel-2026-morrison-z7r9jz1a7-0gf | koe-wetzel | 2026-10-29T00:45:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-victoria-monet-2026-houston-g5diz_33ccqfw | victoria-monet | 2026-11-01T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-victoria-monet-2026-dallas-vvg1yz_3n9clqe | victoria-monet | 2026-11-03T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-victoria-monet-2026-atlanta-z7r9jz1aavpbj | victoria-monet | 2026-11-05T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-victoria-monet-2026-charlotte-g5evz_3nkdbni | victoria-monet | 2026-11-06T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-brandi-carlile-2026-portland-z7r9jz1aaea4m | brandi-carlile | 2026-11-06T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-brandi-carlile-2026-oakland-g5vyz_k55sumi | brandi-carlile | 2026-11-08T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-little-big-town-2026-virginia-beach-vvg17z_gg7kjfl | little-big-town | 2026-11-06T00:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-little-big-town-2026-durham-g5evz_gplfpyl | little-big-town | 2026-11-07T00:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-little-big-town-2026-charlotte-g5evz_g5h5gi9 | little-big-town | 2026-11-08T00:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-illenium-2026-las-vegas-z7r9jz1aaz7qs | illenium | 2026-10-31T05:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bryan-adams-2026-las-vegas-17ayv0g62mrffoe | bryan-adams | 2026-10-29T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bryan-adams-2026-las-vegas-17ayv0g62mr5fkv | bryan-adams | 2026-11-02T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-calvin-harris-2026-las-vegas-z7r9jz1aav9ui | calvin-harris | 2026-11-08T06:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-air-supply-2026-medford-vv177z_6gkl3s3mj | air-supply | 2026-11-06T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-foreigner-2026-reno-1kc8v0otgacbkaa | foreigner | 2026-11-02T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sting-2026-akron-vv1aazkobgkdpsd9k | sting | 2026-11-02T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sting-2026-akron-vv17fz_agkm57pk- | sting | 2026-11-03T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-sting-2026-pittsburgh-1avbz_kgkwesf_t | sting | 2026-11-07T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-sting-2026-pittsburgh-1avbz_kgkwscsdv | sting | 2026-11-08T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-three-days-grace-2026-nashville-g5vizbu4hqfya | three-days-grace | 2026-11-02T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-three-days-grace-2026-peoria-vv1a6zkuppfa-ze27 | three-days-grace | 2026-11-04T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-three-days-grace-2026-tulsa-1aozkupgkdxuamf | three-days-grace | 2026-11-07T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-cody-johnson-2026-birmingham-1kfyv0o_ga1tsuk | cody-johnson | 2026-11-01T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-cody-johnson-2026-glasgow-1auzk8ugkdf-aiv | cody-johnson | 2026-11-02T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-cody-johnson-2026-belfast-1azzkodgkdbmxb7 | cody-johnson | 2026-11-04T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-cody-johnson-2026-dublin-1avoz_73704zd85a | cody-johnson | 2026-11-05T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-motionless-in-white-2026-raleigh-g5evz_5mdu9qp | motionless-in-white | 2026-11-03T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-motionless-in-white-2026-port-wentworth-vvg1zz_5lcp7qp | motionless-in-white | 2026-11-04T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-motionless-in-white-2026-orlando-17fov0g65wwp47r | motionless-in-white | 2026-11-05T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-motionless-in-white-2026-nashville-g5viz_5no0bwc | motionless-in-white | 2026-11-08T00:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-motionless-in-white-2026-peoria-vvg1jz_5wcknnp | motionless-in-white | 2026-11-09T00:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-jodeci-2026-saint-louis-vvg1bz_2r0qtwk | jodeci | 2026-11-05T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-jodeci-2026-detroit-vvg1oz_2lg-loc | jodeci | 2026-11-07T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-mercyme-2026-colorado-springs-z7r9jz1a70nz_ | mercyme | 2026-11-06T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-gary-allan-2026-catoosa-z7r9jz1aaza0p | gary-allan | 2026-11-07T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-mon-laferte-2026-las-vegas-z7r9jz1a7-sud | mon-laferte | 2026-11-06T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-mon-laferte-2026-san-jose-g5vyz_kmf8y1d | mon-laferte | 2026-11-07T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-lenny-pearce-2026-san-antonio-g5diz_gedaabt | lenny-pearce | 2026-11-06T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-gary-allan-2026-newkirk-z7r9jz1aavecf | gary-allan | 2026-11-08T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |

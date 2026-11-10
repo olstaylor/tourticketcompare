@@ -486,25 +486,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7748033",
-        "url": "https://www.ticketnetwork.com/en/p/7748033",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7748033",
-        "url": "https://www.ticketliquidator.com/tickets/7748033/Foy-Vance-tickets-Fri-Nov-6-2026-El-Rey-Theatre-Los-Angeles",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-9fP",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748033",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748033/Foy-Vance-tickets-Fri-Nov-6-2026-El-Rey-Theatre-Los-Angeles"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-foy-vance-2026-los-angeles-z7r9jz1a7--kd",
@@ -555,25 +555,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7748034",
-        "url": "https://www.ticketnetwork.com/en/p/7748034",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7748034",
-        "url": "https://www.ticketliquidator.com/tickets/7748034/Foy-Vance-tickets-Sat-Nov-7-2026-El-Rey-Theatre-Los-Angeles",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7--kd",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748034",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748034/Foy-Vance-tickets-Sat-Nov-7-2026-El-Rey-Theatre-Los-Angeles"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-foy-vance-2026-portland-z7r9jz1aavffz",
@@ -613,7 +613,7 @@
         "event_id": 6685300,
         "url": "https://www.vividseats.com/foy-vance-tickets-portland-aladdin-theater-11-10-2026/production/6685300",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -675,14 +675,14 @@
         "event_id": 18084359,
         "url": "https://seatgeek.com/foy-vance-tickets/seattle-washington-neptune-theatre-wa-2026-11-13-7-pm/concert/18084359",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6682762,
         "url": "https://www.vividseats.com/foy-vance-tickets-seattle-the-neptune-theatre-11-13-2026--concerts-alternative/production/6682762",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -746,7 +746,7 @@
         "event_id": 18084166,
         "url": "https://seatgeek.com/foy-vance-tickets/spokane-washington-knitting-factory-spokane-2026-11-14-7-pm/concert/18084166",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -817,7 +817,7 @@
         "event_id": 18084164,
         "url": "https://seatgeek.com/foy-vance-tickets/boise-idaho-knitting-factory-concert-house-boise-2026-11-16-7-pm/concert/18084164",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -840,6 +840,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748037",
+        "url": "https://www.ticketliquidator.com/tickets/7748037/Foy-Vance-tickets-Mon-Nov-16-2026-Knitting-Factory-Concert-House-Boise",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_AkYQnB8",
@@ -847,7 +854,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748037",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748037/Foy-Vance-tickets-Mon-Nov-16-2026-Knitting-Factory-Concert-House-Boise"
   },
   {
     "id": "tm-foy-vance-2026-englewood-z7r9jz1a7--ke",
@@ -887,7 +895,7 @@
         "event_id": 6683035,
         "url": "https://www.vividseats.com/foy-vance-tickets-englewood-gothic-theatre-11-21-2026/production/6683035",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1014,7 +1022,7 @@
         "event_id": 6682776,
         "url": "https://www.vividseats.com/foy-vance-tickets-birmingham-iron-city-birmingham-4-7-2027--concerts-alternative/production/6682776",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1081,14 +1089,14 @@
         "event_id": 18085786,
         "url": "https://seatgeek.com/foy-vance-tickets/atlanta-georgia-variety-playhouse-2027-04-08-7-pm/concert/18085786",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6694108,
         "url": "https://www.vividseats.com/foy-vance-tickets-atlanta-variety-playhouse-4-8-2027/production/6694108",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1157,7 +1165,7 @@
         "event_id": 6682783,
         "url": "https://www.vividseats.com/foy-vance-tickets-knoxville-bijou-theatre---knoxville-4-10-2027--concerts-alternative/production/6682783",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1202,7 +1210,7 @@
     "tour_name": "The Wake World Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7-K1v",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-K1v",
-    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/cincinnati-ohio-anderson-theater-at-cincinnati-memorial-hall-2027-04-12-7-pm/concert/18085807",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-K1v",
@@ -1222,7 +1230,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1244,12 +1252,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748051",
+        "url": "https://www.ticketliquidator.com/tickets/7748051/Foy-Vance-tickets-Mon-Apr-12-2027-Anderson-Theater-At-Cincinnati-Memorial-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-K1v",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748051"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748051",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748051/Foy-Vance-tickets-Mon-Apr-12-2027-Anderson-Theater-At-Cincinnati-Memorial-Hall"
   },
   {
     "id": "tm-foy-vance-2027-saint-paul-z7r9jz1a7jfgw",
@@ -1282,14 +1298,14 @@
         "event_id": 18085797,
         "url": "https://seatgeek.com/foy-vance-tickets/saint-paul-minnesota-fitzgerald-theater-2027-04-15-7-pm/concert/18085797",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6683158,
         "url": "https://www.vividseats.com/foy-vance-tickets-saint-paul-fitzgerald-theater-4-15-2027/production/6683158",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1358,7 +1374,7 @@
         "event_id": 6682788,
         "url": "https://www.vividseats.com/foy-vance-tickets-toronto-the-danforth-music-hall-4-21-2027--concerts-alternative/production/6682788",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1411,14 +1427,14 @@
         "event_id": 18387603,
         "url": "https://seatgeek.com/foy-vance-tickets/york-pennsylvania-appell-center-for-the-performing-arts-capitol-theatre-2027-04-27-7-pm/concert/18387603",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690689,
         "url": "https://www.vividseats.com/foy-vance-tickets-york-appell-center-for-the-performing-arts---capitol-theatre-4-27-2027/production/6690689",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1487,7 +1503,7 @@
         "event_id": 6683021,
         "url": "https://www.vividseats.com/foy-vance-tickets-boston-the-wilbur-5-1-2027/production/6683021",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1520,7 +1536,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe4_V",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
     "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/san-francisco-california-great-american-music-hall-2026-11-08-7-pm/concert/18085646",
-    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-san-francisco-great-american-music-hall-11-8-2026/production/6687145",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
     "last_verified_at": null,
@@ -1542,11 +1558,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6687145,
-        "url": "https://www.vividseats.com/foy-vance-tickets-san-francisco-great-american-music-hall-11-8-2026/production/6687145",
-        "verified": true,
-        "last_verified_at": "2026-11-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1684,7 +1700,7 @@
         "event_id": 6683044,
         "url": "https://www.vividseats.com/foy-vance-tickets-nashville-the-basement-east-4-9-2027/production/6683044",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1757,7 +1773,7 @@
         "event_id": 6683041,
         "url": "https://www.vividseats.com/foy-vance-tickets-chicago-thalia-hall-4-17-2027/production/6683041",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1827,7 +1843,7 @@
         "event_id": 6683012,
         "url": "https://www.vividseats.com/foy-vance-tickets-washington-howard-theatre---dc-4-24-2027/production/6683012",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1897,7 +1913,7 @@
         "event_id": 6683019,
         "url": "https://www.vividseats.com/foy-vance-tickets-new-york-sony-hall-4-30-2027/production/6683019",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1960,14 +1976,14 @@
         "event_id": 18370696,
         "url": "https://seatgeek.com/foy-vance-tickets/ardmore-pennsylvania-the-ardmore-music-hall-2027-04-23-8-pm/concert/18370696",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6687157,
         "url": "https://www.vividseats.com/foy-vance-tickets-ardmore-ardmore-music-hall-4-23-2027/production/6687157",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

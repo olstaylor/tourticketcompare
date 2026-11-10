@@ -324,25 +324,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7594542",
-        "url": "https://www.ticketnetwork.com/en/p/7594542",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7594542",
-        "url": "https://www.ticketliquidator.com/tickets/7594542/Mana-tickets-Fri-Nov-6-2026-Toyota-Center-TX",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7rbk4",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7594542",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7594542/Mana-tickets-Fri-Nov-6-2026-Toyota-Center-TX",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -378,7 +378,7 @@
         "event_id": 17938859,
         "url": "https://seatgeek.com/mana-tickets/austin-texas-moody-center-atx-2026-11-08-8-30-pm/concert/17938859",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -589,7 +589,7 @@
         "event_id": 7730506,
         "url": "https://www.vividseats.com/mana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-4-6-2027/production/7730506",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -869,7 +869,7 @@
         "event_id": 7730502,
         "url": "https://www.vividseats.com/mana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-9-2-2027/production/7730502",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

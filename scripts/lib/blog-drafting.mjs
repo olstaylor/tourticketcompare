@@ -300,7 +300,14 @@ const eventUrlId = (value) => {
   try {
     let url = new URL(String(value || ''));
     if (/(^|\.)evyy\.net$/i.test(url.hostname) && url.searchParams.get('u')) url = new URL(url.searchParams.get('u'));
-    return /(^|\.)ticketmaster\.[a-z.]+$/i.test(url.hostname) ? url.pathname.match(/\/event\/([0-9A-Za-z]+)\/?$/)?.[1]?.toLowerCase() || null : null;
+    if (!/(^|\.)ticketmaster\.[a-z.]+$/i.test(url.hostname)) return null;
+    const northAmerican = url.pathname.match(/\/event\/([0-9A-Za-z]+)\/?$/)?.[1];
+    if (northAmerican) return northAmerican.toLowerCase();
+    // International storefronts (.se, .nl, .es ...) use /event/<name-slug>/<numeric-id>,
+    // and Discovery returns a localised slug ("-biljetter" for "-tickets"). The
+    // numeric id is only unique per storefront, so the host is part of the key.
+    const international = url.pathname.match(/^\/event\/[^/]+\/(\d+)\/?$/)?.[1];
+    return international ? `${url.hostname.toLowerCase().replace(/^www\./, '')}:${international}` : null;
   } catch { return null; }
 };
 const sameInstant = (a, b) => Number.isFinite(Date.parse(a)) && Date.parse(a) === Date.parse(b);

@@ -340,14 +340,14 @@
         "event_id": 18126079,
         "url": "https://seatgeek.com/sabaton-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2026-12-03-7-pm/concert/18126079",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6789538,
         "url": "https://www.vividseats.com/sabaton-tickets-pittsburgh-citizens-live-at-the-wylie-12-3-2026--concerts-hard-rock/production/6789538",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -425,14 +425,14 @@
         "event_id": 18126050,
         "url": "https://seatgeek.com/sabaton-tickets/nashville-tennessee-the-truth-nashville-2026-12-09-7-pm/concert/18126050",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6789881,
         "url": "https://www.vividseats.com/sabaton-tickets-nashville-the-truth-12-9-2026/production/6789881",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -497,7 +497,7 @@
     "tour_name": "Legends On Tour",
     "ticketmaster_event_id": "2200645500EFAA8A",
     "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-orlando-florida-12-11-2026/event/2200645500EFAA8A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sabaton-tickets/orlando-florida-hard-rock-live-orlando-2026-12-11-7-pm/concert/18107974",
     "vividseats_url": "https://www.vividseats.com/sabaton-tickets-orlando-hard-rock-live---orlando-12-11-2026/production/6752109",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-orlando-florida-12-11-2026/event/2200645500EFAA8A",
@@ -513,17 +513,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18107974,
+        "url": "https://seatgeek.com/sabaton-tickets/orlando-florida-hard-rock-live-orlando-2026-12-11-7-pm/concert/18107974",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6752109,
         "url": "https://www.vividseats.com/sabaton-tickets-orlando-hard-rock-live---orlando-12-11-2026/production/6752109",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -615,7 +615,7 @@
         "event_id": 17726761,
         "url": "https://seatgeek.com/sabaton-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-12-7-pm/concert/17726761",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -638,6 +638,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7409995",
+        "url": "https://www.ticketliquidator.com/tickets/7409995/Sabaton-tickets-Sat-Dec-12-2026-FTL-War-Memorial-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Oqe",
@@ -646,7 +653,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7409995"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7409995",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7409995/Sabaton-tickets-Sat-Dec-12-2026-FTL-War-Memorial-Auditorium"
   },
   {
     "id": "tm-sabaton-2027-glasgow-17uov0g6g3si1v4",
@@ -686,7 +694,7 @@
         "event_id": 7137164,
         "url": "https://www.vividseats.com/sabaton-tickets-glasgow-ovo-hydro-4-9-2027/production/7137164",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -769,7 +777,7 @@
         "event_id": 7137162,
         "url": "https://www.vividseats.com/sabaton-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-4-10-2027/production/7137162",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -998,7 +1006,7 @@
     "tour_name": "Legends On Tour",
     "ticketmaster_event_id": "0C006328DC3C27CE",
     "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-dallas-texas-11-06-2026/event/0C006328DC3C27CE",
-    "seatgeek_url": "https://seatgeek.com/sabaton-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2026-11-06-7-pm/concert/17732671",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-dallas-texas-11-06-2026/event/0C006328DC3C27CE",
@@ -1014,11 +1022,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 17732671,
-        "url": "https://seatgeek.com/sabaton-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2026-11-06-7-pm/concert/17732671",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1035,11 +1043,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7410005",
-        "url": "https://www.ticketnetwork.com/en/p/7410005",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7410005",
@@ -1060,7 +1068,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410005",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410005/Sabaton-tickets-Fri-Nov-6-2026-South-Side-Ballroom-at-Gilleys",
     "stubhub_international_url": "https://www.stubhub.ie/sabaton-dallas-tickets-11-6-2026/event/107457434",
     "organizer_names": [
@@ -1099,7 +1107,7 @@
         "event_id": 17732669,
         "url": "https://seatgeek.com/sabaton-tickets/houston-texas-713-music-hall-2026-11-07-7-pm/concert/17732669",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1117,11 +1125,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7410004",
-        "url": "https://www.ticketnetwork.com/en/p/7410004",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7410004",
@@ -1131,20 +1139,20 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107457435",
-        "url": "https://www.stubhub.ie/sabaton-houston-tickets-11-7-2026/event/107457435",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbwlrP709",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410004",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410004/Sabaton-tickets-Sat-Nov-7-2026-713-Music-Hall",
-    "stubhub_international_url": "https://www.stubhub.ie/sabaton-houston-tickets-11-7-2026/event/107457435",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1263,7 +1271,7 @@
         "event_id": 17732667,
         "url": "https://seatgeek.com/sabaton-tickets/phoenix-arizona-arizona-financial-theatre-2026-11-11-7-pm/concert/17732667",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1323,7 +1331,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-wheatland-california-11-14-2026/event/1C006325B6186200",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1338,7 +1346,7 @@
         "event_id": 17732679,
         "url": "https://seatgeek.com/sabaton-tickets/wheatland-california-hard-rock-live-sacramento-2026-11-14-7-pm/concert/17732679",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1374,13 +1382,6 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "VIP Pacakge Onsale",
-        "start": "2025-09-19T17:00:00Z",
-        "end": "2026-11-08T06:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410009",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410009/Sabaton-tickets-Sat-Nov-14-2026-Hard-Rock-Live-Sacramento",
     "organizer_names": [
@@ -1420,7 +1421,7 @@
         "event_id": 17732681,
         "url": "https://seatgeek.com/sabaton-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-17-7-pm/concert/17732681",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1504,7 +1505,7 @@
         "event_id": 17732683,
         "url": "https://seatgeek.com/sabaton-tickets/omaha-nebraska-steelhouse-omaha-2026-11-20-7-pm/concert/17732683",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1586,7 +1587,7 @@
         "event_id": 17857308,
         "url": "https://seatgeek.com/sabaton-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-21-7-pm/concert/17857308",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1678,7 +1679,7 @@
         "event_id": 17732691,
         "url": "https://seatgeek.com/sabaton-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-11-22-7-pm/concert/17732691",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1760,7 +1761,7 @@
         "event_id": 17732693,
         "url": "https://seatgeek.com/sabaton-tickets/chicago-illinois-the-salt-shed-indoors-2026-11-24-7-pm/concert/17732693",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1837,7 +1838,7 @@
         "event_id": 17732688,
         "url": "https://seatgeek.com/sabaton-tickets/waukee-iowa-vibrant-music-hall-2026-11-25-7-pm/concert/17732688",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1985,7 +1986,7 @@
         "event_id": 17732695,
         "url": "https://seatgeek.com/sabaton-tickets/cincinnati-ohio-andrew-j-brady-music-center-2026-11-28-7-pm/concert/17732695",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2051,7 +2052,7 @@
         "event_id": 17732696,
         "url": "https://seatgeek.com/sabaton-tickets/detroit-michigan-the-fillmore-detroit-2026-11-29-7-pm/concert/17732696",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2133,7 +2134,7 @@
         "event_id": 17732703,
         "url": "https://seatgeek.com/sabaton-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-12-01-7-pm/concert/17732703",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2207,7 +2208,7 @@
         "event_id": 17732700,
         "url": "https://seatgeek.com/sabaton-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-12-02-7-pm/concert/17732700",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2289,7 +2290,7 @@
         "event_id": 17732702,
         "url": "https://seatgeek.com/sabaton-tickets/virginia-beach-virginia-the-dome-13-2026-12-05-7-pm/concert/17732702",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2356,7 +2357,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-national-harbor-maryland-12-06-2026/event/15006329F9723920",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2371,7 +2372,7 @@
         "event_id": 17732707,
         "url": "https://seatgeek.com/sabaton-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-12-06-7-pm/concert/17732707",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2407,18 +2408,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2025-09-19T14:00:00Z",
-        "end": "2026-11-09T03:00:00Z"
-      },
-      {
-        "name": "Verizon Access Select Seats",
-        "start": "2025-09-19T14:00:00Z",
-        "end": "2026-11-09T03:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410023",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410023/Sabaton-tickets-Sun-Dec-6-2026-The-Theater-at-MGM-National-Harbor",
     "organizer_names": [
@@ -2458,7 +2447,7 @@
         "event_id": 17732711,
         "url": "https://seatgeek.com/sabaton-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-12-08-7-pm/concert/17732711",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {

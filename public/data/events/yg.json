@@ -48,25 +48,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8159330",
-        "url": "https://www.ticketnetwork.com/en/p/8159330",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8159330",
-        "url": "https://www.ticketliquidator.com/tickets/8159330/YG-tickets-Fri-Nov-6-2026-The-Republik-Honolulu",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ6-d",
     "timezone": "Pacific/Honolulu",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8159330",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8159330/YG-tickets-Fri-Nov-6-2026-The-Republik-Honolulu"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-yg-2026-honolulu-z7r9jz1aazajy",
@@ -117,25 +117,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8159331",
-        "url": "https://www.ticketnetwork.com/en/p/8159331",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8159331",
-        "url": "https://www.ticketliquidator.com/tickets/8159331/YG-tickets-Sat-Nov-7-2026-The-Republik-Honolulu",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZAjy",
     "timezone": "Pacific/Honolulu",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8159331",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8159331/YG-tickets-Sat-Nov-7-2026-The-Republik-Honolulu",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "genre": "Hip-Hop/Rap"
   },
   {

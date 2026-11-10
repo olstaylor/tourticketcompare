@@ -7936,6 +7936,110 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "breaking-benjamin",
+      "name": "Breaking Benjamin",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "Breaking Benjamin artist ticket information",
+      "factual_summary": "Breaking Benjamin is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Breaking Benjamin page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Breaking Benjamin Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Breaking Benjamin tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Breaking Benjamin tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "feid",
+      "name": "FEID",
+      "short_description": "Latin act listed on Ticketmaster.",
+      "image_alt": "FEID artist ticket information",
+      "factual_summary": "FEID is listed by Ticketmaster under Latin. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the FEID page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "FEID Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "FEID tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find FEID tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "fall-out-boy",
+      "name": "Fall Out Boy",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "Fall Out Boy artist ticket information",
+      "factual_summary": "Fall Out Boy is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Fall Out Boy page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Fall Out Boy Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Fall Out Boy tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Fall Out Boy tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "the-dead-south",
+      "name": "The Dead South",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "The Dead South artist ticket information",
+      "factual_summary": "The Dead South is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the The Dead South page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "The Dead South Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "The Dead South tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find The Dead South tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -8099,6 +8203,11 @@
     {
       "slug": "ticketnetwork",
       "name": "TicketNetwork",
+      "contact": {
+        "postal_address": "75 Gerber Road East, South Windsor, Connecticut",
+        "source_url": "https://www.ticketnetwork.com/about-us",
+        "last_checked_at": "2026-10-02"
+      },
       "provider_type": "marketplace",
       "public_enabled": true,
       "requires_verified_destination": true,
@@ -8140,6 +8249,12 @@
     {
       "slug": "ticket-liquidator",
       "name": "Ticket Liquidator",
+      "contact": {
+        "support_email": "customersupport@ticketliquidator.com",
+        "support_phone": "(860) 768-9263",
+        "source_url": "https://www.ticketliquidator.com/page/faqs",
+        "last_checked_at": "2026-10-02"
+      },
       "provider_type": "marketplace",
       "public_enabled": true,
       "requires_verified_destination": true,
@@ -15683,6 +15798,118 @@
       "last_checked_at": "2026-11-05",
       "disclosure_required": true,
       "url": "https://seatgeek.com/mat-kearney-tickets"
+    },
+    {
+      "link_id": "tm-artist-breaking-benjamin",
+      "artist_slug": "breaking-benjamin",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-07",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/breaking-benjamin-tickets/artist/841686"
+    },
+    {
+      "link_id": "sg-artist-breaking-benjamin",
+      "artist_slug": "breaking-benjamin",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-07",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/breaking-benjamin-tickets"
+    },
+    {
+      "link_id": "tm-artist-feid",
+      "artist_slug": "feid",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-07",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/feid-tickets/artist/2826011"
+    },
+    {
+      "link_id": "sg-artist-feid",
+      "artist_slug": "feid",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-07",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/feid-tickets"
+    },
+    {
+      "link_id": "tm-artist-fall-out-boy",
+      "artist_slug": "fall-out-boy",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-09",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/fall-out-boy-tickets/artist/854398"
+    },
+    {
+      "link_id": "sg-artist-fall-out-boy",
+      "artist_slug": "fall-out-boy",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-09",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/fall-out-boy-tickets"
+    },
+    {
+      "link_id": "tm-artist-the-dead-south",
+      "artist_slug": "the-dead-south",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-09",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/the-dead-south-tickets/artist/2020797"
+    },
+    {
+      "link_id": "sg-artist-the-dead-south",
+      "artist_slug": "the-dead-south",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-09",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/the-dead-south-tickets"
     }
   ],
   "safety_rules": [

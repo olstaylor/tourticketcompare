@@ -12,9 +12,11 @@ name: Price-drop drafts
 # because it writes no event data. GitHub starts these evening crons late but in
 # order, so the day's snapshots are in by the time it runs.
 
+# Schedule PAUSED 2026-11-09 (owner decision): social posting is paused, so the
+# daily drafts had no reader. Dispatch still works. To resume: restore
+# `schedule: - cron: '15 18 * * *'` and re-add the lane to WATCHED_LANES in
+# scripts/check-automation-health.mjs.
 on:
-  schedule:
-    - cron: '15 18 * * *'
   workflow_dispatch:
 
 permissions:

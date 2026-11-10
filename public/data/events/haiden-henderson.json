@@ -429,7 +429,7 @@
         "event_id": 7593759,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-santa-ana-constellation-room-at-the-observatory-4-5-2027--concerts-pop/production/7593759",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -510,7 +510,7 @@
         "event_id": 7593669,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-houston-the-bronze-peacock-at-house-of-blues-houston-4-9-2027--concerts-pop/production/7593669",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -646,7 +646,7 @@
         "event_id": 7593518,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-charlotte-the-underground-at-the-fillmore-charlotte-4-18-2027--concerts-pop/production/7593518",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -727,7 +727,7 @@
         "event_id": 7593687,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-washington-the-atlantis-4-20-2027--concerts-pop/production/7593687",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -902,6 +902,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284327",
+        "url": "https://www.ticketliquidator.com/tickets/8284327/Haiden-Henderson-tickets-Fri-Apr-23-2027-Irving-Plaza",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K9Pms1B",
@@ -918,7 +925,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284327",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284327/Haiden-Henderson-tickets-Fri-Apr-23-2027-Irving-Plaza"
   },
   {
     "id": "tm-haiden-henderson-2027-boston-vv1avzkfygkegtmcp",
@@ -958,7 +966,7 @@
         "event_id": 7593528,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-boston-big-night-live-4-24-2027--concerts-pop/production/7593528",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1098,7 +1106,7 @@
         "event_id": 7593288,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-milwaukee-the-rave-eagles-club-5-1-2027--concerts-pop/production/7593288",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1145,14 +1153,14 @@
         "event_id": 18669978,
         "url": "https://seatgeek.com/haiden-henderson-tickets/englewood-colorado-gothic-theatre-2027-05-08-8-pm/concert/18669978",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593502,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-englewood-gothic-theatre-5-8-2027--concerts-pop/production/7593502",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1333,7 +1341,7 @@
         "event_id": 7593675,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-nashville-the-basement-east-4-13-2027--concerts-pop/production/7593675",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1406,7 +1414,7 @@
         "event_id": 7593789,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-san-francisco-brick-and-mortar-music-hall-5-14-2027--concerts-pop/production/7593789",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1472,14 +1480,14 @@
         "event_id": 18669773,
         "url": "https://seatgeek.com/haiden-henderson-tickets/west-hollywood-california-troubadour-2027-05-15-7-pm/concert/18669773",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7596830,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-west-hollywood-troubadour---west-hollywood-5-15-2027/production/7596830",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1549,7 +1557,7 @@
         "event_id": 7593284,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-portland-hawthorne-theatre-5-12-2027--concerts-pop/production/7593284",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1570,7 +1578,7 @@
         "event_id": "8284338",
         "url": "https://www.ticketliquidator.com/tickets/8284338/Haiden-Henderson-tickets-Wed-May-12-2027-Hawthorne-Lounge-at-Hawthorne-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       }
     },
@@ -1619,7 +1627,7 @@
         "event_id": 7613114,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-seattle-el-corazon-5-11-2027/production/7613114",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1689,7 +1697,7 @@
         "event_id": 7597366,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-minneapolis-7th-street-entry-5-2-2027/production/7597366",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1759,7 +1767,7 @@
         "event_id": 7593292,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-orlando-the-beacham-4-16-2027--concerts-pop/production/7593292",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -221,7 +221,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "08006434E81E7407",
     "ticketmaster_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-detroit-michigan-11-06-2026/event/08006434E81E7407",
-    "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/detroit-michigan-little-caesars-arena-2026-11-06-7-pm/concert/18032030",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-detroit-little-caesars-arena-11-6-2026--concerts-country-and-folk/production/6579006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-detroit-michigan-11-06-2026/event/08006434E81E7407",
@@ -237,11 +237,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18032030,
-        "url": "https://seatgeek.com/zac-brown-band-tickets/detroit-michigan-little-caesars-arena-2026-11-06-7-pm/concert/18032030",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6579006,
@@ -321,14 +321,14 @@
         "event_id": 18032031,
         "url": "https://seatgeek.com/zac-brown-band-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-11-19-7-pm/concert/18032031",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6579008,
         "url": "https://www.vividseats.com/zac-brown-band-tickets-lincoln-pinnacle-bank-arena-11-19-2026--concerts-country-and-folk/production/6579008",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -476,14 +476,14 @@
         "event_id": 18032037,
         "url": "https://seatgeek.com/zac-brown-band-tickets/rosemont-illinois-allstate-arena-2026-11-21-7-pm/concert/18032037",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6579013,
         "url": "https://www.vividseats.com/zac-brown-band-tickets-rosemont-allstate-arena-11-21-2026--concerts-country-and-folk/production/6579013",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -604,7 +604,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700655BEE711D87",
     "ticketmaster_url": "https://www.ticketmaster.com/zac-brown-band-sparks-nevada-05-01-2027/event/1700655BEE711D87",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/sparks-nevada-nugget-event-center-2027-05-01-7-pm/concert/18739090",
     "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-sparks-nugget-event-center-5-1-2027/production/7795177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-sparks-nevada-05-01-2027/event/1700655BEE711D87",
@@ -620,17 +620,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18739090,
+        "url": "https://seatgeek.com/zac-brown-band-tickets/sparks-nevada-nugget-event-center-2027-05-01-7-pm/concert/18739090",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7795177,
         "url": "https://www.vividseats.com/zac-brown-band-tickets-sparks-nugget-event-center-5-1-2027/production/7795177",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

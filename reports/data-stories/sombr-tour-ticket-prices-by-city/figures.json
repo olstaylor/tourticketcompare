@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-09",
   "artistSlug": "sombr",
   "artist": "Sombr",
   "artistPageIndexable": true,
@@ -11,12 +11,12 @@
   "siteLabel": "Vivid Seats",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-11-06T11:34:43.671Z",
-  "capturedTo": "2026-11-06T17:29:58.768Z",
-  "tourDates": 33,
+  "capturedFrom": "2026-11-09T22:44:47.924Z",
+  "capturedTo": "2026-11-09T22:44:47.924Z",
+  "tourDates": 30,
   "coverage": {
-    "marketCities": 11,
-    "pricedCities": 11,
+    "marketCities": 8,
+    "pricedCities": 8,
     "share": 1,
     "unpricedCities": [],
     "otherCountries": [
@@ -83,14 +83,14 @@
     ]
   },
   "low": {
-    "city": "Indianapolis",
+    "city": "Buffalo",
     "country": "United States",
-    "venue": "Gainbridge Fieldhouse",
-    "eventId": "tm-sombr-2026-indianapolis-vv1aazk3apba_ze8u",
-    "localDate": "2026-11-06",
-    "price": 48,
+    "venue": "KeyBank Center",
+    "eventId": "tm-sombr-2026-buffalo-k7v17_f0kg7ij1e",
+    "localDate": "2026-11-14",
+    "price": 44,
     "currency": "USD",
-    "capturedAt": "2026-11-06T17:29:58.768Z"
+    "capturedAt": "2026-11-09T22:44:47.924Z"
   },
   "high": {
     "city": "Boston",
@@ -98,56 +98,23 @@
     "venue": "TD Garden",
     "eventId": "tm-sombr-2026-boston-vv1avzk36gkdfnkex",
     "localDate": "2026-11-18",
-    "price": 130,
+    "price": 144,
     "currency": "USD",
-    "capturedAt": "2026-11-06T11:34:43.671Z"
+    "capturedAt": "2026-11-09T22:44:47.924Z"
   },
-  "median": 79,
-  "ratio": 2.7,
+  "median": 75,
+  "ratio": 3.2,
   "cities": [
-    {
-      "city": "Indianapolis",
-      "country": "United States",
-      "venue": "Gainbridge Fieldhouse",
-      "eventId": "tm-sombr-2026-indianapolis-vv1aazk3apba_ze8u",
-      "localDate": "2026-11-06",
-      "price": 48,
-      "currency": "USD",
-      "capturedAt": "2026-11-06T17:29:58.768Z",
-      "path": "/artists/sombr/tickets/indianapolis-united-states"
-    },
-    {
-      "city": "Columbus",
-      "country": "United States",
-      "venue": "Nationwide Arena",
-      "eventId": "tm-sombr-2026-columbus-vv1kv8v0xbga57f2-",
-      "localDate": "2026-11-08",
-      "price": 49,
-      "currency": "USD",
-      "capturedAt": "2026-11-06T11:34:43.671Z",
-      "path": "/artists/sombr/tickets/columbus-united-states"
-    },
     {
       "city": "Buffalo",
       "country": "United States",
       "venue": "KeyBank Center",
       "eventId": "tm-sombr-2026-buffalo-k7v17_f0kg7ij1e",
       "localDate": "2026-11-14",
-      "price": 55,
+      "price": 44,
       "currency": "USD",
-      "capturedAt": "2026-11-06T11:34:43.671Z",
+      "capturedAt": "2026-11-09T22:44:47.924Z",
       "path": "/artists/sombr/tickets/buffalo-united-states"
-    },
-    {
-      "city": "Detroit",
-      "country": "United States",
-      "venue": "Little Caesars Arena",
-      "eventId": "tm-sombr-2026-detroit-vv1afzk3fgkeg5jlz",
-      "localDate": "2026-11-07",
-      "price": 56,
-      "currency": "USD",
-      "capturedAt": "2026-11-06T17:29:58.768Z",
-      "path": "/artists/sombr/tickets/detroit-united-states"
     },
     {
       "city": "Pittsburgh",
@@ -155,9 +122,9 @@
       "venue": "PPG Paints Arena",
       "eventId": "tm-sombr-2026-pittsburgh-1kaov0xfga560gt",
       "localDate": "2026-11-12",
-      "price": 56,
+      "price": 48,
       "currency": "USD",
-      "capturedAt": "2026-11-06T11:34:43.671Z",
+      "capturedAt": "2026-11-09T22:44:47.924Z",
       "path": "/artists/sombr/tickets/pittsburgh-united-states"
     },
     {
@@ -166,10 +133,21 @@
       "venue": "Rocket Arena",
       "eventId": "tm-sombr-2026-cleveland-z7r9jz1a7xav7",
       "localDate": "2026-11-13",
-      "price": 79,
+      "price": 63,
       "currency": "USD",
-      "capturedAt": "2026-11-06T11:34:43.671Z",
+      "capturedAt": "2026-11-09T22:44:47.924Z",
       "path": "/artists/sombr/tickets/cleveland-united-states"
+    },
+    {
+      "city": "Philadelphia",
+      "country": "United States",
+      "venue": "Xfinity Mobile Arena",
+      "eventId": "tm-sombr-2026-philadelphia-1kgzv0xbga5zeae",
+      "localDate": "2026-11-19",
+      "price": 68,
+      "currency": "USD",
+      "capturedAt": "2026-11-09T22:44:47.924Z",
+      "path": "/artists/sombr/tickets/philadelphia-united-states"
     },
     {
       "city": "Newark",
@@ -179,7 +157,7 @@
       "localDate": "2026-11-21",
       "price": 82,
       "currency": "USD",
-      "capturedAt": "2026-11-06T11:34:43.671Z",
+      "capturedAt": "2026-11-09T22:44:47.924Z",
       "path": "/artists/sombr/tickets/newark-united-states"
     },
     {
@@ -188,21 +166,10 @@
       "venue": "Capital One Arena",
       "eventId": "tm-sombr-2026-washington-1a4zk3vgkd85lni",
       "localDate": "2026-11-10",
-      "price": 96,
+      "price": 84,
       "currency": "USD",
-      "capturedAt": "2026-11-06T11:34:43.671Z",
+      "capturedAt": "2026-11-09T22:44:47.924Z",
       "path": "/artists/sombr/tickets/washington-united-states"
-    },
-    {
-      "city": "Philadelphia",
-      "country": "United States",
-      "venue": "Xfinity Mobile Arena",
-      "eventId": "tm-sombr-2026-philadelphia-1kgzv0xbga5zeae",
-      "localDate": "2026-11-19",
-      "price": 98,
-      "currency": "USD",
-      "capturedAt": "2026-11-06T11:34:43.671Z",
-      "path": "/artists/sombr/tickets/philadelphia-united-states"
     },
     {
       "city": "New York",
@@ -210,9 +177,9 @@
       "venue": "Madison Square Garden",
       "eventId": "tm-sombr-2026-new-york-g5diz_flfogz-",
       "localDate": "2026-11-23",
-      "price": 100,
+      "price": 133,
       "currency": "USD",
-      "capturedAt": "2026-11-06T11:34:43.671Z",
+      "capturedAt": "2026-11-09T22:44:47.924Z",
       "path": "/artists/sombr/tickets/new-york-united-states"
     },
     {
@@ -221,9 +188,9 @@
       "venue": "TD Garden",
       "eventId": "tm-sombr-2026-boston-vv1avzk36gkdfnkex",
       "localDate": "2026-11-18",
-      "price": 130,
+      "price": 144,
       "currency": "USD",
-      "capturedAt": "2026-11-06T11:34:43.671Z",
+      "capturedAt": "2026-11-09T22:44:47.924Z",
       "path": "/artists/sombr/tickets/boston-united-states"
     }
   ],
@@ -232,47 +199,14 @@
     "siteLabel": "TicketNetwork",
     "cities": [
       {
-        "city": "Indianapolis",
-        "country": "United States",
-        "venue": "Gainbridge Fieldhouse",
-        "eventId": "tm-sombr-2026-indianapolis-vv1aazk3apba_ze8u",
-        "localDate": "2026-11-06",
-        "price": 40.25,
-        "currency": "USD",
-        "capturedAt": "2026-11-06T18:31:18.999Z",
-        "path": "/artists/sombr/tickets/indianapolis-united-states"
-      },
-      {
-        "city": "Detroit",
-        "country": "United States",
-        "venue": "Little Caesars Arena",
-        "eventId": "tm-sombr-2026-detroit-vv1afzk3fgkeg5jlz",
-        "localDate": "2026-11-07",
-        "price": 48.3,
-        "currency": "USD",
-        "capturedAt": "2026-11-06T18:31:35.139Z",
-        "path": "/artists/sombr/tickets/detroit-united-states"
-      },
-      {
-        "city": "Columbus",
-        "country": "United States",
-        "venue": "Nationwide Arena",
-        "eventId": "tm-sombr-2026-columbus-vv1kv8v0xbga57f2-",
-        "localDate": "2026-11-08",
-        "price": 40.25,
-        "currency": "USD",
-        "capturedAt": "2026-11-06T10:58:56.205Z",
-        "path": "/artists/sombr/tickets/columbus-united-states"
-      },
-      {
         "city": "Washington",
         "country": "United States",
         "venue": "Capital One Arena",
         "eventId": "tm-sombr-2026-washington-1a4zk3vgkd85lni",
         "localDate": "2026-11-10",
-        "price": 83.95,
+        "price": 85.1,
         "currency": "USD",
-        "capturedAt": "2026-11-06T10:58:56.397Z",
+        "capturedAt": "2026-11-09T22:44:49.433Z",
         "path": "/artists/sombr/tickets/washington-united-states"
       },
       {
@@ -281,9 +215,9 @@
         "venue": "PPG Paints Arena",
         "eventId": "tm-sombr-2026-pittsburgh-1kaov0xfga560gt",
         "localDate": "2026-11-12",
-        "price": 48.3,
+        "price": 35.65,
         "currency": "USD",
-        "capturedAt": "2026-11-06T10:58:56.597Z",
+        "capturedAt": "2026-11-09T06:37:53.102Z",
         "path": "/artists/sombr/tickets/pittsburgh-united-states"
       },
       {
@@ -292,9 +226,9 @@
         "venue": "Rocket Arena",
         "eventId": "tm-sombr-2026-cleveland-z7r9jz1a7xav7",
         "localDate": "2026-11-13",
-        "price": 103.5,
+        "price": 62.1,
         "currency": "USD",
-        "capturedAt": "2026-11-06T10:58:56.838Z",
+        "capturedAt": "2026-11-09T06:37:53.338Z",
         "path": "/artists/sombr/tickets/cleveland-united-states"
       },
       {
@@ -303,9 +237,9 @@
         "venue": "KeyBank Center",
         "eventId": "tm-sombr-2026-buffalo-k7v17_f0kg7ij1e",
         "localDate": "2026-11-14",
-        "price": 49.45,
+        "price": 40.25,
         "currency": "USD",
-        "capturedAt": "2026-11-06T10:58:57.022Z",
+        "capturedAt": "2026-11-09T06:37:53.575Z",
         "path": "/artists/sombr/tickets/buffalo-united-states"
       },
       {
@@ -314,9 +248,9 @@
         "venue": "TD Garden",
         "eventId": "tm-sombr-2026-boston-vv1avzk36gkdfnkex",
         "localDate": "2026-11-18",
-        "price": 155.25,
+        "price": 134.55,
         "currency": "USD",
-        "capturedAt": "2026-11-06T10:58:57.227Z",
+        "capturedAt": "2026-11-08T23:44:18.228Z",
         "path": "/artists/sombr/tickets/boston-united-states"
       },
       {
@@ -325,9 +259,9 @@
         "venue": "Xfinity Mobile Arena",
         "eventId": "tm-sombr-2026-philadelphia-1kgzv0xbga5zeae",
         "localDate": "2026-11-19",
-        "price": 89.7,
+        "price": 85.1,
         "currency": "USD",
-        "capturedAt": "2026-11-06T10:58:57.483Z",
+        "capturedAt": "2026-11-08T23:44:18.474Z",
         "path": "/artists/sombr/tickets/philadelphia-united-states"
       },
       {
@@ -338,7 +272,7 @@
         "localDate": "2026-11-21",
         "price": 81.65,
         "currency": "USD",
-        "capturedAt": "2026-11-06T10:58:57.681Z",
+        "capturedAt": "2026-11-08T23:44:18.668Z",
         "path": "/artists/sombr/tickets/newark-united-states"
       },
       {
@@ -347,9 +281,9 @@
         "venue": "Madison Square Garden",
         "eventId": "tm-sombr-2026-new-york-g5diz_flfogz-",
         "localDate": "2026-11-23",
-        "price": 96.6,
+        "price": 129.95,
         "currency": "USD",
-        "capturedAt": "2026-11-06T10:58:57.880Z",
+        "capturedAt": "2026-11-08T23:44:18.844Z",
         "path": "/artists/sombr/tickets/new-york-united-states"
       }
     ]

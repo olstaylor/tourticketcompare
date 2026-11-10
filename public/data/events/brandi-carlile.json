@@ -117,25 +117,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8293180",
-        "url": "https://www.ticketnetwork.com/en/p/8293180",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8293180",
-        "url": "https://www.ticketliquidator.com/tickets/8293180/Brandi-Carlile-tickets-Sat-Nov-7-2026-Fox-Theater-Oakland",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K55sUmI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293180",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293180/Brandi-Carlile-tickets-Sat-Nov-7-2026-Fox-Theater-Oakland",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "ANOTHER PLANET"
     ],
@@ -179,7 +179,7 @@
         "event_id": 7618216,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-tucson-rialto-theatre-tucson-11-9-2026/production/7618216",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -250,7 +250,7 @@
         "event_id": 7618214,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-tucson-rialto-theatre-tucson-11-10-2026/production/7618214",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -321,7 +321,7 @@
         "event_id": 7618676,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-milwaukee-pabst-theater-11-14-2026/production/7618676",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -391,7 +391,7 @@
         "event_id": 7618672,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-milwaukee-pabst-theater-11-15-2026/production/7618672",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -454,14 +454,14 @@
         "event_id": 18626663,
         "url": "https://seatgeek.com/brandi-carlile-tickets/minneapolis-minnesota-state-theatre-minneapolis-2026-11-17-8-pm/concert/18626663",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618208,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-minneapolis-state-theatre-minneapolis-11-17-2026/production/7618208",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -528,14 +528,14 @@
         "event_id": 18626661,
         "url": "https://seatgeek.com/brandi-carlile-tickets/minneapolis-minnesota-state-theatre-minneapolis-2026-11-18-8-pm/concert/18626661",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618206,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-minneapolis-state-theatre-minneapolis-11-18-2026/production/7618206",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -602,14 +602,14 @@
         "event_id": 18626665,
         "url": "https://seatgeek.com/brandi-carlile-tickets/louisville-kentucky-louisville-palace-2026-11-20-8-pm/concert/18626665",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618184,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-louisville-louisville-palace-11-20-2026/production/7618184",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -625,6 +625,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293185",
+        "url": "https://www.ticketliquidator.com/tickets/8293185/Brandi-Carlile-tickets-Fri-Nov-20-2026-Louisville-Palace",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfUGkdJvl2T",
@@ -635,7 +642,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293185",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293185/Brandi-Carlile-tickets-Fri-Nov-20-2026-Louisville-Palace"
   },
   {
     "id": "tm-brandi-carlile-2026-louisville-1apzkfugkdjal8x",
@@ -668,14 +676,14 @@
         "event_id": 18626671,
         "url": "https://seatgeek.com/brandi-carlile-tickets/louisville-kentucky-louisville-palace-2026-11-21-8-pm/concert/18626671",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618174,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-louisville-louisville-palace-11-21-2026/production/7618174",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -691,6 +699,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293186",
+        "url": "https://www.ticketliquidator.com/tickets/8293186/Brandi-Carlile-tickets-Sat-Nov-21-2026-Louisville-Palace",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfUGkdJAl8x",
@@ -701,7 +716,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293186",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293186/Brandi-Carlile-tickets-Sat-Nov-21-2026-Louisville-Palace"
   },
   {
     "id": "tm-brandi-carlile-2026-kansas-city-vv1akzkfzgkd6vlxs",
@@ -734,14 +750,14 @@
         "event_id": 18626672,
         "url": "https://seatgeek.com/brandi-carlile-tickets/kansas-city-missouri-uptown-theater-kc-2026-11-22-8-pm/concert/18626672",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618230,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-kansas-city-uptown-theater-kansas-city-11-22-2026/production/7618230",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -808,7 +824,7 @@
         "event_id": 18626674,
         "url": "https://seatgeek.com/brandi-carlile-tickets/port-chester-new-york-the-capitol-theatre-port-chester-2026-12-15-8-pm/concert/18626674",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -831,6 +847,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293187",
+        "url": "https://www.ticketliquidator.com/tickets/8293187/Brandi-Carlile-tickets-Tue-Dec-15-2026-Capitol-Theatre-Port-Chester",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_Kx-SKxh",
@@ -849,7 +872,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293187",
     "ticket_limit": 4,
     "legal_age_enforced": true,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293187/Brandi-Carlile-tickets-Tue-Dec-15-2026-Capitol-Theatre-Port-Chester"
   },
   {
     "id": "tm-brandi-carlile-2026-port-chester-g5vvz_kx-vnxl",
@@ -882,7 +906,7 @@
         "event_id": 18626676,
         "url": "https://seatgeek.com/brandi-carlile-tickets/port-chester-new-york-the-capitol-theatre-port-chester-2026-12-16-8-pm/concert/18626676",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -905,6 +929,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293188",
+        "url": "https://www.ticketliquidator.com/tickets/8293188/Brandi-Carlile-tickets-Wed-Dec-16-2026-Capitol-Theatre-Port-Chester",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_Kx-VNxL",
@@ -923,7 +954,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293188",
     "ticket_limit": 4,
     "legal_age_enforced": true,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293188/Brandi-Carlile-tickets-Wed-Dec-16-2026-Capitol-Theatre-Port-Chester"
   },
   {
     "id": "tm-brandi-carlile-2026-port-chester-g5vvz_kx-gsxn",
@@ -956,7 +988,7 @@
         "event_id": 18626680,
         "url": "https://seatgeek.com/brandi-carlile-tickets/port-chester-new-york-the-capitol-theatre-port-chester-2026-12-17-8-pm/concert/18626680",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -979,6 +1011,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293189",
+        "url": "https://www.ticketliquidator.com/tickets/8293189/Brandi-Carlile-tickets-Thu-Dec-17-2026-Capitol-Theatre-Port-Chester",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_Kx-gSxN",
@@ -997,7 +1036,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293189",
     "ticket_limit": 4,
     "legal_age_enforced": true,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293189/Brandi-Carlile-tickets-Thu-Dec-17-2026-Capitol-Theatre-Port-Chester"
   },
   {
     "id": "tm-brandi-carlile-2027-seattle-vvg1hz_44goz5b",
@@ -1037,7 +1077,7 @@
         "event_id": 7757235,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-seattle-paramount-theatre-seattle-1-5-2027--concerts-rock/production/7757235",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1107,7 +1147,7 @@
         "event_id": 7757237,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-seattle-paramount-theatre-seattle-1-6-2027--concerts-rock/production/7757237",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1177,7 +1217,7 @@
         "event_id": 7757239,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-seattle-paramount-theatre-seattle-1-9-2027--concerts-rock/production/7757239",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1247,7 +1287,7 @@
         "event_id": 7757243,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-seattle-paramount-theatre-seattle-1-10-2027--concerts-rock/production/7757243",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1393,7 +1433,7 @@
         "event_id": 7418155,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-glasgow-sec-armadillo-4-6-2027--concerts-rock/production/7418155",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1460,7 +1500,7 @@
         "event_id": 7418157,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-glasgow-sec-armadillo-4-7-2027--concerts-rock/production/7418157",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1527,7 +1567,7 @@
         "event_id": 7418163,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-manchester-o2-apollo-manchester-4-9-2027--concerts-rock/production/7418163",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1594,7 +1634,7 @@
         "event_id": 7418169,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-manchester-o2-apollo-manchester-4-10-2027--concerts-rock/production/7418169",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1719,7 +1759,7 @@
         "event_id": 7416240,
         "url": "https://www.vividseats.com/brandi-carlile-tickets-london-eventim-apollo-4-13-2027--concerts-rock/production/7416240",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1760,7 +1800,7 @@
     "ticketmaster_event_id": "36006507844A10F8",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/brandi-carlile-london-14-04-2027/event/36006507844A10F8",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-london-eventim-apollo-4-14-2027--concerts-rock/production/7416247",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-london-14-04-2027/event/36006507844A10F8",
     "last_verified_at": "2026-11-07",
@@ -1782,11 +1822,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7416247,
-        "url": "https://www.vividseats.com/brandi-carlile-tickets-london-eventim-apollo-4-14-2027--concerts-rock/production/7416247",
-        "verified": true,
-        "last_verified_at": "2026-11-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

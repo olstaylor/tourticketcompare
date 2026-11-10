@@ -169,7 +169,7 @@
         "event_id": 18128388,
         "url": "https://seatgeek.com/lil-wayne-tickets/lexington-kentucky-rupp-arena-2026-12-04-8-30-pm/concert/18128388",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -251,14 +251,14 @@
         "event_id": 18649583,
         "url": "https://seatgeek.com/lil-wayne-tickets/savannah-georgia-enmarket-arena-2026-12-05-7-pm/concert/18649583",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7654768,
         "url": "https://www.vividseats.com/lil-wayne-tickets-savannah-enmarket-arena-12-5-2026--concerts-rap-hip-hop/production/7654768",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -332,7 +332,7 @@
         "event_id": 18128377,
         "url": "https://seatgeek.com/lil-wayne-tickets/reading-pennsylvania-santander-arena-2027-02-26-7-30-pm/concert/18128377",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -355,6 +355,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7810663",
+        "url": "https://www.ticketliquidator.com/tickets/7810663/Lil-Wayne-tickets-Fri-Feb-26-2027-Santander-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_kGkwWYiaI",
@@ -366,6 +373,7 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7810663",
     "ticket_limit": 6,
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7810663/Lil-Wayne-tickets-Fri-Feb-26-2027-Santander-Arena"
   }
 ]

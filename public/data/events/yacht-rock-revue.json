@@ -83,14 +83,14 @@
         "event_id": 18551886,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-12-19-8-pm/concert/18551886",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7505946,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-atlanta-coca-cola-roxy-theatre-12-19-2026/production/7505946",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -156,14 +156,14 @@
         "event_id": 18612862,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/englewood-new-jersey-bergen-performing-arts-center-2027-01-07-8-pm/concert/18612862",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593530,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-englewood-bergen-performing-arts-center-1-7-2027/production/7593530",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -208,7 +208,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006522B954953D",
     "ticketmaster_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-08-2027/event/00006522B954953D",
-    "seatgeek_url": "https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-08-8-pm/concert/18612961",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-8-2027/production/7593536",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-08-2027/event/00006522B954953D",
@@ -234,7 +234,7 @@
         "event_id": 7593536,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-8-2027/production/7593536",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -250,6 +250,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284473",
+        "url": "https://www.ticketliquidator.com/tickets/8284473/Yacht-Rock-Revue-tickets-Fri-Jan-8-2027-Paramount-Theatre-Huntington",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_31y4afW",
@@ -260,7 +267,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284473",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284473/Yacht-Rock-Revue-tickets-Fri-Jan-8-2027-Paramount-Theatre-Huntington"
   },
   {
     "id": "tm-yacht-rock-revue-2027-huntington-k7vgf_31ykyfq",
@@ -274,7 +282,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006522B94F951D",
     "ticketmaster_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-09-2027/event/00006522B94F951D",
-    "seatgeek_url": "https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-09-8-pm/concert/18612966",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-9-2027/production/7593532",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-09-2027/event/00006522B94F951D",
@@ -300,7 +308,7 @@
         "event_id": 7593532,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-9-2027/production/7593532",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -316,6 +324,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284474",
+        "url": "https://www.ticketliquidator.com/tickets/8284474/Yacht-Rock-Revue-tickets-Sat-Jan-9-2027-Paramount-Theatre-Huntington",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_31yKyfq",
@@ -326,7 +341,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284474",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284474/Yacht-Rock-Revue-tickets-Sat-Jan-9-2027-Paramount-Theatre-Huntington"
   },
   {
     "id": "tm-yacht-rock-revue-2027-huntington-k7vgf_31y3tkt",
@@ -340,7 +356,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006522B94A94E9",
     "ticketmaster_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-10-2027/event/00006522B94A94E9",
-    "seatgeek_url": "https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-10-7-pm/concert/18612962",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-10-2027/production/7593540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-10-2027/event/00006522B94A94E9",
@@ -366,7 +382,7 @@
         "event_id": 7593540,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-10-2027/production/7593540",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -382,6 +398,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284475",
+        "url": "https://www.ticketliquidator.com/tickets/8284475/Yacht-Rock-Revue-tickets-Sun-Jan-10-2027-Paramount-Theatre-Huntington",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_31y3tKt",
@@ -392,7 +415,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284475",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284475/Yacht-Rock-Revue-tickets-Sun-Jan-10-2027-Paramount-Theatre-Huntington"
   },
   {
     "id": "tm-yacht-rock-revue-2027-key-west-z7r9jz1aaeefv",
@@ -425,14 +449,14 @@
         "event_id": 18618566,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/key-west-florida-coffee-butler-amphitheater-2027-01-20-7-30-pm/concert/18618566",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7597386,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-key-west-coffee-butler-amphitheater-1-20-2027/production/7597386",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -552,14 +576,14 @@
         "event_id": 18621507,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/fort-myers-florida-caloosa-sound-amphitheater-2027-01-22-7-30-pm/concert/18621507",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7657077,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-fort-myers-caloosa-sound-amphitheater-1-22-2027/production/7657077",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -621,7 +645,7 @@
         "event_id": 18699569,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/clearwater-florida-ruth-eckerd-hall-2027-01-23-8-pm/concert/18699569",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -690,7 +714,7 @@
         "event_id": 18618051,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/melbourne-florida-maxwell-c-king-center-for-the-performing-arts-2027-01-27-7-30-pm/concert/18618051",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -754,14 +778,14 @@
         "event_id": 18612640,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/atlantic-city-new-jersey-hard-rock-live-at-etess-arena-2027-03-05-8-pm/concert/18612640",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593544,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-3-5-2027/production/7593544",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -835,7 +859,7 @@
         "event_id": 7593550,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-bethlehem-wind-creek-event-center-3-6-2027/production/7593550",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -851,6 +875,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284486",
+        "url": "https://www.ticketliquidator.com/tickets/8284486/Yacht-Rock-Revue-tickets-Sat-Mar-6-2027-Wind-Creek-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_3GkBlhlRj",
@@ -860,7 +891,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284486",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284486/Yacht-Rock-Revue-tickets-Sat-Mar-6-2027-Wind-Creek-Event-Center"
   },
   {
     "id": "tm-yacht-rock-revue-2027-nashville-vv17fz_3gktkih3j",
@@ -893,14 +925,14 @@
         "event_id": 18613108,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/nashville-indiana-brown-county-music-center-2027-03-12-8-pm/concert/18613108",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593197,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-nashville-brown-county-music-center-3-12-2027/production/7593197",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -966,14 +998,14 @@
         "event_id": 18613250,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/nashville-tennessee-the-truth-nashville-2027-03-13-8-pm/concert/18613250",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593554,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-nashville-the-truth-3-13-2027/production/7593554",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1102,14 +1134,14 @@
         "event_id": 18621818,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/jacksonville-florida-florida-theatre-jacksonville-2027-01-29-7-30-pm/concert/18621818",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7597884,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-jacksonville-florida-theatre-jacksonville-1-29-2027/production/7597884",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1171,7 +1203,7 @@
         "event_id": 18686093,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/athens-georgia-georgia-theatre-2027-02-26-8-pm/concert/18686093",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1240,14 +1272,14 @@
         "event_id": 18687365,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/atlanta-georgia-the-eastern-atlanta-2027-02-27-8-pm/concert/18687365",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7658881,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-atlanta-the-eastern-2-27-2027/production/7658881",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

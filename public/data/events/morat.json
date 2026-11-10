@@ -30,14 +30,14 @@
         "event_id": 18252820,
         "url": "https://seatgeek.com/morat-tickets/inglewood-california-intuit-dome-2027-02-26-8-pm/concert/18252820",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047204,
         "url": "https://www.vividseats.com/morat-tickets-inglewood-intuit-dome-2-26-2027/production/7047204",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -116,17 +116,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251588,
+        "url": "https://seatgeek.com/morat-tickets/el-paso-texas-don-haskins-center-2027-02-28-8-pm/concert/18251588",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047161,
         "url": "https://www.vividseats.com/morat-tickets-el-paso-don-haskins-center-2-28-2027/production/7047161",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -207,7 +207,7 @@
         "event_id": 18252137,
         "url": "https://seatgeek.com/morat-tickets/rosemont-illinois-rosemont-theatre-2027-03-05-8-pm/concert/18252137",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -292,14 +292,14 @@
         "event_id": 18251537,
         "url": "https://seatgeek.com/morat-tickets/boston-massachusetts-agganis-arena-2027-03-07-8-pm/concert/18251537",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047171,
         "url": "https://www.vividseats.com/morat-tickets-boston-agganis-arena-3-7-2027/production/7047171",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -378,14 +378,14 @@
         "event_id": 18259792,
         "url": "https://seatgeek.com/morat-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-03-12-8-pm/concert/18259792",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049584,
         "url": "https://www.vividseats.com/morat-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-3-12-2027/production/7049584",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -447,14 +447,14 @@
         "event_id": 18259793,
         "url": "https://seatgeek.com/morat-tickets/sugar-land-texas-smart-financial-centre-2027-03-13-8-pm/concert/18259793",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049495,
         "url": "https://www.vividseats.com/morat-tickets-sugar-land-smart-financial-centre-3-13-2027/production/7049495",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -470,12 +470,28 @@
         "verified": true,
         "last_verified_at": "2026-09-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7983752",
+        "url": "https://www.ticketliquidator.com/tickets/7983752/Morat-tickets-Sat-Mar-13-2027-Smart-Financial-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198192",
+        "url": "https://www.stubhub.ie/morat-sugar-land-tickets-3-13-2027/event/107198192",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Iu-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7983752"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7983752",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7983752/Morat-tickets-Sat-Mar-13-2027-Smart-Financial-Centre",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-sugar-land-tickets-3-13-2027/event/107198192"
   },
   {
     "id": "tm-morat-2027-hidalgo-g5diz_1bprewh",
@@ -508,14 +524,14 @@
         "event_id": 18251579,
         "url": "https://seatgeek.com/morat-tickets/hidalgo-texas-payne-arena-2027-03-14-8-pm/concert/18251579",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047159,
         "url": "https://www.vividseats.com/morat-tickets-hidalgo-payne-arena-3-14-2027/production/7047159",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -593,14 +609,14 @@
         "event_id": 18251530,
         "url": "https://seatgeek.com/morat-tickets/orlando-florida-kia-center-2027-03-18-8-pm/concert/18251530",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047153,
         "url": "https://www.vividseats.com/morat-tickets-orlando-kia-center-3-18-2027/production/7047153",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -682,14 +698,14 @@
         "event_id": 18251573,
         "url": "https://seatgeek.com/morat-tickets/miami-florida-kaseya-center-2027-03-20-8-pm/concert/18251573",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047163,
         "url": "https://www.vividseats.com/morat-tickets-miami-kaseya-center-3-20-2027/production/7047163",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -777,7 +793,7 @@
         "event_id": 7048962,
         "url": "https://www.vividseats.com/morat-tickets-toronto-history-toronto-3-26-2027--concerts-pop/production/7048962",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -836,7 +852,7 @@
         "event_id": 7061569,
         "url": "https://www.vividseats.com/morat-tickets-montreal-mtelus-3-27-2027/production/7061569",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -918,7 +934,7 @@
         "event_id": 7047077,
         "url": "https://www.vividseats.com/morat-tickets-brooklyn-barclays-center-4-1-2027/production/7047077",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1004,7 +1020,7 @@
         "event_id": 7047151,
         "url": "https://www.vividseats.com/morat-tickets-fairfax-eaglebank-arena-4-3-2027/production/7047151",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1274,17 +1290,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107154768",
-        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-8-11-2026/event/107154768",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJMU0",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-8-11-2026/event/107154768",
+    "stubhub_international_url": "",
     "genre": "Pop"
   },
   {

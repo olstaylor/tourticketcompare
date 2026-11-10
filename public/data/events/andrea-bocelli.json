@@ -526,7 +526,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100643007C2EBA1",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-boston-massachusetts-12-10-2026/event/0100643007C2EBA1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/boston-massachusetts-td-garden-2026-12-10-8-pm/concert/18039180",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-boston-td-garden-12-10-2026--theater-opera/production/6594344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-boston-massachusetts-12-10-2026/event/0100643007C2EBA1",
@@ -542,17 +542,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18039180,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/boston-massachusetts-td-garden-2026-12-10-8-pm/concert/18039180",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6594344,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-boston-td-garden-12-10-2026--theater-opera/production/6594344",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -620,7 +620,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006437FCF7EAC6",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-buffalo-new-york-12-11-2026/event/00006437FCF7EAC6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/buffalo-new-york-keybank-center-2026-12-11-8-pm/concert/18039185",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-buffalo-keybank-center-12-11-2026--theater-opera/production/6594348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-buffalo-new-york-12-11-2026/event/00006437FCF7EAC6",
@@ -636,17 +636,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18039185,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/buffalo-new-york-keybank-center-2026-12-11-8-pm/concert/18039185",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6594348,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-buffalo-keybank-center-12-11-2026--theater-opera/production/6594348",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -732,7 +732,7 @@
         "event_id": 18039188,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/montreal-canada-centre-bell-2026-12-13-8-pm/concert/18039188",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -788,7 +788,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3B00643BDECD9556",
     "ticketmaster_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-new-york-new-york-12-16-2026/event/3B00643BDECD9556",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/new-york-new-york-madison-square-garden-2026-12-16-8-pm/concert/18039165",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-new-york-madison-square-garden-12-16-2026--theater-opera/production/6594354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-new-york-new-york-12-16-2026/event/3B00643BDECD9556",
@@ -804,17 +804,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18039165,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/new-york-new-york-madison-square-garden-2026-12-16-8-pm/concert/18039165",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6594354,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-new-york-madison-square-garden-12-16-2026--theater-opera/production/6594354",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -905,14 +905,14 @@
         "event_id": 18039167,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/new-york-new-york-madison-square-garden-2026-12-17-8-pm/concert/18039167",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6594488,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-new-york-madison-square-garden-12-17-2026/production/6594488",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1003,14 +1003,14 @@
         "event_id": 18039190,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/hamilton-canada-td-coliseum-2026-12-19-8-pm/concert/18039190",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6594386,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-hamilton-td-coliseum-12-19-2026--theater-opera/production/6594386",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1080,7 +1080,7 @@
         "event_id": 6594362,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-pittsburgh-ppg-paints-arena-12-21-2026--theater-opera/production/6594362",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1174,7 +1174,7 @@
         "event_id": 6594366,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-philadelphia-xfinity-mobile-arena-12-22-2026--theater-opera/production/6594366",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1267,7 +1267,7 @@
         "event_id": 7422761,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-cardiff-principality-stadium---cardiff-5-8-2027/production/7422761",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1342,14 +1342,14 @@
         "event_id": 18581438,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-01-29-8-pm/concert/18581438",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540260,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-charlotte-spectrum-center-1-29-2027/production/7540260",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1436,14 +1436,14 @@
         "event_id": 18581441,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/baltimore-maryland-cfg-bank-arena-2027-01-31-8-pm/concert/18581441",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536247,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-baltimore-cfg-bank-arena-1-31-2027/production/7536247",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1530,14 +1530,14 @@
         "event_id": 18581439,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/atlanta-georgia-state-farm-arena-1-2027-02-02-8-pm/concert/18581439",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540264,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-atlanta-state-farm-arena-2-2-2027/production/7540264",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1623,14 +1623,14 @@
         "event_id": 18581440,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/austin-texas-moody-center-atx-2027-02-04-8-pm/concert/18581440",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540254,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-austin-moody-center-atx-2-4-2027/production/7540254",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1716,14 +1716,14 @@
         "event_id": 18581442,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/dallas-texas-american-airlines-center-2027-02-05-8-pm/concert/18581442",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540262,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-dallas-american-airlines-center---tx-2-5-2027/production/7540262",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1810,14 +1810,14 @@
         "event_id": 18581453,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/houston-texas-toyota-center-2027-02-07-8-pm/concert/18581453",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540476,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-houston-toyota-center---tx-2-7-2027/production/7540476",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1840,6 +1840,13 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670723",
+        "url": "https://www.stubhub.ie/andrea-bocelli-houston-tickets-2-7-2027/event/107670723",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvs_v",
@@ -1847,7 +1854,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265103",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265103/Andrea-Bocelli-tickets-Sun-Feb-7-2027-Toyota-Center-TX",
-    "genre": "Classical"
+    "genre": "Classical",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-houston-tickets-2-7-2027/event/107670723"
   },
   {
     "id": "tm-andrea-bocelli-2027-orlando-1axzkfigkdrsgpw",
@@ -1880,14 +1888,14 @@
         "event_id": 18581443,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/orlando-florida-kia-center-2027-02-10-8-pm/concert/18581443",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540258,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-orlando-kia-center-2-10-2027/production/7540258",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1973,14 +1981,14 @@
         "event_id": 18581450,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/hollywood-florida-hard-rock-live-hollywood-2027-02-12-8-pm/concert/18581450",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540266,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-12-2027/production/7540266",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2067,14 +2075,14 @@
         "event_id": 18581451,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/hollywood-florida-hard-rock-live-hollywood-2027-02-13-8-pm/concert/18581451",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540248,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-13-2027/production/7540248",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2168,7 +2176,7 @@
         "event_id": 7622420,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-9-29-2027--theater-opera/production/7622420",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2234,7 +2242,7 @@
         "event_id": 7622414,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-glasgow-ovo-hydro-10-9-2027--theater-opera/production/7622414",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2374,7 +2382,7 @@
         "event_id": 7622416,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-london-the-o2---london-10-1-2027--theater-opera/production/7622416",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2440,7 +2448,7 @@
         "event_id": 7620595,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-manchester-co-op-live-10-5-2027--theater-opera/production/7620595",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

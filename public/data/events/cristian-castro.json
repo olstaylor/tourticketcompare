@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "19006450BA98557F",
     "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-glendale-arizona-11-06-2026/event/19006450BA98557F",
-    "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/glendale-arizona-desert-diamond-arena-2026-11-06-8-pm/concert/18078145",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-glendale-desert-diamond-arena-11-6-2026/production/6674212",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-glendale-arizona-11-06-2026/event/19006450BA98557F",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18078145,
-        "url": "https://seatgeek.com/cristian-castro-tickets/glendale-arizona-desert-diamond-arena-2026-11-06-8-pm/concert/18078145",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6674212,
@@ -48,25 +48,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7744413",
-        "url": "https://www.ticketnetwork.com/en/p/7744413",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7744413",
-        "url": "https://www.ticketliquidator.com/tickets/7744413/Cristian-Castro-tickets-Fri-Nov-6-2026-Desert-Diamond-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zko8GkeBJA4T",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7744413",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7744413/Cristian-Castro-tickets-Fri-Nov-6-2026-Desert-Diamond-Arena",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "AMPLIFY ENTERTAINMENT"
     ]
@@ -102,7 +102,7 @@
         "event_id": 18078276,
         "url": "https://seatgeek.com/cristian-castro-tickets/el-paso-texas-el-paso-county-coliseum-2026-11-07-8-pm/concert/18078276",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -120,33 +120,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7744415",
-        "url": "https://www.ticketnetwork.com/en/p/7744415",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7744415",
-        "url": "https://www.ticketliquidator.com/tickets/7744415/Cristian-Castro-tickets-Sat-Nov-7-2026-El-Paso-County-Coliseum",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107446232",
-        "url": "https://www.stubhub.ie/cristian-castro-el-paso-tickets-11-7-2026/event/107446232",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_AdzEyJF",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7744415",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7744415/Cristian-Castro-tickets-Sat-Nov-7-2026-El-Paso-County-Coliseum",
-    "stubhub_international_url": "https://www.stubhub.ie/cristian-castro-el-paso-tickets-11-7-2026/event/107446232",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "genre": "Latin"
   },
   {
@@ -257,7 +257,7 @@
         "event_id": 6673016,
         "url": "https://www.vividseats.com/cristian-castro-tickets-los-angeles-peacock-theater-11-28-2026/production/6673016",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -273,13 +273,29 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7743647",
+        "url": "https://www.ticketliquidator.com/tickets/7743647/Cristian-Castro-tickets-Sat-Nov-28-2026-Peacock-Theater-Los-Angeles",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107138182",
+        "url": "https://www.stubhub.ie/cristian-castro-los-angeles-tickets-11-28-2026/event/107138182",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-f4V",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7743647",
-    "genre": "World"
+    "genre": "World",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7743647/Cristian-Castro-tickets-Sat-Nov-28-2026-Peacock-Theater-Los-Angeles",
+    "stubhub_international_url": "https://www.stubhub.ie/cristian-castro-los-angeles-tickets-11-28-2026/event/107138182"
   },
   {
     "id": "tm-cristian-castro-2027-denver-z7r9jz1a7-boz",
@@ -312,14 +328,14 @@
         "event_id": 18103535,
         "url": "https://seatgeek.com/cristian-castro-tickets/denver-colorado-bellco-theatre-2027-01-29-8-pm/concert/18103535",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6707169,
         "url": "https://www.vividseats.com/cristian-castro-tickets-denver-bellco-theatre-at-colorado-convention-center-1-29-2027--concerts-latin-music/production/6707169",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -382,7 +398,7 @@
         "event_id": 18091097,
         "url": "https://seatgeek.com/cristian-castro-tickets/west-valley-city-utah-maverik-center-2027-01-30-8-pm/concert/18091097",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -440,14 +456,14 @@
         "event_id": 18091093,
         "url": "https://seatgeek.com/cristian-castro-tickets/anaheim-california-honda-center-2027-02-12-8-pm/concert/18091093",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6707152,
         "url": "https://www.vividseats.com/cristian-castro-tickets-anaheim-honda-center-2-12-2027--concerts-latin-music/production/6707152",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -577,14 +593,14 @@
         "event_id": 18091132,
         "url": "https://seatgeek.com/cristian-castro-tickets/hidalgo-texas-payne-arena-2027-02-27-8-pm/concert/18091132",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6707155,
         "url": "https://www.vividseats.com/cristian-castro-tickets-hidalgo-payne-arena-2-27-2027--concerts-latin-music/production/6707155",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -647,14 +663,14 @@
         "event_id": 18091442,
         "url": "https://seatgeek.com/cristian-castro-tickets/cedar-park-texas-h-e-b-center-at-cedar-park-2027-02-28-7-pm/concert/18091442",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6707157,
         "url": "https://www.vividseats.com/cristian-castro-tickets-cedar-park-heb-center-at-cedar-park-2-28-2027--concerts-latin-music/production/6707157",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -670,13 +686,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7756939",
+        "url": "https://www.ticketliquidator.com/tickets/7756939/Cristian-Castro-tickets-Sun-Feb-28-2027-HEB-Center-at-Cedar-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_AK4-aew",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756939",
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756939/Cristian-Castro-tickets-Sun-Feb-28-2027-HEB-Center-at-Cedar-Park"
   },
   {
     "id": "tm-cristian-castro-2027-orlando-1kfov0fzgac5wgd",
@@ -716,7 +740,7 @@
         "event_id": 6708112,
         "url": "https://www.vividseats.com/cristian-castro-tickets-orlando-addition-financial-arena-3-12-2027/production/6708112",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -794,7 +818,7 @@
         "event_id": 6707164,
         "url": "https://www.vividseats.com/cristian-castro-tickets-miami-james-knight-center-3-13-2027--concerts-latin-music/production/6707164",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

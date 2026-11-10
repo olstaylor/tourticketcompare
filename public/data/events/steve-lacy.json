@@ -992,7 +992,7 @@
         "event_id": 18485938,
         "url": "https://seatgeek.com/steve-lacy-tickets/austin-texas-moody-amphitheater-2026-11-07-8-pm/concert/18485938",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1010,18 +1010,18 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8199805",
-        "url": "https://www.ticketnetwork.com/en/p/8199805",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8199805",
-        "url": "https://www.ticketliquidator.com/tickets/8199805/Steve-Lacy-tickets-Sat-Nov-7-2026-Moody-Amphitheater",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107486080",
@@ -1034,8 +1034,8 @@
     "ticketmaster_discovery_event_id": "G5dIZ_8pB91K2",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199805",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199805/Steve-Lacy-tickets-Sat-Nov-7-2026-Moody-Amphitheater",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-austin-tickets-11-7-2026/event/107486080",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1097,12 +1097,28 @@
         "verified": true,
         "last_verified_at": "2026-10-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199806",
+        "url": "https://www.ticketliquidator.com/tickets/8199806/Steve-Lacy-tickets-Sun-Nov-8-2026-Smart-Financial-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZJ8f",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199806"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199806",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199806/Steve-Lacy-tickets-Sun-Nov-8-2026-Smart-Financial-Centre",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-steve-lacy-2026-morrison-z7r9jz1aazj84",
@@ -1142,7 +1158,7 @@
         "event_id": 7423370,
         "url": "https://www.vividseats.com/steve-lacy-tickets-morrison-red-rocks-amphitheatre-11-11-2026--concerts-rb/production/7423370",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1215,14 +1231,14 @@
         "event_id": 18485946,
         "url": "https://seatgeek.com/steve-lacy-tickets/las-vegas-nevada-the-cosmopolitan-of-las-vegas-2026-11-13-8-pm/concert/18485946",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423374,
         "url": "https://www.vividseats.com/steve-lacy-tickets-las-vegas-cosmopolitan-of-las-vegas-11-13-2026--concerts-rb/production/7423374",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1297,14 +1313,14 @@
         "event_id": 18485948,
         "url": "https://seatgeek.com/steve-lacy-tickets/phoenix-arizona-arizona-financial-theatre-2026-11-17-8-pm/concert/18485948",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423380,
         "url": "https://www.vividseats.com/steve-lacy-tickets-phoenix-arizona-financial-theatre-11-17-2026--concerts-rb/production/7423380",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1371,14 +1387,14 @@
         "event_id": 18485949,
         "url": "https://seatgeek.com/steve-lacy-tickets/san-diego-california-petco-park-2026-11-19-8-pm/concert/18485949",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423386,
         "url": "https://www.vividseats.com/steve-lacy-tickets-san-diego-gallagher-square-at-petco-park-11-19-2026--concerts-rb/production/7423386",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1460,7 +1476,7 @@
         "event_id": 7423400,
         "url": "https://www.vividseats.com/steve-lacy-tickets-los-angeles-hollywood-bowl-11-21-2026--concerts-rb/production/7423400",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1536,14 +1552,14 @@
         "event_id": 18485954,
         "url": "https://seatgeek.com/steve-lacy-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-24-8-pm/concert/18485954",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423408,
         "url": "https://www.vividseats.com/steve-lacy-tickets-san-francisco-bill-graham-civic-auditorium-11-24-2026--concerts-rb/production/7423408",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1619,14 +1635,14 @@
         "event_id": 18613496,
         "url": "https://seatgeek.com/steve-lacy-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-25-8-pm/concert/18613496",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7600490,
         "url": "https://www.vividseats.com/steve-lacy-tickets-san-francisco-bill-graham-civic-auditorium-11-25-2026--concerts-rb/production/7600490",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1690,7 +1706,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F006505934273DF",
     "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-seattle-washington-11-28-2026/event/0F006505934273DF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/seattle-washington-wamu-theater-2026-11-28-7-pm/concert/18485955",
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-seattle-wamu-theater---seattle-11-28-2026--concerts-rb/production/7423416",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-seattle-washington-11-28-2026/event/0F006505934273DF",
@@ -1706,17 +1722,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18485955,
+        "url": "https://seatgeek.com/steve-lacy-tickets/seattle-washington-wamu-theater-2026-11-28-7-pm/concert/18485955",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423416,
         "url": "https://www.vividseats.com/steve-lacy-tickets-seattle-wamu-theater---seattle-11-28-2026--concerts-rb/production/7423416",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1791,14 +1807,14 @@
         "event_id": 18485961,
         "url": "https://seatgeek.com/steve-lacy-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-11-30-8-pm/concert/18485961",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7423426,
         "url": "https://www.vividseats.com/steve-lacy-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-30-2026--concerts-rb/production/7423426",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

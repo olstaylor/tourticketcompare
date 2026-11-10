@@ -1,0 +1,1732 @@
+[
+  {
+    "id": "tm-fall-out-boy-2027-praha-9-z698xzu0z16eepqfuf",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight of the Punks",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 Arena",
+    "datetime_iso": "2027-05-17T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2096694348",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/fall-out-boy-twilight-of-the-punks-tickets/2096694348?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/fall-out-boy-twilight-of-the-punks-tickets/2096694348?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2096694348",
+        "discovery_event_id": "Z698xZu0Z16eepQfuF",
+        "url": "https://www.ticketmaster.cz/event/fall-out-boy-twilight-of-the-punks-tickets/2096694348?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z16eepQfuF",
+    "timezone": "Europe/Prague",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T11:00:00Z"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-assago-zg9rmiynyzf1fa",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight of the Punks",
+    "city": "Assago",
+    "country": "Italy",
+    "venue": "Unipol Forum",
+    "datetime_iso": "2027-05-21T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "sksc45jnmz63",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/fall-out-boy-twilight-of-the-punks-assago-21-05-2027/event/sksc45jnmz63",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/fall-out-boy-twilight-of-the-punks-assago-21-05-2027/event/sksc45jnmz63",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "sksc45jnmz63",
+        "discovery_event_id": "ZG9rmIYnyZF1FA",
+        "url": "https://www.ticketmaster.it/biglietti/fall-out-boy-twilight-of-the-punks-assago-21-05-2027/event/sksc45jnmz63",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZF1FA",
+    "timezone": "Europe/Rome",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T11:00:00Z"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-madrid-z698xz2qz1k83o_fe",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight of the Punks",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2027-05-23T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "412819502",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/fall-out-boy-twilight-of-the-punks-tickets/412819502?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/fall-out-boy-twilight-of-the-punks-tickets/412819502?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "412819502",
+        "discovery_event_id": "Z698xZ2qZ1k83O_fe",
+        "url": "https://www.ticketmaster.es/event/fall-out-boy-twilight-of-the-punks-tickets/412819502?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k83O_fe",
+    "timezone": "Europe/Madrid",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T11:00:00Z"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-brussels-z698xzg2z16vfjc3ef",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight of the Punks",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "ING ARENA",
+    "datetime_iso": "2027-05-27T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1526392094",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/fall-out-boy-twilight-of-the-punks-tickets/1526392094",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/fall-out-boy-twilight-of-the-punks-tickets/1526392094",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1526392094",
+        "discovery_event_id": "Z698xZG2Z16vfJC3ef",
+        "url": "https://www.ticketmaster.be/event/fall-out-boy-twilight-of-the-punks-tickets/1526392094",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16vfJC3ef",
+    "timezone": "Europe/Brussels",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T11:00:00Z"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-glasgow-1kuovp_ega1oorm",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight of the Punks",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-05-30T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360065667A811BF7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-glasgow-30-05-2027/event/360065667A811BF7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-glasgow-30-05-2027/event/360065667A811BF7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360065667A811BF7",
+        "discovery_event_id": "1kuOvP_EGA1OoRM",
+        "url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-glasgow-30-05-2027/event/360065667A811BF7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362652",
+        "url": "https://www.ticketnetwork.com/en/p/8362652",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362652",
+        "url": "https://www.ticketliquidator.com/tickets/8362652/Fall-Out-Boy-tickets-Sun-May-30-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kuOvP_EGA1OoRM",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T12:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362652",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362652/Fall-Out-Boy-tickets-Sun-May-30-2027-OVO-Hydro"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-dublin-1abzk4xgkdbhdty",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight of the Punks",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-06-01T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006562D86FBA70",
+    "ticketmaster_url": "https://www.ticketmaster.ie/fall-out-boy-twilight-of-the-dublin-01-06-2027/event/18006562D86FBA70",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/fall-out-boy-twilight-of-the-dublin-01-06-2027/event/18006562D86FBA70",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006562D86FBA70",
+        "discovery_event_id": "1AbZk4xGkdbhDtY",
+        "url": "https://www.ticketmaster.ie/fall-out-boy-twilight-of-the-dublin-01-06-2027/event/18006562D86FBA70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362653",
+        "url": "https://www.ticketnetwork.com/en/p/8362653",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362653",
+        "url": "https://www.ticketliquidator.com/tickets/8362653/Fall-Out-Boy-tickets-Tue-Jun-1-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZk4xGkdbhDtY",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T12:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362653",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362653/Fall-Out-Boy-tickets-Tue-Jun-1-2027-3Arena-Dublin"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-manchester-1amzk4pgkdukzs6",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight of the Punks",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-06-03T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006565CD1B8CC7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-manchester-03-06-2027/event/37006565CD1B8CC7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-manchester-03-06-2027/event/37006565CD1B8CC7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006565CD1B8CC7",
+        "discovery_event_id": "1AMZk4PGkdukzS6",
+        "url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-manchester-03-06-2027/event/37006565CD1B8CC7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362654",
+        "url": "https://www.ticketnetwork.com/en/p/8362654",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362654",
+        "url": "https://www.ticketliquidator.com/tickets/8362654/Fall-Out-Boy-tickets-Thu-Jun-3-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk4PGkdukzS6",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T12:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362654",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362654/Fall-Out-Boy-tickets-Thu-Jun-3-2027-Co-Op-Live"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-london-1adfz_4gkxmx9xa",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight of the Punks",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Tottenham Hotspur Stadium",
+    "datetime_iso": "2027-06-05T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500655FAE897F85",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-london-05-06-2027/event/3500655FAE897F85",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-london-05-06-2027/event/3500655FAE897F85",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500655FAE897F85",
+        "discovery_event_id": "1AdfZ_4GkXmx9XA",
+        "url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-london-05-06-2027/event/3500655FAE897F85",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_4GkXmx9XA",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T12:00:00Z"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-amsterdam-z698xzbpz16vv-vwva",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight of the Punks",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-06-08T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1061072045",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/fall-out-boy-twilight-of-the-punks-tickets/1061072045?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/fall-out-boy-twilight-of-the-punks-tickets/1061072045?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1061072045",
+        "discovery_event_id": "Z698xZbpZ16vv-vwvA",
+        "url": "https://www.ticketmaster.nl/event/fall-out-boy-twilight-of-the-punks-tickets/1061072045?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vv-vwvA",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T11:00:00Z"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-odz-z698xzqpz16evyz9fj",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight of the Punks",
+    "city": "Łódź",
+    "country": "Poland",
+    "venue": "Atlas Arena",
+    "datetime_iso": "2027-06-13T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2070017526",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/fall-out-boy-twilight-of-the-punks-tickets/2070017526?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/fall-out-boy-twilight-of-the-punks-tickets/2070017526?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2070017526",
+        "discovery_event_id": "Z698xZQpZ16evYZ9fJ",
+        "url": "https://www.ticketmaster.pl/event/fall-out-boy-twilight-of-the-punks-tickets/2070017526?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ16evYZ9fJ",
+    "timezone": "Europe/Warsaw",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T11:00:00Z"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-arlington-vvg1yz_potb4m0",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "Globe Life Field",
+    "datetime_iso": "2027-07-13T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0065647FE95DE4",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-arlington-texas-07-13-2027/event/0C0065647FE95DE4",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-arlington-globe-life-field-7-13-2027--concerts-rock/production/7835292",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-arlington-texas-07-13-2027/event/0C0065647FE95DE4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0065647FE95DE4",
+        "discovery_event_id": "vvG1YZ_poTB4M0",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-arlington-texas-07-13-2027/event/0C0065647FE95DE4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835292,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-arlington-globe-life-field-7-13-2027--concerts-rock/production/7835292",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362630",
+        "url": "https://www.ticketnetwork.com/en/p/8362630",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362630",
+        "url": "https://www.ticketliquidator.com/tickets/8362630/Fall-Out-Boy-tickets-Tue-Jul-13-2027-Globe-Life-Field",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_poTB4M0",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362630",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362630/Fall-Out-Boy-tickets-Tue-Jul-13-2027-Globe-Life-Field"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-atlanta-vvg1zz_pkn5gmk",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Truist Park",
+    "datetime_iso": "2027-07-16T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006564EA2F5B86",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlanta-georgia-07-16-2027/event/0E006564EA2F5B86",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-atlanta-truist-park-7-16-2027--concerts-rock/production/7835296",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlanta-georgia-07-16-2027/event/0E006564EA2F5B86",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006564EA2F5B86",
+        "discovery_event_id": "vvG1zZ_pKn5gmk",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlanta-georgia-07-16-2027/event/0E006564EA2F5B86",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835296,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-atlanta-truist-park-7-16-2027--concerts-rock/production/7835296",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362632",
+        "url": "https://www.ticketnetwork.com/en/p/8362632",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362632",
+        "url": "https://www.ticketliquidator.com/tickets/8362632/Fall-Out-Boy-tickets-Fri-Jul-16-2027-Truist-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_pKn5gmk",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362632",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362632/Fall-Out-Boy-tickets-Fri-Jul-16-2027-Truist-Park"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-washington-1avfz_4gkhvu21c",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Nationals Park",
+    "datetime_iso": "2027-07-18T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500655F01D8F2AD",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-washington-district-of-columbia-07-18-2027/event/1500655F01D8F2AD",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-washington-dc-nationals-park-7-18-2027--concerts-rock/production/7835298",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-washington-district-of-columbia-07-18-2027/event/1500655F01D8F2AD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500655F01D8F2AD",
+        "discovery_event_id": "1AvfZ_4GkHvU21c",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-washington-district-of-columbia-07-18-2027/event/1500655F01D8F2AD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835298,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-washington-dc-nationals-park-7-18-2027--concerts-rock/production/7835298",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362634",
+        "url": "https://www.ticketnetwork.com/en/p/8362634",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362634",
+        "url": "https://www.ticketliquidator.com/tickets/8362634/Fall-Out-Boy-tickets-Sun-Jul-18-2027-Nationals-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_4GkHvU21c",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362634",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362634/Fall-Out-Boy-tickets-Sun-Jul-18-2027-Nationals-Park"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-detroit-vv1afzk4jgkdvw4eb",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Fifth Third Park",
+    "datetime_iso": "2027-07-20T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006566C1F559FA",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-detroit-michigan-07-20-2027/event/08006566C1F559FA",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-detroit-fifth-third-park---mi-7-20-2027--concerts-rock/production/7835300",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-detroit-michigan-07-20-2027/event/08006566C1F559FA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006566C1F559FA",
+        "discovery_event_id": "vv1AFZk4JGkdvW4EB",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-detroit-michigan-07-20-2027/event/08006566C1F559FA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835300,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-detroit-fifth-third-park---mi-7-20-2027--concerts-rock/production/7835300",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362635",
+        "url": "https://www.ticketnetwork.com/en/p/8362635",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362635",
+        "url": "https://www.ticketliquidator.com/tickets/8362635/Fall-Out-Boy-tickets-Tue-Jul-20-2027-Fifth-Third-Park-MI",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk4JGkdvW4EB",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362635",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362635/Fall-Out-Boy-tickets-Tue-Jul-20-2027-Fifth-Third-Park-MI"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-toronto-1a8zk40gkdutc4w",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2027-07-22T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006564CDFED572",
+    "ticketmaster_url": "https://www.ticketmaster.ca/fall-out-boy-twilight-of-the-toronto-ontario-07-22-2027/event/10006564CDFED572",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-toronto-rogers-stadium---toronto-7-22-2027--concerts-rock/production/7835302",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/fall-out-boy-twilight-of-the-toronto-ontario-07-22-2027/event/10006564CDFED572",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006564CDFED572",
+        "discovery_event_id": "1A8Zk40GkduTc4w",
+        "url": "https://www.ticketmaster.ca/fall-out-boy-twilight-of-the-toronto-ontario-07-22-2027/event/10006564CDFED572",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835302,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-toronto-rogers-stadium---toronto-7-22-2027--concerts-rock/production/7835302",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk40GkduTc4w",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T15:00:00Z"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-chicago-vv118z_pqp44qd",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-07-24T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400656696555743",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-chicago-illinois-07-24-2027/event/0400656696555743",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-chicago-soldier-field-7-24-2027--concerts-rock/production/7835304",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-chicago-illinois-07-24-2027/event/0400656696555743",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400656696555743",
+        "discovery_event_id": "vv118Z_pQp44qd",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-chicago-illinois-07-24-2027/event/0400656696555743",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835304,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-chicago-soldier-field-7-24-2027--concerts-rock/production/7835304",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362636",
+        "url": "https://www.ticketnetwork.com/en/p/8362636",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362636",
+        "url": "https://www.ticketliquidator.com/tickets/8362636/Fall-Out-Boy-tickets-Sat-Jul-24-2027-Soldier-Field",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv118Z_pQp44qd",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362636",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362636/Fall-Out-Boy-tickets-Sat-Jul-24-2027-Soldier-Field"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-boston-vv1avzk4ngkenvma1",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks - Platinum Tickets",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Fenway Park",
+    "datetime_iso": "2027-07-30T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006563A307714A",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-boston-massachusetts-07-30-2027/event/01006563A307714A",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-boston-fenway-park-7-30-2027--concerts-rock/production/7835308",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-boston-massachusetts-07-30-2027/event/01006563A307714A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006563A307714A",
+        "discovery_event_id": "vv1AvZk4NGkeNvMA1",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-boston-massachusetts-07-30-2027/event/01006563A307714A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835308,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-boston-fenway-park-7-30-2027--concerts-rock/production/7835308",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362638",
+        "url": "https://www.ticketnetwork.com/en/p/8362638",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362638",
+        "url": "https://www.ticketliquidator.com/tickets/8362638/Fall-Out-Boy-tickets-Fri-Jul-30-2027-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4NGkeNvMA1",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362638",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362638/Fall-Out-Boy-tickets-Fri-Jul-30-2027-Fenway-Park"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-queens-g5vvz_pkqtkyp",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Queens",
+    "country": "United States Of America",
+    "venue": "Citi Field",
+    "datetime_iso": "2027-08-01T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D006564DAFD3C25",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-queens-new-york-08-01-2027/event/1D006564DAFD3C25",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-queens-new-york-08-01-2027/event/1D006564DAFD3C25",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006564DAFD3C25",
+        "discovery_event_id": "G5vVZ_pKQTKYP",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-queens-new-york-08-01-2027/event/1D006564DAFD3C25",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_pKQTKYP",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T15:00:00Z"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-atlantic-city-vv1aezk4pgkdw5r4k",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Atlantic City",
+    "country": "United States Of America",
+    "venue": "Atlantic City Beach",
+    "datetime_iso": "2027-08-03T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006565F22DE553",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlantic-city-new-jersey-08-03-2027/event/02006565F22DE553",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-atlantic-city-atlantic-city-beach-8-3-2027--concerts-rock/production/7835312",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlantic-city-new-jersey-08-03-2027/event/02006565F22DE553",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006565F22DE553",
+        "discovery_event_id": "vv1AeZk4PGkdw5r4K",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlantic-city-new-jersey-08-03-2027/event/02006565F22DE553",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835312,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-atlantic-city-atlantic-city-beach-8-3-2027--concerts-rock/production/7835312",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362640",
+        "url": "https://www.ticketnetwork.com/en/p/8362640",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362640",
+        "url": "https://www.ticketliquidator.com/tickets/8362640/Fall-Out-Boy-tickets-Tue-Aug-3-2027-Atlantic-City-Beach",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4PGkdw5r4K",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362640",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362640/Fall-Out-Boy-tickets-Tue-Aug-3-2027-Atlantic-City-Beach"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-hershey-vv1aezk40gkd_hdkn",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Hershey",
+    "country": "United States Of America",
+    "venue": "Hersheypark Stadium",
+    "datetime_iso": "2027-08-04T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006564D9F3B4EA",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-hershey-pennsylvania-08-04-2027/event/02006564D9F3B4EA",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-hershey-hersheypark-stadium-8-4-2027--concerts-rock/production/7835314",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-hershey-pennsylvania-08-04-2027/event/02006564D9F3B4EA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006564D9F3B4EA",
+        "discovery_event_id": "vv1AeZk40Gkd_HDKn",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-hershey-pennsylvania-08-04-2027/event/02006564D9F3B4EA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835314,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-hershey-hersheypark-stadium-8-4-2027--concerts-rock/production/7835314",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362641",
+        "url": "https://www.ticketnetwork.com/en/p/8362641",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362641",
+        "url": "https://www.ticketliquidator.com/tickets/8362641/Fall-Out-Boy-tickets-Wed-Aug-4-2027-Hersheypark-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk40Gkd_HDKn",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362641",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362641/Fall-Out-Boy-tickets-Wed-Aug-4-2027-Hersheypark-Stadium"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-kansas-city-1a-zk40gkd1psok",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Morton Amphitheater",
+    "datetime_iso": "2027-08-07T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "21006564CA971453",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-kansas-city-missouri-08-07-2027/event/21006564CA971453",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-kansas-city-morton-amphitheater-8-7-2027--concerts-rock/production/7835318",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-kansas-city-missouri-08-07-2027/event/21006564CA971453",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21006564CA971453",
+        "discovery_event_id": "1A-Zk40Gkd1PsoK",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-kansas-city-missouri-08-07-2027/event/21006564CA971453",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835318,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-kansas-city-morton-amphitheater-8-7-2027--concerts-rock/production/7835318",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A-Zk40Gkd1PsoK",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T16:00:00Z"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-commerce-city-g5vzz_p3slsmj",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Commerce City",
+    "country": "United States Of America",
+    "venue": "DICK'S Sporting Goods Park",
+    "datetime_iso": "2027-08-10T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006564B1AF3DE6",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-commerce-city-colorado-08-10-2027/event/1E006564B1AF3DE6",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-commerce-city-dicks-sporting-goods-park-8-10-2027--concerts-rock/production/7835320",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-commerce-city-colorado-08-10-2027/event/1E006564B1AF3DE6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006564B1AF3DE6",
+        "discovery_event_id": "G5vzZ_p3slSMJ",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-commerce-city-colorado-08-10-2027/event/1E006564B1AF3DE6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835320,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-commerce-city-dicks-sporting-goods-park-8-10-2027--concerts-rock/production/7835320",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362643",
+        "url": "https://www.ticketnetwork.com/en/p/8362643",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362643",
+        "url": "https://www.ticketliquidator.com/tickets/8362643/Fall-Out-Boy-tickets-Tue-Aug-10-2027-Dicks-Sporting-Goods-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_p3slSMJ",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362643",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362643/Fall-Out-Boy-tickets-Tue-Aug-10-2027-Dicks-Sporting-Goods-Park"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-san-francisco-g5vyz_p3s9d3l",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Oracle Park",
+    "datetime_iso": "2027-08-16T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006564B15FB4AB",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-francisco-california-08-15-2027/event/1C006564B15FB4AB",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-san-francisco-oracle-park-8-15-2027--concerts-rock/production/7835324",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-francisco-california-08-15-2027/event/1C006564B15FB4AB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006564B15FB4AB",
+        "discovery_event_id": "G5vYZ_p3s9D3l",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-francisco-california-08-15-2027/event/1C006564B15FB4AB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835324,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-san-francisco-oracle-park-8-15-2027--concerts-rock/production/7835324",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362646",
+        "url": "https://www.ticketnetwork.com/en/p/8362646",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362646",
+        "url": "https://www.ticketliquidator.com/tickets/8362646/Fall-Out-Boy-tickets-Sun-Aug-15-2027-Oracle-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_p3s9D3l",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362646",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362646/Fall-Out-Boy-tickets-Sun-Aug-15-2027-Oracle-Park"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-san-diego-vvg1iz_pc9ifhq",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Petco Park",
+    "datetime_iso": "2027-08-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00656397B146DD",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-diego-california-08-17-2027/event/0A00656397B146DD",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-san-diego-petco-park-8-17-2027--concerts-rock/production/7835326",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-diego-california-08-17-2027/event/0A00656397B146DD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00656397B146DD",
+        "discovery_event_id": "vvG1IZ_pC9ifhq",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-diego-california-08-17-2027/event/0A00656397B146DD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835326,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-san-diego-petco-park-8-17-2027--concerts-rock/production/7835326",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362647",
+        "url": "https://www.ticketnetwork.com/en/p/8362647",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362647",
+        "url": "https://www.ticketliquidator.com/tickets/8362647/Fall-Out-Boy-tickets-Tue-Aug-17-2027-Petco-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_pC9ifhq",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362647",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362647/Fall-Out-Boy-tickets-Tue-Aug-17-2027-Petco-Park"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-phoenix-1a_zk4xgkdxdu-e",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Chase Field",
+    "datetime_iso": "2027-08-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006562E2EF6842",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-phoenix-arizona-08-19-2027/event/19006562E2EF6842",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-phoenix-chase-field-8-19-2027--concerts-rock/production/7835328",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-phoenix-arizona-08-19-2027/event/19006562E2EF6842",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006562E2EF6842",
+        "discovery_event_id": "1A_Zk4xGkdxDU-e",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-phoenix-arizona-08-19-2027/event/19006562E2EF6842",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835328,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-phoenix-chase-field-8-19-2027--concerts-rock/production/7835328",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362648",
+        "url": "https://www.ticketnetwork.com/en/p/8362648",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362648",
+        "url": "https://www.ticketliquidator.com/tickets/8362648/Fall-Out-Boy-tickets-Thu-Aug-19-2027-Chase-Field",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zk4xGkdxDU-e",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362648",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362648/Fall-Out-Boy-tickets-Thu-Aug-19-2027-Chase-Field"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-los-angeles-vvg1iz_p4zt_kr",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Dodger Stadium",
+    "datetime_iso": "2027-08-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B00656540A591AF",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-los-angeles-california-08-21-2027/event/0B00656540A591AF",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-los-angeles-uniqlo-field-at-dodger-stadium-8-21-2027--concerts-rock/production/7835330",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-los-angeles-california-08-21-2027/event/0B00656540A591AF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B00656540A591AF",
+        "discovery_event_id": "vvG1iZ_p4Zt_kR",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-los-angeles-california-08-21-2027/event/0B00656540A591AF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835330,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-los-angeles-uniqlo-field-at-dodger-stadium-8-21-2027--concerts-rock/production/7835330",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362649",
+        "url": "https://www.ticketnetwork.com/en/p/8362649",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362649",
+        "url": "https://www.ticketliquidator.com/tickets/8362649/Fall-Out-Boy-tickets-Sat-Aug-21-2027-UNIQLO-Field-at-Dodger-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_p4Zt_kR",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362649",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362649/Fall-Out-Boy-tickets-Sat-Aug-21-2027-UNIQLO-Field-at-Dodger-Stadium"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-portland-z7r9jz1aaaa0k",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy w/ The Offspring",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Providence Park",
+    "datetime_iso": "2027-08-27T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAA0k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0k",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-portland-providence-park-8-26-2027--concerts-rock/production/7835334",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAA0k",
+        "discovery_event_id": "Z7r9jZ1AAAA0k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7835334,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-portland-providence-park-8-26-2027--concerts-rock/production/7835334",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362651",
+        "url": "https://www.ticketnetwork.com/en/p/8362651",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362651",
+        "url": "https://www.ticketliquidator.com/tickets/8362651/Fall-Out-Boy-tickets-Thu-Aug-26-2027-Providence-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAA0k",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362651",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362651/Fall-Out-Boy-tickets-Thu-Aug-26-2027-Providence-Park"
+  }
+]

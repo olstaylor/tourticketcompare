@@ -270,12 +270,20 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8200528",
+        "url": "https://www.ticketliquidator.com/tickets/8200528/Missio-tickets-Tue-Nov-10-2026-The-Urban-Lounge",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZIvp",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200528"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200528",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200528/Missio-tickets-Tue-Nov-10-2026-The-Urban-Lounge"
   },
   {
     "id": "tm-missio-2026-denver-g5vzz_8l-vdn4",
@@ -308,14 +316,14 @@
         "event_id": 18492221,
         "url": "https://seatgeek.com/missio-tickets/denver-colorado-marquis-theater-denver-2026-11-11-7-pm/concert/18492221",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7424526,
         "url": "https://www.vividseats.com/missio-tickets-denver-marquis-theater---co-11-11-2026/production/7424526",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -435,7 +443,7 @@
         "event_id": 18492369,
         "url": "https://seatgeek.com/missio-tickets/toronto-canada-the-garrison-toronto-2026-11-20-6-30-pm/concert/18492369",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -503,7 +511,7 @@
         "event_id": 18492289,
         "url": "https://seatgeek.com/missio-tickets/boston-massachusetts-brighton-music-hall-2026-11-22-7-pm/concert/18492289",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -705,7 +713,7 @@
         "event_id": 18646946,
         "url": "https://seatgeek.com/missio-tickets/vancouver-canada-the-pearl-bc-2026-12-12-6-pm/concert/18646946",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -781,7 +789,7 @@
         "event_id": 7425935,
         "url": "https://www.vividseats.com/missio-tickets-spokane-the-district-bar---wa-12-13-2026--concerts-dance-electronica/production/7425935",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -850,7 +858,7 @@
         "event_id": 7425939,
         "url": "https://www.vividseats.com/missio-tickets-boise-knitting-factory-concert-house-boise-12-15-2026--concerts-dance-electronica/production/7425939",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -919,7 +927,7 @@
         "event_id": 7425065,
         "url": "https://www.vividseats.com/missio-tickets-chicago-beat-kitchen-1-13-2027/production/7425065",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1057,7 +1065,7 @@
         "event_id": 7425043,
         "url": "https://www.vividseats.com/missio-tickets-minneapolis-fine-line-1-15-2027/production/7425043",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1119,14 +1127,14 @@
         "event_id": 18492738,
         "url": "https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7424860,
         "url": "https://www.vividseats.com/missio-tickets-cleveland-cambridge-room-at-house-of-blues-cleveland-1-17-2027/production/7424860",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1212,7 +1220,7 @@
         "event_id": 7425057,
         "url": "https://www.vividseats.com/missio-tickets-washington-dc-union-stage-2-11-2027/production/7425057",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1343,14 +1351,14 @@
         "event_id": 18492961,
         "url": "https://seatgeek.com/missio-tickets/philadelphia-pennsylvania-the-foundry-philadelphia-2027-02-13-8-pm/concert/18492961",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7424474,
         "url": "https://www.vividseats.com/missio-tickets-philadelphia-the-foundry-philadelphia-2-13-2027/production/7424474",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1498,14 +1506,14 @@
         "event_id": 18492631,
         "url": "https://seatgeek.com/missio-tickets/atlanta-georgia-the-loft-at-center-stage-2027-03-11-8-pm/concert/18492631",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7424852,
         "url": "https://www.vividseats.com/missio-tickets-atlanta-the-loft-at-center-stage-3-11-2027/production/7424852",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1636,7 +1644,7 @@
         "event_id": 7425220,
         "url": "https://www.vividseats.com/missio-tickets-nashville-the-end-3-14-2027/production/7425220",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1705,7 +1713,7 @@
         "event_id": 7425236,
         "url": "https://www.vividseats.com/missio-tickets-dallas-puzzles-deep-ellum-4-8-2027/production/7425236",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1774,7 +1782,7 @@
         "event_id": 7425518,
         "url": "https://www.vividseats.com/missio-tickets-san-antonio-the-rock-box-4-9-2027/production/7425518",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1843,7 +1851,7 @@
         "event_id": 7425234,
         "url": "https://www.vividseats.com/missio-tickets-austin-come-and-take-it-live-4-10-2027/production/7425234",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

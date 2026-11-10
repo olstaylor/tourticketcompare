@@ -101,11 +101,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8237263",
-        "url": "https://www.ticketliquidator.com/tickets/8237263/Jack-Johnson-tickets-Sat-Nov-7-2026-Riverstage-Brisbane",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8237263",
@@ -118,7 +118,7 @@
     "ticketmaster_discovery_event_id": "1AKZkosGkdPvE0m",
     "timezone": "Australia/Brisbane",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237263/Jack-Johnson-tickets-Sat-Nov-7-2026-Riverstage-Brisbane",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237263"
   },
   {
@@ -170,25 +170,25 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8237264",
-        "url": "https://www.ticketliquidator.com/tickets/8237264/Jack-Johnson-tickets-Sun-Nov-8-2026-Riverstage-Brisbane",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8237264",
-        "url": "https://www.ticketnetwork.com/en/p/8237264",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k7Yv0jtGAuDSJe",
     "timezone": "Australia/Brisbane",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237264/Jack-Johnson-tickets-Sun-Nov-8-2026-Riverstage-Brisbane",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237264",
+    "ticketliquidator_url": "",
+    "ticketnetwork_url": "",
     "ticket_limit": 10,
     "genre": "Rock"
   },
@@ -413,6 +413,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362658",
+        "url": "https://www.ticketnetwork.com/en/p/8362658",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362658",
+        "url": "https://www.ticketliquidator.com/tickets/8362658/Jack-Johnson-tickets-Sat-Nov-14-2026-The-Domain-Sydney",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AKZkoSGkdQ3FwF",
@@ -423,7 +437,9 @@
       "FACE TO FACE TOURING"
     ],
     "ticket_limit": 10,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362658",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362658/Jack-Johnson-tickets-Sat-Nov-14-2026-The-Domain-Sydney"
   },
   {
     "id": "tm-jack-johnson-2026-linlithgow-ave-1avgz_6cppkzd52a",
@@ -963,7 +979,7 @@
         "event_id": 7725840,
         "url": "https://www.vividseats.com/jack-johnson-tickets-london-the-o2---london-7-4-2027/production/7725840",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1019,17 +1035,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738901,
+        "url": "https://seatgeek.com/jack-johnson-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2027-06-02-8-pm/concert/18738901",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7795175,
         "url": "https://www.vividseats.com/jack-johnson-tickets-las-vegas-encore-theater-at-wynn-las-vegas-6-2-2027/production/7795175",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1084,17 +1100,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738900,
+        "url": "https://seatgeek.com/jack-johnson-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2027-06-03-8-pm/concert/18738900",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7795173,
         "url": "https://www.vividseats.com/jack-johnson-tickets-las-vegas-encore-theater-at-wynn-las-vegas-6-3-2027/production/7795173",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

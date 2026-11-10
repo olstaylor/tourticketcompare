@@ -621,7 +621,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "020064CB97B5A882",
     "ticketmaster_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-philadelphia-pennsylvania-11-06-2026/event/020064CB97B5A882",
-    "seatgeek_url": "https://seatgeek.com/sleeping-with-sirens-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2026-11-06-7-pm/concert/18312116",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-philadelphia-the-fillmore-philadelphia-11-6-2026/production/7163761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-philadelphia-pennsylvania-11-06-2026/event/020064CB97B5A882",
@@ -637,11 +637,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18312116,
-        "url": "https://seatgeek.com/sleeping-with-sirens-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2026-11-06-7-pm/concert/18312116",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7163761,
@@ -712,7 +712,7 @@
         "event_id": 18311638,
         "url": "https://seatgeek.com/sleeping-with-sirens-tickets/new-york-new-york-manhattan-center-hammerstein-ballroom-2026-11-07-7-pm/concert/18311638",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -770,7 +770,7 @@
         "event_id": 18312278,
         "url": "https://seatgeek.com/sleeping-with-sirens-tickets/baltimore-maryland-nevermore-hall-2026-11-08-7-pm/concert/18312278",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -844,14 +844,14 @@
         "event_id": 18311702,
         "url": "https://seatgeek.com/sleeping-with-sirens-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-11-11-7-pm/concert/18311702",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7163534,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-charlotte-the-fillmore-charlotte-11-11-2026/production/7163534",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -925,7 +925,7 @@
         "event_id": 7165467,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-atlanta-the-eastern-11-12-2026/production/7165467",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1250,7 +1250,7 @@
     "ticketmaster_event_id": "3E0064C2CEA252AC",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-london-07-03-2027/event/3E0064C2CEA252AC",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/sleeping-with-sirens-tickets-london-o2-academy-brixton-3-7-2027/production/7131884",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sleeping-with-sirens-an-ending-in-london-07-03-2027/event/3E0064C2CEA252AC",
     "last_verified_at": "2026-11-07",
@@ -1272,11 +1272,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7131884,
-        "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-london-o2-academy-brixton-3-7-2027/production/7131884",
-        "verified": true,
-        "last_verified_at": "2026-11-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

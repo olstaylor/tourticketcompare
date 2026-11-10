@@ -8,6 +8,8 @@
    ordinary link. The analytics click handlers in app.js and shell.js call
    shouldIntercept()/open(), so provider_click is still recorded once.
 
+   The pop-up shows once per tab session (sessionStorage), then CTAs are plain links.
+
    To change the code, edit SEATGEEK_PROMO. To turn the pop-up off, set
    enabled: false; nothing else needs to change. */
 (function () {
@@ -21,6 +23,7 @@
     terms: "SeatGeek sets the code's terms, such as first-order or minimum-spend limits. Check the discount shows in your total before you pay."
   };
 
+  var SEEN_KEY = "ttcSgPromoSeen";
   var dialog = null;
   var continueLink = null;
   var copyButton = null;
@@ -116,10 +119,20 @@
     document.body.appendChild(dialog);
   }
 
+  // The pop-up shows once per browser tab session; after that a SeatGeek CTA
+  // is a plain link, so repeat clicks go straight to /api/out.
+  function alreadySeen() {
+    try { return window.sessionStorage.getItem(SEEN_KEY) === "1"; } catch (error) { return false; }
+  }
+  function markSeen() {
+    try { window.sessionStorage.setItem(SEEN_KEY, "1"); } catch (error) {}
+  }
+
   // Only a plain, trusted left click on a SeatGeek CTA is intercepted.
   // Modified clicks (new tab, new window, download) keep the native link.
   function shouldIntercept(cta, event) {
     if (!SEATGEEK_PROMO.enabled || !SEATGEEK_PROMO.code) return false;
+    if (alreadySeen()) return false;
     if (!cta || String(cta.dataset.ctaProvider || "").trim() !== "seatgeek") return false;
     if (!event || !event.isTrusted || event.defaultPrevented || event.button !== 0) return false;
     if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return false;
@@ -140,6 +153,7 @@
     status.textContent = "";
     copyButton.textContent = "Copy code";
     returnFocus = cta;
+    markSeen();
     dialog.showModal();
     continueLink.focus();
     // Still inside the CTA click's user activation, so the clipboard write is

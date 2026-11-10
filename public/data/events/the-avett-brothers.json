@@ -37,7 +37,7 @@
         "event_id": 7540521,
         "url": "https://www.vividseats.com/the-avett-brothers-tickets-asheville-harrahs-cherokee-center-asheville-12-31-2026/production/7540521",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -52,6 +52,13 @@
         "url": "https://www.ticketnetwork.com/en/p/8270729",
         "verified": true,
         "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270729",
+        "url": "https://www.ticketliquidator.com/tickets/8270729/The-Avett-Brothers-tickets-Thu-Dec-31-2026-ExploreAshevillecom-Arena-at-Harrahs-Cherokee-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       }
     },
@@ -69,6 +76,7 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270729",
-    "genre": "Folk"
+    "genre": "Folk",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270729/The-Avett-Brothers-tickets-Thu-Dec-31-2026-ExploreAshevillecom-Arena-at-Harrahs-Cherokee-Center"
   }
 ]

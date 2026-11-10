@@ -280,7 +280,7 @@
         "event_id": 18393602,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/chicago-illinois-the-salt-shed-indoors-2026-11-21-8-pm/concert/18393602",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -336,14 +336,14 @@
         "event_id": 18603599,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/honolulu-hawaii-neal-s-blaisdell-arena-2027-01-19-8-pm/concert/18603599",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571343,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-honolulu-neal-s-blaisdell-arena-1-19-2027--concerts-alternative/production/7571343",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -391,14 +391,14 @@
         "event_id": 18604169,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/nashville-tennessee-the-truth-nashville-2027-03-11-8-pm/concert/18604169",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571341,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-nashville-the-truth-3-11-2027--concerts-alternative/production/7571341",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -472,14 +472,14 @@
         "event_id": 18603808,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/knoxville-tennessee-tennessee-theatre-2027-03-12-8-pm/concert/18603808",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571339,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-knoxville-tennessee-theatre-3-12-2027--concerts-alternative/production/7571339",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -551,14 +551,14 @@
         "event_id": 18603788,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-03-18-8-pm/concert/18603788",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571335,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-3-18-2027--concerts-alternative/production/7571335",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -581,6 +581,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669542",
+        "url": "https://www.stubhub.ie/death-cab-for-cutie-miami-beach-tickets-3-18-2027/event/107669542",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3lTyqny",
@@ -592,7 +599,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-miami-beach-tickets-3-18-2027/event/107669542"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-orlando-1aefz_3gkr16pfe",
@@ -625,14 +633,14 @@
         "event_id": 18603759,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/orlando-florida-hard-rock-live-orlando-2027-03-20-8-pm/concert/18603759",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571329,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-orlando-hard-rock-live---orlando-3-20-2027--concerts-alternative/production/7571329",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -704,14 +712,14 @@
         "event_id": 18604033,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/houston-texas-713-music-hall-2027-03-22-8-pm/concert/18604033",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571325,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-houston-713-music-hall-3-22-2027--concerts-alternative/production/7571325",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -793,7 +801,7 @@
         "event_id": 7571322,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-pittsburgh-citizens-live-at-the-wylie-3-30-2027--concerts-alternative/production/7571322",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -867,7 +875,7 @@
         "event_id": 7571288,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-3-2027--concerts-alternative/production/7571288",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -922,7 +930,7 @@
         "event_id": 7571284,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-ottawa-history-ottawa-4-4-2027--concerts-alternative/production/7571284",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -981,7 +989,7 @@
         "event_id": 7571278,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027--concerts-alternative/production/7571278",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1063,7 +1071,7 @@
         "event_id": 7571320,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-7-2027--concerts-alternative/production/7571320",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1145,7 +1153,7 @@
         "event_id": 7571318,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-8-2027--concerts-alternative/production/7571318",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1227,7 +1235,7 @@
         "event_id": 7571310,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-uncasville-mohegan-sun-arena-ct-4-9-2027--concerts-alternative/production/7571310",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1298,7 +1306,7 @@
         "event_id": 7571306,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-portland-state-theatre-portland-4-11-2027--concerts-alternative/production/7571306",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1368,7 +1376,7 @@
         "event_id": 7571294,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-new-york-radio-city-music-hall-4-13-2027--concerts-alternative/production/7571294",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1456,7 +1464,7 @@
         "event_id": 7571292,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-asheville-harrahs-cherokee-center-asheville-4-16-2027--concerts-alternative/production/7571292",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1472,6 +1480,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271397",
+        "url": "https://www.ticketliquidator.com/tickets/8271397/Death-Cab-for-Cutie-tickets-Fri-Apr-16-2027-ExploreAshevillecom-Arena-at-Harrahs-Cherokee-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3iO8WKm",
@@ -1481,7 +1496,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271397",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271397/Death-Cab-for-Cutie-tickets-Fri-Apr-16-2027-ExploreAshevillecom-Arena-at-Harrahs-Cherokee-Center"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-atlanta-z7r9jz1aavufx",
@@ -1514,7 +1530,7 @@
         "event_id": 18604670,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/atlanta-georgia-the-eastern-atlanta-2027-03-14-8-pm/concert/18604670",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1584,7 +1600,7 @@
         "event_id": 18604671,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/atlanta-georgia-the-eastern-atlanta-2027-03-15-8-pm/concert/18604671",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1654,7 +1670,7 @@
         "event_id": 18604673,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-03-17-7-pm/concert/18604673",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1801,13 +1817,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271409",
+        "url": "https://www.ticketliquidator.com/tickets/8271409/Death-Cab-for-Cutie-tickets-Thu-Apr-1-2027-Masonic-Temple-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeefP",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271409",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271409/Death-Cab-for-Cutie-tickets-Thu-Apr-1-2027-Masonic-Temple-Theatre"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-huntsville-z7r9jz1aavu_y",
@@ -1847,7 +1871,7 @@
         "event_id": 7571402,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-huntsville-orion-amphitheater-3-27-2027--concerts-alternative/production/7571402",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1910,14 +1934,14 @@
         "event_id": 18604672,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/dallas-texas-the-bomb-factory-dallas-2027-03-24-8-pm/concert/18604672",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571396,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-dallas-the-bomb-factory-3-24-2027--concerts-alternative/production/7571396",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1987,7 +2011,7 @@
         "event_id": 7747803,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-columbus-wexner-center-for-the-arts---mershon-auditorium-3-29-2027/production/7747803",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2061,7 +2085,7 @@
         "event_id": 7747820,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-charlottesville-ting-pavilion-4-14-2027/production/7747820",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2127,14 +2151,14 @@
         "event_id": 18715569,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/calgary-canada-spruce-meadows-2027-07-02-7-pm/concert/18715569",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706688,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-calgary-spruce-meadows-7-2-2027--concerts-alternative/production/7706688",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2197,14 +2221,14 @@
         "event_id": 18715561,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/morrison-colorado-red-rocks-amphitheatre-2027-07-08-7-pm/concert/18715561",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7747847,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-morrison-red-rocks-amphitheatre-7-8-2027--concerts-alternative/production/7747847",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2264,11 +2288,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738391,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/milwaukee-wisconsin-bmo-pavilion-2027-06-25-7-pm/concert/18738391",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2322,7 +2346,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7sC6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7sC6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/austin-texas-united-heritage-hall-2027-03-23-7-pm/concert/18715563",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-central-east-austin-united-heritage-hall-3-23-2027/production/7768721",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7sC6",
@@ -2338,17 +2362,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18715563,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/austin-texas-united-heritage-hall-2027-03-23-7-pm/concert/18715563",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7768721,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-central-east-austin-united-heritage-hall-3-23-2027/production/7768721",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "stubhub": {

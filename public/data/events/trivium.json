@@ -234,7 +234,7 @@
         "event_id": 18391933,
         "url": "https://seatgeek.com/trivium-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2026-11-08-5-30-pm/concert/18391933",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -308,14 +308,14 @@
         "event_id": 18391934,
         "url": "https://seatgeek.com/trivium-tickets/silver-spring-maryland-the-fillmore-silver-spring-2026-11-10-6-35-pm/concert/18391934",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325330,
         "url": "https://www.vividseats.com/trivium-tickets-silver-spring-the-fillmore-silver-spring-11-10-2026--concerts-rock/production/7325330",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -389,7 +389,7 @@
         "event_id": 7325688,
         "url": "https://www.vividseats.com/trivium-tickets-new-haven-college-street-music-hall-11-11-2026--concerts-rock/production/7325688",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -459,7 +459,7 @@
         "event_id": 7325587,
         "url": "https://www.vividseats.com/trivium-tickets-new-york-terminal-5-11-12-2026--concerts-rock/production/7325587",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -529,7 +529,7 @@
         "event_id": 7325410,
         "url": "https://www.vividseats.com/trivium-tickets-philadelphia-franklin-music-hall-11-14-2026/production/7325410",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -615,13 +615,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151279",
+        "url": "https://www.ticketliquidator.com/tickets/8151279/Trivium-tickets-Sun-Nov-15-2026-Worcester-Palladium",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbg",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151279",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151279/Trivium-tickets-Sun-Nov-15-2026-Worcester-Palladium"
   },
   {
     "id": "tm-trivium-2026-laval-17g8v0g6cubsshb",
@@ -654,14 +662,14 @@
         "event_id": 18391948,
         "url": "https://seatgeek.com/trivium-tickets/laval-canada-place-bell-2026-11-17-6-35-pm/concert/18391948",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325404,
         "url": "https://www.vividseats.com/trivium-tickets-laval-place-bell-11-17-2026--concerts-rock/production/7325404",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -745,7 +753,7 @@
         "event_id": 18391949,
         "url": "https://seatgeek.com/trivium-tickets/toronto-canada-the-theatre-at-great-canadian-casino-resort-toronto-2026-11-18-6-35-pm/concert/18391949",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -820,7 +828,7 @@
         "event_id": 7325593,
         "url": "https://www.vividseats.com/trivium-tickets-royal-oak-royal-oak-music-theatre-11-20-2026--concerts-rock/production/7325593",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -883,14 +891,14 @@
         "event_id": 18391955,
         "url": "https://seatgeek.com/trivium-tickets/chicago-illinois-byline-bank-aragon-ballroom-2026-11-21-6-35-pm/concert/18391955",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325332,
         "url": "https://www.vividseats.com/trivium-tickets-chicago-aragon-ballroom-11-21-2026--concerts-rock/production/7325332",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -970,14 +978,14 @@
         "event_id": 18391957,
         "url": "https://seatgeek.com/trivium-tickets/madison-wisconsin-the-sylvee-2026-11-22-6-35-pm/concert/18391957",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325334,
         "url": "https://www.vividseats.com/trivium-tickets-madison-the-sylvee-11-22-2026--concerts-rock/production/7325334",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1080,13 +1088,21 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8151281",
+        "url": "https://www.ticketliquidator.com/tickets/8151281/Trivium-tickets-Tue-Nov-24-2026-The-Pinnacle-At-Nashville-Yards",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbM",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151281",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151281/Trivium-tickets-Tue-Nov-24-2026-The-Pinnacle-At-Nashville-Yards"
   },
   {
     "id": "tm-trivium-2026-saint-louis-17f8v0g6cy863b6",
@@ -1186,14 +1202,14 @@
         "event_id": 18391965,
         "url": "https://seatgeek.com/trivium-tickets/houston-texas-bayou-music-center-2026-11-28-6-35-pm/concert/18391965",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325340,
         "url": "https://www.vividseats.com/trivium-tickets-houston-bayou-music-center-11-28-2026--concerts-rock/production/7325340",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1277,14 +1293,14 @@
         "event_id": 18391967,
         "url": "https://seatgeek.com/trivium-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2026-11-29-6-35-pm/concert/18391967",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325342,
         "url": "https://www.vividseats.com/trivium-tickets-dallas-south-side-ballroom-11-29-2026--concerts-rock/production/7325342",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1367,14 +1383,14 @@
         "event_id": 18391969,
         "url": "https://seatgeek.com/trivium-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-02-6-30-pm/concert/18391969",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325306,
         "url": "https://www.vividseats.com/trivium-tickets-phoenix-arizona-financial-theatre-12-2-2026--concerts-rock/production/7325306",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1434,7 +1450,7 @@
     "tour_name": "Crown In The Grave World Tour",
     "ticketmaster_event_id": "0A0064E9DDF7CB1C",
     "ticketmaster_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-inglewood-california-12-04-2026/event/0A0064E9DDF7CB1C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trivium-tickets/inglewood-california-youtube-theater-2026-12-04-6-35-pm/concert/18391972",
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-inglewood-youtube-theater-12-4-2026--concerts-rock/production/7325352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-inglewood-california-12-04-2026/event/0A0064E9DDF7CB1C",
@@ -1450,17 +1466,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18391972,
+        "url": "https://seatgeek.com/trivium-tickets/inglewood-california-youtube-theater-2026-12-04-6-35-pm/concert/18391972",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325352,
         "url": "https://www.vividseats.com/trivium-tickets-inglewood-youtube-theater-12-4-2026--concerts-rock/production/7325352",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1547,7 +1563,7 @@
         "event_id": 18391974,
         "url": "https://seatgeek.com/trivium-tickets/san-francisco-california-the-masonic-san-francisco-2026-12-05-6-35-pm/concert/18391974",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1633,7 +1649,7 @@
         "event_id": 18391977,
         "url": "https://seatgeek.com/trivium-tickets/penticton-canada-penticton-trade-convention-centre-2026-12-07-6-35-pm/concert/18391977",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1703,14 +1719,14 @@
         "event_id": 18391979,
         "url": "https://seatgeek.com/trivium-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-12-08-6-35-pm/concert/18391979",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325476,
         "url": "https://www.vividseats.com/trivium-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-12-8-2026--concerts-rock/production/7325476",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1786,14 +1802,14 @@
         "event_id": 18391981,
         "url": "https://seatgeek.com/trivium-tickets/seattle-washington-paramount-theatre-wa-2026-12-09-6-35-pm/concert/18391981",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325366,
         "url": "https://www.vividseats.com/trivium-tickets-seattle-paramount-theatre-seattle-12-9-2026--concerts-rock/production/7325366",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1869,7 +1885,7 @@
         "event_id": 18391984,
         "url": "https://seatgeek.com/trivium-tickets/reno-nevada-grand-sierra-resort-2026-12-11-6-35-pm/concert/18391984",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1936,14 +1952,14 @@
         "event_id": 18391983,
         "url": "https://seatgeek.com/trivium-tickets/denver-colorado-mission-ballroom-2026-12-13-6-35-pm/concert/18391983",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325601,
         "url": "https://www.vividseats.com/trivium-tickets-denver-mission-ballroom-12-13-2026--concerts-rock/production/7325601",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2006,14 +2022,14 @@
         "event_id": 18391987,
         "url": "https://seatgeek.com/trivium-tickets/tulsa-oklahoma-tulsa-theater-2026-12-15-6-35-pm/concert/18391987",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325713,
         "url": "https://www.vividseats.com/trivium-tickets-tulsa-tulsa-theater-12-15-2026--concerts-rock/production/7325713",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2031,10 +2047,10 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8151287",
-        "url": "https://www.ticketliquidator.com/tickets/8151287/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater",
+        "event_id": "8359228",
+        "url": "https://www.ticketliquidator.com/tickets/8359228/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       }
     },
@@ -2042,7 +2058,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359228",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151287/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359228/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater",
     "genre": "Rock"
   },
   {
@@ -2076,7 +2092,7 @@
         "event_id": 18391988,
         "url": "https://seatgeek.com/trivium-tickets/omaha-nebraska-steelhouse-omaha-2026-12-16-6-35-pm/concert/18391988",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2162,14 +2178,14 @@
         "event_id": 18391991,
         "url": "https://seatgeek.com/trivium-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2026-12-18-6-35-pm/concert/18391991",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325398,
         "url": "https://www.vividseats.com/trivium-tickets-pittsburgh-citizens-live-at-the-wylie-12-18-2026--concerts-rock/production/7325398",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2248,14 +2264,14 @@
         "event_id": 18391993,
         "url": "https://seatgeek.com/trivium-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-12-19-6-35-pm/concert/18391993",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7325402,
         "url": "https://www.vividseats.com/trivium-tickets-charlotte-the-fillmore-charlotte-12-19-2026--concerts-rock/production/7325402",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2346,7 +2362,7 @@
         "event_id": 7477502,
         "url": "https://www.vividseats.com/trivium-tickets-glasgow-ovo-hydro-3-31-2027--concerts-rock/production/7477502",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2413,7 +2429,7 @@
         "event_id": 7477504,
         "url": "https://www.vividseats.com/trivium-tickets-manchester-co-op-live-4-2-2027--concerts-rock/production/7477504",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2495,7 +2511,7 @@
         "event_id": 7477506,
         "url": "https://www.vividseats.com/trivium-tickets-london-alexandra-palace-4-3-2027--concerts-rock/production/7477506",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2558,7 +2574,7 @@
         "event_id": 7477508,
         "url": "https://www.vividseats.com/trivium-tickets-cardiff-utilita-arena-cardiff-4-4-2027--concerts-rock/production/7477508",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2684,7 +2700,7 @@
         "event_id": 7325671,
         "url": "https://www.vividseats.com/trivium-tickets-san-antonio-boeing-center-at-tech-port-11-27-2026/production/7325671",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2757,7 +2773,7 @@
         "event_id": 7325346,
         "url": "https://www.vividseats.com/trivium-tickets-las-vegas-pearl-concert-theater-at-palms-casino-resort-12-3-2026--concerts-rock/production/7325346",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

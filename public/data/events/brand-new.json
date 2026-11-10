@@ -588,25 +588,25 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8062600",
-        "url": "https://www.ticketliquidator.com/tickets/8062600/Brand-New-tickets-Fri-Nov-6-2026-The-Theater-at-Virgin-Hotels-Las-Vegas",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8062600",
-        "url": "https://www.ticketnetwork.com/en/p/8062600",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JdFs",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062600/Brand-New-tickets-Fri-Nov-6-2026-The-Theater-at-Virgin-Hotels-Las-Vegas",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062600"
+    "ticketliquidator_url": "",
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-brand-new-2026-anaheim-vvg10z_ueuvpcr",
@@ -657,33 +657,33 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8062601",
-        "url": "https://www.ticketliquidator.com/tickets/8062601/Brand-New-tickets-Sat-Nov-7-2026-Honda-Center",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107417868",
-        "url": "https://www.stubhub.ie/brand-new-anaheim-tickets-11-7-2026/event/107417868",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8062601",
-        "url": "https://www.ticketnetwork.com/en/p/8062601",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_ueuVPcR",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062601/Brand-New-tickets-Sat-Nov-7-2026-Honda-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/brand-new-anaheim-tickets-11-7-2026/event/107417868",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062601",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -721,14 +721,14 @@
         "event_id": 18319858,
         "url": "https://seatgeek.com/brand-new-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-11-8-pm/concert/18319858",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7183374,
         "url": "https://www.vividseats.com/brand-new-tickets-san-francisco-bill-graham-civic-auditorium-11-11-2026/production/7183374",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -803,14 +803,14 @@
         "event_id": 18319860,
         "url": "https://seatgeek.com/brand-new-tickets/phoenix-arizona-arizona-financial-theatre-2026-11-14-8-pm/concert/18319860",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7183306,
         "url": "https://www.vividseats.com/brand-new-tickets-phoenix-arizona-financial-theatre-11-14-2026/production/7183306",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

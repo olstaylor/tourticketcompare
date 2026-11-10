@@ -1039,11 +1039,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107447270",
-        "url": "https://www.stubhub.ie/rod-wave-orlando-tickets-11-9-2026/event/107447270",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G6u6bZP82",
@@ -1051,7 +1051,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8063457",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8063457/Rod-Wave-tickets-Mon-Nov-9-2026-Kia-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-orlando-tickets-11-9-2026/event/107447270",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

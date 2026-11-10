@@ -1095,11 +1095,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107259057",
-        "url": "https://www.stubhub.ie/sienna-spiro-san-francisco-tickets-11-9-2026/event/107259057",
-        "verified": true,
-        "last_verified_at": "2026-11-08",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GKW-EWe",
@@ -1112,7 +1112,7 @@
     "ticket_limit": 4,
     "genre": "Pop",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038343/Sienna-Spiro-tickets-Mon-Nov-9-2026-Castro-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/sienna-spiro-san-francisco-tickets-11-9-2026/event/107259057"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-sienna-spiro-2026-los-angeles-vvg10z_gpwxv_j",

@@ -1884,5 +1884,113 @@
       "AEG PRESENTS"
     ],
     "genre": "Rock"
+  },
+  {
+    "id": "tm-journey-2027-stateline-1kayvp_vgacrke8",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Stateline",
+    "country": "United States Of America",
+    "venue": "Tahoe Blue Event Center",
+    "datetime_iso": "2027-04-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065641E7869D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065641E7869D0",
+        "discovery_event_id": "1kAYvP_vGACrkE8",
+        "url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvP_vGACrkE8",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T18:00:00Z"
+  },
+  {
+    "id": "tm-journey-2027-stateline-1kayvp_vgacljep",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Stateline",
+    "country": "United States Of America",
+    "venue": "Tahoe Blue Event Center",
+    "datetime_iso": "2027-04-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065641E7E69D6",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065641E7E69D6",
+        "discovery_event_id": "1kAYvP_vGACLJEp",
+        "url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvP_vGACLJEp",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T18:00:00Z"
   }
 ]

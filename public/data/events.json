@@ -396601,5 +396601,1139 @@
         "end": "2026-11-13T03:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-harrisburg-vv1aezk4tgkdmrriv",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Harrisburg",
+    "country": "United States Of America",
+    "venue": "Riverfront Park",
+    "datetime_iso": "2027-08-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006569EE79EB01",
+    "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-harrisburg-pennsylvania-08-06-2027/event/02006569EE79EB01",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-harrisburg-pennsylvania-08-06-2027/event/02006569EE79EB01",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006569EE79EB01",
+        "discovery_event_id": "vv1AeZk4tGkdmrriv",
+        "url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-harrisburg-pennsylvania-08-06-2027/event/02006569EE79EB01",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4tGkdmrriv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-dublin-1avoz_4gkuvegeh",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro - My House Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Fairview Park",
+    "datetime_iso": "2027-06-16T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800655D819F509B",
+    "ticketmaster_url": "https://www.ticketmaster.ie/sienna-spiro-my-house-tour-dublin-16-06-2027/event/1800655D819F509B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/sienna-spiro-my-house-tour-dublin-16-06-2027/event/1800655D819F509B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800655D819F509B",
+        "discovery_event_id": "1AvOZ_4GkUvEgeh",
+        "url": "https://www.ticketmaster.ie/sienna-spiro-my-house-tour-dublin-16-06-2027/event/1800655D819F509B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_4GkUvEgeh",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T10:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-columbus-vv1ffz_pq6pszd2kv",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Mershon Auditorium",
+    "datetime_iso": "2027-02-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500656687973E50",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-columbus-ohio-02-24-2027/event/0500656687973E50",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-columbus-ohio-02-24-2027/event/0500656687973E50",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500656687973E50",
+        "discovery_event_id": "vv1FfZ_pQ6PSZd2kv",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-columbus-ohio-02-24-2027/event/0500656687973E50",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1FfZ_pQ6PSZd2kv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-detroit-vv1koz_pjag7zyra",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Ford Field",
+    "datetime_iso": "2027-06-09T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800656709E39BC5",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-09-2027/event/0800656709E39BC5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-09-2027/event/0800656709E39BC5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800656709E39BC5",
+        "discovery_event_id": "vv1kOZ_pjaG7zyRA",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-09-2027/event/0800656709E39BC5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kOZ_pjaG7zyRA",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-east-rutherford-k7vgf_pevlzwu",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2027-06-19T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006569C17F8CB6",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-19-2027/event/00006569C17F8CB6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-19-2027/event/00006569C17F8CB6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006569C17F8CB6",
+        "discovery_event_id": "k7vGF_pEvLzwU",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-19-2027/event/00006569C17F8CB6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_pEvLzwU",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z"
+  },
+  {
+    "id": "tm-journey-2027-stateline-1kayvp_vgacrke8",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Stateline",
+    "country": "United States Of America",
+    "venue": "Tahoe Blue Event Center",
+    "datetime_iso": "2027-04-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065641E7869D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065641E7869D0",
+        "discovery_event_id": "1kAYvP_vGACrkE8",
+        "url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvP_vGACrkE8",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T18:00:00Z"
+  },
+  {
+    "id": "tm-journey-2027-stateline-1kayvp_vgacljep",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Stateline",
+    "country": "United States Of America",
+    "venue": "Tahoe Blue Event Center",
+    "datetime_iso": "2027-04-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065641E7E69D6",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065641E7E69D6",
+        "discovery_event_id": "1kAYvP_vGACLJEp",
+        "url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAYvP_vGACLJEp",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T18:00:00Z"
+  },
+  {
+    "id": "tm-leon-bridges-2027-honolulu-vvg1iz_4bdasgg",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges Presents: The Happiness Anytime Tour",
+    "city": "Honolulu",
+    "country": "United States Of America",
+    "venue": "Tom Moffatt Waikiki Shell",
+    "datetime_iso": "2027-02-21T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00655E83173335",
+    "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-honolulu-hawaii-02-20-2027/event/0A00655E83173335",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-honolulu-hawaii-02-20-2027/event/0A00655E83173335",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00655E83173335",
+        "discovery_event_id": "vvG1IZ_4BdASGg",
+        "url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-honolulu-hawaii-02-20-2027/event/0A00655E83173335",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_4BdASGg",
+    "timezone": "Pacific/Honolulu",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T20:00:00Z"
+  },
+  {
+    "id": "tm-los-tigres-del-norte-2027-lincoln-g5vyz_ph5-cbb",
+    "artist_slug": "los-tigres-del-norte",
+    "artist_name": "Los Tigres del Norte",
+    "event_name": "Los Tigres del Norte",
+    "city": "Lincoln",
+    "country": "United States Of America",
+    "venue": "The Venue at Thunder Valley Casino Resort",
+    "datetime_iso": "2027-02-20T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006566CB84EE98",
+    "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-lincoln-california-02-19-2027/event/1C006566CB84EE98",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-lincoln-california-02-19-2027/event/1C006566CB84EE98",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006566CB84EE98",
+        "discovery_event_id": "G5vYZ_ph5-CBb",
+        "url": "https://www.ticketmaster.com/los-tigres-del-norte-lincoln-california-02-19-2027/event/1C006566CB84EE98",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_ph5-CBb",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T18:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-tampa-vvg1vz_pkwq5nj",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2027-04-06T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006564F268B8E6",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-tampa-florida-04-06-2027/event/0D006564F268B8E6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-tampa-florida-04-06-2027/event/0D006564F268B8E6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006564F268B8E6",
+        "discovery_event_id": "vvG1VZ_pKwQ5NJ",
+        "url": "https://www.ticketmaster.com/billy-strings-tampa-florida-04-06-2027/event/0D006564F268B8E6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_pKwQ5NJ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-north-charleston-g5evz_pjlgein",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "North Charleston",
+    "country": "United States Of America",
+    "venue": "North Charleston Coliseum",
+    "datetime_iso": "2027-04-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006569AB327B2A",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-16-2027/event/2D006569AB327B2A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-16-2027/event/2D006569AB327B2A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006569AB327B2A",
+        "discovery_event_id": "G5eVZ_pJlGEin",
+        "url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-16-2027/event/2D006569AB327B2A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pJlGEin",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-north-charleston-g5evz_pjcaeyp",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "North Charleston",
+    "country": "United States Of America",
+    "venue": "North Charleston Coliseum",
+    "datetime_iso": "2027-04-17T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006569AD267E65",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-17-2027/event/2D006569AD267E65",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-17-2027/event/2D006569AD267E65",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006569AD267E65",
+        "discovery_event_id": "G5eVZ_pJcaEyP",
+        "url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-17-2027/event/2D006569AD267E65",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pJcaEyP",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-greenville-g5evz_perum8k",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Greenville",
+    "country": "United States Of America",
+    "venue": "Bon Secours Wellness Arena",
+    "datetime_iso": "2027-04-21T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006569DE36E413",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-greenville-south-carolina-04-21-2027/event/2D006569DE36E413",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-greenville-south-carolina-04-21-2027/event/2D006569DE36E413",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006569DE36E413",
+        "discovery_event_id": "G5eVZ_pErum8K",
+        "url": "https://www.ticketmaster.com/billy-strings-greenville-south-carolina-04-21-2027/event/2D006569DE36E413",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pErum8K",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-greensboro-g5evz_pk9bhy8",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Greensboro",
+    "country": "United States Of America",
+    "venue": "First Horizon Coliseum",
+    "datetime_iso": "2027-04-23T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006564D7EBCE50",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-23-2027/event/2D006564D7EBCE50",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-23-2027/event/2D006564D7EBCE50",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006564D7EBCE50",
+        "discovery_event_id": "G5eVZ_pK9BHy8",
+        "url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-23-2027/event/2D006564D7EBCE50",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pK9BHy8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-greensboro-g5evz_pjyy_fv",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Greensboro",
+    "country": "United States Of America",
+    "venue": "First Horizon Coliseum",
+    "datetime_iso": "2027-04-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006569B9E59501",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-24-2027/event/2D006569B9E59501",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-24-2027/event/2D006569B9E59501",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006569B9E59501",
+        "discovery_event_id": "G5eVZ_pJyy_fv",
+        "url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-24-2027/event/2D006569B9E59501",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pJyy_fv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-birmingham-1aozk4tgkd5-7_e",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2027-06-05T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006569CB844642",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-04-2027/event/20006569CB844642",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-04-2027/event/20006569CB844642",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006569CB844642",
+        "discovery_event_id": "1AOZk4tGkd5-7_e",
+        "url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-04-2027/event/20006569CB844642",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZk4tGkd5-7_e",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-birmingham-1aozk4tgkd5x7_7",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2027-06-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006569CB884644",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-05-2027/event/20006569CB884644",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-05-2027/event/20006569CB884644",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006569CB884644",
+        "discovery_event_id": "1AOZk4tGkd5x7_7",
+        "url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-05-2027/event/20006569CB884644",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZk4tGkd5x7_7",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-louis-vv1kvovpq_ga29ugj",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Chaifetz Arena",
+    "datetime_iso": "2027-06-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060065699F5F6D66",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-saint-louis-missouri-06-10-2027/event/060065699F5F6D66",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-saint-louis-missouri-06-10-2027/event/060065699F5F6D66",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060065699F5F6D66",
+        "discovery_event_id": "vv1kvOvPQ_GA29UgJ",
+        "url": "https://www.ticketmaster.com/billy-strings-saint-louis-missouri-06-10-2027/event/060065699F5F6D66",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvOvPQ_GA29UgJ",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-louis-vv1akzk4tgkdq3l2w",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings 2-Day Ticket (6/10-6/11) Valid Both Days, Cannot Split.",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Chaifetz Arena",
+    "datetime_iso": "2027-06-12T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006569DD49F3F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-2day-ticket-610611-valid-saint-louis-missouri-06-11-2027/event/06006569DD49F3F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/billy-strings-2day-ticket-610611-valid-saint-louis-missouri-06-11-2027/event/06006569DD49F3F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006569DD49F3F2",
+        "discovery_event_id": "vv1AkZk4tGkdq3L2w",
+        "url": "https://www.ticketmaster.com/billy-strings-2day-ticket-610611-valid-saint-louis-missouri-06-11-2027/event/06006569DD49F3F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4tGkdq3L2w",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-feid-2027-ciudad-de-mexico-1av8z_4gkti0zp7",
+    "artist_slug": "feid",
+    "artist_name": "FEID",
+    "event_name": "Ferxxo The Green Star Tour 2027",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-05-23T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400655FE8938944",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-22-05-2027/event/1400655FE8938944",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-22-05-2027/event/1400655FE8938944",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400655FE8938944",
+        "discovery_event_id": "1Av8Z_4GkTI0zP7",
+        "url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-22-05-2027/event/1400655FE8938944",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8Z_4GkTI0zP7",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-seattle-vvg1hz_p5fubur",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "T-Mobile Park",
+    "datetime_iso": "2027-08-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006562C8D9835E",
+    "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-seattle-washington-08-24-2027/event/0F006562C8D9835E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-seattle-washington-08-24-2027/event/0F006562C8D9835E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006562C8D9835E",
+        "discovery_event_id": "vvG1HZ_p5FUbur",
+        "url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-seattle-washington-08-24-2027/event/0F006562C8D9835E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_p5FUbur",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T18:00:00Z"
   }
 ]

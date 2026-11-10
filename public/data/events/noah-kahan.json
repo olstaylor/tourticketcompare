@@ -2577,5 +2577,113 @@
       "Live Nation España S.A.U."
     ],
     "genre": "Rock"
+  },
+  {
+    "id": "tm-noah-kahan-2027-detroit-vv1koz_pjag7zyra",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Ford Field",
+    "datetime_iso": "2027-06-09T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800656709E39BC5",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-09-2027/event/0800656709E39BC5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-09-2027/event/0800656709E39BC5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800656709E39BC5",
+        "discovery_event_id": "vv1kOZ_pjaG7zyRA",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-09-2027/event/0800656709E39BC5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kOZ_pjaG7zyRA",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z"
+  },
+  {
+    "id": "tm-noah-kahan-2027-east-rutherford-k7vgf_pevlzwu",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2027-06-19T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006569C17F8CB6",
+    "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-19-2027/event/00006569C17F8CB6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-19-2027/event/00006569C17F8CB6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006569C17F8CB6",
+        "discovery_event_id": "k7vGF_pEvLzwU",
+        "url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-19-2027/event/00006569C17F8CB6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_pEvLzwU",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T17:00:00Z"
   }
 ]

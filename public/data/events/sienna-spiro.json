@@ -3675,5 +3675,59 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332309",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332309/Sienna-Spiro-tickets-Tue-Aug-10-2027-Fabulous-Fox-Theatre-Atlanta",
     "genre": "Pop"
+  },
+  {
+    "id": "tm-sienna-spiro-2027-dublin-1avoz_4gkuvegeh",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "event_name": "Sienna Spiro - My House Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Fairview Park",
+    "datetime_iso": "2027-06-16T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800655D819F509B",
+    "ticketmaster_url": "https://www.ticketmaster.ie/sienna-spiro-my-house-tour-dublin-16-06-2027/event/1800655D819F509B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/sienna-spiro-my-house-tour-dublin-16-06-2027/event/1800655D819F509B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800655D819F509B",
+        "discovery_event_id": "1AvOZ_4GkUvEgeh",
+        "url": "https://www.ticketmaster.ie/sienna-spiro-my-house-tour-dublin-16-06-2027/event/1800655D819F509B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_4GkUvEgeh",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T10:00:00Z"
   }
 ]

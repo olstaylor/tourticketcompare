@@ -2240,5 +2240,59 @@
       }
     ],
     "genre": "Rock"
+  },
+  {
+    "id": "tm-dropkick-murphys-2027-lexington-1apzk48gkdukuzi",
+    "artist_slug": "dropkick-murphys",
+    "artist_name": "Dropkick Murphys",
+    "event_name": "Dropkick Murphys - St Patrick's Day 2027 Tour",
+    "city": "Lexington",
+    "country": "United States Of America",
+    "venue": "The Rail",
+    "datetime_iso": "2027-02-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006550CD4CD028",
+    "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-lexington-kentucky-02-23-2027/event/16006550CD4CD028",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-lexington-kentucky-02-23-2027/event/16006550CD4CD028",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006550CD4CD028",
+        "discovery_event_id": "1ApZk48GkduKuZI",
+        "url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-lexington-kentucky-02-23-2027/event/16006550CD4CD028",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZk48GkduKuZI",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
   }
 ]

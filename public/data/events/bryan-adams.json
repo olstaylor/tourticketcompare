@@ -1483,5 +1483,59 @@
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
     "genre": "Rock"
+  },
+  {
+    "id": "tm-bryan-adams-2027-niagara-falls-16vzz_p36g7nu6g",
+    "artist_slug": "bryan-adams",
+    "artist_name": "Bryan Adams",
+    "event_name": "Bryan Adams - Roll with the Punches Tour",
+    "city": "Niagara Falls",
+    "country": "Canada",
+    "venue": "OLG Stage at Fallsview Casino",
+    "datetime_iso": "2027-05-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000656487AB61F5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bryan-adams-roll-with-the-punches-niagara-falls-ontario-05-22-2027/event/1000656487AB61F5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bryan-adams-roll-with-the-punches-niagara-falls-ontario-05-22-2027/event/1000656487AB61F5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000656487AB61F5",
+        "discovery_event_id": "16vZZ_p36G7nU6g",
+        "url": "https://www.ticketmaster.ca/bryan-adams-roll-with-the-punches-niagara-falls-ontario-05-22-2027/event/1000656487AB61F5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vZZ_p36G7nU6g",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T15:00:00Z"
   }
 ]

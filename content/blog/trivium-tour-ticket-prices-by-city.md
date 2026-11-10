@@ -1,10 +1,10 @@
 ---
 title: "Trivium tour tickets: listed prices city by city"
 seo_title: "Trivium tour ticket prices by city"
-description: "Trivium tour: the next date in 22 cities, $27.60 in Inglewood at the low end, $108.10 in Tulsa at the high end."
-summary: "TicketNetwork's lowest listed price for the next Trivium date in each of 22 cities, each figure with the time it was captured. Snapshots 8 November to 9 November 2026."
+description: "Trivium tour: the next date in 22 cities, $27.60 in Inglewood at the low end, $147.20 in Charlotte at the high end."
+summary: "TicketNetwork's lowest listed price for the next Trivium date in each of 22 cities, each figure with the time it was captured. Snapshots 10 November 2026."
 date: 2026-10-26
-updated: 2026-11-09
+updated: 2026-11-10
 status: published
 tags:
   - tour-data
@@ -14,34 +14,34 @@ related_guides:
   - primary-vs-resale-concert-tickets
 ---
 
-Trivium's Crown In The Grave World Tour has 28 dates that TourTicketCompare tracks. In the United States, 22 cities had a recent listed price on TicketNetwork. The next date in Inglewood was listed at $27.60 at the low end, and the next date in Tulsa at $108.10 at the high end, 3.9 times as much. The median city was listed at $71.88.
+Trivium's Crown In The Grave World Tour has 28 dates that TourTicketCompare tracks. In the United States, 22 cities had a recent listed price on TicketNetwork. The next date in Inglewood was listed at $27.60 at the low end, and the next date in Charlotte at $147.20 at the high end, 5.3 times as much. The median city was listed at $77.05.
 
 ## Trivium ticket prices by city
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Inglewood](/artists/trivium/tickets/inglewood-united-states) | 4 December 2026 | YouTube Theater | $27.60 | TicketNetwork | 8 November, 23:44 UTC |
-| [Dallas](/artists/trivium/tickets/dallas-united-states) | 29 November 2026 | South Side Ballroom | $42.55 | TicketNetwork | 8 November, 23:44 UTC |
-| [Silver Spring](/artists/trivium/tickets/silver-spring-united-states) | 10 November 2026 | The Fillmore Silver Spring | $44.85 | TicketNetwork | 9 November, 22:44 UTC |
-| [Nashville](/artists/trivium/tickets/nashville-united-states) | 24 November 2026 | The Pinnacle - TN | $47.15 | TicketNetwork | 8 November, 23:44 UTC |
-| [Royal Oak](/artists/trivium/tickets/royal-oak-united-states) | 20 November 2026 | Royal Oak Music Theatre | $48.30 | TicketNetwork | 8 November, 23:44 UTC |
-| [Houston](/artists/trivium/tickets/houston-united-states) | 28 November 2026 | Bayou Music Center | $58.65 | TicketNetwork | 8 November, 23:44 UTC |
-| [Las Vegas](/artists/trivium/tickets/las-vegas-united-states) | 3 December 2026 | Pearl Concert Theater at Palms Casino Resort | $62.10 | TicketNetwork | 9 November, 06:38 UTC |
-| [San Francisco](/artists/trivium/tickets/san-francisco-united-states) | 5 December 2026 | The Masonic | $64.40 | TicketNetwork | 8 November, 23:44 UTC |
-| [Denver](/artists/trivium/tickets/denver-united-states) | 13 December 2026 | Mission Ballroom | $66.70 | TicketNetwork | 8 November, 23:44 UTC |
-| [New York](/artists/trivium/tickets/new-york-united-states) | 12 November 2026 | Terminal 5 | $66.70 | TicketNetwork | 8 November, 23:44 UTC |
-| [Phoenix](/artists/trivium/tickets/phoenix-united-states) | 2 December 2026 | Arizona Financial Theatre | $71.30 | TicketNetwork | 8 November, 23:44 UTC |
-| [Philadelphia](/artists/trivium/tickets/philadelphia-united-states) | 14 November 2026 | Franklin Music Hall | $72.45 | TicketNetwork | 8 November, 23:44 UTC |
-| [Omaha](/artists/trivium/tickets/omaha-united-states) | 16 December 2026 | Steelhouse Omaha | $78.20 | TicketNetwork | 8 November, 23:45 UTC |
-| [Chicago](/artists/trivium/tickets/chicago-united-states) | 21 November 2026 | Aragon Ballroom | $81.65 | TicketNetwork | 8 November, 23:44 UTC |
-| [Worcester](/artists/trivium/tickets/worcester-united-states) | 15 November 2026 | Palladium-MA | $81.65 | TicketNetwork | 8 November, 23:44 UTC |
-| [Pittsburgh](/artists/trivium/tickets/pittsburgh-united-states) | 18 December 2026 | Citizens Live at The Wylie | $85.10 | TicketNetwork | 8 November, 23:45 UTC |
-| [Seattle](/artists/trivium/tickets/seattle-united-states) | 9 December 2026 | Paramount Theatre | $92 | TicketNetwork | 8 November, 23:44 UTC |
-| [Madison](/artists/trivium/tickets/madison-united-states) | 22 November 2026 | The Sylvee | $94.30 | TicketNetwork | 8 November, 23:44 UTC |
-| [San Antonio](/artists/trivium/tickets/san-antonio-united-states) | 27 November 2026 | Boeing Center at Tech Port | $97.75 | TicketNetwork | 9 November, 06:38 UTC |
-| [Charlotte](/artists/trivium/tickets/charlotte-united-states) | 19 December 2026 | The Fillmore Charlotte | $102.35 | TicketNetwork | 8 November, 23:45 UTC |
-| [New Haven](/artists/trivium/tickets/new-haven-united-states) | 11 November 2026 | College Street Music Hall | $103.50 | TicketNetwork | 8 November, 23:44 UTC |
-| [Tulsa](/artists/trivium/tickets/tulsa-united-states) | 15 December 2026 | Tulsa Theater | $108.10 | TicketNetwork | 8 November, 23:45 UTC |
+| [Inglewood](/artists/trivium/tickets/inglewood-united-states) | 4 December 2026 | YouTube Theater | $27.60 | TicketNetwork | 10 November, 09:57 UTC |
+| [Dallas](/artists/trivium/tickets/dallas-united-states) | 29 November 2026 | South Side Ballroom | $42.55 | TicketNetwork | 10 November, 09:57 UTC |
+| [Nashville](/artists/trivium/tickets/nashville-united-states) | 24 November 2026 | The Pinnacle - TN | $47.15 | TicketNetwork | 10 November, 09:57 UTC |
+| [Royal Oak](/artists/trivium/tickets/royal-oak-united-states) | 20 November 2026 | Royal Oak Music Theatre | $48.30 | TicketNetwork | 10 November, 09:57 UTC |
+| [Houston](/artists/trivium/tickets/houston-united-states) | 28 November 2026 | Bayou Music Center | $58.65 | TicketNetwork | 10 November, 09:57 UTC |
+| [Las Vegas](/artists/trivium/tickets/las-vegas-united-states) | 3 December 2026 | Pearl Concert Theater at Palms Casino Resort | $59.80 | TicketNetwork | 10 November, 17:57 UTC |
+| [San Francisco](/artists/trivium/tickets/san-francisco-united-states) | 5 December 2026 | The Masonic | $59.80 | TicketNetwork | 10 November, 09:57 UTC |
+| [Denver](/artists/trivium/tickets/denver-united-states) | 13 December 2026 | Mission Ballroom | $66.70 | TicketNetwork | 10 November, 09:57 UTC |
+| [New York](/artists/trivium/tickets/new-york-united-states) | 12 November 2026 | Terminal 5 | $66.70 | TicketNetwork | 10 November, 09:57 UTC |
+| [Phoenix](/artists/trivium/tickets/phoenix-united-states) | 2 December 2026 | Arizona Financial Theatre | $71.30 | TicketNetwork | 10 November, 09:57 UTC |
+| [Omaha](/artists/trivium/tickets/omaha-united-states) | 16 December 2026 | Steelhouse Omaha | $75.90 | TicketNetwork | 10 November, 09:57 UTC |
+| [Chicago](/artists/trivium/tickets/chicago-united-states) | 21 November 2026 | Aragon Ballroom | $78.20 | TicketNetwork | 10 November, 09:57 UTC |
+| [Worcester](/artists/trivium/tickets/worcester-united-states) | 15 November 2026 | Palladium-MA | $81.65 | TicketNetwork | 10 November, 09:57 UTC |
+| [Pittsburgh](/artists/trivium/tickets/pittsburgh-united-states) | 18 December 2026 | Citizens Live at The Wylie | $85.10 | TicketNetwork | 10 November, 09:57 UTC |
+| [Seattle](/artists/trivium/tickets/seattle-united-states) | 9 December 2026 | Paramount Theatre | $92 | TicketNetwork | 10 November, 09:57 UTC |
+| [Madison](/artists/trivium/tickets/madison-united-states) | 22 November 2026 | The Sylvee | $94.30 | TicketNetwork | 10 November, 09:57 UTC |
+| [San Antonio](/artists/trivium/tickets/san-antonio-united-states) | 27 November 2026 | Boeing Center at Tech Port | $97.75 | TicketNetwork | 10 November, 17:57 UTC |
+| [New Haven](/artists/trivium/tickets/new-haven-united-states) | 11 November 2026 | College Street Music Hall | $103.50 | TicketNetwork | 10 November, 13:03 UTC |
+| [Philadelphia](/artists/trivium/tickets/philadelphia-united-states) | 14 November 2026 | Franklin Music Hall | $108.10 | TicketNetwork | 10 November, 09:57 UTC |
+| [Tulsa](/artists/trivium/tickets/tulsa-united-states) | 15 December 2026 | Tulsa Theater | $108.10 | TicketNetwork | 10 November, 09:57 UTC |
+| [Silver Spring](/artists/trivium/tickets/silver-spring-united-states) | 10 November 2026 | The Fillmore Silver Spring | $121.90 | TicketNetwork | 10 November, 13:03 UTC |
+| [Charlotte](/artists/trivium/tickets/charlotte-united-states) | 19 December 2026 | The Fillmore Charlotte | $147.20 | TicketNetwork | 10 November, 09:57 UTC |
 
 Each figure is the lowest listed price on TicketNetwork for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
@@ -51,24 +51,24 @@ Vivid Seats also had a recent listed price for the next date in 18 of these citi
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Silver Spring](/artists/trivium/tickets/silver-spring-united-states) | 10 November 2026 | The Fillmore Silver Spring | $61 | Vivid Seats | 9 November, 22:45 UTC |
-| [New Haven](/artists/trivium/tickets/new-haven-united-states) | 11 November 2026 | College Street Music Hall | $68 | Vivid Seats | 9 November, 22:45 UTC |
-| [New York](/artists/trivium/tickets/new-york-united-states) | 12 November 2026 | Terminal 5 | $73 | Vivid Seats | 9 November, 22:45 UTC |
-| [Philadelphia](/artists/trivium/tickets/philadelphia-united-states) | 14 November 2026 | Franklin Music Hall | $98 | Vivid Seats | 9 November, 22:45 UTC |
-| [Royal Oak](/artists/trivium/tickets/royal-oak-united-states) | 20 November 2026 | Royal Oak Music Theatre | $57 | Vivid Seats | 9 November, 22:45 UTC |
-| [Chicago](/artists/trivium/tickets/chicago-united-states) | 21 November 2026 | Aragon Ballroom | $65 | Vivid Seats | 9 November, 22:45 UTC |
-| [Madison](/artists/trivium/tickets/madison-united-states) | 22 November 2026 | The Sylvee | $82 | Vivid Seats | 9 November, 22:45 UTC |
-| [San Antonio](/artists/trivium/tickets/san-antonio-united-states) | 27 November 2026 | Boeing Center at Tech Port | $87 | Vivid Seats | 9 November, 22:45 UTC |
-| [Houston](/artists/trivium/tickets/houston-united-states) | 28 November 2026 | Bayou Music Center | $50 | Vivid Seats | 9 November, 22:45 UTC |
-| [Dallas](/artists/trivium/tickets/dallas-united-states) | 29 November 2026 | South Side Ballroom | $49 | Vivid Seats | 9 November, 22:45 UTC |
-| [Phoenix](/artists/trivium/tickets/phoenix-united-states) | 2 December 2026 | Arizona Financial Theatre | $78 | Vivid Seats | 9 November, 22:45 UTC |
-| [Las Vegas](/artists/trivium/tickets/las-vegas-united-states) | 3 December 2026 | Pearl Concert Theater at Palms Casino Resort | $53 | Vivid Seats | 9 November, 22:45 UTC |
-| [Inglewood](/artists/trivium/tickets/inglewood-united-states) | 4 December 2026 | YouTube Theater | $34 | Vivid Seats | 9 November, 22:45 UTC |
-| [Seattle](/artists/trivium/tickets/seattle-united-states) | 9 December 2026 | Paramount Theatre | $87 | Vivid Seats | 9 November, 22:45 UTC |
-| [Denver](/artists/trivium/tickets/denver-united-states) | 13 December 2026 | Mission Ballroom | $61 | Vivid Seats | 9 November, 22:45 UTC |
-| [Tulsa](/artists/trivium/tickets/tulsa-united-states) | 15 December 2026 | Tulsa Theater | $88 | Vivid Seats | 9 November, 22:45 UTC |
-| [Pittsburgh](/artists/trivium/tickets/pittsburgh-united-states) | 18 December 2026 | Citizens Live at The Wylie | $73 | Vivid Seats | 9 November, 22:45 UTC |
-| [Charlotte](/artists/trivium/tickets/charlotte-united-states) | 19 December 2026 | The Fillmore Charlotte | $131 | Vivid Seats | 9 November, 22:45 UTC |
+| [Silver Spring](/artists/trivium/tickets/silver-spring-united-states) | 10 November 2026 | The Fillmore Silver Spring | $65 | Vivid Seats | 10 November, 17:50 UTC |
+| [New Haven](/artists/trivium/tickets/new-haven-united-states) | 11 November 2026 | College Street Music Hall | $68 | Vivid Seats | 10 November, 17:50 UTC |
+| [New York](/artists/trivium/tickets/new-york-united-states) | 12 November 2026 | Terminal 5 | $73 | Vivid Seats | 10 November, 13:02 UTC |
+| [Philadelphia](/artists/trivium/tickets/philadelphia-united-states) | 14 November 2026 | Franklin Music Hall | $99 | Vivid Seats | 10 November, 13:02 UTC |
+| [Royal Oak](/artists/trivium/tickets/royal-oak-united-states) | 20 November 2026 | Royal Oak Music Theatre | $57 | Vivid Seats | 10 November, 13:02 UTC |
+| [Chicago](/artists/trivium/tickets/chicago-united-states) | 21 November 2026 | Aragon Ballroom | $65 | Vivid Seats | 10 November, 13:02 UTC |
+| [Madison](/artists/trivium/tickets/madison-united-states) | 22 November 2026 | The Sylvee | $82 | Vivid Seats | 10 November, 13:02 UTC |
+| [San Antonio](/artists/trivium/tickets/san-antonio-united-states) | 27 November 2026 | Boeing Center at Tech Port | $87 | Vivid Seats | 10 November, 13:02 UTC |
+| [Houston](/artists/trivium/tickets/houston-united-states) | 28 November 2026 | Bayou Music Center | $50 | Vivid Seats | 10 November, 13:02 UTC |
+| [Dallas](/artists/trivium/tickets/dallas-united-states) | 29 November 2026 | South Side Ballroom | $55 | Vivid Seats | 10 November, 13:02 UTC |
+| [Phoenix](/artists/trivium/tickets/phoenix-united-states) | 2 December 2026 | Arizona Financial Theatre | $78 | Vivid Seats | 10 November, 13:02 UTC |
+| [Las Vegas](/artists/trivium/tickets/las-vegas-united-states) | 3 December 2026 | Pearl Concert Theater at Palms Casino Resort | $54 | Vivid Seats | 10 November, 13:02 UTC |
+| [Inglewood](/artists/trivium/tickets/inglewood-united-states) | 4 December 2026 | YouTube Theater | $34 | Vivid Seats | 10 November, 13:02 UTC |
+| [Seattle](/artists/trivium/tickets/seattle-united-states) | 9 December 2026 | Paramount Theatre | $87 | Vivid Seats | 10 November, 13:02 UTC |
+| [Denver](/artists/trivium/tickets/denver-united-states) | 13 December 2026 | Mission Ballroom | $61 | Vivid Seats | 10 November, 13:02 UTC |
+| [Tulsa](/artists/trivium/tickets/tulsa-united-states) | 15 December 2026 | Tulsa Theater | $90 | Vivid Seats | 10 November, 13:02 UTC |
+| [Pittsburgh](/artists/trivium/tickets/pittsburgh-united-states) | 18 December 2026 | Citizens Live at The Wylie | $73 | Vivid Seats | 10 November, 13:02 UTC |
+| [Charlotte](/artists/trivium/tickets/charlotte-united-states) | 19 December 2026 | The Fillmore Charlotte | $127 | Vivid Seats | 10 November, 13:02 UTC |
 
 ## How this was worked out
 

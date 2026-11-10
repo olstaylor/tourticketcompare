@@ -2609,6 +2609,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362357",
+        "url": "https://www.ticketliquidator.com/tickets/8362357/Meshuggah-tickets-Wed-Oct-27-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvOZ_4GkwRafdq",
@@ -2620,7 +2627,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Metal",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362357"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362357",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362357/Meshuggah-tickets-Wed-Oct-27-2027-3Arena-Dublin"
   },
   {
     "id": "tm-meshuggah-2027-manchester-1adfz_4gkvdqmcy",

@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8324861",
+        "url": "https://www.ticketliquidator.com/tickets/8324861/The-Dead-South-tickets-Fri-Mar-5-2027-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_GJibVci",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324861"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324861",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324861/The-Dead-South-tickets-Fri-Mar-5-2027-O2-Academy-Brixton"
   },
   {
     "id": "tm-the-dead-south-2027-manchester-17u8v0g6gm8i6t0",
@@ -379,13 +387,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361963",
+        "url": "https://www.ticketliquidator.com/tickets/8361963/The-Dead-South-tickets-Mon-Apr-19-2027-The-Fillmore-Silver-Spring",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_4GkTP2lU0",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361963"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361963",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361963/The-Dead-South-tickets-Mon-Apr-19-2027-The-Fillmore-Silver-Spring"
   },
   {
     "id": "tm-the-dead-south-2027-saint-louis-16e7z_pf4g7neqx",
@@ -549,12 +565,20 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8352785",
+        "url": "https://www.ticketliquidator.com/tickets/8352785/The-Dead-South-tickets-Fri-Apr-30-2027-The-Rail-KY",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_4GkU2y0tX",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8352785"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8352785",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8352785/The-Dead-South-tickets-Fri-Apr-30-2027-The-Rail-KY"
   },
   {
     "id": "tm-the-dead-south-2027-nashville-g5viz_p3okygx",
@@ -610,13 +634,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361931",
+        "url": "https://www.ticketliquidator.com/tickets/8361931/The-Dead-South-tickets-Sat-May-1-2027-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_p3OkyGx",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361931"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361931",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361931/The-Dead-South-tickets-Sat-May-1-2027-The-Truth"
   },
   {
     "id": "tm-the-dead-south-2027-vancouver-1k78vpbzgacmkgo",
@@ -672,13 +704,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361932",
+        "url": "https://www.ticketliquidator.com/tickets/8361932/The-Dead-South-tickets-Thu-Sep-23-2027-Malkin-Bowl-Stanley-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPbzGACMKgO",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-11-13T19:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361932"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361932",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361932/The-Dead-South-tickets-Thu-Sep-23-2027-Malkin-Bowl-Stanley-Park"
   },
   {
     "id": "tm-the-dead-south-2027-kelowna-z7r9jz1aa7moa",
@@ -734,13 +774,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361934",
+        "url": "https://www.ticketliquidator.com/tickets/8361934/The-Dead-South-tickets-Fri-Sep-24-2027-Prospera-Place",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7MOA",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361934"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361934",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361934/The-Dead-South-tickets-Fri-Sep-24-2027-Prospera-Place"
   },
   {
     "id": "tm-the-dead-south-2027-calgary-1aozk4xgkd6z6-j",
@@ -958,13 +1006,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361941",
+        "url": "https://www.ticketliquidator.com/tickets/8361941/The-Dead-South-tickets-Fri-Oct-1-2027-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kG8vPbIGAujeuh",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361941"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361941",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361941/The-Dead-South-tickets-Fri-Oct-1-2027-MTelus"
   },
   {
     "id": "tm-the-dead-south-2027-montreal-1kg8vpbigaujwul",
@@ -1020,13 +1076,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361942",
+        "url": "https://www.ticketliquidator.com/tickets/8361942/The-Dead-South-tickets-Sat-Oct-2-2027-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kG8vPbIGAujwuL",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361942"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361942",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361942/The-Dead-South-tickets-Sat-Oct-2-2027-MTelus"
   },
   {
     "id": "tm-the-dead-south-2027-ottawa-1aszk40gkda6px7",
@@ -1190,12 +1254,20 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361946",
+        "url": "https://www.ticketliquidator.com/tickets/8361946/The-Dead-South-tickets-Thu-Oct-7-2027-Burton-Cummings-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16oZk4NOSZA5dC55",
     "timezone": "America/Winnipeg",
     "status": "announced",
     "public_onsale_at": "2026-11-13T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361946"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361946",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361946/The-Dead-South-tickets-Thu-Oct-7-2027-Burton-Cummings-Theatre"
   }
 ]

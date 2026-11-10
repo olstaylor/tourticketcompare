@@ -269,13 +269,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362652",
+        "url": "https://www.ticketliquidator.com/tickets/8362652/Fall-Out-Boy-tickets-Sun-May-30-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kuOvP_EGA1OoRM",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-11-12T12:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362652"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362652",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362652/Fall-Out-Boy-tickets-Sun-May-30-2027-OVO-Hydro"
   },
   {
     "id": "tm-fall-out-boy-2027-dublin-1abzk4xgkdbhdty",
@@ -331,13 +339,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362653",
+        "url": "https://www.ticketliquidator.com/tickets/8362653/Fall-Out-Boy-tickets-Tue-Jun-1-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZk4xGkdbhDtY",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-11-12T12:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362653"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362653",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362653/Fall-Out-Boy-tickets-Tue-Jun-1-2027-3Arena-Dublin"
   },
   {
     "id": "tm-fall-out-boy-2027-manchester-1amzk4pgkdukzs6",
@@ -393,13 +409,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362654",
+        "url": "https://www.ticketliquidator.com/tickets/8362654/Fall-Out-Boy-tickets-Thu-Jun-3-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4PGkdukzS6",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-11-12T12:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362654"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362654",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362654/Fall-Out-Boy-tickets-Thu-Jun-3-2027-Co-Op-Live"
   },
   {
     "id": "tm-fall-out-boy-2027-london-1adfz_4gkxmx9xa",
@@ -617,13 +641,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362630",
+        "url": "https://www.ticketliquidator.com/tickets/8362630/Fall-Out-Boy-tickets-Tue-Jul-13-2027-Globe-Life-Field",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_poTB4M0",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-12T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362630"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362630",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362630/Fall-Out-Boy-tickets-Tue-Jul-13-2027-Globe-Life-Field"
   },
   {
     "id": "tm-fall-out-boy-2027-atlanta-vvg1zz_pkn5gmk",
@@ -679,13 +711,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362632",
+        "url": "https://www.ticketliquidator.com/tickets/8362632/Fall-Out-Boy-tickets-Fri-Jul-16-2027-Truist-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pKn5gmk",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362632"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362632",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362632/Fall-Out-Boy-tickets-Fri-Jul-16-2027-Truist-Park"
   },
   {
     "id": "tm-fall-out-boy-2027-washington-1avfz_4gkhvu21c",
@@ -741,13 +781,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362634",
+        "url": "https://www.ticketliquidator.com/tickets/8362634/Fall-Out-Boy-tickets-Sun-Jul-18-2027-Nationals-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_4GkHvU21c",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362634"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362634",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362634/Fall-Out-Boy-tickets-Sun-Jul-18-2027-Nationals-Park"
   },
   {
     "id": "tm-fall-out-boy-2027-detroit-vv1afzk4jgkdvw4eb",
@@ -803,13 +851,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362635",
+        "url": "https://www.ticketliquidator.com/tickets/8362635/Fall-Out-Boy-tickets-Tue-Jul-20-2027-Fifth-Third-Park-MI",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4JGkdvW4EB",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362635"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362635",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362635/Fall-Out-Boy-tickets-Tue-Jul-20-2027-Fifth-Third-Park-MI"
   },
   {
     "id": "tm-fall-out-boy-2027-toronto-1a8zk40gkdutc4w",
@@ -919,13 +975,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362636",
+        "url": "https://www.ticketliquidator.com/tickets/8362636/Fall-Out-Boy-tickets-Sat-Jul-24-2027-Soldier-Field",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv118Z_pQp44qd",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-12T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362636"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362636",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362636/Fall-Out-Boy-tickets-Sat-Jul-24-2027-Soldier-Field"
   },
   {
     "id": "tm-fall-out-boy-2027-boston-vv1avzk4ngkenvma1",
@@ -981,13 +1045,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362638",
+        "url": "https://www.ticketliquidator.com/tickets/8362638/Fall-Out-Boy-tickets-Fri-Jul-30-2027-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4NGkeNvMA1",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362638"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362638",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362638/Fall-Out-Boy-tickets-Fri-Jul-30-2027-Fenway-Park"
   },
   {
     "id": "tm-fall-out-boy-2027-queens-g5vvz_pkqtkyp",
@@ -1097,13 +1169,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362640",
+        "url": "https://www.ticketliquidator.com/tickets/8362640/Fall-Out-Boy-tickets-Tue-Aug-3-2027-Atlantic-City-Beach",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4PGkdw5r4K",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362640"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362640",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362640/Fall-Out-Boy-tickets-Tue-Aug-3-2027-Atlantic-City-Beach"
   },
   {
     "id": "tm-fall-out-boy-2027-hershey-vv1aezk40gkd_hdkn",
@@ -1159,13 +1239,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362641",
+        "url": "https://www.ticketliquidator.com/tickets/8362641/Fall-Out-Boy-tickets-Wed-Aug-4-2027-Hersheypark-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk40Gkd_HDKn",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362641"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362641",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362641/Fall-Out-Boy-tickets-Wed-Aug-4-2027-Hersheypark-Stadium"
   },
   {
     "id": "tm-fall-out-boy-2027-kansas-city-1a-zk40gkd1psok",
@@ -1275,13 +1363,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362643",
+        "url": "https://www.ticketliquidator.com/tickets/8362643/Fall-Out-Boy-tickets-Tue-Aug-10-2027-Dicks-Sporting-Goods-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_p3slSMJ",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362643"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362643",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362643/Fall-Out-Boy-tickets-Tue-Aug-10-2027-Dicks-Sporting-Goods-Park"
   },
   {
     "id": "tm-fall-out-boy-2027-san-francisco-g5vyz_p3s9d3l",
@@ -1337,13 +1433,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362646",
+        "url": "https://www.ticketliquidator.com/tickets/8362646/Fall-Out-Boy-tickets-Sun-Aug-15-2027-Oracle-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p3s9D3l",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362646"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362646",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362646/Fall-Out-Boy-tickets-Sun-Aug-15-2027-Oracle-Park"
   },
   {
     "id": "tm-fall-out-boy-2027-san-diego-vvg1iz_pc9ifhq",
@@ -1399,13 +1503,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362647",
+        "url": "https://www.ticketliquidator.com/tickets/8362647/Fall-Out-Boy-tickets-Tue-Aug-17-2027-Petco-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pC9ifhq",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362647"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362647",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362647/Fall-Out-Boy-tickets-Tue-Aug-17-2027-Petco-Park"
   },
   {
     "id": "tm-fall-out-boy-2027-phoenix-1a_zk4xgkdxdu-e",
@@ -1461,13 +1573,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362648",
+        "url": "https://www.ticketliquidator.com/tickets/8362648/Fall-Out-Boy-tickets-Thu-Aug-19-2027-Chase-Field",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4xGkdxDU-e",
     "timezone": "America/Phoenix",
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362648"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362648",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362648/Fall-Out-Boy-tickets-Thu-Aug-19-2027-Chase-Field"
   },
   {
     "id": "tm-fall-out-boy-2027-los-angeles-vvg1iz_p4zt_kr",
@@ -1523,13 +1643,21 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362649",
+        "url": "https://www.ticketliquidator.com/tickets/8362649/Fall-Out-Boy-tickets-Sat-Aug-21-2027-UNIQLO-Field-at-Dodger-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_p4Zt_kR",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362649"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362649",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362649/Fall-Out-Boy-tickets-Sat-Aug-21-2027-UNIQLO-Field-at-Dodger-Stadium"
   },
   {
     "id": "tm-fall-out-boy-2027-portland-z7r9jz1aaaa0k",
@@ -1585,12 +1713,20 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362651",
+        "url": "https://www.ticketliquidator.com/tickets/8362651/Fall-Out-Boy-tickets-Thu-Aug-26-2027-Providence-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAA0k",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362651"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362651",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362651/Fall-Out-Boy-tickets-Thu-Aug-26-2027-Providence-Park"
   }
 ]

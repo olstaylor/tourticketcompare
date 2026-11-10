@@ -95,7 +95,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-19-2027/event/22006567BE433B0A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -131,7 +131,20 @@
     "ticketmaster_discovery_event_id": "1AxZk4EGkeX8Si1",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Folk",
+    "presales": [
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-avett-brothers-2027-orlando-1axzk4egkexosiu",
@@ -149,7 +162,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-20-2027/event/22006567BE473B0D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -185,6 +198,19 @@
     "ticketmaster_discovery_event_id": "1AxZk4EGkeXoSiu",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Folk",
+    "presales": [
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      }
+    ]
   }
 ]

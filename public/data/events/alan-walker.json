@@ -1839,7 +1839,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-atlanta-georgia-01-29-2027/event/0E0065239C599CA2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1875,7 +1875,38 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_3Cjp_wx",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T14:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T14:59:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-14T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T14:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-25T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-st-petersburg-vvg1vz_phftijy",
@@ -1893,7 +1924,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-st-petersburg-florida-02-03-2027/event/0D006566D4A6C9B9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1929,7 +1960,40 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_phftiJy",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "NO CLUBS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T14:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T14:59:00Z"
+      },
+      {
+        "name": "Daddy Kool Records Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T14:59:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T14:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-30T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-orlando-1axzk4vgkeuzkdw",
@@ -1947,7 +2011,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-orlando-florida-02-04-2027/event/22006541B6E13EFD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1983,6 +2047,39 @@
     "ticketmaster_discovery_event_id": "1AxZk4vGkeUzKDW",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T14:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T14:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T14:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-31T17:00:00Z"
+      }
+    ]
   }
 ]

@@ -1137,7 +1137,7 @@
     "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-columbia-township-auditorium-3-13-2027/production/7611518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-columbia-south-carolina-03-13-2027/event/2D006531B6956999",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1194,6 +1194,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-03-07T04:55:00Z"
+      },
+      {
+        "name": "Holiday 4 Pack Offer",
+        "start": "2026-11-27T05:01:00Z",
+        "end": "2027-01-01T04:59:00Z"
       }
     ],
     "organizer_names": [

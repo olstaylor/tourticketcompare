@@ -15,8 +15,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/fall-out-boy-twilight-of-the-punks-tickets/2096694348?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-10",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2096694348",
@@ -51,7 +51,23 @@
     "ticketmaster_discovery_event_id": "Z698xZu0Z16eepQfuF",
     "timezone": "Europe/Prague",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z"
+    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CZECH REPUBLIC s.r.o."
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T11:00:00Z",
+        "end": "2026-11-12T09:00:00Z"
+      },
+      {
+        "name": "ČSOB Mastercard® Presale",
+        "start": "2026-11-11T11:00:00Z",
+        "end": "2026-11-12T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-assago-zg9rmiynyzf1fa",
@@ -69,7 +85,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/fall-out-boy-twilight-of-the-punks-assago-21-05-2027/event/sksc45jnmz63",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -105,7 +121,8 @@
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZF1FA",
     "timezone": "Europe/Rome",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z"
+    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "genre": "Rock"
   },
   {
     "id": "tm-fall-out-boy-2027-madrid-z698xz2qz1k83o_fe",
@@ -123,8 +140,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/fall-out-boy-twilight-of-the-punks-tickets/412819502?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-10",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "412819502",
@@ -159,7 +176,11 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k83O_fe",
     "timezone": "Europe/Madrid",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z"
+    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "organizer_names": [
+      "Live Nation España Red Path SL"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-fall-out-boy-2027-brussels-z698xzg2z16vfjc3ef",
@@ -177,8 +198,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/fall-out-boy-twilight-of-the-punks-tickets/1526392094",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-10",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1526392094",
@@ -213,7 +234,23 @@
     "ticketmaster_discovery_event_id": "Z698xZG2Z16vfJC3ef",
     "timezone": "Europe/Brussels",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T11:00:00Z"
+    "public_onsale_at": "2026-11-13T11:00:00Z",
+    "organizer_names": [
+      "Live Nation"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-12T11:00:00Z",
+        "end": "2026-11-13T10:00:00Z"
+      },
+      {
+        "name": "Mastercard® Presale",
+        "start": "2026-11-12T11:00:00Z",
+        "end": "2026-11-13T10:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-glasgow-1kuovp_ega1oorm",
@@ -231,7 +268,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-glasgow-30-05-2027/event/360065667A811BF7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -283,7 +320,25 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T12:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362652",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362652/Fall-Out-Boy-tickets-Sun-May-30-2027-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362652/Fall-Out-Boy-tickets-Sun-May-30-2027-OVO-Hydro",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T12:00:00Z",
+        "end": "2026-11-12T11:00:00Z"
+      },
+      {
+        "name": "OVO Presale",
+        "start": "2026-11-11T12:00:00Z",
+        "end": "2026-11-13T12:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-dublin-1abzk4xgkdbhdty",
@@ -301,7 +356,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/fall-out-boy-twilight-of-the-dublin-01-06-2027/event/18006562D86FBA70",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -353,7 +408,26 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T12:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362653",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362653/Fall-Out-Boy-tickets-Tue-Jun-1-2027-3Arena-Dublin"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362653/Fall-Out-Boy-tickets-Tue-Jun-1-2027-3Arena-Dublin",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "MCD PRODUCTIONS",
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T12:00:00Z",
+        "end": "2026-11-12T11:00:00Z"
+      },
+      {
+        "name": "Three+ Presale",
+        "start": "2026-11-11T12:00:00Z",
+        "end": "2026-11-12T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-manchester-1amzk4pgkdukzs6",
@@ -371,7 +445,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-manchester-03-06-2027/event/37006565CD1B8CC7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423,7 +497,34 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T12:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362654",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362654/Fall-Out-Boy-tickets-Thu-Jun-3-2027-Co-Op-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362654/Fall-Out-Boy-tickets-Thu-Jun-3-2027-Co-Op-Live",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T12:00:00Z",
+        "end": "2026-11-12T11:00:00Z"
+      },
+      {
+        "name": "Co-op Presale",
+        "start": "2026-11-11T12:00:00Z",
+        "end": "2026-11-12T11:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-11T12:00:00Z",
+        "end": "2026-11-12T11:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-11T12:00:00Z",
+        "end": "2026-11-12T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-london-1adfz_4gkxmx9xa",
@@ -441,7 +542,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-london-05-06-2027/event/3500655FAE897F85",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -477,7 +578,26 @@
     "ticketmaster_discovery_event_id": "1AdfZ_4GkXmx9XA",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T12:00:00Z"
+    "public_onsale_at": "2026-11-12T12:00:00Z",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T12:00:00Z",
+        "end": "2026-11-12T11:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-11T12:00:00Z",
+        "end": "2026-11-12T11:00:00Z"
+      },
+      {
+        "name": "Priority From O2",
+        "start": "2026-11-11T12:00:00Z",
+        "end": "2026-11-12T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-amsterdam-z698xzbpz16vv-vwva",
@@ -495,8 +615,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/fall-out-boy-twilight-of-the-punks-tickets/1061072045?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-10",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1061072045",
@@ -531,7 +651,23 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vv-vwvA",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z"
+    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "organizer_names": [
+      "Mojo Concerts"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T11:00:00Z",
+        "end": "2026-11-12T10:30:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-11T11:00:00Z",
+        "end": "2026-11-12T10:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-odz-z698xzqpz16evyz9fj",
@@ -549,8 +685,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/fall-out-boy-twilight-of-the-punks-tickets/2070017526?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-10",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2070017526",
@@ -585,7 +721,23 @@
     "ticketmaster_discovery_event_id": "Z698xZQpZ16evYZ9fJ",
     "timezone": "Europe/Warsaw",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T11:00:00Z"
+    "public_onsale_at": "2026-11-13T11:00:00Z",
+    "organizer_names": [
+      "Live Nation sp. z o.o."
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-12T11:00:00Z",
+        "end": "2026-11-13T10:00:00Z"
+      },
+      {
+        "name": "Pekao Mastercard® Presale",
+        "start": "2026-11-12T11:00:00Z",
+        "end": "2026-11-13T10:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-arlington-vvg1yz_potb4m0",
@@ -603,7 +755,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-arlington-globe-life-field-7-13-2027--concerts-rock/production/7835292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-arlington-texas-07-13-2027/event/0C0065647FE95DE4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -655,7 +807,34 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T16:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362630",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362630/Fall-Out-Boy-tickets-Tue-Jul-13-2027-Globe-Life-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362630/Fall-Out-Boy-tickets-Tue-Jul-13-2027-Globe-Life-Field",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-12T15:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-12T15:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-12T15:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T16:00:00Z",
+        "end": "2027-07-07T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-atlanta-vvg1zz_pkn5gmk",
@@ -673,7 +852,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-atlanta-truist-park-7-16-2027--concerts-rock/production/7835296",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlanta-georgia-07-16-2027/event/0E006564EA2F5B86",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -725,7 +904,34 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362632",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362632/Fall-Out-Boy-tickets-Fri-Jul-16-2027-Truist-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362632/Fall-Out-Boy-tickets-Fri-Jul-16-2027-Truist-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2027-07-10T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-washington-1avfz_4gkhvu21c",
@@ -743,7 +949,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-washington-dc-nationals-park-7-18-2027--concerts-rock/production/7835298",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-washington-district-of-columbia-07-18-2027/event/1500655F01D8F2AD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -795,7 +1001,34 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362634",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362634/Fall-Out-Boy-tickets-Sun-Jul-18-2027-Nationals-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362634/Fall-Out-Boy-tickets-Sun-Jul-18-2027-Nationals-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2027-07-12T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-detroit-vv1afzk4jgkdvw4eb",
@@ -813,7 +1046,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-detroit-fifth-third-park---mi-7-20-2027--concerts-rock/production/7835300",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-detroit-michigan-07-20-2027/event/08006566C1F559FA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -865,7 +1098,33 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362635",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362635/Fall-Out-Boy-tickets-Tue-Jul-20-2027-Fifth-Third-Park-MI"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362635/Fall-Out-Boy-tickets-Tue-Jul-20-2027-Fifth-Third-Park-MI",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2027-07-14T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-toronto-1a8zk40gkdutc4w",
@@ -883,7 +1142,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-toronto-rogers-stadium---toronto-7-22-2027--concerts-rock/production/7835302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fall-out-boy-twilight-of-the-toronto-ontario-07-22-2027/event/10006564CDFED572",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -919,7 +1178,42 @@
     "ticketmaster_discovery_event_id": "1A8Zk40GkduTc4w",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-12T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2027-07-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-chicago-vv118z_pqp44qd",
@@ -937,7 +1231,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-chicago-soldier-field-7-24-2027--concerts-rock/production/7835304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-chicago-illinois-07-24-2027/event/0400656696555743",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -989,7 +1283,34 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T16:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362636",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362636/Fall-Out-Boy-tickets-Sat-Jul-24-2027-Soldier-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362636/Fall-Out-Boy-tickets-Sat-Jul-24-2027-Soldier-Field",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-12T15:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-12T15:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-12T15:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T16:00:00Z",
+        "end": "2027-07-18T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-boston-vv1avzk4ngkenvma1",
@@ -1007,7 +1328,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-boston-fenway-park-7-30-2027--concerts-rock/production/7835308",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-boston-massachusetts-07-30-2027/event/01006563A307714A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1059,7 +1380,24 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362638",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362638/Fall-Out-Boy-tickets-Fri-Jul-30-2027-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362638/Fall-Out-Boy-tickets-Fri-Jul-30-2027-Fenway-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale Platinum",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "Platinum Onsale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2027-07-30T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-queens-g5vvz_pkqtkyp",
@@ -1077,7 +1415,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-queens-new-york-08-01-2027/event/1D006564DAFD3C25",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1113,7 +1451,34 @@
     "ticketmaster_discovery_event_id": "G5vVZ_pKQTKYP",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION - NO LN CONCERTS BRANDING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2027-07-26T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-atlantic-city-vv1aezk4pgkdw5r4k",
@@ -1131,7 +1496,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-atlantic-city-atlantic-city-beach-8-3-2027--concerts-rock/production/7835312",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlantic-city-new-jersey-08-03-2027/event/02006565F22DE553",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1183,7 +1548,34 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362640",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362640/Fall-Out-Boy-tickets-Tue-Aug-3-2027-Atlantic-City-Beach"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362640/Fall-Out-Boy-tickets-Tue-Aug-3-2027-Atlantic-City-Beach",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2027-07-28T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-hershey-vv1aezk40gkd_hdkn",
@@ -1201,7 +1593,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-hershey-hersheypark-stadium-8-4-2027--concerts-rock/production/7835314",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-hershey-pennsylvania-08-04-2027/event/02006564D9F3B4EA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1253,7 +1645,34 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362641",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362641/Fall-Out-Boy-tickets-Wed-Aug-4-2027-Hersheypark-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362641/Fall-Out-Boy-tickets-Wed-Aug-4-2027-Hersheypark-Stadium",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2027-07-29T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-kansas-city-1a-zk40gkd1psok",
@@ -1271,7 +1690,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-kansas-city-morton-amphitheater-8-7-2027--concerts-rock/production/7835318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-kansas-city-missouri-08-07-2027/event/21006564CA971453",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1307,7 +1726,44 @@
     "ticketmaster_discovery_event_id": "1A-Zk40Gkd1PsoK",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T16:00:00Z"
+    "public_onsale_at": "2026-11-12T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-12T15:00:00Z"
+      },
+      {
+        "name": "Mastercard® Presale",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-12T15:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-12T15:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-12T15:00:00Z"
+      },
+      {
+        "name": "Mastercard® Preferred Tickets",
+        "start": "2026-11-12T16:00:00Z",
+        "end": "2027-07-11T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T16:00:00Z",
+        "end": "2027-08-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-commerce-city-g5vzz_p3slsmj",
@@ -1325,7 +1781,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-commerce-city-dicks-sporting-goods-park-8-10-2027--concerts-rock/production/7835320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-commerce-city-colorado-08-10-2027/event/1E006564B1AF3DE6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1377,7 +1833,39 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362643",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362643/Fall-Out-Boy-tickets-Tue-Aug-10-2027-Dicks-Sporting-Goods-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362643/Fall-Out-Boy-tickets-Tue-Aug-10-2027-Dicks-Sporting-Goods-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-12T16:00:00Z"
+      },
+      {
+        "name": "Local Radio / Venue Presale",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-12T16:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-12T16:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-12T16:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2027-08-04T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-san-francisco-g5vyz_p3s9d3l",
@@ -1395,7 +1883,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-san-francisco-oracle-park-8-15-2027--concerts-rock/production/7835324",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-francisco-california-08-15-2027/event/1C006564B15FB4AB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1447,7 +1935,34 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362646",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362646/Fall-Out-Boy-tickets-Sun-Aug-15-2027-Oracle-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362646/Fall-Out-Boy-tickets-Sun-Aug-15-2027-Oracle-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T18:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T18:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T18:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2027-08-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-san-diego-vvg1iz_pc9ifhq",
@@ -1465,7 +1980,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-san-diego-petco-park-8-17-2027--concerts-rock/production/7835326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-diego-california-08-17-2027/event/0A00656397B146DD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1517,7 +2032,33 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362647",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362647/Fall-Out-Boy-tickets-Tue-Aug-17-2027-Petco-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362647/Fall-Out-Boy-tickets-Tue-Aug-17-2027-Petco-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T18:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T18:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T18:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2027-08-11T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-phoenix-1a_zk4xgkdxdu-e",
@@ -1535,7 +2076,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-phoenix-chase-field-8-19-2027--concerts-rock/production/7835328",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-phoenix-arizona-08-19-2027/event/19006562E2EF6842",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1587,7 +2128,38 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362648",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362648/Fall-Out-Boy-tickets-Thu-Aug-19-2027-Chase-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362648/Fall-Out-Boy-tickets-Thu-Aug-19-2027-Chase-Field",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-12T16:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-12T16:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-12T16:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T17:00:00Z",
+        "end": "2026-11-12T16:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2027-08-13T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-los-angeles-vvg1iz_p4zt_kr",
@@ -1605,7 +2177,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-los-angeles-uniqlo-field-at-dodger-stadium-8-21-2027--concerts-rock/production/7835330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-los-angeles-california-08-21-2027/event/0B00656540A591AF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1657,7 +2229,33 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362649",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362649/Fall-Out-Boy-tickets-Sat-Aug-21-2027-UNIQLO-Field-at-Dodger-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362649/Fall-Out-Boy-tickets-Sat-Aug-21-2027-UNIQLO-Field-at-Dodger-Stadium",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T18:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-11T18:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-11T18:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2027-08-15T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-portland-z7r9jz1aaaa0k",
@@ -1675,7 +2273,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-portland-providence-park-8-26-2027--concerts-rock/production/7835334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0k",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1727,6 +2325,7 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T18:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362651",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362651/Fall-Out-Boy-tickets-Thu-Aug-26-2027-Providence-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362651/Fall-Out-Boy-tickets-Thu-Aug-26-2027-Providence-Park",
+    "genre": "Alternative"
   }
 ]

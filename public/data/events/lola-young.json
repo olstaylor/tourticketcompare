@@ -318,7 +318,7 @@
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-new-york-radio-city-music-hall-4-12-2027/production/7653256",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-new-york-new-york-04-12-2027/event/3C006541A9282349",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -374,11 +374,6 @@
       "BOWERY PRESENTS"
     ],
     "presales": [
-      {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-10-09T14:00:00Z",
-        "end": "2026-11-09T15:00:00Z"
-      },
       {
         "name": "VIP Packages",
         "start": "2026-10-09T14:00:00Z",

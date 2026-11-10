@@ -84,7 +84,7 @@
     "vividseats_url": "https://www.vividseats.com/treaty-oak-revival-tickets-austin-moody-center-atx-11-12-2026--concerts-country-and-folk/production/7006221",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/treaty-oak-revival-west-texas-degenerate-austin-texas-11-12-2026/event/3A0064A5E9CB90BC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -148,7 +148,14 @@
       "AEG LIVE"
     ],
     "ticket_limit": 6,
-    "genre": "Country"
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "Student Discount",
+        "start": "2026-11-09T20:00:00Z",
+        "end": "2026-11-12T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-treaty-oak-revival-2026-the-woodlands-g5diz_1panpuq",

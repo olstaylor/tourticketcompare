@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-charleston-charleston-music-hall-2-1-2027/production/7637072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charleston-south-carolina-02-01-2027/event/2D00653E8D0F6ADA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -70,6 +70,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-01-26T03:00:00Z"
+      },
+      {
+        "name": "Holiday Ticket Offer",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2027-01-01T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -1654,7 +1659,7 @@
     "event_name": "Chelsea Cutler",
     "city": "Salt Lake City",
     "country": "United States Of America",
-    "venue": "The Complex - UT",
+    "venue": "Rockwell at The Complex - UT",
     "datetime_iso": "2027-03-10T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAefp4",
@@ -1663,7 +1668,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

@@ -2257,7 +2257,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-lexington-kentucky-02-23-2027/event/16006550CD4CD028",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2293,6 +2293,23 @@
     "ticketmaster_discovery_event_id": "1ApZk48GkduKuZI",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "organizer_names": [
+      "PEACHTREE ENTERTAINMENT"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "The Rail Presale",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      }
+    ]
   }
 ]

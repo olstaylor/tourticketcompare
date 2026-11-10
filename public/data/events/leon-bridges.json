@@ -633,7 +633,7 @@
     "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-wilmington-live-oak-bank-pavilion-7-21-2027/production/7673675",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-wilmington-north-carolina-07-21-2027/event/2D00653C8FFC652C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -688,7 +688,14 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "R&B"
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Ticket Master Holiday Deal",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2027-01-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-columbia-1avfz_fqmqezd586",
@@ -1154,7 +1161,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-calgary-alberta-08-18-2027/event/11006539B14CC0CA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1197,7 +1204,14 @@
       "LIVE NATION CANADA-ROGERS"
     ],
     "ticket_limit": 8,
-    "genre": "R&B"
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Ticketmaster Holiday Promo",
+        "start": "2026-11-27T06:00:00Z",
+        "end": "2027-01-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-calgary-1aozkfygkesvjka",
@@ -1215,7 +1229,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/leon-bridges-presents-the-happiness-anytime-calgary-alberta-08-19-2027/event/11006539B1D1C185",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1258,7 +1272,14 @@
       "LIVE NATION CANADA-ROGERS"
     ],
     "ticket_limit": 8,
-    "genre": "R&B"
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Ticketmaster Holiday Promo",
+        "start": "2026-11-27T06:00:00Z",
+        "end": "2027-01-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-bonner-g5vzz_fhjrcg3",
@@ -1670,7 +1691,7 @@
     "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-rogers-walmart-amp-9-23-2027--concerts-pop/production/7673626",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-rogers-arkansas-09-23-2027/event/1B006535A5C4A6AE",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1725,7 +1746,14 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "R&B"
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Me + 3 4-Pack Offer",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-leon-bridges-2027-austin-g5diz_flks0j9",
@@ -1907,7 +1935,7 @@
     "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-phoenix-arizona-financial-theatre-9-29-2027--concerts-pop/production/7673714",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-phoenix-arizona-09-29-2027/event/19006546DFE1C745",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1962,6 +1990,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-16T17:00:00Z",
         "end": "2027-09-02T05:00:00Z"
+      },
+      {
+        "name": "2026 Holiday Promotion",
+        "start": "2026-11-27T17:00:00Z",
+        "end": "2027-01-01T05:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313678/Leon-Bridges-tickets-Wed-Sep-29-2027-Arizona-Financial-Theatre",
@@ -2306,7 +2339,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/leon-bridges-presents-the-happiness-anytime-mexico-24-03-2027/event/140065589E8F3F05",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2352,18 +2385,6 @@
     "public_onsale_at": "2026-11-10T17:00:00Z",
     "organizer_names": [
       "OCESA"
-    ],
-    "presales": [
-      {
-        "name": "Venta Fans",
-        "start": "2026-11-06T17:00:00Z",
-        "end": "2026-11-10T05:00:00Z"
-      },
-      {
-        "name": "Preventa Banamex",
-        "start": "2026-11-09T17:00:00Z",
-        "end": "2026-11-10T05:00:00Z"
-      }
     ],
     "genre": "R&B",
     "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-tickets-ciudad-de-mexico-teatro-metropolitan-24-3-2027/event/107680645"

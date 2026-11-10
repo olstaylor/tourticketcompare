@@ -2107,7 +2107,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-wallingford-connecticut-01-31-2027/event/1D00655CE3E34A7E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2143,7 +2143,44 @@
     "ticketmaster_discovery_event_id": "G5vVZ_4SNzVtX",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-01T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-25T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-valley-center-vvg1iz_p3nhurb",
@@ -2161,7 +2198,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-valley-center-california-02-12-2027/event/0A006564A3F36BFA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2197,6 +2234,46 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_p3NHURB",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z"
+    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T16:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-10T16:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Caesars Rewards Presale",
+        "start": "2026-11-11T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-11T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Social Presale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-02-06T06:00:00Z"
+      }
+    ]
   }
 ]

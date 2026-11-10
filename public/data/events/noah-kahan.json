@@ -1309,7 +1309,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-tampa-raymond-james-stadium-4-29-2027--concerts-pop/production/7773110",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-tampa-florida-04-29-2027/event/0D00655BEB4CAA79",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1386,11 +1386,6 @@
       },
       {
         "name": "Reserved by Spotify",
-        "start": "2026-11-11T14:00:00Z",
-        "end": "2026-11-12T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
         "start": "2026-11-11T14:00:00Z",
         "end": "2026-11-12T14:00:00Z"
       },
@@ -1533,7 +1528,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-houston-reliant-stadium-5-12-2027--concerts-pop/production/7773118",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-houston-texas-05-12-2027/event/3A00655C86F94494",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1624,7 +1619,6 @@
         "end": "2027-05-07T22:00:00Z"
       }
     ],
-    "ticket_limit": 6,
     "genre": "Rock"
   },
   {
@@ -1643,7 +1637,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-santa-clara-california-05-19-2027/event/1C00655BC8187B44",
-    "last_verified_at": "2026-11-09",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1724,9 +1718,9 @@
         "end": "2026-11-12T17:00:00Z"
       },
       {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-11T17:00:00Z",
-        "end": "2026-11-12T17:00:00Z"
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-12T20:00:00Z",
+        "end": "2027-05-06T05:00:00Z"
       },
       {
         "name": "VIP Packages Onsale",
@@ -1753,7 +1747,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-las-vegas-allegiant-stadium-5-21-2027--concerts-pop/production/7773130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-las-vegas-nevada-05-21-2027/event/1700655BEE9D1DA4",
-    "last_verified_at": "2026-11-09",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1836,7 +1830,7 @@
       {
         "name": "VIP Packages Onsale",
         "start": "2026-11-12T20:00:00Z",
-        "end": "2027-05-08T05:00:00Z"
+        "end": "2027-05-17T00:00:00Z"
       }
     ],
     "genre": "Rock",
@@ -1858,7 +1852,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-columbus-ohio-stadium-6-5-2027--concerts-pop/production/7773179",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-columbus-ohio-06-05-2027/event/0500655CFC19DBA0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1937,6 +1931,11 @@
         "name": "Reserved by Spotify",
         "start": "2026-11-11T14:00:00Z",
         "end": "2026-11-12T14:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2027-05-23T02:00:00Z"
       },
       {
         "name": "VIP Packages Onsale",
@@ -2182,7 +2181,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-montreal-parc-jean-drapeau-6-15-2027--concerts-pop/production/7773197",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/noah-kahan-the-last-of-the-montreal-quebec-06-15-2027/event/31006556E6F1ED08",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2248,7 +2247,7 @@
     ],
     "presales": [
       {
-        "name": "Artist Presale VIP Packages",
+        "name": "Artist Presale VIP Package",
         "start": "2026-11-10T17:00:00Z",
         "end": "2026-11-11T04:59:00Z"
       },
@@ -2268,7 +2267,7 @@
         "end": "2027-06-02T02:00:00Z"
       },
       {
-        "name": "VIP Packages Onsale",
+        "name": "VIP Package Onsale",
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-06-10T21:00:00Z"
       }
@@ -2399,7 +2398,7 @@
     "city": "Berlin",
     "country": "Germany",
     "venue": "Waldbühne",
-    "datetime_iso": "2027-07-02T17:00:00Z",
+    "datetime_iso": "2027-07-02T15:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1306451961",
     "ticketmaster_url": "https://www.ticketmaster.de/event/noah-kahan-the-last-of-the-bugs-world-tour-tickets/1306451961?language=en-us",
@@ -2407,7 +2406,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/noah-kahan-the-last-of-the-bugs-world-tour-tickets/1306451961?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2470,7 +2469,7 @@
     "id": "tm-noah-kahan-2027-milano-zg9rmiynyzfa6d",
     "artist_slug": "noah-kahan",
     "artist_name": "Noah Kahan",
-    "event_name": "NOAH KAHAN - Noah Kahan: The Last Of The Bugs World Tour | I-Days Milano 2027",
+    "event_name": "Noah Kahan: The Last Of The Bugs World Tour | I-Days Milano 2027",
     "city": "Milano",
     "country": "Italy",
     "venue": "Ippodromo SNAI San Siro",
@@ -2482,7 +2481,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/noah-kahan-i-days-milano-2027-milano-04-07-2027/event/be8ty4t1yux2",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

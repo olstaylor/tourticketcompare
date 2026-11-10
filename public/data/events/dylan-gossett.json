@@ -2605,7 +2605,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-nottingham-20-05-2027/event/1F006566D2497950",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2641,7 +2641,19 @@
     "ticketmaster_discovery_event_id": "G5vHZ_ph339P8",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T10:00:00Z"
+    "public_onsale_at": "2026-11-13T10:00:00Z",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-12T10:00:00Z",
+        "end": "2026-11-13T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-bournemouth-g5dzz_pjb4swt",
@@ -2659,7 +2671,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-bournemouth-05-07-2027/event/3E00656998573CA9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2695,6 +2707,24 @@
     "ticketmaster_discovery_event_id": "G5dzZ_pJb4Swt",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T10:00:00Z"
+    "public_onsale_at": "2026-11-13T10:00:00Z",
+    "organizer_names": [
+      "COUNTRY TO COUNTRY",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BOURNEMOUTH)",
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-11T10:00:00Z",
+        "end": "2026-11-13T09:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-12T10:00:00Z",
+        "end": "2026-11-13T09:00:00Z"
+      }
+    ]
   }
 ]

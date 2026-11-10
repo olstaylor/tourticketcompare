@@ -76,7 +76,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/raye-dublin-24-06-2027/event/18006545E5410D1C",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -111,17 +111,9 @@
     },
     "ticketmaster_discovery_event_id": "1AbZk4AGkdP88Vj",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-10T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ],
-    "presales": [
-      {
-        "name": "MCD Presale",
-        "start": "2026-11-09T10:00:00Z",
-        "end": "2026-11-10T09:00:00Z"
-      }
     ],
     "genre": "Pop"
   },

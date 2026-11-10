@@ -1327,7 +1327,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-new-orleans-fillmore-new-orleans-12-7-2026--concerts-hard-rock/production/7052872",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1379,13 +1379,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980229",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980229/Beartooth-tickets-Mon-Dec-7-2026-The-Fillmore-New-Orleans",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-22T15:00:00Z",
-        "end": "2026-11-10T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

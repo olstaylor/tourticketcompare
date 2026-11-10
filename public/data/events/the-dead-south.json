@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-london-o2-academy-brixton-3-5-2027/production/7214045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-dead-south-london-05-03-2027/event/3E0064C9AC634B6C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -74,7 +74,12 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324861",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324861/The-Dead-South-tickets-Fri-Mar-5-2027-O2-Academy-Brixton",
-    "stubhub_international_url": "https://www.stubhub.ie/the-dead-south-tickets-london-o2-academy-brixton-5-3-2027/event/107441078"
+    "stubhub_international_url": "https://www.stubhub.ie/the-dead-south-tickets-london-o2-academy-brixton-5-3-2027/event/107441078",
+    "organizer_names": [
+      "DH PROMOTIONS LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-the-dead-south-2027-manchester-17u8v0g6gm8i6t0",
@@ -92,7 +97,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-manchester-the-warehouse-aviva-studios-3-6-2027/production/7185755",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-dead-south-manchester-06-03-2027/event/350064CB90A07FE4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -127,7 +132,12 @@
     },
     "ticketmaster_discovery_event_id": "17u8v0G6Gm8I6T0",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "DAYBROOK HOUSE LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-dead-south-2027-wolverhampton-g5vhz_2b_qppl",
@@ -145,7 +155,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-wolverhampton-wolverhampton-civic-hall-3-10-2027/production/7520869",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-dead-south-wolverhampton-10-03-2027/event/1F0064FE997565AB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -180,7 +190,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_2B_qppl",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "DAYBROOK HOUSE LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-dead-south-2027-cardiff-17uov0g6gpgz4uf",
@@ -198,7 +213,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-dead-south-cardiff-12-03-2027/event/360064C58CE15D88",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241,7 +256,13 @@
     "ticketmaster_discovery_event_id": "17uOv0G6GpGz4UF",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-dead-south-tickets-cardiff-utilita-arena-cardiff-12-3-2027/event/107442079"
+    "stubhub_international_url": "https://www.stubhub.ie/the-dead-south-tickets-cardiff-utilita-arena-cardiff-12-3-2027/event/107442079",
+    "organizer_names": [
+      "DAYBROOK HOUSE LIMITED",
+      "LIVE NATION MUSIC (VENUES) LTD (NEW)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-dead-south-2027-dublin-17kzv0g6gpgt8iq",
@@ -259,7 +280,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/the-dead-south-dublin-13-03-2027/event/180064C5B5A50B1D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294,7 +315,12 @@
     },
     "ticketmaster_discovery_event_id": "17kZv0G6Gpgt8iq",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AIKEN PROMOTIONS",
+      "SINGULAR ARTISTS"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-the-dead-south-2027-dublin-17kzv0g6gpgtyir",
@@ -312,7 +338,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/the-dead-south-dublin-14-03-2027/event/180064C5B5A70B2F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -347,7 +373,12 @@
     },
     "ticketmaster_discovery_event_id": "17kZv0G6GpgtYiR",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AIKEN PROMOTIONS",
+      "SINGULAR ARTISTS"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-the-dead-south-2027-silver-spring-1avfz_4gktp2lu0",
@@ -365,7 +396,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-silence-please-tour-silver-spring-maryland-04-19-2027/event/1500655FE53EBDA4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417,7 +448,34 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361963",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361963/The-Dead-South-tickets-Mon-Apr-19-2027-The-Fillmore-Silver-Spring"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361963/The-Dead-South-tickets-Mon-Apr-19-2027-The-Fillmore-Silver-Spring",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-03-24T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-dead-south-2027-saint-louis-16e7z_pf4g7neqx",
@@ -435,7 +493,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-silence-please-tour-saint-louis-missouri-04-27-2027/event/2100656515A82762",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -471,7 +529,20 @@
     "ticketmaster_discovery_event_id": "16e7Z_pf4G7neqx",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z"
+    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-dead-south-2027-kansas-city-vv1akzk40gkemk2eh",
@@ -489,7 +560,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-kansas-city-missouri-04-28-2027/event/06006564B718F0BC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -525,7 +596,24 @@
     "ticketmaster_discovery_event_id": "vv1AkZk40GkeMk2eH",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z"
+    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "organizer_names": [
+      "MAMMOTH INC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-dead-south-2027-lexington-1avbz_4gku2y0tx",
@@ -543,7 +631,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-lexington-the-rail-4-30-2027/production/7794133",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-w-amigo-the-lexington-kentucky-04-30-2027/event/1600655D8FE64A7E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -594,7 +682,12 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8352785",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8352785/The-Dead-South-tickets-Fri-Apr-30-2027-The-Rail-KY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8352785/The-Dead-South-tickets-Fri-Apr-30-2027-The-Rail-KY",
+    "organizer_names": [
+      "PEACHTREE ENTERTAINMENT"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-dead-south-2027-nashville-g5viz_p3okygx",
@@ -612,7 +705,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-nashville-tennessee-05-01-2027/event/1B006564A01B9322",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -664,7 +757,33 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361931",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361931/The-Dead-South-tickets-Sat-May-1-2027-The-Truth"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361931/The-Dead-South-tickets-Sat-May-1-2027-The-Truth",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-10T14:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "The Dead South Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-04-02T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-dead-south-2027-vancouver-1k78vpbzgacmkgo",
@@ -682,7 +801,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-vancouver-british-columbia-09-23-2027/event/110065638EDD3D60",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -734,7 +853,32 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T19:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361932",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361932/The-Dead-South-tickets-Thu-Sep-23-2027-Malkin-Bowl-Stanley-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361932/The-Dead-South-tickets-Thu-Sep-23-2027-Malkin-Bowl-Stanley-Park",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-dead-south-2027-kelowna-z7r9jz1aa7moa",
@@ -822,7 +966,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-calgary-alberta-09-25-2027/event/11006562C7E07866",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -858,7 +1002,37 @@
     "ticketmaster_discovery_event_id": "1AoZk4xGkd6z6-J",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z"
+    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-dead-south-2027-edmonton-1aozk4ngkemvpah",
@@ -876,7 +1050,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-edmonton-alberta-09-26-2027/event/11006563AE05617C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -912,7 +1086,36 @@
     "ticketmaster_discovery_event_id": "1AoZk4NGkemvpAH",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z"
+    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-dead-south-2027-toronto-1a8zk4pgkexzbc2",
@@ -930,7 +1133,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-toronto-ontario-09-30-2027/event/10006565BE018B4F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -966,7 +1169,31 @@
     "ticketmaster_discovery_event_id": "1A8Zk4PGkeXZbc2",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T17:00:00Z"
+    "public_onsale_at": "2026-11-13T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-dead-south-2027-montreal-1kg8vpbigaujeuh",
@@ -984,7 +1211,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-01-2027/event/310065628D70235B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1036,7 +1263,19 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361941",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361941/The-Dead-South-tickets-Fri-Oct-1-2027-MTelus"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361941/The-Dead-South-tickets-Fri-Oct-1-2027-MTelus",
+    "organizer_names": [
+      "EVENKO CO-PRO NON-LN"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Prévente Artiste Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-dead-south-2027-montreal-1kg8vpbigaujwul",
@@ -1054,7 +1293,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-02-2027/event/310065628D73235F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1106,7 +1345,19 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361942",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361942/The-Dead-South-tickets-Sat-Oct-2-2027-MTelus"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361942/The-Dead-South-tickets-Sat-Oct-2-2027-MTelus",
+    "organizer_names": [
+      "EVENKO CO-PRO NON-LN"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Prévente Artiste Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-dead-south-2027-ottawa-1aszk40gkda6px7",
@@ -1124,7 +1375,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-ottawa-ontario-10-03-2027/event/31006564C51E5F84",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1160,7 +1411,30 @@
     "ticketmaster_discovery_event_id": "1AsZk40GkdA6PX7",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T17:00:00Z"
+    "public_onsale_at": "2026-11-13T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-dead-south-2027-thunder-bay-1avzz_4gkumrenk",
@@ -1178,7 +1452,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-thunder-bay-ontario-10-06-2027/event/1000655DAE7A7A93",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1214,7 +1488,21 @@
     "ticketmaster_discovery_event_id": "1AvZZ_4GkUmrEnK",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-dead-south-2027-winnipeg-16ozk4nosza5dc55",
@@ -1232,7 +1520,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-winnipeg-manitoba-10-07-2027/event/11006563833A2DAA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1284,6 +1572,41 @@
     "status": "announced",
     "public_onsale_at": "2026-11-13T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361946",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361946/The-Dead-South-tickets-Thu-Oct-7-2027-Burton-Cummings-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361946/The-Dead-South-tickets-Thu-Oct-7-2027-Burton-Cummings-Theatre",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-10T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "All Access Presale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2026-11-13T03:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-09-24T03:00:00Z"
+      }
+    ]
   }
 ]

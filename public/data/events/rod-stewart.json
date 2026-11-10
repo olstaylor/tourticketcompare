@@ -2262,7 +2262,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/1898291275?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2297,22 +2297,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vxb1oag",
     "timezone": "Europe/Berlin",
-    "status": "announced",
-    "public_onsale_at": "2026-11-10T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "KPS CONCERTBÜRO GmbH"
-    ],
-    "presales": [
-      {
-        "name": "PayPal Prio Tickets",
-        "start": "2026-11-09T09:00:00Z",
-        "end": "2026-11-10T09:00:00Z"
-      },
-      {
-        "name": "Telekom Prio Tickets",
-        "start": "2026-11-09T09:00:00Z",
-        "end": "2026-11-10T09:00:00Z"
-      }
     ],
     "genre": "Rock"
   }

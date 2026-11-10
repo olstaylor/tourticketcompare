@@ -1173,7 +1173,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-austin-moody-center-atx-11-13-2026--concerts-pop/production/7446290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-austin-texas-11-13-2026/event/3A00650D02CC62D0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1235,13 +1235,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-austin-tickets-11-13-2026/event/107482390",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T15:00:00Z",
-        "end": "2026-11-09T18:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"
@@ -2269,7 +2262,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-denver-ball-arena-12-9-2026--concerts-pop/production/7446340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-denver-colorado-12-09-2026/event/1E00650D99D85C06",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-10",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2325,11 +2318,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-21T16:00:00Z",
-        "end": "2026-11-10T05:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-21T16:00:00Z",

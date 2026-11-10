@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "3E0064C9AC634B6C",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/the-dead-south-london-05-03-2027/event/3E0064C9AC634B6C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-london-o2-academy-brixton-3-5-2027/production/7214045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-dead-south-london-05-03-2027/event/3E0064C9AC634B6C",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7214045,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-london-o2-academy-brixton-3-5-2027/production/7214045",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "350064CB90A07FE4",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/the-dead-south-manchester-06-03-2027/event/350064CB90A07FE4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-manchester-the-warehouse-aviva-studios-3-6-2027/production/7185755",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-dead-south-manchester-06-03-2027/event/350064CB90A07FE4",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7185755,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-manchester-the-warehouse-aviva-studios-3-6-2027/production/7185755",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "1F0064FE997565AB",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/the-dead-south-wolverhampton-10-03-2027/event/1F0064FE997565AB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-wolverhampton-wolverhampton-civic-hall-3-10-2027/production/7520869",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-dead-south-wolverhampton-10-03-2027/event/1F0064FE997565AB",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7520869,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-wolverhampton-wolverhampton-civic-hall-3-10-2027/production/7520869",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -492,7 +492,7 @@
     "ticketmaster_event_id": "1600655D8FE64A7E",
     "ticketmaster_url": "https://www.ticketmaster.com/the-dead-south-w-amigo-the-lexington-kentucky-04-30-2027/event/1600655D8FE64A7E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-lexington-the-rail-4-30-2027/production/7794133",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-w-amigo-the-lexington-kentucky-04-30-2027/event/1600655D8FE64A7E",
     "last_verified_at": null,
@@ -514,11 +514,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7794133,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-lexington-the-rail-4-30-2027/production/7794133",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

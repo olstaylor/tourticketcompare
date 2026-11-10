@@ -552,7 +552,7 @@
     "ticketmaster_event_id": "0C0065647FE95DE4",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-arlington-texas-07-13-2027/event/0C0065647FE95DE4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-arlington-globe-life-field-7-13-2027--concerts-rock/production/7835292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-arlington-texas-07-13-2027/event/0C0065647FE95DE4",
     "last_verified_at": null,
@@ -574,11 +574,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835292,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-arlington-globe-life-field-7-13-2027--concerts-rock/production/7835292",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -606,7 +606,7 @@
     "ticketmaster_event_id": "0E006564EA2F5B86",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlanta-georgia-07-16-2027/event/0E006564EA2F5B86",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-atlanta-truist-park-7-16-2027--concerts-rock/production/7835296",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlanta-georgia-07-16-2027/event/0E006564EA2F5B86",
     "last_verified_at": null,
@@ -628,11 +628,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835296,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-atlanta-truist-park-7-16-2027--concerts-rock/production/7835296",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -660,7 +660,7 @@
     "ticketmaster_event_id": "1500655F01D8F2AD",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-washington-district-of-columbia-07-18-2027/event/1500655F01D8F2AD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-washington-dc-nationals-park-7-18-2027--concerts-rock/production/7835298",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-washington-district-of-columbia-07-18-2027/event/1500655F01D8F2AD",
     "last_verified_at": null,
@@ -682,11 +682,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835298,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-washington-dc-nationals-park-7-18-2027--concerts-rock/production/7835298",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -714,7 +714,7 @@
     "ticketmaster_event_id": "08006566C1F559FA",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-detroit-michigan-07-20-2027/event/08006566C1F559FA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-detroit-fifth-third-park---mi-7-20-2027--concerts-rock/production/7835300",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-detroit-michigan-07-20-2027/event/08006566C1F559FA",
     "last_verified_at": null,
@@ -736,11 +736,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835300,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-detroit-fifth-third-park---mi-7-20-2027--concerts-rock/production/7835300",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -768,7 +768,7 @@
     "ticketmaster_event_id": "10006564CDFED572",
     "ticketmaster_url": "https://www.ticketmaster.ca/fall-out-boy-twilight-of-the-toronto-ontario-07-22-2027/event/10006564CDFED572",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-toronto-rogers-stadium---toronto-7-22-2027--concerts-rock/production/7835302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fall-out-boy-twilight-of-the-toronto-ontario-07-22-2027/event/10006564CDFED572",
     "last_verified_at": null,
@@ -790,11 +790,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835302,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-toronto-rogers-stadium---toronto-7-22-2027--concerts-rock/production/7835302",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -822,7 +822,7 @@
     "ticketmaster_event_id": "0400656696555743",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-chicago-illinois-07-24-2027/event/0400656696555743",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-chicago-soldier-field-7-24-2027--concerts-rock/production/7835304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-chicago-illinois-07-24-2027/event/0400656696555743",
     "last_verified_at": null,
@@ -844,11 +844,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835304,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-chicago-soldier-field-7-24-2027--concerts-rock/production/7835304",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -876,7 +876,7 @@
     "ticketmaster_event_id": "01006563A307714A",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-boston-massachusetts-07-30-2027/event/01006563A307714A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-boston-fenway-park-7-30-2027--concerts-rock/production/7835308",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-boston-massachusetts-07-30-2027/event/01006563A307714A",
     "last_verified_at": null,
@@ -898,11 +898,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835308,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-boston-fenway-park-7-30-2027--concerts-rock/production/7835308",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -984,7 +984,7 @@
     "ticketmaster_event_id": "02006565F22DE553",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlantic-city-new-jersey-08-03-2027/event/02006565F22DE553",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-atlantic-city-atlantic-city-beach-8-3-2027--concerts-rock/production/7835312",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlantic-city-new-jersey-08-03-2027/event/02006565F22DE553",
     "last_verified_at": null,
@@ -1006,11 +1006,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835312,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-atlantic-city-atlantic-city-beach-8-3-2027--concerts-rock/production/7835312",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1038,7 +1038,7 @@
     "ticketmaster_event_id": "02006564D9F3B4EA",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-hershey-pennsylvania-08-04-2027/event/02006564D9F3B4EA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-hershey-hersheypark-stadium-8-4-2027--concerts-rock/production/7835314",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-hershey-pennsylvania-08-04-2027/event/02006564D9F3B4EA",
     "last_verified_at": null,
@@ -1060,11 +1060,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835314,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-hershey-hersheypark-stadium-8-4-2027--concerts-rock/production/7835314",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1092,7 +1092,7 @@
     "ticketmaster_event_id": "21006564CA971453",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-kansas-city-missouri-08-07-2027/event/21006564CA971453",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-kansas-city-morton-amphitheater-8-7-2027--concerts-rock/production/7835318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-kansas-city-missouri-08-07-2027/event/21006564CA971453",
     "last_verified_at": null,
@@ -1114,11 +1114,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835318,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-kansas-city-morton-amphitheater-8-7-2027--concerts-rock/production/7835318",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1146,7 +1146,7 @@
     "ticketmaster_event_id": "1E006564B1AF3DE6",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-commerce-city-colorado-08-10-2027/event/1E006564B1AF3DE6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-commerce-city-dicks-sporting-goods-park-8-10-2027--concerts-rock/production/7835320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-commerce-city-colorado-08-10-2027/event/1E006564B1AF3DE6",
     "last_verified_at": null,
@@ -1168,11 +1168,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835320,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-commerce-city-dicks-sporting-goods-park-8-10-2027--concerts-rock/production/7835320",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1200,7 +1200,7 @@
     "ticketmaster_event_id": "1C006564B15FB4AB",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-francisco-california-08-15-2027/event/1C006564B15FB4AB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-san-francisco-oracle-park-8-15-2027--concerts-rock/production/7835324",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-francisco-california-08-15-2027/event/1C006564B15FB4AB",
     "last_verified_at": null,
@@ -1222,11 +1222,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835324,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-san-francisco-oracle-park-8-15-2027--concerts-rock/production/7835324",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1254,7 +1254,7 @@
     "ticketmaster_event_id": "0A00656397B146DD",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-diego-california-08-17-2027/event/0A00656397B146DD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-san-diego-petco-park-8-17-2027--concerts-rock/production/7835326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-diego-california-08-17-2027/event/0A00656397B146DD",
     "last_verified_at": null,
@@ -1276,11 +1276,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835326,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-san-diego-petco-park-8-17-2027--concerts-rock/production/7835326",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1308,7 +1308,7 @@
     "ticketmaster_event_id": "19006562E2EF6842",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-phoenix-arizona-08-19-2027/event/19006562E2EF6842",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-phoenix-chase-field-8-19-2027--concerts-rock/production/7835328",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-phoenix-arizona-08-19-2027/event/19006562E2EF6842",
     "last_verified_at": null,
@@ -1330,11 +1330,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835328,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-phoenix-chase-field-8-19-2027--concerts-rock/production/7835328",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1362,7 +1362,7 @@
     "ticketmaster_event_id": "0B00656540A591AF",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-los-angeles-california-08-21-2027/event/0B00656540A591AF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-los-angeles-uniqlo-field-at-dodger-stadium-8-21-2027--concerts-rock/production/7835330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-los-angeles-california-08-21-2027/event/0B00656540A591AF",
     "last_verified_at": null,
@@ -1384,11 +1384,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835330,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-los-angeles-uniqlo-field-at-dodger-stadium-8-21-2027--concerts-rock/production/7835330",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1416,7 +1416,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAA0k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0k",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-portland-providence-park-8-26-2027--concerts-rock/production/7835334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0k",
     "last_verified_at": null,
@@ -1438,11 +1438,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835334,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-portland-providence-park-8-26-2027--concerts-rock/production/7835334",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

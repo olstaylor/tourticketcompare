@@ -278,7 +278,7 @@
     "ticketmaster_event_id": "0A0064C3CAF6BA38",
     "ticketmaster_url": "https://www.ticketmaster.com/ricky-martin-temecula-california-11-08-2026/event/0A0064C3CAF6BA38",
     "seatgeek_url": "https://seatgeek.com/ricky-martin-tickets/temecula-california-pechanga-resort-casino-2026-11-08-7-30-pm/concert/18325393",
-    "vividseats_url": "https://www.vividseats.com/ricky-martin-tickets-temecula-pechanga-resort-casino-11-8-2026/production/7200560",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ricky-martin-temecula-california-11-08-2026/event/0A0064C3CAF6BA38",
     "last_verified_at": "2026-11-07",
@@ -300,11 +300,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7200560,
-        "url": "https://www.vividseats.com/ricky-martin-tickets-temecula-pechanga-resort-casino-11-8-2026/production/7200560",
-        "verified": true,
-        "last_verified_at": "2026-11-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

@@ -1137,7 +1137,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvK1a",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1a",
     "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/brooklyn-new-york-brooklyn-steel-2027-02-11-8-pm/concert/18540431",
-    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-11-2027--concerts-rock/production/7492601",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1a",
     "last_verified_at": "2026-11-07",
@@ -1159,11 +1159,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7492601,
-        "url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-11-2027--concerts-rock/production/7492601",
-        "verified": true,
-        "last_verified_at": "2026-11-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1232,7 +1232,7 @@
         "event_id": 7492603,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-12-2027--concerts-rock/production/7492603",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1286,7 +1286,7 @@
         "event_id": 7492607,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-silver-spring-the-fillmore-silver-spring-2-16-2027--concerts-rock/production/7492607",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1491,7 +1491,7 @@
         "event_id": 7491786,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-nashville-brooklyn-bowl---nashville-2-26-2027/production/7491786",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1691,7 +1691,7 @@
         "event_id": 7492664,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-chicago-vic-theatre-3-5-2027--concerts-rock/production/7492664",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1822,7 +1822,7 @@
         "event_id": 7491258,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-boston-citizens-house-of-blues-boston-3-13-2027/production/7491258",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

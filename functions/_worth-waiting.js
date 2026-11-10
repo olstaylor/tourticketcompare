@@ -18,6 +18,7 @@
 import { isUpcomingShow } from "./_upcoming.js";
 import { normalizeCountry } from "./_cities.js";
 import { eventLifecycleHeld } from "./_route-indexability.js";
+import { keepNonSpikeSql } from "./_price-outliers.js";
 
 export const WORTH_WAITING_PATH = "/is-it-worth-waiting";
 export const WORTH_WAITING_INDEXABLE = true;
@@ -85,13 +86,24 @@ export async function fetchWorthWaitingPairs(db, lanes, now = Date.now()) {
   const marks = providers.map((_, i) => `?${i + 4}`).join(",");
   const result = await db
     .prepare(
-      `SELECT a.event_id, a.provider, a.source, a.low_price_last AS now_price, b.low_price_last AS then_price
-       FROM provider_pricing_daily a
-       JOIN provider_pricing_daily b
+      // Find neighbours across each full series before selecting the two
+      // comparison days: the daily rollup retains reverted feed glitches.
+      `WITH series AS (
+         SELECT event_id, provider, source, currency, observed_date, low_price_last,
+                LAG(low_price_last) OVER s AS prev_price,
+                LEAD(low_price_last) OVER s AS next_price
+         FROM provider_pricing_daily
+         WHERE currency = 'USD' AND low_price_last >= ?3 AND provider IN (${marks})
+         WINDOW s AS (PARTITION BY event_id, provider, source, currency ORDER BY observed_date)
+       ), clean AS (
+         SELECT * FROM series
+         WHERE ${keepNonSpikeSql("low_price_last", "prev_price", "next_price")}
+       )
+       SELECT a.event_id, a.provider, a.source, a.low_price_last AS now_price, b.low_price_last AS then_price
+       FROM clean a
+       JOIN clean b
          ON b.event_id = a.event_id AND b.provider = a.provider AND b.source = a.source AND b.currency = a.currency
-       WHERE a.observed_date = ?1 AND b.observed_date = ?2 AND a.currency = 'USD'
-         AND a.low_price_last >= ?3 AND b.low_price_last >= ?3
-         AND a.provider IN (${marks})`
+       WHERE a.observed_date = ?1 AND b.observed_date = ?2`
     )
     .bind(days.latest, days.earlier, WORTH_WAITING_MIN_PRICE, ...providers)
     .all();

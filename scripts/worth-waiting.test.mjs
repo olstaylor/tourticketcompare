@@ -78,6 +78,17 @@ const fetched = await fetchWorthWaitingPairs(db, [
 ], now);
 assert(fetched.pairs.length === 1 && fetched.pairs[0].eventId === "a0", "the database reader admits only complete, approved USD pairs above the floor and excludes SeatGeek");
 assert(deriveWorthWaiting(fetched, events, catalog, null, now).totals.lower === 1, "database pairs reach the direction counts");
+for (const [id, readings] of [
+  ["earlier-spike", [["2026-10-21", 100], [days.earlier, 1000], ["2026-10-23", 100], [days.latest, 100]]],
+  ["latest-spike", [[days.earlier, 100], ["2026-11-04", 100], [days.latest, 1000], ["2026-11-06", 100]]],
+  ["low-spike", [[days.earlier, 100], ["2026-11-04", 100], [days.latest, 10], ["2026-11-06", 100]]],
+  ["real-move", [["2026-10-21", 1000], [days.earlier, 1000], ["2026-10-23", 1000], [days.latest, 100], ["2026-11-06", 100]]]
+]) {
+  for (const [day, price] of readings) insert.run(id, "vivid-seats", "approved", "USD", day, price);
+}
+const cleaned = await fetchWorthWaitingPairs(db, [{ dbKey: "vivid-seats", approvedSource: "approved" }], now);
+assert(cleaned.pairs.length === 2 && !cleaned.pairs.some((pair) => pair.eventId.endsWith("spike")), "a reverted spike on either comparison day is excluded using neighbours outside those two days");
+assert(cleaned.pairs.some((pair) => pair.eventId === "real-move" && pair.now === 100 && pair.then === 1000), "a large price move that persists remains eligible");
 sqlite.close();
 
 const html = renderWorthWaitingBody({ path: WORTH_WAITING_PATH, worth: out, breadcrumb: [{ name: "Is it worth waiting?", path: WORTH_WAITING_PATH }] });

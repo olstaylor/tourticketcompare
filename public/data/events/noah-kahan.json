@@ -224,11 +224,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7874795",
-        "url": "https://www.ticketnetwork.com/en/p/7874795",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_GxiLkd5",
@@ -236,7 +236,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874795/Noah-Kahan-tickets-Mon-Nov-9-2026-AO-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-manchester-manchester-ao-arena-9-11-2026/event/107155376",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874795",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "COMMUNION ONE LTD",
       "ASM T-A AO ARENA",

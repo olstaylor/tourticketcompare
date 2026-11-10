@@ -966,8 +966,15 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(!/Starting from|US\$182/.test(schemaBlock), "the artist snippet price never reaches structured data");
   const cheaperLater = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === SOLO.id ? { ...row, low_price: 50 } : row) });
   assert(!cheaperLater.description.includes("US$50.00"), "a cheaper later date never becomes the artist's starting price");
+  // An unpriced next date: the artist snippet moves to the soonest date that
+  // has a listed price, names that date and says it is not the next one.
   const noNextPrice = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.filter((row) => row.event_id !== RUN_A.id) });
-  assert(!/Starting from/.test(noNextPrice.description), "a missing price on the next date does not borrow another date's price");
+  assert(noNextPrice.description.includes("Starting from US$240.00 listed at TicketNetwork"), `an unpriced next date falls through to the soonest priced date's own price (got ${noNextPrice.description})`);
+  assert(noNextPrice.description.includes("Sep 12, 2026") && !/next date/.test(noNextPrice.description), "the fallback names its own date and does not call it the next date");
+  assert(!noNextPrice.description.includes("US$145.00"), "the fallback takes the soonest priced date, not the cheapest later one");
+  assert(noNextPrice.description.length <= 160, `the fallback description stays within budget (was ${noNextPrice.description.length})`);
+  const noPrices = await render(ARTIST_PATH, { priceRows: [] });
+  assert(!/Starting from/.test(noPrices.description) && noPrices.description.length > 0, "no priced date at all keeps the price-free artist description");
   const noDb = await render(ARTIST_PATH, { withDb: false });
   assert(!/Starting from/.test(noDb.description) && noDb.description.length > 0, "a cache outage keeps the price-free artist description");
 }

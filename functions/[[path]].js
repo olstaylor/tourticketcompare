@@ -7375,11 +7375,18 @@ function startingPriceMetaDescription(route, events, env) {
       (provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]
     ))
   };
-  const row = deriveCityDatePrices(shows, {
+  const rows = deriveCityDatePrices(shows, {
     ctaSpecsFor: (show) => serverShowCtaSpecs(show, availability),
     wasChecked: pricesWereChecked
-  }).rows[0];
+  }).rows;
+  // When an artist's next date has no listed price (often a far-off opener in
+  // another country), the artist page quotes the soonest date that has one and
+  // says so. Still one date, one site, one capture time, in date order, never
+  // the cheapest of the tour: the same date the page's "The soonest" line
+  // names. Artist-city and event snippets keep quoting their own date only.
+  const row = route.type === "artist" ? rows.find((candidate) => candidate.checked && candidate.lowest) : rows[0];
   if (!row?.checked || !row.lowest) return "";
+  const isNextDate = row === rows[0];
   const lane = row.lowest;
   const captured = new Date(lane.fetchedAt);
   if (!Number.isFinite(captured.getTime())) return "";
@@ -7394,10 +7401,15 @@ function startingPriceMetaDescription(route, events, env) {
   const startingPrice = ["Starting from", money].join(" ");
   const tail = `${startingPrice} listed at ${lane.name}; checked ${checked}. Check fees.`;
   const candidates = route.type === "artist"
-    ? [
-        `${route.artist.name} tickets: next date ${date} in ${city}. ${tail}`,
-        `${route.artist.name} tickets · next ${city}, ${date}. ${tail}`
-      ]
+    ? isNextDate
+      ? [
+          `${route.artist.name} tickets: next date ${date} in ${city}. ${tail}`,
+          `${route.artist.name} tickets · next ${city}, ${date}. ${tail}`
+        ]
+      : [
+          `${route.artist.name} tickets: soonest priced date ${date} in ${city}. ${tail}`,
+          `${route.artist.name} tickets · ${city}, ${date}. ${tail}`
+        ]
     : [
         `${route.artist.name} tickets in ${city} on ${date}. ${tail}`,
         `${route.artist.name} ${city} tickets · ${date}. ${tail}`

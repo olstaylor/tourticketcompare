@@ -393570,7 +393570,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F00656215B2C500",
     "ticketmaster_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-seattle-washington-05-16-2027/event/0F00656215B2C500",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/seattle-washington-lumen-field-2027-05-16-7-30-pm/concert/18753034",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-seattle-washington-05-16-2027/event/0F00656215B2C500",
@@ -393586,11 +393586,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753034,
+        "url": "https://seatgeek.com/stray-kids-tickets/seattle-washington-lumen-field-2027-05-16-7-30-pm/concert/18753034",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -393641,7 +393641,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "11006565A5686179",
     "ticketmaster_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-vancouver-british-columbia-05-19-2027/event/11006565A5686179",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/vancouver-canada-bc-place-stadium-2027-05-19-7-30-pm/concert/18753052",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-vancouver-british-columbia-05-19-2027/event/11006565A5686179",
@@ -393657,11 +393657,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753052,
+        "url": "https://seatgeek.com/stray-kids-tickets/vancouver-canada-bc-place-stadium-2027-05-19-7-30-pm/concert/18753052",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -393708,7 +393708,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006562B1BE9D74",
     "ticketmaster_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-santa-clara-california-05-22-2027/event/1C006562B1BE9D74",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/santa-clara-california-levi-s-stadium-2027-05-22-7-30-pm/concert/18753035",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-santa-clara-california-05-22-2027/event/1C006562B1BE9D74",
@@ -393724,11 +393724,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753035,
+        "url": "https://seatgeek.com/stray-kids-tickets/santa-clara-california-levi-s-stadium-2027-05-22-7-30-pm/concert/18753035",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -393779,7 +393779,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A006567FA6836E7",
     "ticketmaster_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-san-diego-california-05-25-2027/event/0A006567FA6836E7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/san-diego-california-petco-park-2027-05-25-7-30-pm/concert/18753036",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-san-diego-california-05-25-2027/event/0A006567FA6836E7",
@@ -393795,11 +393795,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753036,
+        "url": "https://seatgeek.com/stray-kids-tickets/san-diego-california-petco-park-2027-05-25-7-30-pm/concert/18753036",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -393849,7 +393849,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A00655CEBC68D2B",
     "ticketmaster_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-inglewood-california-05-29-2027/event/0A00655CEBC68D2B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/inglewood-california-sofi-stadium-2027-05-29-7-30-pm/concert/18753032",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-inglewood-california-05-29-2027/event/0A00655CEBC68D2B",
@@ -393865,11 +393865,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753032,
+        "url": "https://seatgeek.com/stray-kids-tickets/inglewood-california-sofi-stadium-2027-05-29-7-30-pm/concert/18753032",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -393920,7 +393920,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0065657DF6A510",
     "ticketmaster_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-houston-texas-06-05-2027/event/3A0065657DF6A510",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/houston-texas-reliant-stadium-2027-06-05-7-30-pm/concert/18753031",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-houston-texas-06-05-2027/event/3A0065657DF6A510",
@@ -393936,11 +393936,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753031,
+        "url": "https://seatgeek.com/stray-kids-tickets/houston-texas-reliant-stadium-2027-06-05-7-30-pm/concert/18753031",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -393990,7 +393990,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E006566C0752D44",
     "ticketmaster_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-atlanta-georgia-06-08-2027/event/0E006566C0752D44",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/atlanta-georgia-mercedes-benz-stadium-2027-06-08-7-30-pm/concert/18753033",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-atlanta-georgia-06-08-2027/event/0E006566C0752D44",
@@ -394006,11 +394006,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753033,
+        "url": "https://seatgeek.com/stray-kids-tickets/atlanta-georgia-mercedes-benz-stadium-2027-06-08-7-30-pm/concert/18753033",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -394060,7 +394060,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006565A3BC5881",
     "ticketmaster_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-miami-florida-06-11-2027/event/0D006565A3BC5881",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/miami-gardens-florida-hard-rock-stadium-2027-06-11-7-30-pm/concert/18753043",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-miami-florida-06-11-2027/event/0D006565A3BC5881",
@@ -394076,11 +394076,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753043,
+        "url": "https://seatgeek.com/stray-kids-tickets/miami-gardens-florida-hard-rock-stadium-2027-06-11-7-30-pm/concert/18753043",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -394131,7 +394131,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "22006564E7F05FE6",
     "ticketmaster_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-orlando-florida-06-14-2027/event/22006564E7F05FE6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/orlando-florida-camping-world-stadium-2027-06-14-7-30-pm/concert/18753045",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-orlando-florida-06-14-2027/event/22006564E7F05FE6",
@@ -394147,11 +394147,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753045,
+        "url": "https://seatgeek.com/stray-kids-tickets/orlando-florida-camping-world-stadium-2027-06-14-7-30-pm/concert/18753045",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -394202,7 +394202,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "04006563DBD6842E",
     "ticketmaster_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-18-2027/event/04006563DBD6842E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/chicago-illinois-soldier-field-2027-06-18-7-30-pm/concert/18753046",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-18-2027/event/04006563DBD6842E",
@@ -394218,11 +394218,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753046,
+        "url": "https://seatgeek.com/stray-kids-tickets/chicago-illinois-soldier-field-2027-06-18-7-30-pm/concert/18753046",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -394273,7 +394273,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000655EF725EB10",
     "ticketmaster_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-toronto-ontario-06-25-2027/event/1000655EF725EB10",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/toronto-canada-rogers-stadium-toronto-2027-06-25-7-30-pm/concert/18753050",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-toronto-ontario-06-25-2027/event/1000655EF725EB10",
@@ -394289,11 +394289,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753050,
+        "url": "https://seatgeek.com/stray-kids-tickets/toronto-canada-rogers-stadium-toronto-2027-06-25-7-30-pm/concert/18753050",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -394345,7 +394345,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006563A3F87257",
     "ticketmaster_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-east-rutherford-new-jersey-06-29-2027/event/00006563A3F87257",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/east-rutherford-new-jersey-metlife-stadium-2027-06-29-7-30-pm/concert/18753048",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-east-rutherford-new-jersey-06-29-2027/event/00006563A3F87257",
@@ -394361,11 +394361,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753048,
+        "url": "https://seatgeek.com/stray-kids-tickets/east-rutherford-new-jersey-metlife-stadium-2027-06-29-7-30-pm/concert/18753048",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

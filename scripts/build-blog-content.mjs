@@ -25,6 +25,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 // agree on how a tag is labelled. Import it rather than reimplementing it.
 import { tagLabel } from "../functions/_blog.js";
 import { TOURS_HUB_PATH } from "../functions/_tours-hub.js";
+import { WORTH_WAITING_PATH } from "../functions/_worth-waiting.js";
 
 // Shared with scripts/build-guide-content.mjs — see scripts/lib/content-markdown.mjs.
 import {
@@ -121,7 +122,8 @@ const INTERNAL_LINK_EXACT = new Set([
   "/affiliate-disclosure",
   "/press",
   // The yearly tours hub moves with TOURS_HUB_YEAR, so only the live year resolves.
-  TOURS_HUB_PATH
+  TOURS_HUB_PATH,
+  WORTH_WAITING_PATH
 ]);
 
 // Claims the site is structurally unable to support (SAFE_PUBLISHING_RULES.md →

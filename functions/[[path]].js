@@ -37,6 +37,16 @@ import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, O
 import { deriveThisWeek, renderThisWeekHtml, THIS_WEEK_GUIDE_PATHS } from "./_this-week.js";
 import { deriveToursHub, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
 import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
+import {
+  WORTH_WAITING_PATH,
+  WORTH_WAITING_COMPARE_DAYS,
+  WORTH_WAITING_MIN_SHOWS,
+  DAY_ONE_FINDING,
+  FINAL_WEEK_FINDING,
+  fetchWorthWaitingPairs,
+  deriveWorthWaiting,
+  dayOneSummary
+} from "./_worth-waiting.js";
 import { deriveArtistPresales, deriveUpcomingPresales, presalePath, PRESALE_SEGMENT, PRESALE_LOOKAHEAD_DAYS } from "./_presales.js";
 import {
   PRICE_GUIDE_SEGMENT,
@@ -803,6 +813,26 @@ async function resolveRoute(pathname, env) {
       description: `Artists rumoured to be planning a ${TOURS_HUB_YEAR} tour, each with the report it comes from. None of these tours is confirmed, and there are no dates or tickets yet.`,
       rumoured,
       breadcrumb: [{ name: `${TOURS_HUB_YEAR} tours`, path: TOURS_HUB_PATH }, { name: "Rumoured", path }]
+    };
+  }
+
+  // "Is it worth waiting?": the published day-one finding plus a live
+  // per-artist count of recent price direction (functions/_worth-waiting.js).
+  if (path === WORTH_WAITING_PATH) {
+    const [waitEvents, catalog, artistsMeta] = await Promise.all([loadEvents(env), loadCatalog(env), loadArtistsMeta(env)]);
+    const indexableSlugs = artistsMeta
+      .filter((artist) => artist && artistPageIndexable(artist, waitEvents, slugify(artist.slug)))
+      .map((artist) => slugify(artist.slug));
+    const paired = await fetchWorthWaitingPairs(env?.DEMAND_DB || env?.DB, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => ({ pairs: [], latest: "", earlier: "" }));
+    const worth = deriveWorthWaiting(paired, waitEvents, catalog, indexableSlugs);
+    return {
+      type: "worth-waiting",
+      path,
+      indexable: worth.indexable,
+      title: "Is It Worth Waiting to Buy Tickets? | TourTicketCompare",
+      description: "How often resale ticket prices fell after a tour's first recorded day, and which US tours have seen listed prices fall or rise lately. Counts, not a forecast.",
+      worth,
+      breadcrumb: [{ name: "Is it worth waiting?", path }]
     };
   }
 
@@ -4086,7 +4116,7 @@ function renderPriceGuideBody(route, events, env) {
   ]
     .filter((guidePath) => GUIDE_ROUTES[guidePath])
     .map((guidePath) => `<li>${anchor(GUIDE_ROUTES[guidePath].h1 || GUIDE_ROUTES[guidePath].title, guidePath)}</li>`)
-    .join("");
+    .join("") + `<li>${anchor("Is it worth waiting for cheaper tickets?", WORTH_WAITING_PATH)}</li>`;
   // A ready-made credit line so writers and fan sites can cite the figures with
   // a link back. It describes what the data is; it adds no new claim.
   const citeHtml = `<section class="nested-panel" aria-labelledby="priceGuideCiteTitle"><h2 id="priceGuideCiteTitle">Quoting these prices</h2><p>${escapeHtml(
@@ -6169,7 +6199,38 @@ export function renderToursHubBody(route) {
     "On sale soon",
     ONSALE_CALENDAR_PATH,
     "button button-secondary"
-  )}${anchor("Rumoured tours", RUMOURED_TOURS_PATH, "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
+  )}${anchor("Rumoured tours", RUMOURED_TOURS_PATH, "button button-secondary")}${anchor("Is it worth waiting?", WORTH_WAITING_PATH, "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
+}
+
+export function renderWorthWaitingBody(route) {
+  const worth = route.worth || { artists: [], totals: { shows: 0, lower: 0, higher: 0, same: 0 }, latest: "", earlier: "" };
+  const fmt = (n) => Number(n).toLocaleString("en-US");
+  const rows = worth.artists
+    .map(
+      (row) =>
+        `<tr id="${escapeAttr(row.slug)}"><th scope="row">${anchor(row.name, row.path, "text-link")}</th><td data-label="Shows compared">${row.shows}</td><td data-label="Lower">${row.lower}</td><td data-label="Higher">${row.higher}</td><td data-label="About the same">${row.same}</td></tr>`
+    )
+    .join("");
+  const table = worth.artists.length
+    ? `<section class="section-grid"><div class="section-intro"><h2>Find your tour</h2><p>${escapeHtml(
+        `US tours with at least ${WORTH_WAITING_MIN_SHOWS} compared shows. Each show's lowest listed price on ${worth.latest} against ${worth.earlier} (${WORTH_WAITING_COMPARE_DAYS} days earlier), on the same ticket site, UTC days.`
+      )}</p></div><div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">Recent price direction by US tour</caption><thead><tr><th scope="col">Tour</th><th scope="col">Shows compared</th><th scope="col">Lower</th><th scope="col">Higher</th><th scope="col">About the same</th></tr></thead><tbody>${rows}</tbody></table></div><p>${escapeHtml(
+        `Across all ${fmt(worth.totals.shows)} compared US shows (${fmt(worth.artistCount)} artists): lower at ${fmt(worth.totals.lower)}, higher at ${fmt(worth.totals.higher)}, about the same at ${fmt(worth.totals.same)}. "About the same" means within 2% either way.`
+      )}</p></section>`
+    : `<section class="nested-panel"><h2>Find your tour</h2><p>There are not enough recent price readings to show a tour-by-tour count right now. Check back soon, or open an artist page for its latest checked prices.</p></section>`;
+  const f = DAY_ONE_FINDING;
+  return `<main id="mainContent"><section class="content-page" aria-labelledby="worthWaitingTitle">${renderBreadcrumbHtml(
+    route
+  )}<h1 id="worthWaitingTitle">Is it worth waiting for cheaper tickets?</h1><p class="lead">${escapeHtml(
+    "Sometimes. In TourTicketCompare's price records, the lowest resale price fell at about half of shows in a tour's first fortnight and rose at about a quarter, so waiting is a gamble, not a rule. Here is what the records show, with sample sizes."
+  )}</p><section class="nested-panel"><h2>What happened after day one</h2><p>${escapeHtml(dayOneSummary(f))} Prices fell about twice as often as they rose, but at roughly half of shows there was no fall.</p><p>${escapeHtml(
+    `Day one here is the first day TourTicketCompare recorded a price (between ${f.firstDayFrom} and ${f.firstDayTo}), not the official on-sale date. Figures as of ${f.asOf}, ${fmt(f.artists)} artists.`
+  )} ${anchor("Read the full day-one data", f.blogPath, "text-link")}.</p><p>${escapeHtml(
+    `In the last week before a show, the lowest listed price was lower than a week earlier at about 6 in 10 of ${FINAL_WEEK_FINDING.shows} US shows (${FINAL_WEEK_FINDING.artists} artists, as of ${FINAL_WEEK_FINDING.asOf}).`
+  )} ${anchor("Final-week data", FINAL_WEEK_FINDING.blogPath, "text-link")}.</p></section>${table}${collapsedGroupHtml(
+    "Limits to keep in mind",
+    `<section class="nested-panel"><h2>What this does and doesn't say</h2><ul class="check-list"><li><strong>It is a record, not a forecast.</strong> A price that fell lately can rise tomorrow, and nothing here promises a drop.</li><li><strong>It is the lowest listed resale price, not every seat.</strong> A listed price is not a checkout total: fees, delivery and seat location differ by listing and site.</li><li><strong>US shows only.</strong> TourTicketCompare tracks too few shows elsewhere to say anything yet. Each ticket site is compared only with itself.</li><li><strong>Waiting can cost you.</strong> The cheapest seats may sell out, and official tickets at face value are a different market. This page makes no savings claim: the page shows direction and counts, not prices you would have saved.</li><li><strong>Gaps are not signals.</strong> A show with no reading on either day is left out.</li></ul></section>`
+  )}<div class="action-row">${anchor(`${TOURS_HUB_YEAR} tours`, TOURS_HUB_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}${anchor("When to buy tickets", "/guides/when-is-the-best-time-to-buy-concert-tickets", "button button-secondary")}</div></section></main>`;
 }
 
 export function renderRumouredToursBody(route) {
@@ -7689,6 +7750,18 @@ function renderEventPageBody(route, events, env) {
         ctaLocation: "event_answer"
       })
     : "";
+  // One-line verdict, built only from live data for this date plus the published
+  // day-one count. Nothing renders without a captured price; the day-one clause
+  // is US-only because that is the sample. No guarantee, no savings claim.
+  const verdictAmount = row?.lowest ? formatServerPrice(row.lowest.price, row.lowest.currency) : "";
+  const verdictChecked = row?.lowest ? formatServerSnapshotTime(row.lowest.fetchedAt) : "";
+  const verdictHtml = verdictAmount && verdictChecked
+    ? `<p class="lead event-verdict">${escapeHtml(`Cheapest listed now: ${verdictAmount} on ${row.lowest.name} (checked ${verdictChecked}).`)}${
+        normalizeCountry(show.country) === "United States"
+          ? ` ${escapeHtml(`On ${DAY_ONE_FINDING.shows.toLocaleString("en-US")} US shows tracked, the lowest listed price two weeks after first being recorded was lower at ${Math.round((100 * DAY_ONE_FINDING.lower) / DAY_ONE_FINDING.shows)}% and higher at ${Math.round((100 * DAY_ONE_FINDING.higher) / DAY_ONE_FINDING.shows)}%. Not a forecast.`)} ${anchor("Is it worth waiting?", WORTH_WAITING_PATH, "text-link")}`
+          : ` ${anchor("Is it worth waiting?", WORTH_WAITING_PATH, "text-link")}`
+      }</p>`
+    : "";
   const pricesHtml = priceItems.length
     ? `<section class="nested-panel" aria-labelledby="eventPricesTitle"><h2 id="eventPricesTitle">Prices for this date</h2><ul>${priceItems
         .map((item) => `<li>${escapeHtml(item)}</li>`)
@@ -7796,7 +7869,7 @@ function renderEventPageBody(route, events, env) {
   const disclosure = ctaSpecs.length ? renderMoneyDisclosureHtml({ prices: ctaSpecs.some((spec) => spec.priceAmount) }) : "";
   return `<main id="mainContent"><section class="content-page event-page" aria-labelledby="eventTitle" data-page-artist="${escapeAttr(artist.slug)}">${renderBreadcrumbHtml(
     route
-  )}<h1 id="eventTitle">${escapeHtml(`${artist.name} at ${show.venue}, ${show.city} — ${dateLabel}`)}</h1>${leadHtml}${answerHtml}<section class="section-grid show-board" aria-labelledby="eventTicketsTitle"><div class="section-intro"><h2 id="eventTicketsTitle">${escapeHtml(
+  )}<h1 id="eventTitle">${escapeHtml(`${artist.name} at ${show.venue}, ${show.city} — ${dateLabel}`)}</h1>${leadHtml}${verdictHtml}${answerHtml}<section class="section-grid show-board" aria-labelledby="eventTicketsTitle"><div class="section-intro"><h2 id="eventTicketsTitle">${escapeHtml(
     ticketsHeading
   )}</h2>${disclosure}</div><div class="card-grid show-card-grid">${cardHtml}</div></section>${pricesHtml}${priceRangeHtml}${factsHtml}${contextHtml}${venueFactsHtml}${knowHtml}${linksHtml}</section></main>`;
 }
@@ -8384,6 +8457,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.type === "onsale-calendar") return renderOnsaleCalendarBody(route);
   if (route.type === "tours-hub") return renderToursHubBody(route);
   if (route.type === "rumoured-tours") return renderRumouredToursBody(route);
+  if (route.type === "worth-waiting") return renderWorthWaitingBody(route);
   if (route.type === "presale") return renderPresalePageBody(route, events, env);
 
   if (route.type === "cities-index") {

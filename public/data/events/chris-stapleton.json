@@ -120,6 +120,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362337",
+        "url": "https://www.ticketnetwork.com/en/p/8362337",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KLeEols",
@@ -128,6 +135,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362337"
   }
 ]

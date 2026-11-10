@@ -413,6 +413,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362658",
+        "url": "https://www.ticketnetwork.com/en/p/8362658",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AKZkoSGkdQ3FwF",
@@ -423,7 +430,8 @@
       "FACE TO FACE TOURING"
     ],
     "ticket_limit": 10,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362658"
   },
   {
     "id": "tm-jack-johnson-2026-linlithgow-ave-1avgz_6cppkzd52a",

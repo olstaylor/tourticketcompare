@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8324861",
+        "url": "https://www.ticketnetwork.com/en/p/8324861",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_GJibVci",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324861"
   },
   {
     "id": "tm-the-dead-south-2027-manchester-17u8v0g6gm8i6t0",
@@ -364,12 +372,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361963",
+        "url": "https://www.ticketnetwork.com/en/p/8361963",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_4GkTP2lU0",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361963"
   },
   {
     "id": "tm-the-dead-south-2027-saint-louis-16e7z_pf4g7neqx",
@@ -526,11 +542,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8352785",
+        "url": "https://www.ticketnetwork.com/en/p/8352785",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_4GkU2y0tX",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8352785"
   },
   {
     "id": "tm-the-dead-south-2027-nashville-g5viz_p3okygx",
@@ -579,12 +603,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361931",
+        "url": "https://www.ticketnetwork.com/en/p/8361931",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_p3OkyGx",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361931"
   },
   {
     "id": "tm-the-dead-south-2027-vancouver-1k78vpbzgacmkgo",
@@ -633,12 +665,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361932",
+        "url": "https://www.ticketnetwork.com/en/p/8361932",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPbzGACMKgO",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T19:00:00Z"
+    "public_onsale_at": "2026-11-13T19:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361932"
   },
   {
     "id": "tm-the-dead-south-2027-kelowna-z7r9jz1aa7moa",
@@ -687,12 +727,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361934",
+        "url": "https://www.ticketnetwork.com/en/p/8361934",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7MOA",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361934"
   },
   {
     "id": "tm-the-dead-south-2027-calgary-1aozk4xgkd6z6-j",
@@ -903,12 +951,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361941",
+        "url": "https://www.ticketnetwork.com/en/p/8361941",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kG8vPbIGAujeuh",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361941"
   },
   {
     "id": "tm-the-dead-south-2027-montreal-1kg8vpbigaujwul",
@@ -957,12 +1013,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361942",
+        "url": "https://www.ticketnetwork.com/en/p/8361942",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kG8vPbIGAujwuL",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361942"
   },
   {
     "id": "tm-the-dead-south-2027-ottawa-1aszk40gkda6px7",
@@ -1119,11 +1183,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361946",
+        "url": "https://www.ticketnetwork.com/en/p/8361946",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16oZk4NOSZA5dC55",
     "timezone": "America/Winnipeg",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T17:00:00Z"
+    "public_onsale_at": "2026-11-13T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361946"
   }
 ]

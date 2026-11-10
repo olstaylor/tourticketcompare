@@ -262,12 +262,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362652",
+        "url": "https://www.ticketnetwork.com/en/p/8362652",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kuOvP_EGA1OoRM",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T12:00:00Z"
+    "public_onsale_at": "2026-11-12T12:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362652"
   },
   {
     "id": "tm-fall-out-boy-2027-dublin-1abzk4xgkdbhdty",
@@ -316,12 +324,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362653",
+        "url": "https://www.ticketnetwork.com/en/p/8362653",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZk4xGkdbhDtY",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T12:00:00Z"
+    "public_onsale_at": "2026-11-12T12:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362653"
   },
   {
     "id": "tm-fall-out-boy-2027-manchester-1amzk4pgkdukzs6",
@@ -370,12 +386,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362654",
+        "url": "https://www.ticketnetwork.com/en/p/8362654",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4PGkdukzS6",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T12:00:00Z"
+    "public_onsale_at": "2026-11-12T12:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362654"
   },
   {
     "id": "tm-fall-out-boy-2027-london-1adfz_4gkxmx9xa",
@@ -586,12 +610,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362630",
+        "url": "https://www.ticketnetwork.com/en/p/8362630",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_poTB4M0",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T16:00:00Z"
+    "public_onsale_at": "2026-11-12T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362630"
   },
   {
     "id": "tm-fall-out-boy-2027-atlanta-vvg1zz_pkn5gmk",
@@ -640,12 +672,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362632",
+        "url": "https://www.ticketnetwork.com/en/p/8362632",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pKn5gmk",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362632"
   },
   {
     "id": "tm-fall-out-boy-2027-washington-1avfz_4gkhvu21c",
@@ -694,12 +734,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362634",
+        "url": "https://www.ticketnetwork.com/en/p/8362634",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_4GkHvU21c",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362634"
   },
   {
     "id": "tm-fall-out-boy-2027-detroit-vv1afzk4jgkdvw4eb",
@@ -748,12 +796,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362635",
+        "url": "https://www.ticketnetwork.com/en/p/8362635",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4JGkdvW4EB",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362635"
   },
   {
     "id": "tm-fall-out-boy-2027-toronto-1a8zk40gkdutc4w",
@@ -856,12 +912,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362636",
+        "url": "https://www.ticketnetwork.com/en/p/8362636",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv118Z_pQp44qd",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T16:00:00Z"
+    "public_onsale_at": "2026-11-12T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362636"
   },
   {
     "id": "tm-fall-out-boy-2027-boston-vv1avzk4ngkenvma1",
@@ -910,12 +974,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362638",
+        "url": "https://www.ticketnetwork.com/en/p/8362638",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4NGkeNvMA1",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362638"
   },
   {
     "id": "tm-fall-out-boy-2027-queens-g5vvz_pkqtkyp",
@@ -1018,12 +1090,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362640",
+        "url": "https://www.ticketnetwork.com/en/p/8362640",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4PGkdw5r4K",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362640"
   },
   {
     "id": "tm-fall-out-boy-2027-hershey-vv1aezk40gkd_hdkn",
@@ -1072,12 +1152,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362641",
+        "url": "https://www.ticketnetwork.com/en/p/8362641",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk40Gkd_HDKn",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362641"
   },
   {
     "id": "tm-fall-out-boy-2027-kansas-city-1a-zk40gkd1psok",
@@ -1180,12 +1268,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362643",
+        "url": "https://www.ticketnetwork.com/en/p/8362643",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_p3slSMJ",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362643"
   },
   {
     "id": "tm-fall-out-boy-2027-san-francisco-g5vyz_p3s9d3l",
@@ -1234,12 +1330,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362646",
+        "url": "https://www.ticketnetwork.com/en/p/8362646",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p3s9D3l",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T18:00:00Z"
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362646"
   },
   {
     "id": "tm-fall-out-boy-2027-san-diego-vvg1iz_pc9ifhq",
@@ -1288,12 +1392,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362647",
+        "url": "https://www.ticketnetwork.com/en/p/8362647",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pC9ifhq",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T18:00:00Z"
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362647"
   },
   {
     "id": "tm-fall-out-boy-2027-phoenix-1a_zk4xgkdxdu-e",
@@ -1342,12 +1454,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362648",
+        "url": "https://www.ticketnetwork.com/en/p/8362648",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4xGkdxDU-e",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362648"
   },
   {
     "id": "tm-fall-out-boy-2027-los-angeles-vvg1iz_p4zt_kr",
@@ -1396,12 +1516,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362649",
+        "url": "https://www.ticketnetwork.com/en/p/8362649",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_p4Zt_kR",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T18:00:00Z"
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362649"
   },
   {
     "id": "tm-fall-out-boy-2027-portland-z7r9jz1aaaa0k",
@@ -1450,11 +1578,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362651",
+        "url": "https://www.ticketnetwork.com/en/p/8362651",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAA0k",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T18:00:00Z"
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362651"
   }
 ]

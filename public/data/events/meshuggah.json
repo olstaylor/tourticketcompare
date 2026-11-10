@@ -2602,6 +2602,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362357",
+        "url": "https://www.ticketnetwork.com/en/p/8362357",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvOZ_4GkwRafdq",
@@ -2612,7 +2619,8 @@
       "MCD PRODUCTIONS"
     ],
     "ticket_limit": 8,
-    "genre": "Metal"
+    "genre": "Metal",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362357"
   },
   {
     "id": "tm-meshuggah-2027-manchester-1adfz_4gkvdqmcy",

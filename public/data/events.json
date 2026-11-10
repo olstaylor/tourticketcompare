@@ -168725,11 +168725,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8056807",
-        "url": "https://www.ticketnetwork.com/en/p/8056807",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8056807",
@@ -168742,7 +168742,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_GnJfN19",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056807",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056807/Daughtry-tickets-Sun-Nov-8-2026-Uptown-Theatre-Napa",
     "genre": "Rock"
   },
@@ -226068,11 +226068,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7756933",
-        "url": "https://www.ticketnetwork.com/en/p/7756933",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7756933",
@@ -226086,7 +226086,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756933",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756933/The-Psychedelic-Furs-tickets-Sun-Nov-8-2026-The-Sound-At-The-Del-Mar-Fairgrounds",
     "genre": "Rock"
   },
@@ -241922,11 +241922,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7874795",
-        "url": "https://www.ticketnetwork.com/en/p/7874795",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_GxiLkd5",
@@ -241934,7 +241934,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874795/Noah-Kahan-tickets-Mon-Nov-9-2026-AO-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-manchester-manchester-ao-arena-9-11-2026/event/107155376",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874795",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "COMMUNION ONE LTD",
       "ASM T-A AO ARENA",
@@ -273201,6 +273201,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362337",
+        "url": "https://www.ticketnetwork.com/en/p/8362337",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KLeEols",
@@ -273209,7 +273216,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362337"
   },
   {
     "id": "tm-phoebe-bridgers-2026-denver-g5vzz_g5e32h3",
@@ -294243,6 +294251,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362658",
+        "url": "https://www.ticketnetwork.com/en/p/8362658",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AKZkoSGkdQ3FwF",
@@ -294253,7 +294268,8 @@
       "FACE TO FACE TOURING"
     ],
     "ticket_limit": 10,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362658"
   },
   {
     "id": "tm-jack-johnson-2026-linlithgow-ave-1avgz_6cppkzd52a",
@@ -370512,11 +370528,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8055342",
-        "url": "https://www.ticketnetwork.com/en/p/8055342",
-        "verified": true,
-        "last_verified_at": "2026-11-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8055342",
@@ -370536,7 +370552,7 @@
     "ticketmaster_discovery_event_id": "vvG10Z_GLORuHT",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8055342",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8055342/Mon-Laferte-tickets-Sun-Nov-8-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/mon-laferte-inglewood-tickets-11-8-2026/event/107455665",
     "organizer_names": [
@@ -373381,6 +373397,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362357",
+        "url": "https://www.ticketnetwork.com/en/p/8362357",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvOZ_4GkwRafdq",
@@ -373391,7 +373414,8 @@
       "MCD PRODUCTIONS"
     ],
     "ticket_limit": 8,
-    "genre": "Metal"
+    "genre": "Metal",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362357"
   },
   {
     "id": "tm-meshuggah-2027-manchester-1adfz_4gkvdqmcy",
@@ -388722,6 +388746,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361500",
+        "url": "https://www.ticketnetwork.com/en/p/8361500",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk40GkdjYUrt",
@@ -388754,7 +388785,8 @@
         "start": "2026-11-12T10:00:00Z",
         "end": "2026-11-13T09:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361500"
   },
   {
     "id": "tm-mariah-carey-2027-exeter-g5vhz_f0acb90",
@@ -389307,12 +389339,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362652",
+        "url": "https://www.ticketnetwork.com/en/p/8362652",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kuOvP_EGA1OoRM",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T12:00:00Z"
+    "public_onsale_at": "2026-11-12T12:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362652"
   },
   {
     "id": "tm-fall-out-boy-2027-dublin-1abzk4xgkdbhdty",
@@ -389361,12 +389401,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362653",
+        "url": "https://www.ticketnetwork.com/en/p/8362653",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZk4xGkdbhDtY",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T12:00:00Z"
+    "public_onsale_at": "2026-11-12T12:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362653"
   },
   {
     "id": "tm-fall-out-boy-2027-manchester-1amzk4pgkdukzs6",
@@ -389415,12 +389463,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362654",
+        "url": "https://www.ticketnetwork.com/en/p/8362654",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4PGkdukzS6",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T12:00:00Z"
+    "public_onsale_at": "2026-11-12T12:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362654"
   },
   {
     "id": "tm-fall-out-boy-2027-london-1adfz_4gkxmx9xa",
@@ -389631,12 +389687,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362630",
+        "url": "https://www.ticketnetwork.com/en/p/8362630",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_poTB4M0",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T16:00:00Z"
+    "public_onsale_at": "2026-11-12T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362630"
   },
   {
     "id": "tm-fall-out-boy-2027-atlanta-vvg1zz_pkn5gmk",
@@ -389685,12 +389749,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362632",
+        "url": "https://www.ticketnetwork.com/en/p/8362632",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pKn5gmk",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362632"
   },
   {
     "id": "tm-fall-out-boy-2027-washington-1avfz_4gkhvu21c",
@@ -389739,12 +389811,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362634",
+        "url": "https://www.ticketnetwork.com/en/p/8362634",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_4GkHvU21c",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362634"
   },
   {
     "id": "tm-fall-out-boy-2027-detroit-vv1afzk4jgkdvw4eb",
@@ -389793,12 +389873,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362635",
+        "url": "https://www.ticketnetwork.com/en/p/8362635",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4JGkdvW4EB",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362635"
   },
   {
     "id": "tm-fall-out-boy-2027-toronto-1a8zk40gkdutc4w",
@@ -389901,12 +389989,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362636",
+        "url": "https://www.ticketnetwork.com/en/p/8362636",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv118Z_pQp44qd",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T16:00:00Z"
+    "public_onsale_at": "2026-11-12T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362636"
   },
   {
     "id": "tm-fall-out-boy-2027-boston-vv1avzk4ngkenvma1",
@@ -389955,12 +390051,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362638",
+        "url": "https://www.ticketnetwork.com/en/p/8362638",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4NGkeNvMA1",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362638"
   },
   {
     "id": "tm-fall-out-boy-2027-queens-g5vvz_pkqtkyp",
@@ -390063,12 +390167,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362640",
+        "url": "https://www.ticketnetwork.com/en/p/8362640",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4PGkdw5r4K",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362640"
   },
   {
     "id": "tm-fall-out-boy-2027-hershey-vv1aezk40gkd_hdkn",
@@ -390117,12 +390229,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362641",
+        "url": "https://www.ticketnetwork.com/en/p/8362641",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk40Gkd_HDKn",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362641"
   },
   {
     "id": "tm-fall-out-boy-2027-kansas-city-1a-zk40gkd1psok",
@@ -390225,12 +390345,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362643",
+        "url": "https://www.ticketnetwork.com/en/p/8362643",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_p3slSMJ",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362643"
   },
   {
     "id": "tm-fall-out-boy-2027-san-francisco-g5vyz_p3s9d3l",
@@ -390279,12 +390407,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362646",
+        "url": "https://www.ticketnetwork.com/en/p/8362646",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p3s9D3l",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T18:00:00Z"
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362646"
   },
   {
     "id": "tm-fall-out-boy-2027-san-diego-vvg1iz_pc9ifhq",
@@ -390333,12 +390469,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362647",
+        "url": "https://www.ticketnetwork.com/en/p/8362647",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pC9ifhq",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T18:00:00Z"
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362647"
   },
   {
     "id": "tm-fall-out-boy-2027-phoenix-1a_zk4xgkdxdu-e",
@@ -390387,12 +390531,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362648",
+        "url": "https://www.ticketnetwork.com/en/p/8362648",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4xGkdxDU-e",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362648"
   },
   {
     "id": "tm-fall-out-boy-2027-los-angeles-vvg1iz_p4zt_kr",
@@ -390441,12 +390593,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362649",
+        "url": "https://www.ticketnetwork.com/en/p/8362649",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_p4Zt_kR",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T18:00:00Z"
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362649"
   },
   {
     "id": "tm-fall-out-boy-2027-portland-z7r9jz1aaaa0k",
@@ -390495,12 +390655,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362651",
+        "url": "https://www.ticketnetwork.com/en/p/8362651",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAA0k",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T18:00:00Z"
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362651"
   },
   {
     "id": "tm-the-dead-south-2027-london-g5dzz_gjibvci",
@@ -390549,11 +390717,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8324861",
+        "url": "https://www.ticketnetwork.com/en/p/8324861",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_GJibVci",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324861"
   },
   {
     "id": "tm-the-dead-south-2027-manchester-17u8v0g6gm8i6t0",
@@ -390867,12 +391043,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361963",
+        "url": "https://www.ticketnetwork.com/en/p/8361963",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_4GkTP2lU0",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361963"
   },
   {
     "id": "tm-the-dead-south-2027-saint-louis-16e7z_pf4g7neqx",
@@ -391029,11 +391213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8352785",
+        "url": "https://www.ticketnetwork.com/en/p/8352785",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_4GkU2y0tX",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8352785"
   },
   {
     "id": "tm-the-dead-south-2027-nashville-g5viz_p3okygx",
@@ -391082,12 +391274,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361931",
+        "url": "https://www.ticketnetwork.com/en/p/8361931",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_p3OkyGx",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361931"
   },
   {
     "id": "tm-the-dead-south-2027-vancouver-1k78vpbzgacmkgo",
@@ -391136,12 +391336,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361932",
+        "url": "https://www.ticketnetwork.com/en/p/8361932",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPbzGACMKgO",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T19:00:00Z"
+    "public_onsale_at": "2026-11-13T19:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361932"
   },
   {
     "id": "tm-the-dead-south-2027-kelowna-z7r9jz1aa7moa",
@@ -391190,12 +391398,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361934",
+        "url": "https://www.ticketnetwork.com/en/p/8361934",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7MOA",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361934"
   },
   {
     "id": "tm-the-dead-south-2027-calgary-1aozk4xgkd6z6-j",
@@ -391406,12 +391622,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361941",
+        "url": "https://www.ticketnetwork.com/en/p/8361941",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kG8vPbIGAujeuh",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361941"
   },
   {
     "id": "tm-the-dead-south-2027-montreal-1kg8vpbigaujwul",
@@ -391460,12 +391684,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361942",
+        "url": "https://www.ticketnetwork.com/en/p/8361942",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kG8vPbIGAujwuL",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z"
+    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361942"
   },
   {
     "id": "tm-the-dead-south-2027-ottawa-1aszk40gkda6px7",
@@ -391622,11 +391854,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361946",
+        "url": "https://www.ticketnetwork.com/en/p/8361946",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16oZk4NOSZA5dC55",
     "timezone": "America/Winnipeg",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T17:00:00Z"
+    "public_onsale_at": "2026-11-13T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361946"
   }
 ]

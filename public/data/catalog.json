@@ -8203,6 +8203,11 @@
     {
       "slug": "ticketnetwork",
       "name": "TicketNetwork",
+      "contact": {
+        "postal_address": "75 Gerber Road East, South Windsor, Connecticut",
+        "source_url": "https://www.ticketnetwork.com/about-us",
+        "last_checked_at": "2026-10-02"
+      },
       "provider_type": "marketplace",
       "public_enabled": true,
       "requires_verified_destination": true,
@@ -8244,6 +8249,12 @@
     {
       "slug": "ticket-liquidator",
       "name": "Ticket Liquidator",
+      "contact": {
+        "support_email": "customersupport@ticketliquidator.com",
+        "support_phone": "(860) 768-9263",
+        "source_url": "https://www.ticketliquidator.com/page/faqs",
+        "last_checked_at": "2026-10-02"
+      },
       "provider_type": "marketplace",
       "public_enabled": true,
       "requires_verified_destination": true,

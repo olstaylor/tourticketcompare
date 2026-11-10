@@ -7359,8 +7359,8 @@ function startingPriceMetaDescription(route, events, env) {
   if (route.type === "price-guide") return priceGuideSnippet(route, events, env);
   if (route.type !== "artist-city" && route.type !== "event" && route.type !== "artist") return "";
   if (route.type === "event" && !route.eventState?.commerciallyLive) return "";
-  // The artist page quotes its next date only, like the artist-city page: one
-  // date, one site, one capture time, never a tour-wide minimum. Artist pages
+  // The artist page quotes its soonest priced date: one date, one site, one
+  // capture time, never a tour-wide minimum. Artist pages
   // hold most search impressions at positions 7-12 with a price-free snippet
   // (Search Console, 2026-10-07..11-04).
   const ids = route.type === "event"

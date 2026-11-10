@@ -1016,7 +1016,7 @@
         "event_id": 18345772,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/san-antonio-texas-paper-tiger-san-antonio-2026-11-06-8-pm/concert/18345772",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1034,25 +1034,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8097391",
-        "url": "https://www.ticketnetwork.com/en/p/8097391",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8097391",
-        "url": "https://www.ticketliquidator.com/tickets/8097391/Dinosaur-Jr-tickets-Fri-Nov-6-2026-Paper-Tiger",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7J7J_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8097391",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8097391/Dinosaur-Jr-tickets-Fri-Nov-6-2026-Paper-Tiger"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-dinosaur-jr-2026-new-orleans-z7r9jz1a7pu-o",
@@ -1070,7 +1070,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PU-o",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1086,7 +1086,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1103,25 +1103,26 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8105622",
-        "url": "https://www.ticketnetwork.com/en/p/8105622",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8105622",
-        "url": "https://www.ticketliquidator.com/tickets/8105622/Dinosaur-Jr-tickets-Sat-Nov-7-2026-Tipitinas",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PU-o",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105622",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8105622/Dinosaur-Jr-tickets-Sat-Nov-7-2026-Tipitinas"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "genre": "Alternative"
   },
   {
     "id": "tm-dinosaur-jr-2027-brooklyn-z7r9jz1aavk1a",
@@ -1139,7 +1140,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1a",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1154,7 +1155,7 @@
         "event_id": 18540431,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/brooklyn-new-york-brooklyn-steel-2027-02-11-8-pm/concert/18540431",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1170,11 +1171,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8354481",
+        "url": "https://www.ticketnetwork.com/en/p/8354481",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8354481",
+        "url": "https://www.ticketliquidator.com/tickets/8354481/Dinosaur-Jr-tickets-Thu-Feb-11-2027-Brooklyn-Steel",
+        "verified": true,
+        "last_verified_at": "2026-11-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvK1a",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8354481",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8354481/Dinosaur-Jr-tickets-Thu-Feb-11-2027-Brooklyn-Steel",
+    "genre": "Alternative"
   },
   {
     "id": "tm-dinosaur-jr-2027-brooklyn-z7r9jz1aavk1f",
@@ -1192,7 +1210,7 @@
     "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-12-2027--concerts-rock/production/7492603",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1207,14 +1225,14 @@
         "event_id": 18540433,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/brooklyn-new-york-brooklyn-steel-2027-02-12-8-pm/concert/18540433",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7492603,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-12-2027--concerts-rock/production/7492603",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1227,7 +1245,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvK1F",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-dinosaur-jr-2027-silver-spring-164zkf4pnzau65fa",
@@ -1245,7 +1264,7 @@
     "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-silver-spring-the-fillmore-silver-spring-2-16-2027--concerts-rock/production/7492607",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-with-silver-spring-maryland-02-16-2027/event/15006515963C6A78",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1260,14 +1279,14 @@
         "event_id": 18540432,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-02-16-8-pm/concert/18540432",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7492607,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-silver-spring-the-fillmore-silver-spring-2-16-2027--concerts-rock/production/7492607",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1306,7 +1325,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-dinosaur-jr-2027-orlando-z7r9jz1aav8-u",
@@ -1324,7 +1345,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8-U",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1339,7 +1360,7 @@
         "event_id": 18540443,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/orlando-florida-the-plaza-live-2027-02-23-7-30-pm/concert/18540443",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1355,11 +1376,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8256068",
+        "url": "https://www.ticketnetwork.com/en/p/8256068",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8256068",
+        "url": "https://www.ticketliquidator.com/tickets/8256068/Dinosaur-Jr-tickets-Tue-Feb-23-2027-The-Plaza-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8-U",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256068",
+    "genre": "Alternative",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8256068/Dinosaur-Jr-tickets-Tue-Feb-23-2027-The-Plaza-Live"
   },
   {
     "id": "tm-dinosaur-jr-2027-athens-z7r9jz1aavk1o",
@@ -1377,7 +1415,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1o",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1392,7 +1430,7 @@
         "event_id": 18540444,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/athens-georgia-georgia-theatre-2027-02-25-7-pm/concert/18540444",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1412,7 +1450,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvK1o",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-dinosaur-jr-2027-nashville-g5viz_o987bgu",
@@ -1430,7 +1469,7 @@
     "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-nashville-brooklyn-bowl---nashville-2-26-2027/production/7491786",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-nashville-tennessee-02-26-2027/event/1B006515D013A336",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1445,14 +1484,14 @@
         "event_id": 18540445,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/nashville-tennessee-brooklyn-bowl-nashville-2027-02-26-8-pm/concert/18540445",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491786,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-nashville-brooklyn-bowl---nashville-2-26-2027/production/7491786",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1491,7 +1530,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-dinosaur-jr-2027-cincinnati-1kaovpaogacpo0v",
@@ -1509,7 +1550,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-with-cincinnati-ohio-02-27-2027/event/160065151E591901",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1554,7 +1595,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-dinosaur-jr-2027-minneapolis-z7r9jz1aav8op",
@@ -1572,7 +1615,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8OP",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1587,7 +1630,7 @@
         "event_id": 18540453,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/minneapolis-minnesota-first-avenue-minneapolis-2027-03-04-8-pm/concert/18540453",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1607,7 +1650,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv8OP",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-dinosaur-jr-2027-chicago-z7r9jz1aaedov",
@@ -1625,7 +1669,7 @@
     "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-chicago-vic-theatre-3-5-2027--concerts-rock/production/7492664",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAedOv",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1641,13 +1685,13 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7492664,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-chicago-vic-theatre-3-5-2027--concerts-rock/production/7492664",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1676,7 +1720,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245942",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245942/Dinosaur-Jr-tickets-Fri-Mar-5-2027-Vic-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245942/Dinosaur-Jr-tickets-Fri-Mar-5-2027-Vic-Theatre",
+    "genre": "Alternative"
   },
   {
     "id": "tm-dinosaur-jr-2027-toronto-1a8zkf4gkdtrlfj",
@@ -1694,7 +1739,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dinosaur-jr-spring-tour-2027-toronto-ontario-03-07-2027/event/10006515E97AB51C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1709,7 +1754,7 @@
         "event_id": 18540457,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/toronto-canada-the-danforth-music-hall-2027-03-07-7-pm/concert/18540457",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1734,7 +1779,10 @@
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
       "COLLECTIVE CONCERTS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-dinosaur-jr-2027-boston-vv16vzkf4vvza5c5kf",
@@ -1752,7 +1800,7 @@
     "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-boston-citizens-house-of-blues-boston-3-13-2027/production/7491258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-boston-massachusetts-03-13-2027/event/01006515074ADA57",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1767,14 +1815,14 @@
         "event_id": 18540462,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-03-13-7-pm/concert/18540462",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491258,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-boston-citizens-house-of-blues-boston-3-13-2027/production/7491258",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1806,7 +1854,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239627/Dinosaur-Jr-tickets-Sat-Mar-13-2027-Citizens-House-Of-Blues-Boston",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-dinosaur-jr-2027-philadelphia-z7r9jz1aavk18",
@@ -1824,7 +1873,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK18",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1839,7 +1888,7 @@
         "event_id": 18540434,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/philadelphia-pennsylvania-union-transfer-philadelphia-2027-02-13-8-pm/concert/18540434",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1875,7 +1924,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326607",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326607/Dinosaur-Jr-tickets-Sat-Feb-13-2027-Union-Transfer"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326607/Dinosaur-Jr-tickets-Sat-Feb-13-2027-Union-Transfer",
+    "genre": "Alternative"
   },
   {
     "id": "tm-dinosaur-jr-2027-brisbane-1k7yvp4bgacdnzm",
@@ -1893,7 +1943,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/dinosaur-jr-brisbane-19-01-2027/event/130065558E0E302E",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1931,7 +1981,9 @@
     "status": "on-sale",
     "organizer_names": [
       "FRONTIER TOURING COMPANY"
-    ]
+    ],
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-dinosaur-jr-2027-auckland-1a0zk4fgkei-ffe",
@@ -1949,7 +2001,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dinosaur-jr-auckland-16-01-2027/event/24006554A8854527",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1987,7 +2039,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AUCKLAND LIVE"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-dinosaur-jr-2027-saint-petersburg-z7r9jz1aavk16",
@@ -2005,7 +2058,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK16",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2020,7 +2073,7 @@
         "event_id": 18540442,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/saint-petersburg-florida-jannus-live-2027-02-20-8-pm/concert/18540442",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2040,6 +2093,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvK16",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   }
 ]

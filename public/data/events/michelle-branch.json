@@ -600,7 +600,7 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7J4Zs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4Zs",
-    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/boston-massachusetts-roadrunner-boston-2026-11-04-8-pm/concert/18373497",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J4Zs",
@@ -616,11 +616,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18373497,
-        "url": "https://seatgeek.com/michelle-branch-tickets/boston-massachusetts-roadrunner-boston-2026-11-04-8-pm/concert/18373497",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -679,7 +679,7 @@
         "event_id": 7291708,
         "url": "https://www.vividseats.com/michelle-branch-tickets-new-york-beacon-theatre-11-5-2026/production/7291708",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -697,11 +697,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107667194",
-        "url": "https://www.stubhub.ie/michelle-branch-new-york-tickets-11-5-2026/event/107667194",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8135353",
@@ -715,7 +715,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135353/Michelle-Branch-tickets-Thu-Nov-5-2026-Beacon-Theatre-NY",
-    "stubhub_international_url": "https://www.stubhub.ie/michelle-branch-new-york-tickets-11-5-2026/event/107667194",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135353",
     "presales": [
       {
@@ -740,7 +740,7 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "000064E100957069",
     "ticketmaster_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-asbury-park-new-jersey-11-06-2026/event/000064E100957069",
-    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/asbury-park-new-jersey-the-stone-pony-2-2026-11-06-7-pm/concert/18373504",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-asbury-park-stone-pony-11-6-2026/production/7291723",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-asbury-park-new-jersey-11-06-2026/event/000064E100957069",
@@ -756,17 +756,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18373504,
-        "url": "https://seatgeek.com/michelle-branch-tickets/asbury-park-new-jersey-the-stone-pony-2-2026-11-06-7-pm/concert/18373504",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7291723,
         "url": "https://www.vividseats.com/michelle-branch-tickets-asbury-park-stone-pony-11-6-2026/production/7291723",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -800,7 +800,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-chicago-house-of-blues-chicago-11-10-2026/production/7292219",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-chicago-illinois-11-10-2026/event/040064E1E6DECA83",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -815,14 +815,14 @@
         "event_id": 18373509,
         "url": "https://seatgeek.com/michelle-branch-tickets/chicago-illinois-house-of-blues-chicago-2026-11-10-8-pm/concert/18373509",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7292219,
         "url": "https://www.vividseats.com/michelle-branch-tickets-chicago-house-of-blues-chicago-11-10-2026/production/7292219",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -855,7 +855,10 @@
     "organizer_names": [
       "LIVE NATION MUSIC",
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-michelle-branch-2026-minneapolis-z7r9jz1a7j3xd",
@@ -870,10 +873,10 @@
     "ticketmaster_event_id": "Z7r9jZ1A7J3xd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J3xd",
     "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-11-11-7-30-pm/concert/18373510",
-    "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-minneapolis-first-avenue-11-11-2026/production/7291704",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J3xd",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -888,15 +891,15 @@
         "event_id": 18373510,
         "url": "https://seatgeek.com/michelle-branch-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-11-11-7-30-pm/concert/18373510",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7291704,
-        "url": "https://www.vividseats.com/michelle-branch-tickets-minneapolis-first-avenue-11-11-2026/production/7291704",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -924,7 +927,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135392/Michelle-Branch-tickets-Wed-Nov-11-2026-First-Avenue",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135392"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135392",
+    "genre": "Alternative"
   },
   {
     "id": "tm-michelle-branch-2026-milwaukee-z7r9jz1aazyfa",
@@ -942,7 +946,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-milwaukee-pabst-theater-11-12-2026/production/7290527",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZyfA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -957,14 +961,14 @@
         "event_id": 18373511,
         "url": "https://seatgeek.com/michelle-branch-tickets/milwaukee-wisconsin-pabst-theater-2026-11-12-8-pm/concert/18373511",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7290527,
         "url": "https://www.vividseats.com/michelle-branch-tickets-milwaukee-pabst-theater-11-12-2026/production/7290527",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -993,7 +997,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135393/Michelle-Branch-tickets-Thu-Nov-12-2026-Pabst-Theater",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135393"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135393",
+    "genre": "Alternative"
   },
   {
     "id": "tm-michelle-branch-2026-lexington-17aov0g6cdozqjd",
@@ -1011,7 +1016,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-lexington-manchester-music-hall-11-13-2026/production/7291696",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-lexington-kentucky-11-13-2026/event/160064EED101A73B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1026,14 +1031,14 @@
         "event_id": 18373515,
         "url": "https://seatgeek.com/michelle-branch-tickets/lexington-kentucky-manchester-music-hall-2026-11-13-8-pm/concert/18373515",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7291696,
         "url": "https://www.vividseats.com/michelle-branch-tickets-lexington-manchester-music-hall-11-13-2026/production/7291696",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1063,16 +1068,11 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135386/Michelle-Branch-tickets-Fri-Nov-13-2026-Manchester-Music-Hall",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135386",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-17T14:00:00Z",
-        "end": "2026-11-06T04:55:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-michelle-branch-2027-charleston-g5evz_8w8tpxk",
@@ -1090,7 +1090,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-charleston-charleston-music-hall-2-25-2027/production/7453909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-charleston-south-carolina-02-25-2027/event/2D00650C90A56F93",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1105,14 +1105,14 @@
         "event_id": 18508823,
         "url": "https://seatgeek.com/michelle-branch-tickets/charleston-south-carolina-charleston-music-hall-2027-02-25-8-pm/concert/18508823",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453909,
         "url": "https://www.vividseats.com/michelle-branch-tickets-charleston-charleston-music-hall-2-25-2027/production/7453909",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1121,6 +1121,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8217759",
+        "url": "https://www.ticketnetwork.com/en/p/8217759",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8217759",
+        "url": "https://www.ticketliquidator.com/tickets/8217759/Michelle-Branch-tickets-Thu-Feb-25-2027-Charleston-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_8w8tpXK",
@@ -1136,7 +1150,10 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217759",
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217759/Michelle-Branch-tickets-Thu-Feb-25-2027-Charleston-Music-Hall"
   },
   {
     "id": "tm-michelle-branch-2027-atlanta-vvg1zz_8qvo7-q",
@@ -1154,7 +1171,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-atlanta-georgia-02-26-2027/event/0E0065068144485A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1169,7 +1186,7 @@
         "event_id": 18508825,
         "url": "https://seatgeek.com/michelle-branch-tickets/atlanta-georgia-the-tabernacle-atlanta-2027-02-26-8-pm/concert/18508825",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1185,6 +1202,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8217760",
+        "url": "https://www.ticketnetwork.com/en/p/8217760",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8217760",
+        "url": "https://www.ticketliquidator.com/tickets/8217760/Michelle-Branch-tickets-Fri-Feb-26-2027-The-Tabernacle-GA",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_8Qvo7-Q",
@@ -1204,7 +1235,11 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217760",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217760/Michelle-Branch-tickets-Fri-Feb-26-2027-The-Tabernacle-GA"
   },
   {
     "id": "tm-michelle-branch-2027-dallas-vvg1yz_8by9itm",
@@ -1222,7 +1257,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-dallas-house-of-blues-dallas-3-6-2027/production/7453092",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-dallas-texas-03-06-2027/event/0C00650EB95ECA6E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1237,14 +1272,14 @@
         "event_id": 18508827,
         "url": "https://seatgeek.com/michelle-branch-tickets/dallas-texas-house-of-blues-dallas-2027-03-06-7-pm/concert/18508827",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453092,
         "url": "https://www.vividseats.com/michelle-branch-tickets-dallas-house-of-blues-dallas-3-6-2027/production/7453092",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1288,7 +1323,9 @@
     ],
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-michelle-branch-2027-houston-g5diz_8jaig6j",
@@ -1306,7 +1343,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-houston-house-of-blues-houston-3-7-2027/production/7453098",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-houston-texas-03-07-2027/event/3A00650705A0C1DC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1321,14 +1358,14 @@
         "event_id": 18508828,
         "url": "https://seatgeek.com/michelle-branch-tickets/houston-texas-house-of-blues-houston-2027-03-07-7-pm/concert/18508828",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453098,
         "url": "https://www.vividseats.com/michelle-branch-tickets-houston-house-of-blues-houston-3-7-2027/production/7453098",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1380,7 +1417,9 @@
     ],
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-michelle-branch-2027-tempe-1av0z_8gkntcuaa",
@@ -1398,7 +1437,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-tempe-marquee-theatre-3-11-2027/production/7453207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-tempe-arizona-03-11-2027/event/1900650AA9B76149",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1413,14 +1452,14 @@
         "event_id": 18508835,
         "url": "https://seatgeek.com/michelle-branch-tickets/tempe-arizona-marquee-theatre-tempe-az-2027-03-11-7-30-pm/concert/18508835",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453207,
         "url": "https://www.vividseats.com/michelle-branch-tickets-tempe-marquee-theatre-3-11-2027/production/7453207",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1459,7 +1498,9 @@
     ],
     "organizer_names": [
       "LUCKYMAN CONCERTS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-michelle-branch-2027-anaheim-vv1aazkf6gkdxx2ly",
@@ -1477,7 +1518,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-anaheim-house-of-blues-anaheim-3-12-2027/production/7453109",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-anaheim-california-03-12-2027/event/09006507E2F8FAF0",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1492,14 +1533,14 @@
         "event_id": 18508836,
         "url": "https://seatgeek.com/michelle-branch-tickets/anaheim-california-house-of-blues-anaheim-2027-03-12-7-pm/concert/18508836",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453109,
         "url": "https://www.vividseats.com/michelle-branch-tickets-anaheim-house-of-blues-anaheim-3-12-2027/production/7453109",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1543,7 +1584,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-michelle-branch-2027-los-angeles-vv170z_8gksjroc_",
@@ -1561,7 +1604,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-los-angeles-the-wiltern-3-13-2027/production/7453115",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-los-angeles-california-03-13-2027/event/0900650CE6791399",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1576,14 +1619,14 @@
         "event_id": 18508837,
         "url": "https://seatgeek.com/michelle-branch-tickets/los-angeles-california-the-wiltern-2027-03-13-7-pm/concert/18508837",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453115,
         "url": "https://www.vividseats.com/michelle-branch-tickets-los-angeles-the-wiltern-3-13-2027/production/7453115",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1622,7 +1665,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-michelle-branch-2027-denver-z7r9jz1aavkbw",
@@ -1640,7 +1685,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvkbw",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1655,7 +1700,7 @@
         "event_id": 18650112,
         "url": "https://seatgeek.com/michelle-branch-tickets/denver-colorado-mission-ballroom-2027-03-17-8-pm/concert/18650112",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1691,7 +1736,8 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8222814/Michelle-Branch-tickets-Wed-Mar-17-2027-The-Mission-Ballroom",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8222814"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8222814",
+    "genre": "Alternative"
   },
   {
     "id": "tm-michelle-branch-2027-saint-louis-vv17bz_8gknw__z8",
@@ -1709,7 +1755,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-saint-louis-missouri-03-19-2027/event/0600650AB2659010",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1754,7 +1800,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-michelle-branch-2027-columbus-z7r9jz1aazmzz",
@@ -1772,7 +1820,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-columbus-kemba-live-3-20-2027/production/7453283",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMZz",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1787,14 +1835,14 @@
         "event_id": 18508844,
         "url": "https://seatgeek.com/michelle-branch-tickets/columbus-ohio-kemba-live-2027-03-20-8-pm/concert/18508844",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453283,
         "url": "https://www.vividseats.com/michelle-branch-tickets-columbus-kemba-live-3-20-2027/production/7453283",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1823,7 +1871,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8220390/Michelle-Branch-tickets-Sat-Mar-20-2027-KEMBA-Live",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8220390"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8220390",
+    "genre": "Alternative"
   },
   {
     "id": "tm-michelle-branch-2027-royal-oak-z7r9jz1aazmje",
@@ -1841,7 +1890,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-royal-oak-royal-oak-music-theatre-3-21-2027/production/7454162",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMJe",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1856,14 +1905,14 @@
         "event_id": 18508847,
         "url": "https://seatgeek.com/michelle-branch-tickets/royal-oak-michigan-royal-oak-music-theatre-2027-03-21-7-pm/concert/18508847",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7454162,
         "url": "https://www.vividseats.com/michelle-branch-tickets-royal-oak-royal-oak-music-theatre-3-21-2027/production/7454162",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1892,7 +1941,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8220389/Michelle-Branch-tickets-Sun-Mar-21-2027-Royal-Oak-Music-Theatre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8220389"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8220389",
+    "genre": "Alternative"
   },
   {
     "id": "tm-michelle-branch-2027-portland-vv177z_8gkm-dic1",
@@ -1910,7 +1960,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-portland-state-theatre-portland-3-23-2027/production/7453907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-portland-maine-03-23-2027/event/0100650DE1EECB4A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1925,14 +1975,14 @@
         "event_id": 18508848,
         "url": "https://seatgeek.com/michelle-branch-tickets/portland-maine-state-theatre-portland-me-2027-03-23-8-pm/concert/18508848",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453907,
         "url": "https://www.vividseats.com/michelle-branch-tickets-portland-state-theatre-portland-3-23-2027/production/7453907",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1968,7 +2018,8 @@
         "start": "2026-08-21T14:00:00Z",
         "end": "2027-03-16T03:55:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-michelle-branch-2027-new-york-g5diz_8xxfdpf",
@@ -1986,7 +2037,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-new-york-beacon-theatre-3-25-2027/production/7453131",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-new-york-new-york-03-25-2027/event/3B006508BE503954",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2008,7 +2059,7 @@
         "event_id": 7453131,
         "url": "https://www.vividseats.com/michelle-branch-tickets-new-york-beacon-theatre-3-25-2027/production/7453131",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2060,7 +2111,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-michelle-branch-2027-silver-spring-16vfz_809g7nt6o",
@@ -2078,7 +2130,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-silver-spring-the-fillmore-silver-spring-3-26-2027/production/7453672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-silver-spring-maryland-03-26-2027/event/1500650917ABF1D1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2100,7 +2152,7 @@
         "event_id": 7453672,
         "url": "https://www.vividseats.com/michelle-branch-tickets-silver-spring-the-fillmore-silver-spring-3-26-2027/production/7453672",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2144,7 +2196,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-michelle-branch-2027-philadelphia-z7r9jz1aazyqb",
@@ -2162,7 +2216,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-philadelphia-franklin-music-hall-3-27-2027/production/7453461",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZyQb",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2184,7 +2238,7 @@
         "event_id": 7453461,
         "url": "https://www.vividseats.com/michelle-branch-tickets-philadelphia-franklin-music-hall-3-27-2027/production/7453461",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2213,7 +2267,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8219779/Michelle-Branch-tickets-Sat-Mar-27-2027-Franklin-Music-Hall",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8219779"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8219779",
+    "genre": "Alternative"
   },
   {
     "id": "tm-michelle-branch-2026-salt-lake-city-z7r9jz1aav-qo",
@@ -2284,7 +2339,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-nashville-ryman-auditorium-2-27-2027/production/7453135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMa_",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2299,14 +2354,14 @@
         "event_id": 18508824,
         "url": "https://seatgeek.com/michelle-branch-tickets/nashville-tennessee-ryman-auditorium-2027-02-27-8-pm/concert/18508824",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453135,
         "url": "https://www.vividseats.com/michelle-branch-tickets-nashville-ryman-auditorium-2-27-2027/production/7453135",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2335,7 +2390,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8220717",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8220717/Michelle-Branch-tickets-Sat-Feb-27-2027-Ryman-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8220717/Michelle-Branch-tickets-Sat-Feb-27-2027-Ryman-Auditorium",
+    "genre": "Alternative"
   },
   {
     "id": "tm-michelle-branch-2027-nashville-z7r9jz1aazyfg",
@@ -2353,7 +2409,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-nashville-ryman-auditorium-2-28-2027/production/7459457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZyfg",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2368,14 +2424,14 @@
         "event_id": 18517279,
         "url": "https://seatgeek.com/michelle-branch-tickets/nashville-tennessee-ryman-auditorium-2027-02-28-8-pm/concert/18517279",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7459457,
         "url": "https://www.vividseats.com/michelle-branch-tickets-nashville-ryman-auditorium-2-28-2027/production/7459457",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2404,7 +2460,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8225387",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8225387/Michelle-Branch-tickets-Sun-Feb-28-2027-Ryman-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8225387/Michelle-Branch-tickets-Sun-Feb-28-2027-Ryman-Auditorium",
+    "genre": "Alternative"
   },
   {
     "id": "tm-michelle-branch-2027-tulsa-z7r9jz1aazuoa",
@@ -2422,7 +2479,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZUoA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2437,7 +2494,7 @@
         "event_id": 18508826,
         "url": "https://seatgeek.com/michelle-branch-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-05-7-30-pm/concert/18508826",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2458,7 +2515,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZUoA",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "9999-12-31T06:00:00Z"
+    "public_onsale_at": "9999-12-31T06:00:00Z",
+    "genre": "Alternative"
   },
   {
     "id": "tm-michelle-branch-2027-toronto-1a8zk4kgkdkp6j5",
@@ -2476,7 +2534,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-toronto-history-toronto-3-30-2027/production/7704668",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/michelle-branch-everywhere-and-back-again-toronto-ontario-03-30-2027/event/10006546D394798B",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2498,7 +2556,7 @@
         "event_id": 7704668,
         "url": "https://www.vividseats.com/michelle-branch-tickets-toronto-history-toronto-3-30-2027/production/7704668",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2524,7 +2582,10 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-23T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-michelle-branch-2027-toronto-1a8zk4kgkdkj6jq",
@@ -2542,7 +2603,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-toronto-history-toronto-3-31-2027/production/7696699",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/michelle-branch-everywhere-and-back-again-toronto-ontario-03-31-2027/event/10006546D398799A",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2564,7 +2625,7 @@
         "event_id": 7696699,
         "url": "https://www.vividseats.com/michelle-branch-tickets-toronto-history-toronto-3-31-2027/production/7696699",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2590,6 +2651,62 @@
         "start": "2026-10-16T14:00:00Z",
         "end": "2027-03-24T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
+  },
+  {
+    "id": "tm-michelle-branch-2027-tulsa-z7r9jz1aa7vv3",
+    "artist_slug": "michelle-branch",
+    "artist_name": "Michelle Branch",
+    "event_name": "Michelle Branch",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "Cain's Ballroom",
+    "datetime_iso": "2027-03-05T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7Vv3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Vv3",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-04-7-pm/concert/18517280",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Vv3",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7Vv3",
+        "discovery_event_id": "Z7r9jZ1AA7Vv3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Vv3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18517280,
+        "url": "https://seatgeek.com/michelle-branch-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-04-7-pm/concert/18517280",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Vv3",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "genre": "Alternative"
   }
 ]

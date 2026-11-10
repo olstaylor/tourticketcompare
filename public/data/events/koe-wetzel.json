@@ -160,7 +160,7 @@
         "event_id": 18649773,
         "url": "https://seatgeek.com/koe-wetzel-tickets/helotes-texas-john-t-floore-country-store-2026-12-02-7-pm/concert/18649773",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -229,14 +229,14 @@
         "event_id": 18649774,
         "url": "https://seatgeek.com/koe-wetzel-tickets/corpus-christi-texas-concrete-street-amphitheater-2026-12-04-7-pm/concert/18649774",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7654020,
         "url": "https://www.vividseats.com/koe-wetzel-tickets-corpus-christi-concrete-street-amphitheater-12-4-2026--concerts-country-and-folk/production/7654020",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -298,14 +298,14 @@
         "event_id": 18649776,
         "url": "https://seatgeek.com/koe-wetzel-tickets/round-rock-texas-round-rock-amp-2026-12-05-7-pm/concert/18649776",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7654036,
         "url": "https://www.vividseats.com/koe-wetzel-tickets-round-rock-round-rock-amp-12-5-2026--concerts-country-and-folk/production/7654036",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -367,7 +367,7 @@
         "event_id": 18665100,
         "url": "https://seatgeek.com/koe-wetzel-tickets/fort-worth-texas-billy-bob-s-texas-2026-12-09-9-pm/concert/18665100",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -420,7 +420,7 @@
         "event_id": 18649775,
         "url": "https://seatgeek.com/koe-wetzel-tickets/fort-worth-texas-billy-bob-s-texas-2026-12-10-9-pm/concert/18649775",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -458,7 +458,7 @@
     "vividseats_url": "https://www.vividseats.com/koe-wetzel-tickets-las-vegas-ph-live-at-planet-hollywood-12-11-2026/production/7410841",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/koe-wetzel-las-vegas-nevada-12-11-2026/event/39006506E9356649",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -473,14 +473,14 @@
         "event_id": 18471843,
         "url": "https://seatgeek.com/koe-wetzel-tickets/las-vegas-nevada-ph-live-at-planet-hollywood-2026-12-11-8-pm/concert/18471843",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7410841,
         "url": "https://www.vividseats.com/koe-wetzel-tickets-las-vegas-ph-live-at-planet-hollywood-12-11-2026/production/7410841",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -524,7 +524,9 @@
         "start": "2026-08-14T17:00:00Z",
         "end": "2026-12-12T05:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 10,
+    "genre": "Country"
   },
   {
     "id": "tm-koe-wetzel-2027-durant-vvg1yz_4wsdj6f",
@@ -538,11 +540,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C00655CB30E61D4",
     "ticketmaster_url": "https://www.ticketmaster.com/koe-wetzel-durant-oklahoma-01-29-2027/event/0C00655CB30E61D4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/koe-wetzel-tickets/durant-oklahoma-choctaw-grand-theater-2027-01-29-7-30-pm/concert/18738802",
     "vividseats_url": "https://www.vividseats.com/koe-wetzel-tickets-durant-choctaw-grand-theater-1-29-2027/production/7794068",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/koe-wetzel-durant-oklahoma-01-29-2027/event/0C00655CB30E61D4",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -554,17 +556,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738802,
+        "url": "https://seatgeek.com/koe-wetzel-tickets/durant-oklahoma-choctaw-grand-theater-2027-01-29-7-30-pm/concert/18738802",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7794068,
         "url": "https://www.vividseats.com/koe-wetzel-tickets-durant-choctaw-grand-theater-1-29-2027/production/7794068",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -577,14 +579,60 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4wSdJ6f",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T16:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-04T16:00:00Z",
-        "end": "2026-11-06T04:00:00Z"
+    "status": "on-sale",
+    "genre": "Country"
+  },
+  {
+    "id": "tm-koe-wetzel-2027-rohnert-park-z7r9jz1aa7zjf",
+    "artist_slug": "koe-wetzel",
+    "artist_name": "Koe Wetzel",
+    "event_name": "KOE WETZEL - Froggy 92.9's Hot Country Nights - 21+",
+    "city": "Rohnert Park",
+    "country": "United States Of America",
+    "venue": "The Event at Graton Resort and Casino",
+    "datetime_iso": "2027-01-09T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7zjf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7zjf",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/koe-wetzel-tickets-rohnert-park-the-event-at-graton-resort-and-casino-1-8-2027--concerts-country-and-folk/production/7763777",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7zjf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7zjf",
+        "discovery_event_id": "Z7r9jZ1AA7zjf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7zjf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7763777,
+        "url": "https://www.vividseats.com/koe-wetzel-tickets-rohnert-park-the-event-at-graton-resort-and-casino-1-8-2027--concerts-country-and-folk/production/7763777",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       }
-    ]
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7zjf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

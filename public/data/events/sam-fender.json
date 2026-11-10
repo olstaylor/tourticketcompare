@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-newcastle-upon-tyne-st-james-park-6-3-2027--concerts-alternative/production/7732014",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-03-06-2027/event/35006554D0435429",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -37,7 +37,7 @@
         "event_id": 7732014,
         "url": "https://www.vividseats.com/sam-fender-tickets-newcastle-upon-tyne-st-james-park-6-3-2027--concerts-alternative/production/7732014",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -78,7 +78,9 @@
     ],
     "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-3-6-2027/event/107678199",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8349501",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8349501/Sam-Fender-tickets-Thu-Jun-3-2027-St-James-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8349501/Sam-Fender-tickets-Thu-Jun-3-2027-St-James-Park",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj",
@@ -96,7 +98,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-newcastle-upon-tyne-st-james-park-6-5-2027--concerts-alternative/production/7732020",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-newcastle-upon-tyne-05-06-2027/event/3500654FD659945C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -118,7 +120,7 @@
         "event_id": 7732020,
         "url": "https://www.vividseats.com/sam-fender-tickets-newcastle-upon-tyne-st-james-park-6-5-2027--concerts-alternative/production/7732020",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -159,7 +161,9 @@
     ],
     "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-5-6-2027/event/107676048",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8349502",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8349502/Sam-Fender-tickets-Sat-Jun-5-2027-St-James-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8349502/Sam-Fender-tickets-Sat-Jun-5-2027-St-James-Park",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-cardiff-16gzk4fpszage5ca",
@@ -177,7 +181,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-cardiff-principality-stadium---cardiff-6-10-2027--concerts-alternative/production/7732028",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-10-06-2027/event/35006554971B1AD4",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -199,7 +203,7 @@
         "event_id": 7732028,
         "url": "https://www.vividseats.com/sam-fender-tickets-cardiff-principality-stadium---cardiff-6-10-2027--concerts-alternative/production/7732028",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -226,7 +230,9 @@
       "COMMUNION ONE LTD",
       "KILIMANJARO"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-cardiff-principality-stadium-cardiff-10-6-2027/event/107678202"
+    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-cardiff-principality-stadium-cardiff-10-6-2027/event/107678202",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-london-16nzk4f00zauv12c",
@@ -244,7 +250,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-6-18-2027--concerts-alternative/production/7732036",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-18-06-2027/event/23006554924C09ED",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -266,7 +272,7 @@
         "event_id": 7732036,
         "url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-6-18-2027--concerts-alternative/production/7732036",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -308,7 +314,9 @@
       "SJM LIMITED (NEW)",
       "COMMUNION ONE LTD"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-18-6-2027/event/107678200"
+    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-18-6-2027/event/107678200",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-london-1anzk4fgkdp88g6",
@@ -326,7 +334,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-6-20-2027--concerts-alternative/production/7732042",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-20-06-2027/event/23006554D6410D47",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -348,7 +356,7 @@
         "event_id": 7732042,
         "url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-6-20-2027--concerts-alternative/production/7732042",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -390,7 +398,9 @@
       "SJM LIMITED (NEW)",
       "COMMUNION ONE LTD"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-20-6-2027/event/107676045"
+    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-20-6-2027/event/107676045",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-dublin-1avoz_fgkxvywdt",
@@ -408,7 +418,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/sam-fender-proper-massive-stadium-tour-dublin-01-07-2027/event/1800654F81E72EE9",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -447,7 +457,8 @@
     "organizer_names": [
       "MCD PRODUCTIONS",
       "UNIVERSAL MUSIC ON BEHALF OF SAM FENDER"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-edinburgh-1auzk4fgkd4qebt",
@@ -465,7 +476,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-edinburgh-scottish-gas-murrayfield-stadium-7-8-2027--concerts-alternative/production/7732058",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-08-07-2027/event/36006554D56A7629",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -487,7 +498,7 @@
         "event_id": 7732058,
         "url": "https://www.vividseats.com/sam-fender-tickets-edinburgh-scottish-gas-murrayfield-stadium-7-8-2027--concerts-alternative/production/7732058",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -505,7 +516,9 @@
       "UNIVERSAL MUSIC ON BEHALF OF SAM FENDER",
       "DF CONCERTS LIMITED",
       "GIGS IN SCOTLAND"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-manchester-g5dzz_42lyjlw",
@@ -523,7 +536,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-manchester-etihad-stadium-7-15-2027--concerts-alternative/production/7732072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-15-07-2027/event/3E006553EBE66AFD",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -545,7 +558,7 @@
         "event_id": 7732072,
         "url": "https://www.vividseats.com/sam-fender-tickets-manchester-etihad-stadium-7-15-2027--concerts-alternative/production/7732072",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -586,7 +599,9 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345901",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345901/Sam-Fender-tickets-Thu-Jul-15-2027-Etihad-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-manchester-etihad-stadium-15-7-2027/event/107676046"
+    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-manchester-etihad-stadium-15-7-2027/event/107676046",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-manchester-g5dzz_4k4turs",
@@ -604,7 +619,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-manchester-etihad-stadium-7-17-2027--concerts-alternative/production/7732086",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-manchester-17-07-2027/event/3E006554D5FF67B3",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -626,7 +641,7 @@
         "event_id": 7732086,
         "url": "https://www.vividseats.com/sam-fender-tickets-manchester-etihad-stadium-7-17-2027--concerts-alternative/production/7732086",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -651,7 +666,9 @@
       "UNIVERSAL MUSIC ON BEHALF OF SAM FENDER",
       "SJM LIMITED (NEW)"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-manchester-etihad-stadium-17-7-2027/event/107676047"
+    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-manchester-etihad-stadium-17-7-2027/event/107676047",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-cardiff-1adfz_4gklat6o4",
@@ -669,7 +686,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-cardiff-principality-stadium---cardiff-6-12-2027--concerts-alternative/production/7774971",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-cardiff-12-06-2027/event/3500655AC5FC7455",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -691,7 +708,7 @@
         "event_id": 7774971,
         "url": "https://www.vividseats.com/sam-fender-tickets-cardiff-principality-stadium---cardiff-6-12-2027--concerts-alternative/production/7774971",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -718,7 +735,9 @@
       "SJM LIMITED (NEW)",
       "COMMUNION ONE LTD",
       "KILIMANJARO"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-edinburgh-1adbz_4gkm8ikcj",
@@ -736,7 +755,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-edinburgh-scottish-gas-murrayfield-stadium-7-10-2027--concerts-alternative/production/7774973",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-edinburgh-10-07-2027/event/3600655B90A133A6",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -758,7 +777,7 @@
         "event_id": 7774973,
         "url": "https://www.vividseats.com/sam-fender-tickets-edinburgh-scottish-gas-murrayfield-stadium-7-10-2027--concerts-alternative/production/7774973",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -776,7 +795,9 @@
       "UNIVERSAL MUSIC ON BEHALF OF SAM FENDER",
       "DF CONCERTS LIMITED",
       "GIGS IN SCOTLAND"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-london-1aegz_4gklv3o2e",
@@ -794,7 +815,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-9-2-2027--concerts-alternative/production/7774975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/sam-fender-proper-massive-stadium-tour-london-02-09-2027/event/2300655AF44913E7",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -816,7 +837,7 @@
         "event_id": 7774975,
         "url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-9-2-2027--concerts-alternative/production/7774975",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -858,6 +879,8 @@
       "UNIVERSAL MUSIC ON BEHALF OF SAM FENDER",
       "SJM LIMITED (NEW)",
       "COMMUNION ONE LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   }
 ]

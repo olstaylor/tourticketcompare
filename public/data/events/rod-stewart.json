@@ -11,11 +11,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0200653CC47EC202",
     "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-reading-pennsylvania-03-02-2027/event/0200653CC47EC202",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rod-stewart-tickets/reading-pennsylvania-santander-arena-2027-03-02-7-30-pm/concert/18652809",
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-reading-santander-arena-3-2-2027/production/7653344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-reading-pennsylvania-03-02-2027/event/0200653CC47EC202",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -27,17 +27,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18652809,
+        "url": "https://seatgeek.com/rod-stewart-tickets/reading-pennsylvania-santander-arena-2027-03-02-7-30-pm/concert/18652809",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653344,
         "url": "https://www.vividseats.com/rod-stewart-tickets-reading-santander-arena-3-2-2027/production/7653344",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -46,11 +46,29 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307184",
+        "url": "https://www.ticketnetwork.com/en/p/8307184",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307184",
+        "url": "https://www.ticketliquidator.com/tickets/8307184/Rod-Stewart-tickets-Tue-Mar-2-2027-Santander-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkS7LiFe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307184",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307184/Rod-Stewart-tickets-Tue-Mar-2-2027-Santander-Arena"
   },
   {
     "id": "tm-rod-stewart-2027-niagara-falls-16vzzbmcag7m0q9",
@@ -68,7 +86,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rod-stewart-niagara-falls-ontario-03-04-2027/event/1000637389BA4757",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -83,7 +101,7 @@
         "event_id": 18424719,
         "url": "https://seatgeek.com/rod-stewart-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-03-04-8-pm/concert/18424719",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -104,7 +122,9 @@
     "ticketmaster_discovery_event_id": "16vZZbMCaG7m0q9",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-savannah-vvg1zz_kexgebo",
@@ -122,7 +142,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-savannah-enmarket-arena-3-8-2027/production/7587733",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-savannah-georgia-03-08-2027/event/0E006530BE302E91",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -137,14 +157,14 @@
         "event_id": 18611010,
         "url": "https://seatgeek.com/rod-stewart-tickets/savannah-georgia-enmarket-arena-2027-03-08-8-pm/concert/18611010",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587733,
         "url": "https://www.vividseats.com/rod-stewart-tickets-savannah-enmarket-arena-3-8-2027/production/7587733",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -173,7 +193,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277059/Rod-Stewart-tickets-Mon-Mar-8-2027-Enmarket-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277059"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277059",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-biloxi-g5viz_kjgqiyx",
@@ -191,7 +213,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-biloxi-mississippi-coast-coliseum-3-10-2027/production/7620617",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-biloxi-mississippi-03-10-2027/event/1B0065398C6A8C3E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -206,14 +228,14 @@
         "event_id": 18626760,
         "url": "https://seatgeek.com/rod-stewart-tickets/biloxi-mississippi-mississippi-coast-coliseum-2027-03-10-7-30-pm/concert/18626760",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620617,
         "url": "https://www.vividseats.com/rod-stewart-tickets-biloxi-mississippi-coast-coliseum-3-10-2027/production/7620617",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -245,7 +267,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294731",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-hollywood-vvg1vz_3j9ejp4",
@@ -263,7 +286,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-3-12-2027/production/7553115",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-hollywood-florida-03-12-2027/event/0D006529970A6595",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278,14 +301,14 @@
         "event_id": 18591364,
         "url": "https://seatgeek.com/rod-stewart-tickets/hollywood-florida-hard-rock-live-hollywood-2027-03-12-8-pm/concert/18591364",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553115,
         "url": "https://www.vividseats.com/rod-stewart-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-3-12-2027/production/7553115",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -322,7 +345,9 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266994/Rod-Stewart-tickets-Fri-Mar-12-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-hollywood-tickets-3-12-2027/event/107669469",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266994"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266994",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-saint-augustine-z7r9jz1aavybs",
@@ -340,7 +365,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvYbs",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -355,7 +380,7 @@
         "event_id": 18603490,
         "url": "https://seatgeek.com/rod-stewart-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-03-16-7-30-pm/concert/18603490",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -375,7 +400,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvYbs",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-rod-stewart-2027-uncasville-g5vvz_flfx92d",
@@ -393,7 +419,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-uncasville-mohegan-sun-arena-ct-3-19-2027/production/7696637",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-uncasville-connecticut-03-19-2027/event/1D006547C8F973C3",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -408,14 +434,14 @@
         "event_id": 18683772,
         "url": "https://seatgeek.com/rod-stewart-tickets/uncasville-connecticut-mohegan-sun-arena-2027-03-19-7-30-pm/concert/18683772",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7696637,
         "url": "https://www.vividseats.com/rod-stewart-tickets-uncasville-mohegan-sun-arena-ct-3-19-2027/production/7696637",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -451,7 +477,9 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319868/Rod-Stewart-tickets-Fri-Mar-19-2027-Mohegan-Sun-Arena-CT",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319868"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319868",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-dublin-1avoz_kgkw68xnf",
@@ -469,7 +497,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/rod-stewart-dublin-24-04-2027/event/1800653C87422A94",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -524,7 +552,9 @@
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "AIKEN PROMOTIONS"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1auzkfygkdhvxxd",
@@ -542,7 +572,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-5-1-2027/production/7657693",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-01-05-2027/event/36006539FC07E883",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -564,7 +594,7 @@
         "event_id": 7657693,
         "url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-5-1-2027/production/7657693",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -604,7 +634,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308633",
     "organizer_names": [
       "SCOTTISH EVENT CAMPUS LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-birmingham-1kfyvpcfga2dzlv",
@@ -622,7 +654,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-birmingham-utilita-arena-birmingham-5-4-2027/production/7623212",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-birmingham-04-05-2027/event/230065388F0C0AC1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -644,7 +676,7 @@
         "event_id": 7623212,
         "url": "https://www.vividseats.com/rod-stewart-tickets-birmingham-utilita-arena-birmingham-5-4-2027/production/7623212",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -681,7 +713,9 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297144/Rod-Stewart-tickets-Tue-May-4-2027-Utilita-Arena-Birmingham",
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-birmingham-utilita-arena-birmingham-4-5-2027/event/107670604",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297144"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297144",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-manchester-1amzkfugkesbky7",
@@ -699,7 +733,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-manchester-co-op-live-5-6-2027--concerts-adult-contemporary/production/7619870",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-06-05-2027/event/37006536B3613C04",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -721,7 +755,7 @@
         "event_id": 7619870,
         "url": "https://www.vividseats.com/rod-stewart-tickets-manchester-co-op-live-5-6-2027--concerts-adult-contemporary/production/7619870",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -761,7 +795,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293090",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-manchester-1amzkfzgkdjwz0v",
@@ -779,7 +815,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-manchester-co-op-live-5-8-2027/production/7657691",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-08-05-2027/event/37006538E6F78934",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -801,7 +837,7 @@
         "event_id": 7657691,
         "url": "https://www.vividseats.com/rod-stewart-tickets-manchester-co-op-live-5-8-2027/production/7657691",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -841,7 +877,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308591",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-london-1agzkfzgkdv3zff",
@@ -859,7 +897,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-london-the-o2---london-5-11-2027/production/7621510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-11-05-2027/event/35006538C14B8214",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -881,7 +919,7 @@
         "event_id": 7621510,
         "url": "https://www.vividseats.com/rod-stewart-tickets-london-the-o2---london-5-11-2027/production/7621510",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -902,7 +940,9 @@
     "ticketmaster_discovery_event_id": "1AgZkfzGkdv3zFf",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-11-5-2027/event/107671346"
+    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-11-5-2027/event/107671346",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-london-1agzkfzgkdvmnjo",
@@ -920,7 +960,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-london-the-o2---london-5-14-2027/production/7657633",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-14-05-2027/event/35006538F4DEA720",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -942,7 +982,7 @@
         "event_id": 7657633,
         "url": "https://www.vividseats.com/rod-stewart-tickets-london-the-o2---london-5-14-2027/production/7657633",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -963,7 +1003,9 @@
     "ticketmaster_discovery_event_id": "1AgZkfzGkdVMnjO",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-14-5-2027/event/107671677"
+    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-14-5-2027/event/107671677",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-amsterdam-z698xzbpz1kbf3oo4",
@@ -981,8 +1023,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/rod-stewart-the-final-encore-tickets/608491455?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "608491455",
@@ -1043,7 +1085,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299870",
     "organizer_names": [
       "Mojo Concerts"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-merksem-antwerpen-z698xzg2z1kq_k_u9",
@@ -1061,8 +1104,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/rod-stewart-the-final-encore-tickets/699199357",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "699199357",
@@ -1099,7 +1142,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-berlin-z698xzc2z16vov80ga",
@@ -1117,8 +1161,8 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-berlin-uber-arena-6-1-2027/production/7623204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/1441424309?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1441424309",
@@ -1139,7 +1183,7 @@
         "event_id": 7623204,
         "url": "https://www.vividseats.com/rod-stewart-tickets-berlin-uber-arena-6-1-2027/production/7623204",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1163,7 +1207,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-berlin-uber-arena-1-6-2027/event/107669292",
     "organizer_names": [
       "Live Nation GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-helsinki-z698xz8kz16v7ia-bv",
@@ -1181,8 +1226,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.fi/event/rod-stewart-the-final-encore-tickets/1128261601?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1128261601",
@@ -1227,7 +1272,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-helsinki-veikkaus-arena-9-6-2027/event/107669296",
     "organizer_names": [
       "Live Nation Finland Oy"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-trondheim-z698xzb_z16vaukozj",
@@ -1245,8 +1291,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/rod-stewart-the-final-encore-tickets/1276191026?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1276191026",
@@ -1283,7 +1329,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation Norway AS"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-munich-z698xzc2z1kqvo_bs",
@@ -1301,8 +1348,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/741819633?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "741819633",
@@ -1347,7 +1394,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-munich-olympiahalle-munich-20-6-2027/event/107670553",
     "organizer_names": [
       "Live Nation GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-praha-9-z698xzu0z16v8ffvx6",
@@ -1365,8 +1413,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/rod-stewart-tickets/1414234887?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1414234887",
@@ -1403,7 +1451,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-krakow-z698xzqpz1kk400qk",
@@ -1421,8 +1470,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/rod-stewart-the-final-encore-tickets/195924746?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "195924746",
@@ -1459,7 +1508,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation sp. z o.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-hannover-z698xzc2z1k88ofxe",
@@ -1477,8 +1527,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/410454882?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "410454882",
@@ -1523,7 +1573,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-hannover-zag-arena-24-7-2027/event/107669294",
     "organizer_names": [
       "Hannover Concerts GmbH & Co.KG Betriebsgesellschaft"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-morrison-z7r9jz1a7qu14",
@@ -1541,7 +1592,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qU14",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1556,7 +1607,7 @@
         "event_id": 17890592,
         "url": "https://seatgeek.com/rod-stewart-tickets/morrison-colorado-red-rocks-amphitheatre-2027-09-02-7-30-pm/concert/17890592",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1604,7 +1655,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7548018",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-rod-stewart-2027-morrison-z7r9jz1a7r6o4",
@@ -1622,7 +1674,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r6o4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1637,7 +1689,7 @@
         "event_id": 17914318,
         "url": "https://seatgeek.com/rod-stewart-tickets/morrison-colorado-red-rocks-amphitheatre-2027-09-03-7-30-pm/concert/17914318",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1685,7 +1737,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7566556",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-rod-stewart-2027-dublin-1kkzvpcfga1_k0w",
@@ -1703,7 +1756,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/rod-stewart-dublin-23-04-2027/event/180065388A64693D",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1758,7 +1811,9 @@
       "AIKEN PROMOTIONS"
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307232/Rod-Stewart-tickets-Fri-Apr-23-2027-3Arena-Dublin",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307232"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307232",
+    "ticket_limit": 9,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-belfast-1azzkfugkd15ooi",
@@ -1776,7 +1831,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-belfast-the-o2---belfast-4-27-2027/production/7623208",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/rod-stewart-belfast-27-04-2027/event/38006536CA2D1468",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1798,7 +1853,7 @@
         "event_id": 7623208,
         "url": "https://www.vividseats.com/rod-stewart-tickets-belfast-the-o2---belfast-4-27-2027/production/7623208",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1831,7 +1886,8 @@
       "O2"
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326046/Rod-Stewart-tickets-Tue-Apr-27-2027-The-O2-Belfast",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326046"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326046",
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1auzkfmgkehwkob",
@@ -1849,7 +1905,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-4-29-2027/production/7623210",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-29-04-2027/event/36006537BCF4683A",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1871,7 +1927,7 @@
         "event_id": 7623210,
         "url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-4-29-2027/production/7623210",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1912,7 +1968,9 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299954/Rod-Stewart-tickets-Thu-Apr-29-2027-OVO-Hydro",
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-29-4-2027/event/107670605",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299954"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299954",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-atlantic-city-vv1aezk49gkddvprj",
@@ -1930,7 +1988,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-3-6-2027/production/7761495",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-atlantic-city-new-jersey-03-06-2027/event/02006557FBD16BDC",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1945,14 +2003,14 @@
         "event_id": 18725794,
         "url": "https://seatgeek.com/rod-stewart-tickets/atlantic-city-new-jersey-hard-rock-live-at-etess-arena-2027-03-06-8-pm/concert/18725794",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761495,
         "url": "https://www.vividseats.com/rod-stewart-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-3-6-2027/production/7761495",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1984,7 +2042,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343668/Rod-Stewart-tickets-Sat-Mar-6-2027-Hard-Rock-Live-At-Etess-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-lincoln-g5vyz_4ho4bgw",
@@ -2002,7 +2062,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-lincoln-the-venue-at-thunder-valley-casino-resort-8-14-2027/production/7763286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-lincoln-california-08-14-2027/event/1C006556D157AD72",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2017,14 +2077,14 @@
         "event_id": 18726699,
         "url": "https://seatgeek.com/rod-stewart-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2027-08-14-8-pm/concert/18726699",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7763286,
         "url": "https://www.vividseats.com/rod-stewart-tickets-lincoln-the-venue-at-thunder-valley-casino-resort-8-14-2027/production/7763286",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2053,7 +2113,9 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343679",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343679/Rod-Stewart-tickets-Sat-Aug-14-2027-The-Venue-At-Thunder-Valley-Casino-Resort"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343679/Rod-Stewart-tickets-Sat-Aug-14-2027-The-Venue-At-Thunder-Valley-Casino-Resort",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-london-1agzkfzgkdu5qoy",
@@ -2068,10 +2130,10 @@
     "ticketmaster_event_id": "35006538F62DA830",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-15-05-2027/event/35006538F62DA830",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-london-the-o2---london-5-15-2027--concerts-adult-contemporary/production/7801773",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-15-05-2027/event/35006538F62DA830",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2090,11 +2152,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7801773,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-london-the-o2---london-5-15-2027--concerts-adult-contemporary/production/7801773",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2102,24 +2164,21 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679045",
+        "url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-15-5-2027/event/107679045",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfzGkdU5QOY",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-03T10:00:00Z",
-        "end": "2026-11-06T09:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-05T10:00:00Z",
-        "end": "2026-11-06T09:00:00Z"
-      }
-    ]
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-15-5-2027/event/107679045",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1adbz_4gkmvnhoa",
@@ -2134,16 +2193,82 @@
     "ticketmaster_event_id": "3600655DF4ABC445",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-18-05-2027/event/3600655DF4ABC445",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-5-18-2027/production/7799440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-18-05-2027/event/3600655DF4ABC445",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3600655DF4ABC445",
         "discovery_event_id": "1AdbZ_4GkMVnHoA",
         "url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-18-05-2027/event/3600655DF4ABC445",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7799440,
+        "url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-5-18-2027/production/7799440",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679046",
+        "url": "https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-18-5-2027/event/107679046",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_4GkMVnHoA",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-18-5-2027/event/107679046",
+    "ticket_limit": 6,
+    "genre": "Rock"
+  },
+  {
+    "id": "tm-rod-stewart-2027-hamburg-z698xzc2z16vxb1oag",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart - \"The Final Encore\"",
+    "city": "Hamburg",
+    "country": "Germany",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2027-07-25T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1898291275",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/1898291275?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/1898291275?language=en-us",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1898291275",
+        "discovery_event_id": "Z698xZC2Z16vxb1oag",
+        "url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/1898291275?language=en-us",
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
@@ -2170,34 +2295,25 @@
         "availability_status": "not_checked"
       }
     },
-    "ticketmaster_discovery_event_id": "1AdbZ_4GkMVnHoA",
-    "timezone": "Europe/London",
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vxb1oag",
+    "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-11-06T10:00:00Z",
+    "public_onsale_at": "2026-11-10T09:00:00Z",
     "organizer_names": [
-      "SCOTTISH EVENT CAMPUS LIMITED"
+      "KPS CONCERTBÜRO GmbH"
     ],
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-11-03T10:00:00Z",
-        "end": "2026-11-06T09:00:00Z"
+        "name": "PayPal Prio Tickets",
+        "start": "2026-11-09T09:00:00Z",
+        "end": "2026-11-10T09:00:00Z"
       },
       {
-        "name": "OVO Presale",
-        "start": "2026-11-04T10:00:00Z",
-        "end": "2026-11-06T09:00:00Z"
-      },
-      {
-        "name": "Priority from O2",
-        "start": "2026-11-04T10:00:00Z",
-        "end": "2026-11-06T09:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-05T10:00:00Z",
-        "end": "2026-11-06T09:00:00Z"
+        "name": "Telekom Prio Tickets",
+        "start": "2026-11-09T09:00:00Z",
+        "end": "2026-11-10T09:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   }
 ]

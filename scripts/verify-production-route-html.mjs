@@ -23,7 +23,7 @@ const baseUrlRaw = process.env.PRODUCTION_BASE_URL || DEFAULT_BASE_URL;
 // <h1> each route renders. Every path listed here must also exist in
 // TRUST_ROUTES (asserted by --self-test).
 const ROUTE_H1 = {
-  '/': 'Compare ticket prices for the show you want.',
+  '/': 'Compare resale ticket prices for your show, site by site.',
   '/artists': 'Tracked artists',
   '/guides': 'Ticket buying guides',
   '/how-it-works': 'How TourTicketCompare works',

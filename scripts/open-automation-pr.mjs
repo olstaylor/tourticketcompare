@@ -27,7 +27,8 @@ import {
   DEFAULT_POLL_MS,
 } from "./lib/required-check.mjs";
 import { checkAutopublish, heldComment, HELD_LABEL, LEDGER_LABEL } from "./lib/autopublish-guard.mjs";
-import { checkAuditMergeRevision, mergeAuditedPr } from "./check-audit-revision.mjs";
+import { checkAuditMergeRevision, mergeAuditedPr, rebuildAuditHead } from "./check-audit-revision.mjs";
+import { withholdRun } from "./lib/withhold-run.mjs";
 
 const token = process.env.GITHUB_TOKEN;
 const repo = process.env.GITHUB_REPOSITORY;
@@ -37,7 +38,20 @@ const body = process.env.PR_BODY || "";
 const label = process.env.PR_LABEL || "";
 const base = process.env.PR_BASE || "main";
 const autoMerge = process.env.PR_AUTO_MERGE === "true";
-const auditedCommit = process.env.PR_AUDIT_SOURCE_COMMIT;
+let auditedCommit = process.env.PR_AUDIT_SOURCE_COMMIT;
+// Verification dates only: the commit the audit actually observed (the
+// evidence base may be a later, non-evidence main), the stamped files, and how
+// many times the head may be rebuilt onto a main that moved only outside the
+// evidence while it was being validated. 0 (the default) keeps the strict
+// withhold-on-any-move behaviour.
+const auditEvidenceCommit = process.env.PR_AUDIT_EVIDENCE_COMMIT || auditedCommit;
+const auditStampFiles = (process.env.PR_AUDIT_STAMP_FILES || "").split(/\s+/).filter(Boolean);
+const auditMaxRebuilds = Math.max(0, Math.min(3, Number(process.env.PR_AUDIT_MAX_REBUILDS || 0) || 0));
+// A rebuilt head must earn its check again before the step's cap and the
+// one-hour App token run out. Rebuild only while the last check's duration
+// (plus margin) still fits before this deadline, measured from script start.
+const auditRebuildDeadlineMs = Number(process.env.PR_AUDIT_REBUILD_DEADLINE_MINUTES || 0) * 60_000;
+const startedAt = Date.now();
 const owner = (repo || "").split("/")[0];
 const checkTimeoutMs = Number(process.env.REQUIRED_CHECK_TIMEOUT_MS || DEFAULT_TIMEOUT_MS);
 const checkPollMs = Number(process.env.REQUIRED_CHECK_POLL_MS || DEFAULT_POLL_MS);
@@ -119,7 +133,50 @@ if (autoMerge) {
       body: `Audit publication withheld: ${String(err.message).slice(0, 500)}\n\n${stale ? "This PR's evidence is invalidated and the PR will be closed." : "This PR remains blocked; its evidence could not be safely confirmed."} Fresh scheduled audit evidence is required. Do not resolve, rebase or manually merge these stamps.`,
     }).catch((e) => console.warn(e.message));
     if (stale) await gh("PATCH", `/repos/${repo}/pulls/${pr.number}`, { state: "closed" }).catch((e) => console.warn(`Could not close invalidated audit PR: ${e.message}`));
+    // Main moving under the evidence is queueing, not a fault: end neutral
+    // (cancelled) like the earlier revision checks, when the workflow passed a
+    // token that may cancel this run. Anything else stays red.
+    if (stale && process.env.RUN_CANCEL_TOKEN && process.env.GITHUB_RUN_ID) {
+      await withholdRun({ reason: `Audit PR #${pr.number} withheld: ${err.message}`, env: { ...process.env, GITHUB_TOKEN: process.env.RUN_CANCEL_TOKEN } }).catch((e) => console.error(e.message));
+    }
     process.exit(1);
+  };
+
+  // Main moved after the stamps' head was built. Rebuild it onto the new main
+  // when the move is provably outside the evidence (rebuildAuditHead), at most
+  // auditMaxRebuilds times; otherwise withhold exactly as before.
+  let rebuilds = 0;
+  let lastCheckMs = 0;
+  const rebuildFits = () =>
+    !auditRebuildDeadlineMs || Date.now() - startedAt + lastCheckMs * 1.25 + 120_000 <= auditRebuildDeadlineMs;
+  const rebuildOrWithhold = async (err) => {
+    if (err.code !== "STALE_AUDIT" || rebuilds >= auditMaxRebuilds || !auditStampFiles.length) await withholdAudit(err);
+    if (!rebuildFits()) {
+      await withholdAudit(Object.assign(new Error(`${err.message} No time is left to validate a rebuilt head before the publishing deadline.`), { code: "STALE_AUDIT" }));
+    }
+    try {
+      const live = await gh("GET", `/repos/${repo}/commits/main`);
+      const rebuilt = await rebuildAuditHead({
+        evidence: auditEvidenceCommit,
+        audited: auditedCommit,
+        main: live?.sha,
+        head: pr.head.sha,
+        branch,
+        files: auditStampFiles,
+        repo,
+        request: gh,
+      });
+      rebuilds += 1;
+      console.log(`main moved to ${live.sha.slice(0, 7)} outside the audit evidence; rebuilt the stamps as ${rebuilt.slice(0, 7)} on it (rebuild ${rebuilds} of ${auditMaxRebuilds}). Earning the required check again.`);
+      await gh("POST", `/repos/${repo}/issues/${pr.number}/comments`, {
+        body: `main moved to ${live.sha.slice(0, 7)} while this PR was being validated, touching no audit evidence and no stamped file. The same stamp files were carried onto it as ${rebuilt.slice(0, 7)}; the required check runs again on that exact head before merge.`,
+      }).catch((e) => console.warn(e.message));
+      auditedCommit = live.sha;
+      pr = { ...pr, head: { ...pr.head, sha: rebuilt } };
+      return true;
+    } catch (rebuildErr) {
+      await withholdAudit(rebuildErr);
+    }
   };
 
   // Kill switch, read live (scripts/lib/autopublish-guard.mjs): once before
@@ -140,48 +197,57 @@ if (autoMerge) {
   };
   await holdIfSwitchedOff();
 
+  // Returns true when the head was rebuilt and needs its check earned again.
   const checkAuditedMain = async () => {
-    if (auditedCommit === undefined) return;
+    if (auditedCommit === undefined) return false;
     try {
       await checkAuditMergeRevision({ audited: auditedCommit, repo, request: gh });
+      return false;
     } catch (err) {
-      await withholdAudit(err);
+      return rebuildOrWithhold(err);
     }
   };
   await checkAuditedMain();
 
-  const verdict = await earnRequiredCheck({
-    request: gh,
-    repo,
-    branch,
-    sha: pr.head.sha,
-    timeoutMs: checkTimeoutMs,
-    pollMs: checkPollMs,
-  });
-  if (!verdict.ok) {
-    await leaveForHuman(`${verdict.detail}${verdict.url ? ` (${verdict.url})` : ""}`);
+  for (;;) {
+    const checkStartedAt = Date.now();
+    const verdict = await earnRequiredCheck({
+      request: gh,
+      repo,
+      branch,
+      sha: pr.head.sha,
+      timeoutMs: rebuilds && auditRebuildDeadlineMs
+        ? Math.max(60_000, Math.min(checkTimeoutMs, auditRebuildDeadlineMs - (Date.now() - startedAt)))
+        : checkTimeoutMs,
+      pollMs: checkPollMs,
+    });
+    lastCheckMs = Date.now() - checkStartedAt;
+    if (!verdict.ok) {
+      await leaveForHuman(`${verdict.detail}${verdict.url ? ` (${verdict.url})` : ""}`);
+    }
+    console.log(`Required check earned on ${pr.head.sha.slice(0, 7)}${verdict.url ? `: ${verdict.url}` : ""}`);
+
+    // Read-only: names the validation run GitHub stranded on this SHA so the red
+    // on the Actions tab has an explanation beside it. It cannot be cancelled —
+    // see reportStrandedPrValidation. Never throws, so it sits outside the try
+    // that reports a withheld merge.
+    await reportStrandedPrValidation({ request: gh, repo, sha: pr.head.sha });
+
+    await holdIfSwitchedOff();
+    // The ledger: every auto-merged PR carries this label (read by the digest).
+    // Added before the merge so a merged PR can never be missing it; a label
+    // that cannot be added withholds the merge rather than publish unrecorded.
+    try {
+      await gh("POST", `/repos/${repo}/issues/${pr.number}/labels`, { labels: [LEDGER_LABEL] });
+    } catch (err) {
+      await leaveForHuman(`could not record the ${LEDGER_LABEL} ledger label: ${err.message}`);
+    }
+
+    // A green head check cannot make observations of an older main current.
+    // Re-read after the minutes-long wait, immediately before publishing.
+    if (await checkAuditedMain()) continue;
+    break;
   }
-  console.log(`Required check earned on ${pr.head.sha.slice(0, 7)}${verdict.url ? `: ${verdict.url}` : ""}`);
-
-  // Read-only: names the validation run GitHub stranded on this SHA so the red
-  // on the Actions tab has an explanation beside it. It cannot be cancelled —
-  // see reportStrandedPrValidation. Never throws, so it sits outside the try
-  // that reports a withheld merge.
-  await reportStrandedPrValidation({ request: gh, repo, sha: pr.head.sha });
-
-  await holdIfSwitchedOff();
-  // The ledger: every auto-merged PR carries this label (read by the digest).
-  // Added before the merge so a merged PR can never be missing it; a label
-  // that cannot be added withholds the merge rather than publish unrecorded.
-  try {
-    await gh("POST", `/repos/${repo}/issues/${pr.number}/labels`, { labels: [LEDGER_LABEL] });
-  } catch (err) {
-    await leaveForHuman(`could not record the ${LEDGER_LABEL} ledger label: ${err.message}`);
-  }
-
-  // A green head check cannot make observations of an older main current.
-  // Re-read after the minutes-long wait, immediately before publishing.
-  await checkAuditedMain();
   try {
     if (auditedCommit !== undefined) {
       await mergeAuditedPr({ audited: auditedCommit, repo, head: pr.head.sha, number: pr.number, request: gh });

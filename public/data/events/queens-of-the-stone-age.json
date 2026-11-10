@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/queens-of-the-stone-age-adelaide-08-12-2026/event/250064E9A45253E9",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -53,7 +53,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2026-glenorchy-177yv0g6cla9khl",
@@ -71,7 +73,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/queens-of-the-stone-age-glenorchy-11-12-2026/event/130064E7C55D3F2B",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -109,7 +111,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2026-auckland-17azv0g6cjw0kgn",
@@ -127,7 +131,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/queens-of-the-stone-age-auckland-20-12-2026/event/240064E9BD91332A",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -181,7 +185,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173263/Queens-of-the-Stone-Age-tickets-Sun-Dec-20-2026-Spark-Arena",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-san-diego-vvg1iz_4c-ppva",
@@ -199,7 +205,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-san-diego-california-05-01-2027/event/0A006553A1965D05",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -214,7 +220,7 @@
         "event_id": 18709210,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2027-05-01-6-30-pm/concert/18709210",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -245,7 +251,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337028",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-inglewood-vv1k0z_48eg7ij9v",
@@ -263,7 +271,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-inglewood-kia-forum-5-2-2027--concerts-rock/production/7744650",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-inglewood-california-05-02-2027/event/0900655402A265F4",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278,14 +286,14 @@
         "event_id": 18709211,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/inglewood-california-kia-forum-2027-05-02-6-30-pm/concert/18709211",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7744650,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-inglewood-kia-forum-5-2-2027--concerts-rock/production/7744650",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -325,7 +333,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-inglewood-tickets-5-2-2027/event/107678044",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-oakland-g5vyz_4k7itnp",
@@ -343,7 +353,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-oakland-oakland-arena-5-4-2027--concerts-rock/production/7744654",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-oakland-california-05-04-2027/event/1C006554C4B298D6",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -358,14 +368,14 @@
         "event_id": 18709212,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/oakland-california-oakland-arena-2027-05-04-6-30-pm/concert/18709212",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7744654,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-oakland-oakland-arena-5-4-2027--concerts-rock/production/7744654",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -405,7 +415,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-oakland-tickets-5-4-2027/event/107675863",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-sacramento-g5vyz_4paibie",
@@ -423,7 +435,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-sacramento-golden-1-center-5-5-2027--concerts-rock/production/7744656",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-sacramento-california-05-05-2027/event/1C00655589B18B27",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -438,14 +450,14 @@
         "event_id": 18709213,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/sacramento-california-golden-1-center-2027-05-05-6-30-pm/concert/18709213",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7744656,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-sacramento-golden-1-center-5-5-2027--concerts-rock/production/7744656",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -485,7 +497,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-sacramento-tickets-5-5-2027/event/107675861",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-seattle-vvg1hz_43n59ay",
@@ -503,7 +517,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-seattle-climate-pledge-arena-5-7-2027--concerts-rock/production/7744658",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-seattle-washington-05-07-2027/event/0F006554AA2D7170",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -518,14 +532,14 @@
         "event_id": 18709214,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/seattle-washington-climate-pledge-arena-2027-05-07-6-30-pm/concert/18709214",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7744658,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-seattle-climate-pledge-arena-5-7-2027--concerts-rock/production/7744658",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -565,7 +579,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-seattle-tickets-5-7-2027/event/107678042",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-portland-vvg1hz_42zzik2",
@@ -583,7 +599,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-portland-moda-center-5-9-2027--concerts-rock/production/7744663",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-portland-oregon-05-09-2027/event/0F006553C0E284CF",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -598,14 +614,14 @@
         "event_id": 18709215,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/portland-oregon-moda-center-2027-05-09-6-30-pm/concert/18709215",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7744663,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-portland-moda-center-5-9-2027--concerts-rock/production/7744663",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -645,7 +661,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-portland-tickets-5-9-2027/event/107675846",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-salt-lake-city-z7r9jz1aa7-1z",
@@ -663,7 +681,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-salt-lake-city-delta-center-5-11-2027--concerts-rock/production/7744672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1Z",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -678,14 +696,14 @@
         "event_id": 18475187,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/salt-lake-city-utah-delta-center-1-2027-05-11-6-30-pm/concert/18475187",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7744672,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-salt-lake-city-delta-center-5-11-2027--concerts-rock/production/7744672",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -725,7 +743,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-salt-lake-city-tickets-5-11-2027/event/107678046",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Alternative"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-morrison-z7r9jz1aa7nqm",
@@ -743,7 +762,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-morrison-red-rocks-amphitheatre-5-12-2027--concerts-rock/production/7732383",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NqM",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -758,14 +777,14 @@
         "event_id": 18709238,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-12-6-30-pm/concert/18709238",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7732383,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-morrison-red-rocks-amphitheatre-5-12-2027--concerts-rock/production/7732383",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -802,7 +821,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337048",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337048/Queens-of-the-Stone-Age-tickets-Wed-May-12-2027-Red-Rocks-Amphitheatre",
-    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-morrison-tickets-5-12-2027/event/107678050"
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-morrison-tickets-5-12-2027/event/107678050",
+    "genre": "Alternative"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-saint-paul-z7r9jz1aa7-1v",
@@ -820,7 +840,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-saint-paul-grand-casino-arena-5-14-2027--concerts-rock/production/7744676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-1v",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -835,14 +855,14 @@
         "event_id": 18701766,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/saint-paul-minnesota-grand-casino-arena-2027-05-14-6-30-pm/concert/18701766",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7744676,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-saint-paul-grand-casino-arena-5-14-2027--concerts-rock/production/7744676",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -874,7 +894,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342261/Queens-of-the-Stone-Age-tickets-Fri-May-14-2027-Grand-Casino-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Alternative"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-milwaukee-vv1a6zk4kgkdc_par",
@@ -892,7 +913,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-milwaukee-wisconsin-05-15-2027/event/07006553CE65625E",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -907,7 +928,7 @@
         "event_id": 18709222,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/milwaukee-wisconsin-american-family-insurance-amphitheater-summerfest-grounds-2027-05-15-6-30-pm/concert/18709222",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -931,7 +952,9 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-rosemont-vv1kvzvpfygacy0ah",
@@ -949,7 +972,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-rosemont-allstate-arena-5-16-2027--concerts-rock/production/7744680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-rosemont-illinois-05-16-2027/event/040065539EE6427C",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -971,7 +994,7 @@
         "event_id": 7744680,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-rosemont-allstate-arena-5-16-2027--concerts-rock/production/7744680",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1011,7 +1034,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-rosemont-tickets-5-16-2027/event/107675852",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-indianapolis-vv1aazk4fgkd2j1lw",
@@ -1029,7 +1054,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-indianapolis-gainbridge-fieldhouse-5-18-2027--concerts-rock/production/7744718",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-indianapolis-indiana-05-18-2027/event/05006554CF98A7FD",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1051,7 +1076,7 @@
         "event_id": 7744718,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-indianapolis-gainbridge-fieldhouse-5-18-2027--concerts-rock/production/7744718",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1091,7 +1116,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-indianapolis-tickets-5-18-2027/event/107675866",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-columbus-vv1kv8vp4agacm7ii",
@@ -1109,7 +1136,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-columbus-nationwide-arena-5-19-2027--concerts-rock/production/7744724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-columbus-ohio-05-19-2027/event/050065549EDC4B2C",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1131,7 +1158,7 @@
         "event_id": 7744724,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-columbus-nationwide-arena-5-19-2027--concerts-rock/production/7744724",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1171,7 +1198,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-columbus-tickets-5-19-2027/event/107678060",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-pittsburgh-1apzk44gkedibkp",
@@ -1189,7 +1218,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-pittsburgh-petersen-events-center-5-21-2027--concerts-rock/production/7744728",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-pittsburgh-pennsylvania-05-21-2027/event/16006555BBB184E5",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1211,7 +1240,7 @@
         "event_id": 7744728,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-pittsburgh-petersen-events-center-5-21-2027--concerts-rock/production/7744728",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1243,7 +1272,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337042/Queens-of-the-Stone-Age-tickets-Fri-May-21-2027-Petersen-Events-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-detroit-vv1kezvp4_gagidyd",
@@ -1261,7 +1292,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-detroit-little-caesars-arena-5-22-2027--concerts-rock/production/7744734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-detroit-michigan-05-22-2027/event/080065559CA03C03",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1283,7 +1314,7 @@
         "event_id": 7744734,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-detroit-little-caesars-arena-5-22-2027--concerts-rock/production/7744734",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1323,7 +1354,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-detroit-tickets-5-22-2027/event/107675865",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-boston-vv1avzk43gkdss-xl",
@@ -1341,7 +1374,7 @@
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-boston-td-garden-5-24-2027--concerts-rock/production/7744736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-boston-massachusetts-05-24-2027/event/01006552F1C61FAB",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1363,7 +1396,7 @@
         "event_id": 7744736,
         "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-boston-td-garden-5-24-2027--concerts-rock/production/7744736",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1403,7 +1436,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-boston-tickets-5-24-2027/event/107678061",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-valencia-z698xz2qz16vfzvzrf",
@@ -1418,11 +1453,11 @@
     "ticketmaster_event_id": "1238040788",
     "ticketmaster_url": "https://www.ticketmaster.es/event/queens-of-the-stone-age-perfecth-world-tour-tickets/1238040788?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-valencia-roig-arena-6-21-2027/production/7799224",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/queens-of-the-stone-age-perfecth-world-tour-tickets/1238040788?language=en-us",
-    "last_verified_at": "2026-11-02",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1238040788",
@@ -1440,11 +1475,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7799224,
+        "url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-valencia-roig-arena-6-21-2027/production/7799224",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1452,22 +1487,23 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679055",
+        "url": "https://www.stubhub.ie/queens-of-the-stone-age-tickets-valencia-roig-arena-21-6-2027/event/107679055",
+        "verified": true,
+        "last_verified_at": "2026-11-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vFzvZrF",
     "timezone": "Europe/Madrid",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation España Golden Age SL"
     ],
-    "presales": [
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-05T09:00:00Z",
-        "end": "2026-11-06T08:00:00Z"
-      }
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/queens-of-the-stone-age-tickets-valencia-roig-arena-21-6-2027/event/107679055",
+    "genre": "Rock"
   },
   {
     "id": "tm-queens-of-the-stone-age-2027-pordenone-zg9rmiynyzfa6e",
@@ -1485,7 +1521,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/queens-of-the-stone-age-pordenone-27-06-2027/event/rpght2pnsldw",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1520,7 +1556,7 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZFa6e",
     "timezone": "Europe/Rome",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T09:00:00Z"
+    "status": "on-sale",
+    "genre": "Rock"
   }
 ]

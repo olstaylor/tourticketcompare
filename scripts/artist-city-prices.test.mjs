@@ -294,8 +294,7 @@ const ASSET_FILES = [
   "data/artists.json",
   "data/events.json",
   "data/guides-content.json",
-  "data/blog-content.json",
-  "data/provider-configs.json"
+  "data/blog-content.json"
 ];
 const baseAssets = new Map();
 for (const file of ASSET_FILES) baseAssets.set(`/${file}`, await read(`public/${file}`));
@@ -805,6 +804,16 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const optionHrefs = [...partialSection.matchAll(/href="([^"]+)"[^>]*>See ticket options</g)].map((m) => m[1]);
   assert(optionHrefs.length === 1 && optionHrefs[0].startsWith(`/artists/${ARTIST.slug}#`), `an unpriced presale row links to the artist page card: ${optionHrefs}`);
   assert(!/href="#/.test(partialSection), "the presale table has no same-page anchor");
+  // With no presale listed, the page opens with the artist's next dates, and
+  // those dates are priced like the artist page's (until 2026-11-06 they were
+  // never queried, so the table showed no price and no ticket button).
+  const noPresaleEvents = EVENTS.map((event) => ({ ...event, presales: undefined }));
+  const noPresale = await render(presalePath, { events: noPresaleEvents });
+  assert(noPresale.status === 200, "a presale page with no presale still renders");
+  const noPresaleNext = (noPresale.main.match(/<section[^>]*aria-labelledby="artistNextDatesTitle"[\s\S]*?<\/section>/) || [])[0] || "";
+  const noPresaleOut = [...noPresaleNext.matchAll(/href="(\/api\/out\?[^"]+)"/g)].map((m) => m[1]);
+  assert(text(noPresaleNext).includes("USD 182"), "a no-presale page shows the next date's own lowest listed price");
+  assert(noPresaleOut.length >= 1 && noPresaleOut.every((href) => href.includes("ctaLocation=presale_page")), "a no-presale page's priced dates carry tracked presale_page buttons");
   // An artist under review shows no ticket buttons anywhere, presale page included.
   const reviewArtists = artistsMeta.map((artist) =>
     String(artist?.slug) === ARTIST.slug ? { ...artist, indexing_status: "review_required" } : artist
@@ -818,7 +827,27 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const artistPath = `/artists/${ARTIST.slug}`;
   const page = await render(artistPath);
   assert(page.status === 200, "the artist page renders");
-  const lead = (page.main.match(/<div data-artist-lead>[\s\S]*?<\/section><\/div>/) || [])[0] || "";
+  // 2026-11-06: the lead also opens with the owner-approved "Cheapest <artist>
+  // tickets" panel (its own wording and gates, tested in price-guides.test.mjs);
+  // the checks below are about the next-dates table, so take the panel out first.
+  assert(page.main.includes('id="artistCheapestTitle"'), "the artist lead carries the cheapest panel when two dates are priced");
+  // 2026-11-07: most visitors are in the US and Canada, so when the cheapest
+  // date is elsewhere the panel also names the cheapest US/Canada date.
+  {
+    const panelOf = (main) => (main.match(/<section class="nested-panel price-cheapest"[\s\S]*?<\/section>/) || [])[0] || "";
+    const showIdsOf = (panel) => [...panel.replace(/&amp;/g, "&").matchAll(/showId=([^&"]+)/g)].map((m) => decodeURIComponent(m[1]));
+    const basePanel = panelOf(page.main);
+    assert(!/US and Canada/.test(basePanel), "an all-US board needs no regional line");
+    const [cheapestId] = showIdsOf(basePanel);
+    const abroad = EVENTS.map((event) => (String(event.id) === cheapestId ? { ...event, country: "United Kingdom" } : event));
+    const regionalPanel = panelOf((await render(artistPath, { events: abroad })).main);
+    const ids = showIdsOf(regionalPanel);
+    assert(/Cheapest listed price of \d+ priced dates: USD/.test(text(regionalPanel)) && /Cheapest in the US and Canada, \d+ priced dates: USD/.test(text(regionalPanel)), `a non-US cheapest date gains a US and Canada line (got ${text(regionalPanel).slice(0, 400)})`);
+    assert(ids.length === 2 && ids[0] === cheapestId && ids[1] !== cheapestId, `each line is its own date's tracked button (got ${ids})`);
+    assert(regionalPanel.replace(/&amp;/g, "&").split("ctaLocation=artist_cheapest").length === 3, "both lines keep the artist_cheapest location");
+  }
+  const mainWithoutCheapest = page.main.replace(/<section class="nested-panel price-cheapest"[\s\S]*?<\/section>/, "");
+  const lead = (mainWithoutCheapest.match(/<div data-artist-lead>[\s\S]*?<\/section>(?:<p class="artist-embed-link">[\s\S]*?<\/p>)?<\/div>/) || [])[0] || "";
   assert(lead.includes('id="artistNextDatesTitle"'), "the next-dates table sits inside the transplanted lead");
   assert(page.main.indexOf("artistNextDatesTitle") < page.main.indexOf(`id="artistShowBoard"`), "the next-dates table renders above the board");
   const body = text(lead);
@@ -902,6 +931,45 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(CTA_LOCATIONS.includes("onsale_answer"), "onsale_answer is in the allowlist, or /api/out discards it");
   const none = await render("/on-sale", { events: [] });
   assert(!none.main.includes("onsaleDate0"), "no events, no priced block");
+}
+
+// ─── artist page: "Compare … ticket prices" needs two sellers' prices ──────
+// Owner decision 2026-11-07: verified links alone do not earn the comparison
+// wording. Some upcoming date must show listed prices from two or more sellers
+// in this render's price read. The wording lives in route.description, which
+// feeds the JSON-LD and the meta tag whenever no next-date price snippet wins.
+{
+  const ARTIST_PATH = `/artists/${ARTIST.slug}`;
+  const ld = (html) => [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]).join("");
+  const compares = (text) => /Compare [^"]* ticket prices by date across checked ticket sites/.test(text);
+  const twoSellers = await render(ARTIST_PATH);
+  assert(twoSellers.status === 200, "the artist page renders");
+  assert(compares(ld(twoSellers.html)), "a date with two sellers' prices keeps the compare wording");
+  const oneSeller = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.filter((row) => row.provider === "vivid-seats") });
+  assert(!compares(ld(oneSeller.html)) && !compares(oneSeller.description), "one seller's price per date drops the compare wording");
+  assert(oneSeller.description.length > 0, "a description is still written");
+  const expiredRows = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.map((row) => ({ ...row, expires_at: "2026-08-01T00:00:00Z" })) });
+  assert(!compares(ld(expiredRows.html)) && !compares(expiredRows.description), "expired prices drop the compare wording");
+  const noDb = await render(ARTIST_PATH, { withDb: false });
+  assert(!compares(ld(noDb.html)) && !compares(noDb.description), "no price read drops the compare wording");
+}
+
+// ── the artist page snippet quotes its next date, never a tour-wide minimum ──
+{
+  const ARTIST_PATH = `/artists/${ARTIST.slug}`;
+  const page = await render(ARTIST_PATH);
+  assert(page.description.includes("Starting from US$182.00 listed at Vivid Seats"), `the artist snippet answers with the next date's listed price (got ${page.description})`);
+  assert(/next (date )?.*Sep 10, 2026|Sep 10, 2026/.test(page.description) && page.description.includes(RUN_CITY), "the artist snippet names the next date and its city");
+  assert(page.description.includes("checked 2026-08-09 09:00 UTC. Check fees."), "the artist snippet carries capture time and a fee caveat");
+  assert(page.description.length <= 160, `the artist description stays within budget (was ${page.description.length})`);
+  const schemaBlock = [...page.html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]).join("");
+  assert(!/Starting from|US\$182/.test(schemaBlock), "the artist snippet price never reaches structured data");
+  const cheaperLater = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === SOLO.id ? { ...row, low_price: 50 } : row) });
+  assert(!cheaperLater.description.includes("US$50.00"), "a cheaper later date never becomes the artist's starting price");
+  const noNextPrice = await render(ARTIST_PATH, { priceRows: PRICE_ROWS.filter((row) => row.event_id !== RUN_A.id) });
+  assert(!/Starting from/.test(noNextPrice.description), "a missing price on the next date does not borrow another date's price");
+  const noDb = await render(ARTIST_PATH, { withDb: false });
+  assert(!/Starting from/.test(noDb.description) && noDb.description.length > 0, "a cache outage keeps the price-free artist description");
 }
 
 console.log(`artist-city-prices: ${passed} checks passed`);

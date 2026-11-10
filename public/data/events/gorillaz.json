@@ -788,7 +788,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/gorillaz-zapopan-09-12-2026/event/3D00650BBFD54347",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -834,6 +834,77 @@
     "organizer_names": [
       "OCESA"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-9-12-2026/event/107495134"
+    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-9-12-2026/event/107495134",
+    "genre": "Rock"
+  },
+  {
+    "id": "tm-gorillaz-2026-ciudad-de-mexico-1av8z_4gkm7aqri",
+    "artist_slug": "gorillaz",
+    "artist_name": "Gorillaz",
+    "event_name": "Gorillaz",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2026-12-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400655DC425ABEC",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/gorillaz-ciudad-de-mexico-11-12-2026/event/1400655DC425ABEC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/gorillaz-ciudad-de-mexico-11-12-2026/event/1400655DC425ABEC",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400655DC425ABEC",
+        "discovery_event_id": "1Av8Z_4GkM7aQRi",
+        "url": "https://www.ticketmaster.com.mx/gorillaz-ciudad-de-mexico-11-12-2026/event/1400655DC425ABEC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8Z_4GkM7aQRi",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-11-14T17:00:00Z",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Gran Venta HSBC Premier-Crédito y Débito",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2026-11-13T05:59:00Z"
+      },
+      {
+        "name": "Gran Venta HSBC-Crédito y Débito",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2026-11-14T05:59:00Z"
+      }
+    ]
   }
 ]

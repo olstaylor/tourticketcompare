@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-nashville-the-pinnacle-4-6-2027/production/7653376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebv0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -30,14 +30,14 @@
         "event_id": 18649730,
         "url": "https://seatgeek.com/lola-young-tickets/nashville-tennessee-the-pinnacle-nashville-2027-04-06-8-pm/concert/18649730",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653376,
         "url": "https://www.vividseats.com/lola-young-tickets-nashville-the-pinnacle-4-6-2027/production/7653376",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -46,11 +46,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307847",
+        "url": "https://www.ticketnetwork.com/en/p/8307847",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307847",
+        "url": "https://www.ticketliquidator.com/tickets/8307847/Lola-Young-tickets-Tue-Apr-6-2027-The-Pinnacle-At-Nashville-Yards",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebv0",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307847",
+    "genre": "R&B",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307847/Lola-Young-tickets-Tue-Apr-6-2027-The-Pinnacle-At-Nashville-Yards"
   },
   {
     "id": "tm-lola-young-2027-atlanta-vvg1zz_f7qhai6",
@@ -68,7 +85,7 @@
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-atlanta-coca-cola-roxy-theatre-4-7-2027--concerts-rb/production/7653498",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-atlanta-georgia-04-07-2027/event/0E0065411A6C9B07",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -83,14 +100,14 @@
         "event_id": 18649708,
         "url": "https://seatgeek.com/lola-young-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-04-07-8-pm/concert/18649708",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653498,
         "url": "https://www.vividseats.com/lola-young-tickets-atlanta-coca-cola-roxy-theatre-4-7-2027--concerts-rb/production/7653498",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -129,7 +146,9 @@
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-03-25T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-washington-1a4zk4egkeystl8",
@@ -147,7 +166,7 @@
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-washington-dc-the-anthem-4-9-2027/production/7653300",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-washington-district-of-columbia-04-09-2027/event/15006542B9C7FAD0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -162,14 +181,14 @@
         "event_id": 18649706,
         "url": "https://seatgeek.com/lola-young-tickets/washington-district-of-columbia-the-anthem-dc-2027-04-09-8-pm/concert/18649706",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653300,
         "url": "https://www.vividseats.com/lola-young-tickets-washington-dc-the-anthem-4-9-2027/production/7653300",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -198,7 +217,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307251",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307251/Lola-Young-tickets-Fri-Apr-9-2027-The-Anthem-DC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307251/Lola-Young-tickets-Fri-Apr-9-2027-The-Anthem-DC",
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-philadelphia-vv17fz_kgkmkg0sm",
@@ -216,7 +237,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-philadelphia-pennsylvania-04-10-2027/event/0200653DC6324CEE",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -231,7 +252,7 @@
         "event_id": 18649707,
         "url": "https://seatgeek.com/lola-young-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-04-10-8-pm/concert/18649707",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -277,7 +298,9 @@
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-03-28T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-new-york-g5dyz_fkt1eua",
@@ -295,7 +318,7 @@
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-new-york-radio-city-music-hall-4-12-2027/production/7653256",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-new-york-new-york-04-12-2027/event/3C006541A9282349",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -310,14 +333,14 @@
         "event_id": 18649709,
         "url": "https://seatgeek.com/lola-young-tickets/new-york-new-york-radio-city-music-hall-2027-04-12-8-pm/concert/18649709",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653256,
         "url": "https://www.vividseats.com/lola-young-tickets-new-york-radio-city-music-hall-4-12-2027/production/7653256",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -366,7 +389,8 @@
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-04-13T01:00:00Z"
       }
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-boston-z7r9jz1aaebvp",
@@ -384,7 +408,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebvP",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -399,7 +423,7 @@
         "event_id": 18649732,
         "url": "https://seatgeek.com/lola-young-tickets/boston-massachusetts-roadrunner-boston-2027-04-13-8-pm/concert/18649732",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -419,7 +443,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebvP",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-toronto-z7r9jz1aaebvx",
@@ -437,7 +462,7 @@
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-toronto-massey-hall---allied-music-centre-4-15-2027--concerts-rb/production/7653501",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAebvx",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -452,14 +477,14 @@
         "event_id": 18649734,
         "url": "https://seatgeek.com/lola-young-tickets/toronto-canada-massey-hall-2027-04-15-8-pm/concert/18649734",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653501,
         "url": "https://www.vividseats.com/lola-young-tickets-toronto-massey-hall---allied-music-centre-4-15-2027--concerts-rb/production/7653501",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -472,7 +497,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebvx",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-toronto-z7r9jz1aaebvn",
@@ -490,7 +516,7 @@
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-toronto-massey-hall---allied-music-centre-4-16-2027--concerts-rb/production/7653503",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAebvN",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -505,14 +531,14 @@
         "event_id": 18649736,
         "url": "https://seatgeek.com/lola-young-tickets/toronto-canada-massey-hall-2027-04-16-8-pm/concert/18649736",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653503,
         "url": "https://www.vividseats.com/lola-young-tickets-toronto-massey-hall---allied-music-centre-4-16-2027--concerts-rb/production/7653503",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -525,7 +551,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebvN",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-detroit-vv1afzk4vgkdwfh0c",
@@ -543,7 +570,7 @@
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-detroit-the-fillmore-detroit-4-18-2027/production/7653380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-detroit-michigan-04-18-2027/event/08006541F251B92D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -558,14 +585,14 @@
         "event_id": 18649711,
         "url": "https://seatgeek.com/lola-young-tickets/detroit-michigan-the-fillmore-detroit-2027-04-18-8-pm/concert/18649711",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653380,
         "url": "https://www.vividseats.com/lola-young-tickets-detroit-the-fillmore-detroit-4-18-2027/production/7653380",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -609,7 +636,9 @@
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-04-05T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-chicago-vv118z_f13zkq9",
@@ -627,7 +656,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-chicago-illinois-04-20-2027/event/0400654292006697",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -642,7 +671,7 @@
         "event_id": 18649710,
         "url": "https://seatgeek.com/lola-young-tickets/chicago-illinois-the-salt-shed-indoors-2027-04-20-7-30-pm/concert/18649710",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -669,7 +698,9 @@
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-04-07T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-chicago-vv1kvzvpoega5wbhb",
@@ -683,11 +714,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "040065442BCBA6D8",
     "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-chicago-illinois-04-21-2027/event/040065442BCBA6D8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/chicago-illinois-the-salt-shed-indoors-2027-04-21-7-30-pm/concert/18662116",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-chicago-illinois-04-21-2027/event/040065442BCBA6D8",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -699,11 +730,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662116,
+        "url": "https://seatgeek.com/lola-young-tickets/chicago-illinois-the-salt-shed-indoors-2027-04-21-7-30-pm/concert/18662116",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -729,7 +760,9 @@
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-04-07T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-st-paul-z7r9jz1aaebve",
@@ -747,7 +780,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebvE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -778,11 +811,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307849",
+        "url": "https://www.ticketnetwork.com/en/p/8307849",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307849",
+        "url": "https://www.ticketliquidator.com/tickets/8307849/Lola-Young-tickets-Fri-Apr-23-2027-The-Palace-Theatre-St-Paul",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAebvE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307849",
+    "genre": "R&B",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307849/Lola-Young-tickets-Fri-Apr-23-2027-The-Palace-Theatre-St-Paul"
   },
   {
     "id": "tm-lola-young-2027-denver-g5vzz_f11k7mj",
@@ -796,11 +846,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E0065428A184B9C",
     "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-denver-colorado-04-25-2027/event/1E0065428A184B9C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/denver-colorado-fillmore-auditorium-denver-2027-04-25-8-pm/concert/18649718",
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-denver-fillmore-auditorium-denver-4-25-2027--concerts-rb/production/7653509",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-denver-colorado-04-25-2027/event/1E0065428A184B9C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -812,17 +862,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18649718,
+        "url": "https://seatgeek.com/lola-young-tickets/denver-colorado-fillmore-auditorium-denver-2027-04-25-8-pm/concert/18649718",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653509,
         "url": "https://www.vividseats.com/lola-young-tickets-denver-fillmore-auditorium-denver-4-25-2027--concerts-rb/production/7653509",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -831,6 +881,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307257",
+        "url": "https://www.ticketnetwork.com/en/p/8307257",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307257",
+        "url": "https://www.ticketliquidator.com/tickets/8307257/Lola-Young-tickets-Sun-Apr-25-2027-Fillmore-Auditorium-Colorado",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_f11k7mj",
@@ -850,7 +914,11 @@
         "start": "2026-10-09T16:00:00Z",
         "end": "2027-04-12T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307257",
+    "ticket_limit": 8,
+    "genre": "R&B",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307257/Lola-Young-tickets-Sun-Apr-25-2027-Fillmore-Auditorium-Colorado"
   },
   {
     "id": "tm-lola-young-2027-salt-lake-city-g5vzz_fk8daho",
@@ -864,11 +932,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E00654190EC5F11",
     "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-salt-lake-city-utah-04-26-2027/event/1E00654190EC5F11",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2027-04-26-8-pm/concert/18649720",
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-salt-lake-city-the-union-event-center---salt-lake-city-4-26-2027/production/7653410",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-salt-lake-city-utah-04-26-2027/event/1E00654190EC5F11",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -880,17 +948,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18649720,
+        "url": "https://seatgeek.com/lola-young-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2027-04-26-8-pm/concert/18649720",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653410,
         "url": "https://www.vividseats.com/lola-young-tickets-salt-lake-city-the-union-event-center---salt-lake-city-4-26-2027/production/7653410",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -929,7 +997,9 @@
         "start": "2026-10-09T16:00:00Z",
         "end": "2027-04-13T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-seattle-vvg1hz_falrsfg",
@@ -943,11 +1013,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F0065425FBF120C",
     "ticketmaster_url": "https://www.ticketmaster.com/lola-young-everything-begins-seattle-washington-04-28-2027/event/0F0065425FBF120C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/seattle-washington-wamu-theater-2027-04-28-8-pm/concert/18649719",
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-seattle-wamu-theater---seattle-4-28-2027/production/7653480",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-seattle-washington-04-28-2027/event/0F0065425FBF120C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -959,17 +1029,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18649719,
+        "url": "https://seatgeek.com/lola-young-tickets/seattle-washington-wamu-theater-2027-04-28-8-pm/concert/18649719",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653480,
         "url": "https://www.vividseats.com/lola-young-tickets-seattle-wamu-theater---seattle-4-28-2027/production/7653480",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1008,7 +1078,9 @@
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-04-15T05:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-vancouver-16ozk4vpyzau66a6",
@@ -1022,11 +1094,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "11006541970C6686",
     "ticketmaster_url": "https://www.ticketmaster.ca/lola-young-everything-begins-vancouver-british-columbia-04-29-2027/event/11006541970C6686",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lola-young-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2027-04-29-8-pm/concert/18649726",
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-4-29-2027/production/7653338",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/lola-young-everything-begins-vancouver-british-columbia-04-29-2027/event/11006541970C6686",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1038,17 +1110,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18649726,
+        "url": "https://seatgeek.com/lola-young-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2027-04-29-8-pm/concert/18649726",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653338,
         "url": "https://www.vividseats.com/lola-young-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-4-29-2027/production/7653338",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1095,7 +1167,9 @@
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-04-16T05:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-san-francisco-g5vyz_f6gluub",
@@ -1113,7 +1187,7 @@
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-san-francisco-bill-graham-civic-auditorium-5-1-2027/production/7653280",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-san-francisco-california-05-01-2027/event/1C006541CC7F6358",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1135,7 +1209,7 @@
         "event_id": 7653280,
         "url": "https://www.vividseats.com/lola-young-tickets-san-francisco-bill-graham-civic-auditorium-5-1-2027/production/7653280",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1187,7 +1261,9 @@
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-04-18T05:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-los-angeles-vv16azk4e0kza8aeaf",
@@ -1205,7 +1281,7 @@
     "vividseats_url": "https://www.vividseats.com/lola-young-tickets-los-angeles-greek-theatre---los-angeles-5-4-2027--concerts-rb/production/7653496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lola-young-everything-begins-los-angeles-california-05-04-2027/event/09006542913F8147",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1227,7 +1303,7 @@
         "event_id": 7653496,
         "url": "https://www.vividseats.com/lola-young-tickets-los-angeles-greek-theatre---los-angeles-5-4-2027--concerts-rb/production/7653496",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1274,7 +1350,8 @@
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-04-21T05:00:00Z"
       }
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-lola-young-2027-dublin-1avoz_ogknk-ukb",
@@ -1292,7 +1369,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/lola-young-dublin-22-06-2027/event/1800651A8684D4D8",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1330,6 +1407,7 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "R&B"
   }
 ]

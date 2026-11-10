@@ -79,6 +79,14 @@ export function validateSources({ events, artists, catalog, documents }, now) {
   }
 }
 
+// North American links end /event/<id>; international storefronts use
+// /event/<name-slug>/<numeric-id> (same forms as eventUrlId in blog-drafting).
+function ticketmasterPathId(pathname) {
+  const path = pathname.toLowerCase().replace(/\/$/, "");
+  const international = path.match(/^\/event\/[^/]+\/(\d+)$/)?.[1];
+  return international ?? path.split("/event/")[1];
+}
+
 function ticketmasterEvidence(event, allowedHosts) {
   try {
     const url = new URL(event.ticketmaster_url);
@@ -86,7 +94,7 @@ function ticketmasterEvidence(event, allowedHosts) {
     const id = event.ticketmaster_event_id;
     return text(id) && url.protocol === "https:" && !url.username && !url.password && !url.hash
       && allowedHosts.includes(url.hostname.replace(/^www\./, ""))
-      && url.pathname.toLowerCase().split("/event/")[1]?.replace(/\/$/, "") === id.toLowerCase()
+      && ticketmasterPathId(url.pathname) === id.toLowerCase()
       && event.source_type === "ticketmaster" && event.source_url === event.ticketmaster_url;
   } catch { return false; }
 }
@@ -125,7 +133,13 @@ export function rankCandidates(candidates) {
 }
 
 // Fresh, verified, Ticketmaster-evidenced upcoming events of indexable artists.
-export function eligibleEvents(source, { now = Date.now() } = {}) {
+// preSaleUnstamped (tour guides only, 2026-11-07): a date added by the
+// Ticketmaster sync keeps last_verified_at null until a later sync changes it,
+// so a just-announced tour had no "fresh" dates before its on-sale. Such a
+// date, with its public sale still ahead and a Discovery identity, is let
+// through marked unstamped; the drafting lane then drops it unless the
+// current Ticketmaster check confirms it. A stale date is never let through.
+export function eligibleEvents(source, { now = Date.now(), preSaleUnstamped = false } = {}) {
   validateSources(source, now);
   const { events, artists, catalog } = source;
   const providers = new Map(catalog.providers.map((provider) => [provider.slug, provider.public_enabled === true]));
@@ -143,8 +157,10 @@ export function eligibleEvents(source, { now = Date.now() } = {}) {
     }
     if (at < now) continue;
     upcoming += 1;
-    if (!["human_verified", "machine_high_confidence"].includes(event.verification_status) || !fresh(event.last_verified_at, now) || !ticketmasterEvidence(event, allowedHosts)) continue;
-    eligible.push({ ...event, at, lanes: checkedLanes(event, providers, now) });
+    const unstamped = preSaleUnstamped && event.last_verified_at == null && Date.parse(event.public_onsale_at) > now
+      && text(event.ticketmaster_discovery_event_id);
+    if (!["human_verified", "machine_high_confidence"].includes(event.verification_status) || !(unstamped || fresh(event.last_verified_at, now)) || !ticketmasterEvidence(event, allowedHosts)) continue;
+    eligible.push({ ...event, at, lanes: checkedLanes(event, providers, now), ...(unstamped ? { unstamped: true } : {}) });
   }
   // Ordinary expiry is a valid empty result. An active corpus with no fresh,
   // verified source is an outage, not a quiet week; leave the issue untouched.

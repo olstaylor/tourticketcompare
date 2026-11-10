@@ -68,8 +68,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/blondshell-tickets/2076148878?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2076148878",
@@ -103,7 +103,8 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16evUAF-z",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2026-manchester-g5dzz_anefaed",
@@ -121,7 +122,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/blondshell-manchester-12-12-2026/event/3E006498C22050BB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -170,7 +171,8 @@
       "ACADEMY MUSIC GROUP (O2 RITZ MANCHESTER)",
       "LIVE NATION MUSIC UK LTD",
       "PARALLEL LINES PROMOTIONS LIMITED"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2026-glasgow-17uov0g616cnj6j",
@@ -188,7 +190,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/blondshell-glasgow-13-12-2026/event/360064A1CE8E61E6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -235,7 +237,9 @@
     "organizer_names": [
       "DF CONCERTS",
       "GIGS IN SCOTLAND"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2026-london-g5vhz_adn7kja",
@@ -253,7 +257,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/blondshell-london-15-12-2026/event/1F00649EE3106705",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -299,7 +303,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/blondshell-tickets-london-the-roundhouse-15-12-2026/event/107170278",
     "organizer_names": [
       "METROPOLIS MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2026-dublin-1avoz_agkwt8mru",
@@ -317,7 +323,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/blondshell-dublin-17-12-2026/event/1800649CA942EBCD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -355,7 +361,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2027-vancouver-16ozkfzopzauakea",
@@ -373,7 +381,7 @@
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-vancouver-commodore-ballroom-3-6-2027/production/7625188",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -388,14 +396,14 @@
         "event_id": 18633501,
         "url": "https://seatgeek.com/blondshell-tickets/vancouver-canada-commodore-ballroom-2027-03-06-6-30-pm/concert/18633501",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625188,
         "url": "https://www.vividseats.com/blondshell-tickets-vancouver-commodore-ballroom-3-6-2027/production/7625188",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -437,7 +445,10 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2027-asbury-park-k7vgf_knjlgim",
@@ -455,7 +466,7 @@
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-asbury-park-stone-pony-3-23-2027/production/7625132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -470,14 +481,14 @@
         "event_id": 18633502,
         "url": "https://seatgeek.com/blondshell-tickets/asbury-park-new-jersey-the-stone-pony-2-2027-03-23-7-pm/concert/18633502",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625132,
         "url": "https://www.vividseats.com/blondshell-tickets-asbury-park-stone-pony-3-23-2027/production/7625132",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -486,6 +497,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295777",
+        "url": "https://www.ticketnetwork.com/en/p/8295777",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295777",
+        "url": "https://www.ticketliquidator.com/tickets/8295777/Blondshell-tickets-Tue-Mar-23-2027-Stone-Pony",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KNJLGim",
@@ -500,7 +525,11 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295777",
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295777/Blondshell-tickets-Tue-Mar-23-2027-Stone-Pony"
   },
   {
     "id": "tm-blondshell-2027-madison-vv1kvyvpc_ga55f1w",
@@ -518,7 +547,7 @@
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-madison-majestic-theatre---madison-5-15-2027/production/7626132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -533,14 +562,14 @@
         "event_id": 18633499,
         "url": "https://seatgeek.com/blondshell-tickets/madison-wisconsin-majestic-theatre-wi-2027-05-15-8-pm/concert/18633499",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7626132,
         "url": "https://www.vividseats.com/blondshell-tickets-madison-majestic-theatre---madison-5-15-2027/production/7626132",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -580,7 +609,9 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2027-detroit-vv1afzkfmgkdgjzny",
@@ -598,7 +629,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-detroit-michigan-05-17-2027/event/08006537CC738AB0",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -613,7 +644,7 @@
         "event_id": 18633500,
         "url": "https://seatgeek.com/blondshell-tickets/detroit-michigan-saint-andrews-hall-2027-05-17-6-pm/concert/18633500",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -648,7 +679,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2027-saint-louis-vv1kbz_kjdg7cpvx",
@@ -666,7 +699,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-saint-louis-missouri-05-22-2027/event/0600653983B56D3E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -711,7 +744,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2027-san-diego-vvg1iz_1wv8vq3",
@@ -729,7 +764,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-san-diego-california-02-28-2027/event/0B0064ACB4434752",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -744,7 +779,7 @@
         "event_id": 18251038,
         "url": "https://seatgeek.com/blondshell-tickets/san-diego-california-the-observatory-north-park-2027-02-28-7-pm/concert/18251038",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -784,7 +819,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976571/Blondshell-tickets-Sun-Feb-28-2027-The-Observatory-North-Park",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2027-los-angeles-vvg10z_1drttoa",
@@ -802,7 +839,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-los-angeles-california-03-02-2027/event/090064AEDEA69445",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -817,7 +854,7 @@
         "event_id": 18251040,
         "url": "https://seatgeek.com/blondshell-tickets/los-angeles-california-the-wiltern-2027-03-02-7-pm/concert/18251040",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -864,7 +901,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976572/Blondshell-tickets-Tue-Mar-2-2027-The-Wiltern",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2027-san-francisco-g5vyz_1m0mwvc",
@@ -882,7 +921,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-san-francisco-california-03-03-2027/event/1C0064ABA4DFDD2D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -897,7 +936,7 @@
         "event_id": 18251037,
         "url": "https://seatgeek.com/blondshell-tickets/san-francisco-california-castro-theatre-2027-03-03-8-pm/concert/18251037",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -913,6 +952,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7976573",
+        "url": "https://www.ticketnetwork.com/en/p/7976573",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976573",
+        "url": "https://www.ticketliquidator.com/tickets/7976573/Blondshell-tickets-Wed-Mar-3-2027-Castro-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1m0MWVc",
@@ -928,7 +981,11 @@
     ],
     "organizer_names": [
       "ANOTHER PLANET"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976573",
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976573/Blondshell-tickets-Wed-Mar-3-2027-Castro-Theatre"
   },
   {
     "id": "tm-blondshell-2027-seattle-z7r9jz1a70ere",
@@ -946,7 +1003,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ere",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -961,7 +1018,7 @@
         "event_id": 18251042,
         "url": "https://seatgeek.com/blondshell-tickets/seattle-washington-showbox-sodo-2027-03-07-8-pm/concert/18251042",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -998,7 +1055,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976575",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976575/Blondshell-tickets-Sun-Mar-7-2027-Showbox-SoDo"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976575/Blondshell-tickets-Sun-Mar-7-2027-Showbox-SoDo",
+    "genre": "Alternative"
   },
   {
     "id": "tm-blondshell-2027-minneapolis-vvg1bz_1dodkri",
@@ -1016,7 +1074,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-minneapolis-minnesota-03-11-2027/event/060064AED1ED37AC",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1031,7 +1089,7 @@
         "event_id": 18251039,
         "url": "https://seatgeek.com/blondshell-tickets/minneapolis-minnesota-varsity-theater-minneapolis-2027-03-11-7-pm/concert/18251039",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1083,7 +1141,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976576/Blondshell-tickets-Thu-Mar-11-2027-Varsity-Theater-MN",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2027-chicago-z7r9jz1a70ubv",
@@ -1101,7 +1161,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ubv",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1116,7 +1176,7 @@
         "event_id": 18251049,
         "url": "https://seatgeek.com/blondshell-tickets/chicago-illinois-vic-theatre-chicago-2027-03-12-8-pm/concert/18251049",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1153,7 +1213,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976577",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976577/Blondshell-tickets-Fri-Mar-12-2027-Vic-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976577/Blondshell-tickets-Fri-Mar-12-2027-Vic-Theatre",
+    "genre": "Alternative"
   },
   {
     "id": "tm-blondshell-2027-philadelphia-z7r9jz1a70gjs",
@@ -1171,7 +1232,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gjs",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1186,7 +1247,7 @@
         "event_id": 18251054,
         "url": "https://seatgeek.com/blondshell-tickets/philadelphia-pennsylvania-union-transfer-philadelphia-2027-03-14-8-pm/concert/18251054",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1223,7 +1284,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976580",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976580/Blondshell-tickets-Sun-Mar-14-2027-Union-Transfer"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976580/Blondshell-tickets-Sun-Mar-14-2027-Union-Transfer",
+    "genre": "Alternative"
   },
   {
     "id": "tm-blondshell-2027-washington-17a8v0g61wjljxg",
@@ -1241,7 +1303,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-washington-district-of-columbia-03-15-2027/event/150064ACA6AE6F8C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1256,7 +1318,7 @@
         "event_id": 18251055,
         "url": "https://seatgeek.com/blondshell-tickets/washington-district-of-columbia-9-30-club-2027-03-15-7-pm/concert/18251055",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1293,7 +1355,9 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976581",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976581/Blondshell-tickets-Mon-Mar-15-2027-930-Club"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976581/Blondshell-tickets-Mon-Mar-15-2027-930-Club",
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2027-boston-vvg17z_1uqvup8",
@@ -1311,7 +1375,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-boston-massachusetts-03-18-2027/event/010064AD9D04D950",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1326,7 +1390,7 @@
         "event_id": 18251060,
         "url": "https://seatgeek.com/blondshell-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-03-18-7-pm/concert/18251060",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1373,7 +1437,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976583/Blondshell-tickets-Thu-Mar-18-2027-Citizens-House-Of-Blues-Boston",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2027-montreal-17g8v0g61mppmq0",
@@ -1391,7 +1456,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-montreal-quebec-03-19-2027/event/310064ADE596E764",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1406,7 +1471,7 @@
         "event_id": 18251053,
         "url": "https://seatgeek.com/blondshell-tickets/montreal-canada-beanfield-theatre-2027-03-19-8-pm/concert/18251053",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1453,7 +1518,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976579/Blondshell-tickets-Fri-Mar-19-2027-Theatre-Beanfield",
     "organizer_names": [
       "EVENKO CO-PRO NON-LN"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2027-toronto-177zv0g61ygdrn9",
@@ -1471,7 +1538,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-toronto-ontario-03-20-2027/event/100064AC0C0EF8D7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1486,7 +1553,7 @@
         "event_id": 18251050,
         "url": "https://seatgeek.com/blondshell-tickets/toronto-canada-the-danforth-music-hall-2027-03-20-7-pm/concert/18251050",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1519,7 +1586,10 @@
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
       "COLLECTIVE CONCERTS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-blondshell-2027-brooklyn-z7r9jz1a70gjw",
@@ -1537,7 +1607,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gjw",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1552,7 +1622,7 @@
         "event_id": 18251059,
         "url": "https://seatgeek.com/blondshell-tickets/brooklyn-new-york-brooklyn-steel-2027-03-22-8-pm/concert/18251059",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1597,7 +1667,8 @@
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976582",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976582/Blondshell-tickets-Mon-Mar-22-2027-Brooklyn-Steel",
-    "stubhub_international_url": "https://www.stubhub.ie/blondshell-brooklyn-tickets-3-22-2027/event/107672785"
+    "stubhub_international_url": "https://www.stubhub.ie/blondshell-brooklyn-tickets-3-22-2027/event/107672785",
+    "genre": "Alternative"
   },
   {
     "id": "tm-blondshell-2027-columbus-z7r9jz1aaeogk",
@@ -1615,7 +1686,7 @@
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-columbus-newport-music-hall-5-20-2027/production/7625476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeoGk",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1630,14 +1701,14 @@
         "event_id": 18633503,
         "url": "https://seatgeek.com/blondshell-tickets/columbus-ohio-newport-music-hall-2027-05-20-8-pm/concert/18633503",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625476,
         "url": "https://www.vividseats.com/blondshell-tickets-columbus-newport-music-hall-5-20-2027/production/7625476",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1666,7 +1737,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295790",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295790/Blondshell-tickets-Thu-May-20-2027-Newport-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295790/Blondshell-tickets-Thu-May-20-2027-Newport-Music-Hall",
+    "genre": "Alternative"
   },
   {
     "id": "tm-blondshell-2027-cleveland-vv1aazk4pgkduzdwy",
@@ -1680,11 +1752,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "05006556CD03BF70",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-cleveland-ohio-05-18-2027/event/05006556CD03BF70",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/cleveland-ohio-the-odeon-concert-club-2027-05-18-8-pm/concert/18738820",
+    "vividseats_url": "https://www.vividseats.com/blondshell-tickets-cleveland-the-odeon-concert-club-5-18-2027/production/7799914",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-cleveland-ohio-05-18-2027/event/05006556CD03BF70",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1696,18 +1768,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738820,
+        "url": "https://seatgeek.com/blondshell-tickets/cleveland-ohio-the-odeon-concert-club-2027-05-18-8-pm/concert/18738820",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7799914,
+        "url": "https://www.vividseats.com/blondshell-tickets-cleveland-the-odeon-concert-club-5-18-2027/production/7799914",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1719,29 +1791,15 @@
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4pGkduZDWY",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T15:00:00Z",
+    "status": "on-sale",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-04T15:00:00Z",
-        "end": "2026-11-06T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-04T15:00:00Z",
-        "end": "2026-11-06T03:00:00Z"
-      },
-      {
-        "name": "The Odeon Presale",
-        "start": "2026-11-05T15:00:00Z",
-        "end": "2026-11-06T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-06T15:00:00Z",
         "end": "2027-05-12T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   }
 ]

@@ -15,8 +15,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/passenger-tickets/1862608831",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1862608831",
@@ -53,7 +53,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-milano-zg9rmiynyzd6ea",
@@ -71,7 +72,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/passenger-milano-07-04-2027/event/r40v4pyvzjkk",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -106,7 +107,8 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZd6ea",
     "timezone": "Europe/Rome",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-dublin-1avoz_8gkm9ghn7",
@@ -124,7 +126,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/passenger-dublin-07-09-2027/event/1800650B97D7C8C4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -162,7 +164,8 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-belfast-16zzkfkojzage16c",
@@ -180,7 +183,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/passenger-belfast-08-09-2027/event/38006513826B196D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -218,7 +221,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MCGUIGAN PROMOTIONS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-glasgow-g5dzz_8wyqwf1",
@@ -236,7 +241,7 @@
     "vividseats_url": "https://www.vividseats.com/passenger-tickets-glasgow-o2-academy-glasgow-9-11-2027--concerts-alternative/production/7477448",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-glasgow-11-09-2027/event/3E00650CB077220A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -258,7 +263,7 @@
         "event_id": 7477448,
         "url": "https://www.vividseats.com/passenger-tickets-glasgow-o2-academy-glasgow-9-11-2027--concerts-alternative/production/7477448",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -283,7 +288,9 @@
     "organizer_names": [
       "DF CONCERTS LIMITED",
       "ACADEMY MUSIC GROUP (O2 ACADEMY GLASGOW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-edinburgh-1adbz_8gks0vdnw",
@@ -301,7 +308,7 @@
     "vividseats_url": "https://www.vividseats.com/passenger-tickets-edinburgh-usher-hall-9-12-2027--concerts-alternative/production/7477450",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-edinburgh-12-09-2027/event/3600650CE407B8FD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -323,7 +330,7 @@
         "event_id": 7477450,
         "url": "https://www.vividseats.com/passenger-tickets-edinburgh-usher-hall-9-12-2027--concerts-alternative/production/7477450",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -348,7 +355,9 @@
     "organizer_names": [
       "DF CONCERTS LIMITED",
       "GIGS IN SCOTLAND"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-newcastle-upon-tyne-g5dzz_o6adefx",
@@ -366,7 +375,7 @@
     "vividseats_url": "https://www.vividseats.com/passenger-tickets-newcastle-upon-tyne-o2-city-hall-9-14-2027--concerts-alternative/production/7477452",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-newcastle-upon-tyne-14-09-2027/event/3E006511C90C223E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -388,7 +397,7 @@
         "event_id": 7477452,
         "url": "https://www.vividseats.com/passenger-tickets-newcastle-upon-tyne-o2-city-hall-9-14-2027--concerts-alternative/production/7477452",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -405,7 +414,9 @@
     "organizer_names": [
       "DH PROMOTIONS LTD",
       "AMG- NEWCASTLE CITY HALLS"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-manchester-17uov0g62wjanur",
@@ -423,7 +434,7 @@
     "vividseats_url": "https://www.vividseats.com/passenger-tickets-manchester-o2-apollo-manchester-9-15-2027--concerts-alternative/production/7477454",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-manchester-15-09-2027/event/360064FC9C26336F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -445,7 +456,7 @@
         "event_id": 7477454,
         "url": "https://www.vividseats.com/passenger-tickets-manchester-o2-apollo-manchester-9-15-2027--concerts-alternative/production/7477454",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -486,7 +497,9 @@
     "organizer_names": [
       "DAYBROOK HOUSE LIMITED",
       "LIVE NATION MUSIC (VENUES) LTD (NEW)"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-london-1auzkf3gkd0sykm",
@@ -504,7 +517,7 @@
     "vividseats_url": "https://www.vividseats.com/passenger-tickets-london-eventim-apollo-9-17-2027--concerts-alternative/production/7477456",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-london-17-09-2027/event/36006512E4CF91AE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -526,7 +539,7 @@
         "event_id": 7477456,
         "url": "https://www.vividseats.com/passenger-tickets-london-eventim-apollo-9-17-2027--concerts-alternative/production/7477456",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -550,7 +563,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-london-eventim-apollo-17-9-2027/event/107482767",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-exeter-g5vhz_o2o0irs",
@@ -568,7 +583,7 @@
     "vividseats_url": "https://www.vividseats.com/passenger-tickets-exeter-university-of-exeter---the-great-hall-9-21-2027--concerts-alternative/production/7477458",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-exeter-21-09-2027/event/1F006513E0928BF1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -590,7 +605,7 @@
         "event_id": 7477458,
         "url": "https://www.vividseats.com/passenger-tickets-exeter-university-of-exeter---the-great-hall-9-21-2027--concerts-alternative/production/7477458",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -599,6 +614,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107506128",
+        "url": "https://www.stubhub.ie/passenger-tickets-exeter-great-hall-exeter-21-9-2027/event/107506128",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_o2O0IRs",
@@ -606,7 +628,10 @@
     "status": "on-sale",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-exeter-great-hall-exeter-21-9-2027/event/107506128"
   },
   {
     "id": "tm-passenger-2027-birmingham-g5dzz_2wg0-vu",
@@ -624,7 +649,7 @@
     "vividseats_url": "https://www.vividseats.com/passenger-tickets-birmingham-o2-academy---birmingham-9-24-2027--concerts-alternative/production/7477462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-birmingham-24-09-2027/event/3E0064FC8C92104D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -646,7 +671,7 @@
         "event_id": 7477462,
         "url": "https://www.vividseats.com/passenger-tickets-birmingham-o2-academy---birmingham-9-24-2027--concerts-alternative/production/7477462",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -687,7 +712,8 @@
     "organizer_names": [
       "DH PROMOTIONS LTD",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-brighton-g5vhz_o5oziab",
@@ -705,7 +731,7 @@
     "vividseats_url": "https://www.vividseats.com/passenger-tickets-brighton-brighton-dome-9-25-2027--concerts-alternative/production/7477464",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/passenger-brighton-25-09-2027/event/1F006512E002817A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -727,7 +753,7 @@
         "event_id": 7477464,
         "url": "https://www.vividseats.com/passenger-tickets-brighton-brighton-dome-9-25-2027--concerts-alternative/production/7477464",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -751,7 +777,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-brighton-brighton-dome-25-9-2027/event/107506129",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-brisbane-1avgz_8gkmdlzyi",
@@ -769,7 +797,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-brisbane-27-10-2027/event/1300650DC37F8C28",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -807,7 +835,9 @@
     "status": "on-sale",
     "organizer_names": [
       "SELECT MUSIC"
-    ]
+    ],
+    "ticket_limit": 10,
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-st-kilda-1avgz_8gkm6pbt5",
@@ -825,7 +855,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-st-kilda-29-10-2027/event/1300650DC7598FCB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -863,7 +893,9 @@
     "status": "on-sale",
     "organizer_names": [
       "SELECT MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-sydney-16vgz_oayg7zvfp",
@@ -881,7 +913,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/passenger-wild-love-tour-sydney-30-10-2027/event/1300651279E01525",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -919,7 +951,9 @@
     "status": "on-sale",
     "organizer_names": [
       "SELECT MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-passenger-2027-zurich-z698xzu3z1kg0bbov",
@@ -937,8 +971,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ch/event/passenger-tickets/324618801?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "324618801",
@@ -975,7 +1009,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation Schweiz AG"
-    ]
+    ],
+    "genre": "Folk"
   },
   {
     "id": "tm-passenger-2027-praha-1-z698xzu0z16v4-_k4a",
@@ -993,8 +1028,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/passenger-tickets/1561646549?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1561646549",
@@ -1031,6 +1066,7 @@
     "status": "on-sale",
     "organizer_names": [
       "Fource Entertainment s.r.o."
-    ]
+    ],
+    "genre": "Rock"
   }
 ]

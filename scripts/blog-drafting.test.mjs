@@ -6,8 +6,8 @@ import os from 'node:os';
 import { execFileSync } from 'node:child_process';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 import { parse as parseYaml } from 'yaml';
-import { selectArticle, spentUsd, selectTourGuides, remoteMismatches, buildEvidence, checkArticle, generateArticle, anthropicClient, researchEvidence, verifyRemoteEvent,
-  reserveTopic, listEditorialPrs, boundedOverlap, PRICED_OVERLAP_CHARS, MODEL, EFFORT, OUTPUT_LIMITS, MAX_ESTIMATED_USD, MAX_OPEN_DRAFTS, prBody } from './lib/blog-drafting.mjs';
+import { selectArticle, spentUsd, selectTourGuides, remoteMismatches, buildEvidence, SALE_OVERLAP_CHARS, checkArticle, generateArticle, anthropicClient, researchEvidence, verifyRemoteEvent,
+  reserveTopic, listEditorialPrs, boundedOverlap, recentTourArtists, withNewTourGuides, NEW_TOUR_DAYS, PRICED_OVERLAP_CHARS, MODEL, EFFORT, OUTPUT_LIMITS, MAX_ESTIMATED_USD, MAX_OPEN_DRAFTS, prBody } from './lib/blog-drafting.mjs';
 import { draftOnce, prepareContent, readDraftRules } from './draft-blog-article.mjs';
 import { createMockClient, mockMarkdown } from './fixtures/blog-draft-model.mjs';
 import { githubClient } from './propose-blog-ideas.mjs';
@@ -504,6 +504,17 @@ test('a different Discovery URL slug still matches when the event id is the same
   assert(remoteMismatches(e, data, now).includes('sourceUrl'));
 });
 
+test('an international Ticketmaster link matches Discovery by storefront and numeric id, not slug', () => {
+  const e = { ...evidence.events[0], sourceUrl: 'https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1852040169?language=en-us' };
+  const data = remote(e);
+  data.url = 'https://ticketmaster.evyy.net/c/6059518/2038747/23885?u=' + encodeURIComponent('https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-biljetter/1852040169') + '&utm_medium=affiliate';
+  assert(!remoteMismatches(e, data, now).includes('sourceUrl'));
+  data.url = 'https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-biljetter/1852040170';
+  assert(remoteMismatches(e, data, now).includes('sourceUrl'));
+  data.url = 'https://www.ticketmaster.nl/event/u2-the-greatest-show-on-earth-world-tour-tickets/1852040169';
+  assert(remoteMismatches(e, data, now).includes('sourceUrl'));
+});
+
 test('named tour guides cite one date per city, skip unknown artists and never use the ideas issue', () => {
   const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))].concat('not-a-real-artist');
   const result = selectTourGuides(fixture, slugs, { now });
@@ -515,6 +526,25 @@ test('named tour guides cite one date per city, skip unknown artists and never u
     assert(c.links.includes(`/artists/${c.artist}`));
   }
   assert.equal(selectTourGuides(fixture, ['not-a-real-artist'], { now }).selected, null);
+});
+
+test('scheduled runs add tour guides for artists auto-promoted in the last three weeks, one article per artist', () => {
+  const source = clone(fixture);
+  const day = (offset) => new Date(now - offset * 86400000).toISOString().slice(0, 10);
+  source.artists = source.artists.map((a, i) => i === 0 ? { ...a, promotion_source: 'auto', auto_promoted_at: day(2) }
+    : i === 1 ? { ...a, promotion_source: 'auto', auto_promoted_at: day(NEW_TOUR_DAYS + 5) }
+    : i === 2 ? { ...a, promotion_source: 'auto', auto_promoted_at: day(1), demoted: true } : a);
+  assert.deepEqual(recentTourArtists(source, now), [source.artists[0].slug]);
+  assert.deepEqual(recentTourArtists(fixture, now), [], 'owner-promoted artists are left to the weekly ideas');
+  const base = selectArticle(source, issue, { now });
+  const merged = withNewTourGuides(base, source, { now });
+  const slug = source.artists[0].slug;
+  const tourGate = selectTourGuides(source, [slug], { now });
+  if (tourGate.candidates.length) assert(merged.candidates.some((c) => c.kind === 'tour' && c.artist === slug));
+  else assert(merged.rejected.some((r) => r.key === `${slug}:tour`));
+  assert.equal(new Set(merged.candidates.map((c) => c.artist)).size, merged.candidates.length);
+  for (let i = 1; i < merged.candidates.length; i++) assert(merged.candidates[i - 1].merit >= merged.candidates[i].merit);
+  assert.equal(withNewTourGuides(selectArticle(fixture, issue, { now }), fixture, { now }).selected?.topic, selectArticle(fixture, issue, { now }).selected?.topic);
 });
 
 test('a rejected Anthropic request reports its error type and message, costs nothing and never echoes the key', async () => {
@@ -533,6 +563,50 @@ test('offline replay: a tour guide runs the whole drafting path with no API call
   const article = await generateArticle({ selected: tour, evidence, documents: fixture.documents, rules: 'rules', client: createMockClient(), now });
   assert.equal(article.validation.status, 'draft');
   assert(JSON.stringify({ evidence, rules: 'rules' }).length < 48000);
+});
+
+test('a tour guide can go live before the public sale, with the on-sale time checked', () => {
+  const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))];
+  const tour = selectTourGuides(fixture, slugs, { now }).selected;
+  const future = new Date(now + 5 * 86400000).toISOString().replace(/\.\d{3}Z$/, 'Z');
+  const past = new Date(now - 5 * 86400000).toISOString();
+  const rows = tour.rows.map((row, i) => ({ ...row, evidence: { ...row.evidence, publicOnsaleAt: undefined }, event: { ...row.event, public_onsale_at: i === 0 ? future : past } }));
+  const evidence = buildEvidence({ ...tour, rows }, { now, snapshot });
+  const [pre, ...onSale] = evidence.events;
+  assert.equal(pre.publicOnsaleAt, future, 'a date before its public sale carries the on-sale time');
+  assert(onSale.every((e) => e.publicOnsaleAt === null), 'dates already on sale carry none');
+  assert(evidence.limitations.some((l) => /Sale and presale times are what Ticketmaster listed/.test(l)), 'the sale-time rule is supplied');
+  const remote = (status, start) => ({ id: pre.discoveryId, url: pre.sourceUrl, _embedded: { venues: [{ name: pre.venue, city: { name: pre.city }, timezone: pre.timezone || undefined }], attractions: [{ name: pre.artist }] },
+    dates: { start: { localDate: pre.date }, status: { code: status }, timezone: pre.timezone || undefined }, sales: { public: { startDateTime: start } } });
+  assert.deepEqual(remoteMismatches(pre, remote('offsale', future), now), [], 'pre-sale offsale passes when the on-sale time matches');
+  assert(remoteMismatches(pre, remote('offsale', past), now).includes('publicOnsale'), 'a changed on-sale time is caught');
+  assert(remoteMismatches(onSale[0], remote('offsale', past), now).includes('status'), 'a date with no future sale still needs onsale');
+  const plain = buildEvidence(tour, { now, snapshot });
+  assert(!plain.limitations.some((l) => /Sale and presale times/.test(l)) || plain.events.some((e) => e.publicOnsaleAt), 'no sale-time rule without sale times');
+});
+
+test('a pre-sale date the sync never stamped joins a tour guide only through a current check', async () => {
+  const slugs = [...new Set(fixture.events.map((e) => e.artist_slug))];
+  const tour = selectTourGuides(fixture, slugs, { now }).selected;
+  const future = new Date(now + 5 * 86400000).toISOString().replace(/\.\d{3}Z$/, 'Z');
+  const target = tour.rows[0].event;
+  const unstamp = (extra) => ({ ...fixture, events: fixture.events.map((e) => e.id === target.id ? { ...e, last_verified_at: null, ...extra } : e) });
+  const has = (src) => selectTourGuides(src, [target.artist_slug], { now }).candidates.some((c) => c.rows.some((r) => r.event.id === target.id));
+  const stale = new Date(now - 60 * 86400000).toISOString().slice(0, 10);
+  assert(!has(unstamp({ public_onsale_at: new Date(now - 86400000).toISOString() })), 'an unstamped date with no future sale stays out');
+  assert(!has(unstamp({ last_verified_at: stale, public_onsale_at: future })), 'a stale date stays out even before its sale');
+  assert(!has(unstamp({ public_onsale_at: future, ticketmaster_discovery_event_id: '' })), 'no Discovery identity, no entry');
+  const src = unstamp({ public_onsale_at: future });
+  assert(has(src), 'an unstamped date before its public sale is eligible');
+  const picked = selectTourGuides(src, [target.artist_slug], { now }).candidates[0];
+  const evidence = buildEvidence(picked, { now, snapshot });
+  const row = evidence.events.find((e) => e.id === target.id);
+  assert.equal(row.requireCurrent, true);
+  assert.equal(row.repositoryVerified, null);
+  assert.equal(row.publicOnsaleAt, future);
+  const offline = await researchEvidence(structuredClone(evidence), { now, pauseMs: 0 });
+  assert(!offline.events.some((e) => e.id === target.id), 'without a current check the date is dropped');
+  assert(offline.events.every((e) => e.external?.kind === 'not-checked'), 'stamped dates keep the old behaviour');
 });
 
 test('a paid draft that fails a check is kept and the stray date is named', async () => {
@@ -557,7 +631,10 @@ test('worst case: a 12-city guide with a 1,150-word draft and the real rules fit
   evidence.events = Array.from({ length: 12 }, (_, i) => ({ ...template, id: `e${i}`, city: `City ${i}`, venue: `Venue ${i}`, date: `2027-06-${String(i + 1).padStart(2, '0')}`,
     sourceUrl: `${template.sourceUrl.replace(/\/?$/, '')}-${i}`, external: { kind: 'current-ticketmaster-api', checkedFields: ['name', 'date', 'venue', 'city', 'url', 'status'] } }));
   evidence.overlap = Array.from({ length: 8 }, (_, i) => ({ file: `content/blog/${i}.md`, title: String(i), body: 'x'.repeat(9000) })).slice(0, 2);
-  evidence.overlap = [{ file: 'a', title: 'a', body: 'y'.repeat(6500) }, { file: 'b', title: 'b', body: 'y'.repeat(5500) }];
+  // The largest context buildEvidence allows for this evidence: sale times
+  // (the fixture's first date is before its public sale) take a smaller share.
+  const budget = evidence.events.some((e) => e.publicOnsaleAt) ? SALE_OVERLAP_CHARS : 12000;
+  evidence.overlap = [{ file: 'a', title: 'a', body: 'y'.repeat(6500) }, { file: 'b', title: 'b', body: 'y'.repeat(budget - 6500) }];
   const rules = await readDraftRules();
   const bodies = [];
   const fetchImpl = async (_url, init) => {

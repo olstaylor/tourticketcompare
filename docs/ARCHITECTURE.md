@@ -24,7 +24,6 @@ public/
     artists.json             Artist records and indexing state
     catalog.json             Provider metadata, artist links, and tours
     fallback-catalog.json    Client fallback if catalog loading fails
-    provider-configs.json    Provider display/cache/safety configuration
     guides-content.json      Guide content keyed by route
     events.json              Reviewed event records
     events/                  Generated per-artist partitions
@@ -191,6 +190,8 @@ Three link blocks are derived from data at render time, so they need no upkeep a
 ### Near-show links ("Big shows in the next two weeks")
 
 The ten pages with the most Search Console impressions (`SELLING_SOON_PATHS` in `public/shell.js`: the comparison guides, the compare hub, the homepage, four blog posts and the Lizzy McAlpine artist page) show up to four plain internal links to shows 1-14 days out (#1621). `/api/selling-soon` (`functions/_selling-soon.js`) picks them from the D1 `show_priority` list (at most 72 hours old, written by `show-priority.yml`), one per artist, keeping only shows that are publishable, not lifecycle-held, on an indexable and non-demoted artist page, and priced through the same approved-price gate the show card uses. Each link goes to the show on its artist page. It makes no price, provider or availability claim, touches no CTA or affiliate logic, and fails open to nothing. Leave other SEO changes to these pages until #1621 is measured. The SEO opportunity report only turns its "add near-show links" suggestion into HOLD for them, so it can still list a REFRESH or IMPROVE row for one; skip those rows until the read.
+
+The embeddable price widget (`/api/embed?artist=<slug>`, `functions/api/embed.js`, `functions/_embed.js`) is a script-free iframe page that fan sites paste in: the next dates that have a listed price, each seller's price, currency and check time. Its data comes from `loadEmbedPrices` in `functions/[[path]].js`, which reuses the artist page's own gate (`serverShowCtaSpecs` + `deriveCityDatePrices`), so it never prints a price the site would not. It links to `tourticketcompare.com/artists/<slug>` only (UTM `utm_source=embed&utm_medium=widget&utm_campaign=<src>`), never `/api/out`, and sets its own `frame-ancestors *` because function responses do not get `_headers`. `&view=builder` is the "Embed this" copy-paste page, linked from artist pages. Its snippet carries a visible credit link under the frame, which is the backlink.
 
 ### Content pipeline
 

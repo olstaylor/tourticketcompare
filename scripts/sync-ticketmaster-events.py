@@ -56,6 +56,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -76,6 +77,16 @@ MAX_EVENTS_PER_PAGE = 100
 # Discovery serves at most 1,000 results per query (size x page); five pages
 # covers the longest tour on the roster with room to spare.
 MAX_DISCOVERY_PAGES = 5
+# A 429 on one request is usually Ticketmaster's per-second limit, not the
+# daily quota: on 2026-11-06 three of 261 artists (bad-bunny, jack-johnson,
+# two-door-cinema-club) were skipped with HTTP 429 inside a two-minute run that
+# looked up every other artist fine. Retry such a request a bounded number of
+# times. Stop retrying for the rest of the run once the response says the daily
+# allowance is spent (Rate-Limit-Available: 0) or several artists in a row
+# exhaust their retries, so a real quota outage costs at most a few extra calls
+# and still ends the run red through the existing coverage gate.
+THROTTLE_RETRY_DELAYS_S = (2, 5)
+THROTTLE_BREAKER_AFTER = 3
 
 # Status codes from dates.status.code that may be proposed. Anything else
 # (cancelled, postponed, offsale, ...) is withheld. A `rescheduled` record
@@ -113,6 +124,9 @@ PREMIUM_LISTING_NAME_RE = re.compile(r"\b(?:venue premium|premium priced seat(?:
 # concert. Mirrors TICKET_NOT_INCLUDED_RE in functions/_event-pages.js.
 TICKET_NOT_INCLUDED_RE = re.compile(r"\bticket not included\b", re.IGNORECASE)
 
+# A named listening event does not establish a live performance by the artist.
+LISTENING_EVENT_RE = re.compile(r"\blistening\s+(?:experience|party|session)\b", re.IGNORECASE)
+
 PLACEHOLDER_MARKERS = ("localhost", "example.com", "placeholder", "replace-me", "tbd")
 AFFILIATE_WRAPPER_HOSTS = {"ticketmaster.evyy.net"}
 
@@ -143,6 +157,7 @@ WITHHOLD_REASON_CODES = {
     "placeholder_url": "URL matches a placeholder marker (localhost, example.com, ...).",
     "travel_package_listing": "Listing looks like a travel/hotel/parking/hospitality/premium-seat upsell package.",
     "attraction_identity_mismatch": "Event attractions do not include the registry's verified attraction ID.",
+    "listening_event": "Listing is a listening experience, party or session rather than a verified artist performance.",
     "not_primary_attraction": "Registry attraction is not the primary attraction (support act / festival lineup).",
     "duplicate_existing_event_id": "Same Ticketmaster event id as an existing events.json row.",
     "duplicate_existing_venue_date": "Same venue and venue-local date as an existing events.json row.",
@@ -693,6 +708,12 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
             f"likely travel/upsell package listing (matched: {', '.join(travel_hits)})",
         )
 
+    if LISTENING_EVENT_RE.search(event_name):
+        withhold(
+            "listening_event",
+            "listening event requires human review; artist metadata does not prove a live performance",
+        )
+
     event_attraction_ids = [
         (a.get("id") or "").strip()
         for a in ((tm_event.get("_embedded") or {}).get("attractions") or [])
@@ -800,7 +821,46 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
 # ─── Live Discovery lookup ───────────────────────────────────────────────────
 
 
-def fetch_discovery_page(api_key, base, attraction_id, timeout_ms, start, page):
+class ThrottleRetry:
+    """Bounded retry of HTTP 429 for one run. Pure apart from the injected sleep."""
+
+    def __init__(self, delays=THROTTLE_RETRY_DELAYS_S, breaker_after=THROTTLE_BREAKER_AFTER, sleep=time.sleep):
+        self.delays = tuple(delays)
+        self.breaker_after = breaker_after
+        self.sleep = sleep
+        self.consecutive_exhausted = 0
+        self.tripped = False
+        self.retries = 0
+        self.recovered = 0
+
+    def call(self, fn):
+        """fn() -> (data, error, status, quota_spent). Returns (data, error)."""
+        data, error, status, quota_spent = fn()
+        attempt = 0
+        while status == 429 and not self.tripped and not quota_spent and attempt < len(self.delays):
+            self.sleep(self.delays[attempt])
+            attempt += 1
+            self.retries += 1
+            data, error, status, quota_spent = fn()
+        if status == 429:
+            if quota_spent:
+                self.tripped = True
+            elif attempt:
+                self.consecutive_exhausted += 1
+                if self.consecutive_exhausted >= self.breaker_after:
+                    self.tripped = True
+        elif data is not None:
+            self.consecutive_exhausted = 0
+            if attempt:
+                self.recovered += 1
+        return data, error
+
+
+THROTTLE = ThrottleRetry()
+
+
+def _fetch_discovery_page_once(api_key, base, attraction_id, timeout_ms, start, page):
+
     """One page of the upcoming-events query. Returns (data, error)."""
     query = urllib.parse.urlencode(
         {
@@ -816,11 +876,21 @@ def fetch_discovery_page(api_key, base, attraction_id, timeout_ms, start, page):
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urllib.request.urlopen(request, timeout=timeout_ms / 1000) as response:
-            return json.load(response), None
+            return json.load(response), None, 200, False
     except urllib.error.HTTPError as exc:
-        return None, f"Discovery API returned HTTP {exc.code}"
+        available = (exc.headers.get("Rate-Limit-Available") if exc.headers else None) or ""
+        quota_spent = available.strip() == "0"
+        return None, f"Discovery API returned HTTP {exc.code}", exc.code, quota_spent
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as exc:
-        return None, f"Discovery API request failed: {exc}"
+        return None, f"Discovery API request failed: {exc}", None, False
+
+
+def fetch_discovery_page(api_key, base, attraction_id, timeout_ms, start, page, throttle=None):
+    """One page of the upcoming-events query. Returns (data, error)."""
+    throttle = throttle or THROTTLE
+    return throttle.call(
+        lambda: _fetch_discovery_page_once(api_key, base, attraction_id, timeout_ms, start, page)
+    )
 
 
 def fetch_discovery_events(api_key, base, attraction_id, timeout_ms, fetch_page=None):
@@ -1471,6 +1541,11 @@ def self_test():
           and "travel_package_listing" not in codes_for(make_event(name="Premium Suite Tour")))
     check("plain concert at an ordinary venue emits no travel_package_listing",
           "travel_package_listing" not in codes_for(make_event(name="RAYE: This Tour May Contain New Music")))
+    for listening_name in ("Chris Brown & Usher Listening Experience", "RAYE Listening Party", "RAYE: Listening Session"):
+        check(f"listening event '{listening_name}' is withheld",
+              "listening_event" in codes_for(make_event(name=listening_name)))
+    check("ordinary concert title is not a listening event",
+          "listening_event" not in codes_for(make_event(name="RAYE: This Tour May Contain New Music")))
     check("mismatched attraction emits attraction_identity_mismatch",
           "attraction_identity_mismatch" in codes_for(wrong_attraction))
     check("support-act appearance emits not_primary_attraction",
@@ -1596,6 +1671,42 @@ def self_test():
     check("a later-page failure keeps the fetched pages and warns", len(events) == 200 and "page 3 failed" in warning)
     events, warning, calls = paged(900)
     check("the page cap bounds requests and warns", len(calls) == MAX_DISCOVERY_PAGES and "cap" in warning)
+
+    def throttled(responses, **kw):
+        sleeps = []
+        t = ThrottleRetry(sleep=sleeps.append, **kw)
+        seq = iter(responses)
+        calls = []
+
+        def fn():
+            calls.append(1)
+            return next(seq)
+
+        return t, fn, sleeps, calls
+
+    ok_page = ({"_embedded": {"events": []}}, None, 200, False)
+    hit = (None, "Discovery API returned HTTP 429", 429, False)
+    spent = (None, "Discovery API returned HTTP 429", 429, True)
+    t, fn, sleeps, calls = throttled([hit, ok_page])
+    data, err = t.call(fn)
+    check("a 429 that clears on retry is fetched", data is not None and err is None and len(calls) == 2 and sleeps == [2])
+    t, fn, sleeps, calls = throttled([hit, hit, hit])
+    data, err = t.call(fn)
+    check("a held 429 stops after the bounded retries and reports it", data is None and "429" in err and len(calls) == 3 and sleeps == [2, 5])
+    t, fn, sleeps, calls = throttled([spent, ok_page])
+    data, err = t.call(fn)
+    check("a spent daily quota is never retried and trips the breaker", data is None and len(calls) == 1 and t.tripped)
+    tripped = t
+    _, fn, _, calls = throttled([hit])
+    data, err = tripped.call(fn)
+    check("once tripped, later 429s cost a single call", data is None and len(calls) == 1)
+    t, fn, sleeps, calls = throttled([hit] * 9 + [hit], breaker_after=3)
+    for _ in range(3):
+        t.call(fn)
+    check("three artists in a row exhausting retries trip the breaker", t.tripped and len(calls) == 9)
+    t, fn, sleeps, calls = throttled([(None, "Discovery API returned HTTP 500", 500, False)])
+    data, err = t.call(fn)
+    check("other HTTP errors are not retried", data is None and len(calls) == 1 and sleeps == [])
 
     print(f"\nself-test: {len(failures)} failure(s)")
     sys.exit(1 if failures else 0)

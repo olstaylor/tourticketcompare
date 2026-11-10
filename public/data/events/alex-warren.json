@@ -11,11 +11,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "39006529C1AA5D7A",
     "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-30-2026/event/39006529C1AA5D7A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alex-warren-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2026-12-30-8-pm/concert/18590187",
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-las-vegas-the-colosseum-at-caesars-palace-12-30-2026/production/7553175",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-30-2026/event/39006529C1AA5D7A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -27,17 +27,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590187,
+        "url": "https://seatgeek.com/alex-warren-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2026-12-30-8-pm/concert/18590187",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553175,
         "url": "https://www.vividseats.com/alex-warren-tickets-las-vegas-the-colosseum-at-caesars-palace-12-30-2026/production/7553175",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -74,7 +74,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264076",
     "stubhub_international_url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-30-2026/event/107669462",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264076/Alex-Warren-tickets-Wed-Dec-30-2026-The-Colosseum-At-Caesars-Palace"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264076/Alex-Warren-tickets-Wed-Dec-30-2026-The-Colosseum-At-Caesars-Palace",
+    "ticket_limit": 10,
+    "genre": "Pop"
   },
   {
     "id": "tm-alex-warren-2027-las-vegas-1ayzkftgkdvipgh",
@@ -88,11 +90,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "39006529C1B25D7C",
     "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-31-2026/event/39006529C1B25D7C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alex-warren-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2026-12-31-8-pm/concert/18590188",
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-las-vegas-the-colosseum-at-caesars-palace-12-31-2026/production/7553149",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-live-in-las-vegas-las-vegas-nevada-12-31-2026/event/39006529C1B25D7C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -104,17 +106,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590188,
+        "url": "https://seatgeek.com/alex-warren-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2026-12-31-8-pm/concert/18590188",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553149,
         "url": "https://www.vividseats.com/alex-warren-tickets-las-vegas-the-colosseum-at-caesars-palace-12-31-2026/production/7553149",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -151,7 +153,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264077",
     "stubhub_international_url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-31-2026/event/107668643",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264077/Alex-Warren-tickets-Thu-Dec-31-2026-The-Colosseum-At-Caesars-Palace"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264077/Alex-Warren-tickets-Thu-Dec-31-2026-The-Colosseum-At-Caesars-Palace",
+    "ticket_limit": 10,
+    "genre": "Pop"
   },
   {
     "id": "tm-alex-warren-2027-cardiff-g5vhz_3c3nozb",
@@ -169,7 +173,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-cardiff-blackweir-fields-6-20-2027/production/7620233",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-cardiff-20-06-2027/event/1F006523928D1E3A",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -191,7 +195,7 @@
         "event_id": 7620233,
         "url": "https://www.vividseats.com/alex-warren-tickets-cardiff-blackweir-fields-6-20-2027/production/7620233",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -208,7 +212,9 @@
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)",
       "DEPOT MARKETING LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-alex-warren-2027-belfast-16doz_3cdg7z8me",
@@ -226,7 +232,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-belfast-ormeau-park-6-21-2027/production/7620223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/alex-warren-finding-more-family-on-belfast-21-06-2027/event/3800652383E10B82",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -248,7 +254,7 @@
         "event_id": 7620223,
         "url": "https://www.vividseats.com/alex-warren-tickets-belfast-ormeau-park-6-21-2027/production/7620223",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -272,7 +278,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-belfast-ormeau-park-21-6-2027/event/107670720",
     "organizer_names": [
       "BELSONIC LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-alex-warren-2027-co-dublin-1abzkf-gkebtuoa",
@@ -290,7 +298,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/alex-warren-finding-more-family-on-co-dublin-22-06-2027/event/18006521BAA76805",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -328,7 +336,8 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-alex-warren-2027-glasgow-1auzkf_gkemjhov",
@@ -346,7 +355,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-glasgow-glasgow-green-6-25-2027/production/7620219",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-finding-more-family-on-glasgow-25-06-2027/event/36006519B79BC441",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +377,7 @@
         "event_id": 7620219,
         "url": "https://www.vividseats.com/alex-warren-tickets-glasgow-glasgow-green-6-25-2027/production/7620219",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -393,7 +402,9 @@
     "organizer_names": [
       "GIGS IN SCOTLAND",
       "DF CONCERTS LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-alex-warren-2027-exeter-g5vhz_3je-wlb",
@@ -411,7 +422,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-exeter-powderham-castle-6-26-2027/production/7620105",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-transport-exeter-26-06-2027/event/1F006529A7872AFA",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -433,7 +444,7 @@
         "event_id": 7620105,
         "url": "https://www.vividseats.com/alex-warren-tickets-exeter-powderham-castle-6-26-2027/production/7620105",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -457,7 +468,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-exeter-powderham-castle-26-6-2027/event/107671365",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-alex-warren-2027-woodstock-16djz_4q3g7mfnf",
@@ -475,7 +488,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-woodstock-blenheim-palace-6-27-2027/production/7755843",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-woodstock-27-06-2027/event/3700655692DD48C8",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -497,7 +510,7 @@
         "event_id": 7755843,
         "url": "https://www.vividseats.com/alex-warren-tickets-woodstock-blenheim-palace-6-27-2027/production/7755843",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -539,7 +552,9 @@
       "MARI",
       "PWR EVENTS",
       "CUFFE & TAYLOR (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-alex-warren-2027-scarborough-1agzkf0gkdh1nyj",
@@ -557,7 +572,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-scarborough-scarborough-open-air-theatre-6-30-2027/production/7620049",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-scarborough-30-06-2027/event/35006524DB2AAC26",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -579,7 +594,7 @@
         "event_id": 7620049,
         "url": "https://www.vividseats.com/alex-warren-tickets-scarborough-scarborough-open-air-theatre-6-30-2027/production/7620049",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -620,7 +635,9 @@
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)",
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-alex-warren-2027-manchester-g5dzz_fblbfue",
@@ -638,7 +655,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-manchester-heaton-park-7-2-2027/production/7755831",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-manchester-02-07-2027/event/3E00654EABE94342",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -660,7 +677,7 @@
         "event_id": 7755831,
         "url": "https://www.vividseats.com/alex-warren-tickets-manchester-heaton-park-7-2-2027/production/7755831",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -700,7 +717,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345708/Alex-Warren-tickets-Fri-Jul-2-2027-Heaton-Park",
     "organizer_names": [
       "THE WAREHOUSE PROJECT (MANCH) LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-alex-warren-2027-london-1amzkfngkdb5am5",
@@ -718,7 +737,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-london-crystal-palace-park-7-3-2027/production/7620071",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/alex-warren-london-03-07-2027/event/37006523D82C9DCB",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -740,7 +759,7 @@
         "event_id": 7620071,
         "url": "https://www.vividseats.com/alex-warren-tickets-london-crystal-palace-park-7-3-2027/production/7620071",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -782,6 +801,8 @@
       "FESTIVAL REPUBLIC LTD",
       "LNM - VIP NATION UK",
       "LIVE NATION ON BEHALF OF CRYSTAL PALACE PARK LIVE"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   }
 ]

@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebpZ",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -30,7 +30,7 @@
         "event_id": 18702716,
         "url": "https://seatgeek.com/mei-semones-tickets/cambridge-massachusetts-the-sinclair-cambridge-2027-02-24-8-pm/concert/18702716",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -66,7 +66,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297659",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297659/Mei-Semones-tickets-Wed-Feb-24-2027-The-Sinclair-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297659/Mei-Semones-tickets-Wed-Feb-24-2027-The-Sinclair-Music-Hall",
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-portland-z7r9jz1aaekpv",
@@ -84,7 +85,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKPv",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +136,8 @@
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297680",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297680/Mei-Semones-tickets-Thu-Feb-25-2027-Space-Gallery"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297680/Mei-Semones-tickets-Thu-Feb-25-2027-Space-Gallery",
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-toronto-rz7hnez1afu780",
@@ -153,8 +155,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.ca/event/mei-semones-the-concert-hall-tickets/14344424",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "14344424",
@@ -191,7 +193,8 @@
     "status": "on-sale",
     "organizer_names": [
       "COLLECTIVE CONCERTS"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-mei-semones-2027-chicago-z7r9jz1aae3ax",
@@ -209,7 +212,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-chicago-thalia-hall-3-2-2027/production/7629368",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3Ax",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -231,7 +234,7 @@
         "event_id": 7629368,
         "url": "https://www.vividseats.com/mei-semones-tickets-chicago-thalia-hall-3-2-2027/production/7629368",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -260,7 +263,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297631",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297631/Mei-Semones-tickets-Tue-Mar-2-2027-Thalia-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297631/Mei-Semones-tickets-Tue-Mar-2-2027-Thalia-Hall",
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-philadelphia-z7r9jz1aaebpd",
@@ -278,7 +282,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-philadelphia-union-transfer-3-5-2027/production/7629628",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebpd",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -300,7 +304,7 @@
         "event_id": 7629628,
         "url": "https://www.vividseats.com/mei-semones-tickets-philadelphia-union-transfer-3-5-2027/production/7629628",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -329,7 +333,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297660",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297660/Mei-Semones-tickets-Fri-Mar-5-2027-Union-Transfer"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297660/Mei-Semones-tickets-Fri-Mar-5-2027-Union-Transfer",
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-new-york-z7r9jz1aaebpe",
@@ -347,7 +352,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-new-york-webster-hall-3-6-2027/production/7628315",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebpe",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -362,14 +367,14 @@
         "event_id": 18658871,
         "url": "https://seatgeek.com/mei-semones-tickets/new-york-new-york-webster-hall-2027-03-06-7-30-pm/concert/18658871",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7628315,
         "url": "https://www.vividseats.com/mei-semones-tickets-new-york-webster-hall-3-6-2027/production/7628315",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -398,7 +403,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297661",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297661/Mei-Semones-tickets-Sat-Mar-6-2027-Webster-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297661/Mei-Semones-tickets-Sat-Mar-6-2027-Webster-Hall",
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-washington-16vfz_kjpg7wgxq",
@@ -416,7 +422,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-washington-district-of-columbia-04-09-2027/event/1500653996CB5F9A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -431,7 +437,7 @@
         "event_id": 18637352,
         "url": "https://seatgeek.com/mei-semones-tickets/washington-district-of-columbia-9-30-club-2027-04-09-6-pm/concert/18637352",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -474,7 +480,9 @@
         "start": "2026-10-01T14:00:00Z",
         "end": "2027-04-03T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-mei-semones-2027-carrboro-z7r9jz1aaefgv",
@@ -492,7 +500,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefGV",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -543,7 +551,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297656",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297656/Mei-Semones-tickets-Sat-Apr-10-2027-Cats-Cradle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297656/Mei-Semones-tickets-Sat-Apr-10-2027-Cats-Cradle",
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-atlanta-z7r9jz1aaeb46",
@@ -561,7 +570,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-atlanta-terminal-west-4-11-2027/production/7629665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb46",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -583,7 +592,7 @@
         "event_id": 7629665,
         "url": "https://www.vividseats.com/mei-semones-tickets-atlanta-terminal-west-4-11-2027/production/7629665",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -612,7 +621,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297662",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297662/Mei-Semones-tickets-Sun-Apr-11-2027-Terminal-West-At-King-Plow-Arts-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297662/Mei-Semones-tickets-Sun-Apr-11-2027-Terminal-West-At-King-Plow-Arts-Center",
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-houston-g5diz_kenctep",
@@ -630,7 +640,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-houston-white-oak-music-hall---upstairs-4-16-2027/production/7629281",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-houston-texas-04-16-2027/event/3A006539E33A90A5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -645,14 +655,14 @@
         "event_id": 18638869,
         "url": "https://seatgeek.com/mei-semones-tickets/houston-texas-white-oak-music-hall-upstairs-2027-04-16-7-pm/concert/18638869",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7629281,
         "url": "https://www.vividseats.com/mei-semones-tickets-houston-white-oak-music-hall---upstairs-4-16-2027/production/7629281",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -688,7 +698,9 @@
         "start": "2026-10-01T15:00:00Z",
         "end": "2027-04-10T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-mei-semones-2027-tucson-z7r9jz1aae9f6",
@@ -706,7 +718,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-tucson-la-rosa-4-20-2027/production/7635713",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe9F6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -721,14 +733,14 @@
         "event_id": 18645989,
         "url": "https://seatgeek.com/mei-semones-tickets/tucson-arizona-la-rosa-tucson-2027-04-20-8-pm/concert/18645989",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7635713,
         "url": "https://www.vividseats.com/mei-semones-tickets-tucson-la-rosa-4-20-2027/production/7635713",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -760,7 +772,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297686/Mei-Semones-tickets-Tue-Apr-20-2027-La-Rosa-Tucson",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-san-diego-z7r9jz1aae3k4",
@@ -778,7 +791,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-san-diego-music-box-san-diego-4-21-2027/production/7629380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3k4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -800,7 +813,7 @@
         "event_id": 7629380,
         "url": "https://www.vividseats.com/mei-semones-tickets-san-diego-music-box-san-diego-4-21-2027/production/7629380",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -829,7 +842,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297641",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297641/Mei-Semones-tickets-Wed-Apr-21-2027-Music-Box-San-Diego"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297641/Mei-Semones-tickets-Wed-Apr-21-2027-Music-Box-San-Diego",
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-san-francisco-g5vyz_kyxockk",
@@ -847,7 +861,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-san-francisco-castro-theatre-4-24-2027/production/7629402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-san-francisco-california-04-24-2027/event/1C00653C3E82D186",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -862,14 +876,14 @@
         "event_id": 18637391,
         "url": "https://seatgeek.com/mei-semones-tickets/san-francisco-california-castro-theatre-2027-04-24-8-pm/concert/18637391",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7629402,
         "url": "https://www.vividseats.com/mei-semones-tickets-san-francisco-castro-theatre-4-24-2027/production/7629402",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -878,6 +892,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297647",
+        "url": "https://www.ticketnetwork.com/en/p/8297647",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8297647",
+        "url": "https://www.ticketliquidator.com/tickets/8297647/Mei-Semones-tickets-Sat-Apr-24-2027-Castro-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KYXOckk",
@@ -892,7 +920,11 @@
     ],
     "organizer_names": [
       "ANOTHER PLANET"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297647",
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297647/Mei-Semones-tickets-Sat-Apr-24-2027-Castro-Theatre"
   },
   {
     "id": "tm-mei-semones-2027-vancouver-1178vpcbx94gv5",
@@ -910,7 +942,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-vancouver-commodore-ballroom-4-27-2027/production/7629287",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mei-semones-vancouver-british-columbia-04-27-2027/event/110065398897575A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -925,14 +957,14 @@
         "event_id": 18637753,
         "url": "https://seatgeek.com/mei-semones-tickets/vancouver-canada-commodore-ballroom-2027-04-27-7-pm/concert/18637753",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7629287,
         "url": "https://www.vividseats.com/mei-semones-tickets-vancouver-commodore-ballroom-4-27-2027/production/7629287",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -974,7 +1006,10 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-mei-semones-2027-seattle-vvg1hz_knof3ir",
@@ -992,7 +1027,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-seattle-the-neptune-theatre-4-28-2027/production/7629277",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-seattle-washington-04-28-2027/event/0F006538E0212B2F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1007,14 +1042,14 @@
         "event_id": 18637789,
         "url": "https://seatgeek.com/mei-semones-tickets/seattle-washington-neptune-theatre-wa-2027-04-28-8-pm/concert/18637789",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7629277,
         "url": "https://www.vividseats.com/mei-semones-tickets-seattle-the-neptune-theatre-4-28-2027/production/7629277",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1050,7 +1085,9 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-04-29T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-mei-semones-2027-boise-z7r9jz1aaekjo",
@@ -1068,7 +1105,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-boise-shrine-social-club-4-30-2027/production/7635745",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKjO",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1090,7 +1127,7 @@
         "event_id": 7635745,
         "url": "https://www.vividseats.com/mei-semones-tickets-boise-shrine-social-club-4-30-2027/production/7635745",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1103,7 +1140,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKjO",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-salt-lake-city-z7r9jz1aaefc8",
@@ -1121,7 +1159,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-salt-lake-city-kilby-court-5-1-2027/production/7635743",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefC8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1143,7 +1181,7 @@
         "event_id": 7635743,
         "url": "https://www.vividseats.com/mei-semones-tickets-salt-lake-city-kilby-court-5-1-2027/production/7635743",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1156,7 +1194,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAefC8",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-denver-z7r9jz1aae37y",
@@ -1174,7 +1213,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe37y",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1209,7 +1248,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe37y",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-lexington-z7r9jz1aaek09",
@@ -1227,7 +1267,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-lexington-the-burl-5-6-2027/production/7635709",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeK09",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1249,7 +1289,7 @@
         "event_id": 7635709,
         "url": "https://www.vividseats.com/mei-semones-tickets-lexington-the-burl-5-6-2027/production/7635709",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1258,11 +1298,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359823",
+        "url": "https://www.ticketliquidator.com/tickets/8359823/Mei-Semones-tickets-Thu-May-6-2027-The-Burl",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8359823",
+        "url": "https://www.ticketnetwork.com/en/p/8359823",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeK09",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359823/Mei-Semones-tickets-Thu-May-6-2027-The-Burl",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359823",
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-columbus-z7r9jz1aaef7k",
@@ -1280,7 +1337,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-columbus-ace-of-cups-5-7-2027/production/7635737",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef7K",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1302,7 +1359,7 @@
         "event_id": 7635737,
         "url": "https://www.vividseats.com/mei-semones-tickets-columbus-ace-of-cups-5-7-2027/production/7635737",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1315,7 +1372,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAef7K",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-mei-semones-2027-pittsburgh-1avbz_kgkuez9wb",
@@ -1333,7 +1391,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-pittsburgh-spirit-hall-5-8-2027/production/7629289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-pittsburgh-pennsylvania-05-08-2027/event/1600653DA7E17C98",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1348,14 +1406,14 @@
         "event_id": 18638032,
         "url": "https://seatgeek.com/mei-semones-tickets/pittsburgh-pennsylvania-spirit-hall-pittsburgh-2027-05-08-7-pm/concert/18638032",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7629289,
         "url": "https://www.vividseats.com/mei-semones-tickets-pittsburgh-spirit-hall-5-8-2027/production/7629289",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1394,7 +1452,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-mei-semones-2027-los-angeles-z7r9jz1aa7e-9",
@@ -1412,7 +1472,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-los-angeles-fonda-theatre-4-23-2027/production/7629620",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7e-9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1427,14 +1487,14 @@
         "event_id": 18662617,
         "url": "https://seatgeek.com/mei-semones-tickets/los-angeles-california-the-fonda-theatre-2027-04-23-9-pm/concert/18662617",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7629620,
         "url": "https://www.vividseats.com/mei-semones-tickets-los-angeles-fonda-theatre-4-23-2027/production/7629620",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1463,6 +1523,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297664",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297664/Mei-Semones-tickets-Fri-Apr-23-2027-The-Fonda-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297664/Mei-Semones-tickets-Fri-Apr-23-2027-The-Fonda-Theatre",
+    "genre": "Alternative"
   }
 ]

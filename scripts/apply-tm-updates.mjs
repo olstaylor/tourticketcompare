@@ -55,13 +55,14 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { createSnapshotSweep, loadSnapshot, quotaHeaders, safeFetchError, reportSnapshotStats } from './lib/tm-event-snapshot.mjs';
+import { createSnapshotSweep, loadSnapshot, quotaHeaders, safeFetchError, reportSnapshotStats, snapshotFields } from './lib/tm-event-snapshot.mjs';
 import { includePastFromEnv, skipInSweep, PAST_RECHECK_DAYS } from './lib/tm-sweep-window.mjs';
 import { normalizePresaleWindows } from '../functions/_presales.js';
 import { PROVIDER_LANES } from './lib/event-link-coverage.mjs';
 import { eventLocalDate, urlDateConflicts } from './sync-impact-marketplace-events.mjs';
 import { officialEventMetadata, organizerNames } from '../functions/_event-metadata.js';
 import { validPreviousStartDate, previousStartDateFromEvent } from '../functions/_event-reschedule.js';
+import { deriveEventDuplicateGroups, EVENT_DUPLICATE_CLASS } from '../functions/_event-indexability.js';
 
 const DEFAULT_BASE = 'https://app.ticketmaster.com/discovery/v2';
 const DEFAULT_EVENTS_PATH = new URL('../public/data/events.json', import.meta.url);
@@ -306,6 +307,69 @@ function safeTicketmasterUrl(url, eventId) {
   return parsed.toString();
 }
 
+// Owner decision 2026-11-06: a needs_recheck row is upgraded to
+// machine_high_confidence when this night's Discovery record for the same
+// event proves what ingestion could not: the artist's registry-verified
+// attraction is on it, its storefront link is the full canonical form for the
+// same event id, and the date, time, venue and city are all present. The
+// canonical forms are /<slug>/event/<id> (North America) and
+// /event/<event-name-slug>/<numeric-id> (international storefronts; the shape
+// validate-events.py already accepts). A short /event/<id> link stays flagged:
+// those have 404'd in browsers. Discovery may hand back its link wrapped in an
+// affiliate redirect; it is only read to compare the inner storefront link,
+// never stored. No URL or other field is written by this rule.
+export function canonicalStorefrontPath(url, eventId) {
+  let parsed;
+  try {
+    parsed = new URL(clean(url));
+  } catch {
+    return null;
+  }
+  if (parsed.protocol !== 'https:' || !hostAllowed(parsed.hostname)) return null;
+  const id = clean(eventId).toLowerCase();
+  if (!id) return null;
+  const segments = parsed.pathname.split('/').filter(Boolean);
+  const at = segments.findIndex((segment) => segment.toLowerCase() === 'event');
+  if (at < 0) return null;
+  const northAmerican = at > 0 && segments.length === at + 2 && segments[at + 1].toLowerCase() === id;
+  const international = at === 0 && segments.length === 3 && /^\d+$/.test(segments[2]) && segments[2].toLowerCase() === id;
+  if (!northAmerican && !international) return null;
+  return `${parsed.hostname.toLowerCase().replace(/^www\./, '')}/${segments.join('/').toLowerCase()}`;
+}
+
+function discoveryStorefrontUrl(url) {
+  try {
+    const parsed = new URL(clean(url));
+    if (/(^|\.)evyy\.net$/i.test(parsed.hostname)) return clean(parsed.searchParams.get('u'));
+    return parsed.toString();
+  } catch {
+    return '';
+  }
+}
+
+export function recheckPromotion(event, data, attractionId) {
+  if (clean(event?.verification_status) !== 'needs_recheck' || clean(event?.source_type) !== 'ticketmaster') return null;
+  const wanted = clean(attractionId);
+  if (!wanted || !(data?._embedded?.attractions || []).some((attraction) => clean(attraction?.id) === wanted)) return null;
+  const stored = canonicalStorefrontPath(event.ticketmaster_url, event.ticketmaster_event_id);
+  if (!stored || stored !== canonicalStorefrontPath(discoveryStorefrontUrl(data?.url), event.ticketmaster_event_id)) return null;
+  if (!/T\d{2}:\d{2}/.test(clean(event.datetime_iso)) || !clean(data?.dates?.start?.dateTime)) return null;
+  if (data?.dates?.start?.noSpecificTime === true || data?.dates?.start?.timeTBA === true || data?.dates?.start?.dateTBA === true) return null;
+  if (!clean(event.venue) || !clean(event.city)) return null;
+  const code = clean(data?.dates?.status?.code).toLowerCase();
+  if (!['onsale', 'offsale', 'rescheduled'].includes(code)) return null;
+  return { field: 'verification_status', from: 'needs_recheck', to: 'machine_high_confidence' };
+}
+
+async function loadAttractionIds() {
+  const identities = await readJson(new URL('../data/provider-identities.json', import.meta.url));
+  const map = new Map();
+  for (const artist of identities?.artists || []) {
+    if (artist?.review_status === 'verified' && clean(artist.ticketmaster_attraction_id)) map.set(clean(artist.slug), clean(artist.ticketmaster_attraction_id));
+  }
+  return map;
+}
+
 async function readJson(url) {
   const raw = await fs.readFile(url, 'utf8');
   return JSON.parse(raw);
@@ -482,6 +546,8 @@ function computeIntendedUpdates(event, remote, now = Date.now()) {
     if (JSON.stringify(retained) !== JSON.stringify(event.organizer_names)) metadata.organizer_names = retained.length ? retained : null;
   }
   for (const [field, value] of Object.entries(metadata)) {
+    // A cleared fact (null) on a row that never had it is not a change.
+    if (value === null && (event[field] ?? null) === null) continue;
     if (JSON.stringify(event[field]) !== JSON.stringify(value)) changes.push({ field, from: event[field] ?? null, to: value });
   }
 
@@ -741,7 +807,7 @@ function computeLifecycleChange(event, remote) {
 //     now lists", which is only true once the new date itself has applied.
 //   - A recorded hold is also surfaced for review, because only a human
 //     decides whether the row is removed and tombstoned.
-export function planEventSync(event, remote, discoveryId) {
+export function planEventSync(event, remote, discoveryId, { attractionId = null } = {}) {
   const intendedChanges = computeIntendedUpdates(event, remote);
   const blockers = attachIntendedChanges(computeReviewBlockers(event, remote), intendedChanges);
   const lifecycleChange = computeLifecycleChange(event, remote);
@@ -753,6 +819,8 @@ export function planEventSync(event, remote, discoveryId) {
   }
   if (!blockers.length) {
     applied.push(...intendedChanges, ...wrongNightLinkChanges(event, intendedChanges));
+    const promotion = lifecycleChange && HOLD_LIFECYCLE_CODES.has(lifecycleChange.to) ? null : recheckPromotion(event, remote?.data, attractionId);
+    if (promotion) applied.push(promotion);
     // Keep the verified date we previously published when Discovery confirms
     // a reschedule. A first-seen rescheduled record has no known previous date.
     // Repeated syncs preserve the original date; cosmetic UTC/local changes
@@ -792,6 +860,62 @@ export function planEventSync(event, remote, discoveryId) {
     // A hold recorded past other blockers is not a verified record.
     stampVerified: applied.length > 0 && blockers.length === 0
   };
+}
+
+// Evaluate the complete proposed batch before touching the source rows. This
+// permits clean date swaps while withholding new duplicate/ambiguous groups.
+// Restoring one row can expose another collision, so repeat until no further
+// shape-changing update needs withholding. Holds remain safe to record.
+export function withholdDuplicateSyncPlans(events, planned) {
+  const unresolved = new Set([
+    EVENT_DUPLICATE_CLASS.SAME_PERFORMANCE,
+    EVENT_DUPLICATE_CLASS.AMBIGUOUS,
+    EVENT_DUPLICATE_CLASS.SHARED_PROVIDER_LISTING
+  ]);
+  const signature = (group) => `${group.kind}:${group.key}:${[...group.ids].sort().join(',')}`;
+  const existing = new Set(deriveEventDuplicateGroups(events)
+    .filter((group) => unresolved.has(group.classification)).map(signature));
+  const shapeFields = new Set(['datetime_iso', 'timezone', 'venue', 'city', 'country', 'event_name']);
+  const records = planned.map((candidate) => ({ ...candidate, plan: { ...candidate.plan } }));
+  const byId = new Map(records.map((candidate) => [candidate.event.id, candidate]));
+  for (;;) {
+    const projected = events.map((event) => {
+      const changes = byId.get(event.id)?.plan.applied || [];
+      if (!changes.length) return event;
+      const copy = structuredClone(event);
+      applyChanges(copy, changes);
+      return copy;
+    });
+    const collisions = deriveEventDuplicateGroups(projected)
+      .filter((group) => unresolved.has(group.classification) && !existing.has(signature(group)));
+    const blocked = new Map();
+    for (const group of collisions) {
+      for (const id of group.ids) {
+        const candidate = byId.get(id);
+        if (!candidate?.plan.applied.some((change) => shapeFields.has(change.field))) continue;
+        if (!blocked.has(id)) blocked.set(id, new Set());
+        for (const peerId of group.ids) if (peerId !== id) blocked.get(id).add(peerId);
+      }
+    }
+    if (!blocked.size) return records;
+    for (const [id, peers] of blocked) {
+      const candidate = byId.get(id);
+      const keepHold = (change) => change.field === LIFECYCLE_FIELD && HOLD_LIFECYCLE_CODES.has(change.to);
+      const withheld = candidate.plan.applied.filter((change) => !keepHold(change));
+      candidate.plan = {
+        ...candidate.plan,
+        applied: candidate.plan.applied.filter(keepHold),
+        blocked: true,
+        stampVerified: false,
+        reviewItems: [...candidate.plan.reviewItems, reviewItem(
+          candidate.event, candidate.discoveryId, candidate.remote.data, 'duplicate_performance',
+          `The proposed update creates a duplicate or ambiguous performance with: ${[...peers].sort().join(', ')}.`,
+          withheld,
+          'Review the conflicting records together by PR; retain the canonical identity and verified links, and tombstone any removed duplicate. Do not change frozen indexing cohort keys.'
+        )]
+      };
+    }
+  }
 }
 
 // A date move (a reschedule) leaves resale links pointing at listings whose own
@@ -869,6 +993,43 @@ async function runSelfTest() {
   const remote = (o) => ({ data: { id: 'X', dates: { start: {}, timezone: '' }, _embedded: { venues: [{ name: '', city: { name: '' }, country: { name: '' } }] }, ...o } });
   const fieldsOf = (e, r) => computeIntendedUpdates(e, r).map((c) => c.field);
 
+  {
+    // needs_recheck promotion (owner decision 2026-11-06).
+    const intlUrl = 'https://www.ticketmaster.se/event/u2-the-greatest-show-on-earth-world-tour-tickets/1852040169?language=en-us';
+    const row = (o = {}) => ({ id: 'tm-u2-x', artist_slug: 'u2', artist_name: 'U2', source_type: 'ticketmaster', verification_status: 'needs_recheck',
+      ticketmaster_discovery_event_id: 'Z698xZq2Z16v-3vZAt', ticketmaster_event_id: '1852040169', ticketmaster_url: intlUrl,
+      datetime_iso: '2027-04-26T17:30:00Z', timezone: 'Europe/Stockholm', venue: 'Strawberry Arena', city: 'Stockholm', country: 'Sweden', event_name: 'U2', ...o });
+    const wrapped = `https://ticketmaster.evyy.net/c/1/2/3?u=${encodeURIComponent(intlUrl)}&utm_medium=affiliate`;
+    const resp = (o = {}) => ({ data: { id: 'Z698xZq2Z16v-3vZAt', name: 'U2', url: wrapped,
+      dates: { status: { code: 'onsale' }, start: { dateTime: '2027-04-26T17:30:00Z' }, timezone: 'Europe/Stockholm' },
+      _embedded: { venues: [{ name: 'Strawberry Arena', city: { name: 'Stockholm' }, country: { name: 'Sweden' } }], attractions: [{ id: 'K8vZ91712W7', name: 'U2' }, { id: 'K1', name: 'Wolf Alice' }] }, ...o } });
+    const promoted = (e, r, attractionId = 'K8vZ91712W7') => planEventSync(e, r, 'Z698xZq2Z16v-3vZAt', { attractionId }).applied.find((c) => c.field === 'verification_status');
+    const p0 = planEventSync(row(), resp(), 'Z698xZq2Z16v-3vZAt', { attractionId: 'K8vZ91712W7' });
+    assert('a confirmed international storefront link upgrades needs_recheck', p0.applied.some((c) => c.field === 'verification_status' && c.to === 'machine_high_confidence'));
+    assert('the upgrade writes no URL, least of all an affiliate one', !p0.applied.some((c) => c.field === 'ticketmaster_url') && !JSON.stringify(p0.applied).includes('evyy'));
+    const na = 'https://www.ticketmaster.com/olivia-rodrigo-unwind-tour-boston-ma-07-01-2026/event/01006297A1B2C3D4';
+    assert('a confirmed North American long-form link upgrades', promoted(row({ ticketmaster_url: na, ticketmaster_event_id: '01006297A1B2C3D4' }), resp({ url: na })));
+    assert('a short /event/<id> link stays flagged', !promoted(row({ ticketmaster_url: 'https://www.ticketmaster.com/event/01006297A1B2C3D4', ticketmaster_event_id: '01006297A1B2C3D4' }), resp({ url: 'https://www.ticketmaster.com/event/01006297A1B2C3D4' })));
+    assert('no verified attraction on the record: stays flagged', !promoted(row(), resp(), 'K-other'));
+    assert('no registry attraction id: stays flagged', !promoted(row(), resp(), null));
+    assert('a snapshot without attraction ids: stays flagged', !promoted(row(), resp({ _embedded: { venues: [{ name: 'Strawberry Arena', city: { name: 'Stockholm' }, country: { name: 'Sweden' } }], attractions: [{ name: 'U2' }] } })));
+    assert('Discovery naming a different storefront event: stays flagged', !promoted(row(), resp({ url: intlUrl.replace('1852040169', '1656128289') })));
+    assert('a stored id that is not in the link: stays flagged', !promoted(row({ ticketmaster_event_id: '999' }), resp()));
+    assert('a date-only row: stays flagged', !promoted(row({ datetime_iso: '2027-04-26' }), resp()));
+    assert('a time-TBA record: stays flagged', !promoted(row(), resp({ dates: { status: { code: 'onsale' }, start: { dateTime: '2027-04-26T17:30:00Z', noSpecificTime: true }, timezone: 'Europe/Stockholm' } })));
+    for (const flag of ['timeTBA', 'noSpecificTime', 'dateTBA']) {
+      const raw = resp({ dates: { status: { code: 'onsale' }, start: { dateTime: '2027-04-26T17:30:00Z', [flag]: true }, timezone: 'Europe/Stockholm' } });
+      assert(`a ${flag} record stays flagged after the shared snapshot projection`, !promoted(row(), { data: snapshotFields(raw.data) }));
+    }
+    assert('a projected confirmed record still upgrades', promoted(row(), { data: snapshotFields(resp().data) }));
+    assert('a postponed record: stays flagged', !promoted(row(), resp({ dates: { status: { code: 'postponed' }, start: { dateTime: '2027-04-26T17:30:00Z' }, timezone: 'Europe/Stockholm' } })));
+    assert('a non-Ticketmaster host: stays flagged', !promoted(row({ ticketmaster_url: intlUrl.replace('ticketmaster.se', 'example.se') }), resp({ url: intlUrl.replace('ticketmaster.se', 'example.se') })));
+    assert('an identity mismatch blocks the upgrade', !promoted(row({ artist_name: 'Somebody Else' }), resp()));
+    assert('an already-confident row is untouched', !promoted(row({ verification_status: 'machine_high_confidence' }), resp()));
+    assert('a human-verified row is untouched', !promoted(row({ verification_status: 'human_verified' }), resp()));
+    assert('a non-Ticketmaster source is untouched', !promoted(row({ source_type: 'manual' }), resp()));
+  }
+
   assert('a throttled fetch alone does not veto other events\' updates', tmCommitSafe(2, [{ status: 429 }, { status: 503 }, { status: null }]));
   assert('a 401/403 error still vetoes the commit', !tmCommitSafe(2, [{ status: 429 }, { status: 403 }]));
   assert('no updates means nothing to commit even with only throttles', !tmCommitSafe(0, [{ status: 429 }]));
@@ -879,6 +1040,10 @@ async function runSelfTest() {
   assert('ambiguous stored names are cleared without dropping genuine co-organizers', JSON.stringify(computeIntendedUpdates(ev({ artist_name: 'Artist', venue: 'Hall', organizer_names: ['ARTIST', 'HALL', 'Real Promoter'] }), remote({})).find((c) => c.field === 'organizer_names')?.to) === JSON.stringify(['Real Promoter']));
   assert('a verified venue change clears a newly ambiguous organizer name', computeIntendedUpdates(ev({ venue: 'Old Hall', organizer_names: ['New Hall'] }), remote({ _embedded: { venues: [{ name: 'New Hall' }] } })).some((c) => c.field === 'organizer_names' && c.to === null));
 
+  assert('a stated ticket limit, legal-age flag and genre are stored', ['ticket_limit', 'legal_age_enforced', 'genre'].every((f) => fieldsOf(ev({}), remote({ ticketLimit: { info: 'There is a 4 Ticket Limit on this event' }, ageRestrictions: { legalAgeEnforced: true }, classifications: [{ primary: true, segment: { name: 'Music' }, genre: { name: 'Rock' } }] })).includes(f)));
+  assert('unusable buying facts on a row without them are not changes', !fieldsOf(ev({}), remote({ ticketLimit: { info: 'See box office' }, ageRestrictions: { legalAgeEnforced: false }, classifications: [] })).some((f) => ['ticket_limit', 'legal_age_enforced', 'genre'].includes(f)));
+  assert('a dropped legal-age flag clears the stored fact', computeIntendedUpdates(ev({ legal_age_enforced: true }), remote({ ageRestrictions: { legalAgeEnforced: false } })).some((c) => c.field === 'legal_age_enforced' && c.to === null));
+  assert('old snapshots do not erase buying facts', !fieldsOf(ev({ ticket_limit: 4, legal_age_enforced: true, genre: 'Rock' }), remote({})).some((f) => ['ticket_limit', 'legal_age_enforced', 'genre'].includes(f)));
   assert('official promoter names are stored', fieldsOf(ev({}), remote({ promoters: [{ name: 'Official Promoter' }] })).includes('organizer_names'));
   assert('old snapshots do not erase organizers', !fieldsOf(ev({ organizer_names: ['Official Promoter'] }), remote({})).includes('organizer_names'));
   assert('a changed start clears an unsupported old event end', computeIntendedUpdates(ev({ datetime_iso: '2026-10-01T18:00:00Z', end_datetime_iso: '2026-10-01T21:00:00Z' }), remote({ dates: { start: { dateTime: '2026-10-02T18:00:00Z' } } })).some((c) => c.field === 'end_datetime_iso' && c.to === null));
@@ -987,6 +1152,63 @@ async function runSelfTest() {
   const full = (code, o = {}) => ({ data: { id: 'Z7r9jZ1A706ep', name: 'Artist', dates: { status: { code }, start: { dateTime: '2026-10-01T00:00:00Z' }, timezone: 'America/New_York' },
     _embedded: { venues: [{ name: 'Hall', city: { name: 'Town' }, country: { name: 'United States' } }] }, ...o } });
   const plan = (e, r) => planEventSync(e, r, 'Z7r9jZ1A706ep');
+  {
+    const row = (id, day, extra = {}) => clean_({
+      id, artist_slug: 'artist', ticketmaster_event_id: `store-${id}`,
+      datetime_iso: `2026-10-${day}T20:00:00Z`, timezone: 'America/New_York',
+      source_type: 'ticketmaster', verification_status: 'machine_high_confidence', ...extra
+    });
+    const proposed = (event, day, code = 'rescheduled', extra = {}) => {
+      const response = full(code, {
+        dates: { status: { code }, start: { dateTime: `2026-10-${day}T20:00:00Z` }, timezone: 'America/New_York' },
+        ...extra
+      });
+      return { event, discoveryId: 'Z7r9jZ1A706ep', remote: response, plan: plan(event, response) };
+    };
+    const a = row('a', '01', { ticketmaster_status_code: 'postponed' });
+    const b = row('b', '08');
+    const c = row('c', '15');
+    const proposals = [proposed(a, '08', 'onsale'), proposed(c, '22')];
+    const before = JSON.stringify({ events: [a, b, c], proposals });
+    const checked = withholdDuplicateSyncPlans([a, b, c], proposals);
+    const collision = checked[0].plan;
+    assert('a date move onto an existing performance is withheld', collision.blocked && collision.applied.length === 0);
+    assert('a colliding update cannot clear a hold or bump verification', !collision.stampVerified && a.ticketmaster_status_code === 'postponed');
+    const review = collision.reviewItems.find((item) => item.kind === 'duplicate_performance');
+    assert('collision review identifies the peer and withheld date', review?.detail.includes('b') && review.intendedChanges.some((change) => change.field === 'datetime_iso'));
+    assert('an unrelated clean date move survives', !checked[1].plan.blocked && checked[1].plan.stampVerified && checked[1].plan.applied.some((change) => change.field === 'datetime_iso'));
+    assert('remaining clean updates still pass the commit gate', tmCommitSafe(1, []));
+    assert('preflight never mutates events or input plans', JSON.stringify({ events: [a, b, c], proposals }) === before);
+    for (const status of ['cancelled', 'canceled', 'postponed']) {
+      const held = withholdDuplicateSyncPlans([c, b], [proposed(c, '08', status)])[0].plan;
+      assert(`a ${status} hold survives a duplicate date move`, held.applied.length === 1 && held.applied[0].field === LIFECYCLE_FIELD && held.applied[0].to === status && !held.stampVerified);
+    }
+    const history = withholdDuplicateSyncPlans([c, b], [proposed(c, '08')])[0].plan;
+    assert('a withheld reschedule creates no history or rescheduled label', history.applied.length === 0 && history.reviewItems.some((item) => item.intendedChanges?.some((change) => change.field === 'previous_start_date')));
+    const swapped = withholdDuplicateSyncPlans([a, b], [proposed(a, '08'), proposed(b, '01')]);
+    assert('a clean simultaneous date swap is allowed', swapped.every((item) => !item.plan.blocked && item.plan.applied.some((change) => change.field === 'datetime_iso')));
+    const cascade = [proposed(a, '08'), proposed(c, '01'), proposed(row('d', '24'), '25')];
+    const cascadeEvents = [a, b, c, cascade[2].event];
+    const forward = withholdDuplicateSyncPlans(cascadeEvents, cascade);
+    const reverse = withholdDuplicateSyncPlans(cascadeEvents, [...cascade].reverse());
+    assert('restoring a withheld row catches a cascading collision', forward[0].plan.blocked && forward[1].plan.blocked && !forward[2].plan.blocked);
+    assert('decisions do not depend on proposal order', forward.every((item) => JSON.stringify(item.plan) === JSON.stringify(reverse.find((other) => other.event.id === item.event.id).plan)));
+    const matinee = row('matinee', '08', { datetime_iso: '2026-10-08T14:00:00Z' });
+    const evening = row('evening', '15');
+    assert('distinct same-venue performances at least three hours apart remain allowed', !withholdDuplicateSyncPlans([matinee, evening], [proposed(evening, '08')])[0].plan.blocked);
+    const near = proposed(evening, '08', 'rescheduled', { dates: { status: { code: 'rescheduled' }, start: { dateTime: '2026-10-08T16:00:00Z' }, timezone: 'America/New_York' } });
+    assert('ambiguous same-day performances are withheld', withholdDuplicateSyncPlans([matinee, evening], [near])[0].plan.blocked);
+    const venueChange = proposed(matinee, '08', 'onsale', { dates: { status: { code: 'onsale' }, start: { dateTime: matinee.datetime_iso }, timezone: 'America/New_York' }, _embedded: { venues: [{ name: 'Another Hall', city: { name: 'Town' }, country: { name: 'United States' } }] } });
+    assert('a venue change making two performances ambiguous is withheld', withholdDuplicateSyncPlans([matinee, row('evening', '08')], [venueChange])[0].plan.blocked);
+    const oldDuplicate = row('old-duplicate', '08');
+    assert('existing unresolved groups do not block unrelated updates', !withholdDuplicateSyncPlans([b, oldDuplicate, c], [proposed(c, '22')])[0].plan.blocked);
+    assert('joining an existing duplicate group is withheld', withholdDuplicateSyncPlans([b, oldDuplicate, c], [proposed(c, '08')])[0].plan.blocked);
+    const tomorrow = new Date(Date.now() + 86400000).toISOString();
+    const nextDay = new Date(Date.now() + 172800000).toISOString();
+    const metadataOnly = proposed(b, '08', 'onsale', { sales: { presales: [{ name: 'Artist presale', startDateTime: tomorrow, endDateTime: nextDay }] } });
+    const metadataChecked = withholdDuplicateSyncPlans([b, oldDuplicate], [metadataOnly])[0].plan;
+    assert('an existing group does not block safe metadata updates', !metadataChecked.blocked && metadataChecked.applied.some((change) => change.field === 'presales'));
+  }
   const lifecycleOf = (p) => p.applied.find((c) => c.field === 'ticketmaster_status_code');
   assert('cancelled is recorded verbatim', lifecycleOf(plan(clean_(), full('cancelled')))?.to === 'cancelled');
   assert('the "canceled" spelling is recorded as supplied', lifecycleOf(plan(clean_(), full('canceled')))?.to === 'canceled');
@@ -1260,6 +1482,7 @@ async function main() {
   const snapshot = await loadSnapshot(snapshotPath, base);
   const sweep = createSnapshotSweep({ base, snapshot, secrets: [apiKey] });
   const indexed = await loadIndexedArtistSlugs();
+  const attractionIds = await loadAttractionIds();
   const events = await readJson(eventsPath);
   const includePast = includePastFromEnv();
   const { targets, skippedPast } = selectSyncTargets(events, indexed, { includePast });
@@ -1273,6 +1496,7 @@ async function main() {
     if (indexed.has(clean(event?.artist_slug)) && !ticketmasterDiscoveryEventId(event)) sweep.unresolvable(event);
   }
   const updates = [];
+  const planned = [];
   const reviewItems = [];
   const errors = [];
   const blockedUpdateIds = [];
@@ -1311,19 +1535,19 @@ async function main() {
         recommendedAction: 'Retry on the next run. A throttled or unavailable event is left untouched; other events in the run are unaffected.'
       });
     } else {
-      const plan = planEventSync(event, result, id);
-      reviewItems.push(...plan.reviewItems);
-      if (plan.blocked) blockedUpdateIds.push(event.id);
-      if (plan.applied.length) {
-        applyChanges(event, plan.applied);
-        if (plan.stampVerified) stampVerified(event);
-        updates.push({
-          ...summarizeEvent(event, id, result.data),
-          changes: plan.applied
-        });
-      }
+      const plan = planEventSync(event, result, id, { attractionId: attractionIds.get(clean(event.artist_slug)) });
+      planned.push({ event, remote: result, discoveryId: id, plan });
     }
     if (result.source === 'direct' && requestDelayMs > 0) await sleep(requestDelayMs);
+  }
+
+  for (const { event, remote, discoveryId, plan } of withholdDuplicateSyncPlans(events, planned)) {
+    reviewItems.push(...plan.reviewItems);
+    if (plan.blocked) blockedUpdateIds.push(event.id);
+    if (!plan.applied.length) continue;
+    applyChanges(event, plan.applied);
+    if (plan.stampVerified) stampVerified(event);
+    updates.push({ ...summarizeEvent(event, discoveryId, remote.data), changes: plan.applied });
   }
 
   const summary = {
@@ -1334,8 +1558,8 @@ async function main() {
     errors: errors.length,
     transientErrors: errors.filter((e) => e.transient).length,
     blockedUpdateIds: blockedUpdateIds.length,
-    // Updates are only ever applied to events with zero review blockers (see
-    // the per-event branch above), so standing review items on OTHER events —
+    // Factual changes need both per-event and batch checks; safety holds can
+    // still be recorded on blocked rows. Standing review items on OTHER events —
     // e.g. the permanently-offsale rows — do not make the applied updates
     // unsafe. A non-transient error still vetoes the commit. A throttled (429),
     // 5xx or network-failed fetch only leaves that one event untouched, so it

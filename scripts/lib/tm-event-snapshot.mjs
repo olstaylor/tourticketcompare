@@ -28,7 +28,7 @@ export function snapshotFields(data) {
     dates: {
       timezone: raw(data.dates?.timezone),
       end: { dateTime: raw(data.dates?.end?.dateTime), approximate: raw(data.dates?.end?.approximate), noSpecificTime: raw(data.dates?.end?.noSpecificTime) },
-      start: { dateTime: raw(data.dates?.start?.dateTime), localDate: raw(data.dates?.start?.localDate), timeZone: raw(data.dates?.start?.timeZone) },
+      start: { dateTime: raw(data.dates?.start?.dateTime), localDate: raw(data.dates?.start?.localDate), timeZone: raw(data.dates?.start?.timeZone), noSpecificTime: raw(data.dates?.start?.noSpecificTime), timeTBA: raw(data.dates?.start?.timeTBA), dateTBA: raw(data.dates?.start?.dateTBA) },
       status: { code: raw(data.dates?.status?.code) }
     },
     sales: {
@@ -42,9 +42,15 @@ export function snapshotFields(data) {
           .map((p) => ({ name: raw(p?.name), startDateTime: raw(p?.startDateTime), endDateTime: raw(p?.endDateTime) }))
         : null
     },
+    // Buying facts (owner pick 2026-11-06): the stated ticket limit text and
+    // the legal-age flag, plus the genre names of each classification. Free
+    // text notes (pleaseNote, info) are not kept.
+    ticketLimit: object(data.ticketLimit) ? { info: raw(data.ticketLimit.info) } : null,
+    ageRestrictions: object(data.ageRestrictions) ? { legalAgeEnforced: raw(data.ageRestrictions.legalAgeEnforced) } : null,
+    classifications: list(data.classifications, (c) => ({ primary: raw(c?.primary), segment: { name: raw(c?.segment?.name) }, genre: { name: raw(c?.genre?.name) }, subGenre: { name: raw(c?.subGenre?.name) } })),
     _embedded: {
       venues: list(data._embedded?.venues, (v) => ({ name: raw(v?.name), timezone: raw(v?.timezone), city: { name: raw(v?.city?.name) }, country: { name: raw(v?.country?.name) } })),
-      attractions: list(data._embedded?.attractions, (a) => ({ name: raw(a?.name) }))
+      attractions: list(data._embedded?.attractions, (a) => ({ id: raw(a?.id), name: raw(a?.name) }))
     }
   };
 }

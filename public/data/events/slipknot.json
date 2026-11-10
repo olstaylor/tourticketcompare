@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/slipknot-tickets-london-wembley-stadium-7-3-2027--concerts-hard-rock/production/7619111",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/slipknot-sicest-stadium-tour-london-03-07-2027/event/23006535DBD80E3B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -37,7 +37,7 @@
         "event_id": 7619111,
         "url": "https://www.vividseats.com/slipknot-tickets-london-wembley-stadium-7-3-2027--concerts-hard-rock/production/7619111",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -74,7 +74,9 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294333/Slipknot-tickets-Sat-Jul-3-2027-Wembley-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/slipknot-tickets-london-wembley-stadium-3-7-2027/event/107670588",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294333"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294333",
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-slipknot-2027-washington-1a4zkfmgkdgza4s",
@@ -92,7 +94,7 @@
     "vividseats_url": "https://www.vividseats.com/slipknot-tickets-washington-dc-nationals-park-7-16-2027/production/7618150",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-washington-district-of-columbia-07-16-2027/event/15006537CCE09571",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -107,14 +109,14 @@
         "event_id": 18626597,
         "url": "https://seatgeek.com/slipknot-tickets/washington-district-of-columbia-nationals-park-2027-07-16-6-30-pm/concert/18626597",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618150,
         "url": "https://www.vividseats.com/slipknot-tickets-washington-dc-nationals-park-7-16-2027/production/7618150",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -161,7 +163,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293109",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-slipknot-2027-queens-g5vvz_kci8xei",
@@ -179,7 +183,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-queens-new-york-07-18-2027/event/1D006533A84229EC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -225,7 +229,9 @@
     "organizer_names": [
       "LIVE NATION - NO LN CONCERTS BRANDING",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-slipknot-2027-montreal-1ad7z_3gkln01oc",
@@ -243,7 +249,7 @@
     "vividseats_url": "https://www.vividseats.com/slipknot-tickets-montreal-parc-jean-drapeau-7-21-2027--concerts-hard-rock/production/7619095",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/slipknot-sicest-tour-at-parc-jeandrapeau-montreal-quebec-07-21-2027/event/3100652AE390A46D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -258,14 +264,14 @@
         "event_id": 18626589,
         "url": "https://seatgeek.com/slipknot-tickets/montreal-canada-parc-jean-drapeau-2027-07-21-6-30-pm/concert/18626589",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619095,
         "url": "https://www.vividseats.com/slipknot-tickets-montreal-parc-jean-drapeau-7-21-2027--concerts-hard-rock/production/7619095",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -314,7 +320,9 @@
       "EVENKO CO-PRO WITH LIVE NATION",
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-slipknot-2027-toronto-1k7zvpczgauvkjd",
@@ -332,7 +340,7 @@
     "vividseats_url": "https://www.vividseats.com/slipknot-tickets-toronto-rogers-stadium---toronto-7-23-2027--concerts-hard-rock/production/7619010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/slipknot-sicest-stadium-tour-toronto-ontario-07-23-2027/event/100065380DD06703",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -347,14 +355,14 @@
         "event_id": 18626595,
         "url": "https://seatgeek.com/slipknot-tickets/toronto-canada-rogers-stadium-toronto-2027-07-23-6-30-pm/concert/18626595",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619010,
         "url": "https://www.vividseats.com/slipknot-tickets-toronto-rogers-stadium---toronto-7-23-2027--concerts-hard-rock/production/7619010",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -385,7 +393,9 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-ROGERS",
       "LIVE NATION CANADA-RBC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-slipknot-2027-chicago-vv167zkfmpfza26gu7",
@@ -403,7 +413,7 @@
     "vividseats_url": "https://www.vividseats.com/slipknot-tickets-chicago-soldier-field-7-25-2027/production/7618194",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-chicago-illinois-07-25-2027/event/04006537948E6BC3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -418,14 +428,14 @@
         "event_id": 18626573,
         "url": "https://seatgeek.com/slipknot-tickets/chicago-illinois-soldier-field-2027-07-25-6-30-pm/concert/18626573",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618194,
         "url": "https://www.vividseats.com/slipknot-tickets-chicago-soldier-field-7-25-2027/production/7618194",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -477,7 +487,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293111",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-slipknot-2027-hershey-vv1aezkfzgkdcrpxj",
@@ -495,7 +507,7 @@
     "vividseats_url": "https://www.vividseats.com/slipknot-tickets-hershey-hersheypark-stadium-7-28-2027/production/7618200",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-hershey-pennsylvania-07-28-2027/event/02006538CE7A589C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -510,14 +522,14 @@
         "event_id": 18626575,
         "url": "https://seatgeek.com/slipknot-tickets/hershey-pennsylvania-hersheypark-stadium-2027-07-28-6-30-pm/concert/18626575",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618200,
         "url": "https://www.vividseats.com/slipknot-tickets-hershey-hersheypark-stadium-7-28-2027/production/7618200",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -564,7 +576,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293112",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-slipknot-2027-boston-z7r9jz1aavzbi",
@@ -582,7 +596,7 @@
     "vividseats_url": "https://www.vividseats.com/slipknot-tickets-boston-fenway-park-7-31-2027/production/7618248",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzbI",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -597,14 +611,14 @@
         "event_id": 18626574,
         "url": "https://seatgeek.com/slipknot-tickets/boston-massachusetts-fenway-park-2027-07-31-6-30-pm/concert/18626574",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618248,
         "url": "https://www.vividseats.com/slipknot-tickets-boston-fenway-park-7-31-2027/production/7618248",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -644,7 +658,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293113",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-slipknot-2027-nashville-z7r9jz1aaeazk",
@@ -662,7 +677,7 @@
     "vividseats_url": "https://www.vividseats.com/slipknot-tickets-nashville-firstbank-stadium-8-3-2027--concerts-hard-rock/production/7619197",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaZk",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -677,14 +692,14 @@
         "event_id": 18626599,
         "url": "https://seatgeek.com/slipknot-tickets/nashville-tennessee-firstbank-stadium-2027-08-03-6-30-pm/concert/18626599",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619197,
         "url": "https://www.vividseats.com/slipknot-tickets-nashville-firstbank-stadium-8-3-2027--concerts-hard-rock/production/7619197",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -716,7 +731,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293196",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-slipknot-2027-houston-g5diz_kx0z68q",
@@ -734,7 +750,7 @@
     "vividseats_url": "https://www.vividseats.com/slipknot-tickets-houston-daikin-park-8-6-2027/production/7618372",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-houston-texas-08-06-2027/event/3A006538A400741D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -749,14 +765,14 @@
         "event_id": 18626578,
         "url": "https://seatgeek.com/slipknot-tickets/houston-texas-daikin-park-2027-08-06-6-30-pm/concert/18626578",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618372,
         "url": "https://www.vividseats.com/slipknot-tickets-houston-daikin-park-8-6-2027/production/7618372",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -803,7 +819,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293114",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-slipknot-2027-commerce-city-g5vzz_kofjm9p",
@@ -821,7 +839,7 @@
     "vividseats_url": "https://www.vividseats.com/slipknot-tickets-commerce-city-dicks-sporting-goods-park-8-9-2027/production/7618504",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-commerce-city-colorado-08-09-2027/event/1E006538149B75E5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -836,14 +854,14 @@
         "event_id": 18626584,
         "url": "https://seatgeek.com/slipknot-tickets/commerce-city-colorado-dick-s-sporting-goods-park-2027-08-09-6-30-pm/concert/18626584",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618504,
         "url": "https://www.vividseats.com/slipknot-tickets-commerce-city-dicks-sporting-goods-park-8-9-2027/production/7618504",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -882,7 +900,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293115",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-slipknot-2027-inglewood-vvg1iz_k9by2hw",
@@ -900,7 +920,7 @@
     "vividseats_url": "https://www.vividseats.com/slipknot-tickets-inglewood-sofi-stadium-8-13-2027/production/7618116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-inglewood-california-08-13-2027/event/0A006535D8E4F6FD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -915,14 +935,14 @@
         "event_id": 18626585,
         "url": "https://seatgeek.com/slipknot-tickets/inglewood-california-sofi-stadium-2027-08-13-6-30-pm/concert/18626585",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618116,
         "url": "https://www.vividseats.com/slipknot-tickets-inglewood-sofi-stadium-8-13-2027/production/7618116",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -969,7 +989,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293118",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal"
   },
   {
     "id": "tm-slipknot-2027-san-francisco-g5vyz_khsbrlp",
@@ -987,7 +1009,7 @@
     "vividseats_url": "https://www.vividseats.com/slipknot-tickets-san-francisco-golden-gate-park-8-15-2027/production/7618380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-tour-at-golden-gate-san-francisco-california-08-15-2027/event/1C006536F362FAE5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1009,7 +1031,7 @@
         "event_id": 7618380,
         "url": "https://www.vividseats.com/slipknot-tickets-san-francisco-golden-gate-park-8-15-2027/production/7618380",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1050,7 +1072,8 @@
     "organizer_names": [
       "ANOTHER PLANET",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Metal"
   },
   {
     "id": "tm-slipknot-2027-phoenix-1a_zkfggkdfoifq",
@@ -1068,7 +1091,7 @@
     "vividseats_url": "https://www.vividseats.com/slipknot-tickets-phoenix-chase-field-8-18-2027/production/7618544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-phoenix-arizona-08-18-2027/event/19006535C882821D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1090,7 +1113,7 @@
         "event_id": 7618544,
         "url": "https://www.vividseats.com/slipknot-tickets-phoenix-chase-field-8-18-2027/production/7618544",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1142,6 +1165,7 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293122",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Metal"
   }
 ]

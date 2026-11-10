@@ -118,7 +118,7 @@
     text.className = "cookie-consent__text";
     text.appendChild(
       document.createTextNode(
-        "TourTicketCompare would like to use Google Analytics to count visits and an Impact affiliate tag to measure page views. Both set cookies, and neither loads unless you accept. "
+        "Allow Google Analytics and Impact affiliate cookies? Neither loads unless you accept. "
       )
     );
     var policy = document.createElement("a");

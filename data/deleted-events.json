@@ -295,6 +295,31 @@
       "canonical_id": "tm-the-airborne-toxic-event-2027-chicago-z7r9jz1aazbfj",
       "reason": "Discovery now reschedules this October record to 26 May 2027 at Vic Theatre, duplicating the retained May record for the same artist and venue (source times differ by one minute). Verified from the 27 October 2026 audit snapshot consumed by nightly run 40479483975; the old record has no verified provider links. Retain the existing May record and its verified SeatGeek, TicketNetwork and Ticket Liquidator identities. Removing and tombstoning the duplicate unblocks nightly integrity validation.",
       "deleted_at": "2026-10-27"
+    },
+    {
+      "artist_slug": "daniel-caesar",
+      "id": "tm-daniel-caesar-2026-honolulu-vvg1iz_fxhtber",
+      "ticketmaster_discovery_event_id": "vvG1IZ_fXHtbeR",
+      "ticketmaster_event_id": "0A00654FBCA580AF",
+      "reason": "Ticketmaster Discovery API confirms this Honolulu performance is cancelled; reviewed 2026-11-05. Tombstoned by event identity only so a replacement performance is not suppressed.",
+      "deleted_at": "2026-11-05"
+    },
+    {
+      "artist_slug": "daniel-caesar",
+      "id": "tm-daniel-caesar-2026-honolulu-vvg1iz_fxhniew",
+      "ticketmaster_discovery_event_id": "vvG1IZ_fXHnIew",
+      "ticketmaster_event_id": "0A00654FBCAA80B2",
+      "reason": "Ticketmaster Discovery API confirms this Honolulu performance is cancelled; reviewed 2026-11-05. Tombstoned by event identity only so a replacement performance is not suppressed.",
+      "deleted_at": "2026-11-05"
+    },
+    {
+      "artist_slug": "tyla",
+      "id": "tm-tyla-2026-seattle-vvg1hz_4ubjbln",
+      "ticketmaster_discovery_event_id": "vvG1HZ_4UBjbLN",
+      "ticketmaster_event_id": "0F00655DBA7187E3",
+      "canonical_id": "tm-tyla-2026-seattle-vvg1hz_2qgz489",
+      "reason": "Duplicate of the retained frozen-cohort Seattle event: both exact Ticketmaster Discovery records confirm Tyla at Paramount Theatre on 2026-11-17 at 20:00 local. Retain the existing TTC identity and its live rescheduled source; remove this second admission record. API-verified 2026-11-05.",
+      "deleted_at": "2026-11-05"
     }
   ]
 }

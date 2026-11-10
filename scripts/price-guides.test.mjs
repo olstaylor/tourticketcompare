@@ -222,7 +222,7 @@ function failingDb() {
 }
 
 const baseAssets = new Map();
-for (const file of ["index.html", "data/catalog.json", "data/artists.json", "data/guides-content.json", "data/blog-content.json", "data/provider-configs.json"]) {
+for (const file of ["index.html", "data/catalog.json", "data/artists.json", "data/guides-content.json", "data/blog-content.json"]) {
   baseAssets.set(`/${file}`, await read(`public/${file}`));
 }
 baseAssets.set("/", baseAssets.get("/index.html"));
@@ -327,7 +327,7 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   const options = { withDb: true, events: lizzyEvents, dbOptions: { priceRows } };
   const artist = await render("/artists/lizzy-mcalpine", options);
   const guide = await render("/artists/lizzy-mcalpine/ticket-prices", options);
-  const lead = text(artist.html.match(/<div data-artist-lead>([\s\S]*?)<\/div>/)?.[1]);
+  const lead = text(artist.html.match(/<div data-artist-lead>([\s\S]*?<p class="price-guide-link">[\s\S]*?<\/p>)/)?.[1]);
   const answer = text(guide.main.match(/<p class="lead">([\s\S]*?)<\/p>/)?.[1]);
   assert(artist.status === 200 && guide.status === 200, "Lizzy artist and existing guide both render");
   assert(lead.includes(answer), "the artist lead repeats exactly the guide's current attributed answer");
@@ -405,6 +405,17 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(/href="\/api\/out\?[^"]*showId=pg-man-1[^"]*"/.test(cheapest.replace(/&amp;/g, "&")) && !/GBP\s?395/.test(cheapest), "the cheapest is that date's own tracked button, not a range");
   assert(/not every site/.test(cheapest) && !UNSUPPORTED_CHEAPEST_CLAIM.test(text(page.main)), "the panel says which sites it covers and makes no blanket promise");
   assert(page.main.indexOf('id="priceGuideCheapestTitle"') < page.main.indexOf('id="priceGuideGlanceTitle"'), "the cheapest panel sits straight after the lead");
+  // 2026-11-06: the artist page opens with the same cheapest pick (owner request
+  // to make the cheapest ticket findable on the first phone screen).
+  const artistPage = await render("/artists/oasis");
+  const artistLead = artistPage.main.match(/<div data-artist-lead>[\s\S]*?(?=<div id="artistShowBoard"|$)/)?.[0] || "";
+  const artistCheapest = artistLead.match(/<section class="nested-panel price-cheapest"[\s\S]*?<\/section>/)?.[0] || "";
+  assert(/<h2 id="artistCheapestTitle">Cheapest Oasis tickets<\/h2>/.test(artistCheapest), "the artist page lead names the cheapest ticket");
+  assert(
+    text(artistCheapest).includes("Cheapest listed price of 2 priced dates: GBP 182 on Vivid Seats for Fri, Sep 11, 2026 in Manchester (Heaton Park).") && /datetime="2026-08-09T09:00/.test(artistCheapest),
+    `the artist-page pick carries site, date, place and check time (got ${text(artistCheapest).slice(0, 240)})`
+  );
+  assert(artistCheapest.replace(/&amp;/g, "&").includes("ctaLocation=artist_cheapest") && artistLead.indexOf("price-cheapest") < artistLead.indexOf("price-guide-link"), "the artist-page pick sits under the intro, before the price-guide link, and reports its own cta location");
   assert(/The cheapest listed price of the 2 priced dates is GBP\s182 on Vivid Seats, for Fri, Sep 11, 2026 in Manchester, checked/.test(text(page.main)), "the cheapest-tickets FAQ answers with the same pick");
   assert(/<div class="action-row"><a[^>]+href="\/artists\/oasis"[^>]*class="button button-primary"|<div class="action-row"><a[^>]+class="button button-primary"[^>]*href="\/artists\/oasis"/.test(page.main), "the lead's one primary action is comparing tickets on the artist page");
   // Owner review 2026-10-06: the summary comes straight after the lead, then

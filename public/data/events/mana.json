@@ -216,7 +216,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-detroit-michigan-11-01-2026/event/0800626482020F30",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -271,7 +271,9 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-mana-2026-houston-z7r9jz1a7rbk4",
@@ -304,14 +306,14 @@
         "event_id": 17938858,
         "url": "https://seatgeek.com/mana-tickets/houston-texas-toyota-center-2026-11-06-8-30-pm/concert/17938858",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6361549,
         "url": "https://www.vividseats.com/mana-tickets-houston-toyota-center---tx-11-6-2026--concerts-latin-music/production/6361549",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -322,25 +324,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7594542",
-        "url": "https://www.ticketnetwork.com/en/p/7594542",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7594542",
-        "url": "https://www.ticketliquidator.com/tickets/7594542/Mana-tickets-Fri-Nov-6-2026-Toyota-Center-TX",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7rbk4",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7594542",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7594542/Mana-tickets-Fri-Nov-6-2026-Toyota-Center-TX",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -361,7 +363,7 @@
     "vividseats_url": "https://www.vividseats.com/mana-tickets-austin-moody-center-atx-11-8-2026--concerts-latin-music/production/6361403",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-austin-texas-11-08-2026/event/3A0063780576D4F7",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -376,14 +378,14 @@
         "event_id": 17938859,
         "url": "https://seatgeek.com/mana-tickets/austin-texas-moody-center-atx-2026-11-08-8-30-pm/concert/17938859",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6361403,
         "url": "https://www.vividseats.com/mana-tickets-austin-moody-center-atx-11-8-2026--concerts-latin-music/production/6361403",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -415,7 +417,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7594543/Mana-tickets-Sun-Nov-8-2026-Moody-Center-ATX",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-mana-2026-ciudad-de-mexico-17azv0g6glh8hre",
@@ -433,7 +437,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/mana-ciudad-de-mexico-16-12-2026/event/140064CADB43C782",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -487,7 +491,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8178327/Mana-tickets-Wed-Dec-16-2026-Estadio-GNP-Seguros-Mexico-City",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-mana-2026-ciudad-de-mexico-17azv0g6gcz4ax4",
@@ -505,7 +510,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/mana-ciudad-de-mexico-17-12-2026/event/140064C3B8549F95",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -543,7 +548,8 @@
     "status": "on-sale",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-mana-2027-highland-z7r9jz1aa7ngx",
@@ -561,7 +567,7 @@
     "vividseats_url": "https://www.vividseats.com/mana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-4-6-2027/production/7730506",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NGx",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -583,7 +589,7 @@
         "event_id": 7730506,
         "url": "https://www.vividseats.com/mana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-4-6-2027/production/7730506",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -612,7 +618,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334766",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334766/Mana-tickets-Tue-Apr-6-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334766/Mana-tickets-Tue-Apr-6-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+    "genre": "World"
   },
   {
     "id": "tm-mana-2027-highland-z7r9jz1aa7x_k",
@@ -630,7 +637,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_k",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -681,7 +688,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334767",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334767/Mana-tickets-Thu-Apr-8-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334767/Mana-tickets-Thu-Apr-8-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+    "genre": "World"
   },
   {
     "id": "tm-mana-2027-highland-z7r9jz1aa7x_7",
@@ -699,7 +707,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -750,7 +758,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334768",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334768/Mana-tickets-Sun-Apr-11-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334768/Mana-tickets-Sun-Apr-11-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+    "genre": "World"
   },
   {
     "id": "tm-mana-2027-highland-z7r9jz1aa7x_6",
@@ -768,7 +777,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -819,7 +828,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334769",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334769/Mana-tickets-Wed-Sep-1-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334769/Mana-tickets-Wed-Sep-1-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+    "genre": "World"
   },
   {
     "id": "tm-mana-2027-highland-z7r9jz1aa7ng-",
@@ -837,7 +847,7 @@
     "vividseats_url": "https://www.vividseats.com/mana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-9-2-2027/production/7730502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NG-",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -859,7 +869,7 @@
         "event_id": 7730502,
         "url": "https://www.vividseats.com/mana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-9-2-2027/production/7730502",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -888,7 +898,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334770",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334770/Mana-tickets-Thu-Sep-2-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334770/Mana-tickets-Thu-Sep-2-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+    "genre": "World"
   },
   {
     "id": "tm-mana-2027-highland-z7r9jz1aa7x_a",
@@ -906,7 +917,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -957,6 +968,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8334771",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334771/Mana-tickets-Mon-Sep-6-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8334771/Mana-tickets-Mon-Sep-6-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+    "genre": "World"
   }
 ]

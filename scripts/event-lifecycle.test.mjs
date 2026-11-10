@@ -169,7 +169,7 @@ function fakeDb() {
   };
 }
 
-const ASSET_FILES = ["index.html", "data/catalog.json", "data/artists.json", "data/guides-content.json", "data/blog-content.json", "data/provider-configs.json"];
+const ASSET_FILES = ["index.html", "data/catalog.json", "data/artists.json", "data/guides-content.json", "data/blog-content.json"];
 const baseAssets = new Map();
 for (const file of ASSET_FILES) baseAssets.set(`/${file}`, await read(`public/${file}`));
 baseAssets.set("/", baseAssets.get("/index.html"));

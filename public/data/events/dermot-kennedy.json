@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/dermot-kennedy-the-weight-of-the-west-perth-14-11-2026/event/1300649DDDE18C16",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -53,7 +53,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MELLEN EVENTS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2026-brisbane-1avgz_agksulpj1",
@@ -71,7 +73,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/dermot-kennedy-the-weight-of-the-brisbane-17-11-2026/event/1300649CCD7D698A",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -109,7 +111,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2026-christchurch-1ae8z_agkm57djw",
@@ -127,7 +130,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-christchurch-25-11-2026/event/2400649DCB103732",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -181,7 +184,9 @@
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326048/Dermot-Kennedy-tickets-Wed-Nov-25-2026-Christchurch-Town-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326048/Dermot-Kennedy-tickets-Wed-Nov-25-2026-Christchurch-Town-Hall",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2026-wellington-1ae8z_agkmdax8r",
@@ -199,7 +204,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-wellington-27-11-2026/event/2400649BBB16241E",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -237,7 +242,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2026-auckland-1ae8z_agkranxjl",
@@ -255,7 +262,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dermot-kennedy-the-weight-of-the-auckland-28-11-2026/event/2400649BC98E299F",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -309,7 +316,9 @@
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173279/Dermot-Kennedy-tickets-Sat-Nov-28-2026-Spark-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173279/Dermot-Kennedy-tickets-Sat-Nov-28-2026-Spark-Arena",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-tramore-rd-cork-1kkzvpozga5u0fg",
@@ -327,7 +336,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/dermot-kennedy-tramore-rd-cork-23-06-2027/event/180065478BDA420C",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365,7 +374,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-tramore-rd-cork-1kkzvpozga5mff_",
@@ -383,7 +394,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/dermot-kennedy-tramore-rd-cork-24-06-2027/event/180065478BDD4219",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421,7 +432,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-belfast-1azzk4kgkeju-cx",
@@ -439,7 +452,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/dermot-kennedy-belfast-26-06-2027/event/38006546A6DA13BE",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -485,6 +498,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/dermot-kennedy-tickets-belfast-ormeau-park-26-6-2027/event/107673343",
     "organizer_names": [
       "BELSONIC LTD"
-    ]
+    ],
+    "ticket_limit": 9,
+    "genre": "Rock"
   }
 ]

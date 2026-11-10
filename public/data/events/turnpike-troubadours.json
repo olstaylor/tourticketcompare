@@ -137,7 +137,7 @@
     "vividseats_url": "https://www.vividseats.com/turnpike-troubadours-tickets-las-vegas-brooklyn-bowl---las-vegas-12-11-2026/production/7382778",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hooey-presents-turnpike-troubadours-las-vegas-nevada-12-11-2026/event/170064FCD16931A8",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -152,14 +152,14 @@
         "event_id": 18424535,
         "url": "https://seatgeek.com/turnpike-troubadours-tickets/las-vegas-nevada-brooklyn-bowl-las-vegas-2026-12-11-9-pm/concert/18424535",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382778,
         "url": "https://www.vividseats.com/turnpike-troubadours-tickets-las-vegas-brooklyn-bowl---las-vegas-12-11-2026/production/7382778",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -199,7 +199,10 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8182281/Turnpike-Troubadours-tickets-Fri-Dec-11-2026-Brooklyn-Bowl-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8182281/Turnpike-Troubadours-tickets-Fri-Dec-11-2026-Brooklyn-Bowl-Las-Vegas",
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Country"
   },
   {
     "id": "tm-turnpike-troubadours-2027-morrison-z7r9jz1aa7_ae",
@@ -217,7 +220,7 @@
     "vividseats_url": "https://www.vividseats.com/turnpike-troubadours-tickets-morrison-red-rocks-amphitheatre-5-13-2027--concerts-country-and-folk/production/7721391",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_ae",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -232,14 +235,14 @@
         "event_id": 18709207,
         "url": "https://seatgeek.com/turnpike-troubadours-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-13-7-pm/concert/18709207",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7721391,
         "url": "https://www.vividseats.com/turnpike-troubadours-tickets-morrison-red-rocks-amphitheatre-5-13-2027--concerts-country-and-folk/production/7721391",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -268,7 +271,8 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329462",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329462/Turnpike-Troubadours-tickets-Thu-May-13-2027-Red-Rocks-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329462/Turnpike-Troubadours-tickets-Thu-May-13-2027-Red-Rocks-Amphitheatre",
+    "genre": "Country"
   },
   {
     "id": "tm-turnpike-troubadours-2027-morrison-z7r9jz1aa7_av",
@@ -286,7 +290,7 @@
     "vividseats_url": "https://www.vividseats.com/turnpike-troubadours-tickets-morrison-red-rocks-amphitheatre-5-14-2027--concerts-country-and-folk/production/7721393",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_av",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -301,14 +305,14 @@
         "event_id": 18706629,
         "url": "https://seatgeek.com/turnpike-troubadours-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-14-7-pm/concert/18706629",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7721393,
         "url": "https://www.vividseats.com/turnpike-troubadours-tickets-morrison-red-rocks-amphitheatre-5-14-2027--concerts-country-and-folk/production/7721393",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -337,6 +341,7 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329463",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329463/Turnpike-Troubadours-tickets-Fri-May-14-2027-Red-Rocks-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329463/Turnpike-Troubadours-tickets-Fri-May-14-2027-Red-Rocks-Amphitheatre",
+    "genre": "Country"
   }
 ]

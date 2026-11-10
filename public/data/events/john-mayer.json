@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-8-2027--concerts-pop/production/7620849",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-08-2027/event/170065350993896D",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -30,14 +30,14 @@
         "event_id": 18626622,
         "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-08-8-pm/concert/18626622",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620849,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-8-2027--concerts-pop/production/7620849",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -84,7 +84,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294204",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7ucku",
@@ -102,7 +104,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-10-2027--concerts-pop/production/7620851",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-10-2027/event/1700653837DAD4F6",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -117,14 +119,14 @@
         "event_id": 18626621,
         "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-10-8-pm/concert/18626621",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620851,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-10-2027--concerts-pop/production/7620851",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -171,7 +173,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294205",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7uckz",
@@ -189,7 +193,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-11-2027--concerts-pop/production/7620859",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-11-2027/event/1700653837DAD4F8",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,14 +208,14 @@
         "event_id": 18626620,
         "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-11-8-pm/concert/18626620",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620859,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-11-2027--concerts-pop/production/7620859",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -258,7 +262,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294206",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7uwkb",
@@ -276,7 +282,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-15-2027--concerts-pop/production/7620867",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-15-2027/event/1700653837DBD4FA",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -291,14 +297,14 @@
         "event_id": 18626619,
         "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-15-8-pm/concert/18626619",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620867,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-15-2027--concerts-pop/production/7620867",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -345,7 +351,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294208",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mukw",
@@ -363,7 +371,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-17-2027--concerts-pop/production/7620877",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-17-2027/event/1700653837DCD4FD",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -378,14 +386,14 @@
         "event_id": 18626618,
         "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-17-8-pm/concert/18626618",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620877,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-17-2027--concerts-pop/production/7620877",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -432,7 +440,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294209",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mukt",
@@ -450,7 +460,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-18-2027--concerts-pop/production/7620887",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-18-2027/event/1700653837DCD4FF",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -465,14 +475,14 @@
         "event_id": 18626617,
         "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-18-8-pm/concert/18626617",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620887,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-18-2027--concerts-pop/production/7620887",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -519,7 +529,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294211",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7i6pt",
@@ -537,7 +549,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-28-2027/production/7666097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-28-2027/event/1700654592A0797F",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -552,14 +564,14 @@
         "event_id": 18659121,
         "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-28-8-pm/concert/18659121",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7666097,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-28-2027/production/7666097",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -606,7 +618,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310915",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7w9n5",
@@ -624,7 +638,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-30-2027/production/7666099",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-30-2027/event/1700654592C97A8B",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -639,14 +653,14 @@
         "event_id": 18659117,
         "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-30-8-pm/concert/18659117",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7666099,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-4-30-2027/production/7666099",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -693,7 +707,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310917",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7dmck",
@@ -711,7 +727,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-1-2027/production/7666101",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-01-2027/event/1700654592EF7B46",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -726,14 +742,14 @@
         "event_id": 18659119,
         "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-05-01-8-pm/concert/18659119",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7666101,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-1-2027/production/7666101",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -780,7 +796,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310918",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mqfv",
@@ -798,7 +816,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-5-2027/production/7666127",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-05-2027/event/1700653837DDD501",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -813,14 +831,14 @@
         "event_id": 18659122,
         "url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-05-05-8-pm/concert/18659122",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7666127,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-5-2027/production/7666127",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -867,7 +885,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310919",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mcfd",
@@ -885,7 +905,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-7-2027/production/7666103",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-07-2027/event/1700653837DED503",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -907,7 +927,7 @@
         "event_id": 7666103,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-7-2027/production/7666103",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -954,7 +974,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310920",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mwfa",
@@ -972,7 +994,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-8-2027/production/7666109",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-08-2027/event/1700653837DFD505",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -994,7 +1016,7 @@
         "event_id": 7666109,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-8-2027/production/7666109",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1041,7 +1063,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310921",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mwf6",
@@ -1059,7 +1083,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-12-2027/production/7667194",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-12-2027/event/1700653837DFD507",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1081,7 +1105,7 @@
         "event_id": 7667194,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-12-2027/production/7667194",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1128,7 +1152,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311171",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zufa",
@@ -1146,7 +1172,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-14-2027/production/7667150",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-14-2027/event/1700653837E0D509",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1168,7 +1194,7 @@
         "event_id": 7667150,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-14-2027/production/7667150",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1215,7 +1241,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311172",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zqf5",
@@ -1233,7 +1261,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-15-2027/production/7667162",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-15-2027/event/1700653837E1D50B",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1255,7 +1283,7 @@
         "event_id": 7667162,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-5-15-2027/production/7667162",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1302,7 +1330,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311173",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zqfu",
@@ -1320,7 +1350,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-2-2027/production/7667172",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-02-2027/event/1700653837E1D50D",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1342,7 +1372,7 @@
         "event_id": 7667172,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-2-2027/production/7667172",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1389,7 +1419,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311174",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zcf2",
@@ -1407,7 +1439,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-4-2027/production/7667164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-04-2027/event/1700653837E2D50F",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1429,7 +1461,7 @@
         "event_id": 7667164,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-4-2027/production/7667164",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1476,7 +1508,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311175",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zwf4",
@@ -1494,7 +1528,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-5-2027/production/7667154",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-05-2027/event/1700653837E3D515",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1516,7 +1550,7 @@
         "event_id": 7667154,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-5-2027/production/7667154",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1563,7 +1597,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311176",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zwf9",
@@ -1581,7 +1617,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-9-2027/production/7697558",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-09-2027/event/1700653837E3D517",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1603,7 +1639,7 @@
         "event_id": 7697558,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-9-2027/production/7697558",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1650,7 +1686,9 @@
         "start": "2026-10-14T17:00:00Z",
         "end": "2027-06-03T05:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7yuf_",
@@ -1668,7 +1706,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-11-2027/production/7697562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-11-2027/event/1700653837E4D519",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1690,7 +1728,7 @@
         "event_id": 7697562,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-11-2027/production/7697562",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1737,7 +1775,9 @@
         "start": "2026-10-14T17:00:00Z",
         "end": "2027-06-05T05:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7yufh",
@@ -1755,7 +1795,7 @@
     "vividseats_url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-12-2027/production/7697560",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-12-2027/event/1700653837E4D51B",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1777,7 +1817,7 @@
         "event_id": 7697560,
         "url": "https://www.vividseats.com/john-mayer-tickets-las-vegas-sphere-6-12-2027/production/7697560",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1824,6 +1864,8 @@
         "start": "2026-10-14T17:00:00Z",
         "end": "2027-06-06T05:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   }
 ]

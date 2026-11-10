@@ -157,7 +157,7 @@ const EVENTS = [
 // ─── part 3: rendered routes ───────────────────────────────────────────────
 
 const baseAssets = new Map();
-for (const file of ["index.html", "data/catalog.json", "data/artists.json", "data/guides-content.json", "data/blog-content.json", "data/provider-configs.json"]) {
+for (const file of ["index.html", "data/catalog.json", "data/artists.json", "data/guides-content.json", "data/blog-content.json"]) {
   baseAssets.set(`/${file}`, await read(`public/${file}`));
 }
 baseAssets.set("/", baseAssets.get("/index.html"));
@@ -225,6 +225,7 @@ const text = (html) =>
   const page = await render("/artists/oasis/presale", EVENTS.filter((event) => !event.presales));
   assert(page.status === 200 && page.robots.startsWith("noindex"), "with nothing listed the page renders noindex");
   assert(text(page.main).includes("There's no upcoming presale"), "with nothing listed the page says so");
+  assert(/Next Oasis dates/.test(text(page.main)), "with nothing listed the page still opens its next dates, so a late visitor can reach the sale");
 }
 
 {

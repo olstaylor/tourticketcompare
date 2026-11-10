@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-inglewood-intuit-dome-2-26-2027/production/7047204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-inglewood-california-02-26-2027/event/090064AFF1A0DF67",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -30,14 +30,14 @@
         "event_id": 18252820,
         "url": "https://seatgeek.com/morat-tickets/inglewood-california-intuit-dome-2027-02-26-8-pm/concert/18252820",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047204,
         "url": "https://www.vividseats.com/morat-tickets-inglewood-intuit-dome-2-26-2027/production/7047204",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -84,7 +84,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2027-el-paso-vvg1yz_1xncffn",
@@ -98,11 +100,11 @@
     "tour_name": "YEM: Ya Es Mañana World Tour 2027",
     "ticketmaster_event_id": "0C0064AFA338822A",
     "ticketmaster_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-el-paso-texas-02-28-2027/event/0C0064AFA338822A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morat-tickets/el-paso-texas-don-haskins-center-2027-02-28-8-pm/concert/18251588",
     "vividseats_url": "https://www.vividseats.com/morat-tickets-el-paso-don-haskins-center-2-28-2027/production/7047161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-el-paso-texas-02-28-2027/event/0C0064AFA338822A",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -114,17 +116,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251588,
+        "url": "https://seatgeek.com/morat-tickets/el-paso-texas-don-haskins-center-2027-02-28-8-pm/concert/18251588",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047161,
         "url": "https://www.vividseats.com/morat-tickets-el-paso-don-haskins-center-2-28-2027/production/7047161",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -171,7 +173,8 @@
     ],
     "organizer_names": [
       "UNIV.OF TEXAS EL PASO"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2027-rosemont-vvg18z_1rgckw0",
@@ -189,7 +192,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-rosemont-illinois-03-05-2027/event/040064A78C386CA4",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,7 +207,7 @@
         "event_id": 18252137,
         "url": "https://seatgeek.com/morat-tickets/rosemont-illinois-rosemont-theatre-2027-03-05-8-pm/concert/18252137",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -255,7 +258,8 @@
         "start": "2026-05-28T15:00:00Z",
         "end": "2027-02-26T23:00:00Z"
       }
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2027-boston-vvg17z_1b5nnhl",
@@ -273,7 +277,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-boston-agganis-arena-3-7-2027/production/7047171",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-boston-massachusetts-03-07-2027/event/010064AE8B8EA6EB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -288,14 +292,14 @@
         "event_id": 18251537,
         "url": "https://seatgeek.com/morat-tickets/boston-massachusetts-agganis-arena-2027-03-07-8-pm/concert/18251537",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047171,
         "url": "https://www.vividseats.com/morat-tickets-boston-agganis-arena-3-7-2027/production/7047171",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -339,7 +343,9 @@
         "start": "2026-05-28T14:00:00Z",
         "end": "2027-02-28T22:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2027-grand-prairie-z7r9jz1a70iu_",
@@ -372,14 +378,14 @@
         "event_id": 18259792,
         "url": "https://seatgeek.com/morat-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-03-12-8-pm/concert/18259792",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049584,
         "url": "https://www.vividseats.com/morat-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-3-12-2027/production/7049584",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -441,14 +447,14 @@
         "event_id": 18259793,
         "url": "https://seatgeek.com/morat-tickets/sugar-land-texas-smart-financial-centre-2027-03-13-8-pm/concert/18259793",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049495,
         "url": "https://www.vividseats.com/morat-tickets-sugar-land-smart-financial-centre-3-13-2027/production/7049495",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -464,12 +470,28 @@
         "verified": true,
         "last_verified_at": "2026-09-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7983752",
+        "url": "https://www.ticketliquidator.com/tickets/7983752/Morat-tickets-Sat-Mar-13-2027-Smart-Financial-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198192",
+        "url": "https://www.stubhub.ie/morat-sugar-land-tickets-3-13-2027/event/107198192",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Iu-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7983752"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7983752",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7983752/Morat-tickets-Sat-Mar-13-2027-Smart-Financial-Centre",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-sugar-land-tickets-3-13-2027/event/107198192"
   },
   {
     "id": "tm-morat-2027-hidalgo-g5diz_1bprewh",
@@ -487,7 +509,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-hidalgo-payne-arena-3-14-2027/production/7047159",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-hidalgo-texas-03-14-2027/event/3A0064AE96BE7CBC",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -502,14 +524,14 @@
         "event_id": 18251579,
         "url": "https://seatgeek.com/morat-tickets/hidalgo-texas-payne-arena-2027-03-14-8-pm/concert/18251579",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047159,
         "url": "https://www.vividseats.com/morat-tickets-hidalgo-payne-arena-3-14-2027/production/7047159",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -553,7 +575,8 @@
         "start": "2026-05-28T15:00:00Z",
         "end": "2027-03-07T23:00:00Z"
       }
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2027-orlando-17fov0g61xg_prh",
@@ -571,7 +594,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-orlando-kia-center-3-18-2027/production/7047153",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-orlando-florida-03-18-2027/event/220064AF8C665BDB",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -586,14 +609,14 @@
         "event_id": 18251530,
         "url": "https://seatgeek.com/morat-tickets/orlando-florida-kia-center-2027-03-18-8-pm/concert/18251530",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047153,
         "url": "https://www.vividseats.com/morat-tickets-orlando-kia-center-3-18-2027/production/7047153",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -640,7 +663,9 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2027-miami-vvg1vz_1toy-p6",
@@ -658,7 +683,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-miami-kaseya-center-3-20-2027/production/7047163",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-miami-florida-03-20-2027/event/0D0064AFE0C21947",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -673,14 +698,14 @@
         "event_id": 18251573,
         "url": "https://seatgeek.com/morat-tickets/miami-florida-kaseya-center-2027-03-20-8-pm/concert/18251573",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047163,
         "url": "https://www.vividseats.com/morat-tickets-miami-kaseya-center-3-20-2027/production/7047163",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -727,7 +752,8 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2027-toronto-177zv0g65ag8wpj",
@@ -745,7 +771,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-toronto-history-toronto-3-26-2027--concerts-pop/production/7048962",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/morat-yem-world-tour-2027-toronto-ontario-03-26-2027/event/100064B27543259C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -767,7 +793,7 @@
         "event_id": 7048962,
         "url": "https://www.vividseats.com/morat-tickets-toronto-history-toronto-3-26-2027--concerts-pop/production/7048962",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -784,7 +810,9 @@
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2027-montreal-17g8v0g65cezfzf",
@@ -802,7 +830,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-montreal-mtelus-3-27-2027/production/7061569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/morat-yem-world-tour-2027-montreal-quebec-03-27-2027/event/310064B3A7014E14",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -824,7 +852,7 @@
         "event_id": 7061569,
         "url": "https://www.vividseats.com/morat-tickets-montreal-mtelus-3-27-2027/production/7061569",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -864,7 +892,9 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7985892",
     "organizer_names": [
       "EVENKO CO-PRO NON-LN"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2027-brooklyn-17gzv0g61xr7dfv",
@@ -882,7 +912,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-brooklyn-barclays-center-4-1-2027/production/7047077",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-brooklyn-new-york-04-01-2027/event/300064AF9E103501",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -904,7 +934,7 @@
         "event_id": 7047077,
         "url": "https://www.vividseats.com/morat-tickets-brooklyn-barclays-center-4-1-2027/production/7047077",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -948,7 +978,9 @@
         "start": "2026-05-28T14:00:00Z",
         "end": "2027-03-25T21:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2027-fairfax-17a8v0g61boau0r",
@@ -966,7 +998,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-fairfax-eaglebank-arena-4-3-2027/production/7047151",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-fairfax-virginia-04-03-2027/event/150064AEA017692F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -988,7 +1020,7 @@
         "event_id": 7047151,
         "url": "https://www.vividseats.com/morat-tickets-fairfax-eaglebank-arena-4-3-2027/production/7047151",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1027,7 +1059,8 @@
     ],
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2026-pamplona-iruna-z698xz2qz16voojza6",
@@ -1162,7 +1195,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-07-11-2026/event/14006482BB9A7DA2",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1205,7 +1238,8 @@
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJEUx",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-7-11-2026/event/107155225"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-7-11-2026/event/107155225",
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmu0",
@@ -1223,7 +1257,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-08-11-2026/event/14006482BB9B7DA4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1256,17 +1290,18 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107154768",
-        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-8-11-2026/event/107154768",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJMU0",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-8-11-2026/event/107154768"
+    "stubhub_international_url": "",
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedteuw",
@@ -1284,7 +1319,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-13-11-2026/event/14006482BBA67DBD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1343,7 +1378,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8278052",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8278052/Morat-tickets-Fri-Nov-13-2026-Palacio-De-Los-Deportes-Mexico-City",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-13-11-2026/event/107155498"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-13-11-2026/event/107155498",
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedteut",
@@ -1361,7 +1397,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-14-11-2026/event/14006482BBA67DBF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1404,7 +1440,8 @@
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDtEUT",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-14-11-2026/event/107154770"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-14-11-2026/event/107154770",
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmuj",
@@ -1422,7 +1459,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-15-11-2026/event/14006482BB9B7DA6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1465,7 +1502,8 @@
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJMUJ",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-15-11-2026/event/107154769"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-15-11-2026/event/107154769",
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedtmmv",
@@ -1483,7 +1521,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-17-11-2026/event/14006482BBA77DC1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1526,7 +1564,8 @@
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDtMMv",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-17-11-2026/event/107649095"
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-17-11-2026/event/107649095",
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2026-tlajomulco-de-zuniga-g5dvz_f6tnua-",
@@ -1544,7 +1583,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/morat-tlajomulco-de-zuniga-20-11-2026/event/3D006481E9AB6161",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1582,7 +1621,8 @@
     "status": "on-sale",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2026-tlajomulco-de-zuniga-g5dvz_f6ivj5r",
@@ -1600,7 +1640,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/morat-tlajomulco-de-zuniga-21-11-2026/event/3D006481ECD262DE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1638,7 +1678,8 @@
     "status": "on-sale",
     "organizer_names": [
       "OCESA"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-morat-2026-valencia-z698xz2qz1aofa18",

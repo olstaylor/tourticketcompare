@@ -31,7 +31,7 @@ const EDGE_CACHEABLE_ROUTES = new Set([
   "/terms"
 ]);
 const expectedH1 = new Map([
-  ["/", "Compare ticket prices for the show you want."],
+  ["/", "Compare resale ticket prices for your show, site by site."],
   ["/artists", "Tracked artists"],
   ["/cities", "Concerts by city"],
   ["/on-sale", "Concert tickets going on sale"],
@@ -52,7 +52,7 @@ const expectedTitle = new Map([
   ["/", "Compare Concert Ticket Prices | TourTicketCompare"],
   ["/artists", "Artists | TourTicketCompare"],
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
-  ["/on-sale", "Concert Tickets Going On Sale Soon | TourTicketCompare"],
+  ["/on-sale", "Concert Tickets On Sale This Week | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
   ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Which Is Better?"],
   ["/blog", "Ticket Research Blog | TourTicketCompare"],
@@ -70,7 +70,7 @@ const homepageDescription = "Compare ticket prices for the show you want. Choose
 const APP_ASSET_VERSION = "20261102a";
 const TTC_HOME_ASSET_VERSION = "20261023b";
 const TTC_HOME_JS_ASSET_VERSION = "20261025a";
-const TTC_SHELL_ASSET_VERSION = "20261023b";
+const TTC_SHELL_ASSET_VERSION = "20261107a";
 const SHELL_SCRIPT_ASSET_VERSION = "20261023b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-kHeWCj29Ws6APptXbU360N2/swJwl7jTRo//eaLVdFc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
@@ -1000,7 +1000,7 @@ assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must 
 assert(!indexHtml.includes("googletagmanager.com/gtm.js"), "index.html must not load Google Tag Manager before consent");
 assert(!indexHtml.includes("googletagmanager.com/ns.html"), "index.html must not include the no-JavaScript GTM frame, which would load without consent");
 assert(!indexHtml.includes("/impact-publisher-tag.js"), "index.html must not load the Impact publisher tag before consent");
-assert(indexHtml.includes('<script src="/consent.js?v=20260925a" defer></script>'), "index.html must load the consent manager");
+assert(indexHtml.includes('<script src="/consent.js?v=20261107a" defer></script>'), "index.html must load the consent manager");
 assert(
   indexHtml.indexOf("/consent.js?v=") < indexHtml.indexOf("/app.js?v="),
   "the consent manager must run before the app bundle"
@@ -1023,7 +1023,7 @@ assert(/<button[^>]*data-consent-open[^>]*>Cookie settings<\/button>/.test(index
     (consentJs.match(/button button-secondary cookie-consent__button/g) || []).length === 1,
     "Reject and Accept share one button style, so rejecting is as easy as accepting"
   );
-  const bannerCopy = consentJs.match(/"TourTicketCompare would like[^"]*"/)?.[0] || "";
+  const bannerCopy = consentJs.match(/"Allow Google Analytics[^"]*"/)?.[0] || "";
   assert(bannerCopy && findFirstPersonPlural(bannerCopy).length === 0, "the banner copy follows the site voice");
 }
 assert(
@@ -1057,7 +1057,7 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   assert(csp === EXPECTED_CSP, `${pathname} CSP should match expected value, got: ${csp}`);
   assert(!csp.includes("'unsafe-inline'"), `${pathname} CSP must not contain 'unsafe-inline'`);
   assert(csp.includes("https://utt.impactcdn.com"), `${pathname} CSP must allow the account Publisher Tag loader`);
-  assert(text.includes('<script src="/consent.js?v=20260925a" defer></script>'), `${pathname} must load the consent manager`);
+  assert(text.includes('<script src="/consent.js?v=20261107a" defer></script>'), `${pathname} must load the consent manager`);
   assert(!text.includes("/impact-publisher-tag.js"), `${pathname} must not load the Impact publisher tag before consent`);
   assert(!text.includes("googletagmanager.com/gtm.js"), `${pathname} must not load Google Tag Manager before consent`);
   // Every rendered route keeps the browser revalidating, so a deploy that bumps
@@ -1316,7 +1316,7 @@ assert(/<h2\b[^>]*>More on Ticketmaster, SeatGeek and Vivid Seats<\/h2>/.test(tr
 const noProviderGuide = await routeResponse("/guides/how-to-avoid-ticket-scams");
 assert(!/<h2\b[^>]*>More on /.test(noProviderGuide.text), "a guide about no ticket site should not render a More on <provider> block");
 
-// An artist named by published posts links them back (up to three, newest first).
+// An artist named by published posts links them back (at least three, newest first; a post the artist page already features elsewhere can add one more).
 const smokeBlogContent = JSON.parse(await read("public/data/blog-content.json"));
 const postSlugsByArtist = new Map();
 for (const post of (smokeBlogContent.posts || []).filter((entry) => entry.status === "published")) {
@@ -1341,7 +1341,7 @@ for (const [artistSlug, postSlugs] of postSlugsByArtist) {
   const artistPage = await routeResponse(`/artists/${artistSlug}`);
   const linked = postSlugs.filter((slug) => artistPage.text.includes(`href="/blog/${slug}"`)).length;
   assert(
-    linked === Math.min(3, postSlugs.length),
+    linked >= Math.min(3, postSlugs.length),
     `/artists/${artistSlug} links ${linked} of the ${postSlugs.length} published post(s) that name it`
   );
 }
@@ -1619,8 +1619,8 @@ assert(
   "homepage search order must not depend on the order events-index.json happens to be in",
 );
 assert(!ttcHomeJs.includes("main.replaceChildren") && !ttcHomeJs.includes('getElementById("ttc-main").innerHTML'), "homepage enhancement must not replace the server-rendered visual DOM");
-assert(ttcHomeJs.includes("Compare ticket prices for the show you want."), "homepage should lead with the comparison intent");
-assert(ttcHomeJs.includes("then check the final total on the ticket site."), "homepage should tell fans where the final total is confirmed");
+assert(ttcHomeJs.includes("Compare resale ticket prices for your show, site by site."), "homepage should lead with the comparison intent");
+assert(ttcHomeJs.includes("then confirm the total on the ticket site."), "homepage should tell fans where the final total is confirmed");
 assert(!ttcHomeJs.includes("human-checked") && !ttcHomeJs.includes("reviewed by a human"), "homepage should not claim every automated verification is performed by a human");
 assert(!ttcHomeJs.includes("statsSection(DATA)"), "homepage should not render the stale statistics strip");
 assert(!ttcHomeJs.includes("never show live prices"), "homepage should not make an absolute no-price claim that contradicts approved snapshot support");
@@ -4405,11 +4405,13 @@ console.log("artist-city landing-page verification passed");
   const rssXml = await rss.text();
   assert(rss.status === 200, "/blog/rss.xml should return 200");
   assert(rss.headers.get("Content-Type")?.includes("application/rss+xml"), "the feed should be served as RSS");
+  // The feed lists the newest 50 indexable posts (MAX_ITEMS in functions/blog/rss.xml.js).
+  const feedPaths = new Set(allPosts.filter((post) => blogModule.postIndexable(post)).slice(0, 50).map((post) => post.path));
   for (const post of allPosts) {
     const present = rssXml.includes(`<link>https://tourticketcompare.com${post.path}</link>`);
     assert(
-      present === blogModule.postIndexable(post),
-      `the feed should carry ${post.path} only when the site would index it`
+      present === feedPaths.has(post.path),
+      `the feed should carry ${post.path} only when the site would index it and it is among the newest 50`
     );
   }
   for (const slug of draftSlugs) {

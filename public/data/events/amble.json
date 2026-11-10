@@ -884,7 +884,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100649CBC0A3C05",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-boston-massachusetts-11-06-2026/event/0100649CBC0A3C05",
-    "seatgeek_url": "https://seatgeek.com/amble-tickets/boston-massachusetts-citizens-house-of-blues-boston-2026-11-06-7-pm/concert/18222463",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/amble-tickets-boston-citizens-house-of-blues-boston-11-6-2026--concerts-alternative/production/6982394",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-boston-massachusetts-11-06-2026/event/0100649CBC0A3C05",
@@ -900,17 +900,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18222463,
-        "url": "https://seatgeek.com/amble-tickets/boston-massachusetts-citizens-house-of-blues-boston-2026-11-06-7-pm/concert/18222463",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6982394,
         "url": "https://www.vividseats.com/amble-tickets-boston-citizens-house-of-blues-boston-11-6-2026--concerts-alternative/production/6982394",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -921,11 +921,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7930665",
-        "url": "https://www.ticketnetwork.com/en/p/7930665",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7930665",
@@ -938,7 +938,7 @@
     "ticketmaster_discovery_event_id": "vv177Z_aGkwHeNYA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930665",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930665/Amble-tickets-Fri-Nov-6-2026-Citizens-House-Of-Blues-Boston",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -960,7 +960,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-brooklyn-brooklyn-paramount-11-7-2026--concerts-alternative/production/6982398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-brooklyn-new-york-11-07-2026/event/0000649EC4999749",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -975,14 +975,14 @@
         "event_id": 18223366,
         "url": "https://seatgeek.com/amble-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-07-7-pm/concert/18223366",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982398,
         "url": "https://www.vividseats.com/amble-tickets-brooklyn-brooklyn-paramount-11-7-2026--concerts-alternative/production/6982398",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1007,11 +1007,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107478110",
-        "url": "https://www.stubhub.ie/amble-brooklyn-tickets-11-7-2026/event/107478110",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_aD7J_qa",
@@ -1019,10 +1019,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930669",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930669/Amble-tickets-Sat-Nov-7-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-brooklyn-tickets-11-7-2026/event/107478110",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2026-philadelphia-vv17fz_agkycvjx3",
@@ -1040,7 +1041,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-philadelphia-theatre-of-living-arts-11-10-2026--concerts-alternative/production/6982400",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-philadelphia-pennsylvania-11-10-2026/event/0200649C2D05CF92",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1055,14 +1056,14 @@
         "event_id": 18222479,
         "url": "https://seatgeek.com/amble-tickets/philadelphia-pennsylvania-theatre-of-living-arts-2026-11-10-8-pm/concert/18222479",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982400,
         "url": "https://www.vividseats.com/amble-tickets-philadelphia-theatre-of-living-arts-11-10-2026--concerts-alternative/production/6982400",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1078,7 +1079,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2026-washington-1avfz_agkmvpzjt",
@@ -1096,7 +1099,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-washington-district-of-columbia-11-11-2026/event/1500649BB45B873F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1111,7 +1114,7 @@
         "event_id": 18222468,
         "url": "https://seatgeek.com/amble-tickets/washington-district-of-columbia-9-30-club-2026-11-11-7-pm/concert/18222468",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1147,7 +1150,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930661",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930661/Amble-tickets-Wed-Nov-11-2026-930-Club"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930661/Amble-tickets-Wed-Nov-11-2026-930-Club",
+    "ticket_limit": 6,
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2026-atlanta-z7r9jz1a70p_n",
@@ -1162,10 +1167,10 @@
     "ticketmaster_event_id": "Z7r9jZ1A70p_N",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_N",
     "seatgeek_url": "https://seatgeek.com/amble-tickets/atlanta-georgia-terminal-west-2026-11-13-8-pm/concert/18322791",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-atlanta-terminal-west-11-13-2026/production/6985031",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_N",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1180,15 +1185,15 @@
         "event_id": 18322791,
         "url": "https://seatgeek.com/amble-tickets/atlanta-georgia-terminal-west-2026-11-13-8-pm/concert/18322791",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6985031,
+        "url": "https://www.vividseats.com/amble-tickets-atlanta-terminal-west-11-13-2026/production/6985031",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1216,7 +1221,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7938209",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7938209/Amble-tickets-Fri-Nov-13-2026-Terminal-West-At-King-Plow-Arts-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7938209/Amble-tickets-Fri-Nov-13-2026-Terminal-West-At-King-Plow-Arts-Center",
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2026-nashville-g5viz_gnxglok",
@@ -1234,7 +1240,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1249,7 +1255,7 @@
         "event_id": 18312209,
         "url": "https://seatgeek.com/amble-tickets/nashville-tennessee-brooklyn-bowl-nashville-2026-11-14-8-pm/concert/18312209",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1295,7 +1301,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2026-new-orleans-g5viz_aeqhsnh",
@@ -1313,7 +1321,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-new-orleans-house-of-blues-new-orleans-11-16-2026--concerts-alternative/production/6982406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-new-orleans-louisiana-11-16-2026/event/1B006499DDF33ABC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1328,14 +1336,14 @@
         "event_id": 18222773,
         "url": "https://seatgeek.com/amble-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2026-11-16-7-pm/concert/18222773",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982406,
         "url": "https://www.vividseats.com/amble-tickets-new-orleans-house-of-blues-new-orleans-11-16-2026--concerts-alternative/production/6982406",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1365,16 +1373,10 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930663",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930663/Amble-tickets-Mon-Nov-16-2026-House-Of-Blues-New-Orleans",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-08T14:00:00Z",
-        "end": "2026-11-09T09:00:00Z"
-      }
-    ],
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2026-austin-g5diz_ahr-flp",
@@ -1392,7 +1394,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-austin-texas-11-17-2026/event/3A006496EF8487E5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1407,7 +1409,7 @@
         "event_id": 18222798,
         "url": "https://seatgeek.com/amble-tickets/austin-texas-emo-s-austin-2026-11-17-7-pm/concert/18222798",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1430,7 +1432,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2026-dallas-vvg1yz_161iqqj",
@@ -1448,7 +1452,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-dallas-the-echo-lounge-and-music-hall-11-18-2026--concerts-alternative/production/6982420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-dallas-texas-11-18-2026/event/0C0064A1CAA1A75C",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1463,14 +1467,14 @@
         "event_id": 18223872,
         "url": "https://seatgeek.com/amble-tickets/dallas-texas-the-echo-lounge-music-hall-2026-11-18-7-pm/concert/18223872",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982420,
         "url": "https://www.vividseats.com/amble-tickets-dallas-the-echo-lounge-and-music-hall-11-18-2026--concerts-alternative/production/6982420",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1502,7 +1506,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930667/Amble-tickets-Wed-Nov-18-2026-The-Echo-Lounge-and-Music-Hall",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8h21y",
@@ -1520,7 +1526,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-17-12-2026/event/18006536D0F0F2B9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1558,7 +1564,8 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8hl5a",
@@ -1576,7 +1583,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-18-12-2026/event/18006536D0F1F2C5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1614,7 +1621,8 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8hr56",
@@ -1632,7 +1640,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-19-12-2026/event/18006536D0F2F2C7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1670,7 +1678,8 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2027-madrid-z698xz2qz1kozfaa3",
@@ -1688,8 +1697,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/amble-europe-2027-tickets/440505152?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "440505152",
@@ -1734,7 +1743,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-madrid-sala-but-9-2-2027/event/107198141",
     "organizer_names": [
       "Live Nation España Red Path SL"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-amble-2027-barcelona-z698xz2qz16vb40_3f",
@@ -1752,8 +1762,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/amble-europe-2027-tickets/1615919488?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1615919488",
@@ -1798,7 +1808,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-barcelona-sala-apolo-10-2-2027/event/107198142",
     "organizer_names": [
       "Live Nation España Red Path SL"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-amble-2027-johanneshov-z698xzq2z16v73foub",
@@ -1816,8 +1827,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/amble-tickets/1112511358?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1112511358",
@@ -1854,7 +1865,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Lugerinc AB"
-    ]
+    ],
+    "genre": "World"
   },
   {
     "id": "tm-amble-2027-amsterdam-z698xzbpz16vb-0aa8",
@@ -1872,8 +1884,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/amble-tickets/1621909250?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1621909250",
@@ -1907,7 +1919,8 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vb-0aa8",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2027-amsterdam-z698xzbpz1kqkuae7",
@@ -1925,8 +1938,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/amble-tickets/753349084?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "753349084",
@@ -1960,7 +1973,8 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kqKuae7",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2027-belfast-17czv0g62qetzl-",
@@ -1978,7 +1992,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-belfast-23-06-2027/event/380064F682FC0AE1",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2024,7 +2038,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-belfast-ormeau-park-23-6-2027/event/107482906",
     "organizer_names": [
       "BELSONIC LTD"
-    ]
+    ],
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2027-co-dublin-17kzv0g62mxw25r",
@@ -2042,7 +2057,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-dublin-24-06-2027/event/180064FBBEF4F2DE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2080,7 +2095,8 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2027-glasgow-17uov0g62brrf6b",
@@ -2098,7 +2114,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-glasgow-29-06-2027/event/360064FE9EBD41FA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2137,7 +2153,9 @@
     "organizer_names": [
       "DF CONCERTS LIMITED",
       "GIGS IN SCOTLAND"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2027-limerick-city-17kzv0g62sp3q8m",
@@ -2155,7 +2173,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-limerick-city-03-07-2027/event/180064FCE549D42E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2193,7 +2211,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2027-manchester-g5vhz_8upt3w4",
@@ -2211,7 +2231,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-manchester-08-07-2027/event/1F00650D96FD2F55",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2257,7 +2277,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-manchester-castlefield-bowl-8-7-2027/event/107483077",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2027-london-g5vhz_8sflgki",
@@ -2275,7 +2297,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/amble-love-and-all-its-wares-london-09-07-2027/event/1F00650CC87F51A8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2313,7 +2335,9 @@
     "status": "on-sale",
     "organizer_names": [
       "SJM LIMITED (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8w25a",
@@ -2331,7 +2355,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-20-12-2026/event/18006536D0F4F2C9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2369,7 +2393,8 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8wl5u",
@@ -2387,7 +2412,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-21-12-2026/event/18006536D0F5F2CD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2425,7 +2450,8 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2026-phoenix-rz7hnez1afk4vf",
@@ -2512,8 +2538,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/amble-europe-2027-tickets/636793125?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "636793125",
@@ -2550,7 +2576,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation Austria GmbH"
-    ]
+    ],
+    "genre": "Folk"
   },
   {
     "id": "tm-amble-2027-praha-5-z698xzu0z1kje4u8k",
@@ -2568,8 +2595,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/amble-tickets/982576413?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "982576413",
@@ -2606,6 +2633,7 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
-    ]
+    ],
+    "genre": "Folk"
   }
 ]

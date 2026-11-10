@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-09",
   "artistSlug": "pentatonix",
   "artist": "Pentatonix",
   "artistPageIndexable": true,
@@ -11,31 +11,31 @@
   "siteLabel": "TicketNetwork",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-11-02T06:12:20.001Z",
-  "capturedTo": "2026-11-02T06:12:27.265Z",
-  "tourDates": 28,
+  "capturedFrom": "2026-11-08T23:44:45.563Z",
+  "capturedTo": "2026-11-09T22:45:00.933Z",
+  "tourDates": 26,
   "coverage": {
-    "marketCities": 26,
-    "pricedCities": 26,
+    "marketCities": 25,
+    "pricedCities": 25,
     "share": 1,
     "unpricedCities": [],
     "otherCountries": [
       {
         "country": "Canada",
-        "cities": 2,
-        "dates": 2
+        "cities": 1,
+        "dates": 1
       }
     ]
   },
   "low": {
-    "city": "Nashville",
+    "city": "North Little Rock",
     "country": "United States",
-    "venue": "Bridgestone Arena",
-    "eventId": "tm-pentatonix-2026-nashville-g5viz_8pdi7wi",
-    "localDate": "2026-12-09",
+    "venue": "Simmons Bank Arena",
+    "eventId": "tm-pentatonix-2026-north-little-rock-g5viz_2r0054y",
+    "localDate": "2026-12-12",
     "price": 36.8,
     "currency": "USD",
-    "capturedAt": "2026-11-02T06:12:24.614Z"
+    "capturedAt": "2026-11-08T23:44:48.671Z"
   },
   "high": {
     "city": "Lubbock",
@@ -43,34 +43,34 @@
     "venue": "United Supermarkets Arena",
     "eventId": "tm-pentatonix-2026-lubbock-z7r9jz1aaz-j6",
     "localDate": "2026-12-17",
-    "price": 123.05,
+    "price": 112.7,
     "currency": "USD",
-    "capturedAt": "2026-11-02T06:12:26.505Z"
+    "capturedAt": "2026-11-08T23:44:49.454Z"
   },
-  "median": 62.1,
-  "ratio": 3.3,
+  "median": 66.7,
+  "ratio": 3,
   "cities": [
     {
-      "city": "Nashville",
+      "city": "North Little Rock",
       "country": "United States",
-      "venue": "Bridgestone Arena",
-      "eventId": "tm-pentatonix-2026-nashville-g5viz_8pdi7wi",
-      "localDate": "2026-12-09",
+      "venue": "Simmons Bank Arena",
+      "eventId": "tm-pentatonix-2026-north-little-rock-g5viz_2r0054y",
+      "localDate": "2026-12-12",
       "price": 36.8,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:24.614Z",
-      "path": "/artists/pentatonix/tickets/nashville-united-states"
+      "capturedAt": "2026-11-08T23:44:48.671Z",
+      "path": "/artists/pentatonix/tickets/north-little-rock-united-states"
     },
     {
-      "city": "Lincoln",
+      "city": "Cleveland",
       "country": "United States",
-      "venue": "Pinnacle Bank Arena",
-      "eventId": "tm-pentatonix-2026-lincoln-vv1akzkf7gkdppsjy",
-      "localDate": "2026-11-12",
+      "venue": "Rocket Arena",
+      "eventId": "tm-pentatonix-2026-cleveland-z7r9jz1aazofo",
+      "localDate": "2026-11-19",
       "price": 37.95,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:21.345Z",
-      "path": "/artists/pentatonix/tickets/lincoln-united-states"
+      "capturedAt": "2026-11-08T23:44:46.609Z",
+      "path": "/artists/pentatonix/tickets/cleveland-united-states"
     },
     {
       "city": "Glendale",
@@ -80,52 +80,30 @@
       "localDate": "2026-12-19",
       "price": 41.4,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:26.748Z",
+      "capturedAt": "2026-11-08T23:44:49.638Z",
       "path": "/artists/pentatonix/tickets/glendale-united-states"
     },
     {
-      "city": "North Little Rock",
+      "city": "Lincoln",
       "country": "United States",
-      "venue": "Simmons Bank Arena",
-      "eventId": "tm-pentatonix-2026-north-little-rock-g5viz_2r0054y",
-      "localDate": "2026-12-12",
-      "price": 42.55,
+      "venue": "Pinnacle Bank Arena",
+      "eventId": "tm-pentatonix-2026-lincoln-vv1akzkf7gkdppsjy",
+      "localDate": "2026-11-12",
+      "price": 41.4,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:25.064Z",
-      "path": "/artists/pentatonix/tickets/north-little-rock-united-states"
+      "capturedAt": "2026-11-08T23:44:45.563Z",
+      "path": "/artists/pentatonix/tickets/lincoln-united-states"
     },
     {
-      "city": "Casper",
+      "city": "Nashville",
       "country": "United States",
-      "venue": "Ford Wyoming Center",
-      "eventId": "tm-pentatonix-2026-casper-g5vzz_2uvfg47",
-      "localDate": "2026-11-10",
-      "price": 43.7,
+      "venue": "Bridgestone Arena",
+      "eventId": "tm-pentatonix-2026-nashville-g5viz_8pdi7wi",
+      "localDate": "2026-12-09",
+      "price": 46,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:21.050Z",
-      "path": "/artists/pentatonix/tickets/casper-united-states"
-    },
-    {
-      "city": "Cleveland",
-      "country": "United States",
-      "venue": "Rocket Arena",
-      "eventId": "tm-pentatonix-2026-cleveland-z7r9jz1aazofo",
-      "localDate": "2026-11-19",
-      "price": 44.85,
-      "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:22.614Z",
-      "path": "/artists/pentatonix/tickets/cleveland-united-states"
-    },
-    {
-      "city": "Tacoma",
-      "country": "United States",
-      "venue": "Tacoma Dome",
-      "eventId": "tm-pentatonix-2026-tacoma-vvg1hz_2zdlw0j",
-      "localDate": "2026-11-05",
-      "price": 44.85,
-      "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:20.001Z",
-      "path": "/artists/pentatonix/tickets/tacoma-united-states"
+      "capturedAt": "2026-11-08T23:44:48.303Z",
+      "path": "/artists/pentatonix/tickets/nashville-united-states"
     },
     {
       "city": "Louisville",
@@ -133,9 +111,9 @@
       "venue": "KFC Yum! Center",
       "eventId": "tm-pentatonix-2026-louisville-1apzkf7gker9zih",
       "localDate": "2026-11-16",
-      "price": 46,
+      "price": 49.45,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:22.104Z",
+      "capturedAt": "2026-11-08T23:44:46.130Z",
       "path": "/artists/pentatonix/tickets/louisville-united-states"
     },
     {
@@ -144,43 +122,21 @@
       "venue": "MVP Arena",
       "eventId": "tm-pentatonix-2026-albany-k7vgf_2br5dvf",
       "localDate": "2026-11-29",
-      "price": 52.9,
+      "price": 54.05,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:23.419Z",
+      "capturedAt": "2026-11-08T23:44:47.172Z",
       "path": "/artists/pentatonix/tickets/albany-united-states"
     },
     {
-      "city": "Buffalo",
+      "city": "Pittsburgh",
       "country": "United States",
-      "venue": "KeyBank Center",
-      "eventId": "tm-pentatonix-2026-buffalo-k7vgf_8kru5hf",
-      "localDate": "2026-11-18",
+      "venue": "PPG Paints Arena",
+      "eventId": "tm-pentatonix-2026-pittsburgh-1apzkfdgkdrcd8b",
+      "localDate": "2026-11-21",
       "price": 54.05,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:22.359Z",
-      "path": "/artists/pentatonix/tickets/buffalo-united-states"
-    },
-    {
-      "city": "Inglewood",
-      "country": "United States",
-      "venue": "Kia Forum",
-      "eventId": "tm-pentatonix-2026-inglewood-vv1aazkf7gkdi1gsn",
-      "localDate": "2026-12-22",
-      "price": 54.05,
-      "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:27.265Z",
-      "path": "/artists/pentatonix/tickets/inglewood-united-states"
-    },
-    {
-      "city": "Bossier City",
-      "country": "United States",
-      "venue": "Brookshire Grocery Arena",
-      "eventId": "tm-pentatonix-2026-bossier-city-g5viz_2gyyd_m",
-      "localDate": "2026-12-13",
-      "price": 59.8,
-      "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:25.302Z",
-      "path": "/artists/pentatonix/tickets/bossier-city-united-states"
+      "capturedAt": "2026-11-08T23:44:46.811Z",
+      "path": "/artists/pentatonix/tickets/pittsburgh-united-states"
     },
     {
       "city": "Grand Rapids",
@@ -190,19 +146,41 @@
       "localDate": "2026-11-15",
       "price": 59.8,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:21.838Z",
+      "capturedAt": "2026-11-08T23:44:45.924Z",
       "path": "/artists/pentatonix/tickets/grand-rapids-united-states"
     },
     {
-      "city": "Pittsburgh",
+      "city": "Raleigh",
       "country": "United States",
-      "venue": "PPG Paints Arena",
-      "eventId": "tm-pentatonix-2026-pittsburgh-1apzkfdgkdrcd8b",
-      "localDate": "2026-11-21",
-      "price": 64.4,
+      "venue": "Lenovo Center",
+      "eventId": "tm-pentatonix-2026-raleigh-g5evz_2xkfyfh",
+      "localDate": "2026-12-07",
+      "price": 59.8,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:22.838Z",
-      "path": "/artists/pentatonix/tickets/pittsburgh-united-states"
+      "capturedAt": "2026-11-08T23:44:48.063Z",
+      "path": "/artists/pentatonix/tickets/raleigh-united-states"
+    },
+    {
+      "city": "Milwaukee",
+      "country": "United States",
+      "venue": "Fiserv Forum",
+      "eventId": "tm-pentatonix-2026-milwaukee-vvg1jz_296mpvg",
+      "localDate": "2026-11-14",
+      "price": 60.95,
+      "currency": "USD",
+      "capturedAt": "2026-11-08T23:44:45.743Z",
+      "path": "/artists/pentatonix/tickets/milwaukee-united-states"
+    },
+    {
+      "city": "Bossier City",
+      "country": "United States",
+      "venue": "Brookshire Grocery Arena",
+      "eventId": "tm-pentatonix-2026-bossier-city-g5viz_2gyyd_m",
+      "localDate": "2026-12-13",
+      "price": 62.1,
+      "currency": "USD",
+      "capturedAt": "2026-11-08T23:44:48.882Z",
+      "path": "/artists/pentatonix/tickets/bossier-city-united-states"
     },
     {
       "city": "Charlottesville",
@@ -212,7 +190,7 @@
       "localDate": "2026-11-28",
       "price": 66.7,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:23.093Z",
+      "capturedAt": "2026-11-08T23:44:47.010Z",
       "path": "/artists/pentatonix/tickets/charlottesville-united-states"
     },
     {
@@ -223,30 +201,19 @@
       "localDate": "2026-12-05",
       "price": 66.7,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:23.910Z",
+      "capturedAt": "2026-11-08T23:44:47.628Z",
       "path": "/artists/pentatonix/tickets/columbia-united-states"
     },
     {
-      "city": "Milwaukee",
+      "city": "Inglewood",
       "country": "United States",
-      "venue": "Fiserv Forum",
-      "eventId": "tm-pentatonix-2026-milwaukee-vvg1jz_296mpvg",
-      "localDate": "2026-11-14",
-      "price": 69,
-      "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:21.575Z",
-      "path": "/artists/pentatonix/tickets/milwaukee-united-states"
-    },
-    {
-      "city": "Raleigh",
-      "country": "United States",
-      "venue": "Lenovo Center",
-      "eventId": "tm-pentatonix-2026-raleigh-g5evz_2xkfyfh",
-      "localDate": "2026-12-07",
+      "venue": "Kia Forum",
+      "eventId": "tm-pentatonix-2026-inglewood-vv1aazkf7gkdi1gsn",
+      "localDate": "2026-12-22",
       "price": 70.15,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:24.398Z",
-      "path": "/artists/pentatonix/tickets/raleigh-united-states"
+      "capturedAt": "2026-11-08T23:44:50.204Z",
+      "path": "/artists/pentatonix/tickets/inglewood-united-states"
     },
     {
       "city": "San Diego",
@@ -256,7 +223,7 @@
       "localDate": "2026-12-20",
       "price": 70.15,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:27.063Z",
+      "capturedAt": "2026-11-08T23:44:49.843Z",
       "path": "/artists/pentatonix/tickets/san-diego-united-states"
     },
     {
@@ -267,19 +234,19 @@
       "localDate": "2026-12-06",
       "price": 72.45,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:24.160Z",
+      "capturedAt": "2026-11-08T23:44:47.873Z",
       "path": "/artists/pentatonix/tickets/greenville-united-states"
     },
     {
-      "city": "Bozeman",
+      "city": "Casper",
       "country": "United States",
-      "venue": "Brick Breeden Fieldhouse",
-      "eventId": "tm-pentatonix-2026-bozeman-z7r9jz1aaz-xz",
-      "localDate": "2026-11-09",
+      "venue": "Ford Wyoming Center",
+      "eventId": "tm-pentatonix-2026-casper-g5vzz_2uvfg47",
+      "localDate": "2026-11-10",
       "price": 77.05,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:20.612Z",
-      "path": "/artists/pentatonix/tickets/bozeman-united-states"
+      "capturedAt": "2026-11-09T22:45:00.933Z",
+      "path": "/artists/pentatonix/tickets/casper-united-states"
     },
     {
       "city": "Austin",
@@ -289,7 +256,7 @@
       "localDate": "2026-12-15",
       "price": 81.65,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:25.780Z",
+      "capturedAt": "2026-11-08T23:44:49.048Z",
       "path": "/artists/pentatonix/tickets/austin-united-states"
     },
     {
@@ -298,10 +265,32 @@
       "venue": "State Farm Arena",
       "eventId": "tm-pentatonix-2026-atlanta-vvg1zz_8pzyi3r",
       "localDate": "2026-12-10",
-      "price": 89.7,
+      "price": 85.1,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:24.837Z",
+      "capturedAt": "2026-11-08T23:44:48.495Z",
       "path": "/artists/pentatonix/tickets/atlanta-united-states"
+    },
+    {
+      "city": "Bozeman",
+      "country": "United States",
+      "venue": "Brick Breeden Fieldhouse",
+      "eventId": "tm-pentatonix-2026-bozeman-z7r9jz1aaz-xz",
+      "localDate": "2026-11-09",
+      "price": 93.15,
+      "currency": "USD",
+      "capturedAt": "2026-11-09T22:44:47.285Z",
+      "path": "/artists/pentatonix/tickets/bozeman-united-states"
+    },
+    {
+      "city": "Buffalo",
+      "country": "United States",
+      "venue": "KeyBank Center",
+      "eventId": "tm-pentatonix-2026-buffalo-k7vgf_8kru5hf",
+      "localDate": "2026-11-18",
+      "price": 95.45,
+      "currency": "USD",
+      "capturedAt": "2026-11-08T23:44:46.293Z",
+      "path": "/artists/pentatonix/tickets/buffalo-united-states"
     },
     {
       "city": "Baltimore",
@@ -311,7 +300,7 @@
       "localDate": "2026-12-03",
       "price": 98.9,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:23.697Z",
+      "capturedAt": "2026-11-08T23:44:47.395Z",
       "path": "/artists/pentatonix/tickets/baltimore-united-states"
     },
     {
@@ -322,7 +311,7 @@
       "localDate": "2026-12-16",
       "price": 104.65,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:26.191Z",
+      "capturedAt": "2026-11-08T23:44:49.280Z",
       "path": "/artists/pentatonix/tickets/fort-worth-united-states"
     },
     {
@@ -331,10 +320,269 @@
       "venue": "United Supermarkets Arena",
       "eventId": "tm-pentatonix-2026-lubbock-z7r9jz1aaz-j6",
       "localDate": "2026-12-17",
-      "price": 123.05,
+      "price": 112.7,
       "currency": "USD",
-      "capturedAt": "2026-11-02T06:12:26.505Z",
+      "capturedAt": "2026-11-08T23:44:49.454Z",
       "path": "/artists/pentatonix/tickets/lubbock-united-states"
     }
-  ]
+  ],
+  "second": {
+    "site": "vivid-seats",
+    "siteLabel": "Vivid Seats",
+    "cities": [
+      {
+        "city": "Bozeman",
+        "country": "United States",
+        "venue": "Brick Breeden Fieldhouse",
+        "eventId": "tm-pentatonix-2026-bozeman-z7r9jz1aaz-xz",
+        "localDate": "2026-11-09",
+        "price": 78,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/bozeman-united-states"
+      },
+      {
+        "city": "Casper",
+        "country": "United States",
+        "venue": "Ford Wyoming Center",
+        "eventId": "tm-pentatonix-2026-casper-g5vzz_2uvfg47",
+        "localDate": "2026-11-10",
+        "price": 64,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/casper-united-states"
+      },
+      {
+        "city": "Lincoln",
+        "country": "United States",
+        "venue": "Pinnacle Bank Arena",
+        "eventId": "tm-pentatonix-2026-lincoln-vv1akzkf7gkdppsjy",
+        "localDate": "2026-11-12",
+        "price": 35,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/lincoln-united-states"
+      },
+      {
+        "city": "Milwaukee",
+        "country": "United States",
+        "venue": "Fiserv Forum",
+        "eventId": "tm-pentatonix-2026-milwaukee-vvg1jz_296mpvg",
+        "localDate": "2026-11-14",
+        "price": 66,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/milwaukee-united-states"
+      },
+      {
+        "city": "Grand Rapids",
+        "country": "United States",
+        "venue": "Van Andel Arena",
+        "eventId": "tm-pentatonix-2026-grand-rapids-vvg1oz_2h1hwe2",
+        "localDate": "2026-11-15",
+        "price": 54,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/grand-rapids-united-states"
+      },
+      {
+        "city": "Louisville",
+        "country": "United States",
+        "venue": "KFC Yum! Center",
+        "eventId": "tm-pentatonix-2026-louisville-1apzkf7gker9zih",
+        "localDate": "2026-11-16",
+        "price": 59,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/louisville-united-states"
+      },
+      {
+        "city": "Buffalo",
+        "country": "United States",
+        "venue": "KeyBank Center",
+        "eventId": "tm-pentatonix-2026-buffalo-k7vgf_8kru5hf",
+        "localDate": "2026-11-18",
+        "price": 82,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/buffalo-united-states"
+      },
+      {
+        "city": "Cleveland",
+        "country": "United States",
+        "venue": "Rocket Arena",
+        "eventId": "tm-pentatonix-2026-cleveland-z7r9jz1aazofo",
+        "localDate": "2026-11-19",
+        "price": 31,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/cleveland-united-states"
+      },
+      {
+        "city": "Pittsburgh",
+        "country": "United States",
+        "venue": "PPG Paints Arena",
+        "eventId": "tm-pentatonix-2026-pittsburgh-1apzkfdgkdrcd8b",
+        "localDate": "2026-11-21",
+        "price": 55,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/pittsburgh-united-states"
+      },
+      {
+        "city": "Charlottesville",
+        "country": "United States",
+        "venue": "John Paul Jones Arena",
+        "eventId": "tm-pentatonix-2026-charlottesville-vv1f7z_8uv7ozdc1c",
+        "localDate": "2026-11-28",
+        "price": 67,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/charlottesville-united-states"
+      },
+      {
+        "city": "Albany",
+        "country": "United States",
+        "venue": "MVP Arena",
+        "eventId": "tm-pentatonix-2026-albany-k7vgf_2br5dvf",
+        "localDate": "2026-11-29",
+        "price": 46,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/albany-united-states"
+      },
+      {
+        "city": "Baltimore",
+        "country": "United States",
+        "venue": "CFG Bank Arena",
+        "eventId": "tm-pentatonix-2026-baltimore-17a8v0g62urg9es",
+        "localDate": "2026-12-03",
+        "price": 101,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/baltimore-united-states"
+      },
+      {
+        "city": "Columbia",
+        "country": "United States",
+        "venue": "Colonial Life Arena",
+        "eventId": "tm-pentatonix-2026-columbia-g5evz_2t_yqom",
+        "localDate": "2026-12-05",
+        "price": 72,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/columbia-united-states"
+      },
+      {
+        "city": "Greenville",
+        "country": "United States",
+        "venue": "Bon Secours Wellness Arena",
+        "eventId": "tm-pentatonix-2026-greenville-g5evz_2tznjd_",
+        "localDate": "2026-12-06",
+        "price": 80,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/greenville-united-states"
+      },
+      {
+        "city": "Raleigh",
+        "country": "United States",
+        "venue": "Lenovo Center",
+        "eventId": "tm-pentatonix-2026-raleigh-g5evz_2xkfyfh",
+        "localDate": "2026-12-07",
+        "price": 61,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/raleigh-united-states"
+      },
+      {
+        "city": "Nashville",
+        "country": "United States",
+        "venue": "Bridgestone Arena",
+        "eventId": "tm-pentatonix-2026-nashville-g5viz_8pdi7wi",
+        "localDate": "2026-12-09",
+        "price": 39,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/nashville-united-states"
+      },
+      {
+        "city": "Atlanta",
+        "country": "United States",
+        "venue": "State Farm Arena",
+        "eventId": "tm-pentatonix-2026-atlanta-vvg1zz_8pzyi3r",
+        "localDate": "2026-12-10",
+        "price": 67,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/atlanta-united-states"
+      },
+      {
+        "city": "North Little Rock",
+        "country": "United States",
+        "venue": "Simmons Bank Arena",
+        "eventId": "tm-pentatonix-2026-north-little-rock-g5viz_2r0054y",
+        "localDate": "2026-12-12",
+        "price": 44,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/north-little-rock-united-states"
+      },
+      {
+        "city": "Bossier City",
+        "country": "United States",
+        "venue": "Brookshire Grocery Arena",
+        "eventId": "tm-pentatonix-2026-bossier-city-g5viz_2gyyd_m",
+        "localDate": "2026-12-13",
+        "price": 57,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/bossier-city-united-states"
+      },
+      {
+        "city": "Austin",
+        "country": "United States",
+        "venue": "Moody Center ATX",
+        "eventId": "tm-pentatonix-2026-austin-g5diz_8kmjslp",
+        "localDate": "2026-12-15",
+        "price": 71,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/austin-united-states"
+      },
+      {
+        "city": "Lubbock",
+        "country": "United States",
+        "venue": "United Supermarkets Arena",
+        "eventId": "tm-pentatonix-2026-lubbock-z7r9jz1aaz-j6",
+        "localDate": "2026-12-17",
+        "price": 86,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/lubbock-united-states"
+      },
+      {
+        "city": "Glendale",
+        "country": "United States",
+        "venue": "Desert Diamond Arena",
+        "eventId": "tm-pentatonix-2026-glendale-16_zkfdauzauuafa",
+        "localDate": "2026-12-19",
+        "price": 47,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/glendale-united-states"
+      },
+      {
+        "city": "Inglewood",
+        "country": "United States",
+        "venue": "Kia Forum",
+        "eventId": "tm-pentatonix-2026-inglewood-vv1aazkf7gkdi1gsn",
+        "localDate": "2026-12-22",
+        "price": 55,
+        "currency": "USD",
+        "capturedAt": "2026-11-09T22:45:00.874Z",
+        "path": "/artists/pentatonix/tickets/inglewood-united-states"
+      }
+    ]
+  }
 }

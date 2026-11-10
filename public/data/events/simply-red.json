@@ -15,8 +15,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/simply-red-summer-funk-27-tickets/1266277965?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1266277965",
@@ -61,7 +61,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-19-6-2027/event/107668942",
     "organizer_names": [
       "Mojo Concerts"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-amsterdam-z698xzbpz16vceov_9",
@@ -79,8 +80,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/simply-red-summer-funk-27-tickets/1382474657?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1382474657",
@@ -141,7 +142,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-20-6-2027/event/107668943",
     "organizer_names": [
       "Mojo Concerts"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-merksem-antwerpen-z698xzg2z1kbk_apn",
@@ -159,8 +161,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/simply-red-summer-funk-27-tickets/613645963",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "613645963",
@@ -197,7 +199,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-nurnberg-z698xzc2z16v0aozkf",
@@ -215,8 +218,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk-27-tickets/1905478194?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1905478194",
@@ -253,7 +256,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Concertbüro Franken GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-fulda-z698xzc2z16vq7paf0",
@@ -271,8 +275,8 @@
     "vividseats_url": "https://www.vividseats.com/simply-red-tickets-fulda-domplatz-fulda-6-30-2027/production/7590767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1684589224?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1684589224",
@@ -293,7 +297,7 @@
         "event_id": 7590767,
         "url": "https://www.vividseats.com/simply-red-tickets-fulda-domplatz-fulda-6-30-2027/production/7590767",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -317,7 +321,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-fulda-domplatz-fulda-30-6-2027/event/107669559",
     "organizer_names": [
       "Provinztour Konzert- und Theateragentur GmbH & Co.KG"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-aurich-z698xzc2z16v4ab8-i",
@@ -335,8 +340,8 @@
     "vividseats_url": "https://www.vividseats.com/simply-red-tickets-aurich-mehrzweckgelande-tannenhausen-7-2-2027/production/7590805",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1545610868?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1545610868",
@@ -357,7 +362,7 @@
         "event_id": 7590805,
         "url": "https://www.vividseats.com/simply-red-tickets-aurich-mehrzweckgelande-tannenhausen-7-2-2027/production/7590805",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -381,7 +386,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-aurich-mehrzweckgelande-tannenhausen-2-7-2027/event/107669549",
     "organizer_names": [
       "HockeyPark Betriebs GmbH & Co. KG"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-hemer-z698xzc2z16v_nfy_4",
@@ -399,8 +405,8 @@
     "vividseats_url": "https://www.vividseats.com/simply-red-tickets-hemer-sauerlandpark-hemer-7-3-2027/production/7590791",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk-27-tickets/1663239655?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1663239655",
@@ -421,7 +427,7 @@
         "event_id": 7590791,
         "url": "https://www.vividseats.com/simply-red-tickets-hemer-sauerlandpark-hemer-7-3-2027/production/7590791",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -437,7 +443,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Goldrush Productions GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-bonn-z698xzc2z1kpoq9-n",
@@ -455,8 +462,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk-27-tickets/591697863?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "591697863",
@@ -493,7 +500,8 @@
     "status": "on-sale",
     "organizer_names": [
       "E.L. Hartz Promotion GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-halle-westfalen-z698xzc2z1kj7akbg",
@@ -511,8 +519,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/984246635?language=en-us",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "984246635",
@@ -549,7 +557,8 @@
     "status": "on-sale",
     "organizer_names": [
       "HockeyPark Betriebs GmbH & Co. KG"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-chester-1agzkfsgkduxpco",
@@ -567,7 +576,7 @@
     "vividseats_url": "https://www.vividseats.com/simply-red-tickets-chester-chester-racecourse-8-7-2027/production/7590783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simply-red-chester-07-08-2027/event/35006531CDFA5391",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -589,7 +598,7 @@
         "event_id": 7590783,
         "url": "https://www.vividseats.com/simply-red-tickets-chester-chester-racecourse-8-7-2027/production/7590783",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -602,7 +611,9 @@
     },
     "ticketmaster_discovery_event_id": "1AgZkfsGkduXPCo",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-halifax-15dfz_3r_jv8z",
@@ -620,7 +631,7 @@
     "vividseats_url": "https://www.vividseats.com/simply-red-tickets-halifax-piece-hall-8-9-2027/production/7590761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-halifax-09-08-2027/event/3500652799981400",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -642,7 +653,7 @@
         "event_id": 7590761,
         "url": "https://www.vividseats.com/simply-red-tickets-halifax-piece-hall-8-9-2027/production/7590761",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -651,6 +662,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668675",
+        "url": "https://www.stubhub.ie/simply-red-tickets-halifax-piece-hall-halifax-9-8-2027/event/107668675",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15dfZ_3r_Jv8Z",
@@ -658,7 +676,10 @@
     "status": "on-sale",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-halifax-piece-hall-halifax-9-8-2027/event/107668675"
   },
   {
     "id": "tm-simply-red-2027-halifax-1adfz_3gkrvea3u",
@@ -676,7 +697,7 @@
     "vividseats_url": "https://www.vividseats.com/simply-red-tickets-halifax-piece-hall-8-10-2027/production/7590847",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-halifax-10-08-2027/event/3500652BC108548D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -698,7 +719,7 @@
         "event_id": 7590847,
         "url": "https://www.vividseats.com/simply-red-tickets-halifax-piece-hall-8-10-2027/production/7590847",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -707,6 +728,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668964",
+        "url": "https://www.stubhub.ie/simply-red-tickets-halifax-piece-hall-halifax-10-8-2027/event/107668964",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_3GkRveA3u",
@@ -714,7 +742,10 @@
     "status": "on-sale",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-halifax-piece-hall-halifax-10-8-2027/event/107668964"
   },
   {
     "id": "tm-simply-red-2027-halifax-1agzkfigkey3exj",
@@ -732,7 +763,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-halifax-11-08-2027/event/35006528B9482F9C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -770,7 +801,9 @@
     "status": "on-sale",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-london-1adjz_3gkbyuns4",
@@ -788,7 +821,7 @@
     "vividseats_url": "https://www.vividseats.com/simply-red-tickets-london-gunnersbury-park-8-13-2027/production/7590795",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-london-13-08-2027/event/3700652EB9DA3C55",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -810,7 +843,7 @@
         "event_id": 7590795,
         "url": "https://www.vividseats.com/simply-red-tickets-london-gunnersbury-park-8-13-2027/production/7590795",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -834,7 +867,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-london-gunnersbury-park-13-8-2027/event/107669495",
     "organizer_names": [
       "LOUDER ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-margate-1agzkfegkemyogi",
@@ -852,7 +887,7 @@
     "vividseats_url": "https://www.vividseats.com/simply-red-tickets-margate-scenic-stage-at-dreamland-margate-8-14-2027/production/7594224",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-margate-14-08-2027/event/35006527AEC11D68",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -874,7 +909,7 @@
         "event_id": 7594224,
         "url": "https://www.vividseats.com/simply-red-tickets-margate-scenic-stage-at-dreamland-margate-8-14-2027/production/7594224",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -898,7 +933,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-margate-dreamland-margate-14-8-2027/event/107668676",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-scarborough-1agzkf0gkdqpn-m",
@@ -916,7 +953,7 @@
     "vividseats_url": "https://www.vividseats.com/simply-red-tickets-scarborough-scarborough-open-air-theatre-8-17-2027/production/7590785",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-scarborough-17-08-2027/event/35006524DA5AA86E",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -938,7 +975,7 @@
         "event_id": 7590785,
         "url": "https://www.vividseats.com/simply-red-tickets-scarborough-scarborough-open-air-theatre-8-17-2027/production/7590785",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -963,7 +1000,9 @@
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)",
       "LIVE NATION MUSIC UK LTD"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-colchester-1adfz_3gkmn5keu",
@@ -981,7 +1020,7 @@
     "vividseats_url": "https://www.vividseats.com/simply-red-tickets-colchester-colchester-castle-park-8-18-2027/production/7590789",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-colchester-18-08-2027/event/3500652BAA2D39F6",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1003,7 +1042,7 @@
         "event_id": 7590789,
         "url": "https://www.vividseats.com/simply-red-tickets-colchester-colchester-castle-park-8-18-2027/production/7590789",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1035,7 +1074,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294111/Simply-Red-tickets-Wed-Aug-18-2027-Colchester-Castle-Park",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-swansea-g5vhz_3rbtf3u",
@@ -1053,7 +1094,7 @@
     "vividseats_url": "https://www.vividseats.com/simply-red-tickets-swansea-singleton-park-8-20-2027/production/7590849",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simply-red-summer-funk-27-swansea-20-08-2027/event/1F00652BFAFC84B6",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1075,7 +1116,7 @@
         "event_id": 7590849,
         "url": "https://www.vividseats.com/simply-red-tickets-swansea-singleton-park-8-20-2027/production/7590849",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1093,7 +1134,9 @@
       "FULL FAT EVENTS",
       "CUFFE & TAYLOR (NEW)",
       "DEPOT MARKETING LIMITED"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-simply-red-2027-newmarket-1amzkfygkdj2ef1",
@@ -1111,7 +1154,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/simply-red-racing-grandstand-paddock-newmarket-21-08-2027/event/37006530E63E750A",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1149,6 +1192,8 @@
     "status": "on-sale",
     "organizer_names": [
       "JOCKEY CLUB RACECOURSES LTD"
-    ]
+    ],
+    "ticket_limit": 10,
+    "genre": "Rock"
   }
 ]

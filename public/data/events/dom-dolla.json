@@ -30,7 +30,7 @@
         "event_id": 18598936,
         "url": "https://seatgeek.com/dom-dolla-tickets/las-vegas-nevada-liv-nightclub-las-vegas-2026-11-21-10-30-pm/concert/18598936",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -51,5 +51,74 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P3C3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-dom-dolla-2027-miami-z7r9jz1aaavbz",
+    "artist_slug": "dom-dolla",
+    "artist_name": "Dom Dolla",
+    "event_name": "Dom Dolla",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Factory Town",
+    "datetime_iso": "2027-01-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAvbz",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAvbz",
+    "seatgeek_url": "https://seatgeek.com/dom-dolla-tickets/miami-florida-factory-town-2026-12-31-10-pm/concert/18750432",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAvbz",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAvbz",
+        "discovery_event_id": "Z7r9jZ1AAAvbz",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAvbz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18750432,
+        "url": "https://seatgeek.com/dom-dolla-tickets/miami-florida-factory-town-2026-12-31-10-pm/concert/18750432",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8360005",
+        "url": "https://www.ticketnetwork.com/en/p/8360005",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8360005",
+        "url": "https://www.ticketliquidator.com/tickets/8360005/Dom-Dolla-tickets-Thu-Dec-31-2026-Factory-Town",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAvbz",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8360005",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8360005/Dom-Dolla-tickets-Thu-Dec-31-2026-Factory-Town"
   }
 ]

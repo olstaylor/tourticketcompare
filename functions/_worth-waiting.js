@@ -17,6 +17,7 @@
 
 import { isUpcomingShow } from "./_upcoming.js";
 import { normalizeCountry } from "./_cities.js";
+import { eventLifecycleHeld } from "./_route-indexability.js";
 
 export const WORTH_WAITING_PATH = "/is-it-worth-waiting";
 export const WORTH_WAITING_INDEXABLE = true;
@@ -121,7 +122,7 @@ export function deriveWorthWaiting({ pairs, latest, earlier }, events, catalog, 
   const changesByEvent = new Map();
   for (const pair of pairs || []) {
     const event = eventById.get(pair.eventId);
-    if (!event || normalizeCountry(event.country) !== "United States" || !isUpcomingShow(event, now)) continue;
+    if (!event || normalizeCountry(event.country) !== "United States" || !isUpcomingShow(event, now) || eventLifecycleHeld(event)) continue;
     const list = changesByEvent.get(pair.eventId) || [];
     list.push(pair.now / pair.then - 1);
     changesByEvent.set(pair.eventId, list);
@@ -133,8 +134,9 @@ export function deriveWorthWaiting({ pairs, latest, earlier }, events, catalog, 
     const change = median(changes);
     const row = byArtist.get(slug) || { slug, name: catalogNames.get(slug) || slug, shows: 0, lower: 0, higher: 0, same: 0 };
     row.shows += 1;
-    if (change < -WORTH_WAITING_BAND) row.lower += 1;
-    else if (change > WORTH_WAITING_BAND) row.higher += 1;
+    // Decimal prices can leave a rounding remainder at exactly +/-2%.
+    if (change < -WORTH_WAITING_BAND - Number.EPSILON) row.lower += 1;
+    else if (change > WORTH_WAITING_BAND + Number.EPSILON) row.higher += 1;
     else row.same += 1;
     byArtist.set(slug, row);
   }

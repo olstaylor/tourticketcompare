@@ -4,7 +4,7 @@ name: Auto-promote artists
 # Off unless the repo variable AUTOPROMOTE_ENABLED is "true": the job then ends
 # green at its first step, so automation-health still sees it run. When on, one
 # job re-captures identities, screens (D1–D5), writes shell + promotion through
-# the existing promote writer (max 8/day, 56/week), ingests the new artists'
+# the existing promote writer (max 12/day, 84/week), ingests the new artists'
 # dates (amendment 5), gates out.js to VERIFIED_TICKET_LINKS additions only
 # (amendment 4), runs test:mvp and opens an auto-merged PR of publish class
 # `autopromote`, whose merge re-reads both switches.
@@ -90,20 +90,25 @@ jobs:
           if [ "$FORECAST_OK" = true ] && ! node -e 'const c=require("./artifacts/auto/forecast.json").candidates; if (!c) { console.error("forecast produced no candidate discovery"); process.exit(1); } if (!c.rows.length && c.failures.length) { console.error(`every candidate lookup failed (${c.failures.length})`); process.exit(1); }'; then FORECAST_OK=false; fi
           : > artifacts/auto/names.txt
           if [ "$FORECAST_OK" = true ]; then
-            node -e 'const r=require("./artifacts/auto/forecast.json"); console.log(r.candidates.rows.slice(0,20).map(x=>`${x.name}\t${x.ticketmaster_attraction_id||""}`).join("\n"))' > artifacts/auto/names.txt
+            node -e 'const r=require("./artifacts/auto/forecast.json"); console.log(r.candidates.rows.slice(0,40).map(x=>`${x.name}\t${x.ticketmaster_attraction_id||""}`).join("\n"))' > artifacts/auto/names.txt
           fi
           echo "forecast_ok=$FORECAST_OK" >> "$GITHUB_OUTPUT"
           # Owner requests go first, flagged "requested".
           # Demand-ranked acts (SeatGeek score) go ahead of the city-overlap forecast
           # (owner-approved 2026-10-09); full screen, same caps. Non-fatal on failure.
           node scripts/report-demand-candidates.mjs --merge artifacts/auto/names.txt --top 10
+          # Just-announced tours (forecast rows with >=3 headline dates whose public
+          # on-sale is recent or still to come, in arenas/stadiums) go ahead of the
+          # demand names: a big new tour is when fans search. Same screen and caps.
+          # Non-fatal on failure.
+          if [ "$FORECAST_OK" = true ]; then node scripts/report-roster-forecast.mjs --fresh-first artifacts/auto/forecast.json artifacts/auto/names.txt || true; fi
           node scripts/artist-requests.mjs --merge artifacts/auto/names.txt --limit 20
           # Watchlist acts (data/artist-watchlist.json) go first once Ticketmaster lists a
           # tour for them; full screen, same caps. Non-fatal on failure.
           node scripts/artist-watchlist.mjs --merge artifacts/auto/names.txt --limit 20
           if [ "$FORECAST_OK" != true ] && [ ! -s artifacts/auto/names.txt ]; then echo "forecast failed and there are no open requests" >&2; exit 1; fi
           if [ ! -s artifacts/auto/names.txt ]; then echo "count=0" >> "$GITHUB_OUTPUT"; exit 0; fi
-          node scripts/propose-onboarding-batch.mjs --names-file artifacts/auto/names.txt --limit 20 --output artifacts/auto/manifest.json
+          node scripts/propose-onboarding-batch.mjs --names-file artifacts/auto/names.txt --limit 40 --output artifacts/auto/manifest.json
           node scripts/auto-promote.mjs --manifest artifacts/auto/manifest.json --write --json artifacts/auto/promoted.json
           echo "count=$(node -e 'console.log(require("./artifacts/auto/promoted.json").promoted.length)')" >> "$GITHUB_OUTPUT"
 

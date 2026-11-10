@@ -21,6 +21,7 @@ import { PRICE_GUIDE_FALLBACK_PATH, PRICE_GUIDE_FALLBACK } from "./_guide-routes
 import { OG_CARDS } from "./_og-cards.generated.js";
 import { UPDATES_CONSENT_TEXT } from "./_email-alerts.js";
 import { readingLayout } from "./_reading-layout.js";
+import { nextVenueMidnightMs, relativeShowDay } from "./_relative-day.js";
 import { attachApprovedMarketplacePrices, APPROVED_MARKETPLACE_PRICE_LANES } from "./api/shows.js";
 import { deriveEventPriceLow, fetchEventPriceLowSeries, PRICE_LOW_WINDOW_DAYS } from "./_event-price-low.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
@@ -31,7 +32,7 @@ import { cheapestAcrossDates, deriveCityDatePrices } from "./_artist-city-prices
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import { relatedArtistsBySharedCity } from "./_related-artists.js";
-import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, EVENT_LIFECYCLE, PRESALE_PAGE_FRESH_DAYS, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
+import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, COMPARISON_MIN_PRICE_PROVIDERS, EVENT_LIFECYCLE, PRESALE_PAGE_FRESH_DAYS, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import { deriveThisWeek, renderThisWeekHtml, THIS_WEEK_GUIDE_PATHS } from "./_this-week.js";
 import { deriveToursHub, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
@@ -71,7 +72,7 @@ import { deriveEventContext, EVENT_CITY_NEIGHBOUR_DAYS, EVENT_VENUE_NEIGHBOUR_DA
 import { deriveEventPriceRange, fetchEventPriceRange, isRicherEventPilot } from "./_event-price-range.js";
 import { venueFactsFor } from "./_venue-facts.js";
 import { EVENT_INDEXED_COHORT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
-import { organizerNames, eventEndDate } from "./_event-metadata.js";
+import { organizerNames, eventEndDate, validTicketLimit } from "./_event-metadata.js";
 import { eventPreviousStartDate } from "./_event-reschedule.js";
 import {
   BLOG_INDEX_PATH,
@@ -181,9 +182,9 @@ function reviewerSchemaRef(origin) {
 // copied verbatim into all three files. Keep the block byte-identical —
 // scripts/homepage-proposition.test.mjs fails the build the moment it drifts.
 // >>> homepage-proposition >>>
-const HOME_HEADLINE = "Compare ticket prices for the show you want.";
+const HOME_HEADLINE = "Compare resale ticket prices for your show, site by site.";
 const HOME_SUBCOPY =
-  "Choose an artist and date, see each ticket site's listed price where available, then check the final total on the ticket site.";
+  "Pick an artist and date to see each ticket site's listed price where available and the time it was checked, then confirm the total on the ticket site.";
 const HOME_PRIMARY_CTA_LABEL = "Compare a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [
@@ -770,7 +771,7 @@ async function resolveRoute(pathname, env) {
       type: "onsale-calendar",
       path,
       indexable: calendar.indexable,
-      title: "Concert Tickets Going On Sale Soon | TourTicketCompare",
+      title: "Concert Tickets On Sale This Week | TourTicketCompare",
       description:
         "Upcoming public on-sale dates and times from Ticketmaster for tracked concert tours, plus dates that went on sale in the last week.",
       calendar,
@@ -1069,10 +1070,18 @@ async function resolveRoute(pathname, env) {
       }
       relatedArtists = relatedArtistsBySharedCity(allEvents, artist.slug, linkable);
     }
+    // The wording a board without a live comparison gets. The page swaps to it
+    // after the price read when no date has two sellers' prices right now
+    // (artistComparisonLive), so a snippet never promises a comparison of
+    // verified links whose prices are missing or expired.
+    const unpricedDescription = artist.meta_description ||
+      `Every upcoming ${artist.name} date verified so far, with the checked ticket links for each one.`;
     return {
       type: "artist",
       path,
       relatedArtists,
+      comparisonPromised: hasUpcoming && priced,
+      unpricedDescription,
       indexable: artistPageIndexable(enrichedArtist, artistEvents, artist.slug),
       title: artistPageTitle(artist, yearLabel, tourLabel, { priced }),
       // The authored description promises dates, which is right while the board
@@ -1089,8 +1098,7 @@ async function resolveRoute(pathname, env) {
               `Compare ${artist.name} ticket prices by date across checked ticket sites, with each listed price, its check time and the link for each date.`,
               `Compare ${artist.name} ticket prices by date across checked ticket sites.`
             )
-          : artist.meta_description ||
-            `Every upcoming ${artist.name} date verified so far, with the checked ticket links for each one.`
+          : unpricedDescription
         : `No upcoming ${artist.name} dates are listed right now. See where to find ${artist.name} tickets and get told when dates are confirmed.`,
       artist: enrichedArtist,
       catalog,
@@ -3079,6 +3087,7 @@ function artistBoardModel(route, events, env) {
     content: buildArtistContentModel(artist, shows, {
       formatDate: (iso, timezone) => formatShowDateServer(iso, timezone),
       formatShortDate: (iso, timezone) => formatShortDateServer(iso, timezone),
+      relativeDay: (iso, timezone) => relativeShowDay(iso, timezone),
       pastShowCount: pastShows.length
     })
   };
@@ -3527,11 +3536,26 @@ function weeklyChangeSentence(change) {
 // dates' own lowest listed prices, one line per currency, as the same tracked
 // button that date's row prints, with its date, place and check time. It says
 // which sites it covers, because the site never sees the whole market.
-function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFor, ctaLocation }) {
+// `regional` (artist page only, added 2026-11-07): most visitors are in the US
+// and Canada, so when the overall pick is a date elsewhere, a second line names
+// the cheapest of the regional dates too. Same picker, gates and button; it
+// needs two or more priced regional dates in the same currency, like the main
+// line, and is omitted when the overall pick is already a regional date.
+function isUsOrCanada(country) {
+  return /^(united states( of america)?|usa|us|canada|ca)$/i.test(String(country || "").trim());
+}
+
+function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFor, ctaLocation, regional = null }) {
   const picks = cheapestAcrossDates(rows).slice(0, 2);
   if (!picks.length) return "";
-  const items = picks
-    .map(({ row, lane, pricedDates }) => {
+  const lines = picks.map((pick) => ({ ...pick, prefix: `Cheapest listed price of ${pick.pricedDates} priced dates` }));
+  if (regional && regional.rows.length && !picks.some((pick) => regional.rows.includes(pick.row))) {
+    const regionalPick = cheapestAcrossDates(regional.rows)[0];
+    if (regionalPick) lines.splice(1, 0, { ...regionalPick, prefix: `${regional.label}, ${regionalPick.pricedDates} priced dates` });
+  }
+  const items = lines
+    .slice(0, 2)
+    .map(({ row, lane, prefix }) => {
       const amount = formatServerPrice(lane.price, lane.currency);
       const date = formatShowDateServer(row.datetimeISO, row.timezone);
       if (!amount || !date) return "";
@@ -3543,7 +3567,7 @@ function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFo
         ctaLocation
       });
       return `<p>${escapeHtml(
-        `Cheapest listed price of ${pricedDates} priced dates: ${amount} on ${lane.name} for ${date}${place ? ` in ${place}` : ""}.`
+        `${prefix}: ${amount} on ${lane.name} for ${date}${place ? ` in ${place}` : ""}.`
       )} <span class="muted">${checkedTimeHtml(lane.fetchedAt, formatServerSnapshotTime(lane.fetchedAt))}</span></p><div class="action-row">${button}</div>`;
     })
     .join("");
@@ -3641,13 +3665,13 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
   const titleId = surface?.titleId || "artistCityPriceTitle";
   // A one-date panel (event page, home, on-sale) has no date to pick.
   const summary = ticketOptions && rows.length === 1
-    ? `${showPrices ? "Prices are as of the time shown. " : ""}Compare seats, fees and delivery on each ticket site before you pay.`
+    ? (showPrices ? "Prices are as of the time shown. Compare seats, fees and delivery on each ticket site before you pay." : "")
     : ticketOptions
     ? `Pick a date to see its checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}. ${showPrices ? 'Prices are as of the times shown, and "sites priced" is how many sites had a price for that date. ' : ""}Compare seats, fees and delivery on each ticket site before you pay.`
     : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. Seats, quantities and fees can differ between sites. "Sites priced" is how many ticket sites had a price for that date.${surface?.note ? ` ${surface.note}` : ""}`;
   return `<section class="nested-panel artist-city-price-answer" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
     heading
-  )}</h2><p>${escapeHtml(summary)}</p><div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
+  )}</h2>${summary ? `<p>${escapeHtml(summary)}</p>` : ""}<div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
     singleVenue ? "" : '<th scope="col">Venue</th>'
   }${showPrices ? '<th scope="col">Starting price</th>' : ""}<th scope="col">${ticketOptions ? "Ticket links" : "Sites priced"}</th></tr></thead><tbody>${body}</tbody></table></div></section>`;
 }
@@ -3877,10 +3901,12 @@ function derivePriceGuideView(route, events, env) {
   const checkedCount = priceAnswer.rows.filter((row) => row.checked).length;
   const firstPricedRow = priceAnswer.rows.find((row) => row.lowest);
   const firstPricedShow = firstPricedRow ? guideShowsById.get(firstPricedRow.showId) : null;
+  const soonestWord = firstPricedRow ? relativeShowDay(firstPricedRow.datetimeISO, firstPricedRow.timezone) : "";
+  const soonestDayPrefix = soonestWord ? `${soonestWord}, ` : "";
   // One chronological example, never a minimum across dates. Use the same
   // attributed, timestamped lane as its table row and tracked button.
   const currentAnswer = firstPricedRow && firstPricedShow
-    ? `${priceAnswer.pricedRowCount} of ${guide.showCount} dates show a listed resale price right now. The soonest: ${formatShowDateServer(firstPricedRow.datetimeISO, firstPricedRow.timezone)} in ${firstPricedShow.city} (${firstPricedShow.venue}), ${formatServerPrice(firstPricedRow.lowest.price, firstPricedRow.lowest.currency)} on ${firstPricedRow.lowest.name}, checked ${formatServerSnapshotTime(firstPricedRow.lowest.fetchedAt)}.`
+    ? `${priceAnswer.pricedRowCount} of ${guide.showCount} dates show a listed resale price right now. The soonest: ${soonestDayPrefix}${formatShowDateServer(firstPricedRow.datetimeISO, firstPricedRow.timezone)} in ${firstPricedShow.city} (${firstPricedShow.venue}), ${formatServerPrice(firstPricedRow.lowest.price, firstPricedRow.lowest.currency)} on ${firstPricedRow.lowest.name}, checked ${formatServerSnapshotTime(firstPricedRow.lowest.fetchedAt)}.`
     : checkedCount
       ? "No listed resale price is showing for these dates right now. That doesn't mean tickets are gone: check each date's ticket links."
       : "Prices couldn't be loaded just now. Each date's ticket links still open the ticket sites.";
@@ -4159,7 +4185,7 @@ function renderArtistCityAnswerSummary(artist, artistCity, { datesTabled = false
   return `<section class="nested-panel artist-city-summary" aria-labelledby="artistCityAnswerTitle">${heading}<p class="artist-city-summary__lead">${escapeHtml(
     artistCityIntroSentence(artist, artistCity, { datesTabled })
   )}${escapeHtml(runNote)}</p><p class="disclosure-note">${escapeHtml(
-    `${recency ? `${recency} ` : ""}This page lists ${artist.name} shows only, not every concert in ${artistCity.city}.`
+    `${recency ? `${recency} ` : ""}Lists ${artist.name} shows only.`
   )}</p></section>`;
 }
 
@@ -5358,6 +5384,10 @@ function enrichEventAsShow(ev) {
     public_onsale_at: String(ev.public_onsale_at || "").trim(),
     [TICKETMASTER_STATUS_FIELD]: String(ev[TICKETMASTER_STATUS_FIELD] || "").trim(),
     lifecycle: eventLifecycle(ev),
+    // Buying facts only when present, so pages that embed show records are
+    // unchanged for dates without them.
+    ...(validTicketLimit(ev.ticket_limit) ? { ticket_limit: validTicketLimit(ev.ticket_limit) } : {}),
+    ...(ev.legal_age_enforced === true ? { legal_age_enforced: true } : {}),
     seatgeek_url: String(ev.seatgeek_url || "").trim(),
     vividseats_url: String(ev.vividseats_url || "").trim(),
     ticketnetwork_url: String(ev.ticketnetwork_url || "").trim(),
@@ -5925,6 +5955,44 @@ export function renderArtistNextDatesPriceAnswer(artist, shows, availability, su
   });
 }
 
+// Data for the embeddable price widget (functions/api/embed.js, _embed.js).
+// Same artist gate, same price attach and same serverShowCtaSpecs gate as the
+// artist page's opening table, so the widget can never print a price the site
+// would not. Returns null for an unknown artist. An artist that is under review
+// or demoted gets no rows (its own page carries no ticket buttons either).
+// Shows are only the first EMBED_PRICE_LOOKUP_SHOWS dates, bounding D1 reads.
+const EMBED_PRICE_LOOKUP_SHOWS = 40;
+
+export async function loadEmbedPrices(env, artistSlug) {
+  const slug = slugify(artistSlug);
+  if (!slug) return null;
+  const [catalog, artistsMeta] = await Promise.all([loadCatalog(env), loadArtistsMeta(env)]);
+  const artist = findArtist(catalog, slug);
+  if (!artist) return null;
+  const meta = artistsMeta.find((m) => slugify(m.slug) === slug) || {};
+  const out = { artist: { slug: artist.slug, name: artist.name }, shows: [], rows: [], totalDates: 0 };
+  if (meta.demoted || meta.indexing_status !== "indexable_with_substantial_content") return out;
+  const events = await loadArtistEvents(env, slug);
+  const all = futureShowsForArtist(events, slug);
+  out.totalDates = all.length;
+  const candidates = all.slice(0, EMBED_PRICE_LOOKUP_SHOWS);
+  const priced = await attachApprovedMarketplacePrices(candidates, env);
+  const availability = {
+    seatGeekAvailable: isSeatGeekConfigured(env),
+    vividSeatsAvailable: isVividSeatsConfigured(env),
+    marketplaceAvailability: Object.fromEntries(
+      IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)])
+    )
+  };
+  const answer = deriveCityDatePrices(priced, {
+    ctaSpecsFor: (show) => serverShowCtaSpecs(show, availability),
+    wasChecked: pricesWereChecked
+  });
+  out.rows = answer.rows;
+  out.shows = priced.map((show) => ({ id: String(show.id || ""), city: String(show.city || ""), venue: String(show.venue || "") }));
+  return out;
+}
+
 // The presale page's opening ticket table: the next few dates it lists, as the
 // artist page opens with. Presale searchers arrive in bursts around a sale
 // (Nickelback, 13-14 Oct 2026: 51 search landings) and the first ticket button
@@ -5933,8 +6001,13 @@ function renderPresaleNextDates(route, events, env) {
   const artist = route.artist;
   if (artist.indexing_status !== "indexable_with_substantial_content") return "";
   const listedIds = presaleListedShowIds(route.presales);
-  if (!listedIds.size || !Array.isArray(events) || !events.length) return "";
-  const shows = futureShowsForArtist(events, artist.slug).filter((show) => listedIds.has(String(show.id || "")));
+  if (!Array.isArray(events) || !events.length) return "";
+  // With no presale listed, the page used to end in two links. People still land
+  // here after the presale has passed ("role model presale manchester"), and what
+  // they need next is the sale itself: show the artist's next dates with each
+  // site's listed price, as the artist page does.
+  const upcomingShows = futureShowsForArtist(events, artist.slug);
+  const shows = listedIds.size ? upcomingShows.filter((show) => listedIds.has(String(show.id || ""))) : upcomingShows;
   return renderArtistNextDatesPriceAnswer(
     artist,
     shows,
@@ -6065,7 +6138,7 @@ export function renderOnsaleCalendarBody(route) {
     : "";
   return `<main id="mainContent"><section class="content-page" aria-labelledby="onsaleTitle">${renderBreadcrumbHtml(
     route
-  )}<h1 id="onsaleTitle">Concert tickets going on sale</h1><p class="lead">${escapeHtml(lead)}</p>${route.onsalePriceHtml || ""}${presaleHtml}<section aria-labelledby="onsaleUpcomingTitle"><h2 id="onsaleUpcomingTitle">Going on sale</h2><p>Before its on-sale time, a date's artist page shows the time and no Ticketmaster button. Resale sites can list tickets earlier, and those listings can sit above face value.</p>${upcomingHtml}</section>${recentHtml}${collapsedGroupHtml(
+  )}<h1 id="onsaleTitle">Concert tickets going on sale</h1><p class="lead">${escapeHtml(lead)}</p>${route.thisWeekHtml || ""}${route.onsalePriceHtml || ""}${presaleHtml}<section aria-labelledby="onsaleUpcomingTitle"><h2 id="onsaleUpcomingTitle">Going on sale</h2><p>Before its on-sale time, a date's artist page shows the time and no Ticketmaster button. Resale sites can list tickets earlier, and those listings can sit above face value.</p>${upcomingHtml}</section>${recentHtml}${collapsedGroupHtml(
     "About this calendar",
     `<section class="nested-panel"><h2>Where these times come from</h2><div class="card-grid"><article class="info-card"><h3>Ticketmaster's public on-sale</h3><p>Each time is the public on-sale Ticketmaster lists for that exact date, carried on the same reviewed event record the artist page uses. Nothing is estimated.</p></article><article class="info-card"><h3>Presales from Ticketmaster</h3><p>Fan-club, card and venue presales are listed where Ticketmaster's record for a date names them, with their start and end times. Codes are never shown: they come from the artist, the card issuer or the venue.</p></article><article class="info-card"><h3>Times can change</h3><p>Promoters move on-sales. Confirm the time on Ticketmaster before the sale, and be signed in and ready a few minutes early.</p></article></div><div class="mini-link-grid">${anchor(
       "How to prepare for a ticket on-sale",
@@ -7151,7 +7224,7 @@ export function renderGuideProviderPair(route, events, env = {}) {
       "artist index",
       "/artists",
       "text-link"
-    )} or ${anchor("event comparison hub", "/compare-concert-ticket-prices", "text-link")} to start with a specific show.</p>${methodology}</section>`;
+    )} or ${anchor("event comparison hub", "/compare-concert-ticket-prices", "text-link")} to start with a specific show.</p></section>`;
   }
   const rows = displayed
     .map((event, index) => {
@@ -7325,15 +7398,37 @@ function priceGuideCheapestTitle(route, events, env) {
   ].find((candidate) => candidate.length <= TITLE_LENGTH_LIMIT) || "";
 }
 
+// Does any upcoming date on this artist's board show listed prices from two or
+// more sellers right now? Same lanes and gates as the price cards, so the
+// snippet and the board agree.
+function artistComparisonLive(route, events, env) {
+  const availability = {
+    seatGeekAvailable: isSeatGeekConfigured(env),
+    vividSeatsAvailable: isVividSeatsConfigured(env),
+    marketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map(
+      (provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]
+    ))
+  };
+  const { rows } = deriveCityDatePrices(futureShowsForArtist(events, route.artist.slug), {
+    ctaSpecsFor: (show) => serverShowCtaSpecs(show, availability),
+    wasChecked: pricesWereChecked
+  });
+  return rows.some((row) => row.comparedCount >= COMPARISON_MIN_PRICE_PROVIDERS);
+}
+
 function startingPriceMetaDescription(route, events, env) {
   if (route.type === "price-guide") return priceGuideSnippet(route, events, env);
-  if (route.type !== "artist-city" && route.type !== "event") return "";
+  if (route.type !== "artist-city" && route.type !== "event" && route.type !== "artist") return "";
   if (route.type === "event" && !route.eventState?.commerciallyLive) return "";
+  // The artist page quotes its next date only, like the artist-city page: one
+  // date, one site, one capture time, never a tour-wide minimum. Artist pages
+  // hold most search impressions at positions 7-12 with a price-free snippet
+  // (Search Console, 2026-10-07..11-04).
   const ids = route.type === "event"
     ? new Set([String(route.event.id)])
-    : artistCityShowIdSet(route.artistCity);
+    : route.type === "artist-city" ? artistCityShowIdSet(route.artistCity) : null;
   const shows = futureShowsForArtist(events, route.artist.slug)
-    .filter((show) => ids.has(String(show.id)));
+    .filter((show) => !ids || ids.has(String(show.id)));
   const availability = {
     seatGeekAvailable: isSeatGeekConfigured(env),
     vividSeatsAvailable: isVividSeatsConfigured(env),
@@ -7352,14 +7447,22 @@ function startingPriceMetaDescription(route, events, env) {
   const checked = `${captured.toISOString().slice(0, 16).replace("T", " ")} UTC`;
   const amount = new Intl.NumberFormat("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(lane.price);
   const money = `${lane.currency === "USD" ? "US$" : `${lane.currency} `}${amount}`;
-  const city = route.type === "artist-city" ? route.artistCity.label : route.event.city;
+  const city = route.type === "artist-city"
+    ? route.artistCity.label
+    : route.type === "event" ? route.event.city : String(shows.find((show) => String(show.id) === row.showId)?.city || "").trim();
+  if (!city) return "";
   const date = formatShortDateServer(row.datetimeISO, row.timezone);
   const startingPrice = ["Starting from", money].join(" ");
   const tail = `${startingPrice} listed at ${lane.name}; checked ${checked}. Check fees.`;
-  const candidates = [
-    `${route.artist.name} tickets in ${city} on ${date}. ${tail}`,
-    `${route.artist.name} ${city} tickets · ${date}. ${tail}`
-  ];
+  const candidates = route.type === "artist"
+    ? [
+        `${route.artist.name} tickets: next date ${date} in ${city}. ${tail}`,
+        `${route.artist.name} tickets · next ${city}, ${date}. ${tail}`
+      ]
+    : [
+        `${route.artist.name} tickets in ${city} on ${date}. ${tail}`,
+        `${route.artist.name} ${city} tickets · ${date}. ${tail}`
+      ];
   return candidates.find((candidate) => candidate.length <= META_DESCRIPTION_LENGTH_LIMIT) || "";
 }
 
@@ -7676,6 +7779,10 @@ function renderEventPageBody(route, events, env) {
     ["Date", `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(dateLabel)}</time>`],
     localTime ? ["Start time", `${escapeHtml(localTime)} local time`] : null,
     status ? ["Status", escapeHtml(status)] : null,
+    // Buying facts from this date's own Ticketmaster record (owner pick
+    // 2026-11-06). Absent facts show nothing; false is never shown as all-ages.
+    show.ticket_limit ? ["Ticket limit", escapeHtml(`${show.ticket_limit} per buyer on Ticketmaster`)] : null,
+    show.legal_age_enforced ? ["Age rule", "Age-restricted: Ticketmaster lists a legal-age rule for this date. Check the venue's ID policy."] : null,
     previousDate ? ["Previously scheduled", `<time datetime="${escapeAttr(previousDate)}">${escapeHtml(formatShowDateServer(previousDate, show.previous_start_timezone))}</time>`] : null,
     verified ? ["Details last checked", escapeHtml(verified)] : null
   ].filter(Boolean);
@@ -7969,10 +8076,40 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       vividSeatsAvailable,
       marketplaceAvailability
     }, { preferPriced: true }) : "";
+    // The cheapest of the dates' own lowest listed prices, with its site, date and
+    // check time, right under the intro so it sits on a phone's first screen.
+    // Same component, gates and wording as the price guide's "Cheapest <artist>
+    // tickets" panel (owner decision 2026-10-30); shown only when two or more
+    // dates have a price, so it never reads as a bare "from <price>".
+    const showCityById = new Map(shows.map((show) => [String(show.id || ""), show.city || ""]));
+    const northAmericanIds = new Set(shows.filter((show) => isUsOrCanada(show.country)).map((show) => String(show.id || "")));
+    const cheapestRows = isIndexableArtist && shows.length
+      ? deriveCityDatePrices(shows, {
+          ctaSpecsFor: (show) => serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }),
+          wasChecked: pricesWereChecked
+        }).rows
+      : [];
+    const regionalRows = cheapestRows.filter((row) => northAmericanIds.has(row.showId));
+    const cheapestPanelHtml = cheapestRows.length
+      ? renderCheapestAcrossDatesHtml(
+          artist,
+          cheapestRows,
+          {
+            regional: { rows: regionalRows, label: "Cheapest in the US and Canada" },
+            heading: `Cheapest ${artist.name} tickets`,
+            titleId: "artistCheapestTitle",
+            placeFor: (row) => {
+              const city = showCityById.get(row.showId);
+              return city ? `${city} (${row.venue})` : row.venue;
+            },
+            ctaLocation: "artist_cheapest"
+          }
+        )
+      : "";
     const nextDatesHtml = `${shows.length ? `<p class="artist-dates-jump">${anchor(`Find your date · ${shows.length} listed`, "#artistShowBoard", "text-link")}</p>` : ""}${nextDatesTableHtml}`;
     const leadHtml = `<div data-artist-lead><h1 id="artistTitle">${escapeHtml(
       shows.length ? `${artist.name} tickets and tour dates` : `${artist.name} tickets`
-    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${priceGuideLinkHtml}${presaleLinkHtml}${renderCityReportLinkHtml(artist, route.cityReport)}${nextDatesHtml}</div>`;
+    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${cheapestPanelHtml}${priceGuideLinkHtml}${presaleLinkHtml}${renderCityReportLinkHtml(artist, route.cityReport)}${nextDatesHtml}${nextDatesTableHtml ? `<p class="artist-embed-link">${anchor("Embed these prices on your site", `/api/embed?artist=${encodeURIComponent(artist.slug)}&view=builder`, "text-link", "rel=\"nofollow\"")}</p>` : ""}</div>`;
     const showBoardHtml = renderShowBoardServerHtml(
       shows,
       seatGeekAvailable,
@@ -8170,7 +8307,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       [],
       null,
       eventPageLinker(route.events || events, [artist])
-    )}<p class="disclosure-note">Before choosing a ticket link, match the local date, venue, seats and quantity. Check the seller's currency, final total and delivery terms. ${anchor("Compare SeatGeek and Ticketmaster", "/guides/seatgeek-vs-ticketmaster", "text-link")} or ${anchor("compare SeatGeek and Vivid Seats", "/guides/vivid-seats-vs-seatgeek", "text-link")} for buying guidance.</p>${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
+    )}<p class="disclosure-note">Match the date, venue, seats and quantity, then check the final total before you pay. Guides: ${anchor("compare SeatGeek and Ticketmaster", "/guides/seatgeek-vs-ticketmaster", "text-link")} · ${anchor("compare SeatGeek and Vivid Seats", "/guides/vivid-seats-vs-seatgeek", "text-link")}.</p>${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
       "How prices and links work, and useful links",
       `${renderArtistTicketHelpHtml(artistTicketHelp())}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,
@@ -8506,7 +8643,27 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "artists page",
       "/artists",
       "text-link"
-    )}, and every artist with ${TOURS_HUB_YEAR} dates is on the ${anchor(`${TOURS_HUB_YEAR} tours page`, TOURS_HUB_PATH, "text-link")}.</li></ul></section><section class="nested-panel"><h2>What makes it different</h2><ul class="check-list"><li>Every price names its ticket site and the time it was captured.</li><li>Links are checked against the exact show, so a fan does not land on the wrong night or a lookalike listing.</li><li>One page per tour, with every date and the ticket sites that list it, instead of five open tabs.</li><li>It says what it does not know: a listed price is not the checkout total, and fees and availability change.</li></ul></section><section class="nested-panel"><h2>Logos and images</h2><ul class="check-list"><li>${anchor(
+    )}, and every artist with ${TOURS_HUB_YEAR} dates is on the ${anchor(`${TOURS_HUB_YEAR} tours page`, TOURS_HUB_PATH, "text-link")}.</li></ul></section><section class="nested-panel"><h2>Data for journalists</h2><p>TourTicketCompare keeps a daily record of the lowest listed resale price per ticket site for the shows it tracks. These studies use it. Each one names its ticket sites, dates and sample size, and you are welcome to quote the figures with credit to TourTicketCompare.</p><ul class="check-list"><li>${anchor(
+      "Do concert ticket prices drop in the last week?",
+      "/blog/do-concert-ticket-prices-drop-in-the-last-week",
+      "text-link"
+    )} The day before a show, the lowest listed price was lower than a week earlier at about 6 in 10 of 421 US shows.</li><li>${anchor(
+      "Should you rush to buy resale tickets for a new tour?",
+      "/blog/do-resale-ticket-prices-drop-after-a-tour-goes-on-sale",
+      "text-link"
+    )} Two weeks after a show's first recorded price, it was lower at 49% of 1,608 US shows and higher at 24%.</li><li>${anchor(
+      "Which US cities are cheapest for seeing a touring show?",
+      "/blog/cheapest-us-cities-to-see-a-concert-tour",
+      "text-link"
+    )} Across 100+ tours, Pittsburgh, Nashville and Miami came in below the tour's typical price, and New York and San Francisco above it.</li><li>${anchor(
+      "How much do resale prices move from day to day?",
+      "/blog/how-often-do-resale-ticket-prices-change",
+      "text-link"
+    )} About half of US shows saw the cheapest listing move 20% or more overnight at least once.</li><li>${anchor(
+      "Which US tours have the highest ticket prices?",
+      "/blog/which-us-tours-have-the-highest-ticket-prices",
+      "text-link"
+    )} 124 US tours ranked by their typical lowest listed resale price.</li></ul><p>All figures are listed resale prices, not checkout totals or face value. For numbers on a specific tour, city or date, email the address below.</p></section><section class="nested-panel"><h2>What makes it different</h2><ul class="check-list"><li>Every price names its ticket site and the time it was captured.</li><li>Links are checked against the exact show, so a fan does not land on the wrong night or a lookalike listing.</li><li>One page per tour, with every date and the ticket sites that list it, instead of five open tabs.</li><li>It says what it does not know: a listed price is not the checkout total, and fees and availability change.</li></ul></section><section class="nested-panel"><h2>Logos and images</h2><ul class="check-list"><li>${anchor(
       "Square logo (PNG, 512 × 512)",
       "/logo.png",
       "text-link"
@@ -8742,8 +8899,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20261030b" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261030b" />'
+      '<link rel="stylesheet" href="/styles.css?v=20261106a" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261106a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261023b" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20261025a" defer></script></body>');
@@ -9035,8 +9192,8 @@ const EDGE_EXPIRES_AT_HEADER = "X-TTC-Edge-Expires-At";
 const EDGE_VALID_UNTIL_HEADER = "X-TTC-Edge-Valid-Until";
 
 // The moment a price guide's render stops being what a live render would
-// show: the earliest snapshot expiry, pending public on-sale or show start
-// among the priced shows.
+// show: the earliest snapshot expiry, pending public on-sale, show start or
+// (for shows within two days) venue-local midnight among the priced shows.
 // null when the price read failed, so that render is never stored.
 function edgeValidUntilFor(shows) {
   let until = Number.POSITIVE_INFINITY;
@@ -9044,6 +9201,12 @@ function edgeValidUntilFor(shows) {
     if (show?.priceQueryFailed) return null;
     const starts = showStartMs(show);
     if (Number.isFinite(starts)) until = Math.min(until, starts);
+    // A show within two days may carry "Today"/"Tomorrow", which flips at
+    // the venue's midnight.
+    if (Number.isFinite(starts) && starts - Date.now() < 2 * 86400000) {
+      const midnight = nextVenueMidnightMs(show?.dateTimeISO || show?.datetime_iso || "", show?.timezone);
+      if (Number.isFinite(midnight)) until = Math.min(until, midnight);
+    }
     // A pending public on-sale is stated on the page until it opens.
     const onsale = Date.parse(show?.public_onsale_at || "");
     if (Number.isFinite(onsale) && onsale > Date.now()) until = Math.min(until, onsale);
@@ -9232,10 +9395,18 @@ async function renderRequest(context) {
       priceCandidates = futureShowsForArtist(events, route.artist.slug);
     } else if (route.type === "presale") {
       // The dates the page lists: those under a presale window or with an
-      // upcoming public on-sale (presaleListedShowIds).
+      // upcoming public on-sale (presaleListedShowIds). With none listed, the
+      // page opens with the artist's next dates instead (renderPresaleNextDates),
+      // so those are the ones to price. Until 2026-11-06 they were never
+      // queried, so a no-presale page (Shania Twain, Role Model) showed dates
+      // with no price and no ticket button at all.
       // An artist under review gets no table (renderPresaleResaleTable), so no read.
-      const listedIds = route.artist.indexing_status === "indexable_with_substantial_content" ? presaleListedShowIds(route.presales) : new Set();
-      priceCandidates = futureShowsForArtist(events, route.artist.slug).filter((show) => listedIds.has(String(show.id || "")));
+      const indexable = route.artist.indexing_status === "indexable_with_substantial_content";
+      const listedIds = indexable ? presaleListedShowIds(route.presales) : new Set();
+      const upcoming = indexable ? futureShowsForArtist(events, route.artist.slug) : [];
+      priceCandidates = listedIds.size
+        ? upcoming.filter((show) => listedIds.has(String(show.id || "")))
+        : upcoming.slice(0, ARTIST_NEXT_DATES_LIMIT);
     } else if (route.type === "artist-city") {
       const cityShowIds = artistCityShowIdSet(route.artistCity || {});
       priceCandidates = futureShowsForArtist(events, route.artist.slug)
@@ -9326,17 +9497,32 @@ async function renderRequest(context) {
   }
   // Links to artists with an on-sale or presale in the next 7 days (home:
   // presales only, since the "Going on sale soon" strip already lists on-sales).
-  if (events.length && (route.path === "/" || THIS_WEEK_GUIDE_PATHS.has(route.path))) {
+  if (events.length && (route.path === "/" || route.path === ONSALE_CALENDAR_PATH || THIS_WEEK_GUIDE_PATHS.has(route.path))) {
     const meta = await loadArtistsMeta(env);
     const linkable = new Set(
       meta
         .filter((artist) => artist && !artist.demoted && artistPageIndexable(artist, events, slugify(artist.slug)))
         .map((artist) => slugify(artist.slug))
     );
+    const nowMs = Date.now();
+    const onCalendar = route.path === ONSALE_CALENDAR_PATH;
     const thisWeekHtml = renderThisWeekHtml(
-      deriveThisWeek(events, linkable, Date.now(), route.path === "/" ? { kinds: ["presale"] } : {})
+      deriveThisWeek(
+        events,
+        linkable,
+        nowMs,
+        route.path === "/" ? { kinds: ["presale"] } : onCalendar ? { maxItems: 12 } : {}
+      ),
+      "thisWeekOnsaleTitle",
+      onCalendar ? { checkedAt: nowMs, onCalendar: true } : {}
     );
     if (thisWeekHtml) renderRoute = { ...renderRoute, thisWeekHtml };
+  }
+  // "Compare <artist> ticket prices" is kept only while some upcoming date
+  // shows two or more sellers' prices from this render's price read (owner
+  // decision 2026-11-07). Verified links alone are not a comparison.
+  if (route.type === "artist" && route.comparisonPromised && !artistComparisonLive(route, renderEvents, env)) {
+    renderRoute = { ...renderRoute, description: route.unpricedDescription };
   }
   if (route.type === "artist") {
     const allBlogPosts = deriveBlogPosts(await loadBlogContent(env));

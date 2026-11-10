@@ -3688,6 +3688,174 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-omer-adam",
     redirectUrl: "https://seatgeek.com/omer-adam-tickets",
     verified: true
+  },
+  "chris-stassy:ticketmaster": {
+    artistSlug: "chris-stassy",
+    provider: "ticketmaster",
+    linkId: "tm-artist-chris-stassy",
+    redirectUrl: "https://www.ticketmaster.com/chris-stassy-tickets/artist/4638826",
+    verified: true
+  },
+  "chris-stassy:seatgeek": {
+    artistSlug: "chris-stassy",
+    provider: "seatgeek",
+    linkId: "sg-artist-chris-stassy",
+    redirectUrl: "https://seatgeek.com/chris-stussy-tickets",
+    verified: true
+  },
+  "gary-allan:ticketmaster": {
+    artistSlug: "gary-allan",
+    provider: "ticketmaster",
+    linkId: "tm-artist-gary-allan",
+    redirectUrl: "https://www.ticketmaster.com/gary-allan-tickets/artist/780718",
+    verified: true
+  },
+  "gary-allan:seatgeek": {
+    artistSlug: "gary-allan",
+    provider: "seatgeek",
+    linkId: "sg-artist-gary-allan",
+    redirectUrl: "https://seatgeek.com/gary-allan-tickets",
+    verified: true
+  },
+  "mon-laferte:ticketmaster": {
+    artistSlug: "mon-laferte",
+    provider: "ticketmaster",
+    linkId: "tm-artist-mon-laferte",
+    redirectUrl: "https://www.ticketmaster.com/mon-laferte-tickets/artist/2144574",
+    verified: true
+  },
+  "mon-laferte:seatgeek": {
+    artistSlug: "mon-laferte",
+    provider: "seatgeek",
+    linkId: "sg-artist-mon-laferte",
+    redirectUrl: "https://seatgeek.com/mon-laferte-tickets",
+    verified: true
+  },
+  "meshuggah:ticketmaster": {
+    artistSlug: "meshuggah",
+    provider: "ticketmaster",
+    linkId: "tm-artist-meshuggah",
+    redirectUrl: "https://www.ticketmaster.com/meshuggah-tickets/artist/847086",
+    verified: true
+  },
+  "meshuggah:seatgeek": {
+    artistSlug: "meshuggah",
+    provider: "seatgeek",
+    linkId: "sg-artist-meshuggah",
+    redirectUrl: "https://seatgeek.com/meshuggah-tickets",
+    verified: true
+  },
+  "kodak-black:ticketmaster": {
+    artistSlug: "kodak-black",
+    provider: "ticketmaster",
+    linkId: "tm-artist-kodak-black",
+    redirectUrl: "https://www.ticketmaster.com/kodak-black-tickets/artist/2241265",
+    verified: true
+  },
+  "kodak-black:seatgeek": {
+    artistSlug: "kodak-black",
+    provider: "seatgeek",
+    linkId: "sg-artist-kodak-black",
+    redirectUrl: "https://seatgeek.com/kodak-black-tickets",
+    verified: true
+  },
+  "lenny-pearce:ticketmaster": {
+    artistSlug: "lenny-pearce",
+    provider: "ticketmaster",
+    linkId: "tm-artist-lenny-pearce",
+    redirectUrl: "https://www.ticketmaster.com/lenny-pearce-tickets/artist/3598894",
+    verified: true
+  },
+  "lenny-pearce:seatgeek": {
+    artistSlug: "lenny-pearce",
+    provider: "seatgeek",
+    linkId: "sg-artist-lenny-pearce",
+    redirectUrl: "https://seatgeek.com/lenny-pearce-tickets",
+    verified: true
+  },
+  "los-tucanes-de-tijuana:ticketmaster": {
+    artistSlug: "los-tucanes-de-tijuana",
+    provider: "ticketmaster",
+    linkId: "tm-artist-los-tucanes-de-tijuana",
+    redirectUrl: "https://www.ticketmaster.com/los-tucanes-de-tijuana-tickets/artist/764354",
+    verified: true
+  },
+  "los-tucanes-de-tijuana:seatgeek": {
+    artistSlug: "los-tucanes-de-tijuana",
+    provider: "seatgeek",
+    linkId: "sg-artist-los-tucanes-de-tijuana",
+    redirectUrl: "https://seatgeek.com/los-tucanes-de-tijuana-tickets",
+    verified: true
+  },
+  "mat-kearney:ticketmaster": {
+    artistSlug: "mat-kearney",
+    provider: "ticketmaster",
+    linkId: "tm-artist-mat-kearney",
+    redirectUrl: "https://www.ticketmaster.com/mat-kearney-tickets/artist/1015621",
+    verified: true
+  },
+  "mat-kearney:seatgeek": {
+    artistSlug: "mat-kearney",
+    provider: "seatgeek",
+    linkId: "sg-artist-mat-kearney",
+    redirectUrl: "https://seatgeek.com/mat-kearney-tickets",
+    verified: true
+  },
+  "breaking-benjamin:ticketmaster": {
+    artistSlug: "breaking-benjamin",
+    provider: "ticketmaster",
+    linkId: "tm-artist-breaking-benjamin",
+    redirectUrl: "https://www.ticketmaster.com/breaking-benjamin-tickets/artist/841686",
+    verified: true
+  },
+  "breaking-benjamin:seatgeek": {
+    artistSlug: "breaking-benjamin",
+    provider: "seatgeek",
+    linkId: "sg-artist-breaking-benjamin",
+    redirectUrl: "https://seatgeek.com/breaking-benjamin-tickets",
+    verified: true
+  },
+  "feid:ticketmaster": {
+    artistSlug: "feid",
+    provider: "ticketmaster",
+    linkId: "tm-artist-feid",
+    redirectUrl: "https://www.ticketmaster.com/feid-tickets/artist/2826011",
+    verified: true
+  },
+  "feid:seatgeek": {
+    artistSlug: "feid",
+    provider: "seatgeek",
+    linkId: "sg-artist-feid",
+    redirectUrl: "https://seatgeek.com/feid-tickets",
+    verified: true
+  },
+  "fall-out-boy:ticketmaster": {
+    artistSlug: "fall-out-boy",
+    provider: "ticketmaster",
+    linkId: "tm-artist-fall-out-boy",
+    redirectUrl: "https://www.ticketmaster.com/fall-out-boy-tickets/artist/854398",
+    verified: true
+  },
+  "fall-out-boy:seatgeek": {
+    artistSlug: "fall-out-boy",
+    provider: "seatgeek",
+    linkId: "sg-artist-fall-out-boy",
+    redirectUrl: "https://seatgeek.com/fall-out-boy-tickets",
+    verified: true
+  },
+  "the-dead-south:ticketmaster": {
+    artistSlug: "the-dead-south",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-dead-south",
+    redirectUrl: "https://www.ticketmaster.com/the-dead-south-tickets/artist/2020797",
+    verified: true
+  },
+  "the-dead-south:seatgeek": {
+    artistSlug: "the-dead-south",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-dead-south",
+    redirectUrl: "https://seatgeek.com/the-dead-south-tickets",
+    verified: true
   }
 };
 

@@ -156,8 +156,7 @@ const ASSET_FILES = [
   "data/artists.json",
   "data/events.json",
   "data/guides-content.json",
-  "data/blog-content.json",
-  "data/provider-configs.json"
+  "data/blog-content.json"
 ];
 
 const baseAssets = new Map();

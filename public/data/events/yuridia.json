@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-seattle-paramount-theatre-seattle-2-4-2027/production/7530975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-seattle-washington-02-04-2027/event/0F006521E725215D",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -30,14 +30,14 @@
         "event_id": 18570382,
         "url": "https://seatgeek.com/yuridia-tickets/seattle-washington-paramount-theatre-wa-2027-02-04-8-pm/concert/18570382",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7530975,
         "url": "https://www.vividseats.com/yuridia-tickets-seattle-paramount-theatre-seattle-2-4-2027/production/7530975",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -81,7 +81,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-reno-1a9zkf0gkdps324",
@@ -99,7 +101,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-reno-grand-theatre-at-grand-sierra-resort-2-6-2027/production/7531082",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-reno-nevada-02-06-2027/event/17006524E5C523D5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -114,14 +116,14 @@
         "event_id": 18570383,
         "url": "https://seatgeek.com/yuridia-tickets/reno-nevada-grand-sierra-resort-2027-02-06-8-pm/concert/18570383",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531082,
         "url": "https://www.vividseats.com/yuridia-tickets-reno-grand-theatre-at-grand-sierra-resort-2-6-2027/production/7531082",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -149,7 +151,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-san-jose-g5vyz_oxvxyml",
@@ -167,7 +171,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-san-jose-sap-center-2-7-2027/production/7531054",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-san-jose-california-02-07-2027/event/1C00651FB4FB0B9F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -182,14 +186,14 @@
         "event_id": 18570385,
         "url": "https://seatgeek.com/yuridia-tickets/san-jose-california-sap-center-at-san-jose-2027-02-07-8-pm/concert/18570385",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531054,
         "url": "https://www.vividseats.com/yuridia-tickets-san-jose-sap-center-2-7-2027/production/7531054",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -198,6 +202,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8252890",
+        "url": "https://www.ticketnetwork.com/en/p/8252890",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252890",
+        "url": "https://www.ticketliquidator.com/tickets/8252890/Yuridia-tickets-Sun-Feb-7-2027-SAP-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667623",
+        "url": "https://www.stubhub.ie/yuridia-san-jose-tickets-2-7-2027/event/107667623",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_oXVXYmL",
@@ -217,7 +242,12 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252890",
+    "ticket_limit": 6,
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252890/Yuridia-tickets-Sun-Feb-7-2027-SAP-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-san-jose-tickets-2-7-2027/event/107667623"
   },
   {
     "id": "tm-yuridia-2027-palm-desert-vvg1iz_35qkx8b",
@@ -235,7 +265,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-palm-desert-california-02-11-2027/event/0A006522DD1BE418",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -285,7 +315,8 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-phoenix-1a_zkfxgkecvpec",
@@ -303,7 +334,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-phoenix-arizona-financial-theatre-2-13-2027/production/7531084",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-phoenix-arizona-02-13-2027/event/19006522AD0560AD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -318,14 +349,14 @@
         "event_id": 18570386,
         "url": "https://seatgeek.com/yuridia-tickets/phoenix-arizona-arizona-financial-theatre-2027-02-13-8-pm/concert/18570386",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531084,
         "url": "https://www.vividseats.com/yuridia-tickets-phoenix-arizona-financial-theatre-2-13-2027/production/7531084",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -372,7 +403,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-highland-z7r9jz1aav-j_",
@@ -390,7 +423,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-j_",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -405,7 +438,7 @@
         "event_id": 18570387,
         "url": "https://seatgeek.com/yuridia-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-02-17-8-pm/concert/18570387",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -441,7 +474,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255474",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255474/Yuridia-tickets-Wed-Feb-17-2027-Yaamava-Theater-at-Yaamava-Resort-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255474/Yuridia-tickets-Wed-Feb-17-2027-Yaamava-Theater-at-Yaamava-Resort-Casino",
+    "genre": "World"
   },
   {
     "id": "tm-yuridia-2027-las-vegas-1ayzkfngkdql5vb",
@@ -459,7 +493,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-las-vegas-ph-live-at-planet-hollywood-2-18-2027/production/7531056",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-las-vegas-nevada-02-18-2027/event/39006523DDACBD18",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -474,14 +508,14 @@
         "event_id": 18570391,
         "url": "https://seatgeek.com/yuridia-tickets/las-vegas-nevada-ph-live-at-planet-hollywood-2027-02-18-8-pm/concert/18570391",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531056,
         "url": "https://www.vividseats.com/yuridia-tickets-las-vegas-ph-live-at-planet-hollywood-2-18-2027/production/7531056",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -530,7 +564,9 @@
         "start": "2026-09-11T17:00:00Z",
         "end": "2027-02-19T05:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-inglewood-vvg1iz_3kmopkh",
@@ -548,7 +584,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-inglewood-youtube-theater-2-20-2027/production/7531076",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-20-2027/event/0A006521AE4654FC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -563,14 +599,14 @@
         "event_id": 18570397,
         "url": "https://seatgeek.com/yuridia-tickets/inglewood-california-youtube-theater-2027-02-20-8-pm/concert/18570397",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531076,
         "url": "https://www.vividseats.com/yuridia-tickets-inglewood-youtube-theater-2-20-2027/production/7531076",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -622,7 +658,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-inglewood-vvg1iz_33c4njl",
@@ -640,7 +678,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-inglewood-youtube-theater-2-21-2027/production/7545945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-21-2027/event/0A006524AD56A71F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -655,14 +693,14 @@
         "event_id": 18584334,
         "url": "https://seatgeek.com/yuridia-tickets/inglewood-california-youtube-theater-2027-02-21-8-pm/concert/18584334",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7545945,
         "url": "https://www.vividseats.com/yuridia-tickets-inglewood-youtube-theater-2-21-2027/production/7545945",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -714,7 +752,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-fresno-g5vyz_35vhmjx",
@@ -732,7 +772,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-fresno-save-mart-center-2-25-2027/production/7531046",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-fresno-california-02-25-2027/event/1C006522C16EE722",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -747,14 +787,14 @@
         "event_id": 18570392,
         "url": "https://seatgeek.com/yuridia-tickets/fresno-california-save-mart-center-2027-02-25-8-pm/concert/18570392",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531046,
         "url": "https://www.vividseats.com/yuridia-tickets-fresno-save-mart-center-2-25-2027/production/7531046",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -806,7 +846,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-wheatland-g5vyz_32kawxi",
@@ -824,7 +866,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-wheatland-sacramento-hard-rock-hotel-and-casino-2-27-2027/production/7531094",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-wheatland-california-02-27-2027/event/1C006523D3272FAC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -839,14 +881,14 @@
         "event_id": 18570399,
         "url": "https://seatgeek.com/yuridia-tickets/wheatland-california-hard-rock-live-sacramento-2027-02-27-8-pm/concert/18570399",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531094,
         "url": "https://www.vividseats.com/yuridia-tickets-wheatland-sacramento-hard-rock-hotel-and-casino-2-27-2027/production/7531094",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -890,7 +932,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-san-diego-vvg1iz_3fqrwdv",
@@ -908,7 +952,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-san-diego-california-02-28-2027/event/0A0065221D7BDEF4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -923,7 +967,7 @@
         "event_id": 18570401,
         "url": "https://seatgeek.com/yuridia-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2027-02-28-8-pm/concert/18570401",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -974,7 +1018,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-dallas-vvg1yz_32hm5d6",
@@ -992,7 +1038,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-dallas-dos-equis-pavilion-3-12-2027/production/7531070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-dallas-texas-03-12-2027/event/0C006523DBDCBEC7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1007,14 +1053,14 @@
         "event_id": 18570406,
         "url": "https://seatgeek.com/yuridia-tickets/dallas-texas-dos-equis-pavilion-2027-03-12-8-pm/concert/18570406",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531070,
         "url": "https://www.vividseats.com/yuridia-tickets-dallas-dos-equis-pavilion-3-12-2027/production/7531070",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1061,7 +1107,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-el-paso-vvg1yz_3ggzxqt",
@@ -1079,7 +1127,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-el-paso-don-haskins-center-3-14-2027/production/7531086",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-el-paso-texas-03-14-2027/event/0C0065230CE22769",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1094,14 +1142,14 @@
         "event_id": 18570407,
         "url": "https://seatgeek.com/yuridia-tickets/el-paso-texas-don-haskins-center-2027-03-14-8-pm/concert/18570407",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531086,
         "url": "https://www.vividseats.com/yuridia-tickets-el-paso-don-haskins-center-3-14-2027/production/7531086",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1153,7 +1201,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-laredo-g5diz_3f66dhn",
@@ -1171,7 +1221,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-laredo-sames-auto-arena-3-18-2027/production/7531062",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-laredo-texas-03-18-2027/event/3A006522071FB6E3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1186,14 +1236,14 @@
         "event_id": 18570409,
         "url": "https://seatgeek.com/yuridia-tickets/laredo-texas-sames-auto-arena-2027-03-18-8-pm/concert/18570409",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531062,
         "url": "https://www.vividseats.com/yuridia-tickets-laredo-sames-auto-arena-3-18-2027/production/7531062",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1237,7 +1287,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-rosemont-vv1a7zkf0gkenyiy-",
@@ -1255,7 +1307,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-rosemont-rosemont-theatre-3-25-2027/production/7531765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-25-2027/event/04006524AAE6CC21",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1277,7 +1329,7 @@
         "event_id": 7531765,
         "url": "https://www.vividseats.com/yuridia-tickets-rosemont-rosemont-theatre-3-25-2027/production/7531765",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1306,7 +1358,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259597",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259597/Yuridia-tickets-Thu-Mar-25-2027-Rosemont-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259597/Yuridia-tickets-Thu-Mar-25-2027-Rosemont-Theatre",
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-national-harbor-1a4zkfxgkelii5v",
@@ -1324,7 +1377,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-oxon-hill-the-theater-at-mgm-national-harbor-3-28-2027/production/7531066",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-national-harbor-maryland-03-28-2027/event/15006522ABA282F4",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1346,7 +1399,7 @@
         "event_id": 7531066,
         "url": "https://www.vividseats.com/yuridia-tickets-oxon-hill-the-theater-at-mgm-national-harbor-3-28-2027/production/7531066",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1390,7 +1443,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-rosemont-vv1a7zkf0gkeskm_x",
@@ -1408,7 +1463,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-rosemont-rosemont-theatre-3-24-2027--concerts-latin-music/production/7589034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-24-2027/event/04006524B34EE662",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1423,14 +1478,14 @@
         "event_id": 18609778,
         "url": "https://seatgeek.com/yuridia-tickets/rosemont-illinois-rosemont-theatre-2027-03-24-8-pm/concert/18609778",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7589034,
         "url": "https://www.vividseats.com/yuridia-tickets-rosemont-rosemont-theatre-3-24-2027--concerts-latin-music/production/7589034",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1459,7 +1514,9 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8276961",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8276961/Yuridia-tickets-Wed-Mar-24-2027-Rosemont-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8276961/Yuridia-tickets-Wed-Mar-24-2027-Rosemont-Theatre",
+    "ticket_limit": 8,
+    "genre": "Latin"
   },
   {
     "id": "tm-yuridia-2027-sugar-land-z7r9jz1aav-_t",
@@ -1477,7 +1534,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-sugar-land-smart-financial-centre-3-11-2027/production/7530977",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_t",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1492,14 +1549,14 @@
         "event_id": 18570402,
         "url": "https://seatgeek.com/yuridia-tickets/sugar-land-texas-smart-financial-centre-2027-03-11-8-pm/concert/18570402",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7530977,
         "url": "https://www.vividseats.com/yuridia-tickets-sugar-land-smart-financial-centre-3-11-2027/production/7530977",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1515,12 +1572,29 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252910",
+        "url": "https://www.ticketliquidator.com/tickets/8252910/Yuridia-tickets-Thu-Mar-11-2027-Smart-Financial-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666035",
+        "url": "https://www.stubhub.ie/yuridia-sugar-land-tickets-3-11-2027/event/107666035",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-_t",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252910"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252910",
+    "genre": "World",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252910/Yuridia-tickets-Thu-Mar-11-2027-Smart-Financial-Centre",
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-sugar-land-tickets-3-11-2027/event/107666035"
   },
   {
     "id": "tm-yuridia-2027-edinburg-z7r9jz1aav-_y",
@@ -1538,7 +1612,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-edinburg-bert-ogden-arena-3-19-2027/production/7531048",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_Y",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1553,14 +1627,14 @@
         "event_id": 18570410,
         "url": "https://seatgeek.com/yuridia-tickets/edinburg-texas-bert-ogden-arena-2027-03-19-8-pm/concert/18570410",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531048,
         "url": "https://www.vividseats.com/yuridia-tickets-edinburg-bert-ogden-arena-3-19-2027/production/7531048",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1592,7 +1666,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252916/Yuridia-tickets-Fri-Mar-19-2027-Bert-Ogden-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "World"
   },
   {
     "id": "tm-yuridia-2027-brooklyn-z7r9jz1aav-_s",
@@ -1610,7 +1685,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-brooklyn-kings-theatre-brooklyn-3-27-2027/production/7531072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv-_s",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1632,7 +1707,7 @@
         "event_id": 7531072,
         "url": "https://www.vividseats.com/yuridia-tickets-brooklyn-kings-theatre-brooklyn-3-27-2027/production/7531072",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1672,7 +1747,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/yuridia-brooklyn-tickets-3-27-2027/event/107666054",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "World"
   },
   {
     "id": "tm-yuridia-2026-zapopan-g5dvz_aia5kvd",
@@ -1690,7 +1766,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/yuridia-las-cartas-sobre-la-mesa-zapopan-05-12-2026/event/3D00649B052C607B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1752,6 +1828,7 @@
       "OCESA"
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307103/Yuridia-tickets-Sat-Dec-5-2026-Coliseo-GNP-Seguros",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307103"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307103",
+    "genre": "Latin"
   }
 ]

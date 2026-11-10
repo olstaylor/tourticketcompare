@@ -27,8 +27,21 @@
 // artist's total, then the order above. Eligibility and the per-artist cap
 // are unchanged.
 //
+// With --new-since <YYYY-MM-DD> (2026-11-06, new-tour pass), shows of artists
+// the auto-promote lane added on or after that date rank right after the
+// single-date rule, ahead of expected commission. Auto-promote only adds an
+// artist on a fresh Ticketmaster tour announcement, so this puts just-announced
+// tours, where date-level search demand starts, into the next batch.
+// Eligibility and the per-artist cap are unchanged.
+//
+// With --demand-file <json> ({ "impressions": { "<artist-slug>": n } }, a
+// Search Console export of each artist's impressions across its /artists/
+// routes), artists people already search for rank next, so a just-announced
+// tour with real search demand is not outranked by one that merely has more
+// ticket sites linked. It only reorders.
+//
 // Usage:
-//   node scripts/select-event-indexing-batch.mjs [--size 200] [--per-artist 6] [--priority-file <json>] [--json]
+//   node scripts/select-event-indexing-batch.mjs [--size 200] [--per-artist 6] [--priority-file <json>] [--new-since <YYYY-MM-DD>] [--demand-file <json>] [--json]
 
 import fs from "node:fs";
 import path from "node:path";
@@ -87,7 +100,9 @@ export function priorityValues(shows = []) {
   return { show, artist };
 }
 
-export function selectBatch({ events, artists, catalog, now = Date.now(), size = 200, perArtist = 6, excludedKeys = [], priority = null }) {
+export function selectBatch({ events, artists, catalog, now = Date.now(), size = 200, perArtist = 6, excludedKeys = [], priority = null, newSince = "", demand = null }) {
+  if (newSince && !/^\d{4}-\d{2}-\d{2}$/.test(newSince)) throw new Error("--new-since must be YYYY-MM-DD");
+  const newTour = new Set(newSince ? artists.filter((artist) => artist.promotion_source === "auto" && String(artist.auto_promoted_at || "") >= newSince).map((artist) => artist.slug) : []);
   const isConfigured = providerConfiguredTest(catalog);
   const excluded = new Set(excludedKeys);
   const byId = new Map(events.map((event) => [String(event.id).trim(), event]));
@@ -107,9 +122,12 @@ export function selectBatch({ events, artists, catalog, now = Date.now(), size =
   }
   const showValue = (row) => priority?.show.get(String(row.event.id)) || 0;
   const artistValue = (row) => priority?.artist.get(row.event.artist_slug) || 0;
+  const demandValue = (row) => Number(demand?.[row.event.artist_slug]) || 0;
   rows.sort(
     (a, b) =>
       Number(a.relation !== "noindex_single_date") - Number(b.relation !== "noindex_single_date") ||
+      Number(newTour.has(b.event.artist_slug)) - Number(newTour.has(a.event.artist_slug)) ||
+      demandValue(b) - demandValue(a) ||
       showValue(b) - showValue(a) ||
       artistValue(b) - artistValue(a) ||
       b.decision.inputs.destinationCount - a.decision.inputs.destinationCount ||
@@ -140,6 +158,7 @@ export function selectBatch({ events, artists, catalog, now = Date.now(), size =
       country: normalizeCountry(event.country),
       local_date: localDate,
       artist_city: relation === "noindex_single_date" ? "single_date" : "multi_date",
+      ...(newSince ? { new_tour: newTour.has(event.artist_slug) } : {}),
       destinations: decision.inputs.destinationCount,
       snapshot_ready_lanes: decision.inputs.snapshotReadyLanes.length,
       days_out_at_selection: daysOut
@@ -155,6 +174,8 @@ function main() {
   const readJson = (relative) => JSON.parse(fs.readFileSync(path.join(ROOT, relative), "utf8"));
   const fileIndex = process.argv.indexOf("--priority-file");
   const priorityFile = fileIndex > 0 ? process.argv[fileIndex + 1] : "";
+  const sinceIndex = process.argv.indexOf("--new-since");
+  const demandIndex = process.argv.indexOf("--demand-file");
   const result = selectBatch({
     events: readJson("public/data/events.json"),
     artists: readJson("public/data/artists.json"),
@@ -162,7 +183,9 @@ function main() {
     size: arg("--size", 200),
     perArtist: arg("--per-artist", 6),
     excludedKeys: [...EVENT_INDEXING_PILOT_KEYS, ...EVENT_INDEXING_BATCHES.flatMap((batch) => batch.keys)],
-    priority: priorityFile ? priorityValues(JSON.parse(fs.readFileSync(priorityFile, "utf8")).shows) : null
+    priority: priorityFile ? priorityValues(JSON.parse(fs.readFileSync(priorityFile, "utf8")).shows) : null,
+    newSince: sinceIndex > 0 ? process.argv[sinceIndex + 1] : "",
+    demand: demandIndex > 0 ? JSON.parse(fs.readFileSync(process.argv[demandIndex + 1], "utf8")).impressions : null
   });
   if (process.argv.includes("--json")) return console.log(JSON.stringify(result, null, 2));
   const tally = (key) => result.members.reduce((acc, m) => ({ ...acc, [m[key]]: (acc[m[key]] || 0) + 1 }), {});

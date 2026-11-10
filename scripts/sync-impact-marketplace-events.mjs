@@ -139,8 +139,55 @@ function cityMatches(text, city) {
   return (METROS.get(normalizeText(city)) || []).some((alias) => containsNormalized(text, alias));
 }
 
-function venueMatches(text, venue) {
-  return containsNormalized(text, venue) || diceSimilarity(text, venue) >= 0.35;
+// Ticketmaster venue names carry sponsor and disambiguation tails that resale
+// catalogs drop: "Tabernacle Presented by iTHINK Financial", "Criterion
+// Theater - Oklahoma City", "Fillmore Auditorium (Denver)", "War Memorial
+// Auditorium-FL", "Smart Financial Centre at Sugar Land". Each variant is
+// still a phrase the listing must contain whole, next to the artist, the
+// venue-local date and the city, so it narrows nothing else. Only tails that
+// name no room are dropped: a sponsor, the event's own city, or a short
+// state/region code. A tail that may name a room ("The Masquerade - Hell") or
+// a parent venue ("Infosys Theater at Madison Square Garden") is kept, so a
+// listing for the parent venue or another room never passes. A variant must
+// keep two words besides "the", or one word of eight letters or more, so
+// "The O2" never shrinks to "o2" (O2 Academy Brixton is also in London).
+const SPONSOR_TAIL = [/\s+(?:presented|powered|sponsored)\s+by\s+.+$/i, /\s+in\s+concert\s+with\s+.+$/i];
+
+const collapseInitials = (value) => value.replace(/\b([a-z0-9]) (?=[a-z0-9]\b)/g, "$1");
+
+function distinctiveVenue(normalized) {
+  const words = normalized.split(" ").filter((word) => word && word !== "the");
+  return words.length >= 2 || (words.length === 1 && words[0].length >= 8);
+}
+
+// A tail that only places the venue: the event's own city (or the town named
+// after "at"), or a two- or three-letter state/region code.
+function placeTail(tail, city) {
+  const normalized = normalizeText(tail);
+  return Boolean(normalized) && (/^[a-z]{2,3}$/.test(normalized) || normalized === normalizeText(city));
+}
+
+export function venueVariants(venue, city = "") {
+  const base = clean(venue, 300);
+  const variants = new Set([normalizeText(base)]);
+  const add = (value) => {
+    const normalized = normalizeText(value);
+    if (normalized && distinctiveVenue(normalized)) variants.add(normalized);
+  };
+  let stripped = SPONSOR_TAIL.reduce((value, pattern) => value.replace(pattern, "").trim(), base);
+  const tail = stripped.match(/^(.+?)(?:\s*\(([^)]*)\)|\s+-\s+([^-]+)|-([A-Za-z]{2}))\s*$/);
+  if (tail && placeTail(tail[2] ?? tail[3] ?? tail[4], city)) stripped = tail[1].trim();
+  const at = stripped.match(/^(.+?)\s+at\s+(.+)$/i);
+  if (at && placeTail(at[2], city)) stripped = at[1].trim();
+  add(stripped);
+  for (const value of [...variants]) if (value.startsWith("the ")) add(value.slice(4));
+  return [...variants].filter(Boolean);
+}
+
+function venueMatches(text, venue, city = "") {
+  if (containsNormalized(text, venue) || diceSimilarity(text, venue) >= 0.35) return true;
+  const haystack = ` ${collapseInitials(normalizeText(text))} `;
+  return venueVariants(venue, city).some((variant) => haystack.includes(` ${collapseInitials(variant)} `));
 }
 
 function dateMatches(text, date) {
@@ -235,7 +282,7 @@ function evaluateCandidate(event, artistName, candidate, { matchStartTime = true
     reasons.push("venue-local start time mismatch");
   }
   if (!cityMatches(text, event?.city)) reasons.push("city mismatch");
-  if (!venueMatches(text, event?.venue)) reasons.push("venue mismatch");
+  if (!venueMatches(text, event?.venue, event?.city)) reasons.push("venue mismatch");
   return { ok: reasons.length === 0, reasons, url: candidate?.normalizedUrl || "", externalId: candidate?.externalId || "" };
 }
 
@@ -255,14 +302,27 @@ function decideOutcome({ storedUrl, storedVerified, storedCandidate, passing, ca
 // with `outcomeToCause` in scripts/report-link-coverage.mjs, which reads it
 // back as a coverage cause: "not checked" = unprocessed, "no qualifying" =
 // not listed, "ambiguous:" = ambiguous. A "-" note is not a cause.
-function outcomeNote(action, { ambiguousListing = false, storedListed = false, catalogComplete = false, stopReason = "" } = {}) {
+// Diagnostic only (2026-11-06): of the listings that name this artist on this
+// venue-local date, the checks the closest one failed, so a matcher near-miss
+// (a venue or city spelled differently) is visible in the log instead of
+// reading as "not listed". It never changes an outcome.
+export function closestMiss(evaluations) {
+  const sameDate = (evaluations || []).filter((row) => !row.ok && !row.reasons.includes("artist name mismatch") && !row.reasons.includes("venue-local date mismatch"));
+  if (!sameDate.length) return "";
+  const best = sameDate.reduce((a, b) => (b.reasons.length < a.reasons.length ? b : a));
+  return best.reasons.join(", ");
+}
+
+function outcomeNote(action, { ambiguousListing = false, storedListed = false, catalogComplete = false, stopReason = "", nearMiss = "" } = {}) {
   if (ambiguousListing) return "ambiguous: one listing passes for performances at different start times";
   if (action === "conflict") return "ambiguous: several qualifying listings for this event";
   if (["verify", "add", "correct"].includes(action)) return "-";
   if (["clear", "unverify"].includes(action)) return "no qualifying listing (the complete catalog no longer lists the stored link)";
   if (storedListed) return "-";
   if (!catalogComplete) return `not checked: catalog incomplete (${stopReason || "unknown"})`;
-  return "no qualifying listing (complete catalog checked)";
+  return nearMiss
+    ? `no qualifying listing (complete catalog checked; closest same-date listing: ${nearMiss})`
+    : "no qualifying listing (complete catalog checked)";
 }
 
 function markdownCell(value) {
@@ -526,10 +586,12 @@ async function run(options, deps = {}) {
       const link = event?.provider_links?.[config.linkKey] || {};
       const storedUrl = normalizeProviderUrl(config, event?.[config.urlField]);
       const storedId = clean(link?.event_id, 255);
-      const passing = catalog.candidates.map((candidate) => ({ candidate, evaluated: evaluateCandidate(event, artistName, candidate, { matchStartTime: false }) })).filter((row) => row.evaluated.ok).map((row) => ({ ...row.evaluated, ...row.candidate }));
+      const evaluatedAll = catalog.candidates.map((candidate) => ({ candidate, evaluated: evaluateCandidate(event, artistName, candidate, { matchStartTime: false }) }));
+      const passing = evaluatedAll.filter((row) => row.evaluated.ok).map((row) => ({ ...row.evaluated, ...row.candidate }));
+      const nearMiss = closestMiss(evaluatedAll.map((row) => row.evaluated));
       const exactStored = catalog.candidates.find((candidate) => (storedId && candidate.externalId === storedId) || (storedUrl && candidate.normalizedUrl === storedUrl));
       const storedCandidate = exactStored ? { ...evaluateCandidate(event, artistName, exactStored, { matchStartTime: false }), ...exactStored } : null;
-      return { event, link, storedUrl, storedId, passing, storedCandidate };
+      return { event, link, storedUrl, storedId, passing, storedCandidate, nearMiss };
     });
     // A narrow discovery miss is not proof of removal. Recheck the stored ID
     // in its own catalog, under the same call/time budgets and auth guards.
@@ -600,7 +662,7 @@ async function run(options, deps = {}) {
       }
     }
     const ambiguous = listingsMatchingSeveralDates(evaluations);
-    for (const { event, link, storedUrl, storedId, passing, untimedPassing, storedCandidate, exactIdComplete, exactIdStopReason, unresolvedStart, storedStartUnresolved } of evaluations) {
+    for (const { event, link, storedUrl, storedId, passing, untimedPassing, storedCandidate, exactIdComplete, exactIdStopReason, unresolvedStart, storedStartUnresolved, nearMiss } of evaluations) {
       let outcome = decideOutcome({ storedUrl, storedVerified: link?.verified === true, storedCandidate, passing, catalogComplete: catalog.complete, preserveAbsentStored: catalog.narrowed === true && !exactIdComplete });
       const unresolvedComplete = catalog.complete && unresolvedStart;
       const preserveUnresolved = unresolvedComplete && storedStartUnresolved && Boolean(storedUrl) && link?.verified === true;
@@ -618,7 +680,7 @@ async function run(options, deps = {}) {
         ? `not checked: exact-ID verification incomplete (${exactIdStopReason || "missing_stored_id"}); stored link preserved`
         : unresolvedComplete && (outcome.action === "conflict" || preserveUnresolved)
         ? "ambiguous: missing or conflicting performance start evidence"
-        : outcomeNote(outcome.action, { ambiguousListing, storedListed: Boolean(storedCandidate?.ok || preserveUnresolved), catalogComplete: catalog.complete, stopReason: catalog.stopReason });
+        : outcomeNote(outcome.action, { ambiguousListing, storedListed: Boolean(storedCandidate?.ok || preserveUnresolved), catalogComplete: catalog.complete, stopReason: catalog.stopReason, nearMiss });
       // Name the listings an ambiguity is between, with the start times each
       // one states, so the log shows what a tie-break would have to tell apart.
       const tied = outcome.action === "conflict" ? (untimedPassing || passing) : [];
@@ -784,6 +846,30 @@ async function selfTest() {
   const late = await fetchCatalog(config, "RAYE", { delayMs: 0, deadline: 1000, now: () => 2000 }, { apiCalls: 0 }, tnEnv, async () => pageOf(1, 1));
   assert.deepEqual([late.complete, late.stopReason], [false, "runtime_limit"]);
   assert.equal(outcomeNote("none", { catalogComplete: false, stopReason: "runtime_limit" }), "not checked: catalog incomplete (runtime_limit)");
+  assert.equal(outcomeNote("none", { catalogComplete: true, nearMiss: "venue mismatch" }), "no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch)");
+  assert.equal(closestMiss([{ ok: false, reasons: ["artist name mismatch"] }, { ok: false, reasons: ["venue-local date mismatch"] }]), "", "other acts and other nights are not near-misses");
+  assert.equal(closestMiss([{ ok: false, reasons: ["city mismatch", "venue mismatch"] }, { ok: false, reasons: ["venue mismatch"] }]), "venue mismatch");
+
+  // Venue tails Ticketmaster adds and resale catalogs drop.
+  assert.ok(venueMatches("Blue October The Tabernacle Atlanta GA 11/22/2026", "Tabernacle Presented by iTHINK Financial", "Atlanta"));
+  assert.ok(venueMatches("Blue October Criterion Theater Oklahoma City", "Criterion Theater - Oklahoma City", "Oklahoma City"));
+  assert.ok(venueMatches("Act Fillmore Auditorium Denver CO", "Fillmore Auditorium (Denver)", "Denver"));
+  assert.ok(venueMatches("Act War Memorial Auditorium Fort Lauderdale", "War Memorial Auditorium-FL", "Fort Lauderdale"));
+  assert.ok(venueMatches("Act Paramount Theater Charlottesville", "Paramount Theater - VA", "Charlottesville"));
+  assert.ok(venueMatches("Act Smart Financial Centre Sugar Land TX", "Smart Financial Centre at Sugar Land", "Sugar Land"));
+  assert.ok(venueMatches("Act Irving Plaza New York", "Irving Plaza Powered By Verizon 5G", "New York"));
+  assert.ok(venueMatches("Blue October FM Kirby Center Wilkes-Barre", "F.M. Kirby Center", "Wilkes Barre"));
+  assert.ok(venueMatches("Act HEB Center Cedar Park", "H-E-B Center at Cedar Park", "Cedar Park"));
+  assert.ok(venueMatches("Act Charleston Music Hall Charleston SC", "The Charleston Music Hall", "Charleston"));
+  assert.ok(!venueMatches("Act O2 Academy Brixton London", "The O2", "London"), "The O2 never shrinks to o2");
+  assert.ok(!venueMatches("Act Sphere Las Vegas", "The Venetian Theatre at The Venetian Resort", "Las Vegas"));
+  assert.ok(!venueMatches("Victoria Monet tickets at Madison Square Garden Arena in New York, NY on the listed date; see seating chart, parking and event details", "Infosys Theater at Madison Square Garden", "New York"), "a parent venue after \"at\" is another room");
+  assert.ok(!venueMatches("Act tickets at The Masquerade - Heaven in Atlanta, GA on the listed date; see seating chart, parking and event details", "The Masquerade - Hell", "Atlanta"), "a room after \" - \" is kept");
+  assert.ok(!venueMatches("Act tickets at the Grand Theater in Durant, OK on November 14, 2026; see seating chart and event details", "Choctaw Grand Theater", "Durant"));
+  assert.deepEqual(venueVariants("SAP Center at San Jose", "San Jose"), ["sap center at san jose", "sap center"]);
+  assert.deepEqual(venueVariants("Infosys Theater at Madison Square Garden", "New York"), ["infosys theater at madison square garden"]);
+  assert.deepEqual(venueVariants("The Masquerade - Hell", "Atlanta"), ["the masquerade hell", "masquerade hell"]);
+  assert.deepEqual(venueVariants("The O2", "London"), ["the o2"], "The O2 never shrinks to o2");
   // The same 404 without the proxy stays an ordinary incomplete catalog.
   const directNotFound = await fetchCatalog(
     config, "RAYE", { delayMs: 0 }, { apiCalls: 0 },

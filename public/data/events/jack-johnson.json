@@ -101,11 +101,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8237263",
-        "url": "https://www.ticketliquidator.com/tickets/8237263/Jack-Johnson-tickets-Sat-Nov-7-2026-Riverstage-Brisbane",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8237263",
@@ -118,7 +118,7 @@
     "ticketmaster_discovery_event_id": "1AKZkosGkdPvE0m",
     "timezone": "Australia/Brisbane",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237263/Jack-Johnson-tickets-Sat-Nov-7-2026-Riverstage-Brisbane",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237263"
   },
   {
@@ -137,7 +137,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-brisbane-08-11-2026/event/130064729DEF3982",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -170,25 +170,27 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8237264",
-        "url": "https://www.ticketliquidator.com/tickets/8237264/Jack-Johnson-tickets-Sun-Nov-8-2026-Riverstage-Brisbane",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8237264",
-        "url": "https://www.ticketnetwork.com/en/p/8237264",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k7Yv0jtGAuDSJe",
     "timezone": "Australia/Brisbane",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237264/Jack-Johnson-tickets-Sun-Nov-8-2026-Riverstage-Brisbane",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237264"
+    "ticketliquidator_url": "",
+    "ticketnetwork_url": "",
+    "ticket_limit": 10,
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2026-west-perth-1k7yv0qzga2dx6-",
@@ -206,7 +208,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-10-11-2026/event/130064778F0E21E1",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -244,7 +246,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MELLEN EVENTS"
-    ]
+    ],
+    "ticket_limit": 10,
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2026-west-perth-1akzkomgkd_zu0i",
@@ -262,7 +266,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-11-11-2026/event/13006477D9E3692C",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -300,7 +304,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MELLEN EVENTS"
-    ]
+    ],
+    "ticket_limit": 10,
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2026-west-perth-1akzkomgkd_bj0s",
@@ -318,7 +324,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-west-perth-12-11-2026/event/13006477D9EA6931",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -356,7 +362,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MELLEN EVENTS"
-    ]
+    ],
+    "ticket_limit": 10,
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2026-sydney-1akzkosgkdq3fwf",
@@ -374,7 +382,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-sydney-14-11-2026/event/13006473DA488C88",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -405,6 +413,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362658",
+        "url": "https://www.ticketnetwork.com/en/p/8362658",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362658",
+        "url": "https://www.ticketliquidator.com/tickets/8362658/Jack-Johnson-tickets-Sat-Nov-14-2026-The-Domain-Sydney",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AKZkoSGkdQ3FwF",
@@ -413,7 +435,11 @@
     "organizer_names": [
       "LIVE NATION AUSTRALIA",
       "FACE TO FACE TOURING"
-    ]
+    ],
+    "ticket_limit": 10,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362658",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362658/Jack-Johnson-tickets-Sat-Nov-14-2026-The-Domain-Sydney"
   },
   {
     "id": "tm-jack-johnson-2026-linlithgow-ave-1avgz_6cppkzd52a",
@@ -431,7 +457,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-linlithgow-ave-17-11-2026/event/1300647396593AE4",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -469,7 +495,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2026-linlithgow-ave-1avgz_6gkbxcfqh",
@@ -487,7 +514,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/jack-johnson-surfilmusic-tour-australia-new-linlithgow-ave-18-11-2026/event/1300647EA2B5469B",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -525,7 +552,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2026-auckland-1a0zkowgkdch7lq",
@@ -543,7 +571,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/jack-johnson-surfilmusic-tour-australia-new-auckland-20-11-2026/event/24006472CE6C4ADA",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -597,7 +625,9 @@
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127248"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127248",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2026-waipara-1kazv0jzgaua-ts",
@@ -615,7 +645,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/jack-johnson-surfilmusic-tour-australia-new-waipara-22-11-2026/event/240064738D261FF1",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -653,7 +683,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 10,
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2027-forest-brussels-z698xzg2z1koeez-t",
@@ -671,8 +703,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/jack-johnson-tickets/802080869",
-    "last_verified_at": "2026-10-24",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "802080869",
@@ -709,7 +741,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2027-amsterdam-z698xzbpz16v8kg7fn",
@@ -727,8 +760,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/jack-johnson-surfilmusic-tour-2027-tickets/1406304223?language=en-us",
-    "last_verified_at": "2026-10-24",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1406304223",
@@ -789,7 +822,8 @@
       "Greenhouse Talent"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353391",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353391/Jack-Johnson-tickets-Sun-Jun-27-2027-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353391/Jack-Johnson-tickets-Sun-Jun-27-2027-Ziggo-Dome",
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2027-st-austell-g5vhz_4eimdn_",
@@ -807,7 +841,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jack-johnson-eden-sessions-st-austell-02-07-2027/event/1F006550A8B838D9",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -845,7 +879,9 @@
     "status": "on-sale",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2027-st-austell-g5vhz_4d63ah_",
@@ -863,7 +899,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jack-johnson-eden-sessions-st-austell-03-07-2027/event/1F006550C7485F19",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -901,7 +937,9 @@
     "status": "on-sale",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2027-london-16dfz_4ebg7va-j",
@@ -919,7 +957,7 @@
     "vividseats_url": "https://www.vividseats.com/jack-johnson-tickets-london-the-o2---london-7-4-2027/production/7725840",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jack-johnson-london-04-07-2027/event/3500655098D05866",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -941,7 +979,7 @@
         "event_id": 7725840,
         "url": "https://www.vividseats.com/jack-johnson-tickets-london-the-o2---london-7-4-2027/production/7725840",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -965,7 +1003,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/jack-johnson-tickets-london-the-o2-arena-4-7-2027/event/107675350",
     "organizer_names": [
       "KMJ ENTERTAINMENT LTD"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2027-las-vegas-1avjz_fgkthyfka",
@@ -979,11 +1019,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700654FDBE484C9",
     "ticketmaster_url": "https://www.ticketmaster.com/jack-johnson-las-vegas-nevada-06-02-2027/event/1700654FDBE484C9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jack-johnson-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2027-06-02-8-pm/concert/18738901",
     "vividseats_url": "https://www.vividseats.com/jack-johnson-tickets-las-vegas-encore-theater-at-wynn-las-vegas-6-2-2027/production/7795175",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jack-johnson-las-vegas-nevada-06-02-2027/event/1700654FDBE484C9",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -995,17 +1035,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738901,
+        "url": "https://seatgeek.com/jack-johnson-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2027-06-02-8-pm/concert/18738901",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7795175,
         "url": "https://www.vividseats.com/jack-johnson-tickets-las-vegas-encore-theater-at-wynn-las-vegas-6-2-2027/production/7795175",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1025,39 +1065,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvjZ_fGkThyFKa",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T18:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353404",
     "organizer_names": [
       "AEG LIVE"
     ],
-    "presales": [
-      {
-        "name": "AEG Presale",
-        "start": "2026-11-05T18:00:00Z",
-        "end": "2026-11-06T06:00:00Z"
-      },
-      {
-        "name": "Amex Presale Tickets",
-        "start": "2026-11-05T18:00:00Z",
-        "end": "2026-11-06T06:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-05T18:00:00Z",
-        "end": "2026-11-06T06:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-05T18:00:00Z",
-        "end": "2026-11-06T06:00:00Z"
-      },
-      {
-        "name": "Zero Bond Presale",
-        "start": "2026-11-05T18:00:00Z",
-        "end": "2026-11-06T06:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-jack-johnson-2027-las-vegas-1avjz_fgkthbfkc",
@@ -1071,11 +1084,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700654FDBE884CE",
     "ticketmaster_url": "https://www.ticketmaster.com/jack-johnson-las-vegas-nevada-06-03-2027/event/1700654FDBE884CE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jack-johnson-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2027-06-03-8-pm/concert/18738900",
     "vividseats_url": "https://www.vividseats.com/jack-johnson-tickets-las-vegas-encore-theater-at-wynn-las-vegas-6-3-2027/production/7795173",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jack-johnson-las-vegas-nevada-06-03-2027/event/1700654FDBE884CE",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1087,17 +1100,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738900,
+        "url": "https://seatgeek.com/jack-johnson-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2027-06-03-8-pm/concert/18738900",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7795173,
         "url": "https://www.vividseats.com/jack-johnson-tickets-las-vegas-encore-theater-at-wynn-las-vegas-6-3-2027/production/7795173",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1117,38 +1130,11 @@
     },
     "ticketmaster_discovery_event_id": "1AvjZ_fGkThBFKC",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-06T18:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353405",
     "organizer_names": [
       "AEG LIVE"
     ],
-    "presales": [
-      {
-        "name": "AEG Presale",
-        "start": "2026-11-05T18:00:00Z",
-        "end": "2026-11-06T06:00:00Z"
-      },
-      {
-        "name": "Amex Presale Tickets",
-        "start": "2026-11-05T18:00:00Z",
-        "end": "2026-11-06T06:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-05T18:00:00Z",
-        "end": "2026-11-06T06:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-05T18:00:00Z",
-        "end": "2026-11-06T06:00:00Z"
-      },
-      {
-        "name": "Zero Bond Presale",
-        "start": "2026-11-05T18:00:00Z",
-        "end": "2026-11-06T06:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   }
 ]

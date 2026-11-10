@@ -64,7 +64,7 @@ For resale, neither brand is always the better choice. Compare the exact show, t
 
 ## Find your concert
 
-[Choose your artist and concert date](/artists) to see the ticket links listed for that show. Match the city, venue and date before opening a provider. Where both Ticketmaster and Vivid Seats links are shown, use them to compare the seats and complete totals on each site. Coverage varies by show; a listed link does not guarantee tickets are still available.
+[Compare prices by artist, city or venue](/compare-concert-ticket-prices) or [choose your artist](/artists) to see the links listed for each date. Match the city, venue and date, then compare seats and complete totals on each site. Coverage varies, and a listed link does not guarantee tickets are left.
 
 ## Vivid Seats vs Ticketmaster at a glance
 

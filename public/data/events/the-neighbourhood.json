@@ -121,7 +121,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-atlanta-state-farm-arena-11-10-2026/production/6690298",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-atlanta-georgia-11-10-2026/event/0E006444A7A0612C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -136,14 +136,14 @@
         "event_id": 18085136,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/atlanta-georgia-state-farm-arena-1-2026-11-10-7-30-pm/concert/18085136",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690298,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-atlanta-state-farm-arena-11-10-2026/production/6690298",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -183,7 +183,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-atlanta-tickets-11-10-2026/event/107121123",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2026-orlando-1axzkoogkembvjl",
@@ -201,7 +203,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-orlando-kia-center-11-11-2026--concerts-rock/production/6690352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-orlando-florida-11-11-2026/event/22006451B763471F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -216,14 +218,14 @@
         "event_id": 18085138,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/orlando-florida-kia-center-2026-11-11-7-30-pm/concert/18085138",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690352,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-orlando-kia-center-11-11-2026--concerts-rock/production/6690352",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -263,7 +265,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-orlando-tickets-11-11-2026/event/107121124",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2026-miami-vvg1vz_7e0samz",
@@ -281,7 +285,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-miami-kaseya-center-11-12-2026--concerts-rock/production/6690355",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-miami-florida-11-12-2026/event/0D006449E4C49B80",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -296,14 +300,14 @@
         "event_id": 18085137,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/miami-florida-kaseya-center-2026-11-12-7-30-pm/concert/18085137",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690355,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-miami-kaseya-center-11-12-2026--concerts-rock/production/6690355",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -343,7 +347,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-miami-tickets-11-12-2026/event/107121125",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2026-nashville-g5viz_kmzyt_i",
@@ -361,7 +366,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-nashville-the-truth-11-14-2026--concerts-rock/production/6789957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-nashville-tennessee-11-14-2026/event/1B00646BB8E7F668",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -376,14 +381,14 @@
         "event_id": 18126039,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/nashville-tennessee-the-truth-nashville-2026-11-14-7-30-pm/concert/18126039",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6789957,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-nashville-the-truth-11-14-2026--concerts-rock/production/6789957",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -415,7 +420,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808855/The-Neighbourhood-tickets-Sat-Nov-14-2026-The-Truth",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2026-kansas-city-vv17bz_7gkr3ru0p",
@@ -433,7 +440,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-kansas-city-t-mobile-center-11-16-2026--concerts-rock/production/6690358",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-world-tour-kansas-city-missouri-11-16-2026/event/0600644BD278D916",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448,14 +455,14 @@
         "event_id": 18085139,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/kansas-city-missouri-t-mobile-center-2026-11-16-7-30-pm/concert/18085139",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690358,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-kansas-city-t-mobile-center-11-16-2026--concerts-rock/production/6690358",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -495,7 +502,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-kansas-city-tickets-11-16-2026/event/107121127",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2026-chicago-vv1a7zkoagkdxvkbx",
@@ -513,7 +521,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-chicago-united-center-11-18-2026/production/6822533",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-chicago-illinois-11-18-2026/event/04006449E2046622",
-    "last_verified_at": "2026-10-18",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -528,14 +536,14 @@
         "event_id": 18140881,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/chicago-illinois-united-center-2026-11-18-7-30-pm/concert/18140881",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6822533,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-chicago-united-center-11-18-2026/production/6822533",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -575,7 +583,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-chicago-tickets-11-18-2026/event/107148374",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2026-detroit-vv17oz_7gkwiaino",
@@ -593,7 +602,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-detroit-little-caesars-arena-11-19-2026--concerts-rock/production/6690365",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-detroit-michigan-11-19-2026/event/0800644CAC2688E0",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -608,14 +617,14 @@
         "event_id": 18085141,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/detroit-michigan-little-caesars-arena-2026-11-19-7-30-pm/concert/18085141",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690365,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-detroit-little-caesars-arena-11-19-2026--concerts-rock/production/6690365",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -655,7 +664,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-detroit-tickets-11-19-2026/event/107121126",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2026-brooklyn-1ayzkoagkdftezg",
@@ -673,7 +684,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-21-2026--concerts-rock/production/6690367",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-21-2026/event/30006449D4A6700C",
-    "last_verified_at": "2026-10-25",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -688,14 +699,14 @@
         "event_id": 18085142,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/brooklyn-new-york-barclays-center-2026-11-21-7-pm/concert/18085142",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690367,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-21-2026--concerts-rock/production/6690367",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -735,7 +746,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-21-2026/event/107121128",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2026-brooklyn-15dzz_aozvwft",
@@ -753,7 +766,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-22-2026--concerts-rock/production/6932838",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -768,14 +781,14 @@
         "event_id": 18194371,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/brooklyn-new-york-barclays-center-2026-11-22-6-pm/concert/18194371",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6932838,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-22-2026--concerts-rock/production/6932838",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -815,7 +828,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-22-2026/event/107165138",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2026-phoenix-16v0z_ac6g7w4dv",
@@ -833,7 +848,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-phoenix-mortgage-matchup-center-11-30-2026--concerts-rock/production/6690369",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-phoenix-arizona-11-30-2026/event/1900645387C950F4",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -848,14 +863,14 @@
         "event_id": 18085146,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-30-7-30-pm/concert/18085146",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690369,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-phoenix-mortgage-matchup-center-11-30-2026--concerts-rock/production/6690369",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -895,7 +910,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-phoenix-tickets-11-30-2026/event/107123113",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2026-san-francisco-g5vyz_a2kv6-_",
@@ -913,7 +930,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-san-francisco-bill-graham-civic-auditorium-12-2-2026--concerts-rock/production/6690371",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-12-02-2026/event/1C006453D3D07859",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -928,14 +945,14 @@
         "event_id": 18085147,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-12-02-7-30-pm/concert/18085147",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690371,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-san-francisco-bill-graham-civic-auditorium-12-2-2026--concerts-rock/production/6690371",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -983,7 +1000,9 @@
     "organizer_names": [
       "ANOTHER PLANET",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2026-inglewood-vv1aazkodgkdu9feo",
@@ -1001,7 +1020,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-4-2026--concerts-rock/production/6690373",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-04-2026/event/09006443CD5C89D1",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1016,14 +1035,14 @@
         "event_id": 18085152,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/inglewood-california-kia-forum-2026-12-04-7-pm/concert/18085152",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690373,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-4-2026--concerts-rock/production/6690373",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1063,7 +1082,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-4-2026/event/107123115",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2026-inglewood-vv1k0z_a8dg7vtxb",
@@ -1081,7 +1102,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-5-2026/production/6707944",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1096,14 +1117,14 @@
         "event_id": 18194373,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/inglewood-california-kia-forum-2026-12-05-6-pm/concert/18194373",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6707944,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-5-2026/production/6707944",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1143,7 +1164,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-5-2026/event/107164092",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-denver-g5vzz_4qmz4qp",
@@ -1161,7 +1184,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-denver-ball-arena-3-2-2027--concerts-rock/production/7767705",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-denver-colorado-03-02-2027/event/1E006556AE015756",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1176,14 +1199,14 @@
         "event_id": 18726902,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/denver-colorado-ball-arena-2027-03-02-7-pm/concert/18726902",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767705,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-denver-ball-arena-3-2-2027--concerts-rock/production/7767705",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1230,7 +1253,9 @@
         "end": "2027-02-24T05:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-denver-tickets-3-2-2027/event/107679039"
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-denver-tickets-3-2-2027/event/107679039",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-saint-louis-vv1kvovppfga13fre",
@@ -1248,7 +1273,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-saint-louis-missouri-03-04-2027/event/060065588A494782",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1293,7 +1318,9 @@
         "start": "2026-10-30T15:00:00Z",
         "end": "2027-02-26T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-dallas-vvg1yz_4no500h",
@@ -1311,7 +1338,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-dallas-american-airlines-center---tx-3-7-2027--concerts-rock/production/7767707",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alt-1037-presents-the-neighbourhood-wourld-dallas-texas-03-07-2027/event/0C00655AA02E493C",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1326,14 +1353,14 @@
         "event_id": 18726900,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/dallas-texas-american-airlines-center-2027-03-07-7-pm/concert/18726900",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767707,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-dallas-american-airlines-center---tx-3-7-2027--concerts-rock/production/7767707",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1381,7 +1408,9 @@
         "start": "2026-10-30T15:00:00Z",
         "end": "2027-03-01T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-philadelphia-1adzz_4gkl39a_b",
@@ -1399,7 +1428,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-philadelphia-xfinity-mobile-arena-4-23-2027--concerts-rock/production/7767709",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wrff-presents-the-neighbourhood-wourld-tour-philadelphia-pennsylvania-04-23-2027/event/3000655AD25C9658",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1414,14 +1443,14 @@
         "event_id": 18726905,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-04-23-7-pm/concert/18726905",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767709,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-philadelphia-xfinity-mobile-arena-4-23-2027--concerts-rock/production/7767709",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1468,7 +1497,8 @@
         "end": "2027-04-17T02:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-philadelphia-tickets-4-23-2027/event/107678914"
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-philadelphia-tickets-4-23-2027/event/107678914",
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-boston-vv1avzk4_gkdekcqu",
@@ -1486,7 +1516,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-boston-td-garden-4-24-2027--concerts-rock/production/7767716",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-boston-massachusetts-04-24-2027/event/01006559C21AD68D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1501,14 +1531,14 @@
         "event_id": 18726904,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/boston-massachusetts-td-garden-2027-04-24-7-pm/concert/18726904",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767716,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-boston-td-garden-4-24-2027--concerts-rock/production/7767716",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1555,7 +1585,8 @@
         "start": "2026-10-30T14:00:00Z",
         "end": "2027-04-18T02:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-montreal-1ad7z_4gknbo3lq",
@@ -1573,7 +1604,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-montreal-bell-centre-4-27-2027--concerts-rock/production/7767734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-montreal-quebec-04-27-2027/event/3100655A98812ADA",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1588,14 +1619,14 @@
         "event_id": 18726919,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/montreal-canada-centre-bell-2027-04-27-7-pm/concert/18726919",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767734,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-montreal-bell-centre-4-27-2027--concerts-rock/production/7767734",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1637,7 +1668,9 @@
         "start": "2026-10-30T14:00:00Z",
         "end": "2027-04-21T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-kanata-16szk49oizau7kga",
@@ -1655,7 +1688,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-kanata-ontario-04-28-2027/event/31006557828C35B4",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1670,7 +1703,7 @@
         "event_id": 18726921,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/kanata-canada-canadian-tire-centre-2027-04-28-7-pm/concert/18726921",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1703,7 +1736,9 @@
         "start": "2026-10-30T14:00:00Z",
         "end": "2027-04-22T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-columbus-vv17fz_4gkmetfbq",
@@ -1721,7 +1756,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-columbus-value-city-arena-at-schottenstein-center-4-30-2027--concerts-rock/production/7767718",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-columbus-ohio-04-30-2027/event/0500655BA7A5461D",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1736,14 +1771,14 @@
         "event_id": 18726908,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2027-04-30-7-pm/concert/18726908",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767718,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-columbus-value-city-arena-at-schottenstein-center-4-30-2027--concerts-rock/production/7767718",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1782,7 +1817,8 @@
         "start": "2026-10-30T14:00:00Z",
         "end": "2027-04-24T02:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-pittsburgh-16vbz_4jkg7tdr9",
@@ -1800,7 +1836,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-pittsburgh-ppg-paints-arena-5-1-2027--concerts-rock/production/7767720",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-pittsburgh-pennsylvania-05-01-2027/event/1600655713FFBBD7",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1815,14 +1851,14 @@
         "event_id": 18726910,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2027-05-01-7-pm/concert/18726910",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767720,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-pittsburgh-ppg-paints-arena-5-1-2027--concerts-rock/production/7767720",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1869,7 +1905,8 @@
         "end": "2027-04-25T02:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-pittsburgh-tickets-5-1-2027/event/107679041"
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-pittsburgh-tickets-5-1-2027/event/107679041",
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-raleigh-g5evz_4l74bcy",
@@ -1887,7 +1924,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-raleigh-lenovo-center-5-4-2027--concerts-rock/production/7767726",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-raleigh-north-carolina-05-04-2027/event/2D00655AC457A3B0",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1902,14 +1939,14 @@
         "event_id": 18726915,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/raleigh-north-carolina-lenovo-center-2027-05-04-7-pm/concert/18726915",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767726,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-raleigh-lenovo-center-5-4-2027--concerts-rock/production/7767726",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1949,7 +1986,9 @@
         "start": "2026-10-30T14:00:00Z",
         "end": "2027-04-28T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-indianapolis-vv1aazk49gkeyee1s",
@@ -1967,7 +2006,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-indianapolis-gainbridge-fieldhouse-5-7-2027--concerts-rock/production/7767728",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-wourld-tour-ii-indianapolis-indiana-05-07-2027/event/05006557B00A72B1",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1982,14 +2021,14 @@
         "event_id": 18726916,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-05-07-7-pm/concert/18726916",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767728,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-indianapolis-gainbridge-fieldhouse-5-7-2027--concerts-rock/production/7767728",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2028,7 +2067,9 @@
         "start": "2026-10-30T14:00:00Z",
         "end": "2027-05-01T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-chicago-vv178z_4gknyh4c0",
@@ -2046,7 +2087,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-chicago-united-center-5-8-2027--concerts-rock/production/7767730",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/q101-presents-the-neighbourhood-wourld-tour-chicago-illinois-05-08-2027/event/0400655AB9F15B64",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2061,14 +2102,14 @@
         "event_id": 18726918,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/chicago-illinois-united-center-2027-05-08-7-pm/concert/18726918",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767730,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-chicago-united-center-5-8-2027--concerts-rock/production/7767730",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2115,7 +2156,8 @@
         "start": "2026-10-30T15:00:00Z",
         "end": "2027-05-02T03:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-winnipeg-1av7z_4gknbr6nb",
@@ -2133,7 +2175,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-winnipeg-canada-life-centre-5-11-2027--concerts-rock/production/7767742",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-winnipeg-manitoba-05-11-2027/event/1100655ABABC7A98",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2148,14 +2190,14 @@
         "event_id": 18726926,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/winnipeg-canada-canada-life-centre-2027-05-11-7-pm/concert/18726926",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767742,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-winnipeg-canada-life-centre-5-11-2027--concerts-rock/production/7767742",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2205,7 +2247,9 @@
         "end": "2027-05-05T03:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-tickets-winnipeg-canada-life-centre-5-11-2027/event/107679042"
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-tickets-winnipeg-canada-life-centre-5-11-2027/event/107679042",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-calgary-1av7z_4gknld4le",
@@ -2223,7 +2267,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-calgary-scotiabank-saddledome-5-14-2027--concerts-rock/production/7767748",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-calgary-alberta-05-14-2027/event/1100655A9FED5AE7",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2238,14 +2282,14 @@
         "event_id": 18726927,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/calgary-canada-scotiabank-saddledome-2027-05-14-7-pm/concert/18726927",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767748,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-calgary-scotiabank-saddledome-5-14-2027--concerts-rock/production/7767748",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2287,7 +2331,9 @@
         "start": "2026-10-30T16:00:00Z",
         "end": "2027-05-08T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-edmonton-1av7z_4gkl6qbrx",
@@ -2305,7 +2351,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-edmonton-rogers-place-5-15-2027--concerts-rock/production/7767750",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-neighbourhood-wourld-tour-ii-edmonton-alberta-05-15-2027/event/1100655AC77587A2",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2320,14 +2366,14 @@
         "event_id": 18726928,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/edmonton-canada-rogers-place-2027-05-15-7-pm/concert/18726928",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767750,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-edmonton-rogers-place-5-15-2027--concerts-rock/production/7767750",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2369,7 +2415,9 @@
         "start": "2026-10-30T16:00:00Z",
         "end": "2027-05-09T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-firenze-zg9rmiynyzfavv",
@@ -2387,7 +2435,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/the-neighbourhood-firenze-13-07-2027/event/j8c9cxxwoswx",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2422,7 +2470,8 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZFavv",
     "timezone": "Europe/Rome",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-the-neighbourhood-2027-houston-z7r9jz1aa7ypb",
@@ -2440,7 +2489,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-houston-toyota-center---tx-3-6-2027--concerts-rock/production/7767791",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Ypb",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2455,14 +2504,14 @@
         "event_id": 18726903,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/houston-texas-toyota-center-2027-03-06-7-pm/concert/18726903",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767791,
         "url": "https://www.vividseats.com/the-neighbourhood-tickets-houston-toyota-center---tx-3-6-2027--concerts-rock/production/7767791",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2485,6 +2534,13 @@
         "verified": true,
         "last_verified_at": "2026-10-31",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679040",
+        "url": "https://www.stubhub.ie/the-neighbourhood-houston-tickets-3-6-2027/event/107679040",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Ypb",
@@ -2494,6 +2550,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8345904/The-Neighbourhood-tickets-Sat-Mar-6-2027-Toyota-Center-TX",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Alternative",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-houston-tickets-3-6-2027/event/107679040"
   }
 ]

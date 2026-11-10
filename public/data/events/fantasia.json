@@ -3,7 +3,7 @@
     "id": "tm-fantasia-2027-washington-1ka8vpuogaub0mr",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Washington",
     "country": "United States Of America",
     "venue": "Capital One Arena",
@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-washington-capital-one-arena-2-5-2027--concerts-rb/production/7621348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-washington-district-of-columbia-02-05-2027/event/150065360DEA4BAF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -30,14 +30,14 @@
         "event_id": 18629248,
         "url": "https://seatgeek.com/fantasia-tickets/washington-district-of-columbia-capital-one-arena-2027-02-05-8-pm/concert/18629248",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621348,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-washington-capital-one-arena-2-5-2027--concerts-rb/production/7621348",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -77,13 +77,15 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-washington-tickets-2-5-2027/event/107671382",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-norfolk-vv1avzkfmgkdn5kye",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton & October London: The Love of Soul Tour",
     "city": "Norfolk",
     "country": "United States Of America",
     "venue": "Scope Arena",
@@ -95,7 +97,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-norfolk-norfolk-scope-arena-2-6-2027--concerts-rb/production/7621352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-norfolk-virginia-02-06-2027/event/01006537EA2C6E67",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -110,14 +112,14 @@
         "event_id": 18629319,
         "url": "https://seatgeek.com/fantasia-tickets/norfolk-virginia-scope-arena-1-2027-02-06-8-pm/concert/18629319",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621352,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-norfolk-norfolk-scope-arena-2-6-2027--concerts-rb/production/7621352",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -149,13 +151,14 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293964/The-Love-of-Soul-Tour-tickets-Sat-Feb-6-2027-Scope-Arena",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-belmont-park-1ayzkfugkdwafjv",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Belmont Park",
     "country": "United States Of America",
     "venue": "UBS Arena",
@@ -167,7 +170,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-elmont-ubs-arena-2-12-2027--concerts-rb/production/7621358",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-belmont-park-new-york-02-12-2027/event/30006536FD148981",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -182,14 +185,14 @@
         "event_id": 18632088,
         "url": "https://seatgeek.com/fantasia-tickets/elmont-new-york-ubs-arena-2027-02-12-8-pm/concert/18632088",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621358,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-elmont-ubs-arena-2-12-2027--concerts-rb/production/7621358",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -205,13 +208,15 @@
     "status": "on-sale",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-atlantic-city-vv1aezkfmgkegjgo6",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Atlantic City",
     "country": "United States Of America",
     "venue": "Boardwalk Hall",
@@ -223,7 +228,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-atlantic-city-boardwalk-hall-2-13-2027/production/7620565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlantic-city-new-jersey-02-13-2027/event/02006537B598C447",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -238,14 +243,14 @@
         "event_id": 18629442,
         "url": "https://seatgeek.com/fantasia-tickets/atlantic-city-new-jersey-boardwalk-hall-2027-02-13-8-pm/concert/18629442",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620565,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-atlantic-city-boardwalk-hall-2-13-2027/production/7620565",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -281,13 +286,14 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-02-14T02:00:00Z"
       }
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-new-orleans-g5viz_k6css2k",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton & October London: The Love of Soul Tour",
     "city": "New Orleans",
     "country": "United States Of America",
     "venue": "Smoothie King Center",
@@ -299,7 +305,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-new-orleans-smoothie-king-center-2-19-2027/production/7620697",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-new-orleans-louisiana-02-19-2027/event/1B006531CEC733D3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -314,14 +320,14 @@
         "event_id": 18629243,
         "url": "https://seatgeek.com/fantasia-tickets/new-orleans-louisiana-smoothie-king-center-2027-02-19-8-pm/concert/18629243",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620697,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-new-orleans-smoothie-king-center-2-19-2027/production/7620697",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -361,13 +367,15 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-new-orleans-tickets-2-19-2027/event/107670734",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-biloxi-g5viz_kxokyjj",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Biloxi",
     "country": "United States Of America",
     "venue": "Mississippi Coast Coliseum",
@@ -379,7 +387,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-biloxi-mississippi-coast-coliseum-2-20-2027--concerts-rb/production/7621374",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-biloxi-mississippi-02-20-2027/event/1B006538911B999C",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -394,14 +402,14 @@
         "event_id": 18629249,
         "url": "https://seatgeek.com/fantasia-tickets/biloxi-mississippi-mississippi-coast-coliseum-2027-02-20-8-pm/concert/18629249",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621374,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-biloxi-mississippi-coast-coliseum-2-20-2027--concerts-rb/production/7621374",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -433,13 +441,14 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293969/The-Love-of-Soul-Tour-tickets-Sat-Feb-20-2027-Mississippi-Coast-Coliseum",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-ontario-vv1aazkfzgketkqbz",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Ontario",
     "country": "United States Of America",
     "venue": "Toyota Arena",
@@ -451,7 +460,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-ontario-toyota-arena---ca-3-5-2027--concerts-rb/production/7621376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-ontario-california-03-05-2027/event/09006538BF19D600",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -466,14 +475,14 @@
         "event_id": 18629502,
         "url": "https://seatgeek.com/fantasia-tickets/ontario-california-toyota-arena-ontario-2027-03-05-8-pm/concert/18629502",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621376,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-ontario-toyota-arena---ca-3-5-2027--concerts-rb/production/7621376",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -513,13 +522,14 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-ontario-tickets-3-5-2027/event/107671383",
     "organizer_names": [
       "SMG"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-oakland-g5vyz_krz5jaf",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Oakland",
     "country": "United States Of America",
     "venue": "Oakland Arena",
@@ -531,7 +541,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-oakland-oakland-arena-3-6-2027/production/7621690",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-oakland-california-03-06-2027/event/1C006537B82E6148",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -546,14 +556,14 @@
         "event_id": 18629244,
         "url": "https://seatgeek.com/fantasia-tickets/oakland-california-oakland-arena-2027-03-06-8-pm/concert/18629244",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621690,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-oakland-oakland-arena-3-6-2027/production/7621690",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -582,13 +592,15 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294733",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294733/The-Love-of-Soul-Tour-tickets-Sat-Mar-6-2027-Oakland-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294733/The-Love-of-Soul-Tour-tickets-Sat-Mar-6-2027-Oakland-Arena",
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-fort-worth-vvg1yz_kbtlwh3",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Fort Worth",
     "country": "United States Of America",
     "venue": "Ariat Arena",
@@ -596,11 +608,11 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "0C0065363F7FDF12",
     "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-fort-worth-texas-03-13-2027/event/0C0065363F7FDF12",
-    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/fort-worth-texas-dickies-arena-2027-03-13-8-pm/concert/18645847",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-fort-worth-texas-03-13-2027/event/0C0065363F7FDF12",
-    "last_verified_at": "2026-10-27",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -612,11 +624,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18645847,
-        "url": "https://seatgeek.com/fantasia-tickets/fort-worth-texas-dickies-arena-2027-03-13-8-pm/concert/18645847",
-        "verified": true,
-        "last_verified_at": "2026-10-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -662,13 +674,15 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-fort-worth-tickets-3-13-2027/event/107671384",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-atlanta-vvg1zz_kqs5ty6",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Atlanta",
     "country": "United States Of America",
     "venue": "State Farm Arena",
@@ -680,7 +694,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-atlanta-state-farm-arena-3-26-2027--concerts-rb/production/7621388",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlanta-georgia-03-26-2027/event/0E006536B12E9C07",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -702,7 +716,7 @@
         "event_id": 7621388,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-atlanta-state-farm-arena-3-26-2027--concerts-rb/production/7621388",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -742,7 +756,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-atlanta-tickets-3-26-2027/event/107670735",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-orlando-1aefz_3gkx--7oo",
@@ -760,7 +775,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-orlando-addition-financial-arena-3-27-2027--concerts-rb/production/7621390",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-orlando-florida-03-27-2027/event/2200652FA1844811",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -782,7 +797,7 @@
         "event_id": 7621390,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-orlando-addition-financial-arena-3-27-2027--concerts-rb/production/7621390",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -814,13 +829,14 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293972/The-Love-of-Soul-Tour-tickets-Sat-Mar-27-2027-Addition-Financial-Arena",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-saint-louis-vv17bz_3gktv8xq0",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Saint Louis",
     "country": "United States Of America",
     "venue": "Enterprise Center",
@@ -832,7 +848,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-saint-louis-missouri-04-09-2027/event/0600652FF4422764",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -847,7 +863,7 @@
         "event_id": 18629228,
         "url": "https://seatgeek.com/fantasia-tickets/saint-louis-missouri-enterprise-center-2027-04-09-8-pm/concert/18629228",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -870,13 +886,14 @@
     "status": "on-sale",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-southaven-g5viz_krb7nuq",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Southaven",
     "country": "United States Of America",
     "venue": "Landers Center",
@@ -888,7 +905,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-southaven-landers-center-4-10-2027/production/7620711",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-southaven-mississippi-04-10-2027/event/1B0065379812A35A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -903,14 +920,14 @@
         "event_id": 18629435,
         "url": "https://seatgeek.com/fantasia-tickets/southaven-mississippi-landers-center-2027-04-10-8-pm/concert/18629435",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620711,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-southaven-landers-center-4-10-2027/production/7620711",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -942,13 +959,15 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293975/The-Love-of-Soul-Tour-tickets-Sat-Apr-10-2027-Landers-Center",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-jacksonville-1axzkfwgkeynp6z",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Jacksonville",
     "country": "United States Of America",
     "venue": "VyStar Veterans Memorial Arena",
@@ -960,7 +979,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-jacksonville-vystar-veterans-memorial-arena-4-16-2027--concerts-rb/production/7621400",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-jacksonville-florida-04-16-2027/event/22006532B98E51F8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -975,14 +994,14 @@
         "event_id": 18629294,
         "url": "https://seatgeek.com/fantasia-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2027-04-16-8-pm/concert/18629294",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621400,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-jacksonville-vystar-veterans-memorial-arena-4-16-2027--concerts-rb/production/7621400",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1014,13 +1033,14 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293976/The-Love-of-Soul-Tour-tickets-Fri-Apr-16-2027-VyStar-Veterans-Memorial-Arena",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-hollywood-vvg1vz_k9lsilt",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Hollywood",
     "country": "United States Of America",
     "venue": "Hard Rock Live",
@@ -1032,7 +1052,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-4-17-2027--concerts-rb/production/7621402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-hollywood-florida-04-17-2027/event/0D006535EBCEC7FF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1047,14 +1067,14 @@
         "event_id": 18631704,
         "url": "https://seatgeek.com/fantasia-tickets/hollywood-florida-hard-rock-live-hollywood-2027-04-17-8-pm/concert/18631704",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621402,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-4-17-2027--concerts-rb/production/7621402",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1094,13 +1114,15 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-hollywood-tickets-4-17-2027/event/107670736",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-phoenix-1a_zkfmgke0qgen",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Phoenix",
     "country": "United States Of America",
     "venue": "Mortgage Matchup Center",
@@ -1112,7 +1134,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-phoenix-mortgage-matchup-center-4-23-2027--concerts-rb/production/7621404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-phoenix-arizona-04-23-2027/event/19006537A46B50A3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1127,14 +1149,14 @@
         "event_id": 18629227,
         "url": "https://seatgeek.com/fantasia-tickets/phoenix-arizona-mortgage-matchup-center-2027-04-23-8-pm/concert/18629227",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621404,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-phoenix-mortgage-matchup-center-4-23-2027--concerts-rb/production/7621404",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1166,13 +1188,15 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294734/The-Love-of-Soul-Tour-tickets-Fri-Apr-23-2027-Mortgage-Matchup-Center",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 10,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-charlotte-g5evz_k5a0ajy",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Charlotte",
     "country": "United States Of America",
     "venue": "Spectrum Center",
@@ -1184,7 +1208,7 @@
     "vividseats_url": "https://www.vividseats.com/the-art-of-love-and-soul-tickets-charlotte-spectrum-center-5-7-2027/production/7621606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-charlotte-north-carolina-05-07-2027/event/2D006532C59099B9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1199,14 +1223,14 @@
         "event_id": 18629225,
         "url": "https://seatgeek.com/fantasia-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-05-07-8-pm/concert/18629225",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621606,
         "url": "https://www.vividseats.com/the-art-of-love-and-soul-tickets-charlotte-spectrum-center-5-7-2027/production/7621606",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1246,13 +1270,14 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-charlotte-tickets-5-7-2027/event/107671385",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-raleigh-g5evz_kx4nbzb",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Raleigh",
     "country": "United States Of America",
     "venue": "Lenovo Center",
@@ -1264,7 +1289,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-tickets-raleigh-lenovo-center-5-8-2027--concerts-dance-electronica/production/7621653",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-raleigh-north-carolina-05-08-2027/event/2D00653895A98E3A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1279,14 +1304,14 @@
         "event_id": 18629230,
         "url": "https://seatgeek.com/fantasia-tickets/raleigh-north-carolina-lenovo-center-2027-05-08-8-pm/concert/18629230",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621653,
         "url": "https://www.vividseats.com/fantasia-tickets-raleigh-lenovo-center-5-8-2027--concerts-dance-electronica/production/7621653",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1318,13 +1343,15 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293979/The-Love-of-Soul-Tour-tickets-Sat-May-8-2027-Lenovo-Center",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-chicago-vv1a7zkfugkdbhxkp",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
@@ -1336,7 +1363,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-chicago-united-center-5-14-2027/production/7620703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-chicago-illinois-05-14-2027/event/04006536FA6FE196",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1351,14 +1378,14 @@
         "event_id": 18629275,
         "url": "https://seatgeek.com/fantasia-tickets/chicago-illinois-united-center-2027-05-14-8-pm/concert/18629275",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620703,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-chicago-united-center-5-14-2027/production/7620703",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1398,13 +1425,15 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-chicago-tickets-5-14-2027/event/107670737",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-detroit-vv1afzkfsgkdkxfme",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Detroit",
     "country": "United States Of America",
     "venue": "Little Caesars Arena",
@@ -1416,7 +1445,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-detroit-little-caesars-arena-5-15-2027--concerts-rb/production/7621413",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-detroit-michigan-05-15-2027/event/08006533C6F88B82",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1431,14 +1460,14 @@
         "event_id": 18631687,
         "url": "https://seatgeek.com/fantasia-tickets/detroit-michigan-little-caesars-arena-2027-05-15-8-pm/concert/18631687",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621413,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-detroit-little-caesars-arena-5-15-2027--concerts-rb/production/7621413",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1478,13 +1507,15 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-detroit-tickets-5-15-2027/event/107671386",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-providence-vv1avzkfygkdtqjz9",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Providence",
     "country": "United States Of America",
     "venue": "Amica Mutual Pavilion",
@@ -1496,7 +1527,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-providence-amica-mutual-pavilion-5-21-2027--concerts-rb/production/7621417",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-providence-rhode-island-05-21-2027/event/01006530E96A6017",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1511,14 +1542,14 @@
         "event_id": 18629235,
         "url": "https://seatgeek.com/fantasia-tickets/providence-rhode-island-amica-mutual-pavilion-2027-05-21-8-pm/concert/18629235",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621417,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-providence-amica-mutual-pavilion-5-21-2027--concerts-rb/production/7621417",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1550,13 +1581,14 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293982/The-Love-of-Soul-Tour-tickets-Fri-May-21-2027-Amica-Mutual-Pavilion",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-newark-vv1aezkfugke-q6sn",
     "artist_slug": "fantasia",
     "artist_name": "Fantasia",
-    "event_name": "The Love of Soul Tour",
+    "event_name": "Fantasia, Anthony Hamilton, & October London: The Love of Soul Tour",
     "city": "Newark",
     "country": "United States Of America",
     "venue": "Prudential Center",
@@ -1568,7 +1600,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-newark-prudential-center-5-22-2027--concerts-rb/production/7621441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-newark-new-jersey-05-22-2027/event/02006536A1747C63",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1583,14 +1615,14 @@
         "event_id": 18629280,
         "url": "https://seatgeek.com/fantasia-tickets/newark-new-jersey-prudential-center-2027-05-22-8-pm/concert/18629280",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621441,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-newark-prudential-center-5-22-2027--concerts-rb/production/7621441",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1630,7 +1662,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-newark-tickets-5-22-2027/event/107670738",
     "organizer_names": [
       "NORTH AMERICAN ENTERTAINMENT GROUP"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-las-vegas-z7r9jz1aaef4j",
@@ -1648,7 +1682,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4J",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1663,7 +1697,7 @@
         "event_id": 18632945,
         "url": "https://seatgeek.com/fantasia-tickets/las-vegas-nevada-mgm-grand-garden-arena-2027-04-24-8-pm/concert/18632945",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1699,7 +1733,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294558",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294558/The-Love-of-Soul-Tour-tickets-Sat-Apr-24-2027-MGM-Grand-Garden-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294558/The-Love-of-Soul-Tour-tickets-Sat-Apr-24-2027-MGM-Grand-Garden-Arena",
+    "genre": "R&B"
   },
   {
     "id": "tm-fantasia-2027-houston-z7r9jz1aa74o6",
@@ -1717,7 +1752,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-tickets-houston-toyota-center---tx-3-12-2027/production/7622837",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA74O6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1732,14 +1767,14 @@
         "event_id": 18643133,
         "url": "https://seatgeek.com/fantasia-tickets/houston-texas-toyota-center-2027-03-12-8-pm/concert/18643133",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7622837,
         "url": "https://www.vividseats.com/fantasia-tickets-houston-toyota-center---tx-3-12-2027/production/7622837",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1768,6 +1803,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297853",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297853/The-Love-of-Soul-Tour-tickets-Fri-Mar-12-2027-Toyota-Center-TX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297853/The-Love-of-Soul-Tour-tickets-Fri-Mar-12-2027-Toyota-Center-TX",
+    "genre": "R&B"
   }
 ]

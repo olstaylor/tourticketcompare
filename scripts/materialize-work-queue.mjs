@@ -649,12 +649,21 @@ async function main() {
     Authorization: `Bearer ${token}`,
     "X-GitHub-Api-Version": "2022-11-28"
   };
+  // A GitHub 5xx is usually transient (one PATCH returned 500 on 2026-11-07
+  // and failed the whole run). Retry idempotent calls twice; never retry a
+  // POST, which could open a duplicate issue.
   const github = async (method, path, body) => {
-    const response = await fetch(`https://api.github.com/repos/${repo}${path}`, {
-      method,
-      headers: body ? { ...headers, "Content-Type": "application/json" } : headers,
-      body: body ? JSON.stringify(body) : undefined
-    });
+    const delays = method === "POST" ? [] : [2000, 5000];
+    let response;
+    for (let attempt = 0; ; attempt += 1) {
+      response = await fetch(`https://api.github.com/repos/${repo}${path}`, {
+        method,
+        headers: body ? { ...headers, "Content-Type": "application/json" } : headers,
+        body: body ? JSON.stringify(body) : undefined
+      });
+      if (response.status < 500 || attempt >= delays.length) break;
+      await new Promise((resolve) => setTimeout(resolve, delays[attempt]));
+    }
     if (!response.ok) throw new Error(`GitHub API ${method} ${path} ${response.status}: ${await response.text()}`);
     return response.status === 204 ? null : response.json();
   };

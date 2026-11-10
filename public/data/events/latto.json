@@ -187,10 +187,10 @@
     "ticketmaster_event_id": "0200655DA255656E",
     "ticketmaster_url": "https://www.ticketmaster.com/tour-ma-vie-world-tour-concert-philadelphia-pennsylvania-11-29-2026/event/0200655DA255656E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/latto-tickets-philadelphia-noto-philadelphia-11-29-2026/production/7789181",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tour-ma-vie-world-tour-concert-philadelphia-pennsylvania-11-29-2026/event/0200655DA255656E",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,11 +209,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7789181,
+        "url": "https://www.vividseats.com/latto-tickets-philadelphia-noto-philadelphia-11-29-2026/production/7789181",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -225,6 +225,8 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_4GkUx4p4m",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "legal_age_enforced": true,
+    "genre": "Hip-Hop/Rap"
   }
 ]

@@ -1,0 +1,91 @@
+{
+  "storyType": "day-to-day-volatility",
+  "asOf": "2026-11-03",
+  "source": "provider_pricing_daily (D1), low_price_last per event x provider x UTC day, read 2026-11-03; values outside $5-$1,200 excluded",
+  "scope": "US shows with 30+ priced days between 2026-09-01 and 2026-11-02; overnight = consecutive UTC days; unchanged = within 0.5%; big move = ratio >=1.2 or <=1/1.2; doubled = max daily low / min daily low >= 2",
+  "sites": [
+    {
+      "site": "vivid-seats",
+      "shows": 1195,
+      "artists": 79,
+      "largestArtistShows": 54,
+      "dayPairs": 53988,
+      "unchangedShare": 0.659,
+      "move20": 560,
+      "doubled": 217
+    },
+    {
+      "site": "ticketnetwork",
+      "shows": 1233,
+      "artists": 82,
+      "largestArtistShows": 52,
+      "dayPairs": 56055,
+      "unchangedShare": 0.707,
+      "move20": 844,
+      "doubled": 347
+    },
+    {
+      "site": "stubhub-international",
+      "shows": 533,
+      "artists": 58,
+      "largestArtistShows": 50,
+      "dayPairs": 26231,
+      "unchangedShare": 0.635,
+      "move20": 315,
+      "doubled": 130
+    }
+  ],
+  "backToBackNights": {
+    "scope": "same artist + venue, consecutive local dates, shows after 2026-11-02, each night's median daily low 1-31 Oct 2026, band 2%",
+    "sites": [
+      {
+        "site": "vivid-seats",
+        "pairs": 223,
+        "secondCheaper": 85,
+        "secondDearer": 102
+      },
+      {
+        "site": "ticketnetwork",
+        "pairs": 210,
+        "secondCheaper": 96,
+        "secondDearer": 80
+      },
+      {
+        "site": "stubhub-international",
+        "pairs": 193,
+        "secondCheaper": 77,
+        "secondDearer": 94
+      }
+    ]
+  },
+  "examples": [
+    {
+      "artist": "Gracie Abrams",
+      "city": "Inglewood",
+      "show": "2026-12-19",
+      "site": "vivid-seats",
+      "high": {
+        "date": "2026-09-01",
+        "price": 90
+      },
+      "low": {
+        "date": "2026-10-23",
+        "price": 32
+      }
+    },
+    {
+      "artist": "Gracie Abrams",
+      "city": "Oakland",
+      "show": "2026-12-06",
+      "site": "vivid-seats",
+      "high": {
+        "date": "2026-09-02",
+        "price": 99
+      },
+      "low": {
+        "date": "2026-10-31",
+        "price": 33
+      }
+    }
+  ]
+}

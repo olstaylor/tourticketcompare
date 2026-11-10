@@ -424,7 +424,7 @@
     "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-seattle-wamu-theater---seattle-12-10-2026/production/7267182",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-seattle-washington-12-10-2026/event/0F0064E2D49DBD86",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -439,14 +439,14 @@
         "event_id": 18361599,
         "url": "https://seatgeek.com/cece-winans-tickets/seattle-washington-wamu-theater-2026-12-10-7-pm/concert/18361599",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7267182,
         "url": "https://www.vividseats.com/cece-winans-tickets-seattle-wamu-theater---seattle-12-10-2026/production/7267182",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -478,7 +478,9 @@
     "organizer_names": [
       "TRANSPARENT PRODUCTIONS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8121702"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8121702",
+    "ticket_limit": 8,
+    "genre": "Religious"
   },
   {
     "id": "tm-cece-winans-2026-portland-z7r9jz1a7j6jj",
@@ -496,7 +498,7 @@
     "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-portland-arlene-schnitzer-concert-hall-12-11-2026/production/7273254",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J6jJ",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -511,14 +513,14 @@
         "event_id": 18499845,
         "url": "https://seatgeek.com/cece-winans-tickets/portland-oregon-arlene-schnitzer-concert-hall-2026-12-11-8-pm/concert/18499845",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7273254,
         "url": "https://www.vividseats.com/cece-winans-tickets-portland-arlene-schnitzer-concert-hall-12-11-2026/production/7273254",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -547,7 +549,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121635/CeCe-Winans-tickets-Fri-Dec-11-2026-Arlene-Schnitzer-Concert-Hall",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8121635"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8121635",
+    "genre": "R&B"
   },
   {
     "id": "tm-cece-winans-2026-phoenix-17k8v0g6ch4_jyt",
@@ -565,7 +568,7 @@
     "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-phoenix-arizona-financial-theatre-12-15-2026/production/7267186",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-phoenix-arizona-12-15-2026/event/190064E6D5666C29",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -580,14 +583,14 @@
         "event_id": 18361639,
         "url": "https://seatgeek.com/cece-winans-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-15-7-pm/concert/18361639",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7267186,
         "url": "https://www.vividseats.com/cece-winans-tickets-phoenix-arizona-financial-theatre-12-15-2026/production/7267186",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -619,7 +622,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8121699"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8121699",
+    "ticket_limit": 8,
+    "genre": "Religious"
   },
   {
     "id": "tm-cece-winans-2026-bakersfield-z7r9jz1a7jfpa",
@@ -637,7 +642,7 @@
     "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-bakersfield-dignity-health-theater-12-16-2026/production/7274191",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFpA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -652,14 +657,14 @@
         "event_id": 18598785,
         "url": "https://seatgeek.com/cece-winans-tickets/bakersfield-california-dignity-health-theater-2026-12-16-7-pm/concert/18598785",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7274191,
         "url": "https://www.vividseats.com/cece-winans-tickets-bakersfield-dignity-health-theater-12-16-2026/production/7274191",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -688,7 +693,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8124361/CeCe-Winans-tickets-Wed-Dec-16-2026-Dignity-Health-Theater",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8124361"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8124361",
+    "genre": "R&B"
   },
   {
     "id": "tm-cece-winans-2026-los-angeles-z7r9jz1a7jfjs",
@@ -706,7 +712,7 @@
     "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-los-angeles-peacock-theater-12-17-2026/production/7268026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JFjS",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -721,14 +727,14 @@
         "event_id": 18499823,
         "url": "https://seatgeek.com/cece-winans-tickets/los-angeles-california-peacock-theater-2026-12-17-7-pm/concert/18499823",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7268026,
         "url": "https://www.vividseats.com/cece-winans-tickets-los-angeles-peacock-theater-12-17-2026/production/7268026",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -737,11 +743,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8121811",
+        "url": "https://www.ticketnetwork.com/en/p/8121811",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8121811",
+        "url": "https://www.ticketliquidator.com/tickets/8121811/CeCe-Winans-tickets-Thu-Dec-17-2026-Peacock-Theater-Los-Angeles",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JFjS",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8121811",
+    "genre": "R&B",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8121811/CeCe-Winans-tickets-Thu-Dec-17-2026-Peacock-Theater-Los-Angeles"
   },
   {
     "id": "tm-cece-winans-2026-sacramento-g5vyz_cr1cmnb",
@@ -759,7 +782,7 @@
     "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-sacramento-sacramento-memorial-auditorium-12-18-2026/production/7267180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-cece-winans-featuring-angie-sacramento-california-12-18-2026/event/1C0064E78AB778D8",
-    "last_verified_at": "2026-10-24",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -774,14 +797,14 @@
         "event_id": 18361612,
         "url": "https://seatgeek.com/cece-winans-tickets/sacramento-california-sacramento-memorial-auditorium-2026-12-18-7-pm/concert/18361612",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7267180,
         "url": "https://www.vividseats.com/cece-winans-tickets-sacramento-sacramento-memorial-auditorium-12-18-2026/production/7267180",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -813,7 +836,9 @@
     "organizer_names": [
       "TRANSPARENT PRODUCTIONS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8124362"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8124362",
+    "ticket_limit": 8,
+    "genre": "Religious"
   },
   {
     "id": "tm-cece-winans-2027-nashville-z7r9jz1aaebzs",
@@ -831,7 +856,7 @@
     "vividseats_url": "https://www.vividseats.com/cece-winans-tickets-nashville-grand-ole-opry-house-3-21-2027/production/6862286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebZS",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -846,14 +871,14 @@
         "event_id": 18237649,
         "url": "https://seatgeek.com/cece-winans-tickets/nashville-tennessee-grand-ole-opry-house-2027-03-21-7-30-pm/concert/18237649",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6862286,
         "url": "https://www.vividseats.com/cece-winans-tickets-nashville-grand-ole-opry-house-3-21-2027/production/6862286",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -883,6 +908,7 @@
     "status": "announced",
     "public_onsale_at": "9999-12-31T06:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7854204/CeCe-Winans-tickets-Sun-Mar-21-2027-Grand-Ole-Opry-House",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7854204"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7854204",
+    "genre": "R&B"
   }
 ]

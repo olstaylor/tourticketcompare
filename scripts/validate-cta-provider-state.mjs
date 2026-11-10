@@ -224,7 +224,13 @@ function machineHighConfidenceIssue(event, allowedHosts) {
   const segments = parsed.pathname.split("/").filter(Boolean);
   const eventIndex = segments.indexOf("event");
   if (eventIndex === -1 || !segments[eventIndex + 1]) return "url has no /event/<id> segment";
-  if (eventIndex === 0) return "short-form /event/<id> url (no storefront slug before /event)";
+  // International storefronts use /event/<event-name-slug>/<numeric-id>, the
+  // canonical form validate-events.py accepts and the nightly needs_recheck
+  // promotion (apply-tm-updates.mjs canonicalStorefrontPath, owner decision
+  // 2026-11-06) relies on. Only the bare /event/<id> link is short-form.
+  const international = eventIndex === 0 && segments.length === 3 && /^\d+$/.test(segments[2]) &&
+    segments[2].toLowerCase() === clean(event?.ticketmaster_event_id).toLowerCase();
+  if (eventIndex === 0 && !international) return "short-form /event/<id> url (no storefront slug before /event)";
   if (!/T\d{2}:\d{2}/.test(clean(event?.datetime_iso))) return "datetime_iso has no exact time";
   if (!clean(event?.venue)) return "missing venue";
   if (!clean(event?.city)) return "missing city";
@@ -401,6 +407,9 @@ function selfTest() {
   assert("absent status falls back to provider verified flag", eventLinkPublishable({ provider_links: { ticketmaster: { verified: true } } }) === true);
   assert("clean machine_high_confidence passes its contract", machineHighConfidenceIssue(goodEvent, allowedHosts) === "");
   assert("short-form url fails mhc contract", machineHighConfidenceIssue({ ...goodEvent, ticketmaster_url: "https://www.ticketmaster.com/event/ABC123" }, allowedHosts) !== "");
+  const intlEvent = { ...goodEvent, ticketmaster_url: "https://www.ticketmaster.se/event/u2-world-tour-tickets/1852040169?language=en-us", ticketmaster_event_id: "1852040169" };
+  assert("international /event/<slug>/<numeric-id> passes mhc contract", machineHighConfidenceIssue(intlEvent, ["ticketmaster.se"]) === "");
+  assert("international form with another event's id fails mhc contract", machineHighConfidenceIssue({ ...intlEvent, ticketmaster_event_id: "999" }, ["ticketmaster.se"]) !== "");
   assert("date-only fails mhc contract", machineHighConfidenceIssue({ ...goodEvent, datetime_iso: "2027-06-01" }, allowedHosts) !== "");
   assert("missing id fails redirect invariant", ticketmasterRedirectIssue({ ...goodEvent, ticketmaster_event_id: "" }, allowedHosts) !== "");
   assert("non-allowlisted host fails redirect invariant", ticketmasterRedirectIssue({ ...goodEvent, ticketmaster_url: "https://www.ticketmaster.com.ar/x/event/ABC123" }, allowedHosts) !== "");

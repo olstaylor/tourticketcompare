@@ -24,6 +24,11 @@ ALLOWED_STATUSES = {"draft", "announced", "on-sale", "past"}
 # (one-off / non-tour dates whose official listing has no tour label). These are
 # excluded from the blank-tour_name content warning. Never add an id here to
 # silence a genuinely missing label — only owner-confirmed intentional blanks.
+TRANSIENT_EVENT_NAME_RE = re.compile(
+    r"\b(?:sold[\s-]*out|rescheduled|postponed|cancel+ed|low tickets|few tickets left|selling fast)\b",
+    re.IGNORECASE,
+)
+
 OWNER_ACCEPTED_BLANK_TOUR_NAME_IDS = {
     # JAY-Z one-off 2026 shows — official listings are "JAY-Z30" / "JAY-Z - 30"
     # with no tour name; owner-accepted 2026-07-15.
@@ -360,6 +365,11 @@ def run_self_test() -> int:
         {"name": "venue account is not an organizer", "mutate": lambda event: event.__setitem__("organizer_names", ["TEST-ARENA"]), "expect": "organizer_names: must contain plain official organization names"},
         {"name": "anonymous promoter label", "mutate": lambda event: event.__setitem__("organizer_names", ["PROMOTED BY VENUE"]), "expect": "organizer_names: must contain plain official organization names"},
         {"name": "internal promoter price label", "mutate": lambda event: event.__setitem__("organizer_names", ["MONDIAL PRICE 1"]), "expect": "organizer_names: must contain plain official organization names"},
+        {"name": "ticket limit out of range", "mutate": lambda event: event.__setitem__("ticket_limit", 0), "expect": "ticket_limit: must be a whole number"},
+        {"name": "ticket limit as text", "mutate": lambda event: event.__setitem__("ticket_limit", "4"), "expect": "ticket_limit: must be a whole number"},
+        {"name": "legal age false is not stored", "mutate": lambda event: event.__setitem__("legal_age_enforced", False), "expect": "legal_age_enforced: only an explicit true"},
+        {"name": "placeholder genre", "mutate": lambda event: event.__setitem__("genre", "Undefined"), "expect": "genre: must be a plain genre name"},
+        {"name": "unsafe genre", "mutate": lambda event: event.__setitem__("genre", "<b>Rock</b>"), "expect": "genre: must be a plain genre name"},
         {"name": "unsafe organizer", "mutate": lambda event: event.__setitem__("organizer_names", ["<script>"]), "expect": "organizer_names: must contain plain official organization names"},
         {"name": "event end before start", "mutate": lambda event: event.__setitem__("end_datetime_iso", "2026-06-01T19:00:00Z"), "expect": "end_datetime_iso: requires an explicit event end after the known event start"},
         {"name": "naive event end", "mutate": lambda event: event.__setitem__("end_datetime_iso", "2026-06-01T23:00:00"), "expect": "end_datetime_iso: requires an explicit event end after the known event start"},
@@ -490,6 +500,7 @@ def run_self_test() -> int:
     ]
     positive_cases = [
         {"name": "official organizer and event end", "mutate": lambda event: event.update(organizer_names=["Official Promoter"], end_datetime_iso="2026-06-01T23:00:00Z")},
+        {"name": "ticketmaster buying facts", "mutate": lambda event: event.update(ticket_limit=4, legal_age_enforced=True, genre="R&B")},
         {"name": "event end with venue local start", "mutate": lambda event: event.update(datetime_iso="2026-06-01T20:00:00", timezone="America/New_York", end_datetime_iso="2026-06-02T03:00:00Z")},
         {
             "name": "recorded Ticketmaster lifecycle status",
@@ -510,6 +521,16 @@ def run_self_test() -> int:
             "name": "blank tour_name on indexed artist warns but passes",
             "mutate": lambda event: event.__setitem__("tour_name", ""),
             "expect_in_stderr": "WARNING: blank tour_name on indexed artist events",
+        },
+        {
+            "name": "sold-out text in event_name warns but passes",
+            "mutate": lambda event: event.__setitem__("event_name", "SOLD OUT! Self Test Artist"),
+            "expect_in_stderr": "WARNING: transient status text in event_name",
+        },
+        {
+            "name": "rescheduled prefix in event_name warns but passes",
+            "mutate": lambda event: event.__setitem__("event_name", "Rescheduled - Self Test Artist"),
+            "expect_in_stderr": "WARNING: transient status text in event_name",
         },
         {
             "name": "blank tour_name on indexed artist fails in strict mode",
@@ -711,6 +732,12 @@ def main() -> int:
     # error — see issue #172. We group by artist_slug for a single tidy summary
     # so a hundred-event artist doesn't spam the validator output.
     blank_tour_name_by_slug: dict[str, list[str]] = {}
+    # Ticketmaster sometimes bakes a transient status into the listing title
+    # ("SOLD OUT! ...", "Rescheduled - ..."). The title is stored verbatim as
+    # the official name, but the event page shows it as "Billed as", where a
+    # sold-out claim goes stale and a rescheduled prefix can contradict the
+    # recorded lifecycle. A warning, not an error: the source title is real.
+    transient_event_names: list[str] = []
 
     # Artist-reference integrity (events must point at a real artist record).
     # Enforced only under --for-production so default runs stay lenient.
@@ -792,6 +819,11 @@ def main() -> int:
                 errors.append(f"{prefix}.tour_name: must be a string when present (use \"\" if unknown)")
 
         event_id = event.get("id")
+        event_name_value = event.get("event_name")
+        if isinstance(event_name_value, str) and TRANSIENT_EVENT_NAME_RE.search(event_name_value):
+            transient_event_names.append(
+                f"{event_id if isinstance(event_id, str) and event_id.strip() else f'index {i}'}: {event_name_value.strip()[:80]}"
+            )
         if isinstance(event_id, str) and event_id.strip():
             if event_id in ids:
                 errors.append(f"{prefix}.id: duplicate id '{event_id}'")
@@ -880,6 +912,17 @@ def main() -> int:
                     start = None
             if not isinstance(end_value, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2}(?:\.\d+)?)?(?:Z|[+-]\d{2}:?\d{2})", end_value) or not end or not end.tzinfo or not start or not start.tzinfo or end <= start:
                 errors.append(f"{prefix}.end_datetime_iso: requires an explicit event end after the known event start")
+
+        # Optional Ticketmaster buying facts (owner pick 2026-11-06).
+        ticket_limit = event.get("ticket_limit")
+        if ticket_limit is not None and (isinstance(ticket_limit, bool) or not isinstance(ticket_limit, int) or not 1 <= ticket_limit <= 50):
+            errors.append(f"{prefix}.ticket_limit: must be a whole number from 1 to 50")
+        if "legal_age_enforced" in event and event.get("legal_age_enforced") is not True:
+            errors.append(f"{prefix}.legal_age_enforced: only an explicit true is stored")
+        genre = event.get("genre")
+        if genre is not None and (not isinstance(genre, str) or not genre.strip() or len(genre) > 40 or genre != " ".join(genre.split())
+                or not re.fullmatch(r"[\w &'/.,-]+", genre) or re.fullmatch(r"(?i)undefined|other|miscellaneous|n/a|none|tba|tbd", genre)):
+            errors.append(f"{prefix}.genre: must be a plain genre name")
 
         # Rescheduling history may be unknown; never accept naive datetimes.
         previous_start_date = event.get("previous_start_date")
@@ -1166,6 +1209,18 @@ def main() -> int:
                 value = event.get(url_field)
                 if not isinstance(value, str) or value.strip() == "":
                     errors.append(f"{prefix}.{url_field}: required when --require-affiliate-urls is set")
+
+    if transient_event_names:
+        print(
+            f"WARNING: transient status text in event_name ({len(transient_event_names)} event(s)). "
+            "The page shows it as \"Billed as\"; a sold-out or rescheduled claim goes stale. "
+            "Refresh from Ticketmaster or handle at render time; never edit the name by hand.",
+            file=sys.stderr,
+        )
+        for line in transient_event_names[:20]:
+            print(f"  - {line}", file=sys.stderr)
+        if len(transient_event_names) > 20:
+            print(f"  - +{len(transient_event_names) - 20} more", file=sys.stderr)
 
     if blank_tour_name_by_slug:
         total_blank = sum(len(v) for v in blank_tour_name_by_slug.values())

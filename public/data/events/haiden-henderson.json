@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/haiden-henderson-dublin-18-02-2027/event/18006528B29FC9CC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -53,7 +53,9 @@
     "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
-    ]
+    ],
+    "legal_age_enforced": true,
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-manchester-g5vhz_kduqskh",
@@ -71,7 +73,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-manchester-21-02-2027/event/1F006530CD6B31BC",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -106,7 +108,9 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KduQSkH",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-london-g5vhz_kew3xpo",
@@ -124,7 +128,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-london-23-02-2027/event/1F006530BD4A2960",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -159,7 +163,9 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KeW3xPO",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-cardiff-g5vhz_kdajwvp",
@@ -177,7 +183,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-cardiff-24-02-2027/event/1F006530C5732D16",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -212,7 +218,9 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KdAjwVp",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-birmingham-g5dzz_ke9h3b2",
@@ -230,7 +238,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/haiden-henderson-the-dumblond-tour-birmingham-25-02-2027/event/3E006530976D260F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -269,7 +277,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "ACADEMY MUSIC GROUP (O2 INSTITUTE BIRMINGHAM)"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-amsterdam-z698xzbpz16evufjub",
@@ -287,8 +297,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/haiden-henderson-tickets/2076226358?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2076226358",
@@ -340,8 +350,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/haiden-henderson-the-dumblond-tour-tickets/377454765?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "377454765",
@@ -378,7 +388,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation España S.A.U."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-haiden-henderson-2027-santa-ana-vv1aazkfwgkdn3e19",
@@ -396,7 +407,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-santa-ana-constellation-room-at-the-observatory-4-5-2027--concerts-pop/production/7593759",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-santa-ana-california-04-05-2027/event/09006532EA482297",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -411,14 +422,14 @@
         "event_id": 18613096,
         "url": "https://seatgeek.com/haiden-henderson-tickets/santa-ana-california-constellation-room-at-the-observatory-2027-04-05-7-pm/concert/18613096",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593759,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-santa-ana-constellation-room-at-the-observatory-4-5-2027--concerts-pop/production/7593759",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -457,7 +468,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-houston-g5diz_kdeuth4",
@@ -475,7 +488,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-houston-the-bronze-peacock-at-house-of-blues-houston-4-9-2027--concerts-pop/production/7593669",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-houston-texas-04-09-2027/event/3A006530C237F6D5",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -490,14 +503,14 @@
         "event_id": 18613093,
         "url": "https://seatgeek.com/haiden-henderson-tickets/houston-texas-the-bronze-peacock-at-house-of-blues-houston-2027-04-09-7-pm/concert/18613093",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593669,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-houston-the-bronze-peacock-at-house-of-blues-houston-4-9-2027--concerts-pop/production/7593669",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -536,7 +549,9 @@
     ],
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-atlanta-vvg1zz_k5fswrb",
@@ -554,7 +569,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-atlanta-georgia-04-14-2027/event/0E006532D4CF2BD8",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -569,7 +584,7 @@
         "event_id": 18612968,
         "url": "https://seatgeek.com/haiden-henderson-tickets/atlanta-georgia-the-masquerade-hell-2027-04-14-7-pm/concert/18612968",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -589,7 +604,9 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_K5fSwRb",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-charlotte-g5evz_k7koqsd",
@@ -607,7 +624,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-charlotte-the-underground-at-the-fillmore-charlotte-4-18-2027--concerts-pop/production/7593518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-charlotte-north-carolina-04-18-2027/event/2D0065310645DC7B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -622,14 +639,14 @@
         "event_id": 18613118,
         "url": "https://seatgeek.com/haiden-henderson-tickets/charlotte-north-carolina-the-underground-at-the-fillmore-charlotte-2027-04-18-8-pm/concert/18613118",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593518,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-charlotte-the-underground-at-the-fillmore-charlotte-4-18-2027--concerts-pop/production/7593518",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -668,7 +685,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-washington-16vfz_kzng7lczd",
@@ -686,7 +705,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-washington-the-atlantis-4-20-2027--concerts-pop/production/7593687",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-the-dumblond-tour-washington-district-of-columbia-04-20-2027/event/1500653023AED03B",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -701,14 +720,14 @@
         "event_id": 18613187,
         "url": "https://seatgeek.com/haiden-henderson-tickets/washington-district-of-columbia-the-atlantis-2027-04-20-6-30-pm/concert/18613187",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593687,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-washington-the-atlantis-4-20-2027--concerts-pop/production/7593687",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -744,7 +763,9 @@
         "start": "2026-09-23T14:00:00Z",
         "end": "2027-04-14T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-philadelphia-vv16ovpgt4oz75ua7",
@@ -762,7 +783,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-philadelphia-pennsylvania-04-22-2027/event/020065329551AC83",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -777,7 +798,7 @@
         "event_id": 18613099,
         "url": "https://seatgeek.com/haiden-henderson-tickets/philadelphia-pennsylvania-brooklyn-bowl-philadelphia-2027-04-22-8-pm/concert/18613099",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -823,7 +844,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284326/Haiden-Henderson-tickets-Thu-Apr-22-2027-Brooklyn-Bowl-Philadelphia",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-new-york-k7vgf_k9pms1b",
@@ -841,7 +864,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-new-york-new-york-04-23-2027/event/00006535E5BB12BA",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -856,7 +879,7 @@
         "event_id": 18612878,
         "url": "https://seatgeek.com/haiden-henderson-tickets/new-york-new-york-irving-plaza-2027-04-23-7-pm/concert/18612878",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -872,6 +895,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284327",
+        "url": "https://www.ticketnetwork.com/en/p/8284327",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284327",
+        "url": "https://www.ticketliquidator.com/tickets/8284327/Haiden-Henderson-tickets-Fri-Apr-23-2027-Irving-Plaza",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K9Pms1B",
@@ -886,7 +923,10 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284327",
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284327/Haiden-Henderson-tickets-Fri-Apr-23-2027-Irving-Plaza"
   },
   {
     "id": "tm-haiden-henderson-2027-boston-vv1avzkfygkegtmcp",
@@ -904,7 +944,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-boston-big-night-live-4-24-2027--concerts-pop/production/7593528",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-the-dumblond-tour-boston-massachusetts-04-24-2027/event/01006530B5A77396",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -919,14 +959,14 @@
         "event_id": 18613146,
         "url": "https://seatgeek.com/haiden-henderson-tickets/boston-massachusetts-big-night-live-2027-04-24-6-pm/concert/18613146",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593528,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-boston-big-night-live-4-24-2027--concerts-pop/production/7593528",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -958,7 +998,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284328/Haiden-Henderson-tickets-Sat-Apr-24-2027-Big-Night-Live",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-toronto-1a8zkfggkd2jp9d",
@@ -976,7 +1018,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/haiden-henderson-toronto-ontario-04-26-2027/event/10006535CF7255FB",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -991,7 +1033,7 @@
         "event_id": 18612816,
         "url": "https://seatgeek.com/haiden-henderson-tickets/toronto-canada-the-mod-club-2027-04-26-7-pm/concert/18612816",
         "verified": true,
-        "last_verified_at": "2026-10-28",
+        "last_verified_at": "2026-11-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1022,7 +1064,9 @@
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-milwaukee-z7r9jz1aaeea6",
@@ -1040,7 +1084,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-milwaukee-the-rave-eagles-club-5-1-2027--concerts-pop/production/7593288",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeA6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1062,7 +1106,7 @@
         "event_id": 7593288,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-milwaukee-the-rave-eagles-club-5-1-2027--concerts-pop/production/7593288",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1075,7 +1119,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeeA6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-englewood-z7r9jz1aaevqs",
@@ -1093,7 +1138,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-englewood-gothic-theatre-5-8-2027--concerts-pop/production/7593502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevqs",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1108,14 +1153,14 @@
         "event_id": 18669978,
         "url": "https://seatgeek.com/haiden-henderson-tickets/englewood-colorado-gothic-theatre-2027-05-08-8-pm/concert/18669978",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593502,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-englewood-gothic-theatre-5-8-2027--concerts-pop/production/7593502",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1144,7 +1189,8 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284336",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284336/Haiden-Henderson-tickets-Sat-May-8-2027-Gothic-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284336/Haiden-Henderson-tickets-Sat-May-8-2027-Gothic-Theatre",
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-salt-lake-city-z7r9jz1aaeefa",
@@ -1162,7 +1208,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeFa",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1197,7 +1243,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeeFa",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-praha-5-z698xzu0z16v1ec67a",
@@ -1215,8 +1262,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/haiden-henderson--the-dumblond-tour-tickets/1282387105?language=en-us",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1282387105",
@@ -1253,7 +1300,8 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-haiden-henderson-2027-nashville-rz7hnez1afgiq7",
@@ -1271,8 +1319,8 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-nashville-the-basement-east-4-13-2027--concerts-pop/production/7593675",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/haiden-henderson-the-basement-east-tickets/14328684",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "14328684",
@@ -1293,7 +1341,7 @@
         "event_id": 7593675,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-nashville-the-basement-east-4-13-2027--concerts-pop/production/7593675",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1325,7 +1373,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284321/Haiden-Henderson-tickets-Tue-Apr-13-2027-The-Basement-East-Nashville",
     "organizer_names": [
       "LIVE NATION TENNESSEE"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-san-francisco-rz7hnez1afggu7",
@@ -1343,8 +1392,8 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-san-francisco-brick-and-mortar-music-hall-5-14-2027--concerts-pop/production/7593789",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/haiden-henderson-the-dumblond-brick-and-mortar-music-hall-tickets/14335344",
-    "last_verified_at": "2026-10-15",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "14335344",
@@ -1365,7 +1414,7 @@
         "event_id": 7593789,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-san-francisco-brick-and-mortar-music-hall-5-14-2027--concerts-pop/production/7593789",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1397,7 +1446,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284339/Haiden-Henderson-tickets-Fri-May-14-2027-Brick-Mortar-Music-Hall",
     "organizer_names": [
       "GOLDENVOICE (AEG)"
-    ]
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-west-hollywood-z7r9jz1aaeexf",
@@ -1415,7 +1465,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-west-hollywood-troubadour---west-hollywood-5-15-2027/production/7596830",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeexF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1430,14 +1480,14 @@
         "event_id": 18669773,
         "url": "https://seatgeek.com/haiden-henderson-tickets/west-hollywood-california-troubadour-2027-05-15-7-pm/concert/18669773",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7596830,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-west-hollywood-troubadour---west-hollywood-5-15-2027/production/7596830",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1466,7 +1516,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284340/Haiden-Henderson-tickets-Sat-May-15-2027-Troubadour",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284340"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284340",
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-portland-z7r9jz1aaeekk",
@@ -1484,7 +1535,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-portland-hawthorne-theatre-5-12-2027--concerts-pop/production/7593284",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeekk",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1506,7 +1557,7 @@
         "event_id": 7593284,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-portland-hawthorne-theatre-5-12-2027--concerts-pop/production/7593284",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1527,7 +1578,7 @@
         "event_id": "8284338",
         "url": "https://www.ticketliquidator.com/tickets/8284338/Haiden-Henderson-tickets-Wed-May-12-2027-Hawthorne-Lounge-at-Hawthorne-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       }
     },
@@ -1535,7 +1586,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284338",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284338/Haiden-Henderson-tickets-Wed-May-12-2027-Hawthorne-Lounge-at-Hawthorne-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284338/Haiden-Henderson-tickets-Wed-May-12-2027-Hawthorne-Lounge-at-Hawthorne-Theatre",
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-seattle-z7r9jz1aa79uf",
@@ -1553,7 +1605,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-seattle-el-corazon-5-11-2027/production/7613114",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA79uF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1575,7 +1627,7 @@
         "event_id": 7613114,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-seattle-el-corazon-5-11-2027/production/7613114",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1604,7 +1656,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289676/Haiden-Henderson-tickets-Tue-May-11-2027-El-Corazon",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289676"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289676",
+    "genre": "Pop"
   },
   {
     "id": "tm-haiden-henderson-2027-minneapolis-z7r9jz1aaeerb",
@@ -1622,7 +1675,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-minneapolis-7th-street-entry-5-2-2027/production/7597366",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeerb",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1644,7 +1697,7 @@
         "event_id": 7597366,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-minneapolis-7th-street-entry-5-2-2027/production/7597366",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1673,6 +1726,77 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284334/Haiden-Henderson-tickets-Sun-May-2-2027-7th-Street-Entry",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284334"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284334",
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-orlando-z7r9jz1aaevq0",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson - The Dumblond Tour - Ages 12+",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "The Beacham",
+    "datetime_iso": "2027-04-16T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAevq0",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevq0",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-orlando-the-beacham-4-16-2027--concerts-pop/production/7593292",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevq0",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAevq0",
+        "discovery_event_id": "Z7r9jZ1AAevq0",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevq0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7593292,
+        "url": "https://www.vividseats.com/haiden-henderson-tickets-orlando-the-beacham-4-16-2027--concerts-pop/production/7593292",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284552",
+        "url": "https://www.ticketnetwork.com/en/p/8284552",
+        "verified": true,
+        "last_verified_at": "2026-11-06",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284552",
+        "url": "https://www.ticketliquidator.com/tickets/8284552/Haiden-Henderson-tickets-Fri-Apr-16-2027-The-Beacham",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAevq0",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284552",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284552/Haiden-Henderson-tickets-Fri-Apr-16-2027-The-Beacham",
+    "genre": "Pop"
   }
 ]

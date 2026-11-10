@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-birmingham-utilita-arena-birmingham-11-27-2026/production/7587257",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-birmingham-27-11-2026/event/23006531F4B02471",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -37,7 +37,7 @@
         "event_id": 7587257,
         "url": "https://www.vividseats.com/mariah-carey-tickets-birmingham-utilita-arena-birmingham-11-27-2026/production/7587257",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -77,7 +77,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-birmingham-utilita-arena-birmingham-27-11-2026/event/107669566",
     "organizer_names": [
       "LNM - VIP NATION UK"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-mariah-carey-2026-london-1agzkfsgkdzymm6",
@@ -95,7 +97,7 @@
     "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-london-the-o2---london-11-30-2026/production/7587213",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-london-30-11-2026/event/35006531F8C37B87",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -117,7 +119,7 @@
         "event_id": 7587213,
         "url": "https://www.vividseats.com/mariah-carey-tickets-london-the-o2---london-11-30-2026/production/7587213",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -141,7 +143,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-london-the-o2-arena-30-11-2026/event/107669567",
     "organizer_names": [
       "LNM - VIP NATION UK"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-mariah-carey-2026-manchester-1amzkfsgkejdwkf",
@@ -159,7 +163,7 @@
     "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-manchester-co-op-live-12-2-2026/production/7587211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-manchester-02-12-2026/event/37006531A6EF24D4",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -181,7 +185,7 @@
         "event_id": 7587211,
         "url": "https://www.vividseats.com/mariah-carey-tickets-manchester-co-op-live-12-2-2026/production/7587211",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -222,6 +226,296 @@
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD",
       "LNM - VIP NATION UK"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-mariah-carey-2027-exeter-g5vhz_f0acb90",
+    "artist_slug": "mariah-carey",
+    "artist_name": "Mariah Carey",
+    "event_name": "Mariah Carey Transport",
+    "city": "Exeter",
+    "country": "Great Britain",
+    "venue": "Powderham Castle",
+    "datetime_iso": "2027-06-27T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006549053985E4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-transport-exeter-27-06-2027/event/1F006549053985E4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/mariah-carey-transport-exeter-27-06-2027/event/1F006549053985E4",
+    "last_verified_at": "2026-11-09",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006549053985E4",
+        "discovery_event_id": "G5vHZ_f0ACb90",
+        "url": "https://www.ticketmaster.co.uk/mariah-carey-transport-exeter-27-06-2027/event/1F006549053985E4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_f0ACb90",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-mariah-carey-2027-cardiff-g5vhz_feidjq8",
+    "artist_slug": "mariah-carey",
+    "artist_name": "Mariah Carey",
+    "event_name": "Mariah Carey",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Cardiff Castle",
+    "datetime_iso": "2027-06-29T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006549E80E6750",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-cardiff-29-06-2027/event/1F006549E80E6750",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/mariah-carey-cardiff-29-06-2027/event/1F006549E80E6750",
+    "last_verified_at": "2026-11-09",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006549E80E6750",
+        "discovery_event_id": "G5vHZ_fEIdJq8",
+        "url": "https://www.ticketmaster.co.uk/mariah-carey-cardiff-29-06-2027/event/1F006549E80E6750",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_fEIdJq8",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "DEPOT MARKETING LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-11T09:00:00Z",
+        "end": "2026-11-13T08:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-12T09:00:00Z",
+        "end": "2026-11-13T08:00:00Z"
+      },
+      {
+        "name": "Depot Presale",
+        "start": "2026-11-12T09:00:00Z",
+        "end": "2026-11-13T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-12T09:00:00Z",
+        "end": "2026-11-13T08:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-12T09:00:00Z",
+        "end": "2026-11-13T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-mariah-carey-2027-woodstock-1amzk4pgkevlzix",
+    "artist_slug": "mariah-carey",
+    "artist_name": "Mariah Carey",
+    "event_name": "The Orangery - Does not include event ticket - Mariah Carey",
+    "city": "Woodstock",
+    "country": "Great Britain",
+    "venue": "Blenheim Palace",
+    "datetime_iso": "2027-07-01T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006556B4AF8B3E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-orangery-does-not-include-event-woodstock-01-07-2027/event/37006556B4AF8B3E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-orangery-does-not-include-event-woodstock-01-07-2027/event/37006556B4AF8B3E",
+    "last_verified_at": "2026-11-09",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006556B4AF8B3E",
+        "discovery_event_id": "1AMZk4pGkeVlziX",
+        "url": "https://www.ticketmaster.co.uk/the-orangery-does-not-include-event-woodstock-01-07-2027/event/37006556B4AF8B3E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk4pGkeVlziX",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "organizer_names": [
+      "MARI",
+      "PWR EVENTS",
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-mariah-carey-2027-scarborough-1agzk49gkd3hqbt",
+    "artist_slug": "mariah-carey",
+    "artist_name": "Mariah Carey",
+    "event_name": "Mariah Carey",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Open Air Theatre",
+    "datetime_iso": "2027-07-03T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006557D2F1A63F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-scarborough-03-07-2027/event/35006557D2F1A63F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/mariah-carey-scarborough-03-07-2027/event/35006557D2F1A63F",
+    "last_verified_at": "2026-11-09",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006557D2F1A63F",
+        "discovery_event_id": "1AgZk49Gkd3HQbT",
+        "url": "https://www.ticketmaster.co.uk/mariah-carey-scarborough-03-07-2027/event/35006557D2F1A63F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk49Gkd3HQbT",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Priority from O2 Presale",
+        "start": "2026-11-11T09:00:00Z",
+        "end": "2026-11-13T08:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-12T09:00:00Z",
+        "end": "2026-11-13T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-12T09:00:00Z",
+        "end": "2026-11-13T08:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-12T09:00:00Z",
+        "end": "2026-11-13T08:00:00Z"
+      }
     ]
   }
 ]

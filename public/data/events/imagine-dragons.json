@@ -15,8 +15,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ae/event/imagine-dragons-saturday-tickets/1612820399",
-    "last_verified_at": "2026-11-01",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1612820399",
@@ -53,6 +53,7 @@
     "status": "on-sale",
     "organizer_names": [
       "Formula 1 Etihad Airways Abu Dhabi Grand Prix"
-    ]
+    ],
+    "genre": "Rock"
   }
 ]

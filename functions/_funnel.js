@@ -220,6 +220,7 @@ export const CTA_LOCATIONS = Object.freeze([
   "event_card",
   "artist_provider_panel",
   "artist_page",
+  "artist_cheapest",
   "empty_state",
   "comparison_hub",
   "guide_provider_pair",

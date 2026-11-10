@@ -368,7 +368,7 @@ const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, TWO_PRICE_LANES, 
 
 // ─── rendered pages: flag off, not in the pilot (23–27) ─────────────────────
 
-const ASSET_FILES = ["index.html", "data/catalog.json", "data/artists.json", "data/guides-content.json", "data/blog-content.json", "data/provider-configs.json"];
+const ASSET_FILES = ["index.html", "data/catalog.json", "data/artists.json", "data/guides-content.json", "data/blog-content.json"];
 const assets = new Map();
 for (const file of ASSET_FILES) assets.set(`/${file}`, fs.readFileSync(path.join(ROOT, "public", file), "utf8"));
 assets.set("/", assets.get("/index.html"));
@@ -652,7 +652,8 @@ Date.now = realNow;
   const REMOVED = {
     "tm-shakira-2026-madrid-z7r9jz1aazaza": { canonical: "tm-shakira-2026-madrid-z698xz2qz16v4mzjas", key: "35bdc8ff51c46c04", iso: "2026-10-03T18:30:00Z" },
     "tm-missio-2027-cleveland-z7r9jz1aaztf7": { canonical: "tm-missio-2027-cleveland-vv17fz_8gkl63cwa", key: "6daff6a36d02b4c4", iso: "2027-01-18T00:00:00Z" },
-    "tm-hilary-duff-2027-forest-brussels-z698xzg2z1k3o-w4p": { canonical: "tm-hilary-duff-2027-forest-brussels-z698xzg2z1kqm7d-k", key: "845a12e54eaffe2a", iso: "2027-05-16T16:30:00Z" }
+    "tm-hilary-duff-2027-forest-brussels-z698xzg2z1k3o-w4p": { canonical: "tm-hilary-duff-2027-forest-brussels-z698xzg2z1kqm7d-k", key: "845a12e54eaffe2a", iso: "2027-05-16T16:30:00Z" },
+    "tm-tyla-2026-seattle-vvg1hz_4ubjbln": { canonical: "tm-tyla-2026-seattle-vvg1hz_2qgz489", key: "8ffe54e357901000", iso: "2026-11-18T04:00:00Z" }
   };
   for (const [removed, { canonical, key, iso }] of Object.entries(REMOVED)) {
     const tombstone = tombstones.find((entry) => entry.id === removed);
@@ -669,6 +670,7 @@ Date.now = realNow;
   assert("integrity: Shakira Madrid 2026-10-03 has one row, so no duplicate group", sameDay("shakira", "madrid", "2026-10-03").length === 0);
   assert("integrity: Missio Cleveland 2027-01-17 has one row, so no duplicate group", sameDay("missio", "cleveland", "2027-01-17").length === 0);
   assert("integrity: Hilary Duff Brussels 2027-05-16 has only the concert row", sameDay("hilary-duff", "forest-brussels", "2027-05-16").length === 0);
+  assert("integrity: Tyla Seattle 2026-11-17 has one performance and retains its frozen cohort key", sameDay("tyla", "seattle", "2026-11-17").length === 0);
 
   // A tombstoned row never reappears, under its own id or its Ticketmaster ids.
   const guarded = new Set(tombstones.flatMap((entry) => [entry.id, entry.ticketmaster_event_id, entry.ticketmaster_discovery_event_id]).filter(Boolean).map((value) => String(value).toUpperCase()));

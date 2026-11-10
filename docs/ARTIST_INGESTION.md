@@ -25,7 +25,7 @@ Run `npm run artists:requests:check` (it is also in `test:quick` and
 
 | When (UTC) | Workflow | What it does with the request |
 |---|---|---|
-| 10:45 | `auto-promote.yml` | Puts open requests first in the day's candidate list. Captures the SeatGeek performer and Ticketmaster attraction from their APIs by exact name, runs the D1–D5 screen and posts the verdict (marked "owner-requested") in the `automation:roster-candidates` issue, then promotes up to 8 artists a day (56 a week). Requests come first. It creates the artist record, catalog entry, registry entry and artist-level links, ingests the artist's Ticketmaster dates and SeatGeek event links, runs `test:mvp` and `test:providers`, and auto-merges one PR. Runs only while the repo variable `AUTOPROMOTE_ENABLED` is `true`. |
+| 10:45 | `auto-promote.yml` | Puts open requests first in the day's candidate list. Captures the SeatGeek performer and Ticketmaster attraction from their APIs by exact name, runs the D1–D5 screen and posts the verdict (marked "owner-requested") in the `automation:roster-candidates` issue, then promotes up to 12 artists a day (84 a week). Requests come first. It creates the artist record, catalog entry, registry entry and artist-level links, ingests the artist's Ticketmaster dates and SeatGeek event links, runs `test:mvp` and `test:providers`, and auto-merges one PR. Runs only while the repo variable `AUTOPROMOTE_ENABLED` is `true`. |
 
 **The screen for a request.** Identity must match exactly on both APIs (D1).
 The name must not be on `data/artist-denylist.json`, must not match the
@@ -61,11 +61,15 @@ ignored, so the file doubles as a record of what was asked for.
   `npm run artists:watchlist:check`. A name sits in the watchlist or in the
   requests file, never both.
 - **Automatic discovery.** The same two jobs build the day's list in this
-  order: watchlist acts that now have a tour, open requests, then the 10 highest-demand touring headliners on
+  order: watchlist acts that now have a tour, open requests, then up to 10
+  just-announced tours (forecast acts with 3+ headline dates whose public
+  on-sale started in the last 7 days or is still to come, playing enough
+  arenas or stadiums to score 3+, biggest rooms first),
+  then the 10 highest-demand touring headliners on
   SeatGeek with no page (`scripts/report-demand-candidates.mjs`, events sorted
   by SeatGeek's demand score; owner-approved 2026-10-09), then Ticketmaster's
   forecast (`scripts/report-roster-forecast.mjs`, "currently touring in markets
-  the site already covers"), capped at 20 names. Only requests get the relaxed
+  the site already covers"), capped at 40 names. Only requests get the relaxed
   screen; demand and forecast names must pass it in full, and the daily and
   weekly caps are unchanged.
 - **The manual gated path.** Use this for an act the screen cannot pass, or

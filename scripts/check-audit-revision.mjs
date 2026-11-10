@@ -23,6 +23,18 @@ export function assertAuditRevision({ audited, checkout, main }) {
 // 2026-10-16: #1598 (scripts and docs only) merged mid-audit and withheld a
 // full day of verification dates.
 export const EVIDENCE_PATH_PREFIXES = ["public/data/", "data/", "content/"];
+// Inside those prefixes, files no audit step reads: blog posts and their
+// generated bundle. 2026-11-06: #2096 (two blog data stories) merged while the
+// stamps' exact head was being validated and withheld the day's verification
+// dates. The audit reads events, artists, guides and guide-source checks only
+// (verify-outbound-links, audit-tm-events, check-guide-source-links,
+// daily-audit-report); keep this list to paths none of them read.
+export const NON_EVIDENCE_PATHS = ["content/blog/", "public/data/blog-content.json"];
+
+export function isEvidencePath(file) {
+  if (NON_EVIDENCE_PATHS.some((path) => (path.endsWith("/") ? file.startsWith(path) : file === path))) return false;
+  return EVIDENCE_PATH_PREFIXES.some((prefix) => file.startsWith(prefix));
+}
 
 // Returns `main` when the evidence still describes it, otherwise null. Pure
 // over the injected git runner. `audited` must be an ancestor of `main`, and
@@ -36,7 +48,67 @@ export function evidenceBaseFor({ audited, main, git }) {
     return null;
   }
   const changed = git(["diff", "--name-only", audited, main]).split("\n").map((line) => line.trim()).filter(Boolean);
-  return changed.some((file) => EVIDENCE_PATH_PREFIXES.some((prefix) => file.startsWith(prefix))) ? null : main;
+  return changed.some(isEvidencePath) ? null : main;
+}
+
+// GitHub's compare API lists at most 300 files; a longer list is incomplete
+// and can never prove a move was outside the evidence.
+const COMPARE_FILE_LIMIT = 300;
+
+async function changedBetween({ from, to, repo, request }) {
+  const cmp = await request("GET", `/repos/${repo}/compare/${from}...${to}`);
+  if (cmp?.status !== "ahead" || cmp.merge_base_commit?.sha !== from) {
+    throw Object.assign(new Error(`${from.slice(0, 7)} is not an ancestor of ${to.slice(0, 7)}.`), { code: "STALE_AUDIT" });
+  }
+  const files = Array.isArray(cmp.files) ? cmp.files : [];
+  if (files.length >= COMPARE_FILE_LIMIT || files.length === 0) {
+    throw Object.assign(new Error(`Cannot list every file changed between ${from.slice(0, 7)} and ${to.slice(0, 7)}.`), { code: "STALE_AUDIT" });
+  }
+  return files.flatMap((f) => [f.filename, f.previous_filename]).filter(Boolean);
+}
+
+// Main moved while the stamps' exact head was being validated. When the move
+// touched no evidence path and none of the stamped files, the evidence still
+// describes the new main (the same rule --establish-base applies before
+// stamping), and the stamps' files can be carried onto it unchanged: the new
+// head is new main plus exactly the validated stamp files, as a direct child
+// of new main. It has no checks yet, so the caller must earn the required
+// check on it again before mergeAuditedPr (which stays exact). Any other move
+// throws STALE_AUDIT and the stamps are withheld as before.
+export async function rebuildAuditHead({ evidence, audited, main, head, branch, files, repo, request }) {
+  for (const sha of [evidence, audited, main, head]) {
+    if (!/^[0-9a-f]{40}$/.test(sha || "")) throw new Error("Missing or malformed revision; the audit head cannot be rebuilt.");
+  }
+  if (!Array.isArray(files) || files.length === 0) throw new Error("No stamped files named; the audit head cannot be rebuilt.");
+  if (main === audited) throw new Error("Main has not moved; nothing to rebuild.");
+  const headCommit = await request("GET", `/repos/${repo}/git/commits/${head}`);
+  if (headCommit?.sha !== head || headCommit.parents?.length !== 1 || headCommit.parents[0]?.sha !== audited) {
+    throw Object.assign(new Error("Audit PR is not a direct child of the audited revision; its evidence is invalidated."), { code: "STALE_AUDIT" });
+  }
+  const stamped = await changedBetween({ from: audited, to: head, repo, request });
+  const unexpected = stamped.filter((file) => !files.includes(file));
+  if (unexpected.length) {
+    throw Object.assign(new Error(`Audit head changes files outside the stamp allowlist (${unexpected.slice(0, 5).join(", ")}).`), { code: "STALE_AUDIT" });
+  }
+  const moved = await changedBetween({ from: evidence, to: main, repo, request });
+  const blocking = moved.filter((file) => isEvidencePath(file) || files.includes(file));
+  if (blocking.length) {
+    throw Object.assign(new Error(`Main moved to ${main.slice(0, 7)} and changed evidence or stamped files (${blocking.slice(0, 5).join(", ")}). Withholding verification dates; the next scheduled audit must gather fresh evidence. Do not rebase these stamps.`), { code: "STALE_AUDIT" });
+  }
+  if (evidence !== audited) await changedBetween({ from: audited, to: main, repo, request });
+  const tree = [];
+  for (const path of [...new Set(stamped)]) {
+    const entry = await request("GET", `/repos/${repo}/contents/${path.split("/").map(encodeURIComponent).join("/")}?ref=${head}`);
+    if (entry?.type !== "file" || !/^[0-9a-f]{40}$/.test(entry.sha || "")) throw new Error(`Could not read ${path} at the validated head.`);
+    tree.push({ path, mode: "100644", type: "blob", sha: entry.sha });
+  }
+  const mainCommit = await request("GET", `/repos/${repo}/git/commits/${main}`);
+  if (!/^[0-9a-f]{40}$/.test(mainCommit?.tree?.sha || "")) throw new Error("Could not read the tree of current main.");
+  const newTree = await request("POST", `/repos/${repo}/git/trees`, { base_tree: mainCommit.tree.sha, tree });
+  const commit = await request("POST", `/repos/${repo}/git/commits`, { message: headCommit.message, tree: newTree.sha, parents: [main] });
+  if (!/^[0-9a-f]{40}$/.test(commit?.sha || "")) throw new Error("GitHub did not return the rebuilt audit commit.");
+  await request("PATCH", `/repos/${repo}/git/refs/heads/${branch}`, { sha: commit.sha, force: true });
+  return commit.sha;
 }
 
 export async function checkAuditMergeRevision({ audited, repo, request }) {
@@ -218,6 +290,126 @@ async function selfTest() {
     if (lostResponse) assert(!calls.some((call) => call.method === "PATCH" && call.path.endsWith("/pulls/1")), "a published head with delayed merge metadata must not be closed as stale");
   }
 
+  // Rebuild onto a main that moved outside the evidence (2026-11-06, #2096).
+  {
+    const A = "a".repeat(40), M = "b".repeat(40), H = "c".repeat(40), N = "e".repeat(40), E = "f".repeat(40);
+    const stampFiles = ["public/data/artists.json", "PROJECT_STATUS.md"];
+    const fakeRequest = ({ moved, stamped = stampFiles, ancestor = true, headParent = A }) => {
+      const calls = [];
+      const request = async (method, path, payload) => {
+        calls.push({ method, path, payload });
+        if (method === "GET" && path.endsWith(`/git/commits/${H}`)) return { sha: H, message: "Bump verification timestamps", parents: [{ sha: headParent }] };
+        if (method === "GET" && path.endsWith(`/git/commits/${M}`)) return { sha: M, tree: { sha: "d".repeat(40) } };
+        if (method === "GET" && path.includes("/compare/")) {
+          const [from, to] = path.split("/compare/")[1].split("...");
+          if (to === H) return { status: "ahead", merge_base_commit: { sha: from }, files: stamped.map((filename) => ({ filename })) };
+          return ancestor ? { status: "ahead", merge_base_commit: { sha: from }, files: moved.map((filename) => ({ filename })) } : { status: "diverged", merge_base_commit: { sha: "0".repeat(40) }, files: [] };
+        }
+        if (method === "GET" && path.includes("/contents/")) return { type: "file", sha: "9".repeat(40) };
+        if (method === "POST" && path.endsWith("/git/trees")) return { sha: "8".repeat(40) };
+        if (method === "POST" && path.endsWith("/git/commits")) return { sha: N };
+        if (method === "PATCH" && path.endsWith("/git/refs/heads/automation/verified-dates")) return {};
+        throw new Error(`unexpected ${method} ${path}`);
+      };
+      return { calls, request };
+    };
+    const args = { evidence: A, audited: A, main: M, head: H, branch: "automation/verified-dates", files: stampFiles, repo: "o/r" };
+    for (const moved of [["content/blog/x.md", "public/data/blog-content.json", "reports/data-stories/x/figures.json", "docs/X.md"], ["scripts/a.mjs"]]) {
+      const { calls, request } = fakeRequest({ moved });
+      assert.equal(await rebuildAuditHead({ ...args, request }), N);
+      const tree = calls.find((c) => c.path.endsWith("/git/trees")).payload;
+      assert.equal(tree.base_tree, "d".repeat(40), "the rebuilt tree is current main's");
+      assert.deepEqual(tree.tree.map((t) => t.path).sort(), [...stampFiles].sort(), "only the validated stamp files are carried over");
+      assert(calls.some((c) => c.path.includes(`/contents/public/data/artists.json?ref=${H}`)), "stamp blobs come from the validated head");
+      assert.deepEqual(calls.find((c) => c.method === "POST" && c.path.endsWith("/git/commits")).payload.parents, [M], "the rebuilt head is a direct child of current main");
+      const ref = calls.find((c) => c.method === "PATCH");
+      assert.equal(ref.path, "/repos/o/r/git/refs/heads/automation/verified-dates", "only the automation branch moves, never main");
+    }
+    for (const [label, opts] of [
+      ["an event-data move", { moved: ["public/data/events.json"] }],
+      ["a guide move", { moved: ["content/guides/x.md"] }],
+      ["a data/ move", { moved: ["data/provider-identities.json"] }],
+      ["a move of a stamped file", { moved: ["PROJECT_STATUS.md"] }],
+      ["a move too long to list", { moved: Array.from({ length: 300 }, (_, i) => `docs/${i}.md`) }],
+      ["a main the evidence is not an ancestor of", { moved: ["docs/X.md"], ancestor: false }],
+      ["a head that changes an unlisted file", { moved: ["docs/X.md"], stamped: [...stampFiles, "public/data/events.json"] }],
+      ["a head that is not a direct child", { moved: ["docs/X.md"], headParent: E }],
+    ]) {
+      const { calls, request } = fakeRequest(opts);
+      await assert.rejects(rebuildAuditHead({ ...args, request }), (err) => err.code === "STALE_AUDIT", `${label} withholds the stamps`);
+      assert(!calls.some((c) => c.method !== "GET"), `${label} writes nothing`);
+    }
+    await assert.rejects(rebuildAuditHead({ ...args, main: A, request: fakeRequest({ moved: [] }).request }), /not moved/);
+    await assert.rejects(rebuildAuditHead({ ...args, files: [], request: fakeRequest({ moved: [] }).request }), /No stamped files/);
+    assert.equal(isEvidencePath("content/blog/x.md"), false);
+    assert.equal(isEvidencePath("public/data/blog-content.json"), false);
+    assert.equal(isEvidencePath("public/data/blog-content.json.bak"), true, "exclusions are exact files or folders, not prefixes of names");
+    for (const file of ["public/data/events.json", "public/data/artists.json", "content/guides/x.md", "data/x.json", "public/data/guides-content.json"]) assert.equal(isEvidencePath(file), true, file);
+  }
+
+  // The real opener, offline: main moves outside the evidence while the head
+  // is validated; with rebuilds enabled the stamps are carried onto new main,
+  // the required check is earned again on the rebuilt head, and main
+  // fast-forwards to exactly that head.
+  {
+    const rebuildMock = `
+      const calls = []; let phase = 'a'; let head = 'c'; let merged = false;
+      process.on('exit', () => console.log('MOCK_CALLS ' + JSON.stringify(calls)));
+      globalThis.fetch = async (url, options = {}) => {
+        const path = new URL(url).pathname + new URL(url).search;
+        const method = options.method || 'GET';
+        const payload = options.body ? JSON.parse(options.body) : undefined;
+        calls.push({method, path, body: payload});
+        const pr = {number: 1, state: 'open', base: {ref: 'main'}, html_url: 'x', head: {sha: head.repeat(40)}, merged, merge_commit_sha: merged ? head.repeat(40) : null};
+        let body = {}, status = 200;
+        if (path.includes('/actions/variables/')) status = 404;
+        else if (path.endsWith('/commits/main')) body = {sha: (merged ? head : phase).repeat(40)};
+        else if (path.includes('/pulls?')) body = [pr];
+        else if (path.endsWith('/pulls/1')) body = pr;
+        else if (path.includes('/check-runs?')) { body = {check_runs: [{status: 'completed', conclusion: 'success'}]}; if (head === 'c') phase = process.env.MOCK_MOVE || 'b'; }
+        else if (path.includes('/actions/runs?')) body = {workflow_runs: []};
+        else if (method === 'GET' && path.includes('/git/commits/' + 'c'.repeat(40))) body = {sha: 'c'.repeat(40), message: 'stamps', parents: [{sha: 'a'.repeat(40)}]};
+        else if (method === 'GET' && path.includes('/git/commits/' + 'e'.repeat(40))) body = {sha: 'e'.repeat(40), parents: [{sha: 'b'.repeat(40)}]};
+        else if (method === 'GET' && path.includes('/git/commits/' + 'b'.repeat(40))) body = {sha: 'b'.repeat(40), tree: {sha: 'd'.repeat(40)}};
+        else if (method === 'GET' && path.includes('/compare/')) {
+          const to = path.split('...')[1];
+          body = {status: 'ahead', merge_base_commit: {sha: path.split('/compare/')[1].split('...')[0]}, files: (to.startsWith('c') ? ['public/data/artists.json'] : [process.env.MOCK_MOVED_FILE]).map((filename) => ({filename}))};
+        }
+        else if (method === 'GET' && path.includes('/contents/')) body = {type: 'file', sha: '9'.repeat(40)};
+        else if (method === 'POST' && path.endsWith('/git/trees')) body = {sha: '8'.repeat(40)};
+        else if (method === 'POST' && path.endsWith('/git/commits')) body = {sha: 'e'.repeat(40)};
+        else if (method === 'PATCH' && path.endsWith('/git/refs/heads/automation/test')) head = 'e';
+        else if (method === 'PATCH' && path.endsWith('/git/refs/heads/main')) { if (payload.force !== false) throw new Error('forced main'); merged = true; body = {object: {sha: payload.sha}}; }
+        else if (method === 'PATCH' && path.endsWith('/pulls/1')) body = {state: 'closed'};
+        else if (method === 'POST' && ['/labels', '/comments', '/dispatches'].some(s => path.endsWith(s))) body = {};
+        else if (method === 'DELETE') body = {};
+        else throw new Error('Unexpected offline request: ' + method + ' ' + path);
+        return new Response(JSON.stringify(body), {status});
+      };
+    `;
+    const runOpener = (extra) => {
+      const env = { PATH: process.env.PATH, GITHUB_TOKEN: "offline-test-only", GITHUB_REPOSITORY: "owner/repo", BRANCH: "automation/test", PR_TITLE: "fixture", PR_AUTO_MERGE: "true", REQUIRED_CHECK_POLL_MS: "1", REQUIRED_CHECK_TIMEOUT_MS: "1000", PR_AUDIT_SOURCE_COMMIT: audited, PR_AUDIT_STAMP_FILES: "public/data/artists.json PROJECT_STATUS.md", MOCK_MOVED_FILE: "content/blog/x.md", ...extra };
+      const result = spawnSync(process.execPath, ["--import", `data:text/javascript,${encodeURIComponent(rebuildMock)}`, "scripts/open-automation-pr.mjs"], { env, encoding: "utf8", timeout: 5000 });
+      const calls = JSON.parse(result.stdout.split("\n").find((line) => line.startsWith("MOCK_CALLS ")).slice(11));
+      return { result, calls };
+    };
+    let { result, calls } = runOpener({ PR_AUDIT_MAX_REBUILDS: "1" });
+    assert.equal(result.status, 0, result.stderr);
+    const mainWrites = calls.filter((c) => c.method === "PATCH" && c.path.endsWith("/git/refs/heads/main"));
+    assert.equal(mainWrites.length, 1);
+    assert.equal(mainWrites[0].body.sha, "e".repeat(40), "main fast-forwards to the rebuilt head only");
+    assert.equal(calls.filter((c) => c.path.endsWith("/dispatches")).length, 2, "the required check is earned again on the rebuilt head");
+    assert(!calls.some((c) => c.method === "PATCH" && c.path.endsWith("/pulls/1")), "a rebuilt PR is not closed");
+    ({ result, calls } = runOpener({}));
+    assert.equal(result.status, 1, "rebuilds stay off unless the workflow opts in");
+    assert(!calls.some((c) => c.method === "PATCH" && c.path.endsWith("/git/refs/heads/main")));
+    assert(calls.some((c) => c.method === "PATCH" && c.path.endsWith("/pulls/1") && c.body.state === "closed"));
+    ({ result, calls } = runOpener({ PR_AUDIT_MAX_REBUILDS: "1", MOCK_MOVED_FILE: "public/data/events.json" }));
+    assert.equal(result.status, 1, "an evidence move still withholds");
+    assert(!calls.some((c) => c.method === "PATCH" && /refs\/heads\/(main|automation)/.test(c.path)), "an evidence move rebuilds nothing and publishes nothing");
+    assert(calls.some((c) => c.method === "PATCH" && c.path.endsWith("/pulls/1") && c.body.state === "closed"));
+  }
+
   const workflow = parse(readFileSync(".github/workflows/daily-audit.yml", "utf8"));
   const steps = workflow.jobs["verification-dates"].steps;
   const check = steps.findIndex((s) => s.name === "Check audit evidence revision");
@@ -234,6 +426,12 @@ async function selfTest() {
   assert.match(steps[check].run, /--establish-base/, "only the check before stamping may move the evidence base");
   assert.doesNotMatch(steps[finalCheck].run, /--establish-base/, "the check before publishing stays exact");
   assert.match(steps[publish].run, /PR_AUDIT_SOURCE_COMMIT="\$\(cat \.audit\/evidence-base\.txt\)"/);
+  assert.match(steps[publish].run, /PR_AUDIT_EVIDENCE_COMMIT="\$\(cat \.audit\/source-commit\.txt\)"/, "rebuilds are judged against the commit the audit observed");
+  const allowlist = steps.find((s) => s.name === "Assert the diff contains only allowlisted files");
+  assert.deepEqual(steps[publish].env.PR_AUDIT_STAMP_FILES.split(" ").sort(), allowlist.run.split(/\s+/).filter((w) => /\.(json|md)$/.test(w)).sort(), "a rebuild carries exactly the allowlisted stamp files");
+  assert.equal(steps[publish].env.PR_AUDIT_MAX_REBUILDS, "1");
+  assert(Number(steps[publish].env.PR_AUDIT_REBUILD_DEADLINE_MINUTES) < steps[publish]["timeout-minutes"], "a rebuilt head's check ends before the step cap");
+  assert.equal(steps[publish].env.RUN_CANCEL_TOKEN, "${{ github.token }}", "a stale merge-time withhold ends neutral");
 
   // Evidence base: real git history, not mocks.
   const history = mkdtempSync(join(tmpdir(), "audit-evidence-base-"));
@@ -256,6 +454,8 @@ async function selfTest() {
     const dataMove = commitFile("public/data/events/_shards/001.json", "[]\n");
     assert.equal(evidenceBaseFor({ audited: base, main: dataMove, git: g }), null, "any event-data change invalidates the evidence");
     assert.equal(evidenceBaseFor({ audited: codeOnly, main: dataMove, git: g }), null);
+    const blogMove = commitFile("content/blog/story.md", "1\n");
+    assert.equal(evidenceBaseFor({ audited: dataMove, main: blogMove, git: g }), blogMove, "a blog post move keeps the evidence valid");
     for (const file of ["data/guide-source-link-checks.json", "content/guides/x.md"]) {
       const moved = commitFile(file, "1\n");
       assert.equal(evidenceBaseFor({ audited: dataMove, main: moved, git: g }), null, `${file} invalidates the evidence`);
@@ -286,7 +486,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
     if (process.argv.includes("--establish-base")) {
       const base = checkout === main ? evidenceBaseFor({ audited: sourceCommit, main, git }) : null;
       if (base && base !== sourceCommit) {
-        console.log(`main moved ${sourceCommit.slice(0, 7)} -> ${base.slice(0, 7)} without touching ${EVIDENCE_PATH_PREFIXES.join(", ")}; the evidence still describes it, so stamps build on ${base.slice(0, 7)}.`);
+        console.log(`main moved ${sourceCommit.slice(0, 7)} -> ${base.slice(0, 7)} without touching ${EVIDENCE_PATH_PREFIXES.join(", ")} (other than ${NON_EVIDENCE_PATHS.join(", ")}); the evidence still describes it, so stamps build on ${base.slice(0, 7)}.`);
       }
       if (base) audited = base;
       writeFileSync(".audit/evidence-base.txt", `${audited}\n`);

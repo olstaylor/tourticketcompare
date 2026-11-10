@@ -1,10 +1,10 @@
 ---
 title: "Doja Cat tour tickets: listed prices city by city"
 seo_title: "Doja Cat tour ticket prices by city"
-description: "Doja Cat's tour in the United States: the lowest listed price for the next date in 14 cities, $40 in Austin at the low end, $159 in New York at the high end."
-summary: "Vivid Seats' lowest listed price for the next Doja Cat date in each of 14 cities, each figure with the time it was captured. Snapshots 2 November 2026."
+description: "Doja Cat's tour in the United States: the lowest listed price for the next date in 10 cities, $52 in Miami at the low end, $139 in New York at the high end."
+summary: "Vivid Seats' lowest listed price for the next Doja Cat date in each of 10 cities, each figure with the time it was captured. Snapshots 9 November 2026."
 date: 2026-10-24
-updated: 2026-11-02
+updated: 2026-11-09
 status: published
 tags:
   - tour-data
@@ -14,36 +14,49 @@ related_guides:
   - primary-vs-resale-concert-tickets
 ---
 
-Doja Cat's Tour Ma Vie World Tour has 16 dates that TourTicketCompare tracks. In the United States, 14 cities had a recent listed price on Vivid Seats. The next date in Austin was listed at $40 at the low end, and the next date in New York at $159 at the high end, 3.9 times as much. The median city was listed at $65.50.
+Doja Cat's Tour Ma Vie World Tour has 12 dates that TourTicketCompare tracks. In the United States, 10 cities had a recent listed price on Vivid Seats. The next date in Miami was listed at $52 at the low end, and the next date in New York at $139 at the high end, 2.6 times as much. The median city was listed at $65.
 
 ## Doja Cat ticket prices by city
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Austin](/artists/doja-cat/tickets/austin-united-states) | 3 November 2026 | Moody Center ATX | $40 | Vivid Seats | 2 November, 18:51 UTC |
-| [Miami](/artists/doja-cat/tickets/miami-united-states) | 11 November 2026 | Kaseya Center | $44 | Vivid Seats | 2 November, 18:51 UTC |
-| [Philadelphia](/artists/doja-cat/tickets/philadelphia-united-states) | 29 November 2026 | Xfinity Mobile Arena | $44 | Vivid Seats | 2 November, 18:51 UTC |
-| [San Antonio](/artists/doja-cat/tickets/san-antonio-united-states) | 6 November 2026 | Frost Bank Center | $51 | Vivid Seats | 2 November, 18:51 UTC |
-| [Dallas](/artists/doja-cat/tickets/dallas-united-states) | 4 November 2026 | American Airlines Center | $59 | Vivid Seats | 2 November, 18:51 UTC |
-| [Tampa](/artists/doja-cat/tickets/tampa-united-states) | 13 November 2026 | Benchmark International Arena | $61 | Vivid Seats | 2 November, 18:51 UTC |
-| [Washington](/artists/doja-cat/tickets/washington-united-states) | 21 November 2026 | Capital One Arena | $63 | Vivid Seats | 2 November, 18:51 UTC |
-| [Charlotte](/artists/doja-cat/tickets/charlotte-united-states) | 18 November 2026 | Spectrum Center | $68 | Vivid Seats | 2 November, 18:51 UTC |
-| [Baltimore](/artists/doja-cat/tickets/baltimore-united-states) | 20 November 2026 | CFG Bank Arena | $69 | Vivid Seats | 2 November, 18:51 UTC |
-| [Orlando](/artists/doja-cat/tickets/orlando-united-states) | 14 November 2026 | Kia Center | $69 | Vivid Seats | 2 November, 18:51 UTC |
-| [Houston](/artists/doja-cat/tickets/houston-united-states) | 7 November 2026 | Toyota Center - TX | $84 | Vivid Seats | 2 November, 18:51 UTC |
-| [Atlanta](/artists/doja-cat/tickets/atlanta-united-states) | 17 November 2026 | State Farm Arena | $86 | Vivid Seats | 2 November, 18:51 UTC |
-| [Boston](/artists/doja-cat/tickets/boston-united-states) | 23 November 2026 | TD Garden | $108 | Vivid Seats | 2 November, 18:51 UTC |
-| [New York](/artists/doja-cat/tickets/new-york-united-states) | 1 December 2026 | Madison Square Garden | $159 | Vivid Seats | 2 November, 18:51 UTC |
+| [Miami](/artists/doja-cat/tickets/miami-united-states) | 11 November 2026 | Kaseya Center | $52 | Vivid Seats | 9 November, 22:44 UTC |
+| [Charlotte](/artists/doja-cat/tickets/charlotte-united-states) | 18 November 2026 | Spectrum Center | $55 | Vivid Seats | 9 November, 22:44 UTC |
+| [Tampa](/artists/doja-cat/tickets/tampa-united-states) | 13 November 2026 | Benchmark International Arena | $60 | Vivid Seats | 9 November, 22:44 UTC |
+| [Washington](/artists/doja-cat/tickets/washington-united-states) | 21 November 2026 | Capital One Arena | $63 | Vivid Seats | 9 November, 22:44 UTC |
+| [Baltimore](/artists/doja-cat/tickets/baltimore-united-states) | 20 November 2026 | CFG Bank Arena | $65 | Vivid Seats | 9 November, 22:44 UTC |
+| [Orlando](/artists/doja-cat/tickets/orlando-united-states) | 14 November 2026 | Kia Center | $65 | Vivid Seats | 9 November, 22:44 UTC |
+| [Philadelphia](/artists/doja-cat/tickets/philadelphia-united-states) | 29 November 2026 | Xfinity Mobile Arena | $75 | Vivid Seats | 9 November, 22:44 UTC |
+| [Atlanta](/artists/doja-cat/tickets/atlanta-united-states) | 17 November 2026 | State Farm Arena | $79 | Vivid Seats | 9 November, 22:44 UTC |
+| [Boston](/artists/doja-cat/tickets/boston-united-states) | 23 November 2026 | TD Garden | $103 | Vivid Seats | 9 November, 22:44 UTC |
+| [New York](/artists/doja-cat/tickets/new-york-united-states) | 1 December 2026 | Madison Square Garden | $139 | Vivid Seats | 9 November, 22:44 UTC |
 
 Each figure is the lowest listed price on Vivid Seats for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
+## TicketNetwork, same cities (not ranked)
+
+TicketNetwork also had a recent listed price for the next date in 10 of these cities. They are set out below by date, not ranked, and are not netted against the table above: the two sites list different tickets, so a gap between them says nothing about which is better value.
+
+| City | Next date | Venue | Lowest listed | Site | Captured |
+|---|---|---|---|---|---|
+| [Miami](/artists/doja-cat/tickets/miami-united-states) | 11 November 2026 | Kaseya Center | $55.20 | TicketNetwork | 9 November, 06:37 UTC |
+| [Tampa](/artists/doja-cat/tickets/tampa-united-states) | 13 November 2026 | Benchmark International Arena | $43.70 | TicketNetwork | 9 November, 06:37 UTC |
+| [Orlando](/artists/doja-cat/tickets/orlando-united-states) | 14 November 2026 | Kia Center | $80.50 | TicketNetwork | 9 November, 06:37 UTC |
+| [Atlanta](/artists/doja-cat/tickets/atlanta-united-states) | 17 November 2026 | State Farm Arena | $97.75 | TicketNetwork | 9 November, 06:37 UTC |
+| [Charlotte](/artists/doja-cat/tickets/charlotte-united-states) | 18 November 2026 | Spectrum Center | $67.85 | TicketNetwork | 9 November, 06:37 UTC |
+| [Baltimore](/artists/doja-cat/tickets/baltimore-united-states) | 20 November 2026 | CFG Bank Arena | $63.25 | TicketNetwork | 9 November, 06:37 UTC |
+| [Washington](/artists/doja-cat/tickets/washington-united-states) | 21 November 2026 | Capital One Arena | $85.10 | TicketNetwork | 9 November, 06:37 UTC |
+| [Boston](/artists/doja-cat/tickets/boston-united-states) | 23 November 2026 | TD Garden | $138 | TicketNetwork | 9 November, 06:37 UTC |
+| [Philadelphia](/artists/doja-cat/tickets/philadelphia-united-states) | 29 November 2026 | Xfinity Mobile Arena | $63.25 | TicketNetwork | 9 November, 06:37 UTC |
+| [New York](/artists/doja-cat/tickets/new-york-united-states) | 1 December 2026 | Madison Square Garden | $144.90 | TicketNetwork | 9 November, 06:37 UTC |
+
 ## How this was worked out
 
-- **One site.** Every price is from Vivid Seats, the site with recent listed prices in the most cities for this tour. Sites are not compared with each other.
+- **Main table: one site.** Every price in the first table is from Vivid Seats, the site with recent listed prices in the most cities for this tour. The second table is TicketNetwork, labelled and in date order. Sites are shown side by side but not ranked.
 - **One country, one currency.** The tour also has dates in Canada (2). They are left out, because comparing across countries would mix markets and currencies.
 - **Next date only.** A city's figure is its first upcoming date, not the lowest of all its dates.
 - **Recent prices only.** A price is used only if it was captured in the 72 hours before this page was updated. Captured times are in the table.
-- **Coverage.** All 14 cities on the tour in the United States are priced.
+- **Coverage.** All 10 cities on the tour in the United States are priced.
 
 ## What this does and doesn't say
 

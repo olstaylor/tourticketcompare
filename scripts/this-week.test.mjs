@@ -52,3 +52,11 @@ assert(renderThisWeekHtml([]) === "", "empty block should render nothing");
 assert(THIS_WEEK_GUIDE_PATHS.has("/guides"), "guides index should be covered");
 
 console.log(`this-week: ${passed} checks passed`);
+
+// /on-sale variant: no self-link, a checked time, and an explicit empty state.
+{
+  const { renderThisWeekHtml } = await import("../functions/_this-week.js");
+  const html = renderThisWeekHtml([{ kind: "onsale", artistSlug: "a", artistName: "A", atMs: Date.UTC(2026, 10, 7, 15), timezone: "UTC", dates: 1 }], "t", { checkedAt: Date.UTC(2026, 10, 6, 12), onCalendar: true });
+  if (!html.includes("Checked 2026-11-06 12:00 UTC") || html.includes('href="/on-sale"')) throw new Error("on-sale this-week block: checked time and no self-link");
+  if (!renderThisWeekHtml([], "t", { onCalendar: true }).includes("No tracked artist")) throw new Error("on-sale empty state");
+}

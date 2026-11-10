@@ -117,7 +117,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "16006457ABA38C33",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-cincinnati-ohio-11-04-2026/event/16006457ABA38C33",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/cincinnati-ohio-andrew-j-brady-music-center-2026-11-04-7-pm/concert/18100188",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-cincinnati-andrew-j-brady-icon-music-center-11-4-2026--concerts-adult-contemporary/production/6727892",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-cincinnati-ohio-11-04-2026/event/16006457ABA38C33",
@@ -143,7 +143,7 @@
         "event_id": 6727892,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-cincinnati-andrew-j-brady-icon-music-center-11-4-2026--concerts-adult-contemporary/production/6727892",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-04",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -207,7 +207,7 @@
         "event_id": 6789515,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-pittsburgh-citizens-live-at-the-wylie-11-6-2026--concerts-adult-contemporary/production/6789515",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -218,11 +218,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7808971",
-        "url": "https://www.ticketnetwork.com/en/p/7808971",
-        "verified": true,
-        "last_verified_at": "2026-11-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7808971",
@@ -235,7 +235,7 @@
     "ticketmaster_discovery_event_id": "1AvbZ_kGkweSf_T",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808971",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808971/Sting-tickets-Fri-Nov-6-2026-Citizens-Live-at-The-Wylie",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -257,7 +257,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-pittsburgh-citizens-live-at-the-wylie-11-7-2026/production/6810223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-pittsburgh-pennsylvania-11-07-2026/event/1600646F733B1EC1",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279,7 +279,7 @@
         "event_id": 6810223,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-pittsburgh-citizens-live-at-the-wylie-11-7-2026/production/6810223",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -290,11 +290,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7827443",
-        "url": "https://www.ticketnetwork.com/en/p/7827443",
-        "verified": true,
-        "last_verified_at": "2026-11-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7827443",
@@ -307,23 +307,13 @@
     "ticketmaster_discovery_event_id": "1AvbZ_kGkWSCsDv",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827443",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827443/Sting-tickets-Sat-Nov-7-2026-Citizens-Live-at-The-Wylie",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-27T14:00:00Z",
-        "end": "2026-11-03T17:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-03-27T14:00:00Z",
-        "end": "2026-11-04T03:00:00Z"
-      }
-    ]
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2026-wallingford-g5vvz_ajjscmb",
@@ -341,7 +331,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-wallingford-toyota-oakdale-theatre-11-9-2026--concerts-adult-contemporary/production/6727894",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-wallingford-connecticut-11-09-2026/event/1D0064599CCEDDD8",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363,7 +353,7 @@
         "event_id": 6727894,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-wallingford-toyota-oakdale-theatre-11-9-2026--concerts-adult-contemporary/production/6727894",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -396,13 +386,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-06T15:00:00Z",
-        "end": "2026-11-05T17:00:00Z"
-      }
-    ]
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7nwya",
@@ -416,11 +401,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000645905ABDC05",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-11-2026/event/0000645905ABDC05",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-11-7-pm/concert/18100163",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-11-2026--concerts-adult-contemporary/production/6727899",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-11-2026/event/0000645905ABDC05",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -432,17 +417,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18100163,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-11-7-pm/concert/18100163",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6727899,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-11-2026--concerts-adult-contemporary/production/6727899",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -483,13 +468,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-06T15:00:00Z",
-        "end": "2026-11-07T17:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7lcyc",
@@ -503,11 +482,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000645905AEDC0E",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-12-2026/event/0000645905AEDC0E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-12-7-pm/concert/18100164",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-12-2026--concerts-adult-contemporary/production/6727904",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-12-2026/event/0000645905AEDC0E",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -519,17 +498,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18100164,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-12-7-pm/concert/18100164",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6727904,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-12-2026--concerts-adult-contemporary/production/6727904",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -570,13 +549,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-06T15:00:00Z",
-        "end": "2026-11-08T17:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7icyq",
@@ -590,11 +563,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000645905B2DC1A",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-14-2026/event/0000645905B2DC1A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-14-7-pm/concert/18100162",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-14-2026--concerts-adult-contemporary/production/6727910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-14-2026/event/0000645905B2DC1A",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -606,17 +579,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18100162,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-14-7-pm/concert/18100162",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6727910,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-14-2026--concerts-adult-contemporary/production/6727910",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -663,7 +636,8 @@
         "start": "2026-03-06T15:00:00Z",
         "end": "2026-11-10T17:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7twrb",
@@ -677,11 +651,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000645905A7DBFA",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-15-2026/event/0000645905A7DBFA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-15-7-pm/concert/18100165",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-15-2026--concerts-adult-contemporary/production/6727916",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-15-2026/event/0000645905A7DBFA",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -693,17 +667,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18100165,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-15-7-pm/concert/18100165",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6727916,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-15-2026--concerts-adult-contemporary/production/6727916",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -750,7 +724,8 @@
         "start": "2026-03-06T15:00:00Z",
         "end": "2026-11-11T17:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7tury",
@@ -764,11 +739,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000645905A4DBF0",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-17-2026/event/0000645905A4DBF0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-17-7-pm/concert/18100167",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-17-2026--concerts-adult-contemporary/production/6727921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-17-2026/event/0000645905A4DBF0",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -780,17 +755,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18100167,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-17-7-pm/concert/18100167",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6727921,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-17-2026--concerts-adult-contemporary/production/6727921",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -837,7 +812,8 @@
         "start": "2026-03-06T15:00:00Z",
         "end": "2026-11-13T17:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v17_a0ag7iure",
@@ -851,11 +827,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000645905A0DBE7",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-18-2026/event/0000645905A0DBE7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-18-7-pm/concert/18100166",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-18-2026--concerts-adult-contemporary/production/6727928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-18-2026/event/0000645905A0DBE7",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -867,17 +843,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18100166,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-18-7-pm/concert/18100166",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6727928,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-18-2026--concerts-adult-contemporary/production/6727928",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -924,7 +900,8 @@
         "start": "2026-03-06T15:00:00Z",
         "end": "2026-11-14T17:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v1ako_v_zaccg27",
@@ -938,11 +915,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006459059DDBE3",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-20-2026/event/00006459059DDBE3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-20-7-pm/concert/18626602",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-20-2026/production/7620571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-20-2026/event/00006459059DDBE3",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -954,17 +931,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626602,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-20-7-pm/concert/18626602",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620571,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-20-2026/production/7620571",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1011,7 +988,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2026-11-16T17:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2026-brooklyn-k7v1ako_v_za5cgcc",
@@ -1025,11 +1003,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006459059ADBDD",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-21-2026/event/00006459059ADBDD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-21-7-pm/concert/18626604",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-21-2026/production/7620569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-21-2026/event/00006459059ADBDD",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1041,17 +1019,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626604,
+        "url": "https://seatgeek.com/sting-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-21-7-pm/concert/18626604",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620569,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-21-2026/production/7620569",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1098,7 +1076,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2026-11-17T17:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2026-orlando-1aefz_fgklnyeh_",
@@ -1112,11 +1091,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "2200648AE3E676D9",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-orlando-florida-11-24-2026/event/2200648AE3E676D9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/orlando-florida-hard-rock-live-orlando-2026-11-24-8-pm/concert/17898563",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-orlando-hard-rock-live---orlando-11-24-2026/production/7123382",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-orlando-florida-11-24-2026/event/2200648AE3E676D9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1128,17 +1107,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17898563,
+        "url": "https://seatgeek.com/sting-tickets/orlando-florida-hard-rock-live-orlando-2026-11-24-8-pm/concert/17898563",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7123382,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-orlando-hard-rock-live---orlando-11-24-2026/production/7123382",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1175,7 +1154,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7045419",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7045419/Sting-tickets-Tue-Nov-24-2026-Hard-Rock-Live-Orlando",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-orlando-tickets-11-24-2026/event/107469502"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-orlando-tickets-11-24-2026/event/107469502",
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2026-tampa-vvg1vzbpivbfyz",
@@ -1193,7 +1173,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-relocated-to-hard-tampa-florida-11-24-2026/event/0D00625B34E94E78",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1252,7 +1232,9 @@
         "start": "2025-03-21T14:00:00Z",
         "end": "2026-11-25T02:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2026-hollywood-vvg1vz_8wi3ad6",
@@ -1266,11 +1248,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D00650CA8485EC7",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-tour-hollywood-florida-11-25-2026/event/0D00650CA8485EC7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/hollywood-florida-hard-rock-live-hollywood-2026-11-25-8-pm/concert/18507833",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-11-25-2026/production/7446988",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-hollywood-florida-11-25-2026/event/0D00650CA8485EC7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1282,17 +1264,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18507833,
+        "url": "https://seatgeek.com/sting-tickets/hollywood-florida-hard-rock-live-hollywood-2026-11-25-8-pm/concert/18507833",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446988,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-11-25-2026/production/7446988",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1329,7 +1311,9 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8214753",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214753/Sting-tickets-Wed-Nov-25-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-hollywood-tickets-11-25-2026/event/107524081"
+    "stubhub_international_url": "https://www.stubhub.ie/sting-hollywood-tickets-11-25-2026/event/107524081",
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecv9ix",
@@ -1347,7 +1331,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-4-2027/production/7696930",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-04-2027/event/39006549AD057B22",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1362,14 +1346,14 @@
         "event_id": 18674616,
         "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-04-8-pm/concert/18674616",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7696930,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-4-2027/production/7696930",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1413,7 +1397,9 @@
         "start": "2026-10-17T17:00:00Z",
         "end": "2027-02-05T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 20,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecemih",
@@ -1431,7 +1417,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-6-2027/production/7696920",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-06-2027/event/39006549AD0B7B3C",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1446,14 +1432,14 @@
         "event_id": 18674617,
         "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-06-8-pm/concert/18674617",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7696920,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-6-2027/production/7696920",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1497,7 +1483,9 @@
         "start": "2026-10-17T17:00:00Z",
         "end": "2027-02-05T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 20,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec79cl",
@@ -1515,7 +1503,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-7-2027/production/7696922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-07-2027/event/39006549AD117B5F",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1530,14 +1518,14 @@
         "event_id": 18674618,
         "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-07-8-pm/concert/18674618",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7696922,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-7-2027/production/7696922",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1581,7 +1569,9 @@
         "start": "2026-10-17T17:00:00Z",
         "end": "2027-02-05T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 20,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecamcg",
@@ -1599,7 +1589,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-10-2027/production/7696916",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-10-2027/event/39006549AD177B75",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1614,14 +1604,14 @@
         "event_id": 18674619,
         "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-10-8-pm/concert/18674619",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7696916,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-10-2027/production/7696916",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1665,7 +1655,9 @@
         "start": "2026-10-17T17:00:00Z",
         "end": "2027-02-05T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 20,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec6msw",
@@ -1683,7 +1675,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-12-2027--concerts-adult-contemporary/production/7697050",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-03-12-2027/event/39006549AD1F7C7D",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1698,14 +1690,14 @@
         "event_id": 18674620,
         "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-12-8-pm/concert/18674620",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7697050,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-3-12-2027--concerts-adult-contemporary/production/7697050",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1749,7 +1741,9 @@
         "start": "2026-10-17T17:00:00Z",
         "end": "2027-02-05T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 20,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-gliwice-z698xzqpz1kckp0pa",
@@ -1767,8 +1761,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/sting-30-tour-tickets/386964585?language=en-us",
-    "last_verified_at": "2026-11-02",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "386964585",
@@ -1805,7 +1799,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation sp. z o.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-gdansk-sopot-z698xzqpz16vv6c7f6",
@@ -1823,8 +1818,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/sting-30-tour-tickets/1047384207?language=en-us",
-    "last_verified_at": "2026-11-02",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1047384207",
@@ -1861,7 +1856,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation sp. z o.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-krakow-z698xzqpz16evtf6jd",
@@ -1879,8 +1875,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/sting-30-tour-tickets/2069207703?language=en-us",
-    "last_verified_at": "2026-11-02",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2069207703",
@@ -1917,7 +1913,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation sp. z o.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-odz-z698xzqpz1k06xapf",
@@ -1935,8 +1932,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/sting-30-tour-tickets/907885954?language=en-us",
-    "last_verified_at": "2026-11-02",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "907885954",
@@ -1981,7 +1978,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/sting-tickets-lodz-atlas-arena-10-6-2027/event/107675353",
     "organizer_names": [
       "Live Nation sp. z o.o."
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-magdeburg-z698xzc2z16vzxvefv",
@@ -1999,8 +1997,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/1022042201?language=en-us",
-    "last_verified_at": "2026-11-02",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1022042201",
@@ -2037,7 +2035,8 @@
     "status": "on-sale",
     "organizer_names": [
       "MAWI Concert GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-rastatt-z698xzc2z1ke30sgb",
@@ -2055,8 +2054,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/92931318?language=en-us",
-    "last_verified_at": "2026-11-02",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "92931318",
@@ -2093,7 +2092,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Provinztour Konzert- und Theateragentur GmbH & Co.KG"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-hemer-z698xzc2z16vagofpv",
@@ -2111,8 +2111,8 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-hemer-sauerlandpark-hemer-6-20-2027/production/7723029",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/1275448941?language=en-us",
-    "last_verified_at": "2026-11-02",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1275448941",
@@ -2133,7 +2133,7 @@
         "event_id": 7723029,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-hemer-sauerlandpark-hemer-6-20-2027/production/7723029",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2149,7 +2149,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Goldrush Productions GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-fulda-z698xzc2z16v1vjxok",
@@ -2167,8 +2168,8 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-fulda-domplatz-fulda-6-26-2027/production/7727422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/1281722453?language=en-us",
-    "last_verified_at": "2026-11-02",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1281722453",
@@ -2189,7 +2190,7 @@
         "event_id": 7727422,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-fulda-domplatz-fulda-6-26-2027/production/7727422",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2213,7 +2214,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/sting-tickets-fulda-domplatz-fulda-26-6-2027/event/107675401",
     "organizer_names": [
       "Provinztour Konzert- und Theateragentur GmbH & Co.KG"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-konstanz-z698xzc2z1kjfov_n",
@@ -2231,8 +2233,8 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-konstanz-festplatz-klein-venedig-6-27-2027/production/7723021",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/sting-30-tour-tickets/714441663?language=en-us",
-    "last_verified_at": "2026-11-02",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "714441663",
@@ -2253,7 +2255,7 @@
         "event_id": 7723021,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-konstanz-festplatz-klein-venedig-6-27-2027/production/7723021",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2269,7 +2271,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Vaddi Concerts GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-klagenfurt-z698xz5rz1kgyvv34",
@@ -2287,8 +2290,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/sting-30-tour-tickets/330074495?language=en-us",
-    "last_verified_at": "2026-11-02",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "330074495",
@@ -2325,7 +2328,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation Austria GmbH"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-verona-zg9rmiynyzf61a",
@@ -2343,7 +2347,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/sting-30-verona-06-07-2027/event/89igub0h9lia",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2378,7 +2382,8 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZF61A",
     "timezone": "Europe/Rome",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkeca9wi",
@@ -2396,7 +2401,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-14-2027/production/7696924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-14-2027/event/39006549AD257CAC",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2418,7 +2423,7 @@
         "event_id": 7696924,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-14-2027/production/7696924",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2462,7 +2467,9 @@
         "start": "2026-10-17T17:00:00Z",
         "end": "2027-02-05T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 20,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec1mvn",
@@ -2480,7 +2487,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-16-2027/production/7696918",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-16-2027/event/39006549AD2B7D2A",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2502,7 +2509,7 @@
         "event_id": 7696918,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-16-2027/production/7696918",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2546,7 +2553,9 @@
         "start": "2026-10-17T17:00:00Z",
         "end": "2027-02-05T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 20,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecg6m7",
@@ -2564,7 +2573,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-17-2027/production/7696934",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-17-2027/event/39006549AD307DC4",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2586,7 +2595,7 @@
         "event_id": 7696934,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-17-2027/production/7696934",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2630,7 +2639,9 @@
         "start": "2026-10-17T17:00:00Z",
         "end": "2027-02-05T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 20,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecumyj",
@@ -2648,7 +2659,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-20-2027/production/7696928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-20-2027/event/39006549AD377E5C",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2670,7 +2681,7 @@
         "event_id": 7696928,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-20-2027/production/7696928",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2714,7 +2725,9 @@
         "start": "2026-10-17T17:00:00Z",
         "end": "2027-02-05T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 20,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkec2mbz",
@@ -2728,11 +2741,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "39006549AD3F7E80",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-22-2027/event/39006549AD3F7E80",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-22-8-pm/concert/18674632",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-22-2027/production/7696932",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-22-2027/event/39006549AD3F7E80",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2754,7 +2767,7 @@
         "event_id": 7696932,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-22-2027/production/7696932",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2798,7 +2811,9 @@
         "start": "2026-10-17T17:00:00Z",
         "end": "2027-02-05T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 20,
+    "genre": "Rock"
   },
   {
     "id": "tm-sting-2027-las-vegas-1ayzk4agkecoebs",
@@ -2812,11 +2827,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "39006549AD467EB1",
     "ticketmaster_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-23-2027/event/39006549AD467EB1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-23-8-pm/concert/18674634",
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-23-2027/production/7696938",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-las-vegas-nevada-10-23-2027/event/39006549AD467EB1",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2838,7 +2853,7 @@
         "event_id": 7696938,
         "url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-las-vegas-the-colosseum-at-caesars-palace-10-23-2027/production/7696938",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2882,6 +2897,8 @@
         "start": "2026-10-17T17:00:00Z",
         "end": "2027-02-05T06:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 20,
+    "genre": "Rock"
   }
 ]

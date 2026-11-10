@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chris-stapletons-allamerican-road-show-lincoln-nebraska-10-26-2026/event/06006425DA7EA5F4",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -70,7 +70,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": ""
+    "ticketnetwork_url": "",
+    "genre": "Country"
   },
   {
     "id": "tm-chris-stapleton-2026-nashville-g5viz_kleeols",
@@ -88,7 +89,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ronnie-bowman-tribute-nashville-tennessee-12-01-2026/event/1B006537C29D1AF1",
-    "last_verified_at": "2026-10-20",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -119,6 +120,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362337",
+        "url": "https://www.ticketnetwork.com/en/p/8362337",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362337",
+        "url": "https://www.ticketliquidator.com/tickets/8362337/Chris-Stapleton-tickets-Tue-Dec-1-2026-Brooklyn-Bowl-Nashville",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KLeEols",
@@ -126,6 +141,9 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362337",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362337/Chris-Stapleton-tickets-Tue-Dec-1-2026-Brooklyn-Bowl-Nashville"
   }
 ]

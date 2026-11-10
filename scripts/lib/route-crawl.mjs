@@ -28,8 +28,7 @@ const ASSET_FILES = [
   "data/artists.json",
   "data/events.json",
   "data/guides-content.json",
-  "data/blog-content.json",
-  "data/provider-configs.json"
+  "data/blog-content.json"
 ];
 
 // ---------------------------------------------------------------------------
@@ -174,7 +173,12 @@ export async function loadSiteFixture(root) {
   const cities = citiesModule.deriveCities(events);
   const venues = venuesModule.deriveVenues(events);
   // Every artist-city combination that renders, not just the indexable subset.
-  const artistCityEntries = artistCitiesModule.deriveRenderedArtistCities(events, indexableArtistSlugs);
+  const artistMetaBySlug = new Map(artistsMeta.map((artist) => [artist.slug, artist]));
+  const artistCityEntries = artistCitiesModule.deriveRenderedArtistCities(events, indexableArtistSlugs)
+    .map((entry) => {
+      const artistIndexable = artistIndexabilityModule.artistPageIndexable(artistMetaBySlug.get(entry.artistSlug), events, entry.artistSlug);
+      return { ...entry, artistIndexable, indexable: entry.indexable && artistIndexable };
+    });
 
   const staticPaths = Object.keys(routeMetadataModule.TRUST_ROUTES);
   const guidePaths = Object.keys(routeMetadataModule.GUIDE_ROUTES);

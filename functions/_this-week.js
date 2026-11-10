@@ -32,10 +32,11 @@ export const THIS_WEEK_GUIDE_PATHS = new Set([
  * @param {any[]} events Raw events.json records.
  * @param {Set<string>} linkableSlugs Artist slugs with an indexable artist page.
  * @param {number} [now]
- * @param {{ kinds?: Array<"onsale"|"presale"> }} [options]
+ * @param {{ kinds?: Array<"onsale"|"presale">, maxItems?: number }} [options]
  */
 export function deriveThisWeek(events, linkableSlugs, now = Date.now(), options = {}) {
   const kinds = options.kinds || ["onsale", "presale"];
+  const maxItems = options.maxItems || THIS_WEEK_MAX_ITEMS;
   const limit = now + THIS_WEEK_DAYS * DAY_MS;
   const items = [];
   const seen = new Set();
@@ -71,7 +72,7 @@ export function deriveThisWeek(events, linkableSlugs, now = Date.now(), options 
     }
   }
   items.sort((a, b) => a.atMs - b.atMs || a.artistName.localeCompare(b.artistName));
-  return items.slice(0, THIS_WEEK_MAX_ITEMS);
+  return items.slice(0, maxItems);
 }
 
 function esc(value) {
@@ -102,9 +103,17 @@ function whenLabel(item) {
 /**
  * @param {ReturnType<typeof deriveThisWeek>} items
  * @param {string} [id] Unique heading id for the page.
+ * @param {{ checkedAt?: number, onCalendar?: boolean }} [options] `onCalendar`: rendering on /on-sale itself, so no self-link and an explicit empty state.
  */
-export function renderThisWeekHtml(items, id = "thisWeekOnsaleTitle") {
-  if (!items.length) return "";
+export function renderThisWeekHtml(items, id = "thisWeekOnsaleTitle", options = {}) {
+  if (!items.length) {
+    if (!options.onCalendar) return "";
+    return `<section class="nested-panel this-week-onsale" aria-labelledby="${esc(id)}"><h2 id="${esc(id)}">On sale this week</h2><p>No tracked artist has a Ticketmaster public on-sale or presale starting in the next 7 days. The calendar below lists what is further out.</p></section>`;
+  }
+  const checked = options.checkedAt
+    ? ` Checked ${esc(new Date(options.checkedAt).toISOString().slice(0, 16).replace("T", " "))} UTC.`
+    : "";
+  const more = options.onCalendar ? "" : `<p><a href="/on-sale">Full on-sale calendar</a></p>`;
   const rows = items
     .map((item) => {
       const dates = `${item.dates} ${item.dates === 1 ? "date" : "dates"}`;
@@ -113,5 +122,5 @@ export function renderThisWeekHtml(items, id = "thisWeekOnsaleTitle") {
       return `<li><a href="${esc(href)}"><strong>${esc(item.artistName)}</strong><span> ${esc(what)} ${esc(whenLabel(item))} · ${esc(dates)}</span></a></li>`;
     })
     .join("");
-  return `<section class="nested-panel this-week-onsale" aria-labelledby="${esc(id)}"><h2 id="${esc(id)}">On sale this week</h2><p>Times are as listed by Ticketmaster, in each venue's local time. Check the artist page for each date's status.</p><ul>${rows}</ul><p><a href="/on-sale">Full on-sale calendar</a></p></section>`;
+  return `<section class="nested-panel this-week-onsale" aria-labelledby="${esc(id)}"><h2 id="${esc(id)}">On sale this week</h2><p>Times are as listed by Ticketmaster, in each venue's local time. Check the artist page for each date's status.${checked}</p><ul>${rows}</ul>${more}</section>`;
 }

@@ -1027,11 +1027,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8056806",
-        "url": "https://www.ticketnetwork.com/en/p/8056806",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8056806",
@@ -1044,7 +1044,7 @@
     "ticketmaster_discovery_event_id": "vvG1bZ_GSFTUwT",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056806",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056806/Daughtry-tickets-Tue-Nov-3-2026-Uptown-Theater-KC",
     "organizer_names": [
       "MAMMOTH INC"
@@ -1119,7 +1119,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-las-vegas-pearl-concert-theater-at-palms-casino-resort-11-7-2026--concerts-rock/production/7170056",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxAK",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1134,14 +1134,14 @@
         "event_id": 18316805,
         "url": "https://seatgeek.com/daughtry-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2026-11-07-7-pm/concert/18316805",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170056,
         "url": "https://www.vividseats.com/daughtry-tickets-las-vegas-pearl-concert-theater-at-palms-casino-resort-11-7-2026--concerts-rock/production/7170056",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1152,25 +1152,26 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8057262",
-        "url": "https://www.ticketnetwork.com/en/p/8057262",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8057262",
-        "url": "https://www.ticketliquidator.com/tickets/8057262/Daughtry-tickets-Sat-Nov-7-2026-Pearl-Concert-Theater-At-Palms-Casino-Resort",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxAK",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057262",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057262/Daughtry-tickets-Sat-Nov-7-2026-Pearl-Concert-Theater-At-Palms-Casino-Resort"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "genre": "Alternative"
   },
   {
     "id": "tm-daughtry-2026-napa-g5vyz_gnjfn19",
@@ -1185,10 +1186,10 @@
     "ticketmaster_event_id": "1C0064CAA6523297",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
     "seatgeek_url": "https://seatgeek.com/daughtry-tickets/napa-california-uptown-theatre-napa-2026-11-08-7-pm/concert/18316806",
-    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-napa-uptown-theatre-napa-11-8-2026--concerts-rock/production/7170026",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
-    "last_verified_at": "2026-11-02",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1203,15 +1204,15 @@
         "event_id": 18316806,
         "url": "https://seatgeek.com/daughtry-tickets/napa-california-uptown-theatre-napa-2026-11-08-7-pm/concert/18316806",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7170026,
-        "url": "https://www.vividseats.com/daughtry-tickets-napa-uptown-theatre-napa-11-8-2026--concerts-rock/production/7170026",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1221,11 +1222,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8056807",
-        "url": "https://www.ticketnetwork.com/en/p/8056807",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8056807",
@@ -1238,8 +1239,9 @@
     "ticketmaster_discovery_event_id": "G5vYZ_GnJfN19",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056807",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056807/Daughtry-tickets-Sun-Nov-8-2026-Uptown-Theatre-Napa"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056807/Daughtry-tickets-Sun-Nov-8-2026-Uptown-Theatre-Napa",
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2026-anaheim-vvg10z_grix-n9",
@@ -1257,7 +1259,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-anaheim-grove-of-anaheim-11-10-2026--concerts-rock/production/7170028",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-anaheim-california-11-10-2026/event/090064CBEC8A18D7",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1272,14 +1274,14 @@
         "event_id": 18316807,
         "url": "https://seatgeek.com/daughtry-tickets/anaheim-california-city-national-grove-of-anaheim-2026-11-10-7-pm/concert/18316807",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170028,
         "url": "https://www.vividseats.com/daughtry-tickets-anaheim-grove-of-anaheim-11-10-2026--concerts-rock/production/7170028",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1311,16 +1313,13 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056808/Daughtry-tickets-Tue-Nov-10-2026-DigAlert-Grove-of-Anaheim",
     "presales": [
       {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T17:00:00Z",
-        "end": "2026-11-04T06:00:00Z"
-      },
-      {
         "name": "$20 tix",
         "start": "2026-10-07T17:00:00Z",
         "end": "2026-11-11T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2026-tucson-z7r9jz1a7pxk_",
@@ -1335,10 +1334,10 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pxk_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxk_",
     "seatgeek_url": "https://seatgeek.com/daughtry-tickets/tucson-arizona-fox-tucson-theatre-2026-11-11-7-pm/concert/18316812",
-    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-tucson-fox-theatre-tucson-11-11-2026--concerts-rock/production/7170132",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxk_",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1353,15 +1352,15 @@
         "event_id": 18316812,
         "url": "https://seatgeek.com/daughtry-tickets/tucson-arizona-fox-tucson-theatre-2026-11-11-7-pm/concert/18316812",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7170132,
-        "url": "https://www.vividseats.com/daughtry-tickets-tucson-fox-theatre-tucson-11-11-2026--concerts-rock/production/7170132",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1373,7 +1372,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pxk_",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-daughtry-2026-san-antonio-g5diz_gsupj1v",
@@ -1391,7 +1391,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-san-antonio-texas-11-13-2026/event/3A0064CCF65A6281",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1406,7 +1406,7 @@
         "event_id": 18316813,
         "url": "https://seatgeek.com/daughtry-tickets/san-antonio-texas-aztec-theatre-2026-11-13-8-pm/concert/18316813",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1445,11 +1445,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056809/Daughtry-tickets-Fri-Nov-13-2026-The-Aztec-Theatre",
     "presales": [
       {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T15:00:00Z",
-        "end": "2026-11-07T04:00:00Z"
-      },
-      {
         "name": "$20 All In Special",
         "start": "2026-10-07T15:32:00Z",
         "end": "2026-11-13T04:00:00Z"
@@ -1457,7 +1452,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2026-dallas-vvg1yz_gea3drr",
@@ -1475,7 +1472,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-dallas-majestic-theatre-dallas-11-14-2026--concerts-rock/production/7170034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-dallas-texas-11-14-2026/event/0C0064C9C54BBBEF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1490,14 +1487,14 @@
         "event_id": 18316816,
         "url": "https://seatgeek.com/daughtry-tickets/dallas-texas-majestic-theatre-dallas-2026-11-14-7-pm/concert/18316816",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7170034,
         "url": "https://www.vividseats.com/daughtry-tickets-dallas-majestic-theatre-dallas-11-14-2026--concerts-rock/production/7170034",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1529,11 +1526,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056810/Daughtry-tickets-Sat-Nov-14-2026-Majestic-Theatre-Dallas",
     "presales": [
       {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T15:00:00Z",
-        "end": "2026-11-08T04:00:00Z"
-      },
-      {
         "name": "$20 All-In Ticket Offer",
         "start": "2026-10-07T15:00:00Z",
         "end": "2026-11-14T04:00:00Z"
@@ -1541,7 +1533,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-pine-bluff-g5viz_kyugjqo",
@@ -1559,7 +1553,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-pine-bluff-saracen-casino-resort-1-23-2027/production/7624290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-pine-bluff-arkansas-01-23-2027/event/1B00653C36D66691",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1574,14 +1568,14 @@
         "event_id": 18632893,
         "url": "https://seatgeek.com/daughtry-tickets/pine-bluff-arkansas-saracen-casino-resort-2027-01-23-7-pm/concert/18632893",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624290,
         "url": "https://www.vividseats.com/daughtry-tickets-pine-bluff-saracen-casino-resort-1-23-2027/production/7624290",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1617,7 +1611,10 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-01-17T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-orlando-1kfovpgdga2huxq",
@@ -1635,7 +1632,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-orlando-hard-rock-live---orlando-1-27-2027/production/7624201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-orlando-florida-01-27-2027/event/220065303F6CD89A",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1650,14 +1647,14 @@
         "event_id": 18632895,
         "url": "https://seatgeek.com/daughtry-tickets/orlando-florida-hard-rock-live-orlando-2027-01-27-7-pm/concert/18632895",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624201,
         "url": "https://www.vividseats.com/daughtry-tickets-orlando-hard-rock-live---orlando-1-27-2027/production/7624201",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1693,7 +1690,9 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-01-21T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-biloxi-g5viz_ksbnt-6",
@@ -1711,7 +1710,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-biloxi-hard-rock-live---biloxi-1-30-2027/production/7625172",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-biloxi-mississippi-01-30-2027/event/1B00653CFAAA9847",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1726,14 +1725,14 @@
         "event_id": 18632898,
         "url": "https://seatgeek.com/daughtry-tickets/biloxi-mississippi-hard-rock-hotel-casino-biloxi-2027-01-30-7-pm/concert/18632898",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625172,
         "url": "https://www.vividseats.com/daughtry-tickets-biloxi-hard-rock-live---biloxi-1-30-2027/production/7625172",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1753,7 +1752,8 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-01-17T04:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-houston-g5diz_kxwqqcm",
@@ -1771,7 +1771,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-houston-bayou-music-center-1-31-2027/production/7623888",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-houston-texas-01-31-2027/event/3A006538BD75D3AE",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1786,14 +1786,14 @@
         "event_id": 18632897,
         "url": "https://seatgeek.com/daughtry-tickets/houston-texas-bayou-music-center-2027-01-31-8-pm/concert/18632897",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623888,
         "url": "https://www.vividseats.com/daughtry-tickets-houston-bayou-music-center-1-31-2027/production/7623888",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1832,7 +1832,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-corpus-christi-g5diz_kxutltw",
@@ -1850,7 +1852,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-corpus-christi-selena-auditorium-at-hilliard-center-2-2-2027/production/7623892",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-corpus-christi-texas-02-02-2027/event/3A006538B6FEBA72",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1865,14 +1867,14 @@
         "event_id": 18632905,
         "url": "https://seatgeek.com/daughtry-tickets/corpus-christi-texas-selena-auditorium-at-the-american-bank-center-2027-02-02-7-pm/concert/18632905",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623892,
         "url": "https://www.vividseats.com/daughtry-tickets-corpus-christi-selena-auditorium-at-hilliard-center-2-2-2027/production/7623892",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1911,7 +1913,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-sacramento-g5vyz_k60xnfe",
@@ -1929,7 +1933,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-sacramento-channel-24-2-8-2027/production/7624331",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-sacramento-california-02-08-2027/event/1C006531E4FAA502",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1944,14 +1948,14 @@
         "event_id": 18632909,
         "url": "https://seatgeek.com/daughtry-tickets/sacramento-channel-24-sacramento-2027-02-08-7-pm/concert/18632909",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624331,
         "url": "https://www.vividseats.com/daughtry-tickets-sacramento-channel-24-2-8-2027/production/7624331",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1990,7 +1994,8 @@
     ],
     "organizer_names": [
       "ANOTHER PLANET"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-denver-g5vzz_knzyqbr",
@@ -2008,7 +2013,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-denver-paramount-theatre-denver-2-10-2027/production/7623890",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-denver-colorado-02-10-2027/event/1E006538C0C1DE9E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2023,14 +2028,14 @@
         "event_id": 18632910,
         "url": "https://seatgeek.com/daughtry-tickets/denver-colorado-paramount-theatre-co-2027-02-10-7-pm/concert/18632910",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623890,
         "url": "https://www.vividseats.com/daughtry-tickets-denver-paramount-theatre-denver-2-10-2027/production/7623890",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2065,11 +2070,18 @@
         "name": "VIP Package Onsale",
         "start": "2026-10-02T16:00:00Z",
         "end": "2027-02-04T05:00:00Z"
+      },
+      {
+        "name": "2 Pack Ticket Offer",
+        "start": "2026-11-27T17:00:00Z",
+        "end": "2027-01-01T05:00:00Z"
       }
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-durant-vvg1yz_kgp_ixc",
@@ -2087,7 +2099,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-durant-choctaw-grand-theater-2-12-2027/production/7625170",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-durant-oklahoma-02-12-2027/event/0C0065332566C8AD",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2102,14 +2114,14 @@
         "event_id": 18632912,
         "url": "https://seatgeek.com/daughtry-tickets/durant-oklahoma-choctaw-grand-theater-2027-02-12-7-pm/concert/18632912",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625170,
         "url": "https://www.vividseats.com/daughtry-tickets-durant-choctaw-grand-theater-2-12-2027/production/7625170",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2129,7 +2141,8 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-02-06T04:00:00Z"
       }
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-saint-louis-vv1fvovpgtjkz75857",
@@ -2147,7 +2160,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-saint-louis-missouri-02-13-2027/event/060065329993AFA3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2192,7 +2205,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-duluth-vv1akzkfmgkdcbe8w",
@@ -2210,7 +2225,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-duluth-decc-symphony-hall-2-16-2027/production/7623810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-duluth-minnesota-02-16-2027/event/06006537EDEA7432",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2225,14 +2240,14 @@
         "event_id": 18632920,
         "url": "https://seatgeek.com/daughtry-tickets/duluth-minnesota-decc-symphony-hall-2027-02-16-7-pm/concert/18632920",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623810,
         "url": "https://www.vividseats.com/daughtry-tickets-duluth-decc-symphony-hall-2-16-2027/production/7623810",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2255,7 +2270,8 @@
     ],
     "organizer_names": [
       "PEPPER ENTERTAINMENT INC"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-rockford-16e7z_kkfg7v38v",
@@ -2273,7 +2289,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-rockford-hard-rock-live---rockford-2-20-2027/production/7624357",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-rockford-illinois-02-20-2027/event/2100653194D12434",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2288,14 +2304,14 @@
         "event_id": 18632923,
         "url": "https://seatgeek.com/daughtry-tickets/rockford-illinois-hard-rock-live-rockford-2027-02-20-7-pm/concert/18632923",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624357,
         "url": "https://www.vividseats.com/daughtry-tickets-rockford-hard-rock-live---rockford-2-20-2027/production/7624357",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2331,7 +2347,10 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-02-14T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-gary-vv1aazkfygkesuefr",
@@ -2349,7 +2368,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-gary-hard-rock-casino-northern-indiana-2-21-2027/production/7623806",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-gary-indiana-02-21-2027/event/05006539B334221E",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2364,14 +2383,14 @@
         "event_id": 18632924,
         "url": "https://seatgeek.com/daughtry-tickets/gary-indiana-hard-rock-live-northern-indiana-2027-02-21-6-pm/concert/18632924",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623806,
         "url": "https://www.vividseats.com/daughtry-tickets-gary-hard-rock-casino-northern-indiana-2-21-2027/production/7623806",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2412,7 +2431,10 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-02-15T04:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-detroit-vv1kezvpg_ga5zp8l",
@@ -2430,7 +2452,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-detroit-the-fillmore-detroit-2-23-2027/production/7623759",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wrif-presents-daughtry-20-years-unplugged-detroit-michigan-02-23-2027/event/080065319B02541F",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2445,14 +2467,14 @@
         "event_id": 18632929,
         "url": "https://seatgeek.com/daughtry-tickets/detroit-michigan-the-fillmore-detroit-2027-02-23-8-pm/concert/18632929",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623759,
         "url": "https://www.vividseats.com/daughtry-tickets-detroit-the-fillmore-detroit-2-23-2027/production/7623759",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2496,7 +2518,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-hershey-vv1aezkfmgkdtwgls",
@@ -2514,7 +2538,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-hershey-hershey-theatre-2-26-2027/production/7623761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-hershey-pennsylvania-02-26-2027/event/02006537E9CB5AF3",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2529,14 +2553,14 @@
         "event_id": 18632930,
         "url": "https://seatgeek.com/daughtry-tickets/hershey-pennsylvania-hershey-theatre-hershey-2027-02-26-7-pm/concert/18632930",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623761,
         "url": "https://www.vividseats.com/daughtry-tickets-hershey-hershey-theatre-2-26-2027/production/7623761",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2575,7 +2599,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-bethlehem-vv1aovpg_ga5ljzy",
@@ -2593,7 +2619,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-bethlehem-wind-creek-event-center-2-27-2027/production/7623765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-bethlehem-pennsylvania-02-27-2027/event/020065319B7DC030",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2608,14 +2634,14 @@
         "event_id": 18632933,
         "url": "https://seatgeek.com/daughtry-tickets/bethlehem-pennsylvania-wind-creek-event-center-2027-02-27-8-pm/concert/18632933",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623765,
         "url": "https://www.vividseats.com/daughtry-tickets-bethlehem-wind-creek-event-center-2-27-2027/production/7623765",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2624,6 +2650,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295490",
+        "url": "https://www.ticketnetwork.com/en/p/8295490",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295490",
+        "url": "https://www.ticketliquidator.com/tickets/8295490/Daughtry-tickets-Sat-Feb-27-2027-Wind-Creek-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AOvPG_GA5LjZY",
@@ -2638,7 +2678,10 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295490",
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295490/Daughtry-tickets-Sat-Feb-27-2027-Wind-Creek-Event-Center"
   },
   {
     "id": "tm-daughtry-2027-charleston-g5evz_keoc7ae",
@@ -2652,11 +2695,11 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "2D006539D1384242",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-charleston-south-carolina-03-05-2027/event/2D006539D1384242",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/charleston-south-carolina-charleston-music-hall-2027-03-05-7-pm/concert/18632937",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-charleston-charleston-music-hall-3-5-2027/production/7624419",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-charleston-south-carolina-03-05-2027/event/2D006539D1384242",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2668,17 +2711,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632937,
+        "url": "https://seatgeek.com/daughtry-tickets/charleston-south-carolina-charleston-music-hall-2027-03-05-7-pm/concert/18632937",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624419,
         "url": "https://www.vividseats.com/daughtry-tickets-charleston-charleston-music-hall-3-5-2027/production/7624419",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2687,6 +2730,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295491",
+        "url": "https://www.ticketnetwork.com/en/p/8295491",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295491",
+        "url": "https://www.ticketliquidator.com/tickets/8295491/Daughtry-tickets-Fri-Mar-5-2027-Charleston-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KEoC7ae",
@@ -2702,7 +2759,11 @@
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295491",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295491/Daughtry-tickets-Fri-Mar-5-2027-Charleston-Music-Hall"
   },
   {
     "id": "tm-daughtry-2027-nashville-g5viz_khosea-",
@@ -2720,7 +2781,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-nashville-the-truth-3-6-2027/production/7624399",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-nashville-tennessee-03-06-2027/event/1B006536E0C67161",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2735,14 +2796,14 @@
         "event_id": 18632939,
         "url": "https://seatgeek.com/daughtry-tickets/nashville-tennessee-the-truth-nashville-2027-03-06-7-pm/concert/18632939",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624399,
         "url": "https://www.vividseats.com/daughtry-tickets-nashville-the-truth-3-6-2027/production/7624399",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2786,7 +2847,9 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-daughtry-2027-atlanta-vvg1zz_klwyfxu",
@@ -2804,7 +2867,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-atlanta-georgia-03-07-2027/event/0E006537FDE48FB6",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2819,7 +2882,7 @@
         "event_id": 18632941,
         "url": "https://seatgeek.com/daughtry-tickets/atlanta-georgia-the-tabernacle-atlanta-2027-03-07-7-pm/concert/18632941",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2835,6 +2898,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295494",
+        "url": "https://www.ticketnetwork.com/en/p/8295494",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295494",
+        "url": "https://www.ticketliquidator.com/tickets/8295494/Daughtry-tickets-Sun-Mar-7-2027-The-Tabernacle-GA",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KLWyFXU",
@@ -2854,7 +2931,11 @@
     ],
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295494",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295494/Daughtry-tickets-Sun-Mar-7-2027-The-Tabernacle-GA"
   },
   {
     "id": "tm-daughtry-2027-melbourne-z7r9jz1aae83v",
@@ -2872,7 +2953,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-melbourne-king-center-for-the-performing-arts-1-25-2027--concerts-rock/production/7625464",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83v",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2887,14 +2968,14 @@
         "event_id": 18632894,
         "url": "https://seatgeek.com/daughtry-tickets/melbourne-florida-maxwell-c-king-center-for-the-performing-arts-2027-01-25-7-pm/concert/18632894",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625464,
         "url": "https://www.vividseats.com/daughtry-tickets-melbourne-king-center-for-the-performing-arts-1-25-2027--concerts-rock/production/7625464",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2923,7 +3004,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295552",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295552/Daughtry-tickets-Mon-Jan-25-2027-King-Center-For-The-Performing-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295552/Daughtry-tickets-Mon-Jan-25-2027-King-Center-For-The-Performing-Arts",
+    "genre": "Alternative"
   },
   {
     "id": "tm-daughtry-2027-clearwater-z7r9jz1aae83e",
@@ -2941,7 +3023,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-clearwater-ruth-eckerd-hall-1-28-2027/production/7624134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83e",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2956,14 +3038,14 @@
         "event_id": 18632896,
         "url": "https://seatgeek.com/daughtry-tickets/clearwater-florida-ruth-eckerd-hall-2027-01-28-7-pm/concert/18632896",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624134,
         "url": "https://www.vividseats.com/daughtry-tickets-clearwater-ruth-eckerd-hall-1-28-2027/production/7624134",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2992,7 +3074,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295553",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295553/Daughtry-tickets-Thu-Jan-28-2027-Ruth-Eckerd-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295553/Daughtry-tickets-Thu-Jan-28-2027-Ruth-Eckerd-Hall",
+    "genre": "Alternative"
   },
   {
     "id": "tm-daughtry-2027-austin-z7r9jz1aae83d",
@@ -3010,7 +3093,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-austin-austin-city-limits-live-at-the-moody-theater-2-3-2027/production/7623701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83d",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3025,14 +3108,14 @@
         "event_id": 18632906,
         "url": "https://seatgeek.com/daughtry-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-02-03-7-pm/concert/18632906",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623701,
         "url": "https://www.vividseats.com/daughtry-tickets-austin-austin-city-limits-live-at-the-moody-theater-2-3-2027/production/7623701",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3053,7 +3136,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83d",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295554"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295554",
+    "genre": "Alternative"
   },
   {
     "id": "tm-daughtry-2027-ventura-z7r9jz1aae837",
@@ -3071,7 +3155,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-ventura-the-majestic-ventura-theater-2-6-2027--concerts-rock/production/7625242",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe837",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3086,14 +3170,14 @@
         "event_id": 18632907,
         "url": "https://seatgeek.com/daughtry-tickets/ventura-california-the-majestic-ventura-theater-2027-02-06-8-pm/concert/18632907",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625242,
         "url": "https://www.vividseats.com/daughtry-tickets-ventura-the-majestic-ventura-theater-2-6-2027--concerts-rock/production/7625242",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3106,7 +3190,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe837",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-daughtry-2027-cedar-rapids-z7r9jz1aae83a",
@@ -3124,7 +3209,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3139,7 +3224,7 @@
         "event_id": 18632918,
         "url": "https://seatgeek.com/daughtry-tickets/cedar-rapids-iowa-paramount-theatre-cedar-rapids-2027-02-15-7-pm/concert/18632918",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3159,7 +3244,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83A",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-daughtry-2027-eau-claire-z7r9jz1aae83k",
@@ -3174,10 +3260,10 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe83k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
     "seatgeek_url": "https://seatgeek.com/daughtry-tickets/eau-claire-wisconsin-rcu-theatre-pablo-center-at-the-confluence-2027-02-18-7-pm/concert/18632922",
-    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-eau-claire-rcu-theatre---pablo-center-at-the-confluence-2-18-2027/production/7657481",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3192,15 +3278,15 @@
         "event_id": 18632922,
         "url": "https://seatgeek.com/daughtry-tickets/eau-claire-wisconsin-rcu-theatre-pablo-center-at-the-confluence-2027-02-18-7-pm/concert/18632922",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7657481,
-        "url": "https://www.vividseats.com/daughtry-tickets-eau-claire-rcu-theatre---pablo-center-at-the-confluence-2-18-2027/production/7657481",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -3228,7 +3314,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295556",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295556/Daughtry-tickets-Thu-Feb-18-2027-RCU-Theatre-At-Pablo-Center-at-the-Confluence"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295556/Daughtry-tickets-Thu-Feb-18-2027-RCU-Theatre-At-Pablo-Center-at-the-Confluence",
+    "genre": "Alternative"
   },
   {
     "id": "tm-daughtry-2027-orono-z7r9jz1aae836",
@@ -3246,7 +3333,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe836",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3297,7 +3384,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295558",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295558/Daughtry-tickets-Mon-Mar-1-2027-Hutchins-Concert-Hall-At-Collins-Center-for-the-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295558/Daughtry-tickets-Mon-Mar-1-2027-Hutchins-Concert-Hall-At-Collins-Center-for-the-Arts",
+    "genre": "Alternative"
   },
   {
     "id": "tm-daughtry-2027-charlottesville-z7r9jz1aae83f",
@@ -3315,7 +3403,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-charlottesville-paramount-theater-charlottesville-3-3-2027/production/7624065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3330,14 +3418,14 @@
         "event_id": 18632936,
         "url": "https://seatgeek.com/daughtry-tickets/charlottesville-virginia-paramount-theater-charlottesville-2027-03-03-7-pm/concert/18632936",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624065,
         "url": "https://www.vividseats.com/daughtry-tickets-charlottesville-paramount-theater-charlottesville-3-3-2027/production/7624065",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3346,10 +3434,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295559",
+        "url": "https://www.ticketnetwork.com/en/p/8295559",
+        "verified": true,
+        "last_verified_at": "2026-11-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295559",
+        "url": "https://www.ticketliquidator.com/tickets/8295559/Daughtry-tickets-Wed-Mar-3-2027-Paramount-Theater-Of-Charlottesville",
+        "verified": true,
+        "last_verified_at": "2026-11-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83F",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295559",
+    "genre": "Alternative",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295559/Daughtry-tickets-Wed-Mar-3-2027-Paramount-Theater-Of-Charlottesville"
   }
 ]

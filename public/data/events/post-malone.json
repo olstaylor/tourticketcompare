@@ -198,7 +198,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-25-2026/event/11006443CF8BB568",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -240,7 +240,8 @@
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
-    ]
+    ],
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-post-malone-2026-salt-lake-city-g5vzz_dbvwfnk",
@@ -342,14 +343,14 @@
         "event_id": 18414663,
         "url": "https://seatgeek.com/post-malone-tickets/salt-lake-city-utah-delta-center-1-2026-12-31-10-pm/concert/18414663",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7770372,
         "url": "https://www.vividseats.com/post-malone-tickets-salt-lake-city-delta-center-12-31-2026/production/7770372",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {

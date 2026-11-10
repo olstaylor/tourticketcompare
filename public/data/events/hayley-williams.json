@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-numerado-ciudad-de-mexico-26-11-2026/event/3D0064A6A4695E8E",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -77,7 +77,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072644",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072644/The-Hayley-Williams-Show-tickets-Thu-Nov-26-2026-Auditorio-Nacional-Mexico",
-    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-26-11-2026/event/107162730"
+    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-26-11-2026/event/107162730",
+    "genre": "Pop"
   },
   {
     "id": "tm-hayley-williams-2027-ciudad-de-mexico-g5dvz_5u9jpc7",
@@ -95,7 +96,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-ciudad-de-mexico-13-01-2027/event/3D0064BD97725384",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -157,7 +158,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072651",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072651/The-Hayley-Williams-Show-tickets-Wed-Jan-13-2027-Auditorio-Nacional-Mexico",
-    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-13-1-2027/event/107259010"
+    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-13-1-2027/event/107259010",
+    "genre": "Pop"
   },
   {
     "id": "tm-hayley-williams-2027-monterrey-17azv0g65m2hkin",
@@ -175,7 +177,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-monterrey-15-01-2027/event/140064BDCF6D3A23",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -229,7 +231,8 @@
       "OCESA"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8220574",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8220574/Hayley-Williams-tickets-Fri-Jan-15-2027-Auditorio-Banamex"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8220574/Hayley-Williams-tickets-Fri-Jan-15-2027-Auditorio-Banamex",
+    "genre": "Pop"
   },
   {
     "id": "tm-hayley-williams-2027-zapopan-17azv0g65ulwtlf",
@@ -247,7 +250,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/the-hayley-williams-show-zapopan-17-01-2027/event/140064BDABF697D4",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -293,7 +296,8 @@
     "organizer_names": [
       "OCESA"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-guadalajara-auditorio-telmex-17-1-2027/event/107259012"
+    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-guadalajara-auditorio-telmex-17-1-2027/event/107259012",
+    "genre": "Pop"
   },
   {
     "id": "tm-hayley-williams-2027-forest-brussels-z698xzg2z1kopjxf_",
@@ -311,8 +315,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/hayley-williams-tickets/456722519",
-    "last_verified_at": "2026-10-16",
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-07",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "456722519",
@@ -349,7 +353,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Greenhouse Talent"
-    ]
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-hayley-williams-2027-glasgow-1auzkf-gkd-5zto",
@@ -367,7 +372,7 @@
     "vividseats_url": "https://www.vividseats.com/hayley-williams-tickets-glasgow-ovo-hydro-6-23-2027/production/7527269",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-glasgow-23-06-2027/event/36006521E12F8A60",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389,7 +394,7 @@
         "event_id": 7527269,
         "url": "https://www.vividseats.com/hayley-williams-tickets-glasgow-ovo-hydro-6-23-2027/production/7527269",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -414,7 +419,9 @@
       "AEG PRESENTS LTD",
       "SCOTTISH EVENT CAMPUS LIMITED"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-glasgow-ovo-hydro-arena-glasgow-23-6-2027/event/107666428"
+    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-glasgow-ovo-hydro-arena-glasgow-23-6-2027/event/107666428",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-hayley-williams-2027-cardiff-1adbz_ogkwuumuk",
@@ -432,7 +439,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-cardiff-30-06-2027/event/3600651C8DDB7D86",
-    "last_verified_at": "2026-10-16",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -479,6 +486,8 @@
       "AEG PRESENTS",
       "LIVE NATION MUSIC (VENUES) LTD (NEW)"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-cardiff-utilita-arena-cardiff-30-6-2027/event/107666788"
+    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-cardiff-utilita-arena-cardiff-30-6-2027/event/107666788",
+    "ticket_limit": 4,
+    "genre": "Pop"
   }
 ]

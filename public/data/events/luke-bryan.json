@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/luke-bryan-tickets-mescalero-inn-of-the-mountain-gods-resort-12-5-2026--concerts-country-and-folk/production/7533482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-bryan-mescalero-new-mexico-12-05-2026/event/0C0064CC87E94AF0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -30,14 +30,14 @@
         "event_id": 18571831,
         "url": "https://seatgeek.com/luke-bryan-tickets/mescalero-new-mexico-inn-of-the-mountain-gods-resort-and-casino-2026-12-05-8-pm/concert/18571831",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7533482,
         "url": "https://www.vividseats.com/luke-bryan-tickets-mescalero-inn-of-the-mountain-gods-resort-12-5-2026--concerts-country-and-folk/production/7533482",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -66,7 +66,8 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259472",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259472/Luke-Bryan-tickets-Sat-Dec-5-2026-Inn-Of-The-Mountain-Gods-Resort-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259472/Luke-Bryan-tickets-Sat-Dec-5-2026-Inn-Of-The-Mountain-Gods-Resort-Casino",
+    "genre": "Country"
   },
   {
     "id": "tm-luke-bryan-2026-las-vegas-1avjz_agkws6gfv",
@@ -84,7 +85,7 @@
     "vividseats_url": "https://www.vividseats.com/jason-aldean-tickets-las-vegas-allegiant-stadium-12-11-2026--concerts-country-and-folk/production/6969561",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-bryan-jason-aldean-double-down-las-vegas-nevada-12-11-2026/event/1700649CB11CC234",
-    "last_verified_at": "2026-10-26",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -106,7 +107,7 @@
         "event_id": 6969561,
         "url": "https://www.vividseats.com/jason-aldean-tickets-las-vegas-allegiant-stadium-12-11-2026--concerts-country-and-folk/production/6969561",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -155,6 +156,7 @@
         "start": "2026-05-08T17:00:00Z",
         "end": "2026-12-12T11:59:00Z"
       }
-    ]
+    ],
+    "genre": "Country"
   }
 ]

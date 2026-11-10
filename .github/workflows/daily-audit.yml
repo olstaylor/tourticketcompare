@@ -176,8 +176,10 @@ jobs:
     needs: audit
     # Covers the wait for the dispatched Prelaunch Validation run on the pushed
     # branch (~5 minutes warm, capped at 25 in the helper) on top of this job's
-    # own work.
-    timeout-minutes: 69
+    # own work. 75 (from 69, 2026-11-06) leaves the publish step room to
+    # validate one rebuilt head; work queue repair's 345-minute queue budget
+    # still covers all three audit job caps plus nightly's.
+    timeout-minutes: 75
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -341,12 +343,24 @@ jobs:
           private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Main moving while the stamps' head is validated (UK-daytime merges;
+      # 2026-11-06 #2096) no longer always withholds the day's dates: when the
+      # move touched no audit evidence and no stamped file, the opener carries
+      # the same stamp files onto new main once and earns the required check
+      # again on that exact head (scripts/check-audit-revision.mjs
+      # rebuildAuditHead). Any evidence move still withholds, now as cancelled
+      # (neutral) via RUN_CANCEL_TOKEN. The rebuild deadline keeps both checks
+      # inside this step's cap and the one-hour App token.
       - name: Publish through a validated, auto-merged PR
         if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
-        timeout-minutes: 40
+        timeout-minutes: 55
         env:
           GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          RUN_CANCEL_TOKEN: ${{ github.token }}
+          PR_AUDIT_STAMP_FILES: public/data/artists.json data/guide-source-link-checks.json public/data/guides-content.json PROJECT_STATUS.md
+          PR_AUDIT_MAX_REBUILDS: '1'
+          PR_AUDIT_REBUILD_DEADLINE_MINUTES: '52'
         run: |
           set -euo pipefail
           TODAY=$(date -u +%Y-%m-%d)
@@ -362,6 +376,7 @@ jobs:
           PR_LABEL="automation:verified-dates" \
           PR_AUTO_MERGE=true \
           PR_AUDIT_SOURCE_COMMIT="$(cat .audit/evidence-base.txt)" \
+          PR_AUDIT_EVIDENCE_COMMIT="$(cat .audit/source-commit.txt)" \
           PR_BODY=$'## What this PR does\n- Moves `last_verified_at` forward in `public/data/artists.json` for artists whose URL liveness check and Ticketmaster Discovery diff both came back clean in this run. Nothing else in the record is touched.\n- Records the day each guide\'s cited source URL was last confirmed to resolve (`data/guide-source-link-checks.json`) and rebuilds `public/data/guides-content.json` from it. 401/403/429 counts as blocked, not verified.\n- Refreshes the generated per-artist table in `PROJECT_STATUS.md` so it keeps step with the timestamps above.\n\n## Explicit non-changes\n- No event, provider, price or affiliate data. No `content/**`.\n- No published or updated date moves: the run asserts `functions/_guide-routes.generated.js` and `data/content-provenance.json` are untouched before this PR is opened.\n\n## Validation\n- `npm run test:mvp` and `git diff --check` passed in-job on exactly this content, and Prelaunch Validation runs again on this branch before the merge.\n' \
           node scripts/open-automation-pr.mjs
 

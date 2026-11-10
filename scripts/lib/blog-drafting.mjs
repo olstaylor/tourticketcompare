@@ -143,7 +143,7 @@ export function selectArticle(source, issue, { now = Date.now(), prs = [], prior
 // issue. Same eligibility as the ideas report (fresh, verified, Ticketmaster
 // evidenced); the guide cites one date per city, the earliest, up to TOUR_MAX_DATES.
 export function selectTourGuides(source, artistSlugs, { now = Date.now(), prs = [], priority = new Map() } = {}) {
-  const { indexable, eligible } = eligibleEvents(source, { now });
+  const { indexable, eligible } = eligibleEvents(source, { now, preSaleUnstamped: true });
   const markers = prs.map((p) => draftMarker(p.body)).filter(Boolean);
   const rejected = [];
   const candidates = [];
@@ -166,7 +166,7 @@ export function selectTourGuides(source, artistSlugs, { now = Date.now(), prs = 
     const picked = [...byCity.values()].sort((a, b) => a.at - b.at || a.id.localeCompare(b.id)).slice(0, TOUR_MAX_DATES);
     if (picked.length < TOUR_MIN_CITIES) { reject('Fewer than three fresh, verified cities to write a tour guide about.'); continue; }
     const rows = picked.map((event) => ({ event, evidence: { id: event.id, date: eventLocalDateIso(event), venue: event.venue, city: event.city,
-      verified: event.last_verified_at, checkedProviders: event.lanes } }));
+      verified: event.last_verified_at, checkedProviders: event.lanes, ...(event.unstamped ? { requireCurrent: true } : {}) } }));
     const links = [`/artists/${slug}`];
     if (priceGuideRegistered(slug)) links.push(`/artists/${slug}/ticket-prices`);
     for (const link of guidePaths) if (source.documents.some((d) => d.path === link && d.status === 'published')) links.push(link);
@@ -181,6 +181,35 @@ export function selectTourGuides(source, artistSlugs, { now = Date.now(), prs = 
   }
   candidates.sort((a, b) => b.merit - a.merit || a.topic.localeCompare(b.topic));
   return { selected: candidates[0] || null, candidates, rejected, week: weekOf(now) };
+}
+
+// New-tour pass (2026-11-06): the scheduled run also considers a tour guide for
+// every artist the auto-promote lane added in the last NEW_TOUR_DAYS days, so a
+// just-announced tour gets a guide without anyone naming it. Same gates as a
+// named guide (fresh, verified, three cities, no existing guide or PR) and the
+// same spend limits; drafts still open as draft PRs for review. Selection is
+// free, so every recent artist is considered and merit decides the order.
+export const NEW_TOUR_DAYS = 21;
+
+export function recentTourArtists(source, now = Date.now()) {
+  const since = new Date(now - NEW_TOUR_DAYS * DAY).toISOString().slice(0, 10);
+  return (source.artists || [])
+    .filter((a) => a.promotion_source === 'auto' && !a.demoted && /^\d{4}-\d{2}-\d{2}$/.test(a.auto_promoted_at || '') && a.auto_promoted_at >= since)
+    .sort((a, b) => b.auto_promoted_at.localeCompare(a.auto_promoted_at) || a.slug.localeCompare(b.slug))
+    .map((a) => a.slug);
+}
+
+// Merge the weekly ideas with new-tour guides: best merit first, one article
+// per artist per run.
+export function withNewTourGuides(selection, source, { now = Date.now(), prs = [], priority = new Map() } = {}) {
+  const slugs = recentTourArtists(source, now);
+  if (!slugs.length) return selection;
+  const tours = selectTourGuides(source, slugs, { now, prs, priority });
+  const seen = new Set();
+  const candidates = [...selection.candidates, ...tours.candidates]
+    .sort((a, b) => b.merit - a.merit || a.topic.localeCompare(b.topic))
+    .filter((c) => !seen.has(c.artist) && seen.add(c.artist));
+  return { ...selection, selected: candidates[0] || null, candidates, rejected: [...selection.rejected, ...tours.rejected] };
 }
 
 export function draftMarker(body) {
@@ -211,6 +240,9 @@ const OVERLAP_TOTAL_CHARS = 12000;
 // A price block adds up to ~6 KB of evidence, so context shrinks to match
 // (the 2026-10-31 Olivia run was refused for exceeding the input bound).
 export const PRICED_OVERLAP_CHARS = 2000;
+// Sale times add two fields per date, so a 12-city pre-sale guide gives up a
+// little context to stay inside the same input bound.
+export const SALE_OVERLAP_CHARS = 10000;
 export function boundedOverlap(docs, total = OVERLAP_TOTAL_CHARS) {
   let left = total;
   const out = [];
@@ -231,7 +263,13 @@ export function buildEvidence(selected, { now = Date.now(), snapshot, prices = [
     const timezone = event.timezone || '';
     const presales = kind === 'presale' ? (evidence.presales || []).map((w) => ({ name: w.name, start: w.start, end: w.end,
       startLocal: localSaleTime(w.start, timezone), endLocal: localSaleTime(w.end, timezone) })).filter((w) => w.startLocal && w.endLocal) : [];
-    const publicOnsaleAt = saleKind ? (evidence.publicOnsaleAt || event.public_onsale_at || null) : null;
+    // A tour guide may go live before the public sale (2026-11-07: pages that
+    // appeared on sale day missed the demand). Its dates then carry their
+    // future public on-sale time, so the current check accepts Ticketmaster's
+    // pre-sale "offsale" status only with that exact time confirmed.
+    const storedOnsaleAt = evidence.publicOnsaleAt || event.public_onsale_at || null;
+    const tourPreSale = kind === 'tour' && Date.parse(storedOnsaleAt) > now;
+    const publicOnsaleAt = saleKind || tourPreSale ? storedOnsaleAt : null;
     return { id: event.id, artist: selected.artistName,
       date: eventLocalDateIso(event), dayOfWeek: new Intl.DateTimeFormat('en-GB', { weekday: 'long', timeZone: 'UTC' }).format(new Date(`${eventLocalDateIso(event)}T12:00:00Z`)),
       venue: event.venue, city: event.city, timezone,
@@ -239,7 +277,8 @@ export function buildEvidence(selected, { now = Date.now(), snapshot, prices = [
       checkedProviders: evidence.checkedProviders, discoveryId: discoveryIdFor(event)?.id || null,
       // Sale times only for sale/presale articles, each rechecked against the
       // official API below; other articles get none and may not mention them.
-      publicOnsaleAt, publicOnsaleLocal: publicOnsaleAt ? localSaleTime(publicOnsaleAt, timezone) : null, presales, external: null };
+      publicOnsaleAt, publicOnsaleLocal: publicOnsaleAt ? localSaleTime(publicOnsaleAt, timezone) : null, presales, external: null,
+      ...(evidence.requireCurrent ? { requireCurrent: true } : {}) };
   });
   const priceFacts = kind === 'tour' ? buildPriceFacts(prices, events) : null;
   return { version: 2, kind, snapshot, capturedAt: new Date(now).toISOString(), artist: selected.artistName,
@@ -248,10 +287,10 @@ export function buildEvidence(selected, { now = Date.now(), snapshot, prices = [
     requireCurrent: saleKind,
     limitations: ['Repository verification is not a current external check.', 'Provider records are not live inventory, checkout totals or proof of production credentials.',
       ...(kind === 'tour' ? ['The events listed are one date per city, for cities with fresh verified dates well ahead. The artist board lists other tracked dates, in these cities and in others, so the article may say the table is not the full list.'] : []),
-      ...(saleKind ? ['Sale and presale times are what Ticketmaster listed when checked. Organisers can change them; readers must confirm on the official event page.'] : []),
+      ...(saleKind || events.some((e) => e.publicOnsaleAt) ? ['Sale and presale times are what Ticketmaster listed when checked. Organisers can change them; readers must confirm on the official event page.'] : []),
       priceFacts ? 'The only prices authorised are the strings in the prices block, quoted exactly as supplied and attributed to the named site. No codes, eligibility rules, fees, savings, scarcity or last-chance claims, tour branding or price predictions are authorised.'
         : 'No codes, eligibility rules, claims that a site, date or seat is cheapest, prices, scarcity or last-chance claims, tour branding or price predictions are authorised.'],
-    overlap: boundedOverlap(selected.overlap, priceFacts ? PRICED_OVERLAP_CHARS : OVERLAP_TOTAL_CHARS) };
+    overlap: boundedOverlap(selected.overlap, priceFacts ? PRICED_OVERLAP_CHARS : events.some((e) => e.publicOnsaleAt) ? SALE_OVERLAP_CHARS : OVERLAP_TOTAL_CHARS) };
 }
 
 // Discovery returns its own URL slug and, for affiliate-enabled keys, wraps the
@@ -261,7 +300,14 @@ const eventUrlId = (value) => {
   try {
     let url = new URL(String(value || ''));
     if (/(^|\.)evyy\.net$/i.test(url.hostname) && url.searchParams.get('u')) url = new URL(url.searchParams.get('u'));
-    return /(^|\.)ticketmaster\.[a-z.]+$/i.test(url.hostname) ? url.pathname.match(/\/event\/([0-9A-Za-z]+)\/?$/)?.[1]?.toLowerCase() || null : null;
+    if (!/(^|\.)ticketmaster\.[a-z.]+$/i.test(url.hostname)) return null;
+    const northAmerican = url.pathname.match(/\/event\/([0-9A-Za-z]+)\/?$/)?.[1];
+    if (northAmerican) return northAmerican.toLowerCase();
+    // International storefronts (.se, .nl, .es ...) use /event/<name-slug>/<numeric-id>,
+    // and Discovery returns a localised slug ("-biljetter" for "-tickets"). The
+    // numeric id is only unique per storefront, so the host is part of the key.
+    const international = url.pathname.match(/^\/event\/[^/]+\/(\d+)\/?$/)?.[1];
+    return international ? `${url.hostname.toLowerCase().replace(/^www\./, '')}:${international}` : null;
   } catch { return null; }
 };
 const sameInstant = (a, b) => Number.isFinite(Date.parse(a)) && Date.parse(a) === Date.parse(b);
@@ -311,7 +357,8 @@ export async function researchEvidence(evidence, { apiKey, fetchImpl = fetch, no
     if (!apiKey || !event.discoveryId) {
       event.external = { kind: 'not-checked', reason: !apiKey ? 'Ticketmaster API credential missing' : 'No resolvable Discovery identity' };
       // Sale times are only written from a current check, never the snapshot.
-      if (apiKey && result.requireCurrent) result.dropped.push({ id: event.id, fields: ['discoveryId'] });
+      // A date with no repository verification date is kept only on a current check.
+      if ((apiKey && result.requireCurrent) || event.requireCurrent) result.dropped.push({ id: event.id, fields: ['discoveryId'] });
       else kept.push(event);
       continue;
     }

@@ -1646,7 +1646,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-10-02-2027/event/250064BBD99DD435",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1692,7 +1692,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-10-2-2027/event/107258449",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-bts-2027-docklands-17a8v0g659_gumr",
@@ -1710,7 +1712,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-12-02-2027/event/250064B5D9D76DEF",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1756,7 +1758,9 @@
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-12-2-2027/event/107258450"
+    "stubhub_international_url": "https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-12-2-2027/event/107258450",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-bts-2027-docklands-17a8v0g65r_ew8m",
@@ -1774,7 +1778,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-13-02-2027/event/250064BBD99FD437",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1820,7 +1824,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-13-2-2027/event/107258451",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-bts-2027-sydney-olympic-park-17a8v0g65qfkdo_",
@@ -1838,7 +1844,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-20-02-2027/event/250064B6884C3819",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1892,7 +1898,9 @@
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090606"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090606",
+    "ticket_limit": 4,
+    "genre": "Pop"
   },
   {
     "id": "tm-bts-2027-sydney-olympic-park-17a8v0g65qfik-s",
@@ -1910,7 +1918,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-sydney-sydney-olympic-park-21-02-2027/event/250064B688A13871",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1964,6 +1972,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090607/BTS-tickets-Sun-Feb-21-2027-Accor-Stadium",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
-    ]
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop"
   }
 ]

@@ -1193,7 +1193,7 @@
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-foxborough-gillette-stadium-9-25-2026--concerts-pop/production/6049734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-25-2026/event/0100632FCAE52E03",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0100632FCAE52E03",
@@ -1256,7 +1256,9 @@
     "ticketmaster_status_code": "cancelled",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-ed-sheeran-2026-foxborough-01006331f67e74d9",
@@ -1274,7 +1276,7 @@
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-foxborough-gillette-stadium-9-26-2026--concerts-pop/production/6049735",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-26-2026/event/01006331F67E74D9",
-    "last_verified_at": "2026-10-15",
+    "last_verified_at": "2026-11-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "01006331F67E74D9",
@@ -1337,7 +1339,9 @@
     "ticketmaster_status_code": "cancelled",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-ed-sheeran-2026-atlanta-0e00632fc0572cc1",
@@ -1820,7 +1824,7 @@
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-tampa-raymond-james-stadium-11-7-2026--concerts-pop/production/6049744",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-tampa-florida-11-07-2026/event/0D006331D60A3A7A",
-    "last_verified_at": "2026-11-01",
+    "last_verified_at": "2026-11-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D006331D60A3A7A",
@@ -1834,14 +1838,14 @@
         "event_id": 17738474,
         "url": "https://seatgeek.com/ed-sheeran-tickets/tampa-florida-raymond-james-stadium-2026-11-07-5-30-pm/concert/17738474",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6049744,
         "url": "https://www.vividseats.com/ed-sheeran-tickets-tampa-raymond-james-stadium-11-7-2026--concerts-pop/production/6049744",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1866,11 +1870,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106957108",
-        "url": "https://www.stubhub.ie/ed-sheeran-tampa-tickets-11-7-2026/event/106957108",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbS6peNtB",
@@ -1879,9 +1883,11 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418601",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418601/Ed-Sheeran-tickets-Sat-Nov-7-2026-Raymond-James-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-tampa-tickets-11-7-2026/event/106957108",
+    "stubhub_international_url": "",
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   }
 ]

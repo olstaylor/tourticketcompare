@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/jason-aldean-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-27-2027/production/7755570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jason-aldean-hollywood-florida-02-27-2027/event/0D0065578AB033D5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -30,14 +30,14 @@
         "event_id": 18724459,
         "url": "https://seatgeek.com/jason-aldean-tickets/hollywood-florida-hard-rock-live-hollywood-2027-02-27-8-pm/concert/18724459",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7755570,
         "url": "https://www.vividseats.com/jason-aldean-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-27-2027/production/7755570",
         "verified": true,
-        "last_verified_at": "2026-11-01",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -66,6 +66,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341789",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341789/Jason-Aldean-tickets-Sat-Feb-27-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341789/Jason-Aldean-tickets-Sat-Feb-27-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+    "ticket_limit": 8,
+    "genre": "Country"
   }
 ]

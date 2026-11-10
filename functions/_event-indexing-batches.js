@@ -603,5 +603,161 @@ export const EVENT_INDEXING_BATCHES = Object.freeze([
       "3a2c9c14b56888a6", // Stella Lefty · Bowery Ballroom, New York · 2026-11-16
       "0d40288c9b239ab9" // Harry Styles · Wembley Stadium, London · 2027-08-28
     ])
+  }),
+  Object.freeze({
+    id: "batch-5",
+    selectedOn: "2026-11-06",
+    keys: Object.freeze([
+      "6f228078ac99d596", // Role Model · OVO Arena Wembley, London · 2027-02-24
+      "17f39bd50b485a74", // Role Model · AO Arena, Manchester · 2027-02-28
+      "f28d91e3e5d3863f", // Shania Twain · Scarborough Open Air Theatre, Scarborough · 2027-06-16
+      "60c8b214130615f5", // Shania Twain · Powderham Castle, Exeter · 2027-06-24
+      "eb1d995025ce6a3f", // Shania Twain · Ormeau Park, Belfast · 2027-06-27
+      "f10c1d934d06c3d6", // Shania Twain · Blenheim Palace, Woodstock · 2027-06-29
+      "9cbfae8831e1151b", // Bon Jovi · MetLife Stadium, East Rutherford · 2027-07-15
+      "84783aa6bf951142", // Bon Jovi · Soldier Field, Chicago · 2027-07-21
+      "aa13fe179d49385b", // Bon Jovi · Gillette Stadium, Foxborough · 2027-07-28
+      "ba69f9069cd0469e", // A Boogie Wit Da Hoodie · Armory, Minneapolis · 2026-12-12
+      "090e42977729c02b", // Jack Johnson · The O2, London · 2027-07-04
+      "4c74b7bb0328ab63", // Los Tigres del Norte · CFG Bank Arena, Baltimore · 2026-11-27
+      "c58c08060846b371", // Los Tigres del Norte · Bridgestone Arena, Nashville · 2026-12-04
+      "5b21e4949d30e2c1", // Los Tigres del Norte · Ariat Arena, Fort Worth · 2027-02-13
+      "9cc0bfaf97d17f7d", // Los Tigres del Norte · BJCC Concert Hall, Birmingham · 2026-12-05
+      "df893681b773bf6a", // Los Tigres del Norte · Paycom Center, Oklahoma City · 2027-02-12
+      "b6a0010b3af0a46a", // Los Tigres del Norte · Allstate Arena, Rosemont · 2027-03-20
+      "6f68b9d7467d0e6a", // Kings Of Leon · Scarborough Open Air Theatre, Scarborough · 2027-06-27
+      "8470ba8e1964d3eb", // Calvin Harris · CFG Bank Arena, Baltimore · 2027-04-02
+      "c3ed18140d861b1b", // Calvin Harris · Xfinity Mobile Arena, Philadelphia · 2027-04-08
+      "fbeb0c53c59e55b3", // Calvin Harris · Moody Center ATX, Austin · 2027-04-25
+      "1e50eeb8ef4b3517", // Calvin Harris · Honda Center, Anaheim · 2027-05-20
+      "a9e0ea82c1dcaed4", // Calvin Harris · Ariat Arena, Fort Worth · 2027-04-24
+      "8e3227d97536855a", // Billy Strings · Moody Center ATX, Austin · 2026-12-12
+      "f3c21aedfb2f542e", // Marc Anthony · Fontainebleau Las Vegas, Las Vegas · 2027-09-18
+      "7354c443157c2f90", // Marc Anthony · Fontainebleau Las Vegas, Las Vegas · 2027-09-19
+      "cecb62dc3c137fef", // Marc Anthony · Fontainebleau Las Vegas, Las Vegas · 2027-02-12
+      "b33d9dd5e3c04a13", // Marc Anthony · Fontainebleau Las Vegas, Las Vegas · 2027-02-13
+      "b33dadd5e3c06543", // Marc Anthony · Fontainebleau Las Vegas, Las Vegas · 2027-02-17
+      "7980d47cc8601981", // Marc Anthony · Fontainebleau Las Vegas, Las Vegas · 2027-02-19
+      "5603a75620aab9db", // Phish · Madison Square Garden, New York · 2026-12-31
+      "18fb82fd027d8d60", // Phish · Madison Square Garden, New York · 2027-01-01
+      "9dc0e2a33acb1c69", // Phish · Madison Square Garden, New York · 2027-01-02
+      "82c62fc5a1aa7748", // Phish · Madison Square Garden, New York · 2026-12-30
+      "688c70514caee326", // Lord Huron · MGM Music Hall at Fenway, Boston · 2026-12-13
+      "df50bdeaee00a4b0", // Lord Huron · Channel 24, Sacramento · 2027-01-01
+      "a1e3935d2a030804", // Foreigner · Beacon Theatre, New York · 2027-04-27
+      "08620f9a63e23491", // Alex Warren · Blenheim Palace, Woodstock · 2027-06-27
+      "5260d2aaff4525d0", // Alex Warren · Scarborough Open Air Theatre, Scarborough · 2027-06-30
+      "947bdf5e361eaffc", // Alex Warren · Heaton Park, Manchester · 2027-07-02
+      "fad13c443d379a33", // Alex Warren · Crystal Palace Park, London · 2027-07-03
+      "d3e9c0cf4544020c", // Lord Huron · The Andrew J Brady Music Center, Cincinnati · 2026-12-02
+      "d64d2a9b9d801f50", // Lord Huron · GLC Live at 20 Monroe, Grand Rapids · 2026-12-06
+      "1091c9fef3fcba99", // Lord Huron · Fox Theater - Oakland, Oakland · 2027-01-03
+      "1e0fed1927e57315", // Alex Warren · Ormeau Park, Belfast · 2027-06-21
+      "427d5643259e8f13", // Alex Warren · Glasgow Green, Glasgow · 2027-06-25
+      "949d016cfea55c97", // Sleeping With Sirens · O2 Academy Brixton, London · 2027-03-07
+      "2431dc9ac2b1366e", // Sleeping With Sirens · O2 Academy Birmingham, Birmingham · 2027-03-06
+      "612f3ddc4597b7f6", // Victoria Monet · The Anthem, Washington · 2026-11-27
+      "a345470cafb30d76", // Victoria Monet · Cal Coast Credit Union Open Air Theatre at SDSU, San Diego · 2026-12-06
+      "d8c98e9962a47fd1", // Victoria Monet · YouTube Theater, Inglewood · 2026-12-08
+      "5afe0c635396b148", // Victoria Monet · WAMU Theater, Seattle · 2026-12-14
+      "ec26869616b992e4", // Victoria Monet · Bill Graham Civic Auditorium, San Francisco · 2026-12-17
+      "c478babc136666a2", // Victoria Monet · The Truth, Nashville · 2026-11-30
+      "edf95c3accd70aca", // Cage The Elephant · O2 Academy Birmingham, Birmingham · 2027-02-26
+      "b36563cbb5c2b67e", // Cage The Elephant · O2 Victoria Warehouse Manchester, Manchester · 2027-02-28
+      "ea785b9730f31168", // Cage The Elephant · O2 Academy Leeds, Leeds · 2027-02-23
+      "8656fdb23186debf", // Cage The Elephant · O2 Academy Glasgow, Glasgow · 2027-02-25
+      "78b7b9b50e02f3d4", // Lil Wayne · Enmarket Arena, Savannah · 2026-12-05
+      "26f189c02ae39fd2", // Koe Wetzel · PH Live at Planet Hollywood, Las Vegas · 2026-12-11
+      "f8e3dd7f34e698e2", // Two Door Cinema Club · OVO Hydro, Glasgow · 2027-01-26
+      "c994626ee76e64cd", // Two Door Cinema Club · AO Arena, Manchester · 2027-01-27
+      "e12ff6d2759b25d8", // Two Door Cinema Club · Paramount Theatre, Seattle · 2027-05-17
+      "f17d7140ea641dc3", // Two Door Cinema Club · Channel 24, Sacramento · 2027-05-19
+      "7aa3854a84b43a39", // Two Door Cinema Club · Fox Theater - Oakland, Oakland · 2027-05-20
+      "8391f2e1b9074c13", // Two Door Cinema Club · Landmark Credit Union Live, Milwaukee · 2027-05-08
+      "818a0d8106282e7f", // Meshuggah · Place Bell, Laval · 2027-02-13
+      "334dc710c6b8b38c", // Meshuggah · Armory, Minneapolis · 2027-02-19
+      "d52dce9e283feda4", // Meshuggah · Brooklyn Paramount, Brooklyn · 2027-03-03
+      "d2966c5f94aa6ebf", // Meshuggah · MGM Music Hall at Fenway, Boston · 2027-03-06
+      "04186af91e60a21c", // Meshuggah · Moda Center, Portland · 2027-04-16
+      "457485c8653da7ae", // Meshuggah · Paramount Theatre, Seattle · 2027-04-17
+      "d286e7834605ba43", // Interpol · Payne Arena, Hidalgo · 2027-03-19
+      "1349ec963f351db3", // Interpol · The Anthem, Washington · 2027-03-24
+      "f5965213f0784869", // Megadeth · OVO Arena Wembley, London · 2027-03-11
+      "c600302f0eef12e0", // Megadeth · Motorpoint Arena Nottingham, Nottingham · 2027-03-12
+      "36c431612ab6dea4", // Megadeth · Co-op Live, Manchester · 2027-03-13
+      "024e07e58992c081", // Interpol · Satellite Music Hall, Memphis · 2027-03-22
+      "df831db28cceff43", // Megadeth · The O2 Belfast, Belfast · 2027-03-09
+      "c53198f049a2483b", // Megadeth · OVO Hydro, Glasgow · 2027-03-16
+      "79d016c61fd45361", // Megadeth · bp pulse LIVE, Birmingham · 2027-03-18
+      "26619b29af7560e7", // Cristian Castro · Honda Center, Anaheim · 2027-02-12
+      "dba660cfb4e737cb", // Cristian Castro · Addition Financial Arena, Orlando · 2027-03-12
+      "544a31f702d6055d", // Cristian Castro · James L Knight Center, Miami · 2027-03-13
+      "c8a9a934a3735512", // Cristian Castro · Payne Arena, Hidalgo · 2027-02-27
+      "4ad6941695bac23b", // CeCe Winans · WAMU Theater, Seattle · 2026-12-10
+      "3939d13b343d061d", // CeCe Winans · Arizona Financial Theatre, Phoenix · 2026-12-15
+      "d48972c53dca9a90", // CeCe Winans · SACRAMENTO MEMORIAL AUDITORIUM, Sacramento · 2026-12-18
+      "f91e1a3fb1a9d8db", // Carin Leon · Sphere, Las Vegas · 2027-09-16
+      "752fa80e96448e96", // Carin Leon · Sphere, Las Vegas · 2027-09-17
+      "ae9be567b1612d1c", // Carin Leon · Sphere, Las Vegas · 2027-09-18
+      "e7db8518f0e3dc6c", // James Blunt · bp pulse LIVE, Birmingham · 2027-03-27
+      "bba9393b8febe762", // James Blunt · OVO Hydro, Glasgow · 2027-04-02
+      "4c24d8f96093fdb6", // James Blunt · Co-op Live, Manchester · 2027-04-03
+      "6aa369e7c1af9636", // James Blunt · The O2 Belfast, Belfast · 2027-03-31
+      "f092c50622faa28a", // James Blunt · The O2, London · 2027-04-04
+      "afb8530a086310c6", // James Blunt · Utilita Arena Cardiff, Cardiff · 2027-04-06
+      "a85e69de8e00afac", // Gavin Adcock · Gatton Park, Lexington · 2027-04-01
+      "598eeb90ae196b1d", // Gavin Adcock · Salem Civic Center, Salem · 2027-04-29
+      "5500d0a546973382", // Gavin Adcock · Hard Rock Live at Etess Arena, Atlantic City · 2027-05-14
+      "67bdc52594042268", // Tash Sultana · OVO Arena Wembley, London · 2027-03-13
+      "11320f794ae699a2", // Rawayana · Kia Center, Orlando · 2026-12-03
+      "e1aa7c9c906b8540", // Elevation Worship · Golden 1 Center, Sacramento · 2027-03-01
+      "a3226d41497b2e8b", // Elevation Worship · Honda Center, Anaheim · 2027-03-03
+      "09b784b29a4c1117", // Elevation Worship · Kia Forum, Inglewood · 2027-03-07
+      "87ef82974eb67a72", // Air Supply · Hard Rock Live, Hollywood · 2027-01-29
+      "b70da7b5735a0c26", // Elevation Worship · Tacoma Dome, Tacoma · 2027-02-26
+      "6eaf11782fb57fb7", // Air Supply · Canada Life Centre, Winnipeg · 2027-02-28
+      "99fedfca21a70e91", // Elevation Worship · Oakland Arena, Oakland · 2027-03-02
+      "860b603cb87fafd6", // Elevation Worship · Mortgage Matchup Center, Phoenix · 2027-03-06
+      "e20b072bf8f90f34", // Air Supply · Sunrise Theatre, Fort Pierce · 2027-01-21
+      "dc00e73939fc6a57", // Air Supply · Hard Rock Live Rockford, Rockford · 2027-02-05
+      "cea0dbdbe98b0009", // Air Supply · Genesee Theatre, Waukegan · 2027-02-07
+      "59741c62d65acd22", // Air Supply · The Show at Agua Caliente Casino Rancho Mirage, Rancho Mirage · 2027-02-13
+      "fd4006ea1ce33803", // Turnpike Troubadours · Brooklyn Bowl Las Vegas, Las Vegas · 2026-12-11
+      "a2af336d750e830c", // Queens Of The Stone Age · Kia Forum, Inglewood · 2027-05-02
+      "e372ef201da777bd", // Queens Of The Stone Age · Oakland Arena, Oakland · 2027-05-04
+      "53ebc67510c9a51d", // Queens Of The Stone Age · Golden 1 Center, Sacramento · 2027-05-05
+      "b6f1e86b2cd6aad2", // Queens Of The Stone Age · Climate Pledge Arena, Seattle · 2027-05-07
+      "849b3b227a64a907", // Queens Of The Stone Age · Moda Center, Portland · 2027-05-09
+      "e94aa2053eaadec1", // Mariah Carey · Utilita Arena Birmingham, Birmingham · 2026-11-27
+      "07cbeb31011220e1", // Mariah Carey · Co-op Live, Manchester · 2026-12-02
+      "ed764f30523371e2", // Boyz II Men · MGM Music Hall at Fenway, Boston · 2027-02-05
+      "2ccbad4a70c77385", // Queens Of The Stone Age · Allstate Arena, Rosemont · 2027-05-16
+      "45657fcf87789689", // Boyz II Men · Borgata Event Center, Atlantic City · 2027-02-06
+      "6d1f67fe1adfe003", // Mariah Carey · The O2, London · 2026-11-30
+      "5867e74b846554a8", // KALEO · O2 Academy Brixton, London · 2027-04-03
+      "70e3bcd4d49f780c", // KALEO · O2 Apollo Manchester, Manchester · 2027-04-06
+      "8a4fe098dec2779e", // KALEO · O2 Academy Glasgow, Glasgow · 2027-04-08
+      "0aafb3a473c2ec46", // Lola Young · Bill Graham Civic Auditorium, San Francisco · 2027-05-01
+      "6bfa3a2843c50b55", // Lola Young · Greek Theatre, Los Angeles · 2027-05-04
+      "b3ff38c8dff52d58", // Lola Young · Coca-Cola Roxy, Atlanta · 2027-04-07
+      "ca0f640ca979ed85", // Lola Young · The Anthem, Washington · 2027-04-09
+      "618ee61a21e3d2d1", // Lola Young · Radio City Music Hall, New York · 2027-04-12
+      "8dec1fb2a3d2878e", // Lola Young · The Fillmore Detroit, Detroit · 2027-04-18
+      "ed77f9cc701cd993", // KALEO · O2 Academy Birmingham, Birmingham · 2027-04-09
+      "171d99d8c8e5596f", // aespa · AO Arena, Manchester · 2027-01-14
+      "ad713d14ffbfbbb2", // Jodeci · Simmons Bank Arena, North Little Rock · 2026-12-01
+      "4fceeefdc8d6dc1e", // Jodeci · Lake Charles Event Center, Lake Charles · 2026-12-05
+      "15609315cfc0ee26", // Jodeci · Saenger Theatre Mobile, Mobile · 2026-12-06
+      "26fb3bce683b9714", // Jodeci · The Truth, Nashville · 2026-12-10
+      "9b5496035e13fd8c", // Jodeci · Township Auditorium, Columbia · 2026-12-11
+      "3bff9c76391ff499", // Jodeci · The Fillmore Miami Beach at Jackie Gleason Theater, Miami Beach · 2026-12-16
+      "b4e4a80bf1dc3701", // Barry Manilow · Benchmark International Arena, Tampa · 2027-01-20
+      "25af4f4f9e080aa0", // Barry Manilow · Kia Center, Orlando · 2027-01-21
+      "3d344678bbee24ae", // Simply Red · Colchester Castle Park, Colchester · 2027-08-18
+      "6b2e46f2ef3065a8", // aespa · The O2, London · 2027-01-16
+      "d489b91926c942f8", // Simply Red · Gunnersbury Park, London · 2027-08-13
+      "3fa46820f159716b", // Simply Red · Dreamland, Margate · 2027-08-14
+      "fc7f5cb627e06601" // Simply Red · Scarborough Open Air Theatre, Scarborough · 2027-08-17
+    ])
   })
 ]);

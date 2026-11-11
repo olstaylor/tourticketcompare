@@ -64710,5 +64710,29 @@
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-garth-brooks-2026-minneapolis-z7r9jz1aaaagg",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "country": "United States Of America",
+    "city": "Minneapolis",
+    "venue": "Target Center",
+    "datetime_iso": "2026-12-13T02:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-stassy-2027-west-footscray-1apzk4fgket404h",
+    "artist_slug": "chris-stassy",
+    "artist_name": "Chris Stassy",
+    "country": "Australia",
+    "city": "West Footscray",
+    "venue": "The Wool Store",
+    "datetime_iso": "2027-02-27T06:00:00Z",
+    "timezone": "Australia/Melbourne",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

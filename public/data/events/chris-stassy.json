@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": "tm-chris-stassy-2027-west-footscray-1apzk4fgket404h",
+    "artist_slug": "chris-stassy",
+    "artist_name": "Chris Stassy",
+    "event_name": "Chris Stassy",
+    "city": "West Footscray",
+    "country": "Australia",
+    "venue": "The Wool Store",
+    "datetime_iso": "2027-02-27T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006554A956455B",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/chris-stassy-west-footscray-27-02-2027/event/25006554A956455B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/chris-stassy-west-footscray-27-02-2027/event/25006554A956455B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006554A956455B",
+        "discovery_event_id": "1APZk4fGket404h",
+        "url": "https://www.ticketmaster.com.au/chris-stassy-west-footscray-27-02-2027/event/25006554A956455B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZk4fGket404h",
+    "timezone": "Australia/Melbourne",
+    "status": "announced",
+    "public_onsale_at": "2026-11-17T01:00:00Z"
+  }
+]

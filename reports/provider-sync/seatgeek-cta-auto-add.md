@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-11-10T01:22:42.964Z
+Generated: 2026-11-10T23:07:53.713Z
 
 ## Run summary
 
@@ -8,38 +8,41 @@ Generated: 2026-11-10T01:22:42.964Z
 - SeatGeek client ID present: true
 - SeatGeek client secret present: false
 - API access with client ID only: HTTP 200
-- Total events in data: 5329
-- Enrichment-eligible events (Ticketmaster-verified, or machine_high_confidence with a Ticketmaster identity): 5329
-- Events already carrying a valid SeatGeek URL: 3014
-- Enrichment-eligible events already carrying a valid SeatGeek URL: 3014
-- Enrichment-eligible events still missing a valid SeatGeek URL before this run: 2315
-- Eligible (upcoming, resolvable local date) after pre-API filtering: 1602
-- Skipped before any API call: 715 (past_event: 715)
+- Total events in data: 5393
+- Enrichment-eligible events (Ticketmaster-verified, or machine_high_confidence with a Ticketmaster identity): 5393
+- Events already carrying a valid SeatGeek URL: 3043
+- Enrichment-eligible events already carrying a valid SeatGeek URL: 3043
+- Enrichment-eligible events still missing a valid SeatGeek URL before this run: 2350
+- Eligible (upcoming, resolvable local date) after pre-API filtering: 1651
+- Skipped before any API call: 717 (past_event: 717)
 - Events this run can check (window size): 160
 - Rotation: window 11 of 11 (key 20767)
 - Runs needed to check every eligible event once: 11
-- Events selected/logged by this run: 2
-- Events checked by this run: 2
-- API calls made: 10
+- Events selected/logged by this run: 51
+- Events checked by this run: 51
+- API calls made: 255
 - Rate-limit responses: 0
-- URLs added: 2
-- Events skipped: 0
-- no_candidates_returned: 0
+- URLs added: 18
+- Events skipped: 33
+- no_candidates_returned: 31
 - rate_limited_not_checked: 0
 - Stopped early: no
 - Next resume showId:
 - Next recommended resume command:
 - Accepted venue mismatches: 0
-- Conflicts found: 0
+- Conflicts found: 1
 
 ## Skipped reasons
 
+- no_candidates_returned: 31
+- city_or_metro_match_failed: 1
+- conflicting_same_date_city_candidates: 1
 
 ## Interpretation
 
-- `URLs added: 2` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
-- 3014 event(s) already carried valid SeatGeek URLs before this run, including 3014 enrichment-eligible event(s).
-- This run queried only the 2315 enrichment-eligible event(s) that were still missing a valid `seatgeek_url`.
+- `URLs added: 18` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
+- 3043 event(s) already carried valid SeatGeek URLs before this run, including 3043 enrichment-eligible event(s).
+- This run queried only the 2350 enrichment-eligible event(s) that were still missing a valid `seatgeek_url`.
 - SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.
 
 ## URLs added
@@ -48,14 +51,64 @@ This section lists only URLs newly added by this run. Events that already had va
 
 | showId | artist | date | city | SeatGeek URL |
 | --- | --- | --- | --- | --- |
-| tm-sting-2027-las-vegas-1ayzk4agkec2mbz | Sting | 2027-10-22 | Las Vegas | https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-22-8-pm/concert/18674632 |
-| tm-sting-2027-las-vegas-1ayzk4agkecoebs | Sting | 2027-10-23 | Las Vegas | https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-23-8-pm/concert/18674634 |
+| tm-calvin-harris-2027-inglewood-vv1aazk48gkd69rc1 | Calvin Harris | 2027-05-30 | Inglewood | https://seatgeek.com/calvin-harris-tickets/inglewood-california-kia-forum-2027-05-30-8-pm/concert/18702246 |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7zqfu | John Mayer | 2027-06-02 | Las Vegas | https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-02-8-pm/concert/18659133 |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7zcf2 | John Mayer | 2027-06-04 | Las Vegas | https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-04-8-pm/concert/18659134 |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7zwf4 | John Mayer | 2027-06-05 | Las Vegas | https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-05-8-pm/concert/18659135 |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7zwf9 | John Mayer | 2027-06-09 | Las Vegas | https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-09-8-pm/concert/18675251 |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7yuf_ | John Mayer | 2027-06-11 | Las Vegas | https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-11-8-pm/concert/18675252 |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7yufh | John Mayer | 2027-06-12 | Las Vegas | https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-06-12-8-pm/concert/18675253 |
+| tm-greta-van-fleet-2027-kansas-city-vv1akzk4vgkdr0kg1 | Greta Van Fleet | 2027-07-13 | Kansas City | https://seatgeek.com/greta-van-fleet-tickets/kansas-city-missouri-t-mobile-center-2027-07-13-7-pm/concert/18642008 |
+| tm-zach-bryan-2027-las-vegas-1avjz_fgkwbrzg6 | Zach Bryan | 2027-07-16 | Las Vegas | https://seatgeek.com/zach-bryan-tickets/las-vegas-nevada-allegiant-stadium-2027-07-16-7-pm/concert/18686640 |
+| tm-oasis-2027-foxborough-vv1avzkfggke0ghpz | Oasis | 2027-08-13 | Foxborough | https://seatgeek.com/oasis-tickets/foxborough-massachusetts-gillette-stadium-2027-08-13-7-pm/concert/18589080 |
+| tm-leon-bridges-2027-seattle-vvg1hz_fqtqa-a | Leon Bridges | 2027-08-13 | Seattle | https://seatgeek.com/leon-bridges-tickets/seattle-washington-climate-pledge-arena-2027-08-13-7-30-pm/concert/18662716 |
+| tm-oasis-2027-foxborough-vv1avzkfggke08hpi | Oasis | 2027-08-14 | Foxborough | https://seatgeek.com/oasis-tickets/foxborough-massachusetts-gillette-stadium-2027-08-14-7-pm/concert/18589079 |
+| tm-slipknot-2027-phoenix-1a_zkfggkdfoifq | Slipknot | 2027-08-18 | Phoenix | https://seatgeek.com/slipknot-tickets/phoenix-arizona-chase-field-2027-08-18-6-30-pm/concert/18626587 |
+| tm-oasis-2027-las-vegas-1kayvp7_ga25ajz | Oasis | 2027-08-20 | Las Vegas | https://seatgeek.com/oasis-tickets/las-vegas-nevada-allegiant-stadium-2027-08-20-7-pm/concert/18589076 |
+| tm-sting-2027-las-vegas-1ayzk4agkeca9wi | Sting | 2027-10-14 | Las Vegas | https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-14-8-pm/concert/18674621 |
+| tm-sting-2027-las-vegas-1ayzk4agkec1mvn | Sting | 2027-10-16 | Las Vegas | https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-16-8-pm/concert/18674623 |
+| tm-sting-2027-las-vegas-1ayzk4agkecg6m7 | Sting | 2027-10-17 | Las Vegas | https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-17-8-pm/concert/18674630 |
+| tm-sting-2027-las-vegas-1ayzk4agkecumyj | Sting | 2027-10-20 | Las Vegas | https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-20-8-pm/concert/18674631 |
 
 ## Events skipped
 
 Skipped rows are only the enrichment-eligible events that were still missing a valid `seatgeek_url` when this run started.
 
-- None
+| showId | artist | date | city | reason | best candidate |
+| --- | --- | --- | --- | --- | --- |
+| tm-nickelback-2027-glasgow-1auzk46gkexekqz | Nickelback | 2027-06-01 | Glasgow | no_candidates_returned | - |
+| tm-greta-van-fleet-2027-manchester-1adjz_kgkbyud70 | Greta Van Fleet | 2027-06-01 | Manchester | no_candidates_returned | - |
+| tm-greta-van-fleet-2027-glasgow-1auzkfugkd_hipm | Greta Van Fleet | 2027-06-02 | Glasgow | no_candidates_returned | - |
+| tm-nickelback-2027-manchester-1amzk46gkdgpim1 | Nickelback | 2027-06-02 | Manchester | no_candidates_returned | - |
+| tm-sam-fender-2027-newcastle-upon-tyne-1agzk4fgkd88g8t | Sam Fender | 2027-06-03 | Newcastle Upon Tyne | no_candidates_returned | - |
+| tm-oasis-2027-manchester-g5dzz_3lwzpdp | Oasis | 2027-06-04 | Manchester | no_candidates_returned | - |
+| tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj | Sam Fender | 2027-06-05 | Newcastle Upon Tyne | no_candidates_returned | - |
+| tm-oasis-2027-manchester-g5dzz_3lmyj87 | Oasis | 2027-06-06 | Manchester | no_candidates_returned | - |
+| tm-a-perfect-circle-2027-hollywood-vvg1iz_kj6yzfl | A Perfect Circle | 2027-06-06 | Hollywood | city_or_metro_match_failed | https://seatgeek.com/a-perfect-circle-tickets/los-angeles-california-hollywood-bowl-2027-06-06-7-30-pm/concert/18632554 |
+| tm-oasis-2027-manchester-g5dzz_3lbuu4c | Oasis | 2027-06-08 | Manchester | no_candidates_returned | - |
+| tm-oasis-2027-manchester-g5dzz_3nq9ecb | Oasis | 2027-06-15 | Manchester | no_candidates_returned | - |
+| tm-sam-fender-2027-london-16nzk4f00zauv12c | Sam Fender | 2027-06-18 | London | no_candidates_returned | - |
+| tm-sombr-2027-glasgow-1auzkfbgkeiqyo0 | Sombr | 2027-06-19 | Glasgow | no_candidates_returned | - |
+| tm-sam-fender-2027-london-1anzk4fgkdp88g6 | Sam Fender | 2027-06-20 | London | no_candidates_returned | - |
+| tm-oasis-2027-manchester-g5dzz_3l0pglg | Oasis | 2027-06-22 | Manchester | no_candidates_returned | - |
+| tm-alex-warren-2027-woodstock-16djz_4q3g7mfnf | Alex Warren | 2027-06-27 | Woodstock | no_candidates_returned | - |
+| tm-alex-warren-2027-scarborough-1agzkf0gkdh1nyj | Alex Warren | 2027-06-30 | Scarborough | no_candidates_returned | - |
+| tm-alex-warren-2027-manchester-g5dzz_fblbfue | Alex Warren | 2027-07-02 | Manchester | no_candidates_returned | - |
+| tm-alex-warren-2027-london-1amzkfngkdb5am5 | Alex Warren | 2027-07-03 | London | no_candidates_returned | - |
+| tm-slipknot-2027-london-1anzkfggkdhuzzd | Slipknot | 2027-07-03 | London | no_candidates_returned | - |
+| tm-sam-fender-2027-manchester-g5dzz_42lyjlw | Sam Fender | 2027-07-15 | Manchester | no_candidates_returned | - |
+| tm-noah-kahan-2027-london-1anzkf3gkd7-b4s | Noah Kahan | 2027-07-23 | London | no_candidates_returned | - |
+| tm-noah-kahan-2027-london-1anzkf4gkexwogg | Noah Kahan | 2027-07-24 | London | no_candidates_returned | - |
+| tm-noah-kahan-2027-london-1anzkf4gkddlzu_ | Noah Kahan | 2027-07-25 | London | no_candidates_returned | - |
+| tm-slipknot-2027-san-francisco-g5vyz_khsbrlp | Slipknot | 2027-08-15 | San Francisco | conflicting_same_date_city_candidates | https://seatgeek.com/slipknot-tickets/san-francisco-california-golden-gate-park-2027-08-15-4-pm/concert/18626586 |
+| tm-harry-styles-2027-london-1aegz_8gkdalwdz | Harry Styles | 2027-08-25 | London | no_candidates_returned | - |
+| tm-harry-styles-2027-london-1anzkfigkew9djd | Harry Styles | 2027-08-27 | London | no_candidates_returned | - |
+| tm-harry-styles-2027-london-1anzkfigkeycdjb | Harry Styles | 2027-08-28 | London | no_candidates_returned | - |
+| tm-sam-fender-2027-london-1aegz_4gklv3o2e | Sam Fender | 2027-09-02 | London | no_candidates_returned | - |
+| tm-passenger-2027-manchester-17uov0g62wjanur | Passenger | 2027-09-15 | Manchester | no_candidates_returned | - |
+| tm-passenger-2027-birmingham-g5dzz_2wg0-vu | Passenger | 2027-09-24 | Birmingham | no_candidates_returned | - |
+| tm-andrea-bocelli-2027-manchester-1amzkfzgkd7qkyk | Andrea Bocelli | 2027-10-05 | Manchester | no_candidates_returned | - |
+| tm-andrea-bocelli-2027-glasgow-1adbz_k03jdzd5av | Andrea Bocelli | 2027-10-09 | Glasgow | no_candidates_returned | - |
 
 ## Accepted venue mismatches
 
@@ -63,7 +116,8 @@ Skipped rows are only the enrichment-eligible events that were still missing a v
 
 ## Conflicts found
 
-- None
+- tm-slipknot-2027-san-francisco-g5vyz_khsbrlp (Slipknot, 2027-08-15, San Francisco)
+  - 100: https://seatgeek.com/slipknot-tickets/san-francisco-california-golden-gate-park-2027-08-15-6-30-pm/concert/18669799
 
 ## Rate-limited / not checked
 
@@ -421,7 +475,6 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-don-omar-2026-washington-17a8v0g61wbnb9b | don-omar | 2026-10-16T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-don-omar-2026-atlanta-vvg1zz_1unelae | don-omar | 2026-10-18T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-don-omar-2026-el-paso-vvg1yz_1hpge4r | don-omar | 2026-10-26T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
-| tm-don-omar-2026-salt-lake-city-z7r9jz1a70efv | don-omar | 2026-11-02T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-don-omar-2026-inglewood-vvg10z_56fvyeu | don-omar | 2026-11-07T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-blue-october-2026-wichita-z7r9jz1a7-v0p | blue-october | 2026-10-26T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-blue-october-2026-montreal-1aszkowgke-yptc | blue-october | 2026-11-02T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -605,6 +658,7 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-mico-2026-toronto-177zv0g61sycnt1 | mico | 2026-11-07T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-karol-g-2026-guadalupe-g5dvz_fd0l9ge | karol-g | 2026-11-07T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-karol-g-2026-guadalupe-g5dvz_fdjam8c | karol-g | 2026-11-08T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-karol-g-2026-guadalupe-g5dvz_fdjk688 | karol-g | 2026-11-09T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-tyla-2026-oslo-z698xzb_z16v-8-pb8 | tyla | 2026-10-30T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-sabaton-2026-dallas-vvg1yzbwnj2elc | sabaton | 2026-11-07T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-morat-2026-ciudad-de-mexico-1afzk3egkebi9id | morat | 2026-11-07T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -656,6 +710,7 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-fuerza-regida-2026-bakersfield-z7r9jz1aavaxk | fuerza-regida | 2026-10-26T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-noah-kahan-2026-glasgow-1adbz_fgkn7svza | noah-kahan | 2026-11-05T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-noah-kahan-2026-glasgow-1auzk3agkdn-buh | noah-kahan | 2026-11-06T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-noah-kahan-2026-manchester-g5vhz_gxilkd5 | noah-kahan | 2026-11-09T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-journey-2026-sunrise-z7r9jz1a70_73 | journey | 2026-10-16T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-journey-2026-orlando-17fov0g613pzs04 | journey | 2026-10-17T23:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-twenty-one-pilots-2026-columbus-vvg1fz_1uqt9_r | twenty-one-pilots | 2026-10-17T22:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -793,4 +848,5 @@ Enrichment-eligible events missing a SeatGeek URL that this run deliberately did
 | tm-mon-laferte-2026-las-vegas-z7r9jz1a7-sud | mon-laferte | 2026-11-06T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-mon-laferte-2026-san-jose-g5vyz_kmf8y1d | mon-laferte | 2026-11-07T04:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-lenny-pearce-2026-san-antonio-g5diz_gedaabt | lenny-pearce | 2026-11-06T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-niall-horan-2026-dublin-z7r9jz1a7-mpd | niall-horan | 2026-11-09T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-gary-allan-2026-newkirk-z7r9jz1aavecf | gary-allan | 2026-11-08T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |

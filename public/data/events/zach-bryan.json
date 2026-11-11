@@ -1618,7 +1618,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700654C987B8307",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-las-vegas-nevada-07-16-2027/event/1700654C987B8307",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/zach-bryan-tickets/las-vegas-nevada-allegiant-stadium-2027-07-16-7-pm/concert/18686640",
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-las-vegas-allegiant-stadium-7-16-2027--concerts-country-and-folk/production/7706953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-las-vegas-nevada-07-16-2027/event/1700654C987B8307",
@@ -1634,11 +1634,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 18686640,
+        "url": "https://seatgeek.com/zach-bryan-tickets/las-vegas-nevada-allegiant-stadium-2027-07-16-7-pm/concert/18686640",
+        "verified": true,
+        "last_verified_at": "2026-11-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706953,
@@ -2235,7 +2235,7 @@
         "event_id": 18686652,
         "url": "https://seatgeek.com/zach-bryan-tickets/minneapolis-minnesota-u-s-bank-stadium-2027-04-28-7-pm/concert/18686652",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2304,7 +2304,7 @@
         "event_id": 18711214,
         "url": "https://seatgeek.com/zach-bryan-tickets/chicago-illinois-soldier-field-2027-05-07-7-pm/concert/18711214",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2381,7 +2381,7 @@
         "event_id": 18686654,
         "url": "https://seatgeek.com/zach-bryan-tickets/chicago-illinois-soldier-field-2027-05-08-7-pm/concert/18686654",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2458,7 +2458,7 @@
         "event_id": 18655057,
         "url": "https://seatgeek.com/zach-bryan-tickets/baltimore-maryland-m-t-bank-stadium-2027-05-18-8-pm/concert/18655057",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {

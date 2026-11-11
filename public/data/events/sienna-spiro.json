@@ -1044,7 +1044,7 @@
     "tour_name": "My House Tour",
     "ticketmaster_event_id": "1C0064C4FD867F42",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-san-francisco-california-11-09-2026/event/1C0064C4FD867F42",
-    "seatgeek_url": "https://seatgeek.com/sienna-spiro-tickets/san-francisco-california-castro-theatre-2026-11-09-8-pm/concert/18297308",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-san-francisco-castro-theatre-11-9-2026/production/7139535",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-san-francisco-california-11-09-2026/event/1C0064C4FD867F42",
@@ -1060,11 +1060,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18297308,
-        "url": "https://seatgeek.com/sienna-spiro-tickets/san-francisco-california-castro-theatre-2026-11-09-8-pm/concert/18297308",
-        "verified": true,
-        "last_verified_at": "2026-11-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7139535,
@@ -1145,7 +1145,7 @@
         "event_id": 18297309,
         "url": "https://seatgeek.com/sienna-spiro-tickets/los-angeles-california-the-wiltern-2026-11-10-8-pm/concert/18297309",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3489,7 +3489,7 @@
         "event_id": 18702034,
         "url": "https://seatgeek.com/sienna-spiro-tickets/morrison-colorado-red-rocks-amphitheatre-2027-08-30-7-pm/concert/18702034",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3559,7 +3559,7 @@
         "event_id": 18702009,
         "url": "https://seatgeek.com/sienna-spiro-tickets/nashville-tennessee-grand-ole-opry-house-2027-08-08-7-pm/concert/18702009",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3637,7 +3637,7 @@
         "event_id": 18702010,
         "url": "https://seatgeek.com/sienna-spiro-tickets/atlanta-georgia-fox-theatre-atlanta-2027-08-10-7-pm/concert/18702010",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {

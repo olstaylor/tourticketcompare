@@ -237,7 +237,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010064F5A8CA454E",
     "ticketmaster_url": "https://www.ticketmaster.com/dave-matthews-band-providence-rhode-island-11-09-2026/event/010064F5A8CA454E",
-    "seatgeek_url": "https://seatgeek.com/dave-matthews-band-tickets/providence-rhode-island-amica-mutual-pavilion-2026-11-09-7-30-pm/concert/18474897",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-providence-amica-mutual-pavilion-11-9-2026/production/7415793",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-providence-rhode-island-11-09-2026/event/010064F5A8CA454E",
@@ -253,11 +253,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18474897,
-        "url": "https://seatgeek.com/dave-matthews-band-tickets/providence-rhode-island-amica-mutual-pavilion-2026-11-09-7-30-pm/concert/18474897",
-        "verified": true,
-        "last_verified_at": "2026-11-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7415793,
@@ -330,7 +330,7 @@
         "event_id": 18474899,
         "url": "https://seatgeek.com/dave-matthews-band-tickets/baltimore-maryland-cfg-bank-arena-2026-11-10-7-30-pm/concert/18474899",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -404,7 +404,7 @@
         "event_id": 18474900,
         "url": "https://seatgeek.com/dave-matthews-band-tickets/new-york-new-york-madison-square-garden-2026-11-12-7-30-pm/concert/18474900",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-10",
         "availability_status": "listed"
       },
       "vivid-seats": {

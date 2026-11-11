@@ -294,11 +294,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7874796",
-        "url": "https://www.ticketliquidator.com/tickets/7874796/Noah-Kahan-tickets-Tue-Nov-10-2026-AO-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107155377",
@@ -318,7 +318,7 @@
     "ticketmaster_discovery_event_id": "G5vHZ_GxiLJdJ",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874796/Noah-Kahan-tickets-Tue-Nov-10-2026-AO-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-manchester-manchester-ao-arena-10-11-2026/event/107155377",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874796",
     "organizer_names": [
@@ -2625,12 +2625,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8364611",
+        "url": "https://www.ticketliquidator.com/tickets/8364611/Noah-Kahan-tickets-Wed-Jun-9-2027-Ford-Field",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kOZ_pjaG7zyRA",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364611/Noah-Kahan-tickets-Wed-Jun-9-2027-Ford-Field"
   },
   {
     "id": "tm-noah-kahan-2027-east-rutherford-k7vgf_pevlzwu",
@@ -2679,11 +2687,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8364184",
+        "url": "https://www.ticketliquidator.com/tickets/8364184/Noah-Kahan-tickets-Sat-Jun-19-2027-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pEvLzwU",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364184/Noah-Kahan-tickets-Sat-Jun-19-2027-MetLife-Stadium"
   }
 ]

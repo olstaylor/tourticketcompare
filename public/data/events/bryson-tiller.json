@@ -732,6 +732,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8364238",
+        "url": "https://www.ticketliquidator.com/tickets/8364238/Bryson-Tiller-tickets-Tue-Nov-17-2026-Hallenstadion-Zurich",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z16v7d03_k",
@@ -739,7 +746,8 @@
     "status": "on-sale",
     "organizer_names": [
       "Live Nation Schweiz AG"
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364238/Bryson-Tiller-tickets-Tue-Nov-17-2026-Hallenstadion-Zurich"
   },
   {
     "id": "tm-bryson-tiller-2026-amsterdam-z698xzbpz1kevfzpk",

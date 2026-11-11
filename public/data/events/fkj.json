@@ -1423,11 +1423,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012971",
+        "url": "https://www.ticketliquidator.com/tickets/8012971/FKJ-tickets-Wed-Apr-28-2027-Rockwell-At-The-Complex",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PK0M",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012971/FKJ-tickets-Wed-Apr-28-2027-Rockwell-At-The-Complex"
   },
   {
     "id": "tm-fkj-2027-new-orleans-z7r9jz1a7pd1a",

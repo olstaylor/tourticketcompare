@@ -536,11 +536,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7896101",
-        "url": "https://www.ticketliquidator.com/tickets/7896101/Beck-tickets-Mon-Nov-9-2026-Queen-Elizabeth-Theatre-Vancouver",
-        "verified": true,
-        "last_verified_at": "2026-10-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aoZk3a0babZe8k",
@@ -552,7 +552,7 @@
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896101/Beck-tickets-Mon-Nov-9-2026-Queen-Elizabeth-Theatre-Vancouver",
+    "ticketliquidator_url": "",
     "previous_start_date": "2026-11-10T03:30:00Z",
     "previous_start_timezone": "America/Los_Angeles",
     "ticket_limit": 8,

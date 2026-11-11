@@ -567,7 +567,7 @@
         "event_id": "8238813",
         "url": "https://www.ticketliquidator.com/tickets/8238813/Billy-Strings-tickets-Thu-Feb-4-2027-ExploreAshevillecom-Arena-at-Harrahs-Cherokee-Center",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-11",
         "availability_status": "listed"
       }
     },
@@ -922,7 +922,7 @@
         "event_id": "8238819",
         "url": "https://www.ticketliquidator.com/tickets/8238819/Billy-Strings-tickets-Fri-Feb-12-2027-Gas-South-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-11",
         "availability_status": "listed"
       }
     },
@@ -1064,7 +1064,7 @@
         "event_id": "8238823",
         "url": "https://www.ticketliquidator.com/tickets/8238823/Billy-Strings-tickets-Fri-Feb-19-2027-Bridgestone-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-11",
         "availability_status": "listed"
       }
     },
@@ -1192,12 +1192,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363802",
+        "url": "https://www.ticketliquidator.com/tickets/8363802/Billy-Strings-tickets-Tue-Apr-6-2027-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pKwQ5NJ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363802/Billy-Strings-tickets-Tue-Apr-6-2027-Benchmark-International-Arena"
   },
   {
     "id": "tm-billy-strings-2027-north-charleston-g5evz_pjlgein",
@@ -1246,12 +1254,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363806",
+        "url": "https://www.ticketliquidator.com/tickets/8363806/Billy-Strings-tickets-Fri-Apr-16-2027-North-Charleston-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pJlGEin",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363806/Billy-Strings-tickets-Fri-Apr-16-2027-North-Charleston-Coliseum"
   },
   {
     "id": "tm-billy-strings-2027-north-charleston-g5evz_pjcaeyp",
@@ -1300,12 +1316,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363808",
+        "url": "https://www.ticketliquidator.com/tickets/8363808/Billy-Strings-tickets-Sat-Apr-17-2027-North-Charleston-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pJcaEyP",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363808/Billy-Strings-tickets-Sat-Apr-17-2027-North-Charleston-Coliseum"
   },
   {
     "id": "tm-billy-strings-2027-greenville-g5evz_perum8k",
@@ -1354,12 +1378,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363810",
+        "url": "https://www.ticketliquidator.com/tickets/8363810/Billy-Strings-tickets-Wed-Apr-21-2027-Bon-Secours-Wellness-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pErum8K",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363810/Billy-Strings-tickets-Wed-Apr-21-2027-Bon-Secours-Wellness-Arena"
   },
   {
     "id": "tm-billy-strings-2027-greensboro-g5evz_pk9bhy8",
@@ -1408,12 +1440,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363819",
+        "url": "https://www.ticketliquidator.com/tickets/8363819/Billy-Strings-tickets-Fri-Apr-23-2027-First-Horizon-Coliseum-At-Greensboro-Complex",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pK9BHy8",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363819/Billy-Strings-tickets-Fri-Apr-23-2027-First-Horizon-Coliseum-At-Greensboro-Complex"
   },
   {
     "id": "tm-billy-strings-2027-greensboro-g5evz_pjyy_fv",
@@ -1462,12 +1502,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363820",
+        "url": "https://www.ticketliquidator.com/tickets/8363820/Billy-Strings-tickets-Sat-Apr-24-2027-First-Horizon-Coliseum-At-Greensboro-Complex",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pJyy_fv",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363820/Billy-Strings-tickets-Sat-Apr-24-2027-First-Horizon-Coliseum-At-Greensboro-Complex"
   },
   {
     "id": "tm-billy-strings-2027-birmingham-1aozk4tgkd5-7_e",
@@ -1516,12 +1564,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363832",
+        "url": "https://www.ticketliquidator.com/tickets/8363832/Billy-Strings-tickets-Fri-Jun-4-2027-Legacy-Arena-at-The-BJCC",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4tGkd5-7_e",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363832/Billy-Strings-tickets-Fri-Jun-4-2027-Legacy-Arena-at-The-BJCC"
   },
   {
     "id": "tm-billy-strings-2027-birmingham-1aozk4tgkd5x7_7",
@@ -1570,12 +1626,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363833",
+        "url": "https://www.ticketliquidator.com/tickets/8363833/Billy-Strings-tickets-Sat-Jun-5-2027-Legacy-Arena-at-The-BJCC",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4tGkd5x7_7",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363833/Billy-Strings-tickets-Sat-Jun-5-2027-Legacy-Arena-at-The-BJCC"
   },
   {
     "id": "tm-billy-strings-2027-saint-louis-vv1kvovpq_ga29ugj",

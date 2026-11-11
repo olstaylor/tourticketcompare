@@ -1870,6 +1870,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363054",
+        "url": "https://www.ticketliquidator.com/tickets/8363054/Alan-Walker-tickets-Fri-Jan-29-2027-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3Cjp_wx",
@@ -1906,7 +1913,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-01-25T17:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363054/Alan-Walker-tickets-Fri-Jan-29-2027-Coca-Cola-Roxy"
   },
   {
     "id": "tm-alan-walker-2027-st-petersburg-vvg1vz_phftijy",
@@ -2042,6 +2050,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363708",
+        "url": "https://www.ticketliquidator.com/tickets/8363708/Alan-Walker-tickets-Thu-Feb-4-2027-House-Of-Blues-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4vGkeUzKDW",
@@ -2080,6 +2095,7 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-01-31T17:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363708/Alan-Walker-tickets-Thu-Feb-4-2027-House-Of-Blues-Orlando"
   }
 ]

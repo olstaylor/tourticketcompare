@@ -1088,11 +1088,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8038343",
-        "url": "https://www.ticketliquidator.com/tickets/8038343/Sienna-Spiro-tickets-Mon-Nov-9-2026-Castro-Theatre",
-        "verified": true,
-        "last_verified_at": "2026-11-08",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -1111,7 +1111,7 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038343",
     "ticket_limit": 4,
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038343/Sienna-Spiro-tickets-Mon-Nov-9-2026-Castro-Theatre",
+    "ticketliquidator_url": "",
     "stubhub_international_url": ""
   },
   {

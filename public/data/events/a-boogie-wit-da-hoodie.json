@@ -777,7 +777,7 @@
     "ticketmaster_event_id": "35006563D1117CA8",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-london-27-01-2027/event/35006563D1117CA8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-london-the-o2---london-1-27-2027--concerts-rap-hip-hop/production/7833211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-london-27-01-2027/event/35006563D1117CA8",
     "last_verified_at": "2026-11-10",
@@ -799,11 +799,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7833211,
+        "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-london-the-o2---london-1-27-2027--concerts-rap-hip-hop/production/7833211",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -840,7 +840,7 @@
     "ticketmaster_event_id": "37006564DCC367A9",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-manchester-29-01-2027/event/37006564DCC367A9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-1-29-2027/production/7832747",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-manchester-29-01-2027/event/37006564DCC367A9",
     "last_verified_at": "2026-11-09",
@@ -862,11 +862,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7832747,
+        "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-1-29-2027/production/7832747",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

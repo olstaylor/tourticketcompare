@@ -554,7 +554,7 @@
     "ticketmaster_event_id": "04006564BDE784EF",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-chicago-illinois-02-13-2027/event/04006564BDE784EF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-chicago-united-center-2-13-2027/production/7833531",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-chicago-illinois-02-13-2027/event/04006564BDE784EF",
     "last_verified_at": "2026-11-10",
@@ -576,11 +576,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7833531,
+        "url": "https://www.vividseats.com/karan-aujla-tickets-chicago-united-center-2-13-2027/production/7833531",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

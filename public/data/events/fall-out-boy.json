@@ -265,7 +265,7 @@
     "ticketmaster_event_id": "360065667A811BF7",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-glasgow-30-05-2027/event/360065667A811BF7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-glasgow-ovo-hydro-5-30-2027--concerts-rock/production/7835278",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-glasgow-30-05-2027/event/360065667A811BF7",
     "last_verified_at": "2026-11-10",
@@ -287,11 +287,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835278,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-glasgow-ovo-hydro-5-30-2027--concerts-rock/production/7835278",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -442,7 +442,7 @@
     "ticketmaster_event_id": "37006565CD1B8CC7",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-manchester-03-06-2027/event/37006565CD1B8CC7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-manchester-co-op-live-6-3-2027--concerts-rock/production/7835282",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-manchester-03-06-2027/event/37006565CD1B8CC7",
     "last_verified_at": "2026-11-10",
@@ -464,11 +464,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835282,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-manchester-co-op-live-6-3-2027--concerts-rock/production/7835282",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -539,7 +539,7 @@
     "ticketmaster_event_id": "3500655FAE897F85",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-london-05-06-2027/event/3500655FAE897F85",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-london-tottenham-hotspur-stadium-6-5-2027--concerts-rock/production/7835284",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-london-05-06-2027/event/3500655FAE897F85",
     "last_verified_at": "2026-11-10",
@@ -561,11 +561,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835284,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-london-tottenham-hotspur-stadium-6-5-2027--concerts-rock/production/7835284",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2341,7 +2341,7 @@
     "ticketmaster_event_id": "0F006562C8D9835E",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-seattle-washington-08-24-2027/event/0F006562C8D9835E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-seattle-t-mobile-park-8-24-2027--concerts-rock/production/7835332",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-seattle-washington-08-24-2027/event/0F006562C8D9835E",
     "last_verified_at": null,
@@ -2363,11 +2363,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835332,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-seattle-t-mobile-park-8-24-2027--concerts-rock/production/7835332",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

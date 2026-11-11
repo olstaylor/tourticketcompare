@@ -2319,7 +2319,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeKuV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuV",
     "seatgeek_url": "https://seatgeek.com/carly-rae-jepsen-tickets/salt-lake-city-utah-the-complex-2027-04-27-7-30-pm/concert/18639063",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-salt-lake-city-the-complex---rockwell-4-27-2027--concerts-pop/production/7636625",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuV",
     "last_verified_at": "2026-11-10",
@@ -2341,11 +2341,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636625,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-salt-lake-city-the-complex---rockwell-4-27-2027--concerts-pop/production/7636625",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

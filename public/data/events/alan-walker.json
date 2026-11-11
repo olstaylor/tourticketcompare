@@ -1836,7 +1836,7 @@
     "ticketmaster_event_id": "0E0065239C599CA2",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-atlanta-georgia-01-29-2027/event/0E0065239C599CA2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-atlanta-coca-cola-roxy-theatre-1-29-2027--concerts-dance-electronica/production/7843441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-atlanta-georgia-01-29-2027/event/0E0065239C599CA2",
     "last_verified_at": "2026-11-10",
@@ -1858,11 +1858,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7843441,
+        "url": "https://www.vividseats.com/alan-walker-tickets-atlanta-coca-cola-roxy-theatre-1-29-2027--concerts-dance-electronica/production/7843441",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2008,7 +2008,7 @@
     "ticketmaster_event_id": "22006541B6E13EFD",
     "ticketmaster_url": "https://www.ticketmaster.com/alan-walker-orlando-florida-02-04-2027/event/22006541B6E13EFD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-lake-buena-vista-house-of-blues-orlando-2-4-2027/production/7835470",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-orlando-florida-02-04-2027/event/22006541B6E13EFD",
     "last_verified_at": "2026-11-10",
@@ -2030,11 +2030,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835470,
+        "url": "https://www.vividseats.com/alan-walker-tickets-lake-buena-vista-house-of-blues-orlando-2-4-2027/production/7835470",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -3470,7 +3470,7 @@
     "ticketmaster_event_id": "0500656687973E50",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-columbus-ohio-02-24-2027/event/0500656687973E50",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-columbus-wexner-center-for-the-arts---mershon-auditorium-2-24-2027/production/7841789",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-columbus-ohio-02-24-2027/event/0500656687973E50",
     "last_verified_at": null,
@@ -3492,11 +3492,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7841789,
+        "url": "https://www.vividseats.com/daughtry-tickets-columbus-wexner-center-for-the-arts---mershon-auditorium-2-24-2027/production/7841789",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

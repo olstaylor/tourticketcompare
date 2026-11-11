@@ -1647,7 +1647,7 @@
     "ticketmaster_event_id": "1000656470D028EE",
     "ticketmaster_url": "https://www.ticketmaster.ca/kings-of-leon-toronto-ontario-06-02-2027/event/1000656470D028EE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-toronto-rbc-amphitheatre-6-2-2027/production/7824372",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/kings-of-leon-toronto-ontario-06-02-2027/event/1000656470D028EE",
     "last_verified_at": "2026-11-07",
@@ -1669,11 +1669,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7824372,
+        "url": "https://www.vividseats.com/kings-of-leon-tickets-toronto-rbc-amphitheatre-6-2-2027/production/7824372",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

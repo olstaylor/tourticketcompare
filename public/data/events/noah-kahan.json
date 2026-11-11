@@ -2533,7 +2533,7 @@
     "ticketmaster_event_id": "1483340788",
     "ticketmaster_url": "https://www.ticketmaster.es/event/noah-kahan-iconica-santalucia-sevilla-fest-tickets/1483340788?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-sevilla-plaza-de-espana-7-7-2027--concerts-pop/production/7773209",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/noah-kahan-iconica-santalucia-sevilla-fest-tickets/1483340788?language=en-us",
     "last_verified_at": "2026-11-07",
@@ -2555,11 +2555,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7773209,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-sevilla-plaza-de-espana-7-7-2027--concerts-pop/production/7773209",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2591,7 +2591,7 @@
     "ticketmaster_event_id": "0800656709E39BC5",
     "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-09-2027/event/0800656709E39BC5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-detroit-ford-field-6-9-2027--concerts-pop/production/7843387",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-09-2027/event/0800656709E39BC5",
     "last_verified_at": null,
@@ -2613,11 +2613,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7843387,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-detroit-ford-field-6-9-2027--concerts-pop/production/7843387",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2645,7 +2645,7 @@
     "ticketmaster_event_id": "00006569C17F8CB6",
     "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-19-2027/event/00006569C17F8CB6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-east-rutherford-metlife-stadium-6-19-2027--concerts-pop/production/7842649",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-east-rutherford-new-jersey-06-19-2027/event/00006569C17F8CB6",
     "last_verified_at": null,
@@ -2667,11 +2667,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7842649,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-east-rutherford-metlife-stadium-6-19-2027--concerts-pop/production/7842649",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

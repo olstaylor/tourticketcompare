@@ -1298,7 +1298,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70EfV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EfV",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-salt-lake-city-delta-center-11-1-2026/production/7047578",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EfV",
     "last_verified_at": "2026-11-10",
@@ -1320,11 +1320,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7047578,
-        "url": "https://www.vividseats.com/don-omar-tickets-salt-lake-city-delta-center-11-1-2026/production/7047578",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

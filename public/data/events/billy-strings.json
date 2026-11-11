@@ -1158,7 +1158,7 @@
     "ticketmaster_event_id": "0D006564F268B8E6",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-tampa-florida-04-06-2027/event/0D006564F268B8E6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-tampa-benchmark-international-arena-4-6-2027--concerts-country-and-folk/production/7841901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-tampa-florida-04-06-2027/event/0D006564F268B8E6",
     "last_verified_at": null,
@@ -1180,11 +1180,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7841901,
+        "url": "https://www.vividseats.com/billy-strings-tickets-tampa-benchmark-international-arena-4-6-2027--concerts-country-and-folk/production/7841901",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1212,7 +1212,7 @@
     "ticketmaster_event_id": "2D006569AB327B2A",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-16-2027/event/2D006569AB327B2A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-north-charleston-north-charleston-coliseum-4-16-2027--concerts-country-and-folk/production/7841907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-16-2027/event/2D006569AB327B2A",
     "last_verified_at": null,
@@ -1234,11 +1234,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7841907,
+        "url": "https://www.vividseats.com/billy-strings-tickets-north-charleston-north-charleston-coliseum-4-16-2027--concerts-country-and-folk/production/7841907",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1266,7 +1266,7 @@
     "ticketmaster_event_id": "2D006569AD267E65",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-17-2027/event/2D006569AD267E65",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-north-charleston-north-charleston-coliseum-4-17-2027--concerts-country-and-folk/production/7841915",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-north-charleston-south-carolina-04-17-2027/event/2D006569AD267E65",
     "last_verified_at": null,
@@ -1288,11 +1288,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7841915,
+        "url": "https://www.vividseats.com/billy-strings-tickets-north-charleston-north-charleston-coliseum-4-17-2027--concerts-country-and-folk/production/7841915",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1320,7 +1320,7 @@
     "ticketmaster_event_id": "2D006569DE36E413",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-greenville-south-carolina-04-21-2027/event/2D006569DE36E413",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-greenville-bon-secours-wellness-arena-4-21-2027--concerts-country-and-folk/production/7841919",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-greenville-south-carolina-04-21-2027/event/2D006569DE36E413",
     "last_verified_at": null,
@@ -1342,11 +1342,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7841919,
+        "url": "https://www.vividseats.com/billy-strings-tickets-greenville-bon-secours-wellness-arena-4-21-2027--concerts-country-and-folk/production/7841919",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1374,7 +1374,7 @@
     "ticketmaster_event_id": "2D006564D7EBCE50",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-23-2027/event/2D006564D7EBCE50",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-4-23-2027--concerts-country-and-folk/production/7841925",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-23-2027/event/2D006564D7EBCE50",
     "last_verified_at": null,
@@ -1396,11 +1396,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7841925,
+        "url": "https://www.vividseats.com/billy-strings-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-4-23-2027--concerts-country-and-folk/production/7841925",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1428,7 +1428,7 @@
     "ticketmaster_event_id": "2D006569B9E59501",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-24-2027/event/2D006569B9E59501",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-4-24-2027--concerts-country-and-folk/production/7841929",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-24-2027/event/2D006569B9E59501",
     "last_verified_at": null,
@@ -1450,11 +1450,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7841929,
+        "url": "https://www.vividseats.com/billy-strings-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-4-24-2027--concerts-country-and-folk/production/7841929",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1482,7 +1482,7 @@
     "ticketmaster_event_id": "20006569CB844642",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-04-2027/event/20006569CB844642",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-birmingham-legacy-arena-at-the-bjcc-6-4-2027--concerts-country-and-folk/production/7842025",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-04-2027/event/20006569CB844642",
     "last_verified_at": null,
@@ -1504,11 +1504,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7842025,
+        "url": "https://www.vividseats.com/billy-strings-tickets-birmingham-legacy-arena-at-the-bjcc-6-4-2027--concerts-country-and-folk/production/7842025",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1536,7 +1536,7 @@
     "ticketmaster_event_id": "20006569CB884644",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-05-2027/event/20006569CB884644",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-birmingham-legacy-arena-at-the-bjcc-6-5-2027--concerts-country-and-folk/production/7842027",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-birmingham-alabama-06-05-2027/event/20006569CB884644",
     "last_verified_at": null,
@@ -1558,11 +1558,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7842027,
+        "url": "https://www.vividseats.com/billy-strings-tickets-birmingham-legacy-arena-at-the-bjcc-6-5-2027--concerts-country-and-folk/production/7842027",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

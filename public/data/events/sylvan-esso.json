@@ -2008,7 +2008,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pxjk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxjk",
     "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-04-8-pm/concert/18299176",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-salt-lake-city-the-complex---rockwell-3-4-2027--concerts-dance-electronica/production/7144187",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxjk",
     "last_verified_at": "2026-11-10",
@@ -2030,11 +2030,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7144187,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-salt-lake-city-the-complex---rockwell-3-4-2027--concerts-dance-electronica/production/7144187",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

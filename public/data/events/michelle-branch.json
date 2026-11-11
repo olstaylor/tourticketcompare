@@ -873,7 +873,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7J3xd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J3xd",
     "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-11-11-7-30-pm/concert/18373510",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-minneapolis-first-avenue-11-11-2026/production/7291704",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J3xd",
     "last_verified_at": "2026-11-07",
@@ -895,11 +895,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7291704,
+        "url": "https://www.vividseats.com/michelle-branch-tickets-minneapolis-first-avenue-11-11-2026/production/7291704",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

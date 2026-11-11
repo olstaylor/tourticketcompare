@@ -134,7 +134,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PMZg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PMZg",
     "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/salt-lake-city-utah-the-grand-at-the-complex-2027-03-26-7-30-pm/concert/18662604",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-salt-lake-city-the-complex---the-grand-3-26-2027--concerts-rock/production/7235039",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PMZg",
     "last_verified_at": "2026-11-10",
@@ -156,11 +156,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7235039,
+        "url": "https://www.vividseats.com/vnv-nation-tickets-salt-lake-city-the-complex---the-grand-3-26-2027--concerts-rock/production/7235039",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

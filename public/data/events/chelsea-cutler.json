@@ -1665,7 +1665,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAefp4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp4",
     "seatgeek_url": "https://seatgeek.com/chelsea-cutler-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-09-7-pm/concert/18639209",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-salt-lake-city-the-complex---rockwell-3-9-2027--concerts-alternative/production/7637904",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp4",
     "last_verified_at": "2026-11-10",
@@ -1687,11 +1687,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637904,
+        "url": "https://www.vividseats.com/chelsea-cutler-tickets-salt-lake-city-the-complex---rockwell-3-9-2027--concerts-alternative/production/7637904",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

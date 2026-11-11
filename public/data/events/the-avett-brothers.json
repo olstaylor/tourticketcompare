@@ -92,7 +92,7 @@
     "ticketmaster_event_id": "22006567BE433B0A",
     "ticketmaster_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-19-2027/event/22006567BE433B0A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-avett-brothers-tickets-lake-buena-vista-house-of-blues-orlando-3-19-2027/production/7833565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-19-2027/event/22006567BE433B0A",
     "last_verified_at": "2026-11-10",
@@ -114,11 +114,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7833565,
+        "url": "https://www.vividseats.com/the-avett-brothers-tickets-lake-buena-vista-house-of-blues-orlando-3-19-2027/production/7833565",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -159,7 +159,7 @@
     "ticketmaster_event_id": "22006567BE473B0D",
     "ticketmaster_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-20-2027/event/22006567BE473B0D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-avett-brothers-tickets-lake-buena-vista-house-of-blues-orlando-3-20-2027/production/7833523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-20-2027/event/22006567BE473B0D",
     "last_verified_at": "2026-11-10",
@@ -181,11 +181,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7833523,
+        "url": "https://www.vividseats.com/the-avett-brothers-tickets-lake-buena-vista-house-of-blues-orlando-3-20-2027/production/7833523",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

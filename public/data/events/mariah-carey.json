@@ -389,7 +389,7 @@
     "ticketmaster_event_id": "37006556B4AF8B3E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/the-orangery-does-not-include-event-woodstock-01-07-2027/event/37006556B4AF8B3E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-woodstock-blenheim-palace-7-1-2027/production/7835402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-orangery-does-not-include-event-woodstock-01-07-2027/event/37006556B4AF8B3E",
     "last_verified_at": "2026-11-09",
@@ -411,11 +411,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835402,
+        "url": "https://www.vividseats.com/mariah-carey-tickets-woodstock-blenheim-palace-7-1-2027/production/7835402",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

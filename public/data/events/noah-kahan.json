@@ -2437,6 +2437,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107678752",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-berlin-waldbuhne-2-7-2027/event/107678752",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vGkooP-",
@@ -2463,7 +2470,8 @@
         "end": "2026-11-12T11:00:00Z"
       }
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-berlin-waldbuhne-2-7-2027/event/107678752"
   },
   {
     "id": "tm-noah-kahan-2027-milano-zg9rmiynyzfa6d",

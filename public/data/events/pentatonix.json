@@ -212,18 +212,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8194951",
-        "url": "https://www.ticketliquidator.com/tickets/8194951/Pentatonix-tickets-Mon-Nov-9-2026-Brick-Breeden-Fieldhouse",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZ-xZ",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194951",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194951/Pentatonix-tickets-Mon-Nov-9-2026-Brick-Breeden-Fieldhouse"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-pentatonix-2026-casper-g5vzz_2uvfg47",

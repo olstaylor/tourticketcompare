@@ -588,6 +588,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362140",
+        "url": "https://www.ticketliquidator.com/tickets/8362140/Karan-Aujla-tickets-Sat-Feb-13-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk40GkeWyzKR",
@@ -625,6 +632,7 @@
         "start": "2026-11-13T16:00:00Z",
         "end": "2027-02-09T18:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362140/Karan-Aujla-tickets-Sat-Feb-13-2027-United-Center"
   }
 ]

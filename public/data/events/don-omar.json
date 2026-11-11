@@ -1341,18 +1341,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7976501",
+        "url": "https://www.ticketliquidator.com/tickets/7976501/Don-Omar-tickets-Fri-Nov-13-2026-Delta-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EfV",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976501/Don-Omar-tickets-Fri-Nov-13-2026-Delta-Center",
     "ticketmaster_status_code": "rescheduled",
     "genre": "World"
   },

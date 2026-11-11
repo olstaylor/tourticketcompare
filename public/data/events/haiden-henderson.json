@@ -1239,12 +1239,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284335",
+        "url": "https://www.ticketliquidator.com/tickets/8284335/Haiden-Henderson-tickets-Thu-May-6-2027-The-Grand-At-The-Complex",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeeFa",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284335/Haiden-Henderson-tickets-Thu-May-6-2027-The-Grand-At-The-Complex"
   },
   {
     "id": "tm-haiden-henderson-2027-praha-5-z698xzu0z16v1ec67a",
@@ -1578,7 +1586,7 @@
         "event_id": "8284338",
         "url": "https://www.ticketliquidator.com/tickets/8284338/Haiden-Henderson-tickets-Wed-May-12-2027-Hawthorne-Lounge-at-Hawthorne-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-11",
         "availability_status": "listed"
       }
     },

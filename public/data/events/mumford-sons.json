@@ -112,6 +112,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361979",
+        "url": "https://www.ticketliquidator.com/tickets/8361979/Mumford-Sons-tickets-Mon-Jul-12-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4PGkd1yzSK",
@@ -140,6 +147,7 @@
         "start": "2026-11-12T16:00:00Z",
         "end": "2026-11-13T04:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361979/Mumford-Sons-tickets-Mon-Jul-12-2027-Scotiabank-Saddledome"
   }
 ]

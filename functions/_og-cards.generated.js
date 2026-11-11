@@ -1142,7 +1142,6 @@ export const OG_CARDS = {
   "/venues/td-garden-boston": {"url":"/og/venues-td-garden-boston.png","alt":"Concerts at: TD Garden"},
   "/venues/texas-trust-cu-theatre-grand-prairie": {"url":"/og/venues-texas-trust-cu-theatre-grand-prairie.png","alt":"Concerts at: Texas Trust CU Theatre"},
   "/venues/th-tre-capitole-quebec": {"url":"/og/venues-th-tre-capitole-quebec.png","alt":"Concerts at: Théâtre Capitole"},
-  "/venues/the-andrew-j-brady-music-center-cincinnati": {"url":"/og/venues-the-andrew-j-brady-music-center-cincinnati.png","alt":"Concerts at: The Andrew J Brady Music Center"},
   "/venues/the-anthem-washington": {"url":"/og/venues-the-anthem-washington.png","alt":"Concerts at: The Anthem"},
   "/venues/the-bomb-factory-dallas": {"url":"/og/venues-the-bomb-factory-dallas.png","alt":"Concerts at: The Bomb Factory"},
   "/venues/the-charleston-music-hall-charleston": {"url":"/og/venues-the-charleston-music-hall-charleston.png","alt":"Concerts at: The Charleston Music Hall"},

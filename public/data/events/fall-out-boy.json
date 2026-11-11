@@ -2375,11 +2375,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362650",
+        "url": "https://www.ticketliquidator.com/tickets/8362650/Fall-Out-Boy-tickets-Tue-Aug-24-2027-T-Mobile-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_p5FUbur",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T18:00:00Z"
+    "public_onsale_at": "2026-11-12T18:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362650/Fall-Out-Boy-tickets-Tue-Aug-24-2027-T-Mobile-Park"
   }
 ]

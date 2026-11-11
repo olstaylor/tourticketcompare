@@ -343,7 +343,6 @@ export const OG_CARDS = {
   "/artists/jay-z": {"url":"/og/artists-jay-z.png","alt":"Tickets & tour dates: JAY-Z"},
   "/artists/jelly-roll": {"url":"/og/artists-jelly-roll.png","alt":"Tickets & tour dates: Jelly Roll"},
   "/artists/jodeci": {"url":"/og/artists-jodeci.png","alt":"Tickets & tour dates: Jodeci"},
-  "/artists/jodeci/presale": {"url":"/og/artists-jodeci-presale.png","alt":"Presale: Jodeci"},
   "/artists/jodeci/ticket-prices": {"url":"/og/artists-jodeci-ticket-prices.png","alt":"Ticket prices: Jodeci"},
   "/artists/jodeci/tickets/charlotte-united-states": {"url":"/og/artists-jodeci-tickets-charlotte-united-states.png","alt":"Tickets: Jodeci in Charlotte"},
   "/artists/john-mayer": {"url":"/og/artists-john-mayer.png","alt":"Tickets & tour dates: John Mayer"},

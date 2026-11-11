@@ -2,9 +2,9 @@
 title: "Niall Horan tour tickets: listed prices city by city"
 seo_title: "Niall Horan tour ticket prices by city"
 description: "Niall Horan tour: the next date in 21 cities, $63.25 in Baltimore at the low end, $126.50 in New Orleans at the high end."
-summary: "TicketNetwork's lowest listed price for the next Niall Horan date in each of 21 cities, each figure with the time it was captured. Snapshots 10 November 2026."
+summary: "TicketNetwork's lowest listed price for the next Niall Horan date in each of 21 cities, each figure with the time it was captured. Snapshots 11 November 2026."
 date: 2026-10-24
-updated: 2026-11-10
+updated: 2026-11-11
 status: published
 tags:
   - tour-data
@@ -20,27 +20,27 @@ Niall Horan's Dinner Party Live On Tour has 30 dates that TourTicketCompare trac
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Baltimore](/artists/niall-horan/tickets/baltimore-united-states) | 8 April 2027 | CFG Bank Arena | $63.25 | TicketNetwork | 10 November, 17:56 UTC |
-| [Brooklyn](/artists/niall-horan/tickets/brooklyn-united-states) | 4 April 2027 | Barclays Center | $66.70 | TicketNetwork | 10 November, 17:56 UTC |
-| [Chicago](/artists/niall-horan/tickets/chicago-united-states) | 23 March 2027 | United Center | $72.45 | TicketNetwork | 10 November, 17:56 UTC |
-| [Columbus](/artists/niall-horan/tickets/columbus-united-states) | 20 March 2027 | Nationwide Arena | $72.45 | TicketNetwork | 10 November, 17:56 UTC |
-| [Austin](/artists/niall-horan/tickets/austin-united-states) | 14 May 2027 | Moody Center ATX | $74.75 | TicketNetwork | 10 November, 17:56 UTC |
-| [Saint Paul](/artists/niall-horan/tickets/saint-paul-united-states) | 17 March 2027 | Grand Casino Arena | $79.35 | TicketNetwork | 10 November, 17:56 UTC |
-| [Fort Worth](/artists/niall-horan/tickets/fort-worth-united-states) | 2 May 2027 | Ariat Arena | $82.80 | TicketNetwork | 10 November, 17:56 UTC |
-| [Detroit](/artists/niall-horan/tickets/detroit-united-states) | 19 March 2027 | Little Caesars Arena | $85.10 | TicketNetwork | 10 November, 17:56 UTC |
-| [Indianapolis](/artists/niall-horan/tickets/indianapolis-united-states) | 26 March 2027 | Gainbridge Fieldhouse | $86.25 | TicketNetwork | 10 November, 17:56 UTC |
-| [Orlando](/artists/niall-horan/tickets/orlando-united-states) | 17 April 2027 | Kia Center | $89.70 | TicketNetwork | 10 November, 17:56 UTC |
-| [Atlanta](/artists/niall-horan/tickets/atlanta-united-states) | 28 April 2027 | State Farm Arena | $90.85 | TicketNetwork | 10 November, 17:56 UTC |
-| [Denver](/artists/niall-horan/tickets/denver-united-states) | 16 May 2027 | Ball Arena | $92 | TicketNetwork | 10 November, 17:56 UTC |
-| [Boston](/artists/niall-horan/tickets/boston-united-states) | 12 April 2027 | TD Garden | $94.30 | TicketNetwork | 10 November, 17:56 UTC |
-| [Hartford](/artists/niall-horan/tickets/hartford-united-states) | 13 April 2027 | PeoplesBank Arena | $94.30 | TicketNetwork | 10 November, 17:57 UTC |
-| [Inglewood](/artists/niall-horan/tickets/inglewood-united-states) | 22 May 2027 | Kia Forum | $97.75 | TicketNetwork | 10 November, 17:56 UTC |
-| [Raleigh](/artists/niall-horan/tickets/raleigh-united-states) | 15 April 2027 | Lenovo Center | $103.50 | TicketNetwork | 10 November, 17:56 UTC |
-| [Phoenix](/artists/niall-horan/tickets/phoenix-united-states) | 20 May 2027 | Mortgage Matchup Center | $106.95 | TicketNetwork | 10 November, 17:56 UTC |
-| [Seattle](/artists/niall-horan/tickets/seattle-united-states) | 27 May 2027 | Climate Pledge Arena | $109.25 | TicketNetwork | 10 November, 17:56 UTC |
-| [San Francisco](/artists/niall-horan/tickets/san-francisco-united-states) | 25 May 2027 | Chase Center | $118.45 | TicketNetwork | 10 November, 17:56 UTC |
-| [Houston](/artists/niall-horan/tickets/houston-united-states) | 1 May 2027 | Toyota Center - TX | $124.20 | TicketNetwork | 10 November, 17:56 UTC |
-| [New Orleans](/artists/niall-horan/tickets/new-orleans-united-states) | 29 April 2027 | Smoothie King Center | $126.50 | TicketNetwork | 10 November, 17:56 UTC |
+| [Baltimore](/artists/niall-horan/tickets/baltimore-united-states) | 8 April 2027 | CFG Bank Arena | $63.25 | TicketNetwork | 11 November, 15:16 UTC |
+| [Brooklyn](/artists/niall-horan/tickets/brooklyn-united-states) | 4 April 2027 | Barclays Center | $66.70 | TicketNetwork | 11 November, 15:16 UTC |
+| [Columbus](/artists/niall-horan/tickets/columbus-united-states) | 20 March 2027 | Nationwide Arena | $69 | TicketNetwork | 11 November, 15:16 UTC |
+| [Chicago](/artists/niall-horan/tickets/chicago-united-states) | 23 March 2027 | United Center | $70.15 | TicketNetwork | 11 November, 15:16 UTC |
+| [Austin](/artists/niall-horan/tickets/austin-united-states) | 14 May 2027 | Moody Center ATX | $74.75 | TicketNetwork | 11 November, 15:16 UTC |
+| [Saint Paul](/artists/niall-horan/tickets/saint-paul-united-states) | 17 March 2027 | Grand Casino Arena | $79.35 | TicketNetwork | 11 November, 15:16 UTC |
+| [Fort Worth](/artists/niall-horan/tickets/fort-worth-united-states) | 2 May 2027 | Ariat Arena | $82.80 | TicketNetwork | 11 November, 15:16 UTC |
+| [Detroit](/artists/niall-horan/tickets/detroit-united-states) | 19 March 2027 | Little Caesars Arena | $85.10 | TicketNetwork | 11 November, 15:16 UTC |
+| [Indianapolis](/artists/niall-horan/tickets/indianapolis-united-states) | 26 March 2027 | Gainbridge Fieldhouse | $86.25 | TicketNetwork | 11 November, 15:16 UTC |
+| [Orlando](/artists/niall-horan/tickets/orlando-united-states) | 17 April 2027 | Kia Center | $89.70 | TicketNetwork | 11 November, 15:16 UTC |
+| [Atlanta](/artists/niall-horan/tickets/atlanta-united-states) | 28 April 2027 | State Farm Arena | $90.85 | TicketNetwork | 11 November, 15:16 UTC |
+| [Denver](/artists/niall-horan/tickets/denver-united-states) | 16 May 2027 | Ball Arena | $92 | TicketNetwork | 11 November, 15:16 UTC |
+| [Boston](/artists/niall-horan/tickets/boston-united-states) | 12 April 2027 | TD Garden | $94.30 | TicketNetwork | 11 November, 15:16 UTC |
+| [Hartford](/artists/niall-horan/tickets/hartford-united-states) | 13 April 2027 | PeoplesBank Arena | $94.30 | TicketNetwork | 11 November, 15:17 UTC |
+| [Inglewood](/artists/niall-horan/tickets/inglewood-united-states) | 22 May 2027 | Kia Forum | $97.75 | TicketNetwork | 11 November, 15:16 UTC |
+| [Raleigh](/artists/niall-horan/tickets/raleigh-united-states) | 15 April 2027 | Lenovo Center | $97.75 | TicketNetwork | 11 November, 15:16 UTC |
+| [Phoenix](/artists/niall-horan/tickets/phoenix-united-states) | 20 May 2027 | Mortgage Matchup Center | $106.95 | TicketNetwork | 11 November, 15:16 UTC |
+| [Seattle](/artists/niall-horan/tickets/seattle-united-states) | 27 May 2027 | Climate Pledge Arena | $109.25 | TicketNetwork | 11 November, 15:16 UTC |
+| [San Francisco](/artists/niall-horan/tickets/san-francisco-united-states) | 25 May 2027 | Chase Center | $118.45 | TicketNetwork | 11 November, 15:16 UTC |
+| [Houston](/artists/niall-horan/tickets/houston-united-states) | 1 May 2027 | Toyota Center - TX | $124.20 | TicketNetwork | 11 November, 15:16 UTC |
+| [New Orleans](/artists/niall-horan/tickets/new-orleans-united-states) | 29 April 2027 | Smoothie King Center | $126.50 | TicketNetwork | 11 November, 15:16 UTC |
 
 Each figure is the lowest listed price on TicketNetwork for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
@@ -50,26 +50,26 @@ Vivid Seats also had a recent listed price for the next date in 20 of these citi
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Saint Paul](/artists/niall-horan/tickets/saint-paul-united-states) | 17 March 2027 | Grand Casino Arena | $59 | Vivid Seats | 10 November, 13:02 UTC |
-| [Detroit](/artists/niall-horan/tickets/detroit-united-states) | 19 March 2027 | Little Caesars Arena | $63 | Vivid Seats | 10 November, 13:02 UTC |
-| [Columbus](/artists/niall-horan/tickets/columbus-united-states) | 20 March 2027 | Nationwide Arena | $61 | Vivid Seats | 10 November, 13:02 UTC |
-| [Chicago](/artists/niall-horan/tickets/chicago-united-states) | 23 March 2027 | United Center | $64 | Vivid Seats | 10 November, 13:02 UTC |
-| [Indianapolis](/artists/niall-horan/tickets/indianapolis-united-states) | 26 March 2027 | Gainbridge Fieldhouse | $80 | Vivid Seats | 10 November, 13:02 UTC |
-| [Brooklyn](/artists/niall-horan/tickets/brooklyn-united-states) | 4 April 2027 | Barclays Center | $77 | Vivid Seats | 10 November, 13:02 UTC |
-| [Baltimore](/artists/niall-horan/tickets/baltimore-united-states) | 8 April 2027 | CFG Bank Arena | $63 | Vivid Seats | 10 November, 13:02 UTC |
-| [Boston](/artists/niall-horan/tickets/boston-united-states) | 12 April 2027 | TD Garden | $91 | Vivid Seats | 10 November, 13:02 UTC |
-| [Hartford](/artists/niall-horan/tickets/hartford-united-states) | 13 April 2027 | PeoplesBank Arena | $85 | Vivid Seats | 10 November, 13:02 UTC |
-| [Raleigh](/artists/niall-horan/tickets/raleigh-united-states) | 15 April 2027 | Lenovo Center | $82 | Vivid Seats | 10 November, 13:02 UTC |
-| [Orlando](/artists/niall-horan/tickets/orlando-united-states) | 17 April 2027 | Kia Center | $66 | Vivid Seats | 10 November, 13:02 UTC |
-| [Atlanta](/artists/niall-horan/tickets/atlanta-united-states) | 28 April 2027 | State Farm Arena | $68 | Vivid Seats | 10 November, 13:02 UTC |
-| [New Orleans](/artists/niall-horan/tickets/new-orleans-united-states) | 29 April 2027 | Smoothie King Center | $95 | Vivid Seats | 10 November, 13:02 UTC |
-| [Houston](/artists/niall-horan/tickets/houston-united-states) | 1 May 2027 | Toyota Center - TX | $96 | Vivid Seats | 10 November, 13:02 UTC |
-| [Austin](/artists/niall-horan/tickets/austin-united-states) | 14 May 2027 | Moody Center ATX | $61 | Vivid Seats | 10 November, 13:02 UTC |
-| [Denver](/artists/niall-horan/tickets/denver-united-states) | 16 May 2027 | Ball Arena | $87 | Vivid Seats | 10 November, 13:02 UTC |
-| [Phoenix](/artists/niall-horan/tickets/phoenix-united-states) | 20 May 2027 | Mortgage Matchup Center | $93 | Vivid Seats | 10 November, 13:02 UTC |
-| [Inglewood](/artists/niall-horan/tickets/inglewood-united-states) | 22 May 2027 | Kia Forum | $82 | Vivid Seats | 10 November, 13:02 UTC |
-| [San Francisco](/artists/niall-horan/tickets/san-francisco-united-states) | 25 May 2027 | Chase Center | $87 | Vivid Seats | 10 November, 13:02 UTC |
-| [Seattle](/artists/niall-horan/tickets/seattle-united-states) | 27 May 2027 | Climate Pledge Arena | $84 | Vivid Seats | 10 November, 13:02 UTC |
+| [Saint Paul](/artists/niall-horan/tickets/saint-paul-united-states) | 17 March 2027 | Grand Casino Arena | $59 | Vivid Seats | 11 November, 16:39 UTC |
+| [Detroit](/artists/niall-horan/tickets/detroit-united-states) | 19 March 2027 | Little Caesars Arena | $65 | Vivid Seats | 11 November, 16:39 UTC |
+| [Columbus](/artists/niall-horan/tickets/columbus-united-states) | 20 March 2027 | Nationwide Arena | $55 | Vivid Seats | 11 November, 16:39 UTC |
+| [Chicago](/artists/niall-horan/tickets/chicago-united-states) | 23 March 2027 | United Center | $65 | Vivid Seats | 11 November, 16:39 UTC |
+| [Indianapolis](/artists/niall-horan/tickets/indianapolis-united-states) | 26 March 2027 | Gainbridge Fieldhouse | $77 | Vivid Seats | 11 November, 16:39 UTC |
+| [Brooklyn](/artists/niall-horan/tickets/brooklyn-united-states) | 4 April 2027 | Barclays Center | $77 | Vivid Seats | 11 November, 16:39 UTC |
+| [Baltimore](/artists/niall-horan/tickets/baltimore-united-states) | 8 April 2027 | CFG Bank Arena | $63 | Vivid Seats | 11 November, 16:39 UTC |
+| [Boston](/artists/niall-horan/tickets/boston-united-states) | 12 April 2027 | TD Garden | $91 | Vivid Seats | 11 November, 16:39 UTC |
+| [Hartford](/artists/niall-horan/tickets/hartford-united-states) | 13 April 2027 | PeoplesBank Arena | $87 | Vivid Seats | 11 November, 16:39 UTC |
+| [Raleigh](/artists/niall-horan/tickets/raleigh-united-states) | 15 April 2027 | Lenovo Center | $82 | Vivid Seats | 11 November, 16:39 UTC |
+| [Orlando](/artists/niall-horan/tickets/orlando-united-states) | 17 April 2027 | Kia Center | $66 | Vivid Seats | 11 November, 16:39 UTC |
+| [Atlanta](/artists/niall-horan/tickets/atlanta-united-states) | 28 April 2027 | State Farm Arena | $73 | Vivid Seats | 11 November, 16:39 UTC |
+| [New Orleans](/artists/niall-horan/tickets/new-orleans-united-states) | 29 April 2027 | Smoothie King Center | $95 | Vivid Seats | 11 November, 16:39 UTC |
+| [Houston](/artists/niall-horan/tickets/houston-united-states) | 1 May 2027 | Toyota Center - TX | $96 | Vivid Seats | 11 November, 16:39 UTC |
+| [Austin](/artists/niall-horan/tickets/austin-united-states) | 14 May 2027 | Moody Center ATX | $61 | Vivid Seats | 11 November, 16:39 UTC |
+| [Denver](/artists/niall-horan/tickets/denver-united-states) | 16 May 2027 | Ball Arena | $87 | Vivid Seats | 11 November, 16:39 UTC |
+| [Phoenix](/artists/niall-horan/tickets/phoenix-united-states) | 20 May 2027 | Mortgage Matchup Center | $93 | Vivid Seats | 11 November, 16:39 UTC |
+| [Inglewood](/artists/niall-horan/tickets/inglewood-united-states) | 22 May 2027 | Kia Forum | $82 | Vivid Seats | 11 November, 16:39 UTC |
+| [San Francisco](/artists/niall-horan/tickets/san-francisco-united-states) | 25 May 2027 | Chase Center | $87 | Vivid Seats | 11 November, 16:39 UTC |
+| [Seattle](/artists/niall-horan/tickets/seattle-united-states) | 27 May 2027 | Climate Pledge Arena | $84 | Vivid Seats | 11 November, 16:39 UTC |
 
 ## How this was worked out
 

@@ -1098,7 +1098,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-park-city-heartland-credit-union-arena-2-20-2027/production/7565013",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-park-city-kansas-02-20-2027/event/0600652BAAEAA01F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1139,6 +1139,11 @@
         "name": "VIP Package Public Onsale",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-02-14T04:00:00Z"
+      },
+      {
+        "name": "Black Friday Special Deal",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T04:00:00Z"
       }
     ],
     "organizer_names": [
@@ -1162,7 +1167,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-albuquerque-new-mexico-02-25-2027/event/1E00652BA02E740F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1203,6 +1208,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-02-19T05:00:00Z"
+      },
+      {
+        "name": "TMNTXO",
+        "start": "2026-11-27T17:00:00Z",
+        "end": "2027-01-01T06:59:00Z"
       }
     ],
     "organizer_names": [
@@ -1385,7 +1395,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-kennewick-toyota-center---kennewick-3-4-2027/production/7564587",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-kennewick-washington-03-04-2027/event/0F00652A8CEE53BC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1442,6 +1452,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-09-25T17:00:00Z",
         "end": "2027-02-26T06:00:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-27T18:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
       }
     ],
     "organizer_names": [

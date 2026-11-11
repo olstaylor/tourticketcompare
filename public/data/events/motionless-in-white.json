@@ -770,7 +770,7 @@
     "city": "Newark",
     "country": "United States Of America",
     "venue": "Prudential Center",
-    "datetime_iso": "2026-11-19T23:30:00Z",
+    "datetime_iso": "2026-11-19T23:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "020064BCC422349F",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-newark-new-jersey-11-19-2026/event/020064BCC422349F",
@@ -778,7 +778,7 @@
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-newark-prudential-center-11-19-2026/production/7108780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-newark-new-jersey-11-19-2026/event/020064BCC422349F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

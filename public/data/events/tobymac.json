@@ -1679,7 +1679,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fishers-fishers-event-center-3-5-2027--concerts-adult-contemporary/production/7492523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fishers-indiana-03-05-2027/event/05006515C676EDEE",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1735,7 +1735,14 @@
       "AWAKENING EVENTS"
     ],
     "ticket_limit": 8,
-    "genre": "Religious"
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "Holiday Deals Offer",
+        "start": "2026-11-16T15:00:00Z",
+        "end": "2027-01-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-cape-girardeau-z7r9jz1aav8-f",

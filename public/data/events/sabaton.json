@@ -1396,7 +1396,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-salt-lake-city-utah-11-17-2026/event/1E006328C1141760",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1447,13 +1447,6 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "VIP Onsale",
-        "start": "2025-09-19T16:00:00Z",
-        "end": "2026-11-11T05:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410010",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410010/Sabaton-tickets-Tue-Nov-17-2026-The-Union-Event-Center",
     "organizer_names": [
@@ -2422,7 +2415,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-atlanta-georgia-12-08-2026/event/0E006329A34D31F8",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2474,16 +2467,6 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2025-09-19T14:00:00Z",
-        "end": "2026-11-11T03:00:00Z"
-      },
-      {
-        "name": "Verizon Access Select Seats",
-        "start": "2025-09-19T14:00:00Z",
-        "end": "2026-11-11T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2025-09-19T14:00:00Z",

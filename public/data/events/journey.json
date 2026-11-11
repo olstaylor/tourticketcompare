@@ -1901,7 +1901,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1937,7 +1937,29 @@
     "ticketmaster_discovery_event_id": "1kAYvP_vGACrkE8",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z"
+    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "APE Presale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Caesars Rewards Presale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-journey-2027-stateline-1kayvp_vgacljep",
@@ -1955,7 +1977,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1991,6 +2013,28 @@
     "ticketmaster_discovery_event_id": "1kAYvP_vGACLJEp",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z"
+    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "APE Presale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Caesars Rewards Presale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      }
+    ]
   }
 ]

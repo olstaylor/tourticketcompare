@@ -1255,7 +1255,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-san-antonio-frost-bank-center-11-14-2026--concerts-pop/production/7446292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-antonio-texas-11-14-2026/event/3A00650DB2F7A71E",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1318,13 +1318,6 @@
     "organizer_names": [
       "LIVE NATION MUSIC",
       "COMMUNITY ARENA MANAGEMENT"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T15:00:00Z",
-        "end": "2026-11-10T18:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"
@@ -2343,7 +2336,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-lincoln-pinnacle-bank-arena-12-10-2026--concerts-pop/production/7446344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lincoln-nebraska-12-10-2026/event/0600650DED6F1F8D",
-    "last_verified_at": "2026-11-09",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2399,11 +2392,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-21T15:00:00Z",
-        "end": "2026-11-11T04:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-21T15:00:00Z",

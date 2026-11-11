@@ -1686,7 +1686,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-tampa-benchmark-international-arena-4-25-2027/production/7833247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-tampa-florida-04-25-2027/event/0D006546A0E16EC9",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1754,6 +1754,11 @@
         "name": "Ticketmaster Presale",
         "start": "2026-11-12T15:00:00Z",
         "end": "2026-11-13T14:45:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2026-11-13T14:59:00Z"
       },
       {
         "name": "VIP Packages Onsale",

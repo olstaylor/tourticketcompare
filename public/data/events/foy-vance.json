@@ -794,7 +794,7 @@
     "city": "Boise",
     "country": "United States Of America",
     "venue": "Knitting Factory - Boise",
-    "datetime_iso": "2026-11-17T03:00:00Z",
+    "datetime_iso": "2026-11-17T02:30:00Z",
     "tour_name": "The Wake World Tour",
     "ticketmaster_event_id": "1E006451B06AAE90",
     "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boise-idaho-11-16-2026/event/1E006451B06AAE90",
@@ -802,7 +802,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boise-idaho-11-16-2026/event/1E006451B06AAE90",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

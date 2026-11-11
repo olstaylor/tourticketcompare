@@ -1839,7 +1839,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-windsor-the-colosseum-at-caesars-windsor-3-7-2027--concerts-pop/production/7559692",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-windsor-ontario-03-07-2027/event/1000652A197A3080",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1883,6 +1883,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-02-27T03:00:00Z"
+      },
+      {
+        "name": "2 for 1 Tickets Special Offer",
+        "start": "2026-11-27T08:00:00Z",
+        "end": "2027-01-01T04:59:00Z"
       }
     ],
     "ticket_limit": 6,

@@ -2393,7 +2393,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-phoenix-mortgage-matchup-center-4-15-2027/production/7824768",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-phoenix-arizona-04-15-2027/event/19006563CAE45F83",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2462,14 +2462,14 @@
         "end": "2026-11-11T16:00:00Z"
       },
       {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-10T16:00:00Z",
+        "end": "2026-11-11T16:00:00Z"
+      },
+      {
         "name": "Preferred Seating",
         "start": "2026-11-10T16:00:00Z",
         "end": "2027-04-16T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T16:00:00Z"
       },
       {
         "name": "Artist Presale",
@@ -2845,7 +2845,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-tlajomulco-de-zuniga-13-05-2027/event/3D0065648A93419E",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2888,11 +2888,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Preventa Banamex",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T05:59:00Z"
-      },
-      {
         "name": "Preventa Banamex Paquetes VIP",
         "start": "2026-11-10T17:00:00Z",
         "end": "2026-11-11T15:00:00Z"
@@ -2930,7 +2925,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-21-05-2027/event/1400655FE8938938",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2973,11 +2968,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Preventa Banamex",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T05:59:00Z"
-      },
-      {
         "name": "Preventa Banamex Paquetes VIP",
         "start": "2026-11-10T17:00:00Z",
         "end": "2026-11-11T15:00:00Z"
@@ -3015,7 +3005,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-22-05-2027/event/1400655FE8938944",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3051,6 +3041,10 @@
     "ticketmaster_discovery_event_id": "1Av8Z_4GkTI0zP7",
     "timezone": "America/Mexico_City",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z"
+    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "genre": "Latin"
   }
 ]

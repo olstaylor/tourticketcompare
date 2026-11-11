@@ -94,7 +94,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-vancouver-british-columbia-05-19-2027/event/11006565A5686179",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -146,12 +146,22 @@
         "end": "2026-11-18T21:00:00Z"
       },
       {
-        "name": "Artist Presale",
+        "name": "Artist Sign Up Presale",
         "start": "2026-11-18T22:00:00Z",
         "end": "2026-11-19T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2027-05-15T19:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361523/Stray-Kids-tickets-Wed-May-19-2027-BC-Place-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361523/Stray-Kids-tickets-Wed-May-19-2027-BC-Place-Stadium",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4
   },
   {
     "id": "tm-stray-kids-2027-santa-clara-g5vyz_p1srtgv",

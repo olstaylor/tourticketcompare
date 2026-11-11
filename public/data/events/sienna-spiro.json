@@ -3692,7 +3692,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/sienna-spiro-my-house-tour-dublin-16-06-2027/event/1800655D819F509B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3728,6 +3728,27 @@
     "ticketmaster_discovery_event_id": "1AvOZ_4GkUvEgeh",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T10:00:00Z"
+    "public_onsale_at": "2026-11-13T10:00:00Z",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ],
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-11T10:00:00Z",
+        "end": "2026-11-13T09:00:00Z"
+      },
+      {
+        "name": "MCD Presale",
+        "start": "2026-11-12T10:00:00Z",
+        "end": "2026-11-13T09:00:00Z"
+      },
+      {
+        "name": "Waitlist Presale",
+        "start": "2026-11-12T12:00:00Z",
+        "end": "2026-11-13T09:00:00Z"
+      }
+    ]
   }
 ]

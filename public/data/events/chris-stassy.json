@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/chris-stassy-west-footscray-27-02-2027/event/25006554A956455B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -51,6 +51,23 @@
     "ticketmaster_discovery_event_id": "1APZk4fGket404h",
     "timezone": "Australia/Melbourne",
     "status": "announced",
-    "public_onsale_at": "2026-11-17T01:00:00Z"
+    "public_onsale_at": "2026-11-17T01:00:00Z",
+    "organizer_names": [
+      "UNTITLED GROUP"
+    ],
+    "ticket_limit": 4,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-16T01:00:00Z",
+        "end": "2026-11-17T00:00:00Z"
+      },
+      {
+        "name": "Untitled Presale",
+        "start": "2026-11-16T01:00:00Z",
+        "end": "2026-11-17T00:00:00Z"
+      }
+    ]
   }
 ]

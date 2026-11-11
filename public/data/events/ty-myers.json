@@ -136,7 +136,7 @@
     "vividseats_url": "https://www.vividseats.com/ty-myers-tickets-austin-moody-center-atx-11-20-2026--concerts-country-and-folk/production/6828458",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-austin-texas-11-20-2026/event/3A00646DA0949E2B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -200,9 +200,9 @@
     ],
     "presales": [
       {
-        "name": "VIP Package Onsale",
-        "start": "2026-04-03T15:00:00Z",
-        "end": "2026-11-10T23:00:00Z"
+        "name": "Last Chance Offer",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2026-11-16T04:00:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7830817",

@@ -790,7 +790,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-windsor-the-colosseum-at-caesars-windsor-3-17-2027/production/7519353",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-windsor-ontario-03-17-2027/event/1000651FD69D54F8",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -830,7 +830,14 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "2 for 1 Tickets Special Offer",
+        "start": "2026-11-27T08:00:00Z",
+        "end": "2027-01-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-theory-of-a-deadman-2027-thunder-bay-1avzz_ogkrpopru",

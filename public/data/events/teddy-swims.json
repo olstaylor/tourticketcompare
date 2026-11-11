@@ -2132,7 +2132,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-sacramento-golden-1-center-11-11-2026--concerts-rb/production/6912016",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-sacramento-california-11-11-2026/event/1C00648DF18D8FCC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2192,13 +2192,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883122",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883122/Teddy-Swims-tickets-Wed-Nov-11-2026-Golden-1-Center",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-sacramento-tickets-11-11-2026/event/107158278",
-    "presales": [
-      {
-        "name": "T-Mobile® Reserved Tickets",
-        "start": "2026-10-11T16:00:00Z",
-        "end": "2026-11-11T06:00:00Z"
-      }
-    ],
     "organizer_names": [
       "AEG LIVE"
     ],

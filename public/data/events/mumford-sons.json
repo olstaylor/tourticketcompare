@@ -81,7 +81,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mumford-sons-stampede-concert-series-calgary-alberta-07-12-2027/event/11006565CAE78CD3",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -134,11 +134,6 @@
     "presales": [
       {
         "name": "Stampede Insider Presale",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      },
-      {
-        "name": "Uber Eats Presale",
         "start": "2026-11-10T16:00:00Z",
         "end": "2026-11-12T04:00:00Z"
       },

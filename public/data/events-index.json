@@ -20161,7 +20161,7 @@
     "artist_name": "Lukas Graham",
     "country": "United States Of America",
     "city": "Atlanta",
-    "venue": "Buckhead Theatre",
+    "venue": "Buckhead Theatre by SCANA Energy",
     "datetime_iso": "2027-03-05T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
@@ -23846,7 +23846,7 @@
     "country": "United States Of America",
     "city": "Boise",
     "venue": "Knitting Factory - Boise",
-    "datetime_iso": "2026-11-17T03:00:00Z",
+    "datetime_iso": "2026-11-17T02:30:00Z",
     "timezone": "America/Denver",
     "tour_name": "The Wake World Tour",
     "status": "on-sale"
@@ -35749,7 +35749,7 @@
     "artist_name": "Saint Levant",
     "country": "United States Of America",
     "city": "Atlanta",
-    "venue": "Buckhead Theatre",
+    "venue": "Buckhead Theatre by SCANA Energy",
     "datetime_iso": "2027-04-19T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
@@ -36614,7 +36614,7 @@
     "country": "United Arab Emirates",
     "city": "Abu Dhabi",
     "venue": "Etihad Arena, Yas Island",
-    "datetime_iso": "2026-11-13T14:30:00Z",
+    "datetime_iso": "2026-11-13T16:30:00Z",
     "timezone": "Asia/Dubai",
     "tour_name": "",
     "status": "on-sale"
@@ -50198,7 +50198,7 @@
     "country": "United States Of America",
     "city": "Washington",
     "venue": "The Anthem",
-    "datetime_iso": "2026-11-28T01:00:00Z",
+    "datetime_iso": "2026-11-28T02:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -59102,7 +59102,7 @@
     "country": "United States Of America",
     "city": "Newark",
     "venue": "Prudential Center",
-    "datetime_iso": "2026-11-19T23:30:00Z",
+    "datetime_iso": "2026-11-19T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -61241,7 +61241,7 @@
     "datetime_iso": "2027-03-25T03:00:00Z",
     "timezone": "America/Mexico_City",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-earth-wind-fire-2027-pompano-beach-z7r9jz1aaazue",

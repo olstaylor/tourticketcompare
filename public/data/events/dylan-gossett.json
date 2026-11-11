@@ -2104,7 +2104,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-la-vista-astro-theater-5-8-2027/production/7644180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-la-vista-nebraska-05-08-2027/event/2000653C96F82664",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2144,7 +2144,14 @@
       "MAMMOTH INC"
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "TM Holiday Offer",
+        "start": "2026-11-27T06:00:00Z",
+        "end": "2027-01-01T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-austin-g5diz_fkdqvvu",

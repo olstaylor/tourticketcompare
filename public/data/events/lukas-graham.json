@@ -87,7 +87,7 @@
     "event_name": "Lukas Graham",
     "city": "Atlanta",
     "country": "United States Of America",
-    "venue": "Buckhead Theatre",
+    "venue": "Buckhead Theatre by SCANA Energy",
     "datetime_iso": "2027-03-05T01:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0E0065331C5F83C2",
@@ -96,7 +96,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-atlanta-buckhead-theatre-3-4-2027--concerts-pop/production/7600468",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

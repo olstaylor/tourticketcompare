@@ -1608,5 +1608,58 @@
         "end": "2027-09-24T03:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-the-dead-south-2027-regina-z7r9jz1aaakfg",
+    "artist_slug": "the-dead-south",
+    "artist_name": "The Dead South",
+    "event_name": "The Dead South",
+    "city": "Regina",
+    "country": "Canada",
+    "venue": "Conexus Performing Arts Center",
+    "datetime_iso": "2027-10-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkfg",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkfg",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkfg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkfg",
+        "discovery_event_id": "Z7r9jZ1AAAkfg",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkfg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkfg",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

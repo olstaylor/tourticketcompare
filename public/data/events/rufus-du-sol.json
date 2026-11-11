@@ -67,5 +67,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300560",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300560/Rufus-Du-Sol-tickets-Sun-Jan-3-2027-Pier-80-San-Francisco"
+  },
+  {
+    "id": "tm-rufus-du-sol-2026-las-vegas-z7r9jz1aav9uy",
+    "artist_slug": "rufus-du-sol",
+    "artist_name": "RUFUS DU SOL",
+    "event_name": "Rufus Du Sol - Ages 21+",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "XS Nightclub at Wynn Las Vegas",
+    "datetime_iso": "2026-11-23T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv9uy",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uy",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uy",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv9uy",
+        "discovery_event_id": "Z7r9jZ1AAv9uy",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uy",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv9uy",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

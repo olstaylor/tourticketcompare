@@ -3046,5 +3046,59 @@
       "OCESA"
     ],
     "genre": "Latin"
+  },
+  {
+    "id": "tm-feid-2027-brooklyn-1ayzk4tgkdul9aj",
+    "artist_slug": "feid",
+    "artist_name": "FEID",
+    "event_name": "FEID - FERXXO - THE GREEN STAR Tour 2027",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2027-03-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006569F6AD725C",
+    "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-04-2027/event/30006569F6AD725C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-04-2027/event/30006569F6AD725C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006569F6AD725C",
+        "discovery_event_id": "1AYZk4tGkdUl9aj",
+        "url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-04-2027/event/30006569F6AD725C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AYZk4tGkdUl9aj",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T15:00:00Z"
   }
 ]

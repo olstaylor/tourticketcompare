@@ -1434,5 +1434,113 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "genre": "Country"
+  },
+  {
+    "id": "tm-garth-brooks-2027-north-little-rock-g5viz_ploilrd",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "North Little Rock",
+    "country": "United States Of America",
+    "venue": "Simmons Bank Arena",
+    "datetime_iso": "2027-02-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656AD1B1F783",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-05-2027/event/1B00656AD1B1F783",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-05-2027/event/1B00656AD1B1F783",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656AD1B1F783",
+        "discovery_event_id": "G5viZ_ploiLrd",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-05-2027/event/1B00656AD1B1F783",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_ploiLrd",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-garth-brooks-2027-north-little-rock-g5viz_plkwtt5",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "North Little Rock",
+    "country": "United States Of America",
+    "venue": "Simmons Bank Arena",
+    "datetime_iso": "2027-02-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656AD3F7FA4B",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-06-2027/event/1B00656AD3F7FA4B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-06-2027/event/1B00656AD3F7FA4B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656AD3F7FA4B",
+        "discovery_event_id": "G5viZ_plKWTt5",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-06-2027/event/1B00656AD3F7FA4B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_plKWTt5",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
   }
 ]

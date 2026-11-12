@@ -744,7 +744,7 @@
     "ticketmaster_event_id": "3E006506B20D1765",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-24-2027/production/7428676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
     "last_verified_at": "2026-11-07",
@@ -766,11 +766,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7428676,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-24-2027/production/7428676",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

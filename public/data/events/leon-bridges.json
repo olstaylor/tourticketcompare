@@ -2423,7 +2423,7 @@
     "ticketmaster_event_id": "0A00655E83173335",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-honolulu-hawaii-02-20-2027/event/0A00655E83173335",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-honolulu-tom-moffatt-waikiki-shell-2-20-2027/production/7847587",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-honolulu-hawaii-02-20-2027/event/0A00655E83173335",
     "last_verified_at": "2026-11-11",
@@ -2445,11 +2445,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7847587,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-honolulu-tom-moffatt-waikiki-shell-2-20-2027/production/7847587",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

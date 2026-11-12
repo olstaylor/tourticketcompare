@@ -191118,7 +191118,7 @@
     "ticketmaster_event_id": "3E006506B20D1765",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-24-2027/production/7428676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
     "last_verified_at": "2026-11-07",
@@ -191140,11 +191140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7428676,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-24-2027/production/7428676",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -268138,7 +268138,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvy-U",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvy-U",
     "seatgeek_url": "https://seatgeek.com/the-lemonheads-tickets/roseville-california-goldfield-trading-post-roseville-2027-03-05-7-pm/concert/18595332",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-roseville-goldfield-trading-post---roseville-3-5-2027/production/7580487",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvy-U",
     "last_verified_at": "2026-11-07",
@@ -268160,11 +268160,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7580487,
+        "url": "https://www.vividseats.com/the-lemonheads-tickets-roseville-goldfield-trading-post---roseville-3-5-2027/production/7580487",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -276729,7 +276729,7 @@
     "ticketmaster_event_id": "1E0064B4954A8177",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
     "seatgeek_url": "https://seatgeek.com/arcangel-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-18-8-pm/concert/18266330",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-18-2026--concerts-rap-hip-hop/production/7079517",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
     "last_verified_at": "2026-11-07",
@@ -276751,11 +276751,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7079517,
+        "url": "https://www.vividseats.com/arcangel-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-18-2026--concerts-rap-hip-hop/production/7079517",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -311722,7 +311722,7 @@
     "ticketmaster_event_id": "36006507844A10F8",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/brandi-carlile-london-14-04-2027/event/36006507844A10F8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-london-eventim-apollo-4-14-2027--concerts-rock/production/7416247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-london-14-04-2027/event/36006507844A10F8",
     "last_verified_at": "2026-11-07",
@@ -311744,11 +311744,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7416247,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-london-eventim-apollo-4-14-2027--concerts-rock/production/7416247",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -334987,7 +334987,7 @@
     "ticketmaster_event_id": "1F00652787E0116B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/cage-the-elephant-london-01-03-2027/event/1F00652787E0116B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cage-the-elephant-tickets-london-alexandra-palace-3-1-2027/production/7537065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-london-01-03-2027/event/1F00652787E0116B",
     "last_verified_at": "2026-11-07",
@@ -335009,11 +335009,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7537065,
+        "url": "https://www.vividseats.com/cage-the-elephant-tickets-london-alexandra-palace-3-1-2027/production/7537065",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -337595,7 +337595,7 @@
     "ticketmaster_event_id": "1306451961",
     "ticketmaster_url": "https://www.ticketmaster.de/event/noah-kahan-the-last-of-the-bugs-world-tour-tickets/1306451961?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-berlin-waldbuhne-berlin-7-2-2027--concerts-pop/production/7773199",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/noah-kahan-the-last-of-the-bugs-world-tour-tickets/1306451961?language=en-us",
     "last_verified_at": "2026-11-10",
@@ -337617,11 +337617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7773199,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-berlin-waldbuhne-berlin-7-2-2027--concerts-pop/production/7773199",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -363025,7 +363025,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAed_7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_7",
     "seatgeek_url": "https://seatgeek.com/jodeci-tickets/cleveland-ohio-keybank-state-theatre-at-playhouse-square-2026-11-14-8-pm/concert/18407250",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jodeci-tickets-cleveland-playhouse-square---keybank-state-theatre-11-14-2026/production/7354406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_7",
     "last_verified_at": "2026-11-07",
@@ -363047,11 +363047,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7354406,
+        "url": "https://www.vividseats.com/jodeci-tickets-cleveland-playhouse-square---keybank-state-theatre-11-14-2026/production/7354406",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -382326,7 +382326,7 @@
     "ticketmaster_event_id": "1100656588AA3760",
     "ticketmaster_url": "https://www.ticketmaster.ca/kings-of-leon-vancouver-british-columbia-09-14-2027/event/1100656588AA3760",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-vancouver-rogers-arena-9-14-2027/production/7824434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/kings-of-leon-vancouver-british-columbia-09-14-2027/event/1100656588AA3760",
     "last_verified_at": "2026-11-11",
@@ -382348,11 +382348,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824434,
+        "url": "https://www.vividseats.com/kings-of-leon-tickets-vancouver-rogers-arena-9-14-2027/production/7824434",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -388766,7 +388766,7 @@
     "ticketmaster_event_id": "1F006549053985E4",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-transport-exeter-27-06-2027/event/1F006549053985E4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-exeter-powderham-castle-6-27-2027/production/7835392",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-transport-exeter-27-06-2027/event/1F006549053985E4",
     "last_verified_at": "2026-11-09",
@@ -388788,11 +388788,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835392,
+        "url": "https://www.vividseats.com/mariah-carey-tickets-exeter-powderham-castle-6-27-2027/production/7835392",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -388825,7 +388825,7 @@
     "ticketmaster_event_id": "1F006549E80E6750",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-cardiff-29-06-2027/event/1F006549E80E6750",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-cardiff-cardiff-castle-6-29-2027/production/7835386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-cardiff-29-06-2027/event/1F006549E80E6750",
     "last_verified_at": "2026-11-09",
@@ -388847,11 +388847,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835386,
+        "url": "https://www.vividseats.com/mariah-carey-tickets-cardiff-cardiff-castle-6-29-2027/production/7835386",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -388973,7 +388973,7 @@
     "ticketmaster_event_id": "35006557D2F1A63F",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-scarborough-03-07-2027/event/35006557D2F1A63F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-scarborough-scarborough-open-air-theatre-7-3-2027/production/7835398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-scarborough-03-07-2027/event/35006557D2F1A63F",
     "last_verified_at": "2026-11-09",
@@ -388995,11 +388995,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835398,
+        "url": "https://www.vividseats.com/mariah-carey-tickets-scarborough-scarborough-open-air-theatre-7-3-2027/production/7835398",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -389179,7 +389179,7 @@
     "ticketmaster_event_id": "412819502",
     "ticketmaster_url": "https://www.ticketmaster.es/event/fall-out-boy-twilight-of-the-punks-tickets/412819502?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-madrid-movistar-arena---madrid-5-23-2027--concerts-rock/production/7835272",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/fall-out-boy-twilight-of-the-punks-tickets/412819502?language=en-us",
     "last_verified_at": "2026-11-10",
@@ -389201,11 +389201,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835272,
+        "url": "https://www.vividseats.com/fall-out-boy-tickets-madrid-movistar-arena---madrid-5-23-2027--concerts-rock/production/7835272",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -392476,7 +392476,7 @@
     "ticketmaster_event_id": "10006565BE018B4F",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-toronto-ontario-09-30-2027/event/10006565BE018B4F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-toronto-massey-hall---allied-music-centre-9-30-2027/production/7834163",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-toronto-ontario-09-30-2027/event/10006565BE018B4F",
     "last_verified_at": "2026-11-10",
@@ -392498,11 +392498,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834163,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-toronto-massey-hall---allied-music-centre-9-30-2027/production/7834163",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -395898,7 +395898,7 @@
     "ticketmaster_event_id": "3A00654ED39BFDB7",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-antonio-texas-04-29-2027/event/3A00654ED39BFDB7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-san-antonio-frost-bank-center-4-29-2027--concerts-latin-music/production/7842721",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-antonio-texas-04-29-2027/event/3A00654ED39BFDB7",
     "last_verified_at": "2026-11-10",
@@ -395920,11 +395920,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7842721,
+        "url": "https://www.vividseats.com/marc-anthony-tickets-san-antonio-frost-bank-center-4-29-2027--concerts-latin-music/production/7842721",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -396643,7 +396643,7 @@
     "ticketmaster_event_id": "02006569EE79EB01",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-harrisburg-pennsylvania-08-06-2027/event/02006569EE79EB01",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-harrisburg-riverfront-park---harrisburg-8-6-2027/production/7849169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-harrisburg-pennsylvania-08-06-2027/event/02006569EE79EB01",
     "last_verified_at": "2026-11-11",
@@ -396665,11 +396665,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7849169,
+        "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-harrisburg-riverfront-park---harrisburg-8-6-2027/production/7849169",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -397035,7 +397035,7 @@
     "ticketmaster_event_id": "170065641E7869D0",
     "ticketmaster_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-21-2027--concerts-rock/production/7850919",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
     "last_verified_at": "2026-11-11",
@@ -397057,11 +397057,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7850919,
+        "url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-21-2027--concerts-rock/production/7850919",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -397111,7 +397111,7 @@
     "ticketmaster_event_id": "170065641E7E69D6",
     "ticketmaster_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-23-2027--concerts-rock/production/7850921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
     "last_verified_at": "2026-11-11",
@@ -397133,11 +397133,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7850921,
+        "url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-23-2027--concerts-rock/production/7850921",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -397187,7 +397187,7 @@
     "ticketmaster_event_id": "0A00655E83173335",
     "ticketmaster_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-honolulu-hawaii-02-20-2027/event/0A00655E83173335",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-honolulu-tom-moffatt-waikiki-shell-2-20-2027/production/7847587",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-honolulu-hawaii-02-20-2027/event/0A00655E83173335",
     "last_verified_at": "2026-11-11",
@@ -397209,11 +397209,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7847587,
+        "url": "https://www.vividseats.com/leon-bridges-tickets-honolulu-tom-moffatt-waikiki-shell-2-20-2027/production/7847587",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -398259,7 +398259,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAAGg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAGg",
     "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/minneapolis-minnesota-target-center-2026-12-12-8-pm/concert/18747130",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-minneapolis-target-center-12-12-2026/production/7827961",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAGg",
     "last_verified_at": "2026-11-11",
@@ -398281,11 +398281,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7827961,
+        "url": "https://www.vividseats.com/garth-brooks-tickets-minneapolis-target-center-12-12-2026/production/7827961",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

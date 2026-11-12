@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "17006481D438EC9D",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-20-2026/event/17006481D438EC9D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-11-20-9-pm/concert/18164939",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-11-20-2026--concerts-latin-music/production/6876856",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-20-2026/event/17006481D438EC9D",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18164939,
+        "url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-11-20-9-pm/concert/18164939",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6876856,
@@ -85,7 +85,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "17006481D43EECAE",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-21-2026/event/17006481D43EECAE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-11-21-9-pm/concert/18164938",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-las-vegas-fontainebleau-las-vegas-11-21-2026/production/6876842",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-vegas-my-way-las-vegas-nevada-11-21-2026/event/17006481D43EECAE",
@@ -101,11 +101,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18164938,
+        "url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-11-21-9-pm/concert/18164938",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6876842,
@@ -969,7 +969,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000654ED0A53608",
     "ticketmaster_url": "https://www.ticketmaster.ca/marc-anthony-the-last-dance-toronto-ontario-04-01-2027/event/1000654ED0A53608",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/toronto-canada-scotiabank-arena-2027-04-01-8-pm/concert/18753475",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-toronto-scotiabank-arena-4-1-2027/production/7833319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/marc-anthony-the-last-dance-toronto-ontario-04-01-2027/event/1000654ED0A53608",
@@ -985,11 +985,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753475,
+        "url": "https://seatgeek.com/marc-anthony-tickets/toronto-canada-scotiabank-arena-2027-04-01-8-pm/concert/18753475",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833319,
@@ -1065,7 +1065,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "31006541D7EE8649",
     "ticketmaster_url": "https://www.ticketmaster.ca/marc-anthony-the-last-dance-montreal-quebec-04-04-2027/event/31006541D7EE8649",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/montreal-canada-centre-bell-2027-04-04-8-pm/concert/18753477",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-montreal-bell-centre-4-4-2027/production/7833537",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/marc-anthony-the-last-dance-montreal-quebec-04-04-2027/event/31006541D7EE8649",
@@ -1081,11 +1081,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753477,
+        "url": "https://seatgeek.com/marc-anthony-tickets/montreal-canada-centre-bell-2027-04-04-8-pm/concert/18753477",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833537,
@@ -1164,7 +1164,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "300065463B989FC4",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-brooklyn-new-york-04-08-2027/event/300065463B989FC4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/brooklyn-new-york-barclays-center-2027-04-08-8-pm/concert/18753476",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-brooklyn-barclays-center-4-8-2027/production/7833135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-brooklyn-new-york-04-08-2027/event/300065463B989FC4",
@@ -1180,11 +1180,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753476,
+        "url": "https://seatgeek.com/marc-anthony-tickets/brooklyn-new-york-barclays-center-2027-04-08-8-pm/concert/18753476",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833135,
@@ -1268,7 +1268,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0200654FBC8EBAFE",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-reading-pennsylvania-04-10-2027/event/0200654FBC8EBAFE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/reading-pennsylvania-santander-arena-2027-04-10-8-pm/concert/18753478",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-reading-pennsylvania-04-10-2027/event/0200654FBC8EBAFE",
@@ -1284,11 +1284,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753478,
+        "url": "https://seatgeek.com/marc-anthony-tickets/reading-pennsylvania-santander-arena-2027-04-10-8-pm/concert/18753478",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1372,7 +1372,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "02006555DA3C4F61",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-newark-new-jersey-04-15-2027/event/02006555DA3C4F61",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/newark-new-jersey-prudential-center-2027-04-15-8-pm/concert/18753479",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-newark-prudential-center-4-15-2027/production/7833191",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-newark-new-jersey-04-15-2027/event/02006555DA3C4F61",
@@ -1388,11 +1388,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753479,
+        "url": "https://seatgeek.com/marc-anthony-tickets/newark-new-jersey-prudential-center-2027-04-15-8-pm/concert/18753479",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833191,
@@ -1476,7 +1476,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "04006550AFD1AD9E",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-chicago-illinois-04-17-2027/event/04006550AFD1AD9E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/chicago-illinois-united-center-2027-04-17-8-pm/concert/18753480",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-chicago-united-center-4-17-2027/production/7833243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-chicago-illinois-04-17-2027/event/04006550AFD1AD9E",
@@ -1492,11 +1492,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753480,
+        "url": "https://seatgeek.com/marc-anthony-tickets/chicago-illinois-united-center-2027-04-17-8-pm/concert/18753480",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833243,
@@ -1579,7 +1579,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006547F1FDD2D8",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-charlotte-north-carolina-04-23-2027/event/2D006547F1FDD2D8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-04-23-8-pm/concert/18753487",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-charlotte-spectrum-center-4-23-2027/production/7833245",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-charlotte-north-carolina-04-23-2027/event/2D006547F1FDD2D8",
@@ -1595,11 +1595,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753487,
+        "url": "https://seatgeek.com/marc-anthony-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-04-23-8-pm/concert/18753487",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833245,
@@ -1682,7 +1682,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006546A0E16EC9",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-tampa-florida-04-25-2027/event/0D006546A0E16EC9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/tampa-florida-benchmark-international-arena-2027-04-25-8-pm/concert/18753486",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-tampa-benchmark-international-arena-4-25-2027/production/7833247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-tampa-florida-04-25-2027/event/0D006546A0E16EC9",
@@ -1698,11 +1698,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753486,
+        "url": "https://seatgeek.com/marc-anthony-tickets/tampa-florida-benchmark-international-arena-2027-04-25-8-pm/concert/18753486",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833247,
@@ -1780,7 +1780,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A00654ED39BFDB7",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-antonio-texas-04-29-2027/event/3A00654ED39BFDB7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/san-antonio-texas-frost-bank-center-2027-04-29-7-pm/concert/18753491",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-san-antonio-frost-bank-center-4-29-2027--concerts-latin-music/production/7842721",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-antonio-texas-04-29-2027/event/3A00654ED39BFDB7",
@@ -1796,11 +1796,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753491,
+        "url": "https://seatgeek.com/marc-anthony-tickets/san-antonio-texas-frost-bank-center-2027-04-29-7-pm/concert/18753491",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7842721,
@@ -1884,7 +1884,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0900654DCE83C7D3",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-anaheim-california-05-09-2027/event/0900654DCE83C7D3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/anaheim-california-honda-center-2027-05-09-8-pm/concert/18753494",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-anaheim-honda-center-5-9-2027/production/7833255",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-anaheim-california-05-09-2027/event/0900654DCE83C7D3",
@@ -1900,11 +1900,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753494,
+        "url": "https://seatgeek.com/marc-anthony-tickets/anaheim-california-honda-center-2027-05-09-8-pm/concert/18753494",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833255,
@@ -1988,7 +1988,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E00654EE846CB3B",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-denver-colorado-05-13-2027/event/1E00654EE846CB3B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/denver-colorado-ball-arena-2027-05-13-8-pm/concert/18753497",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-denver-ball-arena-5-13-2027/production/7833291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-denver-colorado-05-13-2027/event/1E00654EE846CB3B",
@@ -2004,11 +2004,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753497,
+        "url": "https://seatgeek.com/marc-anthony-tickets/denver-colorado-ball-arena-2027-05-13-8-pm/concert/18753497",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833291,
@@ -2092,7 +2092,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C00655DB26ABAB3",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-francisco-california-05-16-2027/event/1C00655DB26ABAB3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/san-francisco-california-chase-center-2027-05-16-8-pm/concert/18753501",
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-san-francisco-chase-center-5-16-2027/production/7833293",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-francisco-california-05-16-2027/event/1C00655DB26ABAB3",
@@ -2108,11 +2108,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753501,
+        "url": "https://seatgeek.com/marc-anthony-tickets/san-francisco-california-chase-center-2027-05-16-8-pm/concert/18753501",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833293,

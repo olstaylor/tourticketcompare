@@ -838,7 +838,7 @@
     "city": "Manchester",
     "country": "Great Britain",
     "venue": "Co-op Live",
-    "datetime_iso": "2026-11-26T18:30:00Z",
+    "datetime_iso": "2026-11-26T18:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "370064C39DE257BE",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-manchester-26-11-2026/event/370064C39DE257BE",
@@ -846,7 +846,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-manchester-co-op-live-11-26-2026--concerts-adult-contemporary/production/7123290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-manchester-26-11-2026/event/370064C39DE257BE",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

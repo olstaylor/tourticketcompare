@@ -1380,7 +1380,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-bangor-maine-savings-amphitheater-5-29-2027/production/7824344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-bangor-maine-05-29-2027/event/010065639C6066D9",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1449,11 +1449,6 @@
         "name": "Citi® Cardmember Presale",
         "start": "2026-11-10T14:00:00Z",
         "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "Maine Savings Presale",
-        "start": "2026-11-11T14:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
       },
       {
         "name": "LIVE NATION PRESALE",

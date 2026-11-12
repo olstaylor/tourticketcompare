@@ -177,7 +177,7 @@
     "vividseats_url": "https://www.vividseats.com/rawayana-tickets-inglewood-kia-forum-11-15-2026/production/6790737",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-inglewood-california-11-15-2026/event/0900646DB256B395",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -240,13 +240,6 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-19T17:00:00Z",
-        "end": "2026-11-11T20:00:00Z"
-      }
-    ],
     "ticket_limit": 6,
     "genre": "Pop"
   },
@@ -266,7 +259,7 @@
     "vividseats_url": "https://www.vividseats.com/rawayana-tickets-houston-713-music-hall-11-18-2026--concerts-pop/production/6791762",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-houston-texas-11-18-2026/event/3A00646CA0F69CE9",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -330,11 +323,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-03-19T15:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-03-19T15:00:00Z",

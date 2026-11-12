@@ -783,7 +783,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-chicago-aragon-ballroom-11-18-2026/production/7540297",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-chicago-illinois-11-18-2026/event/0400652605FA6451",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -839,11 +839,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "VIP Packages Public Onsale",
-        "start": "2026-09-16T15:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      },
       {
         "name": "Global Citizens/Global Poverty Project",
         "start": "2026-10-23T15:00:00Z",
@@ -1619,7 +1614,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-las-vegas-fontainebleau-las-vegas-12-9-2026/production/7540359",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-las-vegas-nevada-12-09-2026/event/1700652423795D4D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1675,16 +1670,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-12T06:00:00Z"
-      },
-      {
-        "name": "Verizon Access Select Seats",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-12T06:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-09-16T17:00:00Z",

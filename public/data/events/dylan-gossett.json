@@ -2604,7 +2604,7 @@
     "city": "Nottingham",
     "country": "Great Britain",
     "venue": "Rock City",
-    "datetime_iso": "2027-05-20T18:00:00Z",
+    "datetime_iso": "2027-07-06T18:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1F006566D2497950",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-nottingham-20-05-2027/event/1F006566D2497950",
@@ -2612,7 +2612,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-nottingham-20-05-2027/event/1F006566D2497950",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2678,7 +2678,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-bournemouth-05-07-2027/event/3E00656998573CA9",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2729,6 +2729,11 @@
       },
       {
         "name": "Artist Presale",
+        "start": "2026-11-12T10:00:00Z",
+        "end": "2026-11-13T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
         "start": "2026-11-12T10:00:00Z",
         "end": "2026-11-13T09:00:00Z"
       }

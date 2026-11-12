@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/fall-out-boy-twilight-of-the-punks-tickets/2096694348?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,24 +50,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z16eepQfuF",
     "timezone": "Europe/Prague",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
     ],
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T11:00:00Z",
-        "end": "2026-11-12T09:00:00Z"
-      },
-      {
-        "name": "ČSOB Mastercard® Presale",
-        "start": "2026-11-11T11:00:00Z",
-        "end": "2026-11-12T09:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-fall-out-boy-2027-assago-zg9rmiynyzf1fa",
@@ -85,7 +72,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/fall-out-boy-twilight-of-the-punks-assago-21-05-2027/event/sksc45jnmz63",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -120,8 +107,7 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZF1FA",
     "timezone": "Europe/Rome",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "status": "on-sale",
     "genre": "Rock"
   },
   {
@@ -140,7 +126,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-madrid-movistar-arena---madrid-5-23-2027--concerts-rock/production/7835272",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/fall-out-boy-twilight-of-the-punks-tickets/412819502?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -175,8 +161,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k83O_fe",
     "timezone": "Europe/Madrid",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation España Red Path SL"
     ],
@@ -605,7 +590,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/fall-out-boy-twilight-of-the-punks-tickets/1061072045?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -640,24 +625,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vv-vwvA",
     "timezone": "Europe/Amsterdam",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T11:00:00Z",
-        "end": "2026-11-12T10:30:00Z"
-      },
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-11T11:00:00Z",
-        "end": "2026-11-12T10:30:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-fall-out-boy-2027-odz-z698xzqpz16evyz9fj",
@@ -1132,7 +1104,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-toronto-rogers-stadium---toronto-7-22-2027--concerts-rock/production/7835302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fall-out-boy-twilight-of-the-toronto-ontario-07-22-2027/event/10006564CDFED572",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1192,11 +1164,6 @@
         "name": "VIP Packages Presale",
         "start": "2026-11-11T15:00:00Z",
         "end": "2026-11-12T14:00:00Z"
-      },
-      {
-        "name": "Front Of The Line Amex Presale Tickets",
-        "start": "2026-11-11T17:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
       },
       {
         "name": "VIP Packages Onsale",
@@ -1405,7 +1372,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-queens-new-york-08-01-2027/event/1D006564DAFD3C25",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1443,7 +1410,7 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
     "organizer_names": [
-      "LIVE NATION - NO LN CONCERTS BRANDING"
+      "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
     "genre": "Rock",

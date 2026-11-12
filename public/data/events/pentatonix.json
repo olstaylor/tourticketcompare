@@ -311,7 +311,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-lincoln-pinnacle-bank-arena-11-12-2026/production/7393462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-lincoln-nebraska-11-12-2026/event/06006504D65B3730",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -366,14 +366,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "$10 OFF Offer",
-        "start": "2026-11-06T16:45:00Z",
-        "end": "2026-11-11T18:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-pentatonix-2026-milwaukee-vvg1jz_296mpvg",
@@ -629,7 +622,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-buffalo-keybank-center-11-18-2026/production/7393780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-buffalo-new-york-11-18-2026/event/000065019E34B6C8",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -689,13 +682,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184420",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184420/Pentatonix-tickets-Wed-Nov-18-2026-KeyBank-Center",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-buffalo-tickets-11-18-2026/event/107476102",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-14T14:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

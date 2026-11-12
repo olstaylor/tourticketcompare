@@ -1901,7 +1901,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-21-2027--concerts-rock/production/7850919",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1950,6 +1950,11 @@
         "end": "2026-11-13T06:00:00Z"
       },
       {
+        "name": "Artist Presale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
         "name": "Caesars Rewards Presale",
         "start": "2026-11-12T18:00:00Z",
         "end": "2026-11-13T06:00:00Z"
@@ -1977,7 +1982,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-23-2027--concerts-rock/production/7850921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2022,6 +2027,11 @@
     "presales": [
       {
         "name": "APE Presale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
         "start": "2026-11-12T18:00:00Z",
         "end": "2026-11-13T06:00:00Z"
       },

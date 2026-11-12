@@ -94,7 +94,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-vancouver-british-columbia-05-19-2027/event/11006565A5686179",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -149,11 +149,6 @@
         "name": "Artist Sign Up Presale",
         "start": "2026-11-18T22:00:00Z",
         "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2027-05-15T19:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361523/Stray-Kids-tickets-Wed-May-19-2027-BC-Place-Stadium",
@@ -571,7 +566,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-miami-gardens-hard-rock-stadium-6-11-2027/production/7832833",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-miami-florida-06-11-2027/event/0D006565A3BC5881",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -627,7 +622,17 @@
         "end": "2026-11-18T19:00:00Z"
       },
       {
+        "name": "STAY Membership Presale VIP Packages",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:00:00Z"
+      },
+      {
         "name": "Artist Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-19T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Packages",
         "start": "2026-11-18T20:00:00Z",
         "end": "2026-11-19T03:00:00Z"
       }
@@ -650,7 +655,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-orlando-camping-world-stadium-6-14-2027/production/7832837",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-orlando-florida-06-14-2027/event/22006564E7F05FE6",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -706,7 +711,17 @@
         "end": "2026-11-18T19:00:00Z"
       },
       {
+        "name": "STAY Membership Presale VIP Packages",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:00:00Z"
+      },
+      {
         "name": "Artist Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-19T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Packages",
         "start": "2026-11-18T20:00:00Z",
         "end": "2026-11-19T03:00:00Z"
       }

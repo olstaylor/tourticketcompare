@@ -33986,7 +33986,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-indianapolis-gainbridge-fieldhouse-3-26-2027/production/7017203",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-indianapolis-indiana-03-26-2027/event/050064A6E98F9E81",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -34048,6 +34048,11 @@
         "name": "VIP Packages Public Onsale",
         "start": "2026-05-15T14:00:00Z",
         "end": "2027-03-22T16:00:00Z"
+      },
+      {
+        "name": "Ticket Deals Offer",
+        "start": "2026-11-27T05:00:00Z",
+        "end": "2027-01-01T04:59:00Z"
       }
     ],
     "organizer_names": [
@@ -34836,7 +34841,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-new-orleans-smoothie-king-center-4-29-2027/production/7017193",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-new-orleans-louisiana-04-29-2027/event/1B0064A893B6A823",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -34906,6 +34911,11 @@
         "name": "VIP Packages Public Onsale",
         "start": "2026-05-15T15:00:00Z",
         "end": "2027-04-25T17:00:00Z"
+      },
+      {
+        "name": "Holiday Promotion: More Ticket Deal",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T04:00:00Z"
       }
     ],
     "organizer_names": [
@@ -54017,7 +54027,7 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976499",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976499/Don-Omar-tickets-Wed-Nov-11-2026-Michelob-ULTRA-Arena-At-Mandalay-Bay",
     "stubhub_international_url": "",
-    "ticketmaster_status_code": "rescheduled",
+    "ticketmaster_status_code": "postponed",
     "genre": "World"
   },
   {
@@ -61515,7 +61525,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-lincoln-pinnacle-bank-arena-11-12-2026/production/7393462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-lincoln-nebraska-11-12-2026/event/06006504D65B3730",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -61570,14 +61580,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "$10 OFF Offer",
-        "start": "2026-11-06T16:45:00Z",
-        "end": "2026-11-11T18:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-pentatonix-2026-milwaukee-vvg1jz_296mpvg",
@@ -61833,7 +61836,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-buffalo-keybank-center-11-18-2026/production/7393780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-buffalo-new-york-11-18-2026/event/000065019E34B6C8",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -61893,13 +61896,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184420",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184420/Pentatonix-tickets-Wed-Nov-18-2026-KeyBank-Center",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-buffalo-tickets-11-18-2026/event/107476102",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-14T14:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -68506,7 +68502,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-toronto-ontario-11-18-2026/event/100064F09E2A8269",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -68542,13 +68538,6 @@
     "ticketmaster_discovery_event_id": "177Zv0G62er1Iat",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Trivium VIP Packages Onsale",
-        "start": "2026-07-24T14:00:00Z",
-        "end": "2026-11-12T04:55:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -70863,7 +70852,7 @@
     "vividseats_url": "https://www.vividseats.com/sabaton-tickets-orlando-hard-rock-live---orlando-12-11-2026/production/6752109",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-orlando-florida-12-11-2026/event/2200645500EFAA8A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -70924,16 +70913,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7784220/Sabaton-tickets-Fri-Dec-11-2026-Hard-Rock-Live-Orlando",
     "stubhub_international_url": "https://www.stubhub.ie/sabaton-orlando-tickets-12-11-2026/event/107142116",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-03-05T16:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      },
-      {
-        "name": "Verizon Access Select Seats",
-        "start": "2026-03-05T16:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-03-05T16:00:00Z",
@@ -71694,7 +71673,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-new-york-manhattan-center-hammerstein-ballroom-11-12-2026--concerts-hard-rock/production/7052732",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-york-new-york-11-12-2026/event/000064ACCA360CA7",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -71732,13 +71711,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "Season of Giving 2-Pack",
-        "start": "2026-11-04T15:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Metal"
@@ -71973,7 +71945,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-chicago-aragon-ballroom-11-20-2026--concerts-hard-rock/production/7052738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-chicago-illinois-11-20-2026/event/040064A8E6905D55",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -72035,13 +72007,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/beartooth-chicago-tickets-11-20-2026/event/107417483",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "Season of Giving 2-Pack",
-        "start": "2026-11-04T16:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Metal"
@@ -72190,7 +72155,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-nashville-the-truth-11-28-2026--concerts-hard-rock/production/7052753",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-nashville-tennessee-11-28-2026/event/1B0064ACE6625B54",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -72242,13 +72207,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980219",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980219/Beartooth-tickets-Sat-Nov-28-2026-The-Truth",
-    "presales": [
-      {
-        "name": "Season of Giving 2-Pack",
-        "start": "2026-11-04T16:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -72271,7 +72229,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-atlanta-coca-cola-roxy-theatre-11-29-2026--concerts-hard-rock/production/7052761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-atlanta-georgia-11-29-2026/event/0E0064AEAF84DDE1",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -72326,13 +72284,6 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "presales": [
-      {
-        "name": "Season of Giving 2 for $80",
-        "start": "2026-11-04T15:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      }
-    ],
     "ticket_limit": 8,
     "genre": "Metal"
   },
@@ -72352,7 +72303,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-charlotte-the-fillmore-charlotte-12-1-2026--concerts-hard-rock/production/7052767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-charlotte-north-carolina-12-01-2026/event/2D0064ABB2D71F8A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -72409,11 +72360,6 @@
         "name": "T-Mobile® Concert Perks",
         "start": "2026-05-22T14:00:00Z",
         "end": "2026-11-29T03:00:00Z"
-      },
-      {
-        "name": "Season of Giving 2-Pack",
-        "start": "2026-11-04T15:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -72642,7 +72588,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-dallas-south-side-ballroom-12-10-2026--concerts-hard-rock/production/7052880",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-dallas-texas-12-10-2026/event/0C0064ADF719EBA8",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -72707,11 +72653,6 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-05-22T15:00:00Z",
         "end": "2026-11-13T04:00:00Z"
-      },
-      {
-        "name": "Season of Giving 2-Pack",
-        "start": "2026-11-04T16:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
       }
     ],
     "organizer_names": [
@@ -72816,7 +72757,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-salt-lake-city-the-union-event-center---salt-lake-city-12-13-2026--concerts-hard-rock/production/7052886",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-salt-lake-city-utah-12-13-2026/event/1E0064AC8748616E",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -72873,11 +72814,6 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-05-22T16:00:00Z",
         "end": "2026-11-16T05:00:00Z"
-      },
-      {
-        "name": "Season of Giving 2-Pack",
-        "start": "2026-11-04T17:00:00Z",
-        "end": "2026-11-12T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -81486,7 +81422,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-el-paso-don-haskins-center-2-28-2027/production/7047161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-el-paso-texas-02-28-2027/event/0C0064AFA338822A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -81551,6 +81487,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T16:00:00Z",
         "end": "2027-02-22T00:00:00Z"
+      },
+      {
+        "name": "Weekend Special",
+        "start": "2026-11-13T14:00:00Z",
+        "end": "2026-11-17T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -95874,7 +95815,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-lexington-rupp-arena-1-29-2027/production/7491831",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lexington-kentucky-01-29-2027/event/16006518AF849566",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -95931,6 +95872,11 @@
         "name": "General Onsale",
         "start": "2026-09-21T04:01:00Z",
         "end": "2027-01-30T02:00:00Z"
+      },
+      {
+        "name": "Black Friday/Cyber Monday Offer",
+        "start": "2026-11-23T15:00:00Z",
+        "end": "2026-12-01T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -104142,7 +104088,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-austin-moody-center-atx-12-9-2026/production/7536643",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-austin-texas-12-09-2026/event/3A006510C43173A4",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -104202,11 +104148,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255081",
     "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-austin-tickets-12-9-2026/event/107667756",
     "presales": [
-      {
-        "name": "Mastercard Preferred Tickets",
-        "start": "2026-09-18T15:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      },
       {
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T15:00:00Z",
@@ -108154,7 +108095,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-chicago-aragon-ballroom-2-26-2027--concerts-dance-electronica/production/7554699",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-chicago-illinois-02-26-2027/event/0400652330E20F3E",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -108224,6 +108165,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-09-18T15:00:00Z",
         "end": "2027-02-22T18:00:00Z"
+      },
+      {
+        "name": "2 For 1 Tickets",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T05:59:00Z"
       }
     ],
     "organizer_names": [
@@ -157529,7 +157475,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-nashville-brooklyn-bowl---nashville-11-14-2026/production/7165441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -157581,13 +157527,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8055458",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8055458/Amble-tickets-Sat-Nov-14-2026-Brooklyn-Bowl-Nashville",
-    "presales": [
-      {
-        "name": "T-Mobile® Concert Perks",
-        "start": "2026-06-19T14:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -217764,7 +217703,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-national-harbor-maryland-12-06-2026/event/15006329F9723920",
-    "last_verified_at": "2026-11-09",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -217821,7 +217760,14 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Metal"
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "BlackFriday & Cyber Monday Offer",
+        "start": "2026-11-26T15:00:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-atlanta-vvg1zzbwjnkk6z",
@@ -218581,7 +218527,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-chicago-illinois-02-25-2027/event/040064C9B39BAFA1",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -218649,6 +218595,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-08-28T13:00:00Z",
         "end": "2027-02-19T04:00:00Z"
+      },
+      {
+        "name": "2 For 1 Tickets",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T05:59:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056758",
@@ -222313,7 +222264,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-sacramento-california-06-15-2027/event/1C0064A8AC204C0F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -222370,7 +222321,14 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Ticketmaster's Holiday Gift Guide",
+        "start": "2026-11-27T18:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-san-luis-obispo-z7r9jz1a70w-f",
@@ -235888,7 +235846,7 @@
     "city": "San Diego",
     "country": "United States Of America",
     "venue": "Petco Park",
-    "datetime_iso": "2026-11-20T03:30:00Z",
+    "datetime_iso": "2026-11-20T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0A006505AF0FB62C",
     "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-diego-california-11-19-2026/event/0A006505AF0FB62C",
@@ -235896,7 +235854,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-san-diego-gallagher-square-at-petco-park-11-19-2026--concerts-rb/production/7423386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-diego-california-11-19-2026/event/0A006505AF0FB62C",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -270913,7 +270871,7 @@
     "city": "Glendale",
     "country": "United States Of America",
     "venue": "State Farm Stadium",
-    "datetime_iso": "2026-11-22T02:00:00Z",
+    "datetime_iso": "2026-11-22T03:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAv08U",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08U",
@@ -270921,7 +270879,7 @@
     "vividseats_url": "https://www.vividseats.com/kanye-west-tickets-glendale-state-farm-stadium-11-21-2026/production/7507748",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv08U",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -274162,7 +274120,7 @@
     "city": "Manchester",
     "country": "Great Britain",
     "venue": "Co-op Live",
-    "datetime_iso": "2026-11-26T18:30:00Z",
+    "datetime_iso": "2026-11-26T18:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "370064C39DE257BE",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-manchester-26-11-2026/event/370064C39DE257BE",
@@ -274170,7 +274128,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-manchester-co-op-live-11-26-2026--concerts-adult-contemporary/production/7123290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/phoebe-bridgers-manchester-26-11-2026/event/370064C39DE257BE",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276651,7 +276609,7 @@
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-denver-paramount-theatre-denver-11-15-2026--concerts-rap-hip-hop/production/7079515",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-denver-colorado-11-15-2026/event/1E0064AEB279A359",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276704,13 +276662,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997054/Arcangel-tickets-Sun-Nov-15-2026-Paramount-Theatre-Denver",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-28T16:00:00Z",
-        "end": "2026-11-11T19:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997054",
     "ticket_limit": 6,
@@ -285486,7 +285437,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-fort-worth-texas-11-21-2026/event/0C006472BB99A9EB",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -285547,13 +285498,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142",
     "organizer_names": [
       "AEG LIVE"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-04-03T15:00:00Z",
-        "end": "2026-11-11T23:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7830819",
     "ticket_limit": 8,
@@ -289947,7 +289891,7 @@
     "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-lincoln-pinnacle-bank-arena-11-19-2026--concerts-country-and-folk/production/6579008",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-lincoln-nebraska-11-19-2026/event/06006432246D711C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -290006,11 +289950,6 @@
         "name": "MVAS Cruise Offer",
         "start": "2026-07-20T15:00:00Z",
         "end": "2026-11-19T01:00:00Z"
-      },
-      {
-        "name": "Last Chance Offer",
-        "start": "2026-11-02T16:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7703262",
@@ -303183,7 +303122,7 @@
     "vividseats_url": "https://www.vividseats.com/treaty-oak-revival-tickets-austin-moody-center-atx-11-12-2026--concerts-country-and-folk/production/7006221",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/treaty-oak-revival-west-texas-degenerate-austin-texas-11-12-2026/event/3A0064A5E9CB90BC",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -303252,7 +303191,7 @@
       {
         "name": "Student Discount",
         "start": "2026-11-09T20:00:00Z",
-        "end": "2026-11-12T16:00:00Z"
+        "end": "2026-11-13T03:30:00Z"
       }
     ]
   },
@@ -305242,7 +305181,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-17-2026/event/170062F0FD75638E",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -305286,7 +305225,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwrkco",
@@ -305304,7 +305244,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-18-2026/event/170062F0FD786391",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -305348,7 +305288,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwlkck",
@@ -305366,7 +305307,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-19-2026/event/170062F0FD7C6393",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -305410,7 +305351,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-barry-manilow-2027-sunrise-z7r9jz1a7ji0e",
@@ -307781,7 +307723,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-chicago-aragon-ballroom-11-18-2026/production/7540297",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-chicago-illinois-11-18-2026/event/0400652605FA6451",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -307837,11 +307779,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "VIP Packages Public Onsale",
-        "start": "2026-09-16T15:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      },
       {
         "name": "Global Citizens/Global Poverty Project",
         "start": "2026-10-23T15:00:00Z",
@@ -308617,7 +308554,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-las-vegas-fontainebleau-las-vegas-12-9-2026/production/7540359",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-las-vegas-nevada-12-09-2026/event/1700652423795D4D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -308673,16 +308610,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-12T06:00:00Z"
-      },
-      {
-        "name": "Verizon Access Select Seats",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-12T06:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-09-16T17:00:00Z",
@@ -337598,7 +337525,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-berlin-waldbuhne-berlin-7-2-2027--concerts-pop/production/7773199",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/noah-kahan-the-last-of-the-bugs-world-tour-tickets/1306451961?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -337640,27 +337567,9 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vGkooP-",
     "timezone": "Europe/Berlin",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation GmbH"
-    ],
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-10T11:00:00Z",
-        "end": "2026-11-12T11:00:00Z"
-      },
-      {
-        "name": "PayPal Prio Tickets",
-        "start": "2026-11-10T11:00:00Z",
-        "end": "2026-11-12T11:00:00Z"
-      },
-      {
-        "name": "Telekom Prio Tickets",
-        "start": "2026-11-10T11:00:00Z",
-        "end": "2026-11-12T11:00:00Z"
-      }
     ],
     "genre": "Rock",
     "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-berlin-waldbuhne-2-7-2027/event/107678752"
@@ -337681,7 +337590,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/noah-kahan-i-days-milano-2027-milano-04-07-2027/event/be8ty4t1yux2",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -337716,8 +337625,7 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZFa6d",
     "timezone": "Europe/Rome",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "status": "on-sale",
     "genre": "Rock"
   },
   {
@@ -337736,7 +337644,7 @@
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-sevilla-plaza-de-espana-7-7-2027--concerts-pop/production/7773209",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/noah-kahan-iconica-santalucia-sevilla-fest-tickets/1483340788?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -337771,8 +337679,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v3duZrF",
     "timezone": "Europe/Madrid",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation España S.A.U."
     ],
@@ -339221,7 +339128,7 @@
     "city": "Nottingham",
     "country": "Great Britain",
     "venue": "Royal Concert Hall Nottingham",
-    "datetime_iso": "2027-02-23T19:00:00Z",
+    "datetime_iso": "2027-02-23T19:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1F00651F378C3FFF",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-nottingham-23-02-2027/event/1F00651F378C3FFF",
@@ -339229,7 +339136,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jake-bugg-nottingham-23-02-2027/event/1F00651F378C3FFF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350079,7 +349986,7 @@
     "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-gloucester-hard-rock-hotel-and-casino-ottawa-3-11-2027/production/7532230",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-ottawa-ontario-03-11-2027/event/31006523BBD99024",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -350125,6 +350032,11 @@
         "name": "Amex Preferred Tickets",
         "start": "2026-09-11T14:00:00Z",
         "end": "2027-02-26T03:00:00Z"
+      },
+      {
+        "name": "2026 Holiday Promotion",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2027-01-01T03:00:00Z"
       }
     ],
     "ticket_limit": 6,
@@ -354250,7 +354162,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-15-2026--concerts-adult-contemporary/production/6727916",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-15-2026/event/0000645905A7DBFA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -354312,13 +354224,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-15-2026/event/107140083",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-06T15:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      }
     ],
     "genre": "Rock"
   },
@@ -358690,7 +358595,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-jose-california-11-18-2026/event/1C006364AF66ACBC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -358751,11 +358656,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-11-14T18:00:00Z",
-        "end": "2026-11-12T06:00:00Z"
-      },
       {
         "name": "Live Nation All Access Deal",
         "start": "2026-03-24T23:00:00Z",
@@ -361812,7 +361712,7 @@
     "vividseats_url": "https://www.vividseats.com/rawayana-tickets-inglewood-kia-forum-11-15-2026/production/6790737",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-inglewood-california-11-15-2026/event/0900646DB256B395",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -361875,13 +361775,6 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-19T17:00:00Z",
-        "end": "2026-11-11T20:00:00Z"
-      }
-    ],
     "ticket_limit": 6,
     "genre": "Pop"
   },
@@ -361901,7 +361794,7 @@
     "vividseats_url": "https://www.vividseats.com/rawayana-tickets-houston-713-music-hall-11-18-2026--concerts-pop/production/6791762",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-houston-texas-11-18-2026/event/3A00646CA0F69CE9",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -361965,11 +361858,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-03-19T15:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-03-19T15:00:00Z",
@@ -363150,7 +363038,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-jersey-city-new-jersey-11-18-2026/event/020064F6C09983DC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363204,13 +363092,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8263854/Jodeci-tickets-Wed-Nov-18-2026-Loews-Jersey-Theatre",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T14:00:00Z",
-        "end": "2026-11-12T04:55:00Z"
-      }
     ],
     "genre": "R&B"
   },
@@ -369847,7 +369728,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3j4",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -369896,8 +369777,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe3j4",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "9999-12-31T06:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8298182",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8298182/Gary-Allan-tickets-Sun-Dec-6-2026-The-Historic-Bakersfield-Fox-Theater",
     "genre": "Country"
@@ -374970,7 +374850,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-belfast-21-05-2027/event/3800656438D756A3",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -375005,8 +374885,7 @@
     },
     "ticketmaster_discovery_event_id": "16dOZ_p8zG7ggQN",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AIKEN PROMOTIONS"
     ],
@@ -375029,7 +374908,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-belfast-22-05-2027/event/3800656438D856A6",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -375064,8 +374943,7 @@
     },
     "ticketmaster_discovery_event_id": "16dOZ_p8zG7UAQJ",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AIKEN PROMOTIONS"
     ],
@@ -375088,7 +374966,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-co-galway-29-05-2027/event/18006564480F6409",
-    "last_verified_at": "2026-11-09",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -375123,8 +375001,7 @@
     },
     "ticketmaster_discovery_event_id": "16bZk403ZZA86Av1",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AIKEN PROMOTIONS"
     ],
@@ -375147,7 +375024,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-co-galway-30-05-2027/event/1800656448116417",
-    "last_verified_at": "2026-11-09",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -375182,8 +375059,7 @@
     },
     "ticketmaster_discovery_event_id": "15vOZ_poF7p89",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AIKEN PROMOTIONS"
     ],
@@ -375206,7 +375082,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-kilkenny-04-06-2027/event/1800656443665396",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -375241,8 +375117,7 @@
     },
     "ticketmaster_discovery_event_id": "15vOZ_pod_PCp",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AIKEN PROMOTIONS"
     ],
@@ -375265,7 +375140,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-kilkenny-05-06-2027/event/18006564436853A0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -375300,8 +375175,7 @@
     },
     "ticketmaster_discovery_event_id": "1abZk408U-KZe5v",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AIKEN PROMOTIONS"
     ],
@@ -375324,7 +375198,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-limerick-city-11-06-2027/event/180065643DDE371D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -375359,8 +375233,7 @@
     },
     "ticketmaster_discovery_event_id": "1kkZvP_dGAuMNjq",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AIKEN PROMOTIONS"
     ],
@@ -375383,7 +375256,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-limerick-city-12-06-2027/event/180065643DE0372B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -375418,8 +375291,7 @@
     },
     "ticketmaster_discovery_event_id": "1kkZvP_dGAuzdjl",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AIKEN PROMOTIONS"
     ],
@@ -375442,7 +375314,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-cork-18-06-2027/event/1800656440A6487A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -375477,8 +375349,7 @@
     },
     "ticketmaster_discovery_event_id": "16vOZ_poZG7t0-B",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AIKEN PROMOTIONS"
     ],
@@ -375501,7 +375372,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-cork-19-06-2027/event/1800656440A948B7",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -375536,8 +375407,7 @@
     },
     "ticketmaster_discovery_event_id": "16vOZ_poZG7nfxM",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T08:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AIKEN PROMOTIONS"
     ],
@@ -379471,7 +379341,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-barcelona-estadi-olimpic-lluis-companys-5-13-2027--concerts-rock/production/7817710",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1271385480?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379511,18 +379381,6 @@
     "organizer_names": [
       "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
     ],
-    "presales": [
-      {
-        "name": "U2 Album Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-11T21:00:00Z"
-      },
-      {
-        "name": "Visa Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-11T21:00:00Z"
-      }
-    ],
     "genre": "Rock"
   },
   {
@@ -379541,7 +379399,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/180682429?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379581,18 +379439,6 @@
     "organizer_names": [
       "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
     ],
-    "presales": [
-      {
-        "name": "U2 Album Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-11T21:00:00Z"
-      },
-      {
-        "name": "Visa Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-11T21:00:00Z"
-      }
-    ],
     "genre": "Rock"
   },
   {
@@ -379611,7 +379457,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-sevilla-estadio-la-cartuja-de-sevilla-5-22-2027--concerts-rock/production/7817726",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/902239771?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379665,18 +379511,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357092",
     "organizer_names": [
       "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
-    ],
-    "presales": [
-      {
-        "name": "U2 Album Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-11T21:00:00Z"
-      },
-      {
-        "name": "Visa Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-11T21:00:00Z"
-      }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357092/U2-tickets-Sat-May-22-2027-Estadio-La-Cartuja",
     "genre": "Rock"
@@ -381721,7 +381555,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-bangor-maine-savings-amphitheater-5-29-2027/production/7824344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-bangor-maine-05-29-2027/event/010065639C6066D9",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381790,11 +381624,6 @@
         "name": "Citi® Cardmember Presale",
         "start": "2026-11-10T14:00:00Z",
         "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "Maine Savings Presale",
-        "start": "2026-11-11T14:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
       },
       {
         "name": "LIVE NATION PRESALE",
@@ -385549,7 +385378,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-orlando-kia-center-2-5-2027/production/7824670",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-orlando-florida-02-05-2027/event/22006562D6B54087",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -385609,36 +385438,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Aisle Offer",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-09T03:00:00Z"
@@ -385666,7 +385465,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-tampa-benchmark-international-arena-2-6-2027/production/7824724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-tampa-florida-02-06-2027/event/0D006563E3E1990B",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -385725,31 +385524,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-10T03:00:00Z"
@@ -385777,7 +385551,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-miami-kaseya-center-2-11-2027/production/7824740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-miami-florida-02-11-2027/event/0D006562D90BAFAB",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -385836,31 +385610,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-12T03:00:00Z"
@@ -385888,7 +385637,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-duluth-gas-south-arena-2-18-2027/production/7824734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-duluth-georgia-02-18-2027/event/0E006562ABC17E09",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -385948,36 +385697,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Preferred Seating Offer Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-19T03:00:00Z"
@@ -386005,7 +385724,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-charlotte-spectrum-center-2-20-2027/production/7824738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-charlotte-north-carolina-02-20-2027/event/2D006562B21A8E27",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -386064,31 +385783,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-24T03:00:00Z"
@@ -386116,7 +385810,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-boston-td-garden-2-23-2027/production/7824764",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-boston-massachusetts-02-23-2027/event/010065639CD167A2",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -386176,31 +385870,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-24T03:00:00Z"
@@ -386228,7 +385897,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-washington-capital-one-arena-2-25-2027/production/7824742",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-washington-district-of-columbia-02-25-2027/event/1500654538915859",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -386288,31 +385957,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-30T01:00:00Z"
@@ -386340,7 +385984,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-philadelphia-xfinity-mobile-arena-2-26-2027/production/7824744",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-philadelphia-pennsylvania-02-26-2027/event/30006565AB1E4D1C",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -386399,31 +386043,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-30T03:00:00Z"
@@ -386451,7 +386070,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-brooklyn-barclays-center-3-3-2027/production/7824704",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-03-2027/event/3000656491B9295F",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -386511,31 +386130,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-04T03:00:00Z"
@@ -386563,7 +386157,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-toronto-scotiabank-arena-3-11-2027/production/7825006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/feid-ferxxo-the-green-star-tour-toronto-ontario-03-11-2027/event/10006562AA635702",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -386610,31 +386204,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Preferred Seating Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Front Of The Line Amex Presale Tickets",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-03-07T17:00:00Z"
@@ -386657,7 +386226,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-montreal-bell-centre-3-13-2027/production/7825008",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/feid-ferxxo-the-green-star-tour-montreal-quebec-03-13-2027/event/3100655EE403C5D4",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -386720,36 +386289,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "PRÉVENTE LIVE NATION",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      },
-      {
-        "name": "Prévente Ticketmaster Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      },
-      {
-        "name": "Prévente Artiste",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Prévente Forfaits VIP Packages Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Prévente Sièges Préférentiels",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Forfaits VIP Packages",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-03-09T17:00:00Z"
@@ -386772,7 +386311,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-chicago-united-center-3-18-2027/production/7824746",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-18-2027/event/04006562DB9A783D",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -386832,36 +386371,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Preferred Seating Offer Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-02-19T02:00:00Z"
@@ -386894,7 +386403,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-dallas-american-airlines-center---tx-3-24-2027/production/7824994",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-dallas-texas-03-24-2027/event/0C006564F7C6328A",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -386954,31 +386463,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-02-25T04:00:00Z"
@@ -387011,7 +386495,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-austin-moody-center-atx-3-26-2027/production/7824956",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-austin-texas-03-26-2027/event/3A006564EF1BCEC3",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387071,36 +386555,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Preferred Seating Offer",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-02-27T04:00:00Z"
@@ -387128,7 +386582,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-denver-ball-arena-3-31-2027/production/7824752",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-denver-colorado-03-31-2027/event/1E006564EF7D6507",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387188,31 +386642,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-11T16:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-11T16:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-11T16:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T17:00:00Z",
-        "end": "2026-11-12T06:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T17:00:00Z",
-        "end": "2026-11-12T06:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-03-04T05:00:00Z"
@@ -387240,7 +386669,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-seattle-climate-pledge-arena-4-4-2027/production/7824756",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-seattle-washington-04-04-2027/event/0F006564C16194A1",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387300,31 +386729,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-09T06:00:00Z"
@@ -387352,7 +386756,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-portland-moda-center-4-6-2027/production/7824758",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-portland-oregon-04-06-2027/event/0F00656393D54DDB",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387412,31 +386816,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-10T06:00:00Z"
@@ -387464,7 +386843,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-sacramento-golden-1-center-4-8-2027/production/7824646",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-sacramento-california-04-08-2027/event/1C006562D6EED4DC",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387524,31 +386903,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-09T06:00:00Z"
@@ -387581,7 +386935,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-san-francisco-chase-center-4-10-2027/production/7824650",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-san-francisco-california-04-10-2027/event/1C006562B549A19D",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387641,36 +386995,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Preferred Seating Aisle Offer Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-14T04:00:00Z"
@@ -387703,7 +387027,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-san-jose-california-04-11-2027/event/1C006562D308D00A",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387763,31 +387087,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-14T07:59:00Z"
@@ -387815,7 +387114,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-fresno-save-mart-center-4-13-2027/production/7824652",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-fresno-california-04-13-2027/event/1C006563A7F4983E",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387875,31 +387174,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-17T05:00:00Z"
@@ -387927,7 +387201,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-phoenix-mortgage-matchup-center-4-15-2027/production/7824768",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-phoenix-arizona-04-15-2027/event/19006563CAE45F83",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387986,34 +387260,9 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-11T16:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-11T16:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-11T16:00:00Z"
-      },
-      {
         "name": "Preferred Seating",
         "start": "2026-11-10T16:00:00Z",
         "end": "2027-04-16T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T17:00:00Z",
-        "end": "2026-11-12T06:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T17:00:00Z",
-        "end": "2026-11-12T06:59:00Z"
       },
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -388043,7 +387292,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-san-diego-pechanga-arena-4-23-2027/production/7824636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-san-diego-california-04-23-2027/event/0A006563E2498813",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -388103,36 +387352,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Preferred Aisle Seating",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-27T05:00:00Z"
@@ -388160,7 +387379,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-anaheim-honda-center-4-25-2027/production/7824654",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-anaheim-california-04-25-2027/event/09006563CA7AD7D6",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -388220,31 +387439,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-29T06:45:00Z"
@@ -388272,7 +387466,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-inglewood-intuit-dome-4-29-2027/production/7824619",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-29-2027/event/09006563CCD6DA6F",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -388332,26 +387526,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-04-02T05:00:00Z"
@@ -388379,7 +387553,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-tlajomulco-de-zuniga-13-05-2027/event/3D0065648A93419E",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -388422,21 +387596,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Preventa Banamex Paquetes VIP",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Venta de Artista Paquetes VIP",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      },
-      {
-        "name": "Venta De Artista",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
         "name": "Venta General Paquetes VIP",
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-05-14T02:00:00Z"
@@ -388459,7 +387618,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-21-05-2027/event/1400655FE8938938",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -388501,21 +387660,6 @@
     ],
     "genre": "Latin",
     "presales": [
-      {
-        "name": "Preventa Banamex Paquetes VIP",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Venta de Artista Paquetes VIP",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      },
-      {
-        "name": "Venta de Artista",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
       {
         "name": "Venta General Paquetes VIP",
         "start": "2026-11-12T16:00:00Z",
@@ -389057,7 +388201,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/fall-out-boy-twilight-of-the-punks-tickets/2096694348?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389092,24 +388236,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z16eepQfuF",
     "timezone": "Europe/Prague",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
     ],
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T11:00:00Z",
-        "end": "2026-11-12T09:00:00Z"
-      },
-      {
-        "name": "ČSOB Mastercard® Presale",
-        "start": "2026-11-11T11:00:00Z",
-        "end": "2026-11-12T09:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-fall-out-boy-2027-assago-zg9rmiynyzf1fa",
@@ -389127,7 +388258,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/fall-out-boy-twilight-of-the-punks-assago-21-05-2027/event/sksc45jnmz63",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389162,8 +388293,7 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZF1FA",
     "timezone": "Europe/Rome",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "status": "on-sale",
     "genre": "Rock"
   },
   {
@@ -389182,7 +388312,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-madrid-movistar-arena---madrid-5-23-2027--concerts-rock/production/7835272",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/fall-out-boy-twilight-of-the-punks-tickets/412819502?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389217,8 +388347,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k83O_fe",
     "timezone": "Europe/Madrid",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation España Red Path SL"
     ],
@@ -389647,7 +388776,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/fall-out-boy-twilight-of-the-punks-tickets/1061072045?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389682,24 +388811,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vv-vwvA",
     "timezone": "Europe/Amsterdam",
-    "status": "announced",
-    "public_onsale_at": "2026-11-12T11:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T11:00:00Z",
-        "end": "2026-11-12T10:30:00Z"
-      },
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-11T11:00:00Z",
-        "end": "2026-11-12T10:30:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-fall-out-boy-2027-odz-z698xzqpz16evyz9fj",
@@ -390174,7 +389290,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-toronto-rogers-stadium---toronto-7-22-2027--concerts-rock/production/7835302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fall-out-boy-twilight-of-the-toronto-ontario-07-22-2027/event/10006564CDFED572",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390234,11 +389350,6 @@
         "name": "VIP Packages Presale",
         "start": "2026-11-11T15:00:00Z",
         "end": "2026-11-12T14:00:00Z"
-      },
-      {
-        "name": "Front Of The Line Amex Presale Tickets",
-        "start": "2026-11-11T17:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
       },
       {
         "name": "VIP Packages Onsale",
@@ -390447,7 +389558,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-queens-new-york-08-01-2027/event/1D006564DAFD3C25",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390485,7 +389596,7 @@
     "status": "announced",
     "public_onsale_at": "2026-11-12T15:00:00Z",
     "organizer_names": [
-      "LIVE NATION - NO LN CONCERTS BRANDING"
+      "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
     "genre": "Rock",
@@ -392051,7 +391162,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-nashville-the-truth-5-1-2027/production/7834201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-nashville-tennessee-05-01-2027/event/1B006564A01B9322",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392101,7 +391212,7 @@
     "ticketmaster_discovery_event_id": "G5viZ_p3OkyGx",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "public_onsale_at": "2026-11-13T18:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361931",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361931/The-Dead-South-tickets-Sat-May-1-2027-The-Truth",
     "organizer_names": [
@@ -392126,7 +391237,7 @@
       },
       {
         "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-11-13T16:00:00Z",
+        "start": "2026-11-13T18:00:00Z",
         "end": "2027-04-02T03:00:00Z"
       }
     ]
@@ -393238,7 +392349,7 @@
     "city": "Nottingham",
     "country": "Great Britain",
     "venue": "Rock City",
-    "datetime_iso": "2027-05-20T18:00:00Z",
+    "datetime_iso": "2027-07-06T18:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1F006566D2497950",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-nottingham-20-05-2027/event/1F006566D2497950",
@@ -393246,7 +392357,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-nottingham-20-05-2027/event/1F006566D2497950",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393312,7 +392423,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-bournemouth-05-07-2027/event/3E00656998573CA9",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393363,6 +392474,11 @@
       },
       {
         "name": "Artist Presale",
+        "start": "2026-11-12T10:00:00Z",
+        "end": "2026-11-13T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
         "start": "2026-11-12T10:00:00Z",
         "end": "2026-11-13T09:00:00Z"
       }
@@ -393463,7 +392579,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-vancouver-british-columbia-05-19-2027/event/11006565A5686179",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393518,11 +392634,6 @@
         "name": "Artist Sign Up Presale",
         "start": "2026-11-18T22:00:00Z",
         "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2027-05-15T19:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361523/Stray-Kids-tickets-Wed-May-19-2027-BC-Place-Stadium",
@@ -393940,7 +393051,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-miami-gardens-hard-rock-stadium-6-11-2027/production/7832833",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-miami-florida-06-11-2027/event/0D006565A3BC5881",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393996,7 +393107,17 @@
         "end": "2026-11-18T19:00:00Z"
       },
       {
+        "name": "STAY Membership Presale VIP Packages",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:00:00Z"
+      },
+      {
         "name": "Artist Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-19T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Packages",
         "start": "2026-11-18T20:00:00Z",
         "end": "2026-11-19T03:00:00Z"
       }
@@ -394019,7 +393140,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-orlando-camping-world-stadium-6-14-2027/production/7832837",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-orlando-florida-06-14-2027/event/22006564E7F05FE6",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -394075,7 +393196,17 @@
         "end": "2026-11-18T19:00:00Z"
       },
       {
+        "name": "STAY Membership Presale VIP Packages",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:00:00Z"
+      },
+      {
         "name": "Artist Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-19T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Packages",
         "start": "2026-11-18T20:00:00Z",
         "end": "2026-11-19T03:00:00Z"
       }
@@ -394673,7 +393804,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mumford-sons-stampede-concert-series-calgary-alberta-07-12-2027/event/11006565CAE78CD3",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -394724,11 +393855,6 @@
     "ticket_limit": 6,
     "genre": "Rock",
     "presales": [
-      {
-        "name": "Stampede Insider Presale",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      },
       {
         "name": "LIVE NATION PRESALE",
         "start": "2026-11-12T16:00:00Z",
@@ -395186,7 +394312,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-montreal-bell-centre-4-4-2027/production/7833537",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/marc-anthony-the-last-dance-montreal-quebec-04-04-2027/event/31006541D7EE8649",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395244,7 +394370,7 @@
       {
         "name": "Prévente Forfaits VIP Packages Presale",
         "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
+        "end": "2026-11-13T14:45:00Z"
       },
       {
         "name": "Prévente Artiste Presale",
@@ -395493,7 +394619,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-newark-prudential-center-4-15-2027/production/7833191",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-newark-new-jersey-04-15-2027/event/02006555DA3C4F61",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395544,7 +394670,7 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "CMN Registration",
+        "name": "CMN Registration Presale",
         "start": "2026-11-12T14:00:00Z",
         "end": "2026-11-13T14:00:00Z"
       },
@@ -395700,7 +394826,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-charlotte-spectrum-center-4-23-2027/production/7833245",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-charlotte-north-carolina-04-23-2027/event/2D006547F1FDD2D8",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395750,19 +394876,24 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "CMN Registration \"Reggie\" Presale",
+        "name": "CMN Registration Presale",
         "start": "2026-11-12T14:00:00Z",
         "end": "2026-11-13T14:00:00Z"
       },
       {
         "name": "VIP Package Presale",
         "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
+        "end": "2026-11-13T14:45:00Z"
       },
       {
         "name": "Artist Presale",
         "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
+        "end": "2026-11-13T14:45:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2026-11-13T14:45:00Z"
       },
       {
         "name": "CMN Presale",
@@ -395771,11 +394902,6 @@
       },
       {
         "name": "Spectrum Center Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
         "start": "2026-11-12T15:00:00Z",
         "end": "2026-11-13T14:59:00Z"
       },
@@ -395901,7 +395027,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-san-antonio-frost-bank-center-4-29-2027--concerts-latin-music/production/7842721",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-antonio-texas-04-29-2027/event/3A00654ED39BFDB7",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395984,7 +395110,7 @@
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T16:00:00Z",
-        "end": "2027-04-27T22:00:00Z"
+        "end": "2027-04-22T22:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361884/Marc-Anthony-tickets-Thu-Apr-29-2027-Frost-Bank-Center"
@@ -396109,7 +395235,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-denver-ball-arena-5-13-2027/production/7833291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-denver-colorado-05-13-2027/event/1E00654EE846CB3B",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -396172,7 +395298,12 @@
       {
         "name": "Artist Presale",
         "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T16:59:00Z"
+        "end": "2026-11-13T16:45:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2026-11-13T16:45:00Z"
       },
       {
         "name": "Ball Arena Presale",
@@ -396181,11 +395312,6 @@
       },
       {
         "name": "CMN Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T16:59:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
         "start": "2026-11-12T17:00:00Z",
         "end": "2026-11-13T16:59:00Z"
       },
@@ -397038,7 +396164,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-21-2027--concerts-rock/production/7850919",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -397087,6 +396213,11 @@
         "end": "2026-11-13T06:00:00Z"
       },
       {
+        "name": "Artist Presale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
         "name": "Caesars Rewards Presale",
         "start": "2026-11-12T18:00:00Z",
         "end": "2026-11-13T06:00:00Z"
@@ -397114,7 +396245,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-23-2027--concerts-rock/production/7850921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -397159,6 +396290,11 @@
     "presales": [
       {
         "name": "APE Presale",
+        "start": "2026-11-12T18:00:00Z",
+        "end": "2026-11-13T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
         "start": "2026-11-12T18:00:00Z",
         "end": "2026-11-13T06:00:00Z"
       },
@@ -398115,7 +397251,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-22-05-2027/event/1400655FE8938944",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -398151,11 +397287,18 @@
     "ticketmaster_discovery_event_id": "1Av8Z_4GkTI0zP7",
     "timezone": "America/Mexico_City",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "public_onsale_at": "2026-11-12T16:00:00Z",
     "organizer_names": [
       "OCESA"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Vente Gneral VIP",
+        "start": "2026-11-12T16:00:00Z",
+        "end": "2027-05-23T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-seattle-vvg1hz_p5fubur",
@@ -398316,7 +397459,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/chris-stassy-west-footscray-27-02-2027/event/25006554A956455B",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -398356,7 +397499,7 @@
     "organizer_names": [
       "UNTITLED GROUP"
     ],
-    "ticket_limit": 4,
+    "ticket_limit": 6,
     "genre": "Dance/Electronic",
     "presales": [
       {
@@ -398387,7 +397530,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkG4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-12",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -398422,7 +397565,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkG4",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Alternative"
   },
   {
     "id": "tm-garth-brooks-2027-north-little-rock-g5viz_ploilrd",
@@ -398440,7 +397584,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-05-2027/event/1B00656AD1B1F783",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -398476,7 +397620,12 @@
     "ticketmaster_discovery_event_id": "G5viZ_ploiLrd",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-north-little-rock-g5viz_plkwtt5",
@@ -398494,7 +397643,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-06-2027/event/1B00656AD3F7FA4B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -398530,7 +397679,12 @@
     "ticketmaster_discovery_event_id": "G5viZ_plKWTt5",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-belfast-1adoz_pgkmhjvms",
@@ -398548,7 +397702,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-belfast-23-05-2027/event/3800656BBC701DF1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -398583,7 +397737,12 @@
     },
     "ticketmaster_discovery_event_id": "1AdOZ_pGkmHjvMs",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AIKEN PROMOTIONS"
+    ],
+    "ticket_limit": 9,
+    "genre": "Country"
   },
   {
     "id": "tm-u2-2027-sevilla-z698xz2qz16vfkj0zb",
@@ -398601,8 +397760,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1513724018?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-12",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1513724018",
@@ -398637,7 +397796,11 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfKj0Zb",
     "timezone": "Europe/Madrid",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T09:00:00Z"
+    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "organizer_names": [
+      "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rufus-du-sol-2026-las-vegas-z7r9jz1aav9uy",
@@ -398708,7 +397871,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-04-2027/event/30006569F6AD725C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -398744,7 +397907,24 @@
     "ticketmaster_discovery_event_id": "1AYZk4tGkdUl9aj",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 10,
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2027-02-04T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2027-02-28T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-dead-south-2027-regina-z7r9jz1aaakfg",

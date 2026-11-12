@@ -469,7 +469,7 @@
     "city": "Nottingham",
     "country": "Great Britain",
     "venue": "Royal Concert Hall Nottingham",
-    "datetime_iso": "2027-02-23T19:00:00Z",
+    "datetime_iso": "2027-02-23T19:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1F00651F378C3FFF",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-nottingham-23-02-2027/event/1F00651F378C3FFF",
@@ -477,7 +477,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jake-bugg-nottingham-23-02-2027/event/1F00651F378C3FFF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

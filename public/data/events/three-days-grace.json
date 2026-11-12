@@ -752,7 +752,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-jose-california-11-18-2026/event/1C006364AF66ACBC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -813,11 +813,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-11-14T18:00:00Z",
-        "end": "2026-11-12T06:00:00Z"
-      },
       {
         "name": "Live Nation All Access Deal",
         "start": "2026-03-24T23:00:00Z",

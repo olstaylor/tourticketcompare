@@ -563,7 +563,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7NGx",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NGx",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-04-06-8-pm/concert/18758281",
     "vividseats_url": "https://www.vividseats.com/mana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-4-6-2027/production/7730506",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NGx",
@@ -579,11 +579,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758281,
+        "url": "https://seatgeek.com/mana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-04-06-8-pm/concert/18758281",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7730506,
@@ -633,7 +633,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7x_k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_k",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-04-08-8-pm/concert/18758283",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_k",
@@ -649,11 +649,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758283,
+        "url": "https://seatgeek.com/mana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-04-08-8-pm/concert/18758283",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -703,7 +703,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7x_7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-04-11-8-pm/concert/18758285",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_7",
@@ -719,11 +719,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758285,
+        "url": "https://seatgeek.com/mana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-04-11-8-pm/concert/18758285",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -773,7 +773,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7x_6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-09-01-8-pm/concert/18758287",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_6",
@@ -789,11 +789,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758287,
+        "url": "https://seatgeek.com/mana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-09-01-8-pm/concert/18758287",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -843,7 +843,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7NG-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NG-",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-09-02-8-pm/concert/18758289",
     "vividseats_url": "https://www.vividseats.com/mana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-9-2-2027/production/7730502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7NG-",
@@ -859,11 +859,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758289,
+        "url": "https://seatgeek.com/mana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-09-02-8-pm/concert/18758289",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7730502,
@@ -913,7 +913,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7x_A",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-09-06-8-pm/concert/18758291",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7x_A",
@@ -929,11 +929,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758291,
+        "url": "https://seatgeek.com/mana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-09-06-8-pm/concert/18758291",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

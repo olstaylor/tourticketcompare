@@ -1087,7 +1087,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C00650D94FD60CB",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-dallas-texas-11-10-2026/event/0C00650D94FD60CB",
-    "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/dallas-texas-american-airlines-center-2026-11-10-7-30-pm/concert/18503900",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-dallas-american-airlines-center---tx-11-10-2026--concerts-pop/production/7446284",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-dallas-texas-11-10-2026/event/0C00650D94FD60CB",
@@ -1103,11 +1103,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18503900,
-        "url": "https://seatgeek.com/jonas-brothers-tickets/dallas-texas-american-airlines-center-2026-11-10-7-30-pm/concert/18503900",
-        "verified": true,
-        "last_verified_at": "2026-11-08",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7446284,
@@ -1188,7 +1188,7 @@
         "event_id": 18503902,
         "url": "https://seatgeek.com/jonas-brothers-tickets/austin-texas-moody-center-atx-2026-11-13-7-30-pm/concert/18503902",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1270,7 +1270,7 @@
         "event_id": 18503903,
         "url": "https://seatgeek.com/jonas-brothers-tickets/san-antonio-texas-frost-bank-center-2026-11-14-7-30-pm/concert/18503903",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1598,7 +1598,7 @@
         "event_id": 18503911,
         "url": "https://seatgeek.com/jonas-brothers-tickets/san-francisco-california-chase-center-2026-11-21-7-30-pm/concert/18503911",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1687,7 +1687,7 @@
         "event_id": 18503910,
         "url": "https://seatgeek.com/jonas-brothers-tickets/sacramento-california-golden-1-center-2026-11-22-7-30-pm/concert/18503910",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1776,7 +1776,7 @@
         "event_id": 18503907,
         "url": "https://seatgeek.com/jonas-brothers-tickets/glendale-arizona-desert-diamond-arena-2026-11-27-7-30-pm/concert/18503907",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1938,7 +1938,7 @@
         "event_id": 18503919,
         "url": "https://seatgeek.com/jonas-brothers-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-11-30-7-30-pm/concert/18503919",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2019,7 +2019,7 @@
         "event_id": 18503918,
         "url": "https://seatgeek.com/jonas-brothers-tickets/anaheim-california-honda-center-2026-12-02-7-30-pm/concert/18503918",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2108,7 +2108,7 @@
         "event_id": 18503920,
         "url": "https://seatgeek.com/jonas-brothers-tickets/seattle-washington-climate-pledge-arena-2026-12-05-7-30-pm/concert/18503920",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2270,7 +2270,7 @@
         "event_id": 18503921,
         "url": "https://seatgeek.com/jonas-brothers-tickets/denver-colorado-ball-arena-2026-12-09-7-30-pm/concert/18503921",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2351,7 +2351,7 @@
         "event_id": 18503923,
         "url": "https://seatgeek.com/jonas-brothers-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-12-10-7-30-pm/concert/18503923",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2446,7 +2446,7 @@
         "event_id": 18503922,
         "url": "https://seatgeek.com/jonas-brothers-tickets/sioux-falls-south-dakota-denny-sanford-premier-center-2026-12-12-7-30-pm/concert/18503922",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2532,7 +2532,7 @@
         "event_id": 18503930,
         "url": "https://seatgeek.com/jonas-brothers-tickets/grand-rapids-michigan-van-andel-arena-2026-12-15-7-30-pm/concert/18503930",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2618,7 +2618,7 @@
         "event_id": 18503931,
         "url": "https://seatgeek.com/jonas-brothers-tickets/elmont-new-york-ubs-arena-2026-12-19-7-30-pm/concert/18503931",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {

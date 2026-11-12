@@ -2039,7 +2039,7 @@
     "tour_name": "The Ugly Tour",
     "ticketmaster_event_id": "1C00648ABCA0F080",
     "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-san-francisco-california-11-10-2026/event/1C00648ABCA0F080",
-    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/san-francisco-california-chase-center-2026-11-10-7-pm/concert/18185175",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-san-francisco-chase-center-11-10-2026--concerts-rb/production/6912010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-san-francisco-california-11-10-2026/event/1C00648ABCA0F080",
@@ -2055,11 +2055,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18185175,
-        "url": "https://seatgeek.com/teddy-swims-tickets/san-francisco-california-chase-center-2026-11-10-7-pm/concert/18185175",
-        "verified": true,
-        "last_verified_at": "2026-11-08",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6912010,
@@ -2147,7 +2147,7 @@
         "event_id": 18185176,
         "url": "https://seatgeek.com/teddy-swims-tickets/sacramento-california-golden-1-center-2026-11-11-7-pm/concert/18185176",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2375,7 +2375,7 @@
         "event_id": 18185182,
         "url": "https://seatgeek.com/teddy-swims-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-16-7-pm/concert/18185182",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2457,7 +2457,7 @@
         "event_id": 18185184,
         "url": "https://seatgeek.com/teddy-swims-tickets/inglewood-california-kia-forum-2026-11-18-7-pm/concert/18185184",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {

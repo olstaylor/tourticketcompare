@@ -508,7 +508,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAed_7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_7",
     "seatgeek_url": "https://seatgeek.com/jodeci-tickets/cleveland-ohio-keybank-state-theatre-at-playhouse-square-2026-11-14-8-pm/concert/18407250",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jodeci-tickets-cleveland-playhouse-square---keybank-state-theatre-11-14-2026/production/7354406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed_7",
     "last_verified_at": "2026-11-07",
@@ -530,11 +530,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7354406,
+        "url": "https://www.vividseats.com/jodeci-tickets-cleveland-playhouse-square---keybank-state-theatre-11-14-2026/production/7354406",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

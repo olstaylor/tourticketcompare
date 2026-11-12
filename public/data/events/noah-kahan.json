@@ -2288,7 +2288,7 @@
     "ticketmaster_event_id": "1306451961",
     "ticketmaster_url": "https://www.ticketmaster.de/event/noah-kahan-the-last-of-the-bugs-world-tour-tickets/1306451961?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-berlin-waldbuhne-berlin-7-2-2027--concerts-pop/production/7773199",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/noah-kahan-the-last-of-the-bugs-world-tour-tickets/1306451961?language=en-us",
     "last_verified_at": "2026-11-10",
@@ -2310,11 +2310,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7773199,
+        "url": "https://www.vividseats.com/noah-kahan-tickets-berlin-waldbuhne-berlin-7-2-2027--concerts-pop/production/7773199",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

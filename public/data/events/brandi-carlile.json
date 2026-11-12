@@ -1800,7 +1800,7 @@
     "ticketmaster_event_id": "36006507844A10F8",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/brandi-carlile-london-14-04-2027/event/36006507844A10F8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-london-eventim-apollo-4-14-2027--concerts-rock/production/7416247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-london-14-04-2027/event/36006507844A10F8",
     "last_verified_at": "2026-11-07",
@@ -1822,11 +1822,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7416247,
+        "url": "https://www.vividseats.com/brandi-carlile-tickets-london-eventim-apollo-4-14-2027--concerts-rock/production/7416247",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

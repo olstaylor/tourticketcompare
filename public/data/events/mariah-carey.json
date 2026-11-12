@@ -243,7 +243,7 @@
     "ticketmaster_event_id": "1F006549053985E4",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-transport-exeter-27-06-2027/event/1F006549053985E4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-exeter-powderham-castle-6-27-2027/production/7835392",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-transport-exeter-27-06-2027/event/1F006549053985E4",
     "last_verified_at": "2026-11-09",
@@ -265,11 +265,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835392,
+        "url": "https://www.vividseats.com/mariah-carey-tickets-exeter-powderham-castle-6-27-2027/production/7835392",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -302,7 +302,7 @@
     "ticketmaster_event_id": "1F006549E80E6750",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-cardiff-29-06-2027/event/1F006549E80E6750",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-cardiff-cardiff-castle-6-29-2027/production/7835386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-cardiff-29-06-2027/event/1F006549E80E6750",
     "last_verified_at": "2026-11-09",
@@ -324,11 +324,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835386,
+        "url": "https://www.vividseats.com/mariah-carey-tickets-cardiff-cardiff-castle-6-29-2027/production/7835386",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -450,7 +450,7 @@
     "ticketmaster_event_id": "35006557D2F1A63F",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/mariah-carey-scarborough-03-07-2027/event/35006557D2F1A63F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-scarborough-scarborough-open-air-theatre-7-3-2027/production/7835398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-scarborough-03-07-2027/event/35006557D2F1A63F",
     "last_verified_at": "2026-11-09",
@@ -472,11 +472,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835398,
+        "url": "https://www.vividseats.com/mariah-carey-tickets-scarborough-scarborough-open-air-theatre-7-3-2027/production/7835398",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

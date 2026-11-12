@@ -1898,7 +1898,7 @@
     "ticketmaster_event_id": "170065641E7869D0",
     "ticketmaster_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-21-2027--concerts-rock/production/7850919",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
     "last_verified_at": "2026-11-11",
@@ -1920,11 +1920,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7850919,
+        "url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-21-2027--concerts-rock/production/7850919",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1974,7 +1974,7 @@
     "ticketmaster_event_id": "170065641E7E69D6",
     "ticketmaster_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-23-2027--concerts-rock/production/7850921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
     "last_verified_at": "2026-11-11",
@@ -1996,11 +1996,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7850921,
+        "url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-23-2027--concerts-rock/production/7850921",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

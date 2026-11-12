@@ -652,7 +652,7 @@
     "ticketmaster_event_id": "1E0064B4954A8177",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
     "seatgeek_url": "https://seatgeek.com/arcangel-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-18-8-pm/concert/18266330",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-18-2026--concerts-rap-hip-hop/production/7079517",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
     "last_verified_at": "2026-11-07",
@@ -674,11 +674,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7079517,
+        "url": "https://www.vividseats.com/arcangel-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-18-2026--concerts-rap-hip-hop/production/7079517",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

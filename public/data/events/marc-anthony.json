@@ -1781,7 +1781,7 @@
     "ticketmaster_event_id": "3A00654ED39BFDB7",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-antonio-texas-04-29-2027/event/3A00654ED39BFDB7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-san-antonio-frost-bank-center-4-29-2027--concerts-latin-music/production/7842721",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-antonio-texas-04-29-2027/event/3A00654ED39BFDB7",
     "last_verified_at": "2026-11-10",
@@ -1803,11 +1803,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7842721,
+        "url": "https://www.vividseats.com/marc-anthony-tickets-san-antonio-frost-bank-center-4-29-2027--concerts-latin-music/production/7842721",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

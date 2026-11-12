@@ -472,7 +472,7 @@
     "ticketmaster_event_id": "1F00652787E0116B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/cage-the-elephant-london-01-03-2027/event/1F00652787E0116B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cage-the-elephant-tickets-london-alexandra-palace-3-1-2027/production/7537065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-london-01-03-2027/event/1F00652787E0116B",
     "last_verified_at": "2026-11-07",
@@ -494,11 +494,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7537065,
+        "url": "https://www.vividseats.com/cage-the-elephant-tickets-london-alexandra-palace-3-1-2027/production/7537065",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

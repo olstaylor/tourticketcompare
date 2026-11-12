@@ -1985,7 +1985,7 @@
     "ticketmaster_event_id": "1100656588AA3760",
     "ticketmaster_url": "https://www.ticketmaster.ca/kings-of-leon-vancouver-british-columbia-09-14-2027/event/1100656588AA3760",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-vancouver-rogers-arena-9-14-2027/production/7824434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/kings-of-leon-vancouver-british-columbia-09-14-2027/event/1100656588AA3760",
     "last_verified_at": "2026-11-11",
@@ -2007,11 +2007,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7824434,
+        "url": "https://www.vividseats.com/kings-of-leon-tickets-vancouver-rogers-arena-9-14-2027/production/7824434",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

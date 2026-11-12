@@ -1394,7 +1394,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAAGg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAGg",
     "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/minneapolis-minnesota-target-center-2026-12-12-8-pm/concert/18747130",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-minneapolis-target-center-12-12-2026/production/7827961",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAGg",
     "last_verified_at": "2026-11-11",
@@ -1416,11 +1416,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7827961,
+        "url": "https://www.vividseats.com/garth-brooks-tickets-minneapolis-target-center-12-12-2026/production/7827961",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

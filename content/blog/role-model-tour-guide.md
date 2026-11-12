@@ -1,10 +1,10 @@
 ---
 title: "Role Model tour: dates, cities and how to choose"
 seo_title: "Role Model tickets: dates and cities"
-description: "Role Model shows in Dublin, London and Manchester, with each ticket site's lowest listed price captured on 2026-11-07 for London and Manchester."
-summary: "Lowest listed prices for Role Model in Manchester and London by ticket site, the Dublin date, and how to compare listings for your own date."
-date: 2026-11-07
-status: draft
+description: "Role Model dates in Dublin, London and Manchester, with each site's listed-price snapshot, capture time and checks before choosing a show."
+summary: "Three checked Role Model dates and the separate ticket-site price snapshots to inspect before choosing London, Manchester or Dublin."
+date: 2026-11-10
+status: published
 tags: [tour-buying]
 related_artists: [role-model]
 related_guides: [how-to-read-a-ticket-listing, primary-vs-resale-concert-tickets, ticket-delivery-and-transfer-timing]
@@ -17,33 +17,40 @@ sources:
     url: "https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829"
 ---
 
-Listed prices were captured on 2026-11-07 for two of these Role Model dates, Manchester and London, where StubHub International's lowest listed figures were USD 108 and USD 154. No site's listed price was captured for the Dublin date, so if Dublin is your pick, you will need to check the ticket sites yourself.
+Choosing between Role Model in London and Manchester? Vivid Seats' lowest listed snapshots were USD 133.00 for Manchester on 2027-02-28 and USD 188.00 for London on 2027-02-24, both captured on 2026-11-10 at 13:04 UTC. Check the actual seats before choosing: these are different performances and listings, not a saving on the same ticket.
 
-Every figure below is one site's lowest listed price for that date on the day it was captured. It is not a checkout total: fees, delivery and the final price are set by each ticket site, so confirm them there before you pay.
+Dublin's 3Arena date is earlier, on 2027-02-22. No eligible priced snapshot was returned for Dublin at this guide's 2026-11-10 check, which says nothing about whether tickets are available there.
 
-## Lowest listed prices by city
+## The three checked dates
 
-This table shows one date per city. It is not the full list of Role Model dates, so check the [Role Model artist board](/artists/role-model) for any other dates in these cities or elsewhere.
+Ticketmaster's dates, venues and exact event identities were rechecked against its official listings on 2026-11-10:
 
-| City | Date and venue | Site | Lowest listed (captured 2026-11-07) |
-|---|---|---|---|
-| Manchester | [2027-02-28, AO Arena](https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829) | StubHub International | USD 108 |
-| Manchester | [2027-02-28, AO Arena](https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829) | Vivid Seats | USD 152 |
-| London | [2027-02-24, OVO Arena Wembley](https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99) | StubHub International | USD 154 |
-| London | [2027-02-24, OVO Arena Wembley](https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99) | Vivid Seats | USD 188 |
-| London | [2027-02-24, OVO Arena Wembley](https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99) | TicketNetwork | USD 210 |
-| Dublin | [2027-02-22, 3Arena](https://www.ticketmaster.ie/role-model-presents-chuck-on-tour-dublin-22-02-2027/event/180064D07A5BA252) | None captured | No listed price |
+- Dublin, 2027-02-22: [3Arena](https://www.ticketmaster.ie/role-model-presents-chuck-on-tour-dublin-22-02-2027/event/180064D07A5BA252)
+- London, 2027-02-24: [OVO Arena Wembley](https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99)
+- Manchester, 2027-02-28: [AO Arena](https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829)
 
-Each row is a separate listing on a separate site. The figures are not added together, converted, or meant to show one site beating another, because the seats behind each lowest listing can differ.
+This is one date per city, rather than a complete list of the tour. Check the [Role Model artist board](/artists/role-model) when narrowing down your own date.
 
-For Manchester, two sites had a listed price captured: StubHub International at USD 108 and Vivid Seats at USD 152. For London, three did: StubHub International at USD 154, Vivid Seats at USD 188 and TicketNetwork at USD 210.
+## Each site's captured listed price
 
-## What has moved, and what to double-check
+The figures below are dated partner snapshots, not live inventory or checkout totals. Each row names the site, the performance and the capture time. All amounts are in USD as supplied by the ticket site; they have not been converted into pounds or euros.
 
-There is no 30-day price history in this data for any of these dates, so the figures above are a single day's capture and say nothing about how prices have shifted. None of the listings was flagged as unusually low against the same site's other dates either.
+| City | Date and venue | Ticket site | Lowest listed price | Captured (UTC) |
+|---|---|---|---|---|
+| London | [2027-02-24, OVO Arena Wembley](https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99) | StubHub International | USD 154.20 | 2026-11-09 19:57 UTC |
+| London | [2027-02-24, OVO Arena Wembley](https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99) | TicketNetwork | USD 210.45 | 2026-11-10 09:55 UTC |
+| London | [2027-02-24, OVO Arena Wembley](https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99) | Vivid Seats | USD 188.00 | 2026-11-10 13:04 UTC |
+| Manchester | [2027-02-28, AO Arena](https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829) | StubHub International | USD 97.24 | 2026-11-09 19:57 UTC |
+| Manchester | [2027-02-28, AO Arena](https://www.ticketmaster.co.uk/role-model-manchester-28-02-2027/event/1F0064D2934F9829) | Vivid Seats | USD 133.00 | 2026-11-10 13:04 UTC |
 
-Even so, before you rely on any lowest figure, open the listing and check the section, row and ticket type it actually covers. The guide on [how to read a ticket listing](/guides/how-to-read-a-ticket-listing) walks through what to look for. If you are weighing these resale listings against the original seller, [primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets) sets out the differences. And with every date in 2027, [ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) explains when tickets bought this early tend to arrive.
+For Manchester, the table records Vivid Seats and StubHub International. For London, it records those two sites and TicketNetwork. Dublin has no figure in this comparison. A missing row does not mean a seller has no tickets; it means there is no eligible price snapshot to quote here.
 
-## Compare your own date
+## Choose the date, then inspect the ticket
 
-Once you have settled on a city, go to the [Role Model artist board](/artists/role-model), pick your exact date, and compare the listed prices across ticket sites for that show. Then confirm the full price, including fees, on the ticket site before you pay.
+If either UK city fits your plans, compare the same site's figures for London and Manchester first, then inspect each listing's section, row and ticket quantity. A lower listed amount can describe a different seat or ticket type. The final price, fees and delivery terms still need to be confirmed on the seller's page.
+
+If Dublin is the date you want, use its official event page rather than treating a London or Manchester figure as a Dublin estimate. Those other cities' prices do not fill the gap in Dublin's data.
+
+This page is a dated comparison, not a price trend or advice that waiting will make tickets cheaper. StubHub International's figures were captured on 2026-11-09, while the other snapshots shown were captured on 2026-11-10; those separate times matter when comparing what the sites listed.
+
+Before paying, [how to read a ticket listing](/guides/how-to-read-a-ticket-listing) helps you check exactly what is being offered. [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets) explains the seller distinction, and [ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) covers the delivery questions to settle before relying on a purchase for your trip.

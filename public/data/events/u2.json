@@ -1383,5 +1383,59 @@
       "Nationalarenan i Solna AB"
     ],
     "genre": "Rock"
+  },
+  {
+    "id": "tm-u2-2027-sevilla-z698xz2qz16vfkj0zb",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Sevilla",
+    "country": "Spain",
+    "venue": "Estadio La Cartuja de Sevilla",
+    "datetime_iso": "2027-05-24T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1513724018",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1513724018?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1513724018?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1513724018",
+        "discovery_event_id": "Z698xZ2qZ16vfKj0Zb",
+        "url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1513724018?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfKj0Zb",
+    "timezone": "Europe/Madrid",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z"
   }
 ]

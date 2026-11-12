@@ -398370,5 +398370,433 @@
         "end": "2026-11-17T00:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-mumford-sons-2027-st-john-s-z7r9jz1aaakg4",
+    "artist_slug": "mumford-sons",
+    "artist_name": "Mumford & Sons",
+    "event_name": "Mumford & Sons",
+    "city": "St. John's",
+    "country": "Canada",
+    "venue": "Churchill Park",
+    "datetime_iso": "2027-07-17T12:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkG4",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkG4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkG4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkG4",
+        "discovery_event_id": "Z7r9jZ1AAAkG4",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkG4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkG4",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-garth-brooks-2027-north-little-rock-g5viz_ploilrd",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "North Little Rock",
+    "country": "United States Of America",
+    "venue": "Simmons Bank Arena",
+    "datetime_iso": "2027-02-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656AD1B1F783",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-05-2027/event/1B00656AD1B1F783",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-05-2027/event/1B00656AD1B1F783",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656AD1B1F783",
+        "discovery_event_id": "G5viZ_ploiLrd",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-05-2027/event/1B00656AD1B1F783",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_ploiLrd",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-garth-brooks-2027-north-little-rock-g5viz_plkwtt5",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "North Little Rock",
+    "country": "United States Of America",
+    "venue": "Simmons Bank Arena",
+    "datetime_iso": "2027-02-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656AD3F7FA4B",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-06-2027/event/1B00656AD3F7FA4B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-06-2027/event/1B00656AD3F7FA4B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656AD3F7FA4B",
+        "discovery_event_id": "G5viZ_plKWTt5",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-06-2027/event/1B00656AD3F7FA4B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_plKWTt5",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-garth-brooks-2027-belfast-1adoz_pgkmhjvms",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - the Irish Tour 2027",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "Boucher Playing Fields",
+    "datetime_iso": "2027-05-23T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800656BBC701DF1",
+    "ticketmaster_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-belfast-23-05-2027/event/3800656BBC701DF1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-belfast-23-05-2027/event/3800656BBC701DF1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800656BBC701DF1",
+        "discovery_event_id": "1AdOZ_pGkmHjvMs",
+        "url": "https://www.ticketmaster.ie/garth-brooks-the-irish-tour-2027-belfast-23-05-2027/event/3800656BBC701DF1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdOZ_pGkmHjvMs",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-u2-2027-sevilla-z698xz2qz16vfkj0zb",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show On Earth World Tour",
+    "city": "Sevilla",
+    "country": "Spain",
+    "venue": "Estadio La Cartuja de Sevilla",
+    "datetime_iso": "2027-05-24T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1513724018",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1513724018?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1513724018?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1513724018",
+        "discovery_event_id": "Z698xZ2qZ16vfKj0Zb",
+        "url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1513724018?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfKj0Zb",
+    "timezone": "Europe/Madrid",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T09:00:00Z"
+  },
+  {
+    "id": "tm-rufus-du-sol-2026-las-vegas-z7r9jz1aav9uy",
+    "artist_slug": "rufus-du-sol",
+    "artist_name": "RUFUS DU SOL",
+    "event_name": "Rufus Du Sol - Ages 21+",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "XS Nightclub at Wynn Las Vegas",
+    "datetime_iso": "2026-11-23T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv9uy",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uy",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uy",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv9uy",
+        "discovery_event_id": "Z7r9jZ1AAv9uy",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uy",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv9uy",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-feid-2027-brooklyn-1ayzk4tgkdul9aj",
+    "artist_slug": "feid",
+    "artist_name": "FEID",
+    "event_name": "FEID - FERXXO - THE GREEN STAR Tour 2027",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2027-03-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006569F6AD725C",
+    "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-04-2027/event/30006569F6AD725C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-04-2027/event/30006569F6AD725C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006569F6AD725C",
+        "discovery_event_id": "1AYZk4tGkdUl9aj",
+        "url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-04-2027/event/30006569F6AD725C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AYZk4tGkdUl9aj",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-12T15:00:00Z"
+  },
+  {
+    "id": "tm-the-dead-south-2027-regina-z7r9jz1aaakfg",
+    "artist_slug": "the-dead-south",
+    "artist_name": "The Dead South",
+    "event_name": "The Dead South",
+    "city": "Regina",
+    "country": "Canada",
+    "venue": "Conexus Performing Arts Center",
+    "datetime_iso": "2027-10-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkfg",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkfg",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkfg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkfg",
+        "discovery_event_id": "Z7r9jZ1AAAkfg",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkfg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkfg",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

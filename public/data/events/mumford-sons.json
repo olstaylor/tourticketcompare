@@ -144,5 +144,58 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361979/Mumford-Sons-tickets-Mon-Jul-12-2027-Scotiabank-Saddledome"
+  },
+  {
+    "id": "tm-mumford-sons-2027-st-john-s-z7r9jz1aaakg4",
+    "artist_slug": "mumford-sons",
+    "artist_name": "Mumford & Sons",
+    "event_name": "Mumford & Sons",
+    "city": "St. John's",
+    "country": "Canada",
+    "venue": "Churchill Park",
+    "datetime_iso": "2027-07-17T12:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkG4",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkG4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkG4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkG4",
+        "discovery_event_id": "Z7r9jZ1AAAkG4",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkG4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkG4",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

@@ -1055,7 +1055,7 @@
         "event_id": 18689500,
         "url": "https://seatgeek.com/earth-wind-fire-tickets/huntsville-alabama-orion-amphitheater-2027-04-21-7-30-pm/concert/18689500",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1663,7 +1663,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAZuE",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZuE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/earth-wind-fire-tickets/pompano-beach-florida-pompano-beach-amphitheater-2027-04-13-7-30-pm/concert/18755932",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAZuE",
@@ -1679,11 +1679,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755932,
+        "url": "https://seatgeek.com/earth-wind-fire-tickets/pompano-beach-florida-pompano-beach-amphitheater-2027-04-13-7-30-pm/concert/18755932",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

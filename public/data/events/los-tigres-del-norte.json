@@ -322,7 +322,7 @@
         "event_id": 18138848,
         "url": "https://seatgeek.com/los-tigres-del-norte-tickets/detroit-michigan-fox-theatre-detroit-2026-11-21-8-pm/concert/18138848",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -411,7 +411,7 @@
         "event_id": 18092532,
         "url": "https://seatgeek.com/los-tigres-del-norte-tickets/baltimore-maryland-cfg-bank-arena-2026-11-27-8-pm/concert/18092532",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -493,7 +493,7 @@
         "event_id": 18093247,
         "url": "https://seatgeek.com/los-tigres-del-norte-tickets/elmont-new-york-ubs-arena-2026-11-28-8-pm/concert/18093247",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -558,7 +558,7 @@
         "event_id": 18092545,
         "url": "https://seatgeek.com/los-tigres-del-norte-tickets/nashville-tennessee-bridgestone-arena-2026-12-04-8-pm/concert/18092545",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -647,7 +647,7 @@
         "event_id": 18092802,
         "url": "https://seatgeek.com/los-tigres-del-norte-tickets/birmingham-alabama-bjcc-concert-hall-2026-12-05-8-pm/concert/18092802",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1832,7 +1832,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006566CB84EE98",
     "ticketmaster_url": "https://www.ticketmaster.com/los-tigres-del-norte-lincoln-california-02-19-2027/event/1C006566CB84EE98",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/los-tigres-del-norte-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2027-02-19-7-30-pm/concert/18757733",
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-lincoln-the-venue-at-thunder-valley-casino-resort-2-19-2027/production/7845546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-lincoln-california-02-19-2027/event/1C006566CB84EE98",
@@ -1848,11 +1848,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757733,
+        "url": "https://seatgeek.com/los-tigres-del-norte-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2027-02-19-7-30-pm/concert/18757733",
+        "verified": true,
+        "last_verified_at": "2026-11-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7845546,

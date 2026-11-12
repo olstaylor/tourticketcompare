@@ -651,7 +651,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064AAC1419703",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-austin-texas-11-10-2026/event/3A0064AAC1419703",
-    "seatgeek_url": "https://seatgeek.com/katseye-tickets/austin-texas-moody-center-atx-2026-11-10-8-pm/concert/18240150",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-austin-moody-center-atx-11-10-2026--concerts-pop/production/7027959",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-austin-texas-11-10-2026/event/3A0064AAC1419703",
@@ -667,11 +667,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18240150,
-        "url": "https://seatgeek.com/katseye-tickets/austin-texas-moody-center-atx-2026-11-10-8-pm/concert/18240150",
-        "verified": true,
-        "last_verified_at": "2026-11-08",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7027959,
@@ -922,7 +922,7 @@
         "event_id": 18240158,
         "url": "https://seatgeek.com/katseye-tickets/seattle-washington-climate-pledge-arena-2026-11-17-8-pm/concert/18240158",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1004,7 +1004,7 @@
         "event_id": 18240159,
         "url": "https://seatgeek.com/katseye-tickets/oakland-california-oakland-arena-2026-11-19-8-pm/concert/18240159",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1086,7 +1086,7 @@
         "event_id": 18240162,
         "url": "https://seatgeek.com/katseye-tickets/los-angeles-california-crypto-com-arena-2026-11-21-8-pm/concert/18240162",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1168,7 +1168,7 @@
         "event_id": 18258420,
         "url": "https://seatgeek.com/katseye-tickets/los-angeles-california-crypto-com-arena-2026-11-22-8-pm/concert/18258420",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1250,7 +1250,7 @@
         "event_id": 18240163,
         "url": "https://seatgeek.com/katseye-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-24-8-pm/concert/18240163",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {

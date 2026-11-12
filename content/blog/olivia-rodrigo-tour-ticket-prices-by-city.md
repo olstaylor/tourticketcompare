@@ -4,7 +4,7 @@ seo_title: "Olivia Rodrigo ticket prices by city"
 description: "Olivia Rodrigo tour: the next date in 10 cities, $304 in Sunrise at the low end, $482 in Inglewood at the high end."
 summary: "Vivid Seats' lowest listed price for the next Olivia Rodrigo date in each of 10 cities, each figure with the time it was captured. Snapshots 10 November 2026."
 date: 2026-10-30
-updated: 2026-11-10
+updated: 2026-11-12
 status: published
 tags:
   - tour-data
@@ -24,7 +24,7 @@ Olivia Rodrigo's The Unraveled Tour has 59 dates that TourTicketCompare tracks. 
 | [Seattle](/artists/olivia-rodrigo/tickets/seattle-united-states) | 7 December 2026 | Climate Pledge Arena | $313 | Vivid Seats | 10 November, 13:02 UTC |
 | [Nashville](/artists/olivia-rodrigo/tickets/nashville-united-states) | 23 November 2026 | Bridgestone Arena | $363 | Vivid Seats | 10 November, 13:02 UTC |
 | [Oakland](/artists/olivia-rodrigo/tickets/oakland-united-states) | 11 December 2026 | Oakland Arena | $369 | Vivid Seats | 10 November, 17:50 UTC |
-| [Atlanta](/artists/olivia-rodrigo/tickets/atlanta-united-states) | 11 November 2026 | State Farm Arena | $378 | Vivid Seats | 10 November, 17:50 UTC |
+| [Atlanta](/artists/olivia-rodrigo/tickets/atlanta-united-states) | 11 November 2026 (has passed) | State Farm Arena | $378 | Vivid Seats | 10 November, 17:50 UTC |
 | [Las Vegas](/artists/olivia-rodrigo/tickets/las-vegas-united-states) | 19 December 2026 | T-Mobile Arena | $381 | Vivid Seats | 10 November, 13:02 UTC |
 | [Sacramento](/artists/olivia-rodrigo/tickets/sacramento-united-states) | 15 December 2026 | Golden 1 Center | $404 | Vivid Seats | 10 November, 13:02 UTC |
 | [Orlando](/artists/olivia-rodrigo/tickets/orlando-united-states) | 15 November 2026 | Kia Center | $446 | Vivid Seats | 10 November, 17:50 UTC |
@@ -39,7 +39,7 @@ TicketNetwork also had a recent listed price for the next date in 10 of these ci
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Atlanta](/artists/olivia-rodrigo/tickets/atlanta-united-states) | 11 November 2026 | State Farm Arena | $465.75 | TicketNetwork | 10 November, 17:52 UTC |
+| [Atlanta](/artists/olivia-rodrigo/tickets/atlanta-united-states) | 11 November 2026 (has passed) | State Farm Arena | $465.75 | TicketNetwork | 10 November, 17:52 UTC |
 | [Orlando](/artists/olivia-rodrigo/tickets/orlando-united-states) | 15 November 2026 | Kia Center | $583.05 | TicketNetwork | 10 November, 17:52 UTC |
 | [Sunrise](/artists/olivia-rodrigo/tickets/sunrise-united-states) | 19 November 2026 | Amerant Bank Arena | $269.10 | TicketNetwork | 10 November, 17:55 UTC |
 | [Nashville](/artists/olivia-rodrigo/tickets/nashville-united-states) | 23 November 2026 | Bridgestone Arena | $455.40 | TicketNetwork | 9 November, 22:45 UTC |

@@ -4,7 +4,7 @@ seo_title: "Trivium tour ticket prices by city"
 description: "Trivium tour: the next date in 22 cities, $27.60 in Inglewood at the low end, $147.20 in Charlotte at the high end."
 summary: "TicketNetwork's lowest listed price for the next Trivium date in each of 22 cities, each figure with the time it was captured. Snapshots 10 November 2026."
 date: 2026-10-26
-updated: 2026-11-10
+updated: 2026-11-11
 status: published
 tags:
   - tour-data
@@ -37,7 +37,7 @@ Trivium's Crown In The Grave World Tour has 28 dates that TourTicketCompare trac
 | [Seattle](/artists/trivium/tickets/seattle-united-states) | 9 December 2026 | Paramount Theatre | $92 | TicketNetwork | 10 November, 09:57 UTC |
 | [Madison](/artists/trivium/tickets/madison-united-states) | 22 November 2026 | The Sylvee | $94.30 | TicketNetwork | 10 November, 09:57 UTC |
 | [San Antonio](/artists/trivium/tickets/san-antonio-united-states) | 27 November 2026 | Boeing Center at Tech Port | $97.75 | TicketNetwork | 10 November, 17:57 UTC |
-| [New Haven](/artists/trivium/tickets/new-haven-united-states) | 11 November 2026 | College Street Music Hall | $103.50 | TicketNetwork | 10 November, 13:03 UTC |
+| [New Haven](/artists/trivium/tickets/new-haven-united-states) | 11 November 2026 (has passed) | College Street Music Hall | $103.50 | TicketNetwork | 10 November, 13:03 UTC |
 | [Philadelphia](/artists/trivium/tickets/philadelphia-united-states) | 14 November 2026 | Franklin Music Hall | $108.10 | TicketNetwork | 10 November, 09:57 UTC |
 | [Tulsa](/artists/trivium/tickets/tulsa-united-states) | 15 December 2026 | Tulsa Theater | $108.10 | TicketNetwork | 10 November, 09:57 UTC |
 | [Silver Spring](/artists/trivium/tickets/silver-spring-united-states) | 10 November 2026 | The Fillmore Silver Spring | $121.90 | TicketNetwork | 10 November, 13:03 UTC |
@@ -52,7 +52,7 @@ Vivid Seats also had a recent listed price for the next date in 18 of these citi
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
 | [Silver Spring](/artists/trivium/tickets/silver-spring-united-states) | 10 November 2026 | The Fillmore Silver Spring | $65 | Vivid Seats | 10 November, 17:50 UTC |
-| [New Haven](/artists/trivium/tickets/new-haven-united-states) | 11 November 2026 | College Street Music Hall | $68 | Vivid Seats | 10 November, 17:50 UTC |
+| [New Haven](/artists/trivium/tickets/new-haven-united-states) | 11 November 2026 (has passed) | College Street Music Hall | $68 | Vivid Seats | 10 November, 17:50 UTC |
 | [New York](/artists/trivium/tickets/new-york-united-states) | 12 November 2026 | Terminal 5 | $73 | Vivid Seats | 10 November, 13:02 UTC |
 | [Philadelphia](/artists/trivium/tickets/philadelphia-united-states) | 14 November 2026 | Franklin Music Hall | $99 | Vivid Seats | 10 November, 13:02 UTC |
 | [Royal Oak](/artists/trivium/tickets/royal-oak-united-states) | 20 November 2026 | Royal Oak Music Theatre | $57 | Vivid Seats | 10 November, 13:02 UTC |

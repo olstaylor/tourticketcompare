@@ -749,7 +749,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-17-2026/event/170062F0FD75638E",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -793,7 +793,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwrkco",
@@ -811,7 +812,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-18-2026/event/170062F0FD786391",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -855,7 +856,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwlkck",
@@ -873,7 +875,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-19-2026/event/170062F0FD7C6393",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -917,7 +919,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-barry-manilow-2027-sunrise-z7r9jz1a7ji0e",

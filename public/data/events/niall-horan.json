@@ -1398,7 +1398,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-indianapolis-gainbridge-fieldhouse-3-26-2027/production/7017203",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-indianapolis-indiana-03-26-2027/event/050064A6E98F9E81",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1460,6 +1460,11 @@
         "name": "VIP Packages Public Onsale",
         "start": "2026-05-15T14:00:00Z",
         "end": "2027-03-22T16:00:00Z"
+      },
+      {
+        "name": "Ticket Deals Offer",
+        "start": "2026-11-27T05:00:00Z",
+        "end": "2027-01-01T04:59:00Z"
       }
     ],
     "organizer_names": [
@@ -2248,7 +2253,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-new-orleans-smoothie-king-center-4-29-2027/production/7017193",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-new-orleans-louisiana-04-29-2027/event/1B0064A893B6A823",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2318,6 +2323,11 @@
         "name": "VIP Packages Public Onsale",
         "start": "2026-05-15T15:00:00Z",
         "end": "2027-04-25T17:00:00Z"
+      },
+      {
+        "name": "Holiday Promotion: More Ticket Deal",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T04:00:00Z"
       }
     ],
     "organizer_names": [

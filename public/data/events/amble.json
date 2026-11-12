@@ -1240,7 +1240,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-nashville-brooklyn-bowl---nashville-11-14-2026/production/7165441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1292,13 +1292,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8055458",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8055458/Amble-tickets-Sat-Nov-14-2026-Brooklyn-Bowl-Nashville",
-    "presales": [
-      {
-        "name": "T-Mobile® Concert Perks",
-        "start": "2026-06-19T14:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

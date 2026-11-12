@@ -1178,7 +1178,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-sacramento-california-06-15-2027/event/1C0064A8AC204C0F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1235,7 +1235,14 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Ticketmaster's Holiday Gift Guide",
+        "start": "2026-11-27T18:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-san-luis-obispo-z7r9jz1a70w-f",

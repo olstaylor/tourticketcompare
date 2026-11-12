@@ -1069,7 +1069,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-montreal-bell-centre-4-4-2027/production/7833537",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/marc-anthony-the-last-dance-montreal-quebec-04-04-2027/event/31006541D7EE8649",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1127,7 +1127,7 @@
       {
         "name": "Prévente Forfaits VIP Packages Presale",
         "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
+        "end": "2026-11-13T14:45:00Z"
       },
       {
         "name": "Prévente Artiste Presale",
@@ -1376,7 +1376,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-newark-prudential-center-4-15-2027/production/7833191",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-newark-new-jersey-04-15-2027/event/02006555DA3C4F61",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1427,7 +1427,7 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "CMN Registration",
+        "name": "CMN Registration Presale",
         "start": "2026-11-12T14:00:00Z",
         "end": "2026-11-13T14:00:00Z"
       },
@@ -1583,7 +1583,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-charlotte-spectrum-center-4-23-2027/production/7833245",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-charlotte-north-carolina-04-23-2027/event/2D006547F1FDD2D8",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1633,19 +1633,24 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "CMN Registration \"Reggie\" Presale",
+        "name": "CMN Registration Presale",
         "start": "2026-11-12T14:00:00Z",
         "end": "2026-11-13T14:00:00Z"
       },
       {
         "name": "VIP Package Presale",
         "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
+        "end": "2026-11-13T14:45:00Z"
       },
       {
         "name": "Artist Presale",
         "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
+        "end": "2026-11-13T14:45:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2026-11-13T14:45:00Z"
       },
       {
         "name": "CMN Presale",
@@ -1654,11 +1659,6 @@
       },
       {
         "name": "Spectrum Center Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
         "start": "2026-11-12T15:00:00Z",
         "end": "2026-11-13T14:59:00Z"
       },
@@ -1784,7 +1784,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-san-antonio-frost-bank-center-4-29-2027--concerts-latin-music/production/7842721",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-antonio-texas-04-29-2027/event/3A00654ED39BFDB7",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1867,7 +1867,7 @@
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T16:00:00Z",
-        "end": "2027-04-27T22:00:00Z"
+        "end": "2027-04-22T22:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361884/Marc-Anthony-tickets-Thu-Apr-29-2027-Frost-Bank-Center"
@@ -1992,7 +1992,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-denver-ball-arena-5-13-2027/production/7833291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-denver-colorado-05-13-2027/event/1E00654EE846CB3B",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2055,7 +2055,12 @@
       {
         "name": "Artist Presale",
         "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T16:59:00Z"
+        "end": "2026-11-13T16:45:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-12T17:00:00Z",
+        "end": "2026-11-13T16:45:00Z"
       },
       {
         "name": "Ball Arena Presale",
@@ -2064,11 +2069,6 @@
       },
       {
         "name": "CMN Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T16:59:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
         "start": "2026-11-12T17:00:00Z",
         "end": "2026-11-13T16:59:00Z"
       },

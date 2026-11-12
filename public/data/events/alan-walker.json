@@ -1460,7 +1460,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-chicago-aragon-ballroom-2-26-2027--concerts-dance-electronica/production/7554699",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-chicago-illinois-02-26-2027/event/0400652330E20F3E",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1530,6 +1530,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-09-18T15:00:00Z",
         "end": "2027-02-22T18:00:00Z"
+      },
+      {
+        "name": "2 For 1 Tickets",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T05:59:00Z"
       }
     ],
     "organizer_names": [

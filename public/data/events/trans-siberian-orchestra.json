@@ -1759,7 +1759,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-austin-moody-center-atx-12-9-2026/production/7536643",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-austin-texas-12-09-2026/event/3A006510C43173A4",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1819,11 +1819,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255081",
     "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-austin-tickets-12-9-2026/event/107667756",
     "presales": [
-      {
-        "name": "Mastercard Preferred Tickets",
-        "start": "2026-09-18T15:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      },
       {
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T15:00:00Z",

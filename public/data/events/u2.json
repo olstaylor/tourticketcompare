@@ -954,7 +954,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-barcelona-estadi-olimpic-lluis-companys-5-13-2027--concerts-rock/production/7817710",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1271385480?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -994,18 +994,6 @@
     "organizer_names": [
       "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
     ],
-    "presales": [
-      {
-        "name": "U2 Album Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-11T21:00:00Z"
-      },
-      {
-        "name": "Visa Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-11T21:00:00Z"
-      }
-    ],
     "genre": "Rock"
   },
   {
@@ -1024,7 +1012,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/180682429?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1064,18 +1052,6 @@
     "organizer_names": [
       "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
     ],
-    "presales": [
-      {
-        "name": "U2 Album Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-11T21:00:00Z"
-      },
-      {
-        "name": "Visa Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-11T21:00:00Z"
-      }
-    ],
     "genre": "Rock"
   },
   {
@@ -1094,7 +1070,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-sevilla-estadio-la-cartuja-de-sevilla-5-22-2027--concerts-rock/production/7817726",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/902239771?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1148,18 +1124,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357092",
     "organizer_names": [
       "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
-    ],
-    "presales": [
-      {
-        "name": "U2 Album Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-11T21:00:00Z"
-      },
-      {
-        "name": "Visa Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-11T21:00:00Z"
-      }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357092/U2-tickets-Sat-May-22-2027-Estadio-La-Cartuja",
     "genre": "Rock"
@@ -1400,8 +1364,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1513724018?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-12",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1513724018",
@@ -1436,6 +1400,10 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfKj0Zb",
     "timezone": "Europe/Madrid",
     "status": "announced",
-    "public_onsale_at": "2026-11-13T09:00:00Z"
+    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "organizer_names": [
+      "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
+    ],
+    "genre": "Rock"
   }
 ]

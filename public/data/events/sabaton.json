@@ -491,7 +491,7 @@
     "vividseats_url": "https://www.vividseats.com/sabaton-tickets-orlando-hard-rock-live---orlando-12-11-2026/production/6752109",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-orlando-florida-12-11-2026/event/2200645500EFAA8A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -552,16 +552,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7784220/Sabaton-tickets-Fri-Dec-11-2026-Hard-Rock-Live-Orlando",
     "stubhub_international_url": "https://www.stubhub.ie/sabaton-orlando-tickets-12-11-2026/event/107142116",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-03-05T16:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      },
-      {
-        "name": "Verizon Access Select Seats",
-        "start": "2026-03-05T16:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-03-05T16:00:00Z",
@@ -2340,7 +2330,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-national-harbor-maryland-12-06-2026/event/15006329F9723920",
-    "last_verified_at": "2026-11-09",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2397,7 +2387,14 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Metal"
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "BlackFriday & Cyber Monday Offer",
+        "start": "2026-11-26T15:00:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-atlanta-vvg1zzbwjnkk6z",

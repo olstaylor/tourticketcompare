@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-orlando-kia-center-2-5-2027/production/7824670",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-orlando-florida-02-05-2027/event/22006562D6B54087",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -75,36 +75,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Aisle Offer",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-09T03:00:00Z"
@@ -132,7 +102,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-tampa-benchmark-international-arena-2-6-2027/production/7824724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-tampa-florida-02-06-2027/event/0D006563E3E1990B",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -191,31 +161,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-10T03:00:00Z"
@@ -243,7 +188,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-miami-kaseya-center-2-11-2027/production/7824740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-miami-florida-02-11-2027/event/0D006562D90BAFAB",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -302,31 +247,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-12T03:00:00Z"
@@ -354,7 +274,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-duluth-gas-south-arena-2-18-2027/production/7824734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-duluth-georgia-02-18-2027/event/0E006562ABC17E09",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -414,36 +334,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Preferred Seating Offer Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-19T03:00:00Z"
@@ -471,7 +361,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-charlotte-spectrum-center-2-20-2027/production/7824738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-charlotte-north-carolina-02-20-2027/event/2D006562B21A8E27",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -530,31 +420,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-24T03:00:00Z"
@@ -582,7 +447,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-boston-td-garden-2-23-2027/production/7824764",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-boston-massachusetts-02-23-2027/event/010065639CD167A2",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -642,31 +507,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-24T03:00:00Z"
@@ -694,7 +534,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-washington-capital-one-arena-2-25-2027/production/7824742",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-washington-district-of-columbia-02-25-2027/event/1500654538915859",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -754,31 +594,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-30T01:00:00Z"
@@ -806,7 +621,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-philadelphia-xfinity-mobile-arena-2-26-2027/production/7824744",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-philadelphia-pennsylvania-02-26-2027/event/30006565AB1E4D1C",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -865,31 +680,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-01-30T03:00:00Z"
@@ -917,7 +707,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-brooklyn-barclays-center-3-3-2027/production/7824704",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-03-2027/event/3000656491B9295F",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -977,31 +767,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-04T03:00:00Z"
@@ -1029,7 +794,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-toronto-scotiabank-arena-3-11-2027/production/7825006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/feid-ferxxo-the-green-star-tour-toronto-ontario-03-11-2027/event/10006562AA635702",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1076,31 +841,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Preferred Seating Presale",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "Front Of The Line Amex Presale Tickets",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-03-07T17:00:00Z"
@@ -1123,7 +863,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-montreal-bell-centre-3-13-2027/production/7825008",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/feid-ferxxo-the-green-star-tour-montreal-quebec-03-13-2027/event/3100655EE403C5D4",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1186,36 +926,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T14:00:00Z",
-        "end": "2026-11-11T14:00:00Z"
-      },
-      {
-        "name": "PRÉVENTE LIVE NATION",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      },
-      {
-        "name": "Prévente Ticketmaster Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T03:00:00Z"
-      },
-      {
-        "name": "Prévente Artiste",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Prévente Forfaits VIP Packages Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
-        "name": "Prévente Sièges Préférentiels",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-12T04:59:00Z"
-      },
-      {
         "name": "Forfaits VIP Packages",
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-03-09T17:00:00Z"
@@ -1238,7 +948,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-chicago-united-center-3-18-2027/production/7824746",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-18-2027/event/04006562DB9A783D",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1298,36 +1008,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Preferred Seating Offer Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-02-19T02:00:00Z"
@@ -1360,7 +1040,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-dallas-american-airlines-center---tx-3-24-2027/production/7824994",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-dallas-texas-03-24-2027/event/0C006564F7C6328A",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1420,31 +1100,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-02-25T04:00:00Z"
@@ -1477,7 +1132,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-austin-moody-center-atx-3-26-2027/production/7824956",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-austin-texas-03-26-2027/event/3A006564EF1BCEC3",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1537,36 +1192,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Preferred Seating Offer",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-02-27T04:00:00Z"
@@ -1594,7 +1219,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-denver-ball-arena-3-31-2027/production/7824752",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-denver-colorado-03-31-2027/event/1E006564EF7D6507",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1654,31 +1279,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-11T16:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-11T16:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-11T16:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T17:00:00Z",
-        "end": "2026-11-12T06:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T17:00:00Z",
-        "end": "2026-11-12T06:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-03-04T05:00:00Z"
@@ -1706,7 +1306,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-seattle-climate-pledge-arena-4-4-2027/production/7824756",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-seattle-washington-04-04-2027/event/0F006564C16194A1",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1766,31 +1366,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-09T06:00:00Z"
@@ -1818,7 +1393,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-portland-moda-center-4-6-2027/production/7824758",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-portland-oregon-04-06-2027/event/0F00656393D54DDB",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1878,31 +1453,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-10T06:00:00Z"
@@ -1930,7 +1480,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-sacramento-golden-1-center-4-8-2027/production/7824646",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-sacramento-california-04-08-2027/event/1C006562D6EED4DC",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1990,31 +1540,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-09T06:00:00Z"
@@ -2047,7 +1572,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-san-francisco-chase-center-4-10-2027/production/7824650",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-san-francisco-california-04-10-2027/event/1C006562B549A19D",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2107,36 +1632,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Preferred Seating Aisle Offer Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-14T04:00:00Z"
@@ -2169,7 +1664,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-san-jose-california-04-11-2027/event/1C006562D308D00A",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2229,31 +1724,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-14T07:59:00Z"
@@ -2281,7 +1751,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-fresno-save-mart-center-4-13-2027/production/7824652",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-fresno-california-04-13-2027/event/1C006563A7F4983E",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2341,31 +1811,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-17T05:00:00Z"
@@ -2393,7 +1838,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-phoenix-mortgage-matchup-center-4-15-2027/production/7824768",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-phoenix-arizona-04-15-2027/event/19006563CAE45F83",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2452,34 +1897,9 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-11T16:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-11T16:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T16:00:00Z",
-        "end": "2026-11-11T16:00:00Z"
-      },
-      {
         "name": "Preferred Seating",
         "start": "2026-11-10T16:00:00Z",
         "end": "2027-04-16T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T17:00:00Z",
-        "end": "2026-11-12T06:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T17:00:00Z",
-        "end": "2026-11-12T06:59:00Z"
       },
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -2509,7 +1929,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-san-diego-pechanga-arena-4-23-2027/production/7824636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-san-diego-california-04-23-2027/event/0A006563E2498813",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2569,36 +1989,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Preferred Aisle Seating",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-27T05:00:00Z"
@@ -2626,7 +2016,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-anaheim-honda-center-4-25-2027/production/7824654",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-anaheim-california-04-25-2027/event/09006563CA7AD7D6",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2686,31 +2076,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-29T06:45:00Z"
@@ -2738,7 +2103,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-inglewood-intuit-dome-4-29-2027/production/7824619",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-29-2027/event/09006563CCD6DA6F",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2798,26 +2163,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T17:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T18:00:00Z",
-        "end": "2026-11-12T07:59:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-04-02T05:00:00Z"
@@ -2845,7 +2190,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-tlajomulco-de-zuniga-13-05-2027/event/3D0065648A93419E",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2888,21 +2233,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Preventa Banamex Paquetes VIP",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Venta de Artista Paquetes VIP",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      },
-      {
-        "name": "Venta De Artista",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
         "name": "Venta General Paquetes VIP",
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-05-14T02:00:00Z"
@@ -2925,7 +2255,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-21-05-2027/event/1400655FE8938938",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2968,21 +2298,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Preventa Banamex Paquetes VIP",
-        "start": "2026-11-10T17:00:00Z",
-        "end": "2026-11-11T15:00:00Z"
-      },
-      {
-        "name": "Venta de Artista Paquetes VIP",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T04:00:00Z"
-      },
-      {
-        "name": "Venta de Artista",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-12T05:59:00Z"
-      },
-      {
         "name": "Venta General Paquetes VIP",
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-05-22T02:00:00Z"
@@ -3005,7 +2320,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-22-05-2027/event/1400655FE8938944",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3041,11 +2356,18 @@
     "ticketmaster_discovery_event_id": "1Av8Z_4GkTI0zP7",
     "timezone": "America/Mexico_City",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T17:00:00Z",
+    "public_onsale_at": "2026-11-12T16:00:00Z",
     "organizer_names": [
       "OCESA"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Vente Gneral VIP",
+        "start": "2026-11-12T16:00:00Z",
+        "end": "2027-05-23T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-feid-2027-brooklyn-1ayzk4tgkdul9aj",
@@ -3063,7 +2385,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-04-2027/event/30006569F6AD725C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3099,6 +2421,23 @@
     "ticketmaster_discovery_event_id": "1AYZk4tGkdUl9aj",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-12T15:00:00Z"
+    "public_onsale_at": "2026-11-12T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 10,
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2027-02-04T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-12T15:00:00Z",
+        "end": "2027-02-28T17:00:00Z"
+      }
+    ]
   }
 ]

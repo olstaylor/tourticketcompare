@@ -2620,5 +2620,113 @@
       "Bestsport, a.s."
     ],
     "genre": "Classical"
+  },
+  {
+    "id": "tm-andrea-bocelli-2027-portici-napoli-zg9rmiynyzf176",
+    "artist_slug": "andrea-bocelli",
+    "artist_name": "Andrea Bocelli",
+    "event_name": "Andrea Bocelli",
+    "city": "Portici (Napoli)",
+    "country": "Italy",
+    "venue": "Reggia di Portici",
+    "datetime_iso": "2027-07-03T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "bjj1rn7zbrrw",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/andrea-bocelli-portici-napoli-03-07-2027/event/bjj1rn7zbrrw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/andrea-bocelli-portici-napoli-03-07-2027/event/bjj1rn7zbrrw",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "bjj1rn7zbrrw",
+        "discovery_event_id": "ZG9rmIYnyZF176",
+        "url": "https://www.ticketmaster.it/biglietti/andrea-bocelli-portici-napoli-03-07-2027/event/bjj1rn7zbrrw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZF176",
+    "timezone": "Europe/Rome",
+    "status": "announced",
+    "public_onsale_at": "2026-11-16T13:00:00Z"
+  },
+  {
+    "id": "tm-andrea-bocelli-2027-pollenzo-cuneo-zg9rmiynyzf17f",
+    "artist_slug": "andrea-bocelli",
+    "artist_name": "Andrea Bocelli",
+    "event_name": "Andrea Bocelli",
+    "city": "Pollenzo (Cuneo)",
+    "country": "Italy",
+    "venue": "Albergo dell'Agenzia",
+    "datetime_iso": "2027-09-25T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "an0rbr5hbumo",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/andrea-bocelli-pollenzo-cuneo-25-09-2027/event/an0rbr5hbumo",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/andrea-bocelli-pollenzo-cuneo-25-09-2027/event/an0rbr5hbumo",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "an0rbr5hbumo",
+        "discovery_event_id": "ZG9rmIYnyZF17F",
+        "url": "https://www.ticketmaster.it/biglietti/andrea-bocelli-pollenzo-cuneo-25-09-2027/event/an0rbr5hbumo",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZF17F",
+    "timezone": "Europe/Rome",
+    "status": "announced",
+    "public_onsale_at": "2026-11-16T13:00:00Z"
   }
 ]

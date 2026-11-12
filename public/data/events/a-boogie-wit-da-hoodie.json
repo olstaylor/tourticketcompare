@@ -928,5 +928,59 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361500",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361500/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Jan-29-2027-Co-Op-Live"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2027-manchester-1adjz_pgkwcxzvj",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A Boogie Wit Da Hoodie",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-01-31T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700656CADFB8D1C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-manchester-31-01-2027/event/3700656CADFB8D1C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-manchester-31-01-2027/event/3700656CADFB8D1C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700656CADFB8D1C",
+        "discovery_event_id": "1AdjZ_pGkwcXzVj",
+        "url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-manchester-31-01-2027/event/3700656CADFB8D1C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_pGkwcXzVj",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T10:00:00Z"
   }
 ]

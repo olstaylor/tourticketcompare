@@ -1048,5 +1048,437 @@
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
     "stubhub_international_url": ""
+  },
+  {
+    "id": "tm-morgan-wallen-2027-tampa-vvg1vz_p0fzneo",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen: THE LAST TIME I CHECKED TOUR 2027",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Raymond James Stadium",
+    "datetime_iso": "2027-06-11T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00656914023091",
+    "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-11-2027/event/0D00656914023091",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-11-2027/event/0D00656914023091",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00656914023091",
+        "discovery_event_id": "vvG1VZ_p0fZNeo",
+        "url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-11-2027/event/0D00656914023091",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_p0fZNeo",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-tampa-vvg1vz_pl9zvgh",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen: THE LAST TIME I CHECKED TOUR 2027",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Raymond James Stadium",
+    "datetime_iso": "2027-06-12T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00656AD703433C",
+    "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-12-2027/event/0D00656AD703433C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-12-2027/event/0D00656AD703433C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00656AD703433C",
+        "discovery_event_id": "vvG1VZ_pl9ZVGH",
+        "url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-12-2027/event/0D00656AD703433C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_pl9ZVGH",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-foxborough-vv177z_4gkthgswc",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen: THE LAST TIME I CHECKED TOUR 2027",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2027-06-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100655FDB331C8E",
+    "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-25-2027/event/0100655FDB331C8E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-25-2027/event/0100655FDB331C8E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100655FDB331C8E",
+        "discovery_event_id": "vv177Z_4GkThGswC",
+        "url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-25-2027/event/0100655FDB331C8E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_4GkThGswC",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-foxborough-vv177z_pgki9euav",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen: THE LAST TIME I CHECKED TOUR 2027",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2027-06-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100656A1708D141",
+    "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-26-2027/event/0100656A1708D141",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-26-2027/event/0100656A1708D141",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100656A1708D141",
+        "discovery_event_id": "vv177Z_pGkI9euAv",
+        "url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-26-2027/event/0100656A1708D141",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_pGkI9euAv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-orchard-park-vv1fgz_pjac8zdu62",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen: THE LAST TIME I CHECKED TOUR 2027",
+    "city": "Orchard Park",
+    "country": "United States Of America",
+    "venue": "Highmark Stadium",
+    "datetime_iso": "2027-07-23T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0300656989390C6E",
+    "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-23-2027/event/0300656989390C6E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-23-2027/event/0300656989390C6E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0300656989390C6E",
+        "discovery_event_id": "vv1FGZ_pJaC8Zdu62",
+        "url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-23-2027/event/0300656989390C6E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1FGZ_pJaC8Zdu62",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-orchard-park-vv16dzk4txkza2vufv",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen: THE LAST TIME I CHECKED TOUR 2027",
+    "city": "Orchard Park",
+    "country": "United States Of America",
+    "venue": "Highmark Stadium",
+    "datetime_iso": "2027-07-24T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "03006569893E0C70",
+    "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-24-2027/event/03006569893E0C70",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-24-2027/event/03006569893E0C70",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "03006569893E0C70",
+        "discovery_event_id": "vv16dZk4txKZA2vuFv",
+        "url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-24-2027/event/03006569893E0C70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16dZk4txKZA2vuFv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-columbus-vv1aazk4tgkdvhpe8",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen: THE LAST TIME I CHECKED TOUR 2027",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Ohio Stadium",
+    "datetime_iso": "2027-08-06T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006569C16D69D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-06-2027/event/05006569C16D69D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-06-2027/event/05006569C16D69D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006569C16D69D0",
+        "discovery_event_id": "vv1AAZk4tGkdvhpE8",
+        "url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-06-2027/event/05006569C16D69D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4tGkdvhpE8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-columbus-vv17fz_pgkneyw0-",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen: THE LAST TIME I CHECKED TOUR 2027",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Ohio Stadium",
+    "datetime_iso": "2027-08-07T20:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500656A82E72921",
+    "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-07-2027/event/0500656A82E72921",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-07-2027/event/0500656A82E72921",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500656A82E72921",
+        "discovery_event_id": "vv17fZ_pGkneyw0-",
+        "url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-07-2027/event/0500656A82E72921",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_pGkneyw0-",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
   }
 ]

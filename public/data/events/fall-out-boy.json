@@ -2358,5 +2358,218 @@
         "end": "2027-08-18T05:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-fall-out-boy-2027-manchester-1adjz_pgkrptysy",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight of the Punks",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-06-06T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700656BD6A79CF0",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-manchester-06-06-2027/event/3700656BD6A79CF0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-manchester-06-06-2027/event/3700656BD6A79CF0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700656BD6A79CF0",
+        "discovery_event_id": "1AdjZ_pGkRptySY",
+        "url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-manchester-06-06-2027/event/3700656BD6A79CF0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_pGkRptySY",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-13T12:00:00Z"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-nashville-z7r9jz1aaaa0d",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "FirstBank Stadium",
+    "datetime_iso": "2027-07-27T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAA0d",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0d",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0d",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAA0d",
+        "discovery_event_id": "Z7r9jZ1AAAA0d",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0d",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAA0d",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-saint-charles-z7r9jz1aaakz9",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Saint Charles",
+    "country": "United States Of America",
+    "venue": "Roaming Hills",
+    "datetime_iso": "2027-08-06T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkZ9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkZ9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkZ9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkZ9",
+        "discovery_event_id": "Z7r9jZ1AAAkZ9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkZ9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkZ9",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fall-out-boy-2027-sandy-z7r9jz1aaaa0a",
+    "artist_slug": "fall-out-boy",
+    "artist_name": "Fall Out Boy",
+    "event_name": "Fall Out Boy: Twilight Of The Punks",
+    "city": "Sandy",
+    "country": "United States Of America",
+    "venue": "The Plaza at America First Field",
+    "datetime_iso": "2027-08-13T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAA0A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAA0A",
+        "discovery_event_id": "Z7r9jZ1AAAA0A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAA0A",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

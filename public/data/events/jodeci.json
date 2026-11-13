@@ -1763,7 +1763,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-columbia-township-auditorium-12-11-2026/production/7353364",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-columbia-south-carolina-12-11-2026/event/2D0064F6E351BAA9",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1823,6 +1823,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-07-31T14:00:00Z",
         "end": "2026-12-05T04:55:00Z"
+      },
+      {
+        "name": "Ticket Deals Offer",
+        "start": "2026-11-16T15:00:00Z",
+        "end": "2026-12-10T05:00:00Z"
       }
     ],
     "genre": "R&B"

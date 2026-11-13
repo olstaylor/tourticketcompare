@@ -1368,7 +1368,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-dallas-south-side-ballroom-12-10-2026--concerts-hard-rock/production/7052880",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-dallas-texas-12-10-2026/event/0C0064ADF719EBA8",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1428,13 +1428,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980234",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980234/Beartooth-tickets-Thu-Dec-10-2026-South-Side-Ballroom-at-Gilleys",
     "stubhub_international_url": "https://www.stubhub.ie/beartooth-dallas-tickets-12-10-2026/event/107417485",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-22T15:00:00Z",
-        "end": "2026-11-13T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1922,7 +1915,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-torrensville-26-01-2027/event/130064AFC21C848C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1962,7 +1955,8 @@
       "DESTROY ALL LINES"
     ],
     "ticket_limit": 8,
-    "genre": "Metal"
+    "genre": "Metal",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-beartooth-2027-west-melbourne-177yv0g61tqsnpg",
@@ -2035,7 +2029,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-brisbane-31-01-2027/event/130064AEEFC9D209",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2075,7 +2069,8 @@
       "DESTROY ALL LINES"
     ],
     "ticket_limit": 8,
-    "genre": "Metal"
+    "genre": "Metal",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-beartooth-2026-austin-z7r9jz1a70i8v",

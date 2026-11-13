@@ -2562,7 +2562,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-sioux-falls-south-dakota-03-16-2027/event/06006319C4C95295",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2618,6 +2618,13 @@
     "organizer_names": [
       "AWAKENING EVENTS"
     ],
-    "genre": "Religious"
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "$25 ALL IN",
+        "start": "2026-11-24T06:01:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   }
 ]

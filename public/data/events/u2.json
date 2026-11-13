@@ -970,7 +970,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-barcelona-estadi-olimpic-lluis-companys-5-13-2027--concerts-rock/production/7817710",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1271385480?language=en-us",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1005,8 +1005,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vasCA3Z",
     "timezone": "Europe/Madrid",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
     ],
@@ -1388,7 +1387,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-sevilla-estadio-la-cartuja-de-sevilla-5-24-2027/production/7860412",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/1513724018?language=en-us",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1423,8 +1422,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfKj0Zb",
     "timezone": "Europe/Madrid",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
     ],
@@ -1446,8 +1444,8 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-barcelona-estadi-olimpic-lluis-companys-5-17-2027/production/7865424",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/u2-the-greatest-show-on-earth-world-tour-tickets/2009325084?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-13",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2009325084",
@@ -1481,7 +1479,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16eZaGPe7",
     "timezone": "Europe/Madrid",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T09:00:00Z"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
+    ],
+    "genre": "Rock"
   }
 ]

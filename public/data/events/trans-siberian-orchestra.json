@@ -1847,7 +1847,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-raleigh-lenovo-center-12-10-2026--concerts-world-music/production/7536791",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-raleigh-north-carolina-12-10-2026/event/2D0064FCA708BBA4",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1908,11 +1908,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-raleigh-tickets-12-10-2026/event/107667924",
     "presales": [
       {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
         "name": "T-Mobile® Concert Perks",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-27T03:00:00Z"
@@ -1941,7 +1936,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-bossier-city-brookshire-grocery-arena-12-10-2026--concerts-world-music/production/7536807",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-bossier-city-louisiana-12-10-2026/event/1B00650EA46CEDD6",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1992,13 +1987,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255084",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T15:00:00Z",
-        "end": "2026-11-13T04:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255084/Trans-Siberian-Orchestra-tickets-Thu-Dec-10-2026-Brookshire-Grocery-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"

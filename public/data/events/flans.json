@@ -708,7 +708,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-mcallen-mcallen-performing-arts-center-5-30-2027--concerts-world-music/production/7593630",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-mcallen-texas-05-30-2027/event/3A00652F75893EB2",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -763,7 +763,14 @@
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
-    "genre": "Ballads/Romantic"
+    "genre": "Ballads/Romantic",
+    "presales": [
+      {
+        "name": "40 Anos Offer",
+        "start": "2026-11-26T16:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-flans-2027-san-jose-g5vyz_k6lhlxq",

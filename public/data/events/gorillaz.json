@@ -853,7 +853,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/gorillaz-ciudad-de-mexico-11-12-2026/event/1400655DC425ABEC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -902,11 +902,6 @@
     ],
     "genre": "Rock",
     "presales": [
-      {
-        "name": "Gran Venta HSBC Premier-Crédito y Débito",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T05:59:00Z"
-      },
       {
         "name": "Gran Venta HSBC-Crédito y Débito",
         "start": "2026-11-13T17:00:00Z",

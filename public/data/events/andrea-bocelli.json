@@ -2637,7 +2637,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/andrea-bocelli-portici-napoli-03-07-2027/event/bjj1rn7zbrrw",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2673,7 +2673,8 @@
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZF176",
     "timezone": "Europe/Rome",
     "status": "announced",
-    "public_onsale_at": "2026-11-16T13:00:00Z"
+    "public_onsale_at": "2026-11-16T13:00:00Z",
+    "genre": "Classical"
   },
   {
     "id": "tm-andrea-bocelli-2027-pollenzo-cuneo-zg9rmiynyzf17f",
@@ -2691,7 +2692,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/andrea-bocelli-pollenzo-cuneo-25-09-2027/event/an0rbr5hbumo",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2727,6 +2728,7 @@
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZF17F",
     "timezone": "Europe/Rome",
     "status": "announced",
-    "public_onsale_at": "2026-11-16T13:00:00Z"
+    "public_onsale_at": "2026-11-16T13:00:00Z",
+    "genre": "Classical"
   }
 ]

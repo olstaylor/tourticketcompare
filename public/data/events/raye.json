@@ -133,7 +133,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/bergen-calling-raye-tickets/1338582260?language=en-us",
-    "last_verified_at": "2026-11-09",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -168,18 +168,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16vGzpeaO",
     "timezone": "Europe/Oslo",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Bergen Live AS"
     ],
-    "genre": "Pop",
-    "presales": [
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-13T08:00:00Z"
-      }
-    ]
+    "genre": "Pop"
   }
 ]

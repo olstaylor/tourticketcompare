@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mumford-sons-milwaukee-wisconsin-07-09-2027/event/07006564D1106BF8",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -56,14 +56,7 @@
       "SUMMERFEST PRODUCTIONS"
     ],
     "ticket_limit": 8,
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "VENUE PRESALE",
-        "start": "2026-11-11T16:00:00Z",
-        "end": "2026-11-13T04:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-mumford-sons-2027-calgary-1aozk4pgkd1yzsk",
@@ -81,7 +74,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mumford-sons-stampede-concert-series-calgary-alberta-07-12-2027/event/11006565CAE78CD3",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -138,13 +131,6 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T04:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361979/Mumford-Sons-tickets-Mon-Jul-12-2027-Scotiabank-Saddledome",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361979"
   },

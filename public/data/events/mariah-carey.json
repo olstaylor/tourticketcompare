@@ -246,7 +246,7 @@
     "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-exeter-powderham-castle-6-27-2027/production/7835392",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-transport-exeter-27-06-2027/event/1F006549053985E4",
-    "last_verified_at": "2026-11-09",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -288,8 +288,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_f0ACb90",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
     ],
@@ -313,7 +312,7 @@
     "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-cardiff-cardiff-castle-6-29-2027/production/7835386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-cardiff-29-06-2027/event/1F006549E80E6750",
-    "last_verified_at": "2026-11-09",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -355,41 +354,13 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_fEIdJq8",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)",
       "DEPOT MARKETING LIMITED"
     ],
     "ticket_limit": 6,
     "genre": "Pop",
-    "presales": [
-      {
-        "name": "Priority from O2",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-13T08:00:00Z"
-      },
-      {
-        "name": "Cuffe & Taylor Presale",
-        "start": "2026-11-12T09:00:00Z",
-        "end": "2026-11-13T08:00:00Z"
-      },
-      {
-        "name": "Depot Presale",
-        "start": "2026-11-12T09:00:00Z",
-        "end": "2026-11-13T08:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-12T09:00:00Z",
-        "end": "2026-11-13T08:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T09:00:00Z",
-        "end": "2026-11-13T08:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-cardiff-cardiff-castle-29-6-2027/event/107680285"
   },
   {
@@ -408,7 +379,7 @@
     "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-woodstock-blenheim-palace-7-1-2027/production/7835402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-orangery-does-not-include-event-woodstock-01-07-2027/event/37006556B4AF8B3E",
-    "last_verified_at": "2026-11-09",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -457,8 +428,7 @@
     },
     "ticketmaster_discovery_event_id": "1AMZk4pGkeVlziX",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "MARI",
       "PWR EVENTS",
@@ -485,7 +455,7 @@
     "vividseats_url": "https://www.vividseats.com/mariah-carey-tickets-scarborough-scarborough-open-air-theatre-7-3-2027/production/7835398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/mariah-carey-scarborough-03-07-2027/event/35006557D2F1A63F",
-    "last_verified_at": "2026-11-09",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -541,35 +511,12 @@
     },
     "ticketmaster_discovery_event_id": "1AgZk49Gkd3HQbT",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
     ],
     "ticket_limit": 6,
     "genre": "Pop",
-    "presales": [
-      {
-        "name": "Priority from O2 Presale",
-        "start": "2026-11-11T09:00:00Z",
-        "end": "2026-11-13T08:00:00Z"
-      },
-      {
-        "name": "Cuffe & Taylor Presale",
-        "start": "2026-11-12T09:00:00Z",
-        "end": "2026-11-13T08:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-12T09:00:00Z",
-        "end": "2026-11-13T08:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T09:00:00Z",
-        "end": "2026-11-13T08:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365855",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365855/Mariah-Carey-tickets-Sat-Jul-3-2027-Scarborough-Open-Air-Theatre",
     "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-scarborough-scarborough-open-air-theatre-3-7-2027/event/107680279"

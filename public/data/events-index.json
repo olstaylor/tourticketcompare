@@ -54929,7 +54929,7 @@
     "datetime_iso": "2027-04-27T23:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-tampa-vvg1vz_4rlk1ty",
@@ -54941,7 +54941,7 @@
     "datetime_iso": "2027-04-29T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-charlotte-g5evz_4r3uqrt",
@@ -54953,7 +54953,7 @@
     "datetime_iso": "2027-05-06T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-houston-g5diz_4wkxf3f",
@@ -54965,7 +54965,7 @@
     "datetime_iso": "2027-05-12T23:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-santa-clara-g5vyz_4rfk6c7",
@@ -54977,7 +54977,7 @@
     "datetime_iso": "2027-05-20T00:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-las-vegas-1avjz_4gkrmeou0",
@@ -54989,7 +54989,7 @@
     "datetime_iso": "2027-05-22T01:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-columbus-vv17fz_4gkshkqmo",
@@ -55001,7 +55001,7 @@
     "datetime_iso": "2027-06-05T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-detroit-vv1koz_kr3g7cdve",
@@ -55013,7 +55013,7 @@
     "datetime_iso": "2027-06-10T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-orchard-park-vv17gz_4gksqg3zl",
@@ -55025,7 +55025,7 @@
     "datetime_iso": "2027-06-12T22:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-montreal-1aszk4pgkdjhrvf",
@@ -55037,7 +55037,7 @@
     "datetime_iso": "2027-06-15T22:30:00Z",
     "timezone": "America/Toronto",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-east-rutherford-k7vgf_4me3p--",
@@ -55049,7 +55049,7 @@
     "datetime_iso": "2027-06-18T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-berlin-z698xzc2z16vgkoop-",
@@ -62141,7 +62141,7 @@
     "datetime_iso": "2027-05-13T18:30:00Z",
     "timezone": "Europe/Madrid",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-u2-2027-barcelona-z698xz2qz1kkzqe8t",
@@ -62969,7 +62969,7 @@
     "datetime_iso": "2027-02-06T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-tampa-vvg1vz_p2nz_05",
@@ -62981,7 +62981,7 @@
     "datetime_iso": "2027-02-07T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-miami-vvg1vz_p5_ebxl",
@@ -62993,7 +62993,7 @@
     "datetime_iso": "2027-02-12T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-duluth-vvg1zz_p1ly9za",
@@ -63005,7 +63005,7 @@
     "datetime_iso": "2027-02-19T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-charlotte-g5evz_p1wkize",
@@ -63017,7 +63017,7 @@
     "datetime_iso": "2027-02-21T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-boston-vv1a8vpbygagvprx",
@@ -63029,7 +63029,7 @@
     "datetime_iso": "2027-02-24T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-washington-15vfz_ffz04-_",
@@ -63041,7 +63041,7 @@
     "datetime_iso": "2027-02-26T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-philadelphia-1ayzk4pgkel60vj",
@@ -63053,7 +63053,7 @@
     "datetime_iso": "2027-02-27T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-brooklyn-16dzz_p3og7m3pl",
@@ -63065,7 +63065,7 @@
     "datetime_iso": "2027-03-04T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-toronto-1a8zk4xgkenbgje",
@@ -63077,7 +63077,7 @@
     "datetime_iso": "2027-03-12T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-montreal-1ad7z_4gkd0zh9f",
@@ -63089,7 +63089,7 @@
     "datetime_iso": "2027-03-14T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-chicago-vv1a7zk4xgkdhjeow",
@@ -63101,7 +63101,7 @@
     "datetime_iso": "2027-03-19T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-dallas-vvg1yz_pkmsn11",
@@ -63113,7 +63113,7 @@
     "datetime_iso": "2027-03-25T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-austin-g5diz_pkrkhdd",
@@ -63125,7 +63125,7 @@
     "datetime_iso": "2027-03-27T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-denver-g5vzz_pkrlpf6",
@@ -63137,7 +63137,7 @@
     "datetime_iso": "2027-04-01T02:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-seattle-vvg1hz_pkvb_3-",
@@ -63149,7 +63149,7 @@
     "datetime_iso": "2027-04-05T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-portland-vvg1hz_pckgfmh",
@@ -63161,7 +63161,7 @@
     "datetime_iso": "2027-04-07T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-sacramento-g5vyz_p5pdckj",
@@ -63173,7 +63173,7 @@
     "datetime_iso": "2027-04-09T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-san-francisco-g5vyz_p1g3qkq",
@@ -63185,7 +63185,7 @@
     "datetime_iso": "2027-04-11T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-san-jose-g5vyz_p5keuz1",
@@ -63197,7 +63197,7 @@
     "datetime_iso": "2027-04-12T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-fresno-g5vyz_pcewaox",
@@ -63209,7 +63209,7 @@
     "datetime_iso": "2027-04-14T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-phoenix-1a_zk4ngkd1yaxd",
@@ -63221,7 +63221,7 @@
     "datetime_iso": "2027-04-16T03:00:00Z",
     "timezone": "America/Phoenix",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-san-diego-vvg1iz_p2x3bok",
@@ -63233,7 +63233,7 @@
     "datetime_iso": "2027-04-24T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-anaheim-vv1aazk4ngkd1rclp",
@@ -63245,7 +63245,7 @@
     "datetime_iso": "2027-04-26T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-inglewood-vv1aazk4ngkdggctr",
@@ -63257,7 +63257,7 @@
     "datetime_iso": "2027-04-30T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-tlajomulco-de-zuniga-g5dvz_p310vkr",
@@ -63269,7 +63269,7 @@
     "datetime_iso": "2027-05-14T02:00:00Z",
     "timezone": "America/Mexico_City",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-ciudad-de-mexico-1av8z_4gkti0z0z",
@@ -63281,7 +63281,7 @@
     "datetime_iso": "2027-05-22T02:00:00Z",
     "timezone": "America/Mexico_City",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-raye-2027-bergen-z698xzb_z16vgzpeao",
@@ -63293,7 +63293,7 @@
     "datetime_iso": "2027-06-28T16:00:00Z",
     "timezone": "Europe/Oslo",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2027-london-1agzk4ngkdo79wi",
@@ -63305,7 +63305,7 @@
     "datetime_iso": "2027-01-27T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2027-manchester-1amzk40gkdjyurt",
@@ -63317,7 +63317,7 @@
     "datetime_iso": "2027-01-29T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mariah-carey-2027-exeter-g5vhz_f0acb90",
@@ -63329,7 +63329,7 @@
     "datetime_iso": "2027-06-27T13:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mariah-carey-2027-cardiff-g5vhz_feidjq8",
@@ -63341,7 +63341,7 @@
     "datetime_iso": "2027-06-29T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mariah-carey-2027-woodstock-1amzk4pgkevlzix",
@@ -63353,7 +63353,7 @@
     "datetime_iso": "2027-07-01T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mariah-carey-2027-scarborough-1agzk49gkd3hqbt",
@@ -63365,7 +63365,7 @@
     "datetime_iso": "2027-07-03T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-praha-9-z698xzu0z16eepqfuf",
@@ -63413,7 +63413,7 @@
     "datetime_iso": "2027-05-27T18:00:00Z",
     "timezone": "Europe/Brussels",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-glasgow-1kuovp_ega1oorm",
@@ -63425,7 +63425,7 @@
     "datetime_iso": "2027-05-30T16:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-dublin-1abzk4xgkdbhdty",
@@ -63437,7 +63437,7 @@
     "datetime_iso": "2027-06-01T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-manchester-1amzk4pgkdukzs6",
@@ -63449,7 +63449,7 @@
     "datetime_iso": "2027-06-03T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-london-1adfz_4gkxmx9xa",
@@ -63461,7 +63461,7 @@
     "datetime_iso": "2027-06-05T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-amsterdam-z698xzbpz16vv-vwva",
@@ -63485,7 +63485,7 @@
     "datetime_iso": "2027-06-13T15:30:00Z",
     "timezone": "Europe/Warsaw",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-arlington-vvg1yz_potb4m0",
@@ -63497,7 +63497,7 @@
     "datetime_iso": "2027-07-13T22:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-atlanta-vvg1zz_pkn5gmk",
@@ -63509,7 +63509,7 @@
     "datetime_iso": "2027-07-16T21:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-washington-1avfz_4gkhvu21c",
@@ -63521,7 +63521,7 @@
     "datetime_iso": "2027-07-18T21:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-detroit-vv1afzk4jgkdvw4eb",
@@ -63533,7 +63533,7 @@
     "datetime_iso": "2027-07-20T21:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-toronto-1a8zk40gkdutc4w",
@@ -63545,7 +63545,7 @@
     "datetime_iso": "2027-07-22T21:30:00Z",
     "timezone": "America/Toronto",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-chicago-vv118z_pqp44qd",
@@ -63557,7 +63557,7 @@
     "datetime_iso": "2027-07-24T22:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-boston-vv1avzk4ngkenvma1",
@@ -63569,7 +63569,7 @@
     "datetime_iso": "2027-07-30T21:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-queens-g5vvz_pkqtkyp",
@@ -63581,7 +63581,7 @@
     "datetime_iso": "2027-08-01T21:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-atlantic-city-vv1aezk4pgkdw5r4k",
@@ -63593,7 +63593,7 @@
     "datetime_iso": "2027-08-03T21:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-hershey-vv1aezk40gkd_hdkn",
@@ -63605,7 +63605,7 @@
     "datetime_iso": "2027-08-04T21:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-kansas-city-1a-zk40gkd1psok",
@@ -63617,7 +63617,7 @@
     "datetime_iso": "2027-08-07T22:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-commerce-city-g5vzz_p3slsmj",
@@ -63629,7 +63629,7 @@
     "datetime_iso": "2027-08-10T23:30:00Z",
     "timezone": "America/Denver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-san-francisco-g5vyz_p3s9d3l",
@@ -63641,7 +63641,7 @@
     "datetime_iso": "2027-08-16T00:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-san-diego-vvg1iz_pc9ifhq",
@@ -63653,7 +63653,7 @@
     "datetime_iso": "2027-08-18T00:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-phoenix-1a_zk4xgkdxdu-e",
@@ -63665,7 +63665,7 @@
     "datetime_iso": "2027-08-20T00:30:00Z",
     "timezone": "America/Phoenix",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-los-angeles-vvg1iz_p4zt_kr",
@@ -63677,7 +63677,7 @@
     "datetime_iso": "2027-08-22T00:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-portland-z7r9jz1aaaa0k",
@@ -63689,7 +63689,7 @@
     "datetime_iso": "2027-08-27T00:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-london-g5dzz_gjibvci",
@@ -63989,7 +63989,7 @@
     "datetime_iso": "2027-07-06T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-dylan-gossett-2027-bournemouth-g5dzz_pjb4swt",
@@ -64001,7 +64001,7 @@
     "datetime_iso": "2027-07-05T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-seattle-vvg1hz_pf4iifz",
@@ -64481,7 +64481,7 @@
     "datetime_iso": "2027-06-16T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-daughtry-2027-columbus-vv1ffz_pq6pszd2kv",
@@ -64505,7 +64505,7 @@
     "datetime_iso": "2027-06-09T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-east-rutherford-k7vgf_pevlzwu",
@@ -64517,7 +64517,7 @@
     "datetime_iso": "2027-06-19T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-journey-2027-stateline-1kayvp_vgacrke8",
@@ -64697,7 +64697,7 @@
     "datetime_iso": "2027-05-23T02:00:00Z",
     "timezone": "America/Mexico_City",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-seattle-vvg1hz_p5fubur",
@@ -64709,7 +64709,7 @@
     "datetime_iso": "2027-08-25T00:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-garth-brooks-2026-minneapolis-z7r9jz1aaaagg",
@@ -64793,7 +64793,7 @@
     "datetime_iso": "2027-05-24T18:30:00Z",
     "timezone": "Europe/Madrid",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-rufus-du-sol-2026-las-vegas-z7r9jz1aav9uy",
@@ -64817,7 +64817,7 @@
     "datetime_iso": "2027-03-05T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-regina-z7r9jz1aaakfg",
@@ -65393,7 +65393,7 @@
     "datetime_iso": "2027-01-31T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-u2-2027-barcelona-z698xz2qz16ezagpe7",
@@ -65405,7 +65405,7 @@
     "datetime_iso": "2027-05-17T18:30:00Z",
     "timezone": "Europe/Madrid",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-boston-vv1k7z_pbvg7sogy",

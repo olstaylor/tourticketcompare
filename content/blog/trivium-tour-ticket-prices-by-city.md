@@ -4,7 +4,7 @@ seo_title: "Trivium tour ticket prices by city"
 description: "Trivium tour: the next date in 22 cities, $27.60 in Inglewood at the low end, $147.20 in Charlotte at the high end."
 summary: "TicketNetwork's lowest listed price for the next Trivium date in each of 22 cities, each figure with the time it was captured. Snapshots 10 November 2026."
 date: 2026-10-26
-updated: 2026-11-11
+updated: 2026-11-13
 status: published
 tags:
   - tour-data
@@ -28,7 +28,7 @@ Trivium's Crown In The Grave World Tour has 28 dates that TourTicketCompare trac
 | [Las Vegas](/artists/trivium/tickets/las-vegas-united-states) | 3 December 2026 | Pearl Concert Theater at Palms Casino Resort | $59.80 | TicketNetwork | 10 November, 17:57 UTC |
 | [San Francisco](/artists/trivium/tickets/san-francisco-united-states) | 5 December 2026 | The Masonic | $59.80 | TicketNetwork | 10 November, 09:57 UTC |
 | [Denver](/artists/trivium/tickets/denver-united-states) | 13 December 2026 | Mission Ballroom | $66.70 | TicketNetwork | 10 November, 09:57 UTC |
-| [New York](/artists/trivium/tickets/new-york-united-states) | 12 November 2026 | Terminal 5 | $66.70 | TicketNetwork | 10 November, 09:57 UTC |
+| [New York](/artists/trivium/tickets/new-york-united-states) | 12 November 2026 (has passed) | Terminal 5 | $66.70 | TicketNetwork | 10 November, 09:57 UTC |
 | [Phoenix](/artists/trivium/tickets/phoenix-united-states) | 2 December 2026 | Arizona Financial Theatre | $71.30 | TicketNetwork | 10 November, 09:57 UTC |
 | [Omaha](/artists/trivium/tickets/omaha-united-states) | 16 December 2026 | Steelhouse Omaha | $75.90 | TicketNetwork | 10 November, 09:57 UTC |
 | [Chicago](/artists/trivium/tickets/chicago-united-states) | 21 November 2026 | Aragon Ballroom | $78.20 | TicketNetwork | 10 November, 09:57 UTC |
@@ -53,7 +53,7 @@ Vivid Seats also had a recent listed price for the next date in 18 of these citi
 |---|---|---|---|---|---|
 | [Silver Spring](/artists/trivium/tickets/silver-spring-united-states) | 10 November 2026 | The Fillmore Silver Spring | $65 | Vivid Seats | 10 November, 17:50 UTC |
 | [New Haven](/artists/trivium/tickets/new-haven-united-states) | 11 November 2026 (has passed) | College Street Music Hall | $68 | Vivid Seats | 10 November, 17:50 UTC |
-| [New York](/artists/trivium/tickets/new-york-united-states) | 12 November 2026 | Terminal 5 | $73 | Vivid Seats | 10 November, 13:02 UTC |
+| [New York](/artists/trivium/tickets/new-york-united-states) | 12 November 2026 (has passed) | Terminal 5 | $73 | Vivid Seats | 10 November, 13:02 UTC |
 | [Philadelphia](/artists/trivium/tickets/philadelphia-united-states) | 14 November 2026 | Franklin Music Hall | $99 | Vivid Seats | 10 November, 13:02 UTC |
 | [Royal Oak](/artists/trivium/tickets/royal-oak-united-states) | 20 November 2026 | Royal Oak Music Theatre | $57 | Vivid Seats | 10 November, 13:02 UTC |
 | [Chicago](/artists/trivium/tickets/chicago-united-states) | 21 November 2026 | Aragon Ballroom | $65 | Vivid Seats | 10 November, 13:02 UTC |

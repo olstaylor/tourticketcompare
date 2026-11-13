@@ -11,6 +11,7 @@
 export const OG_CARDS = {
   "/artists/a-boogie-wit-da-hoodie": {"url":"/og/artists-a-boogie-wit-da-hoodie.png","alt":"Tickets & tour dates: A Boogie Wit Da Hoodie"},
   "/artists/a-boogie-wit-da-hoodie/ticket-prices": {"url":"/og/artists-a-boogie-wit-da-hoodie-ticket-prices.png","alt":"Ticket prices: A Boogie Wit Da Hoodie"},
+  "/artists/a-boogie-wit-da-hoodie/tickets/manchester-united-kingdom": {"url":"/og/artists-a-boogie-wit-da-hoodie-tickets-manchester-united-kingdom.png","alt":"Tickets: A Boogie Wit Da Hoodie in Manchester"},
   "/artists/a-boogie-wit-da-hoodie/tickets/philadelphia-united-states": {"url":"/og/artists-a-boogie-wit-da-hoodie-tickets-philadelphia-united-states.png","alt":"Tickets: A Boogie Wit Da Hoodie in Philadelphia"},
   "/artists/a-perfect-circle": {"url":"/og/artists-a-perfect-circle.png","alt":"Tickets & tour dates: A Perfect Circle"},
   "/artists/a-perfect-circle/ticket-prices": {"url":"/og/artists-a-perfect-circle-ticket-prices.png","alt":"Ticket prices: A Perfect Circle"},

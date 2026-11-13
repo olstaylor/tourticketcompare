@@ -4,7 +4,7 @@ seo_title: "Pentatonix tour ticket prices by city"
 description: "Pentatonix tour: the next date in 24 cities, $37.95 in Cleveland at the low end, $112.70 in Lubbock at the high end."
 summary: "TicketNetwork's lowest listed price for the next Pentatonix date in each of 24 cities, each figure with the time it was captured. Snapshots 10 November 2026."
 date: 2026-10-24
-updated: 2026-11-10
+updated: 2026-11-13
 status: published
 tags:
   - tour-data
@@ -22,7 +22,7 @@ Pentatonix's Christmas in the City Tour has 25 dates that TourTicketCompare trac
 |---|---|---|---|---|---|
 | [Cleveland](/artists/pentatonix/tickets/cleveland-united-states) | 19 November 2026 | Rocket Arena | $37.95 | TicketNetwork | 10 November, 09:57 UTC |
 | [Glendale](/artists/pentatonix/tickets/glendale-united-states) | 19 December 2026 | Desert Diamond Arena | $41.40 | TicketNetwork | 10 November, 09:57 UTC |
-| [Lincoln](/artists/pentatonix/tickets/lincoln-united-states) | 12 November 2026 | Pinnacle Bank Arena | $41.40 | TicketNetwork | 10 November, 09:57 UTC |
+| [Lincoln](/artists/pentatonix/tickets/lincoln-united-states) | 12 November 2026 (has passed) | Pinnacle Bank Arena | $41.40 | TicketNetwork | 10 November, 09:57 UTC |
 | [Albany](/artists/pentatonix/tickets/albany-united-states) | 29 November 2026 | MVP Arena | $48.30 | TicketNetwork | 10 November, 09:57 UTC |
 | [Nashville](/artists/pentatonix/tickets/nashville-united-states) | 9 December 2026 | Bridgestone Arena | $48.30 | TicketNetwork | 10 November, 09:57 UTC |
 | [Pittsburgh](/artists/pentatonix/tickets/pittsburgh-united-states) | 21 November 2026 | PPG Paints Arena | $48.30 | TicketNetwork | 10 November, 09:57 UTC |
@@ -54,7 +54,7 @@ Vivid Seats also had a recent listed price for the next date in 22 of these citi
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
 | [Casper](/artists/pentatonix/tickets/casper-united-states) | 10 November 2026 | Ford Wyoming Center | $56 | Vivid Seats | 10 November, 17:50 UTC |
-| [Lincoln](/artists/pentatonix/tickets/lincoln-united-states) | 12 November 2026 | Pinnacle Bank Arena | $44 | Vivid Seats | 10 November, 13:02 UTC |
+| [Lincoln](/artists/pentatonix/tickets/lincoln-united-states) | 12 November 2026 (has passed) | Pinnacle Bank Arena | $44 | Vivid Seats | 10 November, 13:02 UTC |
 | [Milwaukee](/artists/pentatonix/tickets/milwaukee-united-states) | 14 November 2026 | Fiserv Forum | $68 | Vivid Seats | 10 November, 13:02 UTC |
 | [Grand Rapids](/artists/pentatonix/tickets/grand-rapids-united-states) | 15 November 2026 | Van Andel Arena | $52 | Vivid Seats | 10 November, 13:02 UTC |
 | [Louisville](/artists/pentatonix/tickets/louisville-united-states) | 16 November 2026 | KFC Yum! Center | $63 | Vivid Seats | 10 November, 13:02 UTC |

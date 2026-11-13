@@ -157,6 +157,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680313",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-madrid-movistar-arena-palacio-de-los-deportes-23-5-2027/event/107680313",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k83O_fe",
@@ -165,7 +172,8 @@
     "organizer_names": [
       "Live Nation España Red Path SL"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-madrid-movistar-arena-palacio-de-los-deportes-23-5-2027/event/107680313"
   },
   {
     "id": "tm-fall-out-boy-2027-brussels-z698xzg2z16vfjc3ef",
@@ -214,6 +222,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107681327",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-brussels-ing-arena-27-5-2027/event/107681327",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16vfJC3ef",
@@ -235,7 +250,8 @@
         "start": "2026-11-12T11:00:00Z",
         "end": "2026-11-13T10:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-brussels-ing-arena-27-5-2027/event/107681327"
   },
   {
     "id": "tm-fall-out-boy-2027-glasgow-1kuovp_ega1oorm",
@@ -298,6 +314,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680316",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-glasgow-ovo-hydro-arena-glasgow-30-5-2027/event/107680316",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kuOvP_EGA1OoRM",
@@ -323,7 +346,8 @@
         "start": "2026-11-11T12:00:00Z",
         "end": "2026-11-13T12:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-glasgow-ovo-hydro-arena-glasgow-30-5-2027/event/107680316"
   },
   {
     "id": "tm-fall-out-boy-2027-dublin-1abzk4xgkdbhdty",
@@ -475,6 +499,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681319",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-manchester-co-op-live-3-6-2027/event/107681319",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4PGkdukzS6",
@@ -504,7 +535,8 @@
         "start": "2026-11-11T12:00:00Z",
         "end": "2026-11-12T11:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-manchester-co-op-live-3-6-2027/event/107681319"
   },
   {
     "id": "tm-fall-out-boy-2027-london-1adfz_4gkxmx9xa",
@@ -553,6 +585,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680315",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-london-tottenham-hotspur-stadium-5-6-2027/event/107680315",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_4GkXmx9XA",
@@ -572,7 +611,8 @@
         "start": "2026-11-11T12:00:00Z",
         "end": "2026-11-12T11:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-london-tottenham-hotspur-stadium-5-6-2027/event/107680315"
   },
   {
     "id": "tm-fall-out-boy-2027-amsterdam-z698xzbpz16vv-vwva",
@@ -635,6 +675,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681325",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-amsterdam-ziggo-dome-8-6-2027/event/107681325",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vv-vwvA",
@@ -645,7 +692,8 @@
     ],
     "genre": "Rock",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365871",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365871/Fall-Out-Boy-tickets-Tue-Jun-8-2027-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365871/Fall-Out-Boy-tickets-Tue-Jun-8-2027-Ziggo-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-amsterdam-ziggo-dome-8-6-2027/event/107681325"
   },
   {
     "id": "tm-fall-out-boy-2027-odz-z698xzqpz16evyz9fj",
@@ -694,6 +742,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680762",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-lodz-atlas-arena-13-6-2027/event/107680762",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16evYZ9fJ",
@@ -715,7 +770,8 @@
         "start": "2026-11-12T11:00:00Z",
         "end": "2026-11-13T10:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-lodz-atlas-arena-13-6-2027/event/107680762"
   },
   {
     "id": "tm-fall-out-boy-2027-arlington-vvg1yz_potb4m0",

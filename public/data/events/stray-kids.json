@@ -60,6 +60,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680736",
+        "url": "https://www.stubhub.ie/stray-kids-seattle-tickets-5-16-2027/event/107680736",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pF4iifZ",
@@ -84,7 +91,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361510/Stray-Kids-tickets-Sun-May-16-2027-Lumen-Field",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361510"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361510",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-seattle-tickets-5-16-2027/event/107680736"
   },
   {
     "id": "tm-stray-kids-2027-vancouver-1aozk4pgkepqkay",
@@ -147,6 +155,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680740",
+        "url": "https://www.stubhub.ie/stray-kids-tickets-vancouver-bc-place-stadium-5-19-2027/event/107680740",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4PGkePQkAy",
@@ -172,7 +187,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361523"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361523",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-tickets-vancouver-bc-place-stadium-5-19-2027/event/107680740"
   },
   {
     "id": "tm-stray-kids-2027-santa-clara-g5vyz_p1srtgv",
@@ -235,6 +251,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680741",
+        "url": "https://www.stubhub.ie/stray-kids-santa-clara-tickets-5-22-2027/event/107680741",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p1sRtgV",
@@ -259,7 +282,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361511/Stray-Kids-tickets-Sat-May-22-2027-Levis-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361511"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361511",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-santa-clara-tickets-5-22-2027/event/107680741"
   },
   {
     "id": "tm-stray-kids-2027-san-diego-vvg1iz_plbqdhe",
@@ -322,6 +346,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681345",
+        "url": "https://www.stubhub.ie/stray-kids-san-diego-tickets-5-25-2027/event/107681345",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pLBQdhE",
@@ -345,7 +376,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361512/Stray-Kids-tickets-Tue-May-25-2027-Petco-Park",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361512"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361512",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-san-diego-tickets-5-25-2027/event/107681345"
   },
   {
     "id": "tm-stray-kids-2027-inglewood-vvg1iz_4slsivl",
@@ -408,6 +440,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680300",
+        "url": "https://www.stubhub.ie/stray-kids-inglewood-tickets-5-29-2027/event/107680300",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4SlsIVl",
@@ -432,7 +471,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361513/Stray-Kids-tickets-Sat-May-29-2027-SoFi-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361513"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361513",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-inglewood-tickets-5-29-2027/event/107680300"
   },
   {
     "id": "tm-stray-kids-2027-houston-g5diz_p4wwnf8",
@@ -495,6 +535,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681340",
+        "url": "https://www.stubhub.ie/stray-kids-houston-tickets-6-5-2027/event/107681340",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_p4WWnf8",
@@ -518,7 +565,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361515/Stray-Kids-tickets-Sat-Jun-5-2027-Reliant-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361515"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361515",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-houston-tickets-6-5-2027/event/107681340"
   },
   {
     "id": "tm-stray-kids-2027-atlanta-vvg1zz_phzq3g7",
@@ -581,6 +629,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680301",
+        "url": "https://www.stubhub.ie/stray-kids-atlanta-tickets-6-8-2027/event/107680301",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_phZq3g7",
@@ -604,7 +659,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361516/Stray-Kids-tickets-Tue-Jun-8-2027-Mercedes-Benz-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361516"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361516",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-atlanta-tickets-6-8-2027/event/107680301"
   },
   {
     "id": "tm-stray-kids-2027-miami-vvg1vz_ppnraxv",
@@ -667,6 +723,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680302",
+        "url": "https://www.stubhub.ie/stray-kids-miami-gardens-tickets-6-11-2027/event/107680302",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_ppNRAxv",
@@ -701,7 +764,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361517/Stray-Kids-tickets-Fri-Jun-11-2027-Hard-Rock-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361517"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361517",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-miami-gardens-tickets-6-11-2027/event/107680302"
   },
   {
     "id": "tm-stray-kids-2027-orlando-1axzk40gkdehatj",
@@ -764,6 +828,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680790",
+        "url": "https://www.stubhub.ie/stray-kids-orlando-tickets-6-14-2027/event/107680790",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk40GkdEHATJ",
@@ -798,7 +869,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361518/Stray-Kids-tickets-Mon-Jun-14-2027-Camping-World-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361518"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361518",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-orlando-tickets-6-14-2027/event/107680790"
   },
   {
     "id": "tm-stray-kids-2027-chicago-vv1a7zk4ngkdhgi8m",
@@ -861,6 +933,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680744",
+        "url": "https://www.stubhub.ie/stray-kids-chicago-tickets-6-18-2027/event/107680744",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4NGkdhgI8m",
@@ -885,7 +964,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361519/Stray-Kids-tickets-Fri-Jun-18-2027-Soldier-Field",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361519"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361519",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-chicago-tickets-6-18-2027/event/107680744"
   },
   {
     "id": "tm-stray-kids-2027-toronto-1avzz_4gkdmari8",
@@ -1020,6 +1100,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680746",
+        "url": "https://www.stubhub.ie/stray-kids-east-rutherford-tickets-6-29-2027/event/107680746",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pCNX6a9",
@@ -1043,7 +1130,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361522/Stray-Kids-tickets-Tue-Jun-29-2027-MetLife-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361522"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361522",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-east-rutherford-tickets-6-29-2027/event/107680746"
   },
   {
     "id": "tm-stray-kids-2027-munich-z698xzc2z1kazaygz",

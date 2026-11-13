@@ -975,6 +975,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672015",
+        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-vancouver-ubc-doug-mitchell-thunderbird-sports-centre-5-5-2027/event/107672015",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkUPzETr",
@@ -987,7 +994,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-vancouver-ubc-doug-mitchell-thunderbird-sports-centre-5-5-2027/event/107672015"
   },
   {
     "id": "tm-fontaines-d-c-2027-seattle-vvg1hz_kbr3b0c",

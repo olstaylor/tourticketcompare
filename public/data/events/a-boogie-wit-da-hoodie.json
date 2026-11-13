@@ -811,6 +811,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680811",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-london-the-o2-arena-27-1-2027/event/107680811",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4NGkdo79wI",
@@ -830,7 +837,8 @@
         "end": "2026-11-13T09:00:00Z"
       }
     ],
-    "ticket_limit": 6
+    "ticket_limit": 6,
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-london-the-o2-arena-27-1-2027/event/107680811"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2027-manchester-1amzk40gkdjyurt",
@@ -893,6 +901,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680659",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-29-1-2027/event/107680659",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk40GkdjYUrt",
@@ -927,7 +942,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361500",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361500/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Jan-29-2027-Co-Op-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361500/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Jan-29-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-29-1-2027/event/107680659"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2027-manchester-1adjz_pgkwcxzvj",

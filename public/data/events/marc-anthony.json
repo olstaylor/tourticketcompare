@@ -1221,6 +1221,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680298",
+        "url": "https://www.stubhub.ie/marc-anthony-brooklyn-tickets-4-8-2027/event/107680298",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kGZvPoNGA5JaT7",
@@ -1270,7 +1277,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361877/Marc-Anthony-tickets-Thu-Apr-8-2027-Barclays-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361877"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361877",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-brooklyn-tickets-4-8-2027/event/107680298"
   },
   {
     "id": "tm-marc-anthony-2027-reading-vv17fz_fgkxhnllx",
@@ -1445,6 +1453,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680728",
+        "url": "https://www.stubhub.ie/marc-anthony-newark-tickets-4-15-2027/event/107680728",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk44GkdQ27W-",
@@ -1494,7 +1509,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361879/Marc-Anthony-tickets-Thu-Apr-15-2027-Prudential-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361879"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361879",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-newark-tickets-4-15-2027/event/107680728"
   },
   {
     "id": "tm-marc-anthony-2027-chicago-vv1a7zk48gkervqur",
@@ -1557,6 +1573,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680731",
+        "url": "https://www.stubhub.ie/marc-anthony-chicago-tickets-4-17-2027/event/107680731",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk48GkeRVQUr",
@@ -1605,7 +1628,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361880/Marc-Anthony-tickets-Sat-Apr-17-2027-United-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361880"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361880",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-chicago-tickets-4-17-2027/event/107680731"
   },
   {
     "id": "tm-marc-anthony-2027-charlotte-g5evz_flstq5b",
@@ -1668,6 +1692,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680309",
+        "url": "https://www.stubhub.ie/marc-anthony-charlotte-tickets-4-23-2027/event/107680309",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fLsTq5b",
@@ -1716,7 +1747,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361881/Marc-Anthony-tickets-Fri-Apr-23-2027-Spectrum-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361881"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361881",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-charlotte-tickets-4-23-2027/event/107680309"
   },
   {
     "id": "tm-marc-anthony-2027-tampa-vvg1vz_fqozpda",
@@ -1779,6 +1811,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680757",
+        "url": "https://www.stubhub.ie/marc-anthony-tampa-tickets-4-25-2027/event/107680757",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fQOzpDa",
@@ -1822,7 +1861,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361882/Marc-Anthony-tickets-Sun-Apr-25-2027-Benchmark-International-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361882"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361882",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-tampa-tickets-4-25-2027/event/107680757"
   },
   {
     "id": "tm-marc-anthony-2027-san-antonio-g5diz_fdkjtum",
@@ -1885,6 +1925,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680732",
+        "url": "https://www.stubhub.ie/marc-anthony-san-antonio-tickets-4-29-2027/event/107680732",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fDKJTUM",
@@ -1934,7 +1981,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361884/Marc-Anthony-tickets-Thu-Apr-29-2027-Frost-Bank-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361884"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361884",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-san-antonio-tickets-4-29-2027/event/107680732"
   },
   {
     "id": "tm-marc-anthony-2027-anaheim-vv170z_fgkmcohlk",
@@ -1997,6 +2045,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680735",
+        "url": "https://www.stubhub.ie/marc-anthony-anaheim-tickets-5-9-2027/event/107680735",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_fGkMCOHLK",
@@ -2046,7 +2101,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361885/Marc-Anthony-tickets-Sun-May-9-2027-Honda-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361885"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361885",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-anaheim-tickets-5-9-2027/event/107680735"
   },
   {
     "id": "tm-marc-anthony-2027-denver-g5vzz_fdioiid",
@@ -2109,6 +2165,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680310",
+        "url": "https://www.stubhub.ie/marc-anthony-denver-tickets-5-13-2027/event/107680310",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fDIoiiD",
@@ -2158,7 +2221,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361886/Marc-Anthony-tickets-Thu-May-13-2027-Ball-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361886"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361886",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-denver-tickets-5-13-2027/event/107680310"
   },
   {
     "id": "tm-marc-anthony-2027-san-francisco-g5vyz_4uwqlns",
@@ -2221,6 +2285,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680738",
+        "url": "https://www.stubhub.ie/marc-anthony-san-francisco-tickets-5-16-2027/event/107680738",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4UwQlnS",
@@ -2272,6 +2343,7 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361887/Marc-Anthony-tickets-Sun-May-16-2027-Chase-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361887"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361887",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-san-francisco-tickets-5-16-2027/event/107680738"
   }
 ]

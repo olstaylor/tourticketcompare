@@ -2138,6 +2138,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680303",
+        "url": "https://www.stubhub.ie/kings-of-leon-seattle-tickets-9-15-2027/event/107680303",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_p57x6W0",
@@ -2182,7 +2189,8 @@
         "start": "2026-11-13T17:00:00Z",
         "end": "2027-08-17T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-seattle-tickets-9-15-2027/event/107680303"
   },
   {
     "id": "tm-kings-of-leon-2027-mountain-view-g5vyz_p1j_6oc",
@@ -2352,6 +2360,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680304",
+        "url": "https://www.stubhub.ie/kings-of-leon-inglewood-tickets-9-18-2027/event/107680304",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4NGkdYVvZ_",
@@ -2396,7 +2411,8 @@
         "start": "2026-11-13T17:00:00Z",
         "end": "2027-08-20T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-inglewood-tickets-9-18-2027/event/107680304"
   },
   {
     "id": "tm-kings-of-leon-2027-phoenix-1a_zk4xgkewyfnx",
@@ -2566,6 +2582,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680305",
+        "url": "https://www.stubhub.ie/kings-of-leon-austin-tickets-9-26-2027/event/107680305",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pK2f12G",
@@ -2620,7 +2643,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-08-30T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-austin-tickets-9-26-2027/event/107680305"
   },
   {
     "id": "tm-kings-of-leon-2027-fort-worth-vvg1yz_4lzyuso",
@@ -2683,6 +2707,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680747",
+        "url": "https://www.stubhub.ie/kings-of-leon-fort-worth-tickets-9-28-2027/event/107680747",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4lZyUSo",
@@ -2727,7 +2758,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-08-30T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-fort-worth-tickets-9-28-2027/event/107680747"
   },
   {
     "id": "tm-kings-of-leon-2027-alpharetta-vvg1zz_pch0zpt",
@@ -2897,6 +2929,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680749",
+        "url": "https://www.stubhub.ie/kings-of-leon-orlando-tickets-10-1-2027/event/107680749",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk40GkdkpVF2",
@@ -2941,7 +2980,8 @@
         "start": "2026-11-13T14:00:00Z",
         "end": "2027-09-02T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-orlando-tickets-10-1-2027/event/107680749"
   },
   {
     "id": "tm-kings-of-leon-2027-raleigh-g5evz_p3nejt5",
@@ -3529,6 +3569,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680753",
+        "url": "https://www.stubhub.ie/kings-of-leon-new-york-tickets-10-15-2027/event/107680753",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_4_HY-cs",
@@ -3582,6 +3629,7 @@
         "start": "2026-11-13T14:00:00Z",
         "end": "2027-10-16T01:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-new-york-tickets-10-15-2027/event/107680753"
   }
 ]

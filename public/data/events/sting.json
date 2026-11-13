@@ -533,11 +533,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107140085",
-        "url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-12-2026/event/107140085",
-        "verified": true,
-        "last_verified_at": "2026-11-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v17_A0AG7lcYC",
@@ -545,7 +545,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772528",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-12-2026/event/107140085",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

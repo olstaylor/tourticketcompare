@@ -60,6 +60,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680710",
+        "url": "https://www.stubhub.ie/feid-orlando-tickets-2-5-2027/event/107680710",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4xGkdpcfe6",
@@ -84,7 +91,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-01T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-orlando-tickets-2-5-2027/event/107680710"
   },
   {
     "id": "tm-feid-2027-tampa-vvg1vz_p2nz_05",
@@ -147,6 +155,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681460",
+        "url": "https://www.stubhub.ie/feid-tampa-tickets-2-6-2027/event/107681460",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_p2Nz_05",
@@ -170,7 +185,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-02T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-tampa-tickets-2-6-2027/event/107681460"
   },
   {
     "id": "tm-feid-2027-miami-vvg1vz_p5_ebxl",
@@ -233,6 +249,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680293",
+        "url": "https://www.stubhub.ie/feid-miami-tickets-2-11-2027/event/107680293",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_p5_eBXl",
@@ -256,7 +279,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-07T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-miami-tickets-2-11-2027/event/107680293"
   },
   {
     "id": "tm-feid-2027-duluth-vvg1zz_p1ly9za",
@@ -406,6 +430,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681453",
+        "url": "https://www.stubhub.ie/feid-charlotte-tickets-2-20-2027/event/107681453",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_p1wkIzE",
@@ -429,7 +460,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-16T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-charlotte-tickets-2-20-2027/event/107681453"
   },
   {
     "id": "tm-feid-2027-boston-vv1a8vpbygagvprx",
@@ -492,6 +524,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680712",
+        "url": "https://www.stubhub.ie/feid-boston-tickets-2-23-2027/event/107680712",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPbyGAGVprx",
@@ -516,7 +555,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-21T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-boston-tickets-2-23-2027/event/107680712"
   },
   {
     "id": "tm-feid-2027-washington-15vfz_ffz04-_",
@@ -579,6 +619,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680295",
+        "url": "https://www.stubhub.ie/feid-washington-tickets-2-25-2027/event/107680295",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15vfZ_ffz04-_",
@@ -603,7 +650,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-21T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-washington-tickets-2-25-2027/event/107680295"
   },
   {
     "id": "tm-feid-2027-philadelphia-1ayzk4pgkel60vj",
@@ -752,6 +800,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680713",
+        "url": "https://www.stubhub.ie/feid-brooklyn-tickets-3-3-2027/event/107680713",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dZZ_p3oG7m3PL",
@@ -776,7 +831,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-27T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-brooklyn-tickets-3-3-2027/event/107680713"
   },
   {
     "id": "tm-feid-2027-toronto-1a8zk4xgkenbgje",
@@ -993,6 +1049,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680719",
+        "url": "https://www.stubhub.ie/feid-chicago-tickets-3-18-2027/event/107680719",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4xGkdhJEOW",
@@ -1022,7 +1085,8 @@
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-03-19T00:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-chicago-tickets-3-18-2027/event/107680719"
   },
   {
     "id": "tm-feid-2027-dallas-vvg1yz_pkmsn11",
@@ -1085,6 +1149,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681458",
+        "url": "https://www.stubhub.ie/feid-dallas-tickets-3-24-2027/event/107681458",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pKMsN11",
@@ -1114,7 +1185,8 @@
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-03-25T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-dallas-tickets-3-24-2027/event/107681458"
   },
   {
     "id": "tm-feid-2027-austin-g5diz_pkrkhdd",
@@ -1264,6 +1336,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681444",
+        "url": "https://www.stubhub.ie/feid-denver-tickets-3-31-2027/event/107681444",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pKRLpf6",
@@ -1288,7 +1367,8 @@
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-03-27T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-denver-tickets-3-31-2027/event/107681444"
   },
   {
     "id": "tm-feid-2027-seattle-vvg1hz_pkvb_3-",
@@ -1438,6 +1518,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681488",
+        "url": "https://www.stubhub.ie/feid-portland-tickets-4-6-2027/event/107681488",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pCKgfMh",
@@ -1462,7 +1549,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-04-02T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-portland-tickets-4-6-2027/event/107681488"
   },
   {
     "id": "tm-feid-2027-sacramento-g5vyz_p5pdckj",
@@ -1796,6 +1884,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681487",
+        "url": "https://www.stubhub.ie/feid-fresno-tickets-4-13-2027/event/107681487",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pCEWaOX",
@@ -1820,7 +1915,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-04-09T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-fresno-tickets-4-13-2027/event/107681487"
   },
   {
     "id": "tm-feid-2027-phoenix-1a_zk4ngkd1yaxd",
@@ -1883,6 +1979,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681464",
+        "url": "https://www.stubhub.ie/feid-phoenix-tickets-4-15-2027/event/107681464",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4NGkd1yAXd",
@@ -1911,7 +2014,8 @@
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-04-11T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-phoenix-tickets-4-15-2027/event/107681464"
   },
   {
     "id": "tm-feid-2027-san-diego-vvg1iz_p2x3bok",
@@ -2061,6 +2165,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680299",
+        "url": "https://www.stubhub.ie/feid-anaheim-tickets-4-25-2027/event/107680299",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4NGkd1rcLp",
@@ -2085,7 +2196,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-04-21T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-anaheim-tickets-4-25-2027/event/107680299"
   },
   {
     "id": "tm-feid-2027-inglewood-vv1aazk4ngkdggctr",
@@ -2148,6 +2260,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680733",
+        "url": "https://www.stubhub.ie/feid-inglewood-tickets-4-29-2027/event/107680733",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4NGkdGgctR",
@@ -2172,7 +2291,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-04-25T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-inglewood-tickets-4-29-2027/event/107680733"
   },
   {
     "id": "tm-feid-2027-tlajomulco-de-zuniga-g5dvz_p310vkr",
@@ -2286,6 +2406,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107681349",
+        "url": "https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-21-5-2027/event/107681349",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_4GkTI0z0z",
@@ -2302,7 +2429,8 @@
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-05-22T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-21-5-2027/event/107681349"
   },
   {
     "id": "tm-feid-2027-ciudad-de-mexico-1av8z_4gkti0zp7",
@@ -2351,6 +2479,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107681619",
+        "url": "https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-22-5-2027/event/107681619",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_4GkTI0zP7",
@@ -2367,7 +2502,8 @@
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-05-23T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-22-5-2027/event/107681619"
   },
   {
     "id": "tm-feid-2027-brooklyn-1ayzk4tgkdul9aj",
@@ -2586,13 +2722,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681450",
+        "url": "https://www.stubhub.ie/feid-houston-tickets-3-25-2027/event/107681450",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAd3v",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359390",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359390/Feid-tickets-Thu-Mar-25-2027-Toyota-Center-TX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359390/Feid-tickets-Thu-Mar-25-2027-Toyota-Center-TX",
+    "stubhub_international_url": "https://www.stubhub.ie/feid-houston-tickets-3-25-2027/event/107681450"
   },
   {
     "id": "tm-feid-2027-salt-lake-city-z7r9jz1aaad3e",
@@ -2655,13 +2799,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681466",
+        "url": "https://www.stubhub.ie/feid-salt-lake-city-tickets-4-2-2027/event/107681466",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAd3e",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359393",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359393/Feid-tickets-Fri-Apr-2-2027-Delta-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359393/Feid-tickets-Fri-Apr-2-2027-Delta-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/feid-salt-lake-city-tickets-4-2-2027/event/107681466"
   },
   {
     "id": "tm-feid-2027-las-vegas-z7r9jz1aaad3d",
@@ -2724,12 +2876,20 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680729",
+        "url": "https://www.stubhub.ie/feid-las-vegas-tickets-4-17-2027/event/107680729",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAd3d",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359409",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359409/Feid-tickets-Sat-Apr-17-2027-MGM-Grand-Garden-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359409/Feid-tickets-Sat-Apr-17-2027-MGM-Grand-Garden-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/feid-las-vegas-tickets-4-17-2027/event/107680729"
   }
 ]

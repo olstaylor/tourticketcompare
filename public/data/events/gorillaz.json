@@ -884,6 +884,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680207",
+        "url": "https://www.stubhub.ie/gorillaz-tickets-mexico-city-palacio-de-los-deportes-11-12-2026/event/107680207",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_4GkM7aQRi",
@@ -905,6 +912,7 @@
         "start": "2026-11-13T17:00:00Z",
         "end": "2026-11-14T05:59:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-tickets-mexico-city-palacio-de-los-deportes-11-12-2026/event/107680207"
   }
 ]

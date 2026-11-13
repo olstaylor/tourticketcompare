@@ -277,6 +277,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680288",
+        "url": "https://www.stubhub.ie/mariah-carey-tickets-exeter-powderham-castle-27-6-2027/event/107680288",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_f0ACb90",
@@ -287,7 +294,8 @@
       "CUFFE & TAYLOR (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-exeter-powderham-castle-27-6-2027/event/107680288"
   },
   {
     "id": "tm-mariah-carey-2027-cardiff-g5vhz_feidjq8",
@@ -336,6 +344,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680285",
+        "url": "https://www.stubhub.ie/mariah-carey-tickets-cardiff-cardiff-castle-29-6-2027/event/107680285",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_fEIdJq8",
@@ -374,7 +389,8 @@
         "start": "2026-11-12T09:00:00Z",
         "end": "2026-11-13T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-cardiff-cardiff-castle-29-6-2027/event/107680285"
   },
   {
     "id": "tm-mariah-carey-2027-woodstock-1amzk4pgkevlzix",
@@ -514,6 +530,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680279",
+        "url": "https://www.stubhub.ie/mariah-carey-tickets-scarborough-scarborough-open-air-theatre-3-7-2027/event/107680279",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk49Gkd3HQbT",
@@ -548,6 +571,7 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365855",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365855/Mariah-Carey-tickets-Sat-Jul-3-2027-Scarborough-Open-Air-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365855/Mariah-Carey-tickets-Sat-Jul-3-2027-Scarborough-Open-Air-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-scarborough-scarborough-open-air-theatre-3-7-2027/event/107680279"
   }
 ]

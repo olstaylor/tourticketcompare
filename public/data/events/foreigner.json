@@ -133,7 +133,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAedCa",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAedCa",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foreigner-tickets/daytona-beach-florida-peabody-auditorium-2027-02-15-8-pm/concert/18617000",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAedCa",
@@ -206,7 +206,7 @@
         "event_id": 18570609,
         "url": "https://seatgeek.com/foreigner-tickets/pompano-beach-florida-pompano-beach-amphitheater-2027-02-19-8-pm/concert/18570609",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-12",
         "availability_status": "listed"
       },
       "vivid-seats": {

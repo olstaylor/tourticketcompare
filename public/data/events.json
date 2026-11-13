@@ -380087,7 +380087,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000655BD0D4E474",
     "ticketmaster_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-03-2026/event/1000655BD0D4E474",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-03-7-30-pm/concert/18746857",
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-3-2026/production/7824946",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/garth-brooks-blame-it-all-on-hamilton-ontario-12-03-2026/event/1000655BD0D4E474",
@@ -380103,11 +380103,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746857,
+        "url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-03-7-30-pm/concert/18746857",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824946,
@@ -396853,7 +396853,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B00656AD1B1F783",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-05-2027/event/1B00656AD1B1F783",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/north-little-rock-arkansas-simmons-bank-arena-2027-02-05-8-pm/concert/18758115",
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-north-little-rock-simmons-bank-arena-2-5-2027--concerts-country-and-folk/production/7851801",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-05-2027/event/1B00656AD1B1F783",
@@ -396869,11 +396869,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758115,
+        "url": "https://seatgeek.com/garth-brooks-tickets/north-little-rock-arkansas-simmons-bank-arena-2027-02-05-8-pm/concert/18758115",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7851801,
@@ -396928,7 +396928,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B00656AD3F7FA4B",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-06-2027/event/1B00656AD3F7FA4B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/north-little-rock-arkansas-simmons-bank-arena-2027-02-06-8-pm/concert/18758119",
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-north-little-rock-simmons-bank-arena-2-6-2027--concerts-country-and-folk/production/7851803",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-06-2027/event/1B00656AD3F7FA4B",
@@ -396944,11 +396944,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758119,
+        "url": "https://seatgeek.com/garth-brooks-tickets/north-little-rock-arkansas-simmons-bank-arena-2027-02-06-8-pm/concert/18758119",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7851803,

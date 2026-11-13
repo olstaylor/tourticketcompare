@@ -1107,6 +1107,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361889",
+        "url": "https://www.ticketnetwork.com/en/p/8361889",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4vGkd9DI_a",
@@ -1150,7 +1157,8 @@
         "end": "2027-03-28T21:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361889/Marc-Anthony-tickets-Sun-Apr-4-2027-Centre-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361889/Marc-Anthony-tickets-Sun-Apr-4-2027-Centre-Bell",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361889"
   },
   {
     "id": "tm-marc-anthony-2027-brooklyn-1kgzvponga5jat7",
@@ -1206,6 +1214,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361877",
+        "url": "https://www.ticketnetwork.com/en/p/8361877",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kGZvPoNGA5JaT7",
@@ -1254,7 +1269,8 @@
         "end": "2027-04-01T21:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361877/Marc-Anthony-tickets-Thu-Apr-8-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361877/Marc-Anthony-tickets-Thu-Apr-8-2027-Barclays-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361877"
   },
   {
     "id": "tm-marc-anthony-2027-reading-vv17fz_fgkxhnllx",
@@ -1310,6 +1326,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361878",
+        "url": "https://www.ticketnetwork.com/en/p/8361878",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkXHNllX",
@@ -1358,7 +1381,8 @@
         "end": "2027-04-03T21:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361878/Marc-Anthony-tickets-Sat-Apr-10-2027-Santander-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361878/Marc-Anthony-tickets-Sat-Apr-10-2027-Santander-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361878"
   },
   {
     "id": "tm-marc-anthony-2027-newark-vv1aezk44gkdq27w-",
@@ -1414,6 +1438,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361879",
+        "url": "https://www.ticketnetwork.com/en/p/8361879",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk44GkdQ27W-",
@@ -1462,7 +1493,8 @@
         "end": "2027-04-08T21:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361879/Marc-Anthony-tickets-Thu-Apr-15-2027-Prudential-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361879/Marc-Anthony-tickets-Thu-Apr-15-2027-Prudential-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361879"
   },
   {
     "id": "tm-marc-anthony-2027-chicago-vv1a7zk48gkervqur",
@@ -1518,6 +1550,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361880",
+        "url": "https://www.ticketnetwork.com/en/p/8361880",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk48GkeRVQUr",
@@ -1565,7 +1604,8 @@
         "end": "2027-04-10T22:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361880/Marc-Anthony-tickets-Sat-Apr-17-2027-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361880/Marc-Anthony-tickets-Sat-Apr-17-2027-United-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361880"
   },
   {
     "id": "tm-marc-anthony-2027-charlotte-g5evz_flstq5b",
@@ -1621,6 +1661,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361881",
+        "url": "https://www.ticketnetwork.com/en/p/8361881",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fLsTq5b",
@@ -1668,7 +1715,8 @@
         "end": "2027-04-16T21:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361881/Marc-Anthony-tickets-Fri-Apr-23-2027-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361881/Marc-Anthony-tickets-Fri-Apr-23-2027-Spectrum-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361881"
   },
   {
     "id": "tm-marc-anthony-2027-tampa-vvg1vz_fqozpda",
@@ -1724,6 +1772,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361882",
+        "url": "https://www.ticketnetwork.com/en/p/8361882",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fQOzpDa",
@@ -1766,7 +1821,8 @@
         "end": "2027-04-18T21:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361882/Marc-Anthony-tickets-Sun-Apr-25-2027-Benchmark-International-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361882/Marc-Anthony-tickets-Sun-Apr-25-2027-Benchmark-International-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361882"
   },
   {
     "id": "tm-marc-anthony-2027-san-antonio-g5diz_fdkjtum",
@@ -1822,6 +1878,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361884",
+        "url": "https://www.ticketnetwork.com/en/p/8361884",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fDKJTUM",
@@ -1870,7 +1933,8 @@
         "end": "2027-04-22T22:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361884/Marc-Anthony-tickets-Thu-Apr-29-2027-Frost-Bank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361884/Marc-Anthony-tickets-Thu-Apr-29-2027-Frost-Bank-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361884"
   },
   {
     "id": "tm-marc-anthony-2027-anaheim-vv170z_fgkmcohlk",
@@ -1926,6 +1990,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361885",
+        "url": "https://www.ticketnetwork.com/en/p/8361885",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_fGkMCOHLK",
@@ -1974,7 +2045,8 @@
         "end": "2027-05-03T00:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361885/Marc-Anthony-tickets-Sun-May-9-2027-Honda-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361885/Marc-Anthony-tickets-Sun-May-9-2027-Honda-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361885"
   },
   {
     "id": "tm-marc-anthony-2027-denver-g5vzz_fdioiid",
@@ -2030,6 +2102,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361886",
+        "url": "https://www.ticketnetwork.com/en/p/8361886",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fDIoiiD",
@@ -2078,7 +2157,8 @@
         "end": "2027-05-06T23:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361886/Marc-Anthony-tickets-Thu-May-13-2027-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361886/Marc-Anthony-tickets-Thu-May-13-2027-Ball-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361886"
   },
   {
     "id": "tm-marc-anthony-2027-san-francisco-g5vyz_4uwqlns",
@@ -2134,6 +2214,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361887",
+        "url": "https://www.ticketnetwork.com/en/p/8361887",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4UwQlnS",
@@ -2184,6 +2271,7 @@
         "end": "2027-05-10T00:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361887/Marc-Anthony-tickets-Sun-May-16-2027-Chase-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361887/Marc-Anthony-tickets-Sun-May-16-2027-Chase-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361887"
   }
 ]

@@ -1269,11 +1269,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7410007",
-        "url": "https://www.ticketnetwork.com/en/p/7410007",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7410007",
@@ -1287,7 +1287,7 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410007",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410007/Sabaton-tickets-Wed-Nov-11-2026-Arizona-Financial-Theatre",
     "organizer_names": [
       "LIVE NATION MUSIC"

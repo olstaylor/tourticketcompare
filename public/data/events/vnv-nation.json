@@ -175,6 +175,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7529761",
+        "url": "https://www.ticketnetwork.com/en/p/7529761",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PMZg",
@@ -183,7 +190,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529761/VNV-Nation-tickets-Fri-Mar-26-2027-The-Grand-At-The-Complex"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529761/VNV-Nation-tickets-Fri-Mar-26-2027-The-Grand-At-The-Complex",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7529761"
   },
   {
     "id": "tm-vnv-nation-2027-st-paul-z7r9jz1a7jzvu",
@@ -649,6 +657,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7656035",
+        "url": "https://www.ticketnetwork.com/en/p/7656035",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7qp8U",
@@ -657,7 +672,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7656035"
   },
   {
     "id": "tm-vnv-nation-2027-san-diego-vvg1izbvnuske3",

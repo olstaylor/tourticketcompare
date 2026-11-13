@@ -2165,11 +2165,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7883122",
-        "url": "https://www.ticketnetwork.com/en/p/7883122",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7883122",
@@ -2189,7 +2189,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_FMsNbTG",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883122",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883122/Teddy-Swims-tickets-Wed-Nov-11-2026-Golden-1-Center",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-sacramento-tickets-11-11-2026/event/107158278",
     "organizer_names": [

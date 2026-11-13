@@ -1199,6 +1199,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363802",
+        "url": "https://www.ticketnetwork.com/en/p/8363802",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pKwQ5NJ",
@@ -1224,7 +1231,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363802"
   },
   {
     "id": "tm-billy-strings-2027-north-charleston-g5evz_pjlgein",
@@ -1280,6 +1288,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363806",
+        "url": "https://www.ticketnetwork.com/en/p/8363806",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pJlGEin",
@@ -1305,7 +1320,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363806"
   },
   {
     "id": "tm-billy-strings-2027-north-charleston-g5evz_pjcaeyp",
@@ -1361,6 +1377,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363808",
+        "url": "https://www.ticketnetwork.com/en/p/8363808",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pJcaEyP",
@@ -1386,7 +1409,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363808"
   },
   {
     "id": "tm-billy-strings-2027-greenville-g5evz_perum8k",
@@ -1442,6 +1466,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363810",
+        "url": "https://www.ticketnetwork.com/en/p/8363810",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pErum8K",
@@ -1467,7 +1498,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363810"
   },
   {
     "id": "tm-billy-strings-2027-greensboro-g5evz_pk9bhy8",
@@ -1523,6 +1555,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363819",
+        "url": "https://www.ticketnetwork.com/en/p/8363819",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pK9BHy8",
@@ -1548,7 +1587,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363819"
   },
   {
     "id": "tm-billy-strings-2027-greensboro-g5evz_pjyy_fv",
@@ -1604,6 +1644,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363820",
+        "url": "https://www.ticketnetwork.com/en/p/8363820",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pJyy_fv",
@@ -1629,7 +1676,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363820"
   },
   {
     "id": "tm-billy-strings-2027-birmingham-1aozk4tgkd5-7_e",
@@ -1685,6 +1733,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363832",
+        "url": "https://www.ticketnetwork.com/en/p/8363832",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4tGkd5-7_e",
@@ -1710,7 +1765,8 @@
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363832"
   },
   {
     "id": "tm-billy-strings-2027-birmingham-1aozk4tgkd5x7_7",
@@ -1766,6 +1822,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363833",
+        "url": "https://www.ticketnetwork.com/en/p/8363833",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4tGkd5x7_7",
@@ -1791,7 +1854,8 @@
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363833"
   },
   {
     "id": "tm-billy-strings-2027-saint-louis-vv1kvovpq_ga29ugj",

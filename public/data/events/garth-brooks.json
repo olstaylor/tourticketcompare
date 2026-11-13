@@ -1418,12 +1418,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8359855",
+        "url": "https://www.ticketnetwork.com/en/p/8359855",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAAGg",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359855"
   },
   {
     "id": "tm-garth-brooks-2027-north-little-rock-g5viz_ploilrd",
@@ -1472,6 +1480,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366616",
+        "url": "https://www.ticketnetwork.com/en/p/8366616",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_ploiLrd",
@@ -1482,7 +1497,8 @@
       "AEG LIVE"
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366616"
   },
   {
     "id": "tm-garth-brooks-2027-north-little-rock-g5viz_plkwtt5",
@@ -1531,6 +1547,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366617",
+        "url": "https://www.ticketnetwork.com/en/p/8366617",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_plKWTt5",
@@ -1541,7 +1564,8 @@
       "AEG LIVE"
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366617"
   },
   {
     "id": "tm-garth-brooks-2027-belfast-1adoz_pgkmhjvms",

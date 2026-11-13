@@ -621,6 +621,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8365871",
+        "url": "https://www.ticketnetwork.com/en/p/8365871",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vv-vwvA",
@@ -629,7 +636,8 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365871"
   },
   {
     "id": "tm-fall-out-boy-2027-odz-z698xzqpz16evyz9fj",
@@ -2324,6 +2332,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8362650",
+        "url": "https://www.ticketnetwork.com/en/p/8362650",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_p5FUbur",
@@ -2357,7 +2372,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-08-18T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362650"
   },
   {
     "id": "tm-fall-out-boy-2027-manchester-1adjz_pgkrptysy",
@@ -2460,11 +2476,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362637",
+        "url": "https://www.ticketnetwork.com/en/p/8362637",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAA0d",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362637"
   },
   {
     "id": "tm-fall-out-boy-2027-saint-charles-z7r9jz1aaakz9",
@@ -2513,11 +2537,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362657",
+        "url": "https://www.ticketnetwork.com/en/p/8362657",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkZ9",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362657"
   },
   {
     "id": "tm-fall-out-boy-2027-sandy-z7r9jz1aaaa0a",

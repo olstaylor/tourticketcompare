@@ -2175,6 +2175,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8365894",
+        "url": "https://www.ticketnetwork.com/en/p/8365894",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G6Gpq41un",
@@ -2183,7 +2190,8 @@
     "organizer_names": [
       "MCD PRODUCTIONS"
     ],
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365894"
   },
   {
     "id": "tm-sienna-spiro-2026-salt-lake-city-z7r9jz1aaef49",
@@ -3723,6 +3731,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8365895",
+        "url": "https://www.ticketnetwork.com/en/p/8365895",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvOZ_4GkUvEgeh",
@@ -3749,6 +3764,7 @@
         "start": "2026-11-12T12:00:00Z",
         "end": "2026-11-13T09:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365895"
   }
 ]

@@ -753,11 +753,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8062602",
-        "url": "https://www.ticketnetwork.com/en/p/8062602",
-        "verified": true,
-        "last_verified_at": "2026-10-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GHzwHnZ",
@@ -765,7 +765,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062602/Brand-New-tickets-Wed-Nov-11-2026-Bill-Graham-Civic-Auditorium",
     "stubhub_international_url": "https://www.stubhub.ie/brand-new-san-francisco-tickets-11-11-2026/event/107447522",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8062602",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "ANOTHER PLANET"
     ],

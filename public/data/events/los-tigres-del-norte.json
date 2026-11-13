@@ -1867,6 +1867,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8365425",
+        "url": "https://www.ticketnetwork.com/en/p/8365425",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_ph5-CBb",
@@ -1881,6 +1888,7 @@
         "start": "2026-11-11T18:00:00Z",
         "end": "2026-11-13T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365425"
   }
 ]

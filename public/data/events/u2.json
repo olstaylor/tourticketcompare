@@ -574,6 +574,13 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8347800",
+        "url": "https://www.ticketnetwork.com/en/p/8347800",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v0JuPOJ",
@@ -584,7 +591,8 @@
       "Mojo Concerts"
     ],
     "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-5-6-2027/event/107679471",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347800"
   },
   {
     "id": "tm-u2-2027-amsterdam-z698xzbpz16v7bpzfv",
@@ -647,6 +655,13 @@
         "verified": true,
         "last_verified_at": "2026-11-03",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8347801",
+        "url": "https://www.ticketnetwork.com/en/p/8347801",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v7bPzfv",
@@ -657,7 +672,8 @@
       "Mojo Concerts"
     ],
     "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-6-6-2027/event/107679472",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347801"
   },
   {
     "id": "tm-u2-2027-london-1adfz_4qdzvzd55v",
